@@ -5,14 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JEE Main PYQs Concept Studio</title>
   
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS with Dark Mode config -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+    // Initialize dark theme immediately to prevent flash
+    if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
   
   <!-- KaTeX CSS & JS for Math Rendering -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-          onload="window.katexLoaded = true; if (typeof renderMathInPage === 'function') renderMathInPage();"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
           
   <!-- Marked.js for Markdown parsing -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -26,12 +36,27 @@
     ::-webkit-scrollbar-track { background: #f1f5f9; }
     ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
     ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+    /* Dark Mode Math & Prose Tuning */
+    .dark { color-scheme: dark; }
+    .dark .katex { color: #f8fafc !important; }
+    .dark .katex-display { color: #f8fafc !important; }
+    .dark ::-webkit-scrollbar-track { background: #090d16; }
+    .dark ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+    .dark ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    .dark table { border-color: #334155; }
+    .dark th, .dark td { border-color: #334155; color: #e2e8f0; }
+    .dark .prose { color: #cbd5e1; }
+    .dark .prose h1, .dark .prose h2, .dark .prose h3, .dark .prose h4 { color: #f8fafc; }
+    .dark .prose strong { color: #f1f5f9; }
+    .dark .prose blockquote { border-left-color: #6366f1; color: #e2e8f0; background: rgba(30, 41, 59, 0.5); }
+    .dark .prose code { color: #a5b4fc; background: #1e293b; }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col">
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
 
   <!-- TOP NAVBAR -->
-  <header class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+  <header class="bg-slate-900 dark:bg-slate-950 text-white shadow-lg sticky top-0 z-50 border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center space-x-3">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center font-black text-xl shadow-md text-white">
@@ -46,20 +71,24 @@
       </div>
 
       <!-- Quick Subject Filter -->
-      <div class="flex items-center space-x-2 bg-slate-800 p-1 rounded-xl text-xs font-semibold">
+      <div class="flex items-center space-x-2 bg-slate-800 dark:bg-slate-900 p-1 rounded-xl text-xs font-semibold border border-slate-700/60">
         <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition">All Subjects</button>
         <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Chemistry</button>
         <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Physics</button>
         <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Maths</button>
       </div>
 
-      <!-- Live Crawler Status Widget -->
-      <div class="flex items-center space-x-3 text-xs">
-        <div id="live-task-indicator" class="flex items-center space-x-1.5 text-slate-300">
+      <!-- Controls: Theme Toggle & Crawler Widget -->
+      <div class="flex items-center space-x-2 text-xs">
+        <div id="live-task-indicator" class="hidden sm:flex items-center space-x-1.5 text-slate-300 mr-1">
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <span id="task-status-text">Database Ready</span>
         </div>
-        <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1">
+        <button onclick="toggleDarkMode()" id="theme-toggle-btn" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1.5 shadow-sm font-semibold" title="Toggle Dark/Light Mode">
+          <span id="theme-toggle-icon">🌙</span>
+          <span id="theme-toggle-text" class="hidden sm:inline">Theme</span>
+        </button>
+        <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1 font-semibold">
           <span>Crawler &amp; Tasks</span>
         </button>
       </div>
@@ -67,13 +96,13 @@
   </header>
 
   <!-- CHAPTER SELECTION BAR -->
-  <div class="bg-white border-b border-slate-200 shadow-sm">
+  <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
       <div class="flex items-center justify-between gap-4 mb-2">
-        <div class="text-xs font-bold uppercase tracking-wider text-slate-500">
+        <div class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
           Select Chapter to Analyze:
         </div>
-        <div id="chapter-stats-badge" class="text-xs font-medium text-slate-600">
+        <div id="chapter-stats-badge" class="text-xs font-medium text-slate-600 dark:text-slate-400">
           <!-- e.g. 226 Questions Indexed | 6 Concepts -->
         </div>
       </div>
@@ -86,32 +115,32 @@
 
   <!-- NAVIGATION TABS -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 w-full">
-    <div class="flex items-center justify-between border-b border-slate-200">
+    <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800">
       <div class="flex space-x-6 text-sm font-semibold">
-        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-3 border-b-2 border-indigo-600 text-indigo-600 flex items-center space-x-2">
+        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-2">
           <span>🧠 Concept Matrix</span>
-          <span id="concept-count-badge" class="ml-1 bg-indigo-100 text-indigo-700 text-xs px-2 py-0.5 rounded-full">0</span>
+          <span id="concept-count-badge" class="ml-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs px-2 py-0.5 rounded-full">0</span>
         </button>
-        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-2">
+        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
           <span>📄 Revision Notes &amp; Formula Sheet</span>
         </button>
-        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-2">
+        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
           <span>🎯 PYQ Bank &amp; Solutions</span>
-          <span id="pyq-count-badge" class="ml-1 bg-slate-100 text-slate-700 text-xs px-2 py-0.5 rounded-full">0</span>
+          <span id="pyq-count-badge" class="ml-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs px-2 py-0.5 rounded-full">0</span>
         </button>
-        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-2">
+        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
           <span>⚙️ Syllabus Crawler</span>
         </button>
       </div>
 
       <!-- Action Downloads -->
       <div class="flex items-center space-x-2 pb-2">
-        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
-          <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
+        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-blue-50 dark:bg-blue-950/40 hover:bg-blue-100 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
+          <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
           <span>Download Word (.docx)</span>
         </a>
-        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
-          <svg class="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/><path d="M14 10H8v2h6v-2zm-6 4h4v2H8v-2zm0-8h8v2H8V6z"/></svg>
+        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
+          <svg class="w-4 h-4 text-red-600 dark:text-red-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/><path d="M14 10H8v2h6v-2zm-6 4h4v2H8v-2zm0-8h8v2H8V6z"/></svg>
           <span>Printable PDF</span>
         </a>
       </div>
@@ -146,17 +175,17 @@
 
     <!-- TAB 2: REVISION NOTES & FORMULA SHEET -->
     <section id="view-notes" class="hidden space-y-6">
-      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-        <div class="flex items-center justify-between border-b border-slate-200 pb-4 mb-6">
+      <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-6">
           <div>
-            <h2 id="notes-title" class="text-2xl font-black text-slate-900">Chapter Master Synthesis</h2>
-            <p class="text-xs text-slate-500">Comprehensive summary, formula cards, recurring traps, and benchmark illustrative solutions.</p>
+            <h2 id="notes-title" class="text-2xl font-black text-slate-900 dark:text-slate-100">Chapter Master Synthesis</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Comprehensive summary, formula cards, recurring traps, and benchmark illustrative solutions.</p>
           </div>
-          <button onclick="regenerateNotes()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-300 transition">
+          <button onclick="regenerateNotes()" class="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-300 dark:border-slate-700 transition">
             🔄 Regenerate Documents
           </button>
         </div>
-        <div id="markdown-notes-body" class="prose max-w-none prose-slate">
+        <div id="markdown-notes-body" class="prose dark:prose-invert max-w-none prose-slate">
           <!-- Rendered markdown content -->
         </div>
       </div>
@@ -165,16 +194,16 @@
     <!-- TAB 3: PYQ BANK & SOLUTION VIEWER -->
     <section id="view-pyqs" class="hidden space-y-6">
       <!-- Filter Bar -->
-      <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex flex-wrap items-center justify-between gap-4">
+      <div class="bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4 transition-colors">
         <div class="flex flex-wrap items-center gap-3">
           <!-- Search -->
           <div class="relative">
-            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Search question or formula..." class="w-64 pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Search question or formula..." class="w-64 pl-9 pr-3 py-1.5 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </div>
 
           <!-- Year Filter -->
-          <select id="filter-year" onchange="applyFilters()" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-year" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Years (2002-2026)</option>
             <option value="2026">2026</option>
             <option value="2025">2025</option>
@@ -186,14 +215,14 @@
           </select>
 
           <!-- Type Filter -->
-          <select id="filter-type" onchange="applyFilters()" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-type" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Types (MCQ &amp; Numerical)</option>
             <option value="MCQ">MCQ Only</option>
             <option value="Numerical">Numerical Only</option>
           </select>
 
           <!-- Difficulty -->
-          <select id="filter-diff" onchange="applyFilters()" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-diff" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Difficulties</option>
             <option value="Easy">Easy</option>
             <option value="Medium">Medium</option>
@@ -201,12 +230,12 @@
           </select>
 
           <!-- Concept Filter -->
-          <select id="filter-concept" onchange="applyFilters()" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-concept" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Concepts</option>
           </select>
         </div>
 
-        <div class="text-xs text-slate-500 font-medium" id="pyqs-result-count">
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium" id="pyqs-result-count">
           Showing 0 questions
         </div>
       </div>
@@ -219,17 +248,17 @@
 
     <!-- TAB 4: SYLLABUS CRAWLER & BACKGROUND WORKER -->
     <section id="view-crawler" class="hidden space-y-6">
-      <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4 mb-6">
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4 mb-6">
           <div>
-            <h2 class="text-xl font-bold text-slate-900">JEE Main Syllabus Crawler &amp; Background Indexer</h2>
-            <p class="text-xs text-slate-500">Crawl and index all chapters from ExamSIDE. Target pilot chapters are processed first.</p>
+            <h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">JEE Main Syllabus Crawler &amp; Background Indexer</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Crawl and index all chapters from ExamSIDE. Target pilot chapters are processed first.</p>
           </div>
           <div class="flex items-center space-x-2">
             <button onclick="crawlCurrentChapter()" class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold px-4 py-2 rounded-xl transition">
               Crawl Selected Chapter
             </button>
-            <button onclick="crawlAllPending()" class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-xl transition">
+            <button onclick="crawlAllPending()" class="bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold px-4 py-2 rounded-xl border border-slate-700 transition">
               Crawl All Remaining Chapters
             </button>
           </div>
@@ -237,8 +266,8 @@
 
         <!-- Chapters Table -->
         <div class="overflow-x-auto">
-          <table class="min-w-full divide-y divide-slate-200 text-xs">
-            <thead class="bg-slate-50 text-slate-700 font-bold uppercase tracking-wider">
+          <table class="min-w-full divide-y divide-slate-200 dark:divide-slate-800 text-xs">
+            <thead class="bg-slate-50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider">
               <tr>
                 <th class="px-4 py-3 text-left">Subject</th>
                 <th class="px-4 py-3 text-left">Chapter</th>
@@ -247,7 +276,7 @@
                 <th class="px-4 py-3 text-center">Action</th>
               </tr>
             </thead>
-            <tbody id="crawler-chapters-tbody" class="divide-y divide-slate-100 bg-white">
+            <tbody id="crawler-chapters-tbody" class="divide-y divide-slate-100 dark:divide-slate-800 bg-white dark:bg-slate-900">
               <!-- Dynamically populated chapters -->
             </tbody>
           </table>
@@ -276,7 +305,23 @@
     // Pilot chapters priority order
     const PILOT_SLUGS = ['electrochemistry', 'electromagnetic-induction', 'alternating-current', 'vector-algebra'];
 
+    function toggleDarkMode() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      updateThemeButton();
+      renderMathInPage();
+    }
+
+    function updateThemeButton() {
+      const isDark = document.documentElement.classList.contains('dark');
+      const icon = document.getElementById('theme-toggle-icon');
+      const text = document.getElementById('theme-toggle-text');
+      if (icon) icon.innerText = isDark ? '☀️' : '🌙';
+      if (text) text.innerText = isDark ? 'Light' : 'Dark';
+    }
+
     async function initDashboard() {
+      updateThemeButton();
       await loadChapters();
       selectChapter(currentChapterSlug);
       startTaskPolling();
@@ -285,12 +330,18 @@
     async function loadChapters() {
       try {
         const resp = await fetch('/api/chapters');
+        if (!resp.ok) throw new Error('API route not available');
         allChapters = await resp.json();
-        renderChapterPills();
-        renderCrawlerTable();
       } catch (err) {
-        console.error('Failed to load chapters:', err);
+        try {
+          const staticResp = await fetch('data/api/chapters.json');
+          allChapters = await staticResp.json();
+        } catch (e2) {
+          console.error('Failed to load chapters:', err, e2);
+        }
       }
+      renderChapterPills();
+      renderCrawlerTable();
     }
 
     function setSubjectFilter(sub) {
@@ -331,12 +382,14 @@
         btn.onclick = () => selectChapter(ch.slug);
         
         const isReady = ch.status === 'analyzed' || ch.stored_questions > 0;
-        const badgeColor = isReady ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600';
+        const badgeColor = isReady 
+          ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300' 
+          : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
 
         btn.className = `flex-shrink-0 px-3.5 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-2 border transition ${
           isSelected 
             ? 'bg-indigo-600 border-indigo-600 text-white shadow-sm' 
-            : 'bg-white border-slate-200 text-slate-700 hover:border-slate-300'
+            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:border-slate-300 dark:hover:border-slate-700'
         }`;
 
         btn.innerHTML = `
@@ -353,26 +406,40 @@
       currentChapterSlug = slug;
       renderChapterPills();
 
+      let isStaticMode = false;
       try {
         const resp = await fetch(`/api/chapter/${slug}`);
+        if (!resp.ok) throw new Error('API route not available');
         currentChapterData = await resp.json();
+      } catch (err) {
+        try {
+          const staticResp = await fetch(`data/api/chapter_${slug}.json`);
+          currentChapterData = await staticResp.json();
+          isStaticMode = true;
+        } catch (e2) {
+          console.error('Error loading chapter details:', err, e2);
+          return;
+        }
+      }
 
-        // Update stats badge
-        document.getElementById('chapter-stats-badge').innerText = 
-          `${currentChapterData.total_questions} Questions Indexed | ${currentChapterData.concepts.length} Core Concepts Extracted`;
+      // Update stats badge
+      document.getElementById('chapter-stats-badge').innerText = 
+        `${currentChapterData.total_questions} Questions Indexed | ${currentChapterData.concepts.length} Core Concepts Extracted`;
 
-        // Update download links
+      // Update download links
+      if (isStaticMode) {
+        document.getElementById('btn-download-docx').href = `exports/${slug}_revision_notes.docx`;
+        document.getElementById('btn-download-pdf').href = `exports/${slug}_revision_notes.pdf`;
+      } else {
         document.getElementById('btn-download-docx').href = `/api/export/${slug}/docx`;
         document.getElementById('btn-download-pdf').href = `/api/export/${slug}/pdf`;
-
-        // Render Views
-        renderConceptsView();
-        renderNotesView();
-        populateConceptFilter();
-        loadQuestions();
-      } catch (err) {
-        console.error('Error loading chapter details:', err);
       }
+
+      // Render Views
+      renderConceptsView();
+      renderNotesView();
+      populateConceptFilter();
+      loadQuestions();
     }
 
     function renderConceptsView() {
@@ -386,9 +453,9 @@
 
       if (!currentChapterData.concepts.length) {
         container.innerHTML = `
-          <div class="col-span-2 bg-white p-8 rounded-2xl text-center border border-slate-200">
-            <p class="text-slate-500 text-sm">No concepts extracted yet for this chapter.</p>
-            <button onclick="triggerAnalysis()" class="mt-3 bg-indigo-600 text-white px-4 py-2 rounded-xl text-xs font-bold">
+          <div class="col-span-2 bg-white dark:bg-slate-900 p-8 rounded-2xl text-center border border-slate-200 dark:border-slate-800">
+            <p class="text-slate-500 dark:text-slate-400 text-sm">No concepts extracted yet for this chapter.</p>
+            <button onclick="triggerAnalysis()" class="mt-3 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl text-xs font-bold">
               Run Concept Extraction Now
             </button>
           </div>
@@ -398,46 +465,46 @@
 
       currentChapterData.concepts.forEach((c, idx) => {
         const card = document.createElement('div');
-        card.className = 'bg-white rounded-2xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition';
+        card.className = 'bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-6 flex flex-col justify-between hover:shadow-md transition';
 
         const tierColor = c.frequency_tier === 'Very High' 
-          ? 'bg-rose-100 text-rose-700 border-rose-200' 
-          : (c.frequency_tier === 'High' ? 'bg-indigo-100 text-indigo-700 border-indigo-200' : 'bg-slate-100 text-slate-700 border-slate-200');
+          ? 'bg-rose-100 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800' 
+          : (c.frequency_tier === 'High' ? 'bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700');
 
         card.innerHTML = `
           <div>
             <div class="flex items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">${c.category}</span>
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">${c.category}</span>
               <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full border ${tierColor}">
                 ${c.frequency_tier} Yield &bull; ${c.exam_frequency} PYQs
               </span>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">${c.name}</h3>
-            <p class="text-xs text-slate-600 leading-relaxed mb-4">${c.summary}</p>
+            <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">${c.name}</h3>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4">${c.summary}</p>
 
             ${c.standard_formulas ? `
-              <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 mb-3 text-xs font-mono text-slate-800 overflow-x-auto">
-                <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Standard Formula:</div>
+              <div class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl p-3 mb-3 text-xs font-mono text-slate-800 dark:text-slate-200 overflow-x-auto">
+                <div class="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1">Standard Formula:</div>
                 <div class="math-formula">$$${c.standard_formulas}$$</div>
               </div>
             ` : ''}
 
             ${c.common_traps ? `
-              <div class="bg-amber-50 border border-amber-200 rounded-xl p-3 mb-2 text-xs text-amber-900">
+              <div class="bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 rounded-xl p-3 mb-2 text-xs text-amber-900 dark:text-amber-200">
                 <span class="font-bold">⚠️ Trap / Caution:</span> ${c.common_traps}
               </div>
             ` : ''}
 
             ${c.tips_and_tricks ? `
-              <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-3 text-xs text-emerald-900">
+              <div class="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 rounded-xl p-3 text-xs text-emerald-900 dark:text-emerald-200">
                 <span class="font-bold">💡 Speed Hack:</span> ${c.tips_and_tricks}
               </div>
             ` : ''}
           </div>
 
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <span class="text-xs text-slate-500 font-medium">${c.pyq_ids ? c.pyq_ids.length : 0} Linked PYQs</span>
-            <button onclick="filterPYQsByConcept('${c.name.replace(/'/g, "\\'")}')" class="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center space-x-1">
+          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">${c.pyq_ids ? c.pyq_ids.length : 0} Linked PYQs</span>
+            <button onclick="filterPYQsByConcept('${c.name.replace(/'/g, "\\'")}')" class="text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 flex items-center space-x-1">
               <span>View Source PYQs &rarr;</span>
             </button>
           </div>
@@ -554,10 +621,30 @@
 
       try {
         const resp = await fetch(url);
+        if (!resp.ok) throw new Error('API route not available');
         const data = await resp.json();
         renderQuestions(data.questions, data.total);
       } catch (err) {
-        console.error('Error loading questions:', err);
+        // Fallback to static pre-rendered dataset (Vercel / GitHub Pages mode)
+        try {
+          const staticResp = await fetch(`data/api/questions_${currentChapterSlug}.json`);
+          const staticData = await staticResp.json();
+          let allQ = staticData.questions || staticData;
+          let filtered = allQ.filter(q => {
+            if (year && String(q.year) !== String(year)) return false;
+            if (qtype && q.question_type !== qtype) return false;
+            if (diff && q.difficulty !== diff) return false;
+            if (concept && !(q.key_concepts && q.key_concepts.includes(concept))) return false;
+            if (search) {
+              const qText = ((q.question_text || '') + ' ' + (q.explanation_text || '') + ' ' + (q.paper_name || '')).toLowerCase();
+              if (!qText.includes(search.toLowerCase())) return false;
+            }
+            return true;
+          });
+          renderQuestions(filtered.slice(0, 100), filtered.length);
+        } catch (e2) {
+          console.error('Error loading questions:', err, e2);
+        }
       }
     }
 
@@ -569,25 +656,29 @@
       container.innerHTML = '';
 
       if (!questions.length) {
-        container.innerHTML = '<div class="bg-white p-8 rounded-xl text-center text-slate-500 text-sm">No questions matched the selected filters.</div>';
+        container.innerHTML = '<div class="bg-white dark:bg-slate-900 p-8 rounded-xl text-center text-slate-500 dark:text-slate-400 text-sm border border-slate-200 dark:border-slate-800">No questions matched the selected filters.</div>';
         return;
       }
 
       questions.forEach((q, idx) => {
         const card = document.createElement('div');
-        card.className = 'bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-slate-300 transition';
+        card.className = 'bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 transition';
 
-        const diffColor = q.difficulty === 'Easy' ? 'bg-emerald-100 text-emerald-800' : (q.difficulty === 'Hard' ? 'bg-rose-100 text-rose-800' : 'bg-amber-100 text-amber-800');
-        const typeColor = q.question_type === 'MCQ' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800';
+        const diffColor = q.difficulty === 'Easy' 
+          ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300' 
+          : (q.difficulty === 'Hard' ? 'bg-rose-100 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300' : 'bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300');
+        const typeColor = q.question_type === 'MCQ' 
+          ? 'bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300' 
+          : 'bg-purple-100 dark:bg-purple-950/60 text-purple-800 dark:text-purple-300';
 
         let optionsHtml = '';
         if (q.options && q.options.length) {
-          optionsHtml = '<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 pt-4 border-t border-slate-100">';
+          optionsHtml = '<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">';
           q.options.forEach(opt => {
             optionsHtml += `
-              <div class="flex items-start space-x-2 text-xs p-2 rounded-lg bg-slate-50 border border-slate-100">
-                <span class="font-bold text-slate-600 uppercase">(${opt.label})</span>
-                <span class="text-slate-800">${opt.text}</span>
+              <div class="flex items-start space-x-2 text-xs p-2 rounded-lg bg-slate-50 dark:bg-slate-950/60 border border-slate-100 dark:border-slate-800">
+                <span class="font-bold text-slate-600 dark:text-slate-400 uppercase">(${opt.label})</span>
+                <span class="text-slate-800 dark:text-slate-200">${opt.text}</span>
               </div>
             `;
           });
@@ -598,7 +689,7 @@
         if (q.image_urls && q.image_urls.length) {
           imagesHtml = '<div class="my-3 flex flex-wrap gap-2">';
           q.image_urls.forEach(src => {
-            imagesHtml += `<img src="${src}" class="max-h-48 rounded-lg border border-slate-200 shadow-sm" alt="Question Diagram" />`;
+            imagesHtml += `<img src="${src}" class="max-h-48 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm" alt="Question Diagram" />`;
           });
           imagesHtml += '</div>';
         }
@@ -606,17 +697,17 @@
         card.innerHTML = `
           <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
             <div class="flex items-center space-x-2">
-              <span class="text-xs font-black text-slate-900 bg-slate-100 px-2 py-0.5 rounded-md">Q#${q.question_index || (idx+1)}</span>
-              <span class="text-xs font-semibold text-slate-700">${q.paper_name}</span>
+              <span class="text-xs font-black text-slate-900 dark:text-slate-100 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md">Q#${q.question_index || (idx+1)}</span>
+              <span class="text-xs font-semibold text-slate-700 dark:text-slate-300">${q.paper_name}</span>
             </div>
             <div class="flex items-center space-x-1.5">
               <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${typeColor}">${q.question_type}</span>
               <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${diffColor}">${q.difficulty}</span>
-              ${q.topic_tag ? `<span class="text-[10px] font-medium bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">${q.topic_tag}</span>` : ''}
+              ${q.topic_tag ? `<span class="text-[10px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded-full">${q.topic_tag}</span>` : ''}
             </div>
           </div>
 
-          <div class="text-xs text-slate-900 font-medium leading-relaxed mb-2">
+          <div class="text-xs text-slate-900 dark:text-slate-100 font-medium leading-relaxed mb-2">
             ${q.question_text}
           </div>
 
@@ -624,26 +715,26 @@
           ${optionsHtml}
 
           <!-- Solution Accordion -->
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-            <div class="text-xs font-bold text-emerald-700 flex items-center space-x-1">
+          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <div class="text-xs font-bold text-emerald-700 dark:text-emerald-400 flex items-center space-x-1">
               <span>Answer Key:</span>
-              <span class="bg-emerald-100 px-2 py-0.5 rounded-md text-emerald-800 font-mono">${q.correct_answer || 'N/A'}</span>
+              <span class="bg-emerald-100 dark:bg-emerald-950/60 px-2 py-0.5 rounded-md text-emerald-800 dark:text-emerald-300 font-mono">${q.correct_answer || 'N/A'}</span>
             </div>
-            <button onclick="toggleSolution('${q.qid}')" class="text-xs font-semibold text-indigo-600 hover:text-indigo-800 flex items-center space-x-1">
+            <button onclick="toggleSolution('${q.qid}')" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 flex items-center space-x-1">
               <span id="sol-btn-text-${q.qid}">Show Detailed Solution</span>
               <svg id="sol-icon-${q.qid}" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
             </button>
           </div>
 
-          <div id="sol-body-${q.qid}" class="hidden mt-3 p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 space-y-2">
-            <div class="font-bold text-indigo-900 flex items-center justify-between">
+          <div id="sol-body-${q.qid}" class="hidden mt-3 p-4 bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-xl text-xs text-slate-800 dark:text-slate-200 space-y-2">
+            <div class="font-bold text-indigo-900 dark:text-indigo-300 flex items-center justify-between">
               <span>Master Solution &amp; Analytical Steps</span>
               <span class="text-[10px] text-slate-400 font-normal">ExamSIDE Verified</span>
             </div>
             <div class="leading-relaxed whitespace-pre-wrap">${q.explanation_text || 'No step-by-step explanation available.'}</div>
             ${q.key_formulas && q.key_formulas.length ? `
-              <div class="pt-2 border-t border-slate-200 text-[11px] text-slate-600">
-                <span class="font-bold text-slate-700">Formulas Employed:</span> ${q.key_formulas.map(f => `$${f}$`).join(', ')}
+              <div class="pt-2 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400">
+                <span class="font-bold text-slate-700 dark:text-slate-300">Formulas Employed:</span> ${q.key_formulas.map(f => `$${f}$`).join(', ')}
               </div>
             ` : ''}
           </div>
@@ -691,10 +782,10 @@
         const btn = document.getElementById(`tab-btn-${t}`);
         if (t === tabId) {
           view.classList.remove('hidden');
-          btn.className = 'py-3 border-b-2 border-indigo-600 text-indigo-600 flex items-center space-x-2 font-bold';
+          btn.className = 'py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-2 font-bold';
         } else {
           view.classList.add('hidden');
-          btn.className = 'py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center space-x-2';
+          btn.className = 'py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2';
         }
       });
       renderMathInPage();
@@ -713,19 +804,19 @@
         const tr = document.createElement('tr');
         const isCurrent = ch.slug === currentChapterSlug;
         const statusBadge = ch.status === 'analyzed' 
-          ? '<span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full text-[10px] font-bold">Analyzed &amp; Ready</span>'
+          ? '<span class="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 px-2 py-0.5 rounded-full text-[10px] font-bold">Analyzed &amp; Ready</span>'
           : (ch.status === 'crawled' 
-              ? '<span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-[10px] font-bold">Crawled</span>'
-              : '<span class="bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full text-[10px]">Pending</span>');
+              ? '<span class="bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300 px-2 py-0.5 rounded-full text-[10px] font-bold">Crawled</span>'
+              : '<span class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-0.5 rounded-full text-[10px]">Pending</span>');
 
-        tr.className = isCurrent ? 'bg-indigo-50/50' : 'hover:bg-slate-50';
+        tr.className = isCurrent ? 'bg-indigo-50/50 dark:bg-indigo-950/30' : 'hover:bg-slate-50 dark:hover:bg-slate-800/50';
         tr.innerHTML = `
-          <td class="px-4 py-2.5 font-bold uppercase text-[10px] text-slate-400">${ch.subject}</td>
-          <td class="px-4 py-2.5 font-semibold text-slate-900">${ch.title}</td>
+          <td class="px-4 py-2.5 font-bold uppercase text-[10px] text-slate-400 dark:text-slate-500">${ch.subject}</td>
+          <td class="px-4 py-2.5 font-semibold text-slate-900 dark:text-slate-100">${ch.title}</td>
           <td class="px-4 py-2.5">${statusBadge}</td>
-          <td class="px-4 py-2.5 text-right font-mono font-bold text-slate-700">${ch.stored_questions || 0}</td>
+          <td class="px-4 py-2.5 text-right font-mono font-bold text-slate-700 dark:text-slate-300">${ch.stored_questions || 0}</td>
           <td class="px-4 py-2.5 text-center">
-            <button onclick="crawlSingleChapter('${ch.slug}')" class="bg-slate-100 hover:bg-indigo-600 hover:text-white px-2.5 py-1 rounded-md text-[11px] font-semibold border border-slate-200 transition">
+            <button onclick="crawlSingleChapter('${ch.slug}')" class="bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white px-2.5 py-1 rounded-md text-[11px] font-semibold border border-slate-200 dark:border-slate-700 transition">
               Crawl Now
             </button>
           </td>
@@ -804,13 +895,14 @@
               { left: '\\(', right: '\\)', display: false },
               { left: '\\[', right: '\\]', display: true }
             ],
+            ignoredTags: ["script", "noscript", "style", "textarea", "pre", "annotation", "annotation-xml"],
             throwOnError: false
           });
         } else {
-          setTimeout(executeRender, 150);
+          setTimeout(executeRender, 100);
         }
       };
-      setTimeout(executeRender, 50);
+      setTimeout(executeRender, 30);
     }
 
     // Initialize on window load
