@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JEE Main PYQs Concept Studio</title>
+  <title>JEE 2027 Studio — PYQ Analyzer &amp; Synthesis</title>
   
-  <!-- Tailwind CSS with Dark Mode config -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            zinc: {
+              950: '#09090b',
+              900: '#121215',
+              850: '#18181b',
+              800: '#27272a',
+              700: '#3f3f46',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+          }
+        }
+      }
     };
-    // Initialize dark theme immediately to prevent flash
-    if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark');
-    } else {
+    // Default to dark theme
+    if (localStorage.getItem('theme') === 'light') {
       document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
     }
   </script>
   
@@ -28,206 +45,222 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-    body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
-    .katex-display { margin: 0.5em 0; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-    /* Custom scrollbars */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-track { background: #f1f5f9; }
-    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .katex-display {
+      margin: 0.5em 0;
+      max-width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Minimal custom scrollbars */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #09090b; }
+    ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 2px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
 
-    /* Touch & Mobile polish */
     .no-scrollbar::-webkit-scrollbar { display: none; }
     .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-    .prose table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
     /* Dark Mode Math & Prose Tuning */
     .dark { color-scheme: dark; }
-    .dark .katex { color: #f8fafc !important; }
-    .dark .katex-display { color: #f8fafc !important; }
-    .dark ::-webkit-scrollbar-track { background: #090d16; }
-    .dark ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
-    .dark ::-webkit-scrollbar-thumb:hover { background: #475569; }
-    .dark table { border-color: #334155; }
-    .dark th, .dark td { border-color: #334155; color: #e2e8f0; }
-    .dark .prose { color: #cbd5e1; }
-    .dark .prose h1, .dark .prose h2, .dark .prose h3, .dark .prose h4 { color: #f8fafc; }
-    .dark .prose strong { color: #f1f5f9; }
-    .dark .prose blockquote { border-left-color: #6366f1; color: #e2e8f0; background: rgba(30, 41, 59, 0.5); }
-    .dark .prose code { color: #a5b4fc; background: #1e293b; }
-
+    .dark .katex { color: #f4f4f5 !important; }
+    .dark .katex-display { color: #f4f4f5 !important; }
+    
+    /* Clean Prose styling for synthesized notes */
+    .prose table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; }
+    .prose th, .prose td { border: 1px solid #27272a; padding: 0.5rem 0.75rem; }
+    .prose th { background: #18181b; color: #f4f4f5; font-size: 0.75rem; text-transform: uppercase; font-family: 'JetBrains Mono', monospace; }
+    .prose td { color: #d4d4d8; font-size: 0.8125rem; }
+    .prose h1, .prose h2, .prose h3, .prose h4 { color: #f4f4f5; font-weight: 600; letter-spacing: -0.02em; }
+    .prose p { color: #d4d4d8; line-height: 1.65; }
+    .prose strong { color: #fafafa; font-weight: 600; }
+    .prose hr { border-color: #27272a; margin: 1.5rem 0; }
+    .prose blockquote { border-left: 2px solid #52525b; padding-left: 1rem; color: #a1a1aa; background: transparent; font-style: normal; }
+    .prose code { color: #e4e4e7; background: #18181b; padding: 0.15rem 0.35rem; border-radius: 0.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8em; border: 1px solid #27272a; }
+    
     @media (max-width: 640px) {
       .katex { font-size: 0.9em; }
     }
   </style>
 </head>
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col transition-colors duration-150 selection:bg-zinc-800 selection:text-zinc-100">
 
   <!-- TOP NAVBAR -->
-  <header class="bg-slate-900 dark:bg-slate-950 text-white shadow-lg sticky top-0 z-50 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex flex-col md:flex-row md:items-center justify-between gap-2.5 sm:gap-4">
+  <header class="bg-zinc-950/90 backdrop-blur-sm border-b border-zinc-800/80 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-col md:flex-row md:items-center justify-between gap-3">
       
-      <!-- Logo + Title + Mobile Actions -->
+      <!-- Brand + Title + Mobile Actions -->
       <div class="flex items-center justify-between w-full md:w-auto">
-        <div class="flex items-center space-x-2.5 sm:space-x-3">
-          <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center font-black text-base sm:text-xl shadow-md text-white flex-shrink-0">
-            Ω
+        <div class="flex items-center space-x-2.5">
+          <div class="w-6 h-6 rounded bg-zinc-800 border border-zinc-700/60 flex items-center justify-center font-mono font-bold text-[11px] text-zinc-200 flex-shrink-0">
+            J27
           </div>
-          <div>
-            <h1 class="text-base sm:text-lg font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-200 leading-tight">
-              JEE Main PYQs Concept Studio
+          <div class="flex items-baseline space-x-2">
+            <h1 class="text-xs sm:text-sm font-semibold tracking-tight text-zinc-100">
+              JEE 2027 Studio
             </h1>
-            <p class="text-[10px] sm:text-xs text-slate-400 hidden sm:block">ExamSIDE Intelligent Crawler, Deep Concept Extractor &amp; Revision Studio</p>
+            <span class="text-[11px] text-zinc-500 font-mono hidden sm:inline">Concept Matrix &amp; PYQ Analyzer</span>
           </div>
         </div>
 
         <!-- Mobile Quick Actions -->
-        <div class="flex items-center space-x-1.5 md:hidden text-xs">
-          <button onclick="toggleDarkMode()" class="bg-slate-800 hover:bg-slate-700 p-2 rounded-lg border border-slate-700 text-slate-200 transition flex items-center justify-center" title="Toggle Dark/Light Mode">
-            <span id="theme-toggle-icon-mobile">🌙</span>
+        <div class="flex items-center space-x-1.5 md:hidden">
+          <button onclick="toggleDarkMode()" class="bg-zinc-900 hover:bg-zinc-800 p-1.5 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition" title="Toggle Theme">
+            <span id="theme-toggle-icon-mobile">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            </span>
           </button>
-          <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-2.5 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition text-[11px] font-semibold">
-            ⚙️ Tasks
+          <button onclick="switchTab('crawler')" class="bg-zinc-900 hover:bg-zinc-800 px-2 py-1 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition text-[11px] font-mono">
+            Syllabus
           </button>
         </div>
       </div>
 
-      <!-- Quick Subject Filter (Swipeable pills) -->
-      <div class="flex items-center space-x-1.5 bg-slate-800 dark:bg-slate-900 p-1 rounded-xl text-xs font-semibold border border-slate-700/60 overflow-x-auto no-scrollbar w-full sm:w-auto flex-shrink-0">
-        <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition whitespace-nowrap flex-shrink-0">All Subjects</button>
-        <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Chemistry</button>
-        <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Physics</button>
-        <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Maths</button>
+      <!-- Subject Segmented Control -->
+      <div class="inline-flex p-0.5 bg-zinc-900 border border-zinc-800/80 rounded-md text-xs font-medium overflow-x-auto no-scrollbar w-full sm:w-auto flex-shrink-0">
+        <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm">All Subjects</button>
+        <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Chemistry</button>
+        <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Physics</button>
+        <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Maths</button>
       </div>
 
-      <!-- Desktop Controls: Theme Toggle & Crawler Widget -->
+      <!-- Desktop Controls -->
       <div class="hidden md:flex items-center space-x-2 text-xs flex-shrink-0">
-        <div id="live-task-indicator" class="hidden lg:flex items-center space-x-1.5 text-slate-300 mr-1">
-          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <div id="live-task-indicator" class="hidden lg:flex items-center space-x-1.5 text-zinc-400 font-mono text-[11px] mr-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
           <span id="task-status-text">Database Ready</span>
         </div>
-        <button onclick="toggleDarkMode()" id="theme-toggle-btn" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1.5 shadow-sm font-semibold" title="Toggle Dark/Light Mode">
-          <span id="theme-toggle-icon">🌙</span>
-          <span id="theme-toggle-text">Theme</span>
+        <button onclick="toggleDarkMode()" id="theme-toggle-btn" class="bg-zinc-900 hover:bg-zinc-850 px-2.5 py-1.5 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition flex items-center space-x-1.5 text-xs font-medium" title="Toggle Theme">
+          <span id="theme-toggle-icon">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          </span>
         </button>
-        <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1 font-semibold">
-          <span>Crawler &amp; Tasks</span>
+        <button onclick="switchTab('crawler')" class="bg-zinc-900 hover:bg-zinc-850 px-2.5 py-1.5 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition text-xs font-medium">
+          Syllabus Index
         </button>
       </div>
     </div>
   </header>
 
-  <!-- CHAPTER SELECTION BAR -->
-  <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
-    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4 mb-2">
-        <div class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-          Select Chapter to Analyze:
-        </div>
-        <div id="chapter-stats-badge" class="text-[11px] sm:text-xs font-medium text-slate-600 dark:text-slate-400">
-          <!-- e.g. 226 Questions Indexed | 6 Concepts -->
-        </div>
+  <!-- CHAPTER SELECTOR (Minimal Horizontal Segmented List) -->
+  <div class="bg-zinc-950 border-b border-zinc-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+      <div class="flex items-center justify-between text-[11px] font-mono text-zinc-500 mb-1.5">
+        <span class="uppercase tracking-wider">Chapter Selection</span>
+        <span id="chapter-stats-badge">Loading...</span>
       </div>
-      <div id="chapter-pills-container" class="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar">
-        <!-- Dynamically populated chapters -->
-        <div class="text-xs text-slate-400 py-1">Loading chapters...</div>
+      <div id="chapter-pills-container" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+        <!-- Dynamically rendered chapter items -->
       </div>
     </div>
   </div>
 
-  <!-- NAVIGATION TABS -->
-  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-2 sm:pt-4 w-full">
-    <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-200 dark:border-slate-800 gap-2">
-      <!-- Tabs (Swipeable on touch screens) -->
-      <div class="flex space-x-3 sm:space-x-6 text-xs sm:text-sm font-semibold overflow-x-auto no-scrollbar py-1">
-        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-2.5 sm:py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
-          <span>🧠 Concept Matrix</span>
-          <span id="concept-count-badge" class="ml-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-[10px] sm:text-xs px-2 py-0.5 rounded-full">0</span>
+  <!-- NAVIGATION TABS & ACTIONS -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2 w-full">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-800/80 gap-2">
+      <!-- Tabs (Linear/Vercel style bottom-border) -->
+      <div class="flex space-x-1 sm:space-x-4 text-xs font-medium overflow-x-auto no-scrollbar">
+        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-2.5 px-2.5 border-b-2 border-zinc-100 text-zinc-100 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition">
+          <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+          <span>Concepts</span>
+          <span id="concept-count-badge" class="font-mono text-zinc-500 text-[11px] ml-1">0</span>
         </button>
-        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
-          <span>📄 Notes &amp; Formulas</span>
+        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-2.5 px-2.5 border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition">
+          <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <span>Notes &amp; Formulas</span>
         </button>
-        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
-          <span>🎯 PYQ Bank</span>
-          <span id="pyq-count-badge" class="ml-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] sm:text-xs px-2 py-0.5 rounded-full">0</span>
+        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-2.5 px-2.5 border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition">
+          <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span>Questions</span>
+          <span id="pyq-count-badge" class="font-mono text-zinc-500 text-[11px] ml-1">0</span>
         </button>
-        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
-          <span>⚙️ Syllabus</span>
+        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-2.5 px-2.5 border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition">
+          <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          <span>Syllabus</span>
         </button>
       </div>
 
       <!-- Action Downloads -->
-      <div class="flex items-center space-x-2 pb-2 overflow-x-auto no-scrollbar flex-shrink-0">
-        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-blue-50 dark:bg-blue-950/40 hover:bg-blue-100 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition whitespace-nowrap">
-          <svg class="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
-          <span>Word (.docx)</span>
+      <div class="flex items-center space-x-2 pb-2 sm:pb-0 overflow-x-auto no-scrollbar flex-shrink-0">
+        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-zinc-900 hover:bg-zinc-850 text-zinc-300 hover:text-zinc-100 border border-zinc-800 px-2.5 py-1.5 rounded-md text-xs font-medium transition whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <span>Word</span>
         </a>
-        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition whitespace-nowrap">
-          <svg class="w-3.5 h-3.5 text-red-600 dark:text-red-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/><path d="M14 10H8v2h6v-2zm-6 4h4v2H8v-2zm0-8h8v2H8V6z"/></svg>
-          <span>Printable PDF</span>
+        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-zinc-900 hover:bg-zinc-850 text-zinc-300 hover:text-zinc-100 border border-zinc-800 px-2.5 py-1.5 rounded-md text-xs font-medium transition whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          <span>PDF</span>
         </a>
       </div>
     </div>
   </div>
 
   <!-- MAIN VIEW CONTAINER -->
-  <main class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 w-full flex-grow">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 w-full flex-grow">
     
     <!-- TAB 1: CONCEPT MATRIX -->
-    <section id="view-concepts" class="space-y-4 sm:space-y-6">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-gradient-to-r from-slate-900 to-indigo-950 text-white p-4 sm:p-6 rounded-2xl shadow-md">
+    <section id="view-concepts" class="space-y-4">
+      <!-- Chapter Heading Block -->
+      <div class="border border-zinc-800 bg-zinc-900/40 rounded-lg p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
-          <span id="concept-chapter-sub" class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-indigo-400">Chemistry</span>
-          <h2 id="concept-chapter-title" class="text-lg sm:text-2xl font-black mt-1">Electrochemistry — Core Concept Synthesis</h2>
-          <p class="text-xs text-slate-300 mt-1">
-            Every concept below is empirically derived from analyzed JEE Main PYQs and linked to its original problems.
+          <span id="concept-chapter-sub" class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Chemistry</span>
+          <h2 id="concept-chapter-title" class="text-sm sm:text-base font-semibold text-zinc-100 mt-0.5">Electrochemistry — Concept Matrix</h2>
+          <p class="text-xs text-zinc-400 mt-0.5">
+            Empirically extracted from analyzed JEE Main PYQs and linked to source problems.
           </p>
         </div>
-        <div class="flex items-center space-x-3 flex-shrink-0">
-          <button onclick="triggerAnalysis()" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-xl text-xs font-bold shadow transition flex items-center justify-center space-x-2">
-            <span>⚡ Re-Analyze Chapter</span>
+        <div class="flex items-center space-x-2 flex-shrink-0">
+          <button onclick="triggerAnalysis()" class="w-full sm:w-auto bg-zinc-800 hover:bg-zinc-700 text-zinc-200 border border-zinc-700/60 px-3 py-1.5 rounded-md text-xs font-medium transition flex items-center justify-center space-x-1.5">
+            <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            <span>Re-Analyze</span>
           </button>
         </div>
       </div>
 
       <!-- Concept Cards Grid -->
-      <div id="concepts-container" class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+      <div id="concepts-container" class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
         <!-- Dynamically rendered concept cards -->
       </div>
     </section>
 
     <!-- TAB 2: REVISION NOTES & FORMULA SHEET -->
-    <section id="view-notes" class="hidden space-y-4 sm:space-y-6">
-      <div class="bg-white dark:bg-slate-900 p-4 sm:p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-6 gap-3">
+    <section id="view-notes" class="hidden space-y-4">
+      <div class="bg-zinc-900/40 border border-zinc-800 rounded-lg p-5 sm:p-7">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-800/80 pb-4 mb-5 gap-3">
           <div>
-            <h2 id="notes-title" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-slate-100">Chapter Master Synthesis</h2>
-            <p class="text-xs text-slate-500 dark:text-slate-400">Comprehensive summary, formula cards, recurring traps, and benchmark illustrative solutions.</p>
+            <h2 id="notes-title" class="text-base sm:text-lg font-semibold text-zinc-100">Chapter Master Synthesis</h2>
+            <p class="text-xs text-zinc-400 mt-0.5">Summary, formula sheet, pitfall warnings, and high-yield solution patterns.</p>
           </div>
-          <button onclick="regenerateNotes()" class="w-full sm:w-auto bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-3 py-2 rounded-lg text-xs font-semibold border border-slate-300 dark:border-slate-700 transition flex items-center justify-center space-x-1.5">
-            <span>🔄 Regenerate Documents</span>
+          <button onclick="regenerateNotes()" class="w-full sm:w-auto bg-zinc-800 hover:bg-zinc-700 text-zinc-200 border border-zinc-700/60 px-3 py-1.5 rounded-md text-xs font-medium transition flex items-center justify-center space-x-1.5">
+            <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            <span>Regenerate</span>
           </button>
         </div>
-        <div id="markdown-notes-body" class="prose dark:prose-invert max-w-none prose-slate text-xs sm:text-sm">
+        <div id="markdown-notes-body" class="prose max-w-none text-xs sm:text-sm">
           <!-- Rendered markdown content -->
         </div>
       </div>
     </section>
 
     <!-- TAB 3: PYQ BANK & SOLUTION VIEWER -->
-    <section id="view-pyqs" class="hidden space-y-4 sm:space-y-6">
+    <section id="view-pyqs" class="hidden space-y-3.5">
       <!-- Filter Bar -->
-      <div class="bg-white dark:bg-slate-900 p-3 sm:p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 transition-colors">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-center gap-2.5 w-full md:w-auto">
+      <div class="bg-zinc-900/40 border border-zinc-800 rounded-lg p-3 flex flex-col md:flex-row md:items-center justify-between gap-2.5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-center gap-2 w-full md:w-auto">
           <!-- Search -->
           <div class="relative col-span-1 sm:col-span-2 lg:col-span-1">
-            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Search question or formula..." class="w-full lg:w-64 pl-9 pr-3 py-2 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
-            <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Filter text or formula..." class="w-full lg:w-56 pl-8 pr-3 py-1.5 text-xs bg-zinc-950 border border-zinc-800 text-zinc-200 placeholder-zinc-500 rounded-md focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600">
+            <svg class="w-3.5 h-3.5 text-zinc-500 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </div>
 
           <!-- Year Filter -->
-          <select id="filter-year" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-year" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-zinc-950 border border-zinc-800 text-zinc-300 rounded-md px-2.5 py-1.5 focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 font-mono">
             <option value="">All Years (2002-2026)</option>
             <option value="2026">2026</option>
             <option value="2025">2025</option>
@@ -239,14 +272,14 @@
           </select>
 
           <!-- Type Filter -->
-          <select id="filter-type" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-            <option value="">All Types (MCQ &amp; Numerical)</option>
+          <select id="filter-type" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-zinc-950 border border-zinc-800 text-zinc-300 rounded-md px-2.5 py-1.5 focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 font-mono">
+            <option value="">All Types (MCQ &amp; Num)</option>
             <option value="MCQ">MCQ Only</option>
             <option value="Numerical">Numerical Only</option>
           </select>
 
           <!-- Difficulty -->
-          <select id="filter-diff" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-diff" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-zinc-950 border border-zinc-800 text-zinc-300 rounded-md px-2.5 py-1.5 focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 font-mono">
             <option value="">All Difficulties</option>
             <option value="Easy">Easy</option>
             <option value="Medium">Medium</option>
@@ -254,53 +287,53 @@
           </select>
 
           <!-- Concept Filter -->
-          <select id="filter-concept" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-concept" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-zinc-950 border border-zinc-800 text-zinc-300 rounded-md px-2.5 py-1.5 focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600">
             <option value="">All Concepts</option>
           </select>
         </div>
 
-        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium whitespace-nowrap text-right md:text-left" id="pyqs-result-count">
+        <div class="text-[11px] font-mono text-zinc-500 whitespace-nowrap text-right md:text-left" id="pyqs-result-count">
           Showing 0 questions
         </div>
       </div>
 
       <!-- PYQs List -->
-      <div id="pyqs-container" class="space-y-4">
+      <div id="pyqs-container" class="space-y-3">
         <!-- Rendered question cards -->
       </div>
     </section>
 
     <!-- TAB 4: SYLLABUS CRAWLER & BACKGROUND WORKER -->
-    <section id="view-crawler" class="hidden space-y-6">
-      <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4 mb-6">
+    <section id="view-crawler" class="hidden space-y-4">
+      <div class="bg-zinc-900/40 border border-zinc-800 rounded-lg p-5 sm:p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-zinc-800/80 pb-4 mb-5">
           <div>
-            <h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">JEE Main Syllabus Crawler &amp; Background Indexer</h2>
-            <p class="text-xs text-slate-500 dark:text-slate-400">Crawl and index all chapters from ExamSIDE. Target pilot chapters are processed first.</p>
+            <h2 class="text-base sm:text-lg font-semibold text-zinc-100">JEE Main Syllabus Index &amp; Background Crawler</h2>
+            <p class="text-xs text-zinc-400 mt-0.5">ExamSIDE chapter registry. Target chapters are prioritized.</p>
           </div>
           <div class="flex items-center space-x-2">
-            <button onclick="crawlCurrentChapter()" class="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold px-4 py-2 rounded-xl transition">
-              Crawl Selected Chapter
+            <button onclick="crawlCurrentChapter()" class="bg-zinc-800 hover:bg-zinc-700 text-zinc-200 border border-zinc-700/60 text-xs font-medium px-3 py-1.5 rounded-md transition">
+              Crawl Selected
             </button>
-            <button onclick="crawlAllPending()" class="bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold px-4 py-2 rounded-xl border border-slate-700 transition">
-              Crawl All Remaining Chapters
+            <button onclick="crawlAllPending()" class="bg-zinc-900 hover:bg-zinc-850 text-zinc-300 border border-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md transition">
+              Crawl Remaining
             </button>
           </div>
         </div>
 
         <!-- Chapters Table -->
-        <div class="overflow-x-auto">
-          <table class="min-w-full divide-y divide-slate-200 dark:divide-slate-800 text-xs">
-            <thead class="bg-slate-50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wider">
+        <div class="overflow-x-auto border border-zinc-800/80 rounded-md">
+          <table class="min-w-full divide-y divide-zinc-800/80 text-xs">
+            <thead class="bg-zinc-950 text-zinc-400 font-mono text-[11px] uppercase tracking-wider">
               <tr>
-                <th class="px-4 py-3 text-left">Subject</th>
-                <th class="px-4 py-3 text-left">Chapter</th>
-                <th class="px-4 py-3 text-left">Status</th>
-                <th class="px-4 py-3 text-right">Stored PYQs</th>
-                <th class="px-4 py-3 text-center">Action</th>
+                <th class="px-4 py-2.5 text-left font-medium">Subject</th>
+                <th class="px-4 py-2.5 text-left font-medium">Chapter</th>
+                <th class="px-4 py-2.5 text-left font-medium">Status</th>
+                <th class="px-4 py-2.5 text-right font-medium">Stored PYQs</th>
+                <th class="px-4 py-2.5 text-center font-medium">Action</th>
               </tr>
             </thead>
-            <tbody id="crawler-chapters-tbody" class="divide-y divide-slate-100 dark:divide-slate-800 bg-white dark:bg-slate-900">
+            <tbody id="crawler-chapters-tbody" class="divide-y divide-zinc-800/60 bg-zinc-950/30">
               <!-- Dynamically populated chapters -->
             </tbody>
           </table>
@@ -311,10 +344,10 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800 mt-auto">
+  <footer class="bg-zinc-950 border-t border-zinc-800/80 text-zinc-500 text-xs py-4 mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
-      <div>JEE Main Previous Year Questions Analyzer &amp; Concept Revision Studio</div>
-      <div class="text-slate-500">Autonomous Deep Indexing &bull; SSR MathJax SVG to KaTeX Engine</div>
+      <div class="font-mono text-[11px]">JEE Main PYQs Concept Studio &bull; Autonomous Analysis Engine</div>
+      <div class="text-[11px] text-zinc-600 font-mono">ExamSIDE SSR MathJax to KaTeX &bull; Linear/Vercel Technical Aesthetic</div>
     </div>
   </footer>
 
@@ -340,10 +373,11 @@
       const isDark = document.documentElement.classList.contains('dark');
       const icon = document.getElementById('theme-toggle-icon');
       const iconMobile = document.getElementById('theme-toggle-icon-mobile');
-      const text = document.getElementById('theme-toggle-text');
-      if (icon) icon.innerText = isDark ? '☀️' : '🌙';
-      if (iconMobile) iconMobile.innerText = isDark ? '☀️' : '🌙';
-      if (text) text.innerText = isDark ? 'Light' : 'Dark';
+      const moonSvg = `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>`;
+      const sunSvg = `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>`;
+      
+      if (icon) icon.innerHTML = isDark ? sunSvg : moonSvg;
+      if (iconMobile) iconMobile.innerHTML = isDark ? sunSvg : moonSvg;
     }
 
     async function initDashboard() {
@@ -375,9 +409,9 @@
       ['all', 'chemistry', 'physics', 'mathematics'].forEach(s => {
         const btn = document.getElementById(`sub-btn-${s}`);
         if (s === sub) {
-          btn.className = 'px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition';
+          btn.className = 'px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm';
         } else {
-          btn.className = 'px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition';
+          btn.className = 'px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap';
         }
       });
       renderChapterPills();
@@ -406,21 +440,16 @@
         const isSelected = ch.slug === currentChapterSlug;
         const btn = document.createElement('button');
         btn.onclick = () => selectChapter(ch.slug);
-        
-        const isReady = ch.status === 'analyzed' || ch.stored_questions > 0;
-        const badgeColor = isReady 
-          ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300' 
-          : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
 
-        btn.className = `flex-shrink-0 px-3.5 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-2 border transition ${
+        btn.className = `flex-shrink-0 px-3 py-1.5 rounded-md text-xs font-medium flex items-center gap-2 border transition ${
           isSelected 
-            ? 'bg-indigo-600 border-indigo-600 text-white shadow-sm' 
-            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:border-slate-300 dark:hover:border-slate-700'
+            ? 'bg-zinc-800 text-zinc-100 border-zinc-700/80 shadow-sm' 
+            : 'bg-transparent text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900 border-transparent'
         }`;
 
         btn.innerHTML = `
           <span>${ch.title}</span>
-          <span class="text-[10px] px-1.5 py-0.5 rounded-full ${badgeColor}">
+          <span class="text-[11px] font-mono text-zinc-500">
             ${ch.stored_questions || 0}
           </span>
         `;
@@ -450,7 +479,7 @@
 
       // Update stats badge
       document.getElementById('chapter-stats-badge').innerText = 
-        `${currentChapterData.total_questions} Questions Indexed | ${currentChapterData.concepts.length} Core Concepts Extracted`;
+        `${currentChapterData.total_questions} PYQs · ${currentChapterData.concepts.length} Concepts`;
 
       // Update download links
       if (isStaticMode) {
@@ -479,59 +508,56 @@
 
       if (!currentChapterData.concepts.length) {
         container.innerHTML = `
-          <div class="col-span-2 bg-white dark:bg-slate-900 p-8 rounded-2xl text-center border border-slate-200 dark:border-slate-800">
-            <p class="text-slate-500 dark:text-slate-400 text-sm">No concepts extracted yet for this chapter.</p>
-            <button onclick="triggerAnalysis()" class="mt-3 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl text-xs font-bold">
-              Run Concept Extraction Now
+          <div class="col-span-2 bg-zinc-900/40 border border-zinc-800 p-8 rounded-lg text-center">
+            <p class="text-zinc-400 text-xs">No concepts extracted yet for this chapter.</p>
+            <button onclick="triggerAnalysis()" class="mt-3 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 border border-zinc-700/60 px-3.5 py-1.5 rounded-md text-xs font-medium">
+              Run Concept Extraction
             </button>
           </div>
         `;
         return;
       }
 
-      currentChapterData.concepts.forEach((c, idx) => {
+      currentChapterData.concepts.forEach((c) => {
         const card = document.createElement('div');
-        card.className = 'bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-6 flex flex-col justify-between hover:shadow-md transition';
-
-        const tierColor = c.frequency_tier === 'Very High' 
-          ? 'bg-rose-100 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800' 
-          : (c.frequency_tier === 'High' ? 'bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700');
+        card.className = 'bg-zinc-900/40 border border-zinc-800 rounded-lg p-5 hover:border-zinc-700/80 transition flex flex-col justify-between';
 
         card.innerHTML = `
           <div>
-            <div class="flex items-center justify-between gap-2 mb-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">${c.category}</span>
-              <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full border ${tierColor}">
-                ${c.frequency_tier} Yield &bull; ${c.exam_frequency} PYQs
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-[11px] font-mono uppercase tracking-wider text-zinc-500">${c.category}</span>
+              <span class="text-[11px] font-mono text-zinc-400 bg-zinc-800/60 border border-zinc-800 px-2 py-0.5 rounded">
+                ${c.frequency_tier} · ${c.exam_frequency} PYQs
               </span>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">${c.name}</h3>
-            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4">${c.summary}</p>
+            
+            <h3 class="text-sm sm:text-base font-medium text-zinc-100 mt-2.5 mb-1.5">${c.name}</h3>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-3">${c.summary}</p>
 
             ${c.standard_formulas ? `
-              <div class="bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl p-3 mb-3 text-xs font-mono text-slate-800 dark:text-slate-200 overflow-x-auto">
-                <div class="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-1">Standard Formula:</div>
+              <div class="bg-zinc-950/80 border border-zinc-800/80 rounded-md py-3 px-4 my-2.5 text-xs text-zinc-200 overflow-x-auto text-center">
                 <div class="math-formula">$$${c.standard_formulas}$$</div>
               </div>
             ` : ''}
 
             ${c.common_traps ? `
-              <div class="bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 rounded-xl p-3 mb-2 text-xs text-amber-900 dark:text-amber-200">
-                <span class="font-bold">⚠️ Trap / Caution:</span> ${c.common_traps}
+              <div class="border-l-2 border-amber-500/60 bg-amber-500/5 px-3 py-2 rounded-r my-2 text-xs text-zinc-300">
+                <span class="font-mono text-amber-400 font-medium mr-1.5">Caution:</span>${c.common_traps}
               </div>
             ` : ''}
 
             ${c.tips_and_tricks ? `
-              <div class="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 rounded-xl p-3 text-xs text-emerald-900 dark:text-emerald-200">
-                <span class="font-bold">💡 Speed Hack:</span> ${c.tips_and_tricks}
+              <div class="border-l-2 border-emerald-500/60 bg-emerald-500/5 px-3 py-2 rounded-r my-2 text-xs text-zinc-300">
+                <span class="font-mono text-emerald-400 font-medium mr-1.5">Key Insight:</span>${c.tips_and_tricks}
               </div>
             ` : ''}
           </div>
 
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-            <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">${c.pyq_ids ? c.pyq_ids.length : 0} Linked PYQs</span>
-            <button onclick="filterPYQsByConcept('${c.name.replace(/'/g, "\\'")}')" class="text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 flex items-center space-x-1">
-              <span>View Source PYQs &rarr;</span>
+          <div class="mt-3.5 pt-3 border-t border-zinc-800/80 flex items-center justify-between text-xs">
+            <span class="text-zinc-500 font-mono text-[11px]">${c.pyq_ids ? c.pyq_ids.length : 0} Linked PYQs</span>
+            <button onclick="filterPYQsByConcept('${c.name.replace(/'/g, "\\'")}')" class="text-xs text-zinc-400 hover:text-zinc-200 font-medium flex items-center gap-1 transition">
+              <span>View Questions</span>
+              <span class="text-zinc-500">&rarr;</span>
             </button>
           </div>
         `;
@@ -568,7 +594,7 @@
         if (!item) return m;
         if (window.katex) {
           try {
-            return `<div class="my-4 overflow-x-auto text-center">${katex.renderToString(item.math, { displayMode: true, throwOnError: false })}</div>`;
+            return `<div class="my-3 overflow-x-auto text-center bg-zinc-950/80 border border-zinc-800/80 rounded-md py-3 px-4">${katex.renderToString(item.math, { displayMode: true, throwOnError: false })}</div>`;
           } catch (e) {
             return `<div class="katex-display">$$${item.math}$$</div>`;
           }
@@ -581,7 +607,7 @@
         if (!item) return m;
         if (window.katex) {
           try {
-            return `<div class="my-4 overflow-x-auto text-center">${katex.renderToString(item.math, { displayMode: true, throwOnError: false })}</div>`;
+            return `<div class="my-3 overflow-x-auto text-center bg-zinc-950/80 border border-zinc-800/80 rounded-md py-3 px-4">${katex.renderToString(item.math, { displayMode: true, throwOnError: false })}</div>`;
           } catch (e) {
             return `<div class="katex-display">$$${item.math}$$</div>`;
           }
@@ -609,7 +635,7 @@
       const notesBody = document.getElementById('markdown-notes-body');
       const syn = currentChapterData.synthesis;
       if (!syn) {
-        notesBody.innerHTML = '<p class="text-slate-500">Synthesis notes have not been generated yet. Click Re-Analyze Chapter to generate.</p>';
+        notesBody.innerHTML = '<p class="text-zinc-500 text-xs">Synthesis notes have not been generated yet. Click Re-Analyze to generate.</p>';
         return;
       }
       document.getElementById('notes-title').innerText = syn.title;
@@ -682,29 +708,22 @@
       container.innerHTML = '';
 
       if (!questions.length) {
-        container.innerHTML = '<div class="bg-white dark:bg-slate-900 p-8 rounded-xl text-center text-slate-500 dark:text-slate-400 text-sm border border-slate-200 dark:border-slate-800">No questions matched the selected filters.</div>';
+        container.innerHTML = '<div class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-lg text-center text-zinc-500 text-xs">No questions matched the selected filters.</div>';
         return;
       }
 
       questions.forEach((q, idx) => {
         const card = document.createElement('div');
-        card.className = 'bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 transition';
-
-        const diffColor = q.difficulty === 'Easy' 
-          ? 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300' 
-          : (q.difficulty === 'Hard' ? 'bg-rose-100 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300' : 'bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300');
-        const typeColor = q.question_type === 'MCQ' 
-          ? 'bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300' 
-          : 'bg-purple-100 dark:bg-purple-950/60 text-purple-800 dark:text-purple-300';
+        card.className = 'bg-zinc-900/40 border border-zinc-800 rounded-lg p-4 sm:p-5 hover:border-zinc-700/80 transition';
 
         let optionsHtml = '';
         if (q.options && q.options.length) {
-          optionsHtml = '<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">';
+          optionsHtml = '<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3 pt-3 border-t border-zinc-800/80">';
           q.options.forEach(opt => {
             optionsHtml += `
-              <div class="flex items-start space-x-2 text-xs p-2 rounded-lg bg-slate-50 dark:bg-slate-950/60 border border-slate-100 dark:border-slate-800">
-                <span class="font-bold text-slate-600 dark:text-slate-400 uppercase">(${opt.label})</span>
-                <span class="text-slate-800 dark:text-slate-200">${opt.text}</span>
+              <div class="flex items-start space-x-2 text-xs p-2 rounded-md bg-zinc-950/60 border border-zinc-800/80">
+                <span class="font-mono text-zinc-500 font-semibold uppercase">(${opt.label})</span>
+                <span class="text-zinc-300">${opt.text}</span>
               </div>
             `;
           });
@@ -713,27 +732,27 @@
 
         let imagesHtml = '';
         if (q.image_urls && q.image_urls.length) {
-          imagesHtml = '<div class="my-3 flex flex-wrap gap-2">';
+          imagesHtml = '<div class="my-2.5 flex flex-wrap gap-2">';
           q.image_urls.forEach(src => {
-            imagesHtml += `<img src="${src}" class="max-h-48 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm" alt="Question Diagram" />`;
+            imagesHtml += `<img src="${src}" class="max-h-44 rounded-md border border-zinc-800" alt="Question Diagram" />`;
           });
           imagesHtml += '</div>';
         }
 
         card.innerHTML = `
-          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div class="flex items-center space-x-2">
-              <span class="text-xs font-black text-slate-900 dark:text-slate-100 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md">Q#${q.question_index || (idx+1)}</span>
-              <span class="text-xs font-semibold text-slate-700 dark:text-slate-300">${q.paper_name}</span>
+              <span class="text-[11px] font-mono text-zinc-400">Q#${q.question_index || (idx+1)}</span>
+              <span class="text-xs font-medium text-zinc-300">${q.paper_name}</span>
             </div>
             <div class="flex items-center space-x-1.5">
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${typeColor}">${q.question_type}</span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full ${diffColor}">${q.difficulty}</span>
-              ${q.topic_tag ? `<span class="text-[10px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded-full">${q.topic_tag}</span>` : ''}
+              <span class="text-[10px] font-mono text-zinc-400 bg-zinc-800/60 border border-zinc-800 px-2 py-0.5 rounded">${q.question_type}</span>
+              <span class="text-[10px] font-mono text-zinc-400 bg-zinc-800/60 border border-zinc-800 px-2 py-0.5 rounded">${q.difficulty}</span>
+              ${q.topic_tag ? `<span class="text-[10px] font-mono text-zinc-500 bg-zinc-800/30 border border-zinc-800/60 px-2 py-0.5 rounded">${q.topic_tag}</span>` : ''}
             </div>
           </div>
 
-          <div class="text-xs text-slate-900 dark:text-slate-100 font-medium leading-relaxed mb-2">
+          <div class="text-xs sm:text-sm text-zinc-200 font-normal leading-relaxed mb-2">
             ${q.question_text}
           </div>
 
@@ -741,26 +760,26 @@
           ${optionsHtml}
 
           <!-- Solution Accordion -->
-          <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-            <div class="text-xs font-bold text-emerald-700 dark:text-emerald-400 flex items-center space-x-1">
-              <span>Answer Key:</span>
-              <span class="bg-emerald-100 dark:bg-emerald-950/60 px-2 py-0.5 rounded-md text-emerald-800 dark:text-emerald-300 font-mono">${q.correct_answer || 'N/A'}</span>
+          <div class="mt-3.5 pt-3 border-t border-zinc-800/80 flex items-center justify-between text-xs">
+            <div class="text-xs text-zinc-400 flex items-center space-x-1.5">
+              <span class="text-zinc-500">Answer Key:</span>
+              <span class="bg-zinc-800/80 border border-zinc-700/60 px-2 py-0.5 rounded font-mono text-zinc-200 font-medium">${q.correct_answer || 'N/A'}</span>
             </div>
-            <button onclick="toggleSolution('${q.qid}')" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 flex items-center space-x-1">
-              <span id="sol-btn-text-${q.qid}">Show Detailed Solution</span>
+            <button onclick="toggleSolution('${q.qid}')" class="text-xs font-medium text-zinc-400 hover:text-zinc-200 flex items-center space-x-1 transition">
+              <span id="sol-btn-text-${q.qid}">Show Solution</span>
               <svg id="sol-icon-${q.qid}" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
             </button>
           </div>
 
-          <div id="sol-body-${q.qid}" class="hidden mt-3 p-4 bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-xl text-xs text-slate-800 dark:text-slate-200 space-y-2">
-            <div class="font-bold text-indigo-900 dark:text-indigo-300 flex items-center justify-between">
-              <span>Master Solution &amp; Analytical Steps</span>
-              <span class="text-[10px] text-slate-400 font-normal">ExamSIDE Verified</span>
+          <div id="sol-body-${q.qid}" class="hidden mt-3 p-4 bg-zinc-950/80 border border-zinc-800 rounded-md text-xs text-zinc-300 space-y-2">
+            <div class="font-mono text-[11px] text-zinc-400 uppercase tracking-wider flex items-center justify-between pb-2 border-b border-zinc-800">
+              <span>Step-by-Step Solution</span>
+              <span class="text-zinc-500">Verified</span>
             </div>
             <div class="leading-relaxed whitespace-pre-wrap">${q.explanation_text || 'No step-by-step explanation available.'}</div>
             ${q.key_formulas && q.key_formulas.length ? `
-              <div class="pt-2 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400">
-                <span class="font-bold text-slate-700 dark:text-slate-300">Formulas Employed:</span> ${q.key_formulas.map(f => `$${f}$`).join(', ')}
+              <div class="pt-2 border-t border-zinc-800/80 text-[11px] text-zinc-500 font-mono">
+                <span class="text-zinc-400">Formulas:</span> ${q.key_formulas.map(f => `$${f}$`).join(', ')}
               </div>
             ` : ''}
           </div>
@@ -782,7 +801,7 @@
         renderMathInPage();
       } else {
         el.classList.add('hidden');
-        btnText.innerText = 'Show Detailed Solution';
+        btnText.innerText = 'Show Solution';
         icon.classList.remove('rotate-180');
       }
     }
@@ -808,10 +827,10 @@
         const btn = document.getElementById(`tab-btn-${t}`);
         if (t === tabId) {
           view.classList.remove('hidden');
-          btn.className = 'py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-2 font-bold';
+          btn.className = 'py-2.5 px-2.5 border-b-2 border-zinc-100 text-zinc-100 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition font-medium';
         } else {
           view.classList.add('hidden');
-          btn.className = 'py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2';
+          btn.className = 'py-2.5 px-2.5 border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0 transition font-medium';
         }
       });
       renderMathInPage();
@@ -830,20 +849,20 @@
         const tr = document.createElement('tr');
         const isCurrent = ch.slug === currentChapterSlug;
         const statusBadge = ch.status === 'analyzed' 
-          ? '<span class="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 px-2 py-0.5 rounded-full text-[10px] font-bold">Analyzed &amp; Ready</span>'
+          ? '<span class="font-mono text-[11px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded">Analyzed &amp; Ready</span>'
           : (ch.status === 'crawled' 
-              ? '<span class="bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300 px-2 py-0.5 rounded-full text-[10px] font-bold">Crawled</span>'
-              : '<span class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-0.5 rounded-full text-[10px]">Pending</span>');
+              ? '<span class="font-mono text-[11px] text-zinc-300 bg-zinc-800/60 border border-zinc-700/60 px-2 py-0.5 rounded">Crawled</span>'
+              : '<span class="font-mono text-[11px] text-zinc-500 bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded">Pending</span>');
 
-        tr.className = isCurrent ? 'bg-indigo-50/50 dark:bg-indigo-950/30' : 'hover:bg-slate-50 dark:hover:bg-slate-800/50';
+        tr.className = isCurrent ? 'bg-zinc-800/30' : 'hover:bg-zinc-900/40 transition';
         tr.innerHTML = `
-          <td class="px-4 py-2.5 font-bold uppercase text-[10px] text-slate-400 dark:text-slate-500">${ch.subject}</td>
-          <td class="px-4 py-2.5 font-semibold text-slate-900 dark:text-slate-100">${ch.title}</td>
+          <td class="px-4 py-2.5 font-mono text-[11px] uppercase text-zinc-500">${ch.subject}</td>
+          <td class="px-4 py-2.5 font-medium text-zinc-200">${ch.title}</td>
           <td class="px-4 py-2.5">${statusBadge}</td>
-          <td class="px-4 py-2.5 text-right font-mono font-bold text-slate-700 dark:text-slate-300">${ch.stored_questions || 0}</td>
+          <td class="px-4 py-2.5 text-right font-mono text-zinc-400">${ch.stored_questions || 0}</td>
           <td class="px-4 py-2.5 text-center">
-            <button onclick="crawlSingleChapter('${ch.slug}')" class="bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white px-2.5 py-1 rounded-md text-[11px] font-semibold border border-slate-200 dark:border-slate-700 transition">
-              Crawl Now
+            <button onclick="crawlSingleChapter('${ch.slug}')" class="bg-zinc-800/80 hover:bg-zinc-700 text-zinc-200 border border-zinc-700/60 px-2.5 py-1 rounded text-xs transition font-medium">
+              Crawl
             </button>
           </td>
         `;
