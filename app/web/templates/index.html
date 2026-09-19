@@ -29,13 +29,18 @@
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-    .katex-display { margin: 0.5em 0; overflow-x: auto; overflow-y: hidden; }
+    body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+    .katex-display { margin: 0.5em 0; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     /* Custom scrollbars */
     ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: #f1f5f9; }
     ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
     ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+    /* Touch & Mobile polish */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .prose table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
     /* Dark Mode Math & Prose Tuning */
     .dark { color-scheme: dark; }
@@ -51,42 +56,60 @@
     .dark .prose strong { color: #f1f5f9; }
     .dark .prose blockquote { border-left-color: #6366f1; color: #e2e8f0; background: rgba(30, 41, 59, 0.5); }
     .dark .prose code { color: #a5b4fc; background: #1e293b; }
+
+    @media (max-width: 640px) {
+      .katex { font-size: 0.9em; }
+    }
   </style>
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
 
   <!-- TOP NAVBAR -->
   <header class="bg-slate-900 dark:bg-slate-950 text-white shadow-lg sticky top-0 z-50 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
-      <div class="flex items-center space-x-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center font-black text-xl shadow-md text-white">
-          Ω
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex flex-col md:flex-row md:items-center justify-between gap-2.5 sm:gap-4">
+      
+      <!-- Logo + Title + Mobile Actions -->
+      <div class="flex items-center justify-between w-full md:w-auto">
+        <div class="flex items-center space-x-2.5 sm:space-x-3">
+          <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center font-black text-base sm:text-xl shadow-md text-white flex-shrink-0">
+            Ω
+          </div>
+          <div>
+            <h1 class="text-base sm:text-lg font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-200 leading-tight">
+              JEE Main PYQs Concept Studio
+            </h1>
+            <p class="text-[10px] sm:text-xs text-slate-400 hidden sm:block">ExamSIDE Intelligent Crawler, Deep Concept Extractor &amp; Revision Studio</p>
+          </div>
         </div>
-        <div>
-          <h1 class="text-lg font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-200">
-            JEE Main PYQs Concept Studio
-          </h1>
-          <p class="text-xs text-slate-400">ExamSIDE Intelligent Crawler, Deep Concept Extractor &amp; Revision Studio</p>
+
+        <!-- Mobile Quick Actions -->
+        <div class="flex items-center space-x-1.5 md:hidden text-xs">
+          <button onclick="toggleDarkMode()" class="bg-slate-800 hover:bg-slate-700 p-2 rounded-lg border border-slate-700 text-slate-200 transition flex items-center justify-center" title="Toggle Dark/Light Mode">
+            <span id="theme-toggle-icon-mobile">🌙</span>
+          </button>
+          <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-2.5 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition text-[11px] font-semibold">
+            ⚙️ Tasks
+          </button>
         </div>
       </div>
 
-      <!-- Quick Subject Filter -->
-      <div class="flex items-center space-x-2 bg-slate-800 dark:bg-slate-900 p-1 rounded-xl text-xs font-semibold border border-slate-700/60">
-        <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition">All Subjects</button>
-        <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Chemistry</button>
-        <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Physics</button>
-        <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition">Maths</button>
+      <!-- Quick Subject Filter (Swipeable pills) -->
+      <div class="flex items-center space-x-1.5 bg-slate-800 dark:bg-slate-900 p-1 rounded-xl text-xs font-semibold border border-slate-700/60 overflow-x-auto no-scrollbar w-full sm:w-auto flex-shrink-0">
+        <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition whitespace-nowrap flex-shrink-0">All Subjects</button>
+        <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Chemistry</button>
+        <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Physics</button>
+        <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition whitespace-nowrap flex-shrink-0">Maths</button>
       </div>
 
-      <!-- Controls: Theme Toggle & Crawler Widget -->
-      <div class="flex items-center space-x-2 text-xs">
-        <div id="live-task-indicator" class="hidden sm:flex items-center space-x-1.5 text-slate-300 mr-1">
+      <!-- Desktop Controls: Theme Toggle & Crawler Widget -->
+      <div class="hidden md:flex items-center space-x-2 text-xs flex-shrink-0">
+        <div id="live-task-indicator" class="hidden lg:flex items-center space-x-1.5 text-slate-300 mr-1">
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <span id="task-status-text">Database Ready</span>
         </div>
         <button onclick="toggleDarkMode()" id="theme-toggle-btn" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1.5 shadow-sm font-semibold" title="Toggle Dark/Light Mode">
           <span id="theme-toggle-icon">🌙</span>
-          <span id="theme-toggle-text" class="hidden sm:inline">Theme</span>
+          <span id="theme-toggle-text">Theme</span>
         </button>
         <button onclick="switchTab('crawler')" class="bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-200 transition flex items-center space-x-1 font-semibold">
           <span>Crawler &amp; Tasks</span>
@@ -97,16 +120,16 @@
 
   <!-- CHAPTER SELECTION BAR -->
   <div class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-      <div class="flex items-center justify-between gap-4 mb-2">
-        <div class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4 mb-2">
+        <div class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
           Select Chapter to Analyze:
         </div>
-        <div id="chapter-stats-badge" class="text-xs font-medium text-slate-600 dark:text-slate-400">
+        <div id="chapter-stats-badge" class="text-[11px] sm:text-xs font-medium text-slate-600 dark:text-slate-400">
           <!-- e.g. 226 Questions Indexed | 6 Concepts -->
         </div>
       </div>
-      <div id="chapter-pills-container" class="flex items-center space-x-2 overflow-x-auto pb-1">
+      <div id="chapter-pills-container" class="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar">
         <!-- Dynamically populated chapters -->
         <div class="text-xs text-slate-400 py-1">Loading chapters...</div>
       </div>
@@ -114,33 +137,34 @@
   </div>
 
   <!-- NAVIGATION TABS -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 w-full">
-    <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800">
-      <div class="flex space-x-6 text-sm font-semibold">
-        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-2">
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-2 sm:pt-4 w-full">
+    <div class="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-200 dark:border-slate-800 gap-2">
+      <!-- Tabs (Swipeable on touch screens) -->
+      <div class="flex space-x-3 sm:space-x-6 text-xs sm:text-sm font-semibold overflow-x-auto no-scrollbar py-1">
+        <button onclick="switchTab('concepts')" id="tab-btn-concepts" class="py-2.5 sm:py-3 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
           <span>🧠 Concept Matrix</span>
-          <span id="concept-count-badge" class="ml-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs px-2 py-0.5 rounded-full">0</span>
+          <span id="concept-count-badge" class="ml-1 bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-[10px] sm:text-xs px-2 py-0.5 rounded-full">0</span>
         </button>
-        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
-          <span>📄 Revision Notes &amp; Formula Sheet</span>
+        <button onclick="switchTab('notes')" id="tab-btn-notes" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
+          <span>📄 Notes &amp; Formulas</span>
         </button>
-        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
-          <span>🎯 PYQ Bank &amp; Solutions</span>
-          <span id="pyq-count-badge" class="ml-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs px-2 py-0.5 rounded-full">0</span>
+        <button onclick="switchTab('pyqs')" id="tab-btn-pyqs" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
+          <span>🎯 PYQ Bank</span>
+          <span id="pyq-count-badge" class="ml-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] sm:text-xs px-2 py-0.5 rounded-full">0</span>
         </button>
-        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-2">
-          <span>⚙️ Syllabus Crawler</span>
+        <button onclick="switchTab('crawler')" id="tab-btn-crawler" class="py-2.5 sm:py-3 border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 flex items-center space-x-1.5 whitespace-nowrap flex-shrink-0">
+          <span>⚙️ Syllabus</span>
         </button>
       </div>
 
       <!-- Action Downloads -->
-      <div class="flex items-center space-x-2 pb-2">
-        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-blue-50 dark:bg-blue-950/40 hover:bg-blue-100 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
-          <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
-          <span>Download Word (.docx)</span>
+      <div class="flex items-center space-x-2 pb-2 overflow-x-auto no-scrollbar flex-shrink-0">
+        <a id="btn-download-docx" href="#" download class="inline-flex items-center space-x-1.5 bg-blue-50 dark:bg-blue-950/40 hover:bg-blue-100 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
+          <span>Word (.docx)</span>
         </a>
-        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition">
-          <svg class="w-4 h-4 text-red-600 dark:text-red-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/><path d="M14 10H8v2h6v-2zm-6 4h4v2H8v-2zm0-8h8v2H8V6z"/></svg>
+        <a id="btn-download-pdf" href="#" download class="inline-flex items-center space-x-1.5 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 px-3 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 text-red-600 dark:text-red-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/><path d="M14 10H8v2h6v-2zm-6 4h4v2H8v-2zm0-8h8v2H8V6z"/></svg>
           <span>Printable PDF</span>
         </a>
       </div>
@@ -148,62 +172,62 @@
   </div>
 
   <!-- MAIN VIEW CONTAINER -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-grow">
+  <main class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 w-full flex-grow">
     
     <!-- TAB 1: CONCEPT MATRIX -->
-    <section id="view-concepts" class="space-y-6">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-gradient-to-r from-slate-900 to-indigo-950 text-white p-6 rounded-2xl shadow-md">
+    <section id="view-concepts" class="space-y-4 sm:space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-gradient-to-r from-slate-900 to-indigo-950 text-white p-4 sm:p-6 rounded-2xl shadow-md">
         <div>
-          <span id="concept-chapter-sub" class="text-xs font-bold uppercase tracking-wider text-indigo-400">Chemistry</span>
-          <h2 id="concept-chapter-title" class="text-2xl font-black mt-1">Electrochemistry — Core Concept Synthesis</h2>
+          <span id="concept-chapter-sub" class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-indigo-400">Chemistry</span>
+          <h2 id="concept-chapter-title" class="text-lg sm:text-2xl font-black mt-1">Electrochemistry — Core Concept Synthesis</h2>
           <p class="text-xs text-slate-300 mt-1">
             Every concept below is empirically derived from analyzed JEE Main PYQs and linked to its original problems.
           </p>
         </div>
-        <div class="flex items-center space-x-3">
-          <button onclick="triggerAnalysis()" class="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-xl text-xs font-bold shadow transition flex items-center space-x-2">
+        <div class="flex items-center space-x-3 flex-shrink-0">
+          <button onclick="triggerAnalysis()" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-xl text-xs font-bold shadow transition flex items-center justify-center space-x-2">
             <span>⚡ Re-Analyze Chapter</span>
           </button>
         </div>
       </div>
 
       <!-- Concept Cards Grid -->
-      <div id="concepts-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div id="concepts-container" class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
         <!-- Dynamically rendered concept cards -->
       </div>
     </section>
 
     <!-- TAB 2: REVISION NOTES & FORMULA SHEET -->
-    <section id="view-notes" class="hidden space-y-6">
-      <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
-        <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-6">
+    <section id="view-notes" class="hidden space-y-4 sm:space-y-6">
+      <div class="bg-white dark:bg-slate-900 p-4 sm:p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4 mb-6 gap-3">
           <div>
-            <h2 id="notes-title" class="text-2xl font-black text-slate-900 dark:text-slate-100">Chapter Master Synthesis</h2>
+            <h2 id="notes-title" class="text-xl sm:text-2xl font-black text-slate-900 dark:text-slate-100">Chapter Master Synthesis</h2>
             <p class="text-xs text-slate-500 dark:text-slate-400">Comprehensive summary, formula cards, recurring traps, and benchmark illustrative solutions.</p>
           </div>
-          <button onclick="regenerateNotes()" class="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-300 dark:border-slate-700 transition">
-            🔄 Regenerate Documents
+          <button onclick="regenerateNotes()" class="w-full sm:w-auto bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-3 py-2 rounded-lg text-xs font-semibold border border-slate-300 dark:border-slate-700 transition flex items-center justify-center space-x-1.5">
+            <span>🔄 Regenerate Documents</span>
           </button>
         </div>
-        <div id="markdown-notes-body" class="prose dark:prose-invert max-w-none prose-slate">
+        <div id="markdown-notes-body" class="prose dark:prose-invert max-w-none prose-slate text-xs sm:text-sm">
           <!-- Rendered markdown content -->
         </div>
       </div>
     </section>
 
     <!-- TAB 3: PYQ BANK & SOLUTION VIEWER -->
-    <section id="view-pyqs" class="hidden space-y-6">
+    <section id="view-pyqs" class="hidden space-y-4 sm:space-y-6">
       <!-- Filter Bar -->
-      <div class="bg-white dark:bg-slate-900 p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-4 transition-colors">
-        <div class="flex flex-wrap items-center gap-3">
+      <div class="bg-white dark:bg-slate-900 p-3 sm:p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3 transition-colors">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-center gap-2.5 w-full md:w-auto">
           <!-- Search -->
-          <div class="relative">
-            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Search question or formula..." class="w-64 pl-9 pr-3 py-1.5 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
-            <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <div class="relative col-span-1 sm:col-span-2 lg:col-span-1">
+            <input type="text" id="filter-search" oninput="debounceFilter()" placeholder="Search question or formula..." class="w-full lg:w-64 pl-9 pr-3 py-2 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </div>
 
           <!-- Year Filter -->
-          <select id="filter-year" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-year" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Years (2002-2026)</option>
             <option value="2026">2026</option>
             <option value="2025">2025</option>
@@ -215,14 +239,14 @@
           </select>
 
           <!-- Type Filter -->
-          <select id="filter-type" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-type" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Types (MCQ &amp; Numerical)</option>
             <option value="MCQ">MCQ Only</option>
             <option value="Numerical">Numerical Only</option>
           </select>
 
           <!-- Difficulty -->
-          <select id="filter-diff" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-diff" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Difficulties</option>
             <option value="Easy">Easy</option>
             <option value="Medium">Medium</option>
@@ -230,12 +254,12 @@
           </select>
 
           <!-- Concept Filter -->
-          <select id="filter-concept" onchange="applyFilters()" class="text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="filter-concept" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 rounded-lg px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="">All Concepts</option>
           </select>
         </div>
 
-        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium" id="pyqs-result-count">
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium whitespace-nowrap text-right md:text-left" id="pyqs-result-count">
           Showing 0 questions
         </div>
       </div>
@@ -315,8 +339,10 @@
     function updateThemeButton() {
       const isDark = document.documentElement.classList.contains('dark');
       const icon = document.getElementById('theme-toggle-icon');
+      const iconMobile = document.getElementById('theme-toggle-icon-mobile');
       const text = document.getElementById('theme-toggle-text');
       if (icon) icon.innerText = isDark ? '☀️' : '🌙';
+      if (iconMobile) iconMobile.innerText = isDark ? '☀️' : '🌙';
       if (text) text.innerText = isDark ? 'Light' : 'Dark';
     }
 
