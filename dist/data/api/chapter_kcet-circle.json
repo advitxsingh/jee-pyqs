@@ -8,39 +8,52 @@
     "total_questions_site": 3,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:26:16.785717"
+    "analyzed_at": "2026-09-20T16:42:27.397388"
   },
   "concepts": [
     {
-      "id": 237,
+      "id": 1523,
       "chapter_slug": "kcet-circle",
-      "name": "Kcet Circle - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Circle.",
-      "standard_formulas": "",
+      "name": "Circle Equation, Tangents & Chord of Contact",
+      "category": "Circles",
+      "summary": "Standard and general equations of circles, condition for line $y = mx + c$ to be tangent, and director circle $x^2 + y^2 = 2a^2$.",
+      "standard_formulas": "r = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2",
       "exam_frequency": 3,
       "frequency_tier": "Moderate",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "The center of $x^2 + y^2 + 2gx + 2fy + c = 0$ is $(-g, -f)$, NOT $(+g, +f)$.",
+      "tips_and_tricks": "The locus of the point of intersection of two perpendicular tangents to a circle is its director circle (radius $\\sqrt{2}a$).",
       "pyq_ids": [
         8483,
         8486,
         8488
       ]
+    },
+    {
+      "id": 1524,
+      "chapter_slug": "kcet-circle",
+      "name": "Tangents, Normals & Orthogonal Circles",
+      "category": "Tangents & Circles",
+      "summary": "Point and slope forms of circle tangents, director circle $x^2 + y^2 = 2a^2$, and orthogonality condition.",
+      "standard_formulas": "\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2",
+      "exam_frequency": 0,
+      "frequency_tier": "Standard",
+      "common_traps": "The normal to a circle at any point ALWAYS passes through the center of the circle $(-g, -f)$.",
+      "tips_and_tricks": "Common chord of two intersecting circles $S_1 = 0$ and $S_2 = 0$ is given directly by the linear equation $S_1 - S_2 = 0$.",
+      "pyq_ids": []
     }
   ],
   "synthesis": {
     "id": 64,
     "chapter_slug": "kcet-circle",
     "title": "Circle 2026 1 questions 1.67% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Circle 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2018 – 2026)  \n**Empirical Dataset**: 3 Previous Year Questions Analyzed (3 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **3** authentic KCET problems.\n- **Question Format Breakdown**: **3 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2018 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Kcet Circle - Core Application | **3 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Circle - Core Application (General Concept)\n- **Exam Weightage**: Tested in **3 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Circle.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"The area enclosed by the curve $x=\\sqrt{3}cos\\theta,y=\\sqrt{3}sin\\theta$ is...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"If in two circles, arcs of the same length subtend angles $30^{\\circ}$ and $78^{\\circ}$ at the centre, then the ratio of their radii is...\"* — **Correct Answer: N/A**\n- **[2018 Shift] Q#3 (MCQ)**: *\"The maximum area of a rectangle inscribed in the circle $(x+1)^{2}+(y-3)^{2}=64$ is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Circle 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 3 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Circle 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2018 – 2026)  \n**Empirical Dataset**: 3 Previous Year Questions Analyzed (3 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **3** authentic KCET problems.\n- **Question Format Breakdown**: **3 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2018 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Circle Equation, Tangents & Chord of Contact | **3 PYQs** | Circles |\n| **Standard** | Tangents, Normals & Orthogonal Circles | **0 PYQs** | Tangents & Circles |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Circle Equation, Tangents & Chord of Contact (Circles)\n- **Exam Weightage**: Tested in **3 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Standard and general equations of circles, condition for line $y = mx + c$ to be tangent, and director circle $x^2 + y^2 = 2a^2$.\n\n#### Standard Mathematical Formulation\n$$\nr = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The center of $x^2 + y^2 + 2gx + 2fy + c = 0$ is $(-g, -f)$, NOT $(+g, +f)$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The locus of the point of intersection of two perpendicular tangents to a circle is its director circle (radius $\\sqrt{2}a$).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"The area enclosed by the curve $x=\\sqrt{3}cos\\theta,y=\\sqrt{3}sin\\theta$ is...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"If in two circles, arcs of the same length subtend angles $30^{\\circ}$ and $78^{\\circ}$ at the centre, then the ratio of their radii is...\"* — **Correct Answer: N/A**\n- **[2018 Shift] Q#3 (MCQ)**: *\"The maximum area of a rectangle inscribed in the circle $(x+1)^{2}+(y-3)^{2}=64$ is...\"* — **Correct Answer: N/A**\n\n### 2.2 Tangents, Normals & Orthogonal Circles (Tangents & Circles)\n- **Exam Weightage**: Tested in **0 PYQs** (Standard Yield)\n- **Conceptual Summary**: Point and slope forms of circle tangents, director circle $x^2 + y^2 = 2a^2$, and orthogonality condition.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The normal to a circle at any point ALWAYS passes through the center of the circle $(-g, -f)$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Common chord of two intersecting circles $S_1 = 0$ and $S_2 = 0$ is given directly by the linear equation $S_1 - S_2 = 0$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"The area enclosed by the curve $x=\\sqrt{3}cos\\theta,y=\\sqrt{3}sin\\theta$ is...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"If in two circles, arcs of the same length subtend angles $30^{\\circ}$ and $78^{\\circ}$ at the centre, then the ratio of their radii is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Circle 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 3 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Circle Equation, Tangents & Chord of Contact** | $r = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2$ | Standard SI units apply |\n| **Tangents, Normals & Orthogonal Circles** | $\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Circle 2026 1 questions 1.67% weightage\nBased on rigorous analysis of all 3 questions from 2018 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Circle 2026 1 questions 1.67% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       8483
     ],
-    "updated_at": "2026-09-20T15:26:16.763802"
+    "updated_at": "2026-09-20T16:42:27.384662"
   },
   "total_questions": 3,
   "has_docx": true,

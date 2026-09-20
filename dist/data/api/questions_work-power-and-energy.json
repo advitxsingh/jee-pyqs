@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Work done (W) is defined as the integral of force (F) over a displacement (dx):</p>\n<p> $W=\\int_{x_{i}}^{x_{f}}Fdx$ </p>\n<p>From Newton's Second Law,  $F=ma$ , and acceleration  $a=\\frac{dv}{dt}$ .</p>\n<p>Using the chain rule,  $a=\\frac{dv}{dx} \\cdot \\frac{dx}{dt}=v\\frac{dv}{dx}$ .</p>\n<p> $W=\\int_{x_{i}}^{x_{f}}[m(v\\frac{dv}{dx})]dx$ </p>\n<p> $\\Rightarrow$   $W=\\int_{v_{i}}^{v_{f}}mvdv=m\\int_{v_{i}}^{v_{f}}vdv=m[\\frac{v^{2}}{2}]_{v_{i}}^{v_{f}}$ </p>\n<p> $\\Rightarrow$   $W=\\frac{1}{2}mv_{f}^{2}-\\frac{1}{2}mv_{i}^{2}$ </p>\n<p> $\\Rightarrow$   $W=\\Delta K.E.$ </p>\n<p>The mass of the body is  $m=1kg$ </p>\n<p>The velocity of body is given as function of position,  $v=2x^{2}$ </p>\n<p>Initial position is  $x_{i}=0m$ </p>\n<p>Final position is  $x_{f}=5m$ </p>\n<p>At  $x_{i}=0$  :</p>\n<p> $v_{i}=2(0)^{2}=0m/s$ </p>\n<p>At  $x_{f}=5$  :</p>\n<p> $v_{f}=2(5)^{2}=2(25)=50m/s$ </p>\n<p>On substituting these values into the Work-Energy equation :</p>\n<p> $W=\\frac{1}{2}m(v_{f}^{2}-v_{i}^{2})$ </p>\n<p> $\\Rightarrow$   $W=\\frac{1}{2} \\times 1 \\times (50^{2}-0^{2})$ </p>\n<p> $\\Rightarrow$   $W=\\frac{1}{2} \\times (2500)$ </p>\n<p> $\\Rightarrow$   $W=1250J$ </p>\n<p>Therefore, the work done by the body during displacement from  $x=0$  to  $x=5m$  is 1250 J . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "v=2x^{2}",
@@ -55,7 +55,7 @@
         "a=\\frac{dv}{dt}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:25.736399"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the work-energy theorem, the work done by all forces acting on a body is equal to the change in its kinetic energy.</p>\n<p>The ball falls from height  $h=10m$  under gravity. And the ball enters the sand and travels a distance  $d=10cm=0.1m$  before coming to rest.</p>\n<p>Let m be the mass of the ball, h be the initial height, d be the penetration depth, and  $F_{\\text{avg}}$  be the average resistive force exerted by the sand.</p>\n<p>The total work done on the ball from the moment it is dropped until it stops is:</p>\n<p> $W_{\\text{total}}=W_{\\text{gravity}}+W_{\\text{sand}}$ </p>\n<p>Since the ball starts from rest at height  $ℎ$  and ends at rest after depth  $d$ , the total change in kinetic energy is zero  $(\\Delta K=0)$ .</p>\n<p> $W_{\\text{gravity}}+W_{\\text{sand}}=0$ </p>\n<p>Gravity acts over the entire vertical displacement (  $h+d$  ).</p>\n<p>So, the work done by gravitational force is  $W_{\\text{gravity}}=mg(h+d)$ </p>\n<p>The resistive force  $F_{\\text{avg}}$  acts upwards, opposite to the displacement  $d$ .</p>\n<p>So, the work done by the sand is  $W_{\\text{sand}}=-F_{\\text{avg}} \\cdot d$ </p>\n<p>Substituting these into the energy equation :</p>\n<p> $mg(h+d)-F_{avg} \\cdot d=0$ </p>\n<p> $\\Rightarrow$   $F_{avg}=\\frac{mg(h+d)}{d}$ </p>\n<p>The mass of ball is  $m=2kg$ , the height of fall is  $h=10m$ , the distance of penetration in sand is  $d=$  0.1 m , and  $g=10m/s^{2}$ .</p>\n<p> $F_{avg}=\\frac{2 \\times 10 \\times (10+0.1)}{0.1}$ </p>\n<p> $\\Rightarrow$   $F_{avg}=\\frac{20 \\times 10.1}{0.1}=20 \\times 101$ </p>\n<p> $\\Rightarrow$   $F_{avg}=2020N$ </p>\n<p>Therefore, the average force exerted by sand on the ball is 2020 N . </p>\n<p>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "g=10m/s^{2}",
@@ -112,7 +112,7 @@
         "F_{avg}=\\frac{mg(h+d)}{d}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.408710"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let a conservative force  $\\vec{F}$  is acting on an object. For infinitesimally small displacement  $d\\vec{r}=dx\\hat{i}+dy\\hat{j}+dz\\hat{k}$ , the work done is,</p>\n<p> $dW=\\vec{F} \\cdot d\\vec{r}$ </p>\n<p>The work done (W) by a variable force  $\\vec{F}$  when displacing an object from an initial position vector  $\\vec{r}_{1}$  to a final position vector  $\\vec{r}_{2}$  is the total work done in moving the object,</p>\n<p>The work done is,  $W=\\int_{r_{1}}^{r_{2}}\\vec{F} \\cdot d\\vec{r}$ </p>\n<p>So, this formula is valid for all forces whether it is conservative or non-conservative force. But the statement I states that the work done is  $W=-\\int_{r_{1}}^{r_{2}}\\vec{F}$ .  $d\\vec{r}$ . Hence, the statement  $I$  is false.</p>\n<p>Work done by a conservative force is path independent. And the work done by the conservative force is negative of the change in potential energy, i.e., the work done by the conservative force is stored in object as potential energy.</p>\n<p>The work done depends only on the initial and final positions.</p>\n<p> $W=\\int_{\\vec{r}_{1}}^{\\vec{r}_{2}}\\vec{F} \\cdot d\\vec{r}=-(U_{f}-U_{i})$ </p>\n<p>For a particle going from point A to point B , there are infinitely many possible paths. So, it is a geometrical fact and is correct.</p>\n<p>A force is called conservative if  $∮\\vec{F} \\cdot d\\vec{r}=0$ </p>\n<p>That means work done in a closed path is zero.</p>\n<p>Hence for motion from A to B :</p>\n<p> $W_{A \\rightarrow B}=U_{A}-U_{B}$ </p>\n<p>So work done depends only on initial position and final position and not on the path followed.</p>\n<p>But the statement says, \"work done changes with path for a conservative force\", so the statement is incorrect because for conservative forces, straight path, curved path, zig-zag path all give the same work between the same two points. Hence, the statement II is incorrect.</p>\n<p>Therefore, both Statement I and Statement II are false. Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "r_{1}",
@@ -169,7 +169,7 @@
         "dW=\\vec{F} \\cdot d\\vec{r}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.938071"
     },
@@ -194,7 +194,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When multiple forces act on a body simultaneously, the net force is the vector sum of all individual forces :</p>\n<p> $\\vec{F}_{net}=\\vec{F}_{1}+\\vec{F}_{2}$ </p>\n<p> $\\Rightarrow$   $\\vec{F}_{net}=(2\\hat{ı}+3\\hat{ȷ}+4\\hat{k})+(3\\hat{ı}-\\hat{ȷ}-2\\hat{k})$ </p>\n<p> $\\Rightarrow$   $\\vec{F}_{net}=(2+3)\\hat{ı}+(3-1)\\hat{ȷ}+(4-2)\\hat{k}$ </p>\n<p> $\\Rightarrow$   $\\vec{F}_{net}=(5\\hat{ı}+2\\hat{ȷ}+2\\hat{k})N$ </p>\n<p>The block moves a distance of 25 m along the direction of the vector  $\\vec{A}=3\\hat{ı}-4\\hat{ȷ}$ . The unit vector in this direction is :</p>\n<p> $\\hat{u}=\\frac{\\vec{A}}{|\\vec{A}|}=\\frac{3\\hat{ı}-4\\hat{ȷ}}{\\sqrt{3^{2}+(-4)^{2}}}=\\frac{3\\hat{ı}-4\\hat{ȷ}}{\\sqrt{9+16}}=\\frac{3\\hat{ı}-4\\hat{ȷ}}{5}$ </p>\n<p>The displacement vector  $\\vec{d}$  is</p>\n<p> $\\vec{d}=25 \\times (\\frac{3\\hat{ı}-4\\hat{ȷ}}{5})=5(3\\hat{ı}-4\\hat{ȷ})=(15\\hat{ı}-20\\hat{ȷ})m$ </p>\n<p>Work done is defined as the dot product of the force vector and the displacement vector :</p>\n<p> $W=\\vec{F}_{net} \\cdot \\vec{d}$ </p>\n<p> $\\Rightarrow$   $W=(5\\hat{ı}+2\\hat{ȷ}+2\\hat{k}) \\cdot (15\\hat{ı}-20\\hat{ȷ}+0\\hat{k})$ </p>\n<p> $\\Rightarrow$   $W=(5 \\times 15)+(2 \\times (-20))+(2 \\times 0)$ </p>\n<p> $\\Rightarrow$   $W=75-40+0=35J$ </p>\n<p>Therefore, the correct answer is 35 .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "____",
@@ -205,7 +205,7 @@
         "\\vec{A}=3\\hat{ı}-4\\hat{ȷ}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:39.305017"
     },
@@ -254,7 +254,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo4fpv2y/9e0021cb-81a5-42b5-9355-64909243bdc1/33773fa0-3b33-11f1-8c42-c7a7a182458c/file-6y3zli1mo4fpv2z.webp?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo4fsjo3/b6cdbb8d-e127-4293-af9a-524a2e1fc9bc/7e13be30-3b33-11f1-8c42-c7a7a182458c/file-6y3zli1mo4fsjo4.webp?format=webp"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -265,7 +265,7 @@
         "(M-m)g=(M+m)a"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:25.777003"
     },
@@ -314,7 +314,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8w2ix5/e5f6479c-ae49-4514-841d-fa273d0828c4/a21e2390-0241-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8w2ix6.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlad078e/048124a8-67fa-4a70-b834-3a38b7f061dd/a550ebe0-0310-11f1-8b74-0b106d6f57bc/file-6y3zli1mlad078f.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{P}",
@@ -325,7 +325,7 @@
         "\\frac{t_{Q}}{t_{P}}>1 \\Rightarrow t_{Q}>t_{P}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.453574"
     },
@@ -371,7 +371,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Velocity (  $v$  ) is the rate of change of displacement (  $x$  ) with respect to time (  $t$  ) :</p>\n<p> $v(t)=\\frac{dx}{dt}$ </p>\n<p>The displacement function is given as:</p>\n<p> $x(t)=\\alpha t^{2}+\\beta t+\\gamma$ </p>\n<p>Differentiating with respect to  $t$  :</p>\n<p> $v(t)=\\frac{d}{dt}(\\alpha t^{2}+\\beta t+\\gamma)$ </p>\n<p> $\\Rightarrow$   $v(t)=2\\alpha t+\\beta$ </p>\n<p>Substituting the given values  $(\\alpha=1m/s^{2},\\beta=1m/s)$  :</p>\n<p> $v(t)=2(1)t+1$ </p>\n<p> $\\Rightarrow$   $v(t)=2t+1$ </p>\n<p>Initial velocity  $(v_{i})$  at  $t=2s$  :</p>\n<p> $v_{i}=2(2)+1=5m/s$ </p>\n<p>Final velocity  $(v_{f})$  at  $t=3s$  :</p>\n<p> $v_{f}=2(3)+1=7m/s$ </p>\n<p>Using Work-Energy Theorem formula,</p>\n<p> $W=\\Delta K \\cdot E \\cdot =\\frac{1}{2}mv_{f}^{2}-\\frac{1}{2}mv_{i}^{2}$ </p>\n<p> $\\Rightarrow$   $W=\\frac{1}{2}m(v_{f}^{2}-v_{i}^{2})$ </p>\n<p> $\\Rightarrow$   $W=\\frac{1}{2} \\times 2 \\times (7^{2}-5^{2})$ </p>\n<p> $\\Rightarrow$   $W=1 \\times (49-25)$ </p>\n<p> $\\Rightarrow$   $W=24J$ </p>\n<p>Therefore, the work done on the body during the given time interval is 24 J . </p>\n<p>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "x(t)=\\alpha t^{2}+\\beta t+\\gamma",
@@ -382,7 +382,7 @@
         "t=3s"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.963619"
     },
@@ -407,7 +407,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Power (P) is defined as the rate at which work is done. It can be calculated as the dot product of the force vector  $(\\vec{F})$  and the velocity vector  $(\\vec{V})$ .</p>\n<p>According to Newton's Second Law  $(\\vec{F}=m\\vec{a})$ , the acceleration is :</p>\n<p> $\\vec{a}=\\frac{\\vec{F}}{m}=\\frac{2t\\hat{ı}+6t^{2}\\hat{ȷ}}{2}$ </p>\n<p> $\\vec{a}=(t\\hat{ı}+3t^{2}\\hat{ȷ})m/s^{2}$ </p>\n<p>Velocity is the integral of acceleration with respect to time. Since the body begins to move, we assume the initial velocity is zero at  $t=0$  :</p>\n<p> $\\vec{v}=\\int \\vec{a}dt=\\int_{0}^{t}(t\\hat{ı}+3t^{2}\\hat{ȷ})dt$ </p>\n<p> $\\vec{v}=(\\frac{t^{2}}{2})\\hat{ı}+(\\frac{3t^{3}}{3})\\hat{ȷ}=(\\frac{t^{2}}{2})\\hat{ı}+t^{3}\\hat{ȷ}$ </p>\n<p>Force at  $t=2$  :</p>\n<p> $\\vec{F}(2)=[2(2)]\\hat{i}+[6(2)^{2}]\\hat{ȷ}=(4\\hat{i}+24\\hat{ȷ})N$ </p>\n<p>Velocity at  $t=2$  :</p>\n<p> $\\vec{v}(2)=[\\frac{(2)^{2}}{2}]\\hat{ı}+(2)^{3}\\hat{ȷ}=(2\\hat{ı}+8\\hat{ȷ})m/s$ </p>\n<p>So, the power at  $t=2s$  is,</p>\n<p> $P=\\vec{F} \\cdot \\vec{v}$ </p>\n<p> $\\begin{aligned} P=(4\\hat{ı}+24\\hat{ȷ}) \\cdot (2\\hat{ı}+8\\hat{ȷ}) \\\\ P=(4 \\times 2)+(24 \\times 8) \\\\ P=8+192=200W \\end{aligned}$ </p>\n<p>Therefore, the correct answer is 200 .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{F}=(2t\\hat{i}+6t^{2}\\hat{j})N",
@@ -418,7 +418,7 @@
         "\\vec{a}=(t\\hat{ı}+3t^{2}\\hat{ȷ})m/s^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:39.339699"
     },
@@ -466,7 +466,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo4kom8g/0e22b115-5795-4116-aae6-febb7133d4dc/9e77d900-3b46-11f1-a2ba-f57fd97b4b05/file-6y3zli1mo4kom8h.webp?format=webp"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -477,7 +477,7 @@
         "m=1g=1 \\times 10^{-3}kg"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:25.818250"
     },
@@ -525,7 +525,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlutkti1/ec272730-93fd-443e-becd-35ed913d1e41/21c14490-0e51-11f1-97f7-91791681dff2/file-6y3zli1mlutkti2.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta=60^{\\circ}",
@@ -536,7 +536,7 @@
         "K_{B}=\\frac{1}{2}m(v_{B})^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.499392"
     },
@@ -584,7 +584,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8b57ie/549f4be0-42f3-4404-b29b-42ccf8e0d8a7/cd04ee60-01ef-11f1-bb8c-db351d97a854/file-6y3zli1ml8b57if.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "F=-\\frac{dV}{dx}",
@@ -595,7 +595,7 @@
         "|F_{CD}|=|\\frac{4-4}{4-2}|=0\\text{unit}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:27.002287"
     },
@@ -643,7 +643,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo8i24ke/9ef6fc01-42f7-4b31-b058-41e1ccf938a7/7d5babe0-3d6f-11f1-8a50-d9d4b8d5738a/file-6y3zli1mo8i24kf.webp?format=webp"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "30^{\\circ}",
@@ -654,7 +654,7 @@
         "m=1kg"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:25.900791"
     },
@@ -702,11 +702,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8vt218/e17e76ef-50e7-40d1-8a90-305fa9cdbe3e/9aca7cc0-0240-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8vt219.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:26.541818"
     },
@@ -752,7 +752,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Given Information:</strong></p>\n<p><p>Force:  $\\vec{F}=(2t\\hat{i}+3t^{2}\\hat{j})\\text{N}$ </p></p>\n<p><p>Mass of the object,  $m=1000\\text{g}=1\\text{kg}$ </p></p>\n<p><strong>Determine Acceleration:</strong></p>\n<p><p>Using Newton's second law,  $\\vec{F}=m\\vec{a}$ .</p></p>\n<p><p>Thus, the acceleration,  $\\vec{a}=2t\\hat{i}+3t^{2}\\hat{j}$ .</p></p>\n<p><strong>Velocity Calculation:</strong></p>\n<p><p>To find velocity, integrate acceleration with respect to time:</p>\n<p> $\\frac{d\\vec{v}}{dt}=2t\\hat{i}+3t^{2}\\hat{j}$ </p></p>\n<p><p>Integrate to find  $\\vec{v}$ :</p>\n<p> $\\vec{v}=\\int (2t\\hat{i}+3t^{2}\\hat{j})dt=t^{2}\\hat{i}+t^{3}\\hat{j}+\\vec{C}$ </p>\n<p>(Assuming initial velocity is zero,  $\\vec{C}=0$ , hence  $\\vec{v}=t^{2}\\hat{i}+t^{3}\\hat{j}$ ).</p></p>\n<p><strong>Calculate Power:</strong></p>\n<p><p>Power is defined as the dot product of force and velocity vectors:</p>\n<p> $P=\\vec{F} \\cdot \\vec{v}=(2t\\hat{i}+3t^{2}\\hat{j}) \\cdot (t^{2}\\hat{i}+t^{3}\\hat{j})$ </p></p>\n<p><p>Computing the dot product gives:</p>\n<p> $P=(2t \\cdot t^{2})+(3t^{2} \\cdot t^{3})=2t^{3}+3t^{5}$ </p></p>\n<p>The power generated at time  $t$  is  $P=(2t^{3}+3t^{5})\\text{W}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}=(2t\\hat{i}+3t^{2}\\hat{j})N",
@@ -763,7 +763,7 @@
         "\\vec{v}=t^{2}\\hat{i}+t^{3}\\hat{j}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:27.446573"
     },
@@ -809,11 +809,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; ⟨p⟩=\\frac{(2\\hat{i}+3\\hat{j}) \\cdot (3\\hat{i}+6\\hat{j})}{4}=6 \\\\ &amp; \\vec{a}=⎛⎝⎜\\frac{\\vec{F}}{m}=\\frac{1}{2}\\hat{i}+\\frac{3}{4}\\hat{j}⎞⎠⎟ \\\\ &amp; \\vec{v}\\text{at}t=4sec=(\\frac{1}{2}\\hat{i}+\\frac{3}{4}\\hat{j}) \\times 4=(2\\hat{i}+3\\hat{j}) \\\\ &amp; P_{\\text{ins}}=(2\\hat{i}+3)(2\\hat{i}+3\\hat{j})=13 \\\\ &amp; \\frac{⟨P⟩}{P_{\\text{ins}}}=\\frac{6}{13} \\end{aligned}$ </p>\n<p>Note: Given data is not matching.</p>\n<p> $\\begin{aligned} &amp; S=ut+\\frac{1}{2}at^{2} \\\\ &amp; S=0+\\frac{1}{2}\\frac{(2\\hat{i}+3\\hat{j})}{4}(4)^{2}=4\\hat{i}+6\\hat{j} \\end{aligned}$ </p>\n<p>If  $\\vec{r}_{i}=3\\hat{i}+4\\hat{j}$  then  $\\vec{r}_{f}=7\\hat{i}+10\\hat{j}$ </p>\n<p>But Final position given in the question is  $(6,10)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:27.953001"
     },
@@ -859,7 +859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's break down the problem step by step:</p>\n<p><p>The ball is projected with kinetic energy </p>\n<p> $KE=\\frac{1}{2}mv^{2},$ </p>\n<p>where  $v$  is the initial speed.</p></p>\n<p><p>The ball is launched at an angle of  $60^{\\circ}$ . So, its initial velocity components are:</p></p>\n<p><p>Horizontal:  $v_{x}=vcos(60^{\\circ})=\\frac{v}{2}$ </p></p>\n<p><p>Vertical:  $v_{y}=vsin(60^{\\circ})$ </p></p>\n<p><p>At the highest point of its flight, the vertical component of the velocity becomes zero (i.e.,  $v_{y}=0$ ), but the horizontal component remains unchanged.</p></p>\n<p><p>Therefore, the kinetic energy at the highest point is only due to the horizontal velocity:</p>\n<p> $KE_{\\text{top}}=\\frac{1}{2}mv_{x}^{2}$ </p></p>\n<p><p>Substitute  $v_{x}=\\frac{v}{2}$ :</p>\n<p> $KE_{\\text{top}}=\\frac{1}{2}m(\\frac{v}{2})^{2}=\\frac{1}{2}m\\frac{v^{2}}{4}=\\frac{1}{8}mv^{2}$ </p></p>\n<p><p>Notice that the initial kinetic energy is </p>\n<p> $KE=\\frac{1}{2}mv^{2}.$  </p>\n<p>So we can write:</p>\n<p> $KE_{\\text{top}}=\\frac{1}{8}mv^{2}=\\frac{1}{4}(\\frac{1}{2}mv^{2})=\\frac{1}{4}KE$ </p></p>\n<p>Thus, the kinetic energy at the highest point is  $\\frac{KE}{4}$ .</p>\n<p>Answer: Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "60^{\\circ}",
@@ -869,7 +869,7 @@
         "v_{x}=\\frac{v}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.401226"
     },
@@ -917,14 +917,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rrnwle/6d77b8f6-38bf-4a0c-a786-522323aedb29/b2d18a20-1f10-11f0-9588-0d31893f02ea/file-jaoe38c1m9rrnwlf.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "45^{\\circ}",
         "a=0 \\Rightarrow Fcos45^{\\circ}="
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:27.498781"
     },
@@ -973,7 +973,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6vv01hf/d6172690-de16-4d80-a7c2-533f6e78297f/3c278440-e5ec-11ef-ac74-491aa7357b34/file-jaoe38c1m6vv01hg.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hioy1w/131e2cb6-d07a-48eb-b82c-1062da94c61c/58570240-f1d5-11ef-aab0-892656acd133/file-jaoe38c1m7hioy1x.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1}=2R-R=R",
@@ -984,7 +984,7 @@
         "E_{1}^{\\circ}=E_{f}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:27.989443"
     },
@@ -1030,7 +1030,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the value of  $b$  such that the work done on the particle is zero, follow these steps:</p>\n<p><p>The work done by a force on a displacement is given by the dot product:</p>\n<p> $\\text{Work}=\\vec{F} \\cdot \\vec{d}.$ </p></p>\n<p><p>Given the force </p>\n<p> $\\vec{F}=2\\hat{i}+b\\hat{j}+\\hat{k},$  </p>\n<p>and the displacement </p>\n<p> $\\vec{d}=\\hat{i}-2\\hat{j}-\\hat{k},$  </p>\n<p>compute the dot product:</p>\n<p> $\\vec{F} \\cdot \\vec{d}=(2)(1)+(b)(-2)+(1)(-1).$ </p></p>\n<p><p>Simplify the expression:</p>\n<p> $\\vec{F} \\cdot \\vec{d}=2-2b-1=1-2b.$ </p></p>\n<p><p>Since the work done is zero:</p>\n<p> $1-2b=0.$ </p></p>\n<p><p>Solve for  $b$ :</p>\n<p> $2b=1,$ </p>\n<p> $b=\\frac{1}{2}.$ </p></p>\n<p>Thus, the value of  $b$  is  $\\frac{1}{2}$ , which corresponds to Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}=2\\hat{i}+b\\hat{j}+\\hat{k}",
@@ -1041,7 +1041,7 @@
         "\\vec{F} \\cdot \\vec{d}=2-2b-1=1-2b."
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.433347"
     },
@@ -1087,7 +1087,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Using the equation of motion for velocity</strong> at height  $x$ :  </p>\n<p> $V^{2}=0+2g(S-x)$ </p>\n<p>Simplifies to:</p>\n<p> $V^{2}=2g(S-x)$ </p>\n<p><p><strong>Potential Energy</strong> at height  $x$ :  </p>\n<p> $\\text{Potential Energy}=mgx$ </p></p>\n<p><p><strong>Relation between kinetic and potential energy</strong>:  </p>\n<p>Given that the kinetic energy is three times the potential energy,</p>\n<p> $mgx=3 \\times \\frac{1}{2}mV^{2}$ </p>\n<p>Simplifying gives:</p>\n<p> $gx=\\frac{3}{2} \\times 2g(S-x)$ </p>\n<p> $gx=3g(S-x)$ </p>\n<p> $4x=S$ </p>\n<p>Solving for  $x$ :</p>\n<p> $x=\\frac{S}{4}$ </p></p>\n<p><p><strong>Finding the speed  $V$  at this instant</strong>:</p>\n<p> $V=\\sqrt{2g(S-\\frac{S}{4})}=\\sqrt{2g \\times \\frac{3S}{4}}=\\sqrt{\\frac{3gS}{2}}$ </p></p>\n<p>Thus, the height from the surface of the Earth is  $\\frac{S}{4}$  and the speed of the particle at that height is  $\\sqrt{\\frac{3gS}{2}}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "mgx=3 \\times \\frac{1}{2}mV^{2}",
@@ -1096,7 +1096,7 @@
         "4x=S"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:27.530455"
     },
@@ -1142,11 +1142,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In a central force field, the work done is independent of the path chosen, this is true because central forces are conservative forces. Every force encountered in mechanics does not have an associated potential energy this is also true because not all forces are conservative. Hence, option 2 is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.019802"
     },
@@ -1173,11 +1173,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m73jlfpf/c55d6ecd-24d8-4fc8-a545-72bd4c403e7b/e6c71130-ea25-11ef-b06e-67944dfb005e/file-jaoe38c1m73jlfpg.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:39.377324"
     },
@@ -1223,7 +1223,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The correct answer is:</p>\n<p> $\\text{Option A: Frictional force}$ </p>\n<p>Here's why:</p>\n<p><strong>Conservative vs. Non-Conservative Forces:</strong></p>\n<p><p><strong>Conservative Forces:</strong> These are forces for which the work done is independent of the path taken; they only depend on the initial and final positions. For conservative forces, you can define a potential energy function. Examples include Coulomb’s force, gravitational force, and the restoring force of a spring.</p></p>\n<p><p><strong>Non-Conservative Forces:</strong> These forces depend on the path taken and usually result in energy dissipation (often as heat). Friction is a typical example, and hence, it cannot be described solely by a potential energy function.</p></p>\n<p><strong>Example Explanations:</strong></p>\n<p><p><strong>Coulomb’s Force:</strong> It is a conservative force because the work done in moving a charge in an electric field only depends on the difference in electric potential between two points.</p></p>\n<p><p><strong>Gravitational Force:</strong> It is also conservative. The potential energy associated with gravitational force is given by gravitational potential energy, for example,  $U=mgℎ$  near the Earth’s surface.</p></p>\n<p><p><strong>Restoring Force:</strong> For a spring, the force is given by Hooke’s law:  $F=-kx$  and the corresponding potential energy is  $U=\\frac{1}{2}kx^{2}.$  This is a conservative force.</p></p>\n<p>Since friction is a non-conservative force that dissipates energy, it cannot be expressed in terms of potential energy.</p>\n<p>Therefore, the correct answer is Option A: Frictional force.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "U=mgℎ",
@@ -1231,7 +1231,7 @@
         "U=\\frac{1}{2}kx^{2}."
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:27.038732"
     },
@@ -1277,7 +1277,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $\\frac{dm}{dt}∝\\sqrt{v}$ </p>\n<p>So,  $\\frac{dm}{dt}=k\\sqrt{v}$  .... (i)</p>\n<p>where, k = constant</p>\n<p>We know, Power =  $P=FV$ </p>\n<p> $\\Rightarrow P=\\frac{dp}{dt}v$  (As  $F=\\frac{dp}{dt}$  where, p = linear momentum)</p>\n<p> $\\Rightarrow P=\\frac{d}{dt}(mv)v$ </p>\n<p> $\\Rightarrow P=v\\frac{dm}{dt}.v$  (As speed is constant i.e. v = constant)</p>\n<p> $\\Rightarrow P=v^{2}(k\\sqrt{v})$  [From (i)]</p>\n<p> $\\Rightarrow P=kv^{5/2}$ </p>\n<p>by squaring both sides,</p>\n<p> $\\Rightarrow P^{2}=k^{2}v^{5}$ </p>\n<p> $\\Rightarrow P^{2}∝v^{5}$  (As  $k^{2}$  = constant)</p>\n<p>Hence, option 4 is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dm}{dt}∝\\sqrt{v}",
@@ -1288,7 +1288,7 @@
         "\\Rightarrow P=\\frac{d}{dt}(mv)v"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:27.569095"
     },
@@ -1334,7 +1334,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The work done by a force is given by the integral of the force over the displacement. The force is given by:</p>\n<p> $F(x)=\\alpha+\\beta x^{2}$ </p>\n<p>To find the work done when the object is displaced from  $x=0$  to  $x=1$ , we compute:</p>\n<p> $W=\\int_{0}^{1}(\\alpha+\\beta x^{2})dx$ </p>\n<p>Substituting  $\\alpha=1\\text{N}$ :</p>\n<p> $W=\\int_{0}^{1}(1+\\beta x^{2})dx=\\int_{0}^{1}1dx+\\int_{0}^{1}\\beta x^{2}dx$ </p>\n<p>Calculating each integral separately:</p>\n<p><p> $\\int_{0}^{1}1dx=[x]_{0}^{1}=1$ </p></p>\n<p><p> $\\int_{0}^{1}\\beta x^{2}dx=\\beta[\\frac{x^{3}}{3}]_{0}^{1}=\\beta[\\frac{1^{3}}{3}-\\frac{0^{3}}{3}]=\\frac{\\beta}{3}$ </p></p>\n<p>Thus, the total work done is:</p>\n<p> $W=1+\\frac{\\beta}{3}$ </p>\n<p>We are given that the work done is 5 J, so:</p>\n<p> $1+\\frac{\\beta}{3}=5$ </p>\n<p>Subtract 1 from both sides:</p>\n<p> $\\frac{\\beta}{3}=4$ </p>\n<p>Multiply both sides by 3 to solve for  $\\beta$ :</p>\n<p> $\\beta=12\\text{N/m}^{2}$ </p>\n<p>Therefore, the value of  $\\beta$  is  $12\\text{N/m}^{2}$ . Thus, Option C  $12\\text{N/m}^{2}$  is the correct answer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "F=\\alpha+\\beta x^{2}",
@@ -1345,7 +1345,7 @@
         "W=\\int_{0}^{1}(\\alpha+\\beta x^{2})dx"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.050779"
     },
@@ -1370,14 +1370,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To calculate the work done by the force  $f=x^{2}y\\hat{i}+y^{2}\\hat{j}$  during the displacement from  $(0,0)$  to  $(4\\text{m},2\\text{m})$ , we proceed as follows:</p>\n<p>Given the constraint that the particle moves in the plane  $x+y=10$ , we can express  $y$  in terms of  $x$ :</p>\n<p> $y=10-x$ </p>\n<p>The work done,  $W$ , is the integral of the force along the path of the displacement:</p>\n<p> $W=\\int_{0}^{4}x^{2}(10-x)dx+\\int_{0}^{2}y^{2}dy$ </p>\n<p>Calculate the integral of the  $\\hat{i}$  component:</p>\n<p> $\\begin{aligned} &amp; \\int_{0}^{4}x^{2}(10-x)dx=\\int_{0}^{4}(10x^{2}-x^{3})dx \\\\ &amp; =[\\frac{10x^{3}}{3}-\\frac{x^{4}}{4}]_{0}^{4} \\\\ &amp; =(\\frac{10(4)^{3}}{3}-\\frac{(4)^{4}}{4})-(\\frac{10(0)^{3}}{3}-\\frac{(0)^{4}}{4}) \\\\ &amp; =\\frac{640}{3}-\\frac{256}{4} \\end{aligned}$ </p>\n<ol start=\"2\">\n<p>Calculate the integral of the  $\\hat{j}$  component:</p>\n<p> $\\begin{aligned} &amp; \\int_{0}^{2}y^{2}dy=[\\frac{y^{3}}{3}]_{0}^{2} \\\\ &amp; =\\frac{(2)^{3}}{3}-\\frac{(0)^{3}}{3} \\\\ &amp; =\\frac{8}{3} \\end{aligned}$ </p>\n<p>Combine the results:</p>\n<p> $W=(\\frac{640}{3}-64)+\\frac{8}{3}$ </p>\n<p>Simplify:</p>\n<p> $\\begin{aligned} W &amp; =\\frac{640}{3}-64+\\frac{8}{3} \\\\ &amp; =\\frac{640+8}{3}-64 \\\\ &amp; =\\frac{648}{3}-64 \\\\ &amp; =216-64 \\\\ &amp; =152\\text{J} \\end{aligned}$ </p>\n<p>Thus, the work done by the force is 152 Joules.</p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "f=x^{2}y\\hat{i}+y^{2}\\hat{j}",
         "x+y=10"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:39.414245"
     },
@@ -1423,7 +1423,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the bodies A, B, and C have equal kinetic energies, we can use the relationship between kinetic energy ( $K.E.$ ) and linear momentum ( $p$ ) to find the ratio of their momenta. Recall the formula for kinetic energy is  $K.E.=\\frac{1}{2}mv^{2}$  and the formula for momentum is  $p=mv$ , where  $m$  is the mass and  $v$  is the velocity of the object.</p>\n<p>First, from the kinetic energy formula, we can express the velocity in terms of kinetic energy and mass:\n\n<p> $v=\\sqrt{\\frac{2 \\cdot K.E.}{m}}.$ </p>\n<p>The momentum can then be rewritten using the velocity expression obtained from the kinetic energy equation:</p>\n<p> $p=m\\sqrt{\\frac{2 \\cdot K.E.}{m}}=\\sqrt{2m \\cdot K.E.}.$ </p>\n<p>Given that the kinetic energies are the same for all three bodies, we can ignore the kinetic energy term when comparing the ratios, simplifying our comparison to the square root of their masses:</p>\n<p> $p∝\\sqrt{m}.$ </p>\n<p>Now, we calculate the ratio of their linear momenta using their masses. Note that the masses should be in consistent units for a valid comparison, so we'll use kilograms for all:</p>\n<ul>\n<li>Mass of A =  $400g=0.4kg$ </li><br/>\n<li>Mass of B =  $1.2kg$ </li><br/>\n<li>Mass of C =  $1.6kg$ </li>\n</ul>\n<p>Thus, the ratio of their momenta will be proportional to the square root of their masses:</p>\n<p> $\\text{Ratio of momenta}=\\sqrt{0.4}:\\sqrt{1.2}:\\sqrt{1.6}=\\sqrt{\\frac{4}{10}}:\\sqrt{\\frac{12}{10}}:\\sqrt{\\frac{16}{10}}=\\sqrt{\\frac{2}{5}}:\\sqrt{\\frac{6}{5}}:\\sqrt{\\frac{8}{5}}.$ </p>\n<p>Simplifying these we get:</p>\n<p> $\\text{Ratio of momenta}=\\frac{\\sqrt{2}}{\\sqrt{5}}:\\frac{\\sqrt{6}}{\\sqrt{5}}:\\frac{\\sqrt{8}}{\\sqrt{5}}=\\sqrt{2}:\\sqrt{6}:\\sqrt{8}.$ </p>\n<p>Recognizing that  $\\sqrt{6}$  is equivalent to  $\\sqrt{2} \\cdot \\sqrt{3}$  and that  $\\sqrt{8}$  is equivalent to  $\\sqrt{2} \\cdot \\sqrt{2} \\cdot \\sqrt{2}=2\\sqrt{2}$ , we see this can also be expressed as:</p>\n<p> $\\sqrt{2}:\\sqrt{2} \\cdot \\sqrt{3}:2\\sqrt{2}.$ </p>\n<p>Dividing through by  $\\sqrt{2}$  to simplify the ratio, the final ratio of their linear momenta is:</p>\n<p> $1:\\sqrt{3}:2,$ </p>\n<p>which matches <strong>Option A</strong>  $1:\\sqrt{3}:2.$ </p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\sqrt{\\frac{2 \\cdot K.E.}{m}}.",
@@ -1431,7 +1431,7 @@
         "400g=0.4kg"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.958340"
     },
@@ -1477,7 +1477,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a body moves under the influence of a constant power, the relationship between displacement and time can be established through the concept of power. Power (P) is defined as the rate at which work is done, and it can also be expressed in terms of force (F) and velocity (v) as  $P=F \\cdot v$ .</p>\n<p>For a constant power P and assuming the force acts in the direction of the velocity, we can analyze how displacement (s) changes with time (t). Since force can also be written as  $F=\\frac{d(mv)}{dt}$  for a constant mass m, this simplifies to  $F=m\\frac{dv}{dt}$ , because mass doesn't change with time for most cases. Integrating force over a distance gives work (W), and power is the rate of doing work, thus we can connect these concepts.</p>\n<p>The kinetic energy (K.E) of the body is given by  $K.E=\\frac{1}{2}mv^{2}$ , and the work done by the force is equal to the change in kinetic energy. Considering power is constant,  $P=\\frac{dW}{dt}=\\frac{d(\\frac{1}{2}mv^{2})}{dt}$ . Rearranging terms to focus on velocity and integrating with respect to time will give us a relation involving velocity and time.</p>\n<p>For a constant mass system, and using  $P=F \\cdot v=m \\cdot a \\cdot v=m \\cdot \\frac{dv}{dt} \\cdot v$ , and knowing that  $P=\\text{constant}$ , we rearrange to find the relationship between velocity and time.</p>\n<p>Given  $P=m \\cdot v \\cdot \\frac{dv}{dt}$ , we rearrange to  $\\frac{P}{m}dt=vdv$ . Integrating both sides where the initial condition is when  $t=0,v=0$ , we get  $\\frac{P}{m}t=\\frac{1}{2}v^{2}$ , solving for  $v$  gives  $v∝t^{1/2}$ , so  $v=k \\cdot t^{1/2}$  for some constant  $k$ .</p>\n<p>The displacement  $s$  is obtained by integrating the velocity with respect to time,  $s=\\int vdt=\\int k \\cdot t^{1/2}dt=\\frac{2}{3}k \\cdot t^{3/2}$ . Therefore, the displacement  $s$  is proportional to  $t^{3/2}$ .</p>\n<p>The correct answer is <strong>Option B</strong>,  $t^{3/2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "P=F \\cdot v",
@@ -1488,7 +1488,8 @@
         "P=F \\cdot v=m \\cdot a \\cdot v=m \\cdot \\frac{dv}{dt} \\cdot v"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:29.382129"
     },
@@ -1534,13 +1535,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{F}=(6t\\hat{i}+6t^{2}\\hat{j})N \\\\ &amp; \\vec{F}=m\\vec{a}=(6t\\hat{i}+6t^{2}\\hat{j}) \\\\ &amp; \\vec{a}=\\frac{\\vec{F}}{m}=(3t\\hat{i}+3t^{2}\\hat{j}) \\\\ &amp; \\vec{v}=\\int_{0}^{t}\\vec{a}dt=\\frac{3t^{2}}{2}\\hat{i}+t^{3}\\hat{j} \\\\ &amp; P=\\vec{F} \\cdot \\vec{v}=(9t^{3}+6t^{5})W \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{F}=(6t\\hat{i}+6t^{2}\\hat{j})N"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:29.997335"
     },
@@ -1586,11 +1587,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given}m=100kg \\\\ &amp; s=10m \\\\ &amp; \\mu=0.4 \\\\ &amp; \\text{As}f=\\mu mg=0.4 \\times 100 \\times 10=400N \\\\ &amp; \\text{Now}W=f.s=400 \\times 10=4000J \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.395340"
     },
@@ -1615,7 +1616,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the work done by the force when the body is displaced from  $x=2m$  to  $x=4m$ , we use the formula for work done by a variable force in one dimension, which is the integral of the force with respect to displacement:</p>\n<p> $W=\\int_{x_{1}}^{x_{2}}Fdx$ </p>\n<p>Given the force  $F(x)=(3x^{2}+2x-5)N$  and the limits of integration from  $x=2m$  to  $x=4m$ , we can substitute these values into the equation:</p>\n<p> $W=\\int_{2}^{4}(3x^{2}+2x-5)dx$ </p>\n<p>Calculating the integral, we get:</p>\n<p> $W=[\\frac{3x^{3}}{3}+\\frac{2x^{2}}{2}-5x]_{2}^{4}$ </p>\n<p>This simplifies to:</p>\n<p> $W=[x^{3}+x^{2}-5x]_{2}^{4}$ </p>\n<p>Substituting the upper limit ( $x=4$ ) and then the lower limit ( $x=2$ ) into the antiderivative, and subtracting the latter from the former, we get:</p>\n<p> $W=[(4)^{3}+(4)^{2}-5(4)]-[(2)^{3}+(2)^{2}-5(2)]$ </p>\n<p> $W=(64+16-20)-(8+4-10)$ </p>\n<p> $W=60-2$ </p>\n<p> $W=58J$ </p>\n<p>Therefore, the work done by the force as the body displaces from  $x=2m$  to  $x=4m$  is  $58J$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "(3x^{2}+2x-5)N",
@@ -1626,7 +1627,7 @@
         "W=\\int_{2}^{4}(3x^{2}+2x-5)dx"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:39.964381"
     },
@@ -1672,7 +1673,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The relationship between kinetic energy (K.E) and momentum (p) of a body can be expressed through their respective definitions. Kinetic energy is given by  $K.E=\\frac{1}{2}mv^{2}$  where  $m$  is the mass of the body and  $v$  is its velocity. The momentum (p) of a body is given by  $p=mv$ . To express kinetic energy in terms of momentum, we can manipulate the expression for momentum as follows:</p>\n<p> $p=mv⟹v=\\frac{p}{m}$ </p>\n<p>Substituting  $v$  in the kinetic energy formula, we get</p>\n<p> $K.E=\\frac{1}{2}m(\\frac{p}{m})^{2}=\\frac{1}{2}\\frac{p^{2}}{m}$ </p>\n<p>Therefore, we see that kinetic energy is directly proportional to the square of the momentum  $(K.E∝p^{2})$ .</p>\n<p>Now, given that the kinetic energy of a body becomes 36 times its original value, we can set up the proportionality as</p>\n<p> $\\frac{K.E_{\\text{final}}}{K.E_{\\text{original}}}=36$ </p>\n<p>Since  $K.E_{\\text{final}}=36 \\times K.E_{\\text{original}}$  and knowing  $K.E∝p^{2}$ , we can express this relationship through the squares of the initial and final momentum:</p>\n<p> $\\frac{p_{\\text{final}}^{2}}{p_{\\text{original}}^{2}}=36$ </p>\n<p>Taking the square root of both sides to find the ratio of final to initial momentum, we have</p>\n<p> $\\frac{p_{\\text{final}}}{p_{\\text{original}}}=\\sqrt{36}=6$ </p>\n<p>This indicates that the final momentum is 6 times the original momentum. To find the percentage increase in the momentum, we calculate the increase from the original to the final, subtracting the original momentum (which is considered 1 times itself):</p>\n<p> $\\text{Percentage increase}=(\\frac{p_{\\text{final}}-p_{\\text{original}}}{p_{\\text{original}}}) \\times 100%=(\\frac{6p-p}{p}) \\times 100%=(6-1) \\times 100%=5 \\times 100%=500%$ </p>\n<p>Therefore, the correct answer is Option B: 500%.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "K.E=\\frac{1}{2}mv^{2}",
@@ -1683,7 +1684,7 @@
         "K.E∝p^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:29.004898"
     },
@@ -1731,13 +1732,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv7j9squ/11e64804-b99a-4c4b-821b-b497222e2b67/2d30f660-fec5-11ee-b5c2-83cd66ce3b61/file-1lv7j9sqv.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\therefore \\text{Ratio}=1:1"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:29.416084"
     },
@@ -1785,7 +1786,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lshjdmzd/46c7c25e-94d3-4fda-9d65-ab6b8678cc66/c8555890-c8e0-11ee-8501-bb04786aa212/file-6y3zli1lshjdmze.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "60^{\\circ}",
@@ -1793,7 +1794,7 @@
         "\\begin{aligned} & =\\mu N \\times 10 \\\\ & =0.1 \\times 5 \\times 10=5J \\end{aligned}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.014338"
     },
@@ -1839,11 +1840,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The force acting on a particle can be determined from the potential energy function by using the negative gradient. In three-dimensional space, the force vector <strong>F</strong> is related to the potential energy function  $U$  by:</p>\n<p> $F=-\\nabla U$ </p>\n<p>where  $\\nabla U$  (the gradient of  $U$ ) is a vector with components given by the partial derivatives of  $U$  with respect to  $x$ ,  $y$ , and  $z$ :</p>\n<p> $\\nabla U=(\\frac{\\partial U}{\\partial x},\\frac{\\partial U}{\\partial y},\\frac{\\partial U}{\\partial z})$ </p>\n<p>Given the potential energy function:</p>\n<p> $U=2x^{2}+3y^{3}+2z$ </p>\n<p>Calculate the partial derivative of  $U$  with respect to  $x$  to find the  $x$ -component of the force:</p>\n<p><strong>Partial Derivative with respect to  $x$ :</strong></p>\n<p> $\\frac{\\partial U}{\\partial x}=\\frac{\\partial}{\\partial x}(2x^{2}+3y^{3}+2z)=4x$ </p>\n<ol start=\"2\">\n<p><strong>Calculate the  $x$ -component of the force:</strong></p>\n<p>Since  $F_{x}=-\\frac{\\partial U}{\\partial x}$ , the  $x$ -component of the force is:</p>\n<p> $F_{x}=-4x$ </p>\n<ol start=\"3\">\n<p><strong>Evaluate at point  $P(1,2,3)$ :</strong></p>\n<p>Substitute  $x=1$  into the expression for  $F_{x}$ :</p>\n<p> $F_{x}=-4(1)=-4$ </p>\n<p>The magnitude of the  $x$ -component of the force is:</p>\n<p> $|F_{x}|=4\\text{N}$ </p>\n<p>Thus, the correct answer is <strong>Option A: 4</strong>.</p></ol></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.435987"
     },
@@ -1889,7 +1890,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the total work done by all forces applied on the particle during its displacement, we can use the work-energy theorem which states that the work done by all forces on an object is equal to the change in kinetic energy of the object. So, we first need to find the initial and final kinetic energies of the particle and then calculate the work done.</p>\n<p>The velocity of the particle is given by  $v=\\alpha\\sqrt{x}$ ,\n\n<p>and the kinetic energy  $K$  of the particle is given by  $K=\\frac{1}{2}mv^{2}$ . We can substitute the expression for  $v$  into this formula to get the kinetic energy as a function of position  $x$ :</p></p>\n<p> $K(x)=\\frac{1}{2}m(\\alpha\\sqrt{x})^{2}=\\frac{1}{2}m\\alpha^{2}x$ </p>\n<p>To find the total work done from  $x=0$  to  $x=d$ , we need to compute the difference in kinetic energy between these two points:</p>\n<p> $W=K(d)-K(0)$ </p>\n<p>At  $x=d$ ,</p>\n<p> $K(d)=\\frac{1}{2}m\\alpha^{2}d$ </p>\n<p>At  $x=0$ , since the particle starts from this position,</p>\n<p> $K(0)=\\frac{1}{2}m\\alpha^{2}(0)=0$ </p>\n<p>So, the work done  $W$  is simply the kinetic energy at  $x=d$ ,</p>\n<p> $W=\\frac{1}{2}m\\alpha^{2}d-0=\\frac{1}{2}m\\alpha^{2}d$ </p>\n<p>This matches with Option C:\n\n<p> $\\frac{m\\alpha^{2}d}{2}$ .</p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\alpha\\sqrt{x}",
@@ -1900,7 +1901,7 @@
         "K(0)=\\frac{1}{2}m\\alpha^{2}(0)=0"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.470431"
     },
@@ -1946,14 +1947,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the percentage loss of kinetic energy of the bullet, we first calculate the initial kinetic energy before the bullet hits the plywood and the final kinetic energy after it emerges. The formula for kinetic energy (KE) is given by:</p>\n<p> $KE=\\frac{1}{2}mv^{2}$ </p>\n<p>where  $m$  is the mass of the object and  $v$  is its velocity.</p>\n<p>Let's calculate the initial and final kinetic energies.</p>\n<p><strong>Initial Kinetic Energy:</strong></p>\n<p> $KE_{\\text{initial}}=\\frac{1}{2} \\times 50 \\times (100)^{2}=\\frac{1}{2} \\times 50 \\times 10000=25 \\times 10000=250000\\text{g.m}^{2}/\\text{s}^{2}$ </p>\n<p>Note: To keep units consistent, we used grams and meters per second. We can also convert the mass to kilograms (by dividing by 1000) which would result in the energy being calculated in Joules, but for the purpose of finding the percentage change, the form of units does not matter as long as they are consistent, since it will be a ratio.</p>\n<p><strong>Final Kinetic Energy:</strong></p>\n<p> $KE_{\\text{final}}=\\frac{1}{2} \\times 50 \\times (40)^{2}=\\frac{1}{2} \\times 50 \\times 1600=25 \\times 1600=40000\\text{g.m}^{2}/\\text{s}^{2}$ </p>\n<p>The loss of kinetic energy is then:</p>\n<p> $\\Delta KE=KE_{\\text{initial}}-KE_{\\text{final}}=250000-40000=210000\\text{g.m}^{2}/\\text{s}^{2}$ </p>\n<p>Finally, the percentage loss of kinetic energy can be calculated using the formula:</p>\n<p> $\\text{Percentage loss of KE}=(\\frac{\\Delta KE}{KE_{\\text{initial}}}) \\times 100%$ </p>\n<p> $\\text{Percentage loss of KE}=(\\frac{210000}{250000}) \\times 100%=0.84 \\times 100%=84%$ </p>\n<p>Thus, the percentage loss of kinetic energy is <strong>84%</strong>, which corresponds to <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "KE=\\frac{1}{2}mv^{2}",
         "\\text{Percentage loss of KE}=(\\frac{\\Delta KE}{KE_{\\text{initial}}}) \\times 100%"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:29.026992"
     },
@@ -2001,11 +2003,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv1s6oxo/26e77ed6-fb87-4610-93f9-d2d16632576e/55161fc0-fb9b-11ee-aecf-73c37d9c3a58/file-1lv1s6oxp.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:29.449077"
     },
@@ -2053,13 +2055,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lshf7eat/c49bad60-625b-4970-9888-000b55d32837/76415550-c8d0-11ee-adc8-974b9031006b/file-6y3zli1lshf7eau.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "g=10m/s^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:30.036053"
     },
@@ -2107,11 +2109,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1ithfq/d002178a-4d82-4151-9be6-57cd9a588dfe/44dae260-d3de-11ee-b732-196aad4e0551/file-1lt1ithfr.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.476387"
     },
@@ -2159,11 +2161,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv3g4i1f/1efcf294-a9a1-4376-836b-324bcbe1c57f/bbe3ea30-fc85-11ee-97a5-e951feb71c60/file-1lv3g4i1g.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:28.501208"
     },
@@ -2209,14 +2211,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The momentum  $p$  of a particle is given by the product of its mass  $m$  and its velocity  $v$ , that is,  $p=m \\cdot v$ . For a given momentum, the relationship between mass and velocity can be understood as inversely proportional. This means that as the mass increases, the velocity decreases to maintain the same momentum, and vice versa.</p>\n<p>The kinetic energy ( $K.E.$ ) of a particle is given by the formula  $K.E.=\\frac{1}{2}mv^{2}$ . This equation shows that the kinetic energy depends on both the mass of the particle and the square of its velocity.</p>\n<p>Given that four particles  $A,B,C,D$  have masses  $\\frac{m}{2},m,2m,4m$ , respectively, and all have the same momentum, we can assume the momentum of each particle to be  $p$ . This common value of momentum allows us to express the velocity of each particle in terms of its mass and the common momentum  $p$ . The velocity  $v$  of each particle will be  $v=\\frac{p}{m}$ .</p>\n<p>Thus, for each particle, we can determine the velocity as follows:\n\n<ul>\n<li>For  $A$ :  $v_{A}=\\frac{p}{\\frac{m}{2}}=\\frac{2p}{m}$ </li><br/>\n<li>For  $B$ :  $v_{B}=\\frac{p}{m}$ </li><br/>\n<li>For  $C$ :  $v_{C}=\\frac{p}{2m}=\\frac{p}{2m}$ </li><br/>\n<li>For  $D$ :  $v_{D}=\\frac{p}{4m}$ </li></ul></p>\n<p>Now, substituting these velocities into the kinetic energy formula yields the kinetic energies for each particle:\n\n<ul>\n<li> $K.E._{A}=\\frac{1}{2} \\cdot \\frac{m}{2} \\cdot (\\frac{2p}{m})^{2}=\\frac{1}{2} \\cdot \\frac{m}{2} \\cdot \\frac{4p^{2}}{m^{2}}=\\frac{2p^{2}}{m}$ </li><br/>\n<li> $K.E._{B}=\\frac{1}{2} \\cdot m \\cdot (\\frac{p}{m})^{2}=\\frac{1}{2} \\cdot m \\cdot \\frac{p^{2}}{m^{2}}=\\frac{p^{2}}{2m}$ </li><br/>\n<li> $K.E._{C}=\\frac{1}{2} \\cdot 2m \\cdot (\\frac{p}{2m})^{2}=\\frac{1}{2} \\cdot 2m \\cdot \\frac{p^{2}}{4m^{2}}=\\frac{p^{2}}{4m}$ </li><br/>\n<li> $K.E._{D}=\\frac{1}{2} \\cdot 4m \\cdot (\\frac{p}{4m})^{2}=\\frac{1}{2} \\cdot 4m \\cdot \\frac{p^{2}}{16m^{2}}=\\frac{p^{2}}{8m}$ </li></ul></p>\n<p>Comparing these kinetic energies, we see that the particle  $A$  has the maximum kinetic energy, as it is inversely related to mass in this scenario, and  $A$  has the least mass but the highest velocity squared component, thus maximizing its kinetic energy. Therefore, the correct answer is:</p>\n<p>Option D: A</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{m}{2},m,2m,4m",
         "K.E.=\\frac{1}{2}mv^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:29.054532"
     },
@@ -2262,7 +2264,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we need to analyze both the energy loss and the initial velocity of the rubber ball before it strikes the ground.</p>\n<p>First, let's consider the energy loss. The energy involved here is gravitational potential energy. The initial potential energy of the ball when it is about to fall is given by  $U_{i}=mgℎ$ , where  $U_{i}$  is the initial potential energy,  $m$  is the mass of the ball,  $g$  is the acceleration due to gravity, and  $ℎ$  is the initial height from which the ball falls. After the ball rebounds, it reaches a height of  $ℎ/2$ . The potential energy at this new height is  $U_{f}=mg \\cdot \\frac{ℎ}{2}$ .</p>\n<p>The energy loss can be calculated as the difference between the initial and final potential energies, and to find the percentage energy loss, we divide this difference by the initial energy and multiply by 100:</p>\n<p> $\\text{Energy loss percentage}=\\frac{(U_{i}-U_{f})}{U_{i}} \\times 100$ </p>\n<p>Substituting the values of  $U_{i}$  and  $U_{f}$  gives:</p>\n<p> $\\text{Energy loss percentage}=\\frac{(mgℎ-mg\\frac{ℎ}{2})}{mgℎ} \\times 100$ </p>\n<p>By simplifying, we find:</p>\n<p> $\\text{Energy loss percentage}=\\frac{mgℎ-\\frac{1}{2}mgℎ}{mgℎ} \\times 100=\\frac{1}{2} \\times 100=50%$ </p>\n<p>This tells us that the energy loss percentage is indeed  $50%$ .</p>\n<p>Next, we'll find the velocity of the ball just before it strikes the ground. The velocity can be determined using the formula for the velocity of an object in free fall:</p>\n<p> $v=\\sqrt{2gℎ}$ </p>\n<p>Here,  $v$  is the velocity of the ball just before impact,  $g$  is the acceleration due to gravity, and  $ℎ$  is the height from which the ball falls. This formula shows that the initial velocity of the ball before it strikes the ground is  $\\sqrt{2gℎ}$ , not taking into account air resistance and assuming it starts from rest.</p>\n<p>Therefore, the correct answer is <strong>Option A</strong>:  $50%$ ,  $\\sqrt{2gℎ}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "U_{i}=mgℎ",
@@ -2273,7 +2275,7 @@
         "\\text{Energy loss percentage}=\\frac{(mgℎ-mg\\frac{ℎ}{2})}{mgℎ} \\times 100"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:29.486128"
     },
@@ -2321,13 +2323,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsg9qpea/62f3b2e1-f2c4-419e-a727-6e93b7cd3116/4fc6bf20-c82e-11ee-8c6b-bfa4f1fff66a/file-6y3zli1lsg9qpeb.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{(K.E)_{A}}{(K.E)_{B}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.057033"
     },
@@ -2373,13 +2375,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; v^{2}-u^{2}=2aS \\\\ &amp; (\\frac{2u}{3})^{2}=u^{2}+2(-a)(4 \\times 10^{-2}) \\\\ &amp; \\frac{4u^{2}}{9}=u^{2}-2a(4 \\times 10^{-2}) \\\\ &amp; -\\frac{5u^{2}}{9}=-2a(4 \\times 10^{-2})\\dots(1) \\\\ &amp; 0=(\\frac{2u}{3})^{2}+2(-a)(x) \\\\ &amp; -\\frac{4u^{2}}{9}=-2ax\\dots(2) \\end{aligned}$ </p>\n<p> $(1)/(2)$ </p>\n<p> $\\begin{aligned} &amp; \\frac{5}{4}=\\frac{4 \\times 10^{-2}}{x} \\\\ &amp; x=\\frac{16}{5} \\times 10^{-2} \\\\ &amp; x=3 \\cdot 2 \\times 10^{-2}m \\\\ &amp; x=32 \\times 10^{-3}m \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "D \\times 10^{-3}m"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.517043"
     },
@@ -2425,7 +2427,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let us first find the power required to lift the water using each motor. Let  $P_{1}$  be the power of the first motor, and  $P_{2}$  be the power of the second motor.\n<br/><br/>\nThe work done in lifting the water is given by  $W=mgℎ$ , where  $m$  is the mass of water lifted,  $g$  is the acceleration due to gravity, and  $ℎ$  is the height through which the water is lifted. In this case,  $m=300kg$  and  $ℎ=100m$  for the first motor, and  $m=50kg$  and  $ℎ=100m$  for the second motor.\n<br/><br/>\nThe work done in lifting the water in 5 minutes by the first motor is:<br/><br/>\n $W_{1}=mgℎ=(300kg)(9.8m/s^{2})(100m)=294000J$ \n<br/><br/>\nThe power required to do this work in 5 minutes is:<br/><br/>\n $P_{1}=\\frac{W_{1}}{t_{1}}=\\frac{294000J}{300s}=980W$ \n<br/><br/>\nThe work done in lifting the water in 2 minutes by the second motor is:<br/><br/>\n $W_{2}=mgℎ=(50kg)(9.8m/s^{2})(100m)=49000J$ \n<br/><br/>\nThe power required to do this work in 2 minutes is:<br/><br/>\n $P_{2}=\\frac{W_{2}}{t_{2}}=\\frac{49000J}{120s}=408.33W$ \n<br/><br/>\nThe ratio of the powers of the two motors is:<br/><br/>\n $\\frac{P_{1}}{P_{2}}=\\frac{980W}{408.33W} \\approx 2.4$ \n<br/><br/>\nWe are given that this ratio is equal to:<br/><br/>\n $\\frac{3\\sqrt{x}}{\\sqrt{x}+1}$ \n<br/><br/>\nWe can solve for  $x$  as follows:<br/><br/>\n $\\frac{3\\sqrt{x}}{\\sqrt{x}+1}=2.4$ <br/><br/>\n $3\\sqrt{x}=2.4(\\sqrt{x}+1)$ <br/><br/>\n $3\\sqrt{x}=2.4\\sqrt{x}+2.4$ <br/><br/>\n $(3-2.4)\\sqrt{x}=2.4$ <br/><br/>\n $0.6\\sqrt{x}=2.4$ <br/><br/>\n $\\sqrt{x}=4$ <br/><br/>\n $x=16$ <br/><br/>\nTherefore, the value of  $x$  is 16.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3\\sqrt{x}}{\\sqrt{x}+1}",
@@ -2436,7 +2438,8 @@
         "P_{1}=\\frac{W_{1}}{t_{1}}=\\frac{294000J}{300s}=980W"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:30.870852"
     },
@@ -2482,11 +2485,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a man lifts a bucket out of a well using a rope, work is done by the man and the gravitational force. The work done by the man is positive as he has to exert an upward force to lift the bucket. The work done by the gravitational force is negative because the direction of the force is opposite to the direction of displacement.</p>\n<p>Therefore, the <b>statement (A)</b> \"Work done by a man in lifting a bucket out of a well by means of rope tied to the bucket is negative.\" is <b>incorrect</b>.</p>\n<p>Therefore, the <b>statement (B)</b> \"Work done by gravitational force in lifting a bucket out of a well by a rope tied to the bucket is negative.\" is <b>correct</b>.</p>\n<p>Work is defined as the product of force and displacement in the direction of the force. When a body slides down an inclined plane, the force of friction acts against the motion of the body, opposing its descent.</p>\n<p>The direction of the force of friction is opposite to the direction of the displacement of the body, which is downwards. Hence, the work done by the force of friction is negative.</p>\n<p>Therefore, the <b>statement (C)</b> \"Work done by friction on a body sliding down an inclined plane is positive\" is <b>incorrect</b>.</p>\n<p>\nIf the body is moving on a rough horizontal plane, there will be friction present, which will act in the opposite direction to the applied force. The force of friction will oppose the motion of the body, reducing its velocity. As a result, the net work done on the body will not be zero, as the force of friction and the applied force will not cancel each other out completely.</p>\n<p>Therefore, the <b>statement (D)</b> \"Work done by an applied force on a body moving on a rough horizontal plane with uniform velocity is zero.\" is <b>incorrect</b>.</p>\n<p><b>Statement E:</b> \"Work done by the air resistance on an oscillating pendulum is negative.\"</p>\n<p>This statement refers to the work done by the air resistance on an oscillating pendulum, which is a physical system that swings back and forth under the influence of gravity.</p>\n<p>As the pendulum oscillates, it experiences air resistance, which opposes its motion and slows it down. The direction of the air resistance force is opposite to the direction of the displacement of the pendulum, which is back and forth.\n</p>\n<p>Hence, the work done by the air resistance force is negative, as the direction of the force and the displacement are opposite.\n</p>\n<p>Therefore, the <b>statement (E) </b>\"Work done by the air resistance on an oscillating pendulum is negative\" is <b>correct</b>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.240495"
     },
@@ -2511,7 +2514,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the power delivered by the pulling force at t = 10 s, we first need to find the work done by the force. The work done is given by the product of force and displacement, and the power is the rate of work done.</p>\n<p><b>Calculate the velocity (v) at t = 10 s:</b><br/><br/>\nSince the block starts from rest and is pulled up with an effective acceleration of 1 m/s², we can use the equation of motion to find the velocity (v) at t = 10 s:\n<br/><br/>\n $v=u+at$ \n<br/><br/>\nHere, u = 0 (initial velocity) and a = 1 m/s² (acceleration). Plugging in the values:\n<br/><br/>\n $v_{10}=0+1(10)=10m/s$ </p>\n<ol>\n<li><b>Calculate the net force acting on the block ( $F_{net}$ ):</b><br/><br/>\nThe net force acting on the block along the incline plane is the difference between the pulling force (F) and the gravitational force component acting parallel to the incline (mgsinθ):</li>\n</ol>\n<p> $F_{\\text{net}}=F-mgsin\\theta$ </p>\n<p>Since F_net = ma, we can write:</p>\n<p> $F=ma+mgsin\\theta$ </p>\n<p>Plugging in the values (m = 5 kg, a = 1 m/s², g = 10 m/s², and θ = 30°):</p>\n<p> $F=5(1)+5(10)(sin30^{\\circ})=5+25=30N$ </p>\n<p><b>Calculate the power (P) at t = 10 s:</b><br/><br/>\nThe power (P) can be calculated as the product of force (F) and velocity (v):\n<br/><br/>\n $P_{10}=Fv=30(10)=300W$ \n<br/><br/>\nSo, the power delivered by the pulling force at t = 10 s from the start is 300 W.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "30^{\\circ}",
@@ -2522,7 +2525,8 @@
         "v_{10}=0+1(10)=10m/s"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:40.365679"
     },
@@ -2547,7 +2551,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The increase in kinetic energy can be found using the work-energy theorem, which states that the work done on an object is equal to the change in its kinetic energy.</p>\n<p>The work done by a force is given by the equation:</p>\n<p> $W=F \\cdot d$ </p>\n<p>where ( F ) is the force and ( d ) is the distance over which the force is applied. </p>\n<p>However, we don't have the distance in this problem. But we do know that the force is applied for a time of 5 seconds, and that the initial momentum of the body is 10 kg m/s. We can use these facts to find the work done.</p>\n<p>First, we can use the equation for force, ( F = ma ), to find the acceleration of the body:</p>\n<p> $a=\\frac{F}{m}=\\frac{2\\text{N}}{5\\text{kg}}=0.4\\text{m/s}^{2}$ </p>\n<p>Then, we can use the equation for distance in uniformly accelerated motion, (  $d=v_{i}t+\\frac{1}{2}at^{2}$ ), where (  $v_{i}$  ) is the initial velocity of the body. We can find (  $v_{i}$ ) from the initial momentum and the mass of the body:</p>\n<p> $v_{i}=\\frac{p}{m}=\\frac{10\\text{kg m/s}}{5\\text{kg}}=2\\text{m/s}$ </p>\n<p>Substituting (  $v_{i}$  ), ( a ), and ( t ) into the equation for ( d ) gives:</p>\n<p> $d=2\\text{m/s} \\cdot 5\\text{s}+\\frac{1}{2} \\cdot 0.4\\text{m/s}^{2} \\cdot (5\\text{s})^{2}=10\\text{m}+5\\text{m}=15\\text{m}$ </p>\n<p>Finally, we can substitute ( F ) and ( d ) into the equation for work to find the increase in kinetic energy:</p>\n<p> $\\Delta KE=W=F \\cdot d=2\\text{N} \\cdot 15\\text{m}=30\\text{J}$ </p>\n<p>So, the increase in the kinetic energy of the body is 30 J.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "10kgms^{-1}",
@@ -2558,7 +2562,7 @@
         "v_{i}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.817493"
     },
@@ -2583,14 +2587,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; W=\\int Fdy=\\int_{2}^{5}(5+3y^{2})dy \\\\ \\\\ &amp; =(5y+y^{3})|_{2}^{5} \\\\ \\\\ &amp; =(15+125-8)J \\\\ \\\\ &amp; =132J \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "F=(5+3y^{2})",
         "is ___________ J."
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.139754"
     },
@@ -2615,7 +2619,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Displacement is  $8^{\\text{th}}$  sec.\n<br/><br/>\n $S_{8}=0+\\frac{1}{2} \\times 10 \\times (2 \\times 8-1)$ \n<br/><br/>\n $S_{8}=5 \\times 15$ \n<br/><br/>\n $\\Delta U=0.4 \\times 10 \\times 5 \\times 15$ \n<br/><br/>\n $\\Delta U=20 \\times 15=300$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "^{2}",
@@ -2626,7 +2630,7 @@
         "\\Delta U=20 \\times 15=300"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.485883"
     },
@@ -2672,7 +2676,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The kinetic energy of a body of mass  $m$  and velocity  $v$  is given by  $K=\\frac{1}{2}mv^{2}$ . Since the bodies have the same linear momentum, we can write:\n<br/><br/>\n $p=mv$ \n<br/><br/>\nwhere  $p$  is the linear momentum of the bodies.\n<br/><br/>\nLet the masses of the two bodies be  $m_{1}$  and  $m_{2}$  and their kinetic energies be  $K_{1}$  and  $K_{2}$ , respectively. Then, we have:\n<br/><br/>\n $\\frac{K_{1}}{K_{2}}=\\frac{16}{9}$ \n<br/><br/>\n $\\frac{1}{2}m_{1}v_{1}^{2} \\div \\frac{1}{2}m_{2}v_{2}^{2}=\\frac{16}{9}$ \n<br/><br/>\nSince  $p=mv$ , we have  $v_{1}=\\frac{p}{m_{1}}$  and  $v_{2}=\\frac{p}{m_{2}}$ . Substituting these in the above equation, we get:\n<br/><br/>\n $\\frac{m_{2}}{m_{1}}=\\frac{9}{16}$ \n<br/><br/>\nTherefore, the ratio of the masses of the two bodies is  $9:16$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}m_{1}v_{1}^{2} \\div \\frac{1}{2}m_{2}v_{2}^{2}=\\frac{16}{9}",
@@ -2682,7 +2686,7 @@
         "\\frac{m_{2}}{m_{1}}=\\frac{9}{16}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.921049"
     },
@@ -2730,14 +2734,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lei2tyfx/a6b83f8a-8e8e-45f4-97f6-f032b2abb398/d44804d0-b401-11ed-bf7e-c52177c53cde/file-1lei2tyfy.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "30^{\\circ}",
         "KE_{in}=\\frac{1}{2}mv^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.274863"
     },
@@ -2762,7 +2766,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->To calculate the work done by the force  $F=5x$  in moving the block from  $x=2m$  to  $x=4m$ , we can use the formula for work done by a variable force:\n<br/><br/>\n $W=\\int_{x_{1}}^{x_{2}}F(x)dx$ \n<br/><br/>\nIn this case,  $F(x)=5x$ ,  $x_{1}=2m$ , and  $x_{2}=4m$ . Now, we can substitute these values into the formula and evaluate the integral:\n<br/><br/>\n $W=\\int_{2}^{4}5xdx$ \n<br/><br/>\nTo evaluate the integral, we find the antiderivative of  $5x$ :\n<br/><br/>\n $\\int 5xdx=\\frac{5}{2}x^{2}+C$ \n<br/><br/>\nNow, we can find the work done by evaluating the antiderivative at the limits of integration:\n<br/><br/>\n $W=[\\frac{5}{2}x^{2}]_{2}^{4}=\\frac{5}{2}(4^{2})-\\frac{5}{2}(2^{2})$ \n<br/><br/>\n $W=\\frac{5}{2}(16)-\\frac{5}{2}(4)=40-10=30J$ \n<br/><br/>\nThe work done by the force in moving the block from  $x=2m$  to  $x=4m$  is 30 J.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "will be __________ J. To calculate the work done by the force",
@@ -2773,7 +2777,7 @@
         "x=4m"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.001248"
     },
@@ -2798,7 +2802,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the work done by a force during a displacement, we can use the formula:</p>\n<p> $W=\\int_{x_{1}}^{x_{2}}\\vec{F} \\cdot d\\vec{x}$ </p>\n<p>Here, the force is given by  $\\vec{F}=(2+3x)\\hat{i}$ , and we need to find the work done during a displacement from  $x=0$  to  $x=4m$ . Since the force is only in the  $x$  direction, we can write the integral as:</p>\n<p> $W=\\int_{0}^{4}(2+3x)dx$ </p>\n<p>Now we can integrate the function with respect to  $x$ :</p>\n<p> $W=\\int_{0}^{4}(2+3x)dx=\\int_{0}^{4}2dx+\\int_{0}^{4}3xdx$ </p>\n<p> $W=[2x]_{0}^{4}+[\\frac{3}{2}x^{2}]_{0}^{4}$ </p>\n<p>Now we can plug in the limits of integration:</p>\n<p> $W=(2 \\cdot 4-2 \\cdot 0)+(\\frac{3}{2} \\cdot 4^{2}-\\frac{3}{2} \\cdot 0^{2})$ </p>\n<p> $W=8+24$ </p>\n<p> $W=32J$ </p>\n<p>So the work done by the force during the displacement from  $x=0$  to  $x=4m$  is 32 Joules.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{F}=(2+3x)\\hat{i}",
@@ -2809,7 +2813,7 @@
         "W=(2 \\cdot 4-2 \\cdot 0)+(\\frac{3}{2} \\cdot 4^{2}-\\frac{3}{2} \\cdot 0^{2})"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.387601"
     },
@@ -2834,7 +2838,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The velocity of the body just before hitting the ground, due to gravitational acceleration, is given by  $v_{1}=\\sqrt{2gℎ_{1}}$ , and the velocity just after hitting the ground, when it rebounds to a height  $ℎ_{2}$ , is given by  $v_{2}=\\sqrt{2gℎ_{2}}$ . </p>\n<p>According to the problem, the ratio  $\\frac{v_{1}}{v2}=4$ . Therefore, we can write  $\\frac{\\sqrt{2gℎ_{1}}}{\\sqrt{2gℎ_{2}}}=4$  or equivalently  $\\frac{ℎ_{1}}{ℎ_{2}}=4^{2}=16$ .</p>\n<p>The loss in kinetic energy due to the collision with the ground is given by the difference between the initial kinetic energy  $K_{1}=\\frac{1}{2}mv_{1}^{2}$  and the final kinetic energy  $K_{2}=\\frac{1}{2}mv_{2}^{2}$ , where m is the mass of the body. </p>\n<p>Substituting  $v_{1}=\\sqrt{2gℎ_{1}}$  and  $v_{2}=\\sqrt{2gℎ_{2}}$  into these expressions, we get  $K_{1}=mgℎ_{1}$  and  $K_{2}=mgℎ_{2}$ . </p>\n<p>The loss in kinetic energy is then  $\\Delta K=K_{1}-K_{2}=mgℎ_{1}-mgℎ_{2}$ . </p>\n<p>The percentage loss in kinetic energy is given by<br/><br/>  $\\frac{\\Delta K}{K_{1}} \\times 100=\\frac{mgℎ_{1}-mgℎ_{2}}{mgℎ_{1}} \\times 100=\\frac{ℎ_{1}-ℎ_{2}}{ℎ_{1}} \\times 100$ .</p>\n<p>Since  $ℎ_{1}/ℎ_{2}=16$ , we can write  $ℎ_{2}=ℎ_{1}/16$ , so the percentage loss in kinetic energy is <br/><br/> $\\frac{ℎ_{1}-ℎ_{1}/16}{ℎ_{1}} \\times 100=100(1-\\frac{1}{16})=100 \\times \\frac{15}{16}=\\frac{375}{4}$ .</p>\n<p>So, the value of  $x$  is 375.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "ℎ_{1}",
@@ -2845,7 +2849,8 @@
         "\\frac{v_{1}}{v2}=4"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:40.833172"
     },
@@ -2870,7 +2875,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given expression calculates the work done by a force vector  $\\vec{F}=5\\hat{i}+2\\hat{j}+7\\hat{k}$  when it acts on an object that moves from an initial position vector  $\\vec{r}_{i}=2\\hat{i}+3\\hat{j}-4\\hat{k}$  to a final position vector  $\\vec{r}_{f}=5\\hat{i}-2\\hat{j}+\\hat{k}$ .\n\n<br/><br/>To find the work done, we use the dot product of the force and displacement vectors :\n\n<br/><br/> $\\begin{aligned} &amp; W=\\vec{F} \\cdot (\\vec{r}_{f}-\\vec{r}_{i}) \\\\ \\\\ &amp; =(5\\hat{i}+2\\hat{j}+7\\hat{k}) \\cdot ((5\\hat{i}-2\\hat{j}+\\hat{k})-(2\\hat{i}+3\\hat{j}-4\\hat{k})) \\\\ \\\\ &amp; =(5\\hat{i}+2\\hat{j}+7\\hat{k}) \\cdot (3\\hat{i}-5\\hat{j}+5\\hat{k}) \\\\ \\\\ &amp; =15-10+35 \\\\ \\\\ &amp; =40J \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{F}=5\\hat{i}+2\\hat{j}+7\\hat{k}",
@@ -2878,7 +2883,7 @@
         "\\vec{r}_{f}=5\\hat{i}-2\\hat{j}+\\hat{k}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.167174"
     },
@@ -2906,7 +2911,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldvavqih/b9227238-7da3-4824-a122-b1f02dff6651/47df0e90-a77b-11ed-a5e3-ff739bca566a/file-1ldvavqii.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le5klj1b/dfe257bf-4dfb-476c-ae29-8b55b8f8c437/1dca32f0-ad21-11ed-8bc1-d3bd0941e5b5/file-1le5klj1c.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta=kx",
@@ -2914,7 +2919,7 @@
         "\\text{Work done}=\\Delta K.E"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.525897"
     },
@@ -2960,13 +2965,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Statement I is correct: The kinetic energy of an object is given by  $\\frac{1}{2}mv^{2}$ , where m is the mass of the object and v is its velocity. If a truck and a car are moving with the same kinetic energy and are brought to rest by applying brakes that provide equal retarding forces, both will come to rest in equal distances. This is because the distance required to stop an object depends on its initial kinetic energy and the force applied to bring it to rest. Since both the truck and car have the same initial kinetic energy and are subjected to the same retarding force, they will come to rest in the same distance.\n<br/><br/>\nStatement II is incorrect. When the car moves from east to north, even though its speed remains unchanged, its direction changes. Since velocity is a vector quantity that has both magnitude (speed) and direction, a change in direction implies a change in velocity. Acceleration is the rate of change of velocity, so when the velocity changes, there is acceleration. In this case, the car's acceleration is not zero as it turns from east to north.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}mv^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:30.951682"
     },
@@ -2991,14 +2996,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The kinetic energy of a moving object of mass  $m$  and velocity  $v$  is given by the formula:\n<br/><br/>\n $K=\\frac{1}{2}mv^{2}$ \n<br/><br/>\nThe work done in accelerating an object from rest to velocity  $v$  is equal to its change in kinetic energy. Therefore, the energy spent in accelerating the car from rest to  $um/s$  is:\n<br/><br/>\n $E=\\frac{1}{2}mu^{2}$ \n<br/><br/>\nThe energy required to accelerate the car from  $um/s$  to  $2um/s$  is:\n<br/><br/>\n $\\begin{aligned} nE &amp; =\\frac{1}{2}m(2u)^{2}-\\frac{1}{2}mu^{2} \\\\ \\\\ &amp; =2mu^{2}-\\frac{1}{2}mu^{2} \\\\ \\\\ &amp; =\\frac{3}{2}mu^{2} \\\\ \\\\ &amp; =3E \\end{aligned}$ \n<br/><br/> $\\therefore$  n = 3\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "is ____________. The kinetic energy of a moving object of mass",
         "E=\\frac{1}{2}mu^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.019916"
     },
@@ -3023,13 +3028,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, let's find the total weight of the elevator and passengers:</p>\n<p>Total weight = (mass of passengers + mass of elevator) × g<br/><br/>\nTotal weight = (600 kg + 800 kg) × 10 m/s²<br/><br/>\nTotal weight = 1400 kg × 10 m/s² = 14,000 N</p>\n<p>Now, we need to calculate the total force acting on the elevator as it moves upwards. Since the elevator is moving at a constant speed, the net force acting on it is zero. Therefore, the tension in the cable must balance the total weight and frictional force:</p>\n<p>Tension = Total weight + Frictional force\nTension = 14,000 N + 2,000 N = 16,000 N</p>\n<p>The power used by the motor can be calculated using the formula:</p>\n<p>Power = Force × Velocity</p>\n<p>Here, the force is the tension in the cable, and the velocity is the speed of the elevator:</p>\n<p>Power = 16,000 N × 3 m/s = 48,000 W</p>\n<p>To convert the power to kilowatts, divide by 1,000:</p>\n<p>Power = 48,000 W / 1,000 = 48 kW</p>\n<p>So, the maximum power used by the motor is 48 kW.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Hard",
       "key_formulas": [
         ", then the maximum power used by the motor is __________"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:40.425026"
     },
@@ -3054,7 +3059,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The work done against the retarding force is indeed equal to the loss in kinetic energy. </p>\n<p>The force acting on the particle due to retardation is given by  $F=ma=-2mx$ . </p>\n<p>When we integrate this force over the displacement from  $0$  to  $x$ , we get:</p>\n<p> $\\Delta KE=W=\\int F \\cdot dx=\\int (-2mx)dx=-mx^{2}$ </p>\n<p>The negative sign indicates that this is a loss of kinetic energy. </p>\n<p>The problem states that the loss in kinetic energy is also given by  $(\\frac{10}{x})^{-n}$  J. Therefore, we have:</p>\n<p> $-mx^{2}=(\\frac{10}{x})^{-n}$ </p>\n<p>Because this is a loss of kinetic energy, we should consider the absolute value. Hence,</p>\n<p> $mx^{2}=(\\frac{10}{x})^{-n}$ </p>\n<p>Substituting the given mass  $m=10\\text{g}=0.01\\text{kg}$ , we get:</p>\n<p> $0.01x^{2}=(\\frac{10}{x})^{-n}$ </p>\n<p>This simplifies to:</p>\n<p> $x^{2}=(\\frac{10}{x})^{-n}$ </p>\n<p>Comparing the two sides, we can see that  $n=2$ . </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "(\\frac{10}{x})^{-n}",
@@ -3065,7 +3070,8 @@
         "0.01x^{2}=(\\frac{10}{x})^{-n}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:40.849908"
     },
@@ -3090,7 +3096,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $u=2m/s$ \n<br/><br/> $\\begin{aligned} &amp; a=2m/s^{2} \\\\ \\\\ &amp; s=6m \\\\ \\\\ &amp; v=? \\\\ \\\\ &amp; v^{2}=u^{2}+2as \\\\ \\\\ &amp; v^{2}=4+2 \\times 2 \\times 6 \\\\ \\\\ &amp; =28 \\end{aligned}$ \n<br/><br/>So,  $KE=\\frac{1}{2}mv^{2}=\\frac{1}{2} \\times 500 \\times 28J$ \n<br/><br/> $=7000J$ \n<br/><br/> $=7kJ$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "M=500kg",
@@ -3101,7 +3107,7 @@
         "=7kJ"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.214802"
     },
@@ -3126,13 +3132,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\vec{F}=t\\hat{i}+3t^{2}\\hat{j} \\\\ \\\\ &amp; \\frac{md\\vec{v}}{dt}=t\\hat{i}+3t^{2}\\hat{j} \\\\ \\\\ &amp; m=1kg,\\int_{0}^{\\hat{v}}dv=\\int_{0}^{t}tdt\\hat{i}+\\int_{0}^{t}3t^{2}dt\\hat{j} \\\\ \\\\ &amp; \\vec{v}=\\frac{t^{2}}{2}\\hat{i}+t^{3}\\hat{j} \\\\ \\\\ &amp; \\text{Power}=\\vec{F} \\cdot \\vec{V}=\\frac{t^{3}}{2}+3t^{5} \\\\ \\\\ &amp; \\text{At}t=2,\\text{power}=\\frac{8}{2}+3 \\times 32 \\\\ \\\\ &amp; =100 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}=(t\\hat{i}+3t^{2}\\hat{j})"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:41.563406"
     },
@@ -3178,14 +3184,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, we will use conservation of momentum to find the velocity of the bullet-block system just after the bullet gets embedded into the block.</p>\n<p>The initial momentum of the system is given by the momentum of the bullet (as the block is initially at rest), and the final momentum of the system is the combined momentum of the bullet and the block.</p>\n<p>Setting initial momentum equal to final momentum:</p>\n<p> $m_{\\text{bullet}} \\cdot v_{\\text{bullet}}=(m_{\\text{bullet}}+m_{\\text{block}}) \\cdot v_{\\text{final}}$ </p>\n<p>Solving for ( $v_{\\text{final}}$ ):</p>\n<p> $v_{\\text{final}}=\\frac{m_{\\text{bullet}} \\cdot v_{\\text{bullet}}}{m_{\\text{bullet}}+m_{\\text{block}}}$ </p>\n<p>Substituting the given values:</p>\n<p> $v_{\\text{final}}=\\frac{0.1\\text{kg} \\cdot 400\\text{m/s}}{0.1\\text{kg}+3.9\\text{kg}}=10\\text{m/s}$ </p>\n<p>Next, we know the block comes to rest after moving 20 m due to friction. The work done by the friction force is equal to the initial kinetic energy of the block (since it comes to rest, the final kinetic energy is 0). The work done by friction is given by the friction force times the distance, and the friction force is equal to the coefficient of friction times the normal force (which is equal to the weight of the block). </p>\n<p>So, setting the work done by friction equal to the initial kinetic energy of the block:</p>\n<p> $\\mu \\cdot (m_{\\text{bullet}}+m_{\\text{block}}) \\cdot g \\cdot d=\\frac{1}{2} \\cdot (m_{\\text{bullet}}+m_{\\text{block}}) \\cdot v_{\\text{final}}^{2}$ </p>\n<p>Solving for ( $\\mu$ ):</p>\n<p> $\\mu=\\frac{\\frac{1}{2} \\cdot (m_{\\text{bullet}}+m_{\\text{block}}) \\cdot v_{\\text{final}}^{2}}{(m_{\\text{bullet}}+m_{\\text{block}}) \\cdot g \\cdot d}$ </p>\n<p>Substituting the given values:</p>\n<p> $\\mu=\\frac{\\frac{1}{2} \\cdot (0.1\\text{kg}+3.9\\text{kg}) \\cdot (10\\text{m/s})^{2}}{(0.1\\text{kg}+3.9\\text{kg}) \\cdot 10\\text{m/s}^{2} \\cdot 20\\text{m}}=0.25$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "400ms^{-1}",
         "g=10m/s^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.017946"
     },
@@ -3210,7 +3216,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->To maintain a constant speed, the bus has to overcome the frictional force acting on it. The frictional force is given by:\n<br/><br/>\n $F_{friction}=\\mu F_{N}$ \n<br/><br/>\nWhere  $\\mu$  is the coefficient of friction and  $F_{N}$  is the normal force acting on the bus. Since the bus is on a flat road, the normal force is equal to the gravitational force:\n<br/><br/>\n $F_{N}=mg$ \n<br/><br/>\nWhere  $m$  is the mass of the bus and  $g$  is the acceleration due to gravity (approximately  $9.8m/s^{2}$ ).\n<br/><br/>\nSubstituting the values, we get:\n<br/><br/>\n $F_{friction}=0.04 \\times 500 \\times 9.8$ <br/><br/>\n $F_{friction}=196N$ \n<br/><br/>\nTo maintain a constant speed, the engine must exert a force equal in magnitude to the frictional force. The work done by the engine to overcome the frictional force is given by:\n<br/><br/>\n $W=F_{friction} \\times d$ \n<br/><br/>\nWhere  $d$  is the distance traveled. First, convert the distance from km to m:\n<br/><br/>\n $d=4km \\times \\frac{1000m}{1km}=4000m$ \n<br/><br/>\nNow, calculate the work done:\n<br/><br/>\n $W=196N \\times 4000m$ \n $W=784000J$ \n<br/><br/>\nConvert the work done from joules to kilojoules:\n<br/><br/>\n $W=\\frac{784000J}{1000J/kJ}=784kJ$ \n<br/><br/>\nThe work done by the engine of the bus to maintain a speed of 80 km/h for a 4 km distance is  $784.8kJ$ .\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "F_{friction}=\\mu F_{N}",
@@ -3221,7 +3227,7 @@
         "W=784000J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.069744"
     },
@@ -3248,13 +3254,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgzn5vqt/0106b724-4d16-49df-ad41-9712b861d42b/1849c250-e543-11ed-8d50-d941312069b0/file-1lgzn5vqu.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.468386"
     },
@@ -3282,7 +3288,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1leslapx4/9dbc9fcc-7365-43b5-b4d8-cbc16b99a228/e145b380-b9c9-11ed-9339-bd1a4f4808c2/file-1leslapx5.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1leslcgi9/aa4f5a9d-05d8-41ec-9010-c86a0d7f537d/119e6900-b9ca-11ed-ada3-a1b4b9e94835/file-1leslcgia.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "x=10cm",
@@ -3293,7 +3299,7 @@
         "Energy of the block at x = 10,"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:40.868060"
     },
@@ -3318,7 +3324,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P=Fv$ </p>\n<p> $m\\frac{vdv}{dt}=P$ </p>\n<p> $m\\int_{0}^{v}vdv=\\int_{0}^{t}Pdt$ </p>\n<p> $\\frac{mv^{2}}{2}=Pt$ </p>\n<p> $v=\\sqrt{\\frac{2P}{m}}t^{1/2}$ </p>\n<p> $\\int_{0}^{s}dx=\\sqrt{\\frac{2P}{m}}\\int_{0}^{t}t^{1/2}dt$ </p>\n<p> $s=\\frac{2}{3}\\sqrt{\\frac{2P}{m}}t^{3/2}$ </p>\n<p>or  $s=\\frac{2}{3}\\sqrt{\\frac{2P}{2}} \\times 4^{3/2}$ </p>\n<p> $=\\frac{16}{3}\\sqrt{P}m$ </p>\n<p>So,  $\\alpha=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "will be ______.",
@@ -3329,7 +3335,7 @@
         "\\int_{0}^{s}dx=\\sqrt{\\frac{2P}{m}}\\int_{0}^{t}t^{1/2}dt"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:41.239532"
     },
@@ -3354,7 +3360,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the force be  $F$  so acceleration  $a=\\frac{F}{m}$ \n<br/><br/>\nSo displacement  $S=\\frac{1}{2}at^{2}=\\frac{Ft^{2}}{2m}$ \n<br/><br/>\nSo work done  $W=F.S=\\frac{F^{2}t^{2}}{2m}$ \n<br/><br/>\nFrom work energy Theorem\n<br/><br/>\n $\\Delta KE=W$ \n<br/><br/>\n $W=\\frac{F^{2}t^{2}}{2m}=10000$ \n<br/><br/>\n $F=\\sqrt{\\frac{10000 \\times 2 \\times 2}{5^{2}}}$ \n<br/><br/>\n $F=40N$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "5^{th}",
@@ -3363,7 +3369,7 @@
         "F=40N"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.609759"
     },
@@ -3409,7 +3415,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dm}{dt}=0.5$  kg/s</p>\n<p> $v=5$  m/s</p>\n<p> $F=\\frac{vdm}{dt}=2.5$  kg m/s<sup>2</sup></p>\n<p> $P=\\bar{F}.\\bar{v}=(2.5)(5)$  W</p>\n<p> $=12.5$  W</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "0.5kgs^{-1}",
@@ -3420,7 +3426,7 @@
         "P=\\bar{F}.\\bar{v}=(2.5)(5)"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:31.609557"
     },
@@ -3468,13 +3474,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l55fnlta/2bd85aa9-5283-4a8b-b151-b487eb9a60b1/d77f54e0-fadf-11ec-b8f8-f787cc45caa2/file-1l55fnltb.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "mgy) = KE"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.003572"
     },
@@ -3501,7 +3507,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6qrtmrg/3348e668-0c30-4b89-85b5-ff8642500860/19a6dbc0-1a68-11ed-9fca-fdfa82878a71/file-1l6qrtmrh.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "nENm^{-1}",
@@ -3510,7 +3516,7 @@
         "=K=24E"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.820723"
     },
@@ -3558,7 +3564,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6hyjitw/5b480b82-4ccb-4844-a465-4ee34620c9bb/52950d40-158f-11ed-abd2-c5f8c222b719/file-1l6hyjitx.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "2Nm^{-1}",
@@ -3567,7 +3573,7 @@
         "\\Rightarrow x_{m}=\\sqrt{\\frac{v^{2}}{4}}=\\frac{v}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.656798"
     },
@@ -3613,7 +3619,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $W_{total}=\\Delta K$ </p>\n<p> $=\\frac{1}{2}(\\frac{1}{2})[{b(4)^{5/2}}^{2}-0]$ </p>\n<p> $=\\frac{b^{2}}{4} \\times 4^{5}$ </p>\n<p> $\\Rightarrow W_{total}=16J$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{2}(\\frac{1}{2})[{b(4)^{5/2}}^{2}-0]",
@@ -3621,7 +3627,7 @@
         "\\Rightarrow W_{total}=16J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.049305"
     },
@@ -3646,7 +3652,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(x)g\\lambda=\\mu(6-x)g\\lambda$  where x is length of hanging part</p>\n<p> $\\Rightarrow x=3-0.5x$ </p>\n<p> $\\Rightarrow x=2$  m</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "(x)g\\lambda=\\mu(6-x)g\\lambda",
@@ -3654,7 +3660,7 @@
         "\\Rightarrow x=2"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.881573"
     },
@@ -3700,7 +3706,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $K.E.=E=\\frac{1}{2}mv^{2}$ </p>\n<p>at highest point</p>\n<p> $K.E^{'}=\\frac{1}{2}mv^{2}cos^{2}\\theta$ </p>\n<p> $=\\frac{1}{2}mv^{2}(\\frac{1}{4})$ </p>\n<p> $=\\frac{E}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "60^{\\circ}",
@@ -3710,7 +3716,7 @@
         "=\\frac{E}{4}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.317174"
     },
@@ -3756,14 +3762,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Loss in  $KE=\\frac{1}{2} \\times \\frac{m_{1}m_{2}}{m_{1}+m_{2}} \\times v^{2}$ </p>\n<p> $=\\frac{1}{2} \\times \\frac{9.8 \\times 0.2}{10} \\times (10)^{2}$ </p>\n<p> $=9.8$  J</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{2} \\times \\frac{9.8 \\times 0.2}{10} \\times (10)^{2}",
         "=9.8"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:31.707323"
     },
@@ -3814,11 +3821,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5ah6aud/80d5c84a-be08-4e0e-9d83-6e9e75e53b18/b3c5f950-fda5-11ec-9895-953d7c4166fb/file-1l5ah6aue.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5ah9iaz/f30c9fac-2cf6-4a4d-bfd3-127c8e4eb756/0cf6ebb0-fda6-11ec-9895-953d7c4166fb/file-1l5ah9ib0.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.079672"
     },
@@ -3843,7 +3850,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{1}{2}mV^{2}=\\frac{1}{2}kx^{2}+\\frac{1}{2}m(\\frac{v}{2})^{2}$ </p>\n<p> $\\Rightarrow \\frac{3}{8}mv^{2}=\\frac{1}{2}kx^{2}$ </p>\n<p> $\\Rightarrow k=\\frac{3}{4} \\times \\frac{1}{2} \\times \\frac{144}{9} \\times 100$ </p>\n<p> $=600$ </p>\n<p> $\\Rightarrow 600$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\frac{3}{8}mv^{2}=\\frac{1}{2}kx^{2}",
@@ -3851,7 +3858,7 @@
         "=600"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:41.925740"
     },
@@ -3899,7 +3906,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6s8gufe/0f30db9c-40fa-4070-b336-72f3d81a0492/f9e626a0-1b35-11ed-91de-637bbeffe542/file-1l6s8guff.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}mx^{2}=90",
@@ -3910,7 +3917,7 @@
         "20=30-a \\times 1 \\Rightarrow a=-10"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.348155"
     },
@@ -3956,7 +3963,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $v=3x^{2}+4$ </p>\n<p>at  $x=0$ ,  $v_{1}=4$  m/s</p>\n<p> $x=2$ ,  $v_{2}=16$  m/s</p>\n<p> $\\Rightarrow$  Work done =  $\\Delta$  kinetic energy</p>\n<p> $=\\frac{1}{2} \\times m(v_{2}^{2}-v_{1}^{2})$ </p>\n<p> $=\\frac{1}{4}(256-16)$ </p>\n<p> $=60$  J</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "v=(3x^{2}+4)m/s",
@@ -3967,7 +3974,7 @@
         "x=2"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:31.747700"
     },
@@ -4013,7 +4020,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $W=\\int \\vec{F}.d\\vec{r}$ </p>\n<p> $=\\int_{1}^{2}4xdx+\\int_{2}^{3}3y^{2}dy$ </p>\n<p> $=[2x^{2}]_{1}^{2}+[y^{3}]_{2}^{3}$ </p>\n<p> $=2 \\times 3+(27-8)$ </p>\n<p> $=25$  J</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{F}=(4x\\hat{i}+3y^{2}\\hat{j})",
@@ -4024,7 +4031,7 @@
         "=25"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.138450"
     },
@@ -4051,7 +4058,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5d0ntm4/0d3e5015-9ee1-4746-a132-b10266cc6da4/79c80ec0-ff0b-11ec-834d-4120b930ffb4/file-1l5d0ntm5.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{ℎ}{2}",
@@ -4060,7 +4067,7 @@
         "\\Rightarrow k=120"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:41.946814"
     },
@@ -4106,7 +4113,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, the mass of the body = m<br/><br/>The height from which the body dropped = h<br/><br/>The speed of the body when reached the ground,  $v_{f}=0.8\\sqrt{gℎ}$ <br/><br/>Initial velocity of the body, v = 0 m/s<br/><br/>Using the work-energy theorem,<br/><br/>Work done by gravity + Work done by air-friction = Final kinetic energy  $-$  Initial kinetic energy.<br/><br/> $W_{mg}+W_{air-friction}=\\frac{1}{2}mv_{f}^{2}-\\frac{1}{2}mv_{i}^{2}$ <br/><br/>Here, work done by gravity = mgh<br/><br/> $\\Rightarrow mgℎ+W_{air-friction}=\\frac{1}{2}m(0.8\\sqrt{gℎ})^{2}-\\frac{1}{2}m(0)^{2}$ <br/><br/> $\\Rightarrow W_{air-friction}=\\frac{0.64mgℎ}{2}-mgℎ$ <br/><br/> $\\Rightarrow 0.32mgℎ-mgℎ=-0.68mgℎ$ <br/><br/>The value of the work done by the air friction is  $-$  0.68 mgh.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{f}=0.8\\sqrt{gℎ}",
@@ -4115,7 +4122,7 @@
         "\\Rightarrow 0.32mgℎ-mgℎ=-0.68mgℎ"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.425974"
     },
@@ -4161,14 +4168,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $W=-N \\times \\Delta x$ <br/><br/> $=-80 \\times 9.8 \\times \\frac{80}{100}$ <br/><br/> $=-627.2$  J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "=-80 \\times 9.8 \\times \\frac{80}{100}",
         "=-627.2"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.770409"
     },
@@ -4193,7 +4200,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, the length of the shock absorber, l = 1.5 m<br/><br/>The total mass of the system, M = 40000 kg<br/><br/>The speed of the wagon, v = 72 km/h<br/><br/>When brakes are applied, the final velocity, v<sub>f</sub> = 0<br/><br/>The compressed spring of the shock absorber, x = 1 m<br/><br/>Applying the work-energy theorem,<br/><br/>Work done by the system = Change in kinetic energy<br/><br/> $W=\\Delta KE$ <br/><br/> $W_{friction}+W_{spring}=\\frac{1}{2}mv_{f}^{2}+\\frac{1}{2}mv_{i}^{2}$ <br/><br/> $-\\frac{90}{100}(\\frac{1}{2}mv^{2})+W_{spring}=0-\\frac{1}{2}mv_{i}^{2}$  ( $\\because$  90% energy lost due to friction)<br/><br/> $W_{spring}=-\\frac{10}{100} \\times \\frac{1}{2}mv^{2}$ <br/><br/> $-\\frac{1}{2}kx^{2}=\\frac{1}{20}mv^{2}$ <br/><br/> $k=\\frac{mv^{2}}{10 \\times x^{2}}$ <br/><br/>Substituting the values in the above equation, we get<br/><br/> $k=\\frac{40000 \\times (72 \\times \\frac{5}{18})^{2}}{10(1)^{2}}$ <br/><br/>= 16  $\\times$  10<sup>5</sup> N/m<br/><br/>Comparing the spring constant, k = x  $\\times$  10<sup>5</sup><br/><br/>The value of the x = 16.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
@@ -4204,7 +4211,7 @@
         "-\\frac{1}{2}kx^{2}=\\frac{1}{20}mv^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.185521"
     },
@@ -4232,7 +4239,7 @@
         "https://imagex.cdn.examgoal.net/1ks457upw/dbaa7989-66b9-45f1-8857-60bcbc48ccde/6d906040-f8cb-11eb-8274-7f1d731e697f/file-1ks457upx.jpg",
         "https://imagex.cdn.examgoal.net/1ks458zl6/c35e8290-301c-4b44-80a5-0b0d7b626ca1/8d2258a0-f8cb-11eb-a1d4-495922108aa7/file-1ks458zl7.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "mgcos\\theta=\\frac{mv^{2}}{R}",
@@ -4242,7 +4249,7 @@
         "ℎ=\\frac{2R}{3}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:42.531711"
     },
@@ -4269,7 +4276,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmnkqkkp/6cd7cfd6-3f06-424c-907b-b0b5b8d28ddd/b71aa990-8cb1-11eb-bb7d-75e16383db04/file-1kmnkqkkq.jpg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -4278,7 +4285,7 @@
         "\\frac{500}{5}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:42.888523"
     },
@@ -4326,14 +4333,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kuynrppm/a52e6905-d7ad-4b9a-9207-30952d6428e0/ec7184a0-312b-11ec-a0cd-436bf2642f0a/file-1kuynrppn.jpeg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{V_{1}^{2}+2V_{2}^{2}-3V_{0}^{2}}{3V_{0}^{2}}",
         "=\\frac{3600+1800-4800}{4800}=\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.466119"
     },
@@ -4379,7 +4386,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P = constant<br/><br/> $\\frac{1}{2}$ mv<sup>2</sup> = Pt<br/><br/> $\\Rightarrow$  v  $∝$   $\\sqrt{t}$ <br/><br/> $\\frac{dx}{dt}=C\\sqrt{t}$  [C = constant]<br/><br/>by integration.<br/><br/> $x=C\\frac{t^{\\frac{1}{2}+1}}{\\frac{1}{2}+1}$ <br/><br/> $x∝t^{3/2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -4388,7 +4395,7 @@
         "x∝t^{3/2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:32.808671"
     },
@@ -4415,7 +4422,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ku8e21ts/35b085f7-1d39-46ed-b91e-0be9b75f13a5/8fb7bc00-22b9-11ec-92a0-35c33c2a328d/file-1ku8e21tt.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
@@ -4425,7 +4432,7 @@
         "800 m | = 200 m"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.227317"
     },
@@ -4450,7 +4457,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->F = (5y + 20) $\\hat{j}$ <br/><br/> $W=\\int Fdy=\\int_{0}^{10}(5y+20)dy$ <br/><br/> $=(\\frac{5y^{2}}{2}+20y)_{0}^{10}$ <br/><br/> $=\\frac{5}{2} \\times 100+20 \\times 10$ <br/><br/> $=250+200=450$  J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "W=\\int Fdy=\\int_{0}^{10}(5y+20)dy",
@@ -4459,7 +4466,7 @@
         "=250+200=450"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.567168"
     },
@@ -4484,7 +4491,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $F=-\\frac{dU}{dr}$ <br/><br/> $F=-[-\\frac{10\\alpha}{r^{11}}+\\frac{5\\beta}{r^{6}}]$ <br/><br/>for equilibrium, F = 0<br/><br/> $\\frac{10\\alpha}{r^{11}}=\\frac{5\\beta}{r^{6}}$ <br/><br/> $\\frac{2\\alpha}{\\beta}=r^{5}$ <br/><br/> $r=(\\frac{2\\alpha}{\\beta})^{1/5}$ <br/><br/> $\\therefore$   $a=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "U=\\frac{\\alpha}{r^{10}}-\\frac{\\beta}{r^{5}}-3",
@@ -4495,7 +4502,7 @@
         "\\frac{2\\alpha}{\\beta}=r^{5}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.921132"
     },
@@ -4543,7 +4550,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks43nu47/ed784684-fb95-41b2-b955-8015cfaa1ca7/57c95470-f8c5-11eb-a1d4-495922108aa7/file-1ks43nu48.jpg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "U = 2J = constant (B) at x < x 1 U = constant = 8J K = E mech",
@@ -4551,7 +4558,7 @@
         "8 - 0 J Particle is at rest. (C) At x = x 2 , U = 0"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.512001"
     },
@@ -4597,7 +4604,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $P=F.v=mav$ <br/><br/> $P=\\frac{mvdv}{dt}$ <br/><br/> $\\int_{0}^{t}Pdt=m\\int_{0}^{v}vdv$ <br/><br/> $Pt=\\frac{mv^{2}}{2}$ <br/><br/> $v=\\sqrt{\\frac{2Pt}{m}}$ <br/><br/> $\\frac{dx}{dt}=\\sqrt{\\frac{2Pt}{m}}$ <br/><br/> $\\int dx=\\int \\sqrt{\\frac{2Pt}{m}}dt$ <br/><br/> $x∝t^{3/2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "P=F.v=mav",
@@ -4608,7 +4615,7 @@
         "\\frac{dx}{dt}=\\sqrt{\\frac{2Pt}{m}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:32.846679"
     },
@@ -4633,7 +4640,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given W<sub>A</sub> = W<sub>B</sub><br/><br/>F<sub>A</sub>d cos45 $^{\\circ}$  = F<sub>B</sub>d cos60 $^{\\circ}$ <br/><br/> $F_{A} \\times \\frac{1}{\\sqrt{2}}=F_{B} \\times \\frac{1}{2}$ <br/><br/> $\\frac{F_{A}}{F_{B}}=\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}$ <br/><br/>x = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -4642,7 +4649,7 @@
         "\\frac{F_{A}}{F_{B}}=\\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:42.265762"
     },
@@ -4669,7 +4676,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krq8gp9i/c0edd843-996b-4fac-8b92-d62ae2acc912/25ed8860-f125-11eb-a221-f3b1f28d3393/file-1krq8gp9j.jpg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{1}{2}kx^{2}=\\frac{1}{2}mv^{2} \\Rightarrow v=x\\sqrt{\\frac{k}{m}}",
@@ -4679,7 +4686,7 @@
         "=0.5 \\times 2=1m"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:42.582799"
     },
@@ -4725,7 +4732,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P = const.<br/><br/> $P=Fv=\\frac{mv^{2}dv}{dx}$ <br/><br/> $\\int_{0}^{x}\\frac{P}{m}dx=\\int_{0}^{v}v^{2}dv$ <br/><br/> $\\frac{Px}{m}=\\frac{v^{3}}{3}$ <br/><br/> $(\\frac{3Px}{m})^{1/3}=v=\\frac{dx}{dt}$ <br/><br/> $(\\frac{3P}{m})^{1/3}\\int_{0}^{t}dt=\\int_{0}^{x}x^{-1/3}dx$ <br/><br/> $\\Rightarrow x=(\\frac{8P}{9m})^{1/2}t^{3/2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "P=Fv=\\frac{mv^{2}dv}{dx}",
@@ -4736,7 +4743,7 @@
         "\\Rightarrow x=(\\frac{8P}{9m})^{1/2}t^{3/2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:32.530236"
     },
@@ -4782,7 +4789,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $K.E._{f}=5%KE_{i}$ <br/><br/> $\\frac{1}{2}mv^{2}=\\frac{5}{100} \\times \\frac{1}{2} \\times m \\times 20^{2}$ <br/><br/> $v^{2}=\\frac{1}{20} \\times 20^{2}=20$ <br/><br/> $v=\\sqrt{20}=2\\sqrt{5}$  m/s<br/><br/>= 4.47 m/s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "K.E._{f}=5%KE_{i}",
@@ -4791,7 +4798,7 @@
         "v=\\sqrt{20}=2\\sqrt{5}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:32.884758"
     },
@@ -4818,14 +4825,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktcf333u/9ec4e386-3fd0-4cf7-be8b-9bbe27f9539a/80dd14b0-1124-11ec-9890-e1f55a1f69a0/file-1ktcf333v.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "0+(-1 \\times 10 \\times \\frac{1}{2})=k_{f}+(-3 \\times 10 \\times \\frac{3}{2})",
         "5 = k f"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.304352"
     },
@@ -4852,14 +4859,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmolscgj/cfc45cfc-4f7d-4035-a501-3940f58e7d83/9a3b5630-8d42-11eb-a888-536e5ca07abf/file-1kmolscgk-860w.jpeg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
         "\\times"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.619594"
     },
@@ -4905,7 +4912,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->U =  $-\\frac{A}{r^{6}}+\\frac{B}{r^{12}}$ \n<br/><br/>F = -  $\\frac{dU}{dr}$ \n<br/><br/>= – (A(–6r<sup>–7</sup>\n)) + B(–12r<sup>–13</sup>)\n<br/><br/>for equilibrium, F = 0\n<br/><br/> $\\therefore$  0 =  $\\frac{6A}{r^{7}}-\\frac{12B}{r^{13}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{6A}{12B}=\\frac{1}{r^{6}}$ \n<br/><br/> $\\Rightarrow$  r =  $(\\frac{2B}{A})^{\\frac{1}{6}}$ \n<br/><br/> $\\therefore$  U =  $-\\frac{A}{\\frac{2B}{A}}+\\frac{B}{(\\frac{2B}{A})^{2}}$ \n<br/><br/>=  $-\\frac{A^{2}}{2B}+\\frac{A^{2}}{4B}$ \n<br/><br/>=  $-\\frac{A^{2}}{4B}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{A}{r^{6}}+\\frac{B}{r^{12}}",
@@ -4916,7 +4923,7 @@
         "-\\frac{A}{\\frac{2B}{A}}+\\frac{B}{(\\frac{2B}{A})^{2}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:33.162475"
     },
@@ -4962,13 +4969,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Net force on motor will be\n<br/><br/>F<sub>m</sub> = [920 + 68(10)]g + 6000\n= 22000 N\n<br/><br/>So, required power for motor\n<br/><br/>P = F<sub>m</sub>.V = 22000 $\\times$ 3 = 66000 W<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:33.656133"
     },
@@ -4993,7 +5000,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Initial velocity, v =  $\\sqrt{2gℎ}$ \n<br/><br/>=  $\\sqrt{2 \\times 10 \\times 20}$ \n<br/><br/>= 20 m/s\n<br/><br/>Now work done by the machine,\n<br/><br/>W<sub>F</sub> =  $\\Delta$ k\n<br/><br/> $\\Rightarrow$  F.d =  $\\Delta$ k\n<br/><br/> $\\Rightarrow$  F =  $\\frac{\\Delta k}{d}$ \n<br/><br/>=  $\\frac{\\frac{1}{2} \\times 0.15 \\times 400-0}{0.2}$ \n<br/><br/>= 150 N<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{2 \\times 10 \\times 20}",
@@ -5001,7 +5008,7 @@
         "\\frac{\\frac{1}{2} \\times 0.15 \\times 400-0}{0.2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:43.225510"
     },
@@ -5049,14 +5056,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kjpvoab9/26944bdb-141f-437f-b3bb-d0d1bb1de41d/67242650-5291-11eb-a19e-bd50b0232ab0/file-1kjpvoaba-320w.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}",
         "\\times"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:33.237155"
     },
@@ -5102,14 +5109,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><br/><br/>F = mg + f\n<br/><br/>F = 20000 + 4000 = 24000 N\n<br/><br/>We know, Power(P) = Fv\n<br/><br/> $\\Rightarrow$  v =  $\\frac{P}{F}$  =  $\\frac{60 \\times 746}{24000}$ \n<br/><br/> $\\Rightarrow$  v  $\\approx$  1.9 m/s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{P}{F}",
         "\\frac{60 \\times 746}{24000}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:33.713862"
     },
@@ -5137,13 +5144,13 @@
         "https://imagex.cdn.examgoal.net/jgy2xukev3itzi/3c68ea76-ce0d-480f-99a7-2844c5a8dec0/eede96e0-f272-11ea-8293-3b6cc591631c/file-jgy2xukev3itzj-284w.png",
         "https://imagex.cdn.examgoal.net/1ki4y5pmw/86a520ac-ef23-4929-9621-2601254dd900/70f9a880-3342-11eb-ba20-47c0d98cad6a/file-1ki4y5pmx-1940w.jpeg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:43.323166"
     },
@@ -5189,7 +5196,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $P=Fv$ <br/><br/> $P=m\\frac{dv}{dt}v$ <br/><br/> $\\Rightarrow$   $vdv=\\frac{P}{m}dt$ \n<br/><br/>Integrating both sides, we get<br/><br/> $V^{2}=k^{'}t$ <br/><br/> $\\Rightarrow$  V = k\" $\\sqrt{t}$ \n<br/><br/> $\\Rightarrow$   $\\frac{ds}{dt}$  = k\" $\\sqrt{t}$ \n<br/><br/> $\\Rightarrow$   $\\int ds=\\int k^{''}\\sqrt{t}dt$ \n<br/><br/> $\\Rightarrow$  s  $∝$  t<sup>3/2</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "P=Fv",
@@ -5200,7 +5207,7 @@
         "\\int ds=\\int k^{''}\\sqrt{t}dt"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:33.309654"
     },
@@ -5227,7 +5234,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l3831ie3/ce2eca9a-da42-4b77-9f5b-fc6f11cf3030/6eb182b0-d4bc-11ec-ad28-abe411cf4979/file-1l3831ie4.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
@@ -5238,7 +5245,8 @@
         "v = 3 m/s (at t = 9 s) As, Fv = P"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:42.951562"
     },
@@ -5265,11 +5273,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5duzy9r/d2bb9b08-95ec-47aa-9765-d800d8d0d521/53527cf0-36ca-11ea-92dd-4b9c3519996f/file-7k9k2k5duzy9s-357w.jpg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:43.369932"
     },
@@ -5317,7 +5325,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5i6mc2b/ef7beac4-6003-4cfa-806e-78c1f0b92809/e8cbee30-392a-11ea-92dd-4b9c3519996f/file-7k9k2k5i6mc2c-344w.jpg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{F}=-x\\hat{i}+y\\hat{j}",
@@ -5326,7 +5334,7 @@
         "\\frac{1}{2}+\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:33.416696"
     },
@@ -5353,7 +5361,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kjip3593/df02b911-9f77-4ea9-82bb-9c5da4be4dec/27eb6670-4e9e-11eb-af62-d347c4e94b2f/file-1kjip3594-320w.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{v_{0}}{2}",
@@ -5364,7 +5372,7 @@
         "W_{f}=k_{f}-k_{i}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:42.984779"
     },
@@ -5410,7 +5418,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Work done =  $\\vec{F} \\cdot \\vec{d}$   \n<br/><br/>                     $=$  12 J\n<br/><br/>work energy theorem\n<br/><br/>w<sub>net</sub>  $=$   $\\Delta$ K.E.\n<br/><br/>12  $=$  K<sub>f</sub>  $-$  3\n<br/><br/>K<sub>f</sub> = 15 J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{F}=3\\hat{i}-12\\hat{j},",
@@ -5418,7 +5426,7 @@
         "\\vec{F} \\cdot \\vec{d}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:34.502784"
     },
@@ -5466,7 +5474,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/5A8ONG3zvxKHmVwKE/XKMxX83h9il8z0IE84oIgaR8gnXfP/IYAZAZ44WcBkC7lINumHP8/image.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "mg =",
@@ -5476,7 +5484,7 @@
         "\\frac{3mg^{2}t^{2}}{8}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:34.522616"
     },
@@ -5522,7 +5530,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->To solve this problem, we need to determine the work done to lift the hanging part of the cable up to the surface. The work done lifting a small element of the cable will be the weight of the element times the distance it has to be lifted.\n\n<br/><br/>Let's take a small section of the cable at a depth  $x$  below the surface. This section has a length of  $dx$ , so its mass is  $(M/L)dx$  where  $(M/L)$  is the linear mass density of the cable.\n\n<br/><br/>The work  $dW$  done to lift this small section up to the surface is the weight of the section times the distance it has to be lifted :\n\n<br/><br/> $dW=(M/L)gdx \\times x$ .\n\n<br/><br/>Integrating this expression from 0 to L/n (the length of the hanging part of the cable) gives the total work done :\n\n<br/><br/> $W=\\int_{0}^{L/n}(M/L)gxdx$ \n<br/><br/> $=(Mg/L)\\int_{0}^{L/n}xdx$ \n<br/><br/> $=(Mg/L) \\times [x^{2}/2]_{0}^{L/n}$ \n<br/><br/> $=(Mg/L) \\times [L^{2}/(2n^{2})]$ \n<br/><br/> $=MgL/(2n^{2})$ \n<br/><br/>So the work done to lift the hanging part of the cable up to the surface is  $MgL/(2n^{2})$ .\n\n<br/><br/>Therefore, the correct answer is Option C :\n\n<br/><br/> $\\frac{MgL}{2n^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "dW=(M/L)gdx \\times x",
@@ -5533,7 +5541,7 @@
         "=MgL/(2n^{2})"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:33.863681"
     },
@@ -5579,7 +5587,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Displacement, \n<br/><br/>x = 3t<sup>2</sup> + 5\n<br/><br/> $\\therefore$   v =  $\\frac{dx}{dt}=6t$ \n<br/><br/>At  t = 0,   velocity = 6  $\\times$  0 = 0\n<br/><br/>at  t = 5, velocity = 5  $\\times$  6 = 30 m/s\n<br/><br/>we  know from work energy theorem,\n<br/><br/>Work (W) = change in kinetic energy ( $\\Delta$ K)\n<br/><br/>=  $\\frac{1}{2}mv_{F}^{2}-\\frac{1}{2}mv_{i}^{2}$ \n<br/><br/>=   $\\frac{1}{2}$   $\\times$  2  $\\times$  (30)<sup>2</sup>  $-$  0\n<br/><br/>= 900 J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dx}{dt}=6t",
@@ -5588,7 +5596,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:34.539579"
     },
@@ -5636,13 +5644,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/cSxcAbiByUZSlMa77/TBdNHlKVwvJVPD0gDK58eSCBuOy7B/pZ6SxY7MmXjPR4xQMSnkth/image.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "2 \\times 2+\\frac{(2+3) \\times 1}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:34.225357"
     },
@@ -5691,7 +5699,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l8mgfhzx/199ef063-54b4-46d3-8e0a-9cdf3c99836c/d861f8d0-3fa0-11ed-835d-8b6c97a43374/file-1l8mgfhzy.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l8mgeuto/c4b292e6-7177-4564-a666-3b395f035c4a/c67b4cc0-3fa0-11ed-835d-8b6c97a43374/file-1l8mgeutp.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{F}{K}",
@@ -5702,7 +5710,7 @@
         "\\frac{F^{2}}{K}-\\frac{F^{2}}{2K}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:34.561061"
     },
@@ -5748,7 +5756,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In circular motion the force required \n<br/><br/> $|F|=\\frac{mv^{2}}{r}$ \n<br/><br/> $\\therefore$   $\\frac{mv^{2}}{r}=\\frac{16}{r}+r^{3}$ \n<br/><br/> $\\Rightarrow$  mv<sup>2</sup> = 16 + r<sup>4</sup>\n<br/><br/> $\\therefore$   kinetic energy (K) =  $\\frac{1}{2}$  mv<sup>2</sup> =  $\\frac{1}{2}$   [ 16 + r<sup>4</sup>]\n<br/><br/> $\\therefore$   Kinetic energy  of first particle  (K<sub>1</sub>) =  $\\frac{1}{2}$  [16 + 1]\n<br/><br/>Kinetic energy of second particle (K<sub>2</sub>) =  $\\frac{1}{2}$  [16 + 4<sup>4</sup>]\n<br/><br/> $\\therefore$   $\\frac{K_{1}}{K_{2}}$  =  $\\frac{\\frac{16+1}{2}}{\\frac{16+256}{2}}$  =  $\\frac{17}{272}$ \n<br/><br/> $\\Rightarrow$    $\\frac{K_{1}}{K_{2}}=6 \\times 10^{-2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "F(r)=\\frac{-16}{r}-r^{3}",
@@ -5759,7 +5767,7 @@
         "\\frac{\\frac{16+1}{2}}{\\frac{16+256}{2}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.153119"
     },
@@ -5805,7 +5813,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  \n<br/><br/> $\\upsilon$  = a  $\\sqrt{s}$ \n<br/><br/> $\\Rightarrow$   $\\frac{ds}{dt}=a\\sqrt{s}$ \n<br/><br/> $\\Rightarrow$   $\\int_{0}^{t}\\frac{ds}{\\sqrt{s}}=\\int_{0}^{z}adt$ \n<br/><br/> $\\Rightarrow$  2 $\\sqrt{s}$  = at\n<br/><br/> $\\Rightarrow$  s =  $\\frac{a^{2}t^{2}}{4}$ \n<br/><br/>=  $\\frac{1}{2}.\\frac{a^{2}}{2}.t^{2}$ \n<br/><br/> $\\therefore$  acceleration =  $\\frac{a^{2}}{2}$ \n<br/><br/> $\\therefore$  Force (F) = m  $\\times$   $\\frac{a^{2}}{2}$ \n<br/><br/> $\\therefore$  Work done = F. S\n<br/><br/>=  $\\frac{ma^{2}}{2} \\times \\frac{a^{2}t^{2}}{4}$ \n<br/><br/>=  $\\frac{ma^{4}t^{2}}{8}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\upsilon=a\\sqrt{s}",
@@ -5816,7 +5824,7 @@
         "\\frac{a^{2}}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.228818"
     },
@@ -5862,7 +5870,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, Total energy = Kinetic energy + Potential energy\n<br/><br/>Potential energy given as  $U=-\\frac{k}{2r^{2}}$ \n<br/><br/>We need to find Kinetic Energy.\n<br/><br/>As Force acting on the particle (F) =  $-\\frac{dU}{dr}$ \n<br/><br/> $\\Rightarrow F=-\\frac{d}{dr}(\\frac{-k}{2r^{2}})$ \n<br/><br/> $=\\frac{k}{2} \\times (-2) \\times r^{-3}$ \n<br/><br/> $=-\\frac{k}{r^{3}}$ \n<br/><br/>Because of this force particle is having circular motion so it will provide possible centripetal force.\n<br/><br/> $|F|=\\frac{mv^{2}}{r}$ \n<br/><br/> $\\Rightarrow \\frac{mv^{2}}{r}=\\frac{k}{r^{3}}$ \n<br/><br/> $\\Rightarrow$   $mv^{2}=\\frac{k}{r^{2}}$ \n<br/><br/>We know kinetic energy of particle, K =  $\\frac{1}{2}mv^{2}$  =  $\\frac{k}{2r^{2}}$ \n<br/><br/>As Total energy = Kinetic energy + Potential energy \n<br/><br/>So Total energy =  $\\frac{k}{2r^{2}}$   $-\\frac{k}{2r^{2}}$  = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "U=-\\frac{k}{2r^{2}}",
@@ -5873,7 +5881,7 @@
         "|F|=\\frac{mv^{2}}{r}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.276996"
     },
@@ -5919,7 +5927,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->According to the question, final kinetic energy  =  $\\frac{1}{8}mv_{0}^{2}$ \n<br/><br/>Let final speed of the body = V<sub>f</sub>\n<br/><br/>So final kinetic energy =  $\\frac{1}{2}mv_{f}^{2}$ \n<br/><br/>According to question,\n<br/><br/> $\\frac{1}{2}mv_{f}^{2}$  =  $\\frac{1}{8}mv_{0}^{2}$ \n<br/><br/> $\\Rightarrow v_{f}=\\frac{v_{0}}{2}$  =  $\\frac{10}{2}$  = 5 m/s\n<br/><br/>Given that, F = –kv<sup>2</sup>\n<br/><br/> $\\Rightarrow$   $m(\\frac{dv}{dt})$  $=-kv^{2}$ \n<br/><br/> $\\Rightarrow 10^{-2}(\\frac{dv}{dt})=-kv^{2}$ \n<br/><br/> $\\Rightarrow \\int_{10}^{5}\\frac{dv}{v^{2}}=-100k\\int_{0}^{10}dt$ \n<br/><br/> $\\Rightarrow \\frac{1}{5}-\\frac{1}{10}=100k \\times 10$ \n<br/><br/> $\\Rightarrow k=10^{-4}kgm^{-1}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{8}mv_{0}^{2}",
@@ -5930,7 +5938,7 @@
         "=-kv^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.640072"
     },
@@ -5976,7 +5984,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, F = 6t\n<br/><br/>We know, F = ma =  $m\\frac{dv}{dt}$ \n<br/><br/> $\\therefore$   $m\\frac{dv}{dt}=6t$ \n<br/><br/> $\\Rightarrow$   $1.\\frac{dv}{dt}=6t$  [as m = 1]\n<br/><br/> $\\Rightarrow$   $\\int_{0}^{v}dv=\\int 6tdt$ \n<br/><br/> $\\Rightarrow$   $v=6[\\frac{t^{2}}{2}]_{0}^{1}$ \n<br/><br/> $\\Rightarrow$   $v=\\frac{6}{2}=3$  m/s [ as given t = 1 sec ] \n<br/><br/>Work done by the body during the first 1 form work-energy theorem,\n<br/><br/>W =  $\\Delta$ K.E =  $\\frac{1}{2}m(V^{2}-v^{2})$ \n<br/><br/>=  $\\frac{1}{2}.1.(3^{2}-0^{2})$  = 4.5 J\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "m\\frac{dv}{dt}",
@@ -5987,7 +5995,7 @@
         "v=\\frac{6}{2}=3"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.662623"
     },
@@ -6033,7 +6041,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let, \n<br/><br/>Kinetic energy (k) =  $\\frac{1}{2}$  m  $\\upsilon$ <sup>2</sup> before it hit the ground. \n<br/><br/>After hitting the ground kinetic energy \n<br/><br/>(k') =  $\\frac{1}{2}$  m  $\\upsilon$  $_{1}^{2}$ \n<br/><br/> $\\therefore$ According to the question,\n<br/><br/>  $\\frac{1}{2}$  m $\\upsilon$  $_{1}^{2}$  =  $\\frac{1}{2}$   $\\times$   $\\frac{1}{2}$  m $\\upsilon$ <sup>2</sup>\n<br/><br/> $\\Rightarrow$   $\\upsilon$ <sub>1</sub> =  $\\frac{v}{\\sqrt{2}}$ \n<br/><br/>After hitting the ground the object will bounce \n<br/><br/>h' =   $\\frac{v_{1}^{2}}{2g}$  =  $\\frac{v^{2}}{4g}$  =  $\\frac{ℎ}{2}$  [ as    h =  $\\frac{v^{2}}{2g}$  ] \n<br/><br/>Total distance travelled from the time it first hits the ground to the next time it hits the ground is =  $\\frac{ℎ}{2}$  +  $\\frac{ℎ}{2}$  = h\n<br/><br/>So, this will create a infinite geometric progression with the common ration  $\\frac{1}{2}$ .\n<br/><br/> $\\therefore$   Total distance covered \n<br/><br/>= h (distance travelled by the obhect when first dropped, before it hits the ground)\n<br/>+ (h +  $\\frac{ℎ}{2}$  +  $\\frac{ℎ}{4}$  + . . . . . . . . $∝$ )\n<br/><br/>= h +  $\\frac{ℎ}{1-\\frac{1}{2}}$ \n<br/><br/>= h + 2h\n<br/><br/>= 3h <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -6044,7 +6052,7 @@
         "\\frac{v^{2}}{4g}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.345566"
     },
@@ -6093,7 +6101,7 @@
         "https://imagex.cdn.examgoal.net/P5A2sZXzAzkJdWaKr/F3HtfxZ8FjvuikXnYpnBi0OV9eFT0/YUnr2XFlS9xQ1fT07PYScm/image.png",
         "https://imagex.cdn.examgoal.net/j1VBp2PZYNSMq15XK/fIHnjRbljE2VllPuAj0QNo45OIFnM/O0qH318MZBtIwQwjpvx8Um/image.png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{W}{20}",
@@ -6104,7 +6112,7 @@
         "(\\frac{w}{10}+\\frac{w}{20}) \\times 10"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:36.126806"
     },
@@ -6150,7 +6158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Assume the amount of fat is used = x kg\n<br/><br/>So total Mechanical energy available through fat\n<br/><br/>=  $x \\times 3.8 \\times 10^{7} \\times \\frac{20}{100}$ \n<br/><br/>And work done through lifting up\n<br/><br/>=  10  $\\times$  9.8  $\\times$  1000 = 98000 J\n<br/><br/> $\\Rightarrow$   $x \\times 3.8 \\times 10^{7} \\times \\frac{20}{100}$  = 98000\n<br/><br/> $\\Rightarrow$   $x$  = 12.89  $\\times$  10<sup>-3</sup> kg<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "3.8 \\times 10^{7}J",
@@ -6159,7 +6167,7 @@
         "= 12.89"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.147061"
     },
@@ -6208,7 +6216,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l82x39i6/9af32037-4907-4f94-9fdb-53d8c3c7c0ab/5251cfe0-34e2-11ed-b84c-a3c7c2456516/file-1l82x39i7.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l82x41my/097d3d61-5618-4e49-8441-af0a000c1ad5/680d2aa0-34e2-11ed-b84c-a3c7c2456516/file-1l82x41mz.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\Delta v}{\\Delta t}",
@@ -6219,7 +6227,7 @@
         "="
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:35.690231"
     },
@@ -6267,7 +6275,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7zdal9h/fa4d935b-34d4-4464-8764-dbb41a44517b/8d893c60-32ee-11ed-8cf6-c1445513adbd/file-1l7zdal9i.png?format=png"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "(=QR),",
@@ -6278,7 +6286,7 @@
         "2=2\\sqrt{3}\\mu+\\mu x"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.180871"
     },
@@ -6324,7 +6332,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, \n<br/><br/>centripetal acceleration =  $\\frac{V^{2}}{R}$ \n<br/><br/> $\\therefore$    According to question, \n<br/><br/> $\\frac{V^{2}}{R}$  =  $n^{2}Rt^{2}$ \n<br/><br/> $\\Rightarrow$    V<sup>2</sup> = n<sup>2</sup> R<sup>2</sup> t<sup>2</sup>\n<br/><br/> $\\Rightarrow$    V = nRt\n<br/><br/> $\\Rightarrow$     $\\frac{dV}{dt}$  = nR\n<br/><br/>Power (P) = Force (F)  $\\times$  Velocity (V)\n<br/><br/>= M  $\\frac{dV}{dt}$ (V)\n<br/><br/>= M (nR) (nRt)\n<br/><br/>= Mn<sup>2</sup>R<sup>2</sup>t<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{V^{2}}{R}",
@@ -6333,7 +6341,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:35.724080"
     },
@@ -6379,13 +6387,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given Restoring force, F = ax + bx<sup>2</sup>\n<br/><br/>Work done in stretching the rubber-band by a distance  $dx$  is \n<br/><br/> $dW=Fdx=(ax+bx^{2})dx$ \n<br/><br/>Intergrating both sides,\n<br/><br/> $W=\\int_{0}^{L}axdx+\\int_{0}^{L}bx^{2}dx$ \n<br/><br/>=  $[a\\frac{x^{2}}{2}+b\\frac{x^{3}}{3}]_{0}^{L}$ \n<br/><br/>=  $\\frac{aL^{2}}{2}+\\frac{bL^{3}}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "="
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.219334"
     },
@@ -6431,7 +6439,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know force (F) = kx\n<br/><br/> $W=\\frac{1}{2}kx^{2}$ \n<br/><br/> $W=$   $\\frac{(kx)^{2}}{2k}$  \n<br/><br/> $\\therefore$   $W=\\frac{F^{2}}{2k}$  [ as  $F=kx$  ]\n<br/><br/>When force is same then,\n<br/><br/> $W∝\\frac{1}{k}$ \n<br/><br/>Given that,  $W_{1}&gt;W_{2}$ \n<br/><br/> $\\therefore$   $k_{1}&lt;k_{2}$ \n<br/><br/><b>Statement-2 is true.</b>\n<br/><br/>For the same extension, x<sub>1</sub>\n = x<sub>2</sub>\n = x\n<br/><br/>Work done on spring S<sub>1</sub> is W<sub>1</sub> =  $\\frac{1}{2}k_{1}x_{1}^{2}=\\frac{1}{2}k_{1}x^{2}$ \n<br/><br/>Work done on spring S<sub>2</sub> is W<sub>2</sub> =  $\\frac{1}{2}k_{2}x_{2}^{2}=\\frac{1}{2}k_{2}x^{2}$ \n<br/><br/> $\\therefore$   $\\frac{W_{1}}{W_{2}}=\\frac{k_{1}}{k_{2}}$ \n<br/><br/>As  $k_{1}&lt;k_{2}$  then  $W_{1}&lt;W_{2}$ \n<br/><br/><b>So, Statement-1 is false.</b><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{1}",
@@ -6442,7 +6450,7 @@
         "W=\\frac{1}{2}kx^{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.619180"
     },
@@ -6488,7 +6496,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $U(x)=\\frac{a}{x^{12}}-\\frac{b}{x^{6}}$ \n<br/><br/> $U(x=\\infty)$  = 0\n<br/><br/>We know  $F=-\\frac{dU}{dx}=-[\\frac{12a}{x^{13}}+\\frac{6b}{x^{7}}]$ \n<br/><br/>At equilibrium:  $\\frac{dU(x)}{dx}=0$ \n<br/><br/> $\\Rightarrow \\frac{-12a}{x^{13}}=\\frac{-6b}{x^{7}}$ \n<br/><br/> $\\Rightarrow x=(\\frac{2a}{ℎ})^{\\frac{1}{6}}$ \n<br/><br/> $\\therefore$   $U_{atequilibrium}=\\frac{a}{(\\frac{2a}{b})^{2}}-\\frac{b}{(\\frac{2a}{b})}$ \n<br/><br/> $=-\\frac{b^{2}}{4a}$ \n<br/><br/> $\\therefore$   $D=0-(-\\frac{b^{2}}{4a})=\\frac{b^{2}}{4a}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "U(x)=\\frac{a}{x^{12}}-\\frac{b}{x^{6}},",
@@ -6499,7 +6507,7 @@
         "\\frac{dU(x)}{dx}=0"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.664124"
     },
@@ -6545,7 +6553,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The average speed of the athelete\n<br/><br/> $v=\\frac{100}{10}=10m/s$   $\\therefore$   $K.E.=\\frac{1}{2}mv^{2}$ \n<br/><br/>If mass of athlete is  $40$   $kg$  then,  $K.E.$   $=\\frac{1}{2} \\times 40 \\times (10)^{2}=2000J$ \n<br/><br/>If mass of athlete is  $100$   $kg$  then,  $K.E.$   $=\\frac{1}{2} \\times 100 \\times (10)^{2}=5000J$ \n<br/><br/>His kinetic energy can be in the range = 2000 J to 5000 J.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\frac{100}{10}=10m/s",
@@ -6554,7 +6562,7 @@
         "=\\frac{1}{2} \\times 100 \\times (10)^{2}=5000J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.702646"
     },
@@ -6600,7 +6608,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $u$  be the velocity with which the particle is thrown and  $m$  be the mass of the particle. Then \n<br/><br/> $KE=\\frac{1}{2}mu^{2}....(1)$ \n<br/><br/>At the highest point the velocity is  $u$   $cos60^{\\circ}$  (only the horizontal component remains, the vertical component being zero at the top-most point). \n<br/><br/>Therefore kinetic energy at the highest point,\n<br/><br/> $(KE)_{H}=\\frac{1}{2}mu^{2}cos^{2}60^{\\circ}$ \n<br/><br/> $=\\frac{K}{4}$   [ From  eq  $(1)$  ]<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "60^{\\circ}",
@@ -6609,7 +6617,7 @@
         "=\\frac{K}{4}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.035306"
     },
@@ -6655,7 +6663,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the block compress the spring by  $x$  before coming to rest.\n<br/> <br/> Initial kinetic energy of the block  $=$  (potential energy of compressed spring)  $+$  work done due to friction.\n<br/><br/>  $\\frac{1}{2} \\times 2 \\times (4)^{2}=\\frac{1}{2} \\times 10000 \\times x^{2}+15 \\times x$ \n<br/><br/>  $10,000x^{2}+30x-32=0$ \n<br/><br/>  $\\Rightarrow 5000x^{2}+15x-16=0$ \n<br/><br/>  $\\therefore$   $x=\\frac{-15 \\pm \\sqrt{(15)^{2}-4 \\times (5000)(-16)}}{2 \\times 5000}$ \n<br/><br/>  $=0.055m=5.5cm.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "10,000x^{2}+30x-32=0",
@@ -6664,7 +6672,7 @@
         "=0.055m=5.5cm."
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:36.747734"
     },
@@ -6710,7 +6718,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Velocity is maximum when kinetic energy is maximum and when kinetic energy is maximum then potential energy should be minimum\n<br/><br/> For minimum potential energy,\n<br/><br/> $\\frac{dV}{dx}=0$ \n<br/><br/> $\\Rightarrow x^{3}-x=0$ \n<br/><br/> $\\Rightarrow x= \\pm 1$ \n<br/><br/> $\\Rightarrow$  Min. Potential energy (P.E.) = $\\frac{1}{4}-\\frac{1}{2}=-\\frac{1}{4}J$ \n<br/><br/> $K.E._{(max.)}+P.E._{(min.)}=2$  (Given)\n<br/><br/> $\\therefore$   $K.E._{(max.)}=2+\\frac{1}{4}=\\frac{9}{4}$ \n<br/><br/> $\\therefore$   $\\frac{1}{2}mv_{max}^{2}$  =  $\\frac{9}{4}$ \n<br/><br/> $\\Rightarrow \\frac{1}{2} \\times 1 \\times v^{2}_{max.}=\\frac{9}{4}$ \n<br/><br/> $\\Rightarrow v_{max}=\\frac{3}{\\sqrt{2}}$  m/s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dV}{dx}=0",
@@ -6721,7 +6729,7 @@
         "K.E._{(max.)}=2+\\frac{1}{4}=\\frac{9}{4}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.415165"
     },
@@ -6767,14 +6775,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->According to energy conservation law,\n<br/><br/>Work done by the hand and due to gravity = total change in the kinetic energy\n<br/><br/>Initially the the ball is at rest and finally at top its velocity become zero so total change in kinetic energy  $\\Delta K$  = 0\n<br/><br/> $W_{ℎand}+W_{gravity}=\\Delta K$ \n<br/><br/>[Here distance covered would be 0.2 meter for force by hand as force is applied while ball is in contact with hand.\n<br/>And gravity will still work while ball is in contact with hand so total distance due to gravity would be 2 + 0.2 = 2.2 meter.]\n<br/> $\\Rightarrow F(0.2)-(0.2)(10)(2.2)$   $=0 \\Rightarrow F=22N$ \n<br/><br/> $\\therefore$  Option (D) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "W_{ℎand}+W_{gravity}=\\Delta K",
         "=0 \\Rightarrow F=22N"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.067303"
     },
@@ -6822,7 +6830,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/GJE1bpFt8OqeL1wYR/655wofzO7pEdvBG3YMIR9IsXvSstW/q5xzKVLPJ2RkcDAdixoSFo/image.svg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "45^{\\circ}",
@@ -6833,7 +6841,7 @@
         "\\Rightarrow F=Mg(\\sqrt{2}-1)"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.107296"
     },
@@ -6879,11 +6887,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the length of the inclined plane is =  $l$ . So only  $\\frac{l}{2}$  part will have friction.\n<br/><br/>According to work-energy  theorem,  $W=\\Delta k=0$  \n(Since initial and final speeds are zero) \n<br/><br/> $\\therefore$   Work done by friction + Work done by gravity  $=0$ \n<br/><br/>i.e.,  $-(\\mu mgcos\\phi)\\frac{\\ell}{2}+mg\\ell sin\\phi=0$ \n<br/><br/>or  $\\frac{\\mu}{2}cos\\phi=sin\\phi$ \n<br/><br/>or  $\\mu=2tan\\phi$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.776463"
     },
@@ -6929,7 +6937,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $u=0;v=u+aT;v=aT$ \n<br/><br/>Instantaneous power  $=F \\times v=m.a.at=m.a^{2}.t$ \n<br/><br/> $\\therefore$  Instantaneous power  $=\\frac{mv^{2}t}{T^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Easy",
       "key_formulas": [
         "u=0;v=u+aT;v=aT",
@@ -6937,7 +6945,7 @@
         "=\\frac{mv^{2}t}{T^{2}}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:37.428594"
     },
@@ -6983,14 +6991,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $K$  be the initial kinetic energy and  $F$  be the resistive force. Then according to work-energy theorem,  \n $W=\\Delta K$ \n<br/><br/>i.e.,  $3F=\\frac{1}{2}mv^{2}-\\frac{1}{2}m(\\frac{v}{2})^{2}...(1)$ \n<br/><br/><b>Let the bullet will penetrate x cm more before coming to rest.</b>\n<br/><br/> $\\therefore$   $Fx=\\frac{1}{2}m(\\frac{v}{2})^{2}-\\frac{1}{2}m(0)^{2}...(2)$ \n<br/><br/>Dividing eq.  $(1)$  and  $(2)$  we get,\n<br/><br/>  $\\frac{x}{3}=\\frac{1}{3}$  or x = 1 cm<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "Fx=\\frac{1}{2}m(\\frac{v}{2})^{2}-\\frac{1}{2}m(0)^{2}...(2)",
         "\\frac{x}{3}=\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.472986"
     },
@@ -7038,7 +7046,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/J1AdazPNAyes67ln7/U9F77jRmgjdp3SJGbKRlYpzB4jmxb/JedpI8cQYz7QahBFmpgFpy/image.svg"
       ],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "10 \\times 80=\\frac{1}{2}v^{2}",
@@ -7046,7 +7054,7 @@
         "v=40m/s"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.514063"
     },
@@ -7092,7 +7100,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The work done by a force on a particle is given by the dot product of the force and the displacement vector of the particle:\n\n $W=\\vec{F} \\cdot \\vec{r}$ \n<br/><br/>\nWe can substitute the given vectors into this expression:\n<br/><br/> $W=\\vec{F}.\\vec{r}$ \n<br/><br/> $=(5\\hat{i}+3\\hat{j}+2\\hat{k}).(2\\hat{i}-\\hat{j})$ \n<br/><br/> $=10-3=7$  J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}=(5\\vec{i}+3\\vec{j}+2\\vec{k})N",
@@ -7103,7 +7111,7 @@
         "=10-3=7"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.188617"
     },
@@ -7149,7 +7157,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, retardation  $∝$  displacement \n<br/><br/> $\\Rightarrow$   $a=-kx$ \n<br/><br/>But we know  $a=v\\frac{dv}{dx}$ \n<br/><br/> $\\therefore$   $\\frac{vdv}{dx}=-kx$ \n<br/><br/> $\\Rightarrow \\int_{v_{1}}^{v_{2}}vdv=-k\\int_{0}^{x}xdx$ \n<br/><br/> $(v_{2}^{2}-v_{1}^{2})=-k\\frac{x^{2}}{2}$ \n<br/><br/> $\\Rightarrow \\frac{1}{2}m(v_{2}^{2}-v_{1}^{2})=\\frac{1}{2}mk(\\frac{-x^{2}}{2})$ \n<br/><br/> $\\therefore$  Loss in kinetic energy is proportional to  $x^{2}$ .\n<br/><br/> $\\therefore$   $\\Delta K∝x^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "a=-kx",
@@ -7160,7 +7168,8 @@
         "\\Rightarrow \\frac{1}{2}m(v_{2}^{2}-v_{1}^{2})=\\frac{1}{2}mk(\\frac{-x^{2}}{2})"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces",
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:37.806457"
     },
@@ -7206,7 +7215,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mass of hanging part  $(m^{'})=\\frac{4}{2} \\times (0.6)kg$  = 1.2 kg\n<br/><br/>Let at the surface  $PE=0$ \n<br/><br/>Center of mass of hanging part  $=0.3$   $m$  below the surface of the table \n<br/><br/> $U_{i}=-m^{'}gx=-1.2 \\times 10 \\times 0.30$  = - 3.6 J\n<br/><br/> $\\Delta U=m^{'}gx=3.6J=$  Work done in putting the entire chain on the table.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "(m^{'})=\\frac{4}{2} \\times (0.6)kg",
@@ -7215,7 +7224,7 @@
         "= - 3.6 J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.824103"
     },
@@ -7261,13 +7270,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Work done by such force is always zero when a force of constant magnitude always at right angle to the velocity of a particle when the motion of the particle takes place in a plane.\n<br/><br/> $\\therefore$  From work-energy theorem,  $\\Delta K=0$ \n<br/><br/> $\\therefore$   $K$  remains constant.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Delta K=0"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:37.855986"
     },
@@ -7313,7 +7322,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The elastic potential energy\n<br/><br/> $=\\frac{1}{2} \\times$  Force  $\\times$  extension \n<br/><br/> $=\\frac{1}{2} \\times 200 \\times 0.001=0.1J$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{2} \\times",
@@ -7321,7 +7330,7 @@
         "=\\frac{1}{2} \\times 200 \\times 0.001=0.1J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.252295"
     },
@@ -7367,7 +7376,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $k=5 \\times 10^{3}N/m$ \n<br/><br/>Work done when a spring stretched from x<sub>1</sub> cm to x<sub>2</sub> cm,\n<br/><br/> $W=\\frac{1}{2}k(x_{2}^{2}-x_{1}^{2})$ \n<br/><br/> $=\\frac{1}{2} \\times 5 \\times 10^{3}[(0.1)^{2}-(0.05)^{2}]$ \n<br/><br/> $=\\frac{5000}{2} \\times 0.15 \\times 0.05=18.75Nm$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "5 \\times 10^{3}N/m",
@@ -7375,7 +7384,7 @@
         "=\\frac{5000}{2} \\times 0.15 \\times 0.05=18.75Nm"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.316619"
     },
@@ -7421,7 +7430,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know that  $F \\times v=$  Power\n<br/><br/>According to the question, power is constant.\n<br/><br/> $\\therefore$   $F \\times v=c$  where  $c=$  constant\n<br/><br/> $\\therefore$   $m\\frac{dv}{dt} \\times v=c$   $($   $\\therefore$   $F=ma=\\frac{mdv}{dt})$ \n<br/><br/> $\\therefore$   $m\\int_{0}^{v}vdv=c\\int_{0}^{t}dt$   $\\therefore$   $\\frac{1}{2}mv^{2}=ct$ \n<br/><br/> $\\therefore$   $v=\\sqrt{\\frac{2c}{m}} \\times t^{1/2}$ \n<br/><br/> $\\frac{dx}{dt}=\\sqrt{\\frac{2c}{m}} \\times t^{1/2}$  where  $v=\\frac{dx}{dt}$ \n<br/><br/> $\\therefore$   $\\int_{0}^{x}dx=\\sqrt{\\frac{2c}{m}} \\times \\int_{0}^{t}t^{1/2}dt$ \n<br/> $x=\\sqrt{\\frac{2c}{m}} \\times \\frac{2t^{3/2}}{3} \\Rightarrow x∝t^{3/2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Power & Collisions (Elastic & Inelastic)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{'}t^{'}",
@@ -7432,7 +7441,7 @@
         "m\\int_{0}^{v}vdv=c\\int_{0}^{t}dt"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Power & Collisions (Elastic & Inelastic)"
       ],
       "crawled_at": "2026-09-20T16:06:38.375569"
     },
@@ -7478,7 +7487,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->When we extend the spring by  $dx$  then the work done\n<br/><br/> $dW=kxdx$ \n<br/><br/>Applying integration both sides we get,\n<br/><br/> $\\therefore$   $W=k\\int_{0.05}^{0.15}xdx$ \n<br/><br/> $=\\frac{800}{2}[(0.15)^{2}-(0.05)^{2}]$ \n<br/><br/> $=8J$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Easy",
       "key_formulas": [
         "W=k\\int_{0.05}^{0.15}xdx",
@@ -7486,7 +7495,7 @@
         "=8J"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.757782"
     },
@@ -7532,7 +7541,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Assume the ball of mass m is projected with a speed u. Then the kinetic energy(E) at the point of projection =  $\\frac{1}{2}mu^{2}$ \n<br/><br/>At highest point of flight only horizontal component of  velocity  $ucos\\theta$  present as at highest point vertical component of velocity is = 0.\n<br/><br/><b>Note :</b> The horizontal component of velocity does not change in entire projectile motion.\n<br/><br/>At highest point the velocity is =  $ucos\\theta$  =  $ucos45^{\\circ}$  =  $\\frac{u}{\\sqrt{2}}$ \n<br/><br/> $\\therefore$  The kinetic energy at the height point =  $\\frac{1}{2}m(\\frac{u}{\\sqrt{2}})^{2}$ \n<br/><br/>=  $\\frac{1}{2}mu^{2} \\times \\frac{1}{2}$  =  $\\frac{E}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "45^{\\circ}",
@@ -7543,7 +7552,7 @@
         "\\frac{1}{2}mu^{2} \\times \\frac{1}{2}"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.807481"
     },
@@ -7589,7 +7598,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know the work energy theorem,  $W=\\Delta K=FS$ \n<br/><br/>For first penetration, by applying work energy theorem we get,\n<br/><br/> $\\frac{1}{2}mv^{2}-\\frac{1}{2}m(\\frac{v}{2})^{2}=F \\times 3...(i)$ \n<br/><br/>For second penetration, by applying work energy theorem we get,\n<br/><br/> $\\frac{1}{2}m(\\frac{v}{2})^{2}-0=F \\times S...(ii)$ \n<br/><br/>On dividing  $(ii)$  by  $(i)$ \n<br/><br/> $\\frac{1/4}{3/4}=S/3$ \n<br/><br/> $\\therefore$   $S=1cm$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Work Power And Energy - Core Application",
+      "topic_tag": "Work-Energy Theorem & Conservative Forces",
       "difficulty": "Medium",
       "key_formulas": [
         "W=\\Delta K=FS",
@@ -7599,7 +7608,7 @@
         "S=1cm"
       ],
       "key_concepts": [
-        "Work Power And Energy - Core Application"
+        "Work-Energy Theorem & Conservative Forces"
       ],
       "crawled_at": "2026-09-20T16:06:38.853723"
     }

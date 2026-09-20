@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Take</p>\n<p>$$ y=\\cos^{-1}(4x^3-3x) $$</p>\n<p>and</p>\n<p>$$ t=\\cos^{-1}(2x^2-1) $$</p>\n<p>We need</p>\n<p>$$ \\frac{d^2y}{dt^2} $$</p>\n<p>Since $\\frac{1}{2}<x<1$, can=\"\" p=\"\" we=\"\" write<=\"\">\n<p>$$ x=\\cos \\theta $$</p>\n<p>where</p>\n<p>$$ 0&lt;\\theta&lt;\\frac{\\pi}{3} $$</p>\n<p>Now use the standard identities:</p>\n<p>$$ 4\\cos^3\\theta-3\\cos\\theta=\\cos 3\\theta $$</p>\n<p>and</p>\n<p>$$ 2\\cos^2\\theta-1=\\cos 2\\theta $$</p>\n<p>So,</p>\n<p>$$ y=\\cos^{-1}(\\cos 3\\theta) $$</p>\n<p>Since $0&lt;3\\theta&lt;\\pi$, we get</p>\n<p>$$ y=3\\theta $$</p>\n<p>Also,</p>\n<p>$$ t=\\cos^{-1}(\\cos 2\\theta) $$</p>\n<p>Since $0&lt;2\\theta&lt;\\pi$, we get</p>\n<p>$$ t=2\\theta $$</p>\n<p>Thus,</p>\n<p>$$ y=3\\theta,\\qquad t=2\\theta $$</p>\n<p>So,</p>\n<p>$$ y=\\frac{3}{2}t $$</p>\n<p>Hence,</p>\n<p>$$ \\frac{dy}{dt}=\\frac{3}{2} $$</p>\n<p>and</p>\n<p>$$ \\frac{d^2y}{dt^2}=0 $$</p>\n<p>So the correct option is</p>\n<p>$$ \\boxed{0} $$</p>\n<p>Option A.</p></x<1$,></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(4x^{3}-3x)",
@@ -55,7 +55,7 @@
         "\\frac{d^2y}{dt^2}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:22.868840"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ </p>\n<p>Put</p>\n<p> $u=\\frac{2x}{1+x^{2}}$ </p>\n<p>Then</p>\n<p> $f^{'}(x)=\\frac{u^{'}}{\\sqrt{1-u^{2}}}$ </p>\n<p>Now differentiate  $u$ :</p>\n<p> $u^{'}=\\frac{(1+x^{2})(2)-2x(2x)}{(1+x^{2})^{2}}$ </p>\n<p> $u^{'}=\\frac{2+2x^{2}-4x^{2}}{(1+x^{2})^{2}}=\\frac{2(1-x^{2})}{(1+x^{2})^{2}}$ </p>\n<p>Also,</p>\n<p> $1-u^{2}=1-(\\frac{2x}{1+x^{2}})^{2}$ </p>\n<p> $=\\frac{(1+x^{2})^{2}-4x^{2}}{(1+x^{2})^{2}}$ </p>\n<p> $=\\frac{(1-x^{2})^{2}}{(1+x^{2})^{2}}$ </p>\n<p>So,</p>\n<p> $\\sqrt{1-u^{2}}=\\frac{|1-x^{2}|}{1+x^{2}}$ </p>\n<p>At  $x=\\frac{1}{2}$ , we have  $1-x^{2}&gt;0$ , so</p>\n<p> $\\sqrt{1-u^{2}}=\\frac{1-x^{2}}{1+x^{2}}$ </p>\n<p>Thus,</p>\n<p> $f^{'}(x)=\\frac{\\frac{2(1-x^{2})}{(1+x^{2})^{2}}}{\\frac{1-x^{2}}{1+x^{2}}}$ </p>\n<p> $f^{'}(x)=\\frac{2}{1+x^{2}}$ </p>\n<p>Now put  $x=\\frac{1}{2}$ :</p>\n<p> $f^{'}(\\frac{1}{2})=\\frac{2}{1+(\\frac{1}{2})^{2}}$ </p>\n<p> $=\\frac{2}{1+\\frac{1}{4}}=\\frac{2}{\\frac{5}{4}}=\\frac{8}{5}$ </p>\n<p>So the correct option is</p>\n<p> $\\frac{8}{5}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})",
@@ -112,7 +112,7 @@
         "1-u^{2}=1-(\\frac{2x}{1+x^{2}})^{2}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:22.881342"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $y=\\sqrt[3]{}$ </p>\n<p>To remove the cube root, cube both sides:</p>\n<p> $y^{3}=tanx+y$ </p>\n<p>Now differentiate both sides with respect to  $x$ .</p>\n<p>For the left side, using chain rule:</p>\n<p> $\\frac{d}{dx}(y^{3})=3y^{2}\\frac{dy}{dx}$ </p>\n<p>For the right side:</p>\n<p> $\\frac{d}{dx}(tanx+y)=sec^{2}x+\\frac{dy}{dx}$ </p>\n<p>So,</p>\n<p> $3y^{2}\\frac{dy}{dx}=sec^{2}x+\\frac{dy}{dx}$ </p>\n<p>Bring the terms containing  $\\frac{dy}{dx}$  together:</p>\n<p> $3y^{2}\\frac{dy}{dx}-\\frac{dy}{dx}=sec^{2}x$ </p>\n<p>Take  $\\frac{dy}{dx}$  common:</p>\n<p> $(3y^{2}-1)\\frac{dy}{dx}=sec^{2}x$ </p>\n<p>Hence,</p>\n<p> $\\frac{dy}{dx}=\\frac{sec^{2}x}{3y^{2}-1}$ </p>\n<p>So the correct option is:</p>\n<p> $\\text{Option D}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=\\sqrt[3]{}",
@@ -166,7 +166,7 @@
         "y^{3}=tanx+y"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:22.893694"
     },
@@ -212,14 +212,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}$ </p>\n<p>and</p>\n<p> $x\\frac{dy}{dx}-y=0$ </p>\n<p>From the second equation,</p>\n<p> $x\\frac{dy}{dx}=y$ </p>\n<p>So,</p>\n<p> $\\frac{dy}{dx}=\\frac{y}{x}$ </p>\n<p>Now take logarithm on both sides of</p>\n<p> $\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}$ </p>\n<p>We get</p>\n<p> $log(x^{1/2}y^{1/3})=log((x+y)^{n})$ </p>\n<p>Using laws of logarithms,</p>\n<p> $\\frac{1}{2}logx+\\frac{1}{3}logy=nlog(x+y)$ </p>\n<p>Differentiate both sides with respect to  $x$ :</p>\n<p> $\\frac{1}{2x}+\\frac{1}{3} \\cdot \\frac{1}{y}\\frac{dy}{dx}=n \\cdot \\frac{1+\\frac{dy}{dx}}{x+y}$ </p>\n<p>Now substitute</p>\n<p> $\\frac{dy}{dx}=\\frac{y}{x}$ </p>\n<p>So the left side becomes</p>\n<p> $\\frac{1}{2x}+\\frac{1}{3} \\cdot \\frac{1}{y} \\cdot \\frac{y}{x}=\\frac{1}{2x}+\\frac{1}{3x}=\\frac{5}{6x}$ </p>\n<p>The right side becomes</p>\n<p> $n \\cdot \\frac{1+\\frac{y}{x}}{x+y}=n \\cdot \\frac{\\frac{x+y}{x}}{x+y}=\\frac{n}{x}$ </p>\n<p>So,</p>\n<p> $\\frac{5}{6x}=\\frac{n}{x}$ </p>\n<p>Hence,</p>\n<p> $n=\\frac{5}{6}$ </p>\n<p>So the correct option is</p>\n<p> $\\frac{5}{6}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}",
         "x\\frac{dy}{dx}-y=0"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:22.905505"
     },
@@ -265,7 +265,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y=\\frac{cosx}{1+sinx} \\\\ &amp; y^{'}=\\frac{-sinx(1+sinx)-cosx(cosx)}{(1+sinx)^{2}}=\\frac{-(1+sinx)}{(1+sinx)^{2}} \\\\ &amp; y^{'}=\\frac{-1}{(cos\\frac{x}{2}+sin\\frac{x}{2})^{2}}=\\frac{-1}{1+sinx} \\\\ &amp; =\\frac{-1}{2 \\cdot (\\frac{1}{\\sqrt{2}} \\cdot cos\\frac{x}{2}+\\frac{1}{\\sqrt{2}}sin\\frac{x}{2})^{2}}=\\frac{-1}{2 \\cdot cos^{2}(\\frac{\\pi}{4}-\\frac{x}{2})} \\\\ &amp; =\\frac{-1}{2} \\cdot sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=\\frac{cosx}{1+sinx}",
@@ -275,7 +275,7 @@
         "\\frac{dy}{dx}=\\frac{1}{2}sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2})"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.047647"
     },
@@ -321,7 +321,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y=asin^{3}t,x=acos^{3}t \\\\ &amp; \\frac{dy}{dx}=\\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}=\\frac{3asin^{2}tcost}{3acos^{2}t(-8\\pi nt)}=-tant \\\\ &amp; t=\\frac{3\\pi}{4}=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y=asin^{3}t,x=acos^{3}t",
@@ -329,7 +329,7 @@
         "t=\\frac{3\\pi}{4}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.057020"
     },
@@ -375,7 +375,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the derivative of  $sinx$  with respect to  $logx$ , we need to use the concept of implicit differentiation and the chain rule.</p>\n<p>Let  $f(x)=sinx$ .</p>\n<p>We want to find  $\\frac{d(sinx)}{d(logx)}$ .</p>\n<p>Using the chain rule, we have:</p>\n<p> $\\frac{d(sinx)}{d(logx)}=\\frac{d(sinx)}{dx} \\cdot \\frac{dx}{d(logx)}$ </p>\n<p>First, we calculate each part separately:</p>\n<p><p> $\\frac{d(sinx)}{dx}=cosx$ </p></p>\n<p><p>To find  $\\frac{dx}{d(logx)}$ , consider that  $\\frac{d(logx)}{dx}=\\frac{1}{x}$ , hence:</p>\n<p> $\\frac{dx}{d(logx)}=x$ </p></p>\n<p>Putting it all together, we get:</p>\n<p> $\\frac{d(sinx)}{d(logx)}=cosx \\cdot x=xcosx$ </p>\n<p>Therefore, the derivative of  $sinx$  with respect to  $logx$  is  $xcosx$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sinx",
@@ -386,7 +386,7 @@
         "\\frac{d(logx)}{dx}=\\frac{1}{x}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.066693"
     },
@@ -434,13 +434,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xy1iui/2cbd3a5f-fad1-49b8-9fa1-5f8ac7667d3b/7aaee0a0-d345-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xy1iuj.png?format=png"
       ],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{d}{dx}[cos^{2}(cot^{-1}\\sqrt{\\frac{2+x}{2-x}})]"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.275561"
     },
@@ -486,14 +486,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} y &amp; =2x^{3x} \\\\ \\frac{dy}{dx} &amp; =2x^{3x}[3logx+3] \\\\ \\text{So,}\\frac{dy}{dx}|_{x=1} &amp; =2 \\cdot (1)^{3(1)}[3 \\times 0+3] \\\\ &amp; =6+0=6 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y=2x^{3x}",
         "x=1"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.076505"
     },
@@ -539,14 +539,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}y=asinx+bcosx \\\\ &amp; \\frac{dy}{dy}=acosx-bsinx \\\\ &amp; y^{2}+(\\frac{dy}{dx})^{2}=(asinx+bcosx)^{2}+(acosx-bsinx)^{2} \\\\ &amp; =a^{2}sin^{2}x+b^{2}cos^{2}x+2absinx \\\\ &amp; \\cdot cosx+a^{2}cos^{2}x+b^{2}sin^{2}x-2absinx \\cdot cosx \\\\ &amp; =a^{2}(sin^{2}x+cos^{2}x)+b^{2}(sin^{2}x+cos^{2}x) \\\\ &amp; =a^{2}+b^{2} \\\\ &amp; [ \\because sin^{2}x+cos^{2}x=1] \\\\ &amp; =\\text{constant} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y=asinx+bcosx",
         "y^{2}+(\\frac{dy}{dx})^{2}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.284148"
     },
@@ -592,7 +592,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} f(x)=1+nx+\\frac{n(n-1)}{2}x^{2}+\\frac{n(n-1)(n-2)}{6}x^{3}+\\dots+x^{n}. \\end{aligned}$ </p>\n<p>The given equation can be written as  $f(x)=(1+x)^{n}$ </p>\n<p> $\\begin{aligned} &amp; \\because (1+x)^{n}=1+nx+\\frac{n(n-1)}{2!} \\\\ &amp; x^{2}+\\frac{n(n-1)(n-2)}{3!}x^{3}+\\dotsx^{n} \\end{aligned}$ </p>\n<p>Now,  $f^{'}(x)=n(1+x)^{n-1}$ </p>\n<p>and,  $f^{''}(x)=n(n-1)(1+x)^{n-2}$ </p>\n<p>put  $x=1$ </p>\n<p> $\\therefore f^{''}(1)=n(n-1)2^{n-2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=1+nx+\\frac{n(n-1)}{2}x^{2}+\\frac{n(n-1)(n-2)}{6}x^{3}+\\dots+x^{n}",
@@ -600,7 +600,7 @@
         "\\therefore f^{''}(1)=n(n-1)2^{n-2}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.294095"
     },
@@ -646,7 +646,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}g(x)=x-\\frac{1}{x} \\\\ &amp; f^{\\circ}g(x)=x^{3}-\\frac{1}{x^{3}}=(x-\\frac{1}{x})^{3}+3x \\cdot \\frac{1}{x}(x-\\frac{1}{x}) \\\\ &amp; f^{\\circ}g(x)=(x-\\frac{1}{x})^{3}+3(x-\\frac{1}{x}) \\\\ &amp; \\therefore f(x)=x^{3}+3x \\\\ &amp; f^{'}(x)=3x^{2}+3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "g(x)=x-\\frac{1}{x}",
@@ -654,7 +654,7 @@
         "f^{'}(x)"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.302108"
     },
@@ -700,14 +700,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $y=(1+x^{2})tan^{-1}x-x$ </p>\n<p>Differentiating the given function w.r.t.  $x$ </p>\n<p> $\\begin{aligned} \\frac{dy}{dx}=(1+x^{2})\\frac{d}{dx}(tan^{-1}x)+tan^{-1}x\\frac{d}{dx}(1+x^{2})-\\frac{d}{dx}(x) \\\\ =(1+x^{2})\\frac{1}{(1+x^{2})}+tan^{-1}x(2x)-1 \\\\ =1+2xtan^{-1}x-1=2xtan^{-1}x \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "y=(1+x^{2})tan^{-1}x-x",
         "\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.458538"
     },
@@ -753,7 +753,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $y=x^{sinx}+(sinx)^{x}$ </p>\n<p>Let  $u=x^{sin-1}$  and  $v=(sinx)^{x}$ </p>\n<p>Now,  $u=x^{sinx},logu=sinxlogx$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\frac{1}{u} \\cdot \\frac{du}{dx}=sinx \\cdot \\frac{1}{x}+logx \\times cosx \\\\ \\\\ &amp; \\frac{du}{dx}=u(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; \\frac{du}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx)\\text{.... (i)} \\end{aligned}$ </p>\n<p>Now,  $v=(sinx)^{x} \\Rightarrow logv=xlog(sinx)$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\frac{1}{vdv}=x\\frac{cosx}{sinx}+log(sinx) \\\\ \\\\ &amp; \\frac{dv}{dx}=v(xcotx+logsinx) \\\\ \\\\ &amp; \\frac{dv}{dx}=(sinx)^{x}(xcotx+logsinx)\\text{.... (ii)} \\end{aligned}$ </p>\n<p>Adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; \\frac{du}{dx}+\\frac{dv}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; +(sinx)^{x}(xcotx+logsinx) \\\\ \\\\ &amp; \\frac{dy}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; +(sinx)^{x}(xcotx+logsinx) \\\\ \\end{aligned}$ </p>\n<p>At  $x=\\frac{\\pi}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}=(\\frac{\\pi}{2})(\\frac{1}{\\pi/2}+0log\\frac{\\pi}{2})+(1)^{\\frac{\\pi}{2}}(\\frac{\\pi}{2} \\cdot 0+log(1)) \\\\ \\\\ &amp; \\frac{dy}{dx}=(\\frac{\\pi}{2})(\\frac{2}{\\pi}+0)+1 \\cdot (0+0)=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{sinx}+(sinx)^{x}",
@@ -764,7 +764,7 @@
         "u=x^{sinx},logu=sinxlogx"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.722783"
     },
@@ -810,7 +810,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $x=e^{\\theta}sin\\theta,y=e^{\\theta}cos\\theta$ </p>\n<p>We have,  $\\frac{dx}{d\\theta}=e^{\\theta}cos\\theta+e^{\\theta}sin\\theta$ </p> <p> $=e^{\\theta}(cos\\theta+sin\\theta)$  .... (i)</p>\n<p> $\\text{and}\\begin{aligned} \\frac{dy}{d\\theta} &amp; =e^{\\theta}(-sin\\theta)+e^{\\theta}cos\\theta \\\\ &amp; =e^{\\theta}(cos\\theta-sin\\theta)\\text{... (ii)} \\end{aligned}$ </p>\n<p>On dividing Eq. (ii) by Eq (i), we get</p>\n<p> $\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}=\\frac{e^{\\theta}(cos\\theta-sin\\theta)}{e^{\\theta}(cos\\theta+sin\\theta)}$ </p>\n<p> $\\Rightarrow \\frac{dy}{dx}=\\frac{cos\\theta(1-\\frac{sin\\theta}{cos\\theta})}{cos\\theta(1+\\frac{sin\\theta}{cos\\theta})}=\\frac{1-tan\\theta}{1+tan\\theta}$  .... (iii)</p>\n<p>As we also have,  $\\frac{x}{y}=\\frac{e^{\\theta}sin\\theta}{e^{\\theta}cos\\theta} \\Rightarrow \\frac{x}{y}=tan\\theta$ </p>\n<p>At  $(x,y)=(1,1) \\Rightarrow tan\\theta=\\frac{1}{1}=1$ </p>\n<p>Putting  $tan\\theta=1$  into Eq. (iii), we get</p>\n<p> $\\frac{dy}{dx}=\\frac{1-1}{1+1}=\\frac{0}{2}=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x=e^{\\theta}sin\\theta,y=e^{\\theta}cos\\theta",
@@ -819,7 +819,7 @@
         "=e^{\\theta}(cos\\theta+sin\\theta)"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.468253"
     },
@@ -865,7 +865,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $e^{y}+xy=e$  .... (i)</p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; e^{y}\\frac{dy}{dx}+x\\frac{dy}{dx}+1 \\cdot y=0\\text{.... (ii)} \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=\\frac{-y}{(e^{y}+x)}\\text{.... (iii)} \\end{aligned}$ </p>\n<p>Again, differentiating Eq. (ii) w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; e^{y}\\frac{d^{2}y}{dx^{2}}+e^{y}(\\frac{dy}{dx})^{2}+x\\frac{d^{2}y}{dx^{2}}+\\frac{dy}{dx}+\\frac{dy}{dx}=0 \\\\ \\Rightarrow &amp; (e^{y}+x)\\frac{d^{2}y}{dx^{2}}+e^{y}(\\frac{dy}{dx})^{2}+2\\frac{dy}{dx}=0 \\end{aligned}$ </p>\n<p>Now, on putting  $x=0$  in Eq. (i), we get</p>\n<p> $e^{y}+0.y=e \\Rightarrow e^{y}=e^{1} \\Rightarrow y=1$ </p>\n<p>On putting  $x=0,y=1$  in Eq. (iii), we get</p>\n<p> $\\frac{dy}{dx}=\\frac{-1}{e+0}=-\\frac{1}{e}$ </p>\n<p>Now, putting  $x=0,y=1$  and  $\\frac{dy}{dx}=\\frac{-1}{e}$  in Eq. (iv), we get</p>\n<p> $\\begin{aligned} &amp; (e^{1}+0)\\frac{d^{2}y}{dx^{2}}+e^{'}(-\\frac{1}{e})^{2}+2(-\\frac{1}{e})=0 \\\\ \\Rightarrow &amp; e\\frac{d^{2}y}{dx^{2}}+\\frac{1}{e}-\\frac{2}{e}=0 \\Rightarrow \\frac{d^{2}y}{dx^{2}}=\\frac{1}{e^{2}} \\end{aligned}$ </p>\n<p>Hence,  $(\\frac{dy}{dx},\\frac{d^{2}y}{dx^{2}})$  at  $x=0$  is  $(-\\frac{1}{e},\\frac{1}{e^{2}})$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{y}+xy=e",
@@ -873,7 +873,7 @@
         "x=0"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.737471"
     },
@@ -919,7 +919,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}y=e^{\\sqrt{x\\sqrt{x\\sqrt{x\\dots\\dots}}}},x&gt;1 \\\\ &amp; y=e^{\\sqrt{x\\sqrt{x\\sqrt{x\\dots}}}} \\\\ &amp; log_{e}y=(\\sqrt{x\\sqrt{x\\sqrt{x}\\dots.}})log_{e}e \\\\ &amp; \\Rightarrow logy=\\sqrt{x\\sqrt{x\\sqrt{x\\dots\\dots}}} \\Rightarrow logy=\\sqrt{x \\cdot logy} \\\\ &amp; \\Rightarrow (logy)^{2}=xlogy \\Rightarrow \\frac{(logy)^{2}}{logy}=x \\\\ &amp; \\Rightarrow logy=x\\text{.... (i)} \\end{aligned}$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{y} \\times \\frac{dy}{dx}=1 \\Rightarrow \\frac{dy}{dx}=y$  .... (ii)</p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\frac{dy}{dx} \\Rightarrow \\frac{d^{2}y}{dx^{2}}=y$  [from Eq. (ii)] ..... (iii)</p>\n<p>At  $x=log_{e}3$ , from Eq (i), we get</p>\n<p> $logy=log3 \\Rightarrow y=3$ </p>\n<p>Putting  $y=3$  into Eq. (iii), we get</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=e^{\\sqrt{x\\sqrt{x}\\sqrt{x}}...,}x>1",
@@ -927,7 +927,7 @@
         "x=log_{e}3"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.476932"
     },
@@ -973,7 +973,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=f(f(f(x)))+(f(x))^{2}$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{dy}{dx}=f^{'}(f(f(x))) \\cdot f^{'}(f(x)) \\cdot f^{'}(x)+2f(x) \\cdot f^{'}(x).$ </p>\n<p>At  $x=1$ </p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}=f^{'}(f(f(1))) \\cdot f^{'}(f(1)) \\cdot f^{'}(1)+2f(1) \\cdot f^{'}(1) \\\\ &amp; \\begin{aligned} \\frac{dy}{dx} &amp; =f^{'}(f(1)) \\cdot f^{'}(1) \\cdot 3+2 \\cdot 1 \\cdot 3=f^{'}(1) \\cdot 3 \\cdot 3+6 \\\\ &amp; =9f^{'}(1)+6=9 \\cdot 3+6=27+6=33 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(1)=1,f^{'}(l)=3",
@@ -982,7 +982,7 @@
         "y=f(f(f(x)))+(f(x))^{2}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.487187"
     },
@@ -1028,7 +1028,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\frac{d}{dx} &amp; (x^{x}+x^{a}+a^{x}+a^{a}) \\\\ &amp; =\\frac{d}{dx}(x^{x})+\\frac{d}{dx}(x^{a})+\\frac{d}{dx}(a^{x})+\\frac{d}{dx}(a^{a}) \\\\ &amp; =\\frac{d}{dx}(y)+ax^{a-1}+a^{x}loga+0 \\end{aligned}\\text{.... (i)}$ </p>\n<p> $[\\text{let}x^{x}=y]$ </p>\n<p> $y=x^{x}$ </p>\n<p>Taking  $log$  on both sides,</p>\n<p> $logy=xlogx$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{1}{y}\\frac{dy}{dx} &amp; =x \\times \\frac{1}{x}+logx \\\\ \\Rightarrow \\frac{dy}{dx} &amp; =x^{x}(1+logx) \\end{aligned}$ </p>\n<p>Substitute the value of  $\\frac{dy}{dx}$  in Eq. (i),</p>\n<p> $\\begin{aligned} &amp; \\frac{d}{ax}(x^{x}+x^{a}+a^{x}+a^{a}) \\\\ &amp; =x^{x}(1+logx)+ax^{a-1}+a^{x}loga \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "a,\\frac{d}{dx}(x^{x}+x^{a}+a^{x}+a^{a})",
@@ -1037,7 +1037,7 @@
         "logy=xlogx"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.946817"
     },
@@ -1083,7 +1083,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Statement 1,</p>\n<p> $\\begin{aligned} y &amp; =log_{10}x+log_{e}x \\\\ \\Rightarrow y &amp; =\\frac{log_{e}x}{log_{e}10}+log_{e}x \\end{aligned}$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{dy}{dx} &amp; =\\frac{1}{xlog_{e}10}+\\frac{1}{x} \\\\ \\Rightarrow \\frac{dy}{dx} &amp; =\\frac{log_{10}e}{x}+\\frac{1}{x} \\end{aligned}$ </p>\n<p>Statement 2,</p>\n<p> $\\begin{aligned} \\frac{d}{dx}log_{10}x &amp; =\\frac{d}{dx}\\frac{log_{e}x}{log_{e}10} \\\\ &amp; =\\frac{1}{xlog_{e}10} \\\\ \\Rightarrow \\frac{d}{dx}(log_{e}x) &amp; =\\frac{d}{dx}\\frac{log_{e}x}{log_{e}e}=\\frac{1}{x} \\end{aligned}$ </p>\n<p>Hence, statement 1 is true but statement 2 is false.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=log_{10}x+log_{e}x",
@@ -1092,7 +1092,7 @@
         "\\frac{d}{dx}(log_{e}x)=\\frac{logx}{loge}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.962171"
     },
@@ -1138,11 +1138,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, function is  $\\frac{a}{x^{4}}-\\frac{b}{x^{2}}+cosx$ .</p>\n<p>Let  $f(x)=\\frac{a}{x^{4}}-\\frac{b}{x^{2}}+cosx$ </p>\n<p>Differentiating w.r.t.  $x$ ,</p>\n<p> $\\begin{aligned} &amp; \\frac{d}{dx}f(x)=\\frac{d}{dx}(\\frac{a}{x^{4}}-\\frac{b}{x^{2}}+cosx) \\\\ &amp; =-\\frac{4a}{x^{5}}+\\frac{2b}{x^{3}}-sinx \\\\ &amp; =ma+nb-P \\\\ &amp; m=-\\frac{4}{x^{5}},n=\\frac{2}{x^{3}}\\text{and}p=sinx. \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.758658"
     },
@@ -1188,7 +1188,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=cos\\theta+logtan\\frac{\\theta}{2}$ </p>\n<p>On differentiating w.r.t.  $\\theta$ , we get</p>\n<p> $\\begin{aligned} \\frac{dx}{d\\theta} &amp; =-sin\\theta+\\frac{1}{tan\\frac{\\theta}{2}} \\times sec^{2}\\frac{\\theta}{2} \\times \\frac{1}{2} \\\\ &amp; =-sin\\theta+\\frac{1}{sin\\theta} \\\\ &amp; =\\frac{1-sin^{2}\\theta}{sin\\theta} \\\\ &amp; =\\frac{cos^{2}\\theta}{sin\\theta}\\text{..... (i)} \\end{aligned}$ </p>\n<p>Now,  $y=sin\\theta$ </p>\n<p>On differentiating w.r.t.  $\\theta$ </p>\n<p> $\\frac{dy}{d\\theta}=cos\\theta\\text{.... (ii)}$ </p>\n<p> $\\begin{aligned} \\therefore \\frac{dy}{dx} &amp; =\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}} \\\\ &amp; =\\frac{cos\\theta}{\\frac{cos^{2}\\theta}{sin\\theta}}=tan\\theta \\end{aligned}$ </p>\n<p>[from Eqs. (i) and (ii)]</p>\n<p>If  $\\frac{dy}{dx}=0$ , then  $tan\\theta=0$ .</p>\n<p>Hence,  $\\theta=n\\pi,n \\in Z$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x=cos\\theta+logtan\\frac{\\theta}{2}",
@@ -1197,7 +1197,7 @@
         "\\frac{dy}{d\\theta}=cos\\theta\\text{.... (ii)}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:23.971989"
     },
@@ -1243,14 +1243,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=(cosx^{2})^{2}$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{dy}{dx} &amp; =2cosx^{2}\\frac{d}{dx}(cosx^{2}) \\\\ &amp; =2cosx^{2} \\times (-sinx^{2})\\frac{d}{dx}(x^{2}) \\\\ &amp; =-4xcosx^{2}sinx^{2} \\\\ &amp; =-2xsin2x^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y=(cosx^{2})^{2}",
         "\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.775727"
     },
@@ -1296,7 +1296,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=(x-1)^{2}(x-2)^{3}(x-3)^{5}$ </p>\n<p>Taking log on th sides,</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow logy=log[(x-1)^{2}(x-2)^{3}(x-3)^{5}] \\\\ &amp; logy=2log(x-1)+3log(x-2)+5log(x-3) \\end{aligned}$ </p>\n<p>On both sides differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{1}{y}\\frac{dy}{dx} &amp; =\\frac{2}{x-1}+\\frac{3}{x-2}+\\frac{5}{x-3} \\\\ \\Rightarrow \\frac{dy}{dx} &amp; =(x-1)^{2}(x-2)^{3}(x-3)^{5} \\\\ &amp; [\\frac{2}{(x-1)}+\\frac{3}{(x-2)}+\\frac{5}{(x-3)}] \\end{aligned}$ </p>\n<p> $\\therefore (\\frac{dy}{dx})_{x=4}=3^{2} \\times 2^{3} \\times 1^{5}[\\frac{2}{3}+\\frac{3}{2}+5]$ </p>\n<p> $=9 \\times 8 \\times (\\frac{4+9+30}{6})=516$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=(x-1)^{2}(x-2)^{3}(x-3)^{5}",
@@ -1305,7 +1305,7 @@
         "=9 \\times 8 \\times (\\frac{4+9+30}{6})=516"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.989952"
     },
@@ -1351,7 +1351,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $2^{x}+2^{y}=2^{x+y}\\text{.... (i)}$ </p>\n<p>On differentiating Eq. (i) w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; 2^{x}log2+2^{y}log2\\frac{dy}{dx} \\\\ &amp; =2^{x+y}log2(1+\\frac{dy}{dx}) \\\\ &amp; \\begin{aligned} \\Rightarrow &amp; 2^{x}+2^{y}\\frac{dy}{dx}=2^{x+y}(1+\\frac{dy}{dx}) \\\\ \\Rightarrow &amp; 2^{x}-2^{x+y}=\\frac{dy}{dx}(2^{x+y}-2^{y}) \\\\ \\Rightarrow &amp; -2^{y}=\\frac{dy}{dx}(2^{x}) \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=-2^{y}/2^{x}=-2^{y-x} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "2^{x}+2^{y}=2^{x+y}",
@@ -1359,7 +1359,7 @@
         "2^{x}+2^{y}=2^{x+y}\\text{.... (i)}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:24.330577"
     },
@@ -1405,14 +1405,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{We have,}y &amp; =2x^{n+1}+\\frac{3}{x^{n}} \\\\ &amp; =2x^{n+1}+3x^{-n}\\text{..... (i)} \\end{aligned}$ </p>\n<p>On differentiating Eq. (i) both sides w.r.t.  $x$ , we get</p>\n<p> $\\frac{dy}{dx}=2(n+1)x^{n}+3(-n)x^{-n-1}$ </p>\n<p>Again differentiate w.r.t. to  $x$ , then we get</p>\n<p> $\\begin{aligned} &amp; \\frac{d^{2}y}{dx^{2}}=2(n+1)(n)x^{n-1}+3(-n)(-n-1)x^{-n-2} \\\\ &amp; =n(n+1)(2x^{n-1}+3x^{-n-2}) \\\\ &amp; \\Rightarrow x^{2}\\frac{d^{2}y}{dx^{2}}=n(n+1)(2x^{n+1}+\\frac{3}{x^{n}}) \\\\ &amp; \\Rightarrow x^{2}\\frac{dy}{dx}=n(n+1)y\\text{[using Eq. (i)]} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=2x^{n+1}+\\frac{3}{x^{n}}",
         "x^{2}\\frac{d^{2y}}{dx^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.346998"
     },
@@ -1458,7 +1458,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $(xe)^{y}=e^{x}$ </p>\n<p>Taking  $log$  on both sides at base  $e$ , we get</p>\n<p> $\\begin{aligned} &amp; ylog(xe)=xloge \\\\ &amp; \\Rightarrow y(logx+loge)=x( \\because log_{e}e=1) \\\\ &amp; \\Rightarrow y=\\frac{x}{logx+1} \\end{aligned}$ </p>\n<p>On differentiating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{dy}{dx} &amp; =\\frac{(logx+1)-x(\\frac{1}{x}+0)}{(logx+1)^{2}} \\\\ \\Rightarrow \\frac{dy}{dx} &amp; =\\frac{logx}{(logx+1)^{2}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "(xe)^{y}=e^{y}",
@@ -1466,7 +1466,7 @@
         "(xe)^{y}=e^{x}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:24.368149"
     },
@@ -1512,7 +1512,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $x=asec^{2}\\theta$  and  $y=atan^{2}\\theta$ , then to find  $\\frac{d^{2}y}{dx^{2}}$ :</p>\n<p>First, compute the first derivative:</p>\n<p> $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}=\\frac{a \\cdot 2tan\\theta sec^{2}\\theta}{a \\cdot 2sec\\theta \\cdot sec\\theta \\cdot tan\\theta}=1$ </p>\n<p>Since the derivative  $\\frac{dy}{dx}$  is a constant (1), the second derivative is zero:</p>\n<p> $\\Rightarrow \\frac{d^{2}y}{dx^{2}}=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x=asec^{2}\\theta",
@@ -1521,7 +1521,7 @@
         "\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:24.757208"
     },
@@ -1567,7 +1567,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $y^{1/3} \\cdot x^{1/2}=(x+y)^{5/6}$ </p>\n<p>Taking  $log$  on both sides, we get</p>\n<p> $\\frac{1}{3}logy+\\frac{1}{2}logx=\\frac{5}{6}log(x+y)$ </p>\n<p>On differentiating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\frac{1}{3} \\cdot \\frac{1}{y}\\frac{dy}{dx}+\\frac{1}{2x}=\\frac{5}{6}\\frac{1}{(x+y)}(1+\\frac{dy}{dx}) \\\\ \\Rightarrow &amp; \\frac{dy}{dx}[\\frac{5}{6(x+y)}-\\frac{1}{3y}]=\\frac{1}{2x}-\\frac{5}{6(x+y)} \\\\ \\Rightarrow &amp; \\frac{dy}{dx}[\\frac{15y-6x-6y}{18y(x+y)}]=\\frac{6x+6y-10x}{12x(x+y)} \\\\ \\Rightarrow &amp; \\frac{dy}{dx}[\\frac{9y-6x}{3y}]=\\frac{6y-4x}{2x} \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=\\frac{3y-2x}{x} \\times \\frac{y}{3y-2x}=\\frac{y}{x} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt[3]{}\\sqrt{x}=\\sqrt[6]{}",
@@ -1576,7 +1576,7 @@
         "\\frac{1}{3}logy+\\frac{1}{2}logx=\\frac{5}{6}log(x+y)"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.778343"
     },
@@ -1622,14 +1622,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=x-[x]-cosx$ </p>\n<p> $\\begin{aligned} &amp; \\therefore f(x)=x-1-cosx \\\\ &amp; ( \\because \\text{In surrounding of}\\frac{\\pi}{2},[x]=1) \\\\ &amp; \\Rightarrow f^{'}(x)=1+sinx \\therefore f^{'}(\\frac{\\pi}{2})=1+sin\\frac{\\pi}{2} \\\\ &amp; =1+1=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x-[x]-cosx",
         "f^{'}(\\frac{\\pi}{2})="
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.380178"
     },
@@ -1675,11 +1675,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We begin with the expression:</p>\n<p> $y=\\sqrt{x+\\sqrt{x+\\sqrt{x+\\dots\\infty}}}$ </p>\n<p>This implies:</p>\n<p> $y=\\sqrt{x+y}$ </p>\n<p>Squaring both sides, we get:</p>\n<p> $y^{2}=x+y$ </p>\n<p>Rearranging terms, we find:</p>\n<p> $y^{2}-y=x$ </p>\n<p>Next, we differentiate both sides with respect to  $x$ :</p>\n<p> $\\frac{d}{dx}(y^{2}-y)=\\frac{d}{dx}(x)$ </p>\n<p>Applying the chain rule, we have:</p>\n<p> $(2y-1)\\frac{dy}{dx}=1$ </p>\n<p>Solving for  $\\frac{dy}{dx}$ , we obtain:</p>\n<p> $\\frac{dy}{dx}=\\frac{1}{2y-1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:24.997741"
     },
@@ -1725,7 +1725,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for  $\\frac{dy}{dx}$  given the equation  $cosy=xcos(a+y)$  with  $cosa \\ne \\pm 1$ , we start by rearranging the equation:</p>\n<p> $\\frac{cosy}{cos(a+y)}=x$ </p>\n<p>Next, we differentiate both sides with respect to  $x$ :</p>\n<p> $\\frac{d}{dx}(\\frac{cosy}{cos(a+y)})=\\frac{d}{dx}(x)$ </p>\n<p>Applying the quotient rule on the left side, we have:</p>\n<p> $\\frac{cos(a+y)(-siny)+cosysin(a+y) \\cdot \\frac{d(a+y)}{dx}}{cos^{2}(a+y)}$ </p>\n<p>Recognizing that  $\\frac{d(a+y)}{dx}=\\frac{dy}{dx}$ , the equation simplifies to:</p>\n<p> $\\frac{cos(a+y)(-siny)+cosysin(a+y) \\cdot \\frac{dy}{dx}}{cos^{2}(a+y)}=1$ </p>\n<p>Multiply both sides by  $cos^{2}(a+y)$  to eliminate the denominator:</p>\n<p> $cos(a+y)(-siny)+cosysin(a+y) \\cdot \\frac{dy}{dx}=cos^{2}(a+y)$ </p>\n<p>Reorganize to isolate  $\\frac{dy}{dx}$ :</p>\n<p> $cosysin(a+y) \\cdot \\frac{dy}{dx}=cos^{2}(a+y)+cos(a+y)siny$ </p>\n<p>Solve for  $\\frac{dy}{dx}$ :</p>\n<p> $\\frac{dy}{dx}=\\frac{cos^{2}(a+y)+cos(a+y)siny}{cosysin(a+y)}$ </p>\n<p>Since  $sin(a+y)cosy-cos(a+y)siny=sina$ , the expression simplifies to:</p>\n<p> $\\frac{dy}{dx}=\\frac{cos^{2}(a+y)}{sina}$ </p>\n<p>Thus,  $\\frac{dy}{dx}=\\frac{cos^{2}(a+y)}{sina}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "cosy=xcos(a+y)",
@@ -1733,7 +1733,7 @@
         "\\frac{cosy}{cos(a+y)}=x"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:24.791236"
     },
@@ -1779,7 +1779,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; f(x)=|cosx-sinx| \\end{aligned}$ </p>\n<p> $f(x)={\\begin{aligned} cosx-sinx; &amp; \\theta&lt;x \\le \\frac{\\pi}{4} \\\\ sinx-cosx &amp; \\frac{\\pi}{4}&lt;x&lt;\\frac{\\pi}{2} \\end{aligned}$ </p>\n<p> $f^{'}(x)={\\begin{aligned} -sinx-cosx; &amp; 0&lt;x \\le \\frac{\\pi}{4} \\\\ cosx+sinx; &amp; \\frac{\\pi}{4}&lt;x&lt;\\frac{\\pi}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} f^{'}(\\frac{\\pi}{6}) &amp; =-sin(\\frac{\\pi}{6})-cos(\\frac{\\pi}{6}) \\\\ &amp; =-\\frac{1}{2}-\\frac{\\sqrt{3}}{2} \\\\ &amp; =-\\frac{(\\sqrt{3}+1)}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=|cosx-sinx|",
@@ -1787,7 +1787,7 @@
         "\\begin{aligned} & \\text{We have,} \\\\ & f(x)=|cosx-sinx| \\end{aligned}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.805950"
     },
@@ -1833,7 +1833,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> Let  $u=cos^{-1}(2x^{2}-1)$  and  $v=cos^{-1}x$  Now,  $u=cos^{-1}(2x^{2}-1)$ </p>\n<p>Put  $x=cos\\theta$ </p>\n<p> $\\begin{aligned} \\therefore u &amp; =cos^{-1}(2cos^{2}\\theta-1) \\\\ &amp; =cos^{-1}(cos2\\theta) \\\\ &amp; =2\\theta=2cos^{-1}x \\end{aligned}$ </p>\n<p> $\\begin{aligned} Again,\\frac{du}{dv} &amp; =\\frac{(\\frac{du}{dx})}{(\\frac{dv}{dx})} \\\\ &amp; =\\frac{\\frac{d}{dx}(2cos^{-1}x)}{\\frac{d}{dx}(cos^{-1}x)} \\\\ &amp; =\\frac{(-\\frac{2}{\\sqrt{1-x^{2}}})}{(\\frac{-1}{\\sqrt{1-x^{2}}})}=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(2x^{2}-1)",
@@ -1843,7 +1843,7 @@
         "x=cos\\theta"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:25.137885"
     },
@@ -1889,11 +1889,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; \\begin{aligned} &amp; y=|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; \\therefore \\frac{dy}{dx}=|\\begin{aligned} \\frac{d}{dx}f(x) &amp; \\frac{d}{dx}g(x) &amp; \\frac{d}{dx}ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\end{aligned} \\end{aligned}$ </p>\n<p> $+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ \\frac{d}{dx}1 &amp; \\frac{d}{dx}m &amp; \\frac{d}{dx}n \\\\ a &amp; b &amp; c \\end{aligned}|+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ \\frac{1}{d} &amp; m &amp; n \\\\ \\frac{d}{dx}a \\cdot \\frac{d}{dx}b &amp; \\frac{d}{dx}C \\end{aligned}|$ </p>\n $\\begin{aligned} &amp; =|\\begin{aligned} f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\\\ l &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}|+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 0 &amp; 0 &amp; 0 \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; +|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ 0 &amp; 0 &amp; 0 \\end{aligned}|=|\\begin{aligned} f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; =|\\begin{aligned} 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\\\ f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\end{aligned}|=|\\begin{aligned} f^{'}(x) &amp; 1 &amp; a \\\\ g^{'}(x) &amp; m &amp; b \\\\ ℎ^{'}(x) &amp; n &amp; c \\end{aligned}| \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:25.412659"
     },
@@ -1939,7 +1939,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find  $\\frac{dy}{dx}$ , we start with the given equations:</p>\n<p> $sinx=\\frac{2t}{1+t^{2}}$ </p>\n<p>This implies:</p>\n<p> $x=sin^{-1}(\\frac{2t}{1+t^{2}})$ </p>\n<p>Now, using a trigonometric identity, we transform this to:</p>\n<p> $x=2tan^{-1}t\\text{...(i)}$ </p>\n<p>Similarly, we are given:</p>\n<p> $tany=\\frac{2t}{1-t^{2}}$ </p>\n<p>This implies:</p>\n<p> $y=tan^{-1}(\\frac{2t}{1-t^{2}})$ </p>\n<p>Again, using the identity related to  $tan^{-1}$ , we rewrite this as:</p>\n<p> $y=2tan^{-1}t\\text{...(ii)}$ </p>\n<p>From equations (i) and (ii), it follows that:</p>\n<p> $y=x$ </p>\n<p>Thus, differentiating both sides with respect to  $x$ , we find:</p>\n<p> $\\frac{dy}{dx}=1$ </p>\n<p>So, the value of  $\\frac{dy}{dx}$  is 1.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "sinx=\\frac{2t}{1+t^{2}},tany+\\frac{2t}{1-t^{2}}",
@@ -1950,7 +1950,7 @@
         "tany=\\frac{2t}{1-t^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:25.011734"
     },
@@ -1996,7 +1996,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the second derivative of  $y=log(logx)$ , we start by taking the first derivative:</p>\n<p><p><strong>First Derivative:</strong></p>\n<p> $y=log(logx)$ </p>\n<p>Using the chain rule, the derivative is:</p>\n<p> $\\frac{dy}{dx}=\\frac{1}{logx} \\cdot \\frac{d}{dx}(logx)=\\frac{1}{logx} \\cdot \\frac{1}{x}=\\frac{1}{xlogx}$ </p></p>\n<p><p><strong>Second Derivative:</strong></p>\n<p>Differentiate  $\\frac{1}{xlogx}=(xlogx)^{-1}$  with respect to  $x$ :</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}((xlogx)^{-1})$ </p>\n<p>Apply the power rule and the chain rule:</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=-(xlogx)^{-2} \\cdot (logx \\cdot 1+x \\cdot \\frac{1}{x})$ </p>\n<p>Simplify the expression:</p>\n<p> $=-(xlogx)^{-2}(logx+1)$ </p>\n<p> $=\\frac{-(1+logx)}{(xlogx)^{2}}$ </p></p>\n<p>Thus, the second derivative  $\\frac{d^{2}y}{dx^{2}}$  is  $\\frac{-(1+logx)}{(xlogx)^{2}}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=log(logx)",
@@ -2005,7 +2005,7 @@
         "\\frac{-(1+logx)}{(xlogx)^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:25.023461"
     },
@@ -2051,7 +2051,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We begin with the function:</p>\n<p> $y=tan^{-1}(\\frac{sinx+cosx}{cosx-sinx})$ </p>\n<p>This expression can be rewritten by applying the tangent addition formula:</p>\n<p> $y=tan^{-1}(\\frac{1+tanx}{1-tanx})$ </p>\n<p>Recognizing this as the formula for the tangent of the sum of two angles, we have:</p>\n<p> $y=tan^{-1}(\\frac{tan\\frac{\\pi}{4}+tanx}{1-tan\\frac{\\pi}{4}tanx})$ </p>\n<p>This simplifies to:</p>\n<p> $y=tan^{-1}tan(\\frac{\\pi}{4}+x)$ </p>\n<p>Since  $tan^{-1}tan(\\theta)=\\theta$ , assuming  $\\theta$  is in the principal range of the inverse tangent function, we get:</p>\n<p> $y=\\frac{\\pi}{4}+x$ </p>\n<p>Differentiating with respect to  $x$ , we obtain:</p>\n<p> $\\frac{dy}{dx}=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=tan^{-1}(\\frac{sinx+cosx}{cosx-sinx})",
@@ -2062,7 +2062,7 @@
         "tan^{-1}tan(\\theta)=\\theta"
       ],
       "key_concepts": [
-        "Kcet Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:25.036653"
     }

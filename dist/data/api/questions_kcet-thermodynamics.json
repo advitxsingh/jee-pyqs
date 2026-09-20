@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr8jfjxo/08caee2f-cc87-4fbd-9c09-4666f3a6a70f/8203cec0-78d9-11f1-8461-e162b37dfdaa/file-6y3zli1mr8jfjxp.png?format=png"
       ],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta U=Q-W",
@@ -57,7 +57,7 @@
         "Q_{ADB}=30+10=40"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.237445"
     },
@@ -103,7 +103,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The correct statement is:</p>\n<p><strong>Option B: Internal energy and entropy are state functions</strong></p>\n<p>In thermodynamics, a <strong>state function</strong> is a quantity whose value depends only on the present state of the system, not on the path followed to reach that state.</p>\n<p>Internal energy  $U$  depends only on the state of the system, such as temperature, pressure, and volume. So it is a state function.</p>\n<p>Entropy  $S$  also depends only on the state of the system. So entropy is also a state function.</p>\n<p>So, <strong>internal energy and entropy are state functions</strong>.</p>\n<p>Now, the other options are not correct:</p>\n<p>Option A says internal energy changes in all processes. This is not always true. For example, in an isothermal process for an ideal gas, temperature remains constant, so internal energy also remains constant. Thus,</p>\n<p> $\\Delta U=0$ </p>\n<p>Option C says work is a state function. This is wrong. Work depends on the path followed during the process, so it is a <strong>path function</strong>, not a state function.</p>\n<p>Option D says work done in an adiabatic process is always zero. This is also wrong. In an adiabatic process, heat exchanged is zero:</p>\n<p> $q=0$ </p>\n<p>But work may be done. From the first law of thermodynamics,</p>\n<p> $\\Delta U=q+w$ </p>\n<p>For an adiabatic process,</p>\n<p> $\\Delta U=w$ </p>\n<p>So work is not necessarily zero.</p>\n<p>Hence, the correct answer is:</p>\n<p> $\\text{Option B}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta U=0",
@@ -112,7 +112,7 @@
         "\\Delta U=w"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.245469"
     },
@@ -158,14 +158,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Statement A is true.</p>\n<p>According to the third law of thermodynamics, the entropy of a perfectly crystalline solid at absolute zero, that is at  $0\\text{K}$ , is taken as zero.</p>\n<p>So,</p>\n<p> $S=0\\text{at}0\\text{K}$ </p>\n<p>for a perfect crystalline solid.</p>\n<p>Statement B is also true.</p>\n<p>For a reaction to be spontaneous at constant temperature and pressure,</p>\n<p> $\\Delta G&lt;0$ </p>\n<p>We know,</p>\n<p> $\\Delta G=\\Delta H-T\\Delta S$ </p>\n<p>For spontaneity,</p>\n<p> $\\Delta H-T\\Delta S&lt;0$ </p>\n<p>So,</p>\n<p> $T\\Delta S&gt;\\Delta H$ </p>\n<p>Hence, both statements A and B are true.</p>\n<p>The correct answer is:</p>\n<p> $\\text{Option A}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "S=0\\text{at}0\\text{K}",
         "\\Delta G=\\Delta H-T\\Delta S"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.252659"
     },
@@ -211,7 +211,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine which reaction has  $\\Delta H=\\Delta U$ , we use the equation:</p>\n<p> $\\Delta H=\\Delta U+\\Delta n_{g} \\cdot RT$ </p>\n<p>Where:</p>\n<p><p> $\\Delta H$  is the change in enthalpy.</p></p>\n<p><p> $\\Delta U$  is the change in internal energy.</p></p>\n<p><p> $\\Delta n_{g}$  is the change in the number of moles of gas.</p></p>\n<p><p> $R$  is the ideal gas constant.</p></p>\n<p><p> $T$  is the temperature in Kelvin.</p></p>\n<p>For the reaction:</p>\n<p> $2\\text{HI}_{(\\text{g})} \\rightleftharpoons \\text{H}_{2(\\text{g})}+\\text{I}_{2(\\text{g})}$ </p>\n<p>The change in the number of moles of gas ( $\\Delta n_{g}$ ) can be calculated as follows:</p>\n<p><p>On the reactant side, there are 2 moles of gas.</p></p>\n<p><p>On the product side, there are 1 mole of  $\\text{H}_{2}$  plus 1 mole of  $\\text{I}_{2}$ , totaling 2 moles.</p></p>\n<p>Thus,  $\\Delta n_{g}=2-2=0$ .</p>\n<p>Since  $\\Delta n_{g}=0$ , it follows that:</p>\n<p> $\\Delta H=\\Delta U$ </p>\n<p>Therefore, for this reaction, the change in enthalpy is equal to the change in internal energy.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta H=\\Delta U",
@@ -222,7 +222,7 @@
         "\\Delta n_{g}=2-2=0"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.408952"
     },
@@ -268,14 +268,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The incorrect statements are (b), (d) and (e), so the correct choice is Option B.</p>\n<p>• (b) is false: ΔH for a phase change does depend on how strong the intermolecular forces are—you must supply enough energy to overcome them.  </p>\n<p>• (d) is false: Enthalpy is a state function, so ΔH depends only on initial and final states, not on the path.  </p>\n<p>• (e) is false: Many ionic salts dissolve endothermically (ΔsolH° &gt; 0); only some give off heat on dissolving (ΔsolH° &lt; 0).  </p>\n<p>(a) and (c) are both true.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Delta rH^{\\circ}",
         "\\Delta_{\\text{sol}}H^{\\circ}"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.421358"
     },
@@ -321,13 +321,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Option D</p>\n<p>Explanation:</p>\n<p>Statement I  </p>\n<p><p>For an adiabatic process  $Q=0$ .  </p></p>\n<p><p>If “work done”  $W$  is taken positive when done on the system, then the first law gives  </p>\n<p> $\\Delta U=Q+W=0+W=W.$ </p></p>\n<p><p>Thus if work is done on the system  $(W&gt;0)$ , its internal energy increases  $(\\Delta U&gt;0)$ .  </p></p>\n<p>Statement II  </p>\n<p><p>In a free (Joule) expansion the external pressure  $P_{ext}=0$ , so  </p>\n<p> $W=\\int P_{ext}dV=0.$ </p></p>\n<p><p>Hence no work is done during the free expansion of an ideal gas.  </p></p>\n<p>Both statements are therefore true.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=0"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.266570"
     },
@@ -375,14 +375,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xcenvg/9ab448d2-1093-4325-ace1-87600659ebeb/df3e49c0-d2f0-11ef-8c71-155e85fd2e64/file-jaoe38c1m5xcenvh.png?format=png"
       ],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "(Z)=\\frac{V_{\\text{real}}}{V_{\\text{ideal}}}",
         "\\Delta_{r}H"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.430344"
     },
@@ -428,14 +428,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\Delta H_{\\text{sol}} &amp; =\\Delta H_{\\text{lattice}}+\\Delta H_{\\text{hydration}} \\\\ &amp; =788+(-784)=4kJmol^{-1} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "+788kJmol^{-1}",
         "\\Delta H_{\\text{hyd}}^{\\circ}=-784kJmol^{-1}"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.597415"
     },
@@ -481,14 +481,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $F=\\frac{9}{5}^{\\circ}C+32$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{9}{5}(25)+32=77^{\\circ}F \\\\ K &amp; =273.15+^{\\circ}C=273.15+25=298.15K \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "25^{\\circ}C",
         "F=\\frac{9}{5}^{\\circ}C+32"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.610053"
     },
@@ -534,7 +534,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $p_{1}=2atm$ </p>\n<p> $\\begin{aligned} p_{2}=? \\\\ V_{1}=1L \\\\ V_{2}=\\frac{3}{2} \\\\ T_{1}=298K \\\\ T_{2}=596K \\end{aligned}$ </p>\n<p>Using combined gas law, we get</p>\n<p> $\\begin{aligned} &amp; \\frac{p_{1}V_{1}}{T_{1}}=\\frac{p_{2}V_{2}}{T_{2}} \\\\ \\Rightarrow p_{2} &amp; =\\frac{2 \\times 1}{298} \\times \\frac{3 \\times 596}{2}=6atm \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "25^{\\circ}C",
@@ -543,7 +543,7 @@
         "p_{1}=2atm"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.437780"
     },
@@ -589,13 +589,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, initial volume  $V_{1}=1L$ </p>\n<p> $\\begin{aligned} &amp; \\text{Final volume,}V_{2}=2L \\\\ &amp; \\text{Temperature}=300K \\\\ &amp; R=0.0083kJKmol^{-1} \\end{aligned}$ </p>\n<p>Moles  $(n)=2$  moles</p>\n<p>We know that,</p>\n<p>Work done,  $W=2.303nRTlog\\frac{V_{2}}{V_{1}}$ </p>\n<p> $=2.303 \\times 2 \\times 0.0083 \\times 300log10=11.5kJ$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "=2.303 \\times 2 \\times 0.0083 \\times 300log10=11.5kJ"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.621568"
     },
@@ -641,7 +641,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When the same quantity of heat is absorbed by a system at two different temperatures,  $T_{1}$  and  $T_{2}$ , such that  $T_{1}&gt;T_{2}$ , the change in entropies are  $\\Delta S_{1}$  and  $\\Delta S_{2}$  respectively. </p>\n<p>Given that entropy change is given by :</p>\n<p> $\\Delta S=\\frac{Q}{T}$ </p>\n<p>For the same heat absorbed, </p>\n<p> $\\Delta S_{1}=\\frac{Q}{T_{1}}$ </p>\n<p> $\\Delta S_{2}=\\frac{Q}{T_{2}}$ </p>\n<p>Since  $T_{1}&gt;T_{2}$ , </p>\n<p> $\\Delta S_{1}&lt;\\Delta S_{2}$ .</p>\n<p>Option A :</p>\n<p> $\\Delta S_{1}&lt;\\Delta S_{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{1}",
@@ -652,7 +652,7 @@
         "\\Delta S=\\frac{Q}{T}"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.634727"
     },
@@ -698,7 +698,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For reactions involving gases, the relation between enthalpy change and internal energy change is</p>\n<p> $\\Delta H=\\Delta U+\\Delta n_{g}RT$ </p>\n<p>where  $\\Delta n_{g}$  is the change in number of moles of gaseous substances:</p>\n<p> $\\Delta n_{g}=\\text{moles of gaseous products}-\\text{moles of gaseous reactants}$ </p>\n<p>For  $\\Delta H=\\Delta U$ , we must have</p>\n<p> $\\Delta n_{g}=0$ </p>\n<p>Now check each option.</p>\n<h3>Option A</h3>\n<p> $N_{2}(g)+O_{2}(g) \\rightarrow 2NO(g)$ </p>\n<p>Reactant gas moles  $=1+1=2$ </p>\n<p>Product gas moles  $=2$ </p>\n<p>So,</p>\n<p> $\\Delta n_{g}=2-2=0$ </p>\n<p>Hence,</p>\n<p> $\\Delta H=\\Delta U$ </p>\n<h3>Option B</h3>\n<p> $CaCO_{3}(s) \\rightarrow CaO(s)+CO_{2}(g)$ </p>\n<p>Reactant gas moles  $=0$ </p>\n<p>Product gas moles  $=1$ </p>\n<p> $\\Delta n_{g}=1-0=1$ </p>\n<p>So,  $\\Delta H \\ne \\Delta U$ .</p>\n<h3>Option C</h3>\n<p> $N_{2}(g)+3H_{2}(g) \\rightarrow 2NH_{3}(g)$ </p>\n<p>Reactant gas moles  $=1+3=4$ </p>\n<p>Product gas moles  $=2$ </p>\n<p> $\\Delta n_{g}=2-4=-2$ </p>\n<p>So,  $\\Delta H \\ne \\Delta U$ .</p>\n<h3>Option D</h3>\n<p> $CH_{4}(g)+2O_{2}(g) \\rightarrow CO_{2}(g)+2H_{2}O(l)$ </p>\n<p>Only gaseous substances are counted.</p>\n<p>Reactant gas moles  $=1+2=3$ </p>\n<p>Product gas moles  $=1$ </p>\n<p> $\\Delta n_{g}=1-3=-2$ </p>\n<p>So,  $\\Delta H \\ne \\Delta U$ .</p>\n<p>Therefore, the correct answer is</p>\n<p> $\\text{Option A}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta H=\\Delta U",
@@ -709,7 +709,7 @@
         "N_{2}(g)+O_{2}(g) \\rightarrow 2NO(g)"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.782979"
     },
@@ -755,13 +755,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In this scenario, both the change in enthalpy ( $\\Delta H$ ) and the change in entropy ( $\\Delta S$ ) are negative. </p>\n<p>To determine the effect of temperature on the reaction, we consider the Gibbs free energy equation:</p>\n<p> $\\Delta G=\\Delta H-T\\Delta S$ </p>\n<p>For a reaction to be spontaneous,  $\\Delta G$  must be negative. Given that both  $\\Delta H$  and  $\\Delta S$  are negative, we want the absolute value of  $\\Delta H$  to be greater than  $T\\Delta S$  to ensure  $\\Delta G$  remains negative:</p>\n<p> $\\Delta H&gt;T\\Delta S$ </p>\n<p>This inequality suggests that at lower temperatures, the negative enthalpy term ( $\\Delta H$ ) dominates, making it more likely for  $\\Delta G$  to be negative. Therefore, the reaction is exothermic and more favorable at lower temperatures, increasing its rate as the temperature decreases.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Thermodynamics - Core Application",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta G=\\Delta H-T\\Delta S"
       ],
       "key_concepts": [
-        "Kcet Thermodynamics - Core Application"
+        "Enthalpy, Hess's Law & Bond Energies",
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.792063"
     }

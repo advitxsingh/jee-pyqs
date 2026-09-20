@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $cos\\theta+1=\\sqrt{3}sin\\theta$ </p>\n<p>We have to find all  $\\theta \\in (-2\\pi,2\\pi)$  satisfying this equation, and then calculate their sum.</p>\n<p>Rewrite the equation as</p>\n<p> $1+cos\\theta=\\sqrt{3}sin\\theta$ </p>\n<p>Now use the standard identities:</p>\n<p> $1+cos\\theta=2cos^{2}\\frac{\\theta}{2}$ </p>\n<p>and</p>\n<p> $sin\\theta=2sin\\frac{\\theta}{2}cos\\frac{\\theta}{2}$ </p>\n<p>Substituting these,</p>\n<p> $2cos^{2}\\frac{\\theta}{2}=\\sqrt{3} \\cdot 2sin\\frac{\\theta}{2}cos\\frac{\\theta}{2}$ </p>\n<p>So,</p>\n<p> $2cos\\frac{\\theta}{2}(cos\\frac{\\theta}{2}-\\sqrt{3}sin\\frac{\\theta}{2})=0$ </p>\n<p>Hence, either</p>\n<h3>Case 1:</h3>\n<p> $cos\\frac{\\theta}{2}=0$ </p>\n<p>So,</p>\n<p> $\\frac{\\theta}{2}=\\frac{\\pi}{2}+n\\pi$ </p>\n<p>which gives</p>\n<p> $\\theta=\\pi+2n\\pi$ </p>\n<p>Now in the interval  $(-2\\pi,2\\pi)$ , the possible values are:</p>\n<p> $\\theta=-\\pi,\\pi$ </p>\n<h3>Case 2:</h3>\n<p> $cos\\frac{\\theta}{2}-\\sqrt{3}sin\\frac{\\theta}{2}=0$ </p>\n<p>So,</p>\n<p> $cos\\frac{\\theta}{2}=\\sqrt{3}sin\\frac{\\theta}{2}$ </p>\n<p>or</p>\n<p> $tan\\frac{\\theta}{2}=\\frac{1}{\\sqrt{3}}$ </p>\n<p>Thus,</p>\n<p> $\\frac{\\theta}{2}=\\frac{\\pi}{6}+n\\pi$ </p>\n<p>So,</p>\n<p> $\\theta=\\frac{\\pi}{3}+2n\\pi$ </p>\n<p>Now in the interval  $(-2\\pi,2\\pi)$ , the possible values are:</p>\n<p> $\\theta=-\\frac{5\\pi}{3},\\frac{\\pi}{3}$ </p>\n<p>Therefore,</p>\n<p> $S={-\\pi,\\pi,-\\frac{5\\pi}{3},\\frac{\\pi}{3}}$ </p>\n<p>Now sum these values:</p>\n<p> $-\\pi+\\pi-\\frac{5\\pi}{3}+\\frac{\\pi}{3}$ </p>\n<p> $=-\\frac{4\\pi}{3}$ </p>\n<p>Hence,</p>\n<p> $\\underset{\\theta \\in S}{\\sum}\\theta=-\\frac{4\\pi}{3}$ </p>\n<p>So the correct answer is:</p>\n<p> $-\\frac{4\\pi}{3}$ </p>\n<p>Option B</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S={\\theta \\in (-2\\pi,2\\pi):cos\\theta+1=\\sqrt{3}sin\\theta}",
@@ -55,7 +55,7 @@
         "2cos^{2}\\frac{\\theta}{2}=\\sqrt{3} \\cdot 2sin\\frac{\\theta}{2}cos\\frac{\\theta}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:55.584376"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $3sin^{2}x+12cosx-3=p,x \\in ℝ$ </p>\n<p>We need all integral values of  $p$  for which this equation has at least one real solution.</p>\n<p>Now use the identity</p>\n<p> $sin^{2}x=1-cos^{2}x$ </p>\n<p>So,</p>\n<p> $3(1-cos^{2}x)+12cosx-3=p$ </p>\n<p>Simplifying,</p>\n<p> $3-3cos^{2}x+12cosx-3=p$ </p>\n<p> $-3cos^{2}x+12cosx=p$ </p>\n<p>Let</p>\n<p> $t=cosx$ </p>\n<p>Then</p>\n<p> $-1 \\le t \\le 1$ </p>\n<p>So we have</p>\n<p> $p=-3t^{2}+12t$ </p>\n<p>Now we need the range of</p>\n<p> $f(t)=-3t^{2}+12t,-1 \\le t \\le 1$ </p>\n<p>This is a downward opening parabola.</p>\n<p>Find its values at the endpoints:</p>\n<p> $f(-1)=-3(1)+12(-1)=-3-12=-15$ </p>\n<p> $f(1)=-3(1)+12(1)=-3+12=9$ </p>\n<p>Also,</p>\n<p> $f^{'}(t)=-6t+12$ </p>\n<p>For  $-1 \\le t \\le 1$ , we have</p>\n<p> $-6t+12&gt;0$ </p>\n<p>so  $f(t)$  is increasing on  $[-1,1]$ .</p>\n<p>Hence the range of  $p$  is</p>\n<p> $-15 \\le p \\le 9$ </p>\n<p>Therefore all integral values of  $p$  are</p>\n<p> $-15,-14,-13,\\dots,9$ </p>\n<p>This is an AP with first term  $-15$ , last term  $9$ .</p>\n<p>Number of terms:</p>\n<p> $n=9-(-15)+1=25$ </p>\n<p>Sum:</p>\n<p> $S=\\frac{n}{2}(a+l)=\\frac{25}{2}(-15+9)=\\frac{25}{2}(-6)=-75$ </p>\n<p>Hence, the required sum is</p>\n<p> $-75$ </p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Hard",
       "key_formulas": [
         "-3cos^{2}x+12cosx=p",
@@ -112,7 +112,7 @@
         "f(1)=-3(1)+12(1)=-3+12=9"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:55.667443"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to find the number of elements in</p>\n<p> $S={x \\in [-\\pi,\\pi]:sinx(sinx+cosx)=a,a \\in ℤ}.$ </p>\n<p>So we must find all  $x \\in [-\\pi,\\pi]$  for which the value</p>\n<p> $sinx(sinx+cosx)$ </p>\n<p>is an integer.</p>\n<h2>Step 1: Simplify the expression</h2>\n<p>Let</p>\n<p> $f(x)=sinx(sinx+cosx).$ </p>\n<p>Then</p>\n<p> $f(x)=sin^{2}x+sinxcosx.$ </p>\n<p>Now use the identities:</p>\n<p> $sin^{2}x=\\frac{1-cos2x}{2},sinxcosx=\\frac{sin2x}{2}.$ </p>\n<p>So,</p>\n<p> $f(x)=\\frac{1-cos2x}{2}+\\frac{sin2x}{2}=\\frac{1+sin2x-cos2x}{2}.$ </p>\n<p>Also,</p>\n<p> $sin2x-cos2x=\\sqrt{2}sin(2x-\\frac{\\pi}{4}).$ </p>\n<p>Hence,</p>\n<p> $f(x)=\\frac{1+\\sqrt{2}sin(2x-\\frac{\\pi}{4})}{2}.$ </p>\n<h2>Step 2: Find the range of  $f(x)$ </h2>\n<p>Since</p>\n<p> $-1 \\le sin(2x-\\frac{\\pi}{4}) \\le 1,$ </p>\n<p>we get</p>\n<p> $-\\sqrt{2} \\le \\sqrt{2}sin(2x-\\frac{\\pi}{4}) \\le \\sqrt{2}.$ </p>\n<p>Therefore,</p>\n<p> $\\frac{1-\\sqrt{2}}{2} \\le f(x) \\le \\frac{1+\\sqrt{2}}{2}.$ </p>\n<p>Now,</p>\n<p> $\\frac{1-\\sqrt{2}}{2} \\approx -0.207,\\frac{1+\\sqrt{2}}{2} \\approx 1.207.$ </p>\n<p>So the only integers possible in this interval are</p>\n<p> $0\\text{and}1.$ </p>\n<p>Thus we need to solve:</p>\n<ol>\n<li><p> $f(x)=0$ </p></li>\n<li><p> $f(x)=1$ </p></li>\n</ol>\n<h2>Step 3: Solve  $f(x)=0$ </h2>\n<p>We have</p>\n<p> $sinx(sinx+cosx)=0.$ </p>\n<p>So either</p>\n<h3>Case 1:</h3>\n<p> $sinx=0$ </p>\n<p>In  $[-\\pi,\\pi]$ , this gives</p>\n<p> $x=-\\pi,0,\\pi.$ </p>\n<h3>Case 2:</h3>\n<p> $sinx+cosx=0$ </p>\n<p>That is,</p>\n<p> $\\sqrt{2}sin(x+\\frac{\\pi}{4})=0$ </p>\n<p>so</p>\n<p> $x+\\frac{\\pi}{4}=n\\pi \\Rightarrow x=n\\pi-\\frac{\\pi}{4}.$ </p>\n<p>Now check in  $[-\\pi,\\pi]$ :</p>\n<ul>\n<li><p>for  $n=0$ ,  $x=-\\frac{\\pi}{4}$ </p></li>\n<li><p>for  $n=1$ ,  $x=\\frac{3\\pi}{4}$ </p></li>\n<li><p>other values go outside the interval</p></li>\n</ul>\n<p>So from  $f(x)=0$ , we get</p>\n<p> $x=-\\pi,0,\\pi,-\\frac{\\pi}{4},\\frac{3\\pi}{4}.$ </p>\n<p>Total  $5$  values.</p>\n<h2>Step 4: Solve  $f(x)=1$ </h2>\n<p>We need</p>\n<p> $sinx(sinx+cosx)=1.$ </p>\n<p>Using the simplified form:</p>\n<p> $\\frac{1+\\sqrt{2}sin(2x-\\frac{\\pi}{4})}{2}=1.$ </p>\n<p>So,</p>\n<p> $1+\\sqrt{2}sin(2x-\\frac{\\pi}{4})=2$ </p>\n<p> $\\sqrt{2}sin(2x-\\frac{\\pi}{4})=1$ </p>\n<p> $sin(2x-\\frac{\\pi}{4})=\\frac{1}{\\sqrt{2}}.$ </p>\n<p>Now,</p>\n<p> $sin\\theta=\\frac{1}{\\sqrt{2}}$ </p>\n<p>when</p>\n<p> $\\theta=\\frac{\\pi}{4}+2n\\pi\\text{or}\\theta=\\frac{3\\pi}{4}+2n\\pi.$ </p>\n<p>So,</p>\n<h3>First possibility:</h3>\n<p> $2x-\\frac{\\pi}{4}=\\frac{\\pi}{4}+2n\\pi$ </p>\n<p> $2x=\\frac{\\pi}{2}+2n\\pi$ </p>\n<p> $x=\\frac{\\pi}{4}+n\\pi$ </p>\n<p>In  $[-\\pi,\\pi]$ , this gives</p>\n<p> $x=\\frac{\\pi}{4},-\\frac{3\\pi}{4}.$ </p>\n<h3>Second possibility:</h3>\n<p> $2x-\\frac{\\pi}{4}=\\frac{3\\pi}{4}+2n\\pi$ </p>\n<p> $2x=\\pi+2n\\pi$ </p>\n<p> $x=\\frac{\\pi}{2}+n\\pi$ </p>\n<p>In  $[-\\pi,\\pi]$ , this gives</p>\n<p> $x=\\frac{\\pi}{2},-\\frac{\\pi}{2}.$ </p>\n<p>So from  $f(x)=1$ , we get  $4$  values:</p>\n<p> $x=\\frac{\\pi}{4},-\\frac{3\\pi}{4},\\frac{\\pi}{2},-\\frac{\\pi}{2}.$ </p>\n<h2>Step 5: Total number of elements</h2>\n<p>Combining both cases:</p>\n<ul>\n<li><p>from  $a=0$ :  $5$  values</p></li>\n<li><p>from  $a=1$ :  $4$  values</p></li>\n</ul>\n<p>Hence,</p>\n<p> $n(S)=5+4=9.$ </p>\n<p>So the correct answer is:</p>\n<p> $9$ </p>\n<p>Therefore, <strong>Option D</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x \\in [-\\pi,\\pi]:sinx(sinx+cosx)=a,a \\in ℤ}",
@@ -169,7 +169,7 @@
         "f(x)=\\frac{1-cos2x}{2}+\\frac{sin2x}{2}=\\frac{1+sin2x-cos2x}{2}."
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:55.749768"
     },
@@ -217,7 +217,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mu2a71pu/235067e0-5a54-435e-b6d2-840b47e0a1d5/558c0520-b0cd-11f1-9cb4-33d953cbea03/file-6y3zli1mu2a71pv.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{3}cos2\\theta+8cos\\theta+3\\sqrt{3}=0,\\theta \\in [-3\\pi,2\\pi]",
@@ -228,7 +228,7 @@
         "\\therefore cos\\theta=\\frac{-1}{\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:55.794640"
     },
@@ -274,14 +274,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; cos2\\theta cos\\frac{\\theta}{2}+cos\\frac{5\\theta}{2}=2cos^{3}\\frac{5\\theta}{2} \\\\ &amp; \\frac{1}{2}(2cos2\\theta cos\\frac{\\theta}{2})+cos\\frac{50}{2} \\\\ &amp; =\\frac{1}{2}(cos\\frac{15\\theta}{2}+3cos\\frac{5\\theta}{2}) \\end{aligned} \\\\ &amp; \\text{or solving} \\\\ &amp; \\begin{aligned} &amp; cos\\frac{3\\theta}{2}=cos\\frac{15\\theta}{2} \\\\ &amp; cos\\frac{15\\theta}{2}-cos\\frac{3\\theta}{2}=0 \\\\ &amp; 2sin30sin\\frac{9\\theta}{2}=0 \\end{aligned} \\\\ &amp; 3\\theta=n\\pi\\text{or}\\frac{9\\theta}{2}=m\\pi \\\\ &amp; \\begin{aligned} &amp; \\theta=\\frac{n\\pi}{3}\\theta=\\frac{2m\\pi}{9} \\\\ &amp; \\theta={-\\frac{\\pi}{2},\\frac{\\pi}{3},0} \\\\ &amp; \\theta={-\\frac{4\\pi}{9},\\frac{-2\\pi}{9},\\frac{4\\pi}{9},\\frac{2\\pi}{9}} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos2\\theta cos\\frac{\\theta}{2}+cos\\frac{5\\theta}{2}=2cos^{3}\\frac{5\\theta}{2}",
         "[-\\frac{\\pi}{2},\\frac{\\pi}{2}]"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:56.924021"
     },
@@ -327,13 +327,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2\\sqrt{2}cos^{2}\\theta+(2-\\sqrt{6})cos\\theta-\\sqrt{3}=0 \\\\ &amp; 2\\sqrt{2}cos^{2}\\theta+2cos\\theta-\\sqrt{6}cos\\theta-\\sqrt{3}=0 \\\\ &amp; (2cos\\theta-\\sqrt{3})(\\sqrt{2}cos\\theta+1)=0 \\\\ &amp; \\Rightarrow cos\\theta=\\frac{\\sqrt{3}}{2}\\text{or}cos\\theta=\\frac{-1}{\\sqrt{2}} \\\\ &amp; \\theta={\\frac{-11\\pi}{6},\\frac{-5\\pi}{4},\\frac{-3\\pi}{4},\\frac{-\\pi}{6},\\frac{\\pi}{6},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{11\\pi}{6}} \\\\ &amp; \\Rightarrow 8\\text{(solution)} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "2\\sqrt{2}cos^{2}\\theta+(2-\\sqrt{6})cos\\theta-\\sqrt{3}=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:58.099481"
     },
@@ -379,11 +379,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the number of solutions to the equation </p>\n<p> $(4-\\sqrt{3})sinx-2\\sqrt{3}cos^{2}x=-\\frac{4}{1+\\sqrt{3}},x \\in [-2\\pi,\\frac{5\\pi}{2}]$ </p>\n<p>we start by letting  $sinx=t$ , which implies  $cos^{2}x=1-t^{2}$ . Substituting these into the equation, we have:</p>\n<p> $(4-\\sqrt{3})t-2\\sqrt{3}(1-t^{2})=\\frac{-4}{1+\\sqrt{3}}$ </p>\n<p>Simplifying, we get:</p>\n<p> $2\\sqrt{3}t^{2}+(4-\\sqrt{3})t-2\\sqrt{3}+\\frac{4}{1+\\sqrt{3}}=0$ </p>\n<p>Further simplification yields:</p>\n<p> $2\\sqrt{3}t^{2}+(4-\\sqrt{3})t+\\frac{-2\\sqrt{3}-2}{1+\\sqrt{3}}=0$ </p>\n<p>This simplifies to:</p>\n<p> $2\\sqrt{3}t^{2}+(4-\\sqrt{3})t-2=0$ </p>\n<p>To find  $t$ , solve the quadratic equation:</p>\n<p> $t=\\frac{(\\sqrt{3}-4) \\pm \\sqrt{19-8\\sqrt{3}+8(2\\sqrt{3})}}{4\\sqrt{3}}$ </p>\n<p>This simplifies to:</p>\n<p> $t=\\frac{(\\sqrt{3}-4) \\pm \\sqrt{19+8\\sqrt{3}}}{4\\sqrt{3}}=\\frac{(\\sqrt{3}-4) \\pm (\\sqrt{3}+4)}{4\\sqrt{3}}$ </p>\n<p>Evaluating further, we find:</p>\n<p> $t=\\frac{2\\sqrt{3}}{4\\sqrt{3}}\\text{or}\\frac{-8}{4\\sqrt{3}}$ </p>\n<p>This gives us  $sinx=\\frac{1}{2}$  or  $\\frac{-2}{\\sqrt{3}}&lt;-1$ . Since  $\\frac{-2}{\\sqrt{3}}$  is less than -1, it is not valid for  $sinx$ . Hence, the only solution is  $sinx=\\frac{1}{2}$ .</p>\n<p>Considering the interval  $x \\in [-2\\pi,\\frac{5\\pi}{2}]$ , we find that  $sinx=\\frac{1}{2}$  occurs at several points. After checking, there are 5 such solutions in the given interval.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:56.983687"
     },
@@ -429,7 +429,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2sin^{2}\\theta=cos2\\theta \\\\ &amp; 2sin^{2}\\theta=1-2sin^{2}\\theta \\\\ &amp; 4sin^{2}\\theta=1 \\\\ &amp; sin^{2}\\theta=\\frac{1}{4} \\\\ &amp; sin\\theta= \\pm \\frac{1}{2} \\\\ &amp; 2cos^{2}\\theta=3sin\\theta \\\\ &amp; 2-2sin^{2}\\theta+3sin\\theta-2=0 \\\\ &amp; (2sin\\theta-1)(2sin\\theta-2)=0 \\\\ &amp; sin\\theta=\\frac{1}{2} \\end{aligned}$ </p>\n<p>so common equation which satisfy both equations is  $sin\\theta=\\frac{1}{2}$ </p>\n<p> $\\theta=\\frac{\\pi}{6},\\frac{5\\pi}{6}(\\theta \\in [0,2\\pi])$ </p>\n<p> $\\text{Sum}=\\pi$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "2sin^{2}\\theta=cos2\\theta",
@@ -438,7 +438,7 @@
         "\\text{Sum}=\\pi"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:58.150539"
     },
@@ -486,11 +486,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9zqey0y/47abdb9a-06d3-4ecb-87c1-e2ff80ddd063/15b59130-2372-11f0-be72-d7d0880a3028/file-jaoe38c1m9zqey0z.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:57.033154"
     },
@@ -536,14 +536,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the solutions of the equation  $\\sqrt{3}cosec^{2}\\theta-2(\\sqrt{3}-1)cosec\\theta-4=0$ , we can begin by solving for  $cosec\\theta$ .</p>\n<p>The quadratic equation in terms of  $cosec\\theta$  is:</p>\n<p> $\\sqrt{3}cosec^{2}\\theta-2(\\sqrt{3}-1)cosec\\theta-4=0$ </p>\n<p>Using the quadratic formula:</p>\n<p> $cosec\\theta=\\frac{2\\sqrt{3}-2 \\pm \\sqrt{(2(\\sqrt{3}-1))^{2}+4\\sqrt{3} \\cdot 4}}{2\\sqrt{3}}$ </p>\n<p>Simplifying inside the square root:</p>\n<p> $(2(\\sqrt{3}-1))^{2}+4\\sqrt{3} \\cdot 4=4(3+1-2\\sqrt{3})+16\\sqrt{3}$ </p>\n<p>This simplifies to:</p>\n<p> $4(4-2\\sqrt{3})+16\\sqrt{3}=16-8\\sqrt{3}+16\\sqrt{3}=16+8\\sqrt{3}$ </p>\n<p>Therefore, the quadratic gives:</p>\n<p> $cosec\\theta=\\frac{2\\sqrt{3}-2 \\pm 2(\\sqrt{3}+1)}{2\\sqrt{3}}$ </p>\n<p>By solving, we find:</p>\n<p> $cosec\\theta=\\frac{-2}{\\sqrt{3}},2$ </p>\n<p>Thus, for each value of the cosecant,  $\\theta$  can take several values that fall within the given interval  $[-\\frac{7\\pi}{6},\\frac{4\\pi}{3}]$ :</p>\n<p> $\\theta=\\frac{-7\\pi}{6},\\frac{-2\\pi}{3},\\frac{-\\pi}{3},\\frac{\\pi}{6},\\frac{5\\pi}{6},\\frac{4\\pi}{3}$ </p>\n<p>These are all the possible solutions for  $\\theta$  within the defined range.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "\\theta\\epsilon[-\\frac{7\\pi}{6},\\frac{4\\pi}{3}]",
         "\\sqrt{3}cosec^{2}\\theta-2(\\sqrt{3}-1)cosec\\theta-4=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:57.093350"
     },
@@ -589,7 +589,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2sin^{3}x+2sinx \\cdot cos^{2}x+4sinx-4=0 \\\\ &amp; 2sin^{3}x+2sinx \\cdot (1-sin^{2}x)+4sinx-4=0 \\\\ &amp; 6sinx-4=0 \\\\ &amp; sinx=\\frac{2}{3} \\\\ &amp; n=5\\text{(in the given interval)} \\\\ &amp; x^{2}+5x+2=0 \\\\ &amp; x=\\frac{-5 \\pm \\sqrt{17}}{2} \\\\ &amp; \\text{Required interval}(-\\infty,0) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "2sin^{3}x+sin2xcosx+4sinx-4=0",
@@ -597,7 +597,7 @@
         "x^{2}+nx+(n-3)=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:59.604924"
     },
@@ -622,13 +622,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For real roots</p>\n<p> $\\begin{aligned} &amp; D \\ge 0 \\\\ &amp; sin^{2}2\\theta \\ge 4(sin^{4}\\theta+cos^{4}\\theta)(sin^{6}\\theta+cos^{6}\\theta) \\end{aligned}$ </p>\n<p>Put  $sin^{2}2\\theta=t$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow t \\ge 4(1-\\frac{t}{2})(1-\\frac{3t}{4}) \\\\ &amp; 2t \\ge (2-t)(4-3t) \\\\ &amp; 3t^{2}-12t+8 \\le 0 \\\\ &amp; t^{2}-4t+\\frac{8}{3} \\le 0 \\\\ &amp; (t-2)^{2}+\\frac{8}{3}-4 \\le 0 \\\\ &amp; (t-2)^{2} \\le \\frac{4}{3} \\\\ &amp; -\\frac{2}{\\sqrt{3}} \\le t-2 \\le \\frac{2}{\\sqrt{3}} \\\\ &amp; 2-\\frac{2}{\\sqrt{3}} \\le t \\le 2+\\frac{2}{\\sqrt{3}} \\\\ &amp; \\because t \\in [0,1] \\\\ &amp; \\Rightarrow 2-\\frac{2}{\\sqrt{3}} \\le t \\le 1 \\\\ &amp; \\alpha=2-\\frac{2}{\\sqrt{3}},\\beta=1 \\\\ &amp; \\Rightarrow 3[(\\alpha-2)^{2}+(\\beta-1)^{2}]=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "equals __________. For real roots"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:09.892919"
     },
@@ -674,13 +674,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{3cos2x+cos^{3}2x}{cos^{6}x-sin^{6}x}=x^{3}-x^{2}+6 \\\\ &amp; \\Rightarrow \\frac{cos2x(3+cos^{2}2x)}{cos2x(1-sin^{2}xcos^{2}x)}=x^{3}-x^{2}+6 \\\\ &amp; \\Rightarrow \\frac{4(3+cos^{2}2x)}{(4-sin^{2}2x)}=x^{3}-x^{2}+6 \\\\ &amp; \\Rightarrow \\frac{4(3+cos^{2}2x)}{(3+cos^{2}2x)}=x^{3}-x^{2}+6 \\\\ &amp; x^{3}-x^{2}+2=0 \\Rightarrow (x+1)(x^{2}-2x+2)=0 \\end{aligned}$ </p>\n<p>so, sum of real solutions  $=-1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{3cos2x+cos^{3}2x}{cos^{6}x-sin^{6}x}=x^{3}-x^{2}+6"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:59.641787"
     },
@@ -726,13 +726,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |cos\\theta cos(60-\\theta)cos(60+\\theta)| \\le \\frac{1}{8} \\\\ &amp; \\Rightarrow \\frac{1}{4}|cos3\\theta| \\le \\frac{1}{8} \\\\ &amp; cos3\\theta\\text{is max if}cos3\\theta=\\frac{1}{2} \\\\ &amp; \\therefore \\theta=\\frac{\\pi}{9},\\frac{5\\pi}{9},\\frac{7\\pi}{9},\\frac{11\\pi}{9},\\frac{13\\pi}{9},\\frac{17\\pi}{9} \\\\ &amp; \\sum \\theta_{i}=6\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "|cos\\theta cos(60-\\theta)cos(60+\\theta)| \\le \\frac{1}{8},\\theta\\epsilon[0,2\\pi]"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:58.245733"
     },
@@ -778,7 +778,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $4+5tan\\theta=sec\\theta$ </p>\n<p>Squaring :  $24tan^{2}\\theta+40tan\\theta+15=0$ </p>\n<p> $tan\\theta=\\frac{-10 \\pm \\sqrt{10}}{12}$ </p>\n<p>and  $tan\\theta=-(\\frac{10+\\sqrt{10}}{12})$  is Rejected.</p>\n<p>(3) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "\\alpha,-\\frac{\\pi}{2}<\\alpha<\\frac{\\pi}{2}",
@@ -789,7 +789,7 @@
         "tan\\theta=-(\\frac{10+\\sqrt{10}}{12})"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:59.685408"
     },
@@ -835,7 +835,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We start by recognizing that  $sin^{2}x+cos^{2}x=1$ . Substituting  $sin^{2}x=1-cos^{2}x$  into the original equation gives:</p>\n<p> $4(1-cos^{2}x)-4cos^{3}x+9-4cosx=0$ </p>\n<p>Rearranging and simplifying this equation, we have:</p>\n<p> $4-4cos^{2}x-4cos^{3}x+9-4cosx=0$ </p>\n<p> $4cos^{3}x+4cos^{2}x+4cosx-13=0$ </p>\n<p> $4cos^{3}x+4cos^{2}x+4cosx=13$ </p>\n<p>Observing the bounds given,  $x \\in [-2\\pi,2\\pi]$ , we want to find how many solutions satisfy this cubic equation in terms of  $cosx$ . However, we note that the left-hand side (LHS) of the equation, representing a combination of cosines, could at most approach a maximum sum when  $cosx=1$ , that being  $4(1)+4(1)+4(1)=12$ . Yet, we have the equation set to equal 13, which is impossible given the maximum sum of the LHS can only be 12.</p>\n<p>The above reasoning indicates that, within the domain specified, there is no value of  $x$  for which the equation holds true. Therefore, the number of solutions to the equation is zero.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "4sin^{2}x-4cos^{3}x+9-4cosx=0;x \\in [-2\\pi,2\\pi]",
@@ -846,7 +846,7 @@
         "4cos^{3}x+4cos^{2}x+4cosx-13=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:58.317590"
     },
@@ -892,7 +892,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2tan^{2}\\theta-5sec\\theta-1=0 \\\\ &amp; \\Rightarrow 2sec^{2}\\theta-5sec\\theta-3=0 \\\\ &amp; \\Rightarrow (2sec\\theta+1)(sec\\theta-3)=0 \\\\ &amp; \\Rightarrow sec\\theta=-\\frac{1}{2},3 \\\\ &amp; \\Rightarrow cos\\theta=-2,\\frac{1}{3} \\\\ &amp; \\Rightarrow cos\\theta=\\frac{1}{3} \\end{aligned}$ </p>\n<p>For 7 solutions  $n=13$ </p>\n<p> $\\begin{aligned} &amp; \\text{So,}\\sum_{k=1}^{13}\\frac{k}{2^{k}}=S\\text{(say)} \\\\ &amp; S=\\frac{1}{2}+\\frac{2}{2^{2}}+\\frac{3}{2^{3}}+\\dots.+\\frac{13}{2^{13}} \\\\ &amp; \\frac{1}{2}S=\\frac{1}{2^{2}}+\\frac{1}{2^{3}}+\\dots.+\\frac{12}{2^{13}}+\\frac{13}{2^{14}} \\\\ &amp; \\Rightarrow \\frac{S}{2}=\\frac{1}{2} \\cdot \\frac{1-\\frac{1}{2^{13}}}{1-\\frac{1}{2}}-\\frac{13}{2^{14}} \\Rightarrow S=2 \\cdot (\\frac{2^{13}-1}{2^{13}})-\\frac{13}{2^{13}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "2tan^{2}\\theta-5sec\\theta=1",
@@ -900,7 +900,7 @@
         "\\sum_{k=1}^{n}\\frac{k}{2^{k}}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:59.730607"
     },
@@ -946,7 +946,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The original equation is:\n<br/><br/> $3cos^{4}\\theta-5cos^{2}\\theta-2sin^{6}\\theta+2=0$ \n<br/><br/>We can re-arrange terms and use trigonometric identity ( $cos^{2}\\theta+sin^{2}\\theta=1$ ) to rewrite this as :\n<br/><br/> $3cos^{4}\\theta-3cos^{2}\\theta+2sin^{2}\\theta-2sin^{6}\\theta=0$ \n<br/><br/>Factoring out  $cos^{2}\\theta$  and  $sin^{2}\\theta$  we get :\n<br/><br/> $3cos^{2}\\theta(cos^{2}\\theta-1)+2sin^{2}\\theta(sin^{4}\\theta-1)=0$ \n<br/><br/>Then we substitute  $1-cos^{2}\\theta$  for  $sin^{2}\\theta$  (again using the same trigonometric identity), which simplifies to :\n<br/><br/> $-3cos^{2}\\theta sin^{2}\\theta+2sin^{2}\\theta(1+sin^{2}\\theta)cos^{2}\\theta=0$ \n<br/><br/>This can be re-written as :\n<br/><br/> $sin^{2}\\theta cos^{2}\\theta(2+2sin^{2}\\theta-3)=0$ \n<br/><br/>Simplifying it to :\n<br/><br/> $sin^{2}\\theta cos^{2}\\theta(2sin^{2}\\theta-1)=0$ \n<br/><br/>We now have 3 separate conditions to solve for : \n\n<br/><br/>-  $sin^{2}\\theta=0$ ,\n<br/><br/>-  $cos^{2}\\theta=0$ , and\n<br/><br/>-  $2sin^{2}\\theta-1=0$ .\n\n<br/><br/>For  $sin^{2}\\theta=0$ , the solutions are  $\\theta={0,\\pi,2\\pi}$  (3 solutions).\n\n<br/><br/>For  $cos^{2}\\theta=0$ , the solutions are  $\\theta={\\frac{\\pi}{2},\\frac{3\\pi}{2}}$  (2 solutions).\n\n<br/><br/>For  $2sin^{2}\\theta-1=0$  (which simplifies to  $sin^{2}\\theta=1/2$ ), the solutions are  $\\theta={\\frac{\\pi}{4},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}}$  (4 solutions).\n\n<br/><br/>In total, this gives 3+2+4 = 9 solutions.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "S={\\theta \\in [0,2\\pi]:3cos^{4}\\theta-5cos^{2}\\theta-2sin^{6}\\theta+2=0}",
@@ -957,7 +957,7 @@
         "sin^{2}\\theta"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:01.263011"
     },
@@ -1003,7 +1003,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,  $S={x \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2}):9^{1-tan^{2}x}+9^{tan^{2}x}=10}$  and\n\n<br/><br/> $\\beta=\\underset{x \\in S}{\\sum}tan^{2}(\\frac{x}{3})$ \n<br/><br/> $\\begin{aligned} &amp; 9^{1-tan^{2}x}+9^{tan^{2}x}=10 \\\\ \\\\ &amp; \\Rightarrow \\frac{9}{9^{tan^{2}x}}+9^{tan^{2}x}=10 \\end{aligned}$ \n<br/><br/>Let  $9^{tan^{2}x}=t$ \n<br/><br/> $\\frac{9}{t}+t=10 \\Rightarrow t^{2}-10t+9=0 \\Rightarrow t=9\\text{or}1$ \n<br/><br/>If  $t=9,9^{tan^{2}x}=9 \\Rightarrow x= \\pm \\frac{\\pi}{4}$ \n<br/><br/>If  $t=1,9^{tan^{2}x}=1 \\Rightarrow x=0$ \n<br/><br/>Also,\n<br/><br/> $\\begin{aligned} \\beta &amp; =\\underset{x \\in S}{\\sum}tan^{2}(\\frac{x}{3}) \\\\ \\\\ &amp; =tan^{2}(\\frac{0}{3})+tan^{2}(\\frac{\\pi}{12})+tan^{2}(-\\frac{\\pi}{12}) \\\\ \\\\ &amp; =0+2tan^{2}\\frac{\\pi}{12}=2[2-\\sqrt{3}]^{2} \\\\ \\\\ &amp; =2[4+3-4\\sqrt{3}]=14-8\\sqrt{3} \\end{aligned}$ \n<br/><br/> $\\text{So, now}\\frac{1}{6}(\\beta-14)^{2}=\\frac{1}{6}[14-8\\sqrt{3}-14]^{2}=\\frac{1}{6} \\times 64 \\times 3=32$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2}):9^{1-tan^{2}x}+9^{tan^{2}x}=10}",
@@ -1014,7 +1014,7 @@
         "t=1,9^{tan^{2}x}=1 \\Rightarrow x=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:01.328343"
     },
@@ -1039,14 +1039,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2cos2\\theta cos\\frac{\\theta}{2}=2cos3\\theta cos\\frac{9\\theta}{2}$ \n<br/><br/>\n $\\begin{aligned} &amp; cos\\frac{5\\theta}{2}+cos\\frac{3\\theta}{2}=cos\\frac{15\\theta}{2}+cos\\frac{3\\theta}{2} \\\\ \\\\ &amp; cos\\frac{5\\theta}{2}=cos\\frac{15\\theta}{2} \\\\ \\\\ &amp; \\frac{15\\theta}{2}=2n\\pi \\pm \\frac{5\\theta}{2} \\\\ \\\\ &amp; \\frac{15\\theta}{2} \\pm \\frac{5\\theta}{2}=2n\\pi \\\\ \\\\ &amp; 10\\theta=2n\\pi\\text{or}5\\theta=2n\\pi \\\\ \\\\ &amp; \\theta=\\frac{n\\pi}{5}\\text{or}\\theta=\\frac{2n\\pi}{5} \\\\ \\\\ &amp; \\Rightarrow \\theta=\\frac{n\\pi}{5} \\end{aligned}$ <br/><br/>\n $\\begin{aligned} &amp; \\theta= \\pm \\pi, \\pm \\frac{4\\pi}{5}, \\pm \\frac{3\\pi}{5}, \\pm \\frac{2\\pi}{5}, \\pm \\frac{\\pi}{5} \\\\ \\\\ &amp; m=5,n=5 \\\\ \\\\ &amp; mn=25 \\end{aligned}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Hard",
       "key_formulas": [
         "cos2\\theta cos\\frac{\\theta}{2}=cos3\\theta cos\\frac{9\\theta}{2}",
         "2cos2\\theta cos\\frac{\\theta}{2}=2cos3\\theta cos\\frac{9\\theta}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:09.915317"
     },
@@ -1071,14 +1071,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; tan(\\pi cos\\theta)+tan(\\pi sin\\theta)=0 \\\\ \\\\ &amp; tan(\\pi cos\\theta)=-tan(\\pi sin\\theta) \\\\ \\\\ &amp; tan(\\pi cos\\theta)=tan(-\\pi sin\\theta) \\\\ \\\\ &amp; \\pi cos\\theta=n\\pi-\\pi sin\\theta \\\\ \\\\ &amp; sin\\theta+cos\\theta=n\\text{where}n \\in I \\end{aligned}$ <br/><br/>\npossible values are  $n=0,1$  and  $-1$  because<br/><br/>\n $-\\sqrt{2} \\le sin\\theta+cos\\theta \\le \\sqrt{2}$ <br/><br/>\nNow it gives  $\\theta \\in {0,\\frac{\\pi}{2},\\frac{3\\pi}{4},\\frac{7\\pi}{4},\\frac{3\\pi}{2},\\pi}$ <br/><br/>\nSo  $\\underset{\\theta \\in S}{\\sum}sin^{2}(\\theta+\\frac{\\pi}{4})=2(0)+4(\\frac{1}{2})=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "S={\\theta \\in [0,2\\pi):tan(\\pi cos\\theta)+tan(\\pi sin\\theta)=0}",
         "\\underset{\\theta \\in S}{\\sum}sin^{2}(\\theta+\\frac{\\pi}{4})"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:09.941174"
     },
@@ -1124,7 +1124,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S={\\theta \\in [0,2\\pi]:8^{2sin^{2}\\theta}+8^{2cos^{2}\\theta}=16}$ </p>\n<p>Now apply AM  $\\ge$  GM for  $8^{2sin^{2}\\theta},8^{2cos^{2}\\theta}$ </p>\n<p> $\\frac{8^{2sin^{2}\\theta}+8^{2cos^{2}\\theta}}{2} \\ge (8^{2sin^{2}\\theta+2cos^{2}\\theta})^{\\frac{1}{2}}$ </p>\n<p> $8 \\ge 8$ </p>\n<p> $\\Rightarrow 8^{2sin^{2}\\theta}=8^{2cos^{2}\\theta}$ </p>\n<p>or  $sin^{2}\\theta=cos^{2}\\theta$ </p>\n<p> $\\therefore$   $\\theta=\\frac{\\pi}{4},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}$ </p>\n<p> $n(S)+\\sum_{\\theta \\in S}sec(\\frac{\\pi}{4}+2\\theta)cosec(\\frac{\\pi}{4}+2\\theta)$ </p>\n<p> $4+\\sum_{\\theta \\in S}\\frac{2}{2sin(\\frac{\\pi}{4}+2\\theta)cos(\\frac{\\pi}{4}+2\\theta)}$ </p>\n<p> $=4+\\sum_{\\theta \\in S}\\frac{2}{sin(\\frac{\\pi}{2}+4\\theta)}=4+2\\sum_{\\theta \\in S}cosec(\\frac{\\pi}{2}+4\\theta)$ </p>\n<p> $=4+2[cosec(\\frac{\\pi}{2}+\\pi)cosec(\\frac{\\pi}{2}+3\\pi)+cosec(\\frac{\\pi}{2}+5\\pi)+cosec(\\frac{\\pi}{2}+7\\pi)]$ </p>\n<p> $=4+2[-cosec\\frac{\\pi}{2}-cosec\\frac{\\pi}{2}-cosec\\frac{\\pi}{2}-cosec\\frac{\\pi}{2}]$ </p>\n<p> $=4-2(4)$ </p>\n<p> $=4-8$ </p>\n<p> $=-4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S={\\theta \\in [0,2\\pi]:8^{2sin^{2}\\theta}+8^{2cos^{2}\\theta}=16}.",
@@ -1135,7 +1135,7 @@
         "sin^{2}\\theta=cos^{2}\\theta"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:02.523848"
     },
@@ -1181,13 +1181,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $tan\\theta(sin\\theta+1)-sin2\\theta=0$ \n<br/><br/>\n $\\begin{aligned} &amp; tan\\theta(sin\\theta+1-2cos^{2}\\theta)=0 \\\\ \\\\ &amp; \\Rightarrow tan\\theta=0\\text{or}2sin^{2}\\theta+sin\\theta-1=0 \\\\ \\\\ &amp; \\Rightarrow (2sin\\theta+1)(sin\\theta-1)=0 \\\\ \\\\ &amp; \\Rightarrow sin\\theta=\\frac{-1}{2}\\text{or}1 \\end{aligned}$ \n<br/><br/>\nBut,  $sin\\theta=1$  not possible\n<br/><br/>\n $\\theta=0,\\pi,-\\pi,-\\frac{\\pi}{6},\\frac{-5\\pi}{6}$ \n<br/><br/>\n $n(S)=5$ \n<br/><br/>\n $T=\\sum cos2\\theta=cos0^{\\circ}+cos2\\pi+cos(-2\\pi)+cos(-\\frac{5\\pi}{3})+cos(-\\frac{\\pi}{3})$ <br/><br/>= 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "n(S)=5"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:03.925533"
     },
@@ -1212,7 +1212,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $tan\\alpha=\\sqrt{5}$ </p>\n<p> $\\therefore$   $tan\\theta=\\frac{tan\\alpha-tan2\\theta}{1+tan\\alpha tan2\\theta}$ </p>\n<p> $\\therefore$   $tan\\theta=tan(\\alpha-2\\theta)$ </p>\n<p> $\\alpha-2\\theta=n\\pi+\\theta$ </p>\n<p> $\\Rightarrow 3\\theta=\\alpha-n\\pi$ </p>\n<p> $\\Rightarrow \\theta=\\frac{\\alpha}{3}-\\frac{n\\pi}{3};n \\in Z$ </p>\n<p>If  $\\theta \\in [-\\pi,\\pi/2]$  then  $n=0,1,2,3,4$  are acceptable</p>\n<p> $\\therefore$  5 solutions.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "is __________. Let",
@@ -1223,7 +1223,7 @@
         "\\Rightarrow \\theta=\\frac{\\alpha}{3}-\\frac{n\\pi}{3};n \\in Z"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:10.930461"
     },
@@ -1248,7 +1248,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $3cos^{2}2\\theta+6cos2\\theta-\\frac{10(1+cos2\\theta)}{2}+5=0$ \n<br/><br/>\n $\\Rightarrow 3cos^{2}2\\theta+cos2\\theta=0$ \n<br/><br/>\n $\\Rightarrow cos2\\theta=0$  or  $cos2\\theta=\\frac{-1}{3}$ \n<br/><br/>\nAs  $\\theta \\in [0,\\pi],cos2\\theta=\\frac{-1}{3} \\Rightarrow 2$  times\n<br/><br/>\n $\\Rightarrow \\theta \\in [-4\\pi,4\\pi],cos2\\theta=\\frac{-1}{3} \\Rightarrow 16$  times\n<br/><br/>\nSimilarly,  $cos2\\theta=0 \\Rightarrow 16$  times\n<br/><br/>\n $\\therefore$  Total 32 solutions<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S={\\theta \\in [-4\\pi,4\\pi]:3cos^{2}2\\theta+6cos2\\theta-10cos^{2}\\theta+5=0}",
@@ -1259,7 +1259,7 @@
         "\\theta \\in [0,\\pi],cos2\\theta=\\frac{-1}{3} \\Rightarrow 2"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:11.854613"
     },
@@ -1307,7 +1307,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l79feq7m/e60ffdfa-9b90-49e0-8009-cd68f405095b/71f7d120-24aa-11ed-8d2e-5f0df5271c2d/file-1l79feq7n.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "|cosx|=sinx",
@@ -1316,7 +1316,7 @@
         "4 \\times 2=8"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:02.592351"
     },
@@ -1341,7 +1341,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation (1)  $2sin^{2}\\theta=1-2sin^{2}\\theta$ </p>\n<p> $\\Rightarrow sin^{2}\\theta=\\frac{1}{4}$ </p>\n<p> $\\Rightarrow sin\\theta= \\pm \\frac{1}{2}$ </p>\n<p> $\\Rightarrow \\theta=\\frac{\\pi}{6},\\frac{5\\pi}{6},\\frac{7\\pi}{6},\\frac{11\\pi}{6}$ </p>\n<p>Equation (2)  $2cos^{2}\\theta+3sin\\theta=0$ </p>\n<p> $\\Rightarrow 2sin^{2}\\theta-3sin\\theta-2=0$ </p>\n<p> $\\Rightarrow 2sin^{2}\\theta-4sin\\theta+sin\\theta-2=0$ </p>\n<p> $\\Rightarrow (sin\\theta-2)(2sin\\theta+1)=0$ </p>\n<p> $\\Rightarrow sin\\theta=\\frac{-1}{2}$ </p>\n<p> $\\Rightarrow \\theta=\\frac{7\\pi}{6},\\frac{11\\pi}{6}$ </p>\n<p> $\\therefore$  Common solutions  $=\\frac{7\\pi}{6};\\frac{11\\pi}{6}$ </p>\n<p>Sum of solutions  $=\\frac{7\\pi+11\\pi}{6}=\\frac{18\\pi}{6}=3\\pi$ </p>\n<p> $\\therefore$   $k=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Hard",
       "key_formulas": [
         "2sin^{2}\\theta-cos2\\theta=0",
@@ -1352,7 +1352,7 @@
         "\\Rightarrow \\theta=\\frac{\\pi}{6},\\frac{5\\pi}{6},\\frac{7\\pi}{6},\\frac{11\\pi}{6}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:10.955790"
     },
@@ -1379,7 +1379,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5dvoyzx/f49d5cfb-c830-4219-bd2c-91dd07bd090d/d4c0bdd0-ff84-11ec-8a90-6db465c3d8db/file-1l5dvoyzy.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Hard",
       "key_formulas": [
         "2\\theta-cos^{2}\\theta+\\sqrt{2}=0",
@@ -1390,7 +1390,7 @@
         "y=1+cos2\\theta"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:11.881309"
     },
@@ -1436,7 +1436,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $2cos(\\frac{x^{2}+x}{6})=4^{x}+4^{-x}$ </p>\n<p>We know,</p>\n<p>A.M  $\\ge$  G.M</p>\n<p> $\\therefore$  for 4<sup>x</sup> and 4<sup> $-$ x</sup></p>\n<p> $\\frac{4^{x}+4^{-x}}{2} \\ge \\sqrt{4^{x}.4^{-x}}$ </p>\n<p> $\\Rightarrow \\frac{4^{x}+4^{-x}}{2} \\ge 1$ </p>\n<p> $\\Rightarrow 4^{x}+4^{-x} \\ge 2$  ...... (1)</p>\n<p>And we know,</p>\n<p> $-1 \\le cosx \\le 1$ </p>\n<p> $\\therefore$   $-1 \\le cos(\\frac{x^{2}+x}{6}) \\le 1$ </p>\n<p> $-2 \\le 2cos(\\frac{x^{2}+x}{6}) \\le 2$  ...... (2)</p>\n<p>(1) and (2) both satisfies only when both equal to 2.</p>\n<p> $\\therefore$   $2cos(\\frac{x^{2}+x}{6})=2$ </p>\n<p> $\\Rightarrow cos(\\frac{x^{2}+x}{6})=1$ </p>\n<p> $\\Rightarrow cos(\\frac{x^{2}+x}{6})=cos0$ </p>\n<p> $\\Rightarrow \\frac{x^{2}+x}{6}=0$ </p>\n<p> $\\Rightarrow x^{2}+x=0$ </p>\n<p> $\\Rightarrow x(x+1)=0$ </p>\n<p> $\\Rightarrow x=0,-1$ </p>\n<p>When  $x=0$ ,</p>\n<p>L.H.S  $=2cos(\\frac{x^{2}+x}{6})$ </p>\n<p> $=2cos(\\frac{0}{6})$ </p>\n<p> $=2cos0$ </p>\n<p> $=2.1$ </p>\n<p> $=2$ </p>\n<p>R.H.S  $=4^{x}+4^{-x}$ </p>\n<p> $=4^{0}+4^{0}$ </p>\n<p> $=2$ </p>\n<p> $\\therefore$   $x=0$  is accepted.</p>\n<p>Now, when  $x=-1$ ,</p>\n<p>L.H.S  $=2cos(\\frac{x^{2}+x}{6})$ </p>\n<p> $=2cos(\\frac{1-1}{6})$ </p>\n<p> $=2cos0=2$ </p>\n<p>R.H.S  $=4^{x}+4^{-x}$ </p>\n<p> $=4^{-1}+4^{1}$ </p>\n<p> $=\\frac{1}{4}+4$ </p>\n<p> $=\\frac{17}{4}$ </p>\n<p> $\\therefore$  L.H.S  $\\ne$  R.H.S</p>\n<p> $\\therefore$   $x=-1$  is not a solution.</p>\n<p> $\\therefore$  Only one solution possible which is  $x=0$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x \\in ℝ:2cos(\\frac{x^{2}+x}{6})=4^{x}+4^{-x}}",
@@ -1447,7 +1447,7 @@
         "-2 \\le 2cos(\\frac{x^{2}+x}{6}) \\le 2"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:01.389715"
     },
@@ -1493,7 +1493,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $a=\\alpha-i\\beta$  and</p>\n<p> $4ix+(1+i)y=0$  ...... (i)</p>\n<p> $8(cos\\frac{2\\pi}{3}+isin\\frac{2\\pi}{3})x+\\bar{a}y=0$  .... (ii)</p>\n<p>By (i)</p>\n<p> $\\frac{x}{y}=\\frac{-(1+i)}{4i}$  ...... (iii)</p>\n<p>By (ii)</p>\n<p> $\\frac{x}{y}=\\frac{-\\bar{a}}{8(\\frac{-1}{2}+\\frac{\\sqrt{3}i}{2})}$  ..... (iv)</p>\n<p>Now by (iii) and (iv)</p>\n<p> $\\frac{1+i}{4i}=\\frac{\\bar{a}}{4(-1+\\sqrt{3}i)}$ </p>\n<p> $\\Rightarrow \\bar{a}=(\\sqrt{3}-1)+(\\sqrt{3}+1)i$ </p>\n<p> $\\Rightarrow \\alpha+i\\beta=(\\sqrt{3}-1)+(\\sqrt{3}+1)i$ </p>\n<p> $\\therefore$   $\\frac{\\alpha}{\\beta}=\\frac{\\sqrt{3}-1}{\\sqrt{3}+1}=2-\\sqrt{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "a=\\alpha-i\\beta",
@@ -1504,7 +1504,7 @@
         "\\frac{x}{y}=\\frac{-\\bar{a}}{8(\\frac{-1}{2}+\\frac{\\sqrt{3}i}{2})}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:02.670042"
     },
@@ -1529,7 +1529,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $S_{1}={x \\in [0,12\\pi],sin^{5}x+cos^{5}x=1}$ </p>\n<p> $S_{2}={x \\in [0,8\\pi],sin^{7}x+cos^{7}x=1}$ </p>\n<p>(1)  $sin^{5}x+cos^{5}x=1$ </p>\n<p>This satisfies when  $sinx=1$  and  $cosx=0$ </p>\n<p> $\\therefore$   $x=\\frac{\\pi}{2},\\frac{5\\pi}{2},\\frac{9\\pi}{2},\\frac{13\\pi}{2},\\frac{17\\pi}{2},\\frac{21\\pi}{2}$ </p>\n<p>It also satisfies when  $sinx=0$  and  $cosx=1$ </p>\n<p> $\\therefore$   $x=0,2\\pi,4\\pi,6\\pi,8\\pi,10\\pi,12\\pi$ </p>\n<p> $\\therefore$  Accepted values of x in  $[0,12\\pi]$  is = 13</p>\n<p> $\\therefore$   $n(S_{1})=13$ </p>\n<p>(2)  $sin^{7}x+cos^{7}x=1$ </p>\n<p>This satisfies when  $sinx=1$  and  $cosx=0$ </p>\n<p>For  $x \\in [0,8\\pi]$ , possible values</p>\n<p> $x=\\frac{\\pi}{2},\\frac{5\\pi}{2},\\frac{9\\pi}{2},\\frac{13\\pi}{2}$ </p>\n<p>It also satisfies when  $sinx=0$  and  $cosx=1$ </p>\n<p> $x \\in [0,8\\pi]$ , possible values</p>\n<p> $x=0,2\\pi,4\\pi,6\\pi,8\\pi$ </p>\n<p> $\\therefore$  Total accepted values of x in  $[0,8\\pi]$  is = 9</p>\n<p> $\\therefore$   $n(S_{2})=9$ </p>\n<p> $\\therefore$   $n(S_{1})-n(S_{2})=13-9=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "S_{1}={x \\in [0,12\\pi]:sin^{5}x+cos^{5}x=1}",
@@ -1540,7 +1540,7 @@
         "sin^{5}x+cos^{5}x=1"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:10.981938"
     },
@@ -1567,7 +1567,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5urf2ei/9fa16a17-735d-4271-a980-c8d93b68e115/6fd0b4a0-08cd-11ed-a060-0972f3a5152e/file-1l5urf2ej.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "(\\frac{\\pi}{4},\\frac{7\\pi}{4})",
@@ -1578,7 +1578,7 @@
         "\\Rightarrow 6t^{2}+17t-14=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:11.906539"
     },
@@ -1624,7 +1624,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $s={0 \\in (0,\\frac{\\pi}{2}):\\sum_{m=1}^{9}sec(\\theta+(m-1)\\frac{\\pi}{6})sec(\\theta+\\frac{m\\pi}{6})=-\\frac{8}{\\sqrt{3}}}$ .</p>\n<p> $\\sum_{m=1}^{9}\\frac{1}{cos(\\theta+(m-1)\\frac{\\pi}{6})}cos(\\theta+m\\frac{\\pi}{6})$ </p>\n<p> $\\frac{1}{sin(\\frac{\\pi}{6})}\\sum_{m=1}^{9}\\frac{sin[(\\theta+\\frac{m\\pi}{6})-(\\theta+(m-1)\\frac{\\pi}{6})]}{cos(\\theta+(m-1)\\frac{\\pi}{6})cos(\\theta+m\\frac{\\pi}{6})}$ </p>\n<p> $=2\\sum_{m=1}^{9}[tan(\\theta+\\frac{m\\pi}{6})-tan(\\theta+(m-1)\\frac{\\pi}{6})]$ </p>\n<p>Now,</p>\n<p> $\\begin{aligned} m=1 &amp; 2[tan(\\theta+\\frac{\\pi}{6})-tan(\\theta)] \\\\ m=2 &amp; 2[tan(\\theta+\\frac{2\\pi}{6})-tan(\\theta+\\frac{\\pi}{6})] \\\\ \\begin{aligned} . \\\\ . \\\\ . \\end{aligned} &amp; \\\\ m=9 &amp; 2[tan(\\theta+\\frac{9\\pi}{6})-tan(\\theta+8\\frac{\\pi}{6})] \\end{aligned}$ </p>\n<p> $\\therefore$   $=2[tan(\\theta+\\frac{3\\pi}{2})-tan\\theta]=\\frac{-8}{\\sqrt{3}}$ </p>\n<p> $=-2[cot\\theta+tan\\theta]=\\frac{-8}{\\sqrt{3}}$ </p>\n<p> $=-\\frac{2 \\times 2}{2sin\\theta cos\\theta}=\\frac{-8}{\\sqrt{3}}$ </p>\n<p> $=\\frac{1}{sin2\\theta}=\\frac{2}{\\sqrt{3}}$ </p>\n<p> $\\Rightarrow sin2\\theta=\\frac{\\sqrt{3}}{2}$ </p>\n<p> $2\\theta=\\frac{\\pi}{3}$ </p>\n<p> $2\\theta=\\frac{2\\pi}{3}$ </p>\n<p> $\\theta=\\frac{\\pi}{6}$ </p>\n<p> $\\theta=\\frac{\\pi}{3}$ </p>\n<p> $\\sum \\theta_{i}=\\frac{\\pi}{6}+\\frac{\\pi}{3}=\\frac{\\pi}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "=2\\sum_{m=1}^{9}[tan(\\theta+\\frac{m\\pi}{6})-tan(\\theta+(m-1)\\frac{\\pi}{6})]",
@@ -1635,7 +1635,7 @@
         "\\Rightarrow sin2\\theta=\\frac{\\sqrt{3}}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:01.457681"
     },
@@ -1681,7 +1681,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos(x+\\frac{\\pi}{3})cos(\\frac{\\pi}{3}-x)=\\frac{1}{4}cos^{2}2x,x \\in [-3\\pi,3\\pi]$ </p>\n<p> $\\Rightarrow cos2x+cos\\frac{2\\pi}{3}=\\frac{1}{2}cos^{2}2x$ </p>\n<p> $\\Rightarrow cos^{2}2x-2cos2x-1=0$ </p>\n<p> $\\Rightarrow cos2x=1$ </p>\n<p> $\\therefore$   $x=-3\\pi,-2\\pi,-\\pi,0,\\pi,2\\pi,3\\pi$ </p>\n<p> $\\therefore$  Number of solutions = 7</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos(x+\\frac{\\pi}{3})cos(\\frac{\\pi}{3}-x)=\\frac{1}{4}cos^{2}2x",
@@ -1692,7 +1692,7 @@
         "x=-3\\pi,-2\\pi,-\\pi,0,\\pi,2\\pi,3\\pi"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:02.755978"
     },
@@ -1717,7 +1717,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $7cos^{2}\\theta-3sin^{2}\\theta-2cos^{2}2\\theta=2$ </p>\n<p> $\\Rightarrow 4(\\frac{1+cos2\\theta}{2})+3cos2\\theta-2cos^{2}2\\theta=2$ </p>\n<p> $\\Rightarrow 2+5cos^{2}\\theta-2cos^{2}2\\theta=2$ </p>\n<p> $\\Rightarrow cos2\\theta=0$  or  $\\frac{5}{2}$ (rejected)</p>\n<p> $\\Rightarrow cos2\\theta=0=\\frac{1-tan^{2}\\theta}{1+tan^{2}\\theta} \\Rightarrow tan^{2}\\theta=1$ </p>\n<p> $\\therefore$  Sum of roots  $=2(tan^{2}\\theta+cot^{2}\\theta)=2 \\times 2=4$ </p>\n<p>But as  $tan\\theta= \\pm 1$  for  $\\frac{\\pi}{4},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}$  in the interval  $(0,2\\pi)$ </p>\n<p> $\\therefore$  Four equations will be formed</p>\n<p>Hence sum of roots of all the equations  $=4 \\times 4=16.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "S={\\theta \\in (0,2\\pi):7cos^{2}\\theta-3sin^{2}\\theta-2cos^{2}2\\theta=2}",
@@ -1728,7 +1728,7 @@
         "\\Rightarrow cos2\\theta=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:09.969641"
     },
@@ -1755,7 +1755,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5fln639/867ded6a-a527-4042-a8db-aaafdb95b5db/189eec50-0077-11ed-bd71-b57b399a7926/file-1l5fln63a.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "sinx=cos^{2}x",
@@ -1766,7 +1766,7 @@
         "\\frac{-1-\\sqrt{5}}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:11.011246"
     },
@@ -1812,7 +1812,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(sinx+sin4x)+(sin2x+sin3x)=0$ <br/><br/> $\\Rightarrow 2sin\\frac{5x}{2}{cos\\frac{3x}{2}+cos\\frac{x}{2}}=0$ <br/><br/> $\\Rightarrow 2sin\\frac{5x}{2}{2cosxcos\\frac{x}{2}}=0$ <br/><br/> $2sin\\frac{5x}{2}=0 \\Rightarrow \\frac{5x}{2}=0,\\pi,2\\pi,3\\pi,4\\pi,5\\pi$ <br/><br/> $\\Rightarrow x=0,\\frac{2\\pi}{5},\\frac{4\\pi}{5},\\frac{6\\pi}{5},\\frac{8\\pi}{5},2\\pi$ <br/><br/> $cos\\frac{x}{2}=0 \\Rightarrow \\frac{x}{2}=\\frac{\\pi}{2} \\Rightarrow x=\\pi$ <br/><br/> $cosx=0 \\Rightarrow x=\\frac{\\pi}{2},\\frac{3\\pi}{2}$ <br/><br/>So, sum  $=6\\pi+\\pi+2\\pi=9\\pi$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(sinx+sin4x)+(sin2x+sin3x)=0",
@@ -1823,7 +1823,7 @@
         "cos\\frac{x}{2}=0 \\Rightarrow \\frac{x}{2}=\\frac{\\pi}{2} \\Rightarrow x=\\pi"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:04.899517"
     },
@@ -1869,13 +1869,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $sin2\\theta+tan2\\theta&gt;0$ <br/><br/> $\\Rightarrow sin2\\theta+\\frac{sin2\\theta}{cos2\\theta}&gt;0$ <br/><br/> $\\Rightarrow sin2\\theta\\frac{(cos2\\theta+1)}{cos2\\theta}&gt;0 \\Rightarrow tan2\\theta(2cos^{2}\\theta)&gt;0$ <br/><br/>Note :  $cos2\\theta \\ne 0$ <br/><br/> $\\Rightarrow 1-2sin^{2}\\theta \\ne \\theta \\Rightarrow sin\\theta \\ne \\pm \\frac{1}{\\sqrt{2}}$ <br/><br/>Now,  $tan2\\theta(1+cos2\\theta)&gt;0$ <br/><br/> $\\Rightarrow tan2\\theta&gt;0$  (as  $cos2\\theta+1&gt;0$ )<br/><br/> $\\Rightarrow 2\\theta \\in (0,\\frac{\\pi}{2})∪(\\pi,\\frac{3\\pi}{2})∪(2\\pi,\\frac{5\\pi}{2})∪(3\\pi,\\frac{7\\pi}{2})$ <br/><br/> $\\Rightarrow \\theta \\in (0,\\frac{\\pi}{4})∪(\\frac{\\pi}{2},\\frac{3\\pi}{4})∪(\\pi,\\frac{5\\pi}{4})∪(\\frac{3\\pi}{2},\\frac{7\\pi}{4})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow sin2\\theta+\\frac{sin2\\theta}{cos2\\theta}>0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:06.089650"
     },
@@ -1900,7 +1900,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Case I : When cot x &gt; 0,  $x \\in [0,\\frac{\\pi}{2}]∪[\\pi,\\frac{3\\pi}{2}]$ <br/><br/> $cotx=cotx+\\frac{1}{sinx} \\Rightarrow$  not possible<br/><br/>Case II : When cot x &lt; 0,  $x \\in [\\frac{\\pi}{2},\\pi]∪[\\frac{3\\pi}{2},2\\pi]$ <br/><br/> $-cotx=cotx+\\frac{1}{sinx}$ <br/><br/> $\\Rightarrow \\frac{-2cosx}{sinx}=\\frac{1}{sinx}$ <br/><br/> $\\Rightarrow cosx=\\frac{-1}{2}$ <br/><br/> $\\Rightarrow x=\\frac{2\\pi}{3},\\frac{4\\pi}{3}$ (Rejected)<br/><br/>One solution.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "|cotx|=cotx+\\frac{1}{sinx}",
@@ -1911,7 +1911,7 @@
         "\\Rightarrow \\frac{-2cosx}{sinx}=\\frac{1}{sinx}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:12.503924"
     },
@@ -1959,7 +1959,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwopslc5/e1fc1c4b-20e2-4d94-b739-039c3cb2fe9d/6f656a60-534c-11ec-9cbb-695a838b20fb/file-1kwopslc6.png?format=png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "2cosx(4sin(\\frac{\\pi}{4}+x)sin(\\frac{\\pi}{4}-x)-1)=1,x \\in [0,\\pi]",
@@ -1970,7 +1970,7 @@
         "2cosx(1-4sin^{2}x)=1"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:03.990909"
     },
@@ -2016,13 +2016,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->sin<sup>7</sup>x  $\\le$  sin<sup>2</sup>x  $\\le$  1 ...... (1)<br/><br/>and cos<sup>7</sup>x  $\\le$  cos<sup>2</sup>x  $\\le$  1 ..... (2)<br/><br/>also sin<sup>2</sup>x + cos<sup>2</sup>x = 1<br/><br/> $\\Rightarrow$  equality must hold for (1) &amp; (2)<br/><br/> $\\Rightarrow$  sin<sup>7</sup>x = sin<sup>2</sup>x &amp; cos<sup>7</sup>x = cos<sup>2</sup>x<br/><br/> $\\Rightarrow$  sin x = 0 &amp; cos x = 1<br/><br/>or <br/><br/>cos x = 0 &amp; sin x = 1<br/><br/> $\\Rightarrow$  x = 0, 2 $\\pi$ , 4 $\\pi$ ,  $\\frac{\\pi}{2},\\frac{5\\pi}{2}$ <br/><br/> $\\Rightarrow$  5 solutions<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2},\\frac{5\\pi}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:04.969768"
     },
@@ -2047,7 +2047,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sqrt{3}(cos^{2}x)=(\\sqrt{3}-1)cosx+1$ \n<br/><br/> $\\Rightarrow$   $\\sqrt{3}cos^{2}x-\\sqrt{3}cosx+cosx-1=0$ <br/><br/> $\\Rightarrow \\sqrt{3}cosx(cosx-1)+(cosx-1)=0$ <br/><br/>  $\\Rightarrow (cosx-1)(\\sqrt{3}cosx+1)=0$ <br/><br/> $cosx=1$ <br/><br/> $\\Rightarrow x=0$   $[asx \\in [0,\\frac{\\pi}{2}]$ ]<br/><br/>and  $cosx=-\\frac{1}{\\sqrt{3}}$  (not possible in  $x \\in [0,\\frac{\\pi}{2}]$ ]\n<br/><br/> $\\therefore$  Number of solution = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{3}(cos^{2}x)=(\\sqrt{3}-1)cosx+1",
@@ -2058,7 +2058,7 @@
         "cosx=1"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:12.527743"
     },
@@ -2104,7 +2104,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(32)^{tan^{2}x}+(32)^{sec^{2}x}=81$ <br/><br/> $\\Rightarrow (32)^{tan^{2}x}+(32)^{1+tan^{2}x}=81$ <br/><br/> $\\Rightarrow (32)^{tan^{2}x}=\\frac{81}{33}$ \n<br/><br/>taking log of base 32 both side,\n<br/><br/> $\\Rightarrow$  tan<sup>2</sup>x =  $log_{32}(\\frac{81}{33})$ \n<br/><br/> $\\Rightarrow$  tan x =  $\\sqrt{log_{32}(\\frac{81}{33})}$ \n<br/><br/>As value of  $\\sqrt{log_{32}(\\frac{81}{33})}$  belongs to (0, 1).\n<br/><br/>In interval  $0 \\le x \\le \\frac{\\pi}{4}$  only one solution.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "32^{tan^{2}x}+32^{sec^{2}x}=81,0 \\le x \\le \\frac{\\pi}{4}",
@@ -2115,7 +2115,7 @@
         "\\sqrt{log_{32}(\\frac{81}{33})}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:04.064251"
     },
@@ -2163,7 +2163,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kq4aid84/fa9c5e50-bf45-418e-9802-a8bae4ae96a0/b0d6c340-d147-11eb-8aa0-dbc12cd6ac56/file-1kq4aid85.jpg"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2}",
@@ -2174,7 +2174,7 @@
         "y=\\frac{-x}{2}+\\frac{\\pi}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:05.028113"
     },
@@ -2220,7 +2220,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{cosx}{1+sinx}=|tan2x|$ <br/><br/> $\\Rightarrow \\frac{cos^{2}x/2-sin^{2}x/2}{(cosx/2+sinx/2)^{2}}=|tan2x|$ \n<br/><br/> $\\Rightarrow$   $\\frac{cos\\frac{x}{2}-sin\\frac{x}{2}}{cos\\frac{x}{2}+sin\\frac{x}{2}}=|tan2x|$ \n<br/><br/> $\\Rightarrow$   $\\frac{1-tan\\frac{x}{2}}{1+tan\\frac{x}{2}}=|tan2x|$ \n<br/><br/> $\\Rightarrow$   $\\frac{tan\\frac{\\pi}{4}-tan\\frac{x}{2}}{tan\\frac{\\pi}{4}+tan\\frac{x}{2}}=|tan2x|$ \n<br/><br/>\n $\\Rightarrow tan^{2}(\\frac{\\pi}{4}-\\frac{\\pi}{2})=tan^{2}2x$ <br/><br/> $\\Rightarrow 2x=n\\pi \\pm (\\frac{\\pi}{4}-\\frac{\\pi}{2})$ <br/><br/> $\\Rightarrow x=\\frac{-3\\pi}{10},\\frac{-\\pi}{6},\\frac{\\pi}{10}$ <br/><br/>or sum  $=\\frac{-11\\pi}{6}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{cosx}{1+sinx}=|tan2x|",
@@ -2231,7 +2231,7 @@
         "\\frac{tan\\frac{\\pi}{4}-tan\\frac{x}{2}}{tan\\frac{\\pi}{4}+tan\\frac{x}{2}}=|tan2x|"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:04.137613"
     },
@@ -2277,7 +2277,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(81)^{sin^{2}x}+(81)^{1-sin^{2}x}=30$ <br/><br/> $(81)^{sin^{2}x}+\\frac{81}{(81)^{sin^{2}x}}=30$ <br/><br/>Let  $(81)^{sin^{2}x}=t$ <br/><br/> $t+\\frac{81}{t}=30 \\Rightarrow t^{2}+81=30t$ <br/><br/> $t^{2}-30t+81=0$ <br/><br/> $t^{2}-27t-3t+81=0$ <br/><br/> $(t-3)(t-27)=0$ <br/><br/> $t=3,27$ <br/><br/> $(81)^{sin^{2}x}=3,3^{3}$ <br/><br/> $3^{4sin^{2}x}=3^{1},3^{3}$ <br/><br/> $4sin^{2}x=1,3$ <br/><br/> $sin^{2}x=\\frac{1}{4},\\frac{3}{4}$ <br/><br/>in [0,  $\\pi$  ] sin x &gt; 0<br/><br/> $sinx=\\frac{1}{2},\\frac{\\sqrt{3}}{2}$ <br/><br/> $x=\\frac{\\pi}{6},\\frac{5\\pi}{6},\\frac{\\pi}{3},\\frac{2\\pi}{3}$ <br/><br/>Number of solution = 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(81)^{sin^{2}x}+(81)^{1-sin^{2}x}=30",
@@ -2288,7 +2288,7 @@
         "t^{2}-27t-3t+81=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:05.110800"
     },
@@ -2313,7 +2313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given equation <br/><br/> $sin^{4}\\theta+cos^{4}\\theta-sin\\theta cos\\theta=0$ <br/><br/> $\\Rightarrow 1-sin^{2}\\theta cos^{2}\\theta-sin\\theta cos\\theta=0$ <br/><br/> $\\Rightarrow 2-(sin2\\theta)^{2}-sin2\\theta=0$ <br/><br/> $\\Rightarrow (sin2\\theta)^{2}+(sin2\\theta)-2=0$ <br/><br/> $\\Rightarrow (sin2\\theta+2)(sin2\\theta-1)=0$ <br/><br/> $\\Rightarrow sin2\\theta=1$  or  $sin2\\theta=-2$  (Not Possible)<br/><br/> $\\Rightarrow 2\\theta=\\frac{\\pi}{2},\\frac{5\\pi}{2},\\frac{9\\pi}{2},\\frac{13\\pi}{2}$ <br/><br/> $\\Rightarrow \\theta=\\frac{\\pi}{4},\\frac{5\\pi}{4},\\frac{9\\pi}{4},\\frac{13\\pi}{4}$ <br/><br/> $\\Rightarrow S=\\frac{\\pi}{4}+\\frac{5\\pi}{4}+\\frac{9\\pi}{4}+\\frac{13\\pi}{4}=7\\pi$ <br/><br/> $\\Rightarrow \\frac{8S}{\\pi}=\\frac{8 \\times 7\\pi}{\\pi}=56.00$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "sin^{4}\\theta+cos^{4}\\theta-sin\\theta cos\\theta=0",
@@ -2324,7 +2324,7 @@
         "\\Rightarrow (sin2\\theta+2)(sin2\\theta-1)=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:11.930670"
     },
@@ -2370,7 +2370,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->2cos<sup>2</sup> $\\theta$  + 3sin $\\theta$  = 0\n<br/><br/> $\\Rightarrow$  2(1 - sin<sup>2</sup> $\\theta$ ) + 3sin $\\theta$  = 0\n<br/><br/> $\\Rightarrow$  2sin<sup>2</sup> $\\theta$  - 3sin $\\theta$  - 2 = 0\n<br/><br/> $\\Rightarrow$  2sin<sup>2</sup> $\\theta$  - 4sin $\\theta$  + sin $\\theta$   - 2 = 0\n<br/><br/> $\\Rightarrow$  (2sin $\\theta$  + 1)(sin $\\theta$  - 2) = 0\n<br/><br/> $\\therefore$  sin $\\theta$  = 2 (Not possible)\n<br/><br/>sin $\\theta$  =  $-\\frac{1}{2}$ \n<br/><br/> $\\therefore$   $\\theta$  = n $\\pi$  + (-1)<sup>n</sup> $(-\\frac{\\pi}{6})$ \n<br/><br/>When n = 0,  $\\theta$  =  $-\\frac{\\pi}{6}$ \n<br/><br/>When n = 1,  $\\theta$  =  $\\frac{7\\pi}{6}$ \n<br/><br/>When n = -1,  $\\theta$  =  $\\frac{-5\\pi}{6}$ \n<br/><br/>When n = 2,  $\\theta$  =  $\\frac{11\\pi}{6}$ \n<br/><br/> $\\therefore$  Sum of all solutions in [–2 $\\pi$ , 2 $\\pi$ ] is\n<br/><br/>=  $-\\frac{\\pi}{6}+\\frac{7\\pi}{6}-\\frac{5\\pi}{6}+\\frac{11\\pi}{6}$  = 2 $\\pi$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{1}{2}",
@@ -2381,7 +2381,7 @@
         "\\frac{11\\pi}{6}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:07.338628"
     },
@@ -2427,7 +2427,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->if  $\\theta$   $\\in$   $(\\frac{\\pi}{2},\\frac{2\\pi}{3})$   $\\Rightarrow cos\\theta \\in (-\\frac{1}{2},0) \\Rightarrow -cos\\theta \\in (0,\\frac{1}{2})$ <br/><br/>\n $sin\\theta \\in (\\frac{\\sqrt{3}}{2},1)$  and   $cot\\theta \\in (-\\frac{1}{\\sqrt{3}},0)$ <br/><br/>\nIf  $\\theta \\in (\\pi,\\frac{7\\pi}{6}) \\Rightarrow cos\\theta \\in (-1,\\frac{-\\sqrt{3}}{2}) \\Rightarrow -cos\\theta \\in (\\frac{\\sqrt{3}}{2},1)$ <br/><br/>\n $sin\\theta \\in (-\\frac{1}{2},0)$  and  $cot\\theta \\in (\\sqrt{3},\\infty)$ <br/><br/>\nThen in  $\\theta$   $\\in$   $(\\frac{\\pi}{2},\\frac{2\\pi}{3})$   $\\Rightarrow$  [sin $\\theta$ ] = 0; [-cos $\\theta$ ] = 0; [cot $\\theta$ ] = -1;<br/><br/>\nHence 0 = 0 and -x + y = 0 [have infinitely solutions]<br/><br/>\nand  in  $\\theta \\in (\\pi,\\frac{7\\pi}{6})$   $\\Rightarrow$  [sin $\\theta$ ] = -1; [-cos $\\theta$ ] = 0; [cot $\\theta$ ] = 1, 2. 3 ...........;<br/><br/>\nThen -x - 0.y = 0  $\\Rightarrow$  x = 0<br/><br/>\n $[cot\\theta]x+y=0$ <br/><br/>\n $\\Rightarrow$  1.x + y = 0 or 2x + y = 0 or .......\neach of the line will cut x = 0 at exactly one point.<br/><br/>\nHence unique solutions.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{\\pi}{2},\\frac{2\\pi}{3})",
@@ -2438,7 +2438,7 @@
         "[cot\\theta]x+y=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:06.157403"
     },
@@ -2484,7 +2484,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->sin<sup>2</sup>2 $\\theta$  + cos<sup>4</sup>2 $\\theta$  =  $\\frac{3}{4},$  $\\theta$   $\\in$   $(0,\\frac{\\pi}{2})$ \n<br/><br/> $\\Rightarrow$   1  $-$  cos<sup>2</sup>2 $\\theta$  + cos<sup>4</sup>2 $\\theta$  =  $\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow$   4cos2 $\\theta$   $-$  4cos<sup>2</sup>2 $\\theta$  + 1 = 0\n<br/><br/> $\\Rightarrow$   (2cos<sup>2</sup>2 $\\theta$   $-$  1)<sup>2</sup> = 0\n<br/><br/> $\\Rightarrow$   cos<sup>2</sup>2 $\\theta$  =  $\\frac{1}{2}$  = cos<sup>2</sup> $\\frac{\\pi}{4}$ \n<br/><br/> $\\Rightarrow$   2 $\\theta$  = n $\\pi$   $\\pm$   $\\frac{\\pi}{4}$ , n  $\\in$  I\n<br/><br/> $\\Rightarrow$    $\\theta$  =  $\\frac{n\\pi}{2} \\pm \\frac{\\pi}{8}$ \n<br/><br/> $\\Rightarrow$    $\\theta$  =  $\\frac{\\pi}{8},\\frac{\\pi}{2}-\\frac{\\pi}{8}$ \n<br/><br/>Sum of solutions  $\\frac{\\pi}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "(0,\\frac{\\pi}{2})",
@@ -2495,7 +2495,7 @@
         "1) 2 = 0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:07.373206"
     },
@@ -2541,7 +2541,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->1 - 2sin<sup>2</sup>x +  $\\alpha$  sin x = 2 $\\alpha$  - 7 <br/><br/>\n $\\Rightarrow$  2sin<sup>2</sup>x -  $\\alpha$  sin x + (2 $\\alpha$  - 8) = 0<br/><br/>\n $sinx=\\frac{\\alpha \\pm \\sqrt{\\alpha^{2}-8(2\\alpha-8)}}{4}$ <br/><br/>\n $\\Rightarrow \\frac{\\alpha \\pm \\sqrt{\\alpha^{2}-16\\alpha+64}}{4}=\\frac{\\alpha \\pm (\\alpha-8)}{4}$ <br/><br/>\n $\\frac{\\alpha \\pm (\\alpha-8)}{4} \\Rightarrow \\frac{2\\alpha-8}{4},2$ <br/><br/>\n $\\Rightarrow \\frac{\\alpha-4}{2},2$  (rejected)<br/><br/>\nTo exists solutions<br/><br/>\n $-1 \\le \\frac{\\alpha-4}{2} \\le 1 \\Rightarrow -2 \\le \\alpha-4 \\le 2 \\Rightarrow 2 \\le \\alpha \\le 6$ <br/><br/>\n $\\therefore$   $\\alpha \\in [2,6]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "sinx=\\frac{\\alpha \\pm \\sqrt{\\alpha^{2}-8(2\\alpha-8)}}{4}",
@@ -2549,7 +2549,7 @@
         "\\Rightarrow \\frac{\\alpha-4}{2},2"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:06.222304"
     },
@@ -2595,7 +2595,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->sin x  $-$  sin 2x + sin 3x = 0         $x \\in [0,\\frac{\\pi}{2})$ \n<br/><br/> $\\Rightarrow$   (sin3x + sinx)  $-$  sin2x = 0\n<br/><br/> $\\Rightarrow$   2sin2x.cos2x  $-$  sin2x = 0\n<br/><br/> $\\Rightarrow$   sin2x (2cosx  $-$  1) = 0\n<br/><br/>sin 2x = 0\n<br/><br/>x = 0\n<br/><br/>and cos x =  $\\frac{1}{2}$ \n<br/><br/>and x =  $\\frac{\\pi}{3}$ \n<br/><br/>two solutions<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2}",
@@ -2606,7 +2606,7 @@
         "and x ="
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:07.396539"
     },
@@ -2652,7 +2652,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\underset{\\ge 1}{\\underset{-}{1+sin^{4}x}}=\\underset{\\le 1}{\\underset{-}{cos^{2}3x}}$ <br/><br/>\nNow for equality to hold sin<sup>4</sup>x = 0 &amp; cos<sup>2</sup>3x = 1<br/><br/>\nsin<sup>4</sup> = 0  $\\Rightarrow$  x = -2 $\\pi$ , -  $\\pi$ , 0,  $\\pi$ , 2 $\\pi$ <br/><br/>\nAll of which satisfy cos<sup>2</sup>3x = 1  $\\Rightarrow$  5 solutions<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\in [-\\frac{5\\pi}{2},\\frac{5\\pi}{2}]",
@@ -2661,7 +2661,7 @@
         "All of which satisfy cos 2 3x = 1"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:06.257145"
     },
@@ -2707,7 +2707,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->sin 3x = cos 2x\n<br/><br/> $\\Rightarrow$  3 sin x  $-$  4 sin<sup>3</sup> x = 1  $-$  2 sin<sup>2</sup> x\n<br/><br/> $\\Rightarrow$  4 sin<sup>3</sup> x  $-$  2 sin<sup>2</sup> x  $-$  3 sin x + 1 = 0\n<br/><br/> $\\Rightarrow$  sin x = 1,  $\\frac{-2 \\pm 2\\sqrt{5}}{8}$ \n<br/><br/>In the interval   $(\\frac{\\pi}{2},\\pi)$ , sin x =  $\\frac{-2+2\\sqrt{5}}{8}$ \n<br/><br/>So, there is only one solution.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{\\pi}{2},\\pi)",
@@ -2717,7 +2717,7 @@
         ", sin x ="
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:08.134216"
     },
@@ -2763,7 +2763,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As we know,  \n<br/><br/> $cos(x+y)cos(x-y)=cos^{2}x-sin^{2}y$ \n<br/><br/> $\\therefore$   $cos(\\frac{\\pi}{6}+x)cos(\\frac{\\pi}{6}-x)=cos^{2}(\\frac{\\pi}{6})-sin^{2}x$ \n<br/><br/>Given,  $8cosx(cos(\\frac{\\pi}{6}+x)cos(\\frac{\\pi}{6}-x)-\\frac{1}{2})=1$ \n<br/><br/> $\\Rightarrow 8cosx(cos^{2}\\frac{\\pi}{6}-sin^{2}x-\\frac{1}{2})=1$ \n<br/><br/> $\\Rightarrow 8cosx(\\frac{3}{4}-\\frac{1}{2}-sin^{2}x)=1$ \n<br/><br/> $\\Rightarrow 8cosx(\\frac{3}{4}-\\frac{1}{2}-1+cos^{2}x)=1$ \n<br/><br/> $\\Rightarrow 8cosx(cos^{2}x-\\frac{3}{4})=1$ \n<br/><br/> $\\Rightarrow 2(4cos^{3}x-3cosx)=1$ \n<br/><br/>(Taking  $4cosx$  inside the bracket). \n<br/><br/>We know, \n<br/><br/> $4cos^{3}x-3cosx=cos3x$ \n<br/><br/> $\\Rightarrow 2cos3x=1$ \n<br/><br/> $\\Rightarrow cos3x=\\frac{1}{2}$ \n<br/><br/> $\\therefore$    $3x=2n\\pi \\pm \\frac{\\pi}{3}$ \n<br/><br/>So,  $x=\\frac{2n\\pi}{3} \\pm \\frac{\\pi}{9}$ \n<br/><br/>At  $n=0,$   $x=+\\frac{\\pi}{9}$  as  $x \\in [0,\\pi]$ \n<br/><br/>At  $n=1,$   $x=\\frac{2\\pi}{3}+\\frac{\\pi}{9}$ \n<br/><br/> $\\therefore$    $x=\\frac{2\\pi}{3}+\\frac{\\pi}{9}$ \n<br/><br/>and  $x=\\frac{2\\pi}{3}-\\frac{\\pi}{9}$ \n<br/><br/>At  $n=2,$   $x=\\frac{4\\pi}{3} \\pm \\frac{\\pi}{9}$ \n<br/><br/>Which does not belongs to  $[0,\\pi]$ \n<br/><br/>So, possible values of  $x$  is  $=\\frac{\\pi}{9},\\frac{2\\pi}{3}+\\frac{\\pi}{9},\\frac{2\\pi}{3}-\\frac{\\pi}{3}$ \n<br/><br/>Sum of the solutions  $=\\frac{\\pi}{9}+\\frac{2\\pi}{3}+\\frac{\\pi}{9}+\\frac{2\\pi}{3}-\\frac{\\pi}{9}$  v\n<br/><br/> $=\\frac{4\\pi}{3}+\\frac{\\pi}{9}$   $=\\frac{13\\pi}{9}$ \n<br/><br/>According to the question, \n<br/><br/> $k\\pi=\\frac{13\\pi}{9}$ \n<br/><br/> $\\therefore$   $k=\\frac{13}{9}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "8cosx.(cos(\\frac{\\pi}{6}+x).cos(\\frac{\\pi}{6}-x)-\\frac{1}{2})=1",
@@ -2774,7 +2774,7 @@
         "\\Rightarrow 8cosx(\\frac{3}{4}-\\frac{1}{2}-sin^{2}x)=1"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:07.423107"
     },
@@ -2820,7 +2820,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,\n<br/><br/> $|\\sqrt{2sin^{4}x+18cos^{2}x}-\\sqrt{2cos^{4}x+18sin^{2}x}|=1$ \n<br/><br/>That is,\n<br/><br/> $f(x)=|\\sqrt{2sin^{4}x+8cos^{2}x}-\\sqrt{2cos^{4}x+18sin^{2}x}|$ \n<br/><br/>Now,  $f(x)=f(\\frac{\\pi}{2}-x)$ \n<br/><br/> $\\Rightarrow f(x)$  is symmetric about  $x=\\frac{\\pi}{4}$ .\n<br/><br/>If  $f(x)$  has solution in  $(0,\\pi/4)$ , then in  $(0,2\\pi)$ , there are eight solutions.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\sqrt{2sin^{4}x+18cos^{2}x}-\\sqrt{2cos^{4}x+18sin^{2}x}|=1",
@@ -2829,7 +2829,7 @@
         "x=\\frac{\\pi}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:48:08.159977"
     },
@@ -2875,7 +2875,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $cosx+cos2x+cos3x+cos4x=0$ \n<br/><br/> $\\Rightarrow$   $(cosx+cos3x)$  +  $(cos2x+cos4x)$  = 0\n<br/><br/> $\\Rightarrow 2cos2xcosx+2cos3xcosx=0$ \n<br/><br/> $\\Rightarrow 2cosx(2cos\\frac{5x}{2}cos\\frac{x}{2})=0$ \n<br/><br/> $cosx=0,cos\\frac{5x}{2}=0,cos\\frac{x}{2}=0$ \n<br/><br/> $x=\\pi,\\frac{\\pi}{2},\\frac{3\\pi}{2},\\frac{\\pi}{5},\\frac{3\\pi}{5},\\frac{7\\pi}{5},\\frac{9\\pi}{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow 2cos2xcosx+2cos3xcosx=0",
@@ -2883,7 +2883,7 @@
         "cosx=0,cos\\frac{5x}{2}=0,cos\\frac{x}{2}=0"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:48:08.180816"
     },
@@ -2931,7 +2931,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/PIE1jYC7bDNqeDeyL/lS29m53NBRhkTZ9fmDghrt9RA2A8a/sFcrTuPhBaU17Ihfw31UaH/image.png"
       ],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow (sinx+3)(2sinx-1)=0",
@@ -2942,7 +2942,7 @@
         "510^{\\circ}"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:08.206046"
     },
@@ -2988,7 +2988,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We can simplify the equation by converting everything to sines and cosines:</p>\n<p> $\\frac{sinx}{cosx}+\\frac{1}{cosx}=2cosx$ </p>\n<p>Multiplying through by  $cosx$  gives:</p>\n<p> $sinx+1=2cos^{2}x$ </p>\n<p>Using the identity  $cos^{2}x+sin^{2}x=1$ , we can substitute  $sin^{2}x$  with  $1-cos^{2}x$  to get:</p>\n<p> $sinx+1=2-2sin^{2}x$ </p>\n<p>Rearranging terms gives:</p>\n<p> $2sin^{2}x+sinx-1=0$ </p>\n<p>This is a quadratic equation in  $sinx$ , which we can solve using the quadratic formula:</p>\n<p> $sinx=\\frac{-1 \\pm \\sqrt{1+8}}{4}$ </p>\n<p>The discriminant is positive, so there are two solutions for  $sinx$ :</p>\n<p> $sinx=\\frac{-1 \\pm \\sqrt{9}}{4}=-1,\\frac{1}{2}$ </p>\n<p>For  $sinx=-1$ , we have  $x=\\frac{3\\pi}{2}$ .</p>\n<p>For  $sinx=\\frac{1}{2}$ , we have  $x=\\frac{\\pi}{6},\\frac{5\\pi}{6}$ .</p>\n<p>Therefore, there are a total of  $3$  solutions in the interval  $[0,2\\pi]$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Functions And Equations - Core Application",
+      "topic_tag": "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "tanx+secx=2cosx",
@@ -2999,7 +2999,7 @@
         "1-cos^{2}x"
       ],
       "key_concepts": [
-        "Trigonometric Functions And Equations - Core Application"
+        "Trigonometric Functions And Equations — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:48:08.603127"
     }

@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Observation} &amp; x_{1} &amp; x_{2} &amp; x_{3} &amp; x_{4} &amp; n &amp; \\text{Observation} &amp; y_{1} &amp; y_{2} &amp; y_{3} &amp; y_{4} &amp; y_{5} &amp; y_{6} &amp; n \\\\ \\text{Set} &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 4 &amp; \\text{Set} &amp; 2 &amp; 2 &amp; 2 &amp; 2 &amp; 2 &amp; 2 &amp; 6 \\end{aligned}$ </p>\n<p> $\\text{Set}1⇉\\mu_{x}=\\frac{\\sum_{i=1}^{4}x_{i}}{4}=1\\dots.(i)$ </p>\n<p> $\\sigma_{x}^{2}=⎣⎢⎛⎝⎜\\frac{\\sum_{i=1}^{4}x_{i}^{2}}{4}⎞⎠⎟-\\mu_{x}^{2}⎦⎥=13\\dots\\dots(ii)$ </p>\n<p>Set  $2⇉\\mu_{y}=\\frac{\\sum_{j=1}^{6}y_{j}}{6}=2\\dots\\dots(iii)$ </p>\n<p> $\\sigma_{y}^{2}=⎡⎣⎢⎛⎝⎜\\frac{\\sum_{j=1}^{6}y_{j}^{2}}{6}⎞⎠⎟-\\mu_{y}^{2}⎤⎦⎥=1\\dots\\dots(iv)$ </p>\n<p>We mathematically extract from equations  $(i)$  and  $(ii)$  :</p>\n<p> $\\sum_{i=1}^{4}x_{i}=4\\dots.(v)\\sum_{i=1}^{4}x_{i}^{2}=4(\\mu_{x}^{2}+13)=4(1+13)=56\\dots\\dots(vi)$ </p>\n<p>We mathematically extract from equations (iii) and (iv) :</p>\n<p> $\\sum_{j=1}^{6}y_{j}=12\\dots.(vii)\\sum_{j=1}^{6}y_{j}^{2}=6(𝝁_{y}^{2}+1)=6(4+1)=30\\dots\\dots(viii)$ </p>\n<p>We have mathematically compiled a summary of all the information in equations (v) through (viii) to compute the mean and the variance for the 10 datapoints in set  $1∪$  set 2 :</p>\n<p> $\\mu_{t}=\\frac{\\sum_{i=1}^{4}x_{i}+\\sum_{j=1}^{6}y_{j}}{4+6}=\\frac{4+12}{10}=1.6\\dots..(ix)$ </p>\n<p> $\\sigma_{t}^{2}=[(\\frac{\\sum_{4}^{i=1}x_{i}^{2}+\\sum_{6}^{j=1}y_{j}^{2}}{4+6})-𝝁_{t}^{2}]$ </p>\n<p> $=\\frac{56+30}{4+6}-\\begin{aligned} (1.6)^{2} \\end{aligned}$ </p>\n<p> $=8.6-2.56=6.04$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{Set}1⇉\\mu_{x}=\\frac{\\sum_{i=1}^{4}x_{i}}{4}=1\\dots.(i)",
@@ -52,7 +52,7 @@
         "=8.6-2.56=6.04"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:52.162936"
     },
@@ -98,7 +98,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a discrete frequency distribution, the mean deviation about the mean is</p>\n<p> $\\text{M.D. about mean}=\\frac{\\sum f_{i}|x_{i}-\\bar{x}|}{\\sum f_{i}}$ </p>\n<p>First, find the mean  $\\bar{x}$ .</p>\n<h2>Step 1: Calculate  $\\sum f_{i}$  and  $\\sum f_{i}x_{i}$ </h2>\n<p> $\\begin{aligned} x_{i} &amp; f_{i} &amp; f_{i}x_{i} \\\\ 5 &amp; 8 &amp; 40 \\\\ 7 &amp; 6 &amp; 42 \\\\ 9 &amp; 2 &amp; 18 \\\\ 10 &amp; 2 &amp; 20 \\\\ 12 &amp; 2 &amp; 24 \\\\ 15 &amp; 6 &amp; 90 \\end{aligned}$ </p>\n<p>Now,</p>\n<p> $\\sum f_{i}=8+6+2+2+2+6=26$ </p>\n<p>and</p>\n<p> $\\sum f_{i}x_{i}=40+42+18+20+24+90=234$ </p>\n<p>So, the mean is</p>\n<p> $\\bar{x}=\\frac{\\sum f_{i}x_{i}}{\\sum f_{i}}=\\frac{234}{26}=9$ </p>\n<h2>Step 2: Calculate  $\\sum f_{i}|x_{i}-\\bar{x}|$ </h2>\n<p>Since  $\\bar{x}=9$ , we find  $|x_{i}-9|$ :</p>\n<p> $\\begin{aligned} x_{i} &amp; f_{i} &amp; |x_{i}-9| &amp; f_{i}|x_{i}-9| \\\\ 5 &amp; 8 &amp; 4 &amp; 32 \\\\ 7 &amp; 6 &amp; 2 &amp; 12 \\\\ 9 &amp; 2 &amp; 0 &amp; 0 \\\\ 10 &amp; 2 &amp; 1 &amp; 2 \\\\ 12 &amp; 2 &amp; 3 &amp; 6 \\\\ 15 &amp; 6 &amp; 6 &amp; 36 \\end{aligned}$ </p>\n<p>Now,</p>\n<p> $\\sum f_{i}|x_{i}-\\bar{x}|=32+12+0+2+6+36=88$ </p>\n<h2>Step 3: Find mean deviation about the mean</h2>\n<p> $\\text{M.D. about mean}=\\frac{88}{26}=\\frac{44}{13}$ </p>\n<p>So, the correct answer is</p>\n<p> $\\frac{44}{13}$ </p>\n<p>Hence, Option C is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{M.D. about mean}=\\frac{\\sum f_{i}|x_{i}-\\bar{x}|}{\\sum f_{i}}",
@@ -106,7 +106,7 @@
         "\\sum f_{i}x_{i}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:53.888160"
     },
@@ -152,7 +152,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the grouped data, we first find the class marks of each class interval.</p>\n<p>The classes are:</p>\n<p> $5-10,10-15,15-20,20-25,25-30,30-35$ </p>\n<p>So their class marks are:</p>\n<p> $7.5,12.5,17.5,22.5,27.5,32.5$ </p>\n<p>The frequencies are:</p>\n<p> $2,k,28,54,k+1,5$ </p>\n<p>Now use the formula for mean of grouped data:</p>\n<p> $\\bar{x}=\\frac{\\sum f_{i}x_{i}}{\\sum f_{i}}$ </p>\n<p>Given mean  $=21$ .</p>\n<p>Now calculate  $\\sum f_{i}$ :</p>\n<p> $\\sum f_{i}=2+k+28+54+(k+1)+5$ </p>\n<p> $\\sum f_{i}=2k+90$ </p>\n<p>Now calculate  $\\sum f_{i}x_{i}$ :</p>\n<p> $\\sum f_{i}x_{i}=2(7.5)+k(12.5)+28(17.5)+54(22.5)+(k+1)(27.5)+5(32.5)$ </p>\n<p>Now simplify step by step:</p>\n<p> $2(7.5)=15$ </p>\n<p> $28(17.5)=490$ </p>\n<p> $54(22.5)=1215$ </p>\n<p> $5(32.5)=162.5$ </p>\n<p> $(k+1)(27.5)=27.5k+27.5$ </p>\n<p>So,</p>\n<p> $\\sum f_{i}x_{i}=15+12.5k+490+1215+27.5k+27.5+162.5$ </p>\n<p> $\\sum f_{i}x_{i}=40k+1910$ </p>\n<p>Now apply the mean formula:</p>\n<p> $21=\\frac{40k+1910}{2k+90}$ </p>\n<p>Cross-multiply:</p>\n<p> $21(2k+90)=40k+1910$ </p>\n<p> $42k+1890=40k+1910$ </p>\n<p> $2k=20$ </p>\n<p> $k=10$ </p>\n<p>Now we check which equation has  $k=10$  as a root.</p>\n<p>Option A:</p>\n<p> $2x^{2}-23x-10=0$ </p>\n<p>Put  $x=10$ :</p>\n<p> $2(10)^{2}-23(10)-10=200-230-10=-40 \\ne 0$ </p>\n<p>Option B:</p>\n<p> $4x^{2}-35x+24=0$ </p>\n<p>Put  $x=10$ :</p>\n<p> $4(10)^{2}-35(10)+24=400-350+24=74 \\ne 0$ </p>\n<p>Option C:</p>\n<p> $2x^{2}-19x-10=0$ </p>\n<p>Put  $x=10$ :</p>\n<p> $2(10)^{2}-19(10)-10=200-190-10=0$ </p>\n<p>So  $10$  is a root.</p>\n<p>Hence, the correct option is:</p>\n<p> $\\text{Option C}2x^{2}-19x-10=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=\\frac{\\sum f_{i}x_{i}}{\\sum f_{i}}",
@@ -163,7 +163,7 @@
         "\\sum f_{i}x_{i}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:55.812050"
     },
@@ -209,11 +209,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table border=\"1\" cellpadding=\"10\" cellspacing=\"0\" style=\"border-collapse:collapse;\n\n              font-family:'Times New Roman', serif;\n\n              text-align:center;\n\n              width:800px;\">\n<tr>\n<th>Class</th>\n<th>f<sub>i</sub></th>\n<th>x<sub>i</sub></th>\n<th>f<sub>i</sub>·x<sub>i</sub></th>\n<th>f<sub>i</sub>·x<sub>i</sub><sup>2</sup></th>\n</tr>\n<tr>\n<td>4–8</td>\n<td>3</td>\n<td>6</td>\n<td>18</td>\n<td>108</td>\n</tr>\n<tr>\n<td>8–12</td>\n<td>λ</td>\n<td>10</td>\n<td>10λ</td>\n<td>100λ</td>\n</tr>\n<tr>\n<td>12–16</td>\n<td>4</td>\n<td>14</td>\n<td>56</td>\n<td>784</td>\n</tr>\n<tr>\n<td>16–20</td>\n<td>7</td>\n<td>18</td>\n<td>126</td>\n<td>2268</td>\n</tr>\n<tr>\n<td>Total</td>\n<td>14 +  $\\lambda$ </td>\n<td></td>\n<td>200 + 10 $\\lambda$ </td>\n<td>3160 + 100 $\\lambda$  </td>\n</tr>\n</table>\n<p> $\\begin{aligned} &amp; \\sum f_{i}=14+\\lambda \\\\ &amp; \\sum f_{i}x_{i}=18+10\\lambda+56+126=200+10\\lambda \\\\ &amp; \\text{Mean}\\mu=\\frac{\\sum f_{i}x_{i}}{\\sum f_{i}}=\\frac{200+10\\lambda}{14+\\lambda} \\\\ &amp; \\sum f_{i}x_{i}^{2}=3(6^{2})+\\lambda(10^{2})+4(14^{2})+7(18^{2})=108+100\\lambda+784+2268=3160+100\\lambda \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Variance}=\\frac{\\sum f_{i}x_{i}^{2}}{\\sum f_{i}}-\\mu^{2}=19 \\\\ &amp; 19=\\frac{3160+100\\lambda}{14+\\lambda}-(\\frac{200+10\\lambda}{14+\\lambda})^{2} \\\\ &amp; 19(14+\\lambda)^{2}=(3160+100\\lambda)(14+\\lambda)-(200+10\\lambda)^{2} \\\\ &amp; 19(196+28\\lambda+\\lambda^{2})=44240+4560\\lambda+100\\lambda^{2}-40000-4000\\lambda-100\\lambda^{2} \\\\ &amp; 3724+532\\lambda+19\\lambda^{2}=4240+560\\lambda \\\\ &amp; 19\\lambda^{2}-28\\lambda-516=0 \\end{aligned}$ </p>\n<p>Solving for  $\\lambda$  using the quadratic formula:</p>\n<p> $\\lambda=\\frac{28 \\pm \\sqrt{28^{2}-4(19)(-516)}}{38}=\\frac{28 \\pm 200}{38}$ </p>\n<p>Taking the positive value,  $\\lambda=\\frac{228}{38}=6$ </p>\n<p>Finding the mean  $\\mu$  :</p>\n<p> $\\mu=\\frac{200+10(6)}{14+6}=\\frac{260}{20}=13$ </p>\n<p>The value of  $\\lambda+\\mu$  is:</p>\n<p> $6+13=19$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:56.971625"
     },
@@ -259,7 +259,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the required quadratic equation, we must first find the values of  $\\alpha$  and  $\\beta$ . </p>\n<p>Given that there are 7 observations:  $2,4,\\alpha,8,\\beta,12,14$ . Let  $n=7$ .</p>\n<p>The mean of these observations ( $\\bar{x}$ ) is  $8$ . </p>\n<p>According to the formula for the mean:</p>\n<p> $\\bar{x}=\\frac{\\sum x_{i}}{n}$ </p>\n<p>Substituting the given values:</p>\n<p> $8=\\frac{2+4+\\alpha+8+\\beta+12+14}{7}$ </p>\n<p> $56=40+\\alpha+\\beta$ </p>\n<p> $\\alpha+\\beta=16\\text{--- (1)}$ </p>\n<p>Next, the variance ( $\\sigma^{2}$ ) is given as  $16$ . The formula for variance is:</p>\n<p> $\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{n}-(\\bar{x})^{2}$ </p>\n<p>Substituting the known values:</p>\n<p> $16=\\frac{2^{2}+4^{2}+\\alpha^{2}+8^{2}+\\beta^{2}+12^{2}+14^{2}}{7}-(8)^{2}$ </p>\n<p> $16=\\frac{4+16+\\alpha^{2}+64+\\beta^{2}+144+196}{7}-64$ </p>\n<p> $16+64=\\frac{424+\\alpha^{2}+\\beta^{2}}{7}$ </p>\n<p> $80 \\times 7=424+\\alpha^{2}+\\beta^{2}$ </p>\n<p> $560=424+\\alpha^{2}+\\beta^{2}$ </p>\n<p> $\\alpha^{2}+\\beta^{2}=136\\text{--- (2)}$ </p>\n<p>Now, using the algebraic identity  $(\\alpha+\\beta)^{2}=\\alpha^{2}+\\beta^{2}+2\\alpha\\beta$ , we can find the product  $\\alpha\\beta$ :</p>\n<p> $(16)^{2}=136+2\\alpha\\beta$ </p>\n<p> $256=136+2\\alpha\\beta$ </p>\n<p> $2\\alpha\\beta=120$ </p>\n<p> $\\alpha\\beta=60$ </p>\n<p>The numbers  $\\alpha$  and  $\\beta$  are the roots of the quadratic equation  $t^{2}-(\\alpha+\\beta)t+\\alpha\\beta=0$ :</p>\n<p> $t^{2}-16t+60=0$ </p>\n<p> $t^{2}-10t-6t+60=0$ </p>\n<p> $t(t-10)-6(t-10)=0$ </p>\n<p> $(t-6)(t-10)=0$ </p>\n<p>Thus, the values are  $6$  and  $10$ . Since we are given that  $\\alpha&lt;\\beta$ , we have:</p>\n<p> $\\alpha=6$ </p>\n<p> $\\beta=10$ </p>\n<p>We are asked to find the quadratic equation whose roots are  $3\\alpha+2$  and  $2\\beta+1$ . Let's evaluate these roots:</p>\n<p> $\\text{First root}=3(6)+2=18+2=20$ </p>\n<p> $\\text{Second root}=2(10)+1=20+1=21$ </p>\n<p>Now, let's find the sum and the product of the roots for our new quadratic equation:</p>\n<p> $\\text{Sum of roots}=20+21=41$ </p>\n<p> $\\text{Product of roots}=20 \\times 21=420$ </p>\n<p>The standard form of a quadratic equation is  $x^{2}-(\\text{Sum of roots})x+(\\text{Product of roots})=0$ .</p>\n<p>Substituting the values:</p>\n<p> $x^{2}-41x+420=0$ </p>\n<p>Hence, the correct option is Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "n=7",
@@ -270,7 +270,7 @@
         "16+64=\\frac{424+\\alpha^{2}+\\beta^{2}}{7}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:52.245063"
     },
@@ -316,7 +316,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\sum_{i=1}^{10}(x_{i}+2)^{2}=180$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}+4\\sum_{i=1}^{10}x_{i}+\\sum_{i=1}^{10}4=180$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}+4\\sum_{i=1}^{10}x_{i}=180-40\\dots(1)$ </p>\n<p>Also  $\\sum_{i=1}^{10}(x_{i}-1)^{2}=90$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}-2\\sum_{i=1}^{10}x_{i}+\\sum_{i=1}^{10}1=90$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}-2\\sum_{i=1}^{10}x_{i}=90-10\\dots(2)$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}+4\\sum_{i=1}^{10}x_{i}=140$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}-2\\sum_{i=1}^{10}x_{i}=80$ </p>\n<p> $\\sum_{i=1}^{10}x_{i}^{2}=100\\text{and}\\sum_{i=1}^{10}x_{i}=10$ </p>\n<p> $\\sigma^{2}=\\frac{\\sum_{i=1}^{10}x_{i}^{2}}{N}-⎛⎝⎜\\frac{\\sum_{i=1}^{10}x_{i}}{N}⎞⎠⎟^{2}$ </p>\n<p> $=\\frac{100}{10}-(\\frac{10}{10})^{2}$ </p>\n<p> $\\sigma^{2}=10-1=9$ </p>\n<p> $\\Rightarrow \\sigma=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1},x_{2},\\dots,x_{10}",
@@ -327,7 +327,7 @@
         "\\sum_{i=1}^{10}x_{i}^{2}-2\\sum_{i=1}^{10}x_{i}+\\sum_{i=1}^{10}1=90"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:53.978630"
     },
@@ -373,7 +373,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the missing observations be  $x$  and  $y$ .</p>\n<p> $\\text{Mean}(\\bar{x})=9:\\frac{2+3+5+10+11+13+15+21+x+y}{10}=9$ </p>\n<p> $80+x+y=90 \\Rightarrow x+y=𝟏𝟎$ </p>\n<p> $\\text{Variance}(\\sigma^{2})=34.2:\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{n}-(\\bar{x})^{2}$ </p>\n<p> $\\frac{2^{2}+3^{2}+5^{2}+10^{2}+11^{2}+13^{2}+15^{2}+21^{2}+x^{2}+y^{2}}{10}-9^{2}=34.2$ </p>\n<p> $\\frac{4+9+25+100+121+169+225+441+x^{2}+y^{2}}{10}-81=34.2$ </p>\n<p> $\\frac{1094+x^{2}+y^{2}}{10}=115.2$ </p>\n<p> $1094+x^{2}+y^{2}=1152 \\Rightarrow x^{2}+y^{2}=𝟓𝟖$ </p>\n<p>Solving  $x+y=10$  and  $x^{2}+y^{2}=58$ </p>\n<p>To solve the system  $x+y=10$  and  $x^{2}+y^{2}=58$  by finding  $x-y$  use the formula  $x-y=\\sqrt{2(x^{2}+y^{2})-(x+y)^{2}}$  :</p>\n<p> $x-y=\\sqrt{2(x^{2}+y^{2})-(x+y)^{2}}$ </p>\n<p> $x-y=\\sqrt{2(58)-(10)^{2}}=\\sqrt{116-100}=\\sqrt{16}$ </p>\n<p> $x-y=4$ </p>\n<p>Now add these equations  $x+y=10&amp;x-y=4$ </p>\n<p> $2x=14⟹x=7$ </p>\n<p>Put  $x=7$  in  $x+y=10$ </p>\n<p> $7+y=10⟹y=3$ </p>\n<p>missing numbers are 3 and 7 .</p>\n<p><b>Find the Median</b></p>\n<p>The 10 observations in ascending order are:  $2,3,3,5,7,10,11,13,15,21$ .</p>\n<ul>\n<li>Since  $n=10$ , the median is the average of the 5th and 6th terms : \n<br/><br/>Median  $=\\frac{7+10}{2}=$  8.5</li>\n</ul>\n<p>Calculate Mean Deviation about Median</p>\n<p> $\\begin{aligned} &amp; \\text{M.D.}(\\text{median})=\\frac{\\sum |x_{i}-\\text{Median}|}{n} \\\\ &amp; =\\frac{|2-8.5|+|3-8.5|+|3-8.5|+|5-8.5|+|7-8.5|+|10-8.5|+|11-8.5|+|13-8.5|+|15-8.5|+|21-8.5|}{10} \\\\ &amp; =\\frac{6.5+5.5+5.5+3.5+1.5+1.5+2.5+4.5+6.5+12.5}{10}=\\frac{50}{10}=𝟓 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "80+x+y=90 \\Rightarrow x+y=𝟏𝟎",
@@ -384,7 +384,8 @@
         "x^{2}+y^{2}=58"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:55.872709"
     },
@@ -430,14 +431,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Mean}=\\frac{7}{2} \\\\ &amp; \\frac{-10-7-1+x+y+16+2+9}{8}=\\frac{7}{2} \\\\ &amp; \\Rightarrow x+y+9=28 \\\\ &amp; \\Rightarrow x+y=19 \\\\ &amp; \\text{Variance}=\\frac{293}{4} \\\\ &amp; \\frac{100+49+1+x^{2}+y^{2}+256+4+81}{8}-\\frac{49}{4}=\\frac{293}{4} \\\\ &amp; \\frac{491+x^{2}+y^{2}}{8}=\\frac{342}{4} \\\\ &amp; x^{2}+y^{2}=193 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (x,y)=(7,12)\\text{or}(12,7) \\\\ &amp; \\text{Mean}=\\frac{x+y+x+y+1+(x-y)}{4} \\\\ &amp; =\\frac{19+20+5}{4} \\\\ &amp; =11 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{7}{2}",
         "\\frac{293}{4}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:57.028277"
     },
@@ -483,7 +484,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the mean of the 20 observations be  $\\bar{x}$  and the standard deviation be  $\\sigma$ .</p>\n<p>We are given:</p>\n<p> $\\sum_{20}^{i=1}(x_{i}+5)^{2}=2500$ </p>\n<p>and</p>\n<p> $\\sum_{20}^{i=1}(x_{i}-5)^{2}=100$ </p>\n<p>We will expand both expressions.</p>\n<p>First,</p>\n<p> $\\sum_{20}^{i=1}(x_{i}+5)^{2}=\\sum_{20}^{i=1}(x_{i}^{2}+10x_{i}+25)$ </p>\n<p> $=\\sum x_{i}^{2}+10\\sum x_{i}+20 \\cdot 25$ </p>\n<p> $=\\sum x_{i}^{2}+10\\sum x_{i}+500$ </p>\n<p>So,</p>\n<p> $\\sum x_{i}^{2}+10\\sum x_{i}+500=2500$ </p>\n<p> $\\sum x_{i}^{2}+10\\sum x_{i}=2000...(1)$ </p>\n<p>Now expand the second one:</p>\n<p> $\\sum_{20}^{i=1}(x_{i}-5)^{2}=\\sum_{20}^{i=1}(x_{i}^{2}-10x_{i}+25)$ </p>\n<p> $=\\sum x_{i}^{2}-10\\sum x_{i}+500$ </p>\n<p>So,</p>\n<p> $\\sum x_{i}^{2}-10\\sum x_{i}+500=100$ </p>\n<p> $\\sum x_{i}^{2}-10\\sum x_{i}=-400...(2)$ </p>\n<p>Now add (1) and (2):</p>\n<p> $2\\sum x_{i}^{2}=1600$ </p>\n<p> $\\sum x_{i}^{2}=800$ </p>\n<p>Now subtract (2) from (1):</p>\n<p> $20\\sum x_{i}=2400$ </p>\n<p> $\\sum x_{i}=120$ </p>\n<p>Hence mean:</p>\n<p> $\\bar{x}=\\frac{\\sum x_{i}}{20}=\\frac{120}{20}=6$ </p>\n<p>Now use the formula for standard deviation:</p>\n<p> $\\sigma=\\sqrt{\\frac{\\sum x_{i}^{2}}{20}-\\bar{x}^{2}}$ </p>\n<p> $=\\sqrt{\\frac{800}{20}-6^{2}}$ </p>\n<p> $=\\sqrt{40-36}$ </p>\n<p> $=\\sqrt{4}=2$ </p>\n<p>Therefore, the ratio of mean to standard deviation is</p>\n<p> $\\bar{x}:\\sigma=6:2=3:1$ </p>\n<p>So, the correct option is:</p>\n<p> $3:1$ </p>\n<p>Option B</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1},x_{2},\\dots,x_{20}",
@@ -494,7 +495,7 @@
         "\\sum_{20}^{i=1}(x_{i}+5)^{2}=\\sum_{20}^{i=1}(x_{i}^{2}+10x_{i}+25)"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:52.301687"
     },
@@ -540,7 +541,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->\n<p>The given data set has  $n=9$  observations:  $21,8,17,a,51,103,b,13,67$ .</p>\n<p>The mean ( $\\bar{x}$ ) of these numbers is given as  $40$ . </p>\n<p>The formula for the mean is:</p>\n<p> $\\text{Mean}=\\frac{\\text{Sum of all observations}}{n}$ </p>\n<p>Substitute the given values into the formula:</p>\n<p> $40=\\frac{21+8+17+a+51+103+b+13+67}{9}$ </p>\n<p>Multiply both sides by 9:</p>\n<p> $360=280+a+b$ </p>\n<p> $a+b=360-280$ </p>\n<p> $a+b=80\\text{--- (Equation 1)}$ </p>\n<p>The median ( $M$ ) of the data is  $21$ . For  $n=9$  (an odd number), the median is the  $(\\frac{9+1}{2})^{\\text{th}}=5^{\\text{th}}$  observation when aligned in ascending order.</p>\n<p>Let's arrange the known numbers in ascending order:</p>\n<p> $8,13,17,21,51,67,103$ </p>\n<p>Here, there are exactly three numbers less than  $21$  ( $8,13,17$ ) and three numbers greater than  $21$  ( $51,67,103$ ). </p>\n<p>For  $21$  to remain the middle (5th) observation among all 9 numbers, one of the unknown variables ( $a$  or  $b$ ) must be less than or equal to  $21$ , and the other must be greater than or equal to  $21$ . </p>\n<p>Since it is given that  $a&gt;b$ , we can conclude:</p>\n<p> $a \\ge 21$  and  $b \\le 21$ </p>\n<p>The formula for mean deviation about the median is:</p>\n<p> $\\text{M.D. (M)}=\\frac{\\sum_{n}^{i=1}|x_{i}-M|}{n}$ </p>\n<p>We are given that  $\\text{M.D. (M)}=26$ . </p>\n<p>Substitute the values:</p>\n<p> $26=\\frac{|21-21|+|8-21|+|17-21|+|a-21|+|51-21|+|103-21|+|b-21|+|13-21|+|67-21|}{9}$ </p>\n<p>Multiply by 9 and simplify the absolute values for the known numbers:</p>\n<p> $234=0+13+4+|a-21|+30+82+|b-21|+8+46$ </p>\n<p> $234=183+|a-21|+|b-21|$ </p>\n<p> $|a-21|+|b-21|=234-183$ </p>\n<p> $|a-21|+|b-21|=51$ </p>\n<p>From Step 2, we know that  $a \\ge 21⟹|a-21|=a-21$  and  $b \\le 21⟹|b-21|=21-b$ . Replacing these in the equation:</p>\n<p> $(a-21)+(21-b)=51$ </p>\n<p> $a-b=51\\text{--- (Equation 2)}$ </p>\n<p>Now we have a system of two linear equations:</p>\n<p>1)  $a+b=80$ </p>\n<p>2)  $a-b=51$ </p>\n<p>To find  $2a$ , simply add Equation 1 and Equation 2:</p>\n<p> $(a+b)+(a-b)=80+51$ </p>\n<p> $2a=131$ </p>\n<p>Therefore, the value of  $2a$  is  $131$ .</p>\n<p>Option D is the correct answer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "a+b=360-280",
@@ -551,7 +552,8 @@
         "a \\ge 21⟹|a-21|=a-21"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:54.126223"
     },
@@ -597,7 +599,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $Y={ax+b:x \\in X}.\\text{and}X={x \\in ℕ:1 \\le x \\le 19}$ </p>\n<p>mean for  $Y$  is 30. \n\n<br/><br/> $\\therefore$   $(\\bar{Y}=30)$ </p>\n<p> $\\bar{Y}=\\frac{\\sum_{i=1}^{19}Y_{i}}{19}$ </p>\n<p> $\\Rightarrow \\frac{\\sum_{i=1}^{19}ax_{i}+b}{19}=30$ </p>\n<p> $\\Rightarrow$   $\\sum_{i=1}^{19}ax_{i}+\\sum_{i=1}^{19}b=19 \\times 30$ </p>\n<p> $\\Rightarrow$   $a(1+2+\\cdot s+19)+19b=19 \\times 30$ </p>\n<p> $\\Rightarrow$   $a \\times \\frac{19 \\times 20}{2}+19b=570$ </p>\n<p> $\\Rightarrow$   $10a+b=30 \\Rightarrow a=\\frac{30-b}{10}$  .......(1)</p>\n<p>Variance for  $Y$  is 750</p>\n<p> $\\sigma^{2}=\\frac{\\sum_{i=1}^{19}Y_{i}^{2}}{19}-(\\bar{Y})^{2}=750$ </p>\n<p> $\\Rightarrow$   $\\frac{\\sum_{i=1}^{19}(ax_{i}+b)^{2}}{19}-(30)^{2}=750$ </p>\n<p> $\\Rightarrow$   $\\sum_{i=1}^{19}a^{2}x_{i}^{2}+b^{2}+2ax_{i}=(750+900)19$ </p>\n<p> $\\Rightarrow$   $a^{2}\\sum_{i=1}^{19}(x_{i}^{2}+b^{2}+2a\\sum_{i=1}^{19}x_{i})=1650 \\times 19$ </p>\n<p> $\\Rightarrow$   $a^{2}(1^{2}+2^{2}+\\cdot s+19^{2})+\\sum_{i=1}^{19}b^{2}+2ab(1+2+\\cdot s+19)=1650 \\times 19$ </p>\n<p> $\\Rightarrow$   $a^{2} \\cdot \\frac{19 \\times 20 \\times 39}{6}+19b^{2}+\\frac{2ab \\times 19 \\times 20}{2}=1650 \\times 19$ </p>\n<p> $\\Rightarrow$   $130a^{2}+b^{2}+20ab=1650$  ......(2)</p>\n<p>Substitute value of  $a$  from (1) in equation (2)</p>\n<p> $130(\\frac{30-b}{10})^{2}+b^{2}+20b(\\frac{30-b}{10})=1650$ </p>\n<p> $\\Rightarrow$   $\\frac{13}{10}(900+b^{2}-60b)+b^{2}+60b-2b^{2}=1650$ </p>\n<p> $\\Rightarrow$   $1170+1.3b^{2}-78b+10b^{2}+600b-20b^{2}=16500$ </p>\n<p> $\\Rightarrow$   $3b^{2}-180b-4800=0$ </p>\n<p> $\\Rightarrow$   $b^{2}-60b-1600=0$ </p>\n<p>Let roots of quadratic equation is  $b_{1},b_{2}$  </p>\n<p>So sum of possible values of  $b=$  sum of roots</p>\n<p> $b_{1}+b_{2}=\\frac{-\\text{coefficient of}b}{\\text{coefficient of}b^{2}}=60$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "X={x \\in N:1 \\le x \\le 19}",
@@ -608,7 +610,7 @@
         "\\sum_{i=1}^{19}ax_{i}+\\sum_{i=1}^{19}b=19 \\times 30"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:55.936439"
     },
@@ -654,13 +656,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because \\text{median}=\\frac{1001k}{2}=X_{M} \\\\ &amp; \\therefore \\text{mean deviation about median}=\\frac{\\sum |X_{i}-X_{M}|}{n} \\\\ &amp; =\\frac{2(\\frac{k}{2}+\\frac{3k}{2}+\\frac{5k}{2}+\\dots...500\\text{terms})}{1000}=\\frac{2.\\frac{k}{2}(500)^{2}}{1000}=\\frac{500k}{2}=500(\\text{given}) \\\\ &amp; \\therefore k=2 \\\\ &amp; \\therefore k^{2}=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "k^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:57.104171"
     },
@@ -706,7 +709,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given variable  $X$  takes values</p>\n<p> $0,0,2,6,12,20,\\dots,n(n-1)$ </p>\n<p>with corresponding frequencies</p>\n<p> $^{n}C_{0},^{n}C_{1},^{n}C_{2},^{n}C_{3},^{n}C_{4},^{n}C_{5},\\dots,^{n}C_{n}$ </p>\n<p>We notice that the values of  $X$  follow the pattern</p>\n<p> $X=r(r-1),r=0,1,2,\\dots,n$ </p>\n<p>and the corresponding frequency is</p>\n<p> $^{n}C_{r}$ </p>\n<p>So this is a discrete frequency distribution with:</p>\n<ul>\n<li><p>variate value  $x_{r}=r(r-1)$ </p></li>\n<li><p>frequency  $f_{r}=^{n}C_{r}$ </p></li>\n</ul>\n<h2>Step 1: Use the formula for mean</h2>\n<p>Mean is given by</p>\n<p> $\\bar{X}=\\frac{\\sum f_{r}x_{r}}{\\sum f_{r}}$ </p>\n<p>So,</p>\n<p> $\\bar{X}=\\frac{\\sum_{n}^{r=0}^{n}C_{r}r(r-1)}{\\sum_{n}^{r=0}^{n}C_{r}}$ </p>\n<p>Given mean  $=60$ , so</p>\n<p> $\\frac{\\sum_{n}^{r=0}^{n}C_{r}r(r-1)}{\\sum_{n}^{r=0}^{n}C_{r}}=60$ </p>\n<p>Now use standard binomial identities:</p>\n<p> $\\sum_{n}^{r=0}^{n}C_{r}=2^{n}$ </p>\n<p>and</p>\n<p> $\\sum_{n}^{r=0}r(r-1)^{n}C_{r}=n(n-1)2^{n-2}$ </p>\n<p>Hence,</p>\n<p> $\\bar{X}=\\frac{n(n-1)2^{n-2}}{2^{n}}=\\frac{n(n-1)}{4}$ </p>\n<p>Given this is  $60$ :</p>\n<p> $\\frac{n(n-1)}{4}=60$ </p>\n<p> $n(n-1)=240$ </p>\n<p> $n^{2}-n-240=0$ </p>\n<p> $(n-16)(n+15)=0$ </p>\n<p>So,</p>\n<p> $n=16$ </p>\n<h2>Step 2: Write the values and frequencies for  $n=16$ </h2>\n<p>Now total frequency is</p>\n<p> $N=\\sum_{16}^{r=0}^{16}C_{r}=2^{16}=65536$ </p>\n<p>To find the median, we need the value of  $X$  whose cumulative frequency just exceeds  $\\frac{N}{2}$ .</p>\n<p> $\\frac{N}{2}=32768$ </p>\n<p>Now frequencies are:</p>\n<p> $^{16}C_{0},^{16}C_{1},^{16}C_{2},\\dots,^{16}C_{16}$ </p>\n<p>Using symmetry of binomial coefficients:</p>\n<p> $^{16}C_{0}+^{16}C_{1}+\\cdot s+^{16}C_{7}=\\frac{1}{2}(2^{16}-^{16}C_{8})$ </p>\n<p>Since</p>\n<p> $^{16}C_{8}=12870$ </p>\n<p>we get</p>\n<p> $^{16}C_{0}+^{16}C_{1}+\\cdot s+^{16}C_{7}=\\frac{65536-12870}{2}=26333$ </p>\n<p>Now add  $^{16}C_{8}$ :</p>\n<p> $26333+12870=39203$ </p>\n<p>So the cumulative frequency crosses  $32768$  at  $r=8$ .</p>\n<p>Hence the median corresponds to</p>\n<p> $X=8(8-1)=56$ </p>\n<h2>Final Answer</h2>\n<p> $56$ </p>\n<p>So, the correct option is <strong>A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "n(n-1)=240",
@@ -716,7 +719,8 @@
         "N=\\sum_{16}^{r=0}^{16}C_{r}=2^{16}=65536"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:52.372881"
     },
@@ -762,7 +766,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $X_{1}+X_{2}+.......+X_{n-1}+X_{n}=8n$ </p>\n<p> $48+x_{n}=8n$ </p>\n<p> $\\Rightarrow x_{n}=8n-48\\dots(1)$ </p>\n<p> $\\Rightarrow 16=\\frac{496+x_{n}^{2}}{n}-(8)^{2}$ </p>\n<p> $\\Rightarrow 80n=496+x_{n}^{2}$ </p>\n<p> $\\Rightarrow x_{n}^{2}=80n-496\\dots(2)$ </p>\n<p> $\\Rightarrow (8n-48)^{2}=80n-496$ </p>\n<p> $\\Rightarrow 64(n-6)^{2}=8(10n-62)$ </p>\n<p> $\\Rightarrow 8(n-6)^{2}=10n-62$ </p>\n<p> $\\Rightarrow 4(n-6)^{2}=5n-31$ </p>\n<p> $\\Rightarrow 4(n^{2}-36-12n)=5n-31$ </p>\n<p> $\\Rightarrow 4n^{2}+144-48n=5n-31$ </p>\n<p> $\\Rightarrow 4n^{2}-53n+175=0$ </p>\n<p> $\\Rightarrow 4n^{2}-28n-25n+175=0$ </p>\n<p> $\\Rightarrow 4n(n-7)-25(n-7)=0$ </p>\n<p> $n=7$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{1}+X_{2}+.......+X_{n-1}+X_{n}=8n",
@@ -773,7 +777,7 @@
         "\\Rightarrow x_{n}^{2}=80n-496\\dots(2)"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:54.209058"
     },
@@ -819,7 +823,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, total observation  $n=10$ </p>\n<p>Initial mean  $\\bar{x}_{1}=10$ </p>\n<p> $\\Rightarrow \\frac{\\sum_{i=1}^{10}x_{i}}{10}=10$ </p>\n<p>Sum of 10 observation  $\\sum_{10}^{i=1}x_{i}=10 \\times 10=100$ </p>\n<p>Initial variance  $\\sigma_{1}^{2}$  $=2$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{\\sum_{i=1}^{10}x_{i}^{2}}{n}-(\\bar{x}_{1})^{2}=2 \\\\ &amp; \\Rightarrow \\sum_{i=1}^{10}x_{i}^{2}=n[2+(\\bar{x}_{1})^{2}]=10[2+(10^{2})]=1020 \\end{aligned}$ </p>\n<p>It is given that if  $\\alpha$  is replace by  $\\beta$ \n<br/><br/>then, new mean  $(\\bar{x}_{2})=10.1$ </p>\n<p> $\\begin{aligned} &amp; \\bar{x}_{2}=\\frac{100-\\alpha+\\beta}{10}=10.1 \\\\ &amp; \\Rightarrow 100-\\alpha+\\beta=101 \\\\ &amp; \\Rightarrow \\beta-\\alpha=1......(1) \\end{aligned}$ </p>\n<p>Also new variance  $\\sigma_{2}^{2}=1.99$  (given)</p>\n<p> $\\Rightarrow$   $\\sigma_{2}^{2}=\\frac{1020-\\alpha^{2}+\\beta^{2}}{10}-(10.1)^{2}=1.99$ </p>\n<p> $\\Rightarrow$   $1020-\\alpha^{2}+\\beta^{2}=10[1.99+102.01]$  $=10 \\times 104=1040$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\beta^{2}-\\alpha^{2}=20 \\\\ \\\\ &amp; \\Rightarrow (\\beta+\\alpha)(\\beta-\\alpha)=20 \\end{aligned}$ </p>\n<p> $\\Rightarrow$  $(\\beta+\\alpha)(1)=20$  (substitute  $\\beta-\\alpha=1)$ </p>\n<p> $\\Rightarrow$   $\\alpha+\\beta=20$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "n=10",
@@ -830,7 +834,7 @@
         "\\sigma_{2}^{2}=\\frac{1020-\\alpha^{2}+\\beta^{2}}{10}-(10.1)^{2}=1.99"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:55.998695"
     },
@@ -876,7 +880,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} X &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ p(n) &amp; \\frac{2a+1}{30} &amp; \\frac{8a-1}{30} &amp; \\frac{4a+1}{30} &amp; b \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\mu=\\Sigma \\times p(n)=0+\\frac{8a-1}{30}+2 \\times \\frac{4a+1}{30}+3b=\\frac{16a+90b+1}{30} \\\\ &amp; \\sigma^{2}=\\Sigma x^{2}p(n)-\\mu^{2} \\Rightarrow \\sigma^{2}+\\mu^{2}=\\Sigma x^{2}p(n)=2 \\\\ &amp; \\frac{8a-1}{30}+\\frac{4(4a+1)}{30}+9b=2 \\\\ &amp; 8a+90b-19=0\\dots\\dots\\dots(i) \\\\ &amp; \\Sigma p(n)=1 \\Rightarrow 14a+1+30b=30 \\\\ &amp; 14a+30b-29=0\\dots\\dots..(ii) \\end{aligned} \\\\ &amp; \\text{From (i) and (ii)} \\\\ &amp; a=2b=\\frac{1}{30}=\\frac{a}{b}=60 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2a+1}{30}",
@@ -884,7 +888,7 @@
         "\\frac{4a+1}{30}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:57.173552"
     },
@@ -930,11 +934,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let the observations be}x_{1},x_{2},\\dots,x_{99},50 \\\\ &amp; \\begin{aligned} &amp; \\text{Mean}=\\frac{x_{1}+x_{2}+\\dots+x_{9}+50}{100}=40 \\\\ &amp; \\Rightarrow x_{1}+x_{2}+\\dots+x_{99}=4000-50 \\\\ &amp; \\Rightarrow x_{1}+x_{2}+\\dots+x_{99}=3950 \\\\ &amp; \\text{Current Mean}=\\frac{3950+40}{100} \\\\ &amp; \\mu=\\frac{399}{10}=39.9 \\\\ &amp; (\\text{S.D})^{2}=\\sum_{i=1}^{99}\\frac{(x_{i})^{2}+2500}{100}-(40)^{2} \\\\ &amp; \\sum_{i=1}^{99}x_{i}^{2}=160101 \\\\ &amp; (\\text{Correct S.D})^{2}=\\frac{160101+1600}{100}-(\\frac{399}{10})^{2} \\\\ &amp; \\sigma=5 \\\\ &amp; 10(\\mu+\\sigma)=10(39.9+5)=449 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:58.059534"
     },
@@ -980,7 +984,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\sum_{i=1}^{10}x_{i}=50, \\therefore \\text{mean}=5 \\\\ &amp; \\text{Variance}=\\frac{4}{5}=\\frac{\\sum x_{i}^{2}}{10}-(\\frac{\\sum x_{i}}{10})^{2} \\\\ &amp; \\frac{4}{5}=\\frac{\\sum x_{i}^{2}}{10}-25 \\\\ &amp; \\Rightarrow \\sum x_{i}^{2}=258\\text{.... (1)} \\\\ &amp; \\text{Now}\\sum_{i=1}^{10}(x_{i}-\\beta)^{2}=98 \\\\ &amp; \\sum_{i=1}^{10}(x_{i}^{2}-2\\beta \\cdot x_{i}+\\beta^{2})=98 \\\\ &amp; 258-2\\beta(50)+10\\beta^{2}=98 \\\\ &amp; (\\beta-8)(\\beta-2)=0 \\\\ &amp; \\beta=\\text{or}\\beta=2(\\text{as}\\beta&gt;2) \\\\ &amp; \\therefore \\beta=8\\text{..... (2)} \\end{aligned}$ </p>\n<p>Now as per the question</p>\n<p> $\\begin{aligned} &amp; 2(x_{1}-1)+4\\beta,2(x_{2}-1)+4\\beta,\\dots.2(x_{10}-1)+4\\beta \\\\ &amp; \\text{can be simplified to} \\\\ &amp; 2x_{1}+30,2x_{2}+30,\\dots..2x_{10}+30\\text{using eq. (2)} \\\\ &amp; \\mu=2(5)+30=40\\text{..... (3)} \\\\ &amp; \\sigma^{2}=2^{2}(\\frac{4}{5})=\\frac{16}{5} \\\\ &amp; \\because \\frac{\\beta\\mu}{\\sigma^{2}}=\\frac{8 \\times 40}{16/5}=100 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1},x_{2},...,x_{10}",
@@ -991,7 +995,7 @@
         "2(x_{1}-1)+4\\beta,2(x_{2}-1)+4\\beta,...,2(x_{10}-1)+4\\beta"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:59.209062"
     },
@@ -1016,11 +1020,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; Var(8,21,34,47,\\dots\\dots,320) \\\\ &amp; Var(0,13,26,39,\\dots\\dots,312) \\\\ &amp; 13^{2} \\cdot Var(0,1,2,\\dots\\dots,24) \\\\ &amp; 13^{2} \\cdot Var(1,2,3,\\dots\\dots,25) \\end{aligned} \\\\ &amp; \\text{So,}\\sigma^{2}=13^{2} \\times (\\frac{25^{2}-1}{12})=8788 \\\\ &amp; \\text{Alternate solution} \\\\ &amp; \\begin{aligned} &amp; 8+(n-1)13=320 \\\\ &amp; 13n=325 \\\\ &amp; n=25 \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{no. of terms}=25 \\\\ &amp; \\begin{aligned} &amp; \\text{mean}=\\frac{\\sum x_{i}}{n}=\\frac{8+21+\\dots+320}{25}=\\frac{\\frac{25}{2}(8+320)}{25} \\\\ &amp; \\text{variance}\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{n}-(\\text{mean})^{2} \\\\ &amp; =\\frac{8^{2}+21^{2}+\\dots.+320^{2}}{13}-(164)^{2} \\\\ &amp; =8788 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:22.331588"
     },
@@ -1066,11 +1070,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\frac{2+3+3+4+5+7+a+b}{8}=4 \\\\ &amp; \\Rightarrow a+b=8 \\\\ &amp; (\\sqrt{2})^{2}=\\frac{2^{2}+3^{2}+3^{2}+4^{2}+5^{2}+7^{2}+a^{2}+b^{2}}{8}-16 \\\\ &amp; 112+a^{2}+b^{2}=18 \\times 8 \\\\ &amp; \\Rightarrow a^{2}+b^{2}=32 \\\\ &amp; \\Rightarrow a=b=4 \\end{aligned} \\\\ &amp; \\text{Now numbers be} \\\\ &amp; 2,3,3,4,4,4,5,7 \\end{aligned}$ </p>\n<p>Mode  $=4$ </p>\n<p>Mean deviation about mode :</p>\n<p> $\\begin{aligned} &amp; \\frac{|2-4|+|3-4|+|3-4|+0+0+0+|5-4|+|4-7|}{8} \\\\ = &amp; \\frac{2+1+1+1+3}{8}=\\frac{8}{8}=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:58.128082"
     },
@@ -1116,14 +1121,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Mean}\\bar{x}=5.5 \\\\ &amp; =\\sum_{i=1}^{10}x_{i}=5.5 \\times 10=55 \\\\ &amp; =\\sum_{i=1}^{10}x_{i}^{2}=371 \\\\ &amp; (\\sum x_{i})_{\\text{new}}=55-(4+5)+(6+8)=60 \\\\ &amp; (\\sum x_{i})_{\\text{new}}=371-(4^{2}+5^{2})+(6^{2}+8^{2})=430 \\\\ &amp; \\\\ &amp; \\text{Variance}\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{10}-(\\frac{\\sum x_{i}}{10})^{2} \\\\ &amp; \\\\ &amp; \\sigma^{2}=\\frac{430}{10}-(\\frac{60}{10})^{2} \\\\ &amp; \\sigma^{2}=43-36 \\\\ &amp; \\sigma^{2}=7 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1},x_{2},\\dots,x_{10}",
         "\\sum_{10}^{i=1}x_{i}^{2}=371"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:59.270409"
     },
@@ -1169,7 +1174,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, find the values of  $a$  and  $b$  using the given conditions:</p>\n<p><p><strong>Mean Condition:</strong></p>\n<p> $5=\\frac{1+3+a+7+b}{5}$ </p>\n<p>This implies:</p>\n<p> $a+b=14$ </p></p>\n<p><p><strong>Variance Condition:</strong></p>\n<p> $\\frac{1+9+a^{2}+49+b^{2}}{5}-(5)^{2}=10$ </p>\n<p>Simplifying, we get:</p>\n<p> $a^{2}+b^{2}=116$ </p>\n<p>Using  $a+b=14$ , we have:</p>\n<p> $b=14-a$ </p>\n<p>Substitute  $b$  into the equation for  $a^{2}+b^{2}$ :</p>\n<p> $a^{2}+(14-a)^{2}=116$ </p>\n<p>Expand and simplify:</p>\n<p> $a^{2}+196-28a+a^{2}=116$ </p>\n<p> $2a^{2}-28a+80=0$ </p>\n<p>Simplify further:</p>\n<p> $a^{2}-14a+40=0$ </p>\n<p>Solve the quadratic equation:</p>\n<p> $(a-10)(a-4)=0$ </p>\n<p>Thus,  $a=10$  and  $b=4$  (since  $a&gt;b$ ).</p></p>\n<p><p><strong>New Observations:</strong></p>\n<p>The transformed observations are:</p>\n<p> $1+1=2,3+2=5,10+3=13,7+4=11,4+5=9$ </p></p>\n<p><p><strong>Calculate the Variance of the New Observations:</strong></p>\n<p>First, find the mean of the new data:</p>\n<p> $\\text{Mean}=\\frac{2+5+13+11+9}{5}=8$ </p>\n<p>Calculate the variance:</p>\n<p> $\\text{Variance}=\\frac{(2-8)^{2}+(5-8)^{2}+(13-8)^{2}+(11-8)^{2}+(9-8)^{2}}{5}$ </p>\n<p> $=\\frac{36+9+25+9+1}{5}$ </p>\n<p> $=\\frac{80}{5}=16$ </p></p>\n<p>Therefore, the variance of the transformed observations is 16.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "x_{1}=1,x_{2}=3,x_{3}=a,x_{4}=7",
@@ -1180,7 +1185,7 @@
         "(a-10)(a-4)=0"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:58.183347"
     },
@@ -1226,13 +1231,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The median for grouped data is given by:</p>\n<p> $\\text{Median}=L+(\\frac{\\frac{n}{2}-CF}{f}) \\times ℎ$ </p>\n<p>where</p>\n<p><p> $L$  is the lower limit (or boundary) of the median class.</p></p>\n<p><p> $CF$  is the cumulative frequency of all classes preceding the median class.</p></p>\n<p><p> $f$  is the frequency of the median class.</p></p>\n<p><p> $ℎ$  is the class width.</p></p>\n<p><p> $n$  is the total number of students.</p></p>\n<p>Given:</p>\n<p><p>Median  $=14$ </p></p>\n<p><p>Median class interval is  $12-18$ , so  $L=12$  and the class width  $ℎ=18-12=6$ .</p></p>\n<p><p>Frequency of median class  $f=12$ .</p></p>\n<p><p>Cumulative frequency below the median class  $=18$  (i.e.,  $CF=18$ ).</p></p>\n<p>Plugging these into the formula:</p>\n<p> $14=12+(\\frac{\\frac{n}{2}-18}{12}) \\times 6$ </p>\n<p>Step 1: Subtract 12 from both sides:</p>\n<p> $2=(\\frac{\\frac{n}{2}-18}{12}) \\times 6$ </p>\n<p>Step 2: Simplify the multiplication factor:</p>\n<p> $(\\frac{6}{12})=\\frac{1}{2}$ </p>\n<p>So the equation becomes:</p>\n<p> $2=\\frac{1}{2}(\\frac{n}{2}-18)$ </p>\n<p>Step 3: Multiply both sides by 2 to remove the fraction:</p>\n<p> $4=\\frac{n}{2}-18$ </p>\n<p>Step 4: Solve for  $\\frac{n}{2}$ :</p>\n<p> $\\frac{n}{2}=4+18=22$ </p>\n<p>Step 5: Multiply both sides by 2 to find  $n$ :</p>\n<p> $n=44$ </p>\n<p>Thus, the total number of students is  $44$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{Median}=L+(\\frac{\\frac{n}{2}-CF}{f}) \\times ℎ"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:46:59.326682"
     },
@@ -1278,7 +1284,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let’s set up two equations from the given mean and variance:</p>\n<p><p>Mean = 9 ⇒ total sum = 8·9 = 72  </p>\n<p>Known values sum to 6+4+8+12+10+13 = 53, so  </p>\n<p> $a+b=72-53=19.$ </p></p>\n<p><p>Population variance = 9.25 ⇒ </p>\n<p> $\\frac{\\sum x_{i}^{2}}{8}-9^{2}=9.25⟹\\sum x_{i}^{2}=8(81+9.25)=722.$  </p>\n<p>Known squares sum to 6²+4²+8²+12²+10²+13² = 529, so  </p>\n<p> $a^{2}+b^{2}=722-529=193.$ </p></p>\n<p>Now use </p>\n<p> $(a+b)^{2}=a^{2}+2ab+b^{2}⟹19^{2}=193+2ab$  </p>\n<p>so  </p>\n<p> $361=193+2ab⟹ab=84.$ </p>\n<p>Finally,  </p>\n<p> $a+b+ab=19+84=103.$ </p>\n<p>Answer: 103 (Option A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "a+b=72-53=19.",
@@ -1289,7 +1295,7 @@
         "a+b+ab=19+84=103."
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:58.245032"
     },
@@ -1335,7 +1341,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 448px\">\n<colgroup>\n<col style=\"width: 95px\"/>\n<col style=\"width: 200px\"/>\n<col style=\"width: 153px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">Age</th>\n<th class=\"tg-amwm\">No. of Students</th>\n<th class=\"tg-amwm\">CF</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">15</td>\n<td class=\"tg-baqh\">5</td>\n<td class=\"tg-baqh\">5</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">16</td>\n<td class=\"tg-baqh\">8</td>\n<td class=\"tg-baqh\">13</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">17</td>\n<td class=\"tg-baqh\">5</td>\n<td class=\"tg-baqh\">18</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">18</td>\n<td class=\"tg-baqh\">12</td>\n<td class=\"tg-baqh\">30</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">19</td>\n<td class=\"tg-baqh\"> $x$ </td>\n<td class=\"tg-baqh\"> $30+x$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">20</td>\n<td class=\"tg-baqh\"> $y$ </td>\n<td class=\"tg-baqh\"> $30+x+y$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; 30+x+y=40 \\\\ &amp; x+y=10 \\end{aligned}$ </p>\n<p>Median  $=(\\frac{n+1}{2})^{\\text{th}}$  observation</p>\n<p> $=\\frac{40+1}{2}=\\frac{41}{2}$ </p>\n<p>Median  $=18$ </p>\n<p>Mean deviation about median</p>\n<p> $\\begin{aligned} &amp; 5.3+8.2+5.1+12.0+x \\cdot 1+y \\cdot 2=1.25 \\times 40 \\\\ &amp; 15+16+5+x+2y=50 \\\\ &amp; x+2y=14 \\\\ &amp; x+y=10 \\\\ &amp; \\Rightarrow x=4 \\\\ &amp; \\Rightarrow y=6 \\\\ &amp; \\begin{aligned} 4x+5y &amp; =24+20 \\\\ &amp; =44 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\begin{aligned} & 30+x+y=40 \\\\ & x+y=10 \\end{aligned}",
@@ -1344,7 +1350,8 @@
         "=18"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:00.349848"
     },
@@ -1390,7 +1397,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\text{Median}=170 \\Rightarrow 125,a,b,170,190,210,230$ \n<br/><br/>Mean deviation about\nMedian  $=$ \n<br/><br/> $\\begin{aligned} &amp; \\frac{0+45+60+20+40+170-a+170-b}{7}=\\frac{205}{7} \\\\ \\\\ &amp; \\Rightarrow a+b=300 \\\\ \\\\ &amp; \\text{Mean}=\\frac{170+125+230+190+210+a+b}{7}=175 \\end{aligned}$ \n<br/><br/>Mean deviation\nAbout mean  $=$ \n<br/><br/> $\\frac{50+175-a+175-b+5+15+35+55}{7}=30$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{205}{7}",
@@ -1398,7 +1405,8 @@
         "\\frac{50+175-a+175-b+5+15+35+55}{7}=30"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:01.766531"
     },
@@ -1444,7 +1452,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\sum_{k=1}^{10}a_{k}=50 \\\\ &amp; a_{1}+a_{2}+\\dots+a_{10}=50\\text{.... (i)} \\\\ &amp; \\underset{∀k&lt;j}{\\sum}a_{k}a_{j}=1100\\text{.... (ii)} \\\\ &amp; \\text{If}a_{1}+a_{2}+\\dots+a_{10}=50. \\\\ &amp; (a_{1}+a_{2}+\\dots+a_{10})^{2}=2500 \\\\ &amp; \\Rightarrow \\sum_{i=1}^{10}a_{i}^{2}+2\\underset{k&lt;j}{\\sum}a_{k}a_{j}=2500 \\\\ &amp; \\Rightarrow \\sum_{i=1}^{10}a_{i}^{2}=2500-2(1100) \\\\ &amp; \\sum_{i=1}^{10}a_{i}^{2}=300\\text{, Standard deviation ‘}\\sigma\\text{’} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\sqrt{\\frac{\\sum a_{i}^{2}}{10}-(\\frac{\\sum a_{i}}{10})^{2}}=\\sqrt{\\frac{300}{10}-(\\frac{50}{10})^{2}} \\\\ &amp; =\\sqrt{30-25}=\\sqrt{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "a_{1},a_{2},\\dotsa_{10}",
@@ -1453,7 +1461,7 @@
         "a_{1},a_{2},\\dots,a_{10}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:02.991529"
     },
@@ -1478,13 +1486,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\bar{x}=56 \\\\ &amp; \\sigma^{2}=66.2 \\\\ &amp; \\Rightarrow \\frac{\\alpha^{2}+\\beta^{2}+25678}{10}-(56)^{2}=66.2 \\\\ &amp; \\therefore \\alpha^{2}+\\beta^{2}=6344 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\alpha^{2}+\\beta^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:23.124662"
     },
@@ -1530,7 +1538,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the correct standard deviation, we first need to adjust the mean and sum of squares of the observations based on the correction of the erroneous entry. The original erroneous observation was 8, and the correct observation is 12. The mean and standard deviation of the 20 observations before correction were 10 and 2, respectively.</p>\n<p>The sum of all 20 original observations ( $S_{\\text{original}}$ ) can be calculated from the mean formula:\n\n<p> $\\text{Mean}=\\frac{\\text{Sum of all observations}}{\\text{Number of observations}}$ </p>\n<p> $10=\\frac{S_{\\text{original}}}{20}$ </p>\n<p> $S_{\\text{original}}=10 \\times 20=200$ </p></p>\n<p>The corrected sum of observations ( $S_{\\text{correct}}$ ) will replace the incorrect observation (8) with the correct one (12):\n\n<p> $S_{\\text{correct}}=S_{\\text{original}}-8+12=200-8+12=204$ </p></p>\n<p>The corrected mean ( $\\mu_{\\text{correct}}$ ) is:\n\n<p> $\\mu_{\\text{correct}}=\\frac{S_{\\text{correct}}}{20}=\\frac{204}{20}=10.2$ </p></p>\n<p>To find the corrected standard deviation, we need the sum of squares of the deviations from the mean for both the original and corrected data. The original sum of squares ( $SS_{\\text{original}}$ ) is calculated from the original standard deviation formula, where  $\\sigma=2$ :\n\n<p> $\\sigma^{2}=\\frac{SS}{n}$ </p>\n<p> $4=\\frac{SS_{\\text{original}}}{20}$ </p>\n<p> $SS_{\\text{original}}=4 \\times 20=80$ </p></p>\n<p>To calculate the corrected sum of squares ( $SS_{\\text{correct}}$ ), we need to adjust  $SS_{\\text{original}}$  by removing the square of the deviation of the incorrect observation and adding the square of the deviation of the correct observation:\n\n<p> $SS_{\\text{correct}}=SS_{\\text{original}}-(8-10)^{2}+(12-10.2)^{2}$ </p>\n<p> $SS_{\\text{correct}}=80-(-2)^{2}+(1.8)^{2}$ </p>\n<p> $SS_{\\text{correct}}=80-4+3.24=79.24$ </p></p>\n<p>Finally, the corrected standard deviation ( $\\sigma_{\\text{correct}}$ ) is:\n\n<p> $\\sigma_{\\text{correct}}=\\sqrt{\\frac{SS_{\\text{correct}}}{20}}$ </p>\n<p> $\\sigma_{\\text{correct}}=\\sqrt{\\frac{79.24}{20}}$ </p>\n<p> $\\sigma_{\\text{correct}}=\\sqrt{3.962}$ </p></p>\n<p>The corrected standard deviation is closest to the value given in Option B, which is\n\n<p> $\\sqrt{3.96}$ </p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{\\text{original}}",
@@ -1541,7 +1549,7 @@
         "S_{\\text{correct}}=S_{\\text{original}}-8+12=200-8+12=204"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:00.389111"
     },
@@ -1587,11 +1595,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; a,b,68,44,48,60 \\\\ &amp; \\text{Mean}=55a&gt;b \\\\ &amp; \\text{Variance}=194a+3b \\\\ &amp; \\frac{a+b+68+44+48+60}{6}=55 \\\\ &amp; \\Rightarrow 220+a+b=330 \\\\ &amp; \\therefore a+b=110\\dots..(1) \\end{aligned}$ </p>\n<p>Also,</p>\n<p> $\\begin{aligned} &amp; \\sum \\frac{(x_{i}-\\bar{x})^{2}}{n}=194 \\\\ &amp; \\Rightarrow (a-55)^{2}+(b-55)^{2}+(68-55)^{2}+(44-55)^{2} \\\\ &amp; +(48-55)^{2}+(60-55)^{2}=194 \\times 6 \\\\ &amp; \\Rightarrow (a-55)^{2}+(b-55)^{2}+169+121+49+25=1164 \\\\ &amp; \\Rightarrow (a-55)^{2}+(b-55)^{2}=1164-364=800 \\\\ &amp; a^{2}+3025-110a+b^{2}+3025-110b=800 \\\\ &amp; \\Rightarrow a^{2}+b^{2}=800-6050+12100 \\\\ &amp; a^{2}+b^{2}=6850\\dots\\dots..(2) \\end{aligned}$ </p>\n<p>Solve (1) &amp; (2);</p>\n<p> $\\begin{aligned} &amp; a=75,b=35 \\\\ &amp; \\therefore a+3b=75+3(35)=75+105=180 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:01.829535"
     },
@@ -1616,13 +1624,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; a,b,c \\in N \\\\ &amp; a&lt;b&lt;c \\\\ &amp; \\text{Mean}=18 \\\\ &amp; \\frac{9+25+a+b+c}{5}=18 \\\\ &amp; 34+a+b+c=90 \\\\ &amp; a+b+c=56 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{|9-18|+|25-18|+|a-18|+|b-18|+|c-18|}{5}=4 \\\\ &amp; 9+7+|a-18|+|b-18|+|c-18|=20 \\\\ &amp; |a-18|+|b-18|+|c-18|=4 \\\\ &amp; \\frac{136}{5}=\\frac{706+a^{2}+b^{2}+c^{2}}{5}-(18)^{2} \\\\ &amp; \\Rightarrow 136=706+a^{2}+b^{2}+c^{2}-1620 \\\\ &amp; \\Rightarrow a^{2}+b^{2}+c^{2}=1050 \\\\ &amp; \\text{Consider}a&lt;19&lt;b&lt;c \\\\ &amp; \\text{Solving}a=17,b=19,c=20 \\\\ &amp; 2a+b-c \\\\ &amp; 34+19-20 \\\\ &amp; =33 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{136}{5}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:22.361063"
     },
@@ -1647,7 +1655,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the incorrect mean be  $\\mu^{'}$  and standard deviation be  $\\sigma^{'}$ </p>\n<p>We have</p>\n<p> $\\mu^{'}=\\frac{\\Sigma x_{i}}{15}=12 \\Rightarrow \\Sigma x_{i}=180$ </p>\n<p>As per given information correct  $\\Sigma x_{i}=180-10+12$ </p>\n<p> $\\Rightarrow \\mu(\\text{correct mean})=\\frac{182}{15}$ </p>\n<p>Also</p>\n<p> $\\sigma^{'}=\\sqrt{\\frac{\\Sigma x_{i}^{2}}{15}-144}=3 \\Rightarrow \\Sigma x_{i}^{2}=2295$ </p>\n<p>Correct  $\\Sigma x_{i}^{2}=2295-100+144=2339$ </p>\n<p> $\\sigma^{2}(\\text{correct variance})=\\frac{2339}{15}-\\frac{182 \\times 182}{15 \\times 15}$ </p>\n<p>Required value</p>\n<p> $\\begin{aligned} &amp; =15(\\mu+\\mu^{2}+\\sigma^{2}) \\\\ &amp; =15(\\frac{182}{15}+\\frac{182 \\times 182}{15 \\times 15}+\\frac{2339}{15}-\\frac{182 \\times 182}{15 \\times 15}) \\\\ &amp; =15(\\frac{182}{15}+\\frac{2339}{15}) \\\\ &amp; =2521 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\sigma^{2}",
@@ -1658,7 +1666,7 @@
         "\\Sigma x_{i}=180-10+12"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:23.149662"
     },
@@ -1704,11 +1712,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Mean}=\\frac{-3+4+7+(-6)+\\alpha+\\beta}{6}=2 \\\\ &amp; \\Rightarrow \\alpha+\\beta=10 \\\\ &amp; \\text{Variance}=\\frac{\\sum x_{i}^{2}}{n}-(\\frac{\\bar{x}}{n})^{2}=23 \\\\ &amp; \\Rightarrow \\sum x_{i}^{2}=27 \\times 6 \\\\ &amp; \\Rightarrow 9+16+49+36+\\alpha^{2}+\\beta^{2}=162 \\\\ &amp; \\Rightarrow \\alpha^{2}+\\beta^{2}=52 \\end{aligned}$ </p>\n<p>We get  $\\alpha$  and  $\\beta$  as 4 and 6</p>\n<p>So, mean deviation about mean</p>\n<p> $\\begin{aligned} &amp; =\\frac{|-3-2|+|4-2|+|7-2|+|-6-2|+|4-2|+|6-2|}{6} \\\\ &amp; =\\frac{5+2+5+8+2+4}{6} \\\\ &amp; =\\frac{13}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:00.425327"
     },
@@ -1754,11 +1762,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 456px\">\n<colgroup>\n<col style=\"width: 141px\"/>\n<col style=\"width: 153px\"/>\n<col style=\"width: 162px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">Class</th>\n<th class=\"tg-amwm\">Frequency</th>\n<th class=\"tg-amwm\">Cumulative<br/>frequency</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">0-4</td>\n<td class=\"tg-baqh\">3</td>\n<td class=\"tg-baqh\">3</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">4-8</td>\n<td class=\"tg-baqh\">9</td>\n<td class=\"tg-baqh\">12</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">8-12</td>\n<td class=\"tg-baqh\">10</td>\n<td class=\"tg-baqh\">22</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">12-16</td>\n<td class=\"tg-baqh\">8</td>\n<td class=\"tg-baqh\">30</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">16-20</td>\n<td class=\"tg-baqh\">6</td>\n<td class=\"tg-baqh\">36</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; M=1+(\\frac{\\frac{N}{2}-C}{f})h \\\\ &amp; M=8+\\frac{18-12}{10} \\times 4 \\\\ &amp; M=10.4 \\\\ &amp; 20M=208 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Measures of Central Tendency & Median",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:01.897174"
     },
@@ -1783,7 +1791,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mean  $(\\mu)=\\Sigma x_{i}P(x_{i})$ </p>\n<p>Standard deviation  $(\\sigma)=\\sqrt{(\\Sigma x_{i}^{2}P(x_{i}))-\\mu^{2}}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\mu=\\frac{1}{3}\\alpha+K-\\frac{3}{4} \\\\ &amp; \\sigma=\\sqrt{(\\frac{1}{3}\\alpha^{2}+K+0+\\frac{9}{4})-(\\frac{1}{3}\\alpha+K-\\frac{3}{4})^{2}} \\\\ &amp; \\because \\Sigma P_{i}=1 \\Rightarrow \\frac{1}{3}+K+\\frac{1}{6}+\\frac{1}{4}=1 \\\\ &amp; \\Rightarrow K=\\frac{1}{4} \\Rightarrow \\mu=\\frac{1}{3}\\alpha-\\frac{1}{2} \\\\ &amp; \\because \\sigma-\\mu=2 \\\\ &amp; \\sigma^{2}=(\\mu+2)^{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{1}{3}\\alpha^{2}+\\frac{5}{2}-\\mu^{2}=(\\mu+2)^{2} \\\\ &amp; \\frac{1}{3}\\alpha^{2}+\\frac{5}{2}=(\\frac{1}{3}\\alpha-\\frac{1}{2})^{2}+(\\frac{1}{3}\\alpha+\\frac{3}{2})^{2} \\\\ &amp; \\Rightarrow \\alpha=0,6 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{If}\\alpha=0,K=\\frac{1}{4} &amp; \\text{If}\\alpha=6,K=\\frac{1}{4} \\\\ \\mu=-\\frac{1}{2},\\sigma=\\frac{3}{2} &amp; \\mu=\\frac{3}{2},\\sigma=\\frac{7}{2} \\\\ \\sigma+\\mu=1 &amp; \\sigma+\\mu=5 \\end{aligned}$ </p>\n<p>Both (1) and (5) are correct but according to NTA\n(5) is correct</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{1}{3}",
@@ -1794,7 +1802,7 @@
         "(\\sigma)=\\sqrt{(\\Sigma x_{i}^{2}P(x_{i}))-\\mu^{2}}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:22.389782"
     },
@@ -1840,7 +1848,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 339px\">\n<colgroup>\n<col style=\"width: 82px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 86px\"/>\n<col style=\"width: 88px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $x_{i}$ </th>\n<th class=\"tg-baqh\"> $f(x_{i})$ </th>\n<th class=\"tg-baqh\"> $x(f(x)$ </th>\n<th class=\"tg-baqh\"> $x^{2}f(x)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">C</td>\n<td class=\"tg-baqh\">2</td>\n<td class=\"tg-baqh\">2C</td>\n<td class=\"tg-baqh\">2C $^{2}$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">2C</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">2C</td>\n<td class=\"tg-baqh\">4C $^{2}$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">3C</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">3C</td>\n<td class=\"tg-baqh\">9C $^{2}$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">4C</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">4C</td>\n<td class=\"tg-baqh\">16C $^{2}$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">5C</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">5C</td>\n<td class=\"tg-baqh\">25C $^{2}$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">6C</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">6C</td>\n<td class=\"tg-baqh\">36C $^{2}$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; \\sigma^{2}=E(x^{2})-[E(x)],\\sum f(x_{i})=7 \\\\ &amp; E(x)=\\sum xf(x)=22C \\\\ &amp; E(x^{2})=\\sum x^{2}f(x)=92C^{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\sigma^{2}=160=\\frac{92C^{2}}{7}-(\\frac{22C}{7})^{2} \\\\ &amp; \\Rightarrow C= \\pm 7\\text{but}C \\in N \\\\ &amp; \\Rightarrow C=7 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x_{i})",
@@ -1848,7 +1856,7 @@
         "^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:46:59.392684"
     },
@@ -1894,7 +1902,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have given  $\\bar{x}($  mean  $)=\\frac{6}{5}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Variance}=\\frac{84}{25} \\\\ \\\\ &amp; \\sum_{i=1}^{10}(x_{i}-\\alpha)=2 \\\\ \\\\ &amp; \\Rightarrow x_{1}+x_{2}+\\dots+x_{10}-10\\alpha=2 \\\\ \\\\ &amp; \\Rightarrow \\frac{x_{1}+x_{2}+\\dots+x_{10}}{10}-\\alpha=\\frac{2}{10} \\\\ \\\\ &amp; \\Rightarrow \\frac{6}{5}-\\alpha=\\frac{2}{10} \\\\ \\\\ &amp; \\Rightarrow \\alpha=1 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{and}\\sum_{i=1}^{10}(x_{i}-\\beta)^{2}=40 \\\\ \\\\ &amp; (x_{1}-\\beta)^{2}+(x_{2}-\\beta)^{2}+\\dots+(x_{10}-\\beta)^{2}=40 \\\\ \\\\ &amp; x_{1}^{2}+x_{2}^{2}+\\dots+x_{10}^{2}+10\\beta^{2}-2\\beta(x_{1}+x_{2}+\\dots+x_{10})=40 \\\\ \\\\ &amp; \\Rightarrow \\frac{x_{1}^{2}+x_{2}^{2}+\\dots+x_{10}^{2}}{10}+\\beta^{2}-\\frac{2\\beta(x_{1}+x_{2}+\\dots+x_{10})}{10}=4 \\\\ \\\\ &amp; \\Rightarrow \\frac{x_{1}^{2}+x_{2}^{2}+\\dots+x_{10}^{2}}{10}-\\frac{36}{25}+\\frac{36}{25}+\\beta^{2}-2\\beta \\times \\frac{6}{5}=4 \\end{aligned}$ \n<br/><br/> $[$  Variance  $=\\frac{\\sum_{n}^{i=1}x_{i}^{2}}{n}-(\\bar{x})^{2}]$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{84}{25}+\\frac{36}{25}+\\beta^{2}-\\frac{12\\beta}{5}-4=0 \\\\ \\\\ &amp; \\Rightarrow \\frac{120}{25}+\\beta^{2}-\\frac{12\\beta}{5}-4=0 \\\\ \\\\ &amp; \\Rightarrow 25\\beta^{2}-60\\beta+20=0 \\\\ \\\\ &amp; \\Rightarrow 5\\beta^{2}-12\\beta+4=0 \\\\ \\\\ &amp; \\Rightarrow \\beta=2,\\frac{2}{5} \\end{aligned}$ \n<br/><br/>Take  $\\beta=2$ \n<br/><br/> $\\frac{\\beta}{\\alpha}=\\frac{2}{1}=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1},x_{2},\\dots,x_{10}",
@@ -1905,7 +1913,7 @@
         "\\frac{\\beta}{\\alpha}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:00.481898"
     },
@@ -1951,7 +1959,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\bar{X}=\\frac{24}{5};\\sigma^{2}=\\frac{194}{25}$ </p>\n<p>Let first four observation be  $x_{1},x_{2},x_{3},x_{4}$ </p>\n<p>Here,  $\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}=\\frac{24}{5}$ . ..... (1)</p>\n<p>Also,  $\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}=\\frac{7}{2}$ </p>\n<p> $\\Rightarrow x_{1}+x_{2}+x_{3}+x_{4}=14$ </p>\n<p>Now from eqn -1</p>\n<p> $x_{5}=10$ </p>\n<p>Now,  $\\sigma^{2}=\\frac{194}{25}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}}{5}-\\frac{576}{25}=\\frac{194}{25} \\\\ &amp; \\Rightarrow x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}=54 \\end{aligned}$ </p>\n<p>Now, variance of first 4 observations</p>\n<p> $\\begin{aligned} Var &amp; =\\frac{\\sum_{i=1}^{4}x_{i}^{2}}{4}-⎛⎝⎜\\frac{\\sum_{i=1}^{4}x_{i}}{4}⎞⎠⎟^{2} \\\\ &amp; =\\frac{54}{4}-\\frac{49}{4}=\\frac{5}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{24}{5}",
@@ -1962,7 +1970,7 @@
         "\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}=\\frac{24}{5}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:01.957542"
     },
@@ -1987,7 +1995,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 519px\">\n<colgroup>\n<col style=\"width: 94px\"/>\n<col style=\"width: 123px\"/>\n<col style=\"width: 99px\"/>\n<col style=\"width: 203px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $x_{i}$ </th>\n<th class=\"tg-baqh\"> $f_{i}$ </th>\n<th class=\"tg-baqh\"> $f_{i}x_{i}$ </th>\n<th class=\"tg-baqh\"> $f_{i}x_{i}^{2}$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">0</td>\n<td class=\"tg-baqh\">3</td>\n<td class=\"tg-baqh\">0</td>\n<td class=\"tg-baqh\">0</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">2</td>\n<td class=\"tg-baqh\">2</td>\n<td class=\"tg-baqh\">2</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">5</td>\n<td class=\"tg-baqh\">3</td>\n<td class=\"tg-baqh\">15</td>\n<td class=\"tg-baqh\">75</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">6</td>\n<td class=\"tg-baqh\">2</td>\n<td class=\"tg-baqh\">12</td>\n<td class=\"tg-baqh\">72</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">10</td>\n<td class=\"tg-baqh\">6</td>\n<td class=\"tg-baqh\">60</td>\n<td class=\"tg-baqh\">600</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">12</td>\n<td class=\"tg-baqh\">3</td>\n<td class=\"tg-baqh\">36</td>\n<td class=\"tg-baqh\">432</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">17</td>\n<td class=\"tg-baqh\">3</td>\n<td class=\"tg-baqh\">51</td>\n<td class=\"tg-baqh\">867</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"> $\\Sigma f_{i}=22$ </td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"> $\\Sigma f_{i}x_{i}^{2}=2048$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; \\therefore \\Sigma f_{i}X_{i}=176 \\\\ &amp; \\text{So}\\bar{x}=\\frac{\\sum f_{i}x_{i}}{\\sum f_{i}}=\\frac{176}{22}=8 \\\\ &amp; \\text{for}\\sigma^{2}=\\frac{1}{N}\\sum f_{i}x_{i}^{2}-(\\bar{x})^{2} \\\\ &amp; =\\frac{1}{22} \\times 2048-(8)^{2} \\\\ &amp; =93.090964 \\\\ &amp; =29.0909 \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\sigma^{2}",
@@ -1998,7 +2006,7 @@
         "\\Sigma f_{i}=22"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:22.418031"
     },
@@ -2044,7 +2052,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,  $\\Sigma f_{i}=62$ \n<br/><br/> $\\begin{aligned} &amp; (K+2)+2K+(K^{2}-1))+(K^{2}-1)+(K^{2}+1)+(K-3)=62 \\\\ \\\\ &amp; \\Rightarrow 3K^{2}+4K-64=0 \\\\ \\\\ &amp; \\Rightarrow (3K+16)(K-4)=0 \\\\ \\\\ &amp; \\Rightarrow K=4 \\end{aligned}$ \n<br/><br/> $( \\because k=\\frac{-16}{3}\\text{is not possible})$ \n<br/><br/> $\\begin{aligned} x_{i} &amp; f_{i} &amp; f_{i}x_{i} &amp; f_{i}x_{i}^{2} \\\\ 0 &amp; 6 &amp; 0 &amp; 0 \\\\ 1 &amp; 8 &amp; 8 &amp; 8 \\\\ 2 &amp; 15 &amp; 30 &amp; 60 \\\\ 3 &amp; 15 &amp; 45 &amp; 135 \\\\ 4 &amp; 17 &amp; 68 &amp; 272 \\\\ 5 &amp; 1 &amp; 5 &amp; 25 \\\\ \\text{Total} &amp; 62 &amp; 156 &amp; 500 \\end{aligned}$ \n<br/><br/> $\\mu=\\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}}=\\frac{0+8+30+45+68+5}{62}=\\frac{156}{62}$ \n<br/><br/> $\\begin{aligned} \\sigma^{2}= &amp; \\frac{\\Sigma f_{i}x_{i}^{2}}{\\Sigma f_{i}}-(\\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}})^{2} \\\\ \\\\ = &amp; \\frac{1 \\times 8+4 \\times 15+9 \\times 15+16 \\times 17+25 \\times 1}{62}-(\\frac{156}{62})^{2} \\\\ \\\\ &amp; =\\frac{500}{62}-(\\frac{156}{62})^{2}=\\frac{500}{62}-\\mu^{2} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore \\sigma^{2}+\\mu^{2}=\\frac{500}{62} \\\\ \\\\ &amp; \\text{Hence,}[\\sigma^{2}+\\mu^{2}]=8 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{i}",
@@ -2055,7 +2063,7 @@
         "[\\mu^{2}+\\sigma^{2}]"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:04.324803"
     },
@@ -2101,11 +2109,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let observation  $1,3,5,a,b$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Mean}=\\frac{9+a+b}{5}=5 \\\\ \\\\ &amp; \\text{Variance}=\\frac{a^{2}+b^{2}+35}{5}-25=8 \\\\ \\\\ &amp; \\Rightarrow a+b=16\\text{and}a^{2}+b^{2}=130 \\\\ \\\\ &amp; \\therefore a\\text{and}b\\text{are}7\\text{and}9 \\\\ \\\\ &amp; \\therefore a^{3}+b^{3}=7^{3}+9^{3}=1072 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:05.598635"
     },
@@ -2151,14 +2159,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\bar{x}=10&amp;\\sigma^{2}=4$ , No. of students  $=N$  (let)\n<br/><br/>\n $\\therefore \\frac{\\sum x_{i}}{N}=10&amp;\\frac{\\sum x_{i}^{2}}{N}-(10)^{2}=4$ \n<br/><br/>\nNow if one of  $x_{i}$  is changed from 8 to 12 we have\n<br/><br/>\nNew mean  $\\frac{\\sum x_{i}+4}{N}=10+\\frac{4}{N}=10.2$ \n<br/><br/>\n $\\Rightarrow N=20$ \n<br/><br/>\nand  $\\sigma_{\\text{new}}^{2}=\\frac{\\sum x_{i}^{2}-(8)^{2}+(12)^{2}}{20}-(10 \\cdot 2)^{2}$ \n<br/><br/>\n $\\begin{aligned} &amp; =\\frac{\\sum x_{i}^{2}}{20}+\\frac{144-64}{20}-(10 \\cdot 2)^{2} \\\\ \\\\ &amp; =104+4-(10 \\cdot 2)^{2} \\\\ \\\\ &amp; =108-104.04=3.96 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=10&\\sigma^{2}=4",
         "\\Rightarrow N=20"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:06.703939"
     },
@@ -2183,7 +2191,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since  $a_{1},a_{2},a_{3},a_{4},a_{5}$  are in geometric progression, we can write :\n\n<br/><br/> $a_{2}=ra$ , \n\n<br/><br/> $a_{3}=r^{2}a$ ,\n\n<br/><br/> $a_{4}=r^{3}a$ ,\n\n<br/><br/> $a_{5}=r^{4}a$ .\n\n<br/><br/>where  $r$  is the common ratio and  $a_{1}$  =  $a$  is the first term.\n\n<br/><br/>Given that the mean of the series is  $\\frac{31}{10}$ , we get\n\n<br/><br/> $\\frac{1}{5}(a_{1}+a_{2}+a_{3}+a_{4}+a_{5})=\\frac{31}{10}$ \n<br/><br/>Substituting the terms with the values of  $a_{1}$  and  $r$  gives\n\n<br/><br/> $\\frac{1}{5}(a+ra+r^{2}a+r^{3}a+r^{4}a)=\\frac{31}{10}$ \n<br/><br/>Simplifying this gives \n\n<br/><br/> $a(1+r+r^{2}+r^{3}+r^{4})=\\frac{31}{2}$ \n<br/><br/> $\\begin{aligned} &amp; \\frac{a(r^{5}-1)}{r-1}=\\frac{31}{2}......(1) \\\\ \\\\ &amp; \\frac{1}{a}(1+\\frac{1}{r}+\\frac{1}{r^{2}}+\\frac{1}{r^{3}}+\\frac{1}{r^{4}})=\\frac{31}{40} \\cdot 5=\\frac{31}{8} \\\\ \\\\ &amp; \\frac{1}{a}(\\frac{1-(\\frac{1}{r})^{5}}{1-\\frac{1}{r}})=\\frac{31}{8} \\\\ \\\\ &amp; \\text{or}\\frac{1}{a}(\\frac{r^{5}-1}{r-1})\\frac{1}{r^{4}}=\\frac{31}{8}.........(2) \\end{aligned}$ \n<br/><br/>From (1) and (2)\n<br/><br/> $\\frac{1}{a} \\cdot \\frac{31}{2a} \\cdot \\frac{1}{r^{4}}=\\frac{31}{8}$ \n<br/><br/> $ar^{2}=2$ \n<br/><br/>From (1)\n<br/><br/> $\\begin{aligned} &amp; \\frac{2}{r^{2}}(\\frac{r^{5}-1}{r-1})=\\frac{31}{2} \\\\ \\\\ &amp; \\frac{1+r+r^{2}+r^{3}+r^{4}}{r^{2}}=\\frac{31}{4} \\\\ \\\\ &amp; (r^{2}+\\frac{1}{r^{2}})+(r+\\frac{1}{r})=\\frac{27}{4} \\\\ \\\\ &amp; t^{2}-2+t=\\frac{27}{4} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; 4t^{2}+4t-35=0 \\\\ \\\\ &amp; 4t^{2}+14t-10t-35=0 \\\\ \\\\ &amp; (2t-5)(2t+7)=0 \\\\ \\\\ &amp; t=\\frac{5}{2},\\frac{-7}{2} \\Rightarrow r=2 \\\\ \\\\ &amp; \\therefore r=2,a=\\frac{1}{2} \\end{aligned}$ \n<br/><br/> $\\text{Variance of data set}{\\frac{1}{2},1,2,4,8}$ \n<br/><br/> $\\therefore \\sigma^{2}=\\frac{\\sum X^{2}}{N}-(\\frac{\\sum X}{N})^{2}$ \n<br/><br/> $\\begin{aligned} &amp; =\\frac{(\\frac{341}{4})}{5}-(\\frac{31}{10})^{2} \\\\ \\\\ &amp; =\\frac{341}{20}-\\frac{961}{100}=\\frac{1705-961}{100} \\\\ \\\\ &amp; =\\frac{744}{100} \\end{aligned}$ \n<br/><br/> $=\\frac{186}{25}=\\frac{m}{n} \\Rightarrow 211=m+n$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "a_{1},a_{2},a_{3},a_{4}",
@@ -2194,7 +2202,7 @@
         "="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:24.609055"
     },
@@ -2240,7 +2248,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->1. Calculate the sum of the original observations:\n<br/><br/> $\\frac{x_{1}+x_{2}+\\dots+x_{9}+50}{10}=20$ \n<br/><br/> $x_{1}+x_{2}+\\dots+x_{9}=150$ \n<br/><br/>2. Calculate the sum of the squares of the original observations using the original variance:\n<br/><br/> $\\sigma^{2}=8^{2}=64$ \n<br/><br/> $64=\\frac{x_{1}^{2}+x_{2}^{2}+\\dots+x_{9}^{2}+2500}{10}-400$ \n<br/><br/> $x_{1}^{2}+x_{2}^{2}+\\dots+x_{9}^{2}=2140$ \n<br/><br/>3. Calculate the new mean after correcting the error:\n<br/><br/> $\\text{New mean}=\\frac{150+40}{10}=19$ \n<br/><br/>4. Calculate the new variance using the corrected sum of observations and the corrected sum of squares of observations:\n<br/><br/> $\\text{New}\\sigma^{2}=\\frac{2140+1600}{10}-(19)^{2}$ \n<br/><br/> $\\Rightarrow$   $\\sigma^{2}=13$ \n<br/><br/>The correct variance after correcting the error is 13 (Option C).<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x_{1}+x_{2}+\\dots+x_{9}+50}{10}=20",
@@ -2251,7 +2259,7 @@
         "\\text{New mean}=\\frac{150+40}{10}=19"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:03.054004"
     },
@@ -2297,14 +2305,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{Since, Mean}=\\frac{9}{2} \\\\ \\\\ &amp; \\Rightarrow \\Sigma x=\\frac{9}{2} \\times 12=54 \\end{aligned}$ \n<br/><br/>Also, variance  $=4$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{\\sum x^{2}}{12}=[\\frac{\\sum x_{i}}{12}]^{2}=4 \\\\ \\\\ &amp; \\Rightarrow \\frac{\\sum x^{2}}{12}=4+\\frac{81}{4}=\\frac{97}{4} \\\\ \\\\ &amp; \\Rightarrow \\sum x^{2}=291 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\sum x^{'}=54-(9+10)+7+14 \\\\ \\\\ &amp; =54-19+21=56 \\\\ \\\\ &amp; \\text{and}\\sum x^{2}=291-(81+100)+49+196 \\\\ \\\\ &amp; =291-181+49+196=355 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{So,}\\sigma_{\\text{new}}^{2}=\\frac{\\sum x_{\\text{new}}^{2}}{12}-(\\frac{\\sum x_{\\text{new}}}{12})^{2} \\\\ \\\\ &amp; =\\frac{355}{12}-(\\frac{56}{12})^{2} \\\\ \\\\ &amp; =\\frac{4260-3136}{144}=\\frac{1124}{144}=\\frac{281}{36} \\\\ \\\\ &amp; =\\frac{m}{n} \\\\ \\\\ &amp; \\Rightarrow m=281,n=36 \\\\ \\\\ &amp; \\Rightarrow m+n=281+36=317 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{9}{2}",
         "\\frac{m}{n}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:04.391335"
     },
@@ -2350,11 +2358,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} A &amp; B &amp; A+B \\\\ \\bar{x}_{1}=40 &amp; \\bar{x}_{2}=55 &amp; \\bar{x}=50 \\\\ \\sigma_{1}=\\alpha &amp; \\sigma_{2}=30-\\alpha &amp; \\sigma^{2}=350 \\\\ n_{1}=100 &amp; n_{2}=n &amp; 100+n \\\\ \\\\ \\bar{x}=\\frac{100 \\times 40+55n}{100+n} &amp; \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; 5000+50n=4000+55n \\\\ \\\\ &amp; 1000=5n \\\\ \\\\ &amp; n=200 \\\\ \\\\ &amp; \\sigma_{1}^{2}=\\frac{\\sum x_{i}^{2}}{100}-40^{2} \\\\ \\\\ &amp; \\sigma_{2}^{2}=\\frac{\\sum x_{j}^{2}}{100}-55^{2} \\\\ \\\\ &amp; 350=\\sigma^{2}=\\frac{\\sum x_{i}^{2}+\\sum x_{j}^{2}}{300}-(\\bar{x})^{2} \\\\ \\\\ &amp; 350=\\frac{(1600+\\alpha^{2}) \\times 100+[(30-\\alpha)^{2}+3025] \\times 200}{300}-(50)^{2} \\\\ \\\\ &amp; 2850 \\times 3=\\alpha^{2}+2(30-\\alpha)^{2}+1600+6050 \\\\ \\\\ &amp; 8550=\\alpha^{2}+2(30-\\alpha)^{2}+7650 \\\\ \\\\ &amp; \\alpha^{2}+2(30-\\alpha)^{2}=900 \\\\ \\\\ &amp; \\alpha^{2}-40\\alpha+300=0 \\\\ \\\\ &amp; \\alpha=10,30 \\\\ \\\\ &amp; \\sigma_{1}^{2}+\\sigma_{2}^{2}=10^{2}+20^{2}=500 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:05.649822"
     },
@@ -2400,7 +2408,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $a_{1},a_{2},a_{3},a_{4},a_{5},a_{6}$  are in AP.</p>\n<p>Let</p>\n<p> $a_{1}=a$ </p>\n<p> $a_{2}=a+d$ </p>\n<p> $a_{3}=a+2d$ </p>\n<p> $a_{4}=a+3d$ </p>\n<p> $a_{5}=a+4d$ </p>\n<p> $a_{6}=a+5d$ </p>\n<p>Now Mean of  $a_{1},a_{2},a_{3},a_{4},a_{5}$  and  $a_{6}$  is</p>\n<p> $=\\frac{a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}}{6}=\\frac{19}{2}$ </p>\n<p> $\\Rightarrow \\frac{6a+15d}{6}=\\frac{19}{2}$ </p>\n<p> $\\Rightarrow 2a+5d=19$  ...... (1)</p>\n<p>Also, given,</p>\n<p> $a_{1}+a_{3}=10$ </p>\n<p> $\\Rightarrow a+a+2d=10$ </p>\n<p> $\\Rightarrow 2a+2d=10$ </p>\n<p> $\\Rightarrow a+d=5$  ..... (2)</p>\n<p>From equation (1) and (2), we get  $a=2$  and  $d=3$ </p>\n<p> $\\therefore$  AP is 2, 5, 8, 11, 14, 17</p>\n<p>Now, Variance  $(\\sigma^{2})=\\frac{\\sum x_{i}^{2}}{6}-(\\bar{x})^{2}$ </p>\n<p> $=\\frac{2^{2}+5^{2}+8^{2}+11^{2}+14^{2}+17^{2}}{6}-(\\frac{19}{2})^{2}$ </p>\n<p> $=\\frac{105}{4}$ </p>\n<p> $\\therefore$   $8\\sigma^{2}=8 \\times \\frac{105}{4}=210$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "a_{1},a_{2},a_{3},a_{4},a_{5},a_{6}",
@@ -2411,7 +2419,7 @@
         "a_{2}=a+d"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:06.734627"
     },
@@ -2436,13 +2444,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given mean is 28\n<br/><br/> $\\begin{aligned} \\text{So,}\\frac{2 \\times 5+3 \\times 15+x \\times 25+5 \\times 35+4 \\times 45}{14+x}=28 \\\\ \\\\ \\Rightarrow \\frac{10+45+25x+175+180}{14+x}=28 \\\\ \\\\ \\Rightarrow 310+25x=392+28x \\\\ \\\\ \\Rightarrow 3x=18 \\Rightarrow x=6 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore \\text{Variance}=(\\frac{\\sum x_{i}^{2}f_{i}}{\\sum f_{i}})-(\\text{mean})^{2} \\\\ \\\\ &amp; =(\\frac{2 \\times 5^{2}+3 \\times 15^{2}+6 \\times 25^{2}+5 \\times 35^{2}+4 \\times 45^{2}}{20})-(28)^{2} \\\\ \\\\ &amp; =(\\frac{50+675+3750+6125+8100}{20})-(28)^{2} \\\\ \\\\ &amp; =(\\frac{18700}{20})-(28)^{2} \\\\ \\\\ &amp; =935-784=151 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "5 4 is 28, then its variance is __________. Given mean is 28"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:24.633740"
     },
@@ -2488,7 +2496,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the mean of the observations  $x,y,1,2,4,5$  is 5, we get the equation:</p>\n<p> $x+y+1+2+4+5=6 \\cdot 5 \\Rightarrow x+y=18$  .......... $(1)$ </p>\n<p>We are also given that the variance of the observations is 10. Using the formula for variance, we have:</p>\n<p> $V=\\frac{\\Sigma x_{i}^{2}}{n}-\\bar{x}^{2}$ , where  $n$  is the number of observations, and  $\\bar{x}$  is the mean.</p>\n<p>Substituting the given values in the variance formula, we get:</p>\n<p> $10=\\frac{\\Sigma x_{i}^{2}}{6}-5^{2}=\\frac{\\Sigma x_{i}^{2}}{6}-25 \\Rightarrow \\Sigma x_{i}^{2}=210$ .</p>\n<p>Here,  $\\Sigma x_{i}^{2}$  is the sum of the squares of all the observations, thus:</p>\n<p> $x^{2}+y^{2}+1+4+16+25=210 \\Rightarrow x^{2}+y^{2}=164$  ......... $(2)$ </p>\n<p>By solving the system of equations  $(1)$  and  $(2)$ , we get  $x=8$  and  $y=10$ .</p>\n<p>Now, the mean deviation about the mean ( $\\bar{x}=5$ ) is calculated by taking the average of the absolute differences of each observation from the mean:</p>\n<p> $MD(5)=\\frac{1}{6}[|1-5|+|2-5|+|4-5|+|5-5|+|8-5|+|10-5|]=\\frac{16}{6}=\\frac{8}{3}$ .</p>\n<p>So, the mean deviation about the mean is  $\\frac{8}{3}$ , and the correct answer is Option B,  $\\frac{8}{3}$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "x+y+1+2+4+5=6 \\cdot 5 \\Rightarrow x+y=18",
@@ -2497,7 +2505,7 @@
         "\\frac{8}{3}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:03.124568"
     },
@@ -2543,7 +2551,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know that if  $n_{1},n_{2}$  are the sizes,  $\\bar{X}_{1},\\bar{X}_{2}$  are the means and  $\\sigma_{1},\\sigma_{2}$  are the standard deviation of the series, then the combine variance of the series.\n<br/><br/> $\\begin{aligned} &amp; \\sigma^{2}=\\frac{n_{1}\\sigma_{1}^{2}+n_{2}\\sigma_{2}^{2}}{n_{1}+n_{2}}+\\frac{n_{1} \\cdot n_{2}}{(n_{1}+n_{2})^{2}}(\\bar{X}_{1}-\\bar{X}_{2})^{2} \\\\ \\\\ &amp; \\Rightarrow 13=\\frac{15 \\times 14+15 \\times \\sigma^{2}}{15+15}+\\frac{15 \\times 15}{(15+15)^{2}}(12-14)^{2} \\\\ \\\\ &amp; \\Rightarrow 13=\\frac{14+\\sigma^{2}}{2}+\\frac{1}{4} \\times 4 \\\\ \\\\ &amp; \\Rightarrow 14+\\sigma^{2}=2 \\times 12 \\\\ \\\\ &amp; \\Rightarrow \\sigma^{2}=10 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sigma^{2}",
@@ -2552,7 +2560,7 @@
         "\\sigma_{1},\\sigma_{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:04.458000"
     },
@@ -2598,14 +2606,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{1}=a \\Rightarrow a_{2}=a+1,.....a_{100}=a+90$ </p>\n<p> $\\mu=\\frac{\\frac{100a+(99 \\times 100)}{2}}{100}=a+\\frac{99}{2}$ </p>\n<p>M.D  $=\\frac{\\sum |a_{1}-\\mu|}{100}=\\frac{(\\frac{99}{2}+\\frac{97}{2}+...+\\frac{1}{2})^{2}}{100}=\\frac{2500}{100}=25$ </p>\n<p> $\\therefore$   $a \\rightarrow z$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "a_{1},a_{2},a_{3},\\dots.,a_{100}",
         "\\mu=\\frac{\\frac{100a+(99 \\times 100)}{2}}{100}=a+\\frac{99}{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:05.706082"
     },
@@ -2630,7 +2638,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol>\n<li>The initial mean is given by:</li>\n</ol>\n<p> $\\bar{x}=50$ </p>\n<p>So, the total sum of the marks initially was:</p>\n<p> $\\sum x_{i}=\\bar{x} \\times n=50 \\times 10=500$ </p>\n<ol>\n<li>We later realize that two marks were incorrectly read as 45 and 50, when they should have been 20 and 25. Therefore, the corrected sum of the marks is:</li>\n</ol>\n<p> $\\sum x_{i\\text{correct}}=\\sum x_{i}-45-50+20+25=500-45-50+20+25=450$ </p>\n<ol>\n<li>The initial variance is given as:</li>\n</ol>\n<p> $\\sigma^{2}=144$ </p>\n<p>We know that variance is calculated as the mean of the squares minus the square of the mean. Therefore, rearranging gives:</p>\n<p> $\\frac{\\sum x_{i}^{2}}{n}=\\sigma^{2}+\\bar{x}^{2}=144+50^{2}=2644$ </p>\n<p>Then, the sum of the squares of the initial marks is:</p>\n<p> $\\sum x_{i}^{2}=n \\times \\frac{\\sum x_{i}^{2}}{n}=10 \\times 2594=26440$ </p>\n<ol>\n<li>The corrected sum of the squares of the marks is calculated by subtracting the squares of the incorrect marks and adding the squares of the correct marks:</li>\n</ol>\n<p> $\\sum x_{i\\text{correct}}^{2}=\\sum x_{i}^{2}-45^{2}-50^{2}+20^{2}+25^{2}=26400-45^{2}-50^{2}+20^{2}+25^{2}=22940$ </p>\n<ol>\n<li>Now we can calculate the corrected variance. The variance is the mean of the squares minus the square of the mean. Using the corrected values gives:</li>\n</ol>\n<p> $\\sigma_{\\text{correct}}^{2}=\\frac{\\sum x_{i\\text{correct}}^{2}}{n}-(\\frac{\\sum xi_{\\text{correct}}}{n})^{2}=\\frac{22940}{10}-(\\frac{450}{10})^{2}=2294-45^{2}=2294-2025=269$ </p>\n<p>Therefore, the correct variance is 269.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\bar{x}=50",
@@ -2641,7 +2649,7 @@
         "\\sum x_{i}^{2}=n \\times \\frac{\\sum x_{i}^{2}}{n}=10 \\times 2594=26440"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:23.174813"
     },
@@ -2666,13 +2674,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} x_{i} &amp; (x_{i}-\\bar{x}) &amp; (x_{i}-\\bar{x})^{2} \\\\ x &amp; x-9 &amp; (x-9)^{2} \\\\ y &amp; y-9 &amp; (y-9)^{2} \\\\ 10 &amp; 1 &amp; 1 \\\\ 12 &amp; 3 &amp; 9 \\\\ 6 &amp; -3 &amp; 9 \\\\ 12 &amp; 3 &amp; 9 \\\\ 4 &amp; -5 &amp; 25 \\\\ 8 &amp; -1 &amp; 1 \\\\ x+y+92 &amp; &amp; (x-9)^{2}+(y-9)^{2}+54 \\end{aligned}$ \n<br/><br/>Now, mean  $(\\bar{x})=9$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{x+y+52}{8}=9 \\\\ \\\\ &amp; \\Rightarrow x+y=20 \\end{aligned}$ \n<br/><br/>Also, variance  $=9.25$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{(x-9)^{2}+(y-9)^{2}+54}{8}=9.25 \\\\ \\\\ &amp; \\Rightarrow x^{2}+y^{2}+81+81-2 \\times 9(x+y)=20 \\\\ \\\\ &amp; \\Rightarrow x^{2}+y^{2}-18 \\times 20=-142 \\\\ \\\\ &amp; \\Rightarrow x^{2}+y^{2}=218 \\\\ \\\\ &amp; \\Rightarrow x^{2}+(20-x)^{2}=218 \\\\ \\\\ &amp; \\Rightarrow x^{2}+400+x^{2}-40x=218 \\\\ \\\\ &amp; \\Rightarrow 2x^{2}-40x+182=0 \\\\ \\\\ &amp; \\Rightarrow x=\\frac{40 \\pm 12}{4} \\\\ \\\\ &amp; \\Rightarrow x=13\\text{or}x=7 \\Rightarrow y=7\\text{or}y=13 \\\\ \\\\ &amp; \\text{But}x&gt;y \\\\ \\\\ &amp; \\therefore x=13\\text{and}y=7 \\\\ \\\\ &amp; \\text{So,}3x-2y=39-14=25 \\end{aligned}$ \n<br/><br/><b>Concept :</b>\n<br/><br/>(a) Mean  $=\\frac{\\Sigma x_{i}}{n}$ \n<br/><br/>(b) Variance  $=\\frac{\\Sigma(x_{i}-\\bar{x})^{2}}{n}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to _____________."
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:24.660450"
     },
@@ -2718,7 +2726,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, let's break it down step by step :</p>\n<p><strong>Step 1 :</strong> Determine the mean of set C</p>\n<p>The mean of set A =  $5$ \n<br/><br/>The mean of set B =  $8$ </p>\n<p>After subtracting 3 from each element in set A, the new mean becomes  $5-3=2$ .\nAfter adding 2 to each element in set B, the new mean becomes  $8+2=10$ .</p>\n<p>When we combine both modified sets to form set C, the mean of set C is the weighted average of the means of these modified sets:</p>\n<p>Mean of C =  $\\frac{5 \\times 2+5 \\times 10}{10}=\\frac{10+50}{10}=6$ </p>\n<p><strong>Step 2 :</strong> Determine the variance of set C</p>\n<p>Variance is defined as the expectation of the squared deviation of a random variable from its mean. One property of variance is that, if you add (or subtract) a constant from each data point in a set, the variance of the set does not change.</p>\n<p>Thus, the variance of the elements in set A remains  $12$  even after subtracting 3 from each element, and the variance of the elements in set B remains  $20$  even after adding 2 to each element.</p>\n<p>Now, when combining variances from two datasets into one :\n<br/><br/>Variance of C \n<br/><br/>=  $\\frac{n_{1} \\times \\text{Variance of A}+n_{1} \\times (\\text{Mean of modified A}-\\text{Mean of C})^{2}+n_{2} \\times \\text{Variance of B}+n_{2} \\times (\\text{Mean of modified B}-\\text{Mean of C})^{2}}{n_{1}+n_{2}}$ </p>\n<p>Given :\n<br/><br/> $n_{1}=n_{2}=5$ \n<br/><br/>Variance of A =  $12$ , Variance of B =  $20$ \n<br/><br/>Mean of modified A =  $2$ , Mean of modified B =  $10$ , Mean of C =  $6$ </p>\n<p>Plugging in the values, we get :\n<br/><br/>Variance of C =  $\\frac{5 \\times 12+5 \\times (2-6)^{2}+5 \\times 20+5 \\times (10-6)^{2}}{10}$ \n<br/><br/>Variance of C =  $\\frac{60+80+100+80}{10}=\\frac{320}{10}=32$ </p>\n<p><strong>Step 3 :</strong> Sum of the mean and variance of set C\n<br/><br/>Sum = Mean of C + Variance of C =  $6+32=38$ </p>\n<p>So, the correct answer is :\n<br/><br/>Option C : 38.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "The mean of set B =",
@@ -2729,7 +2737,7 @@
         ", Mean of modified B ="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:03.185359"
     },
@@ -2775,7 +2783,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{Mean} \\Rightarrow \\bar{x}=\\frac{\\sum_{i=1}^{7}x_{i}}{7}=\\frac{\\frac{7}{2}[2a+6d]}{7}=a+3d=x_{4} \\\\ \\\\ &amp; \\text{Variance}=\\frac{\\sum_{i=1}^{7}(x_{i}-\\bar{x})^{2}}{7}=(4)^{2} \\Rightarrow \\frac{\\sum_{i=1}^{7}(x_{i}-x_{4})^{2}}{7}=16 \\\\ \\\\ &amp; \\Rightarrow \\frac{(3d)^{2}+(2d)^{2}+d^{2}+0+d^{2}+(2d)^{2}+(3d)^{2}}{7}=16 \\\\ \\\\ &amp; =4d^{2}=16 \\Rightarrow d=2 \\\\ \\\\ &amp; \\Rightarrow \\bar{x}=9+3(2)=15 \\\\ \\\\ &amp; x_{6}=a+5d=9+5(2)=19 \\Rightarrow \\bar{x}+x_{6}=34 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "9=x_{1}<x_{2}<\\dots<x_{7}",
@@ -2783,7 +2791,7 @@
         "\\bar{x}+x_{6}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:04.523411"
     },
@@ -2829,7 +2837,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>3 rotten apples are mixed with 7 good apples.</p>\n<p> $\\therefore$  Total apples = 10</p>\n<p>Among those 10 apples 4 are chosen randomly.</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 575px\">\n<colgroup>\n<col style=\"width: 52px\"/>\n<col style=\"width: 196px\"/>\n<col style=\"width: 93px\"/>\n<col style=\"width: 234px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-7btt\"> $x_{i}$ </th>\n<th class=\"tg-7btt\"> $p_{i}$ <br/></th>\n<th class=\"tg-7btt\"> $p_{i}x_{i}$ </th>\n<th class=\"tg-7btt\"> $p_{i}(x_{i})^{2}$ <br/></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\">0</td>\n<td class=\"tg-c3ow\"> $\\frac{^{7}C_{4}}{^{10}C_{4}}=\\frac{35}{210}$ </td>\n<td class=\"tg-c3ow\">0</td>\n<td class=\"tg-c3ow\">0</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">1</td>\n<td class=\"tg-c3ow\"> $\\frac{^{3}C_{1} \\times ^{7}C_{3}}{^{10}C_{4}}=\\frac{105}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{105}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{105}{210}$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">2</td>\n<td class=\"tg-c3ow\"> $\\frac{^{3}C_{2} \\times ^{7}C_{2}}{^{10}C_{4}}=\\frac{63}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{126}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{252}{210}$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">3</td>\n<td class=\"tg-c3ow\"> $\\frac{^{3}C_{3} \\times ^{7}C_{1}}{^{10}C_{4}}=\\frac{7}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{21}{210}$ </td>\n<td class=\"tg-c3ow\"> $\\frac{63}{210}$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $x_{i}$  = Number of rotten apples drawn.</p>\n<p> $p_{i}$  = Probability of rotten apple.</p>\n<p>We know,</p>\n<p>Mean  $(\\mu)=\\sum p_{i}x_{i}$ </p>\n<p> $=0+\\frac{105}{210}+\\frac{126}{210}+\\frac{21}{210}$ </p>\n<p> $=\\frac{252}{210}=\\frac{6}{5}$ </p>\n<p>Also,</p>\n<p>Variance  $(\\sigma^{2})=(\\sum p_{i}(x_{i})^{2})-\\mu^{2}$ </p>\n<p> $=\\frac{105}{210}+\\frac{252}{210}+\\frac{63}{210}-\\frac{36}{25}$ </p>\n<p> $=\\frac{1}{2}+\\frac{12}{10}+\\frac{3}{10}-\\frac{36}{25}=\\frac{14}{25}$ </p>\n<p> $\\therefore$   $10(\\mu^{2}+\\sigma^{2})$ </p>\n<p> $=10((\\frac{6}{5})^{2}+\\frac{14}{25})$ </p>\n<p> $=10(\\frac{36+14}{25})$ </p>\n<p> $=10 \\times \\frac{50}{25}=20$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sigma^{2}",
@@ -2840,7 +2848,7 @@
         "p_{i}(x_{i})^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:05.755698"
     },
@@ -2865,13 +2873,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; 5=\\bar{x}=\\frac{\\sum x_{i}f_{i}}{\\sum f_{i}}=\\frac{4+72+140+7\\alpha+72}{64+\\alpha} \\\\ \\\\ &amp; \\Rightarrow 320+5\\alpha=288+7\\alpha \\Rightarrow 2\\alpha=32 \\Rightarrow \\alpha=16 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} \\sum f_{i} &amp; =80 \\\\ \\\\ \\text{M.D} &amp; =\\frac{\\sum f_{i}|x_{i}-5|}{\\sum f_{i}} \\\\ \\\\ &amp; =\\frac{4+4+24 \\times 2+0+16 \\times 2+8 \\times 4}{80} \\\\ \\\\ &amp; =\\frac{8}{5} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} \\sigma^{2} &amp; =\\frac{\\sum f_{i}|x_{i}-5|}{\\sum f_{i}} \\\\ \\\\ &amp; =\\frac{4+16+24 \\times 4+0+16 \\times 4+8 \\times 16}{80}=\\frac{22}{5} \\end{aligned}$ \n<br/><br/>So,  $\\frac{3\\alpha}{m+\\sigma^{2}}=\\frac{3 \\times 16}{\\frac{8}{5}+\\frac{22}{5}}=8$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{3\\alpha}{m+\\sigma^{2}}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:23.201117"
     },
@@ -2896,7 +2904,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} x_{i} &amp; f_{i} &amp; x_{i}^{2} &amp; f_{i}x_{i} &amp; f_{i}x_{i}^{2} \\\\ 2 &amp; 4 &amp; 4 &amp; 8 &amp; 16 \\\\ 4 &amp; 4 &amp; 16 &amp; 16 &amp; 64 \\\\ 6 &amp; \\alpha &amp; 36 &amp; 6\\alpha &amp; 36\\alpha \\\\ 8 &amp; 15 &amp; 64 &amp; 120 &amp; 960 \\\\ 10 &amp; 8 &amp; 100 &amp; 80 &amp; 800 \\\\ 12 &amp; \\beta &amp; 144 &amp; 12\\beta &amp; 144\\beta \\\\ 14 &amp; 4 &amp; 196 &amp; 56 &amp; 784 \\\\ 16 &amp; 5 &amp; 256 &amp; 80 &amp; 1280 \\end{aligned}$ \n<br/><br/> $\\therefore$   $\\begin{aligned} &amp; \\Sigma f_{i}=40+\\alpha+\\beta \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Sigma f_{i}x_{i}=360+6\\alpha+12\\beta \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Sigma f_{i}x_{i}^{2}=3904+36\\alpha+144\\beta \\end{aligned}$ \n<br/><br/>Given, mean  $=9$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}}=9 \\\\ \\\\ &amp; \\Rightarrow \\frac{360+6\\alpha+12\\beta}{40+\\alpha+\\beta}=9 \\\\ \\\\ &amp; \\Rightarrow 360+6\\alpha+12\\beta=9(40+\\alpha+\\beta) \\\\ \\\\ &amp; \\Rightarrow 3\\beta=3\\alpha \\\\ \\\\ &amp; \\Rightarrow \\alpha=\\beta.........(i) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Variance}=15.08 \\\\ \\\\ &amp; \\Rightarrow \\frac{\\Sigma f_{i}x_{i}^{2}}{\\Sigma f_{i}}-(\\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}})^{2}=15.08 \\\\ \\\\ &amp; \\Rightarrow \\frac{3904+36\\alpha+144\\beta}{40+\\alpha+\\beta}-(9)^{2}=15.08 \\\\ \\\\ &amp; \\Rightarrow \\frac{3904+180\\alpha}{40+2\\alpha}=81+15.08[ \\because \\alpha=\\beta] \\\\ \\\\ &amp; \\Rightarrow 3904+180\\alpha=96.08(40+2\\alpha) \\\\ \\\\ &amp; \\Rightarrow 3904+180\\alpha=3843.2+192.16\\alpha \\\\ \\\\ &amp; \\Rightarrow 60.8=12.16\\alpha \\\\ \\\\ &amp; \\Rightarrow \\alpha=5=\\beta \\\\ \\\\ &amp; \\therefore \\alpha^{2}+\\beta^{2}-\\alpha\\beta=25+25-25=25 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Hard",
       "key_formulas": [
         "x_{i}",
@@ -2907,7 +2915,7 @@
         "\\begin{aligned} & \\Sigma f_{i}x_{i}^{2}=3904+36\\alpha+144\\beta \\end{aligned}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:24.685169"
     },
@@ -2953,7 +2961,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mean  $(\\bar{x})=\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}$ </p>\n<p>Given,  $\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}=\\frac{24}{5}$ </p>\n<p> $\\Rightarrow x_{1}+x_{2}+x_{3}+x_{4}+x_{5}=24$  ...... (1)</p>\n<p>Now, Mean of first 4 observation</p>\n<p> $=\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}$ </p>\n<p>Given,  $=\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}=\\frac{7}{2}$ </p>\n<p> $\\Rightarrow x_{1}+x_{2}+x_{3}+x_{4}=14$  ...... (2)</p>\n<p>From equation (1) and (2), we get</p>\n<p> $14+x_{5}=24$ </p>\n<p> $\\Rightarrow x_{5}=10$ </p>\n<p>Now, variance of first 5 observation</p>\n<p> $=\\frac{\\sum x_{i}^{2}}{n}-(\\bar{x})^{2}$ </p>\n<p> $=\\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}}{5}-(\\frac{24}{5})^{2}$ </p>\n<p>Given,</p>\n<p> $\\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}}{5}-(\\frac{24}{5})^{2}=\\frac{194}{24}$ </p>\n<p> $\\Rightarrow x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}=5(\\frac{194}{25}+\\frac{576}{25})$ </p>\n<p> $\\Rightarrow x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}=154$ </p>\n<p> $\\Rightarrow x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+(10)^{2}=154$ </p>\n<p> $\\Rightarrow x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}=54$ </p>\n<p>Now, variance of first 4 observation</p>\n<p> $=\\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}}{4}-(\\frac{7}{2})^{2}$ </p>\n<p>Given,</p>\n<p> $\\frac{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}}{4}-(\\frac{7}{2})^{2}=a$ </p>\n<p> $\\Rightarrow \\frac{54}{4}-\\frac{49}{4}=a$ </p>\n<p> $\\Rightarrow a=\\frac{5}{4}$ </p>\n<p> $\\therefore$   $4a+x_{5}$ </p>\n<p> $=4 \\times \\frac{5}{4}+10=15$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{24}{5}",
@@ -2964,7 +2972,7 @@
         "\\Rightarrow x_{1}+x_{2}+x_{3}+x_{4}+x_{5}=24"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:07.800075"
     },
@@ -3010,7 +3018,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mean  $=\\frac{4+5+6+6+7+8+x+y}{8}=6$ </p>\n<p> $\\therefore$   $x+y=12$  ..... (i)</p>\n<p>And variance</p>\n<p> $=\\frac{2^{2}+1^{2}+0^{2}+0^{2}+1^{2}+2^{2}+(x-6)^{2}+(y-6)^{2}}{8}$ </p>\n<p> $=\\frac{9}{4}$ </p>\n<p> $\\therefore$   $(x-6)^{2}+(y-6)^{2}=8$  ..... (ii)</p>\n<p>From (i) and (ii)</p>\n<p>x = 4 and y = 8</p>\n<p> $\\therefore$   $x^{4}+y^{2}=320$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{9}{4}",
@@ -3021,7 +3029,7 @@
         "=\\frac{9}{4}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:07.856405"
     },
@@ -3067,7 +3075,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Median  $=\\frac{2k+12}{2}=k+6$ </p>\n<p>Mean deviation  $=\\sum \\frac{|x_{i}-M|}{n}=6$ </p>\n<p> $\\Rightarrow \\frac{(k+3)+(k+1)+(k-1)+(6-k)+(6-k)+(10-k)+(15-k)+(18-k)}{8}$ </p>\n<p> $\\therefore$   $\\frac{58-2k}{8}=6$ </p>\n<p> $k=5$ </p>\n<p>Median  $=\\frac{2 \\times 5+12}{2}=11$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{2k+12}{2}=k+6",
@@ -3078,7 +3086,8 @@
         "=\\frac{2 \\times 5+12}{2}=11"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:06.769336"
     },
@@ -3124,7 +3133,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $\\bar{x}=15,\\sigma=2 \\Rightarrow \\sigma^{2}=4$ </p>\n<p> $\\therefore$   $x_{2}+x_{2}+.....+x_{50}=15 \\times 50=750$ </p>\n<p> $4=\\frac{x_{1}^{2}+x_{2}^{2}+.....+x_{50}^{2}}{50}-225$ </p>\n<p> $\\therefore$   $x_{1}^{2}+x_{2}^{2}+.....+x_{50}^{2}=50 \\times 229$ </p>\n<p>Let a be the correct observation and b is the incorrect observation</p>\n<p>then  $a+b=70$ </p>\n<p>and  $16=\\frac{750-b+a}{50}$ </p>\n<p> $\\therefore$   $a-b=50 \\Rightarrow a=60,b=10$ </p>\n<p> $\\therefore$  Correct variance  $=\\frac{50 \\times 229+60^{2}-10^{2}}{50}-256=43$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=15,\\sigma=2 \\Rightarrow \\sigma^{2}=4",
@@ -3135,7 +3144,7 @@
         "16=\\frac{750-b+a}{50}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:07.904526"
     },
@@ -3181,7 +3190,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p>5 numbers are 3, 7, 12, a, 43  $-$  a</p>\n<p> $\\therefore$  Mean  $(\\bar{x})=\\frac{3+7+12+a+43-a}{5}$ </p>\n<p> $=\\frac{65}{5}$ </p>\n<p> $=13$ </p>\n<p>We know,</p>\n<p>Variance  $(\\sigma^{2})=\\frac{\\sum x_{1}^{2}}{n}-(\\bar{x})^{2}$ </p>\n<p> $=\\frac{3^{2}+7^{2}+12^{2}+a^{2}+(43-a)^{2}}{5}-(13)^{2}$ </p>\n<p> $=\\frac{9+49+144+a^{2}+1849+a^{2}-86a}{5}-169$ </p>\n<p> $=\\frac{2a^{2}-86a+2051}{5}-169$ </p>\n<p> $=\\frac{2a^{2}-86a+2051-845}{5}$ </p>\n<p> $=\\frac{2a^{2}-86a+1206}{5}$ </p>\n<p> $=\\frac{2}{5}(a^{2}-43a+603)$ </p>\n<p>Variance will be natural number if  $a^{2}-43a+603$  in multiple of 5.</p>\n<p> $\\therefore$   $a^{2}-43a+603=5n$ </p>\n<p> $\\Rightarrow a^{2}-43a+603-5n=0$  ..... (1)</p>\n<p> $\\therefore$   $a=\\frac{43 \\pm \\sqrt{D}}{2}$ </p>\n<p>Now \"a\" will be natural number if</p>\n<p>(1) D is a perfect square and</p>\n<p>(2)  $43 \\pm \\sqrt{D}$  is multiple of 2</p>\n<p>From equation (1),</p>\n<p> $D=(-43)^{2}-4.1.(603-5n)$ </p>\n<p> $=1849-2412+20n$ </p>\n<p> $=20n-563$ </p>\n<p>For any value of n, unit digit of 20n is always 0. Then 20n  $-$  563 will give a number whose unit digit is 7.</p>\n<p>For perfect square numbers ex : 1<sup>2</sup> = 1, 2<sup>2</sup> = 4, 3<sup>2</sup> = 9, 4<sup>2</sup> = 16, 5<sup>2</sup> = 25, 6<sup>2</sup> = 36, 7<sup>2</sup> = 49, 8<sup>2</sup> = 64, 9<sup>2</sup> = 81, 10<sup>2</sup> = 100</p>\n<p>So, unit digit is either 1, 4, 6, 5, 6, 9, 0 it can't be 7. So D can't be perfect square.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{65}{5}",
@@ -3192,7 +3201,7 @@
         "=\\frac{2a^{2}-86a+2051}{5}-169"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:06.814521"
     },
@@ -3238,7 +3247,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $\\bar{x}=6=\\frac{a+b+8+5+10}{5} \\Rightarrow a+b=7$  ...... (i)</p>\n<p>And  $\\sigma^{2}=\\frac{a^{2}+b^{2}+8^{2}+5^{2}+10^{2}}{5}-6^{2}=6.8$ </p>\n<p> $\\Rightarrow a^{2}+b^{2}=25$  ..... (ii)</p>\n<p>From (i) and (ii) (a, b) = (3, 4) or (4, 3)</p>\n<p>Now mean deviation about mean</p>\n<p> $M=\\frac{1}{5}(3+2+2+1+4)=\\frac{12}{5}$ </p>\n<p> $\\Rightarrow 25M=60$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=6=\\frac{a+b+8+5+10}{5} \\Rightarrow a+b=7",
@@ -3248,7 +3257,7 @@
         "\\Rightarrow 25M=60"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:07.963484"
     },
@@ -3294,7 +3303,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let 8, 16, x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub> be the observations.<br/><br/>Now,  $\\frac{x_{1}+x_{2}+....+x_{5}+14}{7}=8$ <br/><br/> $\\Rightarrow \\sum_{i=1}^{5}x_{i}=42$  .... (1)<br/><br/>Also,  $\\frac{x_{1}^{2}+x_{2}^{2}+...x_{5}^{2}+8^{2}+6^{2}}{7}-64=16$ <br/><br/> $\\Rightarrow \\sum_{i=1}^{5}x_{i}^{2}=560-100=460$  ..... (2)<br/><br/>So variance of x<sub>1</sub>, x<sub>2</sub>, ......., x<sub>5</sub><br/><br/> $=\\frac{460}{5}-(\\frac{42}{5})^{2}=\\frac{2300-1764}{25}=\\frac{536}{25}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x_{1}+x_{2}+....+x_{5}+14}{7}=8",
@@ -3304,7 +3313,7 @@
         "=\\frac{460}{5}-(\\frac{42}{5})^{2}=\\frac{2300-1764}{25}=\\frac{536}{25}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:08.751086"
     },
@@ -3350,7 +3359,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->n<sub>1</sub> = 100<br/><br/>m = 250<br/><br/> $\\bar{X}$ <sub>1</sub> = 15<br/><br/> $\\bar{X}$  = 15.6<br/><br/>V<sub>1</sub>(x) = 9<br/><br/>Var(x) = 13.44<br/><br/> $\\sigma^{2}=\\frac{n_{1}\\sigma_{1}^{2}+n_{2}\\sigma_{2}^{2}}{n_{1}+n_{2}}+\\frac{n_{1}n_{2}}{(n_{1}+n_{2})^{2}}(\\bar{x}_{1}-\\bar{x}_{2})^{2}$ <br/><br/>n<sub>2</sub> = 150,  $\\bar{x}_{2}$  = 16, V<sub>2</sub>(x) =  $\\sigma$ <sub>2</sub><br/><br/> $13.44=\\frac{100 \\times 9+150 \\times \\sigma_{2}^{2}}{250}+\\frac{100 \\times 150}{(250)^{2}} \\times 1$ <br/><br/> $\\Rightarrow$   $\\sigma_{2}^{2}$  = 16  $\\Rightarrow$   $\\sigma$ <sub>2</sub> = 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "n 2 = 150,",
@@ -3358,7 +3367,7 @@
         "\\sigma_{2}^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:09.611222"
     },
@@ -3404,7 +3413,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a, b, c<br/><br/>mean =  $\\bar{x}=\\frac{a+b+c}{3}$ <br/><br/> $\\bar{x}=\\frac{2b}{3}$ <br/><br/>We know, S.D. of a + 2, b + 2, c + 2 = S.D. of a, b, c = d<br/><br/> $d^{2}=\\frac{a^{2}+b^{2}+c^{2}}{3}-\\frac{4b^{2}}{9}$ <br/><br/> $b^{2}=3a^{2}+3c^{2}-9d^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\bar{x}=\\frac{a+b+c}{3}",
@@ -3413,7 +3422,7 @@
         "b^{2}=3a^{2}+3c^{2}-9d^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:10.847412"
     },
@@ -3459,7 +3468,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given :<br/><br/>Mean  $(\\bar{x})=\\frac{\\sum x_{i}}{20}=10$ <br/><br/>or  $\\Sigma$ x<sub>i</sub> = 200 (incorrect)<br/><br/>or 200  $-$  25 + 35 = 210 =  $\\Sigma$ x<sub>i</sub> (Correct)<br/><br/>Now correct  $\\bar{x}=\\frac{210}{20}=10.5$ <br/><br/>again given S.D = 2.5 ( $\\sigma$ )<br/><br/> $\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{20}-(10)^{2}=(2.5)^{2}$ <br/><br/>or  $\\sum x_{i}^{2}=2125$  (incorrect)<br/><br/>or  $\\sum x_{i}^{2}=2125-25^{2}+35^{2}$ <br/><br/>= 2725 (correct)<br/><br/> $\\therefore$  correct  $\\sigma^{2}=\\frac{2725}{20}-(10.5)^{2}$ <br/><br/> $\\sigma^{2}$  = 26<br/><br/>or  $\\sigma$  = 26<br/><br/> $\\therefore$   $\\alpha$  = 10.5,  $\\beta$  = 26<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\bar{x})=\\frac{\\sum x_{i}}{20}=10",
@@ -3469,7 +3478,7 @@
         "\\sigma^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:08.792731"
     },
@@ -3515,14 +3524,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $10=\\frac{7+10+11+15+a+b}{6}$ <br/><br/> $\\Rightarrow$  a + b = 17 ..... (i)<br/><br/> $\\frac{20}{3}=\\frac{7^{2}+10^{2}+11^{2}+15^{2}+a^{2}+b^{2}}{6}-10^{2}$ <br/><br/>a<sup>2</sup> + b<sup>2</sup> = 145 ...... (ii)<br/><br/>Solve (i) and (ii) a = 9, b = 8 or a = 8, b = 9<br/><br/>| a  $-$  b | = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{20}{3}",
         "\\frac{20}{3}=\\frac{7^{2}+10^{2}+11^{2}+15^{2}+a^{2}+b^{2}}{6}-10^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:09.659464"
     },
@@ -3568,7 +3577,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given 32 + 8 $\\alpha$  + 9 $\\beta$  = (8 +  $\\alpha$  +  $\\beta$ )  $\\times$  6<br/><br/> $\\Rightarrow$  2 $\\alpha$  + 3 $\\beta$  = 16 ..... (i)<br/><br/>Also, 4  $\\times$  16 + 4  $\\times$   $\\alpha$  + 9 $\\beta$  = (8 +  $\\alpha$  +  $\\beta$ )  $\\times$  6.8<br/><br/> $\\Rightarrow$  640 + 40 $\\alpha$  + 90 $\\beta$  = 544 + 68 $\\alpha$  + 68 $\\beta$ <br/><br/> $\\Rightarrow$  28 $\\alpha$   $-$  22 $\\beta$  = 96<br/><br/> $\\Rightarrow$  14 $\\alpha$   $-$  11 $\\beta$  = 48 ..... (ii)<br/><br/>from (i) &amp; (ii)<br/><br/> $\\alpha$  = 5 &amp;  $\\beta$  = 2<br/><br/>So, new mean =  $\\frac{32+35+18}{15}=\\frac{85}{15}=\\frac{17}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -3578,7 +3587,7 @@
         "= 2 So, new mean ="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:08.853787"
     },
@@ -3624,7 +3633,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let other two numbers be a, (21  $-$  a)<br/><br/>Now,<br/><br/> $10.25=\\frac{(4+16+25+49+a^{2}+(21-a)^{2}}{6}-(6.5)^{2}$ <br/><br/>(Using formula for variance)<br/><br/> $\\Rightarrow 6(10.25)+6(6.5)^{2}=94+a^{2}+(21-a)^{2}$ <br/><br/> $\\Rightarrow a^{2}+(21-a)^{2}=221$ <br/><br/> $\\therefore$  a = 10 and (21  $-$  a) = 21  $-$  10 = 11<br/><br/>So, remaining two observations are 10, 11.<br/><br/> $\\Rightarrow$  Option (1) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow a^{2}+(21-a)^{2}=221",
@@ -3632,7 +3641,7 @@
         "10 = 11 So, remaining two observations are 10, 11."
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:09.706242"
     },
@@ -3678,7 +3687,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean =  $\\frac{6+10+7+13+a+12+b+12}{8}=9$ <br/><br/>60 + a + b = 72<br/><br/>a + b = 12 .....(1)<br/><br/>variance  $=\\frac{\\sum x_{i}^{2}}{n}-(\\frac{\\sum x_{i}}{n})^{2}=\\frac{37}{4}$ <br/><br/> $\\sum x_{i}^{2}=6^{2}+10^{2}+7^{2}+13^{2}+a^{2}+b^{2}+12^{2}+12^{2}=a^{2}+b^{2}+642$ <br/><br/> $\\frac{a^{2}+b^{2}+642}{8}-(9)^{2}=\\frac{37}{4}$ <br/><br/> $\\frac{a^{2}+b^{2}}{8}+\\frac{321}{4}-81=\\frac{37}{4}$ <br/><br/> $\\frac{a^{2}+b^{2}}{8}=81+\\frac{37}{4}-\\frac{321}{4}$ <br/><br/> $\\frac{a^{2}+b^{2}}{8}=81-71$ <br/><br/> $\\therefore$  a<sup>2</sup> + b<sup>2</sup> + 2ab = 144<br/><br/>80 + 2ab = 144<br/><br/> $\\therefore$  2ab = 64<br/><br/> $\\therefore$   $(a-b)^{2}=a^{2}+b^{2}-2ab=80-64=16$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{37}{4}",
@@ -3689,7 +3698,7 @@
         "\\frac{a^{2}+b^{2}}{8}=81+\\frac{37}{4}-\\frac{321}{4}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:08.935612"
     },
@@ -3735,7 +3744,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given series<br/><br/>(a, a, a, ........ n times), ( $-$ a,  $-$ a,  $-$ a, ...... n times)<br/><br/>Now  $\\bar{x}$  =  $\\frac{\\sum x_{i}}{2n}=0$ <br/><br/>as, x<sub>i</sub>  $\\rightarrow$  x<sub>i</sub> + b<br/><br/>then  $\\bar{x}$   $\\rightarrow$   $\\bar{x}$  + b<br/><br/>So,  $\\bar{x}$  + b = 5  $\\Rightarrow$  b = 5<br/><br/>No change in S.D. due to change in origin<br/><br/>Standard deviation ( $\\sigma$ ) =  $\\sqrt{\\frac{\\sum_{i=1}^{2n}(x_{i}-\\bar{x})^{2}}{2n}}$ <br/><br/> $=\\sqrt{\\frac{\\sum_{i=1}^{2n}x_{i}^{2}}{2n}}=\\sqrt{\\frac{2na^{2}}{2n}}=\\sqrt{a^{2}}$ <br/><br/> $\\therefore$   $20=\\sqrt{a^{2}} \\Rightarrow a=20$ <br/><br/> $\\therefore$  a<sup>2</sup> + b<sup>2</sup> = 425<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=",
@@ -3743,7 +3752,7 @@
         "20=\\sqrt{a^{2}} \\Rightarrow a=20"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:09.783313"
     },
@@ -3789,7 +3798,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the two remaining observations be x and y.<br/><br/> $\\because$   $\\bar{x}=10=\\frac{5+7+10+12+14+15+x+y}{8}$ <br/><br/> $\\Rightarrow x+y=17$  ....(1)<br/><br/> $\\because$   $var(x)=13.5=\\frac{25+49+100+144+196+225+x^{2}+y^{2}}{8}-(10)^{2}$ <br/><br/> $\\Rightarrow x^{2}+y^{2}=169$  ....(2)<br/><br/>From (1) and (2)<br/><br/>(x, y) = (12, 5) or (5, 12)<br/><br/>So  $|x-y|=7$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=10=\\frac{5+7+10+12+14+15+x+y}{8}",
@@ -3799,7 +3808,7 @@
         "|x-y|=7"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:11.790738"
     },
@@ -3845,7 +3854,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sum_{i=1}^{10}(x_{1}-5)$  = 10\n<br/><br/> $\\Rightarrow$  x<sub>1</sub> + x<sub>2</sub> + .... + x<sub>10</sub> = 60 ....(1)\n<br/><br/> $\\sum_{i=1}^{10}(x_{1}-5)^{2}$  = 40\n<br/><br/> $\\Rightarrow$  ( $x_{1}^{2}+x_{2}^{2}+...+x_{10}^{2}$ ) + 25  $\\times$  10 - <br/>10( x<sub>1</sub> + x<sub>2</sub> + .... + x<sub>10</sub>) = 40\n<br/><br/> $\\Rightarrow$   $x_{1}^{2}+x_{2}^{2}+...+x_{10}^{2}$  = 390 .....(2)\n<br/><br/>From question,\n<br/>  $\\mu$  =  $\\frac{(x_{1}-3)+(x_{2}-3)+...+(x_{10}-3)}{10}$ \n<br/><br/>=  $\\frac{60-3 \\times 10}{10}$  = 3\n<br/><br/>And  $\\lambda$  = variance =  $\\frac{\\sum_{i=1}^{10}(x_{i}-3)^{2}}{10}$  -  $\\mu$ <sup>2</sup>\n<br/><br/>=  $\\frac{(x_{1}^{2}+x_{2}^{2}+...+x_{10}^{2})+90-6(\\sum x_{i})}{10}$  - 9\n<br/><br/>=  $\\frac{390+90-360}{10}$  - 9\n<br/><br/>= 12 - 9 = 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{10}(x_{1}-5)",
@@ -3856,7 +3865,7 @@
         "\\frac{60-3 \\times 10}{10}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:12.648207"
     },
@@ -3902,7 +3911,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->S.D =  $\\sqrt{⎷\\frac{\\sum_{i=1}^{n}(x_{i}-a)}{n}-⎛⎝⎜\\frac{\\sum_{i=1}^{n}(x_{i}-a)}{n}⎞⎠⎟^{2}}$ \n<br/><br/>=  $\\sqrt{\\frac{na}{n}-(\\frac{n}{n})^{2}}$ \n<br/><br/>=  $\\sqrt{a-1}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\sum_{i=1}^{n}(x_{i}-a)=n",
@@ -3910,7 +3919,7 @@
         "="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:10.911674"
     },
@@ -3956,7 +3965,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Standard deviation =  $\\sqrt{Variance}$ <br/><br/> $=\\sqrt{\\frac{\\sum x_{1}^{2}}{n}-(\\bar{x})^{2}}$ <br/><br/> $=\\sqrt{⎷\\frac{\\sum_{i=1}^{10}(x_{i}-p)^{2}}{10}-⎛⎝⎜\\frac{\\sum_{i=1}^{10}(x_{i}-p)}{10}⎞⎠⎟^{2}}$ \n<br/><br/>[ Standard deviation\nis free from shifting\nof origin.]\n<br/><br/> $=\\sqrt{\\frac{9}{10}-(\\frac{3}{10})^{2}}$ <br/><br/> $=\\sqrt{\\frac{9}{10}-\\frac{9}{100}}$ <br/><br/> $=\\sqrt{\\frac{90-9}{100}}$ <br/><br/> $=\\sqrt{\\frac{81}{100}}$ <br/><br/> $=\\frac{9}{10}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{10}(x_{i}-p)=3",
@@ -3967,7 +3976,7 @@
         "=\\sqrt{\\frac{81}{100}}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:11.818444"
     },
@@ -4013,7 +4022,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let 20 observation be x<sub>1</sub>\n , x<sub>2</sub>\n ,....., x<sub>20</sub>\n<br/><br/>Mean = <span style=\"display: inline-block;vertical-align: middle;\">\n<div style=\"text-align: center;border-bottom: 1px solid black;\">x<sub>1</sub>\n + x<sub>2</sub>\n +, .....+ x<sub>20</sub></div>\n<div style=\"text-align: center;\">20</div>\n</span> = 10\n<br/><br/> $\\Rightarrow$  x<sub>1</sub>\n + x<sub>2</sub>\n +, .....+ x<sub>20</sub> = 200\n\n<br/><br/>Variance =  $\\frac{\\sum_{i=1}^{i=n}x_{i}^{2}}{n}-(\\bar{x})^{2}$ \n<br/><br/> $\\Rightarrow$  4 =  $\\frac{x_{1}^{2}+x_{2}^{2}+...+x_{20}^{2}}{20}$  - 10<sup>2</sup>\n<br/><br/> $\\Rightarrow$   $x_{1}^{2}+x_{2}^{2}+...+x_{20}^{2}$  = 2080\n<br/><br/>Also x<sub>1</sub>\n + x<sub>2</sub>\n +, .....+ x<sub>20</sub> - 9 + 11 = 202\n<br/><br/>new variance will be\n<br/><br/>=  $\\frac{x_{1}^{2}+x_{2}^{2}+...+x_{20}^{2}-81+121}{20}$  -  $(\\frac{202}{20})^{2}$ \n<br/><br/>= 3.99\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sum_{i=1}^{i=n}x_{i}^{2}}{n}-(\\bar{x})^{2}",
@@ -4023,7 +4032,7 @@
         "(\\frac{202}{20})^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:12.678695"
     },
@@ -4069,7 +4078,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean =  $\\frac{3+5+7+a+b}{5}$  = 5\n<br/><br/> $\\Rightarrow$   $a$  + b = 10\n<br/><br/>Variance =  $\\frac{3^{2}+5^{2}+7^{2}+a^{2}+b^{2}}{5}$  - (5)<sup>2</sup> = 4\n<br/><br/> $\\Rightarrow$   $a^{2}+b^{2}$  = 62\n<br/><br/> $\\Rightarrow$   $(a+b)^{2}-2ab$  = 62\n<br/><br/> $\\Rightarrow$   $ab$  = 19\n<br/><br/>So  $a$  and b are the roots of the equation\n<br/><br/>x<sup>2</sup> – 10x + 19 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3+5+7+a+b}{5}",
@@ -4080,7 +4089,7 @@
         "= 19 So"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:10.972684"
     },
@@ -4126,7 +4135,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If variate varries from m to M then variance\n<br/><br/> $\\sigma^{2} \\le \\frac{1}{4}(M-m)^{2}$ \n<br/><br/>(M = upper bound of value of any random variable,\n<br/><br/> m = Lower bound of value of any random variable)\n<br/><br/>Here M = 10 and m = 0\n<br/><br/> $\\therefore$   $\\sigma^{2} \\le \\frac{1}{4}(10-0)^{2}$ \n<br/><br/> $\\Rightarrow$   $\\sigma^{2} \\le 25$ \n<br/><br/> $\\Rightarrow$   $-5 \\le \\sigma \\le 5$ \n<br/><br/> $\\therefore$   $\\sigma$   $\\ne$  6<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{15}f_{i}",
@@ -4135,7 +4144,7 @@
         "\\sigma^{2} \\le 25"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:11.846013"
     },
@@ -4181,7 +4190,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let observations are\nx<sub>1</sub>, x<sub>2</sub>, ...., x<sub>10</sub>\n<br/><br/>Here mean = 20 and standard deviation(S.D) = 2\n<br/><br/>When each of these 10\nobservations is multiplied by p then new observations are\npx<sub>1</sub>, px<sub>2</sub>, ....., px<sub>10</sub>\n<br/>and new mean = 20p and new standard deviation(S.D) = 2|p|\n<br/><br/>Now when Reduced by q then new observations are\n<br/>px<sub>1</sub> - q, px<sub>2</sub> - q, ....., px<sub>10</sub> - q\n<br/><br/>and new mean = 20p - q and new standard deviation(S.D) = 2|p|\n<br/><br/>Given 20p - q =  $\\frac{20}{2}$  = 10\n<br/>and 2|p| =  $\\frac{2}{2}$  = 1\n<br/><br/> $\\Rightarrow$  p =  $\\pm$   $\\frac{1}{2}$ \n<br/><br/>If p =  $\\frac{1}{2}$  then q = 0 (not possible as given q  $\\ne$  0)\n<br/><br/>If p = -  $\\frac{1}{2}$  then q = -20<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{20}{2}",
@@ -4189,7 +4198,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:12.706522"
     },
@@ -4235,7 +4244,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\bar{x}=\\frac{2+4++10+12+14+x+y}{7}=8$ <br/><br/>x + y = 14 ....(i)<br/><br/> $(\\sigma)^{2}=\\frac{\\sum (x_{i})^{2}}{n}-(\\frac{\\sum x_{i}}{n})^{2}$ <br/><br/> $\\Rightarrow$   $16=\\frac{4+16+100+144+196+x^{2}+y^{2}}{2}-8^{2}$ <br/><br/> $\\Rightarrow$   $16+64=\\frac{460+x^{2}+y^{2}}{7}$ <br/><br/> $\\Rightarrow$  560 = 460 + x<sup>2</sup> + y<sup>2</sup><br/><br/> $\\Rightarrow$  x<sup>2</sup> + y<sup>2</sup> = 100 ......(ii)<br/><br/>Clearly by (i) and (ii), \n<br/><br/>(x + y)<sup>2</sup> - 2xy = 100\n<br/><br/> $\\Rightarrow$  (14)<sup>2</sup> - 2xy = 100\n<br/><br/> $\\Rightarrow$  2xy = 96\n<br/><br/> $\\Rightarrow$  xy = 48\n<br/><br/>Now, |x - y| =  $\\sqrt{(x+y)^{2}-4xy}$ \n<br/><br/>=  $\\sqrt{196-192}$ \n<br/><br/>= 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=\\frac{2+4++10+12+14+x+y}{7}=8",
@@ -4245,7 +4254,7 @@
         "\\sqrt{(x+y)^{2}-4xy}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:11.004620"
     },
@@ -4291,7 +4300,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean of X =  $\\frac{\\sum_{x=1}^{17}x}{17}$  =  $\\frac{17 \\times 18}{17 \\times 2}$  = 9\n<br/><br/>Mean of Y =  $\\frac{\\sum_{x=1}^{17}(ax+b)}{17}$  = 17\n<br/><br/> $\\Rightarrow$   $a\\frac{\\sum_{x=1}^{17}x}{17}+b$  = 17\n<br/><br/> $\\Rightarrow$  9a + b = 17 ....(1)\n<br/><br/>Given Var(Y) = 216\n<br/><br/> $\\Rightarrow$   $\\frac{\\sum_{x=1}^{17}(ax+b)^{2}}{17}-(17)^{2}$  = 216\n<br/><br/> $\\Rightarrow$   $\\sum_{x=1}^{17}(ax+b)^{2}$  = 8585\n<br/><br/> $\\Rightarrow$  (a + b)<sup>2</sup> + (2a + b)<sup>2</sup> +....+ (17a + b)<sup>2</sup> = 8585\n<br/><br/> $\\Rightarrow$  105a<sup>2</sup> + b<sup>2</sup> + 18ab = 505 ....(2)\n<br/><br/>From equation (1) &amp; (2)\n<br/><br/>a = 3 &amp; b = -10\n<br/><br/> $\\therefore$  a + b = –7<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sum_{x=1}^{17}x}{17}",
@@ -4302,7 +4311,7 @@
         "\\sum_{x=1}^{17}(ax+b)^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:11.871883"
     },
@@ -4348,7 +4357,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $Mean(\\mu)=\\frac{\\sum x_{i}}{50}=16$ <br/><br/>\n $\\therefore$   $\\sum x_{i}=16 \\times 50$ <br/><br/>\n $S.D.(\\sigma)=\\sqrt{\\frac{\\sum x_{i}^{2}}{50}-(\\mu)^{2}}=16$ <br/><br/>\n $\\Rightarrow \\frac{\\sum x_{i}^{2}}{50}=256 \\times 2$ <br/><br/>\nRequired mean =  $\\frac{\\sum (x_{i}-4)^{2}}{50}$ <br/><br/>\n $\\Rightarrow \\frac{\\sum x_{i}^{2}+16 \\times 50-8\\sum x_{i}}{50}$ <br/><br/>\n $\\Rightarrow$  256  $\\times$  2 + 16 - 8  $\\times$  16<br/><br/>\n $\\Rightarrow$  400<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "Mean(\\mu)=\\frac{\\sum x_{i}}{50}=16",
@@ -4359,7 +4368,7 @@
         "\\Rightarrow \\frac{\\sum x_{i}^{2}+16 \\times 50-8\\sum x_{i}}{50}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:13.487662"
     },
@@ -4405,7 +4414,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the score in the sixth test = x\n<br/><br/>Given, Mean ( $\\bar{x}$ ) = 48\n<br/><br/> $\\Rightarrow$   $\\frac{45+54+41+57+43+x}{6}$  = 48\n<br/><br/> $\\Rightarrow$  x = 48\n<br/><br/>Standard deviation (SD)\n<br/><br/>=  $\\sqrt{\\frac{\\sum_{i=1}^{N}(x_{i}-\\bar{x})^{2}}{N}}$ \n<br/><br/>=  $\\sqrt{⎷\\frac{\\begin{aligned} (45-48)^{2}+(54-48)^{2} \\\\ +(41-48)^{2}+(57-48)^{2} \\\\ +(43-48)^{2}+(48-48)^{2} \\end{aligned}}{6}}$ \n<br/><br/>=  $\\sqrt{\\frac{9+36+49+81+25}{6}}$ \n<br/><br/>=  $\\sqrt{\\frac{200}{6}}$ \n<br/><br/>=  $\\sqrt{\\frac{100}{3}}$ \n<br/><br/>=  $\\frac{10}{\\sqrt{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{45+54+41+57+43+x}{6}",
@@ -4413,7 +4422,7 @@
         "="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:14.197186"
     },
@@ -4459,7 +4468,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Variance is independent of region. So we shift the given data by  $\\frac{1}{2}$ .\n<br/><br/>so,    $\\frac{10d^{2}+10 \\times 0^{2}+10d^{2}}{30}-(0)^{2}=\\frac{4}{3}$ \n<br/><br/> $\\Rightarrow$   d<sup>2</sup>  $=$  2  $\\Rightarrow$   $|d|=\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -4468,7 +4477,7 @@
         "|d|=\\sqrt{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:15.077867"
     },
@@ -4514,7 +4523,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Average height of 5 students, \n<br/><br/> $\\bar{x}=\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}=150$ \n<br/><br/> $\\Rightarrow \\sum_{i=1}^{5}x_{i}=750$ \n<br/><br/>We know, \n<br/><br/>Variance  $(\\sigma)=\\frac{\\sum x_{i}^{2}}{5}-(\\bar{x})^{2}$ \n<br/><br/>given that,\n<br/><br/> $\\frac{\\sum x_{i}^{2}}{5}-(150)^{2}=18$ \n<br/><br/> $\\Rightarrow \\sum x_{i}^{2}=112590$ \n<br/><br/>Height of new student, x<sub>6</sub>  $=$  156 cm\n<br/><br/>New average height   $(\\bar{x}_{new})=\\frac{750+156}{6}=151$ \n<br/><br/>New variance    $=\\frac{\\sum_{i=1}^{6}x_{i}^{2}}{6}-(\\bar{x}_{new})^{2}$ \n<br/><br/> $=\\frac{112590+(156)^{2}}{6}-(151)^{2}$ \n<br/><br/> $=22821-22801$ \n<br/><br/> $=20$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{x}=\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}=150",
@@ -4525,7 +4534,7 @@
         "=\\frac{112590+(156)^{2}}{6}-(151)^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:15.977490"
     },
@@ -4571,7 +4580,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Number of students<br/><br/>\n $\\Rightarrow (x+1)^{2}+(2x-5)+(x^{2}-3x)+x=20$ <br/><br/>\n $\\Rightarrow 2x^{2}+2x-4=20$ <br/><br/>\n $\\Rightarrow x^{2}+x-12=0$ <br/><br/>\n $\\Rightarrow (x+4)(x-3)=0$ <br/><br/>\n $x=3$ <br/><br/>\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-yla0\">Marks</th>\n<th class=\"tg-nrix\">2</th>\n<th class=\"tg-nrix\">3</th>\n<th class=\"tg-nrix\">5</th>\n<th class=\"tg-baqh\">7</th>\n</tr>\n<tr>\n<td class=\"tg-yla0\">No. of students</td>\n<td class=\"tg-nrix\">16</td>\n<td class=\"tg-nrix\">1</td>\n<td class=\"tg-nrix\">0</td>\n<td class=\"tg-baqh\">3</td>\n</tr>\n</tbody></table><br/>\nAverage marks =  $\\frac{32+3+21}{20}=\\frac{56}{20}=2.8$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow (x+1)^{2}+(2x-5)+(x^{2}-3x)+x=20",
@@ -4582,7 +4591,7 @@
         "\\frac{32+3+21}{20}=\\frac{56}{20}=2.8"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:13.517611"
     },
@@ -4628,7 +4637,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given mean ( $\\mu$ ) = 8\n<br/><br/>variance ( $\\sigma^{2}$ ) = 16\n<br/><br/>No of observations (N) = 7\n<br/><br/>Let the two unknown observation = x and y\n<br/><br/>We know,\n<br/><br/> $\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{N}-\\mu^{2}$  = 16\n<br/><br/> $\\Rightarrow$   $\\frac{2^{2}+4^{2}+10^{2}+12^{2}+14^{2}+x^{2}+y^{2}}{7}-(8)^{2}$  = 16\n<br/><br/> $\\Rightarrow$  x<sup>2</sup> + y<sup>2</sup> = 100 ........(1)\n<br/><br/>We know,\n<br/><br/> $\\mu$  =  $\\frac{\\sum x_{i}}{N}$  = 8\n<br/><br/> $\\Rightarrow$   $\\frac{2+4+10+12+14+x+y}{7}$  = 8\n<br/><br/> $\\Rightarrow$  x + y = 14 ...........(2)\n<br/><br/>As (x + y)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + 2xy\n<br/><br/> $\\Rightarrow$  (14)<sup>2</sup> = 100 + 2xy\n<br/><br/> $\\Rightarrow$  196 = 100 + 2xy\n<br/><br/> $\\Rightarrow$  xy = 48\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sigma^{2}",
@@ -4638,7 +4647,7 @@
         "\\frac{2+4+10+12+14+x+y}{7}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:14.225328"
     },
@@ -4684,7 +4693,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\bar{x}=10 \\Rightarrow \\sum_{i=1}^{5}x_{i}=50$ \n<br/><br/>S.D.   $=\\sqrt{\\frac{\\sum_{i=1}^{5}x_{i}^{2}}{5}-(\\bar{x})^{2}}=8$ \n<br/><br/> $\\Rightarrow \\sum_{i=1}^{5}(x_{i})^{2}=109$ \n<br/><br/>variance  $=\\frac{\\sum_{i=1}^{5}(x_{i})^{2}+(-50)^{2}}{6}-(\\sum_{i=1}^{5}\\frac{x_{i}-50}{6})$ \n<br/><br/> $=507.5$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\bar{x}=10 \\Rightarrow \\sum_{i=1}^{5}x_{i}=50",
@@ -4693,7 +4702,7 @@
         "=507.5"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:15.102627"
     },
@@ -4739,7 +4748,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ten numbers are 10, 22, 26, 29, 34, x,\n42, 67, 70, y.\n<br/><br/>As the numbers are in increasing order so \n<br/><br/>Mediun =  $\\frac{34+x}{2}$  = 35\n<br/><br/> $\\Rightarrow$  x = 36\n<br/><br/>Also given mean = 42\n<br/><br/> $\\Rightarrow$   $\\frac{10+22+26+29+34+x+42+67+70+y}{10}$  = 42\n<br/><br/> $\\Rightarrow$   $\\frac{300+x+y}{10}$  = 42\n<br/><br/> $\\Rightarrow$  300 + x + y = 420\n<br/><br/> $\\Rightarrow$  336 + y = 420\n<br/><br/> $\\Rightarrow$  y = 84\n<br/><br/> $\\therefore$   $\\frac{y}{x}=\\frac{84}{36}$  =  $\\frac{7}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{y}{x}",
@@ -4750,7 +4759,8 @@
         "\\frac{7}{3}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:13.540400"
     },
@@ -4796,7 +4806,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->mean  $\\bar{x}$  = 4,  $\\sigma$ <sup>2</sup> = 5.2, n = 5, . x<sub>1</sub> = 3 x<sub>2</sub> = 4 = x<sub>3</sub>\n<br/><br/> $\\sum x_{i}=20$ \n<br/><br/>x<sub>4</sub> + x<sub>5</sub> = 9 . . . . . . (i)\n<br/><br/> $\\frac{\\sum x_{i}^{2}}{x}-(\\bar{x})^{2}=\\sigma \\Rightarrow \\sum x_{i}^{2}=106$ \n<br/><br/> $x_{4}^{2}+x_{5}^{2}=65$  . . . . . .(ii)\n<br/><br/>Using (i) and (ii) (x<sub>4</sub>  $-$  x<sub>5</sub>)<sup>2</sup> = 49\n<br/><br/> $|x_{4}-x_{5}|=7$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum x_{i}=20",
@@ -4805,7 +4815,7 @@
         "x 5 ) 2 = 49"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:14.252801"
     },
@@ -4851,7 +4861,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let two observations are x<sub>1</sub>  &amp; x<sub>2</sub>\n<br/><br/>mean =  $\\frac{\\sum x_{i}}{5}=5$ <br/><br/> $\\Rightarrow 1+3+8+x_{1}+x_{2}=25$ \n<br/><br/> $\\Rightarrow x_{1}+x_{2}=13$       . . . . (1)\n<br/><br/>variance  $(\\sigma^{2})$  =  $\\frac{\\sum x_{i}^{2}}{5}-25=9.20$ \n<br/><br/> $\\Rightarrow$    $\\sum x_{i}^{2}=171$ \n<br/><br/> $\\Rightarrow$    $x_{1}^{2}+x_{2}^{2}=97$       . . . . . (2)\n<br/><br/> $\\Rightarrow$ (x<sub>1</sub> + x<sub>2</sub>)<sup>2</sup>  $-$  2x<sub>1</sub>x<sub>2</sub> = 97\n<br/><br/> $\\Rightarrow$  169 - 2x<sub>1</sub>x<sub>2</sub> = 97\n<br/><br/>or   x<sub>1</sub>x<sub>2</sub> = 36\n<br/><br/> $\\therefore$   x<sub>1</sub> : x<sub>2</sub> = 4 : 9<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sum x_{i}}{5}=5",
@@ -4862,7 +4872,7 @@
         "\\sum x_{i}^{2}=171"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:15.130040"
     },
@@ -4908,7 +4918,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{10}-(\\frac{\\sum x_{i}}{10})^{2} \\rightarrow (i)$ <br/><br/>\nNow x<sub>1</sub> + x<sub>2</sub> +  x<sub>3</sub> +  x<sub>4</sub> = 44 &amp;  x<sub>5</sub> +  x<sub>6</sub> + ......... +  x<sub>10</sub> = 96<br/><br/>\nHence  $\\sigma^{2}$  =  $\\frac{2000}{10}-(\\frac{140}{10})^{2}$  = 200 - 196 = 4<br/><br/>\nHence  $\\sigma$  = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{10}-(\\frac{\\sum x_{i}}{10})^{2} \\rightarrow (i)",
@@ -4916,7 +4926,7 @@
         "\\frac{2000}{10}-(\\frac{140}{10})^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:12.732319"
     },
@@ -4962,7 +4972,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->standard deviation =  $\\sqrt{5}$ \n<br/><br/> $\\therefore$  Variance =  $(\\sqrt{5})^{2}$  = 5\n<br/><br/>Also variance =  $\\frac{\\sum x_{i}^{2}}{N}-\\mu^{2}$ \n<br/><br/>Where  $\\mu$  = Mean =  $\\frac{-1+0+1+k}{4}$  =  $\\frac{k}{4}$ \n<br/><br/> $\\therefore$  Variance =  $\\frac{(-1)^{2}+0+1^{2}+k^{2}}{4}$  -  $\\frac{k^{2}}{16}$ \n<br/><br/> $\\Rightarrow$  5 =  $\\frac{2+k^{2}}{4}$  -  $\\frac{k^{2}}{16}$ \n<br/><br/> $\\Rightarrow$  8 + 3k<sup>2</sup> = 80\n<br/><br/> $\\Rightarrow$  k<sup>2</sup> = 24 = 2 $\\sqrt{6}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\sqrt{5})^{2}",
@@ -4973,7 +4983,7 @@
         "\\frac{k^{2}}{16}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:13.564517"
     },
@@ -5019,7 +5029,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sum_{i=1}^{50}(x_{i}-30)=50$ \n<br/><br/> $\\sum x_{i}=50 \\times 30=50$ \n<br/><br/> $\\sum x_{i}=50+50+30$ \n<br/><br/>Mean  $=\\bar{x}=\\frac{\\sum x_{i}}{n}=\\frac{50 \\times 30+50}{50}$ \n<br/><br/> $=30+1=31$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\sum_{i=1}^{50}(x_{i}-30)=50",
@@ -5029,7 +5039,7 @@
         "=30+1=31"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:14.278655"
     },
@@ -5075,7 +5085,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sum_{i=1}^{n}(x_{i}+1)^{2}=9n$ \n<br/><br/> $\\Rightarrow \\sum_{i=1}^{n}x_{i}^{2}+2\\sum_{i=1}^{n}x_{i}+n=9n...(1)$ \n<br/><br/> $\\sum_{i=1}^{n}(x_{i}-1)^{2}=5n$ <br/><br/> $\\Rightarrow \\sum_{i=1}^{n}x_{i}^{2}-2\\sum_{i=1}^{n}x_{i}+n=5n...(2)$ \n<br/><br/>Performing (1) + (2), we get\n<br/><br/> $2\\sum_{i=1}^{n}x_{i}^{2}+2n=14n$ \n<br/><br/> $\\sum_{i=1}^{n}x_{i}^{2}=6n$ \n<br/><br/>Performing (1)  $-$  (2), we get\n<br/><br/> $\\Rightarrow 4\\sum_{i=1}^{n}x_{i}=4n$ \n<br/><br/> $\\Rightarrow$  $\\Rightarrow \\sum_{i=1}^{n}x_{i}=n$ \n<br/><br/>S.D( $\\sigma$ ) $=\\sqrt{\\frac{\\sum x_{i}^{2}}{n}-(\\bar{x})^{2}}$ \n<br/><br/> $\\sigma$   $=\\sqrt{\\frac{6n}{n}-(1)}$ \n<br/><br/> $\\sigma$   $=\\sqrt{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{n}(x_{i}+1)^{2}=9n",
@@ -5086,7 +5096,7 @@
         "2\\sum_{i=1}^{n}x_{i}^{2}+2n=14n"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:15.154662"
     },
@@ -5132,14 +5142,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As mean is a linear  operation, so if each observation is multiplied by  $\\lambda$  and decreased by 25 then the mean becomes 75 $\\lambda$  $-$ 25.\n<br/><br/>According to the question,\n<br/><br/>75 $\\lambda$   $-$  25 = 75  $\\Rightarrow$   $\\lambda$  =  $\\frac{4}{3}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "25 = 75",
         "\\frac{4}{3}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.741512"
     },
@@ -5185,7 +5195,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here mean =  $\\bar{x}$  = 9\n<br/><br/> $\\Rightarrow$     $\\bar{x}$  =   $\\frac{\\sum x_{i}}{n}$  = 9\n<br/><br/> $\\Rightarrow$    $\\sum x_{i}$  = 9  $\\times$  5 = 45\n<br/><br/>Now, standard deviation = 0\n<br/><br/> $\\therefore$  all the five terms are same i.e.; 9\n<br/><br/>Now for changed observation\n<br/><br/> $\\bar{x}_{new}$  =  $\\frac{36+x_{5}}{5}=10$ \n<br/><br/> $\\Rightarrow$    x<sub>5</sub> = 14\n<br/><br/> $\\therefore$   $\\sigma$ <sub>new</sub> =  $\\sqrt{\\frac{\\sum (x_{i}-\\bar{x}_{new})^{2}}{n}}$ \n<br/><br/>=  $\\sqrt{\\frac{4(9-10)^{2}+(14-10)^{2}}{5}}$  = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sum x_{i}}{n}",
@@ -5196,7 +5206,7 @@
         "\\sqrt{\\frac{\\sum (x_{i}-\\bar{x}_{new})^{2}}{n}}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.006050"
     },
@@ -5242,7 +5252,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><u>IMPORTANT POINT :-</u>\n<br/><br/>When every number is added or subtracted by a fixed number then the standard Deviation remain unchanged. \n<br/><br/>so let  $x_{i}-5=y_{i}$ \n<br/><br/>So, new equation is  $\\sum_{i=1}^{9}y_{i}=9$ \n<br/><br/>and  $\\sum_{i=1}^{9}y_{i}^{2}=45$ \n<br/><br/>As, we know. Standard Deviation (S.D)\n<br/><br/> $=\\sqrt{⎷\\frac{\\sum_{i=1}^{9}y_{i}^{2}}{9}-⎛⎝⎜\\frac{\\sum_{i=1}^{9}yi}{9}⎞⎠⎟^{2}}$ \n<br/><br/> $=\\sqrt{\\frac{45}{9}-(\\frac{9}{9})^{2}}$ \n<br/><br/> $=\\sqrt{5-1}$ \n<br/><br/> $=$   $\\sqrt{4}$ \n<br/><br/> $=2$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{9}(x_{i}-5)=9",
@@ -5253,7 +5263,7 @@
         "\\sum_{i=1}^{9}y_{i}^{2}=45"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.033661"
     },
@@ -5299,7 +5309,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\bar{x}$  =  $\\frac{7+8+9+7+8+7+\\lambda+8}{8}$  = 8\n<br/><br/> $\\Rightarrow$   $\\frac{54+\\lambda}{8}$  = 8   $\\Rightarrow$    $\\lambda$  = 10\n<br/><br/>Now variance =  $\\sigma$ <sup>2</sup>\n<br/><br/>=  $\\frac{(7-8)^{2}+(8-8)^{2}+(9-8)^{2}+(7-8)^{2}+(8-8)^{2}+(7-8)^{2}+(10-8)^{2}+(8-8)^{2}}{8}$ \n<br/><br/> $\\Rightarrow$    $\\sigma$ <sup>2</sup> =   $\\frac{1+0+1+1+0+1+4+0}{8}$  =  $\\frac{8}{8}$  = 1\n<br/><br/>Hence, the variance is 1.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{7+8+9+7+8+7+\\lambda+8}{8}",
@@ -5308,7 +5318,7 @@
         "\\frac{8}{8}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.060272"
     },
@@ -5354,7 +5364,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have</p>\n<p> $\\sum_{i=1}^{100}x_{i}=400$ </p>\n<p> $\\sum_{i=1}^{100}x_{i}^{2}=2425$ </p>\n<p>The variance of the remaining observations is</p>\n<p> $\\sigma^{2}=\\frac{\\sum x_{i}^{2}}{N}-(\\frac{\\sum x_{i}}{N})^{2}$ </p>\n<p> $\\Rightarrow \\frac{2425}{97}-(\\frac{388}{97})^{2}$ </p>\n<p> $\\Rightarrow \\frac{2425}{97}-16$ </p>\n<p> $\\Rightarrow \\frac{2425-1552}{97}=\\frac{873}{97}=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{i=1}^{100}x_{i}=400",
@@ -5365,7 +5375,7 @@
         "\\Rightarrow \\frac{2425-1552}{97}=\\frac{873}{97}=9"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.769591"
     },
@@ -5411,7 +5421,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean  $(\\bar{x})$  =  $\\frac{x_{1}+x_{2}.....+x_{n}}{n}$  =  $\\frac{\\sum x}{n}$ \n<br/><br/>Here, Mean = 40 of 25 teachers\n<br/><br/> $\\therefore$  40 =  $\\frac{\\sum x}{25}$ \n<br/><br/> $\\Rightarrow$   $\\sum x$  = 40  $\\times$  25 = 1000\n<br/><br/>After retireing of a 60 year old teacher, total age of 24 teachers, \n<br/><br/>x<sub>1</sub> + x<sub>2</sub> + . . . . . .x<sub>24</sub> = 1000  $-$  60 = 940\n<br/><br/>Now a new teacher of age A year is appointed. \n<br/><br/> $\\therefore$  Now total age of this 25 teachers \n<br/><br/>x<sub>1</sub> + x<sub>2</sub> + x<sub>3</sub> + . . . . . + x<sub>25</sub> = 940 + A\n<br/><br/> $\\therefore$  Mean age =  $\\frac{940+A}{25}$ \n<br/><br/>According to question,\n<br/><br/> $\\frac{940+A}{25}$  = 39\n<br/><br/> $\\Rightarrow$  A = 35<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x_{1}+x_{2}.....+x_{n}}{n}",
@@ -5422,7 +5432,7 @@
         "Now total age of this 25 teachers x 1 + x 2 + x 3 + . . . . . + x 25 = 940 + A"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.796812"
     },
@@ -5468,7 +5478,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given numbers are, \n<br/><br/>1, 1 + d, 1 + 2d . . . . . 1 + 100d\n<br/><br/> $\\therefore$    Total 101 number are present.\n<br/><br/> $\\therefore$    n = 101\n<br/><br/> $\\therefore$    mean  $(\\bar{x})$  =  $\\frac{1+(1+d)+......(1+100d)}{101}$ \n<br/><br/>=    $\\frac{1}{101} \\times \\frac{101}{2}$  [1 + (1 + 100d)]\n<br/><br/>=   1 + 50d\n<br/><br/> $\\therefore$    Mean deviation from mean\n<br/><br/>=   $\\frac{1}{101}$   $[|1-(1+50d)|+|(1+d)-(1+50d)|$ \n<br/><br/>           $+......+|(1+100d)-(1+50d)|]$ \n<br/><br/>=    $\\frac{2|d|}{101}$  ( 1 + 2 + 3 + . . . . . + 50)\n<br/><br/>=    $\\frac{2|d|}{101} \\times \\frac{50 \\times 51}{2}$ \n<br/><br/>=    $\\frac{2550}{101}|d|$ \n<br/><br/>From question,\n<br/><br/> $\\frac{2550}{101}|d|$  = 255\n<br/><br/> $\\Rightarrow$     $|d|$  = 10.1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1+(1+d)+......(1+100d)}{101}",
@@ -5479,7 +5489,7 @@
         "\\frac{2550}{101}|d|"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:17.808095"
     },
@@ -5525,7 +5535,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The formula for standard deviation (S.D)\n<br/><br/> $=\\sqrt{\\frac{\\sum x_{i}^{2}}{n}-(\\frac{\\sum x_{i}}{n})^{2}}$ \n<br/><br/>Where  $\\sum x_{i}^{2}=$  Sum of square of the numbers \n<br/><br/> $=2^{2}+3^{2}+a^{2}+11^{2}$ \n<br/><br/> $=4+9+a^{2}+121$ \n<br/><br/> $=134+a^{2}$ \n<br/><br/> $\\sum x_{i}=$  Sum of numbers \n<br/><br/> $=2+3+a+11$ \n<br/><br/> $=16+a$ \n<br/><br/> $\\therefore$   $SD=\\sqrt{\\frac{134+a^{2}}{4}-(\\frac{16+a}{4})^{2}}$ \n<br/><br/> $\\Rightarrow \\sqrt{\\frac{134+a^{2}}{4}-(\\frac{16+a}{4})^{2}}=3.5=\\frac{7}{2}$  (given)\n<br/><br/> $\\Rightarrow \\frac{134+a^{2}}{4}-(\\frac{16+a}{4})^{2}=\\frac{49}{4}$ \n<br/><br/> $\\Rightarrow 4(134+a^{2})-(256+32a+a^{2})=4 \\times 49$ \n<br/><br/> $\\Rightarrow 3a^{2}-32a+84=0$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\sqrt{\\frac{\\sum x_{i}^{2}}{n}-(\\frac{\\sum x_{i}}{n})^{2}}",
@@ -5536,7 +5546,7 @@
         "\\sum x_{i}="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:17.835104"
     },
@@ -5582,7 +5592,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let 5 observations are x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub>\n<br/><br/>given,   x<sub>1</sub> = 1,  x<sub>2</sub> = 2,  x<sub>3</sub> = 6\n<br/><br/>Mean = 5\n<br/><br/> $\\therefore$    Mean $(\\bar{x})$  =  $\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}$  = 5\n<br/><br/> $\\Rightarrow$    1 + 2 + 6 + x<sub>4</sub> + x<sub>5</sub> = 25\n<br/><br/> $\\therefore$    x<sub>4</sub> + x<sub>5</sub> = 16\n<br/><br/> $\\Rightarrow$    (x<sub>4</sub>  $-$  5) + (x<sub>5</sub>  $-$  5) + 10 = 16\n<br/><br/> $\\Rightarrow$    (x<sub>4</sub>  $-$  5) + (x<sub>5</sub>  $-$  5) = 6\n<br/><br/> $\\therefore$    Mean deviation about mean,\n<br/><br/>=    $\\frac{\\sum |x_{i}-\\bar{x}|}{n}$ \n<br/><br/>=     $\\frac{|1-5|+|2-5|+|6-5|+|x_{4}-5|+|x_{5}-5|}{5}$ \n<br/><br/>=    $\\frac{4+3+1+6}{5}$ \n<br/><br/>=     $\\frac{14}{5}$ \n<br/><br/>=   2.8<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x_{1}+x_{2}+x_{3}+x_{4}+x_{5}}{5}",
@@ -5592,7 +5602,7 @@
         "="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:16.827380"
     },
@@ -5638,7 +5648,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Initially we have  $16$  observations and among them one is  $16.$ \n<br/><br/>So, we have  $15$  unknowns. Let those are  $a_{1},a_{2},a_{3}.....a_{15}$ \n<br/><br/> $\\therefore$  Mean of  $16$  datal set \n<br/><br/> $=\\frac{a_{1}+a_{2}+.....a_{15}+16}{16}$ \n<br/><br/>According to the question, \n<br/><br/> $\\frac{a_{1}+a_{2}+.....a_{15}+16}{16}=16$ \n<br/><br/> $\\Rightarrow a_{1}+a_{2}+......+a_{15}=256-16=240$ \n<br/><br/>Now we deleted   $16$  and replaced by there new numbers  $3,4,$  and  $5.$ \n<br/><br/>So, new mean \n<br/><br/> $=\\frac{a_{1}+a_{2}+.......a_{15}+(3+4+5)}{18}$ \n<br/><br/> $=\\frac{240+(3+4+5)}{18}$ \n<br/><br/> $=\\frac{240+12}{18}$ \n<br/><br/> $=14$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow a_{1}+a_{2}+......+a_{15}=256-16=240",
@@ -5647,7 +5657,7 @@
         "=14"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:17.865792"
     },
@@ -5693,7 +5703,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here is total  $50$  numbers, so  $N=50$ \n<br/><br/>Variance  $=$   $\\frac{\\sum x^{2}}{50}-(\\frac{\\sum x}{50})^{2}$ \n<br/><br/>Here  $\\sum x^{2}=$  sum of square of first  $50$  even natural number. \n<br/><br/> $=2^{2}+4^{2}+.....+100^{2}$ \n<br/><br/> $=2^{2}[1^{2}+2^{2}+.......+50^{2}]$ \n<br/><br/> $=4[\\frac{50 \\times 51 \\times 101}{6}]$ \n<br/><br/>So,  $\\frac{\\sum x^{2}}{50}=\\frac{4 \\times 51 \\times 101}{6}=3434$ \n<br/><br/> $\\sum x=$  sum of first  $50$  even natural numbers \n<br/><br/> $=2+4+......+100$ \n<br/><br/> $=2[1+2+....+50]$ \n<br/><br/> $=2[\\frac{50 \\times 51}{2}]$ \n<br/><br/> $=50 \\times 51$ \n<br/><br/> $\\therefore$   $(\\frac{\\sum x}{50})^{2}=(\\frac{50 \\times 51}{50})^{2}=2601$ \n<br/><br/> $\\therefore$  Variance  $=3434-2601$   $=833$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sum x^{2}}{50}-(\\frac{\\sum x}{50})^{2}",
@@ -5704,7 +5714,7 @@
         "\\sum x="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:17.894200"
     },
@@ -5750,13 +5760,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As we know variance does not change with the change of origin. So, here even after adding grace marks  $10$ , the variance will be same. \n<br/><br/>Let's see with an example, \n<br/><br/>Assume initial variance  $=\\frac{\\sum (x_{i}-\\bar{x})^{2}}{N}$ \n<br/><br/>After adding grace marks  $10$  with each student,\n<br/><br/>the final variance  $=\\frac{\\sum [(x_{i}+10)-(\\bar{x}+10)]}{N}^{2}$ \n<br/><br/> $=\\frac{\\sum (x_{i}-\\bar{x})^{2}}{N}$ \n<br/><br/> $=$  Initial variance. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{\\sum (x_{i}-\\bar{x})^{2}}{N}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:18.728904"
     },
@@ -5802,7 +5812,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, \n<br/><br/>for  $x_{1},x_{2},....x_{n},$   $A.M=\\bar{x}$ \n<br/><br/>and variance  $=\\sigma^{2}$ \n<br/><br/>Now A.M of \n<br/><br/> $2x_{1},2x_{2}.....2x_{n}=\\frac{2(x_{1}+x_{2}+....x_{n})}{n}=2\\bar{x}$ \n<br/><br/>But given  $A.M=4\\bar{x}$ \n<br/><br/> $\\therefore$  Statement  $II$  is false.\n<br/><br/>Variance of  $2x_{1},2x_{2}......2x_{n}$ \n<br/><br/> $=$  Variance of  ${2x_{i}}$ \n<br/><br/> $=2^{2}$  Variance of  ${x_{i}}=4\\sigma^{2}$ \n<br/><br/>So, statement  $I$  is correct. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sigma^{2}",
@@ -5813,7 +5823,7 @@
         "A.M=4\\bar{x}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:18.762576"
     },
@@ -5859,7 +5869,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>NOTE :</b>\n<br/><br/>If total no of terms are even then median \n<br/><br/> $=\\frac{1}{2}$  [  $\\frac{n}{2}$ th term  $+(\\frac{n}{2}+1)$  th term]\n<br/><br/>Here total terms  $=50,$  which is even\n<br/><br/> $\\therefore$   Median  $=\\frac{1}{2}$  [  $\\frac{50}{2}$  th term  $+(\\frac{50}{2}+1)$  th term]\n<br/><br/> $=\\frac{1}{2}$  [  $25$  th term  $+$   $26$  th term ]\n<br/><br/> $=\\frac{1}{2}$  [  $25a$   $+$   $26a$  ]\n<br/><br/> $=25.5a$ \n<br/><br/>Mean deviation (M.D.) about the median \n<br/><br/> $=\\frac{\\sum_{i=1}^{50}|x_{i}-Median|}{N}=50$  (given)\n<br/><br/> $\\therefore$   $\\frac{1}{50}[2 \\times |a| \\times (0.5+1.5+2.5+....24.5)]=50$ \n<br/><br/> $\\Rightarrow 2|a| \\times \\frac{25}{2} \\times 25=2500$ \n<br/><br/> $\\Rightarrow |a|=\\frac{2500}{25 \\times 25}=4$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{1}{2}",
@@ -5870,7 +5880,8 @@
         "+(\\frac{50}{2}+1)"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:18.789729"
     },
@@ -5916,7 +5927,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that,\n<br/><br/> $\\sigma_{1}^{2}=4$ \n<br/><br/>and  $\\sigma_{2}^{2}=5$ \n<br/><br/>And also given, \n<br/><br/> $\\bar{x}=2$  and  $\\bar{y}=4$ \n<br/><br/>So,   $\\frac{\\sum x_{i}}{5}=2$ \n<br/><br/> $\\Rightarrow \\sum x_{i}=10$  v\n<br/><br/>and  $\\frac{\\sum y_{i}}{5}=4$ \n<br/><br/> $\\Rightarrow \\sum y_{i}=20$ \n<br/><br/> $\\therefore$   $\\sigma_{1}^{2}=\\frac{\\sum x_{i}^{2}}{5}-(\\bar{x})^{2}$ \n<br/><br/> $\\Rightarrow 4=\\frac{\\sum x_{i}^{2}}{5}-4$ \n<br/><br/> $\\Rightarrow \\sum x_{i}^{2}=40$ \n<br/><br/>and  $\\sigma_{2}^{2}=\\frac{\\sum y_{i}^{2}}{5}-(\\bar{y})^{2}$ \n<br/><br/> $\\Rightarrow 5=\\frac{\\sum y_{i}^{2}}{5}-16$ \n<br/><br/> $\\Rightarrow \\sum y_{i}^{2}=105$ \n<br/><br/>Variance of combined data set \n<br/><br/> $\\sigma^{2}=\\frac{1}{10}(\\sum x_{i}^{2}+\\sum y_{i}^{2})-(\\frac{\\bar{x}+\\bar{y}}{2})^{2}$ \n<br/><br/> $=\\frac{1}{10}(40+105)-9$ \n<br/><br/> $=\\frac{145-90}{10}$ \n<br/><br/> $=\\frac{55}{10}$ \n<br/><br/> $=\\frac{11}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sigma_{1}^{2}=4",
@@ -5927,7 +5938,7 @@
         "\\Rightarrow \\sum x_{i}=10"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:18.815099"
     },
@@ -5973,7 +5984,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean  $(\\bar{x})=\\frac{Sumofnumbers}{n}$ \n<br/><br/> $=\\frac{\\frac{n}{2}(a+l)}{n}$ \n<br/><br/> $=\\frac{1}{2}(1+l+100d)$ \n<br/><br/> $=1+50d.$ \n<br/><br/>Mean deviation (M.D)  $=\\frac{1}{n}\\sum_{i=1}^{101}|x_{i}-\\bar{x}|$ \n<br/><br/> $=\\frac{1}{101}$ [ 50d + 49d + 48d + .......d + 0 + ..... + 50d] \n<br/><br/> $=\\frac{1}{101}.2d(1+2+....+50)$ \n<br/><br/> $=\\frac{1}{101}.2d.\\frac{50 \\times 51}{2}$ \n<br/><br/> $=\\frac{50 \\times 51d}{101}$ \n<br/><br/>Given that M.D = 255\n<br/><br/> $\\therefore$   $\\frac{50 \\times 51d}{101}=255$ \n<br/><br/> $\\Rightarrow d=\\frac{101 \\times 255}{51 \\times 50}$ \n<br/><br/> $=10.1$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\bar{x})=\\frac{Sumofnumbers}{n}",
@@ -5984,7 +5995,7 @@
         "=\\frac{1}{101}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:19.995808"
     },
@@ -6030,7 +6041,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let first n even natural numbers = 2,4, 6, 8 ...... 2n\n<br/><br/> $\\therefore$  Sum of those num = 2 + 4 + 6 + ..... 2n\n<br/><br/>= 2 (1 + 2 + ..... n)\n<br/><br/>=  $2.\\frac{n(n+1)}{2}$ \n<br/><br/>= n (n + 1)\n<br/><br/> $\\therefore$  Mean  $(\\bar{x})=\\frac{n(n+1)}{n}$   $=n+1$ \n<br/><br/> $\\therefore$  Variance  $=\\frac{1}{n}\\sum x_{i}^{2}-(\\bar{x})^{2}$ \n<br/><br/> $=\\frac{1}{n}[2^{2}+4^{2}+......+(2n)^{2}]-(n+1)^{2}$ \n<br/><br/> $=\\frac{1}{n}2^{2}[1^{2}+2^{2}+.......n^{2}]-(n+1)^{2}$ \n<br/><br/> $=\\frac{4}{n}[\\frac{n(n+1)(2n+1)}{6}]-(n+1)^{2}$ \n<br/><br/> $=\\frac{(n+1)[2(2n+1)-3(n+1)]}{3}$ \n<br/><br/> $=\\frac{(n+1)(n-1)}{3}$ \n<br/><br/> $=\\frac{n^{2}-1}{3}$ \n<br/><br/> $\\therefore$  Statement 1 is false. \n<br/><br/>Statement 2 is true as those are standard formula. \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{n^{2}-1}{4}",
@@ -6041,7 +6052,7 @@
         "=n+1"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:20.022100"
     },
@@ -6087,7 +6098,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, \n<br/><br/>Mean of a, b, 8, 5, 10 = 6\n<br/><br/> $\\therefore$   $\\frac{a+b+8+5+10}{5}=6$ \n<br/><br/> $\\Rightarrow$  a + b + 23 = 30\n<br/><br/> $\\Rightarrow$  a + b = 7 ....... (1)\n<br/><br/>Variance  $=\\frac{\\sum (x_{i}-A)^{2}}{n}=6.8$ \n<br/><br/> $\\Rightarrow \\frac{(6-a)^{2}+(6-b)^{2}+(6-8)^{2}+(6-5)^{2}+(6-10)^{2}}{5}=6.5$ \n<br/><br/> $\\Rightarrow (6-a)^{2}+(6-b)^{2}+4+1+16=34$ \n<br/><br/> $\\Rightarrow (6-a)^{2}+(6-b)^{2}=13$ \n<br/><br/> $\\Rightarrow a^{2}+b^{2}=25$ \n<br/><br/>By using (1) we get, \n<br/><br/> $a^{2}+(7-a)^{2}=25$ \n<br/><br/> $\\Rightarrow a^{2}-7a+12=0$ \n<br/><br/> $\\therefore$   a = 3, 4 \n<br/><br/>then b = 4, 3. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{a+b+8+5+10}{5}=6",
@@ -6098,7 +6109,7 @@
         "\\Rightarrow a^{2}+b^{2}=25"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:20.044723"
     },
@@ -6144,13 +6155,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let x and y are number of boys and girls in a class respectively. \n<br/><br/> $\\therefore$  52x + 42y = 50 (x + y)\n<br/><br/> $\\Rightarrow$  52x + 42y = 50x + 50y\n<br/><br/> $\\Rightarrow$  2x = 8y\n<br/><br/> $\\Rightarrow$  x = 4y\n<br/><br/> $\\therefore$  Total no. of students = x + y = 4y + y = 5y\n<br/><br/> $\\therefore$  Percentage of boys =  $\\frac{4y}{5y} \\times 100%$  = 80%<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4y}{5y} \\times 100%"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:20.070948"
     },
@@ -6196,7 +6207,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Series A = 101, 102 ............ 200\n<br/><br/>Series B = 151, 152 ............ 250\n<br/><br/>Here series B can be obtained if we change the origin of A by 50 units. \n<br/><br/>And we know the variance does not change by changing the origin. \n<br/><br/>So,    $V_{A}=V_{B}$ \n<br/><br/> $\\Rightarrow \\frac{V_{A}}{V_{B}}=1$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{V_{A}}{V_{B}}",
@@ -6204,7 +6215,7 @@
         "\\Rightarrow \\frac{V_{A}}{V_{B}}=1"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:20.569198"
     },
@@ -6250,14 +6261,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, \n<br/><br/>Mean = 21  and median = 22\n<br/><br/>We know, \n<br/><br/>Mode + 2 Mean = 3 Median\n<br/><br/> $\\therefore$   Mode = 3  $\\times$  22  $-$  2  $\\times$  21\n<br/><br/>= 66  $-$  42\n<br/><br/>= 24 <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
         "21 = 66"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:20.594669"
     },
@@ -6303,7 +6315,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As we know,\n<br/><br/> $\\sigma^{2} \\ge 0$ \n<br/><br/> $\\therefore$   $\\frac{\\sum x_{i}^{2}}{n}-(\\frac{\\sum x_{i}}{n})^{2} \\ge 0$ \n<br/><br/> $\\Rightarrow \\frac{400}{n}-\\frac{6400}{n^{2}} \\ge 0$ \n<br/><br/> $\\Rightarrow n \\ge 16$ \n<br/><br/> $\\therefore$  Possible value of n according to the option is = 18 <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Measures of Central Tendency & Median",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum x_{i}^{2}=400",
@@ -6313,7 +6325,7 @@
         "\\Rightarrow \\frac{400}{n}-\\frac{6400}{n^{2}} \\ge 0"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:20.617643"
     },
@@ -6359,7 +6371,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mean  $(A)=\\frac{a-a}{2n}=0$ \n<br/><br/>Given standard deviation (S.D) = 2\n<br/><br/> $\\therefore$   $\\sqrt{\\frac{\\sum (x-A)^{2}}{2n}}=2$ \n<br/><br/> $\\Rightarrow \\sqrt{\\frac{(a-0)^{2}+(a-0)^{2}+.....+(0-a)^{2}}{2n}}=2$ \n<br/><br/> $\\Rightarrow \\sqrt{\\frac{a^{2}+a^{2}........2ntimes}{2n}}=2$ \n<br/><br/> $\\Rightarrow \\sqrt{\\frac{2n.a^{2}}{2n}}=2$ \n<br/><br/> $\\Rightarrow \\sqrt{a^{2}}=2$ \n<br/><br/> $\\Rightarrow |a|=2$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "Given standard deviation (S.D) = 2",
@@ -6370,7 +6382,7 @@
         "\\Rightarrow \\sqrt{a^{2}}=2"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:21.250834"
     },
@@ -6416,11 +6428,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The statements are analyzed as follows :</p>\n<p>(a) Mode can be computed from histogram : This is correct. The mode is the value that appears most frequently in a data set. A histogram provides a graphical representation of the frequency of each data value. The data value corresponding to the highest bar in a histogram is the mode.</p>\n<p>(b) Median is not independent of change of scale : This is correct. The median is the middle value in a data set when the values are arranged in ascending or descending order. When you change the scale (e.g., by multiplying all data points by a constant), the median changes as well.</p>\n<p>(c) Variance is independent of change of origin and scale : This is not correct. Variance, which measures the dispersion of a set of data points, is affected by changes in scale (it is not independent of scale). If you multiply all the values in a dataset by a constant, the variance gets multiplied by the square of that constant. However, it is true that variance is independent of the change of origin (it remains the same if you add or subtract a constant from all data points in the set).</p>\n<p>Therefore, the correct answer is <b>Option C :</b> only (a) and (b) are correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation",
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:20.641506"
     },
@@ -6466,7 +6479,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, \n<br/><br/>N = 15,   $\\sum x^{2}=2830,\\sum x=170$ \n<br/><br/>As, 20 was replaced by 30 then,\n<br/><br/> $\\sum x=170-20+30=180$ \n<br/><br/>and  $\\sum x^{2}=2830-400+900=3330$ \n<br/><br/>So, the corrected variance \n<br/><br/> $=\\frac{\\sum x^{2}}{N}-(\\frac{\\sum x}{N})^{2}$ \n<br/><br/> $=\\frac{3330}{15}-(\\frac{180}{15})^{2}$ \n<br/><br/> $=222-12^{2}$ \n<br/><br/> $=222-144$ \n<br/><br/> $=78$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum x^{2}=2830,\\sum x=170",
@@ -6477,7 +6490,7 @@
         "=222-12^{2}"
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:21.292804"
     },
@@ -6523,11 +6536,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here total no of observation is 9 which is a odd number. As we know for odd number 9 the median will be the 5<sup>th</sup> term.\n<br/><br/>Now question says, you increase largest 4 number by 2 which does not affect the 5<sup>th</sup> term so the new median will be the same.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Measures of Central Tendency & Median",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Measures of Central Tendency & Median"
       ],
       "crawled_at": "2026-09-20T15:47:21.321500"
     },
@@ -6573,7 +6586,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, total students = 100\n<br/><br/>and number of boys = 70\n<br/><br/> $\\therefore$  No. of  girls = 100 - 70 = 30\n<br/><br/>Average of 100 students = 72 \n<br/><br/> $\\therefore$  Total marks of 100 students = 100  $\\times$  72 = 7200 \n<br/><br/>Average of 70 boys = 75 \n<br/><br/> $\\therefore$  Total marks of 70 boys = 70  $\\times$  75 = 5250\n<br/><br/> $\\therefore$  Total marks of 30 girls = 7200  $-$  5250 = 1950\n<br/><br/> $\\therefore$  Average marks of 30 girls =  $\\frac{1950}{30}$  = 65 <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Statistics - Core Application",
+      "topic_tag": "Mean, Variance & Standard Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -6581,7 +6594,7 @@
         "Average marks of 30 girls ="
       ],
       "key_concepts": [
-        "Statistics - Core Application"
+        "Mean, Variance & Standard Deviation"
       ],
       "crawled_at": "2026-09-20T15:47:21.349341"
     }

@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the ellipse  $E$ , let its equation be</p>\n<p> $\\frac{x^{2}}{A^{2}}+\\frac{y^{2}}{B^{2}}=1,A&gt;B$ </p>\n<p>since its major axis is along the  $x$ -axis because the directrices are of the form  $x=\\text{constant}$ .</p>\n<p>Given eccentricity,</p>\n<p> $e=\\frac{\\sqrt{3}}{2}$ </p>\n<p>For an ellipse with major axis along the  $x$ -axis, the directrices are</p>\n<p> $x= \\pm \\frac{A}{e}$ </p>\n<p>We are given</p>\n<p> $x= \\pm \\frac{4\\sqrt{6}}{3}$ </p>\n<p>So,</p>\n<p> $\\frac{A}{e}=\\frac{4\\sqrt{6}}{3}$ </p>\n<p>Substituting  $e=\\frac{\\sqrt{3}}{2}$ ,</p>\n<p> $A=\\frac{\\sqrt{3}}{2} \\cdot \\frac{4\\sqrt{6}}{3}$ </p>\n<p> $A=\\frac{4\\sqrt{18}}{6}=\\frac{4 \\cdot 3\\sqrt{2}}{6}=2\\sqrt{2}$ </p>\n<p>Thus the semi-major axis of ellipse  $E$  is</p>\n<p> $A=2\\sqrt{2}$ </p>\n<p>Now for the ellipse,</p>\n<p> $B^{2}=A^{2}(1-e^{2})$ </p>\n<p>Since</p>\n<p> $A^{2}=(2\\sqrt{2})^{2}=8$ </p>\n<p>and</p>\n<p> $e^{2}=\\frac{3}{4}$ </p>\n<p>we get</p>\n<p> $B^{2}=8(1-\\frac{3}{4})=8 \\cdot \\frac{1}{4}=2$ </p>\n<p>Hence</p>\n<p> $B=\\sqrt{2}$ </p>\n<p>So the length of minor axis of  $E$  is</p>\n<p> $2B=2\\sqrt{2}$ </p>\n<p>Now consider the hyperbola</p>\n<p> $H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>Its eccentricity is equal to the length of semi-major axis of  $E$ , so</p>\n<p> $e_{H}=2\\sqrt{2}$ </p>\n<p>For a hyperbola,</p>\n<p> $e_{H}^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p>Thus,</p>\n<p> $(2\\sqrt{2})^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p> $8=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p> $\\frac{b^{2}}{a^{2}}=7 \\Rightarrow b^{2}=7a^{2}$ </p>\n<p>Also, the length of latus rectum of the hyperbola is equal to the length of minor axis of  $E$ .</p>\n<p>For the hyperbola, length of latus rectum is</p>\n<p> $\\frac{2b^{2}}{a}$ </p>\n<p>So,</p>\n<p> $\\frac{2b^{2}}{a}=2\\sqrt{2}$ </p>\n<p> $\\frac{b^{2}}{a}=\\sqrt{2}$ </p>\n<p>Using  $b^{2}=7a^{2}$ ,</p>\n<p> $\\frac{7a^{2}}{a}=\\sqrt{2}$ </p>\n<p> $7a=\\sqrt{2}$ </p>\n<p> $a=\\frac{\\sqrt{2}}{7}$ </p>\n<p>Now for the hyperbola,</p>\n<p> $c=ae_{H}$ </p>\n<p>So,</p>\n<p> $c=\\frac{\\sqrt{2}}{7} \\cdot 2\\sqrt{2}=\\frac{4}{7}$ </p>\n<p>Distance between the foci  $=2c$ ,</p>\n<p> $2c=\\frac{8}{7}$ </p>\n<p>Hence, the correct answer is</p>\n<p> $\\frac{8}{7}$ </p>\n<p>So, <strong>Option D</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "A=\\frac{4\\sqrt{18}}{6}=\\frac{4 \\cdot 3\\sqrt{2}}{6}=2\\sqrt{2}",
@@ -55,7 +55,7 @@
         "\\frac{7a^{2}}{a}=\\sqrt{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:08.681588"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given equation of the hyperbola is:</p>\n<p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>Let the uniform eccentricity of the hyperbola be  $e$ . </p>\n<p>According to the problem, the distance between the foci is  $6$ . For a standard hyperbola, the coordinates of the foci are  $( \\pm ae,0)$ , so the distance between them is given by  $2ae$ .</p>\n<p> $2ae=6$ </p>\n<p> $ae=3\\dots(i)$ </p>\n<p>The distance between the directrices is given as  $\\frac{8}{3}$ . The equations of the directrices are  $x= \\pm \\frac{a}{e}$ , so the distance between them is  $2\\frac{a}{e}$ .</p>\n<p> $2\\frac{a}{e}=\\frac{8}{3}$ </p>\n<p> $\\frac{a}{e}=\\frac{4}{3}\\dots(ii)$ </p>\n<p>To find the value of  $a^{2}$ , we can multiply equations (i) and (ii):</p>\n<p> $(ae) \\cdot (\\frac{a}{e})=3 \\times \\frac{4}{3}$ </p>\n<p> $a^{2}=4$ </p>\n<p>We know the fundamental relationship between  $a,b,$  and  $e$  for a hyperbola is:</p>\n<p> $b^{2}=a^{2}(e^{2}-1)$ </p>\n<p> $b^{2}=a^{2}e^{2}-a^{2}$ </p>\n<p>Using the value  $ae=3$ , we have  $a^{2}e^{2}=9$ . Substituting  $a^{2}e^{2}$  and  $a^{2}$  into the equation gives:</p>\n<p> $b^{2}=9-4=5$ </p>\n<p>Now, substituting  $a^{2}$  and  $b^{2}$  back into the standard equation, the hyperbola is:</p>\n<p> $\\frac{x^{2}}{4}-\\frac{y^{2}}{5}=1$ </p>\n<p>The line  $x=\\alpha$  intersects the hyperbola at points A and B. Substitute  $x=\\alpha$  into the equation of the hyperbola to find the y-coordinates of points A and B:</p>\n<p> $\\frac{\\alpha^{2}}{4}-\\frac{y^{2}}{5}=1$ </p>\n<p> $\\frac{y^{2}}{5}=\\frac{\\alpha^{2}}{4}-1$ </p>\n<p> $\\frac{y^{2}}{5}=\\frac{\\alpha^{2}-4}{4}$ </p>\n<p> $y^{2}=\\frac{5(\\alpha^{2}-4)}{4}$ </p>\n<p> $y= \\pm \\frac{\\sqrt{5(\\alpha^{2}-4)}}{2}$ </p>\n<p>So, the coordinates of points A and B are  $(\\alpha,\\frac{\\sqrt{5(\\alpha^{2}-4)}}{2})$  and  $(\\alpha,-\\frac{\\sqrt{5(\\alpha^{2}-4)}}{2})$ . </p>\n<p>These points lie vertically above and below each other, forming the base of  $△AOB$  along the line  $x=\\alpha$ .</p>\n<p>Length of the base  $AB$  = Distance between A and B =  $2 \\times \\frac{\\sqrt{5(\\alpha^{2}-4)}}{2}=\\sqrt{5(\\alpha^{2}-4)}$ .</p>\n<p>The perpendicular height of  $△AOB$  from the origin  $O(0,0)$  to the line  $x=\\alpha$  is simply  $|\\alpha|$ .</p>\n<p>We are given that the area of  $△AOB$  is  $4\\sqrt{15}$ . Using the area of a triangle formula:</p>\n<p> $\\text{Area}=\\frac{1}{2} \\times \\text{base} \\times \\text{height}$ </p>\n<p> $4\\sqrt{15}=\\frac{1}{2} \\cdot \\sqrt{5(\\alpha^{2}-4)} \\cdot |\\alpha|$ </p>\n<p>Squaring both sides to remove the square root and the absolute value:</p>\n<p> $(4\\sqrt{15})^{2}=\\frac{1}{4} \\cdot (\\alpha^{2}) \\cdot 5(\\alpha^{2}-4)$ </p>\n<p> $240=\\frac{5}{4}\\alpha^{2}(\\alpha^{2}-4)$ </p>\n<p> $240 \\times \\frac{4}{5}=\\alpha^{2}(\\alpha^{2}-4)$ </p>\n<p> $192=\\alpha^{4}-4\\alpha^{2}$ </p>\n<p> $\\alpha^{4}-4\\alpha^{2}-192=0$ </p>\n<p>Let  $\\alpha^{2}=t$ . This transforms our equation into a quadratic equation:</p>\n<p> $t^{2}-4t-192=0$ </p>\n<p>Splitting the middle term:</p>\n<p> $t^{2}-16t+12t-192=0$ </p>\n<p> $t(t-16)+12(t-16)=0$ </p>\n<p> $(t-16)(t+12)=0$ </p>\n<p>So,  $t=16$  or  $t=-12$ . </p>\n<p>Since  $t=\\alpha^{2}$  and the square of a real number cannot be negative, we disregard  $-12$ .</p>\n<p>Thus, we have:</p>\n<p> $\\alpha^{2}=16$ </p>\n<p>Option B is the correct answer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -112,7 +112,7 @@
         "ae=3\\dots(i)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:09.452803"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; log_{5}(log_{7}(9x-x^{2}-13))&gt;0 \\\\ &amp; \\Rightarrow 9x-x^{2}-13&gt;7 \\\\ &amp; \\Rightarrow x \\in (4,5)=(m,n) \\\\ &amp; \\Rightarrow \\text{eccentricity}=\\frac{5}{3} \\\\ &amp; L(LR)=\\frac{32}{3} \\\\ &amp; \\frac{25}{9}=1+\\frac{b^{2}}{a^{2}}...(1) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{2b^{2}}{a}=\\frac{32}{3} \\Rightarrow b^{2}=\\frac{16a}{3} \\\\ &amp; \\text{Stultify in (1)} \\\\ &amp; \\begin{aligned} &amp; \\frac{16}{9}=\\frac{16a}{3a^{2}} \\Rightarrow a=3 \\\\ &amp; b^{2}=16 \\\\ &amp; \\therefore b^{2}-a^{2}=16-9 \\\\ &amp; =7 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log_{3}log_{5}log_{7}(9x-x^{2}-13)",
@@ -168,7 +168,7 @@
         "b^{2}-a^{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:09.969301"
     },
@@ -214,7 +214,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the quadratic equation</p>\n<p>$$ x^2-ax+2=0 $$</p>\n<p>let its two distinct roots be $e_1$ and $e_2$.</p>\n<p>We are given that these roots are to be interpreted as eccentricities.</p>\n<p>Recall:</p>\n<ul>\n<li><p>For a hyperbola, eccentricity $e&gt;1$</p></li>\n<li><p>For an ellipse, eccentricity satisfies $0<e<1$< p=\"\"></e<1$<></p></li>\n</ul>\n<p>Also, since $e_1,e_2$ are roots of the quadratic, by Vieta's formulas,</p>\n<p>$$ e_1+e_2=a,\\qquad e_1e_2=2 $$</p>\n<p>and since the roots are distinct real roots,</p>\n<p>$$ a^2-8&gt;0 \\quad \\Rightarrow \\quad |a|&gt;2\\sqrt2 $$</p>\n<p>Now we analyse the two sets.</p>\n<h2>1. Both $e_1$ and $e_2$ are eccentricities of hyperbolas</h2>\n<p>This means both roots must satisfy</p>\n<p>$$ e_1&gt;1,\\qquad e_2&gt;1 $$</p>\n<p>Since</p>\n<p>$$ e_1e_2=2&gt;0 $$</p>\n<p>the two roots have the same sign.  </p>\n<p>If both are hyperbola eccentricities, both must be positive and greater than $1$.</p>\n<p>Now, for both roots of</p>\n<p>$$ x^2-ax+2=0 $$</p>\n<p>to be greater than $1$, we use the NCERT-style condition:</p>\n<p>For both roots to be greater than $1$, we need</p>\n<ol>\n<li><p>roots real and distinct:</p>\n<p>$$    a^2-8&gt;0    $$</p></li>\n<li><p>sum positive:</p>\n<p>$$    a&gt;0    $$</p></li>\n<li><p>value of polynomial at $x=1$ positive, because $1$ must lie to the left of both roots:</p>\n<p>$$    f(1)=1-a+2=3-a&gt;0 \\text{ or } &lt;0?    $$</p></li>\n</ol>\n<p>Let us be careful.</p>\n<p>Since the parabola opens upward, if both roots are greater than $1$, then $x=1$ lies outside the roots on the left side, so</p>\n<p>$$ f(1)&gt;0 $$</p>\n<p>Hence,</p>\n<p>$$ 3-a&gt;0 \\Rightarrow a&lt;3 $$</p>\n<p>Also, for both roots to be greater than $1$, the axis of symmetry should be to the right of $1$:</p>\n<p>$$ \\frac a2&gt;1 \\Rightarrow a&gt;2 $$</p>\n<p>Combining:</p>\n<p>$$ 2<a<3 $$<=\"\" p=\"\">\n<p>But also we need distinct real roots, and in this interval automatically $a&gt;2\\sqrt2$ is needed. Hence</p>\n<p>$$ 2\\sqrt2<a<3 $$<=\"\" p=\"\">\n<p>So,</p>\n<p>$$ (\\alpha,\\beta)=(2\\sqrt2,\\,3) $$</p>\n<p>Thus,</p>\n<p>$$ \\alpha=2\\sqrt2,\\qquad \\beta=3 $$</p>\n<h2>2. $e_1$ is eccentricity of an ellipse and $e_2$ is eccentricity of a hyperbola, respectively</h2>\n<p>This means one root lies in $(0,1)$ and the other lies in $(1,\\infty)$.</p>\n<p>Since</p>\n<p>$$ e_1e_2=2&gt;0 $$</p>\n<p>both roots are positive. So the only possibility is:</p>\n<ul>\n<li><p>one root in $(0,1)$</p></li>\n<li><p>the other root greater than $1$</p></li>\n</ul>\n<p>Now let the roots be distinct and positive. Since their product is $2$, if one root is less than $1$, the other must automatically be greater than $2$, hence greater than $1$.</p>\n<p>So we only need one root to be less than $1$.</p>\n<p>For that, $x=1$ must lie between the two roots. Since the parabola opens upward, this happens when</p>\n<p>$$ f(1)&lt;0 $$</p>\n<p>That is,</p>\n<p>$$ 1-a+2&lt;0 $$</p>\n<p>$$ 3-a&lt;0 $$</p>\n<p>$$ a&gt;3 $$</p>\n<p>Also for real distinct roots, $a^2-8&gt;0$, which is already true for $a&gt;3$.</p>\n<p>Hence the set is</p>\n<p>$$ (\\gamma,\\infty)=(3,\\infty) $$</p>\n<p>So,</p>\n<p>$$ \\gamma=3 $$</p>\n<h2>3. Find $\\alpha^2+\\beta^2+\\gamma^2$</h2>\n<p>Now,</p>\n<p>$$ \\alpha^2=(2\\sqrt2)^2=8 $$</p>\n<p>$$ \\beta^2=3^2=9 $$</p>\n<p>$$ \\gamma^2=3^2=9 $$</p>\n<p>Therefore,</p>\n<p>$$ \\alpha^2+\\beta^2+\\gamma^2=8+9+9=26 $$</p>\n<p>So the correct answer is</p>\n<p>$$ \\boxed{26} $$</p>\n<p>Hence, <strong>Option C</strong>.</p></a<3></p></a<3></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "e_{1}",
@@ -225,7 +225,7 @@
         "}=(\\gamma,\\infty)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:08.713999"
     },
@@ -271,7 +271,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $P(x_{1},y_{1}),Q(x_{2},y_{2})$ </p>\n<p>be two points on the rectangular hyperbola</p>\n<p> $xy=12$ </p>\n<p>So, both points satisfy</p>\n<p> $x_{1}y_{1}=12\\text{and}x_{2}y_{2}=12$ </p>\n<p>Also, the midpoint of  $PQ$  is given as</p>\n<p> $(\\frac{1}{2},-\\frac{1}{2})$ </p>\n<p>Using the midpoint formula,</p>\n<p> $\\frac{x_{1}+x_{2}}{2}=\\frac{1}{2},\\frac{y_{1}+y_{2}}{2}=-\\frac{1}{2}$ </p>\n<p>Hence,</p>\n<p> $x_{1}+x_{2}=1,y_{1}+y_{2}=-1$ </p>\n<p>Now we need the area of triangle  $OPQ$ , where  $O=(0,0)$ .</p>\n<p>The area of triangle formed by points  $O(0,0)$ ,  $P(x_{1},y_{1})$ ,  $Q(x_{2},y_{2})$  is</p>\n<p> $\\text{Area}=\\frac{1}{2}|x_{1}y_{2}-x_{2}y_{1}|$ </p>\n<p>So our aim is to find  $|x_{1}y_{2}-x_{2}y_{1}|$ .</p>\n<p>Since  $x_{1}$  and  $x_{2}$  are the  $x$ -coordinates of points on the hyperbola, and their sum is  $1$ , let us use</p>\n<p> $y_{1}=\\frac{12}{x_{1}},y_{2}=\\frac{12}{x_{2}}$ </p>\n<p>Now using</p>\n<p> $y_{1}+y_{2}=-1$ </p>\n<p>we get</p>\n<p> $\\frac{12}{x_{1}}+\\frac{12}{x_{2}}=-1$ </p>\n<p> $12(\\frac{x_{1}+x_{2}}{x_{1}x_{2}})=-1$ </p>\n<p>Since  $x_{1}+x_{2}=1$ ,</p>\n<p> $12(\\frac{1}{x_{1}x_{2}})=-1$ </p>\n<p>So,</p>\n<p> $x_{1}x_{2}=-12$ </p>\n<p>Thus  $x_{1}$  and  $x_{2}$  are roots of the quadratic equation</p>\n<p> $t^{2}-(x_{1}+x_{2})t+x_{1}x_{2}=0$ </p>\n<p> $t^{2}-t-12=0$ </p>\n<p> $(t-4)(t+3)=0$ </p>\n<p>Hence,</p>\n<p> $x_{1}=4,x_{2}=-3$ </p>\n<p>or vice versa.</p>\n<p>Then corresponding  $y$ -coordinates are</p>\n<p> $y_{1}=\\frac{12}{4}=3,y_{2}=\\frac{12}{-3}=-4$ </p>\n<p>So the points are</p>\n<p> $P(4,3),Q(-3,-4)$ </p>\n<p>Now area of triangle  $OPQ$  is</p>\n<p> $\\text{Area}=\\frac{1}{2}|4(-4)-(-3)(3)|$ </p>\n<p> $=\\frac{1}{2}|-16+9|$ </p>\n<p> $=\\frac{1}{2} \\cdot 7$ </p>\n<p> $=\\frac{7}{2}$ </p>\n<p>Therefore, the required area is</p>\n<p> $\\frac{7}{2}$ </p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "xy=12",
@@ -282,7 +282,8 @@
         "x_{1}+x_{2}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate",
+        "Rectangular Hyperbola & Asymptotes"
       ],
       "crawled_at": "2026-09-20T15:40:09.498816"
     },
@@ -328,7 +329,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} P(10,2\\sqrt{15})\\text{lies on}\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 \\\\ \\therefore \\frac{100}{a^{2}}-\\frac{60}{b^{2}}=1\\dots\\dots\\dots\\dots..(1) \\\\ \\because \\text{Length of latus rectum}=8 \\\\ \\frac{2 \\cdot b^{2}}{a}=8 \\Rightarrow \\frac{b^{2}}{a}=4\\dots\\dots\\dots.(2) \\end{aligned}$ </p>\n<p>From (1) \\&amp; (2)</p>\n<p> $\\begin{aligned} &amp; \\frac{100}{a^{2}}-\\frac{60}{4a}=1 \\\\ &amp; 400-60a=4a^{2} \\\\ &amp; 4a^{2}+60a-400=0 \\\\ &amp; a^{2}+15a-100=0 \\\\ &amp; a=5&amp;-20(\\text{rejected}) \\\\ &amp; \\Rightarrow b=\\sqrt{20} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\text{Hyperbola is}\\frac{x^{2}}{25}-\\frac{y^{2}}{20}=1 \\\\ &amp; \\therefore \\text{Focal length}SS^{1}=2ae=2 \\cdot 5 \\cdot (\\sqrt{1+\\frac{4}{5}})=6\\sqrt{5} \\\\ &amp; \\therefore \\text{Area of}△PSS^{1}=\\frac{1}{2} \\cdot 6\\sqrt{5} \\cdot 2\\sqrt{15}=30\\sqrt{3}=A \\\\ &amp; \\therefore A^{2}=2700 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -336,7 +337,7 @@
         "\\Delta PSS^{'}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.008623"
     },
@@ -382,7 +383,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the hyperbola</p>\n<p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>we are given that it passes through the point  $(6,4\\sqrt{3})$ .</p>\n<p>So, substituting  $x=6$  and  $y=4\\sqrt{3}$ :</p>\n<p> $\\frac{36}{a^{2}}-\\frac{(4\\sqrt{3})^{2}}{b^{2}}=1$ </p>\n<p>Since</p>\n<p> $(4\\sqrt{3})^{2}=48$ </p>\n<p>we get</p>\n<p> $\\frac{36}{a^{2}}-\\frac{48}{b^{2}}=1...(1)$ </p>\n<p>Now for the hyperbola</p>\n<p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>its eccentricity is</p>\n<p> $e=\\sqrt{1+\\frac{b^{2}}{a^{2}}}$ </p>\n<p>So,</p>\n<p> $e^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p>Given:</p>\n<p> $15(e^{2}+1)=34e$ </p>\n<p>Substitute  $e^{2}=1+\\frac{b^{2}}{a^{2}}$  if needed, but first solve this equation in  $e$ :</p>\n<p> $15e^{2}-34e+15=0$ </p>\n<p>Factorising:</p>\n<p> $15e^{2}-25e-9e+15=0$ </p>\n<p> $5e(3e-5)-3(3e-5)=0$ </p>\n<p> $(3e-5)(5e-3)=0$ </p>\n<p>So,</p>\n<p> $e=\\frac{5}{3}\\text{or}e=\\frac{3}{5}$ </p>\n<p>But for a hyperbola,  $e&gt;1$ , hence</p>\n<p> $e=\\frac{5}{3}$ </p>\n<p>Now,</p>\n<p> $e^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p>So,</p>\n<p> $\\frac{25}{9}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p> $\\frac{b^{2}}{a^{2}}=\\frac{25}{9}-1=\\frac{16}{9}$ </p>\n<p>Thus,</p>\n<p> $b^{2}=\\frac{16}{9}a^{2}$ </p>\n<p>Substitute this in equation  $(1)$ :</p>\n<p> $\\frac{36}{a^{2}}-\\frac{48}{\\frac{16}{9}a^{2}}=1$ </p>\n<p>Now,</p>\n<p> $\\frac{48}{\\frac{16}{9}a^{2}}=48 \\cdot \\frac{9}{16a^{2}}=\\frac{27}{a^{2}}$ </p>\n<p>So,</p>\n<p> $\\frac{36}{a^{2}}-\\frac{27}{a^{2}}=1$ </p>\n<p> $\\frac{9}{a^{2}}=1$ </p>\n<p>Hence,</p>\n<p> $a^{2}=9$ </p>\n<p>Then,</p>\n<p> $b^{2}=\\frac{16}{9} \\cdot 9=16$ </p>\n<p>Now consider the second hyperbola:</p>\n<p> $\\frac{x^{2}}{b^{2}}-\\frac{y^{2}}{2(a^{2}+1)}=1$ </p>\n<p>Substitute  $a^{2}=9$  and  $b^{2}=16$ :</p>\n<p> $\\frac{x^{2}}{16}-\\frac{y^{2}}{2(9+1)}=1$ </p>\n<p> $\\frac{x^{2}}{16}-\\frac{y^{2}}{20}=1$ </p>\n<p>For a hyperbola of the form</p>\n<p> $\\frac{x^{2}}{A^{2}}-\\frac{y^{2}}{B^{2}}=1$ </p>\n<p>the length of the latus rectum is</p>\n<p> $\\frac{2B^{2}}{A}$ </p>\n<p>Here,</p>\n<p> $A^{2}=16 \\Rightarrow A=4,B^{2}=20$ </p>\n<p>Therefore, length of latus rectum</p>\n<p> $=\\frac{2 \\cdot 20}{4}=10$ </p>\n<p>Hence, the required answer is</p>\n<p> $10$ </p>\n<p>So, the correct option is <strong>A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "5e(3e-5)-3(3e-5)=0",
@@ -393,7 +394,7 @@
         "\\frac{25}{9}=1+\\frac{b^{2}}{a^{2}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:08.754905"
     },
@@ -441,7 +442,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlar9q5h/91192c6f-51ba-44a9-ab47-fb72535086ef/6e055d50-0348-11f1-ad15-bf2e39b6c423/file-6y3zli1mlar9q5i.webp?format=webp"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "E:\\frac{x^{2}}{144}+\\frac{y^{2}}{169}=1",
@@ -452,7 +453,7 @@
         "B^{2}=\\lambda^{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:09.553455"
     },
@@ -498,14 +499,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\alpha x+2y=1,\\alpha \\in R \\\\ &amp; x^{2}-9y^{2}=9 \\\\ &amp; y=\\frac{1-\\alpha x}{2} \\\\ &amp; 4x^{2}-9(1+\\alpha^{2}x^{2}-2\\alpha x)=36 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Delta&lt;0 \\\\ &amp; 1620\\alpha^{2}-720&gt;0 \\\\ &amp; \\alpha^{2}&gt;0.55 \\\\ &amp; \\alpha=0.8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha x+2y=1",
         "x^{2}-9y^{2}=9"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.033600"
     },
@@ -551,7 +552,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a hyperbola, the eccentricity  $e&gt;1$ .</p>\n<p>We are given:</p>\n<p> $6e^{2}-11e+3=0$ </p>\n<p>Solve this quadratic:</p>\n<p> $6e^{2}-9e-2e+3=0$ </p>\n<p> $3e(2e-3)-1(2e-3)=0$ </p>\n<p> $(2e-3)(3e-1)=0$ </p>\n<p>So,</p>\n<p> $e=\\frac{3}{2}\\text{or}e=\\frac{1}{3}$ </p>\n<p>Since for a hyperbola  $e&gt;1$ , we take</p>\n<p> $e=\\frac{3}{2}$ </p>\n<p>Now the foci are  $(3,5)$  and  $(3,-4)$ .  </p>\n<p>These lie on the vertical line  $x=3$ , so the transverse axis is vertical.</p>\n<p>The distance between the foci is</p>\n<p> $|5-(-4)|=9$ </p>\n<p>Hence,</p>\n<p> $2c=9 \\Rightarrow c=\\frac{9}{2}$ </p>\n<p>For a hyperbola,</p>\n<p> $e=\\frac{c}{a}$ </p>\n<p>So,</p>\n<p> $a=\\frac{c}{e}=\\frac{\\frac{9}{2}}{\\frac{3}{2}}=3$ </p>\n<p>Now use the relation</p>\n<p> $c^{2}=a^{2}+b^{2}$ </p>\n<p>Thus,</p>\n<p> $b^{2}=c^{2}-a^{2}=(\\frac{9}{2})^{2}-3^{2}=\\frac{81}{4}-9=\\frac{81-36}{4}=\\frac{45}{4}$ </p>\n<p>Length of latus rectum of a hyperbola is</p>\n<p> $\\frac{2b^{2}}{a}$ </p>\n<p>Therefore,</p>\n<p> $\\text{Length of latus rectum}=\\frac{2 \\cdot \\frac{45}{4}}{3}=\\frac{45}{6}=\\frac{15}{2}$ </p>\n<p>Hence, the correct answer is</p>\n<p> $\\frac{15}{2}$ </p>\n<p>So, Option C is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "6e^{2}-11e+3=0",
@@ -562,7 +563,7 @@
         "e=\\frac{3}{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:08.803028"
     },
@@ -610,7 +611,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mm52aycl/caa37b2f-1381-4b72-a7e5-f98d0edf77d3/1810c950-13f3-11f1-859e-1b29b56bec45/file-6y3zli1mm52aycm.webp?format=webp"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}-\\frac{y^{2}}{b^{2}}=1",
@@ -621,7 +622,7 @@
         "\\anglePOQ=60^{\\circ}⟹\\anglePOX=30^{\\circ}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:09.599324"
     },
@@ -667,7 +668,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; E:\\frac{x^{2}}{A^{2}}+\\frac{y^{2}}{B^{2}}=1 \\\\ &amp; H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 \\end{aligned}$ </p>\n<p>For con-focal  $E$  and  $H$ </p>\n<p> $\\because A^{2}-B^{2}=a^{2}+b^{2}$ </p>\n<p>(Given that  $A^{2}=36$  and  $B^{2}=16$  )</p>\n<p> $\\begin{aligned} &amp; 36-16=a^{2}+b^{2} \\\\ &amp; a^{2}+b^{2}=20...(i) \\\\ &amp; e_{H}=5 \\\\ &amp; \\Rightarrow 25=1+\\frac{b^{2}}{a^{2}} \\\\ &amp; \\Rightarrow 25a^{2}=20 \\Rightarrow a^{2}=\\frac{4}{5} \\Rightarrow a=\\frac{2}{\\sqrt{5}} \\end{aligned}$ </p>\n<p>Also  $a^{2}+b^{2}=20$ </p>\n<p> $\\begin{aligned} &amp; b^{2}=20-\\frac{4}{5} \\Rightarrow \\frac{96}{5} \\\\ &amp; L(LR)==2 \\times \\frac{b^{2}}{a}=\\frac{2 \\times \\frac{96}{5}}{\\frac{2}{\\sqrt{5}}}=\\frac{96}{\\sqrt{5}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{36}+\\frac{y^{2}}{16}=1",
@@ -676,7 +677,7 @@
         "B^{2}=16"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.075182"
     },
@@ -722,7 +723,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's find the eccentricities of the given ellipse and hyperbola, and then determine the eccentricity of an ellipse that passes through all four foci.</p>\n<p><strong>Step 1: Find  $e_{1}$  for the Ellipse</strong></p>\n<p>The equation of the ellipse is:</p>\n<p> $\\frac{x^{2}}{b^{2}}+\\frac{y^{2}}{25}=1$ </p>\n<p>The eccentricity  $e_{1}$  is given by:</p>\n<p> $e_{1}^{2}=1-\\frac{b^{2}}{25}$ </p>\n<p><strong>Step 2: Find  $e_{2}$  for the Hyperbola</strong></p>\n<p>The equation of the hyperbola is:</p>\n<p> $\\frac{x^{2}}{16}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>The eccentricity  $e_{2}$  is given by:</p>\n<p> $e_{2}^{2}=1+\\frac{b^{2}}{16}$ </p>\n<p><strong>Step 3: Using the Product  $e_{1}e_{2}=1$ </strong></p>\n<p>Given:</p>\n<p> $e_{1}e_{2}=1$ </p>\n<p>Thus:</p>\n<p> $(1-\\frac{b^{2}}{25})(1+\\frac{b^{2}}{16})=1$ </p>\n<p>Expanding gives:</p>\n<p> $1+\\frac{b^{2}}{16}-\\frac{b^{2}}{25}-\\frac{b^{4}}{400}=1$ </p>\n<p>Simplifying:</p>\n<p> $\\frac{9b^{2}}{400}=\\frac{b^{4}}{400}$ </p>\n<p>Thus:</p>\n<p> $b^{2}=9$ </p>\n<p><strong>Step 4: Determine Eccentricities  $e_{1}$  and  $e_{2}$ </strong></p>\n<p>Substitute  $b^{2}=9$ :</p>\n<p>For the ellipse:</p>\n<p> $e_{1}^{2}=1-\\frac{9}{25}=\\frac{16}{25}$ </p>\n<p> $e_{1}=\\frac{4}{5}$ </p>\n<p>For the hyperbola:</p>\n<p> $e_{2}=\\frac{5}{4}$ </p>\n<p><strong>Step 5: Find the Eccentricity of the New Ellipse</strong></p>\n<p>The new ellipse's equation is:</p>\n<p> $\\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1$ </p>\n<p>The eccentricity  $e$  is:</p>\n<p> $e=\\sqrt{1-\\frac{16}{25}}=\\sqrt{\\frac{9}{25}}=\\frac{3}{5}$ </p>\n<p>Thus, the eccentricity of the ellipse that passes through all four foci is  $\\frac{3}{5}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{b^{2}}+\\frac{y^{2}}{25}=1",
@@ -733,7 +734,7 @@
         "e_{2}^{2}=1+\\frac{b^{2}}{16}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.479507"
     },
@@ -760,13 +761,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9z8zizo/30122157-1dfd-44cb-b63d-3107bfdfc02c/edc2ea40-232d-11f0-99e8-5f2c09d57200/file-jaoe38c1m9z8zizp.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "3x^{2}-y^{2}-\\alpha x+\\beta y+\\gamma=0"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.080959"
     },
@@ -814,14 +815,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtvnkp/af475b09-c2c6-4a41-a39a-cf87bcc29e2a/5c953090-1f19-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtvnkq.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
         "8\\sqrt{\\frac{5}{3}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.496312"
     },
@@ -846,7 +847,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find  $p^{2}+q^{2}$  for the hyperbola  $H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ , given that the product of the focal distances from a point  $P(4,2\\sqrt{3})$  to the foci is 32, we follow these steps:</p>\n<p><p><strong>Verify the Point on the Hyperbola:</strong></p>\n<p>The point  $P(4,2\\sqrt{3})$  satisfies the hyperbola equation:</p>\n<p> $\\frac{16}{a^{2}}-\\frac{12}{b^{2}}=1\\dots\\text{(i)}$ </p></p>\n<p><p><strong>Product of Focal Distances:</strong></p>\n<p>The distances from  $P$  to the foci  $S$  and  $S^{'}$  are:</p>\n<p> $SP=e(4-\\frac{a}{e}),S^{'}P=e(4+\\frac{a}{e})$ </p>\n<p>Therefore, the product:</p>\n<p> $SP \\cdot S^{'}P=16e^{2}-a^{2}=32$ </p></p>\n<p><p><strong>Relating  $e$ ,  $a$ , and  $b$ :</strong></p>\n<p>Using the identity for eccentricity:</p>\n<p> $e^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p>Substituting in the product equation gives:</p>\n<p> $16(1+\\frac{b^{2}}{a^{2}})-a^{2}=32\\dots\\text{(ii)}$ </p></p>\n<p><p><strong>Solving for  $a^{2}$  and  $b^{2}$ :</strong></p>\n<p>From equations (i) and (ii), solve for  $a^{2}$  and  $b^{2}$ :</p>\n<p> $a^{2}=8,b^{2}=12$ </p></p>\n<p><p><strong>Calculate  $p^{2}+q^{2}$ :</strong></p>\n<p>The conjugate axis length is  $p=2b$  and the latus rectum is  $q=\\frac{2b^{2}}{a}$ . Thus:</p>\n<p> $p^{2}+q^{2}=(2b)^{2}+(\\frac{2b^{2}}{a})^{2}$ </p>\n<p>Substituting  $b^{2}=12$  and  $a^{2}=8$  gives:</p>\n<p> $p^{2}+q^{2}=4b^{2}+\\frac{4b^{4}}{a^{2}}=48+\\frac{4 \\times 144}{8}$ </p>\n<p> $p^{2}+q^{2}=48 \\cdot (1+\\frac{12}{8})=120$ </p></p>\n<p>Therefore,  $p^{2}+q^{2}=120$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -856,7 +857,7 @@
         "p^{2}+q^{2}=120"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.093055"
     },
@@ -902,7 +903,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>Directrix :  $x=\\frac{9}{\\sqrt{10}}=\\frac{a}{e}\\text{..... (i)}$ </p>\n<p>Focus :  $(\\sqrt{10},0) \\equiv (ae,0)$ </p>\n<p> $ae=\\sqrt{10}\\text{..... (ii)}$ </p>\n<p>(i)  $\\times$  (ii)</p>\n<p> $\\Rightarrow a^{2}=9 \\Rightarrow a=3$ </p>\n<p>Substitute in (ii)</p>\n<p> $e=\\frac{\\sqrt{10}}{3}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now}e^{2}=1+\\frac{b^{2}}{a^{2}} \\\\ &amp; \\frac{10}{9}=1+\\frac{b^{2}}{a} \\\\ &amp; \\Rightarrow b=1 \\\\ &amp; I=\\frac{2b^{2}}{a}=\\frac{2 \\times 1}{3}=\\frac{2}{3} \\\\ &amp; a[e^{2}+l]=9[\\frac{10}{9}+\\frac{2}{3}]=10+6 \\\\ &amp; =16 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -913,7 +914,7 @@
         "ae=\\sqrt{10}\\text{..... (ii)}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.512386"
     },
@@ -938,7 +939,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{2b^{2}}{a}=15\\sqrt{2} \\\\ &amp; 1+\\frac{b^{2}}{a^{2}}=\\frac{5}{2} \\\\ &amp; a=5\\sqrt{2} \\\\ &amp; b=5\\sqrt{3} \\\\ &amp; \\frac{2A^{2}}{B}=12\\sqrt{5} \\\\ &amp; 2a \\cdot 2B=100\\sqrt{10} \\\\ &amp; 2.5\\sqrt{2}.2B=100\\sqrt{10} \\\\ &amp; B=5\\sqrt{5} \\\\ &amp; A=5\\sqrt{6} \\\\ &amp; e_{2}^{2}=1+\\frac{A^{2}}{B^{2}} \\\\ &amp; =1+\\frac{150}{125} \\\\ &amp; e_{2}^{2}=1+\\frac{30}{25} \\\\ &amp; 25e_{2}^{2}=55 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H_{1}:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -948,7 +949,7 @@
         "25e_{2}^{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.103835"
     },
@@ -996,11 +997,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7bjxgep/6aef9e36-d746-4385-8834-6f65dc09f606/7a399c10-ee8d-11ef-a27a-976df0f68c87/file-jaoe38c1m7bjxgeq.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.542891"
     },
@@ -1046,7 +1047,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $E:\\frac{(x-1)^{2}}{100}+\\frac{(y-1)^{2}}{75}=1$ </p>\n<p> $\\begin{aligned} \\text{Eccentricity of ellipse,}e_{E} &amp; =\\sqrt{1-\\frac{b^{2}}{a^{2}}} \\\\ &amp; =\\sqrt{1-\\frac{75}{100}} \\\\ &amp; e_{E}=\\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\therefore e_{H}=2$  [ as eccentricity of hyperbola is reciprocal of eccentricity of ellipse]</p>\n<p>Transverse axis of hyperbola  $=\\alpha$ </p>\n<p>Conjugate axis of hyperbola  $=\\beta$ </p>\n<p>Also, foci of ellipse  $(1 \\pm ae,1)$ </p>\n<p> $\\begin{aligned} &amp; =(1 \\pm (10 \\times \\frac{1}{2}),1) \\\\ &amp; =(1 \\pm 5,1) \\\\ &amp; =(6,1)\\text{and}(-4,1) \\end{aligned}$ </p>\n<p>Distance between foci  $=10$ </p>\n<p> $\\begin{aligned} &amp; 2ae=10 \\\\ &amp; \\Rightarrow a=\\frac{5}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{also,}e^{2}=1+\\frac{b^{2}}{a^{2}} \\\\ &amp; \\begin{aligned} 4 &amp; =1+\\frac{4b^{2}}{25} \\\\ b^{2} &amp; =\\frac{75}{4} \\\\ b &amp; =\\frac{\\sqrt{75}}{2} \\end{aligned} \\\\ &amp; \\Rightarrow \\alpha=5 \\\\ &amp; \\text{and}\\beta=\\sqrt{75} \\\\ &amp; 3\\alpha^{2}+2\\beta^{2}=3(5)^{2}+2(75)=225 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\therefore e_{H}=2",
@@ -1055,7 +1056,7 @@
         "\\begin{aligned} & 2ae=10 \\\\ & \\Rightarrow a=\\frac{5}{2} \\end{aligned}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:10.979912"
     },
@@ -1101,7 +1102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{x^{2}}{9}+\\frac{y^{2}}{25}=1 \\\\ &amp; a=3,b=5 \\\\ &amp; e=\\sqrt{1-\\frac{9}{25}}=\\frac{4}{5} \\therefore \\text{foci}=(0, \\pm be)=(0, \\pm 4) \\\\ &amp; \\therefore e_{H}=\\frac{4}{5} \\times \\frac{15}{8}=\\frac{3}{2} \\end{aligned}$ </p>\n<p>Let equation hyperbola</p>\n<p> $\\begin{aligned} &amp; \\frac{x^{2}}{A^{2}}-\\frac{y^{2}}{B^{2}}=-1 \\\\ &amp; \\therefore B \\cdot e_{H}=4 \\therefore B=\\frac{8}{3} \\\\ &amp; \\therefore A^{2}=B^{2}(e_{H}^{2}-1)=\\frac{64}{9}(\\frac{9}{4}-1) \\therefore A^{2}=\\frac{80}{9} \\\\ &amp; \\therefore \\frac{x^{2}}{\\frac{80}{9}}-\\frac{y^{2}}{\\frac{64}{9}}=-1 \\\\ &amp; \\text{Directrix}:y= \\pm \\frac{B}{e_{H}}= \\pm \\frac{16}{9} \\\\ &amp; PS=e \\cdot PM=\\frac{3}{2}|\\frac{14}{3} \\cdot \\sqrt{\\frac{2}{5}}-\\frac{16}{9}| \\\\ &amp; =7\\sqrt{\\frac{2}{5}}-\\frac{8}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{25}=1",
@@ -1109,7 +1110,7 @@
         "(\\sqrt{2},\\frac{14}{3}\\sqrt{\\frac{2}{5}})"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.526637"
     },
@@ -1136,7 +1137,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwaskftu/d526b7cc-575f-4620-8047-7c036e1ade54/189a8020-145c-11ef-a76a-45e5478b32e1/file-1lwaskftv.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "x= \\pm \\frac{4}{\\sqrt{3}}",
@@ -1145,7 +1146,7 @@
         "is equal to _________."
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.534141"
     },
@@ -1191,13 +1192,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=-1 \\\\ &amp; e=\\sqrt{1+\\frac{a^{2}}{b^{2}}}=\\sqrt{3} \\\\ &amp; \\Rightarrow 1+\\frac{a^{2}}{b^{2}}=3 \\\\ &amp; \\Rightarrow \\frac{a^{2}}{b^{2}}=2\\text{.... (1)} \\\\ &amp; \\frac{2a^{2}}{b}=4\\sqrt{3} \\end{aligned}$ </p>\n<p>Using equation (1)</p>\n<p> $\\begin{aligned} &amp; \\frac{4b^{2}}{b}=4\\sqrt{3} \\\\ &amp; \\Rightarrow b=\\sqrt{3} \\\\ &amp; a=\\sqrt{6} \\\\ &amp; H:\\frac{x^{2}}{6}-\\frac{y^{2}}{3}=-1 \\\\ &amp; \\frac{\\alpha^{2}}{6}-12=-1 \\\\ &amp; \\frac{\\alpha^{2}}{6}=11 \\\\ &amp; \\begin{aligned} \\alpha^{2}=66 \\\\ \\text{Focus}:(0,bc)(0,-bc) \\\\ (0,3),(0,-3) \\end{aligned} \\\\ &amp; \\beta=\\sqrt{\\alpha^{2}+9} \\times \\sqrt{\\alpha^{2}+81} \\\\ &amp; \\beta=105 \\\\ &amp; \\alpha^{2}+\\beta=66+105 \\\\ &amp; =171 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{-x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.021775"
     },
@@ -1245,11 +1246,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsoxrj67/57cc4f4f-ed29-40fc-903d-a6afb2548230/871275f0-ccf2-11ee-a330-494dca5e9a63/file-6y3zli1lsoxrj68.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.573767"
     },
@@ -1274,14 +1275,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{focii} \\equiv ( \\pm 5,0);\\frac{2b^{2}}{a}=\\sqrt{50} \\\\ &amp; a=5b^{2}=\\frac{5\\sqrt{2}a}{2} \\\\ &amp; b^{2}=a^{2}(1-e^{2})=\\frac{5\\sqrt{2}a}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow a(1-e^{2})=\\frac{5\\sqrt{2}}{2} \\\\ &amp; \\Rightarrow \\frac{5}{e}(1-e^{2})=\\frac{5\\sqrt{2}}{2} \\\\ &amp; \\Rightarrow \\sqrt{2}-\\sqrt{2}e^{2}=e \\\\ &amp; \\Rightarrow \\sqrt{2}e^{2}+e-\\sqrt{2}=0 \\\\ &amp; \\Rightarrow \\sqrt{2}e^{2}+2e-e-\\sqrt{2}=0 \\\\ &amp; \\Rightarrow \\sqrt{2}e(e+\\sqrt{2})-1(1+\\sqrt{2})=0 \\\\ &amp; \\Rightarrow (e+\\sqrt{2})(\\sqrt{2}e-1)=0 \\\\ &amp; \\therefore e \\ne -\\sqrt{2};e=\\frac{1}{\\sqrt{2}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{x^{2}}{b^{2}}-\\frac{y^{2}}{a^{2}b^{2}}=1a=5\\sqrt{2} \\\\ &amp; b=5 \\\\ &amp; a^{2}b^{2}=b^{2}(e_{1}^{2}-1) \\Rightarrow e_{1}^{2}=51 \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a>bbe( \\pm 5,0)",
         "\\frac{x^{2}}{b^{2}}-\\frac{y^{2}}{a^{2}b^{2}}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.547443"
     },
@@ -1329,14 +1330,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwhfif9k/1a3e3d85-d2e7-4099-8558-58b863f1c6ee/866ac480-1802-11ef-b156-f754785ad3ce/file-1lwhfif9l.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1}",
         "C_{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.052867"
     },
@@ -1384,7 +1385,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1vjyru/5d14555c-4b38-417d-b959-37b3238917a8/12d5a2a0-d410-11ee-b9d5-0585032231f0/file-1lt1vjyrv.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "e_{1}",
@@ -1395,7 +1396,7 @@
         "\\therefore L_{PQ}=\\frac{10\\sqrt{5}}{3}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.588069"
     },
@@ -1422,7 +1423,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsqnnba9/95b74993-a660-473c-9d3c-c4fef0db6ac2/87c00510-cde4-11ee-a0d3-7b75c4537559/file-6y3zli1lsqnnbaa.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{9}-\\frac{y^{2}}{b^{2}}=1",
@@ -1432,7 +1433,7 @@
         "is equal to ________. LR subtends"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.557189"
     },
@@ -1478,7 +1479,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $\\theta$ , we need to determine the relationship between the eccentricities of the given hyperbola and ellipse. Let's start by writing down the standard forms of ellipse and hyperbola and then relate them to the given equations.</p>\n<p>The standard form of an ellipse is:\n\n\n\n<p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>The eccentricity  $e$  of an ellipse is given by:</p>\n<p> $e=\\sqrt{1-\\frac{b^{2}}{a^{2}}}\\text{for}a&gt;b$ </p>\n<p>For the given ellipse:</p>\n<p> $x^{2}cosec^{2}\\theta+y^{2}=5$ </p>\n<p>We can compare it with the standard form by writing it as:</p>\n<p> $\\frac{x^{2}}{\\frac{5}{cosec^{2}\\theta}}+\\frac{y^{2}}{5}=1$ </p>\n<p>From this we have  $a^{2}=\\frac{5}{cosec^{2}\\theta}$  and  $b^{2}=5$ . The eccentricity of the ellipse (let's call it  $e_{1}$ ) is:</p>\n<p> $e_{1}=\\sqrt{1-\\frac{5}{a^{2}}}=\\sqrt{1-\\frac{5}{\\frac{5}{cosec^{2}\\theta}}}=\\sqrt{1-sin^{2}\\theta}=cos\\theta$ </p>\n<p>The standard form of a hyperbola is:\n\n\n\n<p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>The eccentricity  $e$  of a hyperbola is given by:</p>\n<p> $e=\\sqrt{1+\\frac{b^{2}}{a^{2}}}$ </p>\n<p>For the given hyperbola:</p>\n<p> $x^{2}-y^{2}cosec^{2}\\theta=5$ </p>\n<p>We can rewrite it as:</p>\n<p> $\\frac{x^{2}}{5}-\\frac{y^{2}}{\\frac{5}{cosec^{2}\\theta}}=1$ </p>\n<p>From this we have  $a^{2}=5$  and  $b^{2}=\\frac{5}{cosec^{2}\\theta}$ . The eccentricity of the hyperbola (let's call it  $e_{2}$ ) is:</p>\n<p> $e_{2}=\\sqrt{1+\\frac{\\frac{5}{cosec^{2}\\theta}}{5}}=\\sqrt{1+sin^{2}\\theta}$ </p>\n<p>According to the question the eccentricity of the hyperbola is  $\\sqrt{7}$  times the eccentricity of the ellipse, so we can write:\n\n\n\n<p> $e_{2}=\\sqrt{7} \\cdot e_{1}$ </p>\n<p>Substitute  $e_{1}$  and  $e_{2}$  from the above:</p>\n<p> $\\sqrt{1+sin^{2}\\theta}=\\sqrt{7} \\cdot cos\\theta$ </p>\n<p>Square both sides to eliminate the square root:</p>\n<p> $1+sin^{2}\\theta=7 \\cdot cos^{2}\\theta$ </p>\n<p> $1+sin^{2}\\theta=7 \\cdot (1-sin^{2}\\theta)$ </p>\n<p> $1+sin^{2}\\theta=7-7 \\cdot sin^{2}\\theta$ </p>\n<p> $8 \\cdot sin^{2}\\theta=6$ </p>\n<p> $sin^{2}\\theta=\\frac{6}{8}=\\frac{3}{4}$ </p>\n<p> $sin\\theta=\\sqrt{\\frac{3}{4}}=\\frac{\\sqrt{3}}{2}$ </p>\n<p>Looking at the options provided and knowing the sine values for common angles, we can see that  $sin\\theta=\\frac{\\sqrt{3}}{2}$  corresponds to  $\\theta=\\frac{\\pi}{3}$ .\n\n\n\n<p>The correct answer is:</p>\n<p>Option C.</p>\n<p> $\\frac{\\pi}{3}$ </p>\n</p></p></p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}-y^{2}cosec^{2}\\theta=5",
@@ -1489,7 +1490,7 @@
         "8 \\cdot sin^{2}\\theta=6"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.112421"
     },
@@ -1516,13 +1517,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw4m7nur/89a66068-e09d-4eb2-bb5b-6e5807946115/8a9cdd30-10f6-11ef-8553-fdfc6347789d/file-1lw4m7nus.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         ", then the square of the area of the triangle OSB is equal to __________."
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.116056"
     },
@@ -1568,7 +1569,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $(x_{0},y_{0})$  is point on hyperbola then tangent at  $(x_{0},y_{0})$  is parallel to  $3x+2y=1$ \n<br/><br/>Equation of tangent  $=\\frac{xx_{0}}{12}-\\frac{yy_{0}}{9}=2$ \n<br/><br/>Slope of tangent  $=\\frac{-3}{2}$ \n<br/><br/>Equation of tangent in slope form\n<br/><br/> $y=\\frac{-3}{2}x \\pm \\sqrt{12 \\cdot \\frac{9}{4}-9}$ \n<br/><br/> $y=\\frac{-3}{2}x \\pm 3\\sqrt{2}$ \n<br/><br/>or  $3x+2y=6\\sqrt{2}$ \n<br/><br/>Comparing\n<br/><br/> $\\begin{aligned} &amp; \\frac{\\frac{x_{0}}{12}}{3}=\\frac{\\frac{-y_{0}}{9}}{2}=\\frac{1}{6\\sqrt{2}} \\\\ \\\\ &amp; x_{0}=3\\sqrt{2},y_{0}=\\frac{-3}{\\sqrt{2}} \\\\ \\\\ &amp; \\sqrt{2}(y_{0}-x_{0})=-3-6=-9 \\\\ \\\\ &amp; \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "P(x_{0},y_{0})",
@@ -1579,7 +1580,7 @@
         "=\\frac{xx_{0}}{12}-\\frac{yy_{0}}{9}=2"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.948657"
     },
@@ -1604,7 +1605,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of tangent to the hyperbola  $\\frac{y^{2}}{a^{2}}-\\frac{x^{2}}{b^{2}}=1$ \n<br/><br/> $y=mx \\pm \\sqrt{a^{2}-b^{2}m^{2}}$ \n<br/><br/>Given the hyperbola  $H:\\frac{y^{2}}{25}-\\frac{x^{2}}{16}=1$ , the equation of the tangent to this hyperbola can be written as :\n\n<br/><br/> $y=mx \\pm \\sqrt{25-16m^{2}}$ \n<br/><br/>We know that the tangents pass through the point  $P(4,1)$ , which gives us the equation :\n\n<br/><br/> $1=4m \\pm \\sqrt{25-16m^{2}}$ \n<br/><br/>Squaring both sides to get rid of the square root, we obtain :\n\n<br/><br/> $(4m-1)^{2}=25-16m^{2}$ \n<br/><br/>which simplifies to the quadratic equation :\n\n<br/><br/> $4m^{2}-m-3=0.$ \n<br/><br/>Solving this equation, we find the roots  $m_{1}=1$  and  $m_{2}=-\\frac{3}{4}$ , which are the slopes of the tangents. \n\n<br/><br/>Given that we are interested in the positive values of the slopes, we consider  $|m_{1}|=1$  and  $|m_{2}|=\\frac{3}{4}$ .\n\n<br/><br/>The equations of the tangents are then :\n\n<br/><br/>1)  $y=x-3$  and \n\n<br/><br/>2)  $y=\\frac{3}{4}x-4$ .\n\n<br/><br/>The x-intercepts of these lines (when  $y=0$ ) are given by  $x=\\alpha=3$  for the first line and  $x=\\beta=\\frac{16}{3}$  for the second line.\n\n<br/><br/>The intersection point  $Q$  of these tangents is found by solving the system of equations  $y=x-3$  and  $y=\\frac{3}{4}x-4$ , which gives  $Q(-4,-7)$ .\n\n<br/><br/>The square of the distance  $PQ$  is then  $(-4-4)^{2}+(-7-1)^{2}=128$ .\n\n<br/><br/>Therefore, \n\n $\\frac{(PQ)^{2}}{\\alpha\\beta}=\\frac{128}{3 \\times \\frac{16}{3}}=8$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "m_{1}",
@@ -1615,7 +1616,7 @@
         "y=mx \\pm \\sqrt{25-16m^{2}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.925618"
     },
@@ -1661,7 +1662,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2ae=|(1+\\sqrt{2})-(1+\\sqrt{2})|=2\\sqrt{2}$ \n<br/><br/> $\\Rightarrow$   $ae=\\sqrt{2}$ \n<br/><br/> $\\Rightarrow$   $a=1$ \n<br/><br/> $\\Rightarrow b=1 \\because e=\\sqrt{2} \\Rightarrow$  Hyperbola is rectangular\n\n<br/><br/> $\\Rightarrow L.R=\\frac{2b^{2}}{a}=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "ae=\\sqrt{2}",
@@ -1670,7 +1671,7 @@
         "\\Rightarrow L.R=\\frac{2b^{2}}{a}=2"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.960936"
     },
@@ -1695,14 +1696,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,\n<br/><br/> $H_{n} \\Rightarrow \\frac{x^{2}}{1+n}-\\frac{y^{2}}{3+n}=1,n \\in N$ \n<br/><br/>Here,  $a^{2}=1+n$  and  $b^{2}=3+n$ \n<br/><br/> $\\begin{aligned} Eccentricity(e) &amp; =\\sqrt{1+\\frac{b^{2}}{a^{2}}} \\\\ \\\\ &amp; =\\sqrt{1+(\\frac{3+n}{1+n})}=\\sqrt{\\frac{2n+4}{n+1}}=\\sqrt{\\frac{2(n+2)}{n+1}} \\end{aligned}$ \n<br/><br/>The smallest even value for which  $e \\in Q$  is 48 .\n<br/><br/> $\\begin{aligned} \\therefore n &amp; =48 \\\\ \\\\ \\therefore e &amp; =\\sqrt{\\frac{2(48+2)}{48+1}}=\\frac{10}{7} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} \\Rightarrow a^{2}=n+1=49,b^{2}=n+3=51 \\\\ \\\\ \\therefore 21l=21 \\times (\\frac{2b^{2}}{a})=21 \\times 2 \\times \\frac{51}{7}=306 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "H_{n}:\\frac{x^{2}}{1+n}-\\frac{y^{2}}{3+n}=1,n \\in N",
         "is equal to ____________. We have,"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.938658"
     },
@@ -1750,7 +1751,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lef56ked/6c51cd9e-287f-4e86-804d-923bd55624d6/ab431f50-b264-11ed-a126-5dfa1a9d5fb8/file-1lef56kee.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "16x^{2}-y^{2}+64x+4y+44=0",
@@ -1761,7 +1762,7 @@
         "CA:x=-2"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.972882"
     },
@@ -1786,7 +1787,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of hyperbola is  $2x^{2}-2y^{2}=1$ \n<br/><br/> $\\Rightarrow \\frac{x^{2}}{1/2}-\\frac{y^{2}}{1/2}=1$ \n<br/><br/>Here,  $a=b$ \n<br/><br/> $\\therefore$  Eccentricity of rectangular hyperbola is  $\\sqrt{2}$ \n<br/><br/> $\\therefore$  Eccentricity of ellipse is  $\\frac{1}{\\sqrt{2}}$ \n<br/><br/>Since, ellipse intersects the hyperbola at right angles\n<br/><br/> $\\therefore$  Ellipse and the hyperbola are confocal\n<br/><br/> $\\therefore$  Foci of hyperbola  $=(1,0)$ \n<br/><br/> $\\Rightarrow$  Foci of ellipse,  $ae=1$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow a(\\frac{1}{\\sqrt{2}})=1 \\\\ \\\\ &amp; \\Rightarrow a=\\sqrt{2} \\\\ \\\\ &amp; \\therefore e^{2}=1-\\frac{b^{2}}{a^{2}} \\\\ \\\\ &amp; \\Rightarrow \\frac{1}{2}=1-\\frac{b^{2}}{2} \\\\ \\\\ &amp; \\Rightarrow \\frac{b^{2}}{2}=\\frac{1}{2} \\\\ \\\\ &amp; \\Rightarrow b^{2}=1 \\end{aligned}$ \n<br/><br/> $\\therefore$  Length of the latus rectum  $=\\frac{2b^{2}}{a}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$ \n<br/><br/> $\\therefore$  Square of length of the latus rectum  $=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -1797,7 +1798,8 @@
         "=(1,0)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate",
+        "Rectangular Hyperbola & Asymptotes"
       ],
       "crawled_at": "2026-09-20T15:40:17.949338"
     },
@@ -1845,7 +1847,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ln228t36/fd6163aa-9150-4285-8e02-935227613d64/f02c4220-5d60-11ee-8969-dbcde4c067b7/file-6y3zli1ln228t37.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "x=0,x=2,y=0",
@@ -1856,7 +1858,7 @@
         "=10sq"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.602506"
     },
@@ -1881,7 +1883,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the foci are at  $( \\pm 2,0)$ , the distance between the foci is  $2ae=2 \\times 2=4$ . <br/><br/>So,  $a=\\frac{4}{3}$ . </p>\n<p>The eccentricity of the hyperbola is given as  $\\frac{3}{2}$ . Thus,  $e=\\frac{3}{2}$ . </p>\n<p>For a hyperbola,  $e^{2}=1+\\frac{b^{2}}{a^{2}}$ , which gives  $b^{2}=a^{2}(e^{2}-1)$ .<br/><br/> Substituting the given values, we get  $b^{2}=\\frac{16}{9}-\\frac{16}{9}=\\frac{20}{9}$ . </p>\n<p>The equation of the hyperbola is  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ , or  $\\frac{9x^{2}}{16}-\\frac{9y^{2}}{20}=1$ .</p>\n<p>The slope of the tangent line, which is perpendicular to the given line  $2x+3y=6$ , is  $\\frac{3}{2}$ .</p>\n<p>The equation of the tangent to a hyperbola is  $y=mx \\pm \\sqrt{a^{2}m^{2}-b^{2}}$ . Substituting the given values, we get  $y=\\frac{3x}{2} \\pm \\sqrt{\\frac{16}{9} \\times \\frac{9}{4}-\\frac{20}{9}}=\\frac{3x}{2} \\pm \\frac{4}{3}$ .</p>\n<p>The  $x$ -intercept occurs when  $y=0$ , so  $|a|=\\frac{8}{9}$ , and the  $y$ -intercept occurs when  $x=0$ , so  $|b|=\\frac{4}{3}$ .</p>\n<p>Finally,  $|6a|+|5b|=6\\frac{8}{9}+5\\frac{4}{3}=\\frac{48}{9}+\\frac{60}{9}=\\frac{108}{9}=12$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{3}{2}",
@@ -1889,7 +1891,7 @@
         "is equal to __________ Given that the foci are at"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.567781"
     },
@@ -1916,7 +1918,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lebzl8r1/919fa76e-b803-49d8-86c9-4e9df9241622/72ada3d0-b0a8-11ed-98af-57b0199700ba/file-1lebzl8r2.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sqrt{5}}{2}",
@@ -1927,7 +1929,7 @@
         "d^{2}=216"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:17.959998"
     },
@@ -1973,7 +1975,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given hyperbola :  $\\frac{x^{2}}{6/k}-\\frac{y^{2}}{6}=1$ </p>\n<p>Eccentricity  $=e=\\sqrt{1+\\frac{6}{6/k}}=\\sqrt{1+k}$ </p>\n<p>Directrices :  $x= \\pm \\frac{a}{e} \\Rightarrow x= \\pm \\frac{\\sqrt{6}}{\\sqrt{k}\\sqrt{k+1}}$ </p>\n<p>As given :  $\\frac{\\sqrt{6}}{\\sqrt{k}\\sqrt{k+1}}=1$ </p>\n<p> $\\Rightarrow k=2$ </p>\n<p>Here hyperbola is  $\\frac{x^{2}}{3}-\\frac{y^{2}}{6}=1$ </p>\n<p>Checking the option gives  $(\\sqrt{5},-2)$  satisfies it.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "x-1=0",
@@ -1984,7 +1986,7 @@
         "\\frac{\\sqrt{6}}{\\sqrt{k}\\sqrt{k+1}}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.328290"
     },
@@ -2030,7 +2032,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $1+\\frac{b^{2}}{a^{2}}=\\frac{5}{2} \\Rightarrow \\frac{b^{2}}{a^{2}}=\\frac{3}{2}$ </p>\n<p> $\\frac{2b^{2}}{a}=6\\sqrt{2} \\Rightarrow 2.\\frac{3}{2}.a=6\\sqrt{2}$ </p>\n<p> $\\Rightarrow a=2\\sqrt{2},b^{2}=12$ </p>\n<p> $c^{2}=a^{2}m^{2}-b^{2}=8.4-12=20$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2041,7 +2043,7 @@
         "\\Rightarrow a=2\\sqrt{2},b^{2}=12"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.882894"
     },
@@ -2066,7 +2068,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The equation of tangent to hyperbola  $x^{2}-y^{2}=1$  within slope  $m$  is equal to  $y=mx \\pm \\sqrt{m^{2}-1}$  ...... (i)</p>\n<p>And for same slope  $m$ , equation of tangent to ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  is  $y=mx \\pm \\sqrt{a^{2}m^{2}+b^{2}}$  ...... (ii)</p>\n<p> $\\because$  Equation (i) and (ii) are identical</p>\n<p> $\\therefore$   $a^{2}m^{2}+b^{2}=m^{2}-1$ </p>\n<p> $\\therefore$   $m^{2}=\\frac{1+b^{2}}{1-a^{2}}$ </p>\n<p>But equation of common tangent is  $y=\\sqrt{\\frac{5}{2}}x+k$ </p>\n<p> $\\therefore$   $m=\\sqrt{\\frac{5}{2}} \\Rightarrow \\frac{5}{2}=\\frac{1+b^{2}}{1-a^{2}}$ </p>\n<p> $\\therefore$   $5a^{2}+2b^{2}=3$  ....... (i)</p>\n<p>eccentricity of ellipse  $=\\frac{1}{\\sqrt{2}}$ </p>\n<p> $\\therefore$   $1-\\frac{b^{2}}{a^{2}}=\\frac{1}{2}$ </p>\n<p> $\\Rightarrow a^{2}=2b^{2}$  ....... (ii)</p>\n<p>From equation (i) and (ii) :  $a^{2}=\\frac{1}{2},b^{2}=\\frac{1}{4}$ </p>\n<p> $\\therefore$   $4(a^{2}+b^{2})=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "H:x^{2}-y^{2}=1",
@@ -2077,7 +2079,7 @@
         "y=\\sqrt{\\frac{5}{2}}x+k"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.333174"
     },
@@ -2102,7 +2104,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2a+2b=4(2\\sqrt{2}+\\sqrt{14})$  ...... (1)</p>\n<p> $1+\\frac{b^{2}}{a^{2}}=\\frac{11}{14}$  ....... (2)</p>\n<p> $\\Rightarrow \\frac{b^{2}}{a^{2}}=\\frac{7}{4}$  ....... (3)</p>\n<p>and  $a+b=4\\sqrt{2}+2\\sqrt{14}$  ...... (4)</p>\n<p>By (3) and (4)</p>\n<p> $\\Rightarrow a+\\frac{\\sqrt{7}}{2}a=4\\sqrt{2}+2\\sqrt{14}$ </p>\n<p> $\\Rightarrow \\frac{a(2+\\sqrt{7})}{2}=2\\sqrt{2}(2+\\sqrt{7})$ </p>\n<p> $\\Rightarrow a=4\\sqrt{2} \\Rightarrow a^{2}=32$  and  $b^{2}=56$ </p>\n<p> $\\Rightarrow a^{2}+b^{2}=32+56=88$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2113,7 +2115,7 @@
         "a+b=4\\sqrt{2}+2\\sqrt{14}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.708081"
     },
@@ -2159,7 +2161,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Any tangent to  $y^{2}=24x$  at ( $\\alpha$ ,  $\\beta$ )</p>\n<p> $\\beta y=12(x+\\alpha)$ </p>\n<p>Slope  $=\\frac{12}{\\beta}$  and perpendicular to  $2x+2y=5$ </p>\n<p> $\\Rightarrow \\frac{12}{\\beta}=1 \\Rightarrow \\beta=12,\\alpha=6$ </p>\n<p>Hence hyperbola is  $\\frac{x^{2}}{36}-\\frac{y^{2}}{144}=1$  and normal is drawn at (10, 16)</p>\n<p>Equation of normal  $\\frac{36.x}{10}+\\frac{144.y}{16}=36+144$ </p>\n<p> $\\Rightarrow \\frac{x}{50}+\\frac{y}{20}=1$ </p>\n<p>This does not pass though (15, 13) out of given option.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=24x",
@@ -2170,7 +2172,7 @@
         "\\Rightarrow \\frac{12}{\\beta}=1 \\Rightarrow \\beta=12,\\alpha=6"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.339267"
     },
@@ -2216,7 +2218,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given hyperbola :  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{9}=1$ </p>\n<p> $\\because$  It passes through  $(8,3\\sqrt{3})$ </p>\n<p> $\\because$   $\\frac{64}{a^{2}}-\\frac{27}{9}=1 \\Rightarrow a^{2}=16$ </p>\n<p>Now, equation of normal to hyperbola</p>\n<p> $\\frac{16x}{8}+\\frac{9y}{3\\sqrt{3}}=16+9$ </p>\n<p> $\\Rightarrow 2x+\\sqrt{3}y=25$  ...... (i)</p>\n<p> $(-1,9\\sqrt{3})$  satisfies (i)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{9}=1",
@@ -2225,7 +2227,7 @@
         "\\Rightarrow 2x+\\sqrt{3}y=25"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.895660"
     },
@@ -2250,7 +2252,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of tangent to ellipse  $\\frac{x^{2}}{4}+\\frac{y^{2}}{9}=1$  and given slope m is :  $y=mx+\\sqrt{4m^{2}+9}$  ..... (i)</p>\n<p>For slope m equation of tangent to hyperbola is :</p>\n<p> $y=mx+\\sqrt{42m^{2}-143}$  ....... (ii)</p>\n<p>Tangents from (i) and (ii) are identical then</p>\n<p> $4m^{2}+9=42m^{2}-143$ </p>\n<p> $\\therefore$   $m= \\pm 2$  (+2 is not acceptable)</p>\n<p> $\\therefore$   $m=-2$ .</p>\n<p>Hence,  $x_{1}=\\frac{8}{5}$  and  $x_{2}=\\frac{84}{5}$ </p>\n<p> $\\therefore$   $|2x_{1}+x_{2}|=|\\frac{16}{5}+\\frac{84}{5}|=20$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ______________. Equation of tangent to ellipse",
@@ -2261,7 +2263,7 @@
         "|2x_{1}+x_{2}|=|\\frac{16}{5}+\\frac{84}{5}|=20"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.346223"
     },
@@ -2286,7 +2288,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of L<sub>1</sub> is</p>\n<p> $\\frac{xsec\\theta}{4}-\\frac{ytan\\theta}{2}=1$  ..... (i)</p>\n<p>Equation of line L<sub>2</sub> is</p>\n<p> $\\frac{xtan\\theta}{2}+\\frac{ysec\\theta}{4}=0$  ..... (ii)</p>\n<p> $\\because$  Required point of intersection of L<sub>1</sub> and L<sub>2</sub> is (x<sub>1</sub>, y<sub>1</sub>) then</p>\n<p> $\\frac{x_{1}sec\\theta}{4}-\\frac{y_{1}tan\\theta}{2}-1=0$  ...... (iii)</p>\n<p>and  $\\frac{y_{1}sec\\theta}{4}-\\frac{x_{1}tan\\theta}{2}=0$  ...... (iv)</p>\n<p>From equations (iii) and (iv)</p>\n<p> $sec\\theta=\\frac{4x_{1}}{x_{1}^{2}+y_{1}^{2}}$  and  $tan\\theta=\\frac{-2y_{1}}{x_{1}^{2}+y_{1}^{2}}$ </p>\n<p> $\\therefore$  Required locus of (x<sub>1</sub>, y<sub>1</sub>) is</p>\n<p> $(x^{2}+y^{2})^{2}=16x^{2}-4y^{2}$ </p>\n<p> $\\therefore$   $\\alpha$  = 16,  $\\beta$  =  $-$ 4</p>\n<p> $\\therefore$   $\\alpha$  +  $\\beta$  = 12</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{16}-\\frac{y^{2}}{4}=1",
@@ -2297,7 +2299,7 @@
         "\\frac{y_{1}sec\\theta}{4}-\\frac{x_{1}tan\\theta}{2}=0"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.719440"
     },
@@ -2343,7 +2345,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Ellipse :  $\\frac{x^{2}}{16}+\\frac{y^{2}}{7}=1$ </p>\n<p>Eccentricity  $=\\sqrt{1-\\frac{7}{16}}=\\frac{3}{4}$ </p>\n<p>Foci  $\\equiv ( \\pm ae,0) \\equiv ( \\pm 3,0)$ </p>\n<p>Hyperbola :  $\\frac{x^{2}}{(\\frac{144}{25})}-\\frac{y^{2}}{(\\frac{\\alpha}{25})}=1$ </p>\n<p>Eccentricity  $=\\sqrt{1+\\frac{\\alpha}{144}}=\\frac{1}{12}\\sqrt{144+\\alpha}$ </p>\n<p>Foci  $\\equiv ( \\pm ae,0) \\equiv ( \\pm \\frac{12}{5}.\\frac{1}{12}\\sqrt{144+\\alpha},0)$ </p>\n<p>If foci coincide then  $3=\\frac{1}{5}\\sqrt{144+\\alpha} \\Rightarrow \\alpha=81$ </p>\n<p>Hence, hyperbola is  $\\frac{x^{2}}{(\\frac{12}{5})^{2}}-\\frac{y^{2}}{(\\frac{9}{5})^{2}}=1$ </p>\n<p>Length of latus rectum  $=2.\\frac{\\frac{81}{25}}{\\frac{12}{5}}=\\frac{27}{10}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{7}=1",
@@ -2354,7 +2356,7 @@
         "\\equiv ( \\pm ae,0) \\equiv ( \\pm \\frac{12}{5}.\\frac{1}{12}\\sqrt{144+\\alpha},0)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.352393"
     },
@@ -2379,7 +2381,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Vertices of hyperbola  $=(0, \\pm 8)$ </p>\n<p>As ellipse pass through it i.e.,</p>\n<p> $0+\\frac{64}{b^{2}}=1 \\Rightarrow b^{2}=64$  ...... (1)</p>\n<p>As major axis of ellipse coincide with transverse axis of hyperbola we have b &gt; a i.e.</p>\n<p> $e_{E}=\\sqrt{1-\\frac{a^{2}}{64}}=\\frac{\\sqrt{64-a^{2}}}{8}$ </p>\n<p>and  $e_{H}=\\sqrt{1+\\frac{49}{64}}=\\frac{\\sqrt{113}}{8}$ </p>\n<p> $\\therefore$   $e_{E}.e_{H}=\\frac{1}{2}=\\frac{\\sqrt{64-a^{2}}\\sqrt{113}}{64}$ </p>\n<p> $\\Rightarrow (64-a^{2})(113)=32^{2}$ </p>\n<p> $\\Rightarrow a^{2}=64-\\frac{1024}{113}$ </p>\n<p>L.R of ellipse  $=\\frac{2a^{2}}{b}=\\frac{2}{8}(\\frac{113 \\times 64-1024}{113})$ </p>\n<p> $=l=\\frac{1552}{113}$ </p>\n<p> $\\therefore$   $113l=1552$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -2390,7 +2392,7 @@
         "e_{E}.e_{H}=\\frac{1}{2}=\\frac{\\sqrt{64-a^{2}}\\sqrt{113}}{64}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.358096"
     },
@@ -2415,7 +2417,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(e=\\frac{5}{4})$ </p>\n<p>So,  $b^{2}=a^{2}(\\frac{25}{16}-1) \\Rightarrow b=\\frac{3}{4}a$ </p>\n<p>Also  $(\\frac{8}{\\sqrt{5}},\\frac{12}{5})$  lies on the given hyperbola</p>\n<p>So,  $\\frac{64}{5a^{2}}-\\frac{144}{25(\\frac{9a^{2}}{16})}=1 \\Rightarrow a=\\frac{8}{5}$  and  $b=\\frac{6}{5}$ </p>\n<p>Equation of normal</p>\n<p> $\\frac{64}{25}(\\frac{x}{\\frac{8}{\\sqrt{5}}})+\\frac{36}{25}(\\frac{y}{\\frac{12}{5}})=4$ </p>\n<p> $\\Rightarrow \\frac{8}{5\\sqrt{5}}x+\\frac{3}{5}y=4$ </p>\n<p> $\\Rightarrow 8\\sqrt{5}x+15y=100$ </p>\n<p>So,  $\\beta$  = 15 and  $\\lambda$  = 100</p>\n<p>Gives  $\\lambda$   $-$   $\\beta$  = 85</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2426,7 +2428,7 @@
         "b^{2}=a^{2}(\\frac{25}{16}-1) \\Rightarrow b=\\frac{3}{4}a"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.731412"
     },
@@ -2472,7 +2474,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>Focus of parabola :  $(ae,0)$ </p>\n<p>Directrix :  $x=-ae$ .</p>\n<p>Equation of parabola  $\\equiv y^{2}=4aex$ </p>\n<p>Length of latus rectum of parabola  $=4ae$ </p>\n<p>Length of latus rectum of hyperbola  $=\\frac{2.b^{2}}{a}$ </p>\n<p>as given,  $4ae=\\frac{2b^{2}}{a}.e$ </p>\n<p> $2=\\frac{b^{2}}{a^{2}}$  ...... (i)</p>\n<p> $\\because$  H passes through  $(2\\sqrt{2},-2\\sqrt{2}) \\Rightarrow \\frac{8}{a^{2}}-\\frac{8}{b^{2}}=1$  ........ (ii)</p>\n<p>From (i) and (ii)  $a^{2}=4$  and  $b^{2}=8 \\Rightarrow e=\\sqrt{3}$ </p>\n<p> $\\Rightarrow$  Equation of parabola is  $y^{2}=8\\sqrt{3}x$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2483,7 +2485,7 @@
         "4ae=\\frac{2b^{2}}{a}.e"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:11.982265"
     },
@@ -2529,7 +2531,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ , then</p>\n<p> $e^{2}=\\frac{11}{14}l$  (l be the length of LR)</p>\n<p> $\\Rightarrow a^{2}+b^{2}=\\frac{11}{7}b^{2}a$  ..... (i)</p>\n<p>and  $e^{'2}=\\frac{11}{8}l^{'}$  (l' be the length of LR of conjugate hyperbola)</p>\n<p> $\\Rightarrow a^{2}+b^{2}=\\frac{11}{4}a^{2}b$  ....... (ii)</p>\n<p>By (i) and (ii)</p>\n<p> $7a=4b$ </p>\n<p>then by (i)</p>\n<p> $\\frac{16}{49}b^{2}+b^{2}=\\frac{11}{7}b^{2}.\\frac{4b}{7}$ </p>\n<p> $\\Rightarrow 44b=65$  and  $77a=65$ </p>\n<p> $\\therefore$   $77a+44b=130$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2540,7 +2542,8 @@
         "e^{'2}=\\frac{11}{8}l^{'}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate",
+        "Rectangular Hyperbola & Asymptotes"
       ],
       "crawled_at": "2026-09-20T15:40:12.364393"
     },
@@ -2565,7 +2568,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; 2p+f-1=0\\dots(1) \\\\ \\\\ &amp; 2-pf-4p=0\\dots(2) \\\\ \\\\ &amp; 2=p(f+4) \\\\ \\\\ &amp; p=\\frac{2}{f+4} \\\\ \\\\ &amp; 2p=1-f \\\\ \\\\ &amp; \\frac{4}{f+4}=1-f \\\\ \\\\ &amp; f^{2}+3f=0 \\\\ \\\\ &amp; f=0\\text{or}-3 \\end{aligned}$ <br/><br/>\nHyperbola  $3x^{2}-y^{2}=3,x^{2}-\\frac{y^{2}}{3}=1$ <br/><br/>\n $y=mx \\pm \\sqrt{m^{2}-3}$ <br/><br/>\nIt passes  $(1,0)$  <br/><br/> $o=m \\pm \\sqrt{m^{2}-3}$ <br/><br/>\n $m$  tends  $\\infty$ <br/><br/>\n $\\begin{aligned} &amp; \\text{It passes}(1,3) \\\\ \\\\ &amp; 3=m \\pm \\sqrt{m^{2}-3} \\\\ \\\\ &amp; (3-m)^{2}=m^{2}-3 \\\\ \\\\ &amp; m=2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}+y^{2}-2x+2fy+1=0",
@@ -2576,7 +2579,7 @@
         "o=m \\pm \\sqrt{m^{2}-3}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.367401"
     },
@@ -2601,7 +2604,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{1}=1$ </p>\n<p> $\\therefore$  Length of latus rectum  $=\\frac{2}{a}$ </p>\n<p> $E:\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ </p>\n<p>Length of latus rectum  $=\\frac{6}{2}=3$ </p>\n<p> $\\because$   $\\frac{2}{a}=3 \\Rightarrow a=\\frac{2}{3}$ </p>\n<p> $\\therefore$   $12(e_{H}^{2}+e_{E}^{2})=12(1+\\frac{9}{4})+(1-\\frac{3}{4})=42$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "H:\\frac{x^{2}}{a^{2}}-y^{2}=1",
@@ -2612,7 +2615,7 @@
         "H:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{1}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.744339"
     },
@@ -2660,7 +2663,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krwhjktd/276303f8-06f0-4e47-8ffd-0c1a2793b148/5bfa5910-f495-11eb-9dc6-a7061d629865/file-1krwhjkte.png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "16x^{2}-9y^{2}+32x+36y-164=0",
@@ -2671,7 +2674,7 @@
         "16(3ℎ+2+1)^{2}-9(3k-4-2)^{2}=144"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.311260"
     },
@@ -2717,7 +2720,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e_{1}=\\sqrt{1-\\frac{16}{25}}=\\frac{3}{5}$  foci ( $\\pm$ ae, 0)<br/><br/>Foci = ( $\\pm$ 3, 0)<br/><br/>Let equation of hyperbola be  $\\frac{x^{2}}{A^{2}}-\\frac{y^{2}}{B^{2}}=1$ <br/><br/>Passes through ( $\\pm$ 3, 0)<br/><br/>A<sup>2</sup> = 9, A = 3,  $e_{2}=\\frac{5}{3}$ <br/><br/> $e_{2}^{2}=1+\\frac{B^{2}}{A^{2}}$ <br/><br/> $\\frac{25}{9}=1+\\frac{B^{2}}{9} \\Rightarrow B^{2}=16$ \n<br/><br/>Equation of the hyperbola\n<br/><br/>  $\\frac{x^{2}}{9}-\\frac{y^{2}}{16}=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1",
@@ -2728,7 +2731,7 @@
         "\\frac{25}{9}=1+\\frac{B^{2}}{9} \\Rightarrow B^{2}=16"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.720967"
     },
@@ -2753,7 +2756,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since, point A (sec $\\theta$ , 2tan $\\theta$ ) lies on the hyperbola 2x<sup>2</sup>  $-$  y<sup>2</sup> = 2<br/><br/>Therefore, 2sec<sup>2</sup> $\\theta$   $-$  4tan<sup>2</sup> $\\theta$  = 2<br/><br/> $\\Rightarrow$  2 + 2tan<sup>2</sup> $\\theta$   $-$  4tan<sup>2</sup> $\\theta$  = 2<br/><br/> $\\Rightarrow$  tan $\\theta$  = 0  $\\Rightarrow$   $\\theta$  = 0<br/><br/>Similarly, for point B, we will get  $\\phi$  = 0.<br/><br/>but according to question  $\\theta$  +  $\\phi$  =  $\\frac{\\pi}{2}$  which is not possible.<br/><br/>Hence, it must be a 'BONUS'.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "y 2 = 2. If (",
@@ -2763,7 +2766,7 @@
         "\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.936635"
     },
@@ -2809,7 +2812,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Tangent to hyperbola of <br/><br/>Slope m =  $-$ 2 (given)<br/><br/>y =  $-$ 2x  $\\pm$   $\\sqrt{3(3)}$ <br/><br/> $(y=mx \\pm \\sqrt{a^{2}m^{2}-b^{2}})$ <br/><br/> $\\Rightarrow$  y + 2x =  $\\pm$  3  $\\Rightarrow$  2x + y = 3 (k &gt; 0)<br/><br/>For parabola y<sup>2</sup> =  $\\alpha$ x<br/><br/> $y=mx+\\frac{\\alpha}{4m}$ <br/><br/> $\\Rightarrow y=-2x+\\frac{\\alpha}{-8}$ <br/><br/> $\\Rightarrow \\frac{\\alpha}{-8}=3$ <br/><br/> $\\Rightarrow \\alpha=-24$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "y 2 = 3. If L is also a tangent to the parabola y 2 =",
@@ -2820,7 +2823,7 @@
         "\\Rightarrow y=-2x+\\frac{\\alpha}{-8}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.322680"
     },
@@ -2845,7 +2848,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sqrt{3}kx+ky=4\\sqrt{3}$  ........(1)<br/><br/> $\\sqrt{3}kx-ky=4\\sqrt{3}k^{2}$  ....... (2)<br/><br/>Adding equation (1) &amp; (2)<br/><br/> $2\\sqrt{3}kx=4\\sqrt{3}(k^{2}+1)$ <br/><br/> $x=2(k+\\frac{1}{k})$  ......... (3)<br/><br/>Substracting equation (1) &amp; (2)<br/><br/> $y=2\\sqrt{3}(\\frac{1}{k}-k)$  ........(4)<br/><br/> $\\therefore$   $\\frac{x^{2}}{4}-\\frac{y^{2}}{12}=4$ <br/><br/> $\\frac{x^{2}}{16}-\\frac{y^{2}}{48}=1$  (Hyperbola)<br/><br/> $\\therefore$   $e^{2}=1+\\frac{48}{16}$ <br/><br/> $\\Rightarrow$   $e=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Hard",
       "key_formulas": [
         "(\\sqrt{3})kx+ky-4\\sqrt{3}=0",
@@ -2856,7 +2859,7 @@
         "x=2(k+\\frac{1}{k})"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:18.948786"
     },
@@ -2904,7 +2907,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktkx0rqs/e87304d4-4982-4306-90a6-2b6e90940f90/e9fcc340-15d0-11ec-91e9-c738901c8293/file-1ktkx0rqt.png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -2915,7 +2918,7 @@
         "T=-\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.907958"
     },
@@ -2963,7 +2966,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l3b0ez3v/5fa06fb6-2e73-4b95-aa16-dacb000be7c4/83af90b0-d658-11ec-9a06-bd4ec5b93eb4/file-1l3b0ez3w.png?format=png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "2y 2 = 4. Let the tangent at a point P(4,",
@@ -2974,7 +2977,7 @@
         "xx_{1}-2yy_{1}=4"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.333989"
     },
@@ -3020,7 +3023,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->T = S<sub>1</sub><br/><br/>xh  $-$  yk = h<sup>2</sup>  $-$  k<sup>2</sup><br/><br/> $y=\\frac{xℎ}{k}-\\frac{(ℎ^{2}-k^{2})}{k}$ <br/><br/>this touches y<sup>2</sup> = 8x then  $c=\\frac{a}{m}$ <br/><br/> $(\\frac{k^{2}-ℎ^{2}}{k})=\\frac{2k}{ℎ}$ <br/><br/>2y<sup>2</sup> = x(y<sup>2</sup>  $-$  x<sup>2</sup>)<br/><br/>y<sup>2</sup>(x  $-$  2) = x<sup>3</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [
         "y 2 = 4, which touch the parabola y 2 = 8x, is : T = S 1 xh",
@@ -3029,7 +3032,7 @@
         "(\\frac{k^{2}-ℎ^{2}}{k})=\\frac{2k}{ℎ}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:12.919446"
     },
@@ -3075,7 +3078,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->tangent of hyperbola<br/><br/> $y=mx \\pm \\sqrt{9m^{2}-16}$  ..... (i)<br/><br/>which is a chord of circle with mid-point (h, k)<br/><br/>so equation of chord T = S<sub>1</sub><br/><br/>hx + ky = h<sup>2</sup> + k<sup>2</sup><br/><br/> $y=-\\frac{ℎx}{k}+\\frac{ℎ^{2}+k^{2}}{k}$  ..... (ii)<br/><br/>by (i) and (ii)<br/><br/> $m=-\\frac{ℎ}{k}$  and  $\\sqrt{9m^{2}-16}$  =  $\\frac{ℎ^{2}+k^{2}}{k}$ <br/><br/> $9\\frac{ℎ^{2}}{k^{2}}-16=\\frac{(ℎ^{2}+k^{2})^{2}}{k^{2}}$ <br/><br/> $\\therefore$  Locus : 9x<sup>2</sup>  $-$  16y<sup>2</sup> = (x<sup>2</sup> + y<sup>2</sup>)<sup>2</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}-\\frac{y^{2}}{16}=1",
@@ -3086,7 +3089,7 @@
         "\\frac{ℎ^{2}+k^{2}}{k}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.345447"
     },
@@ -3132,7 +3135,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Ellipse :  $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ <br/><br/>eccentricity =  $\\sqrt{1-\\frac{3}{4}}=\\frac{1}{2}$ <br/><br/> $\\therefore$  foci = ( $\\pm$  1, 0)<br/><br/>for hyperbola, given  $2a=\\sqrt{2} \\Rightarrow a=\\frac{1}{\\sqrt{2}}$ <br/><br/> $\\therefore$  hyperbola will be<br/><br/> $\\frac{x^{2}}{1/2}-\\frac{y^{2}}{b^{2}}=1$ <br/><br/>eccentricity =  $\\sqrt{1+2b^{2}}$ <br/><br/> $\\therefore$  foci  $=( \\pm \\sqrt{\\frac{1+2b^{2}}{2}},0)$ <br/><br/> $\\because$  Ellipse and hyperbola have same foci<br/><br/> $\\Rightarrow \\sqrt{\\frac{1+2b^{2}}{2}}=1$ <br/><br/> $\\Rightarrow b^{2}=\\frac{1}{2}$ <br/><br/> $\\therefore$  Equation of hyperbola :  $\\frac{x^{2}}{1/2}-\\frac{y^{2}}{1/2}=1$ <br/><br/> $\\Rightarrow$   $x^{2}-y^{2}=\\frac{1}{2}$ <br/><br/>Clearly  $(\\sqrt{\\frac{3}{2}},\\frac{1}{\\sqrt{2}})$  does not lie on it. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1",
@@ -3143,7 +3146,7 @@
         "=( \\pm \\sqrt{\\frac{1+2b^{2}}{2}},0)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.164068"
     },
@@ -3189,7 +3192,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let hyperbola is  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ \n<br/><br/>vertices ( $\\pm$ a, 0 ) = ( $\\pm$ 6, 0)  $\\Rightarrow$  a = 6\n<br/><br/>Hyperbola passes through p(10, 16)\n<br/><br/> $\\therefore$   $\\frac{10^{2}}{6^{2}}-\\frac{16^{2}}{b^{2}}=1$ \n<br/><br/> $\\Rightarrow$  b = 12\n<br/><br/> $\\therefore$  Required hyperbola is  $\\frac{x^{2}}{36}-\\frac{y^{2}}{144}=1$ \n<br/><br/>Equation of normal will be\n<br/><br/> $\\frac{a^{2}x}{x_{1}}+\\frac{b^{2}y}{y_{1}}=a^{2}+b^{2}$ \n<br/><br/>At P(10,16) normal is\n<br/><br/> $\\frac{36x}{10}+\\frac{144y}{16}=36+144$ \n<br/><br/> $\\Rightarrow$  18x + 45y = 900\n<br/><br/> $\\Rightarrow$  2x + 5y = 100<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -3199,7 +3202,7 @@
         "\\frac{36x}{10}+\\frac{144y}{16}=36+144"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.532252"
     },
@@ -3245,7 +3248,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1$ \n<br/><br/> $\\therefore$  c =  $\\pm$   $\\sqrt{a^{2}m^{2}-b^{2}}$ \n<br/><br/> $\\Rightarrow$  c =  $\\pm$   $\\sqrt{100m^{2}-64}$ \n<br/><br/>General tangent to hyperbola in slope form is\n<br/><br/>y = mx  $\\pm$   $\\sqrt{100m^{2}-64}$ \n<br/><br/>This tangent is also tangent to the circle x<sup>2</sup>\n + y<sup>2</sup>\n = 36, whose center (0, 0) and radius = 6.\n<br/><br/>Distance of the tangent from the center is\n<br/><br/> $|\\frac{\\sqrt{100m^{2}-64}}{\\sqrt{m^{2}+1}}|$  = 6\n<br/><br/> $\\Rightarrow$  100m<sup>2</sup>\n — 64 = 36m<sup>2</sup>\n + 36\n<br/><br/> $\\Rightarrow$  64m<sup>2</sup>\n = 100\n<br/><br/> $\\Rightarrow$  m =  $\\frac{10}{8}$ \n<br/><br/> $\\therefore$  c<sup>2</sup> = 100  $\\times$   $\\frac{100}{64}$  - 64\n<br/><br/> $\\Rightarrow$  c<sup>2</sup> =  $\\frac{100^{2}-64^{2}}{64}$ \n<br/><br/> $\\Rightarrow$  c<sup>2</sup> =  $\\frac{164 \\times 36}{64}$ \n<br/><br/> $\\Rightarrow$  4c<sup>2</sup> = 369<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1",
@@ -3256,7 +3259,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.733129"
     },
@@ -3302,7 +3305,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given equation of hyperbola  $\\Rightarrow x^{2}-y^{2}sec^{2}\\theta=10$ <br/><br/>\n $\\Rightarrow \\frac{x^{2}}{10}-\\frac{y^{2}}{10cos^{2}\\theta}=1$ <br/><br/>\nHence eccentricity of hyperbola<br/><br/>\n $(e_{H})=\\sqrt{1+\\frac{10cos^{2}\\theta}{10}}$    ...(i)<br/><br/>\n     ${ \\because e=\\sqrt{1+\\frac{b^{2}}{a^{2}}}}$ <br/><br/>\nNow equation of ellipse  $\\Rightarrow x^{2}sec^{2}\\theta+y^{2}=5$ <br/><br/>\n $\\Rightarrow \\frac{x^{2}}{5cos^{2}}+\\frac{y^{2}}{5}=1$     ${e=1-\\frac{a^{2}}{b^{2}}}$ <br/><br/>\nHence eccenticity of ellipse<br/><br/>\n $(e_{E})=\\sqrt{1-\\frac{5cos^{2}\\theta}{5}}$ <br/><br/>\n $(e_{E})=\\sqrt{1-cos^{2}\\theta}$    ...(ii)<br/><br/>\ngiven  $e_{H}=\\sqrt{5}e_{e}$ <br/><br/>\nHence  $\\sqrt{1+cos^{2}\\theta}=\\sqrt{5} \\times (\\sqrt{1-cos^{2}\\theta})$ <br/><br/>\nSquaring both sides<br/><br/>\n $1+cos^{2}\\theta=5(1-cos^{2}\\theta)$ <br/><br/>\n $1+cos^{2}\\theta=5-5cos^{2}\\theta$ <br/><br/>\n $6cos^{2}\\theta=4$ <br/><br/>\n $cos^{2}\\theta=\\frac{2}{3}$    ...(iii)<br/><br/>\nNow length of latus rectum of ellipse =  $=\\frac{2a^{2}}{b}=\\frac{10cos^{2}\\theta}{\\sqrt{5}}=\\frac{20}{3\\sqrt{5}}=\\frac{4\\sqrt{5}}{3}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta \\in (0,\\frac{\\pi}{2})",
@@ -3313,7 +3316,7 @@
         "\\Rightarrow x^{2}sec^{2}\\theta+y^{2}=5"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.178813"
     },
@@ -3359,7 +3362,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given hyperbola,  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ <br/><br/>Point P (3, 3) is on the parabola<br/><br/> $\\therefore$   $\\frac{9}{a^{2}}-\\frac{9}{b^{2}}=1$  ...(1)<br/><br/>Equation of normal at (x<sub>1</sub>, y<sub>1</sub>),<br/><br/> $\\frac{a^{2}x}{x_{1}}-\\frac{b^{2}y}{y_{1}}=a^{2}e^{2}$ <br/><br/>Normal at p(3, 3),<br/><br/> $\\frac{a^{2}x}{3}-\\frac{b^{2}y}{3}=a^{2}e^{2}$  ... (2)<br/><br/>It intersect x-axis at (9, 0),<br/><br/>Putting in equation (2),<br/><br/> $\\frac{9a^{2}}{3}-0=a^{2}e^{2}$ <br/><br/> $\\Rightarrow 3a^{2}=a^{2}e^{2}$ <br/><br/> $\\Rightarrow e^{2}=3$ <br/><br/>Also,  $e^{2}=1+\\frac{b^{2}}{a^{2}}$ <br/><br/> $\\Rightarrow 3=1+\\frac{b^{2}}{a^{2}}$ <br/><br/> $\\Rightarrow b^{2}=2a^{2}$ <br/><br/>Putting the value of b<sup>2</sup> in equation (1),<br/><br/> $\\frac{9}{a^{2}}-\\frac{9}{2a^{2}}=1$ <br/><br/> $\\Rightarrow a^{2}=\\frac{9}{2}$ <br/><br/> $\\therefore$   $(a^{2},e^{2})=(\\frac{9}{2},3)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -3370,7 +3373,7 @@
         "\\Rightarrow 3a^{2}=a^{2}e^{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.746391"
     },
@@ -3416,7 +3419,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Tangent of hyperbola  $\\frac{x^{2}}{4}-\\frac{y^{2}}{2}=1$  at the point (x<sub>1</sub>, y<sub>1</sub>) is\n<br/><br/> $\\frac{xx_{1}}{4}-\\frac{yy_{1}}{2}=1$  which is parallel to 2x – y = 0\n<br/><br/> $\\therefore$  Slope of tangent  $\\frac{xx_{1}}{4}-\\frac{yy_{1}}{2}=1$  = Slope of 2x – y = 0\n<br/><br/> $\\Rightarrow$   $\\frac{x_{1}}{2y_{1}}$  = 2\n<br/><br/> $\\Rightarrow$  x<sub>1</sub> = 4y<sub>1</sub> ....(1)\n<br/><br/>(x<sub>1</sub>, y<sub>1</sub>) lies on hyperbola\n<br/><br/> $\\therefore$   $\\frac{x_{1}^{2}}{4}-\\frac{y_{1}^{2}}{2}=1$  ....(2)\n<br/><br/>From (1) &amp; (2)\n<br/><br/> $\\frac{(4y_{1})^{2}}{4}-\\frac{y_{1}^{2}}{2}=1$ \n<br/><br/> $\\Rightarrow$   $4y_{1}^{2}-\\frac{y_{1}^{2}}{2}=1$ \n<br/><br/> $\\Rightarrow$   $7y_{1}^{2}=2$ \n<br/><br/> $\\Rightarrow$   $y_{1}^{2}=\\frac{2}{7}$ \n<br/><br/>Now  $x_{1}^{2}+5y_{1}^{2}$ \n<br/><br/>=  $(4y_{1})^{2}+(5y_{1})^{2}$ \n<br/><br/>= 21 $y_{1}^{2}$ \n<br/><br/>= 21 $\\times \\frac{2}{7}$ \n<br/><br/>= 6<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}-\\frac{y^{2}}{2}=1",
@@ -3427,7 +3430,7 @@
         "\\frac{x_{1}^{2}}{4}-\\frac{y_{1}^{2}}{2}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.190813"
     },
@@ -3473,7 +3476,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For ellipse  $\\frac{x^{2}}{25}+\\frac{y^{2}}{b^{2}}=1(b&lt;5)$ <br/><br/>Let e<sub>1</sub> is eccentricity of ellipse <br/><br/> $\\therefore$  b<sup>2</sup> = 25 (1  $-$   $e_{1}^{2}$ ) ........(1)<br/><br/>Again for hyperbola<br/><br/> $\\frac{x^{2}}{16}-\\frac{y^{2}}{b^{2}}=1$ <br/><br/>Let e<sub>2</sub> is eccentricity of hyperbola.<br/><br/> $\\therefore$   $b^{2}=16(e_{1}^{2}-1)$   ......(2)<br/><br/>by (1) &amp; (2)<br/><br/> $25(1-e_{1}^{2})=16(e_{1}^{2}-1)$ <br/><br/>Now e<sub>1</sub> . e<sub>2</sub> = 1 (given)<br/><br/> $\\therefore$   $25(1-e_{1}^{2})=16(\\frac{1-e_{1}^{2}}{e_{1}^{2}})$ <br/><br/>or e<sub>1</sub> =  $\\frac{4}{5}$   $\\therefore$  e<sub>2</sub> =  $\\frac{5}{4}$ <br/><br/>Now distance between foci is 2ae<br/><br/> $\\therefore$  Distance for ellipse =  $2 \\times 5 \\times \\frac{4}{5}=8=\\alpha$ <br/><br/>Distance for hyperbola =  $2 \\times 4 \\times \\frac{5}{4}=10=\\beta$ <br/><br/> $\\therefore$  ( $\\alpha$ ,  $\\beta$ )  $\\equiv$  (8, 10)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{25}+\\frac{y^{2}}{b^{2}}=1",
@@ -3484,7 +3487,7 @@
         "25(1-e_{1}^{2})=16(e_{1}^{2}-1)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:13.762914"
     },
@@ -3530,7 +3533,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->e<sub>1</sub> =  $\\sqrt{1-\\frac{4}{18}}$  =  $\\frac{\\sqrt{7}}{3}$ \n<br/><br/>e<sub>1</sub> =  $\\sqrt{1+\\frac{4}{9}}$  =  $\\frac{\\sqrt{13}}{3}$ \n<br/><br/> $\\because$  (e<sub>1</sub>, e<sub>2</sub> ) lies on 15x<sup>2</sup>\n + 3y<sup>2</sup>\n = k\n<br/><br/> $\\therefore$   $15(\\frac{7}{9})+3(\\frac{13}{9})$  = k\n<br/><br/> $\\Rightarrow$  k = 16<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{18}+\\frac{y^{2}}{4}=1",
@@ -3541,7 +3544,7 @@
         "\\frac{\\sqrt{13}}{3}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.201186"
     },
@@ -3587,7 +3590,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Formula for standard hyperbola :\n<br/><br/> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ \n<br/><br/>It passes through (4, 6)\n<br/><br/> $\\therefore$   $\\frac{16}{a^{2}}-\\frac{36}{b^{2}}=1$  ........(1)\n<br/><br/>We know,  $e^{2}=1+\\frac{b^{2}}{a^{2}}$ \n<br/><br/> $\\Rightarrow$  4 =  $1+\\frac{b^{2}}{a^{2}}$  [ as e = 2 ]\n<br/><br/> $\\Rightarrow$   $b^{2}=3a^{2}$  ....(2)\n<br/><br/>Putting  $b^{2}=3a^{2}$  in equation (1)\n<br/><br/> $\\frac{16}{a^{2}}-\\frac{36}{3a^{2}}=1$ \n<br/><br/> $\\Rightarrow$   $a^{2}=4$ \n<br/><br/> $\\therefore$  ,  $b^{2}=12$ \n<br/><br/>So Equation of hyperbola is\n<br/><br/> $\\frac{x^{2}}{4}-\\frac{y^{2}}{12}=1$ \n<br/><br/>Equation of tangent to the hyperbola at (4, 6) is\n<br/><br/> $\\frac{4x}{4}-\\frac{6y}{12}=1$ \n<br/><br/> $\\Rightarrow$   $x-\\frac{y}{2}=1$ \n<br/><br/> $\\Rightarrow$   2x – y – 2 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -3598,7 +3601,7 @@
         "\\frac{16}{a^{2}}-\\frac{36}{3a^{2}}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.821938"
     },
@@ -3644,7 +3647,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the equation of tangent to parabola\n<br/><br/>y<sup>2</sup> = 4x  be  y = mx +  $\\frac{1}{m}$ \n<br/><br/>It is also a tangent to hyperbola xy = 2\n<br/><br/> $\\Rightarrow$   x $(mx+\\frac{1}{m})$  = 2\n<br/><br/> $\\Rightarrow$   x<sup>2</sup>m +  $\\frac{x}{m}$   $-$  2 = 0\n<br/><br/>D = 0  $\\Rightarrow$    m =  $-$   $\\frac{1}{2}$ \n<br/><br/>So tangent is 2y + x + 4 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{m}",
@@ -3655,7 +3658,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.178211"
     },
@@ -3701,7 +3704,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{9}-\\frac{y^{2}}{16}=1$ <br/><br/>\n $\\therefore$  a = 3 and b = 4<br/><br/>\n $e^{2}=1+\\frac{b^{2}}{a^{2}}$ <br/><br/>\n $\\Rightarrow e^{2}=1+\\frac{16}{9}$ <br/><br/>\n $\\Rightarrow$  e =  $\\frac{5}{3}$ <br/><br/>\n $\\therefore$   focus is (–ae, 0) = (–5, 0)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}-\\frac{y^{2}}{16}=1",
@@ -3710,7 +3713,7 @@
         "\\frac{5}{3}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.544703"
     },
@@ -3758,7 +3761,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/wGlvU3KA32NhpRo5I/kYOkWKu607Gdu1ujq765F2pmSp7F1/mWbVAXvFnkNsFSE9yCwWg0/image.png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{3}{2}",
@@ -3766,7 +3769,7 @@
         "\\frac{x^{2}}{4}-\\frac{y^{2}}{5}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.833022"
     },
@@ -3812,13 +3815,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Hyperbola  $\\frac{x^{2}}{5}-\\frac{y^{2}}{4}=1$ \n<br/><br/>slope of tangent = 1 \n<br/><br/>equation of tangent y = x  $\\pm$   $\\sqrt{5-4}$ \n<br/><br/> $\\Rightarrow$   y = x  $\\pm$  1\n<br/><br/> $\\Rightarrow$   y = x + 1   \n<br/><br/>or\n<br/><br/> $\\Rightarrow$   y = x  $-$  1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{5}-\\frac{y^{2}}{4}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.192022"
     },
@@ -3866,7 +3869,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf7697gjy9md3qt/27986382-f5a0-4da5-994f-3bbd2528f9b1/e8a83650-a9df-11e9-a277-6507805b1ccf/file-jf7697gjy9md3qu-1760w.jpg"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{4}{\\sqrt{5}}",
@@ -3877,7 +3880,7 @@
         "\\Rightarrow \\frac{4}{a^{2}}[\\frac{4}{1}-\\frac{3}{e^{2}-1}]=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.559314"
     },
@@ -3923,7 +3926,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let equation of circle is \n<br/><br/>x<sup>2</sup><sup></sup> + y<sup>2</sup> + 2fx + 2fy + e = 0, it passes through (0, 2b)\n<br/><br/> $\\Rightarrow$   0 + 4b<sup>2</sup> + 2g  $\\times$  0 + 4f + c = 0\n<br/><br/> $\\Rightarrow$   4b<sup>2</sup> + 4f + c = 0       . . .     (i)\n<br/><br/> $2\\sqrt{g^{2}-c}=4a$       . . . (ii)\n<br/><br/>g<sup>2</sup>  $-$  c = 4a<sup>2</sup>  $\\Rightarrow$  c =  $(g^{2}-4a^{2})$ \n<br/><br/>Putting in equation (1)\n<br/><br/> $\\Rightarrow$   4b<sup>2</sup> + 4f + g<sup>2</sup>  $-$  4a<sup>2</sup> = 0\n<br/><br/> $\\Rightarrow$   x<sup>2</sup> + 4y + 4(b<sup>2</sup>  $-$  a<sup>2</sup>) = 0, it represent a hyperbola. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -3933,7 +3936,7 @@
         "4a 2 = 0"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.855740"
     },
@@ -3979,7 +3982,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the equation of hyperbola\n<br/><br/> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}$  = 1\n<br/><br/>Given 2a = 4\n<br/><br/> $\\Rightarrow$    $a$  = 2\n<br/><br/>It passes through (4, 2)\n<br/><br/> $\\therefore$    $\\frac{16}{4}-\\frac{4}{b^{2}}$  = 1\n<br/><br/> $\\Rightarrow$   b<sup>2</sup> =  $\\frac{4}{3}$ \n<br/><br/>e =  $\\sqrt{1+\\frac{b^{2}}{a^{2}}}$  =  $\\sqrt{1+\\frac{4/3}{4}}$ \n<br/><br/>=  $\\sqrt{1+\\frac{1}{3}}$  =  $\\frac{2}{\\sqrt{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}",
@@ -3990,7 +3993,7 @@
         "\\sqrt{1+\\frac{4/3}{4}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.205798"
     },
@@ -4036,7 +4039,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given line y = mx + 7 $\\sqrt{3}$  .....(1)\n<br/><br/>Given hyperbola\n<br/><br/> $\\frac{x^{2}}{24}-\\frac{y^{2}}{18}=1$ \n<br/><br/>Here  $a^{2}=24$  and  $b^{2}=18$ \n<br/><br/>We know the equation of normal to the hyperbola is\n<br/><br/> $y=mx \\pm \\frac{m(a^{2}+b^{2})}{\\sqrt{a^{2}-b^{2}m^{2}}}$ \n<br/><br/> $\\Rightarrow$   $y=mx \\pm \\frac{m(42)}{\\sqrt{24-18m^{2}}}$  .....(2)\n<br/><br/>Comparing (1) and (2), we get\n<br/><br/> $\\frac{m(42)}{\\sqrt{24-18m^{2}}}$  =  $7\\sqrt{3}$ \n<br/><br/> $\\Rightarrow$  36m<sup>2</sup> = 72 - 54m<sup>2</sup>\n<br/><br/> $\\Rightarrow$  90m<sup>2</sup> = 72\n<br/><br/> $\\Rightarrow$  m<sup>2</sup> =  $\\frac{72}{90}$ \n<br/><br/> $\\Rightarrow$  m =  $\\frac{2}{\\sqrt{5}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{24}-\\frac{y^{2}}{18}=1",
@@ -4047,7 +4050,7 @@
         "\\frac{m(42)}{\\sqrt{24-18m^{2}}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.573109"
     },
@@ -4093,7 +4096,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->2b = 5  and  2ae  = 13\n<br/><br/>b<sup>2</sup> = a<sup>2</sup>(e<sup>2</sup>  $-$  1)  $\\Rightarrow$    $\\frac{25}{4}$  =  $\\frac{169}{4}$   $-$  a<sup>2</sup>\n<br/><br/> $\\Rightarrow$   a  $=$  6  $\\Rightarrow$   e  $=$   $\\frac{13}{12}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{25}{4}",
@@ -4101,7 +4104,7 @@
         "\\frac{13}{12}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:14.868519"
     },
@@ -4149,7 +4152,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/nKBHqkTdTbuUHbXW0/cEValIXr9P2qdasEl2kn2pGLT0SbE/VR6Hl7gdZYWsPuJ6MWhvRb/image.png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "0<\\theta<\\frac{\\pi}{2}",
@@ -4160,7 +4163,7 @@
         "\\sqrt{1+\\frac{sin^{2}\\theta}{cos^{2}\\theta}}>2"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.216171"
     },
@@ -4206,7 +4209,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here, lines are : \n<br/><br/> $\\sqrt{2}x$   $-$  y + 4 $\\sqrt{2}k$  = 0\n<br/><br/> $\\Rightarrow$   $\\sqrt{2}x+4\\sqrt{2}k=y....$ (i)\n<br/><br/>and    $\\sqrt{2}kx+ky-4\\sqrt{2}=0...(ii)$ \n<br/><br/>Put the value of y from (i) in (ii) we get;\n<br/><br/> $\\Rightarrow$ 2 $\\sqrt{2}$ kx + 4 $\\sqrt{2}$ (k<sup>2</sup>  $-$  1) = 0\n<br/><br/> $\\Rightarrow$  x =  $\\frac{2(1-k^{2})}{k}$ ,  y =  $\\frac{2\\sqrt{2}(1+k^{2})}{k}$ \n<br/><br/> $\\therefore$   $(\\frac{y}{4\\sqrt{2}})^{2}-(\\frac{x}{4})^{2}=1$ \n<br/><br/> $\\therefore$  length of transverse axis\n<br/><br/>2a = 2  $\\times$  4 $\\sqrt{2}$  = 8 $\\sqrt{2}$ \n<br/><br/>Hence,  the locus is a hyperbola with  length of its transverse axis equal to 8 $\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{2}x-y+4\\sqrt{2}k=0",
@@ -4217,7 +4220,7 @@
         "1) = 0"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.627836"
     },
@@ -4265,7 +4268,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/25mcJBwoAT3rbZOWB/jbN1YpQ8jSca2nu20eGQzejfPGWIA/3cF9tHp48O6OL0vyCPTMDC/image.png"
       ],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "y.3 = 36",
@@ -4276,7 +4279,7 @@
         "\\Rightarrow x= \\pm 3\\sqrt{5}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.640497"
     },
@@ -4322,7 +4325,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, 4x<sup>2</sup>  $-$  9y<sup>2</sup> = 36\n<br/><br/>After differentiating w.r.t.x, we get\n<br/><br/>4.2x  $-$  9.2.y. $\\frac{dy}{dx}$  = 0\n<br/><br/> $\\Rightarrow$  Slope of tangent =  $\\frac{dy}{dx}$  =  $\\frac{4x}{9y}$ \n<br/><br/>So, slope of normal =  $\\frac{-9y}{4x}$ \n<br/><br/>Now, equation of normal at point (x<sub>0</sub>, y<sub>0</sub>)  is given by \n<br/><br/>y  $-$  y<sub>0</sub> =  $\\frac{-9y_{0}}{4x_{0}}$  (x  $-$  x<sub>0</sub>)\n<br/><br/>As normal  intersects X axis at A, Then \n<br/><br/>A =  $(\\frac{13x_{0}}{9},0)$  and B  $\\equiv$   $(0,\\frac{13y_{0}}{4})$ \n<br/><br/>As OABP is parallelogram \n<br/><br/> $\\therefore$  midpoint of OB  $\\equiv$   $(0,\\frac{13y_{0}}{8})$   $\\equiv$  Midpoint of AP\n<br/><br/>So, P(x, y)  $\\equiv$   $(\\frac{-13x_{0}}{9},\\frac{13y_{0}}{4})$      ...(i)\n<br/><br/> $\\because$  (x<sub>0</sub>, y<sub>0</sub>) lies on hyperbola, therefore\n<br/><br/>4(x<sub>0</sub>)<sup>2</sup>  $-$  9(y<sub>0</sub>)<sup>2</sup> = 36\n<br/><br/>From equation (i) : x<sub>0</sub> =  $\\frac{-9x}{13}$  and y<sub>0</sub> =  $\\frac{4y}{13}$ \n<br/><br/>From equation (ii), we get \n<br/><br/>9x<sup>2</sup>  $-$  4y<sup>2</sup> = 169\n<br/><br/>Hence, locus of point P is : 9x<sup>2</sup>  $-$  4y<sup>2</sup> = 169<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "9y 2 = 36 meets the co-ordinate axes",
@@ -4333,7 +4336,7 @@
         "So, slope of normal ="
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.650840"
     },
@@ -4379,7 +4382,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of hyperbola is : \n<br/><br/>4y<sup>2</sup> = x<sup>2</sup> + 1  $\\Rightarrow$   $-$  x<sup>2</sup> + 4y<sup>2</sup> = 1\n<br/><br/> $\\Rightarrow$    $-$   $\\frac{x^{2}}{1^{2}}$  +  $\\frac{y^{2}}{(\\frac{1}{2})^{2}}$  = 1\n<br/><br/> $\\therefore$   a = 1, b =  $\\frac{1}{2}$ \n<br/><br/>Now, tangent to the curve at point (x<sub>1</sub>, y<sub>1</sub>) is given by \n<br/><br/>4  $\\times$  2y<sub>1</sub> $\\frac{dy}{dx}$  = 2x<sub>1</sub>\n<br/><br/> $\\Rightarrow$     $\\frac{dy}{dx}$  =  $\\frac{2x_{1}}{8y_{1}}$  =  $\\frac{x_{1}}{4y_{1}}$ \n<br/><br/>Equation of tangent at (x<sub>1</sub>, y<sub>1</sub>) is \n<br/><br/>y = mx + c\n<br/><br/> $\\Rightarrow$    y =  $\\frac{x_{1}}{4y_{1}}$  . x + c\n<br/><br/>As tangent passes  through (x<sub>1</sub>, y<sub>1</sub>)\n<br/><br/> $\\therefore$    y<sub>1</sub> =  $\\frac{x_{1}x_{1}}{4y_{1}}+c$ \n<br/><br/> $\\Rightarrow$     C =  $\\frac{4y_{1}^{2}-x_{1}^{2}}{4y_{1}}$  =  $\\frac{1}{4y_{1}}$ \n<br/><br/>Therefore, y =  $\\frac{x_{1}}{4y_{1}}x+\\frac{1}{4y_{1}}$ \n<br/><br/> $\\Rightarrow$  4y<sub>1</sub>y = x<sub>1</sub>x + 1\n<br/><br/>which intersects x axis at A  $(\\frac{-1}{x_{1}},0)$   and y axis at  $B(0,\\frac{1}{4y_{1}})$ \n<br/><br/>Let midpoint of AB is (h, k)\n<br/><br/> $\\therefore$    h =  $\\frac{-1}{2x_{1}}$ \n<br/><br/> $\\Rightarrow$  x<sub>1</sub> =  $\\frac{-1}{2ℎ}$  &amp; y<sub>1</sub> =  $\\frac{1}{8k}$ \n<br/><br/>Thus, 4 $(\\frac{1}{8k})^{2}$  =  $(\\frac{-1}{2ℎ})^{2}$  + 1 \n<br/><br/> $\\Rightarrow$   $\\frac{1}{16k^{2}}$  =  $\\frac{1}{4ℎ^{2}}$  + 1\n<br/><br/> $\\Rightarrow$   1 =  $\\frac{16k^{2}}{4ℎ^{2}}$  + 16k<sup>2</sup>\n<br/><br/> $\\Rightarrow$  h<sup>2</sup> = 4k<sup>2</sup> + 16h<sup>2</sup> k.\n<br/><br/>So, required equation is \n<br/><br/>x<sup>2</sup>  $-$  4y<sup>2</sup>  $-$  16x<sup>2</sup> y<sup>2</sup> = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "x 2 + 4y 2 = 1",
@@ -4390,7 +4393,7 @@
         "\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.661860"
     },
@@ -4436,7 +4439,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here, tx  $-$  2y  $-$  3t = 0  &amp;  x  $-$  2ty + 3 = 0\n<br/><br/>On solving, we get; \n<br/><br/>y =  $\\frac{6t}{2t^{2}-2}$  =  $\\frac{3t}{t^{2}-1}$  &amp; x =  $\\frac{3t^{2}+3}{t^{2}-1}$ \n<br/><br/>Put    t = tan $\\theta$ \n<br/><br/> $\\therefore$    x =  $-$  3 sec 2 $\\theta$   &amp;  2y = 3 ( $-$  tan 2 $\\theta$ )\n<br/><br/> $\\because$    sec<sup>2</sup>2 $\\theta$   $-$  tan<sup>2</sup>2 $\\theta$  = 1\n<br/><br/> $\\Rightarrow$      $\\frac{x^{2}}{9}$   $-$   $\\frac{y^{2}}{9/4}$  = 1\n<br/><br/>which represents at hyperbola\n<br/><br/> $\\therefore$    a<sup>2</sup> = 9  &amp;  b<sup>2</sup> = 9/4\n<br/><br/> $\\lambda$ (T.A.) = 6;  e<sup>2</sup> = 1 +  $\\frac{9/4}{9}$  = 1 +  $\\frac{1}{4}$   $\\Rightarrow$   e =  $\\frac{\\sqrt{5}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "3t = 0 x",
@@ -4447,7 +4450,7 @@
         "& x ="
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.967886"
     },
@@ -4493,7 +4496,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of hyperbola is  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ \n<br/><br/>foci is (±2, 0) \n<br/><br/> $\\Rightarrow$  ae = 2 \n<br/><br/> $\\Rightarrow$  a<sup>2</sup>e<sup>2</sup> = 4\n<br/><br/>Since b<sup>2</sup> = a<sup>2</sup> (e<sup>2</sup> – 1)\n<br/><br/>b<sup>2</sup> = a<sup>2</sup> e<sup>2</sup> – a<sup>2</sup>\n<br/><br/> $\\therefore$  a<sup>2</sup> + b<sup>2</sup> = 4 .....(1)\n<br/><br/>Also Hyperbola passes through  $(\\sqrt{2},\\sqrt{3})$ \n<br/><br/> $\\therefore$   $\\frac{2}{a^{2}}-\\frac{3}{b^{2}}=1$ \n<br/><br/> $\\Rightarrow$   $\\frac{2}{4-b^{2}}-\\frac{3}{b^{2}}=1$ \n<br/><br/> $\\Rightarrow$  (b<sup>2</sup> – 3) (b<sup>2</sup> + 4) = 0\n<br/><br/> $\\therefore$  b<sup>2</sup> = 3 or b<sup>2</sup> = -4\n<br/><br/> For b<sup>2</sup> = 3\n<br/><br/> $\\Rightarrow$  a<sup>2</sup> = 1\n<br/><br/> $\\frac{x^{2}}{1}-\\frac{y^{2}}{3}=1$ \n<br/><br/>Equation of tangent is  $\\frac{\\sqrt{2}x}{1}-\\frac{\\sqrt{3}y}{3}=1$ \n<br/><br/>It satisfy point  $(2\\sqrt{2},3\\sqrt{3})$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1",
@@ -4503,7 +4506,7 @@
         "\\frac{\\sqrt{2}x}{1}-\\frac{\\sqrt{3}y}{3}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.980949"
     },
@@ -4549,7 +4552,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{2b^{2}}{a}=8$  and  $2b=\\frac{1}{2}(2ae)$ \n<br/><br/> $\\Rightarrow 4b^{2}=a^{2}e^{2}$ \n<br/><br/> $\\Rightarrow 4a^{2}(e^{2}-1)=a^{2}e^{2}$ \n<br/><br/> $\\Rightarrow 3e^{2}=4 \\Rightarrow e=\\frac{2}{\\sqrt{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{2b^{2}}{a}=8",
@@ -4559,7 +4562,7 @@
         "\\Rightarrow 3e^{2}=4 \\Rightarrow e=\\frac{2}{\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.518949"
     },
@@ -4605,7 +4608,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{12}+\\frac{y^{2}}{16}$  = 1\n<br/><br/>e =  $\\sqrt{1-\\frac{12}{16}}$  =  $\\frac{1}{2}$ \n<br/><br/>Foci (0, 2)   &amp;   (0,  $-$  2)\n<br/><br/>So, transverse axis of hyperbola \n<br/><br/>= 2b = 4 <br/><br/> $\\Rightarrow$  b = 2 &amp; a<sup>2</sup> = 1<sup>2</sup> (e<sup>2</sup>  $-$  1)\n<br/><br/> $\\Rightarrow$    a<sup>2</sup> = 4 $(\\frac{9}{4}-1)$ \n<br/><br/> $\\Rightarrow$    a<sup>2</sup> = 5\n<br/><br/> $\\therefore$     It's equation is  $\\frac{x^{2}}{5}-\\frac{y^{2}}{4}$  =  $-$  1\n<br/><br/>The point (5, 2 $\\sqrt{3}$ ) does not satisfy the above equation.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{3}+\\frac{y^{2}}{4}=4",
@@ -4616,7 +4619,7 @@
         "2) So, transverse axis of hyperbola = 2b = 4"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:15.993118"
     },
@@ -4662,7 +4665,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As  S(5, 0)   is the focus.\n<br/><br/> $\\therefore$    ae = 5          . . . (1)\n<br/><br/>As  5x = 9\n<br/><br/> $\\therefore$    x =  $\\frac{9}{5}$  is the directrix \n<br/><br/>As we know directrix =  $\\frac{a}{e}$ \n<br/><br/> $\\therefore$     $\\frac{a}{e}=\\frac{9}{5}$            . . . .(2)\n<br/><br/>Solving (1) and (2), we get \n<br/><br/>a = 3 and e =  $\\frac{5}{3}$ \n<br/><br/>As we know, \n<br/><br/>b<sup>2</sup> = a<sup>2</sup> (e<sup>2</sup>  $-$  1) = 9 $(\\frac{25}{9}-1)$  = 16\n<br/><br/> $\\therefore$    a<sup>2</sup>  $-$  b<sup>2</sup> = 9  $-$  16  $=$   $-$  7<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{9}{5}",
@@ -4673,7 +4676,7 @@
         "= 16"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.003404"
     },
@@ -4719,7 +4722,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of normal at  $P(x,y)$  is  $Y-y=-\\frac{dx}{dy}(x-x)$ \n<br/><br/>Coordinate of   $G$  at  $X$  axis is  $(X,0)$  (let)\n<br/><br/> $\\therefore$   $0-y=-\\frac{dx}{dy}(X-x) \\Rightarrow y\\frac{dy}{dx}=X-x$ \n<br/><br/> $\\Rightarrow X=x+y\\frac{dy}{dx}$   $\\therefore$   Co-ordinate of  $G(x+y\\frac{dy}{dx},0)$ \n<br/><br/>Given distance of  $G$  from origin  $=$  twice of the abscissa of  $P.$ \n<br/><br/>as distance cannot be  $-ve,$  therefore abscissa  $x$  should be  $+ve$ \n<br/><br/> $\\therefore$   $x+y\\frac{dy}{dx}=2x \\Rightarrow y\\frac{dy}{dx}=x \\Rightarrow ydx=xdx$ \n<br/><br/>On Integrating  $\\Rightarrow \\frac{y^{2}}{2}=\\frac{x^{2}}{2}+c_{1} \\Rightarrow x^{2}-y^{2}=-2c_{1}$ \n<br/><br/> $\\therefore$  the curve is a hyperbola <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "0-y=-\\frac{dx}{dy}(X-x) \\Rightarrow y\\frac{dy}{dx}=X-x",
@@ -4728,7 +4731,7 @@
         "x+y\\frac{dy}{dx}=2x \\Rightarrow y\\frac{dy}{dx}=x \\Rightarrow ydx=xdx"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.530541"
     },
@@ -4774,7 +4777,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, equation of hyperbola is  $\\frac{x^{2}}{cos^{2}\\alpha}-\\frac{y^{2}}{sin^{2}\\alpha}=1$ \n<br/><br/>We know that the equation of hyperbola is \n<br/><br/> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$  Here,  $a^{2}=cos^{2}\\alpha$  and  $b^{2}=sin^{2}\\alpha$ \n<br/><br/>We know that,  $b^{2}=a^{2}(e^{2}-1)$ \n<br/><br/> $\\Rightarrow sin^{2}\\alpha=cos^{2}\\alpha(e^{2}-1)$ \n<br/><br/> $\\Rightarrow sin^{2}\\alpha+cos^{2}\\alpha=cos^{2}\\alpha.e^{2}$ \n<br/><br/> $\\Rightarrow e^{2}=1+tan^{2}\\alpha=sec^{2}\\alpha \\Rightarrow e=sec\\alpha$ \n<br/><br/> $\\therefore$   $ae=cos\\alpha.\\frac{1}{cos\\alpha}=1$ \n<br/><br/>Co-ordinate of foci are  $( \\pm \\alpha e,0)$  i.e.  $( \\pm 1,0)$ \n<br/><br/>Hence, abscissae of foci remain constant when  $\\alpha$  varies. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{cos^{2}\\alpha}-\\frac{y^{2}}{sin^{2}\\alpha}=1",
@@ -4784,7 +4787,7 @@
         "ae=cos\\alpha.\\frac{1}{cos\\alpha}=1"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.541042"
     },
@@ -4830,7 +4833,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Tangent to the hyperbola  $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$  is \n<br/><br/> $y=mx \\pm \\sqrt{a^{2}m^{2}-b^{2}}$ \n<br/><br/>Given that  $y=\\alpha x+\\beta$  is the tangent of hyperbola \n<br/><br/> $\\Rightarrow m=\\alpha$  and  $a^{2}m^{2}-b^{2}=\\beta^{2}$ \n<br/><br/> $\\therefore$   $a^{2}\\alpha^{2}-b^{2}=\\beta^{2}$ \n<br/><br/>Locus is  $a^{2}x^{2}-y^{2}=b^{2}$  which is hyperbola. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "y=\\alpha x+\\beta",
@@ -4841,7 +4844,7 @@
         "a^{2}\\alpha^{2}-b^{2}=\\beta^{2}"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.552689"
     },
@@ -4887,7 +4890,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{144}-\\frac{y^{2}}{81}=\\frac{1}{25}$ \n<br/><br/> $a=\\sqrt{\\frac{144}{25}},b=\\sqrt{\\frac{81}{25}},$ \n<br/><br/> $e=\\sqrt{1+\\frac{81}{144}}=\\frac{15}{12}=\\frac{5}{4}$ \n<br/><br/> $\\therefore$  Foci  $=( \\pm 3,0)$ \n<br/><br/> $\\therefore$  foci of ellipse  $=$  foci of hyperbola\n<br/><br/> $\\therefore$  for ellipse  $ae=3$  but  $a=4,$ \n<br/><br/> $\\therefore$   $e=\\frac{3}{4}$ \n<br/><br/>Then  $b^{2}=a^{2}(1-e^{2})$ \n<br/><br/> $\\Rightarrow b^{2}=16(1-\\frac{9}{16})=7$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Hyperbola - Core Application",
+      "topic_tag": "Asymptotes, Rectangular Hyperbola & Conjugate",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{b^{2}}=1",
@@ -4898,7 +4901,7 @@
         "=( \\pm 3,0)"
       ],
       "key_concepts": [
-        "Hyperbola - Core Application"
+        "Asymptotes, Rectangular Hyperbola & Conjugate"
       ],
       "crawled_at": "2026-09-20T15:40:16.725869"
     }

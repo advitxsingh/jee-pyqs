@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a mass  $m$  is attached to a spring with spring constant  $k$ , the restoring force is given by Hooke's law</p>\n<p> $F=-kx$ </p>\n<p>According to Newton's Second Law,</p>\n<p> $m\\frac{d^{2}x}{dt^{2}}=-kx \\Rightarrow \\frac{d^{2}x}{dt^{2}}+\\frac{k}{m}x=0$ </p>\n<p>Comparing this to the standard SHM equation  $\\frac{d^{2}x}{dt^{2}}+\\omega^{2}x=0$ , we find the angular frequency as,</p>\n<p> $\\omega=\\sqrt{\\frac{k}{m}}$ </p>\n<p>Since frequency  $v=\\frac{\\omega}{2\\pi}$ , the frequency of oscillation is:</p>\n<p> $v=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$ </p>\n<p> $\\Rightarrow$   $v∝\\sqrt{k}$ </p>\n<p>A spring constant k is inversely proportional to the natural length L of the spring  $(k∝\\frac{1}{L})$ .</p>\n<p> $k \\cdot L=\\text{constant}$ </p>\n<p>Let the initial length be  $L_{1}$  and initial spring constant be  $k_{1}$ .</p>\n<p>The new length is  $L_{2}=\\frac{L_{1}}{2}$ .</p>\n<p>Let the new spring constant is  $k_{2}$ .</p>\n<p> $k_{1}L_{1}=k_{2}L_{2} \\Rightarrow k_{1}L_{1}=k_{2}(\\frac{L_{1}}{2})$ </p>\n<p> $\\Rightarrow$   $k_{2}=2k_{1}$ </p>\n<p>Using the relation between spring constant and frequency of oscillation,</p>\n<p> $\\frac{v_{2}}{v_{1}}=\\frac{\\frac{1}{2\\pi}\\sqrt{\\frac{k_{2}}{m}}}{\\frac{1}{2\\pi}\\sqrt{\\frac{k_{1}}{m}}}$ </p>\n<p> $\\Rightarrow$   $\\frac{v_{2}}{v_{1}}=\\sqrt{\\frac{k_{2}}{k_{1}}}$ </p>\n<p>Substituting  $k_{2}=2k_{1}$  :</p>\n<p> $\\frac{v_{2}}{v_{1}}=\\sqrt{\\frac{2k_{1}}{k_{1}}}$ </p>\n<p> $\\Rightarrow$   $\\frac{v_{2}}{v_{1}}=\\sqrt{2}$ </p>\n<p>Therefore, the value of the ratio  $\\frac{v_{2}}{v_{1}}$  is  $\\sqrt{2}$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{2}",
@@ -55,7 +55,8 @@
         "L_{1}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:31.278304"
     },
@@ -105,7 +106,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mog67iis/12675d01-6333-447a-a9d1-b87e2b579a03/6ad45440-41a7-11f1-972f-4f2426bdad9f/file-6y3zli1mog67iit.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mog69hxf/28d4d1e5-f384-4047-96ac-5d1d52d38cdf/a1fd4530-41a7-11f1-972f-4f2426bdad9f/file-6y3zli1mog69hxg.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\tau=-Mgdsin\\theta",
@@ -116,7 +117,7 @@
         "I_{d}=\\frac{I_{cm}}{2}=\\frac{\\frac{1}{2}MR^{2}}{2}=\\frac{1}{4}MR^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:32.696231"
     },
@@ -162,7 +163,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The spring constant k of a spring is inversely proportional to the length L of the spring.</p>\n<p> $k∝\\frac{1}{L}$ </p>\n<p>This means that the product of the spring constant and the length is a constant for a given spring:</p>\n<p> $k \\cdot L=\\text{Constant}$ </p>\n<p>The force constant of original spring is  $k_{o}=15N/m$ .</p>\n<p>Let the original length be L .</p>\n<p>The spring is cut into two pieces with a length ratio of  $1:3$ .</p>\n<p> $x+3x=L \\Rightarrow x=\\frac{L}{4}$ </p>\n<p>Hence, the length of smaller spring is  $L_{1}=x=\\frac{L}{4}$  and the length of larger spring is  $L_{2}=3x=\\frac{3L}{4}$ .</p>\n<p>Let  $k_{1}$  be the force constant of the smaller piece.</p>\n<p>Using the inverse proportionality relationship:</p>\n<p> $k_{o}L_{o}=k_{1}L_{1}$ </p>\n<p> $\\Rightarrow$   $15 \\times L=k_{1} \\times (\\frac{L}{4}) \\Rightarrow k_{1}=60N/m$ </p>\n<p>Therefore, the force constant of smaller piece is  $60N/m$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -173,7 +174,7 @@
         "L_{1}=x=\\frac{L}{4}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:33.783404"
     },
@@ -221,7 +222,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo4ehkgz/8e080094-414e-4dc2-a5a2-109972cafdb1/63aad330-3b2e-11f1-8c42-c7a7a182458c/file-6y3zli1mo4ehkh0.webp?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -232,7 +233,7 @@
         "A=2mm=2 \\times 10^{-3}m"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:31.328517"
     },
@@ -278,7 +279,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The velocity  $v$  is the first derivative of displacement  $x$  with respect to time  $t$ .</p>\n<p> $v=\\frac{dx}{dt}=\\frac{d}{dt}[asin(50t+\\frac{\\pi}{3})]$ </p>\n<p> $v=50acos(50t+\\frac{\\pi}{3})$ </p>\n<p>The particle comes to rest when  $v=0$ .</p>\n<p> $50acos(50t_{1}+\\frac{\\pi}{3})=0 \\Rightarrow cos(50t_{1}+\\frac{\\pi}{3})=0$ </p>\n<p>The first positive time occurs when the phase is  $\\frac{\\pi}{2}$ :</p>\n<p> $50t_{1}+\\frac{\\pi}{3}=\\frac{\\pi}{2}$ </p>\n<p> $50t_{1}=\\frac{\\pi}{2}-\\frac{\\pi}{3}=\\frac{\\pi}{6}$ </p>\n<p> $t_{1}=\\frac{\\pi}{300}s$ </p>\n<p>The acceleration  $a$  is the derivative of velocity  $v$ .</p>\n<p> $a=\\frac{dv}{dt}=\\frac{d}{dt}[50acos(50t+\\frac{\\pi}{3})]$ </p>\n<p> $a=-2500asin(50t+\\frac{\\pi}{3})$ </p>\n<p>Acceleration is zero when  $sin(50t_{2}+\\frac{\\pi}{3})=0$ .</p>\n<p>The first positive time (other than the initial state if it is zero) occurs when the phase is  $\\pi$ :</p>\n<p> $50t_{2}+\\frac{\\pi}{3}=\\pi$ </p>\n<p> $50t_{2}=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}$ </p>\n<p> $t_{2}=\\frac{2\\pi}{150}=\\frac{\\pi}{75}s$ </p>\n<p>Therefore, the particle will come to rest time  $\\frac{\\pi}{300}s$  and it will have zero acceleration at time  $t_{2}\\frac{\\pi}{75}s$ . Thus, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=asin(50t+\\pi/3)",
@@ -289,7 +290,7 @@
         "50acos(50t_{1}+\\frac{\\pi}{3})=0 \\Rightarrow cos(50t_{1}+\\frac{\\pi}{3})=0"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:32.751169"
     },
@@ -335,7 +336,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The time period (T) of a simple pendulum is the time taken to complete one full oscillation.</p>\n<p>For a simple pendulum of the length of the string  $(L)$  and the acceleration due to gravity  $(g)$  the formula for the time period is,</p>\n<p> $T=2\\pi\\sqrt{\\frac{L}{g}}$ </p>\n<p>So, the time period is directly proportional to the square root of the length  $(T∝\\sqrt{L})$ .</p>\n<p> $T^{2}∝L \\Rightarrow ∝T^{2}$ </p>\n<p><b>Case - 1</b></p>\n<p>The initial length of the string is  $L_{1}=30cm$ </p>\n<p> $N_{1}=20$  is the number of oscillations completed in total time  $t_{1}=10s$ </p>\n<p>So, the initial time period of oscillation is</p>\n<p> $T_{1}=\\frac{\\text{Total Time}}{\\text{Number of Oscillations}}=\\frac{10}{20}=0.5s$ </p>\n<p><b>Case - 2</b></p>\n<p> $N_{2}=40$  is the number of oscillations completed in the same time  $t_{2}=t_{1}=10s$ </p>\n<p>So, the final time period of oscillation is,</p>\n<p> $T_{2}=\\frac{\\text{Total Time}}{\\text{Number of Oscillations}}=\\frac{10}{40}=0.25s$ </p>\n<p>We need to find the required length  $(L_{2})$  corresponding to the final length of the string, Using the proportionality  $L∝T^{2}$ </p>\n<p> $\\frac{L_{2}}{L_{1}}=(\\frac{T_{2}}{T_{1}})^{2}$ </p>\n<p> $\\Rightarrow$   $\\frac{L_{2}}{30}=(\\frac{0.25}{0.50})^{2}=\\frac{1}{4}$ </p>\n<p> $\\Rightarrow$   $\\frac{L_{2}}{30}=\\frac{1}{4} \\Rightarrow L_{2}=\\frac{30}{4}cm=7.5cm$ </p>\n<p>Therefore, the required length of the string is 7.5 cm . </p>\n<p>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -346,7 +347,7 @@
         "t_{1}=10s"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:33.838086"
     },
@@ -394,7 +395,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo5ndbfu/8aeeca5e-49d3-466a-8b48-8daa9abf98ef/e84408a0-3bdd-11f1-a83a-dd05f7862255/file-6y3zli1mo5ndbfv.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{\\sqrt{2}}=cos(\\frac{2\\pi}{5}t)",
@@ -403,7 +404,7 @@
         "t=\\frac{5}{8}sec"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:31.418495"
     },
@@ -451,7 +452,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlcac6fy/c6279725-1fec-4de4-bcf3-90aed06ee4e2/c853abe0-041f-11f1-b905-e3cf04b12e1d/file-6y3zli1mlcac6fz.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -462,7 +463,8 @@
         "\\mu=\\frac{1 \\times 0.2}{1+0.2}=\\frac{0.2}{1.2}=\\frac{1}{6}kg"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:32.826151"
     },
@@ -510,14 +512,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u9a01/3426427a-43c1-4346-a0fd-9d6dd57f8c04/8ba21510-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u9a02.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{T^{2}}=\\frac{g}{4\\pi^{2}L}",
         "\\frac{1}{T^{2}}=(\\frac{g}{4\\pi^{2}})\\frac{1}{L}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:33.885932"
     },
@@ -563,7 +565,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the displacement equation  $y=sin^{2}\\omega t$ </p>\n<p>Using the trigonometric identity  $sin^{2}\\theta=\\frac{1-cos2\\theta}{2}$ . So,  $y=\\frac{1}{2}-\\frac{1}{2}cos(2\\omega t)$ .</p>\n<p>For SHM, the acceleration must be proportional to displacement  $(\\frac{d^{2}y}{dt^{2}}=-\\omega^{2}y)$ .</p>\n<p>From the given equation, the function is shifted by  $\\frac{1}{2}$  and amplitude is  $\\frac{1}{2}$ , so it oscillates between 0 and 1 .</p>\n<p>While the oscillatory part is harmonic, the function represents a periodic motion and simple harmonic motion</p>\n<p>The angular frequency is  $2\\omega$ .</p>\n<p> $T=\\frac{2\\pi}{2\\omega}=\\frac{\\pi}{\\omega}$ .</p>\n<p>Therefore, it is periodic with T =  $\\frac{\\pi}{\\omega}$  and SHM, i.e.,  $A \\rightarrow III$ </p>\n<p>For the displacement equation  $y=sin^{3}(2\\omega t)$ </p>\n<p>Using the identity</p>\n<p> $sin3\\theta=3sin\\theta-4sin^{3}\\theta \\Rightarrow sin^{3}\\theta=\\frac{3sin\\theta-sin3\\theta}{4}$ </p>\n<p>Here,  $\\theta=2\\omega t$ .</p>\n<p>So,  $y=\\frac{3sin(2\\omega t)-sin(6\\omega t)}{4}=\\frac{3}{4}sin(2\\omega t)-\\frac{1}{4}sin(6\\omega t)$ .</p>\n<p>It is a superposition of two periodic functions  $y_{1}=\\frac{3}{4}sin(2\\omega t)$  and  $y_{2}=-\\frac{1}{4}sin(6\\omega t)$ .</p>\n<p>The time period is the LCM of time periods of both the periodic functions.</p>\n<p>The period of first function is  $T_{1}=2\\pi/2\\omega=\\frac{\\pi}{\\omega}$ .</p>\n<p>The period of second function is  $T_{2}=\\frac{2\\pi}{6\\omega}=\\frac{\\pi}{3\\omega}$ .</p>\n<p>So, the time period of function is  $T=\\frac{\\pi}{\\omega}$ .</p>\n<p>As it contains multiple frequencies, so it is not SHM.</p>\n<p>Therefore, it is a periodic function with time period  $T=\\frac{\\pi}{\\omega}$  but not SHM.  $(B \\rightarrow I)$ </p>\n<p>For the displacement equation  $y=sin(\\omega t)+cos(\\pi\\omega t)$ </p>\n<p>It is a sum of two periodic functions  $y_{1}=sin(\\omega t)$  and  $y_{2}=cos(\\pi\\omega t)$ </p>\n<p>It will be periodic only if the ratio of their time periods is a rational number.</p>\n<p> $\\omega_{1}=\\omega \\Rightarrow T_{1}=\\frac{2\\pi}{\\omega}$ </p>\n<p> $\\begin{aligned} &amp; \\omega_{2}=\\pi\\omega \\Rightarrow T_{2}=\\frac{2\\pi}{\\pi\\omega}=\\frac{2}{\\omega} \\\\ Ratio\\frac{T_{1}}{T_{2}}=\\frac{2\\pi/\\omega}{2/\\omega}=\\pi &amp; \\end{aligned}$ </p>\n<p>Since  $\\pi$  is an irrational number, the function is non-periodic. (  $C \\rightarrow$  IV)</p>\n<p>For the displacement equation  $y=cos\\omega t+cos2\\omega t$ </p>\n<p>It is also the sum of two periodic function  $y_{1}=cos\\omega t$  and  $y_{2}=cos2\\omega t$ </p>\n<p> $\\omega_{1}=\\omega \\Rightarrow T_{1}=\\frac{2\\pi}{\\omega}\\text{and}\\omega_{2}=2\\omega \\Rightarrow T_{2}=\\frac{2\\pi}{2\\omega}=\\frac{\\pi}{\\omega}.$ </p>\n<p>The ratio of time periods is,  $\\frac{T_{1}}{T_{2}}=2$ </p>\n<p>The ratio is rational. The fundamental period is  $T=\\frac{2\\pi}{\\omega}$ .</p>\n<p>So, it is a periodic with time period  $T=\\frac{\\pi}{\\omega}(D \\rightarrow$  III  $)$ </p>\n<p>Therefore, the correct match is A - II, B - I, C - IV, D - III. </p>\n<p>Hence, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{2}\\omega t",
@@ -574,7 +576,7 @@
         "cos\\omega t+cos2\\omega t"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:31.497041"
     },
@@ -622,7 +624,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlmg49i4/940eabc4-40e8-43b2-9bae-bb020bd7ca66/397c95c0-09b6-11f1-b485-9384f9e2cf73/file-6y3zli1mlmg49i5.webp?format=webp"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -633,7 +635,7 @@
         "F_{\\text{restoring}}=-(\\text{Additional Volume}) \\times \\rho \\times g"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:32.886755"
     },
@@ -679,7 +681,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In simple harmonic motion, the kinetic energy oscillates with angular frequency  $2\\omega$ , where  $\\omega$  is the angular frequency of the oscillator.</p>\n<p>Given:</p>\n<p> $2\\omega=176\\text{rad/s}$ </p>\n<p>So,</p>\n<p> $\\omega=\\frac{176}{2}=88\\text{rad/s}$ </p>\n<p>Now, frequency is related to angular frequency by:</p>\n<p> $\\omega=2\\pi f$ </p>\n<p>Therefore,</p>\n<p> $f=\\frac{\\omega}{2\\pi}=\\frac{88}{2 \\times \\frac{22}{7}}$ </p>\n<p> $f=\\frac{88}{\\frac{44}{7}}=88 \\times \\frac{7}{44}$ </p>\n<p> $f=2 \\times 7=14\\text{Hz}$ </p>\n<p>So, the correct answer is:</p>\n<p> $14$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\pi=\\frac{22}{7}",
@@ -690,7 +692,7 @@
         "\\omega=2\\pi f"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:33.945030"
     },
@@ -738,7 +740,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9npvavz/aa95589f-61ea-4c96-bba7-e2669ca49750/8bab16f0-1cd6-11f0-9f5f-0b480a650056/file-jaoe38c1m9npvaw0.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{i}",
@@ -747,7 +749,7 @@
         "\\frac{1}{2}mv^{2}=\\frac{1}{2}K(x_{i}^{2}-x_{f}^{2})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:34.792249"
     },
@@ -795,7 +797,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6xm67h7/afdfa006-38c7-4de8-82a9-c3f22c56064e/46c672b0-e6e3-11ef-b709-83958d5c342e/file-jaoe38c1m6xm67h8.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{max}=wA",
@@ -805,7 +807,8 @@
         "\\Rightarrow \\frac{(V_{max})_{A}}{(V_{max})_{B}}=\\sqrt{\\frac{k_{1}}{k_{2}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:35.608551"
     },
@@ -851,7 +854,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x(t)=cos(\\pi t)$ </p>\n<p>The particle executes simple harmonic motion (SHM) with amplitude  $A=1\\text{cm}$  and period  $T=2\\text{s}$ . In one complete cycle (2 s), the motion is as follows:</p>\n<p><p>It starts at  $x=1\\text{cm}$ .</p></p>\n<p><p>It moves to  $x=-1\\text{cm}$  (covering a distance of  $2\\text{cm}$ ).</p></p>\n<p><p>It returns to  $x=1\\text{cm}$  (covering another  $2\\text{cm}$ ).</p></p>\n<p>Thus, the total distance traveled in one complete cycle is:</p>\n<p> $D_{\\text{cycle}}=2+2=4\\text{cm}.$ </p>\n<p>In 12.5 s, the number of cycles is:</p>\n<p> $\\frac{12.5}{2}=6.25\\text{cycles}.$ </p>\n<p>For the 6 complete cycles (12 s), the distance traveled is:</p>\n<p> $D_{\\text{complete}}=6 \\times 4=24\\text{cm}.$ </p>\n<p>For the remaining 0.5 s, determine the displacement. At  $t=12\\text{s}$ , the particle is at:</p>\n<p> $x(12)=cos(12\\pi)=1\\text{cm}.$ </p>\n<p>After an extra 0.5 s (i.e., at  $t=12.5\\text{s}$ ), the position becomes:</p>\n<p> $x(12.5)=cos(12.5\\pi)=cos(12\\pi+\\frac{\\pi}{2})=cos\\frac{\\pi}{2}=0\\text{cm}.$ </p>\n<p>The distance covered in this interval is:</p>\n<p> $D_{\\text{extra}}=|1-0|=1\\text{cm}.$ </p>\n<p>So, the total distance traveled is:</p>\n<p> $D=D_{\\text{complete}}+D_{\\text{extra}}=24+1=25\\text{cm}.$ </p>\n<p>The net displacement, which is the difference between the final and initial positions, is calculated as follows:</p>\n<p><p>Initial position at  $t=0$ :</p>\n<p> $x(0)=cos0=1\\text{cm},$ </p></p>\n<p><p>Final position at  $t=12.5\\text{s}$ :</p>\n<p> $x(12.5)=0\\text{cm}.$ </p></p>\n<p>Thus, the displacement is:</p>\n<p> $d=|0-1|=1\\text{cm}.$ </p>\n<p>The ratio of the total distance traveled to the displacement is:</p>\n<p> $\\frac{D}{d}=\\frac{25}{1}=25.$ </p>\n<p>Therefore, the correct answer is  $25$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{D}{d}",
@@ -862,7 +865,7 @@
         "x=-1\\text{cm}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:36.752458"
     },
@@ -908,7 +911,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p<strong>Angular Frequency: The angular frequency ($\\omega$) of a simple pendulum is given by:\n<p>$    \\omega = \\sqrt{\\frac{g}{\\ell}}    $</p>\n<p>where $g$ is the acceleration due to gravity and $\\ell$ is the pendulum length.</p>\n<p><p><strong>Angular Acceleration</strong>: The angular acceleration ($\\alpha$) can be expressed in terms of angular displacement ($\\theta$) and angular frequency:</p>\n<p>$    \\alpha = -\\omega^2 \\theta    $</p></p>\n<p><p><strong>Equating Angular Accelerations</strong>: Since the angular accelerations of the two pendulums are equal, we equate them:</p>\n<p>$    \\frac{g}{\\ell_1} \\theta_1 = \\frac{g}{\\ell_2} \\theta_2    $</p></p>\n<p><p><strong>Simplifying the Expression</strong>: By canceling out $g$ on both sides, we derive:</p>\n<p>$    \\theta_1 \\ell_2 = \\theta_2 \\ell_1    $</p></p>\n<p>Thus, the correct expression that relates the displacements and lengths of the pendulums is $\\theta_1 \\ell_2 = \\theta_2 \\ell_1$.</p><!-- HTML_TAG_END --></p<strong></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "l_{1}",
@@ -919,7 +922,8 @@
         "\\omega = \\sqrt{\\frac{g}{\\ell}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:34.863967"
     },
@@ -965,11 +969,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{As}ℎ\\text{increases,}g\\text{decreases,}T\\text{increases} \\\\ &amp; \\begin{aligned} &amp; T=2\\pi\\sqrt{\\frac{\\ell}{g}} \\\\ &amp; g=\\frac{g_{0}R^{2}}{(R+h)^{2}} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:35.667220"
     },
@@ -1015,7 +1019,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We can determine the time period of the oscillations by considering that when the cube is depressed by a small displacement, the additional buoyant force provided by the displaced water acts as a restoring force. Here’s a step‐by‐step explanation:</p>\n<p>Define the given values:</p>\n<p><p>Side length of the cube,  $L=10\\text{cm}=0.1\\text{m}$ .</p></p>\n<p><p>Mass of the cube,  $m=10\\text{g}=0.01\\text{kg}$ .</p></p>\n<p><p>Density of water,  $\\rho=10^{3}\\text{kg/m}^{3}$ .</p></p>\n<p><p>Acceleration due to gravity,  $g=10\\text{m/s}^{2}$ .</p></p>\n<p><p>Cross-sectional area of the cube (face area), </p>\n<p> $A=L^{2}=(0.1)^{2}=0.01\\text{m}^{2}.$ </p></p>\n<p><p>When the cube is depressed by a small distance  $x$ , the additional volume of water displaced is </p>\n<p> $\\Delta V=Ax.$ </p>\n<p>Thus, the additional buoyant force is:</p>\n<p> $F_{b}=\\rho g\\Delta V=\\rho gAx.$ </p>\n<p>This force acts in the upward (restoring) direction. Notice that the force is proportional to the displacement  $x$ , which is the hallmark of simple harmonic motion (SHM).</p></p>\n<p><p>The effective spring constant,  $k$ , associated with this SHM is:</p>\n<p> $k=\\rho gA.$ </p></p>\n<p><p>The period of oscillation for SHM is given by:</p>\n<p> $T=2\\pi\\sqrt{\\frac{m}{k}},$ </p>\n<p>which, upon substituting for  $k$ , becomes:</p>\n<p> $T=2\\pi\\sqrt{\\frac{m}{\\rho gA}}.$ </p></p>\n<p><p>Substitute the given values into the expression:</p>\n<p> $T=2\\pi\\sqrt{\\frac{0.01}{1000 \\times 10 \\times 0.01}}.$ </p>\n<p>Calculate the denominator:</p>\n<p> $1000 \\times 10 \\times 0.01=100,$ </p>\n<p>so,</p>\n<p> $T=2\\pi\\sqrt{\\frac{0.01}{100}}=2\\pi\\sqrt{0.0001}.$ </p>\n<p>Since,</p>\n<p> $\\sqrt{0.0001}=0.01,$ </p>\n<p>we have:</p>\n<p> $T=2\\pi \\times 0.01=0.02\\pi\\text{s}.$ </p></p>\n<p><p>The problem states that the time period is given by:</p>\n<p> $y\\pi \\times 10^{-2}\\text{s}.$ </p>\n<p>Writing our result in the same form:</p>\n<p> $0.02\\pi\\text{s}=2\\pi \\times 10^{-2}\\text{s}.$ </p>\n<p>We see that  $y=2.$ </p></p>\n<p>Therefore, the correct answer is:</p>\n<p>Option A: 2.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "y\\pi \\times 10^{-2}s",
@@ -1026,7 +1030,8 @@
         "A=L^{2}=(0.1)^{2}=0.01\\text{m}^{2}."
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:36.830420"
     },
@@ -1075,7 +1080,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9gigq2z/76771b5e-39d8-4b73-9e76-254e0d47844d/19d18db0-18e0-11f0-a103-9bd1ffe79f48/file-jaoe38c1m9gigq30.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1ma0j43y9/e9289cbc-0739-4c0d-9771-c80852c46c6e/51216710-23e2-11f0-a048-651b25b521d4/file-jaoe38c1ma0j43ya.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\mu=",
@@ -1086,7 +1091,8 @@
         "a=-\\frac{Kx}{(M+m)}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:34.924787"
     },
@@ -1132,7 +1138,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x=Asin(\\omega t+\\phi) \\\\ &amp; x_{0}=Asin\\phi\\text{.... (1)} \\\\ &amp; p=mA\\omega cos(\\omega t+\\phi) \\\\ &amp; p_{0}=mA\\omega cos\\phi\\text{.... (2)} \\end{aligned}$ </p>\n<p> $(2)/(1) \\Rightarrow tan\\phi=(\\frac{x_{0}}{p_{0}})m\\omega$ </p>\n<p> $sin\\phi=\\frac{x_{0}m\\omega}{\\sqrt{(m\\omega x_{0})^{2}+p_{0}^{2}}}$ </p>\n<p>From (1),  $A=\\frac{x_{0}}{sin\\phi}=\\frac{\\sqrt{(m\\omega x_{0})^{2}+p_{0}^{2}}}{m\\omega}$ </p>\n<p>This means we can explain assertion with the given reason.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{0}",
@@ -1142,7 +1148,7 @@
         "A=\\frac{x_{0}}{sin\\phi}=\\frac{\\sqrt{(m\\omega x_{0})^{2}+p_{0}^{2}}}{m\\omega}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:35.759686"
     },
@@ -1188,14 +1194,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Assertion (A): A simple pendulum transported to a planet where the mass and radius are 4 times and 2 times that of the Earth, respectively, has the same time period as it does on Earth.</p>\n<p>Reason (R): The mass of the pendulum remains unchanged whether on Earth or the other planet.</p>\n<p><strong>Explanation:</strong></p>\n<p>The acceleration due to gravity  $g$  on a planet is given by the formula:</p>\n<p> $g=\\frac{GM}{R^{2}}$ </p>\n<p>where  $G$  is the gravitational constant,  $M$  is the mass of the planet, and  $R$  is the radius of the planet.</p>\n<p>For the new planet, the gravitational acceleration  $g^{'}$  is:</p>\n<p> $g^{'}=\\frac{G(4M)}{(2R)^{2}}=\\frac{4GM}{4R^{2}}=\\frac{GM}{R^{2}}=g$ </p>\n<p>Thus, the gravitational acceleration on this new planet is the same as on Earth,  $g$ .</p>\n<p>The time period  $T$  of a simple pendulum is determined by:</p>\n<p> $T=2\\pi\\sqrt{\\frac{\\ell}{g}}$ </p>\n<p>where  $\\ell$  is the length of the pendulum, which indicates that the time period  $T$  is independent of the mass of the pendulum.</p>\n<p>Therefore, while Assertion (A) is true and Reason (R) is true, Reason (R) does not correctly explain Assertion (A) because the time period of the pendulum is also independent of the pendulum's mass, and the key factor is the unchanged gravitational acceleration.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "g^{'}",
         "g^{'}=\\frac{G(4M)}{(2R)^{2}}=\\frac{4GM}{4R^{2}}=\\frac{GM}{R^{2}}=g"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:36.874468"
     },
@@ -1243,14 +1249,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mahu827u/63ef68b5-42db-483a-9c21-e24b2a33c3eb/167d09a0-2d67-11f0-a1b5-2f2fdede538a/file-jaoe38c1mahu827v.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1}=\\sqrt{7}sin5tcm",
         "x_{2}=2\\sqrt{7}sin(5t+\\frac{\\pi}{3})cm"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:34.988149"
     },
@@ -1296,11 +1302,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x=x_{0}sin^{2}\\frac{t}{2}=x_{0}(\\frac{1-cost}{2}) \\\\ &amp; x-\\frac{x_{0}}{2}=\\frac{-cost}{2} \\\\ &amp; \\text{where}x_{0}=1 \\\\ &amp; x-\\frac{1}{2}=\\frac{-cost}{2} \\end{aligned}$ </p>\n<p>Particle is oscillating between  $x=0$  to  $x=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:35.830433"
     },
@@ -1348,11 +1354,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv1rw7jj/6430b13c-4ea4-4e00-88d6-b01185ccd97e/318f3bf0-fb9a-11ee-aecf-73c37d9c3a58/file-1lv1rw7jk.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:38.051481"
     },
@@ -1377,7 +1383,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's begin by understanding the equations related to simple harmonic motion (SHM). For a particle executing SHM, the position  $x$ , velocity  $v$ , and acceleration  $a$  are given by the following equations:</p>\n<p>1. Position:  $x=Acos(\\omega t+\\phi)$ </p>\n<p>2. Velocity:  $v=-A\\omega sin(\\omega t+\\phi)$ </p>\n<p>3. Acceleration:  $a=-A\\omega^{2}cos(\\omega t+\\phi)$ </p>\n<p>Here,  $A$  is the amplitude of the motion,  $\\omega$  is the angular frequency, and  $\\phi$  is the phase constant.</p>\n<p>Given the magnitudes at a certain instant:</p>\n<p> $x=4m$ </p>\n<p> $v=2ms^{-1}$ </p>\n<p> $a=16ms^{-2}$ </p>\n<p>Using the acceleration equation:</p>\n<p> $a=-A\\omega^{2}cos(\\omega t+\\phi)$ </p>\n<p>Since we’re given the magnitude of the acceleration, we remove the negative sign:</p>\n<p> $16=A\\omega^{2}cos(\\omega t+\\phi)$ </p>\n<p>Using the position equation:</p>\n<p> $x=Acos(\\omega t+\\phi)$ </p>\n<p>We already know  $x=4m$ , so:</p>\n<p> $4=Acos(\\omega t+\\phi)$ </p>\n<p>From these two equations, we know:</p>\n<p> $A\\omega^{2}cos(\\omega t+\\phi)=16$ </p>\n<p> $Acos(\\omega t+\\phi)=4$ </p>\n<p>Therefore:</p>\n<p> $A\\omega^{2} \\cdot 4/A=16$ </p>\n<p> $4\\omega^{2}=16$ </p>\n<p> $\\omega^{2}=4$ </p>\n<p> $\\omega=2rad/s$ </p>\n<p>Next, using the velocity equation:</p>\n<p> $v=-A\\omega sin(\\omega t+\\phi)$ </p>\n<p>Again, we consider the magnitude:</p>\n<p> $2=A \\cdot 2sin(\\omega t+\\phi)$ </p>\n<p> $2=2Asin(\\omega t+\\phi)$ </p>\n<p> $sin(\\omega t+\\phi)=\\frac{1}{A}$ </p>\n<p>We know from the position equation that:</p>\n<p> $cos(\\omega t+\\phi)=\\frac{4}{A}$ </p>\n<p>Using the identity  $sin^{2}(\\theta)+cos^{2}(\\theta)=1$ , we get:</p>\n<p> $(\\frac{1}{A})^{2}+(\\frac{4}{A})^{2}=1$ </p>\n<p> $\\frac{1}{A^{2}}+\\frac{16}{A^{2}}=1$ </p>\n<p> $\\frac{17}{A^{2}}=1$ </p>\n<p> $A^{2}=17$ </p>\n<p> $A=\\sqrt{17}m$ </p>\n<p>Therefore, the amplitude of the motion is  $\\sqrt{17}m$ , meaning  $x$  is 17.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "4m,2ms^{-1}",
@@ -1388,7 +1394,7 @@
         "16=A\\omega^{2}cos(\\omega t+\\phi)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:06.942694"
     },
@@ -1413,7 +1419,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's start by considering the formula for the frequency of a mass on a spring (a simple harmonic oscillator):</p>\n<p> $f=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$ </p>\n<p>Where:</p>\n<ul>\n<li> $f$  is the frequency of oscillation</li>\n<li> $k$  is the spring constant</li>\n<li> $m$  is the mass suspended from the spring</li>\n</ul>\n<p>When the mass  $m$  is suspended, the frequency  $f_{1}$  is:</p>\n<p> $f_{1}=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$ </p>\n<p>When the mass  $9m$  is suspended, the frequency  $f_{2}$  is:</p>\n<p> $f_{2}=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{9m}}$ </p>\n<p>We can simplify the square root by taking the 9 inside the root as  $3^{2}$ , which gives:</p>\n<p> $f_{2}=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{(3^{2})m}}$ \n<br/><br/> $f_{2}=\\frac{1}{2\\pi}\\frac{1}{3}\\sqrt{\\frac{k}{m}}$ </p>\n<p>The ratio of  $\\frac{f_{1}}{f_{2}}$  is therefore:</p>\n<p> $\\frac{f_{1}}{f_{2}}=\\frac{\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}}{\\frac{1}{2\\pi}\\frac{1}{3}\\sqrt{\\frac{k}{m}}}$ \n<br/><br/> $\\frac{f_{1}}{f_{2}}=\\frac{1}{\\frac{1}{3}}$ \n<br/><br/> $\\frac{f_{1}}{f_{2}}=3$ </p>\n<p>So the value of  $\\frac{f_{1}}{f_{2}}$  is  $3$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "f_{1}",
@@ -1424,7 +1430,8 @@
         "\\frac{f_{1}}{f_{2}}=3"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:07.849672"
     },
@@ -1449,14 +1456,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let total energy}=E=\\frac{1}{2}KA^{2} \\\\ &amp; U=\\frac{1}{2}K(\\frac{A}{3})^{2}=\\frac{KA^{2}}{2 \\times 9}=\\frac{E}{9} \\\\ &amp; KE=E-\\frac{E}{9}=\\frac{8E}{9} \\\\ &amp; \\text{Ratio}\\frac{\\text{Total}}{KE}=\\frac{E}{\\frac{8E}{9}}=\\frac{9}{8} \\\\ &amp; x=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{8}",
         "_________."
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:08.773911"
     },
@@ -1502,7 +1510,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The initial momentum of the system (bullet + bob) is the momentum of the bullet because the bob is initially at rest. The momentum of the bullet is given by its mass times its velocity :</p>\n<p> $p_{\\text{initial}}=m_{\\text{bullet}} \\times v_{\\text{bullet}}$ </p>\n<p>After the collision, the bullet and the bob move together with a common velocity. Let's denote this common velocity as  $v^{'}$ . The final momentum  $p_{\\text{final}}$  is the combined mass of the bullet and bob times the common velocity :</p>\n<p> $p_{\\text{final}}=(m_{\\text{bullet}}+m_{\\text{bob}}) \\times v^{'}$ </p>\n<p>According to the principle of conservation of linear momentum,</p>\n<p> $p_{\\text{initial}}=p_{\\text{final}}$ </p>\n<p> $m_{\\text{bullet}} \\times v_{\\text{bullet}}=(m_{\\text{bullet}}+m_{\\text{bob}}) \\times v^{'}$ </p>\n<p>Plugging in the values :</p>\n<p> $(10^{-2}\\text{kg}) \\times (2 \\times 10^{2}\\text{m/s})=(10^{-2}\\text{kg}+1\\text{kg}) \\times v^{'}$ </p>\n<p>Solving for  $v^{'}$  :</p>\n<p> $v^{'}=\\frac{10^{-2} \\times 2 \\times 10^{2}}{10^{-2}+1}=\\frac{2}{1.01} \\approx 1.98\\text{m/s}$ </p>\n<p>After the collision, the system has some kinetic energy which will be completely converted to potential energy at the maximum height  $ℎ$  that the bob reaches. Using the principle of conservation of energy :</p>\n<p> $\\text{Kinetic Energy (KE)}_{\\text{initial}}=\\text{Potential Energy (PE)}_{\\text{final}}$ </p>\n<p> $\\frac{1}{2}(m_{\\text{bullet}}+m_{\\text{bob}})v^{'2}=(m_{\\text{bullet}}+m_{\\text{bob}})gℎ$ </p>\n<p>Isolating  $ℎ$ , we get :</p>\n<p> $ℎ=\\frac{\\frac{1}{2}(m_{\\text{bullet}}+m_{\\text{bob}})v^{'2}}{(m_{\\text{bullet}}+m_{\\text{bob}})g}=\\frac{v^{'2}}{2g}$ </p>\n<p>Substituting the values for  $v^{'}$  and  $g$  :</p>\n<p> $ℎ=\\frac{(1.98)^{2}}{2 \\times 10}=\\frac{3.9204}{20}=0.19602\\text{m}$ </p>\n<p>Looking at the given options, the result most closely matches Option A :</p>\n<p> $0.20\\text{m}$ </p>\n<p>Therefore, the height to which the bob rises before swinging back is approximately  $0.20\\text{m}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "g=10m/s^{2}",
@@ -1513,7 +1521,7 @@
         "p_{\\text{initial}}=p_{\\text{final}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:38.122843"
     },
@@ -1538,7 +1546,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for the amplitude of oscillation, we start by using the properties of simple harmonic motion (SHM). In SHM, the total energy of the system is conserved and is given by the sum of kinetic energy (KE) and potential energy (PE).</p>\n<p>Given:</p>\n<ul>\n<li>Mass  $m=0.2kg$ </li>\n<li>Frequency  $f=(\\frac{25}{\\pi})Hz$ </li>\n<li>Position  $x=0.04m$ </li>\n<li>KE at  $x=0.04m$  is  $0.5J$ </li>\n<li>PE at  $x=0.04m$  is  $0.4J$ </li>\n</ul>\n<p>The total mechanical energy (E) of the SHM system can be found by summing the given kinetic and potential energies:</p>\n<p>\n<p> $E=KE+PE=0.5J+0.4J=0.9J$ </p>\n</p>\n<p>For simple harmonic motion, the total energy (E) is also related to the amplitude (A) by the following formula:</p>\n<p>\n<p> $E=\\frac{1}{2}kA^{2}$ </p>\n</p>\n<p>where  $k$  is the spring constant. First, we need to find the angular frequency  $\\omega$ :</p>\n<p>\n<p> $\\omega=2\\pi f=2\\pi(\\frac{25}{\\pi})Hz=50rad/s$ </p>\n</p>\n<p>The spring constant  $k$  can be calculated using the relationship between  $m$ ,  $\\omega$ , and  $k$ :</p>\n<p>\n<p> $\\omega=\\sqrt{\\frac{k}{m}} \\Rightarrow k=m\\omega^{2}=0.2 \\times (50)^{2}=500N/m$ </p>\n</p>\n<p>Now, substituting  $k$  back into the energy equation, we solve for the amplitude  $A$ :</p>\n<p>\n<p> $0.9=\\frac{1}{2} \\times 500 \\times A^{2} \\Rightarrow A^{2}=\\frac{0.9 \\times 2}{500} \\Rightarrow A^{2}=\\frac{1.8}{500} \\Rightarrow A^{2}=0.0036 \\Rightarrow A=\\sqrt{0.0036}=0.06m$ </p>\n</p>\n<p>Converting  $A$  from meters to centimeters:</p>\n<p>\n<p> $A=0.06m \\times 100=6cm$ </p>\n</p>\n<p>Thus, the amplitude of oscillation is  $6cm$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         ". The amplitude of oscillation is ________",
@@ -1549,7 +1557,8 @@
         "E=\\frac{1}{2}kA^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:06.967785"
     },
@@ -1576,7 +1585,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lse463ew/35ebf398-2228-45bc-a1ab-b25505bfc205/f3aae480-c6fe-11ee-be30-496b1c29fc5a/file-6y3zli1lse463ex.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "is _________.",
@@ -1585,7 +1594,7 @@
         "=\\pi\\sqrt{\\frac{12m}{5k}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:07.872902"
     },
@@ -1610,13 +1619,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; V_{\\text{at mean position}}=A\\omega \\Rightarrow 10=4\\omega \\\\ &amp; \\omega=\\frac{5}{2} \\\\ &amp; V=\\omega\\sqrt{A^{2}-x^{2}} \\\\ &amp; 5=\\frac{5}{2}\\sqrt{4^{2}-x^{2}} \\Rightarrow x^{2}=16-4 \\\\ &amp; x=\\sqrt{12}cm \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha="
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:08.810539"
     },
@@ -1664,7 +1673,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsr7le3s/5e7d48b1-ff39-4026-8060-31f894d71fa9/88e4b280-ce32-11ee-9412-cd4f9c6f2c40/file-6y3zli1lsr7le3t.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "g:10ms^{-2}",
@@ -1672,7 +1681,7 @@
         "=mg\\ell"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:38.186486"
     },
@@ -1697,7 +1706,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a particle performing simple harmonic motion (SHM), the maximum velocity  $v_{max}$  can be calculated using the formula:\n\n<p> $v_{max}=A\\omega$ </p>\n<p>where  $A$  is the amplitude of the motion and  $\\omega$  is the angular frequency. The angular frequency  $\\omega$  is related to the time period  $T$  by the formula:</p>\n<p> $\\omega=\\frac{2\\pi}{T}$ </p>\n<p>Given:</p>\n<ul>\n<li>Amplitude,  $A=0.06m$ </li><br/>\n<li>Time period,  $T=3.14s$ </li>\n</ul>\n<p>First, we find the angular frequency:</p>\n<p> $\\omega=\\frac{2\\pi}{T}=\\frac{2\\pi}{3.14}$ </p>\n<p>Substituting  $\\omega$  and  $A$  in the formula for  $v_{max}$ :</p>\n<p> $v_{max}=A\\omega=0.06 \\times \\frac{2\\pi}{3.14}$ </p>\n<p> $v_{max}=0.06 \\times \\frac{2 \\times 3.14}{3.14}$ </p>\n<p> $v_{max}=0.06 \\times 2$ </p>\n<p> $v_{max}=0.12m/s$ </p>\n<p>To convert meters per second to centimeters per second, we use the conversion factor  $1m/s=100cm/s$ . Therefore,</p>\n<p> $v_{max}=0.12m/s \\times 100cm/m=12cm/s$ </p>\n<p>Thus, the maximum velocity of the particle is  $12cm/s$ .</p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "v_{max}",
@@ -1708,7 +1717,7 @@
         "1m/s=100cm/s"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:06.992773"
     },
@@ -1733,7 +1742,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the new amplitude of the motion when the speed is increased to three times at a given displacement, we use the concepts of simple harmonic motion (SHM) and its formulas.</p><p>In SHM, the velocity  $v$  of a particle at a displacement  $x$  from the mean position can be given by the formula:</p><p> $v=\\omega\\sqrt{A^{2}-x^{2}}$ </p><p>where:</p><ul><li> $\\omega$  is the angular frequency of the motion,</li><li> $A$  is the amplitude, and</li><li> $x$  is the displacement at that instance.</li></ul><p>Given:</p><ul><li>Displacement at the instance,  $x=\\frac{2A}{3}$ ,</li><li>Initial velocity is increased to three times at this displacement.</li></ul><p>Thus, let's find the initial velocity  $v$  at  $x=\\frac{2A}{3}$ :</p><p> $v=\\omega\\sqrt{A^{2}-(\\frac{2A}{3})^{2}}=\\omega\\sqrt{A^{2}-\\frac{4A^{2}}{9}}=\\omega\\sqrt{\\frac{5A^{2}}{9}}=\\frac{\\sqrt{5}A\\omega}{3}$ </p><p>With the velocity increased to three times, the new velocity  $v^{'}$  becomes:</p><p> $v^{'}=3v=3 \\times \\frac{\\sqrt{5}A\\omega}{3}=\\sqrt{5}A\\omega$ </p><p>For the new amplitude  $A^{'}$ , the velocity  $v^{'}$  at the same displacement  $x$  is:</p><p> $v^{'}=\\omega\\sqrt{A^{'}^{2}-(\\frac{2A}{3})^{2}}$ </p><p>Setting the expressions for  $v^{'}$  equal gives:</p><p> $\\sqrt{5}A\\omega=\\omega\\sqrt{A^{'}^{2}-\\frac{4A^{2}}{9}}$ </p><p> $\\sqrt{5}A=\\sqrt{A^{'}^{2}-\\frac{4A^{2}}{9}}$ </p><p>Solving for  $A^{'}$  gives:</p><p> $A^{'}^{2}=5A^{2}+\\frac{4A^{2}}{9}=\\frac{45A^{2}+4A^{2}}{9}=\\frac{49A^{2}}{9}$ </p><p> $A^{'}=\\sqrt{\\frac{49A^{2}}{9}}=\\frac{7A}{3}$ </p><p>Therefore, the new amplitude of the motion is  $\\frac{7A}{3}$ , which means the value of  $n$  is 7.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "\\sqrt{5}A=\\sqrt{A^{'}^{2}-\\frac{4A^{2}}{9}}",
@@ -1743,7 +1752,7 @@
         "\\frac{7A}{3}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:07.898206"
     },
@@ -1789,7 +1798,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The time period of a simple pendulum is given by the formula:</p>\n<p> $T=2\\pi\\sqrt{\\frac{l}{g}}$ </p>\n<p>where  $T$  is the time period,  $l$  is the length of the pendulum, and  $g$  is the acceleration due to gravity at the location of the pendulum.</p>\n<p>The acceleration due to gravity changes with height above the Earth's surface. The acceleration due to gravity at a height  $ℎ$  above the Earth's surface can be expressed as:</p>\n<p> $g^{'}=g(\\frac{R}{R+ℎ})^{2}$ </p>\n<p>where  $g$  is the acceleration due to gravity at the surface of the Earth,  $R$  is the radius of the Earth, and  $ℎ$  is the height above the Earth’s surface. Since the time period of the pendulum depends on the square root of the inverse of the acceleration due to gravity, any change in  $g$  due to a change in height will affect the time period.</p>\n<p>Given that the time period of the pendulum at a height  $R$  above Earth's surface is  $T_{1}$ , and we're to find the time period  $T_{2}$  at a height of  $2R$ , we can use the formula for acceleration due to gravity at different heights to express the relationship between  $T_{1}$  and  $T_{2}$ .</p>\n<p>For the initial case at height  $R$ :</p>\n<p> $g_{1}=g(\\frac{R}{R+R})^{2}=g(\\frac{R}{2R})^{2}=\\frac{g}{4}$ </p>\n<p>For the new case at height  $2R$ :</p>\n<p> $g_{2}=g(\\frac{R}{R+2R})^{2}=g(\\frac{R}{3R})^{2}=\\frac{g}{9}$ </p>\n<p>The time period is proportional to the square root of the inverse of  $g$ , so:</p>\n<p> $\\frac{T_{1}}{T_{2}}=\\sqrt{\\frac{g_{2}}{g_{1}}}=\\sqrt{\\frac{\\frac{g}{9}}{\\frac{g}{4}}}=\\sqrt{\\frac{4}{9}}=\\frac{2}{3}$ </p>\n<p>Therefore:</p>\n<p> $T_{1}=\\frac{2}{3}T_{2}$ </p>\n<p>Rearranging this equation:</p>\n<p> $3T_{1}=2T_{2}$ </p>\n<p>This corresponds to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{l}{g}}",
@@ -1797,7 +1806,7 @@
         "T_{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:36.944257"
     },
@@ -1822,7 +1831,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The displacement of a particle executing Simple Harmonic Motion (SHM) can be expressed as:</p>\n<p> $x=Asin(\\omega t+\\phi)$ </p>\n<p>Where:</p>\n<p> $A$  is the amplitude of the SHM,</p>\n<p> $\\omega$  is the angular frequency,</p>\n<p> $t$  is the time,</p>\n<p> $\\phi$  is the phase constant (phase angle at  $t=0$ ).</p>\n<p>In the given equation,  $x=10sin(\\omega t+\\frac{\\pi}{3})$  m, the amplitude  $A=10$  m and the phase constant  $\\phi=\\frac{\\pi}{3}$ . The time period  $T=3.14$  s is given, from which we can find the angular frequency  $\\omega$  using the relationship:</p>\n<p> $\\omega=\\frac{2\\pi}{T}$ </p>\n<p>Substituting the given  $T=3.14$  s:</p>\n<p> $\\omega=\\frac{2\\pi}{3.14} \\approx 2\\text{rad/s}$ </p>\n<p>To find the velocity of the particle, we differentiate the displacement  $x$  with respect to time  $t$ . The derivative of the displacement gives the velocity:</p>\n<p> $v=\\frac{dx}{dt}$ </p>\n<p>So, for  $x=10sin(\\omega t+\\frac{\\pi}{3})$ :</p>\n<p> $v=\\frac{d}{dt}[10sin(\\omega t+\\frac{\\pi}{3})]$ </p>\n<p>Applying differentiation, we get:</p>\n<p> $v=10\\omega cos(\\omega t+\\frac{\\pi}{3})$ </p>\n<p>Plug in the value of  $\\omega=2$  rad/s and evaluate it at  $t=0$  to find the initial velocity:</p>\n<p> $v=10 \\cdot 2cos(2 \\cdot 0+\\frac{\\pi}{3})$ </p>\n<p> $v=20cos(\\frac{\\pi}{3})$ </p>\n<p> $cos(\\frac{\\pi}{3})=\\frac{1}{2}$ , therefore:</p>\n<p> $v=20 \\cdot \\frac{1}{2}=10\\text{m/s}$ </p>\n<p>Thus, the velocity of the particle at  $t=0$  is  $10$  m/s.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "x=10sin(wt+\\frac{\\pi}{3})m",
@@ -1833,7 +1842,7 @@
         "v=20 \\cdot \\frac{1}{2}=10\\text{m/s}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:07.018677"
     },
@@ -1860,7 +1869,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsr7fmgr/887c7701-605e-4b32-bf15-965c4595219e/e87f24b0-ce31-11ee-9412-cd4f9c6f2c40/file-6y3zli1lsr7fmgs.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "_________. From phasor diagram particle has to move from",
@@ -1868,7 +1877,7 @@
         "x=2"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:07.922876"
     },
@@ -1914,7 +1923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The total energy of a particle executing simple harmonic motion (SHM) is given by:\n<br/><br/>\n $E=\\frac{1}{2}m\\omega^{2}A^{2}$ \n<br/><br/>\nwhere  $m$  is the mass of the particle,  $\\omega$  is the angular frequency of the SHM, and  $A$  is the amplitude of the motion.\n<br/><br/>\nAt any point during SHM, the kinetic energy of the particle is given by:\n<br/><br/>\n $K=\\frac{1}{2}m\\omega^{2}(x^{2}+A^{2}cos^{2}\\omega t)$ \n<br/><br/>\nwhere  $x$  is the displacement of the particle from the mean position.\n<br/><br/>\nThe potential energy of the particle at the same point is given by:\n<br/><br/>\n $U=\\frac{1}{2}m\\omega^{2}(x^{2}+A^{2}sin^{2}\\omega t)$ \n<br/><br/>\nWhen the kinetic energy becomes equal to the potential energy, we have:\n<br/><br/>\n $K=U$ \n<br/><br/>\n $\\frac{1}{2}m\\omega^{2}(x^{2}+A^{2}cos^{2}\\omega t)=\\frac{1}{2}m\\omega^{2}(x^{2}+A^{2}sin^{2}\\omega t)$ \n<br/><br/>\nSimplifying this equation, we get:\n<br/><br/>\n $x^{2}=\\frac{1}{2}A^{2}$ \n<br/><br/>\n $x= \\pm \\frac{1}{\\sqrt{2}}A$ \n<br/><br/>\nTherefore, the distance from the mean position when the kinetic energy becomes equal to the potential energy is  $\\frac{1}{\\sqrt{2}}A$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "E=\\frac{1}{2}m\\omega^{2}A^{2}",
@@ -1925,7 +1934,8 @@
         "\\frac{1}{\\sqrt{2}}A"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:38.884704"
     },
@@ -1971,7 +1981,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The initial condition states that the particle is at position  $x=\\frac{A}{2}$  at  $t=0$ . </p>\n<p>If we substitute these initial conditions into the equation for the displacement of the particle:</p>\n<p> $x=Asin(wt+\\delta)$ </p>\n<p>We have:</p>\n<p> $\\frac{A}{2}=Asin(\\delta)$ </p>\n<p>Dividing both sides by  $A$  gives us:</p>\n<p> $\\frac{1}{2}=sin(\\delta)$ </p>\n<p>The angle whose sine is  $\\frac{1}{2}$  is  $\\delta=\\frac{\\pi}{6}$  radians (or 30 degrees).</p>\n<p>Therefore, the correct answer is  $\\delta=\\frac{\\pi}{6}$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{A}{2}",
@@ -1980,7 +1990,7 @@
         "\\frac{A}{2}=Asin(\\delta)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:39.752220"
     },
@@ -2026,7 +2036,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $U_{max}=\\frac{1}{2}m\\omega^{2}A^{2}=25J$ \n<br/><br/> $KE$  at  $\\frac{A}{2}=\\frac{1}{2}mv_{1}^{2}=\\frac{1}{2}m\\omega^{2}(A^{2}-\\frac{A^{2}}{4})$ \n<br/><br/> $=\\frac{1}{2}m\\omega^{2}\\frac{3A^{2}}{4}=\\frac{3}{4}(\\frac{1}{2}m\\omega^{2}A^{2})$ \n<br/><br/> $KE=\\frac{3}{4} \\times 25=18.75J$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "U_{max}=\\frac{1}{2}m\\omega^{2}A^{2}=25J",
@@ -2034,7 +2044,7 @@
         "KE=\\frac{3}{4} \\times 25=18.75J"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:40.730442"
     },
@@ -2059,14 +2069,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the amplitude  $A$  and the length  $l$  of the pendulum, we can find the maximum angular displacement  $\\theta_{0}$ :</p>\n<p> $sin\\theta_{0}=\\frac{A}{l}=\\frac{10}{100}=\\frac{1}{10}$ </p>\n<p>By conservation of energy, the following equation holds:</p>\n<p> $\\frac{1}{2}mv^{2}=mgl(1-cos\\theta)$ </p>\n<p>The maximum tension occurs at the mean position (i.e., when the pendulum is vertical). At this point, we have:</p>\n<p> $\\begin{aligned} &amp; T-mg=\\frac{mv^{2}}{l} &amp; \\Rightarrow T=mg+\\frac{mv^{2}}{l} \\end{aligned}$ </p>\n<p>Substituting the conservation of energy equation, we get:</p>\n<p> $\\begin{aligned} &amp; T=mg+2mg(1-cos\\theta) \\\\ \\\\ &amp; =mg[1+2(1-\\sqrt{1-sin^{2}\\theta})] \\\\ \\\\ &amp; =mg[3-2\\sqrt{1-\\frac{1}{100}}] \\\\ \\\\ &amp; =\\frac{250}{1000} \\times 10[3-2(1-\\frac{1}{200})]=\\frac{101}{40} \\\\ \\\\ &amp; \\therefore x=101 \\end{aligned}$ </p>\n<p>So, the value of  $x$  is 101.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x}{40}N",
         "is ___________. Given the amplitude"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:10.060601"
     },
@@ -2091,7 +2102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $U=\\frac{1}{2}m\\omega^{2}A^{2}sin^{2}\\omega t$ </p>\n<p>So,  $\\frac{dU}{dt}=\\frac{m\\omega^{3}A^{2}}{2}sin2\\omega t$ </p>\n<p>This value will be maximum when  $sin2\\omega t=1$ </p>\n<p>or  $2\\omega t=\\frac{\\pi}{2}$ </p>\n<p> $2 \\times \\frac{2\\pi}{T}t=\\frac{\\pi}{2}$ </p>\n<p> $\\Rightarrow t=\\frac{T}{8}$ </p>\n<p>So  $\\beta=8$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=Asin\\omega t",
@@ -2102,7 +2113,7 @@
         "2\\omega t=\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:10.720181"
     },
@@ -2148,11 +2159,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{T.E.}-\\text{P.E.}=\\text{K.E.} \\\\ \\\\ &amp; \\text{K.E.}=\\frac{1}{2}m\\omega^{2}(A^{2}-x^{2}) \\end{aligned}$ <br/><br/>\nWhich is the equation of downward parabola.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:38.946838"
     },
@@ -2201,11 +2213,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgznluaf/9d35c10f-70b0-4f3a-b14e-9fd8f7a3df0b/d41c3a70-e544-11ed-8d50-d941312069b0/file-1lgznluag.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ljho68xa/3cc2825c-b3c6-4fa4-9ea5-e035d4e39cf1/960bace0-16c5-11ee-84dd-7526dde12945/file-6y3zli1ljho68xb.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:39.804368"
     },
@@ -2253,7 +2265,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldr03nwi/11599f8a-20ea-4251-80b2-e3a505fa7b37/fd4f4a20-a51d-11ed-8305-97c1292784a6/file-1ldr03nwj.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega_{1}",
@@ -2263,7 +2275,7 @@
         "\\frac{\\omega_{2}}{\\omega_{1}}=\\sqrt{\\frac{m_{1}}{m_{2}}}=\\sqrt{\\frac{1}{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:40.808588"
     },
@@ -2288,13 +2300,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=3cm$ \n<br/><br/> $\\begin{aligned} &amp; K=1.25U \\\\ \\\\ &amp; \\Rightarrow K+\\frac{K}{1.25}=K_{max} \\\\ \\\\ &amp; \\Rightarrow \\frac{9}{5}K=K_{max} \\\\ \\\\ &amp; \\Rightarrow \\frac{9}{5}\\frac{1}{2}mv^{2}=\\frac{1}{2}mv_{max}^{2} \\\\ \\\\ &amp; \\Rightarrow \\frac{9}{5}[\\omega\\sqrt{A^{2}-x^{2}}]^{2}=\\omega^{2}A^{2} \\\\ \\\\ &amp; \\Rightarrow 9(A^{2}-x^{2})=5A^{2} \\\\ \\\\ &amp; \\Rightarrow x^{2}=\\frac{4A^{2}}{9} \\\\ \\\\ &amp; \\Rightarrow x=\\frac{2A}{3} \\\\ \\\\ &amp; \\Rightarrow x=2cm \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "A=3cm"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:10.082292"
     },
@@ -2319,7 +2331,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $F=-25x$ </p>\n<p> $.250\\frac{d^{2}x}{dt^{2}}=-25x$ </p>\n<p> $\\frac{d^{2}x}{dt^{2}}=-100x$ </p>\n<p> $\\Rightarrow \\omega=10$  rad/sec</p>\n<p>&amp;  $\\omega A=v_{max}$ </p>\n<p> $10A=4$ </p>\n<p> $\\Rightarrow A=0.4$  m</p>\n<p> $=40$  cm</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "F=(-25x)N",
@@ -2330,7 +2342,7 @@
         "\\omega A=v_{max}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:10.743005"
     },
@@ -2376,7 +2388,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's denote the amplitude of the simple harmonic motion as A, and the displacement of the particle from the mean position as x. The given condition is that x = A/2.</p>\n<p>For a particle in SHM, the potential energy (PE) is given by:</p>\n<p> $PE=\\frac{1}{2}kx^{2}$ </p>\n<p>And the total mechanical energy (E) of the particle remains constant and is given by:</p>\n<p> $E=\\frac{1}{2}kA^{2}$ </p>\n<p>Since the total mechanical energy is the sum of potential energy and kinetic energy (KE), we have:</p>\n<p> $E=PE+KE$ </p>\n<p>Now, we need to find the ratio of potential energy to kinetic energy when x = A/2. </p>\n<p>Calculate the potential energy at x = A/2:</p>\n<p> $PE=\\frac{1}{2}k(\\frac{A}{2})^{2}=\\frac{1}{8}kA^{2}$ </p>\n<p>Substitute the expression for total mechanical energy:</p>\n<p> $KE=E-PE=\\frac{1}{2}kA^{2}-\\frac{1}{8}kA^{2}=\\frac{3}{8}kA^{2}$ </p>\n<p>Now, find the ratio of potential energy to kinetic energy:</p>\n<p> $\\frac{PE}{KE}=\\frac{\\frac{1}{8}kA^{2}}{\\frac{3}{8}kA^{2}}=\\frac{1}{3}$ </p>\n<p>Therefore, the ratio of potential energy and kinetic energy of the particle when its displacement is half of its amplitude is 1 : 3.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "PE=\\frac{1}{2}kx^{2}",
@@ -2387,7 +2399,7 @@
         "\\frac{PE}{KE}=\\frac{\\frac{1}{8}kA^{2}}{\\frac{3}{8}kA^{2}}=\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:39.008414"
     },
@@ -2435,7 +2447,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lh301wfw/15f4ee69-c604-410b-a624-510c9e25b316/da378bc0-e71b-11ed-9bef-75e1e9a70939/file-1lh301wfx.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "K_{1}",
@@ -2443,7 +2455,7 @@
         "\\Rightarrow T=2\\pi\\sqrt{\\frac{m}{K_{1}+K_{2}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:39.888226"
     },
@@ -2489,7 +2501,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=Asin(\\omega t)$ \n<br/><br/>\n $\\begin{aligned} &amp; x=\\frac{A}{2}=Asin(\\omega t) \\\\ \\\\ &amp; \\frac{1}{2}=sin(\\omega t) \\\\ \\\\ &amp; t=(\\frac{\\pi}{6\\omega})=2 \\\\ \\\\ &amp; \\frac{\\pi}{\\omega}=12sec \\end{aligned}$ \n<br/><br/>\n $x=A=Asin(\\omega t)$ \n<br/><br/>\n $\\omega t=(\\frac{\\pi}{2})$ \n<br/><br/>\n $t=(\\frac{\\pi}{2\\omega})=6$  second\n<br/><br/>\ntime  $=6-2=4$  seconds<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=-A",
@@ -2500,7 +2512,7 @@
         "x=Asin(\\omega t)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:40.884894"
     },
@@ -2525,7 +2537,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given the general equation for displacement in a simple harmonic oscillator:\n<br/><br/>\n $x=Asin(\\omega t+\\phi)$ \n<br/><br/>\nAt the given time, we have:\n<br/><br/>\n $\\omega t+\\phi=30^{\\circ}$ \n<br/><br/>\nGiven the amplitude  $A=40\\text{cm}$  and the displacement  $x=40 \\times \\frac{\\sqrt{3}}{2}\\text{cm}=20\\sqrt{3}\\text{cm}$ , we can write the kinetic energy,  $KE$ , as:\n<br/><br/>\n $KE=\\frac{1}{2}k(A^{2}-x^{2})=200$ \n<br/><br/>\nNow, substitute the values for  $A$  and  $x$ :\n<br/><br/>\n $200=\\frac{1}{2}k(\\frac{1600-1200}{100 \\times 100})$ \n<br/><br/>\nSimplify the equation:\n<br/><br/>\n $400 \\times 100 \\times 100=k \\times 400$ \n<br/><br/>\nSolve for the force constant,  $k$ :\n<br/><br/>\n $k=10^{4}\\text{Nm}^{-1}$ \n<br/><br/>\nGiven that the force constant is expressed as  $k=1.0 \\times 10^{x}\\text{Nm}^{-1}$ , comparing the values, we get:\n<br/><br/>\n $1.0 \\times 10^{x}=10^{4}$ \n<br/><br/>\nThus, the value of  $x$  is  $4$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "y=Acos(30^{\\circ})",
@@ -2536,7 +2548,7 @@
         "x=40 \\times \\frac{\\sqrt{3}}{2}\\text{cm}=20\\sqrt{3}\\text{cm}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:08.838180"
     },
@@ -2563,7 +2575,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldq09n09/8c6b22a5-6004-46e5-803c-c528388fbbb7/dad2e1a0-a491-11ed-8eb4-ef270ed2fedb/file-1ldq09n0a.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "M=490g",
@@ -2574,7 +2586,7 @@
         "m=490gm"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:10.101601"
     },
@@ -2599,7 +2611,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because 2\\pi\\sqrt{\\frac{m}{k}}=1$ \n<br/><br/>\nFinally\n<br/><br/>\n $2\\pi\\sqrt{\\frac{m+3}{k}}=1+1=2$ \n<br/><br/>\nEquation  $\\frac{(1)}{(2)}$  gives\n<br/><br/>\n $\\sqrt{\\frac{m}{m+3}}=\\frac{1}{2}$ \n<br/><br/>\n $\\therefore m=1kg$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\because 2\\pi\\sqrt{\\frac{m}{k}}=1",
@@ -2609,7 +2621,7 @@
         "\\therefore m=1kg"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:10.774859"
     },
@@ -2655,11 +2667,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The correct options are:\n<br/><br/>\n(A) Restoring force is directly proportional to the displacement. - True (this is a defining characteristic of SHM)\n<br/><br/>\n(B) The acceleration and displacement are opposite in direction. - True (the acceleration is proportional to the displacement but in the opposite direction)\n<br/><br/>\n(C) The velocity is maximum at mean position. - True (the velocity is zero at the extreme positions and reaches a maximum at the mean position)\n<br/><br/>\n(D) The acceleration is minimum at extreme points. - False (the acceleration is maximum at the extreme points and zero at the mean position)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:38.257047"
     },
@@ -2705,7 +2717,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a particle executing SHM\n<br/><br/> $KE=\\frac{1}{2}m\\omega^{2}(A^{2}-x^{2})$ \n<br/><br/>When  $x=0,$  KE is maximum &amp; when  $x=A,$  KE is zero and KE vs x graph is parabola.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "KE=\\frac{1}{2}m\\omega^{2}(A^{2}-x^{2})",
@@ -2713,7 +2725,7 @@
         "x=A,"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:39.090627"
     },
@@ -2759,7 +2771,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The relationship between the length of a pendulum and its period is given by the equation:\n<br/><br/> $T=2\\pi\\sqrt{\\frac{L}{g}}$ \n<br/><br/> $\\Rightarrow$   $T^{2}=\\frac{4\\pi^{2}}{g} \\cdot L$ \n<br/><br/>where T is the period of the pendulum, g is the acceleration due to gravity, and L is the length of the pendulum. This equation shows that the square of the period is directly proportional to the length of the pendulum.\n\n<br/><br/>Therefore, a graph of T<sup>2</sup> vs. L will be a straight line with a positive slope, passing through the origin. The slope of the line will be equal to  $\\frac{4\\pi^{2}}{g}$ , and its intercept will be zero.\n<br/><br/><b>Note :</b> Graph of T vs. L will be a parabola not T<sup>2</sup> vs. L as in equation of parabola y<sup>2</sup> = 4ax, graph of y vs. x is parabola not y<sup>2</sup> vs. x. As y<sup>2</sup> vs. x is a straight line.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "T^{2}",
@@ -2768,7 +2780,8 @@
         "\\frac{4\\pi^{2}}{g}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:39.970326"
     },
@@ -2814,11 +2827,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->At surface of earth time period<br/><br/>\n $T=2\\pi\\sqrt{\\frac{\\ell}{g}}$ <br/><br/>\nAt height  $h=R$ <br/><br/>\n $\\begin{aligned} &amp; g^{'}=\\frac{g}{(1+\\frac{h}{R})^{2}}=\\frac{g}{4} \\\\ \\\\ &amp; \\therefore xT=2\\pi\\sqrt{\\frac{\\ell}{(g/4)}} \\\\ \\\\ &amp; \\Rightarrow xT=2 \\times 2\\pi\\sqrt{\\frac{\\ell}{g}} \\\\ \\\\ &amp; \\Rightarrow xT=2T \\Rightarrow x=2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:40.956423"
     },
@@ -2843,7 +2856,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the maximum force exerted by the spring on the block, we can use Hooke's law and the properties of simple harmonic motion.</p>\n<p>First, let's find the angular frequency  $\\omega$ :</p>\n<p> $\\omega=\\frac{2\\pi}{T}$ </p>\n<p>where  $T=3.14s$  is the time period.</p>\n<p> $\\omega=\\frac{2\\pi}{3.14} \\approx 2rad/s$ </p>\n<p>Now, let's find the maximum velocity  $v_{max}$  of the block:</p>\n<p> $v_{max}=\\omega A$ </p>\n<p>where  $A=1m$  is the amplitude.</p>\n<p> $v_{max}=2rad/s \\times 1m=2m/s$ </p>\n<p>Next, we can find the spring constant  $k$  using the mass of the block  $m=5kg$  and the angular frequency  $\\omega$ :</p>\n<p> $\\omega^{2}=\\frac{k}{m} \\Rightarrow k=m\\omega^{2}$ </p>\n<p> $k=5kg \\times (2rad/s)^{2}=20N/m$ </p>\n<p>Finally, we can find the maximum force exerted by the spring on the block. At maximum displacement, the force is given by Hooke's law:</p>\n<p> $F_{max}=kA$ </p>\n<p> $F_{max}=20N/m \\times 1m=20N$ </p>\n<p>The maximum force exerted by the spring on the block is  $20N$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Hard",
       "key_formulas": [
         "\\omega",
@@ -2854,7 +2867,8 @@
         "v_{max}=\\omega A"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:08.864769"
     },
@@ -2879,7 +2893,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $4v^{2}=50-x^{2}$ </p>\n<p>or  $v=\\frac{1}{2}\\sqrt{50-x^{2}}$ </p>\n<p>Comparing the above equation with  $v=\\omega\\sqrt{A^{2}-x^{2}}$ </p>\n<p> $\\Rightarrow \\omega=\\frac{1}{2}$ </p>\n<p>&amp;  $A=\\sqrt{50}$ </p>\n<p>so  $\\frac{2\\pi}{T}=\\frac{1}{2}$ </p>\n<p> $\\Rightarrow T=4\\pi sec$ </p>\n<p> $=4 \\times \\frac{22}{7}sec$ </p>\n<p> $T=\\frac{88}{7}sec$ </p>\n<p>so  $x=88$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "4v^{2}=50-x^{2}",
@@ -2890,7 +2904,7 @@
         "\\Rightarrow \\omega=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:10.134854"
     },
@@ -2917,7 +2931,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldzih741/6412d2ed-01c5-49f5-b3c1-c8fc8d1e45f1/1f2feb10-a9cc-11ed-8de8-337bcbb2cc2c/file-1ldzih742.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{\\sqrt{x}}",
@@ -2925,7 +2939,8 @@
         "\\therefore x=5"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:10.806132"
     },
@@ -2971,7 +2986,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $|g_{eff}|=|\\bar{g}-\\bar{a}|$ </p>\n<p> $\\Rightarrow g_{eff}=gcos\\theta$ </p>\n<p> $\\Rightarrow T=2\\pi\\sqrt{\\frac{l}{g_{eff}}}$ </p>\n<p> $=2\\pi=\\sqrt{\\frac{L}{gcos\\theta}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "|g_{eff}|=|\\bar{g}-\\bar{a}|",
@@ -2980,7 +2995,7 @@
         "=2\\pi=\\sqrt{\\frac{L}{gcos\\theta}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:41.641400"
     },
@@ -3026,7 +3041,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\omega=\\pi=\\sqrt{\\frac{g}{l}}$ </p>\n<p>So,  $l=\\frac{g}{\\pi^{2}}$ </p>\n<p> $≃99.4$  cm (Nearest value)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "y=Asin(\\pi t+\\phi)",
@@ -3034,7 +3049,7 @@
         "l=\\frac{g}{\\pi^{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:42.441367"
     },
@@ -3080,7 +3095,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T^{'}=2\\pi\\sqrt{\\frac{I}{g_{\\text{eff}}}}$ \n<br/><br/> $T^{'}=2\\pi\\sqrt{\\frac{I}{g+\\frac{g}{6}}}=2\\pi\\sqrt{\\frac{6l}{7g}}$ \n<br/><br/> $\\Rightarrow T^{'}=\\sqrt{\\frac{6}{7}}T$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{g}{6}",
@@ -3089,7 +3104,7 @@
         "\\Rightarrow T^{'}=\\sqrt{\\frac{6}{7}}T"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:43.480610"
     },
@@ -3116,7 +3131,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7mjet29/4f2391a8-16f2-4745-a196-f0a748033206/49212110-2be0-11ed-9545-a32c92221434/file-1l7mjet2a.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "will be ________.",
@@ -3127,7 +3142,7 @@
         "=\\frac{4}{5}g"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:11.635427"
     },
@@ -3152,7 +3167,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $v=\\omega\\sqrt{A^{2}-y^{2}}$ </p>\n<p> $\\Rightarrow 3\\omega\\sqrt{10^{2}-5^{2}}=\\omega\\sqrt{(A^{'})^{2}-5^{2}}$ </p>\n<p> $\\Rightarrow 9 \\times 75=(A^{'})^{2}-25$ </p>\n<p> $\\Rightarrow A^{'}=\\sqrt{28 \\times 25}$  cm</p>\n<p> $\\Rightarrow x=700$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\omega\\sqrt{A^{2}-y^{2}}",
@@ -3162,7 +3177,7 @@
         "\\Rightarrow x=700"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:12.282912"
     },
@@ -3208,7 +3223,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $T∝\\sqrt{1/g}$ </p>\n<p> $\\Rightarrow \\frac{T_{1}}{T_{2}}=\\sqrt{\\frac{g_{2}}{g_{1}}}=\\frac{R}{R+ℎ}$ </p>\n<p> $\\frac{4}{6}=\\frac{R}{R+ℎ}$ </p>\n<p> $\\Rightarrow ℎ=R/2$ </p>\n<p> $=3200$  km</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "R_{E}=6400km",
@@ -3218,7 +3233,7 @@
         "=3200"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:41.722427"
     },
@@ -3264,7 +3279,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=4sin(\\frac{\\pi}{2}-\\omega t)$ </p>\n<p> $=4cos(\\omega t)$ </p>\n<p> $y=4sin(\\omega t)$ </p>\n<p> $\\Rightarrow x^{2}+y^{2}=4^{2}$ </p>\n<p> $\\Rightarrow$  The particle is moving in a circular motion with radius of 4 m.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "x=4sin(\\frac{\\pi}{2}-\\omega t)m",
@@ -3275,7 +3290,7 @@
         "\\Rightarrow x^{2}+y^{2}=4^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:42.548839"
     },
@@ -3321,14 +3336,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\omega_{1}A_{1}=\\omega_{2}A_{2}$ </p>\n<p> $\\Rightarrow \\frac{A_{1}}{A_{2}}=\\frac{\\omega_{2}}{\\omega_{1}}$ </p>\n<p> $=\\sqrt{\\frac{k_{2}}{m_{2}}} \\times \\sqrt{\\frac{m_{1}}{k_{1}}}=\\sqrt{\\frac{9k}{100} \\times \\frac{50}{2k}}=\\frac{3}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega_{1}A_{1}=\\omega_{2}A_{2}",
         "\\Rightarrow \\frac{A_{1}}{A_{2}}=\\frac{\\omega_{2}}{\\omega_{1}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:43.548261"
     },
@@ -3353,7 +3369,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $U=4(1-cos4x)$ </p>\n<p> $\\Rightarrow F=-\\frac{dU}{dx}=-(4)(4sin4x)$ </p>\n<p> $=-16sin4x$ </p>\n<p>as small x</p>\n<p> $F=-16(4x)=-64x \\equiv -kx$ </p>\n<p> $T=2\\pi\\sqrt{\\frac{m}{k}}=2\\pi\\sqrt{\\frac{4}{64}}=\\frac{\\pi}{2}$ </p>\n<p> $\\Rightarrow K=2$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "U=4(1-cos4x)",
@@ -3364,7 +3380,7 @@
         "F=-16(4x)=-64x \\equiv -kx"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:11.662209"
     },
@@ -3391,7 +3407,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l576ko2j/014a2f97-8bca-47d8-afb7-f42de36f58ec/e4f32ab0-fbd5-11ec-a656-a1c0c7b2ee13/file-1l576ko2k.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -3400,7 +3416,7 @@
         "=\\sqrt{2 \\times 10 \\times 2.5 \\times \\frac{1}{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:12.308687"
     },
@@ -3446,7 +3462,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $x=Asin\\omega t$ </p>\n<p> $\\Rightarrow v=A\\omega cos\\omega t$ </p>\n<p> $\\Rightarrow v= \\pm \\omega\\sqrt{A^{2}-x^{2}}$ </p>\n<p> $\\Rightarrow \\frac{v^{2}}{\\omega^{2}}+x^{2}=A^{2}$ </p>\n<p> $\\Rightarrow$  Ellipse</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "x=Asin\\omega t",
@@ -3455,7 +3471,7 @@
         "\\Rightarrow \\frac{v^{2}}{\\omega^{2}}+x^{2}=A^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:41.779314"
     },
@@ -3501,7 +3517,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=sin(\\pi t+\\frac{\\pi}{3})m$ </p>\n<p> $\\Rightarrow \\frac{dx}{dt}=\\pi cos(\\pi t+\\frac{\\pi}{3})$ </p>\n<p> $=\\pi cos(\\pi+\\frac{\\pi}{3})$  at  $t=1s$ </p>\n<p> $=-\\frac{\\pi}{2}$  m/s</p>\n<p>or  $|\\frac{dx}{dt}|=157$  cm/s</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "x=sin\\pi(t+\\frac{1}{3})m",
@@ -3512,7 +3528,7 @@
         "=-\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:42.604917"
     },
@@ -3537,7 +3553,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(0.9)A_{1}\\sqrt{\\frac{K}{0.9}}=(0.9+0.124)A_{2}\\sqrt{\\frac{K}{0.9+0.124}}$ </p>\n<p> $\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{0.9+0.124}{0.9}}$ </p>\n<p> $=\\sqrt{\\frac{1.024}{0.9}}$ </p>\n<p> $=\\frac{\\alpha}{\\alpha-1}$ </p>\n<p> $\\alpha=16$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "A_{1}",
@@ -3548,7 +3564,7 @@
         "\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{0.9+0.124}{0.9}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:11.689517"
     },
@@ -3573,7 +3589,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A = 8 cm</p>\n<p>T = 6 s</p>\n<p> $Acos(\\frac{2\\pi t}{T})=\\frac{A}{2}$ </p>\n<p> $\\Rightarrow \\frac{2\\pi t}{T}=\\frac{\\pi}{3}$ </p>\n<p>or  $t=\\frac{T}{6}=1s$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "Acos(\\frac{2\\pi t}{T})=\\frac{A}{2}",
@@ -3581,7 +3597,7 @@
         "t=\\frac{T}{6}=1s"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:12.330783"
     },
@@ -3629,7 +3645,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6es1zoc/74ecf09b-ec52-4665-a473-1f0a7eac389f/9a4eb1c0-13cf-11ed-b12e-0be2f600acf7/file-1l6es1zod.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "2m^{\\text{’}}",
@@ -3638,7 +3654,7 @@
         "\\frac{T_{1}}{T_{2}}=\\frac{3}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:41.842114"
     },
@@ -3684,13 +3700,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Time taken by the harmonic oscillator to move from mean position to half of amplitude is  $\\frac{T}{12}$ </p>\n<p>So,  $\\frac{T}{12}$  = 3</p>\n<p>T = 36 sec.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{T}{12}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:42.665861"
     },
@@ -3717,7 +3733,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6kphf3p/0a4725f2-7472-417c-8427-45813e524916/3fdece50-1712-11ed-8e2a-2927a6806d88/file-1l6kphf3q.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "is ___________. For case (a),",
@@ -3728,7 +3744,7 @@
         "x=2"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:11.715656"
     },
@@ -3774,13 +3790,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In S.H.M. total mechanical energy remains constant and also <k.e.> = <p.e.> =  $\\frac{1}{4}$ KA<sup>2</sup> (for 1 time period)</p.e.></k.e.><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:44.263398"
     },
@@ -3826,7 +3842,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $K=\\frac{1}{2}m\\omega^{2}(A^{2}-x^{2})$ <br/><br/> $=\\frac{1}{2}m\\omega^{2}(A^{2}-\\frac{A^{2}}{4})$ <br/><br/> $=\\frac{1}{2}m\\omega^{2}(\\frac{3A^{2}}{4})$ <br/><br/> $K=\\frac{3}{4}(\\frac{1}{2}m\\omega^{2}A^{2})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "K=\\frac{1}{2}m\\omega^{2}(A^{2}-x^{2})",
@@ -3835,7 +3851,7 @@
         "K=\\frac{3}{4}(\\frac{1}{2}m\\omega^{2}A^{2})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:45.237783"
     },
@@ -3881,7 +3897,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T=2\\pi\\sqrt{\\frac{l}{g}}$ <br/><br/> $T^{2}=2\\pi(\\frac{l}{g})$ <br/><br/> $g=2\\pi\\frac{l}{T^{2}}$ <br/><br/> $\\frac{\\Delta g}{g}=\\frac{\\Delta l}{l}+\\frac{2\\Delta T}{T}$ <br/><br/> $\\frac{\\Delta g}{g}=\\frac{1 \\times 10^{-3}}{1 \\times 10^{-2}}+\\frac{2 \\times 1}{100}$ <br/><br/> $\\frac{\\Delta g}{g}=0.02+0.01=0.03$ <br/><br/> $100 \\times \\frac{\\Delta g}{g}=0.03 \\times 100=3%$ <br/><br/> $\\frac{\\Delta g}{g} \\times 100=3%$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{l}{g}}",
@@ -3892,7 +3908,7 @@
         "100 \\times \\frac{\\Delta g}{g}=0.03 \\times 100=3%"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:46.091262"
     },
@@ -3938,7 +3954,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=A_{0}e^{-\\frac{bt}{2m}}$ <br/><br/> $\\frac{bt}{2m}=ln2=0.693$ <br/><br/> $t=\\frac{2m}{b} \\times 0.693$ <br/><br/> $t=2 \\times \\frac{500}{20} \\times 0.693$ <br/><br/> $t=50 \\times 0.693=34.6$  sec.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "A=A_{0}e^{-\\frac{bt}{2m}}",
@@ -3948,7 +3964,7 @@
         "t=50 \\times 0.693=34.6"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:46.802066"
     },
@@ -3996,7 +4012,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kqtqzxi7/27571543-0f53-442a-a090-a9c50227c9a7/c38fdef0-df47-11eb-ae48-d91fd2a7280f/file-1kqtqzxi8.jpeg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "g=\\frac{GMd}{R^{3}}",
@@ -4007,7 +4023,7 @@
         "\\frac{GM}{R^{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:47.702343"
     },
@@ -4056,7 +4072,7 @@
         "https://imagex.cdn.examgoal.net/1kltdzp7u/ba0305f2-0d37-4ba0-9074-69eedc9fade2/d1961ca0-7c17-11eb-b0eb-7d97e0807144/file-1kltdzp7v-223w.jpg",
         "https://imagex.cdn.examgoal.net/1kqzirbmm/4b2bb45e-817e-4ac1-a5df-c76e08fe597f/3f0d92f0-e274-11eb-9782-3b8945fb98d0/file-1kqzirbmn.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -4067,7 +4083,7 @@
         "\\omega=\\frac{2\\pi}{T}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:49.103945"
     },
@@ -4113,7 +4129,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $T=2\\pi\\sqrt{\\frac{L}{g}}$  .... (i)<br/><br/>where, time period, T = 1.95 s<br/><br/>Length of string, l = 1 m<br/><br/>Acceleration due to gravity = g<br/><br/>Error in time period,  $\\Delta$ T = 0.01 s = 10<sup> $-$ 2</sup> s<br/><br/>Error in length,  $\\Delta$ L = 1 mm = 1  $\\times$  10<sup> $-$ 3</sup> m<br/><br/>Squaring Eq. (i) on both sides, we get<br/><br/> $T^{2}=4\\pi^{2}\\frac{L}{g}$ <br/><br/> $\\Rightarrow g=4\\pi^{2}\\frac{L}{T^{2}}$ <br/><br/> $\\Rightarrow \\frac{\\Delta g}{g}=\\frac{\\Delta L}{L}+\\frac{2\\Delta T}{T}=\\frac{10^{-3}}{1}+\\frac{2 \\times 10^{-2}}{1.95}$ <br/><br/> $=10^{-3}+1.025 \\times 10^{-2}$ <br/><br/> $=10^{-3}+10.25 \\times 10^{-3}$ <br/><br/> $=11.25 \\times 10^{-3}$ <br/><br/> $\\because$   $\\Delta g/g \\times 100=11.25 \\times 10^{-3} \\times 10^{2}$ <br/><br/> $=1.125%≃1.13%$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{L}{g}}",
@@ -4124,7 +4140,7 @@
         "=11.25 \\times 10^{-3}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:50.169497"
     },
@@ -4149,7 +4165,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y_{1}=10sin(3\\pi t+\\frac{\\pi}{3})$   $\\Rightarrow$  Amplitude = 10<br/><br/> $y_{2}=5(sin3\\pi t+\\sqrt{3}cos3\\pi t)$ <br/><br/> $y_{2}=10(\\frac{1}{2}sin3\\pi t+\\frac{\\sqrt{3}}{2}cos3\\pi t)$ <br/><br/> $y_{2}=10(cos\\frac{\\pi}{3}sin3\\pi t+sin\\frac{\\pi}{3}cos3\\pi t)$ <br/><br/> $y_{2}=10(3\\pi t+\\frac{\\pi}{3})$   $\\Rightarrow$  Amplitude = 10<br/><br/>So ratio of amplitudes =  $\\frac{10}{10}$  = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "y_{1}=10sin(3\\pi t+\\frac{\\pi}{3})",
@@ -4160,7 +4176,7 @@
         "\\frac{10}{10}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.017219"
     },
@@ -4187,7 +4203,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krwgm3zg/849f5d4b-6a38-466c-a5ce-1ff37eb21212/b9464ec0-f491-11eb-9dc6-a7061d629865/file-1krwgm3zh.jpeg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -4196,7 +4212,7 @@
         ") v 2 = 9"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:13.693546"
     },
@@ -4223,7 +4239,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmre5k98/d2193c32-c836-496c-bd8c-4fa7ecbc1f21/1ab050c0-8ecb-11eb-9b19-efc42eb4afb9/file-1kmre5k99-1040w.jpeg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{5}{8}",
@@ -4234,7 +4250,7 @@
         "\\pi+\\frac{\\pi}{6}=\\omega t"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:14.116114"
     },
@@ -4282,11 +4298,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktp20jk1/b16f4d00-24cf-4525-a6bf-487dd1daa44b/93e7f710-1817-11ec-872b-bb20e4927270/file-1ktp20jk2.jpeg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:44.322616"
     },
@@ -4332,7 +4348,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T=2\\pi\\sqrt{\\frac{l}{g}}$ <br/><br/> $T^{'}=\\frac{T_{0}}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{16}",
@@ -4340,7 +4356,7 @@
         "T^{'}=\\frac{T_{0}}{4}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:45.298980"
     },
@@ -4386,7 +4402,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because$   $V_{max}=A\\omega$ <br/><br/>Given,  $\\omega_{1}A_{1}=\\omega_{2}A_{2}$ <br/><br/>We know that  $\\omega=\\sqrt{\\frac{K}{m}}$ <br/><br/> $\\therefore$   $\\sqrt{\\frac{k_{1}}{m}}A_{1}=\\sqrt{\\frac{k_{2}}{m}}A_{2}$ <br/><br/> $\\Rightarrow$   $\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{k_{2}}{k_{1}}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{max}=A\\omega",
@@ -4396,7 +4412,8 @@
         "\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{k_{2}}{k_{1}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:46.147413"
     },
@@ -4442,7 +4459,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->When lift is stationary<br/><br/> $T=2\\pi\\sqrt{\\frac{L}{g}}$ <br/><br/>A pseudo force will act downwards when lift is moving upwards.<br/><br/> $\\therefore$   $g_{eff}=g+\\frac{g}{2}=\\frac{3g}{2}$ <br/><br/> $\\therefore$  New time period<br/><br/> $T^{'}=2\\pi\\sqrt{\\frac{L}{g_{eff}}}$ <br/><br/> $T^{'}=2\\pi\\sqrt{\\frac{2L}{3g}}$ <br/><br/> $\\therefore$   $T^{'}=\\sqrt{\\frac{2}{3}}T$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{L}{g}}",
@@ -4452,7 +4469,7 @@
         "T^{'}=\\sqrt{\\frac{2}{3}}T"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:46.848391"
     },
@@ -4498,7 +4515,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{1}{K_{eq}}=\\frac{1}{K_{1}}+\\frac{1}{K_{1}}$ <br/><br/> $\\Rightarrow K_{eq}=\\frac{K_{1} \\times K_{1}}{K_{1}+K_{2}}=\\frac{K_{1}^{2}}{2K_{1}}=\\frac{K_{2}}{2}$ <br/><br/> $\\therefore$   $T^{'}=2\\pi\\sqrt{\\frac{m}{K_{eq}}}$ <br/><br/> $=2\\pi\\sqrt{\\frac{m}{\\frac{K_{1}}{2}}}$ <br/><br/> $=2\\pi\\sqrt{\\frac{2m}{K_{1}}}$ <br/><br/> $=\\sqrt{2}T$  [ where  $T=2\\pi\\sqrt{\\frac{m}{K_{1}}}$ ]<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{K_{eq}}=\\frac{1}{K_{1}}+\\frac{1}{K_{1}}",
@@ -4509,7 +4526,7 @@
         "T=2\\pi\\sqrt{\\frac{m}{K_{1}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:47.826450"
     },
@@ -4555,7 +4572,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The formula for the period of a simple pendulum is given by:</p>\n<p> $T=2\\pi\\sqrt{\\frac{l}{g}}$ </p>\n<p>where:</p>\n<ul>\n<li>T is the period of the pendulum,</li>\n<li>l is the length of the pendulum, and</li>\n<li>g is the acceleration due to gravity.</li>\n</ul>\n<p>We need to find g. Rearranging the formula for g, we get:</p>\n<p> $g=\\frac{4\\pi^{2}l}{T^{2}}$ </p>\n<p>Given:</p>\n<ul>\n<li>l = 2 m,</li>\n<li>T = 2 s,</li>\n</ul>\n<p>Substituting these values into the equation, we get:</p>\n<p> $g=\\frac{4\\pi^{2} \\times 2}{(2)^{2}}=2\\pi^{2}ms^{-2}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{l}{g}}",
@@ -4563,7 +4580,7 @@
         "g=\\frac{4\\pi^{2} \\times 2}{(2)^{2}}=2\\pi^{2}ms^{-2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:49.184280"
     },
@@ -4611,7 +4628,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l9fnoduh/874b7515-c5d6-4402-87c1-dafcfcdb5b9d/ea320090-4faf-11ed-88d9-abb495ae8a3e/file-1l9fnodui.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -4621,7 +4638,8 @@
         "A^{'}=\\sqrt{\\frac{M}{M+m}}A"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:50.219497"
     },
@@ -4646,7 +4664,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x_{2}=5\\sqrt{2}(\\frac{1}{\\sqrt{2}}sin2\\pi t+\\frac{1}{\\sqrt{2}}cos2\\pi t)\\sqrt{2}$ <br/><br/> $=10sin(2\\pi t+\\frac{\\pi}{4})$ <br/><br/> $\\therefore$   $\\frac{A_{2}}{A_{1}}=\\frac{10}{5}=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{1}=5sin(2\\pi t+\\frac{\\pi}{4})",
@@ -4656,7 +4674,7 @@
         "\\frac{A_{2}}{A_{1}}=\\frac{10}{5}=2"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.052578"
     },
@@ -4681,7 +4699,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Time period (T) = 2 sec.<br/><br/>X = A sin ( $\\omega$ t +  $\\phi$ ) ( $\\phi$  = 0 at M.P.)<br/><br/> $\\Rightarrow$   $\\frac{A}{2}=Asin\\frac{2\\pi}{T}t$ <br/><br/> $\\Rightarrow$   $\\frac{2\\pi}{2}t=\\frac{\\pi}{6}$ <br/><br/> $\\Rightarrow$   $t=\\frac{1}{6}$ <br/><br/> $\\therefore$  a = 6<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{a}",
@@ -4691,7 +4709,7 @@
         "t=\\frac{1}{6}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.719374"
     },
@@ -4739,7 +4757,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kx8w5frm/8109e716-8ff0-4a6e-8b6f-208996d4889a/f85fc810-5e64-11ec-9b01-470ecfc8fa7d/file-1kx8w5frn.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "U_{max}=\\frac{1}{2}kA^{2}",
@@ -4750,7 +4768,8 @@
         "2\\pi\\sqrt{\\frac{k}{m}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:43.613968"
     },
@@ -4796,7 +4815,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T=2\\pi\\sqrt{\\frac{m}{k}}$ <br/><br/> $0.2=2\\pi\\sqrt{\\frac{0.5}{k}}$ <br/><br/>k = 50 $\\pi$ <sup>2</sup><br/><br/> $\\approx$  500<br/><br/>x = A sin ( $\\omega$ t +  $\\phi$ )<br/><br/>= 5 cm sin  $(\\frac{\\omega T}{4}+0)$ <br/><br/>= 5 cm sin  $(\\frac{\\pi}{2})$ <br/><br/>= 5 cm<br/><br/> $PE=\\frac{1}{2}kx^{2}$ <br/><br/> $=\\frac{1}{2}(500)(\\frac{5}{100})^{2}$ <br/><br/>= 0.6255<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "t=\\frac{T}{4}s",
@@ -4807,7 +4826,7 @@
         "(\\frac{\\pi}{2})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:44.386863"
     },
@@ -4853,7 +4872,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $v^{2}=\\omega^{2}(A^{2}-x^{2})$ <br/><br/> $A^{2}=x_{1}^{2}+\\frac{v_{1}^{2}}{\\omega^{2}}=x_{2}^{2}+\\frac{v_{2}^{2}}{\\omega^{2}}$ <br/><br/> $\\omega^{2}=\\frac{v_{2}^{2}-v_{1}^{2}}{x_{1}^{2}-x_{2}^{2}}$ <br/><br/> $T=2\\pi\\sqrt{\\frac{x_{2}^{2}-x_{1}^{2}}{v_{1}^{2}-v_{2}^{2}}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "v^{2}=\\omega^{2}(A^{2}-x^{2})",
@@ -4861,7 +4880,7 @@
         "T=2\\pi\\sqrt{\\frac{x_{2}^{2}-x_{1}^{2}}{v_{1}^{2}-v_{2}^{2}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:45.364515"
     },
@@ -4907,7 +4926,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=A_{o}e^{\\frac{-b}{2m}t}$ <br/><br/> $\\Rightarrow$   $6=12e^{\\frac{-b}{2 \\times 1} \\times 120}$ <br/><br/> $\\Rightarrow$   $6=12e^{-b \\times 60}$ <br/><br/> $\\Rightarrow$   $\\frac{1}{2}=e^{-60b}$ <br/><br/> $\\Rightarrow$   $ln(2)=60b$ <br/><br/> $\\Rightarrow$   $b=\\frac{ln(2)}{60}=1.16 \\times 10^{2}$  Kg/s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "A=A_{o}e^{\\frac{-b}{2m}t}",
@@ -4918,7 +4937,7 @@
         "b=\\frac{ln(2)}{60}=1.16 \\times 10^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:46.197088"
     },
@@ -4964,7 +4983,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a body performing SHM, relation between velocity and displacement<br/><br/> $v=\\omega\\sqrt{A^{2}-x^{2}}$ <br/><br/>now, square both side<br/><br/> $v^{2}=w^{2}(A^{2}-x^{2})$ <br/><br/> $\\Rightarrow v^{2}=w^{2}A^{2}-\\omega^{2}x^{2}$ <br/><br/> $v^{2}+\\omega^{2}x^{2}=\\omega^{2}A^{2}$ <br/><br/>divide whole equation by  $\\omega^{2}A^{2}$ <br/><br/> $\\frac{v^{2}}{\\omega^{2}A^{2}}+\\frac{\\omega^{2}x^{2}}{\\omega^{2}A^{2}}=\\frac{\\omega^{2}x^{2}}{\\omega^{2}A^{2}}$ <br/><br/> $\\frac{v^{2}}{(\\omega A)^{2}}+\\frac{x^{2}}{(A)^{2}}=1$ <br/><br/>above equation is similar as standard equation of ellipses, so graph between velocity and displacement will be ellipses. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\omega\\sqrt{A^{2}-x^{2}}",
@@ -4975,7 +4994,7 @@
         "\\frac{v^{2}}{(\\omega A)^{2}}+\\frac{x^{2}}{(A)^{2}}=1"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:46.897992"
     },
@@ -5023,7 +5042,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kqzjm035/5540e2f4-2c18-4309-bb46-cb71d939c710/9438ad20-e277-11eb-8a3b-2f3f290bdaba/file-1kqzjm036.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega",
@@ -5031,7 +5050,7 @@
         "\\phi_{0}=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:47.897823"
     },
@@ -5080,7 +5099,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1la2566rm/a328732a-281d-48bf-a312-6a2b37e3a787/92c61a20-5c0d-11ed-b429-1bdcfc436fa3/file-1la2566rn.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxkk82zr/b235bdc5-c1db-419d-af37-20c5529fafe5/bc2d8370-64cf-11ec-abfa-758f9b3dbab0/file-1kxkk82zs.png?format=png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{M}{k_{eq}}}",
@@ -5089,7 +5108,7 @@
         "(f)=\\frac{1}{T}=\\frac{1}{2\\pi}\\sqrt{\\frac{2k}{M}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:49.242617"
     },
@@ -5114,7 +5133,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x(t) = A sin( $\\omega$ t +  $\\phi$ )<br/><br/>v(t) = A $\\omega$  cos ( $\\omega$ t +  $\\phi$ )<br/><br/>2 = A sin $\\phi$  ...... (1)<br/><br/>2 $\\omega$  = A $\\omega$  cos $\\phi$  ....... (2)<br/><br/>From (1) and (2)<br/><br/>tan $\\phi$  = 1<br/><br/> $\\phi$  = 45 $^{\\circ}$ <br/><br/>Putting value of  $\\phi$  in equation (1),<br/><br/> $2=A{\\frac{1}{\\sqrt{2}}}$ <br/><br/> $A=2\\sqrt{2}$ <br/><br/> $\\therefore$  x = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -5125,7 +5144,7 @@
         "= 1"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.079419"
     },
@@ -5152,7 +5171,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmk2wjm9/c99631b0-ee51-44cb-98c0-7fe562f91f3b/9ef26c10-8ac5-11eb-a550-a93c57882a34/file-1kmk2wjma.jpg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{a}=2\\pi\\sqrt{\\frac{M}{k}}",
@@ -5162,7 +5181,8 @@
         "\\frac{T_{b}}{T_{a}}=\\sqrt{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:13.741020"
     },
@@ -5208,7 +5228,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T=2\\pi\\sqrt{l/g}$ <br/><br/>When bob is immersed in liquid<br/><br/>mg<sub>eff</sub> = mg  $-$  Buoyant force<br/><br/>mg<sub>eff</sub> = mg  $-$  v $\\sigma$ g ( $\\sigma$  = density of liquid)<br/><br/> $=mg-v\\frac{\\rho}{4}g$ <br/><br/> $=mg-\\frac{mg}{4}=\\frac{3mg}{4}$ <br/><br/> $\\therefore$   $g_{eff}=\\frac{3g}{4}$ <br/><br/> $T_{1}=2\\pi\\sqrt{\\frac{l_{1}}{g_{eff}}}$ <br/><br/> $l_{1}=l+\\frac{l}{3}=\\frac{4l}{3},l_{eff}=\\frac{3g}{4}$ <br/><br/>By solving<br/><br/> $T_{1}=\\frac{4}{3}2\\pi\\sqrt{l/g}$ <br/><br/> $T_{1}=\\frac{4T}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{4}",
@@ -5219,7 +5239,7 @@
         "g_{eff}=\\frac{3g}{4}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:43.677161"
     },
@@ -5265,7 +5285,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $E=\\frac{1}{2}Ka^{2}$ <br/><br/> $\\frac{3E}{4}=\\frac{1}{2}K(a^{2}-y^{2})$ <br/><br/> $\\Rightarrow$   $\\frac{3}{4} \\times \\frac{1}{2}Ka^{2}=\\frac{1}{2}K(a^{2}-y^{2})$ <br/><br/> $\\Rightarrow$   $y^{2}=a^{2}-\\frac{3a^{2}}{4}$ <br/><br/> $\\Rightarrow$   $y=\\frac{a}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3E}{4}",
@@ -5276,7 +5296,8 @@
         "y=\\frac{a}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:44.465602"
     },
@@ -5322,7 +5343,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->General equation of SHM<br/><br/>x = A sin( $\\omega$ 't  $\\pm$   $\\phi$ )<br/><br/>We know,  $\\omega$  =  $\\frac{2\\pi}{T}$ <br/><br/>Given,  $T=\\frac{\\pi}{\\omega}$ <br/><br/> $\\therefore$   $\\omega$ ' =  $\\frac{2\\pi}{\\frac{\\pi}{\\omega}}$  = 2 $\\omega$ <br/><br/> $\\therefore$  Equation becomes,<br/><br/>x = a sin(2 $\\omega$ t  $\\pm$   $\\phi$ )<br/><br/>Here coefficient of t is 2 $\\omega$ .<br/><br/>you can see only option (D) has coefficient 2 $\\omega$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{\\omega}",
@@ -5332,7 +5353,7 @@
         "\\frac{2\\pi}{\\frac{\\pi}{\\omega}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:45.431339"
     },
@@ -5378,7 +5399,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->KE = PE<br/><br/> $\\frac{1}{2}k(A^{2}-X^{2})=\\frac{1}{2}KX^{2}$ <br/><br/> $\\Rightarrow$   $A^{2}-X^{2}=X^{2}$ <br/><br/> $\\Rightarrow$   $2X^{2}=A^{2}$ <br/><br/> $\\Rightarrow$   $X^{2}=\\frac{A^{2}}{\\sqrt{2}}$ <br/><br/> $\\Rightarrow$   $X= \\pm \\frac{A}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}k(A^{2}-X^{2})=\\frac{1}{2}KX^{2}",
@@ -5388,7 +5409,7 @@
         "X= \\pm \\frac{A}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:46.255697"
     },
@@ -5434,11 +5455,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As we know time period of second’s penduklum is 2 sec, so statement (1) is incorrect.\n<br/><br/>Time taken by particle performing SHM between two\nextreme position is half of the time period.\n<br/><br/>Here, T = 2 sec.\n<br/><br/>So, time = 2/2 = 1 sec<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:46.975253"
     },
@@ -5486,7 +5507,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kltdydxx/1ab48283-2c90-4769-93b7-3d4f78acf50b/ad113450-7c17-11eb-b0eb-7d97e0807144/file-1kltdydxy-361w.jpg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{m}{k_{eff}}}",
@@ -5494,7 +5515,8 @@
         "T=\\pi\\sqrt{\\frac{m}{k}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:48.006850"
     },
@@ -5540,7 +5562,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since, the particle is executing SHM.<br/><br/>Therefore, displacement equation of wave will be<br/><br/> $y=Asin\\omega t$ <br/><br/> $\\Rightarrow y/A=sin\\omega t$ <br/><br/>and wave velocity equation will be<br/><br/> $v_{y}=\\frac{dy}{dt}=A\\omega cos\\omega t$ <br/><br/> $\\Rightarrow v_{y}/A\\omega=cos\\omega t$ <br/><br/>Now,  $sin^{2}\\omega t+cos^{2}\\omega t=1$ <br/><br/> $\\therefore$   $(y/A)^{2}+(v_{y}/A\\omega)^{2}=1$ <br/><br/>This equation is similar to the equation of ellipse.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "y=Asin\\omega t",
@@ -5551,7 +5573,7 @@
         "(y/A)^{2}+(v_{y}/A\\omega)^{2}=1"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:49.319083"
     },
@@ -5579,7 +5601,7 @@
         "https://imagex.cdn.examgoal.net/1ku8eoib7/d0a5c52c-de26-47e4-a3e0-3295e401fac9/00409030-22bc-11ec-92a0-35c33c2a328d/file-1ku8eoib8.png",
         "https://imagex.cdn.examgoal.net/1ku8ep2op/1283cc6f-f3aa-4bea-b876-56b31bbbdfb4/0ffdcc90-22bc-11ec-92a0-35c33c2a328d/file-1ku8ep2oq.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{T}{x}",
@@ -5587,7 +5609,7 @@
         "t=\\frac{T}{8}=\\frac{T}{x}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:12.354284"
     },
@@ -5614,7 +5636,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krwa0un4/c8e8338b-869a-4576-9c28-1f453d2106c4/f34a7200-f477-11eb-b37c-fd45669cd0a9/file-1krwa0un5.jpg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega=\\sqrt{\\frac{k_{eq}}{\\mu}}",
@@ -5625,7 +5647,7 @@
         "\\omega=\\sqrt{\\frac{16}{0.16}}=\\sqrt{100}=10"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.103948"
     },
@@ -5650,7 +5672,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a particle executes S.H.M.<br/><br/> $V=\\omega\\sqrt{a^{2}-x^{2}}$ <br/><br/>Given,  $V=\\frac{V_{max}}{2}=\\frac{A\\omega}{2}$ <br/><br/> $\\frac{A^{2}\\omega^{2}}{4}=\\omega^{2}a^{2}-\\omega^{2}x^{2}$ <br/><br/> $x=\\frac{\\sqrt{3}}{2}a$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\sqrt{x}a}{2}",
@@ -5660,7 +5682,7 @@
         "x=\\frac{\\sqrt{3}}{2}a"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:13.764347"
     },
@@ -5708,7 +5730,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukexsjhud/c0763f8e-d12e-4a01-a5ff-8661e682a5eb/56d38450-f3ee-11ea-8293-3b6cc591631c/file-jgy2xukexsjhue-320w.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3T}{4}",
@@ -5719,7 +5741,7 @@
         "\\omega"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:50.974395"
     },
@@ -5765,7 +5787,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->m $\\omega^{2}$ (l<sub>0</sub> + x) = kx\n<br/><br/>x =  $\\frac{mI_{0}\\omega^{2}}{k-m\\omega^{2}}$ \n<br/><br/>For k &gt;&gt; m $\\omega^{2}$ \n<br/><br/> $\\frac{x}{I_{0}}=\\frac{m\\omega^{2}}{k}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega",
@@ -5775,7 +5797,7 @@
         "\\frac{x}{I_{0}}=\\frac{m\\omega^{2}}{k}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:51.031808"
     },
@@ -5823,7 +5845,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukgn5qqql/8b3264fa-2cd1-4699-8a20-e9e2a2afb3a1/c6a798d0-15ad-11eb-8293-3b6cc591631c/file-jgy2xukgn5qqqm-294w.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -5834,7 +5856,8 @@
         "\\frac{k}{m}=\\frac{2g}{y_{0}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:50.297523"
     },
@@ -5880,7 +5903,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->T =  $2\\pi\\sqrt{\\frac{l}{g}}$ \n<br/><br/> $\\Rightarrow$   $g=\\frac{4\\pi^{2}l}{T^{2}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\Delta g}{g}=\\frac{\\Delta l}{l}+2\\frac{\\Delta T}{T}$ \n<br/><br/>=  $\\frac{0.1}{25}+2\\frac{1}{50}$  =  $\\frac{11}{250}$ \n<br/><br/> $\\therefore$   % accuracy =  $\\frac{11}{250}$   $\\times$  100% = 4.40 %<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "2\\pi\\sqrt{\\frac{l}{g}}",
@@ -5891,7 +5914,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:51.090786"
     },
@@ -5937,7 +5960,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->At equilibrium position\n<br/><br/>V<sub>0</sub> = V\n<br/><br/> $V_{0}=\\omega_{1}A=\\sqrt{\\frac{K}{m}}A$  .....(i)<br/><br/> $V=\\omega A^{1}=\\sqrt{\\frac{K}{\\frac{m}{2}}}A^{1}$  .....(ii)<br/><br/> $\\therefore$   $A^{1}=\\frac{A}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{0}=\\omega_{1}A=\\sqrt{\\frac{K}{m}}A",
@@ -5945,7 +5968,7 @@
         "A^{1}=\\frac{A}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:50.367753"
     },
@@ -5991,7 +6014,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Time for 10 oscillations =  $\\frac{10}{5}=2s$ <br/><br/>\nA = A<sub>0</sub> e<sup>–kt</sup><br/><br/>\n $\\frac{1}{2}=e^{-2k} \\Rightarrow ln2=2k$ <br/><br/>\n10<sup>–3</sup> = e<sup>–kt</sup>  $\\Rightarrow$  3In10 = kt<br/><br/>\n $t=\\frac{3ln10}{k}=\\frac{3ln10}{ln2} \\times 2$ <br/><br/>\n=  $6 \\times \\frac{2.3}{0.69} \\approx 20s$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{10}{5}=2s",
@@ -6000,7 +6023,7 @@
         "6 \\times \\frac{2.3}{0.69} \\approx 20s"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:51.908142"
     },
@@ -6046,7 +6069,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Angular frequency of pendulum\n<br/><br/> $\\omega$  =  $\\sqrt{\\frac{g_{eff}}{\\ell}}$ \n<br/><br/> $\\therefore$     $\\frac{\\Delta\\omega}{\\omega}$  =  $\\frac{1}{2}$   $\\frac{\\Delta g_{eff}}{g_{eff}}$ \n<br/><br/> $\\Delta$  $\\omega$  =  $\\frac{1}{2}$   $\\frac{\\Delta g}{g} \\times \\omega$ \n<br/><br/>[ $\\omega_{s}$  = angular frequency of support]\n<br/><br/> $\\Delta$  $\\omega$  =  $\\frac{1}{2} \\times \\frac{2A\\omega_{s}^{2}}{100} \\times 100$ \n<br/><br/> $\\Delta\\omega=10^{-3}$  rad/sec.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -6057,7 +6080,8 @@
         "\\frac{\\Delta g}{g} \\times \\omega"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:52.784396"
     },
@@ -6103,11 +6127,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For closed organ pipe, resonate frequency is odd multiple of fundamental frequency.\n<br/><br/> $\\therefore$   (2n + 1) f<sub>0</sub>  $\\le$  20,000\n<br/><br/>(f<sub>0</sub> is fundamental frequency = 1.5 KHz)\n<br/><br/> $\\therefore$   n = 6\n<br/><br/> $\\therefore$   Total number of overtone that can be heared is 7. (0 to 6)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:53.773299"
     },
@@ -6155,7 +6179,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/d8ifPjkj4o7JkbYBp/gBcPYRYYnA4aJsHUapSoKzYTiiIlE/KN9g1hpGT7pNoZZYTzXmgp/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "(3\\pi t+\\frac{\\pi}{3})",
@@ -6164,7 +6188,7 @@
         "\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:51.982969"
     },
@@ -6210,7 +6234,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because$     g =  $\\frac{GM}{R^{2}}$ \n<br/><br/> $\\frac{g_{p}}{g_{e}}$  =  $\\frac{M_{e}}{M_{e}}(\\frac{R_{e}}{R_{p}})^{2}$  = 3 $(\\frac{1}{3})^{2}$  =  $\\frac{1}{3}$ \n<br/><br/>Also  T  $∝$   $\\frac{1}{\\sqrt{g}}$ \n<br/><br/> $\\Rightarrow$    $\\frac{T_{p}}{T_{e}}$  =  $\\sqrt{\\frac{g_{e}}{g_{p}}}$  =  $\\sqrt{3}$ \n<br/><br/> $\\Rightarrow$   T<sub>p</sub> = 2 $\\sqrt{3}$  s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{GM}{R^{2}}",
@@ -6221,7 +6245,7 @@
         "\\frac{1}{\\sqrt{g}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:52.848286"
     },
@@ -6267,7 +6291,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Restoring force due to pressing the bottle with small\namount x,\n<br/><br/>F =  $-(\\rho Ax)g$ \n<br/><br/> $\\Rightarrow$  ma =  $-(\\rho Ax)g$ \n<br/><br/> $\\Rightarrow$  a =  $-(\\frac{\\rho Ag}{m})x$ \n<br/><br/> $\\therefore$   $\\omega^{2}=\\frac{\\rho Ag}{m}$  =  $\\frac{\\rho(\\pi r^{2})g}{m}$ \n<br/><br/> $\\Rightarrow$   $\\omega$  =  $\\sqrt{\\frac{10^{3} \\times \\pi \\times (2.5 \\times 10^{-2})^{2} \\times 10}{310 \\times 10^{-3}}}$  = 7.90 rad/s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -6276,7 +6300,7 @@
         "\\frac{\\rho(\\pi r^{2})g}{m}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:53.829421"
     },
@@ -6325,7 +6349,7 @@
         "https://imagex.cdn.examgoal.net/6lmnaHISeUSodH9Xr/8xKODpEL5JDe6Dq7bhRoBGH4PvEbK/coW5fZ10qkKz0YY4TuOnbG/image.png",
         "https://imagex.cdn.examgoal.net/dFC5i0T9x9WMM02kY/4oTReV1BFSbeUxRvs2mzOgC2SCwj3/wJYOiPGSgTRlTF1FEu84Aa/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\tau=-2kx\\frac{\\ell}{2}cos\\theta",
@@ -6333,7 +6357,7 @@
         "f=\\frac{1}{2\\pi}\\sqrt{\\frac{6K}{M}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:52.046946"
     },
@@ -6379,7 +6403,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->K =  $\\frac{1}{2}$ m $\\omega^{2}$ A<sup>2</sup>cos<sup>2</sup> $\\omega$ t\n<br/><br/>U =  $\\frac{1}{2}m\\omega^{2}$  A<sup>2</sup> sin<sup>2</sup>  $\\omega$ t\n<br/><br/> $\\frac{k}{U}$  = cot<sup>2</sup>  $\\omega$ t = cot<sup>2</sup>  $\\frac{\\pi}{90}$ (210) =  $\\frac{1}{3}$ \n<br/><br/>Hence ratio is 3 (most appropriate)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi t}{90}",
@@ -6390,7 +6414,7 @@
         "\\frac{k}{U}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:52.906238"
     },
@@ -6439,7 +6463,7 @@
         "https://imagex.cdn.examgoal.net/fMUA0OeyKFl0hg47p/9twFJi38QdGZzXMGZSKRLv4iqmjTQ/UhEVG7yuC2CxjSc8eVzPvs/image.png",
         "https://imagex.cdn.examgoal.net/lBvEeIPA6MUW5DKzR/0SRZ2yU4EgvVCzdx1NwHbPwqZM6am/GywZ35o03rdFI77y6kNGMT/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{L}{2}",
@@ -6450,7 +6474,7 @@
         "\\frac{f_{1}}{0.8f_{1}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:53.880509"
     },
@@ -6496,7 +6520,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Amplitude at (t = 0) A<sub>0</sub> = e<sup>–0.1× 0</sup> = 1<br/><br/>\n $\\therefore$   $att=t$      if  $A=\\frac{A_{0}}{2}$ <br/><br/>\n $\\Rightarrow$   $\\frac{1}{2}=e^{-0.1t}$ <br/><br/>\nt = 10 ln 2  = 7 s<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "att=t",
@@ -6504,7 +6528,7 @@
         "\\frac{1}{2}=e^{-0.1t}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:51.179148"
     },
@@ -6552,14 +6576,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/3oIXRiQSNXz4iq04I/9ilNdfqJD5iSiRwpfBJ4UmCfPKKlq/c1I1maFnbvT2TKxHEaC6N0/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "= angular amp. K 1 = mg",
         ") K 2 = mg(2"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:52.111920"
     },
@@ -6605,7 +6629,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $v=\\omega\\sqrt{A^{2}-x^{2}}$     . . .(1)\n<br/><br/> $a=-\\omega^{2}x$                . . .(2)\n<br/><br/> $|v|=|a|$                    . . .(3)\n<br/><br/> $\\omega\\sqrt{A^{2}-x^{2}}=\\omega^{2}x$ \n<br/><br/> $A^{2}-x^{2}=\\omega^{2}x^{2}$ \n<br/><br/> $5^{2}-4^{2}=\\omega^{2}(4^{2})$ \n<br/><br/> $\\Rightarrow 3=\\omega \\times 4$ \n<br/><br/> $T=2\\pi/\\omega$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\omega\\sqrt{A^{2}-x^{2}}",
@@ -6616,7 +6640,7 @@
         "5^{2}-4^{2}=\\omega^{2}(4^{2})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:52.992015"
     },
@@ -6662,7 +6686,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total energy of particle =  $\\frac{1}{2}kA^{2}$ \n<br/><br/>Potential energy (v) =  $\\frac{1}{2}$  kx<sup>2</sup>\n<br/><br/>Kinetic energy (K) =  $\\frac{1}{2}$  kA<sup>2</sup>  $-$   $\\frac{1}{2}$ kx<sup>2</sup>\n<br/><br/>According to the question, \n<br/><br/>Potential energy = Kinetic energy\n<br/><br/> $\\therefore$    $\\frac{1}{2}$ kx<sup>2</sup> =  $\\frac{1}{2}$ kA<sup>2</sup>  $-$   $\\frac{1}{2}$  kx<sup>2</sup>\n<br/><br/> $\\Rightarrow$   kx<sup>2</sup> =  $\\frac{1}{2}$  kA<sup>2</sup>\n<br/><br/> $\\Rightarrow$   x =  $\\pm$   $\\frac{A}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}kA^{2}",
@@ -6670,7 +6694,8 @@
         "\\frac{A}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:53.952987"
     },
@@ -6716,7 +6741,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In general equation of simple harmonic motion, y = A sin  $\\omega$ t\n<br/><br/> $\\therefore$  a = A sin  $\\omega$ t<sub>0</sub>\n<br/><br/> b = A sin 2 $\\omega$ t<sub>0</sub>\n<br/><br/>c = A sin 3 $\\omega$ t<sub>0</sub>\n<br/><br/>a + c = A[sin  $\\omega$ t<sub>0</sub> + sin 3 $\\omega$ t<sub>0</sub>]\n<br/><br/>= 2A sin 2 $\\omega$ t<sub>0</sub>  cos $\\omega$ t<sub>0</sub>\n<br/><br/> $\\Rightarrow$ a + c = 2 b cos $\\omega$ t<sub>0</sub>\n<br/><br/> $\\Rightarrow$   $\\frac{a+c}{b}$  = 2 cos $\\omega$ t<sub>0</sub>\n<br/><br/> $\\Rightarrow$   $\\omega$  =  $\\frac{1}{t_{0}}$  cos<sup> $-$ 1</sup>  $(\\frac{a+c}{2b})$ \n<br/><br/> $\\therefore$  f =  $\\frac{\\omega}{2\\pi}$ \n<br/><br/>=  $\\frac{1}{2\\pi t_{0}}$  cos<sup> $-$ 1</sup>  $(\\frac{a+c}{2b})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -6726,7 +6751,7 @@
         "\\frac{1}{2\\pi t_{0}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:54.850818"
     },
@@ -6772,7 +6797,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Potential of the given oscillator is</p>\n<p> $V=\\frac{1}{2}k(x-k)^{2}$ </p>\n<p>Given: M = 10; m = 5, u = 1; k = 1</p>\n<p>Initial momentum of the particle of mass m</p>\n<p>= mu = m  $\\times$  5 = 5m</p>\n<p>Momentum of (oscillator + particle) after collision = (M + m)</p>\n<p>Velocity of oscillator after collision = v</p>\n<p>So, momentum of system = (M + m)v</p>\n<p>From conservation of linear momentum, we have</p>\n<p>(M + m) = mu = 5  $\\times$  1 = 5</p>\n<p>For second collision, oscillator and particle have momentum in opposite direction.</p>\n<p>Net or total momentum is zero.</p>\n<p>Likewise after 4<sup>th</sup>, 6<sup>th</sup>, 8<sup>th</sup>, 10<sup>th</sup>, 12<sup>th</sup> collision the momentum is zero. After 12<sup>th</sup> collision, Mass of oscillator and 12 particles will be (10 + 12  $\\times$  5) = 70</p>\n<p>Now, from conservation of linear momentum, for 13<sup>th</sup> collision, we have</p>\n<p> $70 \\times 0+5 \\times 1=(70+5)v^{'} \\Rightarrow v^{'}=\\frac{5}{75} \\Rightarrow \\frac{1}{15}$ </p>\n<p>Total mass after 13<sup>th</sup> collision = (10 + 13  $\\times$  5) = 75</p>\n<p>Kinetic energy of system  $=\\frac{1}{2}mv^{'2}$ </p>\n<p> $\\Rightarrow KE=\\frac{1}{2} \\times 75 \\times \\frac{1}{15} \\times \\frac{1}{15}$ </p>\n<p> $\\Rightarrow \\frac{1}{2}kA^{2}=\\frac{1}{2} \\times \\frac{75}{225}=\\frac{1}{6}$ </p>\n<p> $\\Rightarrow \\frac{1}{2} \\times 1 \\times A^{2}=\\frac{1}{6} \\Rightarrow A^{2}=\\frac{1}{3}$ </p>\n<p> $\\Rightarrow A=\\frac{1}{\\sqrt{3}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -6783,7 +6808,7 @@
         "\\Rightarrow KE=\\frac{1}{2} \\times 75 \\times \\frac{1}{15} \\times \\frac{1}{15}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:54.919238"
     },
@@ -6829,7 +6854,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->6.02  $\\times$  10<sup>23</sup> atoms of silver = 108 gm\n<br/><br/>1   atoms   of   silver   =    $\\frac{108 \\times 10^{-3}}{6.02 \\times 10^{23}}$  kg\n<br/><br/>For a harmonic oscillator\n<br/><br/>f =  $\\frac{1}{2\\pi}$   $\\sqrt{\\frac{k}{m}}$ \n<br/><br/>Where  k = force constant\n<br/><br/> $\\Rightarrow$  f<sup>2</sup> =  $\\frac{1}{4\\pi^{2}}$   $(\\frac{k}{m})$ \n<br/><br/> $\\Rightarrow$  k = mf<sup>2</sup>  $\\times$  4 $\\pi$ <sup>2</sup>\n<br/><br/>Given, \n<br/><br/>f = 10<sup>12</sup>\n<br/><br/>m =  $\\frac{108 \\times 10^{-3}}{6.02 \\times 10^{23}}$ \n<br/><br/> $\\therefore$  k =  $\\frac{108 \\times 10^{-3}}{6.02 \\times 10^{23}}$   $\\times$  10<sup>12</sup>  $\\times$  4 $\\pi$ <sup>2</sup>\n<br/><br/>= 7.1 N/m<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -6840,7 +6865,7 @@
         "(\\frac{k}{m})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:54.965994"
     },
@@ -6886,14 +6911,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given simple harmonic motions to form Lissajous figures are  $x(t)=Asin(at+\\delta)$  and  $y(t)=Bsin(bt)$ .</p>\n<p>For parabola, conditions should be</p>\n<p>A = B or A  $\\ne$  B, a = 2b,  $\\delta$  =  $\\pi$ /2</p>\n<p>For line, conditions should be</p>\n<p>A = B, a = b,  $\\delta$  =  $\\pi$ </p>\n<p>For circle, condition should be</p>\n<p>A = B, a = b;  $\\delta$  =  $\\pi$ /2</p>\n<p>For ellipse, condition should be</p>\n<p>A  $\\ne$  B, a = b;  $\\delta$  =  $\\pi$ /2</p>\n<p>Therefore, we obtain an ellipse.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x(t)=Asin(at+\\delta)",
         "y(t)=Bsin(bt)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:55.047931"
     },
@@ -6939,11 +6964,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the time taken for the mechanical energy of the damped oscillator to drop to half its initial value, we'll use the principles of damped harmonic motion.</p>\n<h3><strong>Given:</strong></h3>\n<p><p><strong>Mass of the block ( $m$ )</strong>: 0.1 kg</p></p>\n<p><p><strong>Spring constant ( $k$ )</strong>: 640 N/m</p></p>\n<p><p><strong>Damping constant ( $b$ )</strong>:  $10^{-2}$  kg/s</p></p>\n<h3><strong>Understanding Damped Harmonic Motion:</strong></h3>\n<p>In damped harmonic motion, the amplitude of oscillation decreases exponentially over time due to the damping force. The mechanical energy ( $E$ ) of the oscillator is proportional to the square of its amplitude ( $A$ ):</p>\n<p> $E(t)∝A(t)^{2}$ </p>\n<p>The amplitude as a function of time is given by:</p>\n<p> $A(t)=A_{0}e^{-\\frac{b}{2m}t}$ </p>\n<p>Where:</p>\n<p><p> $A_{0}$  is the initial amplitude.</p></p>\n<p><p> $b$  is the damping constant.</p></p>\n<p><p> $m$  is the mass.</p></p>\n<p><p> $t$  is the time.</p></p>\n<p>Therefore, the mechanical energy as a function of time is:</p>\n<p> $E(t)=E_{0}e^{-\\frac{b}{m}t}$ </p>\n<p>Where  $E_{0}$  is the initial mechanical energy.</p>\n<h3><strong>Calculating the Time When Energy Drops to Half:</strong></h3>\n<p>We need to find the time  $t$  when  $E(t)=\\frac{1}{2}E_{0}$ :</p>\n<p> $\\frac{1}{2}E_{0}=E_{0}e^{-\\frac{b}{m}t}$ </p>\n<p>Simplify:</p>\n<p> $\\frac{1}{2}=e^{-\\frac{b}{m}t}$ </p>\n<p>Take the natural logarithm of both sides:</p>\n<p> $ln(\\frac{1}{2})=-\\frac{b}{m}t$ </p>\n<p>Simplify  $ln(\\frac{1}{2})=-ln(2)$ :</p>\n<p> $-ln(2)=-\\frac{b}{m}t$ </p>\n<p>Cancel negatives:</p>\n<p> $ln(2)=\\frac{b}{m}t$ </p>\n<p>Solve for  $t$ :</p>\n<p> $t=\\frac{m}{b}ln(2)$ </p>\n<h3><strong>Plugging in the Given Values:</strong></h3>\n<p> $t=\\frac{0.1\\text{kg}}{10^{-2}\\text{kg/s}}ln(2)$ </p>\n<p>Calculate  $ln(2)$ :</p>\n<p> $ln(2) \\approx 0.6931$ </p>\n<p>Now compute  $t$ :</p>\n<p> $t=\\frac{0.1}{0.01} \\times 0.6931=10 \\times 0.6931=6.931\\text{s}$ </p>\n<h3><strong>Conclusion:</strong></h3>\n<p>The time taken for the mechanical energy to drop to half its initial value is approximately <strong>6.93 seconds</strong>, which is closest to <strong>7 seconds</strong> among the given options.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:55.821010"
     },
@@ -6989,7 +7015,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mximum velocity, V<sub>max</sub> = a $\\omega$ \n<br/><br/>Maximum acceleration, A<sub>max</sub> = a $\\omega$ <sup>2</sup>\n<br/><br/>Given that, \n<br/><br/> $\\frac{a\\omega^{2}}{a\\omega}$  = 10\n<br/><br/> $\\Rightarrow$   $\\omega$  = 10 s<sup> $-$ 1</sup>\n<br/><br/>Displacement, x = a sin ( $\\omega$ t +  $\\frac{\\pi}{4}$ )\n<br/><br/>at t = 0,  displacement x = 5\n<br/><br/> $\\therefore$  5 = a sin  $(\\frac{\\pi}{4})$ \n<br/><br/> $\\Rightarrow$  5 = a  $\\times$   $\\frac{1}{\\sqrt{2}}$ \n<br/><br/> $\\Rightarrow$  a = 5 $\\sqrt{2}$ \n<br/><br/> $\\therefore$  Maximum acceleration, \n<br/><br/>A<sub>max</sub> = a $\\omega$ <sup>2</sup> = 5  $\\sqrt{2}$   $\\times$  (10)<sup>2</sup>\n<br/><br/>= 500  $\\sqrt{2}$  m/s<sup>2</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{4}",
@@ -7000,7 +7026,7 @@
         "5 = a sin"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:55.918589"
     },
@@ -7049,7 +7075,7 @@
         "https://imagex.cdn.examgoal.net/ncapIUTavpokECcbU/JXk82nf4eIeHqLbiYjA3Mm2MMycXJ/tj7EVKDhqv6Di8tdl9mOmS/image.png",
         "https://imagex.cdn.examgoal.net/6iXuAPbvWwMxdUAos/bgkvWfP0e32yWdETrOubKzZAYR3tP/ISp4dfJtgydoGwKkrlp4eN/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}",
@@ -7060,7 +7086,7 @@
         "\\frac{1}{2\\pi} \\times \\pi"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:55.998726"
     },
@@ -7106,7 +7132,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a particle executing SHM\n<br/><br/>At mean position; t = 0,  $\\omega$ t = 0, y = 0, V = V<sub>max</sub> = a $\\omega$ \n<br/><br/> $\\therefore$  K.E = K.E<sub>max</sub> =  $\\frac{1}{2}m\\omega^{2}a^{2}$ \n<br/><br/>At extreme position : t =\n $\\frac{T}{4}$ \n,  $\\omega$ t =\n $\\frac{\\pi}{2}$ \n, y = A, V = V<sub>min</sub> = 0\n<br/><br/> $\\therefore$  K.E = K.E<sub>min</sub> = 0\n<br/><br/>Hence graph (A) correctly represents kinetic energy - time graph.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -7115,7 +7141,7 @@
         "\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:56.092286"
     },
@@ -7161,7 +7187,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here,\n<br/><br/>Amplitude, A = 7 cm = 0.07 m\n<br/><br/>When washer is no longer stays in contact with the piston, then the normal force on the washer is = 0\n<br/><br/> $\\therefore$    Maximum acceleration of the washer, \n<br/><br/>a<sub>max</sub> =  $\\omega$ <sup>2</sup>A = g\n<br/><br/> $\\Rightarrow$     $\\omega$  =  $\\sqrt{\\frac{g}{A}}$  =  $\\sqrt{\\frac{10}{0.07}}$  =  $\\sqrt{\\frac{1000}{7}}$ \n<br/><br/> $\\therefore$    Frequency of the piston, \n<br/><br/>f =  $\\frac{\\omega}{2\\pi}$  =  $\\frac{1}{2\\pi}\\sqrt{\\frac{1000}{7}}$  = 1.9 Hz\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -7172,7 +7198,7 @@
         "\\frac{1}{2\\pi}\\sqrt{\\frac{1000}{7}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:56.904182"
     },
@@ -7220,7 +7246,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/mPjxNCKNgym5suQv5/fdfq9s5mcTQCNUM8xSgVyY6bqSjC1/mZIuzlqZQp7XeH5f3z9Ksf/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{-A}{2}",
@@ -7231,7 +7257,7 @@
         "(-\\frac{\\pi}{3})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:56.992919"
     },
@@ -7277,7 +7303,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know that  $V=\\omega\\sqrt{A^{2}-x^{2}}$ \n<br/><br/>Initially  $v=\\omega\\sqrt{A^{2}-(\\frac{2A}{3})^{2}}$ \n<br/><br/>Finally  $3v=\\omega\\sqrt{A_{new}^{2}-(\\frac{2A}{3})^{2}}$ \n<br/><br/>where  $A_{new}$  = final amplitude (Given at  $x=\\frac{2A}{3},$  velocity to trebled)\n<br/><br/>On dividing we get  $\\frac{3}{1}=\\frac{\\sqrt{A_{new}^{2}-(\\frac{2A}{3})^{2}}}{\\sqrt{A^{2}-(\\frac{2A}{3})^{2}}}$ \n<br/><br/> $9[A^{2}-\\frac{4A^{2}}{9}]=A_{new}^{2}-\\frac{4A^{2}}{9}$ \n<br/><br/> $\\therefore$   $A_{new}=\\frac{7A}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "= final amplitude (Given at",
@@ -7285,7 +7311,7 @@
         "A_{new}=\\frac{7A}{3}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:57.017887"
     },
@@ -7331,7 +7357,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $K.E=\\frac{1}{2}k(A^{2}-d^{2})$ \n<br/><br/>and  $P.E.=\\frac{1}{2}kd^{2}$ \n<br/><br/>At mean position  $d=0.$  At extremes positions  $d=A$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Easy",
       "key_formulas": [
         "K.E=\\frac{1}{2}k(A^{2}-d^{2})",
@@ -7340,7 +7366,7 @@
         "d=A"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:58.109037"
     },
@@ -7386,7 +7412,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As we know, time period,  $T=2\\pi\\sqrt{\\frac{\\ell}{g}}$ \n<br/><br/>When a additional mass  $M$  is added then\n<br/><br/> $T_{M}=2\\pi\\sqrt{\\frac{\\ell+\\Delta\\ell}{g}}$ \n<br/><br/> $\\frac{T_{M}}{T}=\\sqrt{\\frac{\\ell+\\Delta\\ell}{\\ell}}$ \n<br/><br/>or,  $(\\frac{T_{M}}{T})^{2}=\\frac{\\ell+\\Delta\\ell}{\\ell}$ \n<br/><br/>or,  $(\\frac{T_{M}}{T})^{2}=1+\\frac{Mg}{Ay}$ \n<br/><br/> $[$  as  $\\Delta\\ell=\\frac{Mg\\ell}{Ay}]$ \n<br/><br/> $\\therefore$   $\\frac{1}{y}=[(\\frac{T_{M}}{T})^{2}-1]\\frac{A}{Mg}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{\\ell}{g}}",
@@ -7396,7 +7422,7 @@
         "\\frac{1}{y}=[(\\frac{T_{M}}{T})^{2}-1]\\frac{A}{Mg}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:58.170087"
     },
@@ -7442,7 +7468,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $T=2\\pi\\sqrt{\\frac{L}{g}}$ \n<br/><br/> $\\Rightarrow g=\\frac{4\\pi^{2}L}{T^{2}}$ \n<br/><br/> $\\Rightarrow g=\\frac{4\\pi^{2}Ln^{2}}{t^{2}}$ \n<br/><br/>[ as  $T=\\frac{t}{n}$  ]\n<br/><br/>So, percentage error in  $g$  =\n<br/><br/> $\\frac{\\Delta g}{g} \\times 100=\\frac{\\Delta L}{L} \\times 100+2\\frac{\\Delta t}{t} \\times 100$ \n<br/><br/>=  $\\frac{0.1}{20.0} \\times 100+2 \\times \\frac{1}{90} \\times 100$ \n<br/><br/>= 2.72 % = 3 %<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{L}{g}}",
@@ -7452,7 +7478,7 @@
         "="
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:57.073767"
     },
@@ -7498,7 +7524,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In simple harmonic motion, starting from rest,\n<br/><br/>At  $t=0,$   $x=A$ \n<br/><br/> $x=Acos\\omega t...(i)$ \n<br/><br/>When  $t=\\tau,x=A-a$ \n<br/><br/>When  $t=2\\tau,x=A-3a$ \n<br/><br/>From equation  $(i)$ \n<br/><br/> $A-a=Acos\\omega\\tau...(ii)$ \n<br/><br/> $A-3a=Acos2\\omega\\tau...(iii)$ \n<br/><br/>As  $cos2\\omega\\tau=2cos^{2}\\omega\\tau-1...(iv)$ \n<br/><br/>From equation  $(ii),$   $(iii)$  and  $(iv)$ \n<br/><br/> $\\frac{A-3A}{A}=2(\\frac{A-a}{A})^{2}-1$ \n<br/><br/> $\\Rightarrow \\frac{A-3a}{A}=\\frac{2A^{2}+2a^{2}-4Aa-A^{2}}{A^{2}}$ \n<br/><br/> $\\Rightarrow A^{2}-3aA=A^{2}+2a^{2}-4Aa$ \n<br/><br/> $\\Rightarrow 2a^{2}=aA \\Rightarrow A=2a$ \n<br/><br/> $\\Rightarrow \\frac{a}{A}=\\frac{1}{2}$ \n<br/><br/>Now,  $A-a=A$   $cos\\omega\\tau$ \n<br/><br/> $\\Rightarrow cos\\omega\\tau=\\frac{A-a}{A} \\Rightarrow cos\\omega\\tau=\\frac{1}{2}$ \n<br/><br/>or,  $\\frac{2\\pi}{T}\\tau=\\frac{\\pi}{3} \\Rightarrow T-6\\tau$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=A",
@@ -7509,7 +7535,7 @@
         "A-3a=Acos2\\omega\\tau...(iii)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:58.256362"
     },
@@ -7555,14 +7581,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->as  $A=A_{0}e^{\\frac{bt}{2m}}$  (where,  $A_{0}=$  maximum amplitude)\n<br/><br/>According to the questions, after  $5$  second,\n<br/><br/> $0.9A_{0}=A_{0}e^{-\\frac{b(5)}{2m}}...(i)$ \n<br/><br/>After  $10$  more second, \n<br/><br/> $A=A_{0}e^{-\\frac{b(15)}{2m}}...(ii)$ \n<br/><br/>From eqns  $(i)$  and  $(ii)$ \n<br/><br/> $A=0.729A_{0}$ \n<br/><br/> $\\therefore$   $\\alpha=0.729$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "A=0.729A_{0}",
         "\\alpha=0.729"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:59.690619"
     },
@@ -7608,7 +7634,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The equation of motion for the pendulum, suffering retardation \n<br/><br/> $I\\alpha=-mg(\\ell sin\\theta)-mbv(\\ell)$  where  $I=m\\ell^{2}$ \n<br/><br/>and  $\\alpha=d^{2}\\theta/dt^{2}$ \n<br/><br/> $\\therefore$   $\\frac{d^{2}\\theta}{dt^{2}}=-\\frac{g}{\\ell}tan\\theta+\\frac{bv}{\\ell}$ \n<br/><br/>on solving we get  $\\theta=\\theta_{0}e^{\\frac{bt}{2}sin(\\omega t+\\phi)}$ \n<br/><br/>According to questions  $\\frac{\\theta_{0}}{e}=\\theta_{0}e^{\\frac{-b\\tau}{2}}$ \n<br/><br/> $\\therefore$   $\\tau=\\frac{2}{b}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "t=0stot=\\tau s,",
@@ -7619,7 +7645,8 @@
         "\\theta=\\theta_{0}e^{\\frac{bt}{2}sin(\\omega t+\\phi)}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T15:59:59.769433"
     },
@@ -7665,7 +7692,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The net force becomes zero at the mean point. Therefore, linear momentum must be conserved.\n<br/><br/> $\\therefore$   $Mv_{1}=(M+m)v_{2}$ \n<br/><br/> $MA_{1}\\sqrt{\\frac{k}{M}}=(M+m)A_{2}\\sqrt{\\frac{k}{m+M}}$ \n<br/><br/> $\\therefore$   $(V=A\\sqrt{\\frac{k}{M}})$ \n<br/><br/> $A_{1}\\sqrt{M}=A_{2}\\sqrt{M+m}$ \n<br/> $\\therefore$   $\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{m+M}{M}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "Mv_{1}=(M+m)v_{2}",
@@ -7675,7 +7702,7 @@
         "\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{m+M}{M}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:59.868966"
     },
@@ -7721,7 +7748,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that, equation for SHM along x-axis is given by  $x=Asin(\\omega t+\\phi)$ </p>\n<p>Let mean position for 1st particle is at x = 0</p>\n<p>So, the SHM equation for 1st particle,</p>\n<p> $x_{1}=Asin(\\omega t+\\phi_{1})$ </p>\n<p>Now, as the separation between mean positions of both the particle is x $_{0}$ </p>\n<po>So, mean position for 2nd particle is  $x=x_{0}$ \n<p>Hence, the SHM equation for 2nd particle,</p>\n<p> $x_{2}=x_{0}+Asin(\\omega t+\\phi_{2})$ </p>\n<p>Now, the separation between particles would be</p>\n<p> $|x_{2}-x_{1}|=x_{0}+Asin(\\omega t+\\phi_{2})-Asin(\\omega t+\\phi_{1})$ </p>\n<p> $=x_{0}+A[sin(\\omega t+\\phi_{2})-sin(\\omega t+\\phi_{1})]$ </p>\n<p>We know,</p>\n<p> $sinC-sinD=2cos(\\frac{C+D}{2})sin(\\frac{C-D}{2})$ </p>\n<p>Hence,</p>\n<p> $|x_{2}-x_{1}|=x_{0}+2Acos(\\omega t+\\frac{\\phi_{1}+\\phi_{2}}{2})sin(\\frac{\\phi_{2}-\\phi_{1}}{2})$ </p>\n<p>For maximum separation,</p>\n<p>Let  $cos(\\omega t+\\frac{\\phi_{1}+\\phi_{2}}{2})=1$ </p>\n<p>So,  $|x_{2}-x_{1}|=x_{0}+2Asin(\\frac{\\phi_{2}-\\phi_{1}}{2})$ </p>\n<p>Since,  $|x_{2}-x_{1}|=x_{0}+A$  (given)</p>\n<p>So,  $x_{0}+A=x_{0}+2Asin(\\frac{\\phi_{2}-\\phi_{1}}{2})$ </p>\n<p> $\\Rightarrow sin(\\frac{\\phi_{2}-\\phi_{1}}{2})=\\frac{1}{2}$ </p>\n<p> $\\Rightarrow \\frac{\\phi_{2}-\\phi_{1}}{2}=\\frac{\\pi}{6}$ </p>\n<p> $\\Rightarrow \\phi_{2}-\\phi_{1}=\\frac{\\pi}{3}$ </p></po><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=Asin(\\omega t+\\phi)",
@@ -7732,7 +7759,7 @@
         "|x_{2}-x_{1}|=x_{0}+Asin(\\omega t+\\phi_{2})-Asin(\\omega t+\\phi_{1})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T15:59:59.902016"
     },
@@ -7778,11 +7805,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For an  $SHM,$  the acceleration  $a=-\\omega^{2}x$  where  $\\omega^{2}$  is a constant. Therefore  $\\frac{a}{x}$  is a constant. The time period  $T$  is also constant. Therefore  $\\frac{aT}{x}$  is a constant.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:00.839830"
     },
@@ -7828,7 +7855,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>KEY CONCEPT :</b> The instantaneous kinetic energy of a particle executing  $S.H.M.$  is given by\n<br/><br/> $K=\\frac{1}{2}ma^{2}\\omega^{2}sin^{2}\\omega t$ \n<br/><br/> $\\therefore$  average  $K.E.=&lt;K&gt;=&lt;\\frac{1}{2}m\\omega^{2}a^{2}sin^{2}\\omega t&gt;$ \n<br/><br/> $=\\frac{1}{2}m\\omega^{2}a^{2}&lt;sin^{2}\\omega t&gt;$ \n<br/><br/> $=\\frac{1}{2}m\\omega^{2}a^{2}(\\frac{1}{2})$ \n<br/><br/> $($  as  $&lt;sin^{2}\\theta&gt;=\\frac{1}{2})$ \n<br/><br/> $=\\frac{1}{4}m\\omega^{2}a^{2}=\\frac{1}{4}ma^{2}(2\\pi v)^{2}$ \n<br/><br/> $($   $\\omega=2\\pi v)$ \n<br/><br/>or,   $&lt;K&gt;=\\pi^{2}ma^{2}v^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "K=\\frac{1}{2}ma^{2}\\omega^{2}sin^{2}\\omega t",
@@ -7839,7 +7866,7 @@
         "\\omega=2\\pi v)"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:00.859919"
     },
@@ -7885,7 +7912,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here,  $x=2 \\times 10^{-2}cos\\pi t$ \n<br/><br/> $\\therefore$   $v=\\frac{dx}{dt}=2 \\times 10^{-2}\\pi sin\\pi t$ \n<br/><br/>For the first time, the speed to be maximum, \n<br/><br/> $sin\\pi t=1$  or,  $sin\\pi t=sin\\frac{\\pi}{2}$ \n<br/><br/> $\\Rightarrow \\pi t=\\frac{\\pi}{2}$  or,  $t=\\frac{1}{2}=0.5sec.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "x=2 \\times 10^{-2}",
@@ -7896,7 +7923,7 @@
         "\\Rightarrow \\pi t=\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:01.754592"
     },
@@ -7944,7 +7971,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/u2eezkxfJOReDOlPM/wbrZqXmsOEyoi2pUrp4NPJrrVuSZx/d4o4PFvViNXoIMy1BkizGJ/image.png"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "k_{1}",
@@ -7955,7 +7982,7 @@
         "=2(\\frac{1}{2\\pi}\\sqrt{\\frac{K_{1}+K_{2}}{m}})"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:00.882562"
     },
@@ -8001,7 +8028,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here,\n<br/><br/> $x=x_{0}cos(\\omega t-\\pi/4)$ \n<br/><br/> $\\therefore$  Velocity,  $v=\\frac{dx}{dt}=-x_{0}\\omega sin(\\omega t-\\frac{\\pi}{4})$ \n<br/><br/>Acceleration,\n<br/><br/> $a=\\frac{dv}{dt}=-x_{0}\\omega^{2}cos(\\omega t-\\frac{\\pi}{4})$ \n<br/><br/> $=x_{0}\\omega^{2}cos[\\pi+(\\omega t-\\frac{\\pi}{4})]$ \n<br/><br/> $=x_{0}\\omega^{2}cos(\\omega t+\\frac{3\\pi}{4})$   $...(1)$ \n<br/><br/>Acceleration,  $a=Acos(\\omega t+\\delta)$   $...(2)$ \n<br/><br/>Comparing the two equations, we get \n<br/><br/> $A=x_{0}\\omega^{2}$  and  $\\delta=\\frac{3\\pi}{4}.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "v=\\frac{dx}{dt}=-x_{0}\\omega sin(\\omega t-\\frac{\\pi}{4})",
@@ -8012,7 +8039,7 @@
         "A=x_{0}\\omega^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:00.905351"
     },
@@ -8058,13 +8085,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Maximum velocity, \n<br/><br/> $v_{max}=a\\omega,v_{max}=a \\times \\frac{2\\pi}{T}$ \n<br/><br/> $\\Rightarrow T=\\frac{2\\pi a}{v_{max}}=\\frac{2 \\times 3.14 \\times 7 \\times 10^{-3}}{4.4} \\approx 0.01s$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "v_{max}=a\\omega,v_{max}=a \\times \\frac{2\\pi}{T}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:01.783991"
     },
@@ -8112,14 +8139,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/Zb4ajf7bKuWUrM5hu/qptedzBVPpk02TsuAEokb6WBDmF4D/VLPnPxMehKFmQhcJfCMZoN/image.svg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega.",
         "\\Rightarrow mg=m\\omega^{2}x \\Rightarrow x=\\frac{g}{\\omega^{2}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:01.809809"
     },
@@ -8165,7 +8192,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->y =  sin<sup>2</sup> $\\omega$ t\n<br/><br/>=  $\\frac{1-cos2\\omega t}{2}$ \n<br/><br/> $=\\frac{1}{2}-\\frac{1}{2}cos2\\omega t$ \n<br/><br/> $\\therefore$  Angular speed = 2 $\\omega$ \n<br/><br/> $\\therefore$  Period (T) =  $\\frac{2\\pi}{angularspeed}$  =  $\\frac{2\\pi}{2\\omega}$  =  $\\frac{\\pi}{\\omega}$ \n<br/><br/>So it is a periodic function.\n<br/><br/>As y =  sin<sup>2</sup> $\\omega$ t\n<br/><br/> $\\frac{dy}{dt}$  = 2 $\\omega$ sin $\\omega$ t cos $\\omega$ t =  $\\omega$  sin2 $\\omega$ t\n<br/><br/> $\\frac{d^{2}y}{dt^{2}}$  =  $2\\omega^{2}$  cos2 $\\omega$ t which is not proportional to -y.\n<br/><br/>Hence it is is not SHM.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{2}(\\omega t)",
@@ -8176,7 +8203,7 @@
         "\\frac{2\\pi}{2\\omega}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:02.681849"
     },
@@ -8222,7 +8249,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The maximum of amplitude and energy is obtained when the frequency is equal to the natural frequency (resonance condition)\n<br/><br/> $\\therefore$   $\\omega_{1}=\\omega_{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega_{1}",
@@ -8230,7 +8257,7 @@
         "\\omega_{1}=\\omega_{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:03.735634"
     },
@@ -8278,7 +8305,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/9cJCghpFVgj2wXX2Z/rlFjlyIkDfk2ctAXyk2M1v5IhKqTQ/yLr76rdWTkYk7xQv1h3ngS/image.svg"
       ],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "(4/3) \\times 1000kg/m^{3}.",
@@ -8288,7 +8315,8 @@
         "t=2\\pi\\sqrt{\\frac{\\ell}{g/4}}t=2t_{0}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:02.710197"
     },
@@ -8334,7 +8362,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, initial angular velocity =  $\\omega_{0}$ \n<br/><br/>and at any instant time t, angular velocity =  $\\omega$ \n<br/><br/>So when displacement is x then the resultant acceleration \n<br/><br/>f =  $(\\omega_{0}^{2}-\\omega^{2})x$ \n<br/><br/>So the external force, F =  $m(\\omega_{0}^{2}-\\omega^{2})x$     ............(i)\n<br/><br/>But given that  $F∝cos\\omega t$ \n<br/><br/>From (i) we get,\n<br/><br/> $m(\\omega_{0}^{2}-\\omega^{2})x∝cos\\omega t$   .........(ii)\n<br/><br/>From equation of SHM we know,\n<br/><br/> $x=Asin(\\omega t+\\phi)$ \n<br/><br/>When t = 0 then x = A\n<br/><br/> $\\therefore$  A =  $Asin(\\phi)$ \n<br/><br/> $\\Rightarrow A=\\frac{\\pi}{2}$ \n<br/><br/> $\\therefore$   $x=Asin(\\omega t+\\frac{\\pi}{2})=Acos\\omega t$ \n<br/><br/>Putting value of x in (ii), we get\n<br/><br/> $m(\\omega_{0}^{2}-\\omega^{2})Acos\\omega t∝cos\\omega t$ \n<br/><br/> $\\Rightarrow A∝\\frac{1}{m(\\omega_{0}^{2}-\\omega^{2})}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega_{0}",
@@ -8345,7 +8373,8 @@
         "m(\\omega_{0}^{2}-\\omega^{2})x∝cos\\omega t"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:03.760148"
     },
@@ -8391,7 +8420,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For first spring,  $t_{1}=2\\pi\\sqrt{\\frac{m}{k_{1}}},$ \n<br/><br/>For second spring,  $t_{2}=2\\pi\\sqrt{\\frac{m}{k_{2}}}$ \n<br/><br/>when springs are in series then,  $k_{eff}=\\frac{k_{1}k_{2}}{k_{1}+k_{2}}$ \n<br/><br/> $\\therefore$   $T=2\\pi\\sqrt{\\frac{m(k_{1}+k_{2})}{k_{1}k_{2}}}$ \n<br/><br/> $\\therefore$   $T=2\\pi\\sqrt{\\frac{m}{k_{2}}+\\frac{m}{k_{1}}}$ \n<br/><br/> $=2\\pi\\sqrt{\\frac{t_{2}^{2}}{(2\\pi)^{2}}+\\frac{t_{1}^{2}}{(2\\pi)^{2}}}$ \n<br/><br/> $\\Rightarrow T^{2}=t_{1}^{2}+t_{2}^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{1}",
@@ -8402,7 +8431,7 @@
         "\\Rightarrow T^{2}=t_{1}^{2}+t_{2}^{2}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:02.750631"
     },
@@ -8448,13 +8477,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->At any instant the total energy is \n<br/><br/> $\\frac{1}{2}kA^{2}=$  constant, where  $A=$  amplitude\n<br/><br/>hence total energy is independent of  $x.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}kA^{2}="
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:02.809820"
     },
@@ -8500,13 +8530,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $K.E.=\\frac{1}{2}m\\omega^{2}(a^{2}-x^{2})$ \n<br/><br/>When  $x=0,$   $K.E$  is maximum and is equal to  $\\frac{1}{2}m\\omega^{2}a^{2}.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}m\\omega^{2}a^{2}."
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:05.166122"
     },
@@ -8552,7 +8583,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The time period of a simple harmonic motion (SHM) performed by a mass-spring system is given by the formula:</p>\n<p> $T=2\\pi\\sqrt{\\frac{M}{k}}$ </p>\n<p>where:</p>\n<ul>\n<li>T is the time period,</li>\n<li>M is the mass of the object, and</li>\n<li>k is the spring constant.</li>\n</ul>\n<p>We know that if the mass is increased by m, the time period becomes  $\\frac{5T}{3}$ . We can set up an equation for this new scenario:</p>\n<p> $\\frac{5T}{3}=2\\pi\\sqrt{\\frac{M+m}{k}}$ </p>\n<p>Since we know that  $T=2\\pi\\sqrt{\\frac{M}{k}}$ , we can substitute T in the equation above:</p>\n<p> $\\frac{5}{3} \\cdot 2\\pi\\sqrt{\\frac{M}{k}}=2\\pi\\sqrt{\\frac{M+m}{k}}$ </p>\n<p>Squaring both sides of the equation to eliminate the square root, we get:</p>\n<p> $\\frac{25}{9} \\cdot \\frac{M}{k}=\\frac{M+m}{k}$ </p>\n<p>Solving for  $\\frac{m}{M}$ , we get:</p>\n<p> $\\frac{m}{M}=\\frac{25}{9}-1=\\frac{16}{9}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{M}{k}}",
@@ -8563,7 +8594,8 @@
         "\\frac{m}{M}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:03.785013"
     },
@@ -8609,7 +8641,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Maximum velocity during  $SHM$   $=A\\omega=A\\sqrt{\\frac{k}{m}}$ \n<br/><br/> $[$   $\\therefore$   $\\omega=\\sqrt{\\frac{k}{m}}$   $]$ \n<br/><br/>Here the maximum velocity is same and  $m$  is also same \n<br/><br/> $\\therefore$   $A_{1}\\sqrt{k_{1}}=A_{2}\\sqrt{k_{2}}$ \n<br/><br/> $\\therefore$   $\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{k_{2}}{k_{1}}}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Medium",
       "key_formulas": [
         "k_{1}",
@@ -8620,7 +8652,8 @@
         "\\frac{A_{1}}{A_{2}}=\\sqrt{\\frac{k_{2}}{k_{1}}}"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM",
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:03.815204"
     },
@@ -8666,11 +8699,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the spring constant of the original spring be  $k.$ \n<br/><br/>Then its time period  $T=2\\pi\\sqrt{\\frac{m}{k}}$  where  $m$  is the mass of oscillating body.\n<br/>When the spring is cut into  $n$  equal parts, the spring constant of one part becomes  $nk.$  Therefore the new time period,\n<br/><br/> $T^{'}=2\\pi\\sqrt{\\frac{m}{nk}}=\\frac{T}{\\sqrt{n}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Energy in SHM & Spring-Pendulum Systems",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Energy in SHM & Spring-Pendulum Systems"
       ],
       "crawled_at": "2026-09-20T16:00:05.199974"
     },
@@ -8716,7 +8749,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $K.E=\\frac{1}{2}k(A^{2}-x^{2});U=\\frac{1}{2}kx^{2}$ \n<br/><br/><b>At the mean position</b>  $x=0$ \n<br/><br/> $\\therefore$   $K.E.=\\frac{1}{2}kA^{2}=$  Maximum and  $U=0$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "K.E=\\frac{1}{2}k(A^{2}-x^{2});U=\\frac{1}{2}kx^{2}",
@@ -8725,7 +8758,7 @@
         "U=0"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:05.236446"
     },
@@ -8771,14 +8804,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>KEY CONCEPT :</b> The time period  $T=2\\pi\\sqrt{\\frac{\\ell}{g}}$  where\n<br/><br/> $\\ell$   $=$  distance between the point of suspension and the center of mass of the child. This distance decreases when the child stands \n<br/><br/> $\\therefore$   $T^{'}&lt;T$  i.e., the period decreases.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Simple Harmonic Motion - Core Application",
+      "topic_tag": "Kinematics & Dynamics of SHM",
       "difficulty": "Easy",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{\\ell}{g}}",
         "T^{'}<T"
       ],
       "key_concepts": [
-        "Simple Harmonic Motion - Core Application"
+        "Kinematics & Dynamics of SHM"
       ],
       "crawled_at": "2026-09-20T16:00:05.262245"
     }

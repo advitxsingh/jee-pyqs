@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr7ss99i/6442e211-fd12-4df9-bcc9-0a6ba64ab888/4ccda860-7871-11f1-aaf8-b393c654aad8/file-6y3zli1mr7ss99j.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{p}=9+3=12\\mu\\text{F}",
@@ -55,7 +55,8 @@
         "V_{4}=\\frac{Q}{C_{4}}=\\frac{36\\mu\\text{C}}{4\\mu\\text{F}}=9\\text{V}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.123187"
     },
@@ -101,7 +102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a parallel plate capacitor, the energy stored is</p>\n<p> $U=\\frac{1}{2}CV^{2}$ </p>\n<p>For a parallel plate capacitor in air or vacuum,</p>\n<p> $C=\\frac{\\epsilon_{0}A}{d}$ </p>\n<p>Also, the electric field between the plates is uniform, so</p>\n<p> $E=\\frac{V}{d}$ </p>\n<p>Hence,</p>\n<p> $V=Ed$ </p>\n<p>Substituting these in the energy formula,</p>\n<p> $U=\\frac{1}{2}(\\frac{\\epsilon_{0}A}{d})(Ed)^{2}$ </p>\n<p> $U=\\frac{1}{2}\\frac{\\epsilon_{0}A}{d}E^{2}d^{2}$ </p>\n<p> $U=\\frac{1}{2}\\epsilon_{0}E^{2}Ad$ </p>\n<p>So, the energy stored in the capacitor is</p>\n<p> $\\frac{1}{2}\\epsilon_{0}E^{2}Ad$ </p>\n<p>Correct option: C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "U=\\frac{1}{2}CV^{2}",
@@ -112,7 +113,7 @@
         "U=\\frac{1}{2}\\frac{\\epsilon_{0}A}{d}E^{2}d^{2}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.169031"
     },
@@ -158,7 +159,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, battery emf,  $e=10V$ </p>\n<p> $\\begin{aligned} C &amp; =5\\mu F \\end{aligned}=5 \\times 10^{-6}F.$ </p>\n<p>We know that stored energy,</p>\n<p> $\\begin{aligned} U &amp; =\\frac{1}{2}CV^{2} \\\\ \\therefore \\frac{dU}{dt} &amp; =\\frac{1}{2}C \\cdot 2V\\frac{dV}{dt}=CV\\frac{dV}{dt} \\\\ &amp; =5 \\times 10^{-6} \\times 4 \\times 0.6 \\\\ &amp; =12 \\times 10^{-6}W=12\\mu W \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "0.6Vs^{-1}",
@@ -166,7 +167,7 @@
         "\\begin{aligned} C & =5\\mu F \\end{aligned}=5 \\times 10^{-6}F."
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.229249"
     },
@@ -212,7 +213,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, let's break it down step by step.</p>\n<p>First, recall the relationship between the capacitance and the presence of a dielectric material. The capacitance  $C$  of a parallel plate capacitor with a dielectric is given by:</p>\n<p> $C=\\kappa C_{0}$ </p>\n<p>where:</p>\n<ul>\n<li> $\\kappa$  is the dielectric constant of the material</li>\n<li> $C_{0}$  is the capacitance without the dielectric</li>\n</ul>\n<p>Given that:</p>\n<ul>\n<li> $C_{1}$  is the capacitance with the dielectric.</li>\n<li> $C_{2}$  is the capacitance without the dielectric.</li>\n</ul>\n<p>Since the dielectric constant  $\\kappa$  is greater than 1, it follows that:</p>\n<p> $C_{1}&gt;C_{2}$ </p>\n<p>When the capacitor is connected to a battery, the potential difference across its plates is determined by the battery. So, if we keep the capacitor connected to the battery while removing the dielectric slab, the potential difference across the plates remains unchanged.</p>\n<p>Therefore:</p>\n<p> $V_{1}=V_{2}$ </p>\n<p>Given the above analysis, the correct relationship is:</p>\n<p> $C_{1}&gt;C_{2}$  and  $V_{1}=V_{2}$ </p>\n<p>Thus, the correct option is:</p>\n<p>Option D</p>\n<p> $V_{1}=V_{2},C_{1}&gt;C_{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1}",
@@ -223,7 +224,7 @@
         "C_{1}>C_{2}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.386375"
     },
@@ -272,11 +273,12 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0a48fs/f42aaf19-065e-47d7-9d9f-3773fcb6ae3e/74fe2380-d32f-11ee-b5c1-b784a9022d45/file-6y3zli1lt0a48ft.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0av539/0a51975a-da9a-4f3f-98a2-39bfdf8bbaa4/6140db50-d332-11ee-b5c1-b784a9022d45/file-6y3zli1lt0av53a.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.255476"
     },
@@ -322,13 +324,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a charged capacitor is disconnected from the battery and a glass slab (dielectric material) is introduced between the plates, then charge  $(Q)$ , capacitance  $(C)$ , electric potential  $(V)$  and stored energy  $(U)$  is given as</p>\n<p> $Q=Q_{0},C=KC_{0},V=\\frac{V_{0}}{K}\\text{and}U=\\frac{U_{0}}{K}$ </p>\n<p>where,  $K=$  dielectric constant</p>\n<p> $V=$  electric potential</p>\n<p> $U=$  potential energy</p>\n<p> $V_{0}=$  initial potential of charged capacitor</p>\n<p> $U_{0}=$  Initial energy of charged capacitor</p>\n<p>From above, we see that  $V$  and  $U$  decreases after introducing glass plate of dielectric constant  $k$  whereas capacitance increases and charge remains same because battery is disconnected after introducing dielectric material.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=Q_{0},C=KC_{0},V=\\frac{V_{0}}{K}\\text{and}U=\\frac{U_{0}}{K}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.422749"
     },
@@ -374,13 +376,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Number of capacitors that can be connected in each row,</p>\n<p> $\\begin{aligned} m &amp; =\\frac{\\text{Desired voltage}}{\\text{Voltage across each capacitor}} \\\\ &amp; =\\frac{1.5kV}{500V}=\\frac{1500}{500}=3 \\end{aligned}$ </p>\n<p>Effective capacitance when  $m$  capacitors are connected in  $n$  rows is given as</p>\n<p> $C_{\\text{eff}}=\\frac{nC}{m}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Here,}m=3,C=2\\mu F,C_{\\text{eff}}=6\\mu F \\\\ &amp; \\Rightarrow n \\times \\frac{2}{3}=6 \\\\ &amp; \\text{or}n=\\frac{18}{2}=9 \\end{aligned}$ </p>\n<p> $\\therefore$  Total number of capacitors required,  $N=mn=3 \\times 9=27$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "N=mn=3 \\times 9=27"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.756408"
     },
@@ -429,13 +431,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lta0acbx/7ef032b1-60f9-4316-a657-d6a5760b1b7f/da0ef7f0-d888-11ee-84a5-1788cc16955d/file-1lta0acbz.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lta0f8ed/defd8792-2fae-4a70-be8e-385d5fd8b3ee/6210c750-d889-11ee-84a5-1788cc16955d/file-1lta0f8ee.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "U=\\frac{1}{2}CV^{2}\\text{.... (i)}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.769675"
     },
@@ -481,7 +483,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $t$  be the thickness of the dielectric slab and  $K$  is the dielectric constant.</p>\n<p>So, the increase in the distance of separation between the plates due to dielectric is given as</p>\n<p> $\\begin{aligned} x &amp; =t-\\frac{t}{K} \\\\ &amp; =t(1-\\frac{1}{k}) \\end{aligned}$ </p>\n<p>Given,  $x=3.5 \\times 10^{-3}m,t=4 \\times 10^{-3}m$ </p>\n<p>Substituting the given values in the above equation, we get</p>\n<p> $\\begin{aligned} &amp; 1-\\frac{1}{k}=\\frac{x}{t}=\\frac{3.5 \\times 10^{-3}}{4 \\times 10^{-3}}=\\frac{3.5}{4} \\\\ &amp; \\text{or}\\frac{1}{k}=1-\\frac{3.5}{4}=\\frac{0.5}{4} \\\\ &amp; \\text{or}k=8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "4 \\times 10^{-3}m",
@@ -490,7 +492,7 @@
         "x=3.5 \\times 10^{-3}m,t=4 \\times 10^{-3}m"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.470109"
     },
@@ -536,13 +538,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $R$  and  $r$  be the radii of bigger and each smaller drop, respectively.</p>\n<p>Volume of bigger drop  $=8 \\times$  Volume of smaller drop</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; \\frac{4}{3}\\pi R^{3}=8 \\times \\frac{4}{3}\\pi r^{3} \\\\ \\text{or} &amp; R=2r\\text{.... (i)} \\end{aligned}$ </p>\n<p>As, capacitance of a smaller spherical drop is</p>\n<p> $\\begin{aligned} &amp; C=4\\pi\\epsilon_{0}r \\\\ &amp; \\Rightarrow C∝r \\end{aligned}$ </p>\n<p>So,  $\\frac{C_{\\text{bigger}}}{C_{\\text{smaller}}}=\\frac{r_{\\text{bigger}}}{r_{\\text{smaller}}}=\\frac{R}{r}=\\frac{2r}{r}=2\\text{[using Eq. (i)]}$ </p>\n<p>So, capacitance of bigger drop is two times as compared to each smaller drop.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "=8 \\times"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.540477"
     },
@@ -588,13 +590,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $C_{1}=C_{2}=C$  (identical capacitors)</p>\n<p>When both capacitors are connected in parallel, then equivalent capacitance</p>\n<p> $\\begin{aligned} &amp; C_{p}=C_{1}+C_{2}=C+C \\\\ &amp; C_{p}=2C\\text{.... (i)} \\end{aligned}$ </p>\n<p>When both capacitors are connected in series, then equivalent capacitance,</p>\n<p> $\\begin{aligned} \\frac{1}{C_{s}} &amp; =\\frac{1}{C_{1}}+\\frac{1}{C_{2}}=\\frac{1}{C}+\\frac{1}{C} \\\\ \\Rightarrow &amp; \\frac{1}{C_{s}}=\\frac{2}{C} \\Rightarrow C_{s}=\\frac{C}{2} \\end{aligned}$ </p>\n<p>According to question,</p>\n<p> $\\begin{aligned} C_{p}-C_{s} &amp; =6\\mu F \\\\ \\Rightarrow 2C-\\frac{C}{2} &amp; =6\\mu F \\Rightarrow \\frac{3C}{2}=6\\mu F \\\\ \\Rightarrow C &amp; =4\\mu F \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1}=C_{2}=C"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.787901"
     },
@@ -640,11 +643,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A capacitor of capacitance  $C$  charged by an amount  $Q$  is connected in parallel with a uncharged capacitor of capacitance  $2C$ , If  $q_{1}$  and  $q_{2}$  be charge on capacitors of capacitance  $C$  and  $2C$  respectively, after connection, then</p>\n<p> $q_{1}+q_{2}=Q\\text{..... (i)}$ </p>\n<p>when both capacitors are connected in parallel, then  $V_{1}=V_{2}$ </p>\n<p> $\\begin{aligned} \\frac{q_{1}}{C_{1}} &amp; =\\frac{q_{2}}{C_{2}} \\Rightarrow \\frac{q_{1}}{q_{2}}=\\frac{C_{1}}{C_{2}}=\\frac{C}{2C} \\\\ \\Rightarrow \\frac{q_{1}}{q_{2}} &amp; =\\frac{1}{2} \\\\ q_{2} &amp; =2q_{1}\\text{.... (ii)} \\end{aligned}$ </p>\n<p>From Eqs. (i) and (ii), we have,</p>\n<p> $\\begin{aligned} &amp; q_{1}+2q_{1}=Q \\Rightarrow q_{1}=\\frac{Q}{3} \\\\ \\therefore &amp; q_{2}=\\frac{2Q}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.927945"
     },
@@ -693,7 +696,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltqy1xru/81a67d10-ec4a-47cc-84f5-9f6d3e31eb0b/711ec9a0-e1d9-11ee-802f-cfd413b10d76/file-1ltqy1xrv.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltqy3e30/345e37db-0934-462f-b3e0-ad09ededfc61/998754c0-e1d9-11ee-802f-cfd413b10d76/file-1ltqy3e31.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{2}",
@@ -704,7 +707,8 @@
         "C_{123}"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.804289"
     },
@@ -754,13 +758,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7gdcg6t/e2ca80f2-f8ac-4ae6-bd7b-6c7b41e7ca3e/a6893250-f133-11ef-9e47-8f6b6dd2ccf0/file-jaoe38c1m7gdcg6u.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7gdddo4/2ce1aff2-5d00-4918-9d64-70686b64ceb2/c0662340-f133-11ef-9e47-8f6b6dd2ccf0/file-jaoe38c1m7gdddo5.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Easy",
       "key_formulas": [
         "\\therefore C_{AB}=\\frac{4 \\times 4}{4+4}+\\frac{4 \\times 4}{4+4}=4\\mu F"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.941267"
     },
@@ -806,7 +810,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's work through the problem step by step.</p>\n<p>Series connection:</p>\n<p><p>The two capacitors are 3 μF and 6 μF. When connected in series, the equivalent capacitance is given by</p>\n<p> $C_{S}=\\frac{C_{1}C_{2}}{C_{1}+C_{2}}=\\frac{3\\mu F \\times 6\\mu F}{3\\mu F+6\\mu F}=\\frac{18}{9}=2\\mu F.$ </p></p>\n<p><p>With a potential difference of 900 V applied across the series combination, the same charge is stored on each capacitor. The charge is:</p>\n<p> $Q=C_{S} \\times V=2\\mu F \\times 900V=1800\\mu C.$ </p></p>\n<p>Voltage across individual capacitors:</p>\n<p><p>Voltage across the 3 μF capacitor:</p>\n<p> $V_{1}=\\frac{Q}{C_{1}}=\\frac{1800\\mu C}{3\\mu F}=600V.$ </p></p>\n<p><p>Voltage across the 6 μF capacitor:</p>\n<p> $V_{2}=\\frac{Q}{C_{2}}=\\frac{1800\\mu C}{6\\mu F}=300V.$ </p></p>\n<p><p>Notice that the sum,  $600V+300V=900V,$  matches the applied voltage.</p></p>\n<p>Reconnection in parallel:</p>\n<p><p>After disconnecting from the supply, the charges on the capacitors remain unchanged.</p></p>\n<p><p>When reconnected in parallel (with like plates connected together), the total charge in the system is the sum of the individual charges:</p>\n<p> $Q_{total}=1800\\mu C+1800\\mu C=3600\\mu C.$ </p></p>\n<p><p>In a parallel combination, the total capacitance is the sum of the individual capacitances:</p>\n<p> $C_{total}=3\\mu F+6\\mu F=9\\mu F.$ </p></p>\n<p><p>The common potential difference across the parallel combination is:</p>\n<p> $V=\\frac{Q_{total}}{C_{total}}=\\frac{3600\\mu C}{9\\mu F}=400V.$ </p></p>\n<p>Thus, the potential difference across the combination when reconnected in parallel is 400 V.</p>\n<p>Answer: Option D (400 V).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=C_{S} \\times V=2\\mu F \\times 900V=1800\\mu C.",
@@ -817,7 +821,8 @@
         "C_{total}=3\\mu F+6\\mu F=9\\mu F."
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.951056"
     },
@@ -865,13 +870,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bm79aj/c37ab2a3-3f81-4de7-b085-d8246c3e9d51/cbd5f9b0-162e-11f0-92ce-5154316ad950/file-jaoe38c1m9bm79ak.png?format=png"
       ],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow C_{eq}=\\frac{4}{3}\\mu F"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:26.097161"
     },
@@ -917,7 +923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The minimum value of effective capacitance is achieved when the capacitors are connected in series.</p>\n<p>To find the equivalent capacitance for capacitors in series, use the formula:</p>\n<p> $\\frac{1}{C_{eq}}=\\frac{1}{C_{1}}+\\frac{1}{C_{2}}+\\frac{1}{C_{3}}$ </p>\n<p>For capacitors with capacitances  $1\\text{pF}$ ,  $2\\text{pF}$ , and  $4\\text{pF}$ , the equivalent capacitance calculation is:</p>\n<p> $\\frac{1}{C_{eq}}=\\frac{1}{1}+\\frac{1}{2}+\\frac{1}{4}$ </p>\n<p>This combines to:</p>\n<p> $\\frac{1}{C_{eq}}=\\frac{4+2+1}{4}=\\frac{7}{4}$ </p>\n<p>Solving for  $C_{eq}$  gives:</p>\n<p> $C_{eq}=\\frac{4}{7}pF$ </p>\n<p>Thus, the minimum effective capacitance obtainable by connecting the three capacitors in series is  $\\frac{4}{7}pF$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Capacitor - Core Application",
+      "topic_tag": "Capacitance & Dielectric Insertion",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{C_{eq}}=\\frac{1}{C_{1}}+\\frac{1}{C_{2}}+\\frac{1}{C_{3}}",
@@ -928,7 +934,8 @@
         "\\frac{4}{7}pF"
       ],
       "key_concepts": [
-        "Kcet Capacitor - Core Application"
+        "Capacitance & Dielectric Insertion",
+        "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.960625"
     }

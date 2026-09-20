@@ -8,37 +8,51 @@
     "total_questions_site": 16,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:25:51.190158"
+    "analyzed_at": "2026-09-20T16:41:36.312987"
   },
   "concepts": [
     {
-      "id": 221,
+      "id": 1435,
       "chapter_slug": "kcet-periodic-table-and-periodicity",
-      "name": "Kcet Periodic Table And Periodicity - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Periodic Table And Periodicity.",
-      "standard_formulas": "",
-      "exam_frequency": 16,
-      "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "Ionization Enthalpy & Electron Gain Enthalpy",
+      "category": "Periodic Trends",
+      "summary": "Periodic variations of ionization energy, exceptions due to half-filled/fully-filled subshells ($\\text{N} > \\text{O}, \\text{Be} > \\text{B}$), and electron gain enthalpy.",
+      "standard_formulas": "Z_{\\text{eff}} = Z - \\sigma, \\quad \\Delta_{\\text{eg}}H(\\text{Cl}) < \\Delta_{\\text{eg}}H(\\text{F}) \\text{ (Cl is most negative in periodic table)}",
+      "exam_frequency": 9,
+      "frequency_tier": "High",
+      "common_traps": "Ionization enthalpy of Nitrogen is HIGHER than Oxygen due to stable half-filled $2p^3$ subshell ($\\text{N}: 2s^2 2p^3 > \\text{O}: 2s^2 2p^4$).",
+      "tips_and_tricks": "Chlorine has MORE negative electron gain enthalpy than Fluorine because of compact size and high inter-electronic repulsion in $2p$ of Fluorine.",
       "pyq_ids": [
-        7993,
         7994,
-        7995,
         7996,
-        7997,
         7998,
         7999,
         8000,
-        8001,
         8002,
-        8003,
-        8004,
-        8005,
         8006,
         8007,
         8008
+      ]
+    },
+    {
+      "id": 1436,
+      "chapter_slug": "kcet-periodic-table-and-periodicity",
+      "name": "Atomic & Ionic Radii Trends",
+      "category": "Radii",
+      "summary": "Covalent, van der Waals, and ionic radii trends across periods and groups, and size shrinkage in isoelectronic ions.",
+      "standard_formulas": "\\text{For isoelectronic: } r \\propto \\frac{1}{Z} \\implies \\text{N}^{3-} > \\text{O}^{2-} > \\text{F}^- > \\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}",
+      "exam_frequency": 7,
+      "frequency_tier": "Moderate",
+      "common_traps": "Noble gas radii are measured as van der Waals radii, making them appear abnormally larger than adjacent halogens.",
+      "tips_and_tricks": "Due to lanthanoid contraction (poor shielding of $4f$ electrons), $4d$ and $5d$ transition elements have nearly identical radii (e.g. $\\text{Zr} \\approx \\text{Hf}$). ",
+      "pyq_ids": [
+        7993,
+        7995,
+        7997,
+        8001,
+        8003,
+        8004,
+        8005
       ]
     }
   ],
@@ -46,14 +60,15 @@
     "id": 48,
     "chapter_slug": "kcet-periodic-table-and-periodicity",
     "title": "Periodic Table and Periodicity 2026 1 questions 1.67% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Periodic Table and Periodicity 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 16 Previous Year Questions Analyzed (16 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **16** authentic KCET problems.\n- **Question Format Breakdown**: **16 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Kcet Periodic Table And Periodicity - Core Application | **16 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Periodic Table And Periodicity - Core Application (General Concept)\n- **Exam Weightage**: Tested in **16 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Periodic Table And Periodicity.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Match List-I with List-II: List-I (Element-Atomic number) List-II (Position in periodic table) (a) Ra – 88 (i) $4^{tℎ}$ period, $13^{tℎ}$ gr...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#2 (MCQ)**: *\"$\\text{Given below and the atomic masses of the elements:}$ $\\begin{aligned} \\text{Element:} & Li & Na & Cl & K & Ca & Br & Sr & I & Ba \\\\ \\...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"In which one of the following pairs, both the elements does not have $(n-1)d^{10}ns^{2}$ configuration in its elementary state?...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"The correct order of first ionisation enthalpy of given elements is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Periodic Table and Periodicity 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 16 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Periodic Table and Periodicity 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 16 Previous Year Questions Analyzed (16 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **16** authentic KCET problems.\n- **Question Format Breakdown**: **16 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Ionization Enthalpy & Electron Gain Enthalpy | **9 PYQs** | Periodic Trends |\n| **Moderate** | Atomic & Ionic Radii Trends | **7 PYQs** | Radii |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Ionization Enthalpy & Electron Gain Enthalpy (Periodic Trends)\n- **Exam Weightage**: Tested in **9 PYQs** (High Yield)\n- **Conceptual Summary**: Periodic variations of ionization energy, exceptions due to half-filled/fully-filled subshells ($\\text{N} > \\text{O}, \\text{Be} > \\text{B}$), and electron gain enthalpy.\n\n#### Standard Mathematical Formulation\n$$\nZ_{\\text{eff}} = Z - \\sigma, \\quad \\Delta_{\\text{eg}}H(\\text{Cl}) < \\Delta_{\\text{eg}}H(\\text{F}) \\text{ (Cl is most negative in periodic table)}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Ionization enthalpy of Nitrogen is HIGHER than Oxygen due to stable half-filled $2p^3$ subshell ($\\text{N}: 2s^2 2p^3 > \\text{O}: 2s^2 2p^4$).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Chlorine has MORE negative electron gain enthalpy than Fluorine because of compact size and high inter-electronic repulsion in $2p$ of Fluorine.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#2 (MCQ)**: *\"$\\text{Given below and the atomic masses of the elements:}$ $\\begin{aligned} \\text{Element:} & Li & Na & Cl & K & Ca & Br & Sr & I & Ba \\\\ \\...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"A pair of amphoteric oxides is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#2 (MCQ)**: *\"Amphoteric oxide among the following...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#3 (MCQ)**: *\"The property of halogens which is not correctly matched is...\"* — **Correct Answer: N/A**\n\n### 2.2 Atomic & Ionic Radii Trends (Radii)\n- **Exam Weightage**: Tested in **7 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Covalent, van der Waals, and ionic radii trends across periods and groups, and size shrinkage in isoelectronic ions.\n\n#### Standard Mathematical Formulation\n$$\n\\text{For isoelectronic: } r \\propto \\frac{1}{Z} \\implies \\text{N}^{3-} > \\text{O}^{2-} > \\text{F}^- > \\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Noble gas radii are measured as van der Waals radii, making them appear abnormally larger than adjacent halogens.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Due to lanthanoid contraction (poor shielding of $4f$ electrons), $4d$ and $5d$ transition elements have nearly identical radii (e.g. $\\text{Zr} \\approx \\text{Hf}$). \n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Match List-I with List-II: List-I (Element-Atomic number) List-II (Position in periodic table) (a) Ra – 88 (i) $4^{tℎ}$ period, $13^{tℎ}$ gr...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"In which one of the following pairs, both the elements does not have $(n-1)d^{10}ns^{2}$ configuration in its elementary state?...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"The correct order of first ionisation enthalpy of given elements is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#1 (MCQ)**: *\"Elements $X,Y$ and $Z$ have atomic numbers 19, 37 and 55 respectively. Which of the following statements is true about them ?...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Periodic Table and Periodicity 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 16 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Ionization Enthalpy & Electron Gain Enthalpy** | $Z_{\\text{eff}} = Z - \\sigma, \\quad \\Delta_{\\text{eg}}H(\\text{Cl}) < \\Delta_{\\text{eg}}H(\\text{F}) \\text{ (Cl is most negative in periodic table)}$ | Standard SI units apply |\n| **Atomic & Ionic Radii Trends** | $\\text{For isoelectronic: } r \\propto \\frac{1}{Z} \\implies \\text{N}^{3-} > \\text{O}^{2-} > \\text{F}^- > \\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Periodic Table and Periodicity 2026 1 questions 1.67% weightage\nBased on rigorous analysis of all 16 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Periodic Table and Periodicity 2026 1 questions 1.67% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      7993
+      7993,
+      7996
     ],
-    "updated_at": "2026-09-20T15:25:51.184910"
+    "updated_at": "2026-09-20T16:41:36.300303"
   },
   "total_questions": 16,
   "has_docx": true,

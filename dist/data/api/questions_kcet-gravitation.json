@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr7scmup/ae91835a-bcd1-4faa-b7b0-d823d8773eab/9a5aa210-786f-11f1-aaf8-b393c654aad8/file-6y3zli1mr7scmuq.png?format=png"
       ],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "g\\text{m/s}^{2}",
@@ -57,7 +57,7 @@
         "M_{e} \\approx 81M_{m}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:48.955581"
     },
@@ -103,7 +103,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For any planet, acceleration due to gravity on its surface is</p>\n<p> $g=\\frac{GM}{R^{2}}$ </p>\n<p>where  $M$  is the mass of the planet and  $R$  is its radius.</p>\n<p>The new planet has the same density as the earth. Also, it is two times bigger in size, so we take its radius as</p>\n<p> $R^{'}=2R$ </p>\n<p>Now, mass of a spherical planet is</p>\n<p> $M=\\text{density} \\times \\text{volume}$ </p>\n<p>Since volume of a sphere is proportional to  $R^{3}$ , for the same density,</p>\n<p> $M∝R^{3}$ </p>\n<p>So, if the radius becomes  $2R$ , the mass becomes</p>\n<p> $M^{'}=2^{3}M=8M$ </p>\n<p>Now use the formula for gravity on the new planet:</p>\n<p> $g^{'}=\\frac{GM^{'}}{R^{'2}}$ </p>\n<p>Substitute  $M^{'}=8M$  and  $R^{'}=2R$ :</p>\n<p> $g^{'}=\\frac{G(8M)}{(2R)^{2}}$ </p>\n<p> $g^{'}=\\frac{8GM}{4R^{2}}$ </p>\n<p> $g^{'}=2\\frac{GM}{R^{2}}$ </p>\n<p>Since</p>\n<p> $g=\\frac{GM}{R^{2}}$ </p>\n<p>we get</p>\n<p> $g^{'}=2g$ </p>\n<p>So the correct option is:</p>\n<p> $\\text{Option C}g^{'}=2g$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "R^{'}=2R",
@@ -114,7 +114,7 @@
         "g^{'}=2\\frac{GM}{R^{2}}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:48.987892"
     },
@@ -160,7 +160,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Angular momentum is conserved in an elliptical orbit, meaning:</p>\n<p> $L_{p}=L_{a}$ </p>\n<p>where  $L_{p}$  is the angular momentum at perihelion and  $L_{a}$  is the angular momentum at aphelion.</p>\n<p>The perihelion is the point in the orbit where the planet is closest to the Sun. Therefore, the radius at perihelion ( $r_{p}$ ) is less than the radius at aphelion ( $r_{a}$ ):</p>\n<p> $r_{p}&lt;r_{a}$ </p>\n<p>Because angular momentum is conserved, we have:</p>\n<p> $mv_{p}r_{p}=mv_{a}r_{a}$ </p>\n<p>From this, it follows that the velocity at perihelion ( $v_{p}$ ) is greater than the velocity at aphelion ( $v_{a}$ ):</p>\n<p> $v_{p}&gt;v_{a}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "r_{p},v_{p},L_{p}",
@@ -171,7 +171,7 @@
         "r_{p}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:27:49.024815"
     },
@@ -217,7 +217,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The total (mechanical) energy E of a satellite in a circular orbit of radius  $r=R+ℎ$  is the sum of its kinetic and potential energies. You can show that</p>\n<p><p>Gravitational potential energy:  </p>\n<p> $U=-\\frac{GMm}{r}$ </p></p>\n<p><p>Kinetic energy (for a circular orbit):  </p>\n<p> $K=\\frac{1}{2}\\frac{GMm}{r}$ </p></p>\n<p><p>Total energy:  </p>\n<p> $E=K+U=\\frac{1}{2}\\frac{GMm}{r}-\\frac{GMm}{r}=-\\frac{1}{2}\\frac{GMm}{r}$ </p></p>\n<p>Since  $G$ ,  $M$  and  $m$  are constants,  $E$  varies as  </p>\n<p> $E∝-\\frac{1}{r}=-\\frac{1}{R+ℎ}.$ </p>\n<p>Answer: Option A  $-\\frac{1}{R+ℎ}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "r=R+ℎ",
@@ -226,7 +226,8 @@
         "E=K+U=\\frac{1}{2}\\frac{GMm}{r}-\\frac{GMm}{r}=-\\frac{1}{2}\\frac{GMm}{r}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential",
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:27:49.048080"
     },
@@ -272,11 +273,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Acceleration due to gravity at height  $ℎ$  from the surface of the earth.</p>\n<p> $g_{ℎ}=\\frac{g}{(1+\\frac{ℎ}{R})^{2}}$ </p>\n<p>Given,  $ℎ=\\frac{R}{2}$ </p>\n<p> $\\begin{aligned} \\therefore g_{ℎ} &amp; =\\frac{g}{(1+\\frac{\\frac{R}{2}}{R})^{2}}=\\frac{g}{(\\frac{3}{2})^{2}} \\\\ &amp; =\\frac{4}{9}g=\\frac{4}{9} \\times 9.8=4.4m/s^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:49.224833"
     },
@@ -322,11 +323,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a planet revolves around the sun, net external torque is zero. Therefore its angular momentum is conserved. As a consequence, its areal velocity remains the same/constant.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:27:49.260140"
     },
@@ -372,11 +373,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Concept of field is a model used to explain the influence that a massive body or charged particle extends into the space around itself, producing a force on another massive body or charged body placed in space. Therefore, force concept of field is used to explain gravitational and electrostatic phenomena.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:49.312262"
     },
@@ -424,13 +425,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt9wkoza/50b0142b-61e2-4a12-bbc5-965e677ad81d/55673160-d87a-11ee-a62c-b773da08f5e2/file-1lt9wkozh.png?format=png"
       ],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "F=\\frac{Gm_{1}m_{2}}{r^{2}}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:49.346820"
     },
@@ -476,11 +477,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of acceleration due to gravity at height  $(ℎ=10km)$  is  $x$ .</p>\n<p> $\\begin{aligned} &amp; \\text{i.e.,}g_{ℎ}=x \\\\ &amp; \\Rightarrow \\frac{g}{(1+\\frac{ℎ}{R_{e}})^{2}}=x \\\\ &amp; \\Rightarrow g(1-\\frac{2ℎ}{R_{e}})=x\\text{.... (i)} \\end{aligned}$ </p>\n<p>The value of acceleration due to gravity at depth  $d$  below the surface of earth,</p>\n<p> $\\begin{aligned} g_{d} &amp; =x \\\\ \\Rightarrow g(1-\\frac{d}{R_{e}}) &amp; =x\\text{.... (ii)} \\end{aligned}$ </p>\n<p>From Eqs. (i) and (ii), we have</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; g(1-\\frac{2ℎ}{R_{e}})=g(1-\\frac{d}{R_{e}}) \\\\ \\Rightarrow &amp; 1-\\frac{2ℎ}{R_{e}}=1-\\frac{d}{R_{e}} \\Rightarrow \\frac{2ℎ}{R_{e}}=\\frac{d}{R_{e}} \\\\ \\Rightarrow &amp; d=2ℎ=2 \\times 10=20km \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:49.772460"
     },
@@ -526,13 +527,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Kinetic energy of satellite revolving close to the earth</p>\n<p> $\\begin{aligned} &amp; K=\\frac{1}{2}m \\cdot v_{0}^{2}=\\frac{1}{2}m(\\sqrt{gR})^{2}[v_{0}=\\sqrt{gR}] \\\\ &amp; K=\\frac{1}{2}mgR \\end{aligned}$ </p>\n<p>Escape energy near the earth surface</p>\n<p> $\\begin{aligned} K_{e} &amp; =\\frac{1}{2}m \\cdot v_{e}^{2}[v_{e} \\rightarrow \\text{escape velocity}] \\\\ &amp; =\\frac{1}{2}m(\\sqrt{2gR})^{2}=mgR=2 \\times \\frac{1}{2}mgR=2K \\end{aligned}$ </p>\n<p> $\\therefore$  Minimum extra kinetic energy to overcome gravitational pull  $=K_{e}-K=2K-K=K$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "=K_{e}-K=2K-K=K"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:27:49.835365"
     },
@@ -578,11 +579,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The work done when moving a mass  $m$  from the surface of the Earth to a height equal to the Earth's radius  $R$  is equivalent to the change in gravitational potential energy. </p>\n<p>The potential energy (PE) at a height  $ℎ$  is given by:</p>\n<p> $\\text{PE}=mgℎ$ </p>\n<p>In this scenario,  $ℎ=R$ . Therefore, the work done  $W$  is:</p>\n<p> $W=mgR$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:50.042081"
     },
@@ -628,7 +629,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the problem, follow these steps:</p>\n<p><p>The escape velocity is given by the formula:  </p>\n<p> $v=\\sqrt{\\frac{2GM}{r}}$  </p>\n<p>where:</p></p>\n<p><p> $G$  is the gravitational constant,</p></p>\n<p><p> $M$  is the mass of the Earth,</p></p>\n<p><p> $r$  is the distance from the center of the Earth.</p></p>\n<p><p>On the Earth's surface, where  $r=R$  (Earth's radius), the escape velocity is:  </p>\n<p> $v_{E}=\\sqrt{\\frac{2GM}{R}}$ </p></p>\n<p><p>For a space station at a height equal to the Earth's radius, the distance from the center is:  </p>\n<p> $r=R+R=2R$  </p>\n<p>So, the escape velocity at the space station is:  </p>\n<p> $v_{station}=\\sqrt{\\frac{2GM}{2R}}=\\sqrt{\\frac{GM}{R}}$ </p></p>\n<p><p>The ratio of the escape velocities is:  </p>\n<p> $\\frac{v_{station}}{v_{E}}=\\frac{\\sqrt{\\frac{GM}{R}}}{\\sqrt{\\frac{2GM}{R}}}=\\sqrt{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}$ </p></p>\n<p>Thus, the escape velocity at the space station is  $\\frac{1}{\\sqrt{2}}$  times the escape velocity at the Earth's surface.</p>\n<p>The correct option is:  </p>\n<p>Option C:  $\\frac{1}{\\sqrt{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{E}",
@@ -638,7 +639,7 @@
         "\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:27:49.893634"
     },
@@ -684,11 +685,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"&lt;p\">The acceleration due to gravity on the surface of Earth, $g=\\frac{G M}{R^2}$\n\n<p>At a height $h$ above the surface, $g=\\frac{G M}{(R+h)^2}$</p>\n<p>At a depth $d$ below the surface, $g=\\frac{G m}{(R-d)^2}$</p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:49.916673"
     },
@@ -734,13 +735,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of acceleration due to gravity at a depth of 1600 km, we can use the formula:</p>\n<p> $g_{d}=g(1-\\frac{d}{R})$ </p>\n<p>Where:  </p>\n<p><p> $g$  is the acceleration due to gravity on the surface, approximately  $9.8ms^{-2}$ .</p></p>\n<p><p> $d$  is the depth, given as  $1600km$ .</p></p>\n<p><p> $R$  is the radius of the Earth, approximately  $6400km$ .</p></p>\n<p>Substituting the values into the formula:</p>\n<p> $g_{d}=9.8(1-\\frac{1600}{6400})$ </p>\n<p>Simplifying the expression inside the parentheses:</p>\n<p> $g_{d}=9.8(1-\\frac{1}{4})$ </p>\n<p>Continue simplifying:</p>\n<p> $g_{d}=9.8(\\frac{4-1}{4})=9.8 \\times \\frac{3}{4}$ </p>\n<p>Finally, calculating the result:</p>\n<p> $g_{d}=7.35ms^{-2}$ </p>\n<p>Thus, the value of acceleration due to gravity at a depth of 1600 km is  $7.35ms^{-2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Gravitation - Core Application",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "g_{d}=g(1-\\frac{d}{R})"
       ],
       "key_concepts": [
-        "Kcet Gravitation - Core Application"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:27:50.089853"
     }

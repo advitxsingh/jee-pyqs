@@ -8,24 +8,38 @@
     "total_questions_site": 3,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:27:03.843253"
+    "analyzed_at": "2026-09-20T16:43:25.220068"
   },
   "concepts": [
     {
-      "id": 255,
+      "id": 1614,
       "chapter_slug": "kcet-quadratic-equations",
-      "name": "Kcet Quadratic Equations - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Quadratic Equations.",
-      "standard_formulas": "",
-      "exam_frequency": 3,
-      "frequency_tier": "Moderate",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "Location of Roots & Quadratic Inequalities",
+      "category": "Location of Roots",
+      "summary": "Conditions for roots relative to real numbers $k, k_1, k_2$, and signs of quadratic expression $ax^2 + bx + c$.",
+      "standard_formulas": "\\text{Both roots } > k \\iff D \\ge 0, \\quad -\\frac{b}{2a} > k, \\quad a \\cdot f(k) > 0",
+      "exam_frequency": 2,
+      "frequency_tier": "Standard",
+      "common_traps": "For both roots to be greater than $k$, checking $a \\cdot f(k) > 0$ alone is NOT sufficient; you must ALSO check $D \\ge 0$ and $-\\frac{b}{2a} > k$.",
+      "tips_and_tricks": "If $a > 0$, the quadratic $f(x) = ax^2 + bx + c > 0$ for all real $x$ if and only if $D < 0$.",
       "pyq_ids": [
-        9273,
         9274,
         9275
+      ]
+    },
+    {
+      "id": 1615,
+      "chapter_slug": "kcet-quadratic-equations",
+      "name": "Roots of Quadratic & Vieta's Relations",
+      "category": "Quadratic Roots",
+      "summary": "Discriminant analysis for real/complex roots, symmetric root functions, and Newton's power sum theorem.",
+      "standard_formulas": "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}, \\quad |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}, \\quad a S_n + b S_{n-1} + c S_{n-2} = 0 \\text{ (Newton)}",
+      "exam_frequency": 1,
+      "frequency_tier": "Standard",
+      "common_traps": "If coefficients $a, b, c$ are rational and $D$ is not a perfect square, roots occur in irrational conjugate pairs ($p \\pm \\sqrt{q}$).",
+      "tips_and_tricks": "Newton's theorem: If $\\alpha, \\beta$ are roots of $ax^2 + bx + c = 0$ and $S_n = \\alpha^n + \\beta^n$, then $a S_n + b S_{n-1} + c S_{n-2} = 0$.",
+      "pyq_ids": [
+        9273
       ]
     }
   ],
@@ -33,14 +47,15 @@
     "id": 82,
     "chapter_slug": "kcet-quadratic-equations",
     "title": "Quadratic Equations 2026 0 questions 0% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Quadratic Equations 2026 0 questions 0% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2019 – 2024)  \n**Empirical Dataset**: 3 Previous Year Questions Analyzed (3 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **3** authentic KCET problems.\n- **Question Format Breakdown**: **3 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2019 to 2024.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Kcet Quadratic Equations - Core Application | **3 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Quadratic Equations - Core Application (General Concept)\n- **Exam Weightage**: Tested in **3 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Quadratic Equations.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#1 (MCQ)**: *\"If $AM$ and GM of roots of a quadratic equation are 5 and 4 , respectively, then the quadratic equation is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#2 (MCQ)**: *\"Given that $a,b$ and $x$ are real numbers and $a<b,x<0$ , then...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#3 (MCQ)**: *\"If $\\alpha$ and $\\beta$ are roots of the equation $x^{2}=x+1=0$ , then $\\alpha^{2}+\\beta^{2}$ is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Quadratic Equations 2026 0 questions 0% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 3 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Quadratic Equations 2026 0 questions 0% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2019 – 2024)  \n**Empirical Dataset**: 3 Previous Year Questions Analyzed (3 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **3** authentic KCET problems.\n- **Question Format Breakdown**: **3 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2019 to 2024.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Standard** | Location of Roots & Quadratic Inequalities | **2 PYQs** | Location of Roots |\n| **Standard** | Roots of Quadratic & Vieta's Relations | **1 PYQs** | Quadratic Roots |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Location of Roots & Quadratic Inequalities (Location of Roots)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Conditions for roots relative to real numbers $k, k_1, k_2$, and signs of quadratic expression $ax^2 + bx + c$.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Both roots } > k \\iff D \\ge 0, \\quad -\\frac{b}{2a} > k, \\quad a \\cdot f(k) > 0\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For both roots to be greater than $k$, checking $a \\cdot f(k) > 0$ alone is NOT sufficient; you must ALSO check $D \\ge 0$ and $-\\frac{b}{2a} > k$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: If $a > 0$, the quadratic $f(x) = ax^2 + bx + c > 0$ for all real $x$ if and only if $D < 0$.\n\n#### Linked Representative PYQs:\n- **[2023 Shift] Q#2 (MCQ)**: *\"Given that $a,b$ and $x$ are real numbers and $a<b,x<0$ , then...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#3 (MCQ)**: *\"If $\\alpha$ and $\\beta$ are roots of the equation $x^{2}=x+1=0$ , then $\\alpha^{2}+\\beta^{2}$ is...\"* — **Correct Answer: N/A**\n\n### 2.2 Roots of Quadratic & Vieta's Relations (Quadratic Roots)\n- **Exam Weightage**: Tested in **1 PYQs** (Standard Yield)\n- **Conceptual Summary**: Discriminant analysis for real/complex roots, symmetric root functions, and Newton's power sum theorem.\n\n#### Standard Mathematical Formulation\n$$\n\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}, \\quad |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}, \\quad a S_n + b S_{n-1} + c S_{n-2} = 0 \\text{ (Newton)}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: If coefficients $a, b, c$ are rational and $D$ is not a perfect square, roots occur in irrational conjugate pairs ($p \\pm \\sqrt{q}$).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Newton's theorem: If $\\alpha, \\beta$ are roots of $ax^2 + bx + c = 0$ and $S_n = \\alpha^n + \\beta^n$, then $a S_n + b S_{n-1} + c S_{n-2} = 0$.\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#1 (MCQ)**: *\"If $AM$ and GM of roots of a quadratic equation are 5 and 4 , respectively, then the quadratic equation is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Quadratic Equations 2026 0 questions 0% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 3 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Location of Roots & Quadratic Inequalities** | $\\text{Both roots } > k \\iff D \\ge 0, \\quad -\\frac{b}{2a} > k, \\quad a \\cdot f(k) > 0$ | Standard SI units apply |\n| **Roots of Quadratic & Vieta's Relations** | $\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}, \\quad |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}, \\quad a S_n + b S_{n-1} + c S_{n-2} = 0 \\text{ (Newton)}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Quadratic Equations 2026 0 questions 0% weightage\nBased on rigorous analysis of all 3 questions from 2019 to 2024:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Quadratic Equations 2026 0 questions 0% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      9273
+      9273,
+      9274
     ],
-    "updated_at": "2026-09-20T15:27:03.676743"
+    "updated_at": "2026-09-20T16:43:25.210654"
   },
   "total_questions": 3,
   "has_docx": true,

@@ -8,20 +8,20 @@
     "total_questions_site": 117,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:41:08.430843"
+    "analyzed_at": "2026-09-20T16:42:46.836893"
   },
   "concepts": [
     {
-      "id": 337,
+      "id": 1545,
       "chapter_slug": "ellipse",
-      "name": "Ellipse - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Ellipse.",
-      "standard_formulas": "",
-      "exam_frequency": 116,
+      "name": "Eccentricity, Foci & Tangents of Ellipse",
+      "category": "Ellipse",
+      "summary": "Standard ellipse equation, focal distance sum property $SP + S'P = 2a$, eccentricity $e < 1$, and director circle.",
+      "standard_formulas": "e = \\sqrt{1 - \\frac{b^2}{a^2}}, \\quad \\text{Foci: } (\\pm ae, 0), \\quad \\text{LR} = \\frac{2b^2}{a}, \\quad \\text{Tangent: } y = mx \\pm \\sqrt{a^2 m^2 + b^2}, \\quad \\text{Director: } x^2 + y^2 = a^2 + b^2",
+      "exam_frequency": 112,
       "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "If $b > a$ (vertical ellipse), major axis is along y-axis and $e = \\sqrt{1 - a^2/b^2}$ with foci at $(0, \\pm be)$.",
+      "tips_and_tricks": "Product of perpendiculars from the two foci onto any tangent to the ellipse is always constant and equal to $b^2$.",
       "pyq_ids": [
         22634,
         22636,
@@ -73,13 +73,11 @@
         22751,
         22755,
         22756,
-        22758,
         22760,
         22764,
         22766,
         22768,
         22770,
-        22773,
         22775,
         22777,
         22779,
@@ -109,7 +107,6 @@
         22841,
         22845,
         22847,
-        22849,
         22851,
         22854,
         22856,
@@ -137,7 +134,31 @@
         22896,
         22897,
         22898,
-        22899,
+        22899
+      ]
+    },
+    {
+      "id": 1546,
+      "chapter_slug": "ellipse",
+      "name": "Focal Properties & Auxiliary Circle",
+      "category": "Focal Geometry",
+      "summary": "Focal radius property $SP + S'P = 2a$, auxiliary circle projections, and parametric coordinate representation.",
+      "standard_formulas": "SP + S'P = 2a = \\text{Major Axis}, \\quad \\text{Auxiliary Circle: } x^2 + y^2 = a^2, \\quad \\text{Parametric: } (a\\cos\\theta, b\\sin\\theta)",
+      "exam_frequency": 11,
+      "frequency_tier": "High",
+      "common_traps": "In an ellipse, the eccentric angle $\theta$ is measured on the auxiliary circle, NOT from the center to the point on the ellipse.",
+      "tips_and_tricks": "Maximum area of a rectangle inscribed in an ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ is $2ab$.",
+      "pyq_ids": [
+        22648,
+        22662,
+        22666,
+        22699,
+        22710,
+        22758,
+        22773,
+        22802,
+        22849,
+        22865,
         22900
       ]
     }
@@ -146,14 +167,14 @@
     "id": 158,
     "chapter_slug": "ellipse",
     "title": "Ellipse Syllabus reduced Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Ellipse Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2004 – 2026)  \n**Empirical Dataset**: 116 Previous Year Questions Analyzed (103 MCQs, 13 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **116** authentic JEE Main problems.\n- **Question Format Breakdown**: **103 MCQs** (88%) and **13 Numerical Value Questions** (11%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2004 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Ellipse - Core Application | **116 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Ellipse - Core Application (General Concept)\n- **Exam Weightage**: Tested in **116 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Ellipse.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\frac{x^{2}}{f(a^{2}+7a+3)}+\\frac{y^{2}}{f(3a+15)}=1$ represent an ellipse with major axis along $y$ -axis, where $f$ is a strictly dec...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let an ellipse $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ , $a<b$ , pass through the point (4, 3) and have eccentricity $\\frac{\\sqrt{5}}{3}...\"* — **Correct Answer: D**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"If the points of intersection of the ellipses $x^{2}+2y^{2}-6x-12y+23=0$ and $4x^{2}+2y^{2}-20x-12y+35=0$ lie on a circle of radius $r$ and ...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (Numerical)**: *\"Let A be the point (3, 0) and circles with variable diameter AB touch the circle $x^{2}+y^{2}=36$ internally. Let the curve C be the locus o...\"* — **Correct Answer: 18**\n",
-    "formula_sheet_markdown": "# Ellipse Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 116 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Ellipse Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2004 – 2026)  \n**Empirical Dataset**: 116 Previous Year Questions Analyzed (103 MCQs, 13 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **116** authentic JEE Main problems.\n- **Question Format Breakdown**: **103 MCQs** (88%) and **13 Numerical Value Questions** (11%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2004 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Eccentricity, Foci & Tangents of Ellipse | **112 PYQs** | Ellipse |\n| **High** | Focal Properties & Auxiliary Circle | **11 PYQs** | Focal Geometry |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Eccentricity, Foci & Tangents of Ellipse (Ellipse)\n- **Exam Weightage**: Tested in **112 PYQs** (Very High Yield)\n- **Conceptual Summary**: Standard ellipse equation, focal distance sum property $SP + S'P = 2a$, eccentricity $e < 1$, and director circle.\n\n#### Standard Mathematical Formulation\n$$\ne = \\sqrt{1 - \\frac{b^2}{a^2}}, \\quad \\text{Foci: } (\\pm ae, 0), \\quad \\text{LR} = \\frac{2b^2}{a}, \\quad \\text{Tangent: } y = mx \\pm \\sqrt{a^2 m^2 + b^2}, \\quad \\text{Director: } x^2 + y^2 = a^2 + b^2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: If $b > a$ (vertical ellipse), major axis is along y-axis and $e = \\sqrt{1 - a^2/b^2}$ with foci at $(0, \\pm be)$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Product of perpendiculars from the two foci onto any tangent to the ellipse is always constant and equal to $b^2$.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\frac{x^{2}}{f(a^{2}+7a+3)}+\\frac{y^{2}}{f(3a+15)}=1$ represent an ellipse with major axis along $y$ -axis, where $f$ is a strictly dec...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let an ellipse $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ , $a<b$ , pass through the point (4, 3) and have eccentricity $\\frac{\\sqrt{5}}{3}...\"* — **Correct Answer: D**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"If the points of intersection of the ellipses $x^{2}+2y^{2}-6x-12y+23=0$ and $4x^{2}+2y^{2}-20x-12y+35=0$ lie on a circle of radius $r$ and ...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (Numerical)**: *\"Let A be the point (3, 0) and circles with variable diameter AB touch the circle $x^{2}+y^{2}=36$ internally. Let the curve C be the locus o...\"* — **Correct Answer: 18**\n\n### 2.2 Focal Properties & Auxiliary Circle (Focal Geometry)\n- **Exam Weightage**: Tested in **11 PYQs** (High Yield)\n- **Conceptual Summary**: Focal radius property $SP + S'P = 2a$, auxiliary circle projections, and parametric coordinate representation.\n\n#### Standard Mathematical Formulation\n$$\nSP + S'P = 2a = \\text{Major Axis}, \\quad \\text{Auxiliary Circle: } x^2 + y^2 = a^2, \\quad \\text{Parametric: } (a\\cos\\theta, b\\sin\\theta)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: In an ellipse, the eccentric angle $\theta$ is measured on the auxiliary circle, NOT from the center to the point on the ellipse.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Maximum area of a rectangle inscribed in an ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ is $2ab$.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#3 (MCQ)**: *\"Let the length of the latus rectum of an ellipse $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,(a>b)$ , be 30 . If its eccentricity is the maxi...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#4 (MCQ)**: *\"If the line $\\alpha x+4y=\\sqrt{7}$ , where $\\alpha \\in R$ , touches the ellipse $3x^{2}+4y^{2}=1$ at the point P in the first quadrant, then...\"* — **Correct Answer: N/A**\n- **[2025 Evening Shift] Q#1 (MCQ)**: *\"Let the ellipse $3x^{2}+py^{2}=4$ pass through the centre $C$ of the circle $x^{2}+y^{2}-2x-4y-11=0$ of radius $r$ . Let $f_{1},f_{2}$ be th...\"* — **Correct Answer: N/A**\n- **[2025 Morning Shift] Q#3 (MCQ)**: *\"Let the product of the focal distances of the point $(\\sqrt{3},\\frac{1}{2})$ on the ellipse $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,(a>b)...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Ellipse Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 116 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Eccentricity, Foci & Tangents of Ellipse** | $e = \\sqrt{1 - \\frac{b^2}{a^2}}, \\quad \\text{Foci: } (\\pm ae, 0), \\quad \\text{LR} = \\frac{2b^2}{a}, \\quad \\text{Tangent: } y = mx \\pm \\sqrt{a^2 m^2 + b^2}, \\quad \\text{Director: } x^2 + y^2 = a^2 + b^2$ | Standard SI units apply |\n| **Focal Properties & Auxiliary Circle** | $SP + S'P = 2a = \\text{Major Axis}, \\quad \\text{Auxiliary Circle: } x^2 + y^2 = a^2, \\quad \\text{Parametric: } (a\\cos\\theta, b\\sin\\theta)$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Ellipse Syllabus reduced\nBased on rigorous analysis of all 116 questions from 2004 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Ellipse Syllabus reduced\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       22645
     ],
-    "updated_at": "2026-09-20T15:41:08.408687"
+    "updated_at": "2026-09-20T16:42:46.822269"
   },
   "total_questions": 116,
   "has_docx": true,

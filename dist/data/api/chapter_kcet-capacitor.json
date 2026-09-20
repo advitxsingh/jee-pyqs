@@ -8,20 +8,20 @@
     "total_questions_site": 17,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:27:26.977375"
+    "analyzed_at": "2026-09-20T16:43:56.275133"
   },
   "concepts": [
     {
-      "id": 272,
+      "id": 1670,
       "chapter_slug": "kcet-capacitor",
-      "name": "Kcet Capacitor - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Capacitor.",
-      "standard_formulas": "",
+      "name": "Capacitance & Dielectric Insertion",
+      "category": "Capacitance",
+      "summary": "Parallel plate capacitance, dielectric polarization, and partial dielectric slab insertion.",
+      "standard_formulas": "C_0 = \\frac{\\epsilon_0 A}{d}, \\quad C = \\frac{K\\epsilon_0 A}{d}, \\quad C_{\\text{slab}} = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}, \\quad q_p = q\\left(1 - \\frac{1}{K}\\right)",
       "exam_frequency": 17,
       "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "If battery remains CONNECTED: $V = \\text{const}$, $C$ increases by $K \\implies Q$ increases by $K$. If battery is DISCONNECTED: $Q = \\text{const} \\implies V$ decreases by $1/K$.",
+      "tips_and_tricks": "Energy stored $U = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$. When dielectric is inserted with disconnected battery, $U$ decreases because electrostatic attraction does work.",
       "pyq_ids": [
         9641,
         9645,
@@ -41,20 +41,41 @@
         9675,
         9678
       ]
+    },
+    {
+      "id": 1671,
+      "chapter_slug": "kcet-capacitor",
+      "name": "Capacitor Networks & Energy Redistribution",
+      "category": "Circuits & Energy",
+      "summary": "Equivalent capacitance reduction, charge sharing between interconnected capacitors, and Joule heating loss.",
+      "standard_formulas": "C_{\\text{parallel}} = \\Sigma C_i, \\quad \\frac{1}{C_{\\text{series}}} = \\Sigma \\frac{1}{C_i}, \\quad V_{\\text{common}} = \\frac{C_1 V_1 + C_2 V_2}{C_1 + C_2}, \\quad \\Delta U_{\\text{loss}} = \\frac{C_1 C_2}{2(C_1 + C_2)}(V_1 - V_2)^2",
+      "exam_frequency": 7,
+      "frequency_tier": "Moderate",
+      "common_traps": "When connecting with opposite polarity, use numerator $(C_1 V_1 - C_2 V_2)$ for common potential.",
+      "tips_and_tricks": "Energy loss during charge sharing $\\Delta U_{\\text{loss}}$ is completely independent of wire resistance; it always turns into heat and EM radiation.",
+      "pyq_ids": [
+        9641,
+        9650,
+        9666,
+        9669,
+        9673,
+        9675,
+        9678
+      ]
     }
   ],
   "synthesis": {
     "id": 93,
     "chapter_slug": "kcet-capacitor",
     "title": "Capacitor 2026 2 questions 3.33% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Capacitor 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 17 Previous Year Questions Analyzed (17 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **17** authentic KCET problems.\n- **Question Format Breakdown**: **17 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Kcet Capacitor - Core Application | **17 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Capacitor - Core Application (General Concept)\n- **Exam Weightage**: Tested in **17 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Capacitor.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"In the circuit shown in the figure, the potential difference across the $4\\mu\\text{F}$ capacitor is...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"A parallel plate capacitor has a uniform electric field ' $E$ ' in the space between the plates. If the distance between the plates is ' $d$...\"* — **Correct Answer: C**\n- **[2024 Shift] Q#3 (MCQ)**: *\"A capacitor of capacitance $5\\mu F$ is charged by a battery of emf 10 V . At an instant of time, the potential difference across the capacit...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"A parallel plate capacitor of capacitance $C_{1}$ with a dielectric slab in between its plates is connected to a battery. It has a potential...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Capacitor 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 17 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Capacitor 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 17 Previous Year Questions Analyzed (17 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **17** authentic KCET problems.\n- **Question Format Breakdown**: **17 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Capacitance & Dielectric Insertion | **17 PYQs** | Capacitance |\n| **Moderate** | Capacitor Networks & Energy Redistribution | **7 PYQs** | Circuits & Energy |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Capacitance & Dielectric Insertion (Capacitance)\n- **Exam Weightage**: Tested in **17 PYQs** (Very High Yield)\n- **Conceptual Summary**: Parallel plate capacitance, dielectric polarization, and partial dielectric slab insertion.\n\n#### Standard Mathematical Formulation\n$$\nC_0 = \\frac{\\epsilon_0 A}{d}, \\quad C = \\frac{K\\epsilon_0 A}{d}, \\quad C_{\\text{slab}} = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}, \\quad q_p = q\\left(1 - \\frac{1}{K}\\right)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: If battery remains CONNECTED: $V = \\text{const}$, $C$ increases by $K \\implies Q$ increases by $K$. If battery is DISCONNECTED: $Q = \\text{const} \\implies V$ decreases by $1/K$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Energy stored $U = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$. When dielectric is inserted with disconnected battery, $U$ decreases because electrostatic attraction does work.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"In the circuit shown in the figure, the potential difference across the $4\\mu\\text{F}$ capacitor is...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"A parallel plate capacitor has a uniform electric field ' $E$ ' in the space between the plates. If the distance between the plates is ' $d$...\"* — **Correct Answer: C**\n- **[2024 Shift] Q#3 (MCQ)**: *\"A capacitor of capacitance $5\\mu F$ is charged by a battery of emf 10 V . At an instant of time, the potential difference across the capacit...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"A parallel plate capacitor of capacitance $C_{1}$ with a dielectric slab in between its plates is connected to a battery. It has a potential...\"* — **Correct Answer: N/A**\n\n### 2.2 Capacitor Networks & Energy Redistribution (Circuits & Energy)\n- **Exam Weightage**: Tested in **7 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Equivalent capacitance reduction, charge sharing between interconnected capacitors, and Joule heating loss.\n\n#### Standard Mathematical Formulation\n$$\nC_{\\text{parallel}} = \\Sigma C_i, \\quad \\frac{1}{C_{\\text{series}}} = \\Sigma \\frac{1}{C_i}, \\quad V_{\\text{common}} = \\frac{C_1 V_1 + C_2 V_2}{C_1 + C_2}, \\quad \\Delta U_{\\text{loss}} = \\frac{C_1 C_2}{2(C_1 + C_2)}(V_1 - V_2)^2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: When connecting with opposite polarity, use numerator $(C_1 V_1 - C_2 V_2)$ for common potential.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Energy loss during charge sharing $\\Delta U_{\\text{loss}}$ is completely independent of wire resistance; it always turns into heat and EM radiation.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"In the circuit shown in the figure, the potential difference across the $4\\mu\\text{F}$ capacitor is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"Five capacitance each of value $1\\mu F$ are connected as shown in the figure. The equivalent capacitance between $A$ and $B$ is...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#3 (MCQ)**: *\"The difference between equivalent capacitances of two identical capacitors connected in parallel to that in series is $6\\mu F$ . The value o...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#4 (MCQ)**: *\"The equivalent capacitance between A and B is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Capacitor 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 17 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Capacitance & Dielectric Insertion** | $C_0 = \\frac{\\epsilon_0 A}{d}, \\quad C = \\frac{K\\epsilon_0 A}{d}, \\quad C_{\\text{slab}} = \\frac{\\epsilon_0 A}{d - t(1 - 1/K)}, \\quad q_p = q\\left(1 - \\frac{1}{K}\\right)$ | Standard SI units apply |\n| **Capacitor Networks & Energy Redistribution** | $C_{\\text{parallel}} = \\Sigma C_i, \\quad \\frac{1}{C_{\\text{series}}} = \\Sigma \\frac{1}{C_i}, \\quad V_{\\text{common}} = \\frac{C_1 V_1 + C_2 V_2}{C_1 + C_2}, \\quad \\Delta U_{\\text{loss}} = \\frac{C_1 C_2}{2(C_1 + C_2)}(V_1 - V_2)^2$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Capacitor 2026 2 questions 3.33% weightage\nBased on rigorous analysis of all 17 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Capacitor 2026 2 questions 3.33% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       9641
     ],
-    "updated_at": "2026-09-20T15:27:26.949374"
+    "updated_at": "2026-09-20T16:43:56.264375"
   },
   "total_questions": 17,
   "has_docx": true,

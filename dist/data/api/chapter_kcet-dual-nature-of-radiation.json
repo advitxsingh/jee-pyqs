@@ -8,45 +8,59 @@
     "total_questions_site": 25,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:27:42.545601"
+    "analyzed_at": "2026-09-20T16:44:05.419281"
   },
   "concepts": [
     {
-      "id": 278,
+      "id": 1690,
       "chapter_slug": "kcet-dual-nature-of-radiation",
-      "name": "Kcet Dual Nature Of Radiation - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Dual Nature Of Radiation.",
-      "standard_formulas": "",
-      "exam_frequency": 25,
+      "name": "Photoelectric Effect & Einstein's Equation",
+      "category": "Photoelectric",
+      "summary": "Quantum nature of light, work function $\\phi_0$, threshold frequency $\\nu_0$, and stopping potential $V_s$ dependence on frequency.",
+      "standard_formulas": "E = h\\nu = \\phi_0 + K_{\\text{max}}, \\quad K_{\\text{max}} = e V_s = h(\\nu - \\nu_0) = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)",
+      "exam_frequency": 15,
       "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "Stopping potential depends solely on FREQUENCY and work function; it is completely independent of intensity of incident light!",
+      "tips_and_tricks": "Slope of stopping potential vs frequency curve is always universal: $\\text{Slope} = h/e$.",
       "pyq_ids": [
         9886,
         9887,
-        9888,
         9890,
         9892,
         9895,
-        9897,
         9900,
-        9901,
         9902,
-        9903,
         9904,
-        9905,
         9906,
         9907,
         9908,
-        9909,
         9910,
-        9911,
         9912,
-        9913,
         9914,
+        9916
+      ]
+    },
+    {
+      "id": 1691,
+      "chapter_slug": "kcet-dual-nature-of-radiation",
+      "name": "De Broglie Hypothesis & Matter Waves",
+      "category": "Matter Waves",
+      "summary": "Dual wave-particle nature of moving particles, de Broglie wavelength under electrostatic acceleration $V$, and thermal gas particles.",
+      "standard_formulas": "\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2mE}} = \\frac{h}{\\sqrt{2mqV}}, \\quad \\lambda_{\\text{electron}} \\approx \\frac{1.227}{\\sqrt{V}}\\text{ nm} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}",
+      "exam_frequency": 10,
+      "frequency_tier": "High",
+      "common_traps": "For neutral particles (neutrons), de Broglie wavelength is $\\lambda = \\frac{h}{\\sqrt{3mkT}}$, where $k$ is Boltzmann constant.",
+      "tips_and_tricks": "For proton vs alpha particle accelerated through same voltage $V$: $\\frac{\\lambda_p}{\\lambda_\\alpha} = \\sqrt{\\frac{m_\\alpha q_\\alpha}{m_p q_p}} = \\sqrt{4 \\times 2} = 2\\sqrt{2}$.",
+      "pyq_ids": [
+        9888,
+        9897,
+        9901,
+        9903,
+        9905,
+        9909,
+        9911,
+        9913,
         9915,
-        9916,
         9917
       ]
     }
@@ -55,14 +69,15 @@
     "id": 99,
     "chapter_slug": "kcet-dual-nature-of-radiation",
     "title": "Dual Nature of Radiation 2026 2 questions 3.33% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Dual Nature of Radiation 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 25 Previous Year Questions Analyzed (25 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **25** authentic KCET problems.\n- **Question Format Breakdown**: **25 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Kcet Dual Nature Of Radiation - Core Application | **25 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Dual Nature Of Radiation - Core Application (General Concept)\n- **Exam Weightage**: Tested in **25 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Dual Nature Of Radiation.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Variation of photoelectric current with anode potential is shown below. Choose the correct option ( $V_{0}$ = stopping potential)...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Work function of the metal is...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"If we consider an electron and a photon of same de-Broglie wavelength, then they will have same...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct g...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Dual Nature of Radiation 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 25 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Dual Nature of Radiation 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 25 Previous Year Questions Analyzed (25 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **25** authentic KCET problems.\n- **Question Format Breakdown**: **25 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Photoelectric Effect & Einstein's Equation | **15 PYQs** | Photoelectric |\n| **High** | De Broglie Hypothesis & Matter Waves | **10 PYQs** | Matter Waves |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Photoelectric Effect & Einstein's Equation (Photoelectric)\n- **Exam Weightage**: Tested in **15 PYQs** (Very High Yield)\n- **Conceptual Summary**: Quantum nature of light, work function $\\phi_0$, threshold frequency $\\nu_0$, and stopping potential $V_s$ dependence on frequency.\n\n#### Standard Mathematical Formulation\n$$\nE = h\\nu = \\phi_0 + K_{\\text{max}}, \\quad K_{\\text{max}} = e V_s = h(\\nu - \\nu_0) = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Stopping potential depends solely on FREQUENCY and work function; it is completely independent of intensity of incident light!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Slope of stopping potential vs frequency curve is always universal: $\\text{Slope} = h/e$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Variation of photoelectric current with anode potential is shown below. Choose the correct option ( $V_{0}$ = stopping potential)...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Work function of the metal is...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct g...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#1 (MCQ)**: *\"Light of energy $E$ falls normally on a metal of work function $\\frac{E}{3}$ . The kinetic energies $K$ of the photo electrons are...\"* — **Correct Answer: N/A**\n\n### 2.2 De Broglie Hypothesis & Matter Waves (Matter Waves)\n- **Exam Weightage**: Tested in **10 PYQs** (High Yield)\n- **Conceptual Summary**: Dual wave-particle nature of moving particles, de Broglie wavelength under electrostatic acceleration $V$, and thermal gas particles.\n\n#### Standard Mathematical Formulation\n$$\n\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2mE}} = \\frac{h}{\\sqrt{2mqV}}, \\quad \\lambda_{\\text{electron}} \\approx \\frac{1.227}{\\sqrt{V}}\\text{ nm} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For neutral particles (neutrons), de Broglie wavelength is $\\lambda = \\frac{h}{\\sqrt{3mkT}}$, where $k$ is Boltzmann constant.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: For proton vs alpha particle accelerated through same voltage $V$: $\\frac{\\lambda_p}{\\lambda_\\alpha} = \\sqrt{\\frac{m_\\alpha q_\\alpha}{m_p q_p}} = \\sqrt{4 \\times 2} = 2\\sqrt{2}$.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#3 (MCQ)**: *\"If we consider an electron and a photon of same de-Broglie wavelength, then they will have same...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"The energy gap of an LED is $2.4eV$ . When the LED is switched ON, the momentum of the emitted photons is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A 60 W source emits monochromatic light of wavelength 662.5 nm. The number of photons emitted per second is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#3 (MCQ)**: *\"The de-Broglie wavelength of a particle of kinetic energy $K$ is $\\lambda$ , the wavelength of the particle, if its kinetic energy $\\frac{K}...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Dual Nature of Radiation 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 25 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Photoelectric Effect & Einstein's Equation** | $E = h\\nu = \\phi_0 + K_{\\text{max}}, \\quad K_{\\text{max}} = e V_s = h(\\nu - \\nu_0) = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$ | Standard SI units apply |\n| **De Broglie Hypothesis & Matter Waves** | $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2mE}} = \\frac{h}{\\sqrt{2mqV}}, \\quad \\lambda_{\\text{electron}} \\approx \\frac{1.227}{\\sqrt{V}}\\text{ nm} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Dual Nature of Radiation 2026 2 questions 3.33% weightage\nBased on rigorous analysis of all 25 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Dual Nature of Radiation 2026 2 questions 3.33% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      9886
+      9886,
+      9888
     ],
-    "updated_at": "2026-09-20T15:27:42.531994"
+    "updated_at": "2026-09-20T16:44:05.399848"
   },
   "total_questions": 25,
   "has_docx": true,

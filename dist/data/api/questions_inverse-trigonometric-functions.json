@@ -46,14 +46,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moxad8sq/a46a13d4-1033-41dc-b949-df53aa7ba5f9/01bac2a0-4b11-11f1-8353-79c9d062302a/file-6y3zli1moxad8sr.png?format=png"
       ],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha=3sin^{-1}(\\frac{6}{11})",
         "\\beta=3cos^{-1}(\\frac{4}{9})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:03.273505"
     },
@@ -102,7 +102,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm6m2bx9/0b8752c1-bde5-4f23-8c5d-2eed3fd06af5/278058d0-14cd-11f1-a532-8dc588f40075/file-jaoe38c1mm6m2bxa.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm6m2cet/364f014e-2a25-47cb-a991-738c56e1bc6e/27e0c850-14cd-11f1-a532-8dc588f40075/file-jaoe38c1mm6m2ceu.png?format=png"
       ],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{1}{x^{2}-2x-2})",
@@ -113,7 +113,7 @@
         "x \\in (-\\infty,-1]∪(1-\\sqrt{3},1+\\sqrt{3})∪[3,\\infty)-S_{2}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:03.910477"
     },
@@ -159,7 +159,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let us solve</p>\n<p> $sin(tan^{-1}(x\\sqrt{2}))=cot(sin^{-1}\\sqrt{1-x^{2}}),x \\in (0,1)$ </p>\n<p>step by step.</p>\n<h2>Step 1: Simplify the left-hand side</h2>\n<p>Let</p>\n<p> $\\theta=tan^{-1}(x\\sqrt{2})$ </p>\n<p>Then</p>\n<p> $tan\\theta=x\\sqrt{2}$ </p>\n<p>We know that if  $tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$ , then we can take</p>\n<ul>\n<li><p>opposite  $=x\\sqrt{2}$ </p></li>\n<li><p>adjacent  $=1$ </p></li>\n</ul>\n<p>So hypotenuse is</p>\n<p> $\\sqrt{1+(x\\sqrt{2})^{2}}=\\sqrt{1+2x^{2}}$ </p>\n<p>Hence,</p>\n<p> $sin\\theta=\\frac{x\\sqrt{2}}{\\sqrt{1+2x^{2}}}$ </p>\n<p>Therefore,</p>\n<p> $sin(tan^{-1}(x\\sqrt{2}))=\\frac{x\\sqrt{2}}{\\sqrt{1+2x^{2}}}$ </p>\n<h2>Step 2: Simplify the right-hand side</h2>\n<p>Let</p>\n<p> $\\phi=sin^{-1}\\sqrt{1-x^{2}}$ </p>\n<p>Then</p>\n<p> $sin\\phi=\\sqrt{1-x^{2}}$ </p>\n<p>Since  $x \\in (0,1)$ , we have  $\\sqrt{1-x^{2}} \\in (0,1)$ , so  $\\phi$  is acute.</p>\n<p>Now,</p>\n<p> $cos\\phi=\\sqrt{1-sin^{2}\\phi}=\\sqrt{1-(1-x^{2})}=\\sqrt{x^{2}}=x$ </p>\n<p>because  $x&gt;0$ .</p>\n<p>Therefore,</p>\n<p> $cot\\phi=\\frac{cos\\phi}{sin\\phi}=\\frac{x}{\\sqrt{1-x^{2}}}$ </p>\n<p>So,</p>\n<p> $cot(sin^{-1}\\sqrt{1-x^{2}})=\\frac{x}{\\sqrt{1-x^{2}}}$ </p>\n<h2>Step 3: Equate both sides</h2>\n<p>Now the given equation becomes</p>\n<p> $\\frac{x\\sqrt{2}}{\\sqrt{1+2x^{2}}}=\\frac{x}{\\sqrt{1-x^{2}}}$ </p>\n<p>Since  $x \\in (0,1)$ , we have  $x \\ne 0$ , so divide both sides by  $x$ :</p>\n<p> $\\frac{\\sqrt{2}}{\\sqrt{1+2x^{2}}}=\\frac{1}{\\sqrt{1-x^{2}}}$ </p>\n<h2>Step 4: Cross multiply</h2>\n<p> $\\sqrt{2}\\sqrt{1-x^{2}}=\\sqrt{1+2x^{2}}$ </p>\n<p>Now square both sides:</p>\n<p> $2(1-x^{2})=1+2x^{2}$ </p>\n<p> $2-2x^{2}=1+2x^{2}$ </p>\n<p> $1=4x^{2}$ </p>\n<p> $x^{2}=\\frac{1}{4}$ </p>\n<p>Since  $x \\in (0,1)$ ,</p>\n<p> $x=\\frac{1}{2}$ </p>\n<h2>Final Answer</h2>\n<p> $\\frac{1}{2}$ </p>\n<p>So, the correct option is <strong>Option A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "sin(tan^{-1}(x\\sqrt{2}))=cot(sin^{-1}\\sqrt{1-x^{2}}),x \\in (0,1)",
@@ -170,7 +170,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:03.309961"
     },
@@ -216,14 +216,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; tan^{-1}4x+tan^{-1}6x=\\frac{\\pi}{6} \\\\ &amp; \\begin{aligned} &amp; tan^{-1}(\\frac{10x}{1-24x^{2}})=\\frac{\\pi}{6} \\\\ &amp; 24x^{2}+10\\sqrt{3}x-1=0 \\\\ &amp; x=\\frac{-5\\sqrt{3} \\pm 3\\sqrt{14}}{24} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "tan^{-1}4x+tan^{-1}6x=\\frac{\\pi}{6}",
         "-\\frac{1}{2\\sqrt{6}}<x<\\frac{1}{2\\sqrt{6}}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:41:03.943351"
     },
@@ -269,7 +269,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  </p>\n<p> $A=tan^{-1}(1-\\alpha),B=tan^{-1}(1-\\beta)$ </p>\n<p>and it is given that</p>\n<p> $A+B=\\frac{\\pi}{4}.$ </p>\n<p>Also,</p>\n<p> $0&lt;\\alpha&lt;1,\\beta=\\frac{1}{3\\alpha}.$ </p>\n<p>We have to find  $6(\\alpha+\\beta)$ .</p>\n<p>Using the tangent addition formula,</p>\n<p> $tan(A+B)=\\frac{tanA+tanB}{1-tanAtanB}.$ </p>\n<p>Since</p>\n<p> $A+B=\\frac{\\pi}{4},$ </p>\n<p>we get</p>\n<p> $tan(A+B)=1.$ </p>\n<p>Now,</p>\n<p> $tanA=1-\\alpha,tanB=1-\\beta.$ </p>\n<p>So,</p>\n<p> $\\frac{(1-\\alpha)+(1-\\beta)}{1-(1-\\alpha)(1-\\beta)}=1.$ </p>\n<p>Simplifying the numerator:</p>\n<p> $(1-\\alpha)+(1-\\beta)=2-\\alpha-\\beta.$ </p>\n<p>Now simplify the denominator:</p>\n<p> $1-(1-\\alpha)(1-\\beta)=1-(1-\\alpha-\\beta+\\alpha\\beta)=\\alpha+\\beta-\\alpha\\beta.$ </p>\n<p>Hence,</p>\n<p> $\\frac{2-\\alpha-\\beta}{\\alpha+\\beta-\\alpha\\beta}=1.$ </p>\n<p>Therefore,</p>\n<p> $2-\\alpha-\\beta=\\alpha+\\beta-\\alpha\\beta.$ </p>\n<p>So,</p>\n<p> $2=2\\alpha+2\\beta-\\alpha\\beta.$ </p>\n<p>Now use</p>\n<p> $\\beta=\\frac{1}{3\\alpha}.$ </p>\n<p>Substituting:</p>\n<p> $2=2\\alpha+\\frac{2}{3\\alpha}-\\alpha \\cdot \\frac{1}{3\\alpha}.$ </p>\n<p>Since</p>\n<p> $\\alpha \\cdot \\frac{1}{3\\alpha}=\\frac{1}{3},$ </p>\n<p>we get</p>\n<p> $2=2\\alpha+\\frac{2}{3\\alpha}-\\frac{1}{3}.$ </p>\n<p>Add  $\\frac{1}{3}$  to both sides:</p>\n<p> $\\frac{7}{3}=2\\alpha+\\frac{2}{3\\alpha}.$ </p>\n<p>Multiply by  $3\\alpha$ :</p>\n<p> $7\\alpha=6\\alpha^{2}+2.$ </p>\n<p>So,</p>\n<p> $6\\alpha^{2}-7\\alpha+2=0.$ </p>\n<p>Factorising:</p>\n<p> $(3\\alpha-2)(2\\alpha-1)=0.$ </p>\n<p>Thus,</p>\n<p> $\\alpha=\\frac{2}{3}\\text{or}\\alpha=\\frac{1}{2}.$ </p>\n<p>Now find  $\\beta=\\frac{1}{3\\alpha}$ .</p>\n<h3>Case 1:</h3>\n<p>If</p>\n<p> $\\alpha=\\frac{2}{3},$ </p>\n<p>then</p>\n<p> $\\beta=\\frac{1}{2}.$ </p>\n<p>So,</p>\n<p> $\\alpha+\\beta=\\frac{2}{3}+\\frac{1}{2}=\\frac{7}{6}.$ </p>\n<p>Hence,</p>\n<p> $6(\\alpha+\\beta)=7.$ </p>\n<h3>Case 2:</h3>\n<p>If</p>\n<p> $\\alpha=\\frac{1}{2},$ </p>\n<p>then</p>\n<p> $\\beta=\\frac{2}{3}.$ </p>\n<p>Again,</p>\n<p> $\\alpha+\\beta=\\frac{1}{2}+\\frac{2}{3}=\\frac{7}{6}.$ </p>\n<p>Hence,</p>\n<p> $6(\\alpha+\\beta)=7.$ </p>\n<p>Therefore, the required value is</p>\n<p> $7$ </p>\n<p>So, the correct option is <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "0<\\alpha<1,\\beta=\\frac{1}{3\\alpha}",
@@ -280,7 +280,7 @@
         "tan(A+B)=\\frac{tanA+tanB}{1-tanAtanB}."
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:03.333709"
     },
@@ -328,14 +328,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm0ry90u/cddac1e2-a152-41b8-8899-b743bbb2bc78/78e714e0-1197-11f1-991d-6b24cf51586e/file-jaoe38c1mm0ry90v.png?format=png"
       ],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos^{-1}(\\frac{2x-5}{11-3x})+sin^{-1}(2x^{2}-3x+1)",
         "\\text{(1)}\\frac{2x-5}{11-3x}-1 \\le 0"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:03.980123"
     },
@@ -381,7 +381,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Simplify the individual components</p>\n<p>Let  $\\alpha=sin^{-1}(\\frac{2}{\\sqrt{13}})$  and  $\\beta=cos^{-1}(\\frac{3}{\\sqrt{10}})$ .</p>\n<ul>\n<li>For  $\\alpha$  : Since  $sin\\alpha=\\frac{2}{\\sqrt{13}}$ , using Pythagoras' theorem (base  $=\\sqrt{(\\sqrt{13})^{2}-2^{2}}=3$  ), we get:</li>\n</ul>\n<p> $tan\\alpha=\\frac{2}{3}$ </p>\n<ul>\n<li>For  $\\beta$  : Since  $cos\\beta=\\frac{3}{\\sqrt{10}}$ , using Pythagoras' theorem (perpendicular  $=\\sqrt{(\\sqrt{10})^{2}-3^{2}}=1$  ), we get:</li>\n</ul>\n<p> $tan\\beta=\\frac{1}{3}$ </p>\n<p>Rewrite the expression</p>\n<p>The expression becomes:  $tan(2\\alpha-2\\beta)=tan[2(\\alpha-\\beta)]$ .</p>\n<p>First, find  $tan(\\alpha-\\beta)$  using the formula  $tan(A-B)=\\frac{tanA-tanB}{1+tanAtanB}$ </p>\n<p> $tan(\\alpha-\\beta)=\\frac{\\frac{2}{3}-\\frac{1}{3}}{1+(\\frac{2}{3} \\cdot \\frac{1}{3})}=\\frac{\\frac{1}{3}}{1+\\frac{2}{9}}=\\frac{\\frac{1}{3}}{\\frac{11}{9}}=\\frac{1}{3} \\cdot \\frac{9}{11}=\\frac{3}{11}$ </p>\n<ol start=\"3\">\n<li>Calculate the final value</li>\n</ol>\n<p>Now, use the double angle formula  $tan(2\\theta)=\\frac{2tan\\theta}{1-tan^{2}\\theta}$ , where  $\\theta=(\\alpha-\\beta)$  :</p>\n<p> $\\begin{aligned} tan[2(\\alpha-\\beta)]=\\frac{2(\\frac{3}{11})}{1-(\\frac{3}{11})^{2}} \\\\ tan[2(\\alpha-\\beta)]=\\frac{\\frac{6}{11}}{1-\\frac{9}{121}}=\\frac{\\frac{6}{11}}{\\frac{112}{121}} \\\\ tan[2(\\alpha-\\beta)]=\\frac{6}{11} \\cdot \\frac{121}{112}=\\frac{6 \\cdot 11}{112}=\\frac{66}{112}=\\frac{33}{56} \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "tan(2sin^{-1}(\\frac{2}{\\sqrt{13}})-2cos^{-1}(\\frac{3}{\\sqrt{10}}))",
@@ -392,7 +392,8 @@
         "tan\\alpha=\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:03.364629"
     },
@@ -438,11 +439,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cot^{-1}(\\frac{7}{4})+cot^{-1}(\\frac{19}{4})+cot^{-1}(\\frac{39}{4})+cot^{-1}(\\frac{67}{4})+\\dots \\\\ &amp; T_{r}=cot^{-1}(\\frac{4r^{2}+3}{4}) \\\\ &amp; T_{r}=tan^{-1}(\\frac{1}{(\\frac{3}{4}+r^{2})}) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; T_{r}=tan^{-1}(\\frac{(r+\\frac{1}{2})-(r-\\frac{1}{2})}{1+r^{2}-1/4}) \\\\ &amp; T_{r}=tan^{-1}(\\frac{(r+\\frac{1}{2})-(r-\\frac{1}{2})}{1+(r+\\frac{1}{2})(r-\\frac{1}{2})}) \\\\ &amp; T_{r}=tan^{-1}(r+\\frac{1}{2})-tan^{-1}(r-\\frac{1}{2}) \\\\ &amp; T_{1}=tan^{-1}(\\frac{3}{2})-tan^{-1}(\\frac{1}{2}) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; T_{2}=tan^{-1}(\\frac{5}{2})-tan^{-1}(\\frac{3}{2}) \\\\ &amp; ⋮⋮⋮ \\\\ &amp; T_{n}=tan^{-1}(\\frac{2n+1}{2})-tan^{-1}(\\frac{1}{2}) \\\\ &amp; \\Sigma T_{r}=tan^{-1}(\\frac{2n+1}{2})-tan^{-1}(\\frac{1}{2}) \\\\ &amp; \\Sigma T_{r}=\\frac{\\pi}{2}-tan^{-1}(\\frac{1}{2}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:04.471822"
     },
@@ -488,11 +489,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\Rightarrow cot^{-1}(\\frac{\\alpha\\beta+1}{\\alpha-\\beta})+cot^{-1}(\\frac{\\beta\\gamma+1}{\\beta-\\gamma})+cot^{-1}(\\frac{\\alpha\\gamma+1}{\\gamma-\\alpha}) \\\\ &amp; \\Rightarrow tan^{-1}(\\frac{\\alpha-\\beta}{1+\\alpha\\beta})+tan^{-1}(\\frac{\\beta-\\gamma}{1+\\beta\\gamma})+\\pi+tan^{-1}(\\frac{\\gamma-\\alpha}{1+\\gamma\\alpha}) \\\\ &amp; \\Rightarrow (tan^{-1}\\alpha-tan^{-1}\\beta)+(tan^{-1}\\beta-tan^{-1}\\gamma)+(\\pi+tan^{-1}\\gamma-tan^{-1}\\alpha) \\\\ &amp; \\Rightarrow \\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:05.042260"
     },
@@ -538,11 +539,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; sin^{-1}(\\frac{\\sqrt{3}}{2}x+\\frac{1}{2}\\sqrt{1-x^{2}}),-\\frac{1}{2}&lt;x&lt;\\frac{1}{\\sqrt{2}} \\\\ &amp; \\text{Let}x=cos\\theta,\\theta \\in (\\frac{\\pi}{4},\\frac{2\\pi}{3}) \\\\ &amp; \\Rightarrow \\sqrt{1-x^{2}}=sin\\theta\\text{as}sin\\theta&gt;0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} sin^{-1}(\\frac{\\sqrt{3}}{2}cos\\theta+\\frac{1}{2}sin\\theta)=sin^{-1}( &amp; sin(\\frac{\\pi}{3}+\\theta)) \\\\ &amp; \\frac{\\pi}{3}+\\theta \\in (\\frac{7\\pi}{2},\\pi) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =sin^{-1}(sin(\\pi-(\\frac{\\pi}{3}+\\theta))) \\\\ &amp; =sin^{-1}(sin(\\frac{2\\pi}{3}-\\theta)) \\\\ &amp; =\\frac{2\\pi}{3}-\\theta \\\\ &amp; =\\frac{2\\pi}{3}-cos^{-1}x \\\\ &amp; =\\frac{2\\pi}{3}-(\\frac{\\pi}{2}-sin^{-1}x) \\\\ &amp; =\\frac{\\pi}{6}+sin^{-1}x \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:04.522068"
     },
@@ -588,14 +589,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{\\pi}{2} \\le x \\le \\frac{3\\pi}{4} \\\\ &amp; cos^{-1}(\\frac{12}{13}cosx+\\frac{5}{12}sinx) \\\\ &amp; cos^{-1}(cosxcos\\alpha+sinxsin\\alpha) \\\\ &amp; cos^{-1}(cos(x-\\alpha)) \\\\ &amp; \\Rightarrow x-\\alpha\\text{because}x-\\alpha \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2}) \\\\ &amp; \\Rightarrow x-tan^{-1}\\frac{5}{12} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\pi}{2} \\le x \\le \\frac{3\\pi}{4}",
         "cos^{-1}(\\frac{12}{13}cosx+\\frac{5}{13}sinx)"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:41:05.062978"
     },
@@ -641,13 +642,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2[x]+1 \\le -1\\text{or}2[x]+1 \\ge 1 \\\\ &amp; \\Rightarrow [x] \\le -1∪[x] \\ge 0 \\\\ &amp; \\Rightarrow x \\in (-\\infty,0)∪x \\in [0,\\infty) \\\\ &amp; \\Rightarrow x \\in (-\\infty,\\infty) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=sec^{-1}(2[x]+1)"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:04.555339"
     },
@@ -693,7 +694,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f(x)=16[(sec^{-1}x)^{2}+(cosec^{-1}x)^{2}]$ .</p>\n<p>We can express  $f(x)$  as:</p>\n<p> $f(x)=16[(sec^{-1}x+cosec^{-1}x)^{2}-2(sec^{-1}x)(\\frac{\\pi}{2}-sec^{-1}x)]$ </p>\n<p>This simplifies to:</p>\n<p> $f(x)=16[\\frac{\\pi^{2}}{4}-\\pi sec^{-1}x+2(sec^{-1}x)^{2}],\\text{where}sec^{-1}x \\in [0,\\pi]-{\\frac{\\pi}{2}}$ </p>\n<p>Further simplification gives:</p>\n<p> $f(x)=16[2(sec^{-1}x-\\frac{\\pi}{4})^{2}+\\frac{\\pi^{2}}{4}-\\frac{\\pi^{2}}{8}]$ </p>\n<p>For the maximum value when  $sec^{-1}x=\\pi$ :</p>\n<p> $max=16[2\\pi^{2}-\\pi^{2}+\\frac{\\pi^{2}}{4}]=20\\pi^{2}$ </p>\n<p>For the minimum value when  $sec^{-1}x=\\frac{\\pi}{4}$ :</p>\n<p> $min=16[\\frac{2 \\times \\pi^{2}}{16}-\\frac{\\pi^{2}}{4}+\\frac{\\pi^{2}}{4}]=2\\pi^{2}$ </p>\n<p>Therefore, the sum of the maximum and minimum values is:</p>\n<p> $\\text{Sum}=22\\pi^{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "16((sec^{-1}x)^{2}+(cosec^{-1}x)^{2})",
@@ -701,7 +702,7 @@
         "f(x)=16[(sec^{-1}x+cosec^{-1}x)^{2}-2(sec^{-1}x)(\\frac{\\pi}{2}-sec^{-1}x)]"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:05.087120"
     },
@@ -747,11 +748,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cot^{-1}(\\frac{|sec2|-1}{tan2})-cot^{-1}(\\frac{|sec\\frac{1}{2}|+1}{tan\\frac{1}{2}})$ </p>\n<p> $\\begin{aligned} &amp; =cot^{-1}(\\frac{-1-cos2}{sin2})-cot^{-1}(\\frac{1+cos\\frac{1}{2}}{sin\\frac{1}{2}}) \\\\ &amp; =\\pi-cot^{-1}(cot1)-cot^{-1}(cot\\frac{1}{4}) \\\\ &amp; =\\pi-1-\\frac{1}{4}=\\pi-\\frac{5}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:03.994574"
     },
@@ -797,13 +798,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos(sin^{-1}\\frac{3}{5}+sin^{-1}\\frac{5}{13}+sin^{-1}\\frac{33}{65}) \\\\ &amp; cos(tan^{-1}\\frac{3}{4}+tan^{-1}\\frac{5}{12}+tan^{-1}\\frac{33}{56}) \\\\ &amp; cos(tan^{-1}(\\frac{\\frac{3}{4}+\\frac{5}{12}}{1+\\frac{3}{4} \\cdot \\frac{5}{12}})+tan^{-1}\\frac{33}{56}) \\\\ &amp; cos(tan^{-1}\\frac{56}{33}+cot^{-1}\\frac{56}{33}) \\\\ &amp; cos(\\frac{\\pi}{2})=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "cos(sin^{-1}\\frac{3}{5}+sin^{-1}\\frac{5}{13}+sin^{-1}\\frac{33}{65})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:04.589850"
     },
@@ -849,13 +850,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; sin^{-1}(\\frac{3x-22}{2x-19})+log_{e}(\\frac{3x^{2}-8x+5}{x^{2}-3x-10}) \\\\ &amp; -1 \\le \\frac{3x-22}{2x-19} \\le 1 \\\\ &amp; \\frac{3x-22}{2x-19}+1 \\ge 0\\text{and}\\frac{3x-22}{2x-19}-1 \\le 0 \\\\ &amp; \\frac{3x-22+2x-19}{2x-19} \\ge 0\\text{and}\\frac{3x-22-2x+19}{2x-19} \\le 0 \\\\ &amp; \\Rightarrow \\frac{5x-41}{2x-19} \\ge 0\\text{and}\\frac{x-3}{2x-19} \\le 0 \\\\ &amp; x \\in (-\\infty,\\frac{41}{5}]∪(\\frac{19}{2},\\infty)\\text{and}x \\in [3,\\frac{19}{2}) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow x \\in [3,\\frac{41}{5}]\\text{.... (1)} \\\\ &amp; \\text{and,}\\frac{3x^{2}-8x+5}{x^{2}-3x-10}&gt;0 \\\\ &amp; \\frac{(3x-5)(x-1)}{(x-5)(x-2)}&gt;0 \\\\ &amp; \\Rightarrow x \\in (-\\infty,-2)∪[1,\\frac{5}{3}]∪(5,\\infty)\\dots \\end{aligned}$ </p>\n<p>Taking intersection of individual domains</p>\n<p> $x \\in (5,\\frac{41}{5}]$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\alpha=5\\text{and}\\beta=\\frac{41}{5} \\\\ &amp; \\Rightarrow 3\\alpha+10\\beta=15+82 \\\\ &amp; =97 \\end{aligned}$ </p>\n<p> $\\therefore$  Option (4) is correct</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}(\\frac{3x-22}{2x-19})+log_{e}(\\frac{3x^{2}-8x+5}{x^{2}-3x-10})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:05.528620"
     },
@@ -901,11 +902,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; tan^{-1}x+tan^{-1}2x=\\frac{\\pi}{4};x&gt;0 \\\\ &amp; \\Rightarrow tan^{-1}2x=\\frac{\\pi}{4}-tan^{-1}x \\end{aligned}$ </p>\n<p>Taking tan both sides</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow 2x=\\frac{1-x}{1+x} \\\\ &amp; \\Rightarrow 2x^{2}+3x-1=0 \\\\ &amp; x=\\frac{-3 \\pm \\sqrt{9+8}}{8}=\\frac{-3 \\pm \\sqrt{17}}{8} \\end{aligned}$ </p>\n<p>Only possible  $x=\\frac{-3+\\sqrt{17}}{8}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:06.112085"
     },
@@ -951,7 +952,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; a=sin^{-1}(sin5)=5-2\\pi \\\\ &amp; \\text{and}b=cos^{-1}(cos5)=2\\pi-5 \\\\ &amp; \\therefore a^{2}+b^{2}=(5-2\\pi)^{2}+(2\\pi-5)^{2} \\\\ &amp; =8\\pi^{2}-40\\pi+50 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "a=sin^{-1}(sin(5))",
@@ -959,7 +960,7 @@
         "a^{2}+b^{2}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:41:05.599957"
     },
@@ -1005,7 +1006,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $sin^{-1}\\alpha=A,sin^{-1}\\beta=B,sin^{-1}\\gamma=C$ </p>\n<p> $\\begin{aligned} &amp; A+B+C=\\pi \\\\ &amp; (\\alpha+\\beta)^{2}-\\gamma^{2}=3\\alpha\\beta \\\\ &amp; \\alpha^{2}+\\beta^{2}-\\gamma^{2}=\\alpha\\beta \\\\ &amp; \\frac{\\alpha^{2}+\\beta^{2}-\\gamma^{2}}{2\\alpha\\beta}=\\frac{1}{2} \\\\ &amp; \\Rightarrow cosC=\\frac{1}{2} \\\\ &amp; sinC=\\gamma \\\\ &amp; cosC=\\sqrt{1-\\gamma^{2}}=\\frac{1}{2} \\\\ &amp; \\gamma=\\frac{\\sqrt{3}}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}\\alpha+sin^{-1}\\beta+sin^{-1}\\gamma=\\pi",
@@ -1013,7 +1014,7 @@
         "sin^{-1}\\alpha=A,sin^{-1}\\beta=B,sin^{-1}\\gamma=C"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:05.634699"
     },
@@ -1059,14 +1060,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos^{-1}x-\\frac{\\pi}{2}+cos^{-1}y=\\alpha \\\\ &amp; cos^{-1}x+cos^{-1}y=\\frac{\\pi}{2}+\\alpha \\\\ &amp; \\because \\alpha \\in [\\frac{-\\pi}{2},\\pi] \\\\ &amp; \\text{then}\\frac{\\pi}{2}+\\alpha \\in (0,\\frac{3\\pi}{2}) \\\\ &amp; cos^{-1}(xy-\\sqrt{1-x^{2}}\\sqrt{1-y^{2}})=\\frac{\\pi}{2}+\\alpha \\\\ &amp; xy-\\sqrt{1-x^{2}}\\sqrt{1-y^{2}}=-sin\\alpha \\\\ &amp; xy+sin\\alpha=\\sqrt{1-x^{2}}\\sqrt{1-y^{2}} \\\\ &amp; x^{2}y^{2}+sin^{2}\\alpha+2xysin\\alpha=1-x^{2}-y^{2}+x^{2}y^{2} \\\\ &amp; \\underset{E}{\\underset{}{x^{2}+y^{2}+2xysin\\alpha}}=cos^{2}\\alpha \\end{aligned}$ </p>\n<p>Now, minimum value of  $E$  is 0.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}x-sin^{-1}y=\\alpha,\\frac{-\\pi}{2} \\le \\alpha \\le \\pi",
         "x^{2}+y^{2}+2xysin\\alpha"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:05.125066"
     },
@@ -1112,7 +1113,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Assume  $sin^{-1}x=\\theta$ </p>\n<p> $\\begin{aligned} &amp; cos(2\\theta)=\\frac{1}{9} \\\\ &amp; sin\\theta= \\pm \\frac{2}{3} \\end{aligned}$ </p>\n<p>as  $m$  and  $n$  are co-prime natural numbers,</p>\n<p> $x=\\frac{2}{3}$ </p>\n<p>i.e.  $m=2,n=3$ </p>\n<p>So, the quadratic equation becomes  $2x^{2}-3x+1=0$  whose roots are  $\\alpha=1,\\beta=\\frac{1}{2}$ </p>\n<p> $(1,\\frac{1}{2})$  lies on  $5x+8y=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{m}{n}",
@@ -1123,7 +1124,7 @@
         "5x+8y=9"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:05.652051"
     },
@@ -1169,7 +1170,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $sin^{-1}sin\\theta-(\\frac{\\pi}{2}-sin^{-1}sin\\theta)&gt;0$ \n<br/><br/> $\\Rightarrow sin^{-1}sin\\theta&gt;\\frac{\\pi}{4}$ \n<br/><br/> $\\Rightarrow sin\\theta&gt;\\frac{1}{\\sqrt{2}}$ \n<br/><br/>So,  $\\theta \\in (\\frac{\\pi}{4},\\frac{3\\pi}{4})$ \n<br/><br/> $\\theta \\in (\\frac{\\pi}{4},\\frac{3\\pi}{4})=(a,b)$ \n<br/><br/> $b-a=\\frac{\\pi}{2}=\\alpha-\\beta$ \n<br/><br/> $\\Rightarrow \\beta=\\alpha-\\frac{\\pi}{2}$ \n<br/><br/> $\\Rightarrow \\alpha x^{2}+\\beta x+sin^{-1}[(x-3)^{2}+1]+cos^{-1}[(x-3)^{2}+1]=0$ \n<br/><br/> $x=3,9\\alpha+3\\beta+\\frac{\\pi}{2}+0=0$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow 9\\alpha+3(\\alpha-\\frac{\\pi}{2})+\\frac{\\pi}{2}=0 \\\\ \\\\ &amp; \\Rightarrow 12\\alpha-\\pi=0 \\\\ \\\\ &amp; \\alpha=\\frac{\\pi}{12} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}(sin\\theta)-cos^{-1}(sin\\theta)>0,\\theta \\in (0,2\\pi)",
@@ -1180,7 +1181,7 @@
         "\\Rightarrow sin\\theta>\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:06.685402"
     },
@@ -1226,7 +1227,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the domain of the function, we need to consider the individual functions and their respective domains. We have:</p>\n<p><ol>\n<li> $f_{1}(x)=ln(4x^{2}+11x+6)$ </li>\n<li> $f_{2}(x)=sin^{-1}(4x+3)$ </li>\n<li> $f_{3}(x)=cos^{-1}(\\frac{10x+6}{3})$ </li>\n</ol></p>\n<p><ol>\n<li>For  $f_{1}(x)$ :</li>\n</ol></p>\n<p> $4x^{2}+11x+6&gt;0$ </p>\n<p>Factoring the quadratic expression:</p>\n<p> $(4x+3)(x+2)&gt;0$ </p>\n<p>From this inequality, we have:</p>\n<p> $x \\in (-\\infty,-2)∪(-\\frac{3}{4},\\infty)$ </p>\n<ol>\n<li>For  $f_{2}(x)$ :</li>\n</ol>\n<p> $-1 \\le 4x+3 \\le 1$ </p>\n<p>From these inequalities, we get:</p>\n<p> $x \\in [-1,-\\frac{1}{2}]$ </p>\n<ol>\n<li>For  $f_{3}(x)$ :</li>\n</ol>\n<p> $-1 \\le \\frac{10x+6}{3} \\le 1$ </p>\n<p>From these inequalities, we get:</p>\n<p> $x \\in [-\\frac{9}{10},-\\frac{3}{10}]$ </p>\n<p>Now, we need to find the intersection of the domains of the three functions:</p>\n<p> $(-\\infty,-2)∪(-\\frac{3}{4},\\infty)∩[-1,-\\frac{1}{2}]∩[-\\frac{9}{10},-\\frac{3}{10}]$ </p>\n<p>To find the intersection, let's analyze the intervals:</p>\n<ul>\n<li>The interval  $(-\\infty,-2)∪(-\\frac{3}{4},\\infty)$  contains all  $x$  values less than  $-2$  and greater than  $-\\frac{3}{4}$ .</li>\n<li>The interval  $[-1,-\\frac{1}{2}]$  contains all  $x$  values between  $-1$  and  $-\\frac{1}{2}$ .</li>\n<li>The interval  $[-\\frac{9}{10},-\\frac{3}{10}]$  contains all  $x$  values between  $-\\frac{9}{10}$  and  $-\\frac{3}{10}$ .</li>\n</ul>\n<p>Looking at the intervals, we can see that the intersection is:</p>\n<p> $x \\in (-\\frac{3}{4},-\\frac{1}{2}]$ </p>\n<p>Thus, the domain of the function is  $(\\alpha,\\beta]=(-\\frac{3}{4},-\\frac{1}{2}]$ . Now, we need to find the value of  $36|\\alpha+\\beta|$ :</p>\n<p> $36|-\\frac{3}{4}-\\frac{1}{2}|=36|-\\frac{5}{4}|=45$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=log_{e}(4x^{2}+11x+6)+sin^{-1}(4x+3)+cos^{-1}(\\frac{10x+6}{3})",
@@ -1237,7 +1238,7 @@
         "4x^{2}+11x+6>0"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:06.152723"
     },
@@ -1283,7 +1284,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $sin^{-1}(\\frac{\\alpha}{17})=-cos^{4}(\\frac{4}{5})+tan^{-1}(\\frac{77}{36})$ \n<br/><br/>Let  $cos^{-1}(\\frac{4}{5})=p$  and  $tan^{-1}(\\frac{77}{36})=q$ \n<br/><br/> $\\Rightarrow sin(sin^{-1}\\frac{\\alpha}{17})=sin(q-p)$ \n<br/><br/> $=sinq \\cdot cosp-cosq \\cdot sinp$ \n<br/><br/> $\\Rightarrow \\frac{\\alpha}{17}=\\frac{77}{85} \\cdot \\frac{4}{5}-\\frac{36}{85} \\cdot \\frac{3}{5}$ \n<br/><br/> $\\Rightarrow \\alpha=\\frac{200}{25}=8$ \n<br/><br/> $sin^{-1}sin8+cos^{-1}cos8$ \n<br/><br/> $=-8+3\\pi+8-2\\pi$ \n<br/><br/> $=\\pi$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow sin(sin^{-1}\\frac{\\alpha}{17})=sin(q-p)",
@@ -1294,7 +1295,7 @@
         "=\\pi"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:41:06.728336"
     },
@@ -1340,13 +1341,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2tan^{-1}(\\frac{1-x}{1+x})=cos^{-1}(\\frac{1-x^{2}}{1+x^{2}})$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Put}x=tan\\theta\\theta \\in (0,\\frac{\\pi}{4}) \\\\ \\\\ &amp; 2tan^{-1}(\\frac{1-tan\\theta}{1+tan\\theta})=cos^{-1}(\\frac{1-tan^{2}\\theta}{1+tan^{2}\\theta}) \\\\ \\\\ &amp; 2tan^{-1}[tan(\\frac{\\pi}{4}-\\theta)]=cos^{-1}[cos(2\\theta)] \\\\ \\\\ &amp; \\Rightarrow 2(\\frac{\\pi}{4}-\\theta)=2\\theta \\Rightarrow \\theta=\\frac{\\pi}{8} \\\\ \\\\ &amp; \\Rightarrow x=tan\\frac{\\pi}{8}=\\sqrt{2}-1≃0.414 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x \\in R:0<x<1and2tan^{-1}(\\frac{1-x}{1+x})=cos^{-1}(\\frac{1-x^{2}}{1+x^{2}})}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:06.193341"
     },
@@ -1392,7 +1393,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $tan^{-1}(\\frac{1+\\sqrt{3}}{3+\\sqrt{3}})+sec^{-1}(\\sqrt{\\frac{8+4\\sqrt{3}}{6+3\\sqrt{3}}})$ </p>\n<p> $=tan^{-1}(\\frac{1+\\sqrt{3}}{3+\\sqrt{3}})+sec^{-1}(\\frac{16+8\\sqrt{3}}{12+6\\sqrt{3}})^{\\frac{1}{2}}$ </p>\n<p> $=tan^{-1}(\\frac{1+\\sqrt{3}}{\\sqrt{3}(\\sqrt{3}+1)})+sec^{-1}(\\frac{4(1^{2}+(\\sqrt{3})^{2}+2.1.\\sqrt{3}}{3^{2}(\\sqrt{3})^{2}+2.3.\\sqrt{3}})^{\\frac{1}{2}}$ </p>\n<p> $=tan^{-1}(\\frac{1}{\\sqrt{3}})+sec^{-1}(\\frac{4(\\sqrt{3}+1)^{2}}{(3+\\sqrt{3})^{2}})^{\\frac{1}{2}}$ </p>\n<p> $=\\frac{\\pi}{6}+sec^{-1}(\\frac{2(\\sqrt{3}+1)}{\\sqrt{3}(\\sqrt{3}+1)})$ </p>\n<p> $=\\frac{\\pi}{6}+sec^{-1}(\\frac{2}{\\sqrt{3}})$ </p>\n<p> $=\\frac{\\pi}{6}+cos^{-1}(\\frac{\\sqrt{3}}{2})$ </p>\n<p> $=\\frac{\\pi}{6}+\\frac{\\pi}{6}$ </p>\n<p> $=\\frac{\\pi}{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{\\pi}{6}+sec^{-1}(\\frac{2(\\sqrt{3}+1)}{\\sqrt{3}(\\sqrt{3}+1)})",
@@ -1402,7 +1403,7 @@
         "=\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:06.773571"
     },
@@ -1448,11 +1449,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; cos^{-1}(2x)=\\pi+2cos^{-1}\\sqrt{1-x^{2}} \\\\ \\\\ &amp; \\text{Since}cos^{-1}(2x) \\in [0,\\pi] \\\\ \\\\ &amp; \\text{R.H.S.} \\ge \\pi \\\\ \\\\ &amp; \\pi+2cos^{-1}\\sqrt{1-x^{2}}=\\pi \\\\ \\\\ &amp; \\Rightarrow cos^{-1}\\sqrt{1-x^{2}}=0 \\\\ \\\\ &amp; \\Rightarrow \\sqrt{1-x^{2}}=1 \\\\ \\\\ &amp; \\Rightarrow x=0 \\\\ \\\\ &amp; \\text{but at}x=0 \\\\ \\\\ &amp; cos^{-1}(2x)=cos^{-1}(0)=\\frac{\\pi}{2} \\end{aligned}$ \n<br/><br/> $\\therefore$  No solution possible for given equation.\n<br/><br/> $x \\in \\phi$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:06.223129"
     },
@@ -1498,7 +1499,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=tan^{-1}(sinx-cosx),[0,\\pi]$ </p>\n<p>Let  $g(x)=sinx-cosx$ </p>\n<p> $=\\sqrt{2}sin(x-\\frac{\\pi}{4})$  and  $x-\\frac{\\pi}{4} \\in [\\frac{-\\pi}{4},\\frac{3\\pi}{4}]$ </p>\n<p> $\\therefore$   $g(x) \\in [-1,\\sqrt{2}]$ </p>\n<p>and  $tan^{-1}x$  is an increasing function</p>\n<p> $\\therefore$   $f(x) \\in [tan^{-1}(-1),tan^{-1}\\sqrt{2}]$ </p>\n<p> $\\in [-\\frac{\\pi}{4},tan^{-1}\\sqrt{2}]$ </p>\n<p> $\\therefore$  Sum of  $f_{max}$  and  $f_{min}=tan^{-1}\\sqrt{2}-\\frac{\\pi}{4}$ </p>\n<p> $=cos^{-1}(\\frac{1}{\\sqrt{3}})-\\frac{\\pi}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=tan^{-1}(sinx-cosx)",
@@ -1509,7 +1510,7 @@
         "tan^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:07.171552"
     },
@@ -1555,7 +1556,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\frac{sin^{-1}x}{\\alpha}=\\frac{cos^{-1}x}{\\beta}=k \\Rightarrow sin^{-1}x+cos^{-1}x=k(\\alpha+\\beta)$ </p>\n<p> $\\Rightarrow \\alpha+\\beta=\\frac{\\pi}{2k}$ </p>\n<p>Now,  $\\frac{2\\pi\\alpha}{\\alpha+\\beta}=\\frac{2\\pi\\alpha}{\\frac{\\pi}{2k}}=4k\\alpha=4sin^{-1}x$ </p>\n<p>Here  $sin(\\frac{2\\pi\\alpha}{\\alpha+\\beta})=sin(4sin^{-1}x)$ </p>\n<p>Let  $sin^{-1}x=\\theta$ </p>\n<p> $\\because$   $x \\in (0,\\frac{1}{\\sqrt{2}}) \\Rightarrow \\theta \\in (0,\\frac{\\pi}{4})$ </p>\n<p> $\\Rightarrow x=sin\\theta$ </p>\n<p> $\\Rightarrow cos\\theta=\\sqrt{1-x^{2}}$ </p>\n<p> $\\Rightarrow sin2\\theta=2x.\\sqrt{1-x^{2}}$ </p>\n<p> $\\Rightarrow cos2\\theta=\\sqrt{1-4x^{2}(1-x^{2})}=\\sqrt{(2x^{2}-1)^{2}}=1-2x^{2}$ </p>\n<p> $\\because$   $(cos2\\theta&gt;0as2\\theta \\in (0,\\frac{\\pi}{2}))$ </p>\n<p> $\\Rightarrow sin4\\theta=2.2x\\sqrt{1-x^{2}}(1-2x^{2})$ </p>\n<p> $=4x\\sqrt{1-x^{2}}(1-2x^{2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "0<x<\\frac{1}{\\sqrt{2}}",
@@ -1566,7 +1567,7 @@
         "\\Rightarrow x=sin\\theta"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:07.985295"
     },
@@ -1612,7 +1613,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $-1 \\le \\frac{x^{2}-4x+2}{x^{2}+3} \\le 1$ </p>\n<p> $\\Rightarrow -x^{2}-3 \\le x^{2}-4x+2 \\le x^{2}+3$ </p>\n<p> $\\Rightarrow 2x^{2}-4x+5 \\ge 0$  &amp;  $-4x \\le 1$ </p>\n<p> $x \\in R$  &amp;  $x \\ge -\\frac{1}{4}$ </p>\n<p>So domain is  $[-\\frac{1}{4},\\infty)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos^{-1}(\\frac{x^{2}-4x+2}{x^{2}+3})",
@@ -1623,7 +1624,7 @@
         "[-\\frac{1}{4},\\infty)"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:07.219107"
     },
@@ -1669,7 +1670,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $tan(2tan^{-1}\\frac{1}{5}+sec^{-1}\\frac{\\sqrt{5}}{2}+2tan^{-1}\\frac{1}{8})$ </p>\n<p> $=tan(2tan^{-1}(\\frac{\\frac{1}{5}+\\frac{1}{8}}{1-\\frac{1}{5}.\\frac{1}{8}})+sec^{-1}\\frac{\\sqrt{5}}{2})$ </p>\n<p> $=tan[2tan^{-1}\\frac{1}{3}+tan^{-1}\\frac{1}{2}]$ </p>\n<p> $=tan[tan^{-1}\\frac{\\frac{2}{3}}{1-\\frac{1}{9}}+tan^{-1}\\frac{1}{2}]$ </p>\n<p> $=tan[tan^{-1}\\frac{3}{4}+tan^{-1}\\frac{1}{2}]$ </p>\n<p> $=tan[tan^{-1}\\frac{\\frac{3}{4}+\\frac{1}{2}}{1-\\frac{3}{8}}]=tan[tan^{-1}\\frac{\\frac{5}{4}}{\\frac{5}{8}}]$ </p>\n<p> $=tan[tan^{-1}2]=2$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "tan(2tan^{-1}\\frac{1}{5}+sec^{-1}\\frac{\\sqrt{5}}{2}+2tan^{-1}\\frac{1}{8})",
@@ -1679,7 +1680,7 @@
         "=tan[tan^{-1}2]=2"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:41:08.027234"
     },
@@ -1725,7 +1726,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos^{-1}x-2sin^{-1}x=cos^{-1}2x$ </p>\n<p>For Domain :  $x \\in [\\frac{-1}{2},\\frac{1}{2}]$ </p>\n<p> $cos^{-1}x-2(\\frac{\\pi}{2}-cos^{-1}x)=cos^{-1}(2x)$ </p>\n<p> $\\Rightarrow cos^{-1}x+2cos^{-1}x=\\pi+cos^{-1}2x$ </p>\n<p> $\\Rightarrow cos(3cos^{-1}x)=-cos(cos^{-1}2x)$ </p>\n<p> $\\Rightarrow 4x^{3}=x$ </p>\n<p> $\\Rightarrow x=3, \\pm \\frac{1}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(x)-2sin^{-1}(x)=cos^{-1}(2x)",
@@ -1736,7 +1737,7 @@
         "\\Rightarrow cos(3cos^{-1}x)=-cos(cos^{-1}2x)"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:07.244466"
     },
@@ -1782,7 +1783,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=sin^{-1}(2x)+sin2x+cos^{-1}(2x)+cos2x$ </p>\n<p> $=sin^{-1}(2x)+cos^{-1}(2x)+sin2x+cos2x$ </p>\n<p> $=\\frac{\\pi}{2}+\\sqrt{2}(\\frac{1}{\\sqrt{2}}sin2x+\\frac{1}{\\sqrt{2}}cos2x)$ </p>\n<p> $=\\frac{\\pi}{2}+\\sqrt{2}(cos\\frac{\\pi}{4}sin2x+sin\\frac{\\pi}{4}cos2x)$ </p>\n<p> $=\\frac{\\pi}{2}+\\sqrt{2}.sin(2x+\\frac{\\pi}{4})$ </p>\n<p>f(x) is maximum when  $sin(2x+\\frac{\\pi}{4})$  is maximum means  $x=\\frac{\\pi}{8}$  or  $sin(2 \\times \\frac{\\pi}{8}+\\frac{\\pi}{4})=sin\\frac{\\pi}{2}=1$ </p>\n<p> $\\therefore$   $[f(x)]_{max}=\\frac{\\pi}{2}+\\sqrt{2}.1=\\frac{\\pi}{2}+\\sqrt{2}=M$ </p>\n<p>f(x) is minimum when  $sin(2x+\\frac{\\pi}{4})$  is minimum means  $x=0$  or  $sin(2 \\times 0+\\frac{\\pi}{4})=\\frac{1}{\\sqrt{2}}$ </p>\n<p> $\\therefore$   $[f(x)]_{min}=\\frac{\\pi}{2}+\\sqrt{2}.\\frac{1}{\\sqrt{2}}=\\frac{\\pi}{2}+1=m$ </p>\n<p> $\\therefore$   $m+M=\\frac{\\pi}{2}+\\sqrt{2}+\\frac{\\pi}{2}+1=\\pi+\\sqrt{2}+1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}2x+sin2x+cos^{-1}2x+cos2x,x \\in [0,\\frac{\\pi}{8}]",
@@ -1793,7 +1794,7 @@
         "=\\frac{\\pi}{2}+\\sqrt{2}.sin(2x+\\frac{\\pi}{4})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:08.075582"
     },
@@ -1839,7 +1840,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=sin^{-1}(\\frac{x^{2}-3x+2}{x^{2}+2x+7})$ \n<br/><br/> $-1 \\le \\frac{x^{2}-3x+2}{x^{2}+2x+7} \\le 1$ \n<br/><br/> $\\begin{aligned} &amp; \\frac{x^{2}-3x+2}{x^{2}+2x+7} \\le 1 \\\\ \\\\ &amp; x^{2}-3x+2 \\le x^{2}+2x+7 \\\\ \\\\ &amp; 5x \\ge -5 \\\\ \\\\ &amp; x \\ge -1 \\end{aligned}$ \n<br/><br/>And  $\\frac{x^{2}-3x+2}{x^{2}+2x+7} \\ge -1$ \n<br/><br/> $x^{2}-3x+2 \\ge -x^{2}-2x-7$ \n<br/><br/> $2x^{2}-x+9 \\ge 0$ \n<br/><br/> $x \\in R$ \n<br/><br/>(i)  $∩$  (ii)\n\n<br/><br/>Domain  $\\in [-1,\\infty)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{x^{2}-3x+2}{x^{2}+2x+7})",
@@ -1848,7 +1849,7 @@
         "2x^{2}-x+9 \\ge 0"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:06.827052"
     },
@@ -1894,7 +1895,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $-1 \\le 2x^{2}-3&lt;2$ </p>\n<p>or  $2 \\le 2x^{2}&lt;5$ </p>\n<p>or  $1 \\le x^{2}&lt;\\frac{5}{2}$ </p>\n<p> $x \\in (-\\sqrt{\\frac{5}{2}},-1]∪[1,\\sqrt{\\frac{5}{2}})$ </p>\n<p> $log_{\\frac{1}{2}}(x^{2}-5x+5)&gt;0$ </p>\n<p> $0&lt;x^{2}-5x+5&lt;1$ </p>\n<p> $x^{2}-5x+5&gt;0$  &amp;  $x^{2}-5x+4&lt;0$ </p>\n<p> $x \\in (-\\infty,\\frac{5-\\sqrt{5}}{2})∪(\\frac{5+\\sqrt{5}}{2},\\infty)$ </p>\n<p>&amp;  $x \\in (-\\infty,1)∪(4,\\infty)$ </p>\n<p>Taking intersection</p>\n<p> $x \\in (1,\\frac{5-\\sqrt{5}}{2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}[2x^{2}-3]+log_{2}(log_{\\frac{1}{2}}(x^{2}-5x+5))",
@@ -1905,7 +1906,7 @@
         "log_{\\frac{1}{2}}(x^{2}-5x+5)>0"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:41:07.264502"
     },
@@ -1951,7 +1952,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\alpha=tan(\\frac{5\\pi}{16}sin(2cos^{-1}(\\frac{1}{\\sqrt{5}})))$ </p>\n<p>We know,  $2cos^{-1}x=cos^{-1}(2x^{2}-1)$ </p>\n<p> $\\therefore$   $2cos^{-1}(\\frac{1}{\\sqrt{5}})=cos^{1}(2 \\times \\frac{1}{5}-1)=cos^{-1}(-\\frac{3}{5})$ </p>\n<p> $\\therefore$   $\\alpha=tan(\\frac{5\\pi}{16}sin(cos^{-1}(-\\frac{3}{5}))$ </p>\n<p> $=tan(\\frac{5\\pi}{16}sin(\\pi-cos^{-1}(\\frac{3}{5}))$ </p>\n<p> $=tan(\\frac{5\\pi}{16}sin(cos^{-1}(\\frac{3}{5}))$ </p>\n<p> $=tan(\\frac{5\\pi}{16}sin(sin^{-1}(\\frac{4}{5}))$ </p>\n<p> $=tan(\\frac{5\\pi}{16} \\times \\frac{4}{5})$ </p>\n<p> $=tan(\\frac{\\pi}{4})$ </p>\n<p> $=1$ </p>\n<p> $\\therefore$   $\\alpha=1$ </p>\n<p>Also given,</p>\n<p> $\\beta=cos(sin^{-1}(\\frac{4}{5})+sec^{-1}(\\frac{5}{3}))$ </p>\n<p> $=cos(cos^{-1}(\\frac{3}{5})+cos^{-1}(\\frac{3}{5}))$ </p>\n<p> $=cos(2cos^{-1}(\\frac{3}{5}))$ </p>\n<p> $=cos(cos^{-1}(2(\\frac{3}{5})^{2}-1))$ </p>\n<p> $=cos(cos^{-1}(\\frac{18}{25}-1)$ </p>\n<p> $=\\frac{18}{25}-1$ </p>\n<p> $=\\frac{18-25}{25}$ </p>\n<p> $=-\\frac{7}{25}$ </p>\n<p> $\\therefore$   $\\beta=-\\frac{7}{25}$ </p>\n<p> $\\therefore$  The quadratic equation with roots  $\\alpha$  and  $\\beta$  is</p>\n<p> $x^{2}-(\\alpha+\\beta)x+\\alpha\\beta=0$ </p>\n<p> $\\Rightarrow x^{2}-(1-\\frac{7}{25})x+1 \\times (-\\frac{7}{25})=0$ </p>\n<p> $\\Rightarrow 25x^{2}-18x-7=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions - Core Application",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "\\alpha=tan(\\frac{5\\pi}{16}sin(2cos^{-1}(\\frac{1}{\\sqrt{5}})))",
@@ -1962,7 +1963,7 @@
         "=tan(\\frac{5\\pi}{16}sin(cos^{-1}(\\frac{3}{5}))"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions - Core Application"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:08.138600"
     }

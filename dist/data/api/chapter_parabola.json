@@ -8,20 +8,20 @@
     "total_questions_site": 151,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:43:42.346967"
+    "analyzed_at": "2026-09-20T16:43:12.625798"
   },
   "concepts": [
     {
-      "id": 343,
+      "id": 1596,
       "chapter_slug": "parabola",
-      "name": "Parabola - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Parabola.",
-      "standard_formulas": "",
-      "exam_frequency": 52,
+      "name": "Standard Parabola, Focus, Directrix & Tangents",
+      "category": "Parabola",
+      "summary": "Focal properties of $y^2 = 4ax$, slope form of tangent $y = mx + a/m$, and parametric chords.",
+      "standard_formulas": "y^2 = 4ax \\implies \\text{Focus}(a, 0), \\text{ Directrix: } x = -a, \\text{ LR } = 4a, \\quad \\text{Tangent: } y = mx + \\frac{a}{m}, \\quad \\text{Parametric: } (at^2, 2at)",
+      "exam_frequency": 51,
       "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "For $x^2 = 4ay$, the tangent in slope form is $y = mx - am^2$, NOT $y = mx + a/m$!",
+      "tips_and_tricks": "The tangents at the extremities of any focal chord intersect at right angles ($90^\\circ$) strictly on the DIRECTRIX.",
       "pyq_ids": [
         24388,
         24390,
@@ -57,7 +57,6 @@
         24520,
         24530,
         24532,
-        24536,
         24539,
         24552,
         24555,
@@ -76,20 +75,37 @@
         24615,
         24618
       ]
+    },
+    {
+      "id": 1597,
+      "chapter_slug": "parabola",
+      "name": "Normals to Parabola & Co-Normal Points",
+      "category": "Normals",
+      "summary": "Cubic normal equation $am^3 + (2a - x)m + y = 0$, maximum of three normals from external point, and co-normal properties.",
+      "standard_formulas": "\\text{Normal: } y = mx - 2am - am^3, \\quad \\text{Parametric: } y + tx = 2at + at^3, \\quad \\Sigma m_i = 0",
+      "exam_frequency": 2,
+      "frequency_tier": "Standard",
+      "common_traps": "From an external point $(h, k)$, three normals can be drawn to $y^2 = 4ax$ if and only if $h > 2a$.",
+      "tips_and_tricks": "The algebraic sum of the slopes of three co-normal points is always ZERO: $m_1 + m_2 + m_3 = 0$.",
+      "pyq_ids": [
+        24496,
+        24536
+      ]
     }
   ],
   "synthesis": {
     "id": 164,
     "chapter_slug": "parabola",
     "title": "Parabola Syllabus reduced Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Parabola Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2022 – 2026)  \n**Empirical Dataset**: 52 Previous Year Questions Analyzed (52 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **52** authentic JEE Main problems.\n- **Question Format Breakdown**: **52 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2022 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Parabola - Core Application | **52 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Parabola - Core Application (General Concept)\n- **Exam Weightage**: Tested in **52 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Parabola.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let O be the vertex of the parabola $y^{2}=4x$ and its chords OP and OQ are perpendicular to each other. If the locus of the mid-point of th...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let the parabola $y=x^{2}+px+q$ passing through the point $(1,-1)$ be such that the distance between its vertex and the $x$ -axis is minimum...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let O be the vertex of the parabola $x^{2}=4y$ and Q be any point on it. Let the locus of the point P , which divides the line segment OQ in...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#2 (MCQ)**: *\"Let one root of the quadratic equation in $x$ : $(k^{2}-15k+27)x^{2}+9(k-1)x+18=0$ be twice the other. Then the length of the latus rectum o...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Parabola Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 52 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Parabola Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2022 – 2026)  \n**Empirical Dataset**: 52 Previous Year Questions Analyzed (52 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **52** authentic JEE Main problems.\n- **Question Format Breakdown**: **52 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2022 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Standard Parabola, Focus, Directrix & Tangents | **51 PYQs** | Parabola |\n| **Standard** | Normals to Parabola & Co-Normal Points | **2 PYQs** | Normals |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Standard Parabola, Focus, Directrix & Tangents (Parabola)\n- **Exam Weightage**: Tested in **51 PYQs** (Very High Yield)\n- **Conceptual Summary**: Focal properties of $y^2 = 4ax$, slope form of tangent $y = mx + a/m$, and parametric chords.\n\n#### Standard Mathematical Formulation\n$$\ny^2 = 4ax \\implies \\text{Focus}(a, 0), \\text{ Directrix: } x = -a, \\text{ LR } = 4a, \\quad \\text{Tangent: } y = mx + \\frac{a}{m}, \\quad \\text{Parametric: } (at^2, 2at)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For $x^2 = 4ay$, the tangent in slope form is $y = mx - am^2$, NOT $y = mx + a/m$!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The tangents at the extremities of any focal chord intersect at right angles ($90^\\circ$) strictly on the DIRECTRIX.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let O be the vertex of the parabola $y^{2}=4x$ and its chords OP and OQ are perpendicular to each other. If the locus of the mid-point of th...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let the parabola $y=x^{2}+px+q$ passing through the point $(1,-1)$ be such that the distance between its vertex and the $x$ -axis is minimum...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let O be the vertex of the parabola $x^{2}=4y$ and Q be any point on it. Let the locus of the point P , which divides the line segment OQ in...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#2 (MCQ)**: *\"Let one root of the quadratic equation in $x$ : $(k^{2}-15k+27)x^{2}+9(k-1)x+18=0$ be twice the other. Then the length of the latus rectum o...\"* — **Correct Answer: N/A**\n\n### 2.2 Normals to Parabola & Co-Normal Points (Normals)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Cubic normal equation $am^3 + (2a - x)m + y = 0$, maximum of three normals from external point, and co-normal properties.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Normal: } y = mx - 2am - am^3, \\quad \\text{Parametric: } y + tx = 2at + at^3, \\quad \\Sigma m_i = 0\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: From an external point $(h, k)$, three normals can be drawn to $y^2 = 4ax$ if and only if $h > 2a$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The algebraic sum of the slopes of three co-normal points is always ZERO: $m_1 + m_2 + m_3 = 0$.\n\n#### Linked Representative PYQs:\n- **[2024 Morning Shift] Q#1 (MCQ)**: *\"If the shortest distance of the parabola $y^{2}=4x$ from the centre of the circle $x^{2}+y^{2}-4x-16y+64=0$ is $d$ , then $d^{2}$ is equal t...\"* — **Correct Answer: N/A**\n- **[2023 Morning Shift] Q#3 (MCQ)**: *\"The distance of the point $(6,-2\\sqrt{2})$ from the common tangent $y=mx+c,m>0$ , of the curves $x=2y^{2}$ and $x=1+y^{2}$ is :...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Parabola Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 52 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Standard Parabola, Focus, Directrix & Tangents** | $y^2 = 4ax \\implies \\text{Focus}(a, 0), \\text{ Directrix: } x = -a, \\text{ LR } = 4a, \\quad \\text{Tangent: } y = mx + \\frac{a}{m}, \\quad \\text{Parametric: } (at^2, 2at)$ | Standard SI units apply |\n| **Normals to Parabola & Co-Normal Points** | $\\text{Normal: } y = mx - 2am - am^3, \\quad \\text{Parametric: } y + tx = 2at + at^3, \\quad \\Sigma m_i = 0$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Parabola Syllabus reduced\nBased on rigorous analysis of all 52 questions from 2022 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Parabola Syllabus reduced\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      24388
+      24388,
+      24536
     ],
-    "updated_at": "2026-09-20T15:43:42.187290"
+    "updated_at": "2026-09-20T16:43:12.614301"
   },
   "total_questions": 52,
   "has_docx": true,

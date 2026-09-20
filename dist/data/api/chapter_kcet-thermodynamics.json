@@ -8,34 +8,49 @@
     "total_questions_site": 14,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:26:01.972385"
+    "analyzed_at": "2026-09-20T16:42:00.681574"
   },
   "concepts": [
     {
-      "id": 229,
+      "id": 1487,
       "chapter_slug": "kcet-thermodynamics",
-      "name": "Kcet Thermodynamics - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Thermodynamics.",
-      "standard_formulas": "",
-      "exam_frequency": 14,
+      "name": "Enthalpy, Hess's Law & Bond Energies",
+      "category": "Thermochemistry",
+      "summary": "State functions, standard enthalpy of formation, Hess's law of constant heat summation, and bond energy calculations.",
+      "standard_formulas": "\\Delta H = \\Delta U + \\Delta n_g RT, \\quad \\Delta_r H^\\circ = \\Sigma \\Delta_f H^\\circ(\\text{products}) - \\Sigma \\Delta_f H^\\circ(\\text{reactants})",
+      "exam_frequency": 8,
       "frequency_tier": "High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "Standard enthalpy of formation $\\Delta_f H^\\circ$ of pure elements in their standard reference state is strictly ZERO (e.g. $\\text{O}_{2(g)}, \\text{C}_{\\text{graphite}}$).",
+      "tips_and_tricks": "When using bond enthalpies: $\\Delta H_{\\text{reaction}} = \\Sigma \\text{BE}(\\text{bonds broken in reactants}) - \\Sigma \\text{BE}(\\text{bonds formed in products})$.",
+      "pyq_ids": [
+        8204,
+        8205,
+        8206,
+        8208,
+        8209,
+        8210,
+        8213,
+        8214
+      ]
+    },
+    {
+      "id": 1488,
+      "chapter_slug": "kcet-thermodynamics",
+      "name": "Entropy & Gibbs Free Energy Spontaneity",
+      "category": "Spontaneity",
+      "summary": "Second and third laws of thermodynamics, entropy changes in phase transitions, and Gibbs criteria for spontaneous change.",
+      "standard_formulas": "\\Delta G = \\Delta H - T\\Delta S, \\quad \\Delta S_{\\text{univ}} = \\Delta S_{\\text{sys}} + \\Delta S_{\\text{surr}} > 0, \\quad \\Delta G^\\circ = -RT\\ln K",
+      "exam_frequency": 7,
+      "frequency_tier": "Moderate",
+      "common_traps": "For an endothermic reaction ($\\Delta H > 0$) with $\\Delta S > 0$, the reaction is spontaneous ONLY at HIGH temperatures where $T > \\frac{\\Delta H}{\\Delta S}$.",
+      "tips_and_tricks": "At equilibrium: $\\Delta G = 0 \\implies T_{\\text{equilibrium}} = \\frac{\\Delta H}{\\Delta S}$.",
       "pyq_ids": [
         8201,
         8202,
         8203,
-        8204,
-        8205,
-        8206,
         8207,
-        8208,
-        8209,
-        8210,
         8211,
         8212,
-        8213,
         8214
       ]
     }
@@ -44,14 +59,15 @@
     "id": 56,
     "chapter_slug": "kcet-thermodynamics",
     "title": "Thermodynamics 2026 3 questions 5% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Thermodynamics 2026 3 questions 5% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 14 Previous Year Questions Analyzed (14 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **14** authentic KCET problems.\n- **Question Format Breakdown**: **14 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Kcet Thermodynamics - Core Application | **14 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Thermodynamics - Core Application (General Concept)\n- **Exam Weightage**: Tested in **14 PYQs** (High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Thermodynamics.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A gas can be taken from A to B via two different paths ACB and ADB. When path ACB is used, $60$ J of heat flows into the system and $30$ J o...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Which of the following is a correct statement for a thermodynamic system?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"A: Entropy of a perfect crystalline solid at absolute zero approaches zero. B: For spontaneity of a reaction, $T\\Delta S>\\Delta H$ . Among t...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"Which one of the following reactions has $\\Delta H=\\Delta U$ ?...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Thermodynamics 2026 3 questions 5% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 14 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Thermodynamics 2026 3 questions 5% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 14 Previous Year Questions Analyzed (14 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **14** authentic KCET problems.\n- **Question Format Breakdown**: **14 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Enthalpy, Hess's Law & Bond Energies | **8 PYQs** | Thermochemistry |\n| **Moderate** | Entropy & Gibbs Free Energy Spontaneity | **7 PYQs** | Spontaneity |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Enthalpy, Hess's Law & Bond Energies (Thermochemistry)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: State functions, standard enthalpy of formation, Hess's law of constant heat summation, and bond energy calculations.\n\n#### Standard Mathematical Formulation\n$$\n\\Delta H = \\Delta U + \\Delta n_g RT, \\quad \\Delta_r H^\\circ = \\Sigma \\Delta_f H^\\circ(\\text{products}) - \\Sigma \\Delta_f H^\\circ(\\text{reactants})\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Standard enthalpy of formation $\\Delta_f H^\\circ$ of pure elements in their standard reference state is strictly ZERO (e.g. $\\text{O}_{2(g)}, \\text{C}_{\\text{graphite}}$).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: When using bond enthalpies: $\\Delta H_{\\text{reaction}} = \\Sigma \\text{BE}(\\text{bonds broken in reactants}) - \\Sigma \\text{BE}(\\text{bonds formed in products})$.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#1 (MCQ)**: *\"Which one of the following reactions has $\\Delta H=\\Delta U$ ?...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#2 (MCQ)**: *\"Identify the incorrect statements among the following: (a) All enthalpies of fusion are positive (b) The magnitude of enthalpy change does n...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Given below are two statements. Statement-I : Adiabatic work done is positive when work is done on the system and internal energy of the sys...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"Lattice enthalpy for $NaCl$ is $+788kJmol^{-1}$ and $\\Delta H_{\\text{hyd}}^{\\circ}=-784kJmol^{-1}$ . Enthalpy of solution of $NaCl$ is...\"* — **Correct Answer: N/A**\n\n### 2.2 Entropy & Gibbs Free Energy Spontaneity (Spontaneity)\n- **Exam Weightage**: Tested in **7 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Second and third laws of thermodynamics, entropy changes in phase transitions, and Gibbs criteria for spontaneous change.\n\n#### Standard Mathematical Formulation\n$$\n\\Delta G = \\Delta H - T\\Delta S, \\quad \\Delta S_{\\text{univ}} = \\Delta S_{\\text{sys}} + \\Delta S_{\\text{surr}} > 0, \\quad \\Delta G^\\circ = -RT\\ln K\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For an endothermic reaction ($\\Delta H > 0$) with $\\Delta S > 0$, the reaction is spontaneous ONLY at HIGH temperatures where $T > \\frac{\\Delta H}{\\Delta S}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: At equilibrium: $\\Delta G = 0 \\implies T_{\\text{equilibrium}} = \\frac{\\Delta H}{\\Delta S}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A gas can be taken from A to B via two different paths ACB and ADB. When path ACB is used, $60$ J of heat flows into the system and $30$ J o...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Which of the following is a correct statement for a thermodynamic system?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"A: Entropy of a perfect crystalline solid at absolute zero approaches zero. B: For spontaneity of a reaction, $T\\Delta S>\\Delta H$ . Among t...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#3 (MCQ)**: *\"From the diagram $(Z)=\\frac{V_{\\text{real}}}{V_{\\text{ideal}}}$ $\\Delta_{r}H$ for the reaction, $C \\rightarrow A$ is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Thermodynamics 2026 3 questions 5% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 14 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Enthalpy, Hess's Law & Bond Energies** | $\\Delta H = \\Delta U + \\Delta n_g RT, \\quad \\Delta_r H^\\circ = \\Sigma \\Delta_f H^\\circ(\\text{products}) - \\Sigma \\Delta_f H^\\circ(\\text{reactants})$ | Standard SI units apply |\n| **Entropy & Gibbs Free Energy Spontaneity** | $\\Delta G = \\Delta H - T\\Delta S, \\quad \\Delta S_{\\text{univ}} = \\Delta S_{\\text{sys}} + \\Delta S_{\\text{surr}} > 0, \\quad \\Delta G^\\circ = -RT\\ln K$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Thermodynamics 2026 3 questions 5% weightage\nBased on rigorous analysis of all 14 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Thermodynamics 2026 3 questions 5% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      8201
+      8201,
+      8205
     ],
-    "updated_at": "2026-09-20T15:26:01.935022"
+    "updated_at": "2026-09-20T16:42:00.664621"
   },
   "total_questions": 14,
   "has_docx": true,

@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of shares is given by</p>\n<p> $f(t)=-2t^{3}+3t^{2}+5$ </p>\n<p>To find when the video gets the maximum number of shares, we differentiate  $f(t)$  with respect to  $t$ .</p>\n<p> $f^{'}(t)=\\frac{d}{dt}(-2t^{3}+3t^{2}+5)$ </p>\n<p> $f^{'}(t)=-6t^{2}+6t$ </p>\n<p>For maximum or minimum value, put</p>\n<p> $f^{'}(t)=0$ </p>\n<p> $-6t^{2}+6t=0$ </p>\n<p> $6t(1-t)=0$ </p>\n<p>So,</p>\n<p> $t=0\\text{or}t=1$ </p>\n<p>Now check the nature using the second derivative.</p>\n<p> $f^{''}(t)=-12t+6$ </p>\n<p>At  $t=1$ ,</p>\n<p> $f^{''}(1)=-12(1)+6=-6$ </p>\n<p>Since this is negative,  $f(t)$  has a maximum at</p>\n<p> $t=1$ </p>\n<p>So, the video gets the maximum number of shares after</p>\n<p> $1\\text{hour}$ </p>\n<p>Correct option: Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(t)=-2t^{3}+3t^{2}+5",
@@ -55,7 +55,7 @@
         "t=0\\text{or}t=1"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:09.954165"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The path of the drone is given by</p>\n<p> $3y=x^{3}-3$ </p>\n<p>The statement says that the  $y$ -coordinate changes  $9$  times as fast as the  $x$ -coordinate.</p>\n<p>This means</p>\n<p> $\\frac{dy}{dx}=9$ </p>\n<p>Now differentiate the given equation with respect to  $x$ :</p>\n<p> $3y=x^{3}-3$ </p>\n<p> $3\\frac{dy}{dx}=3x^{2}$ </p>\n<p>So,</p>\n<p> $\\frac{dy}{dx}=x^{2}$ </p>\n<p>At the required instant,</p>\n<p> $x^{2}=9$ </p>\n<p> $x= \\pm 3$ </p>\n<p>Now check the points on the curve.</p>\n<p>For  $x=3$ :</p>\n<p> $3y=3^{3}-3$ </p>\n<p> $3y=27-3=24$ </p>\n<p> $y=8$ </p>\n<p>So one position is</p>\n<p> $(3,8)$ </p>\n<p>Hence the correct option is</p>\n<p> $\\text{Option C}(3,8)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "3y=x^{3}-3",
@@ -112,7 +112,7 @@
         "x=3"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.002881"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function given is  $f(x)=tanx-x$ .</p>\n<p>To determine whether this function is increasing, decreasing, or neither, we need to analyze its derivative:</p>\n<p> $f^{'}(x)=sec^{2}x-1=tan^{2}x$ </p>\n<p>Since  $tan^{2}x$  is always greater than or equal to zero ( $tan^{2}x \\ge 0$ ), the derivative  $f^{'}(x)$  is non-negative across its domain. This implies that the function  $f(x)$  is always increasing or at the very least, non-decreasing. </p>\n<p>Thus, the function  $f(x)=tanx-x$  consistently increases.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=tanx-x",
@@ -168,7 +168,7 @@
         "f^{'}(x)"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.030021"
     },
@@ -214,14 +214,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=x(x-1)^{2};x \\in [0,2]$ </p>\n<p> $\\begin{aligned} f^{'}(c) &amp; =\\frac{f(b)-f(a)}{b-a};f(2)=2,f(0)=0 \\\\ \\therefore f^{'}(x) &amp; =(x-1)^{2}+2x(x-1) \\\\ &amp; =x^{2}+1-2x+2x^{2}-2x \\\\ &amp; =3x^{2}-4x+1 \\end{aligned}$ </p>\n<p>So,  $f^{'}(c)=3c^{2}-4c+1$ </p>\n<p>Thus,  $3c^{2}-4c+1=\\frac{f(2)-(0)}{2-0}=\\frac{2-0}{2-0}=1$ </p>\n<p> $\\Rightarrow c(3c-4)=0$ </p>\n<p>Hence,  $c=\\frac{4}{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow c(3c-4)=0",
         "c=\\frac{4}{3}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.261905"
     },
@@ -269,13 +269,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png"
       ],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=xe^{x(1-x)}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.472909"
     },
@@ -321,14 +321,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\because f(x)=x^{3}-6x^{2}+12x-3 \\\\ &amp; \\Rightarrow f^{'}(x)=3x^{2}-12x+12 \\\\ &amp; \\Rightarrow f^{''}(x)=6x-12=6(x-2) \\\\ &amp; \\Rightarrow f^{''}(2)=0 \\end{aligned} \\\\ &amp; \\text{Hence,}x=2\\text{is a point of inflexion.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{3}-6x^{2}+12x-3",
         "x=2"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.280206"
     },
@@ -374,7 +374,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=x^{x}$ </p>\n<p> $\\frac{dy}{dx}=x^{x}(1+logx)$ </p>\n<p>For increasing function,  $\\frac{dy}{dx}&gt;0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; x^{x}(1+logx)&gt;0 \\\\ \\Rightarrow &amp; 1+logx&gt;0 \\\\ \\Rightarrow &amp; log_{e}x&gt;log_{e}\\frac{1}{e} \\\\ \\text{Hence,} &amp; x&gt;\\frac{1}{e} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{x};x>0",
@@ -383,7 +383,7 @@
         "\\frac{dy}{dx}>0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.298812"
     },
@@ -429,11 +429,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Since, perimeter} \\ge 180 \\\\ &amp; \\Rightarrow 2\\text{(length}+\\text{breadth} \\ge 180 \\\\ &amp; \\Rightarrow 5\\text{breadth}+\\text{breadth} \\ge 90 \\\\ &amp; [ \\because \\text{length}=5\\text{breadth}] \\\\ &amp; \\Rightarrow 6\\text{breadth} \\ge 90 \\\\ &amp; \\text{Hence, breadth} \\ge 15 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.080609"
     },
@@ -479,13 +479,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  Slant height of the cone,  $L=6$  units.</p>\n<p>Let the radius be  $r$  and height be  $ℎ$ .</p>\n<p> $\\begin{aligned} \\text{and volume}(V) &amp; =\\frac{1}{3}\\pi r^{2}ℎ \\\\ &amp; =\\frac{1}{3}\\pi(L^{2}-ℎ^{2})ℎ[ \\because L^{2}=r^{2}+ℎ^{2}] \\\\ &amp; =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\end{aligned}$ </p>\n<p>So,  $\\frac{dV}{dℎ}=\\frac{1}{3}\\pi(36-3ℎ^{2})=0 \\Rightarrow ℎ=2\\sqrt{3}$  units</p>\n<p>Now,  $\\frac{d^{2}V}{dℎ^{2}}=-2\\piℎ&lt;0$  at  $ℎ=2\\sqrt{3}$  units</p>\n<p>Hence, the maximum volume of the cone</p>\n<p> $\\begin{aligned} V &amp; =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\\\ &amp; =\\frac{1}{3}\\pi(36-(2\\sqrt{3})^{2})2\\sqrt{3} \\\\ &amp; =16\\sqrt{3}\\pi\\text{cu units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "L=6"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.310653"
     },
@@ -531,7 +531,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $P(x,y)$  be the position of the jet and the solider is placed at  $A(3,2)$ .</p>\n<p> $\\Rightarrow AP=\\sqrt{(x-3)^{2}+(y-2)^{2}}$  .... (i)</p>\n<p>As,  $y=(x^{2}+2) \\Rightarrow x^{2}=y-2$  .... (ii)</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (AP)^{2}=(x-3)^{2}+x^{4}=z\\text{(say)} \\\\ &amp; \\Rightarrow \\frac{dz}{dx}=2(x-3)+4x^{3}\\text{and}\\frac{d^{2}z}{dx^{2}}=2+12x^{2} \\end{aligned}$ </p>\n<p>For local points of maxima and minima</p>\n<p> $\\begin{aligned} \\frac{dz}{dx} &amp; =0 \\Rightarrow 2(x-3)+4x^{3}=0 \\\\ x &amp; =1\\text{and}\\frac{d^{2}z}{dx^{2}}(\\text{at}x=1)=14&gt;0 \\end{aligned}$ </p>\n<p> $\\therefore$  z is minimum, where  $x=1,y=1+2=3$ </p>\n<p>Also, minimum distance</p>\n<p> $=\\sqrt{(1-3)^{2}+(3-2)^{2}}=\\sqrt{5}\\text{units}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{2}+2",
@@ -541,7 +541,7 @@
         "=\\sqrt{(1-3)^{2}+(3-2)^{2}}=\\sqrt{5}\\text{units}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.760606"
     },
@@ -587,7 +587,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}u=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ &amp; u=2tan^{-1}x[ \\because 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}})] \\\\ &amp; \\Rightarrow \\frac{du}{dx}=2 \\times \\frac{1}{1+x^{2}}\\text{.... (i)} \\\\ &amp; \\text{and}v=tan^{-1}(\\frac{2x}{1-x^{2}}) \\end{aligned}$ </p>\n<p> $y=2tan^{-1}x[ \\because 2tan^{-1}x=tan^{-1}(\\frac{2x}{1-x^{2}})]$ </p>\n<p> $\\Rightarrow \\frac{dv}{dx}=\\frac{2}{1+x^{2}}\\text{.... (ii)}$ </p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $\\frac{dv}{dx}=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "u=sin^{-1}(\\frac{2x}{1+x^{2}})",
@@ -598,7 +598,7 @@
         "\\frac{dv}{dx}=1"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.513764"
     },
@@ -644,11 +644,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $r$  be the radius of the circular disc and  $A$  be the area of the circular disc at any instant of time. we know that</p>\n<p> $\\begin{aligned} A &amp; =\\pi r^{2} \\\\ \\frac{dA}{dt} &amp; =2\\pi r\\frac{dr}{dt} \\end{aligned}$ </p>\n<p>According to the question, the circular disc expands on heating with the rate of change of radius is  $0.05cm/s$ </p>\n<p> $\\begin{aligned} \\frac{dr}{dt} &amp; =0.05cm/s \\\\ \\frac{dA}{dt} &amp; =2 \\times \\pi \\times 5.2 \\times 0.05 \\\\ \\Rightarrow \\frac{dA}{dt} &amp; =0.52\\pi cm^{2}/s \\end{aligned}$ </p>\n<p>So, the rate at which its area is increasing, when radius is  $5.2cm$  is  $0.52\\pi cm^{2}/s$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.792255"
     },
@@ -694,7 +694,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the acceleration when the particle comes to rest, we first have to determine at what time ' $t$ ' the particle comes to rest. A particle comes to rest when its velocity is zero. The velocity ' $v$ ' of a particle is given by the derivative of the position function with respect to time, which in this case is </p>\n<p> $v(t)=\\frac{ds}{dt}$ </p>\n<p>Let us find the velocity function by differentiating the given position function:</p>\n<p> $v(t)=\\frac{d}{dt}(\\frac{2t^{3}}{3}-18t+\\frac{5}{3})=\\frac{d}{dt}(\\frac{2t^{3}}{3})-\\frac{d}{dt}(18t)+\\frac{d}{dt}(\\frac{5}{3})$ </p>\n<p>Applying the differentiation rules, we get:</p>\n<p> $v(t)=\\frac{2}{3} \\cdot 3t^{2}-18=2t^{2}-18$ </p>\n<p>Now, we will set the velocity to zero to find the time ' $t$ ' when the particle comes to rest:</p>\n<p> $0=v(t)=2t^{2}-18$ </p>\n<p>Solving for ' $t$ ' gives:</p>\n<p> $2t^{2}=18$ </p>\n<p> $t^{2}=\\frac{18}{2}$ </p>\n<p> $t^{2}=9$ </p>\n<p> $t= \\pm 3$ </p>\n<p>Since time cannot be negative, we consider ' $t=3$ ' seconds.</p>\n<p>Now we need to find the acceleration at t=3 seconds. Acceleration ' $a$ ' is the derivative of the velocity function, i.e., </p>\n<p> $a(t)=\\frac{dv}{dt}$ </p>\n<p>Let us differentiate the velocity function to find the acceleration function:</p>\n<p> $a(t)=\\frac{d}{dt}(2t^{2}-18)=\\frac{d}{dt}(2t^{2})-\\frac{d}{dt}(18)$ </p>\n<p>Applying the differentiation rules, we get:</p>\n<p> $a(t)=2 \\cdot 2t-0=4t$ </p>\n<p>Finally, we find the acceleration when the particle comes to rest, i.e. at  $t=3$  seconds:</p>\n<p> $a(3)=4 \\cdot 3=12m/s^{2}$ </p>\n<p>Therefore, the acceleration when the particle comes to rest is  $12m/s^{2}$ , which corresponds to Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "v(t)=\\frac{ds}{dt}",
@@ -704,7 +704,7 @@
         "t=3"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.528921"
     },
@@ -750,13 +750,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, particles moves along the curve</p>\n<p> $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{2x}{16}+\\frac{2y}{4}\\frac{dy}{dx}=0 \\\\ &amp; \\therefore \\frac{dy}{dx}=\\frac{-2x}{16} \\times \\frac{4}{2y}=\\frac{-x}{4y}\\text{.... (i)} \\end{aligned}$ </p>\n<p>According to the question,  $x=4y$ </p>\n<p>From Eq. (i), we get</p>\n<p> $\\frac{dy}{dx}=-1$ </p>\n<p>When slope is negative, then the particle lies in Ist and IIIrd quadrant.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.582387"
     },
@@ -802,7 +802,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$ </p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =12sin^{2}x \\cdot cosx-12sinxcosx+12cosx \\\\ &amp; =12cosx[sin^{2}x-sinx+1] \\\\ &amp; =12cosx[sin^{2}x+(1-sinx)] \\end{aligned}$ </p>\n<p>We know,  $1-sinx \\ge 0$  and  $sin^{2}x \\ge 0$ </p>\n<p> $\\therefore sin^{2}x+1-sinx&gt;0$ </p>\n<p>Therefore,  $f^{'}(x)&gt;0$ , when  $cosx&gt;0 \\Rightarrow x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$ </p>\n<p>So,  $f(x)$  is increasing when  $x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$  and  $f^{'}(x)&lt;0$ , when  $cosx&lt;0 \\Rightarrow x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>So,  $f(x)$  is decreasing when  $x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>Hence,  $f(x)$  is decreasing in  $(\\frac{\\pi}{2},\\pi)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=4sin^{3}x-6sin^{2}x+12sinx+100",
@@ -813,7 +813,7 @@
         "f^{'}(x)<0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.079992"
     },
@@ -859,7 +859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=log(1+x)-\\frac{2x}{2+x}$ </p>\n<p>Differentiating the function w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=\\frac{1}{(1+x)}(0+1)-2[\\frac{(2+x) \\times 1-x(0+1)}{(2+x)^{2}}] \\\\ &amp; =\\frac{1}{1+x}-2[\\frac{2+x-x}{(2+x)^{2}}]=\\frac{1}{1+x}-\\frac{4}{(2+x)^{2}} \\\\ &amp; =\\frac{(2+x)^{2}-4(1+x)}{(1+x)(2+x)^{2}}=\\frac{4+x^{2}+4x-4-4x}{(x+1)(x+2)^{2}} \\\\ &amp; =\\frac{x^{2}}{(x+1)(x+2)^{2}}=(\\frac{x}{x+2})^{2} \\cdot \\frac{1}{(x+1)} \\end{aligned}$ </p>\n<p>Sign of  $f^{'}(x)$  depends on the sign of  $\\frac{1}{(x+1)}$ </p>\n<p> $f^{'}(x)&gt;0$  when  $x&gt;-1 \\Rightarrow$  increasing</p>\n<p> $f^{'}(x)&lt;0$  when  $x&lt;-1 \\Rightarrow$  decreasing</p>\n<p>Hence,  $f(x)$  is increasing on  $(-1,\\infty)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log(1+x)-\\frac{2x}{2+x}",
@@ -867,7 +867,7 @@
         "f^{'}(x)<0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.804936"
     },
@@ -913,13 +913,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $\\sqrt{x}+\\sqrt{y}=6$ </p>\n<p> $\\sqrt{x}+\\sqrt{y}=6$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{2\\sqrt{x}}+\\frac{1}{2\\sqrt{y}}\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=-\\frac{\\sqrt{y}}{\\sqrt{x}}$ </p>\n<p>Since, the tangent is equally inclined to the axes.</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}= \\pm 1 \\Rightarrow -\\frac{\\sqrt{y}}{\\sqrt{x}}= \\pm 1 \\\\ \\Rightarrow &amp; \\sqrt{y}= \\pm \\sqrt{x} \\Rightarrow y=x \\end{aligned}$ </p>\n<p>Therefore,  $\\sqrt{x}+\\sqrt{y}=6 \\Rightarrow \\sqrt{x}+\\sqrt{x}=6 \\Rightarrow 2\\sqrt{x}=6$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\sqrt{x}=3 \\Rightarrow x=9 \\\\ &amp; \\therefore x=9\\text{and}y=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{x}+\\sqrt{y}=6"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.823281"
     },
@@ -965,7 +965,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=-x^{3}+3x^{2}+2x-27$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{dy}{dx}=-3x^{2}+6x+2$ </p>\n<p>Slope of the curve  $=-3x^{2}+6x+2$ </p>\n<p>Let  $m=-3x^{2}+6x+2$ </p>\n<p> $\\therefore \\frac{dm}{dx}=-6x+6$ </p>\n<p>Put  $\\frac{dm}{dx}=0$  to find the critical points,</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; -6x+6=0 \\\\ \\Rightarrow &amp; x=1 \\\\ &amp; (\\frac{d^{2}m}{dx^{2}})_{x=1}=-6&lt;0 \\end{aligned}$ </p>\n<p>Slope is maximum at  $x=1$ </p>\n<p>The maximum slope,</p>\n<p> $\\begin{aligned} m_{max} &amp; =-3(1)^{2}+6(l)+2 \\\\ &amp; =-3+6+2=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "y=-x^{3}+3x^{2}+2x-27",
@@ -973,7 +973,7 @@
         "\\frac{dm}{dx}=0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.360847"
     },
@@ -1019,14 +1019,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $C(x)=20x+4000$ </p>\n<p> $R(x)=60x+2000$ </p>\n<p> $x=$  number of items produced and sold</p>\n<p>To earn profit,  $R(x)-C(x)&gt;0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 60x+2000-20x-4000&gt;0 \\\\ \\Rightarrow &amp; 40x-2000&gt;0 \\\\ \\Rightarrow &amp; 40x&gt;2000 \\\\ \\Rightarrow &amp; x&gt;50 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "c(x)=20x+4000",
         "R(x)=60x+2000"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.112747"
     },
@@ -1072,14 +1072,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}$ </p>\n<p>On differentiating  $\\theta$  w.r.t.  $t$ ,</p>\n<p> $\\begin{aligned} \\frac{d\\theta}{dt} &amp; =\\frac{t}{10}+\\frac{1}{5} \\\\ (\\frac{d\\theta}{dt})_{t=4} &amp; =\\frac{4}{10}+\\frac{1}{5} \\\\ \\Rightarrow k &amp; =\\frac{3}{5} \\\\ \\therefore 5k &amp; =3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}",
         "t=4"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.158578"
     },
@@ -1125,7 +1125,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=x^{2}-2x \\\\ &amp; \\therefore f^{'}(x)=2x-2 \\end{aligned}$ </p>\n<p> $f(x)$  is strictly decreasing, when  $f^{'}(x)&lt;0$ </p>\n<p> $\\begin{aligned} &amp; f^{'}(x)&lt;0 \\\\ \\Rightarrow &amp; 2(x-1)&lt;0 \\\\ \\Rightarrow &amp; x&lt;1 \\end{aligned}$ </p>\n<p>Hence,  $f(x)$  is strictly decreasing in the interval  $(-\\infty,1)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{2}-2x",
@@ -1133,7 +1133,7 @@
         "f^{'}(x)<0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.205161"
     },
@@ -1179,7 +1179,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given curves are</p>\n<p> $2x=y^{2}\\text{.... (i)}$ </p>\n<p>and  $2xy=K\\text{.... (ii)}$ </p>\n<p>On solving both Eqs. (i) and (ii), we get</p>\n<p> $x=\\frac{K^{2/3}}{2}\\text{and}=K^{1/3}$ </p>\n<p> $\\therefore \\text{Intersecting point of both curves is}(\\frac{K^{2/3}}{2},K^{1/3})$ </p>\n<p>Now differentiate Eq. (i) w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; 2=2y\\frac{dy}{dx} \\\\ &amp; \\Rightarrow \\frac{dy}{dx}=\\frac{1}{y} \\end{aligned}$ </p>\n<p> $\\therefore$  Slope of tangent at  $(\\frac{K^{2/3}}{2},K^{1/3})=\\frac{1}{K^{1/3}}$ </p>\n<p>And differentiate Eq. (ii) w.r.t.  $x$ , we get</p>\n<p> $2(x\\frac{dy}{dx}+y)=0 \\Rightarrow \\frac{dy}{dx}=\\frac{-y}{x}$ </p>\n<p> $\\therefore$  Slope of tangent at  $(\\frac{K^{2/3}}{2},K^{1/3})$ </p>\n<p> $=\\frac{-K^{1/3}}{K^{2/3}/2}=-2K^{-1/3}$ </p>\n<p>Since, both curves intersect perpendicularly</p>\n<p> $\\begin{aligned} &amp; \\therefore \\frac{1}{K^{1/3}} \\times (-2K^{-1/3})=-1 \\\\ &amp; \\Rightarrow -2K^{-2/3}=-1 \\Rightarrow K^{2/3}=2 \\Rightarrow K^{2}=8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "2x=y^{2}",
@@ -1190,7 +1190,7 @@
         "x=\\frac{K^{2/3}}{2}\\text{and}=K^{1/3}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.388899"
     },
@@ -1236,13 +1236,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that the surface area of cube is given by  $S=6x^{2}$ </p>\n<p> $\\begin{aligned} \\therefore \\frac{dS}{dx} &amp; =12x^{2} \\\\ \\Delta x &amp; =5%\\text{of}x=0.05x \\end{aligned}$ </p>\n<p>The surface area of a cube is increased by  $=\\frac{\\Delta S}{S} \\times 100%$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{(\\frac{dS}{dx})\\Delta x}{S} \\times 100% \\\\ &amp; =\\frac{12x \\times (0.05x)}{6x^{2}} \\times 100% \\\\ &amp; =0.10 \\times 100%=10% \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "S=6x^{2}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.419804"
     },
@@ -1288,14 +1288,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=\\frac{log_{e}x}{x}$ </p>\n<p> $\\Rightarrow \\frac{dy}{dx}=\\frac{x \\cdot \\frac{1}{x}-log_{e}x \\cdot 1}{x^{2}}=\\frac{1-log_{e}x}{x^{2}}$ </p>\n<p>For maximum, put  $\\frac{dy}{dx}=0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 1-log_{e}x=0 \\\\ \\Rightarrow &amp; log_{e}x=1 \\\\ \\Rightarrow &amp; x=e \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}\\frac{d^{2}y}{dx^{2}}=\\frac{x^{2}(0-\\frac{1}{x})-(1-log_{e}x)(2x)}{x^{4}} \\\\ &amp; =\\frac{-x-2x(1-log_{e}x)}{x^{4}} \\\\ &amp; \\therefore (\\frac{d^{2}y}{dx^{2}})_{\\text{at}x=e}&lt;0 \\\\ &amp; \\therefore y(e)=\\frac{log_{e}e}{e}=\\frac{1}{e} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{log_{e}x}{x}",
         "y=\\frac{log_{e}x}{x}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.457306"
     },
@@ -1343,13 +1343,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png"
       ],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{3}-6x^{2}+9x+10"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.665296"
     },
@@ -1395,14 +1395,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\frac{dx}{dt}=4cm/sec$ </p>\n<p>Area of equilateral triangle,  $A=\\frac{\\sqrt{3}}{4}x^{2}$ </p>\n<p> $\\Rightarrow \\frac{dA}{dt}=\\frac{\\sqrt{3}}{4}(2x)\\frac{dx}{dt}=\\frac{\\sqrt{3}}{2}x(4) \\Rightarrow \\frac{dA}{dt}=2\\sqrt{3}x$ </p>\n<p>when  $x=14cm$ , then  $\\frac{dA}{dt}=2\\sqrt{3}(14)=28\\sqrt{3}cm^{2}$ </p>\n<p>Any option is not matching</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dx}{dt}=4cm/sec",
         "A=\\frac{\\sqrt{3}}{4}x^{2}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.674911"
     },
@@ -1448,7 +1448,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the stationary point of the function  $f(x)=x^{x}$ , we begin by expressing it in terms of the exponential function:</p>\n<p> $f(x)=x^{x}=e^{xlogx}$ </p>\n<p>Next, we calculate the derivative of  $f(x)$ :</p>\n<p> $f^{'}(x)=\\frac{d}{dx}(e^{xlogx})=e^{xlogx} \\cdot (1+logx)$ </p>\n<p>For a stationary point, the derivative  $f^{'}(x)$  must be equal to zero:</p>\n<p> $e^{xlogx} \\cdot (1+logx)=0$ </p>\n<p>Since  $e^{xlogx}$  is always positive and can never be zero, this implies:</p>\n<p> $1+logx=0$ </p>\n<p>Solving for  $x$ , we find:</p>\n<p> $logx=-1 \\Rightarrow x=\\frac{1}{e}$ </p>\n<p>Therefore, the function  $f(x)=x^{x}$  has a stationary point at  $x=\\frac{1}{e}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{x}",
@@ -1459,7 +1459,7 @@
         "e^{xlogx}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.849464"
     },
@@ -1505,11 +1505,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The explanation calculates the approximate change in the volume of a cube when its side length is increased by 3%.</p>\n<p><p><strong>Volume of a Cube</strong>: The volume  $V$  of a cube with side length  $x$  is given by the formula:</p>\n<p> $V=x^{3}$ </p></p>\n<p><p><strong>Derivative of the Volume</strong>: The rate of change of the volume with respect to the side length  $x$  is:</p>\n<p> $\\frac{dV}{dx}=3x^{2}$ </p></p>\n<p><p><strong>Change in Side Length</strong>: Since the side length is increased by 3%, the change in  $x$  is:</p>\n<p> $dx=3%\\text{of}x=0.03x$ </p></p>\n<p><p><strong>Approximate Change in Volume</strong>: The approximate change in the volume,  $dV$ , is calculated using the derivative:</p>\n<p> $dV=(\\frac{dV}{dx}) \\cdot dx=3x^{2} \\cdot 0.03x$ </p>\n<p>This simplifies to:</p>\n<p> $dV=0.09x^{3}\\text{m}^{3}$ </p></p>\n<p>Therefore, the approximate change in the volume of the cube is  $0.09x^{3}\\text{m}^{3}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.686334"
     },
@@ -1555,7 +1555,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the maximum value of the function  $f(x)=(\\frac{1}{x})^{x}$ , we start by rewriting it in a form that is easier to differentiate:</p>\n<p> $f(x)=x^{-x}=e^{-xlogx}$ </p>\n<p>Next, we differentiate  $f(x)$  with respect to  $x$ :</p>\n<p> $f^{'}(x)=e^{-xlogx}(-1-logx)$ </p>\n<p>Simplifying the expression, we have:</p>\n<p> $f^{'}(x)=-x^{-x}(1+logx)$ </p>\n<p>To find the critical points for potential maxima or minima, we set  $f^{'}(x)=0$ :</p>\n<p> $-x^{-x}(1+logx)=0$ </p>\n<p>This implies:</p>\n<p> $1+logx=0$ </p>\n<p>Solving for  $x$ , we get:</p>\n<p> $logx=-1 \\Rightarrow x=e^{-1}=\\frac{1}{e}$ </p>\n<p>The function  $f(x)$  attains a maximum value at this point. Substituting back to find the maximum value:</p>\n<p> $f(\\frac{1}{e})=(\\frac{1}{1/e})^{1/e}=e^{1/e}$ </p>\n<p>Thus, the maximum value of  $(\\frac{1}{x})^{x}$  is  $e^{1/e}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{1}{x})^{x}",
@@ -1565,7 +1565,7 @@
         "e^{1/e}"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.693757"
     },
@@ -1611,11 +1611,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{For mean value theorem} \\\\ &amp; \\begin{aligned} &amp; f^{'}(c)=\\frac{f(b)-f(a)}{b-a} \\\\ \\therefore &amp; f(x)=x^{2} \\\\ \\Rightarrow &amp; f^{'}(x)=2x \\\\ \\therefore &amp; 2c=\\frac{f(4)-f(2)}{4-2} \\\\ \\Rightarrow &amp; 2c=\\frac{4^{2}-2^{2}}{4-2} \\\\ \\Rightarrow &amp; 2c=4+2 \\\\ \\Rightarrow &amp; 2c=6 \\\\ \\Rightarrow &amp; c=3 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.995894"
     },
@@ -1661,7 +1661,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine where the function  $f(x)=x^{2}+2x-5$  is strictly increasing, we first calculate the derivative of the function:</p>\n<p> $f^{'}(x)=\\frac{d}{dx}(x^{2}+2x-5)=2x+2=2(x+1)$ </p>\n<p>A function is increasing where its derivative is greater than or equal to zero. Thus, we analyze the inequality:</p>\n<p> $f^{'}(x) \\ge 0 \\Rightarrow 2(x+1) \\ge 0$ </p>\n<p>Simplifying this inequality, we find:</p>\n<p> $x+1 \\ge 0 \\Rightarrow x \\ge -1$ </p>\n<p>Therefore, the function  $f(x)=x^{2}+2x-5$  is strictly increasing on the interval  $[-1,\\infty)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{2}+2x-5",
@@ -1669,7 +1669,7 @@
         "f^{'}(x) \\ge 0 \\Rightarrow 2(x+1) \\ge 0"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.858679"
     },
@@ -1715,7 +1715,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have,  $y^{2}=x...(i)$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 2y\\frac{dy}{dx}=1 \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=\\frac{1}{2y} \\end{aligned}$ </p>\n<p> $\\therefore$  Slope of tangent  $=\\frac{1}{2y}...(ii)$ </p>\n<p>Now, tangent makes an angle of  $\\pi/4$  with  $X$ -axis</p>\n<p> $\\therefore$  Slope of tangent  $=tan\\frac{\\pi}{4}=1...(iii)$ </p>\n<p>From Eqs. (ii) and (iii), we get</p>\n<p> $\\frac{1}{2y}=1 \\Rightarrow y=\\frac{1}{2}$ </p>\n<p>Putting,  $y=\\frac{1}{2}$  in Eq. (i), we get</p>\n<p> $\\begin{aligned} &amp; &amp; (\\frac{1}{2})^{2} &amp; =x \\\\ \\Rightarrow &amp; x &amp; =\\frac{1}{4} \\end{aligned}$ </p>\n<p> $\\therefore$  Required point is  $(\\frac{1}{4},\\frac{1}{2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=x",
@@ -1723,7 +1723,7 @@
         "(\\frac{1}{4},\\frac{1}{2})"
       ],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.868100"
     },
@@ -1769,11 +1769,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> Let the radius of the sphere be a</p>\n<p> $\\begin{aligned} &amp; \\therefore \\text{Volume,}V=\\frac{4}{3}\\pi a^{3} \\\\ &amp; \\Rightarrow \\frac{dV}{da}=\\frac{4}{3}\\pi(3a^{2})=4\\pi a^{2} \\end{aligned}$ </p>\n<p>Again, surface area,  $s=4\\pi a^{2}$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\frac{ds}{da} &amp; =4\\pi(2a)=8\\pi a \\\\ \\therefore \\frac{dV}{ds} &amp; =\\frac{(dV/da)}{(ds/da)} \\\\ &amp; =\\frac{4\\pi a^{2}}{8\\pi a}=\\frac{a}{2}[ \\because a=4cm] \\\\ &amp; =\\frac{4}{2} \\\\ &amp; =2cm^{3}/cm^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Application Of Derivatives - Core Application"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.879871"
     }

@@ -46,13 +46,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moxa4ft9/dd0111bb-ba5b-493a-bacf-73c1cef05e05/0cddabd0-4b10-11f1-8353-79c9d062302a/file-6y3zli1moxa4fta.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Easy",
       "key_formulas": [
         "y^{2}=4x"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:15.886500"
     },
@@ -98,7 +98,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>parabola passes through  $(1,-1)$  so</p>\n<p> $-1=1+p+q$ </p>\n<p> $p+q=-2$ </p>\n<p> $q=-2-p\\dots(1)$ </p>\n<p>Distance from x-axis</p>\n<p> $\\frac{-D}{4a}=\\frac{-(p^{2}-4q)}{4(1)}=\\frac{4q-p^{2}}{4}$ </p>\n<p> $=\\frac{4(-2-p)-p^{2}}{4}\\text{from (1)}$ </p>\n<p> $=\\frac{-8-4p-p^{2}}{4}=\\frac{-(p^{2}+4p+8)}{4}=\\frac{-((p+2)^{2}+4)}{4}$ </p>\n<p>Minimum at  $p=-2 \\rightarrow q=0$ </p>\n<p> $p^{2}+q^{2}=4+0=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{2}+px+q",
@@ -109,7 +109,7 @@
         "=\\frac{-8-4p-p^{2}}{4}=\\frac{-(p^{2}+4p+8)}{4}=\\frac{-((p+2)^{2}+4)}{4}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:17.425388"
     },
@@ -155,7 +155,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the vertex of the parabola  $x^{2}=4y$  be the origin  $O(0,0)$ .</p>\n<p>Let  $Q$  be any point on the parabola. We can parameterize the coordinates of  $Q$  as  $(2t,t^{2})$  for some real parameter  $t$ . Satisfying  $x^{2}=(2t)^{2}=4t^{2}$  and  $4y=4(t^{2})$ .</p>\n<p>Let  $P(x,y)$  be the point that divides the line segment  $OQ$  internally in the ratio  $2:3$ .</p>\n<p>Using the section formula, the coordinates of  $P$  are given by:</p>\n<p> $x=\\frac{2 \\cdot x_{Q}+3 \\cdot x_{O}}{2+3}=\\frac{2(2t)+3(0)}{5}=\\frac{4t}{5}$ </p>\n<p> $y=\\frac{2 \\cdot y_{Q}+3 \\cdot y_{O}}{2+3}=\\frac{2(t^{2})+3(0)}{5}=\\frac{2t^{2}}{5}$ </p>\n<p>To find the locus of  $P$  (the conic  $C$ ), we eliminate the parameter  $t$ .</p>\n<p>From the first equation, we have  $t=\\frac{5x}{4}$ .</p>\n<p>Substituting this into the second equation:</p>\n<p> $y=\\frac{2}{5}(\\frac{5x}{4})^{2}$ </p>\n<p> $y=\\frac{2}{5} \\cdot \\frac{25x^{2}}{16}$ </p>\n<p> $y=\\frac{5x^{2}}{8}$ </p>\n<p> $5x^{2}=8y$ </p>\n<p>So, the equation of the conic  $C$  is  $5x^{2}-8y=0$ . This is a parabola.</p>\n<p>We need to find the equation of the chord of  $C$  which is bisected at the point  $(x_{1},y_{1})=(1,2)$ .</p>\n<p>The equation of a chord of a conic  $S=0$  bisected at a point  $(x_{1},y_{1})$  is given by  $T=S_{1}$ .</p>\n<p>Here,  $S \\equiv 5x^{2}-8y$ .</p>\n<p> $S_{1}$  is the value of  $S$  at  $(1,2)$ :</p>\n<p> $S_{1}=5(1)^{2}-8(2)=5-16=-11$ </p>\n<p> $T$  is the expression obtained by replacing  $x^{2}$  with  $xx_{1}$  and  $y$  with  $\\frac{y+y_{1}}{2}$ :</p>\n<p> $T=5x(1)-8(\\frac{y+2}{2})$ </p>\n<p> $T=5x-4(y+2)$ </p>\n<p> $T=5x-4y-8$ </p>\n<p>Equating  $T=S_{1}$ :</p>\n<p> $5x-4y-8=-11$ </p>\n<p> $5x-4y+3=0$ </p>\n<p>The equation of the chord is  $5x-4y+3=0$ .</p>\n<p>Option A</p>\n<p> $5x-4y+3=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}=4y",
@@ -166,7 +166,7 @@
         "T=5x-4y-8"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:18.307145"
     },
@@ -212,7 +212,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the roots of the quadratic equation</p>\n<p> $(k^{2}-15k+27)x^{2}+9(k-1)x+18=0$ </p>\n<p>be  $\\alpha$  and  $\\beta$ .</p>\n<p>Given that one root is twice the other, let</p>\n<p> $\\alpha=2\\beta$ </p>\n<p>So the roots are in the ratio  $2:1$ .</p>\n<p>For a quadratic equation  $ax^{2}+bx+c=0$ :</p>\n<p> $\\alpha+\\beta=-\\frac{b}{a},\\alpha\\beta=\\frac{c}{a}$ </p>\n<p>Here,</p>\n<p> $a=k^{2}-15k+27,b=9(k-1),c=18$ </p>\n<p>So,</p>\n<p> $\\alpha+\\beta=\\frac{-9(k-1)}{k^{2}-15k+27}$ </p>\n<p>and</p>\n<p> $\\alpha\\beta=\\frac{18}{k^{2}-15k+27}$ </p>\n<p>Now let the roots be  $2t$  and  $t$ .</p>\n<p>Then,</p>\n<p> $\\alpha+\\beta=3t,\\alpha\\beta=2t^{2}$ </p>\n<p>Using the identity:</p>\n<p> $(\\alpha+\\beta)^{2}=9t^{2}$ </p>\n<p>and</p>\n<p> $\\alpha\\beta=2t^{2}$ </p>\n<p>So,</p>\n<p> $(\\alpha+\\beta)^{2}=\\frac{9}{2}\\alpha\\beta$ </p>\n<p>Now substitute the values from the quadratic:</p>\n<p> $(\\frac{-9(k-1)}{k^{2}-15k+27})^{2}=\\frac{9}{2} \\cdot \\frac{18}{k^{2}-15k+27}$ </p>\n<p>Simplify:</p>\n<p> $\\frac{81(k-1)^{2}}{(k^{2}-15k+27)^{2}}=\\frac{81}{k^{2}-15k+27}$ </p>\n<p>Cancel  $81$ :</p>\n<p> $\\frac{(k-1)^{2}}{(k^{2}-15k+27)^{2}}=\\frac{1}{k^{2}-15k+27}$ </p>\n<p>Cross-multiply:</p>\n<p> $(k-1)^{2}=k^{2}-15k+27$ </p>\n<p>Now expand:</p>\n<p> $k^{2}-2k+1=k^{2}-15k+27$ </p>\n<p>Cancel  $k^{2}$ :</p>\n<p> $-2k+1=-15k+27$ </p>\n<p> $13k=26$ </p>\n<p> $k=2$ </p>\n<p>Now the parabola is</p>\n<p> $y^{2}=6kx$ </p>\n<p>Substitute  $k=2$ :</p>\n<p> $y^{2}=12x$ </p>\n<p>Compare with standard form:</p>\n<p> $y^{2}=4ax$ </p>\n<p>So,</p>\n<p> $4a=12⟹a=3$ </p>\n<p>Length of latus rectum of the parabola  $y^{2}=4ax$  is</p>\n<p> $4a$ </p>\n<p>Therefore,</p>\n<p> $4a=12$ </p>\n<p>Hence, the required length is</p>\n<p> $12$ </p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option D}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Hard",
       "key_formulas": [
         "13k=26",
@@ -223,7 +223,7 @@
         "4a=12⟹a=3"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:15.920868"
     },
@@ -271,7 +271,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlar2ybu/86d32f23-871c-466a-ba4e-480a2e9e8a36/b1ac5aa0-0347-11f1-ad15-bf2e39b6c423/file-6y3zli1mlar2ybv.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=8x",
@@ -282,7 +282,7 @@
         "4a=8"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:17.483841"
     },
@@ -330,13 +330,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moyrgxw9/be066982-9b26-4aff-874f-96419d2d1dde/ac63b890-4be0-11f1-bbe7-f7ad8e37e2ec/file-6y3zli1moyrgxwa.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=12x"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:15.982797"
     },
@@ -382,7 +382,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let parametric point on parabola  $x^{2}=4y$  is  $(2t,t^{2})$ .</p>\n<p>Key concept: image of point  $(ℎ,k)$  in the line  $ax+by+c=0$  is given as  $\\frac{x-ℎ}{a}=\\frac{y-k}{b}=\\frac{-2(aℎ+bk+c)}{a^{2}+b^{2}}$ </p>\n<p>So, Image of point in line  $x-y-1=0$  is given as</p>\n<p> $\\frac{x-2t}{1}=\\frac{y-t^{2}}{-1}=\\frac{-2(2t-t^{2}-1)}{1^{2}+(-1)^{2}}$ </p>\n<p>equating</p>\n<p> $\\begin{aligned} &amp; \\frac{x-2t}{1}=\\frac{-2(2t-t^{2}-1)}{2} \\\\ &amp; x=-2t+t^{2}+1+2t \\Rightarrow x=t^{2}+1 \\end{aligned}$ </p>\n<p>equating</p>\n<p> $\\begin{aligned} &amp; \\frac{y-t^{2}}{-1}=\\frac{-2(2t-t^{2}-1)}{2} \\\\ &amp; y-t^{2}=2t-t^{2}-1 \\Rightarrow y=2t-1 \\end{aligned}$ </p>\n<p>from (1) and (2) eliminate parameter t to get</p>\n<p>image of curve.</p>\n<p>so, from (2) put  $t=\\frac{y+1}{2}$  in equation (1).</p>\n<p> $\\begin{aligned} &amp; x=(\\frac{y+1}{2})^{2}+1 \\\\ &amp; \\frac{(y+1)^{2}}{4}=x-1 \\\\ &amp; (y+1)^{2}=4(x-1) \\end{aligned}$ </p>\n<p>Compare with given image of curve  $(y+a)^{2}=b(x-c)$ </p>\n<p>to find value of  $a,b,&amp;c$ .</p>\n<p> $\\begin{aligned} &amp; a=1,b=4,c=1 \\\\ &amp; a+b+c=1+4+1=6. \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}=4y",
@@ -393,7 +393,7 @@
         "\\frac{x-ℎ}{a}=\\frac{y-k}{b}=\\frac{-2(aℎ+bk+c)}{a^{2}+b^{2}}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:17.531847"
     },
@@ -439,7 +439,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the parabola</p>\n<p> $y^{2}=8x$ </p>\n<p>we compare it with the standard form</p>\n<p> $y^{2}=4ax$ </p>\n<p>So,</p>\n<p> $4a=8⟹a=2$ </p>\n<p>Hence:</p>\n<ul>\n<li><p>focus  $S=(2,0)$ </p></li>\n<li><p>directrix is</p></li>\n</ul>\n<p> $x=-2$ </p>\n<p>Since the directrix cuts the  $x$ -axis at point  $A$ , we get</p>\n<p> $A=(-2,0)$ </p>\n<p>Now let  $B(\\alpha,\\beta)$  be a point on the parabola such that the slope of  $AB$  is  $\\frac{3}{5}$ .</p>\n<p>The slope of  $AB$  is</p>\n<p> $\\frac{\\beta-0}{\\alpha-(-2)}=\\frac{\\beta}{\\alpha+2}$ </p>\n<p>Given this is  $\\frac{3}{5}$ , so</p>\n<p> $\\frac{\\beta}{\\alpha+2}=\\frac{3}{5}$ </p>\n<p>Thus,</p>\n<p> $5\\beta=3(\\alpha+2)$ </p>\n<p>Also, since  $B$  lies on the parabola  $y^{2}=8x$ ,</p>\n<p> $\\beta^{2}=8\\alpha$ </p>\n<p>Now substitute from (1). From (1),</p>\n<p> $\\beta=\\frac{3(\\alpha+2)}{5}$ </p>\n<p>Put into (2):</p>\n<p> $(\\frac{3(\\alpha+2)}{5})^{2}=8\\alpha$ </p>\n<p> $\\frac{9(\\alpha+2)^{2}}{25}=8\\alpha$ </p>\n<p> $9(\\alpha+2)^{2}=200\\alpha$ </p>\n<p> $9(\\alpha^{2}+4\\alpha+4)=200\\alpha$ </p>\n<p> $9\\alpha^{2}+36\\alpha+36=200\\alpha$ </p>\n<p> $9\\alpha^{2}-164\\alpha+36=0$ </p>\n<p>Now solve:</p>\n<p> $9\\alpha^{2}-164\\alpha+36=0$ </p>\n<p>Discriminant:</p>\n<p> $D=164^{2}-4 \\cdot 9 \\cdot 36=26896-1296=25600$ </p>\n<p> $\\sqrt{D}=160$ </p>\n<p>So,</p>\n<p> $\\alpha=\\frac{164 \\pm 160}{18}$ </p>\n<p>Hence,</p>\n<p> $\\alpha=\\frac{324}{18}=18\\text{or}\\alpha=\\frac{4}{18}=\\frac{2}{9}$ </p>\n<p>Given  $\\alpha&gt;1$ , we take</p>\n<p> $\\alpha=18$ </p>\n<p>Then from  $\\beta^{2}=8\\alpha$ ,</p>\n<p> $\\beta^{2}=144⟹\\beta= \\pm 12$ </p>\n<p>Since slope is  $\\frac{3}{5}&gt;0$ ,  $\\beta$  must be positive. Therefore</p>\n<p> $B=(18,12)$ </p>\n<p>Now  $BC$  is a focal chord of the parabola.</p>\n<p>For parabola  $y^{2}=4ax$ , a point in parametric form is</p>\n<p> $(at^{2},2at)$ </p>\n<p>Here  $a=2$ , so point is</p>\n<p> $(2t^{2},4t)$ </p>\n<p>For point  $B=(18,12)$ ,</p>\n<p> $2t^{2}=18⟹t^{2}=9⟹t=3$ </p>\n<p>and</p>\n<p> $4t=12⟹t=3$ </p>\n<p>So  $B$  corresponds to parameter  $t=3$ .</p>\n<p>If  $BC$  is a focal chord, then the other endpoint corresponds to parameter  $-\\frac{1}{t}$ .</p>\n<p>Thus for  $t=3$ , point  $C$  corresponds to parameter  $-\\frac{1}{3}$ .</p>\n<p>So,</p>\n<p> $C=(2(\\frac{1}{9}),4(-\\frac{1}{3}))=(\\frac{2}{9},-\\frac{4}{3})$ </p>\n<p>Now find area of  $△ABC$ .</p>\n<p>Coordinates are:</p>\n<p> $A=(-2,0),B=(18,12),C=(\\frac{2}{9},-\\frac{4}{3})$ </p>\n<p>Using determinant formula,</p>\n<p> $\\text{Area}=\\frac{1}{2}|x_{1}(y_{2}-y_{3})+x_{2}(y_{3}-y_{1})+x_{3}(y_{1}-y_{2})|$ </p>\n<p>So,</p>\n<p> $\\text{Area}=\\frac{1}{2}[-2(12+\\frac{4}{3})+18(-\\frac{4}{3})+\\frac{2}{9}(0-12)]|$ </p>\n<p>Now simplify:</p>\n<p> $12+\\frac{4}{3}=\\frac{40}{3}$ </p>\n<p>So,</p>\n<p> $-2 \\cdot \\frac{40}{3}=-\\frac{80}{3}$ </p>\n<p>Also,</p>\n<p> $18 \\cdot (-\\frac{4}{3})=-24$ </p>\n<p>and</p>\n<p> $\\frac{2}{9}(-12)=-\\frac{24}{9}=-\\frac{8}{3}$ </p>\n<p>Therefore,</p>\n<p> $\\text{Area}=\\frac{1}{2}|-\\frac{80}{3}-24-\\frac{8}{3}|$ </p>\n<p> $=\\frac{1}{2}|-\\frac{88}{3}-24|=\\frac{1}{2}|-\\frac{88}{3}-\\frac{72}{3}|$ </p>\n<p> $=\\frac{1}{2}|-\\frac{160}{3}|=\\frac{80}{3}$ </p>\n<p>Hence,</p>\n<p> $6 \\times \\text{Area}=6 \\cdot \\frac{80}{3}=160$ </p>\n<p>Therefore, the required answer is</p>\n<p> $160$ </p>\n<p>So, the correct option is <strong>B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Hard",
       "key_formulas": [
         "P:y^{2}=8x",
@@ -450,7 +450,7 @@
         "9\\alpha^{2}-164\\alpha+36=0"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:16.028383"
     },
@@ -498,14 +498,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mmao2zaz/801ab86a-152f-47da-adbe-4adbe19173d6/2e6b30b0-1708-11f1-a55e-8fc0a6e2251b/file-6y3zli1mmao2zb0.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=4x",
         "d=12-4\\sqrt{3}=4(3-\\sqrt{3})"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:17.581826"
     },
@@ -553,7 +553,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9zqb866/343839e6-1837-436e-b2fa-0bc27518875a/ae4f13e0-2371-11f0-be72-d7d0880a3028/file-jaoe38c1m9zqb867.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{2}+2",
@@ -564,7 +564,7 @@
         "\\Rightarrow 2y(\\frac{dy}{dx})=1 \\Rightarrow y=\\frac{1}{2} \\Rightarrow"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:19.332325"
     },
@@ -612,13 +612,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m77l56ae/6fc30f33-2012-4bc8-b1a4-0975c04f89fe/17699b60-ec5f-11ef-a7f5-ed1df7ab36a3/file-jaoe38c1m77l56af.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=4x"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:20.053268"
     },
@@ -666,13 +666,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7g61xye/8da0d631-82d1-4636-bc8f-0ebdd70bdec7/22748c60-f117-11ef-8021-7171fbb6e15f/file-jaoe38c1m7g61xyf.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=4ax"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:21.228319"
     },
@@ -720,13 +720,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9l22lne/2ca043ce-4d06-4474-8e9d-5a2bbc7d483b/ea3f37a0-1b5f-11f0-abe7-59750868e8e7/file-jaoe38c1m9l22lnf.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+y+2=0"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:18.346097"
     },
@@ -772,7 +772,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the parabola  $y^{2}=16x$ , the point  $P$  on the focal chord  $PQ$  is  $(1,-4)$ . We need to determine how the focus divides the chord.</p>\n<p>First, express the coordinates for the point  $P$  using the parametric form of the parabola. The general parametric equations for the parabola are:</p>\n<p> $P(at^{2},2at) \\equiv P(4t^{2},8t) \\equiv (1,-4)$ </p>\n<p>The equation  $8t=-4$  leads to solving for  $t$ :</p>\n<p> $t=-\\frac{1}{2}$ </p>\n<p>Now, find the coordinates of point  $Q$  using the relation  $t_{1} \\cdot t_{2}=-1$ . Therefore:</p>\n<p> $Q(\\frac{a}{t^{2}},\\frac{-2a}{t})$ </p>\n<p>Given the focus  $S$  of the parabola is at  $(4,0)$ , we can find the lengths of  $PS$  and  $QS$ :</p>\n<p>The length  $PS$  is calculated as:</p>\n<p> $PS=a+at^{2}$ </p>\n<p>And  $QS$  is given by:</p>\n<p> $QS=a+\\frac{a}{t^{2}}=\\frac{at^{2}+a}{t^{2}}$ </p>\n<p>Since the focus divides the chord in a specific ratio  $m:n$ , and  $gcd(m,n)=1$ , we find:</p>\n<p> $\\frac{PS}{QS}=t^{2}=\\frac{1}{4}=\\frac{m}{n}$ </p>\n<p>Thus, the squares of  $m$  and  $n$  sum up to:</p>\n<p> $m^{2}+n^{2}=17$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=16x",
@@ -780,7 +780,7 @@
         "8t=-4"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:19.362421"
     },
@@ -826,7 +826,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of axis</p>\n<p> $\\begin{aligned} &amp; y-3=2(x-\\frac{3}{2}) \\\\ &amp; y-2x=0 \\end{aligned}$ </p>\n<p>foot of directrix</p>\n<p> $\\begin{aligned} &amp; y-2x=0 \\\\ &amp; &amp; \\Rightarrow (0,0) \\\\ &amp; 2y+x=0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Focus}=(3,6) \\\\ &amp; PS^{2}=P^{2} \\\\ &amp; (x-3)^{2}+(y-6)^{2}=(\\frac{x+2y}{\\sqrt{5}})^{2} \\\\ &amp; 4x^{2}+y^{2}-4xy-30x-60y+225=0 \\\\ &amp; \\Rightarrow \\alpha=4,\\beta=1,\\gamma=4 \\Rightarrow \\alpha+\\beta+\\gamma=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "V(\\frac{3}{2},3)",
@@ -836,7 +836,7 @@
         "\\begin{aligned} & y-2x=0 \\\\ & & \\Rightarrow (0,0) \\\\ & 2y+x=0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:20.098918"
     },
@@ -882,7 +882,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given parabola is  $y=x^{2}+px-3$ .</p>\n<p><p><strong>Intersection with the y-axis:</strong></p>\n<p>At  $x=0$ , we find  $y=-3$ .</p>\n<p>Thus, the parabola intersects the y-axis at the point  $(0,-3)$ .</p></p>\n<p><p><strong>Circle Equation:</strong></p>\n<p>We are given the circle has its center at  $(-1,-1)$  and it passes through the points where the parabola intersects the axes. The radius can be found using the distance from the center to any given point the circle passes through. Using  $(0,-3)$ :</p>\n<p> $\\text{Radius}=\\sqrt{(0+1)^{2}+(-3+1)^{2}}=\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$ </p>\n<p>Therefore, the equation of the circle is:</p>\n<p> $(x+1)^{2}+(y+1)^{2}=5$ </p>\n<p>This simplifies to:</p>\n<p> $x^{2}+2x+1+y^{2}+2y+1=5$ </p>\n<p> $x^{2}+y^{2}+2x+2y+2=5$ </p>\n<p> $x^{2}+y^{2}+2x+2y-3=0$ </p></p>\n<p><p><strong>Intersection with the x-axis:</strong></p>\n<p>When  $y=0$ , solving the quadratic  $x^{2}+2x-3=0$  gives:</p>\n<p> $(x+3)(x-1)=0$ </p>\n<p>So,  $x=-3$  or  $x=1$ .</p>\n<p>Thus, the intersection points on the x-axis are  $(-3,0)$  and  $(1,0)$ .</p></p>\n<p><p><strong>Vertices of Triangle  $△PQR$ :</strong></p>\n<p>The vertices of the triangle formed are  $P=(0,-3)$ ,  $Q=(-3,0)$ , and  $R=(1,0)$ .</p></p>\n<p><p><strong>Area of  $△PQR$ :</strong></p>\n<p>Use the determinant formula to find the area of the triangle:</p>\n<p> $\\text{Area}=\\frac{1}{2}|\\begin{aligned} 0 &amp; -3 &amp; 1 \\\\ -3 &amp; 0 &amp; 1 \\\\ 1 &amp; 0 &amp; 1 \\end{aligned}|$ </p>\n<p>Calculate the determinant:</p>\n<p> $=\\frac{1}{2}((0)(0)(1)+(-3)(1)(1)+(1)(-3)(1)-(1)(0)(1)-(-3)(1)(0)-(0)(-3)(1))$ </p>\n<p>Simplify:</p>\n<p> $=\\frac{1}{2}(0-3+3+0)=\\frac{1}{2}(12)=6$ </p></p>\n<p>Thus, the area of  $△PQR$  is 6.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Hard",
       "key_formulas": [
         "y=x^{2}+px-3",
@@ -893,7 +893,7 @@
         "x^{2}+y^{2}+2x+2y-3=0"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:21.319618"
     },
@@ -941,13 +941,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtopa4/847de49e-75b7-42cf-9b4e-2f34e9dce80c/9b3c93c0-1f18-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtopa5.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "P:y^{2}=x-2"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:18.407867"
     },
@@ -995,14 +995,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mahr8lr6/a1c1d1b9-f8f3-4af8-b6b8-39f7eca5de52/6a316020-2d5b-11f0-ba89-416c860861c7/file-jaoe38c1mahr8lr7.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Easy",
       "key_formulas": [
         "y^{2}=4x",
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:19.391959"
     },
@@ -1050,7 +1050,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7j7lonf/1953308f-05ea-4783-984d-0993978735fd/8a871db0-f2c3-11ef-839d-2d40708f8cbd/file-jaoe38c1m7j7long.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=4x",
@@ -1059,7 +1059,7 @@
         "\\begin{aligned} & (x-1)(x-5)+y^{2}=0 \\\\ & x^{2}+y^{2}-6x+5=0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:20.138434"
     },
@@ -1107,14 +1107,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtiots/5126597d-c802-424c-87d0-1aafe05dc368/f4093b80-1f17-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtiou0.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x",
         "\\Rightarrow y=-x"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:18.433330"
     },
@@ -1162,13 +1162,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m747hp33/d8843c46-34e9-421b-8080-c0b2b5b7cfd8/59e2dcf0-ea83-11ef-b67d-232796d3ab30/file-jaoe38c1m747hp34.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "A(x_{1},y_{1})&B(x_{2},y_{2})"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:19.422599"
     },
@@ -1216,14 +1216,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7e9s8t0/00334698-b230-489d-bb5b-6d016a93ecba/27f69540-f00c-11ef-9717-875b14a45511/file-jaoe38c1m7e9s8t1.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Easy",
       "key_formulas": [
         "3x-2y+12=0",
         "4y=3x^{2}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:20.167991"
     },
@@ -1269,7 +1269,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of normal to parabola</p>\n<p> $y=mx-2m-m^{3}$ </p>\n<p>this normal passing through center of circle  $(2,8)$ </p>\n<p> $\\begin{aligned} &amp; 8=2m-2m-m^{3} \\\\ &amp; m=-2 \\end{aligned}$ </p>\n<p>So point  $P$  on parabola  $\\Rightarrow (am^{2},-2am)=(4,4)$ </p>\n<p>And  $C=(2,8)$ </p>\n<p> $\\begin{aligned} &amp; PC=\\sqrt{4+16}=\\sqrt{20} \\\\ &amp; d^{2}=20 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=4x",
@@ -1278,7 +1278,8 @@
         "\\begin{aligned} & PC=\\sqrt{4+16}=\\sqrt{20} \\\\ & d^{2}=20 \\end{aligned}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents",
+        "Normals to Parabola & Co-Normal Points"
       ],
       "crawled_at": "2026-09-20T15:43:22.632332"
     },
@@ -1326,11 +1327,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwd1ocxr/d26061ca-43e1-4f4a-a0fc-77af60f91e91/491160f0-1599-11ef-acc0-2dadf5616f59/file-1lwd1ocxs.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:21.379927"
     },
@@ -1376,13 +1377,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y^{2}=12x$ </p>\n<p>Chord  $PQ$  having mid-point  $(x_{1},y_{1})=(4,1)$  equation of chord  $PQ$ </p>\n<p> $\\begin{aligned} &amp; T=S_{1} \\\\ &amp; yy_{1}-12\\frac{(x+x_{1})}{2}=y_{1}^{2}-12x_{1} \\\\ &amp; y-6(x+4)=1-12 \\times 4 \\\\ &amp; y-6x-24=-47 \\\\ &amp; y-6x+23=0 \\end{aligned}$ </p>\n<p>From option (4)  $x=\\frac{1}{2}$  &amp;  $y=-20$ </p>\n<p> $-20-6 \\times \\frac{1}{2}+23=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "-20-6 \\times \\frac{1}{2}+23=0"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:21.473359"
     },
@@ -1428,7 +1429,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(x+\\frac{1}{2})^{2}=(y+\\frac{1}{4})$ \n<br/><br/> $y=(x^{2}+x)$ \n<br/><br/> $tan^{-1}\\sqrt{x(x+1)}+sin^{-1}\\sqrt{x^{2}+x+1}=\\pi/2$ \n<br/><br/> $0 \\le x^{2}+x+1 \\le 1$ \n<br/><br/> $x^{2}+x \\le 0$ \n<br/><br/>Also  $x^{2}+x \\ge 0$ \n<br/><br/> $\\therefore x^{2}+x=0 \\Rightarrow x=0,-1$ \n<br/><br/> $S$  contains 2 element.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=f(x)",
@@ -1439,7 +1440,7 @@
         "y=(x^{2}+x)"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:23.555258"
     },
@@ -1485,7 +1486,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P \\equiv (\\frac{A}{m^{2}},\\frac{2A}{m})$  where  $(A=\\frac{3}{4},m=\\frac{-1}{2})$ </p>\n<p>&amp;  $Q,R=( \\mp \\frac{a^{2}m_{1}}{a^{2}m_{1}^{2}+b^{2}},\\frac{\\mp .b^{2}}{\\sqrt{a^{2}m_{1}^{2}+b^{2}}})$ </p>\n<p>Where  $a^{2}=4,b^{2}=1$  and  $m_{1}=1$ </p>\n<p> $\\therefore$   $P \\equiv (3,-3)$ </p>\n<p> $Q \\equiv (\\frac{-4}{\\sqrt{5}},\\frac{-1}{\\sqrt{5}})$  &amp;  $R(\\frac{4}{\\sqrt{5}},\\frac{1}{\\sqrt{5}})$ </p>\n<p>Area  $=\\frac{1}{2}|\\begin{aligned} 3 &amp; -3 &amp; 1 \\\\ \\frac{-4}{\\sqrt{5}} &amp; \\frac{-1}{\\sqrt{5}} &amp; 1 \\\\ \\frac{4}{\\sqrt{5}} &amp; \\frac{1}{\\sqrt{5}} &amp; 1 \\end{aligned}|=\\frac{1}{10}|\\begin{aligned} 3 &amp; -3 &amp; 1 \\\\ -4 &amp; -1 &amp; \\sqrt{5} \\\\ 0 &amp; 0 &amp; 2\\sqrt{5} \\end{aligned}|$ </p>\n<p> $=\\frac{2\\sqrt{5}}{10}(-15)=3\\sqrt{5}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=3x",
@@ -1496,7 +1497,7 @@
         "(A=\\frac{3}{4},m=\\frac{-1}{2})"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:24.652724"
     },
@@ -1544,7 +1545,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le2n7sz9/699005b2-a3c2-4567-bfdf-626597fbe0f4/0194ea50-ab85-11ed-bcb9-87e2bc2e0c49/file-1le2n7sza.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=24x",
@@ -1555,7 +1556,7 @@
         "\\Rightarrow c=\\frac{6}{m}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:26.239478"
     },
@@ -1603,7 +1604,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lh8cf7fa/cc7db376-968a-4280-8ff8-3d1538f92ccf/25044f60-ea0c-11ed-9dfd-37e68ac0819e/file-1lh8cf7fb.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         ". Here, 4a = 36, which means a = 9. Length of focal chord at",
@@ -1614,7 +1615,7 @@
         "t=3"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:22.678924"
     },
@@ -1660,7 +1661,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let a tangent on  $y^{2}=16x$  be  $y=mx+\\frac{4}{m}$ </p>\n<p>For common to  $x^{2}+y^{2}=8$ </p>\n<p> $\\frac{4}{m}=2\\sqrt{2}(1+m^{2})$ </p>\n<p> $\\Rightarrow \\frac{2}{m^{2}}=1+m^{2} \\Rightarrow m= \\pm 1$ </p>\n<p>Taking one of the tangent  $y=x+4$ </p>\n<p>Point of tangency with  $y^{2}=4x$ </p>\n<p> $x^{2}+8+16=4x \\Rightarrow x=4$  &amp;  $y=8$ </p>\n<p> $\\therefore$   $Q(4,8)$ </p>\n<p>and for  $x^{2}+y^{2}=8$ </p>\n<p> $2x^{2}+8x+8=0$ </p>\n<p> $x^{2}+4x+4=8 \\Rightarrow x=-2,y=2 \\Rightarrow R=(-2,2)$ </p>\n<p> $(QR)^{2}=6^{2}+6^{2}=72$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{m}=2\\sqrt{2}(1+m^{2})",
@@ -1671,7 +1672,7 @@
         "y=8"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:23.604707"
     },
@@ -1720,7 +1721,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lef4vkb3/455513c9-54ce-4923-8412-8892bb374d49/794a91f0-b263-11ed-a6d1-894f1caef997/file-1lef4vkb4.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lef4wwy4/94c63b59-5b17-404e-a886-f1440050aed4/9edd19b0-b263-11ed-a126-5dfa1a9d5fb8/file-1lef4wwy5.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "x=0",
@@ -1729,7 +1730,7 @@
         "ty=x+\\frac{3}{2}t^{2}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:24.718381"
     },
@@ -1777,11 +1778,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lmyvdpob/0009489a-90f2-422f-89e7-7c971c77552a/bebae0b0-5b9f-11ee-b31c-37f6bf9b942e/file-6y3zli1lmyvdpoc.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:22.758560"
     },
@@ -1827,7 +1828,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let point of intersection be ( $\\alpha,1$ )</p>\n<p> $\\alpha x^{2}+2b\\alpha+c=0$  ..... (i)</p>\n<p>and  $d\\alpha^{2}+2e\\alpha+f=0$  .... (ii)</p>\n<p> $\\Rightarrow a\\alpha^{2}+2\\sqrt{ac}\\alpha+c=0$  ( $\\because$   $b^{2}=ac$ )</p>\n<p> $(\\sqrt{a}\\alpha+\\sqrt{c})^{2}=0$ </p>\n<p> $\\alpha=-\\sqrt{\\frac{c}{a}}$ </p>\n<p>Put the value of  $\\alpha$  in (ii),</p>\n<p> $d\\frac{c}{a}-2e\\sqrt{\\frac{c}{a}}+f=0$ </p>\n<p> $\\frac{d}{a}-\\frac{2e}{\\sqrt{ac}}+\\frac{f}{c}=0$ </p>\n<p> $\\frac{d}{a}+\\frac{f}{c}=2\\frac{e}{b}$ </p>\n<p> $\\frac{d}{a},\\frac{e}{b},\\frac{f}{c}$  are in A.P.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "ax^{2}+2bx+cy=0",
@@ -1838,7 +1839,7 @@
         "\\Rightarrow a\\alpha^{2}+2\\sqrt{ac}\\alpha+c=0"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:23.649011"
     },
@@ -1884,7 +1885,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y^{2}=\\frac{x}{2} \\Rightarrow \\text{tangent}y=mx+\\frac{1}{8m} \\\\ \\\\ &amp; y^{2}=x-1 \\Rightarrow \\text{tangent}y=m(x-1)+\\frac{1}{4m} \\\\ \\\\ &amp; \\text{For common tangent}\\frac{1}{8m}=-m+\\frac{1}{4m} \\\\ \\\\ &amp; \\Rightarrow 1=-8m^{2}+2 \\\\ \\\\ &amp; \\because m&gt;0 \\Rightarrow m=\\frac{1}{2\\sqrt{2}} \\\\ \\\\ &amp; \\Rightarrow \\text{Common tangent is}y=\\frac{x}{2\\sqrt{2}}+\\frac{1}{2\\sqrt{2}} \\\\ \\\\ &amp; \\Rightarrow x-2\\sqrt{2}y+1=0 \\end{aligned}$ <br/><br/>\nDistance of point  $(6,-2\\sqrt{2})$  from common tangent  $=5$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Normals to Parabola & Co-Normal Points",
       "difficulty": "Medium",
       "key_formulas": [
         "y=mx+c,m>0",
@@ -1892,7 +1893,7 @@
         "x=1+y^{2}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Normals to Parabola & Co-Normal Points"
       ],
       "crawled_at": "2026-09-20T15:43:24.810672"
     },
@@ -1938,11 +1939,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y^{2}=20x,y=mx+c$ \n<br/><br/>Put value of  $x$ \n<br/><br/> $\\begin{aligned} &amp; y^{2}=20(\\frac{y-c}{m}) \\\\ \\\\ &amp; \\Rightarrow y^{2}-\\frac{20}{m}y+\\frac{20}{m}c=0.......(i) \\end{aligned}$ \n<br/><br/>Since, centroid  $=(10,10)$ \n<br/><br/> $\\begin{aligned} &amp; \\text{So,}\\frac{y_{1}+y_{2}+0}{3}=10 \\\\ \\\\ &amp; \\Rightarrow y_{1}+y_{2}=30 \\end{aligned}$ \n<br/><br/>From (1),\n<br/><br/> $\\text{Sum of roots}=\\frac{20}{m}=30 \\Rightarrow m=\\frac{2}{3}$ \n<br/><br/>Also,  $c-m=6 \\Rightarrow c=6+\\frac{2}{3}=\\frac{20}{3}$ \n<br/><br/>Now, the equation is :\n<br/><br/> $\\begin{aligned} &amp; y^{2}-\\frac{20}{2} \\times 3y+\\frac{20}{2} \\times 3 \\times \\frac{20}{3}=0 \\\\ \\\\ &amp; \\Rightarrow y^{2}-30y+200=0 \\\\ \\\\ &amp; \\Rightarrow y^{2}-20y-10y+200=0 \\\\ \\\\ &amp; \\Rightarrow (y-20)(y-10)=0 \\\\ \\\\ &amp; \\Rightarrow y=10,20 \\Rightarrow x=5,x=20 \\\\ \\\\ &amp; \\therefore P \\equiv (5,10),Q \\equiv (20,20) \\\\ \\\\ &amp; \\text{So,}(PQ)^{2}=(20-5)^{2}+(20-10)^{2} \\\\ \\\\ &amp; =225+100=325 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:22.840810"
     },
@@ -1988,7 +1989,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of normal</p>\n<p> $y=-tx+2.\\frac{1}{16}t+\\frac{1}{16}t^{3}$ </p>\n<p> $33=\\frac{t}{8}+\\frac{t^{3}}{16}$ </p>\n<p> $\\Rightarrow t^{3}+2t=528$ </p>\n<p> $t=8$ </p>\n<p> $(at^{2},2at)=(4,1)$ </p>\n<p>Distance from  $x=-2$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Easy",
       "key_formulas": [
         "x=4y^{2}",
@@ -1999,7 +2000,7 @@
         "x=-2"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:23.716864"
     },
@@ -2048,7 +2049,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le5hgrn5/44884087-ba3d-4667-bbb2-3f2a5b14abd3/de014610-ad14-11ed-8a8c-4d67f5492755/file-1le5hgrn6.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le5hhow2/b6a28f6c-8c4b-40a8-8d7e-2bb4e657d95c/f7b02220-ad14-11ed-8a8c-4d67f5492755/file-1le5hhow3.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\lambda+1)x+\\lambda y=4",
@@ -2059,7 +2060,7 @@
         "y=mx+\\frac{3}{2m}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:24.890931"
     },
@@ -2105,7 +2106,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Centre of circle  $x^{2}+y^{2}-10x-14y+65=0$  is at (5, 7).</p>\n<p>Let the equation of tangent to  $y^{2}=8x$  is</p>\n<p> $yt=x+2t^{2}$ </p>\n<p>which passes through (5, 7)</p>\n<p> $7t=5+2t^{2}$ </p>\n<p> $\\Rightarrow 2t^{2}-7t+5=0$ </p>\n<p> $t=1,\\frac{5}{2}$ </p>\n<p> $A=2 \\times 1^{2} \\times 2 \\times (\\frac{5}{2})^{2}=25$ </p>\n<p> $B=2 \\times 2 \\times 1 \\times 2 \\times 2 \\times \\frac{5}{2}=40$ </p>\n<p> $A+B=65$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=8x",
@@ -2116,7 +2117,7 @@
         "A+B=65"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:27.773276"
     },
@@ -2164,7 +2165,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5scup2c/50969c63-d4f1-466d-8464-4fc5bb572b2d/e838e240-077a-11ed-94f6-83604aa63acb/file-1l5scup2d.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{4}",
@@ -2175,7 +2176,7 @@
         "\\Rightarrow m-3=1+3m"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:29.720596"
     },
@@ -2221,7 +2222,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let P(at<sup>2</sup>, 2at) where a =  $\\frac{3}{2}$ </p>\n<p>T : yt = x + at<sup>2</sup> So point Q is  $(-a,at-\\frac{a}{t})$ </p>\n<p>N : y =  $-$ tx + 2at + at<sup>3</sup> passes through (5,  $-$ 8)</p>\n<p> $-$ 8 =  $-$ 5t + 3t +  $\\frac{3}{2}$ t<sup>3</sup></p>\n<p> $\\Rightarrow$  3t<sup>3</sup>  $-$  4t + 16 = 0</p>\n<p> $\\Rightarrow$  (t + 2) (3t<sup>2</sup>  $-$  6t + 8) = 0</p>\n<p> $\\Rightarrow$  t = 2</p>\n<p>So ordinate of point Q is  $-$  $\\frac{9}{4}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{2}",
@@ -2232,7 +2233,7 @@
         "t = 2 So ordinate of point Q is"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:30.967261"
     },
@@ -2280,7 +2281,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7ssn4pj/b0858943-62f1-4335-ac1e-b62256a92364/16a87a70-2f51-11ed-85dd-19dc023e9ad1/file-1l7ssn4pk.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "P:y^{2}=4x",
@@ -2291,7 +2292,7 @@
         "0=m+C"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:26.386386"
     },
@@ -2337,7 +2338,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=mx+2a+\\frac{1}{m^{2}}$  (Equation of normal to  $x^{2}=4ay$  in slope form) through  $(1,-1)$ .</p>\n<p> $4m^{3}+6m^{2}+1=0$ </p>\n<p> $\\Rightarrow m≃-1.6$ </p>\n<p>Slope of normal  $≃\\frac{-8}{5}=tan\\theta$ </p>\n<p> $\\Rightarrow cos\\theta≃\\frac{-5}{\\sqrt{89}},sin\\theta≃\\frac{8}{\\sqrt{89}}$ </p>\n<p> $x_{p}=1+cos\\theta≃1-\\frac{5}{\\sqrt{89}} \\in (\\frac{1}{4},\\frac{1}{2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "≃\\frac{-8}{5}=tan\\theta",
@@ -2345,7 +2346,7 @@
         "x_{p}=1+cos\\theta≃1-\\frac{5}{\\sqrt{89}} \\in (\\frac{1}{4},\\frac{1}{2})"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:27.864635"
     },
@@ -2393,7 +2394,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5niod7a/d422eadb-ccc2-408b-8388-e3a333afd463/c3bb6e70-04d1-11ed-93b8-936002ac8631/file-1l5niod7b.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2}",
@@ -2404,7 +2405,7 @@
         "(\\frac{\\frac{2}{t}}{3-\\frac{1}{t^{2}}}).(\\frac{-2t}{3-t^{2}})=-1"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:29.797101"
     },
@@ -2450,7 +2451,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  Line  $y=kx+4$  touches the parabola  $y=x-x^{2}$ .</p>\n<p>So,  $kx+4=x-x^{2} \\Rightarrow x^{2}+(k-1)x+4=0$  has only one root</p>\n<p> $(k-1)^{2}=16 \\Rightarrow k=5$  or  $-$ 3 but  $k&gt;0$ </p>\n<p>So,  $k=5$ .</p>\n<p>And hence  $x^{2}+4x+4=0 \\Rightarrow x=-2$ </p>\n<p>So, P( $-$ 2,  $-$ 6) and V is  $(\\frac{1}{2},\\frac{2}{4})$ </p>\n<p>Slope of  $PV=\\frac{\\frac{1}{4}+6}{\\frac{1}{2}+2}=\\frac{5}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=4+kx,k>0",
@@ -2460,7 +2461,7 @@
         "(k-1)^{2}=16 \\Rightarrow k=5"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:31.040512"
     },
@@ -2508,7 +2509,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7raxquq/8f209afe-272a-4b1d-9894-cf78a8a0ee0c/10e1a120-2e7f-11ed-8702-156c00ced081/file-1l7raxqur.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow y \\times 1=x-3",
@@ -2518,7 +2519,7 @@
         "\\anglePQR=90^{\\circ} \\Rightarrow"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:26.440319"
     },
@@ -2564,7 +2565,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of tangent of slope  $m$  to  $y$   $=x^{2}$ </p>\n<p> $y=mx-\\frac{1}{4}m^{2}$ </p>\n<p>Equation of tangent of slope  $m$  to  $y=-(x-2)^{2}$ </p>\n<p> $y=m(x-2)+\\frac{1}{4}m^{2}$ </p>\n<p>If both equation represent the same line</p>\n<p> $\\frac{1}{4}m^{2}-2m=-\\frac{1}{4}m^{2}$ </p>\n<p> $m=0,4$ </p>\n<p>So, equation of tangent</p>\n<p> $y=4x-4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{2}",
@@ -2575,7 +2576,7 @@
         "\\frac{1}{4}m^{2}-2m=-\\frac{1}{4}m^{2}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:27.917930"
     },
@@ -2621,14 +2622,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Vertex of Parabola : (2,  $-$ 1)</p>\n<p>and directrix : 4x  $-$  3y = 21</p>\n<p>Distance of vertex from the directrix</p>\n<p> $a=|\\frac{8+3-21}{\\sqrt{25}}|=2$ </p>\n<p> $\\therefore$  length of latus rectum = 4a = 8</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Easy",
       "key_formulas": [
         "3y = 21, then the length of its latus rectum is : Vertex of Parabola : (2,",
         "3y = 21 Distance of vertex from the directrix"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:29.873001"
     },
@@ -2674,7 +2675,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let tangent to  $y^{2}=x$  be</p>\n<p> $y=mx+\\frac{1}{4m}$ </p>\n<p>For it being tangent to circle.</p>\n<p> $|\\frac{\\frac{1}{4}m}{\\sqrt{1+m^{2}}}|=\\sqrt{2}$ </p>\n<p> $\\Rightarrow 32m^{4}+32m^{2}-1=0$ </p>\n<p> $\\Rightarrow m^{2}=\\frac{-32 \\pm \\sqrt{(32)^{2}+4(32)}}{64}$ </p>\n<p> $\\Rightarrow 8m_{1}m_{2}=-4+3\\sqrt{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y=m_{1}x+c_{1}",
@@ -2685,7 +2686,7 @@
         "y^{2}=x"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:31.106673"
     },
@@ -2731,7 +2732,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of tangent at vertex :  $L \\equiv x+y-a=0$ </p>\n<p>Focus :  $F \\equiv (a,a)$ </p>\n<p>Perpendicular distance of L from F</p>\n<p> $=|\\frac{a+a-a}{\\sqrt{2}}|=|\\frac{a}{\\sqrt{2}}|$ </p>\n<p>Length of latus rectum  $=4|\\frac{a}{\\sqrt{2}}|$ </p>\n<p>Given  $4.|\\frac{a}{\\sqrt{2}}|=16$ </p>\n<p> $\\Rightarrow |a|=4\\sqrt{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "x+y=a",
@@ -2742,7 +2743,7 @@
         "\\Rightarrow |a|=4\\sqrt{2}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:26.552251"
     },
@@ -2790,13 +2791,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7bummn7/86c95a3b-4fff-4748-b770-5b447b8c82d7/87ebf730-25ff-11ed-9c74-c5a04899a045/file-1l7bummn8.png?format=png"
       ],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}-2x-2y=1"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:28.025988"
     },
@@ -2842,7 +2843,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given vertex is (5, 4) and directrix 3x + y  $-$  29 = 0</p>\n<p>Let foot of perpendicular of (5, 4) on directrix is (x<sub>1</sub>, y<sub>1</sub>)</p>\n<p> $\\frac{x_{1}-5}{3}=\\frac{y_{1}-4}{1}=\\frac{-(-10)}{10}$ </p>\n<p> $\\therefore$   $(x_{1},y_{1}) \\equiv (8,5)$ </p>\n<p>So, focus of parabola will be  $S=(2,3)$ </p>\n<p>Let P(x, y) be any point on parabola, then</p>\n<p> $(x-2)^{2}+(y-3)^{2}=\\frac{(3x+y-29)^{2}}{10}$ </p>\n<p> $\\Rightarrow 10(x^{2}+y^{2}-4x-6y+13)=9x^{2}+y^{2}+841+6xy-58y-174x$ </p>\n<p> $\\Rightarrow x^{2}+9y^{2}-6xy+134x-2y-711=0$ </p>\n<p>and given parabola</p>\n<p> $x^{2}+ay^{2}+bxy+cx+dy+k=0$ </p>\n<p> $\\therefore$  a = 9, b =  $-$ 6, c = 134, d =  $-$ 2, k =  $-$ 711</p>\n<p> $\\therefore$   $a+b+c+d+k=-576$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "3x+y-29=0",
@@ -2853,7 +2854,7 @@
         "(x-2)^{2}+(y-3)^{2}=\\frac{(3x+y-29)^{2}}{10}"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:29.961430"
     },
@@ -2899,7 +2900,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=2t,y=\\frac{2}{3}$ </p>\n<p> $t \\rightarrow 1A \\equiv (2,\\frac{1}{3})$ </p>\n<p>Given conic is  $x^{2}=12y \\Rightarrow S \\equiv (0,3)$ </p>\n<p>Let  $B \\equiv (0,\\beta)$ </p>\n<p>Given  $SA\\perpBA$ </p>\n<p> $(\\frac{\\frac{1}{3}}{2-3})(\\frac{\\beta-\\frac{1}{3}}{-2})=-1$ </p>\n<p> $\\Rightarrow (\\beta-\\frac{1}{3})\\frac{1}{3}=-2$ </p>\n<p> $\\Rightarrow \\beta=\\frac{1}{3}(\\frac{-17}{3})$ </p>\n<p> $\\underset{(ast \\rightarrow 1)}{Ordinateofcentroid}=k=\\frac{\\beta+\\frac{1}{3}+3}{3}$ </p>\n<p> $=\\frac{\\frac{-17}{9}+\\frac{10}{3}}{3}=\\frac{13}{18}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Parabola - Core Application",
+      "topic_tag": "Standard Parabola, Focus, Directrix & Tangents",
       "difficulty": "Medium",
       "key_formulas": [
         "x=2t",
@@ -2910,7 +2911,7 @@
         "(\\frac{\\frac{1}{3}}{2-3})(\\frac{\\beta-\\frac{1}{3}}{-2})=-1"
       ],
       "key_concepts": [
-        "Parabola - Core Application"
+        "Standard Parabola, Focus, Directrix & Tangents"
       ],
       "crawled_at": "2026-09-20T15:43:31.222629"
     }

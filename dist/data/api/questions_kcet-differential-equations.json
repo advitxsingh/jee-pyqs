@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}$ </p>\n<p>The highest order derivative present is  $y^{''}$ , so the order of the differential equation is</p>\n<p> $2$ </p>\n<p>To find the degree, the equation must be written as a polynomial in derivatives. Since  $y^{''}$  is inside a square root, we first remove the radical by squaring both sides:</p>\n<p> $(2y^{'}+(y^{''})^{2})^{2}=y^{''}-3$ </p>\n<p>Expanding,</p>\n<p> $4(y^{'})^{2}+4y^{'}(y^{''})^{2}+(y^{''})^{4}=y^{''}-3$ </p>\n<p>Bring all terms to one side:</p>\n<p> $(y^{''})^{4}+4y^{'}(y^{''})^{2}+4(y^{'})^{2}-y^{''}+3=0$ </p>\n<p>Now it is a polynomial in derivatives. The highest order derivative is  $y^{''}$ , and its highest power is  $4$ .</p>\n<p>So,</p>\n<p> $\\text{order}=2$ </p>\n<p> $\\text{degree}=4$ </p>\n<p>Sum of the squares:</p>\n<p> $2^{2}+4^{2}=4+16=20$ </p>\n<p>So the correct option is</p>\n<p> $20$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}",
@@ -55,7 +55,7 @@
         "\\text{degree}=4"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.708729"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\int xf(x)dx+\\frac{f(x)}{2}=0$ </p>\n<p>Differentiate both sides with respect to  $x$ .</p>\n<p>The derivative of  $\\int xf(x)dx$  is  $xf(x)$ , and the derivative of  $\\frac{f(x)}{2}$  is  $\\frac{f^{'}(x)}{2}$ .</p>\n<p>So,</p>\n<p> $xf(x)+\\frac{f^{'}(x)}{2}=0$ </p>\n<p>Multiply by  $2$ :</p>\n<p> $2xf(x)+f^{'}(x)=0$ </p>\n<p>So,</p>\n<p> $f^{'}(x)=-2xf(x)$ </p>\n<p>Now separate the variables:</p>\n<p> $\\frac{f^{'}(x)}{f(x)}=-2x$ </p>\n<p>This means</p>\n<p> $\\frac{1}{f(x)}\\frac{df}{dx}=-2x$ </p>\n<p>Integrate both sides:</p>\n<p> $\\int \\frac{1}{f}df=\\int -2xdx$ </p>\n<p> $ln|f|=-x^{2}+C$ </p>\n<p>So,</p>\n<p> $f(x)=Ce^{-x^{2}}$ </p>\n<p>Among the given options, the matching function is</p>\n<p> $e^{-x^{2}}$ </p>\n<p>So the correct option is <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int xf(x)dx+\\frac{f(x)}{2}=0",
@@ -110,7 +110,7 @@
         "e^{-x^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.727141"
     },
@@ -156,7 +156,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $(1+x^{2})\\frac{dy}{dx}+xy=1$ </p>\n<p>First write it in the standard linear form</p>\n<p> $\\frac{dy}{dx}+Py=Q$ </p>\n<p>Divide the whole equation by  $1+x^{2}$ :</p>\n<p> $\\frac{dy}{dx}+\\frac{x}{1+x^{2}}y=\\frac{1}{1+x^{2}}$ </p>\n<p>So,</p>\n<p> $P=\\frac{x}{1+x^{2}}$ </p>\n<p>For a linear differential equation, the integrating factor is</p>\n<p> $\\text{I.F.}=e^{\\int Pdx}$ </p>\n<p>Thus,</p>\n<p> $\\text{I.F.}=e^{\\int \\frac{x}{1+x^{2}}dx}$ </p>\n<p>Now,</p>\n<p> $\\int \\frac{x}{1+x^{2}}dx=\\frac{1}{2}log(1+x^{2})$ </p>\n<p>So,</p>\n<p> $\\text{I.F.}=e^{\\frac{1}{2}log(1+x^{2})}$ </p>\n<p>Using  $e^{loga}=a$ ,</p>\n<p> $\\text{I.F.}=(1+x^{2})^{1/2}$ </p>\n<p>Hence,</p>\n<p> $\\text{I.F.}=\\sqrt{1+x^{2}}$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\sqrt{1+x^{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "(1+x^{2})\\frac{dy}{dx}+xy=1",
@@ -167,7 +167,8 @@
         "\\text{I.F.}=e^{\\int Pdx}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE",
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:25.742413"
     },
@@ -213,7 +214,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here the highest derivative is  $\\frac{d^{2}y}{dx^{2}}$  so the order  $a=2$ . The equation is a polynomial in derivatives and the highest derivative appears as  $(\\frac{d^{2}y}{dx^{2}})^{2}$ , so the degree  $b=2$ . Hence  </p>\n<p> $a-b=2-2=0.$  </p>\n<p>Answer: 0.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{d^{2}y}{dx^{2}})^{2}",
@@ -221,7 +222,7 @@
         "a-b=2-2=0."
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.895184"
     },
@@ -267,13 +268,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{dy}{dx}+(tanx)y=secx \\\\ &amp; I \\cdot F=e^{(-)\\int -\\frac{sinx}{cosx}dx}=e^{-log_{e}cosx}=secx \\\\ &amp; \\therefore y \\cdot secx=\\int sec^{2}xdx \\\\ &amp; ysecx=tanx+c \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{dy}{dx}+ytanx=secx"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.758144"
     },
@@ -319,7 +320,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because e^{\\frac{dy}{dx}}=x+1$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{dx}=log(x+1) \\\\ &amp; \\Rightarrow \\int dy=\\int log(x+1)dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-\\int \\frac{x}{x+1}dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-\\int 1 \\cdot dx+\\int \\frac{1}{1+x}dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-x+log(x+1)+C \\\\ &amp; \\Rightarrow y=(x+1)log(x+1)-x+C \\end{aligned}$ </p>\n<p>Now,  $y(0)=3$ </p>\n<p> $3=0+C \\Rightarrow C=3$ </p>\n<p>Hence,  $y=(x+1)log(x+1)-x+3$ </p>\n<p> $y+x-3=(x+1)log(x+1)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{dy/dx}=x+1,y(0)=3",
@@ -329,7 +330,7 @@
         "y+x-3=(x+1)log(x+1)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.910702"
     },
@@ -375,11 +376,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the point on the curve be  $(ℎ,k)$ .</p>\n<p>According to the question, the equation of the tangent will be</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; \\frac{x}{2ℎ}+\\frac{y}{2k} &amp; =1 \\\\ \\Rightarrow &amp; \\frac{y}{2k} &amp; =1-\\frac{x}{2ℎ} \\\\ \\Rightarrow &amp; y &amp; =-(\\frac{2k}{2ℎ})x+2k \\end{aligned}$ </p>\n<p>So, the slope of tangent will be  $(-\\frac{k}{ℎ})$ .</p>\n<p>Now,  $\\frac{dy}{dx}=-\\frac{ℎ}{k}=-\\frac{y}{x}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{y}=-\\frac{dx}{x} \\\\ &amp; \\text{On integrating both sides, we get} \\\\ &amp; \\begin{aligned} &amp; \\int \\frac{dy}{dy}=-\\int \\frac{dx}{x} \\\\ \\Rightarrow &amp; lny=-lnx+lnC \\\\ \\Rightarrow &amp; lny=ln\\frac{C}{x} \\\\ \\Rightarrow &amp; y=\\frac{C}{x} \\\\ \\therefore &amp; xy=C \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:25.925765"
     },
@@ -425,13 +426,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}$ </p>\n<p>On cubic both sides, we get</p>\n<p> $\\begin{aligned} &amp; [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]^{3}=(\\frac{d^{2}y}{dx^{2}}+1) \\\\ \\Rightarrow &amp; [1+(\\frac{dy}{dx})^{2}]^{3}+(\\frac{d^{2}y}{dx^{2}})^{6}+3[1+(\\frac{dy}{dx})^{2}] \\cdot \\frac{d^{2}y}{dx^{2}} \\\\ &amp; [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]=\\frac{d^{2}y}{dx^{2}}+1 \\end{aligned}$ </p>\n<p>So, degree of the differential equation is 6 .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.131681"
     },
@@ -477,7 +478,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the equation of the curve by  $y=f(x)$  and curve passes through the point  $(1,1)$ , So,  $f(1)=1$  Also, we know that at any point  $(x,y)$  on the curve, the product of the slope of its tangent and  $x$  co-ordinate of the point is equal to the  $y$  co-ordinate of the point.</p>\n<p> $\\begin{aligned} \\frac{y}{x} &amp; =\\frac{dy}{dx} \\\\ xy^{'} &amp; =y \\end{aligned}$ </p>\n<p> $\\frac{y^{'}}{y}=\\frac{1}{x}$ </p>\n<p>On integrating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} ln|y| &amp; =|In|x|+e^{c} \\\\ y &amp; =kx,\\text{where}k=e^{c} \\end{aligned}$ </p>\n<p>Now, we can use the fact that the curve passes through the point  $(1,1)$  to find the value of  $k$ .</p>\n<p> $\\Rightarrow l=k(l)k=1$ </p>\n<p>Therefore, the equation of the curve is  $y=x$ </p>\n<p>Substituting the value of  $x$  and  $y$  from the given option, we find that the curve passes through the point  $(2,2)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "y=f(x)",
@@ -485,7 +486,7 @@
         "\\frac{y^{'}}{y}=\\frac{1}{x}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:25.941155"
     },
@@ -531,13 +532,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; (1+y_{1}^{2})^{2/3}=y_{2} \\\\ &amp; \\Rightarrow [(1+y_{1}^{2})^{2/3}]^{3}=(y_{2})^{3} \\Rightarrow (1+y_{1}^{2})^{2}=y_{2}^{3} \\end{aligned}$ </p>\n<p>Here, highest derivative is  $y_{2}$ .</p>\n<p>Therefore, order is 2 and power of  $y_{2}$  is 3.</p>\n<p>So, the degree is 3.</p>\n<p>Hence, required sum  $=2+3=5$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "(l+y_{1}^{2})^{2/3}=y_{2}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.335699"
     },
@@ -583,7 +584,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}+\\frac{y}{x}=x^{2}$ </p>\n<p>On comparing to  $\\frac{dy}{dx}+P(x)y=Q(x)$ </p>\n<p> $\\begin{aligned} P(x)=\\frac{1}{x},Q(x)=x^{2} \\\\ IF=e^{\\int Pdx}=e^{\\int \\frac{1}{x}dx}=e^{lnx}=x \\\\ y \\cdot (IF)=\\int Q(x)(IF)dx+C \\\\ y \\cdot x=\\int x^{2}xdx+C=\\frac{x^{4}}{4}+C \\\\ y=\\frac{x^{3}}{4}+\\frac{C}{x} \\\\ y(2)=\\frac{2^{3}}{4}+\\frac{C}{2}=2+\\frac{C}{2} \\\\ y(1)=\\frac{1}{4}+\\frac{C}{1}=\\frac{1}{4}+C=x \\\\ 2y(2)-y(1)=2(2+\\frac{C}{2})-(\\frac{1}{4}+C) \\\\ =4+C-\\frac{1}{4}-C=\\frac{15}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}+\\frac{y}{x}=x^{2}",
@@ -591,7 +592,7 @@
         "\\frac{dy}{dx}+P(x)y=Q(x)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.147849"
     },
@@ -637,14 +638,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}=(x+y)^{2}$  ..... (i)</p>\n<p>Let  $x+y=t \\Rightarrow 1+\\frac{dy}{dx}=\\frac{dt}{dx}$ </p>\n<p>Eq. (i) can be written as</p>\n<p> $\\begin{aligned} \\frac{dt}{dx}-1=t^{2} \\\\ \\Rightarrow \\frac{dt}{dx}=t^{2}+1 \\Rightarrow \\frac{dt}{t^{2}+1}=dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\int \\frac{dt}{t^{2}+1}=\\int dx \\Rightarrow tan^{-1}t=x+C \\\\ &amp; \\Rightarrow tan^{-1}(x+y)=x+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=(x+y)^{2}",
         "x+y=t \\Rightarrow 1+\\frac{dy}{dx}=\\frac{dt}{dx}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.159363"
     },
@@ -690,13 +691,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; xlogx\\frac{dy}{dx}+y=2xlogx \\Rightarrow \\frac{dy}{dx}+\\frac{y}{xlogx}=2 \\\\ &amp; \\text{IF}=e^{\\int \\frac{1}{xlogx}dx}=e^{log(logx)}=logx \\\\ &amp; y(logx)=\\int (2)(logx) \\cdot dx+C \\\\ &amp; \\Rightarrow ylogx=2\\int logxdx+C \\\\ &amp; \\Rightarrow ylogx=2[xlogx-x]+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Putting  $x=1$ , we get</p>\n<p> $y \\cdot 0=2[1 \\times 0-1]+C \\Rightarrow C=2$ </p>\n<p>Putting  $C=2$  in Eq. (i), we get</p>\n<p> $ylogx=2[xlogx-x]+2$ </p>\n<p> $\\begin{aligned} \\text{At}x &amp; =e \\Rightarrow y \\cdot 1=2(e \\times 1-e)+2 \\\\ y &amp; =0+2=2 \\\\ y(e) &amp; =2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "xlogx\\frac{dy}{dx}+y=2xlogx,y(e)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.174843"
     },
@@ -742,7 +743,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $xdy=ydx$ </p>\n<p> $\\Rightarrow \\frac{1}{y}dy=\\frac{1}{x}dx$ </p>\n<p>Integrating both sides,</p>\n<p> $\\begin{aligned} \\int \\frac{1}{y}dy &amp; =\\int \\frac{1}{x}dx. \\\\ \\Rightarrow logy &amp; =logx+logc \\end{aligned}$ </p>\n<p> $\\Rightarrow y=xc$  which is the equation of line passing through origin.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "xdy-ydx=0",
@@ -751,7 +752,7 @@
         "\\Rightarrow y=xc"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.367396"
     },
@@ -797,14 +798,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{dy}{dx}=\\frac{y+1}{x-1} \\\\ &amp; \\Rightarrow \\frac{1}{x-1}dx=\\frac{1}{y+1}dy \\end{aligned}$ </p>\n<p>Integrating both sides,</p>\n<p> $\\begin{aligned} &amp; \\int \\frac{1}{x-1}dx=\\int \\frac{1}{y+1}dy \\\\ &amp; \\Rightarrow log|x-1|=log|y+1|+logC \\\\ &amp; \\Rightarrow (x-1)=c(y+1) \\\\ &amp; \\text{As,} \\\\ &amp; y(1)=2 \\\\ &amp; 0=c(3) \\\\ &amp; c=0 \\end{aligned}$ </p>\n<p>Hence,  $x-1=0$  or  $x=1$ </p>\n<p>The given differential equation has only one solution.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{y+1}{x-1}",
         "y(l)=2"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.396072"
     },
@@ -850,13 +851,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; x^{2}dy-2xydx=x^{4}cosxdx \\\\ &amp; \\Rightarrow \\frac{dy}{dx}-\\frac{2}{x}y=x^{2}cosx \\end{aligned}$ </p>\n<p>Comparing with  $\\frac{dy}{dx}+Py=Q$ </p>\n<p>Where  $P=-\\frac{2}{x}$  and  $Q=x^{2}cosx$ .</p>\n<p> $\\therefore \\text{IF}=e^{\\int \\frac{-2}{x}dx}=e^{-2logx}=e^{log(\\frac{1}{x^{2}})}=\\frac{1}{x^{2}}$ </p><p> $\\therefore$  The solution of the given differential</p>\n<p> $\\begin{aligned} y \\cdot IF &amp; =\\int (Q \\times IF)dx+c \\\\ \\Rightarrow &amp; y \\times \\frac{1}{x^{2}}=\\int (x^{2}cosx)(\\frac{1}{x^{2}})dx+c \\\\ \\Rightarrow &amp; \\frac{y}{x^{2}}=\\int cosx+c \\\\ \\Rightarrow &amp; \\frac{y}{x^{2}}=sinx+c \\\\ \\Rightarrow &amp; y=x^{2}sinx+cx^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}dy-2xydx=x^{4}cosxdx"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.573196"
     },
@@ -902,14 +903,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}=\\frac{3x}{y} \\\\ &amp; \\Rightarrow \\int ydy=\\int 3xdx \\\\ &amp; \\Rightarrow \\frac{y^{2}}{2}=3 \\cdot \\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Since, Eq (i) passing through point  $(1,2)$ </p>\n<p> $\\begin{aligned} &amp; \\therefore &amp; \\frac{4}{2} &amp; =\\frac{3}{2}(1)^{2}+c \\\\ &amp; &amp; c &amp; =2-\\frac{3}{2}=\\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\therefore$  Equation of curve,  $\\frac{y^{2}}{2}=\\frac{3x^{2}}{2}+\\frac{1}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow y^{2}=3x^{2}+1 \\Rightarrow y^{2}-3x^{2}=1 \\\\ &amp; \\Rightarrow \\frac{y^{2}}{(1)^{2}}-\\frac{x^{2}}{(1/\\sqrt{3})^{2}}=1 \\end{aligned}$ </p>\n<p>Which represents a Hyperbola.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3x}{y}",
         "\\frac{y^{2}}{2}=\\frac{3x^{2}}{2}+\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.607810"
     },
@@ -955,13 +956,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow y=(\\frac{c_{2}+c_{3}}{c_{1}})e^{c_{4}} \\cdot e^{x} \\\\ &amp; \\Rightarrow y=ce^{x}\\text{where}c=\\frac{c_{2}+c_{3}}{c_{1}}e^{c_{4}} \\end{aligned}$ </p>\n<p>Taking  $log$  on both sides, we get</p>\n<p> $\\begin{aligned} &amp; logy=log(ce^{x}) \\\\ \\Rightarrow &amp; logy=logc+xloge \\\\ \\Rightarrow &amp; logy=logc+x \\end{aligned}$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{y}\\frac{dy}{dx}=1 \\Rightarrow \\frac{dy}{dx}=y$ </p>\n<p> $\\therefore$  order  $=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.432360"
     },
@@ -1007,13 +1008,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}$ </p>\n<p> $\\Rightarrow y=C_{1}e^{C_{2}}e^{x}+C_{3}e^{C_{4}}e^{x} \\Rightarrow y=A \\cdot e^{x}+B \\cdot e^{x}$ </p>\n<p>(Here,  $A=C_{1}e^{C_{2}},B=C_{3}e^{C_{4}}$ )</p>\n<p> $\\Rightarrow y=(A+B)e^{x}=Ce^{x}\\text{(Here,}A+B=C)$ </p>\n<p>Here, number of arbitrary constant is one so, order of the differential equation is one.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.867429"
     },
@@ -1059,13 +1060,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have differential equation,</p>\n<p> $\\begin{aligned} &amp; (2x+3y^{2})dy=ydx,y&gt;0 \\\\ &amp; \\Rightarrow y\\frac{dx}{dy}=2x+3y^{2} \\Rightarrow \\frac{dx}{dy}-\\frac{2x}{y}=3y \\end{aligned}$ </p>\n<p>Which is linear differential equation in the form of  $\\frac{dx}{dy}+Px=Q$ .</p>\n<p> $\\therefore I.F=e^{\\int Pdy}=e^{\\int \\frac{-2}{y}dy}=e^{-2logy}=e^{log(\\frac{1}{y^{2}})}=\\frac{1}{y^{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "(2x+3y^{2})dy=ydx(y>0)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE",
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:26.638593"
     },
@@ -1111,7 +1113,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the question, slope of tangent at any point  $(x,y)=$  product of its co-ordinates</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{dx}=xy \\Rightarrow \\frac{dy}{y}=x \\cdot dx \\Rightarrow \\int \\frac{dy}{y}=\\int xdx \\\\ &amp; \\Rightarrow logy=\\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Eq. (i) passing through  $(1,1)$ </p>\n<p> $\\therefore log1=\\frac{1}{2}+C \\Rightarrow C=-\\frac{1}{2}$ </p>\n<p> $\\therefore$  required equation of curves is</p>\n<p> $logy=\\frac{x^{2}}{2}-\\frac{1}{2} \\Rightarrow 2logy=x^{2}-1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "(x,y)=",
@@ -1119,7 +1121,7 @@
         "logy=\\frac{x^{2}}{2}-\\frac{1}{2} \\Rightarrow 2logy=x^{2}-1"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.676058"
     },
@@ -1165,7 +1167,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the degree and the order of the differential equation, consider the given equation:</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}$ </p>\n<p>To simplify the equation, cube both sides:</p>\n<p> $(\\frac{d^{2}y}{dx^{2}})^{3}=1+(\\frac{dy}{dx})^{2}$ </p>\n<p>Now, identify the order and degree of the equation. The <strong>order</strong> is determined by the highest derivative present, which in this case is  $\\frac{d^{2}y}{dx^{2}}$ . Therefore, the order is 2.</p>\n<p>The <strong>degree</strong> is determined by the power of the highest derivative after the equation has been expressed in polynomial form (if possible). Since the highest power of  $\\frac{d^{2}y}{dx^{2}}$  in this equation is 3, the degree is 3.</p>\n<p>Thus, the differential equation has a degree of 3 and an order of 2.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}",
@@ -1173,7 +1175,7 @@
         "\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.935580"
     },
@@ -1219,7 +1221,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the differential equation  $x\\frac{dy}{dx}-y=3$ , we start by rewriting it:</p>\n<p> $x\\frac{dy}{dx}-y=3$ </p>\n<p>Rearrange the terms to isolate the derivatives:</p>\n<p> $xdy=(y+3)dx$ </p>\n<p>Separate variables to integrate both sides:</p>\n<p> $\\frac{dy}{y+3}=\\frac{dx}{x}$ </p>\n<p>Now, integrate both sides:</p>\n<p> $\\int \\frac{dy}{y+3}=\\int \\frac{dx}{x}$ </p>\n<p>After integration, we have:</p>\n<p> $log(y+3)=logx+logc$ </p>\n<p>This can be rewritten as:</p>\n<p> $log(y+3)=log(cx)$ </p>\n<p>Exponentiating both sides, we find:</p>\n<p> $y+3=cx$ </p>\n<p>This equation,  $y=cx-3$ , represents a family of straight lines.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "x\\frac{dy}{dx}-y=3",
@@ -1230,7 +1232,7 @@
         "log(y+3)=log(cx)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:26.983414"
     },
@@ -1276,7 +1278,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for the integrating factor, we start with the differential equation:</p>\n<p> $\\frac{dy}{dx}+y=\\frac{1+y}{x}$ </p>\n<p>By manipulating the equation, it can be rewritten as:</p>\n<p><p>Subtract  $\\frac{y}{x}$  from both sides:</p>\n<p> $\\frac{dy}{dx}+y-\\frac{y}{x}=\\frac{1}{x}$ </p></p>\n<p><p>Rearrange to:</p>\n<p> $\\frac{dy}{dx}+(1-\\frac{1}{x})y=\\frac{1}{x}$ </p></p>\n<p>In this form, we identify:</p>\n<p><p> $P=1-\\frac{1}{x}$ </p></p>\n<p><p> $Q=\\frac{1}{x}$ </p></p>\n<p>Next, we find the integrating factor (I.F.), given by:</p>\n<p> $\\text{I.F.}=e^{\\int Pdx}$ </p>\n<p>Calculate the integral of  $P$ :</p>\n<p> $\\int Pdx=\\int (1-\\frac{1}{x})dx=\\int 1dx-\\int \\frac{1}{x}dx=x-logx$ </p>\n<p>Substituting back into the expression for the integrating factor:</p>\n<p> $\\text{I.F.}=e^{(x-logx)}=\\frac{e^{x}}{e^{logx}}=\\frac{e^{x}}{x}$ </p>\n<p>Thus, the integrating factor is  $\\frac{e^{x}}{x}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{dy}{dx}+y=\\frac{1+y}{x}",
@@ -1287,7 +1289,8 @@
         "Q=\\frac{1}{x}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE",
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:27.046280"
     },
@@ -1333,13 +1336,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}+y=1 \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=1-y \\\\ \\Rightarrow &amp; \\frac{1}{1-y}dy=dx \\end{aligned}$ </p>\n<p>On integrating both the sides, we have</p>\n<p> $\\begin{aligned} &amp; \\int \\frac{1}{1-y}dy=\\int dx \\\\ &amp; \\Rightarrow -log|1-y|=x+C \\\\ &amp; \\Rightarrow log|\\frac{1}{1-y}|=x+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}+y=1(y \\ne 1)"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:27.226157"
     },
@@ -1385,14 +1388,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have,</p>\n<p> $[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}$ </p>\n<p>Since, power of  $\\frac{d^{2}y}{dx^{2}}$  is 1 .</p>\n<p> $\\therefore$  Degree of the given differential equation is 1 .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Easy",
       "key_formulas": [
         "[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}",
         "\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T15:26:27.258716"
     },
@@ -1438,7 +1441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the differential equation, we start with:</p>\n<p> $x\\frac{dy}{dx}+2y=x^{2}$ </p>\n<p>Rewriting it in standard linear form, we have:</p>\n<p> $\\frac{dy}{dx}+\\frac{2}{x}y=x$ </p>\n<p>This is a linear differential equation, and to solve it, we need to find the integrating factor. The integrating factor,  $\\mu(x)$ , is given by:</p>\n<p> $\\mu(x)=e^{\\int \\frac{2}{x}dx}$ </p>\n<p>Calculating the integral, we get:</p>\n<p> $\\mu(x)=e^{2logx}$ </p>\n<p>Using the properties of logarithms and exponents:</p>\n<p> $e^{2logx}=e^{logx^{2}}=x^{2}$ </p>\n<p>Thus, the integrating factor is  $x^{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Differential Equations - Core Application",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Hard",
       "key_formulas": [
         "x \\cdot \\frac{dy}{dx}+2y=x^{2}",
@@ -1449,7 +1452,8 @@
         "e^{2logx}=e^{logx^{2}}=x^{2}"
       ],
       "key_concepts": [
-        "Kcet Differential Equations - Core Application"
+        "Variable Separable & Homogeneous DE",
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:27.322036"
     }

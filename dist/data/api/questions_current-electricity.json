@@ -47,7 +47,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moblw8sd/e3c17302-69b2-4bca-be63-e8a0f8080567/d83ac9e0-3f24-11f1-9916-55ae99d96892/file-6y3zli1moblw8se.webp?format=webp",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mobly7at/5a2f3cce-1340-4ffc-8ba9-460753040a9e/0eb2ba50-3f25-11f1-9916-55ae99d96892/file-6y3zli1mobly7au.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{1},I_{2}",
@@ -58,7 +58,7 @@
         "I_{1}+10-4I_{3}-2(I_{3}-I_{2})=0"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:32.083968"
     },
@@ -106,7 +106,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mol53l41/7e32b4cf-27c8-4a40-97df-8f2dd38e3cfe/ffb65820-4462-11f1-8548-dba52a2c0879/file-6y3zli1mol53l42.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "P=100W",
@@ -117,7 +117,7 @@
         "(R_{p})"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:33.350551"
     },
@@ -165,7 +165,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlgk4oki/c6dd5e87-d142-44d1-bd10-e51ae8591a13/35bec420-0679-11f1-9240-6d9343ac6d1d/file-6y3zli1mlgk4okj.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -176,7 +176,8 @@
         "l_{1}=120cm"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature",
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:34.731478"
     },
@@ -224,7 +225,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlmh0ct2/92cf891a-4423-4173-ae6c-b0567d694995/b5ee5050-09b9-11f1-8f61-d5953f1d17cb/file-6y3zli1mlmh0ct3.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -235,7 +236,7 @@
         "\\frac{1}{R_{1,V}}=\\frac{1}{100}+\\frac{1}{400}=\\frac{5}{400}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:35.966615"
     },
@@ -281,7 +282,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The resistance of the transmission line,  $R=2\\Omega$ </p>\n<p>The power delivered (Output Power),  $P_{\\text{out}}=1kW=1000W$ </p>\n<p>The given power is delivered at voltage,  $V=250V$ </p>\n<p>The power delivered to the load is the product of the voltage across the load and the current flowing through it.</p>\n<p> $P_{out}=V \\cdot I \\Rightarrow I=\\frac{P_{out}}{V}$ </p>\n<p> $\\Rightarrow I=\\frac{1000}{250}A=4A$ </p>\n<p>So, a current of 4 A flows through the transmission line.</p>\n<p>As the current flows through the transmission wires, some electrical energy is lost as heat due to the line's resistance. This power loss (  $P_{\\text{loss}}$  ) is calculated using Joule's heating formula :</p>\n<p> $P_{\\text{loss}}=I^{2} \\cdot R$ </p>\n<p> $\\Rightarrow$   $P_{loss}=(4)^{2} \\times 2W=32W$ </p>\n<p>The total power supplied at the source (Input Power,  $P_{in}$  ) must equal the power successfully delivered to the load plus the power lost in the transmission line.</p>\n<p> $P_{in}=P_{out}+P_{\\text{loss}}$ </p>\n<p> $\\Rightarrow$   $P_{in}=1000+32$ </p>\n<p> $\\Rightarrow$   $P_{in}=1032W$ </p>\n<p>The efficiency  $(\\eta)$  of the transmission line is the ratio of the useful power delivered to the total power supplied, expressed as a percentage :</p>\n<p> $\\eta=(\\frac{P_{\\text{out}}}{P_{\\text{in}}}) \\times 100%$ </p>\n<p> $\\Rightarrow$   $\\eta=(\\frac{1000}{1032}) \\times 100% \\approx 96.9%$ </p>\n<p>Therefore, the percentage efficiency of the transmission line is  $96.9%$ . Hence, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -292,7 +293,7 @@
         "\\Rightarrow I=\\frac{1000}{250}A=4A"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:37.294289"
     },
@@ -340,7 +341,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mm4gv15a/ce2eb6df-5595-43ff-9583-5300566f0030/3d915ae0-139f-11f1-aacc-3b5c559fc870/file-6y3zli1mm4gv15b.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dP}{dR}=0",
@@ -351,7 +352,7 @@
         "R=r"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:38.174729"
     },
@@ -401,14 +402,14 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mobmt00v/618688cb-b35a-41d4-aa93-b225d853c61f/67292ef0-3f28-11f1-bc11-3f052be21975/file-6y3zli1mobmt00w.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mobmw3jo/2b812bd8-88b1-4138-b42e-22e983cbf5ae/bd4f2b40-3f28-11f1-bc11-3f052be21975/file-6y3zli1mobmw3jp.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{eq(s)}=E_{1}+E_{2}+\\cdot s+E_{n}",
         "r_{eq(s)}=r_{1}+r_{2}+\\cdot s+r_{n}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:32.144084"
     },
@@ -454,13 +455,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Resistance is a physical property of a conductor that opposes current. It is easily measured using an Ohmmeter or by calculating the ratio of voltage to current (  $R=V/I$  ). Hence, option (A) is not the correct option.</p>\n<p>The voltage of a single point is representing the electric potential of that point which is defined as the work done to move a unit charge from infinity to a specific point.</p>\n<p>Since infinity is an arbitrary reference point, the absolute value of voltage at a single point cannot be measured directly. It is a mathematical construct. So, voltage cannot be measured, i.e., not a measurebale quantity. Hence, option is (D) is the correct option.</p>\n<p>Voltage difference (Potential difference) is the difference in electric potential between two specific points. This is measured by a voltmeter. So, it is a measurable quantity. Hence, option (B) is not the correct option.</p>\n<p>Displacement current is a quantity appearing in Maxwell's equations, representing a changing electric field (like between the plates of a capacitor). While it isn't a flow of charges like normal current, its magnetic effects are real and can be measured using magnetic sensors. Hence, it is a measurable quantity. So option (C) is not the correct option.</p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [
         "R=V/I"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:33.398699"
     },
@@ -509,7 +510,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljacfh4/e3163f4c-597a-4156-ad90-c1052b7a3a82/4bd99d80-07f9-11f1-a513-671ec3d625a9/file-6y3zli1mljacfh5.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljaemz0/ab9e9ec0-9459-44b9-99c5-bc44e8a21590/894297d0-07f9-11f1-a513-671ec3d625a9/file-6y3zli1mljaemz1.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -520,7 +521,8 @@
         "R_{3}=4\\Omega"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature",
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:34.804194"
     },
@@ -570,7 +572,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlna86qv/a6a4ca9d-e664-4312-9f68-c214ebfda101/f877ac60-0a2b-11f1-a1cc-0fd23aea82a4/file-6y3zli1mlna86qw.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlnacpoq/2b421b90-e9c9-40b1-9e31-8f86705e3aa3/7655f6a0-0a2c-11f1-a1cc-0fd23aea82a4/file-6y3zli1mlnacpor.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{1},R_{2}",
@@ -581,7 +583,7 @@
         "\\frac{2}{3}=\\frac{l_{1}}{100-l_{1}}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:36.019350"
     },
@@ -629,7 +631,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlze38mi/92f4ea6c-cef8-486f-9599-942f78514d73/7b2eeca0-10d4-11f1-a982-f930035e5675/file-6y3zli1mlze38mj.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{1}",
@@ -640,7 +642,7 @@
         "R_{\\text{right gap}}=R_{2}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:37.336822"
     },
@@ -689,7 +691,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moe1mwhh/ffe553fa-223a-46fd-917e-563793284a14/f7cf0250-407b-11f1-82b7-995bb104edcb/file-6y3zli1moe1mwhi.webp?format=webp",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moe1par9/0acf350e-0b3d-4085-a23f-439dddbbf3fa/3a738e50-407c-11f1-82b7-995bb104edcb/file-6y3zli1moe1para.webp?format=webp"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -700,7 +702,8 @@
         "V_{2}=30V"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature",
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:32.284579"
     },
@@ -749,7 +752,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlcamo3q/73bbc5e1-c6e9-4d2e-8b2a-7e48322a5bcd/ec0f8260-0420-11f1-b905-e3cf04b12e1d/file-6y3zli1mlcamo3r.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlcapmoa/87705f70-b9dc-40f4-830e-278e618550c7/3e6256a0-0421-11f1-b905-e3cf04b12e1d/file-6y3zli1mlcapmob.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{1}=R_{2}=R_{3}=R_{4}",
@@ -760,7 +763,7 @@
         "R_{2}=R"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:33.451499"
     },
@@ -808,7 +811,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljb3l1r/d97f2994-f95a-4452-a51f-34ab94b0e67d/3f008df0-07fc-11f1-a513-671ec3d625a9/file-6y3zli1mljb3l1s.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -819,7 +822,7 @@
         "I_{g} \\times G=(I-I_{g}) \\times S"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:34.851444"
     },
@@ -867,7 +870,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlafs9iw/c756ca14-2251-4c2c-bb95-05d2812bb2af/84002b80-031b-11f1-bcef-2dee639eea13/file-6y3zli1mlafs9ix.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -878,7 +881,7 @@
         "R=\\frac{l_{1}}{l_{2}}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:36.082763"
     },
@@ -926,7 +929,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml7rpcqo/fbcc8515-3409-4e6a-a695-dc319b1fe13b/c6a8bc00-01a3-11f1-a189-2d3796da7674/file-6y3zli1ml7rpcqp.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Hard",
       "key_formulas": [
         "is __________",
@@ -937,7 +940,7 @@
         "X=\\frac{-2R \\pm \\sqrt{(2R)^{2}-4(1)(-2R^{2})}}{2 \\times 1}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:37.430626"
     },
@@ -987,7 +990,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moe2tdwk/db0d570b-1963-4875-b725-d010fb2744a7/953f9640-4080-11f1-82b7-995bb104edcb/file-6y3zli1moe2tdwl.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1moe2wbz2/8ef5b8bf-dd4e-46d0-8dc5-3a1874454f1b/e72f3be0-4080-11f1-82b7-995bb104edcb/file-6y3zli1moe2wbz3.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{1}=27V,r_{1}=3\\Omega",
@@ -998,7 +1001,7 @@
         "R=3+3=6\\Omega"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:32.364431"
     },
@@ -1047,7 +1050,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlgjaioo/0b96bcb2-d40a-46ca-a0e6-240b516b31ce/eeece980-0675-11f1-9240-6d9343ac6d1d/file-6y3zli1mlgjaiop.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlgjdo3y/3af72722-1cf7-486d-8139-18d474cf2143/468b06e0-0676-11f1-9240-6d9343ac6d1d/file-6y3zli1mlgjdo3z.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "R=6\\Omega",
@@ -1057,7 +1060,7 @@
         "E_{eq}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:33.512948"
     },
@@ -1107,7 +1110,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljfrymk/1576966d-2ae2-43ef-8f2f-bf884ba05c4e/896d44c0-080e-11f1-838d-857e7b97e68d/file-6y3zli1mljfryml.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljfuak5/20ad564a-d8f4-41b7-a7a7-fbab44164989/ca435250-080e-11f1-838d-857e7b97e68d/file-6y3zli1mljfuak6.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "AD \\Rightarrow V_{B}=V_{F}",
@@ -1118,7 +1121,7 @@
         "R_{OD}=r+r=2r"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:34.939438"
     },
@@ -1168,7 +1171,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mluwo55i/6ea18fb6-97f3-4d5c-a7e7-b5bfb6f3990f/39921b60-0e5d-11f1-bed8-39cb2dcbc7be/file-6y3zli1mluwo55j.webp?format=jpg",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mluwq1fa/44805505-75d7-4666-b003-4852dc470859/6e4f1560-0e5d-11f1-bed8-39cb2dcbc7be/file-6y3zli1mluwq1fb.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "\\angleAOB=90^{\\circ}",
@@ -1179,7 +1182,7 @@
         "L_{2}=\\frac{3}{4} \\times 2\\pi r=\\frac{3\\pi r}{2}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:36.144382"
     },
@@ -1228,7 +1231,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml7s5icp/ba4e8698-a37d-40db-809e-a3f5015efb35/87f0c190-01a5-11f1-a189-2d3796da7674/file-6y3zli1ml7s5icq.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mm2e6ud8/9208d36a-62c3-4a8b-8c6e-f32a05107630/395ab7c0-127b-11f1-a738-79b73a106436/file-6y3zli1mm2e6ud9.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{1}=6\\Omega",
@@ -1239,7 +1242,7 @@
         "R_{AP}=k \\cdot l"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:37.493616"
     },
@@ -1285,7 +1288,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the total charge  $q$  that flows through the wire from  $t=1\\text{s}$  to  $t=2\\text{s}$ , we can integrate the current function  $I(t)=0.02t+0.01\\text{A}$  over this interval.</p>\n<p>The formula for the charge  $q$  flowing through the wire is given by the integral of the current with respect to time:</p>\n<p> $q=\\int I(t)dt$ </p>\n<p>We integrate the function from  $t=1$  to  $t=2$ :</p>\n<p> $q=\\int_{1}^{2}(0.02t+0.01)dt$ </p>\n<p>To solve this, first find the antiderivative:</p>\n<p> $q=[0.02\\frac{t^{2}}{2}+0.01t]_{1}^{2}$ </p>\n<p>Calculate the expression at the upper and lower bounds:</p>\n<p> $=[0.01t^{2}+0.01t]_{1}^{2}$ </p>\n<p>Plug in the values:</p>\n<p>For  $t=2$ :</p>\n<p> $=0.01(2)^{2}+0.01(2)=0.04+0.02=0.06$ </p>\n<ol start=\"2\">\n<p>For  $t=1$ :</p>\n<p> $=0.01(1)^{2}+0.01(1)=0.01+0.01=0.02$ </p>\n<p>Subtract the result at  $t=1$  from the result at  $t=2$ :</p>\n<p> $q=0.06-0.02=0.04\\text{C}$ </p>\n<p>Therefore, the charge that flows through the wire from  $t=1\\text{s}$  to  $t=2\\text{s}$  is  $0.04\\text{C}$ .</p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Hard",
       "key_formulas": [
         "I(t)=0.02t+0.01A",
@@ -1296,7 +1299,7 @@
         "t=2"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:39.348572"
     },
@@ -1346,7 +1349,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hsj7xz/5c0199e4-2cbc-4880-ab70-7a6abe9079dd/d46ad070-f1fb-11ef-92d5-db0ba57c48da/file-jaoe38c1m7hsj7y0.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hsrtkg/2666014a-77c5-48b8-842d-b18822fd1089/c3983700-f1fc-11ef-92d5-db0ba57c48da/file-jaoe38c1m7hsrtkh.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{A}=V_{C}",
@@ -1356,7 +1359,7 @@
         "\\Rightarrow R_{p}=\\frac{r}{9}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:40.453018"
     },
@@ -1402,13 +1405,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When two non-ideal batteries are connected in parallel, their equivalent emf is</p>\n<p> $E_{eq}=\\frac{\\frac{E_{1}}{r_{1}}+\\frac{E_{2}}{r_{2}}}{\\frac{1}{r_{1}}+\\frac{1}{r_{2}}} \\Rightarrow E_{eq}=\\frac{E_{1}r_{2}+E_{2}r_{1}}{r_{1}+r_{2}}$ </p>\n<p>If emf of both cells is same say E,</p>\n<p> $E_{eq}=\\frac{Er_{2}+Er_{1}}{r_{1}+r_{2}}=\\frac{E(r_{1}+r_{2})}{(r_{1}+r_{2})}=E$ </p>\n<p>Hence, equivalent emf is equal to emf of the single cell.</p>\n<p>Also, when two non-ideal batteries are connected in parallel, their equivalent resistance is  $r_{eq}=\\frac{r_{1}r_{2}}{r_{1}+r_{2}}$ </p>\n<p>Hence, the equivalent internal resistance is smaller than either of the two internal resistances. Therefore 1 is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "r_{eq}=\\frac{r_{1}r_{2}}{r_{1}+r_{2}}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:41.654336"
     },
@@ -1457,11 +1460,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9giznc5/85aa8347-4bfa-4650-a82e-0533aa355f6a/28125150-18e2-11f0-a103-9bd1ffe79f48/file-jaoe38c1m9giznc6.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9l5wn8l/67f605f4-47b0-4f11-94d1-7d9014c93fec/e922cd50-1b6e-11f0-bbff-0f04539847fe/file-jaoe38c1m9l5wn8m.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:38.240836"
     },
@@ -1507,14 +1510,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><p>The motor operates at 100 V and draws 1 A, so the total electrical power input is:</p>\n<p> $P_{\\text{in}}=IV=100\\text{V} \\times 1\\text{A}=100\\text{W}.$ </p></p>\n<p><p>With an efficiency of 91.6%, only 91.6% of the input power is used for the motor's work, while the rest is lost as heat. The output power is:</p>\n<p> $P_{\\text{out}}=0.916 \\times 100\\text{W}=91.6\\text{W}.$ </p></p>\n<p><p>The power lost is:</p>\n<p> $P_{\\text{loss}}=P_{\\text{in}}-P_{\\text{out}}=100\\text{W}-91.6\\text{W}=8.4\\text{W}.$ </p></p>\n<p><p>Since  $1\\text{W}=1\\text{J/s}$  and  $1\\text{cal} \\approx 4.2\\text{J}$ , we convert the lost power into calories per second:</p>\n<p> $P_{\\text{loss}}(\\text{in cal/s})=\\frac{8.4\\text{J/s}}{4.2\\text{J/cal}}=2\\text{cal/s}.$ </p></p>\n<p>Thus, the correct answer is:</p>\n<p>Option B: 2</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "P_{\\text{in}}=IV=100\\text{V} \\times 1\\text{A}=100\\text{W}.",
         "P_{\\text{out}}=0.916 \\times 100\\text{W}=91.6\\text{W}."
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:39.399837"
     },
@@ -1562,7 +1565,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hvms70/e7472145-4224-4eb5-a81b-3faac97778f9/f2e017c0-f207-11ef-8028-4f9ef72bf1cd/file-jaoe38c1m7hvms71.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "R=\\rho\\frac{l}{A} \\Rightarrow R∝l",
@@ -1572,7 +1575,7 @@
         "(R_{eq})_{2}=\\frac{3R^{2}}{16}-R=\\frac{3R}{16}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:40.555516"
     },
@@ -1620,11 +1623,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ss3ug5/e507f055-5e34-44dc-9741-0f95024ea2ba/c7ffb150-f806-11ef-8f81-df4c7cdc8bbc/file-jaoe38c1m7ss3ug6.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:41.730494"
     },
@@ -1670,11 +1673,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; R_{s}=R_{1}+R_{2}+R_{3}+\\dots\\dots\\dots+R_{n} \\\\ &amp; \\frac{V^{2}}{P_{s}}=\\frac{V^{2}}{P}+\\frac{V^{2}}{P}+\\dots\\dots..+\\frac{V^{2}}{P_{n}} \\\\ &amp; P_{s}=\\frac{P}{n} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:38.338765"
     },
@@ -1722,7 +1725,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1ma0j0m0q/4d6d8ac4-7548-478e-88a7-22927fad0113/efd9fda0-23e1-11f0-a048-651b25b521d4/file-jaoe38c1ma0j0m0r.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "5mm^{2}",
@@ -1733,7 +1736,7 @@
         "L/2=12.5m"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:39.464277"
     },
@@ -1779,7 +1782,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Galvanometer resistance: </p>\n<p> $R_{g}=30\\Omega$ </p></p>\n<p><p>Full-scale deflection current: </p>\n<p> $I_{g}=20mA=0.02A$ </p></p>\n<p><p>Maximum current to be measured: </p>\n<p> $I=3A$ </p></p>\n<p>When using the galvanometer to measure 3 A, the extra current passing through the shunt resistor ( $R_{s}$ ) is:</p>\n<p> $I_{s}=I-I_{g}=3-0.02=2.98A.$ </p>\n<p>Since the galvanometer and the shunt resistor are connected in parallel, their voltage drops must be equal. Therefore:</p>\n<p> $I_{g}R_{g}=I_{s}R_{s}.$ </p>\n<p>Substitute the given values:</p>\n<p> $0.02 \\times 30=2.98 \\times R_{s} \\Rightarrow R_{s}=\\frac{0.6}{2.98} \\approx 0.2013\\Omega.$ </p>\n<p>The shunt resistance is represented as:</p>\n<p> $R_{s}=\\frac{30}{X}\\Omega.$ </p>\n<p>Equate the two expressions:</p>\n<p> $\\frac{30}{X}=0.2013.$ </p>\n<p>Solving for  $X$ :</p>\n<p> $X=\\frac{30}{0.2013} \\approx 149.$ </p>\n<p>Thus, the value of  $X$  is approximately  $149.$  </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{30}{X}\\Omega",
@@ -1788,7 +1791,7 @@
         "I_{g}R_{g}=I_{s}R_{s}."
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:40.615737"
     },
@@ -1838,7 +1841,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7sz0rol/723c5ff7-fab8-45c8-bd03-2e4d53af4374/d256ae40-f821-11ef-8fee-a3fba03bd34c/file-jaoe38c1m7sz0rom.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7sz3c4d/652e8865-8671-4d46-81e8-f2d9d0a95c46/19bedcd0-f822-11ef-8fee-a3fba03bd34c/file-jaoe38c1m7sz3c4e.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{p}=1\\Omega",
@@ -1849,7 +1852,7 @@
         "I=\\frac{v}{R_{eq}}=\\frac{0.9v}{0.9\\Omega} \\Rightarrow I=1A"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:41.807769"
     },
@@ -1897,7 +1900,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rrbmrh/90c3c26c-e3f5-4a1d-9599-dfc2983b280c/5d83bad0-1f0f-11f0-9588-0d31893f02ea/file-jaoe38c1m9rrbmri.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Easy",
       "key_formulas": [
         "R_{1}=R_{2}=R_{3}=5\\Omega",
@@ -1905,7 +1908,7 @@
         "\\frac{1}{R_{P}}=\\frac{1}{10}+\\frac{1}{15}=\\frac{3+2}{30}=\\frac{1}{6}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:38.399637"
     },
@@ -1951,7 +1954,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the energy stored in the battery, follow these steps:</p>\n<p><p><strong>Convert mAh to Ah:</strong> </p>\n<p>The battery capacity is given as 5800 mAh. Since  </p>\n<p> $1\\text{Ah}=1000\\text{mAh},$  </p>\n<p>we have  </p>\n<p> $5800\\text{mAh}=5.8\\text{Ah}.$ </p></p>\n<p><p><strong>Calculate energy in watt-hours (Wh):</strong> </p>\n<p>The energy in Wh is given by the product of the voltage and the capacity in Ah. Thus,  </p>\n<p> $\\text{Energy (Wh)}=4.2\\text{V} \\times 5.8\\text{Ah}=24.36\\text{Wh}.$ </p></p>\n<p><p><strong>Convert watt-hours to joules (J):</strong> </p>\n<p>Since  </p>\n<p> $1\\text{Wh}=3600\\text{J},$  </p>\n<p>the total energy in joules is:  </p>\n<p> $24.36\\text{Wh} \\times 3600\\text{J/Wh}=87,696\\text{J} \\approx 87.7\\text{kJ}.$ </p></p>\n<p>Thus, the energy stored in the battery when fully charged is about 87.7 kJ.  </p>\n<p>The correct answer is Option A: 87.7 kJ.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "1\\text{Ah}=1000\\text{mAh},",
@@ -1961,7 +1964,7 @@
         "24.36\\text{Wh} \\times 3600\\text{J/Wh}=87,696\\text{J} \\approx 87.7\\text{kJ}."
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:39.543622"
     },
@@ -2007,7 +2010,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's analyze each statement step by step.</p>\n<p>Statement A: “The torsional constant in moving coil galvanometer has dimensions  $[ML^{2}T^{-2}]$ .”</p>\n<p><p>The torsional constant (often denoted by  $k$ ) relates the restoring torque to the angular displacement via  $\\tau=k\\theta$ . Since torque has dimensions of force × distance with dimensions  $[MLT^{-2} \\times L=ML^{2}T^{-2}]$  and the angular displacement (in radians) is dimensionless, the torsional constant indeed has the dimensions  $[ML^{2}T^{-2}]$ . </p></p>\n<p><p>Thus, Statement A is correct.</p></p>\n<p>Statement B: “Increasing the current sensitivity may not necessarily increase the voltage sensitivity.”</p>\n<p><p>The current sensitivity of a galvanometer is defined as its deflection per unit current (i.e.  $\\theta/I$ ).</p></p>\n<p><p>The voltage sensitivity, on the other hand, is the deflection per unit applied voltage when the galvanometer is used as a voltmeter. This sensitivity is proportional to the current sensitivity divided by the galvanometer’s internal resistance.</p></p>\n<p><p>Often, if you try to increase current sensitivity (for instance, by increasing the number of turns or enhancing the magnetic field), the internal resistance may also change (typically increase when number of turns is increased). Therefore, the improvement in current sensitivity does not automatically translate to a proportional increase in voltage sensitivity.</p></p>\n<p><p>Hence, Statement B is true.</p></p>\n<p>Statement C: “If we increase number of turns ( $N$ ) to its double ( $2N$ ), then the voltage sensitivity doubles.”</p>\n<p><p>The deflection (current sensitivity) is proportional to  $N$  since  $\\theta∝NI$ .</p></p>\n<p><p>However, when you double  $N$ , the length of the wire increases, and so does the internal resistance (approximately doubling it, assuming the wire diameter and material remain the same).</p></p>\n<p><p>Since voltage sensitivity is roughly given by  $\\frac{\\text{current sensitivity}}{\\text{internal resistance}}∝\\frac{N}{R_{g}}$ , if both  $N$  and  $R_{g}$  double, the ratio remains essentially unchanged.</p></p>\n<p><p>Therefore, doubling  $N$  does not double the voltage sensitivity, so Statement C is incorrect.</p></p>\n<p>Statement D: “MCG can be converted into an ammeter by introducing a shunt resistance of large value in parallel with galvanometer.”</p>\n<p><p>To convert a galvanometer into an ammeter, a shunt resistor is used to bypass most of the current so that only a small fraction (the full‐scale deflection current) passes through the galvanometer.</p></p>\n<p><p>For this to work, the shunt resistance should be very low compared to the galvanometer’s resistance, not of “large value.”</p></p>\n<p><p>Therefore, Statement D is false.</p></p>\n<p>Statement E: “Current sensitivity of MCG depends inversely on number of turns of coil.”</p>\n<p><p>As mentioned before, the electromagnetic torque in the coil is given by  $\\tau_{e}∝NI$ , so the deflection per unit current is  $\\theta/I∝N$ .</p></p>\n<p><p>This shows that the current sensitivity increases with  $N$  (i.e. it is directly proportional to  $N$ ), not inversely.</p></p>\n<p><p>Hence, Statement E is false.</p></p>\n<p>Only Statements A and B are correct. </p>\n<p>Looking at the given options, the correct choice is:</p>\n<p>Option B: A, B Only.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "[ML^{2}T^{-2}]",
@@ -2015,7 +2018,8 @@
         "\\tau_{e}∝NI"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature",
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:40.720982"
     },
@@ -2061,7 +2065,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To convert a galvanometer into an ammeter, we need to add a shunt resistance in parallel with the galvanometer's coil. The purpose of the shunt resistance is to bypass the majority of the current while allowing only a small fraction of it to pass through the galvanometer, thereby preventing it from being damaged by high currents.</p>\n<p>Given parameters:\n\n<ul>\n<li>Resistance of the galvanometer's coil,  $R_{g}=200\\Omega$ </li><br/>\n<li>Full-scale deflection current of the galvanometer,  $I_{g}=20\\mu A=20 \\times 10^{-6}A$ </li><br/>\n<li>Desired ammeter range,  $I=20mA=20 \\times 10^{-3}A$ </li></ul></p>\n<p>The shunt resistance,  $R_{s}$ , can be calculated using the formula:</p>\n<p>\n<p> $\\frac{R_{s}}{R_{g}+R_{s}}=\\frac{I_{g}}{I}$ </p>\n</p>\n<p>Solving for  $R_{s}$ :</p>\n<p>\n<p> $R_{s}=R_{g}(\\frac{I_{g}}{I-I_{g}})$ </p>\n</p>\n<p>Substituting the given values:</p>\n<p>\n<p> $R_{s}=200(\\frac{20 \\times 10^{-6}}{20 \\times 10^{-3}-20 \\times 10^{-6}})$ </p>\n</p>\n<p>Simplifying the expression:</p>\n<p>\n<p> $R_{s}=200(\\frac{20 \\times 10^{-6}}{19.98 \\times 10^{-3}})$ </p>\n</p>\n<p>\n<p> $R_{s} \\approx 200(\\frac{20 \\times 10^{-6}}{20 \\times 10^{-3}})=200(\\frac{1}{1000})=0.20\\Omega$ </p>\n</p>\n<p>Therefore, the value of the resistance to be added to use the galvanometer as an ammeter of range  $(0-20)mA$  is  $0.20\\Omega$ . Thus, the correct answer is:</p>\n<p>Option C:  $0.20\\Omega$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{g}=200\\Omega",
@@ -2072,7 +2076,7 @@
         "R_{s}=R_{g}(\\frac{I_{g}}{I-I_{g}})"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:42.844247"
     },
@@ -2118,13 +2122,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; P=v \\times i \\Rightarrow i=\\frac{110}{220}=\\frac{1}{2}A \\\\ &amp; i=ne \\Rightarrow n=\\frac{1}{2 \\times 1.6 \\times 10^{-19}}=31.25 \\times 10^{17} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [
         "e=1.6 \\times 10^{-19}C"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:44.589948"
     },
@@ -2173,13 +2177,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1luyccuuj/8ff78b06-7940-4d7d-b922-8c45010fbbbf/147ecdd0-f9b7-11ee-83f7-f9acd23529d8/file-1luyccuul.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw3j83cy/6fe3e484-236f-4be6-9602-0970d0afcba1/128dae20-105e-11ef-9330-f7b57aaea8e9/file-1lw3j83cz.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow R_{eq}=6+5+8=19\\Omega"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:42.921416"
     },
@@ -2227,11 +2231,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lvbx7z99/54f999c0-8118-4029-b7cf-03308249cec2/dd0265e0-012e-11ef-b9e7-612d1e30f27e/file-1lvbx7z9a.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:44.679875"
     },
@@ -2277,7 +2281,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When an electric kettle is used to heat water, the time taken to boil the water depends on the power of the heating element. The power supplied to the heating element is inversely proportional to the heating time. If we want to reduce the boiling time, the power needs to be increased. The power of the heating element is given by:</p>\n<p> $P=\\frac{V^{2}}{R}$ </p>\n<p>where  $P$  is the power,  $V$  is the voltage, and  $R$  is the resistance of the heating element. The resistance  $R$  of the heating element is proportional to its length  $L$  while the material and cross-sectional area remain constant.</p>\n<p>So, we can write:</p>\n<p> $R∝L$ </p>\n<p>To achieve boiling in 15 minutes instead of 20 minutes, the power needs to increase, which implies the resistance must decrease. Let the initial length of the heating element be  $L_{0}$ , and let the new length needed be  $L$ . The time taken to heat is inversely proportional to the power:</p>\n<p> $\\frac{T_{1}}{T_{2}}=\\frac{P_{2}}{P_{1}}$ </p>\n<p>Given that:</p>\n<p> $T_{1}=20\\text{minutes}$ </p>\n<p> $T_{2}=15\\text{minutes}$ </p>\n<p>We need to find the ratio:</p>\n<p> $\\frac{20}{15}=\\frac{P_{2}}{P_{1}}$ </p>\n<p>Simplifying:</p>\n<p> $\\frac{4}{3}=\\frac{P_{2}}{P_{1}}$ </p>\n<p>The power is inversely proportional to the resistance:</p>\n<p> $\\frac{P_{2}}{P_{1}}=\\frac{R_{1}}{R_{2}}$ </p>\n<p>Thus:</p>\n<p> $\\frac{4}{3}=\\frac{R_{1}}{R_{2}}$ </p>\n<p>Since resistance is proportional to length:</p>\n<p> $\\frac{R_{1}}{R_{2}}=\\frac{L_{1}}{L_{2}}$ </p>\n<p>Hence:</p>\n<p> $\\frac{4}{3}=\\frac{L_{1}}{L_{2}}$ </p>\n<p>Simplifying, we find:</p>\n<p> $L_{2}=\\frac{3}{4}L_{1}$ </p>\n<p>This means the length of the heating element should be decreased to  $\\frac{3}{4}$  of its initial length.</p>\n<p>Thus, the correct option is:</p>\n<p><b>Option C:</b> decreased,  $\\frac{3}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "P=\\frac{V^{2}}{R}",
@@ -2288,7 +2292,7 @@
         "\\frac{P_{2}}{P_{1}}=\\frac{R_{1}}{R_{2}}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:42.997692"
     },
@@ -2336,7 +2340,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv9hx157/13cc52c7-48d3-4314-9624-38c437422fc9/7254a4c0-ffd9-11ee-a65d-61c1e650eee9/file-1lv9hx158.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "P=\\frac{V^{2}}{R}",
@@ -2345,7 +2349,7 @@
         "\\frac{P_{5}}{P_{10}}=\\frac{\\frac{V^{2}}{5}}{\\frac{V^{2}}{10}}=\\frac{10}{5}=2"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:44.774397"
     },
@@ -2396,11 +2400,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lwfximx5/f6d1fb3b-bc1a-43be-8a2b-c95c732491ac/5f5b3790-172f-11ef-905e-4bbe7c423b86/file-6y3zli1lwfximx6.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lwfxiio0/738f156e-6e9a-42e5-addc-0a4593f17819/5c120000-172f-11ef-905e-4bbe7c423b86/file-6y3zli1lwfxiio1.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:41.855725"
     },
@@ -2449,13 +2453,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv4u1ge4/5bd8e900-8b5e-49fe-807c-f72f98169472/efa5d7c0-fd48-11ee-8075-a71888d2298c/file-1lv4u1ge5.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw8znu3l/378509fe-1a68-4a65-998e-2fa351a1d4e1/45a8d200-135e-11ef-a2b1-a5535752b4da/file-1lw8znu3m.png?format=png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{T}=(\\frac{3}{1+2}) \\times 2=2V"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:43.073394"
     },
@@ -2501,7 +2505,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To convert a galvanometer into an ammeter to measure larger currents, a low resistance known as the <em>shunt resistance</em> ( $R_{\\text{sh}}$ ) is connected in parallel with the galvanometer. The value of this shunt resistance can be calculated using the principles of parallel circuits and the desired maximum current the ammeter should read.</p>\n<p>The original configuration of the galvanometer allows it to measure up to  $10\\text{V}$ , and it has a resistance of  $100\\Omega$ . When connected in series with a  $400\\Omega$  resistor, the total resistance in the circuit is  $100\\Omega+400\\Omega=500\\Omega$ . Given this configuration measures up to  $10\\text{V}$ , we can calculate the maximum current it is designed to measure using Ohm's law:</p>\n<p> $I=\\frac{V}{R}=\\frac{10\\text{V}}{500\\Omega}=0.02\\text{A}$ </p>\n<p>Now, to recalibrate the device to measure up to  $10\\text{A}$ , we require the calculation of the shunt resistor  $R_{\\text{sh}}$  that needs to be connected in parallel with the galvanometer. The total current  $I$  will now be  $10\\text{A}$ , and the part of this current flowing through the galvanometer ( $I_{g}$ ) remains  $0.02\\text{A}$  (as before, to ensure we do not exceed the device's original maximum measuring capability), leaving the rest to flow through the shunt. Thus,  $I-I_{g}$  flows through the shunt.</p>\n<p>Since the voltage drop across both the shunt and the galvanometer must be the same for parallel components, we use Ohm’s Law  $V=IR$  for both and set up an equation to calculate  $R_{\\text{sh}}$ :</p>\n<p> $I_{g}R_{g}=(I-I_{g})R_{\\text{sh}}$ </p>\n<p>Substituting known values ( $R_{g}=100\\Omega$ ,  $I=10\\text{A}$ , and  $I_{g}=0.02\\text{A}$ ):</p>\n<p> $0.02\\text{A} \\times 100\\Omega=(10\\text{A}-0.02\\text{A})R_{\\text{sh}}$ </p>\n<p>This simplifies to:</p>\n<p> $2\\text{V}=9.98\\text{A} \\times R_{\\text{sh}}$ </p>\n<p>Solving for  $R_{\\text{sh}}$  gives:</p>\n<p> $R_{\\text{sh}}=\\frac{2\\text{V}}{9.98\\text{A}} \\approx 0.2004\\Omega$ </p>\n<p>Expressing this in terms of  $\\times 10^{-2}\\Omega$  gives  $R_{\\text{sh}} \\approx 20.04 \\times 10^{-2}\\Omega$ . Therefore, the value of  $x$  is approximately  $20.04$ , and rounding it according to the provided options leads to the closest value:</p>\n<p>Option B: 20</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\times 10^{-2}\\Omega",
@@ -2512,7 +2516,7 @@
         "V=IR"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:44.842853"
     },
@@ -2560,7 +2564,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/NO9cm4KIAMta0SDmv/gohP2pOWLs5vRl7GMVS2VgmvLzJp2/TaJDrJ9mojUY3r6fx30F13/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
@@ -2569,7 +2573,7 @@
         "R = 200"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:45.914883"
     },
@@ -2617,7 +2621,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/ABBNIqH3cHRx1jTZR/aEEvsEhB0D3BIlSwTmrCVtXbUUl0H/hpOP0mTbG7avSxBdr65cvj/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{4}{R+5})A",
@@ -2628,7 +2632,7 @@
         "2 or   R + 5 = 400"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:46.524471"
     },
@@ -2676,7 +2680,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/YGK7Ypx1DVZwAQknx/ne3wzlkaG7JJoCFqUfrjFoBVWdGoF/kO7JST9zHcbe4gZDJlqGb2/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dR}{d\\ell}",
@@ -2687,7 +2691,7 @@
         "\\int_{0}^{\\ell}\\ell^{-1/2}d\\ell"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:45.969965"
     },
@@ -2733,7 +2737,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->R<sub>g</sub> = 20 $\\Omega$ \n<br/><br/>N<sub>L</sub> = N<sub>R</sub> = N = 30\n<br/><br/>FOM =  $\\frac{1}{\\phi}$  = 0.005 A/Div.\n<br/><br/>Current sentivity = CS =  $(\\frac{1}{0.005})$  =  $\\frac{\\phi}{I}$ \n<br/><br/> $I$ g<sub>max</sub> = 0.005  $\\times$  30\n<br/><br/>= 15  $\\times$  10<sup> $-$ 2</sup> = 0.15\n<br/><br/>15 = 0.15 [20 + R]\n<br/><br/>100 = 20 + R\n<br/><br/>R = 80 <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{\\phi}",
@@ -2743,7 +2747,7 @@
         "30 = 15"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:46.590654"
     },
@@ -2789,7 +2793,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $R_{1}=\\frac{220^{2}}{25}$ \n<br/><br/> $R_{2}=\\frac{220^{2}}{100}$ \n<br/><br/> $L=\\frac{220}{R_{1}+R_{2}}$ \n<br/><br/> $P_{1}=i^{2}R_{1}$ \n<br/><br/> $P_{2}=i^{2}(R_{2}=4W)$ \n<br/><br/> $=\\frac{220^{2}}{(\\frac{220^{2}}{25}+\\frac{220^{2}}{100})} \\times \\frac{220^{2}}{25}$ \n<br/><br/> $=\\frac{400}{25}=16W$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{1}=\\frac{220^{2}}{25}",
@@ -2800,7 +2804,7 @@
         "=\\frac{400}{25}=16W"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:46.008920"
     },
@@ -2848,13 +2852,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/FZFcCA1cIaXnk7jR4/X80p5PDHi5sgsHmVjBex9JHUFxaJ8/WQcrQqJw8Vg6DbsGXg8FOL/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{6}{3}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:46.644213"
     },
@@ -2902,7 +2906,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/YvafhLee5rnnELJ8z/0cL9UEVn22HZf90zKpslapPiiecBs/Vu3wEHKZ54jKwYBRwxkYu8/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\theta_{0}}{5}.",
@@ -2913,7 +2917,8 @@
         "\\frac{C\\theta_{0}}{5}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature",
+        "Kirchhoff's Laws, Wheatstone Bridge & Potentiometer"
       ],
       "crawled_at": "2026-09-20T15:51:46.085956"
     },
@@ -2961,7 +2966,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/NnOtiyEgE4MqNefVl/dAnGiysfTEBcUK3y1Cv0d8wlND1ja/db5k3QAG9q65bzDUCLyail/image.png"
       ],
-      "topic_tag": "Current Electricity - Core Application",
+      "topic_tag": "Ohm's Law, Drift Velocity & Resistance Temperature",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{R_{1}}{R_{2}}=\\frac{2}{3}",
@@ -2972,7 +2977,7 @@
         "\\frac{\\frac{30 \\times R}{30+R}}{30}=\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Current Electricity - Core Application"
+        "Ohm's Law, Drift Velocity & Resistance Temperature"
       ],
       "crawled_at": "2026-09-20T15:51:46.684842"
     }

@@ -8,30 +8,44 @@
     "total_questions_site": 9,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:26:16.464032"
+    "analyzed_at": "2026-09-20T16:42:32.357445"
   },
   "concepts": [
     {
-      "id": 236,
+      "id": 1529,
       "chapter_slug": "kcet-complex-numbers",
-      "name": "Kcet Complex Numbers - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Complex Numbers.",
-      "standard_formulas": "",
-      "exam_frequency": 9,
-      "frequency_tier": "High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "De Moivre's Theorem & Cube Roots of Unity",
+      "category": "Roots of Unity",
+      "summary": "Algebraic and geometric properties of cube roots of unity forming an equilateral triangle on the unit circle, and De Moivre powers.",
+      "standard_formulas": "\\omega^3 = 1, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega^2 = \\bar{\\omega}, \\quad (\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta",
+      "exam_frequency": 5,
+      "frequency_tier": "Moderate",
+      "common_traps": "$1 + \\omega^n + \\omega^{2n} = 3$ if $n$ is a multiple of 3, and equals $0$ if $n$ is NOT a multiple of 3.",
+      "tips_and_tricks": "Factorization identity: $x^3 - 1 = (x - 1)(x - \\omega)(x - \\omega^2)$, and $x^2 + x + 1 = (x - \\omega)(x - \\omega^2)$.",
       "pyq_ids": [
         8467,
-        8469,
         8471,
-        8472,
         8475,
-        8477,
         8479,
-        8480,
         8481
+      ]
+    },
+    {
+      "id": 1530,
+      "chapter_slug": "kcet-complex-numbers",
+      "name": "Modulus, Argument & Polar/Euler Form",
+      "category": "Complex Basics",
+      "summary": "Complex plane geometry, modulus properties, principal argument in $(-\\pi, \\pi]$, and triangle inequalities.",
+      "standard_formulas": "z = x + iy = r e^{i\\theta}, \\quad |z|^2 = z \\bar{z}, \\quad \\text{Arg}(z_1 z_2) = \\text{Arg}(z_1) + \\text{Arg}(z_2), \\quad ||z_1| - |z_2|| \\le |z_1 \\pm z_2| \\le |z_1| + |z_2|",
+      "exam_frequency": 4,
+      "frequency_tier": "Moderate",
+      "common_traps": "Principal argument $\\text{Arg}(z)$ must lie strictly in $(-\\pi, \\pi]$; if $z$ is in the second quadrant, $\\text{Arg}(z) = \\pi - \\tan^{-1}|y/x|$.",
+      "tips_and_tricks": "Geometric interpretation: $|z - z_0| = r$ represents a circle centered at $z_0$ with radius $r$.",
+      "pyq_ids": [
+        8469,
+        8472,
+        8477,
+        8480
       ]
     }
   ],
@@ -39,14 +53,15 @@
     "id": 63,
     "chapter_slug": "kcet-complex-numbers",
     "title": "Complex Numbers 2026 1 questions 1.67% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Complex Numbers 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 9 Previous Year Questions Analyzed (9 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **9** authentic KCET problems.\n- **Question Format Breakdown**: **9 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Kcet Complex Numbers - Core Application | **9 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Complex Numbers - Core Application (General Concept)\n- **Exam Weightage**: Tested in **9 PYQs** (High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Complex Numbers.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$\\sum_{n=1}^{4}(-1)^{2n} \\cdot i^{2n}=$...\"* — **Correct Answer: C**\n- **[2025 Shift] Q#2 (MCQ)**: *\"If $Z_{1}$ and $Z_{2}$ are two non-zero complex numbers, then which of the following is not true?...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#3 (MCQ)**: *\"The real value of ' $\\alpha$ ' for which $\\frac{1-isin\\alpha}{1+2isin\\alpha}$ is purely real is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"The modulus of the complex number $\\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)}$ is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Complex Numbers 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 9 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Complex Numbers 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 9 Previous Year Questions Analyzed (9 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **9** authentic KCET problems.\n- **Question Format Breakdown**: **9 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | De Moivre's Theorem & Cube Roots of Unity | **5 PYQs** | Roots of Unity |\n| **Moderate** | Modulus, Argument & Polar/Euler Form | **4 PYQs** | Complex Basics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 De Moivre's Theorem & Cube Roots of Unity (Roots of Unity)\n- **Exam Weightage**: Tested in **5 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Algebraic and geometric properties of cube roots of unity forming an equilateral triangle on the unit circle, and De Moivre powers.\n\n#### Standard Mathematical Formulation\n$$\n\\omega^3 = 1, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega^2 = \\bar{\\omega}, \\quad (\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: $1 + \\omega^n + \\omega^{2n} = 3$ if $n$ is a multiple of 3, and equals $0$ if $n$ is NOT a multiple of 3.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Factorization identity: $x^3 - 1 = (x - 1)(x - \\omega)(x - \\omega^2)$, and $x^2 + x + 1 = (x - \\omega)(x - \\omega^2)$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$\\sum_{n=1}^{4}(-1)^{2n} \\cdot i^{2n}=$...\"* — **Correct Answer: C**\n- **[2024 Shift] Q#3 (MCQ)**: *\"The real value of ' $\\alpha$ ' for which $\\frac{1-isin\\alpha}{1+2isin\\alpha}$ is purely real is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#1 (MCQ)**: *\"If $3x+i(4x-y)=6-i$ where $x$ and $y$ are real numbers, then the values of $x$ and $y$ are respectively,...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#3 (MCQ)**: *\"If $z=x+iy$ , then the equation $|z+1|=|z-1|$ represents...\"* — **Correct Answer: N/A**\n\n### 2.2 Modulus, Argument & Polar/Euler Form (Complex Basics)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Complex plane geometry, modulus properties, principal argument in $(-\\pi, \\pi]$, and triangle inequalities.\n\n#### Standard Mathematical Formulation\n$$\nz = x + iy = r e^{i\\theta}, \\quad |z|^2 = z \\bar{z}, \\quad \\text{Arg}(z_1 z_2) = \\text{Arg}(z_1) + \\text{Arg}(z_2), \\quad ||z_1| - |z_2|| \\le |z_1 \\pm z_2| \\le |z_1| + |z_2|\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Principal argument $\\text{Arg}(z)$ must lie strictly in $(-\\pi, \\pi]$; if $z$ is in the second quadrant, $\\text{Arg}(z) = \\pi - \\tan^{-1}|y/x|$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Geometric interpretation: $|z - z_0| = r$ represents a circle centered at $z_0$ with radius $r$.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#2 (MCQ)**: *\"If $Z_{1}$ and $Z_{2}$ are two non-zero complex numbers, then which of the following is not true?...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"The modulus of the complex number $\\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)}$ is...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#2 (MCQ)**: *\"If $(\\frac{1+i}{1-i})^{x}=1$ , then...\"* — **Correct Answer: N/A**\n- **[2018 Shift] Q#4 (MCQ)**: *\"If $(\\frac{1-i}{1+i})^{96}=a+ib$ , then $(a,b)$ is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Complex Numbers 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 9 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **De Moivre's Theorem & Cube Roots of Unity** | $\\omega^3 = 1, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega^2 = \\bar{\\omega}, \\quad (\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ | Standard SI units apply |\n| **Modulus, Argument & Polar/Euler Form** | $z = x + iy = r e^{i\\theta}, \\quad |z|^2 = z \\bar{z}, \\quad \\text{Arg}(z_1 z_2) = \\text{Arg}(z_1) + \\text{Arg}(z_2), \\quad ||z_1| - |z_2|| \\le |z_1 \\pm z_2| \\le |z_1| + |z_2|$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Complex Numbers 2026 1 questions 1.67% weightage\nBased on rigorous analysis of all 9 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Complex Numbers 2026 1 questions 1.67% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      8467
+      8467,
+      8472
     ],
-    "updated_at": "2026-09-20T15:26:16.450648"
+    "updated_at": "2026-09-20T16:42:32.346034"
   },
   "total_questions": 9,
   "has_docx": true,

@@ -8,42 +8,72 @@
     "total_questions_site": 21,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:25:58.601417"
+    "analyzed_at": "2026-09-20T16:41:42.683021"
   },
   "concepts": [
     {
-      "id": 226,
+      "id": 1452,
       "chapter_slug": "kcet-redox-reactions",
-      "name": "Kcet Redox Reactions - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Redox Reactions.",
-      "standard_formulas": "",
-      "exam_frequency": 21,
-      "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "Redox Reactions — Applied Cases, Reactions & Traps",
+      "category": "Applied Topics",
+      "summary": "Special cases, experimental observations, and conceptual traps designed to test deep understanding of Redox Reactions.",
+      "standard_formulas": "2+2x=0, \\quad 2[Ag(CN)_{2}]^{-}(aq)+Zn(s) \\longrightarrow [Zn(CN)_{4}]^{2-}(aq)+2Ag(s), \\quad NH_{4}NO_{3},N",
+      "exam_frequency": 14,
+      "frequency_tier": "High",
+      "common_traps": "Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.",
+      "tips_and_tricks": "Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.",
       "pyq_ids": [
         8094,
         8097,
         8099,
         8101,
-        8104,
         8106,
         8108,
         8110,
         8113,
         8115,
-        8117,
+        8124,
+        8129,
+        8131,
+        8132,
+        8133
+      ]
+    },
+    {
+      "id": 1453,
+      "chapter_slug": "kcet-redox-reactions",
+      "name": "Redox Reactions — Standard Calculations & Problem Archetypes",
+      "category": "Quantitative Analysis",
+      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Redox Reactions.",
+      "standard_formulas": "Cr^{+3}, \\quad I_{2}, \\quad Cl^{-}",
+      "exam_frequency": 7,
+      "frequency_tier": "Moderate",
+      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
+      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
+      "pyq_ids": [
+        8104,
         8119,
         8122,
         8124,
         8127,
-        8129,
-        8131,
-        8132,
-        8133,
         8134,
         8135
+      ]
+    },
+    {
+      "id": 1454,
+      "chapter_slug": "kcet-redox-reactions",
+      "name": "Redox Reactions — Core Principles & Governing Laws",
+      "category": "Core Principle",
+      "summary": "Fundamental definitions, core postulates, and governing physical/chemical relations in Redox Reactions.",
+      "standard_formulas": "Cl_{2(g)}+2Br_{(aq)}^{-} \\rightarrow 2Cl_{(aq)}^{-}+Br_{2(1)}, \\quad 2H_{2}O_{2(aq)} \\rightarrow 2H_{2}O_{(l)}+O_{2(g)}",
+      "exam_frequency": 2,
+      "frequency_tier": "Standard",
+      "common_traps": "Carefully verify units, standard reference states, and sign conventions in Redox Reactions.",
+      "tips_and_tricks": "Focus on high-yield formulas and standard limiting approximations tested in Redox Reactions PYQs.",
+      "pyq_ids": [
+        8099,
+        8117
       ]
     }
   ],
@@ -51,14 +81,16 @@
     "id": 53,
     "chapter_slug": "kcet-redox-reactions",
     "title": "Redox Reactions 2026 2 questions 3.33% weightage ↓33.4% Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Redox Reactions 2026 2 questions 3.33% weightage ↓33.4% — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 21 Previous Year Questions Analyzed (21 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **21** authentic KCET problems.\n- **Question Format Breakdown**: **21 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Kcet Redox Reactions - Core Application | **21 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Redox Reactions - Core Application (General Concept)\n- **Exam Weightage**: Tested in **21 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Redox Reactions.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$a\\text{C}_{2}\\text{O}_{4}^{2-}+b\\text{MnO}_{4}^{-}+c\\text{H}^{+} \\rightarrow x\\text{Mn}^{2+}+y\\text{H}_{2}\\text{O}+z\\text{CO}_{2}$ $a$ and ...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Given below are two statements. Statement-I: In $\\text{H}_{2}\\text{O}_{2}$ , each oxygen atom is assigned an oxidation number of $-1$ , in $...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"In the titration of potassium permanganate $(KMnO_{4})$ against Ferrous ammonium sulphate $(FAS)$ solution, dilute sulphuric acid but not ni...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"$\\text{Match List-I with List-II}$ List-I (Types of redox reactions) List-II (Examples) a. Combination reaction i. $Cl_{2(g)}+2Br_{(aq)}^{-}...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Redox Reactions 2026 2 questions 3.33% weightage ↓33.4% — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 21 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Redox Reactions 2026 2 questions 3.33% weightage ↓33.4% — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 21 Previous Year Questions Analyzed (21 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **21** authentic KCET problems.\n- **Question Format Breakdown**: **21 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Redox Reactions — Applied Cases, Reactions & Traps | **14 PYQs** | Applied Topics |\n| **Moderate** | Redox Reactions — Standard Calculations & Problem Archetypes | **7 PYQs** | Quantitative Analysis |\n| **Standard** | Redox Reactions — Core Principles & Governing Laws | **2 PYQs** | Core Principle |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Redox Reactions — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **14 PYQs** (High Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Redox Reactions.\n\n#### Standard Mathematical Formulation\n$$\n2+2x=0, \\quad 2[Ag(CN)_{2}]^{-}(aq)+Zn(s) \\longrightarrow [Zn(CN)_{4}]^{2-}(aq)+2Ag(s), \\quad NH_{4}NO_{3},N\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$a\\text{C}_{2}\\text{O}_{4}^{2-}+b\\text{MnO}_{4}^{-}+c\\text{H}^{+} \\rightarrow x\\text{Mn}^{2+}+y\\text{H}_{2}\\text{O}+z\\text{CO}_{2}$ $a$ and ...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"Given below are two statements. Statement-I: In $\\text{H}_{2}\\text{O}_{2}$ , each oxygen atom is assigned an oxidation number of $-1$ , in $...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"$\\text{Match List-I with List-II}$ List-I (Types of redox reactions) List-II (Examples) a. Combination reaction i. $Cl_{2(g)}+2Br_{(aq)}^{-}...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"In the reaction between hydrogen sulphide and acidified permanganate solution,...\"* — **Correct Answer: N/A**\n\n### 2.2 Redox Reactions — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **7 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Redox Reactions.\n\n#### Standard Mathematical Formulation\n$$\nCr^{+3}, \\quad I_{2}, \\quad Cl^{-}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#1 (MCQ)**: *\"In the titration of potassium permanganate $(KMnO_{4})$ against Ferrous ammonium sulphate $(FAS)$ solution, dilute sulphuric acid but not ni...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#1 (MCQ)**: *\"The oxidation number of nitrogen atoms in $NH_{4}NO_{3}$ are...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#2 (MCQ)**: *\"In which of the following cases a chemical reaction is possible?...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#4 (MCQ)**: *\"How many moles of acidified $K_{2}Cr_{2}O_{7}$ is required to liberate 6 moles of $I_{2}$ from an aqueous solution of $I^{-}$ ?...\"* — **Correct Answer: N/A**\n\n### 2.3 Redox Reactions — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Redox Reactions.\n\n#### Standard Mathematical Formulation\n$$\nCl_{2(g)}+2Br_{(aq)}^{-} \\rightarrow 2Cl_{(aq)}^{-}+Br_{2(1)}, \\quad 2H_{2}O_{2(aq)} \\rightarrow 2H_{2}O_{(l)}+O_{2(g)}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Redox Reactions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Redox Reactions PYQs.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#3 (MCQ)**: *\"$\\text{Match List-I with List-II}$ List-I (Types of redox reactions) List-II (Examples) a. Combination reaction i. $Cl_{2(g)}+2Br_{(aq)}^{-}...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#3 (MCQ)**: *\"Which of the following is not true for oxidation?...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Redox Reactions 2026 2 questions 3.33% weightage ↓33.4% — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 21 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Redox Reactions — Applied Cases, Reactions & Traps** | $2+2x=0, \\quad 2[Ag(CN)_{2}]^{-}(aq)+Zn(s) \\longrightarrow [Zn(CN)_{4}]^{2-}(aq)+2Ag(s), \\quad NH_{4}NO_{3},N$ | Standard SI units apply |\n| **Redox Reactions — Standard Calculations & Problem Archetypes** | $Cr^{+3}, \\quad I_{2}, \\quad Cl^{-}$ | Standard SI units apply |\n| **Redox Reactions — Core Principles & Governing Laws** | $Cl_{2(g)}+2Br_{(aq)}^{-} \\rightarrow 2Cl_{(aq)}^{-}+Br_{2(1)}, \\quad 2H_{2}O_{2(aq)} \\rightarrow 2H_{2}O_{(l)}+O_{2(g)}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Redox Reactions 2026 2 questions 3.33% weightage ↓33.4%\nBased on rigorous analysis of all 21 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Redox Reactions 2026 2 questions 3.33% weightage ↓33.4%\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      8094
+      8094,
+      8099,
+      8122
     ],
-    "updated_at": "2026-09-20T15:25:58.567726"
+    "updated_at": "2026-09-20T16:41:42.670546"
   },
   "total_questions": 21,
   "has_docx": true,

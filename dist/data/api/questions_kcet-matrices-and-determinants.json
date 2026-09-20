@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the area formula for a triangle with vertices  $(x_{1},y_{1})$ ,  $(x_{2},y_{2})$  and  $(x_{3},y_{3})$ ,</p>\n<p> $\\text{Area}=\\frac{1}{2}|x_{1}(y_{2}-y_{3})+x_{2}(y_{3}-y_{1})+x_{3}(y_{1}-y_{2})|$ </p>\n<p>Here the vertices are  $(3,8)$ ,  $(-4,2)$  and  $(5,1)$ .</p>\n<p>So,</p>\n<p> $\\text{Area}=\\frac{1}{2}|3(2-1)+(-4)(1-8)+5(8-2)|$ </p>\n<p> $=\\frac{1}{2}|3(1)+(-4)(-7)+5(6)|$ </p>\n<p> $=\\frac{1}{2}|3+28+30|$ </p>\n<p> $=\\frac{1}{2} \\times 61$ </p>\n<p> $=\\frac{61}{2}$ </p>\n<p>Given that the area is  $\\frac{P}{4}$ ,</p>\n<p> $\\frac{P}{4}=\\frac{61}{2}$ </p>\n<p>Multiplying both sides by  $4$ ,</p>\n<p> $P=122$ </p>\n<p>So, the correct option is</p>\n<p> $122$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{P}{4}",
@@ -55,7 +55,7 @@
         "\\frac{P}{4}=\\frac{61}{2}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:50.512110"
     },
@@ -101,13 +101,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Statement I is true.</p>\n<p>A matrix  $A$  is called non-singular when its determinant is not zero, that is,</p>\n<p> $|A| \\ne 0$ </p>\n<p>For such a matrix, the inverse  $A^{-1}$  exists. So Statement I is correct.</p>\n<p>Statement II is also true.</p>\n<p>Given that  $A$  and  $B$  are symmetric matrices, we have</p>\n<p> $A^{T}=A\\text{and}B^{T}=B$ </p>\n<p>Now consider the transpose of  $AB-BA$ :</p>\n<p> $(AB-BA)^{T}=(AB)^{T}-(BA)^{T}$ </p>\n<p>Using the property  $(AB)^{T}=B^{T}A^{T}$ , we get</p>\n<p> $(AB-BA)^{T}=B^{T}A^{T}-A^{T}B^{T}$ </p>\n<p>Since  $A$  and  $B$  are symmetric,</p>\n<p> $(AB-BA)^{T}=BA-AB$ </p>\n<p>This can be written as</p>\n<p> $BA-AB=-(AB-BA)$ </p>\n<p>So,</p>\n<p> $(AB-BA)^{T}=-(AB-BA)$ </p>\n<p>Hence,  $AB-BA$  is a skew symmetric matrix.</p>\n<p>So both statements are true.</p>\n<p>Correct option: Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "A^{-1}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations",
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:50.807901"
     },
@@ -153,14 +154,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The correct option is:</p>\n<p>Option C: Determinant is a unique number associated to a square matrix</p>\n<p>A determinant is not a matrix. It is a number that we get from a square matrix.</p>\n<p>For example, if</p>\n<p> $A=[\\begin{aligned} a &amp; b \\\\ c &amp; d \\end{aligned}]$ </p>\n<p>then its determinant is</p>\n<p> $|A|=ad-bc$ </p>\n<p>This value is a single number.</p>\n<p>Now checking the options:</p>\n<p>Option A is incorrect because a determinant is not a square matrix.</p>\n<p>Option B is not fully correct because a determinant is associated only with a square matrix, not every matrix.</p>\n<p>Option C is correct because every square matrix has a unique determinant.</p>\n<p>Option D is incorrect because determinant is defined for a square matrix.</p>\n<p>So, the answer is:</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} a & b \\\\ c & d \\end{aligned}]",
         "|A|=ad-bc"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.016389"
     },
@@ -206,11 +207,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For any square matrix  $A$ , the standard NCERT result is</p>\n<p> $A(adjA)=(adjA)A=|A|I$ </p>\n<p>Here  $|A|$  means the determinant of  $A$ , and  $I$  is the identity matrix.</p>\n<p>So option B is correct:</p>\n<p> $A(adjA)=(adjA)A=|A|I$ </p>\n<p>But option A says</p>\n<p> $A(adjA)=(adjA)A=AI$ </p>\n<p>This is not correct, because the right side should be  $|A|I$ , not  $AI$ .</p>\n<p>Also, since  $A$  and  $B$  are invertible matrices,</p>\n<p> $(AB)^{-1}=B^{-1}A^{-1}$ </p>\n<p>so option C is correct.</p>\n<p>And an invertible matrix has non-zero determinant, so</p>\n<p> $|A| \\ne 0,|B| \\ne 0$ </p>\n<p>so option D is also correct.</p>\n<p>Hence, the option which is not correct is</p>\n<p> $\\text{Option A}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:50.529983"
     },
@@ -256,7 +257,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>a) A matrix which is not a square matrix means the number of rows and columns are different. Such a matrix is called a rectangular matrix.</p>\n<p>So,  $a \\rightarrow iii$ </p>\n<p>b) A square matrix  $A$  is symmetric if</p>\n<p> $A=A^{'}$ </p>\n<p>where  $A^{'}$  is the transpose of  $A$ .</p>\n<p>So,  $b \\rightarrow i$ </p>\n<p>c) A diagonal matrix whose diagonal elements are all equal is called a scalar matrix.</p>\n<p>For example,</p>\n<p> $[\\begin{aligned} 3 &amp; 0 \\\\ 0 &amp; 3 \\end{aligned}]$ </p>\n<p>is a scalar matrix.</p>\n<p>So,  $c \\rightarrow iv$ </p>\n<p>d) A matrix which is both symmetric and skew symmetric must satisfy</p>\n<p> $A=A^{'}$ </p>\n<p>and</p>\n<p> $A^{'}=-A$ </p>\n<p>So,</p>\n<p> $A=-A$ </p>\n<p>This gives</p>\n<p> $2A=0$ </p>\n<p>Hence,</p>\n<p> $A=0$ </p>\n<p>So it is a null matrix.</p>\n<p>So,  $d \\rightarrow ii$ </p>\n<p>Hence the correct matching is:</p>\n<p> $a-iii,b-i,c-iv,d-ii$ </p>\n<p>Correct option: Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "A=A^{'}",
@@ -266,7 +267,7 @@
         "A=0"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:50.822980"
     },
@@ -312,7 +313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $X$  is of order  $2 \\times n$ ,</p>\n<p> $8X$ </p>\n<p>will also have order  $2 \\times n$  because multiplying a matrix by a scalar does not change its order.</p>\n<p>Also,  $Z$  is of order  $2 \\times p$ . Given that</p>\n<p> $n=p$ </p>\n<p>so the order of  $Z$  becomes</p>\n<p> $2 \\times n$ </p>\n<p>Hence,</p>\n<p> $9Z$ </p>\n<p>also has order  $2 \\times n$ .</p>\n<p>Now, subtraction of matrices is possible only when both matrices have the same order. So,</p>\n<p> $8X-9Z$ </p>\n<p>will have order</p>\n<p> $2 \\times n$ </p>\n<p>So the correct option is:</p>\n<p> $\\text{Option A}2 \\times n$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "2 \\times n",
@@ -321,7 +322,7 @@
         "\\text{Option A}2 \\times n"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:50.544688"
     },
@@ -367,7 +368,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the pair of linear equations,</p>\n<p> $x+2y=3$ </p>\n<p>and</p>\n<p> $2x+3y=3$ </p>\n<p>compare them in the form</p>\n<p> $a_{1}x+b_{1}y+c_{1}=0$ </p>\n<p>For the first equation:</p>\n<p> $x+2y-3=0$ </p>\n<p>So,</p>\n<p> $a_{1}=1,b_{1}=2,c_{1}=-3$ </p>\n<p>For the second equation:</p>\n<p> $2x+3y-3=0$ </p>\n<p>So,</p>\n<p> $a_{2}=2,b_{2}=3,c_{2}=-3$ </p>\n<p>Now compare the ratios:</p>\n<p> $\\frac{a_{1}}{a_{2}}=\\frac{1}{2}$ </p>\n<p> $\\frac{b_{1}}{b_{2}}=\\frac{2}{3}$ </p>\n<p>Since,</p>\n<p> $\\frac{1}{2} \\ne \\frac{2}{3}$ </p>\n<p>the two lines intersect at exactly one point.</p>\n<p>So, the system has a unique solution.</p>\n<p>Correct option: Option B, Unique solution.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "x+2y=3",
@@ -378,7 +379,7 @@
         "2x+3y-3=0"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:50.836340"
     },
@@ -424,11 +425,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A row matrix is a matrix which has only one row.</p>\n<p>It may have one or more columns. For example,</p>\n<p> $[\\begin{aligned} 2 &amp; 5 &amp; 7 \\end{aligned}]$ </p>\n<p>This matrix has one row and three columns, so it is a row matrix.</p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option B: One row with one or more columns}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:50.572800"
     },
@@ -474,11 +475,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For square matrices  $A$  and  $B$  of order  $n$ , we have some standard determinant properties.</p>\n<p>Option A is correct:</p>\n<p> $det(AB)=det(A)det(B)$ </p>\n<p>This is a standard property of determinants.</p>\n<p>Option B is also correct:</p>\n<p> $det(kA)=k^{n}det(A)$ </p>\n<p>Since  $A$  is of order  $n$ , multiplying every element of  $A$  by  $k$  means each of the  $n$  rows gets multiplied by  $k$ . So the determinant gets multiplied by  $k^{n}$ .</p>\n<p>Option D is correct:</p>\n<p> $det(A^{-1})=\\frac{1}{det(A)}$ </p>\n<p>This follows from</p>\n<p> $AA^{-1}=I$ </p>\n<p>Taking determinants,</p>\n<p> $det(A)det(A^{-1})=det(I)=1$ </p>\n<p>So,</p>\n<p> $det(A^{-1})=\\frac{1}{det(A)}$ </p>\n<p>But Option C says:</p>\n<p> $det(A+B)=det(A)+det(B)$ </p>\n<p>This is not a general property of determinants.</p>\n<p>So the incorrect statement is</p>\n<p> $\\text{Option C:}det(A+B)=det(A)+det(B)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:50.850357"
     },
@@ -524,14 +525,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A=[\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} &amp; A^{2}=[\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}][\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}]=[\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned}] \\\\ &amp; A^{3}=[\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned}][\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}]=[\\begin{aligned} 4 &amp; 4 \\\\ 4 &amp; 4 \\end{aligned}]=[\\begin{aligned} 2^{2} &amp; 2^{2} \\\\ 2^{2} &amp; 2^{2} \\end{aligned}] \\\\ &amp; A^{4}=[\\begin{aligned} 8 &amp; 8 \\\\ 8 &amp; 8 \\end{aligned}]=[\\begin{aligned} 2^{3} &amp; 2^{3} \\\\ 2^{3} &amp; 2^{3} \\end{aligned}] \\\\ &amp; A^{6}=[\\begin{aligned} 2^{5} &amp; 2^{5} \\\\ 2^{5} &amp; 2^{5} \\end{aligned}]=2^{5}[\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}] \\Rightarrow 2^{5}=32 \\\\ &amp; \\therefore k=32 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 1 & 1 \\\\ 1 & 1 \\end{aligned}]",
         "A^{6}=kA^{'}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.178202"
     },
@@ -577,13 +578,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $B=adj(A)$  for a  $2 \\times 2$  matrix  $A=(\\begin{aligned} a &amp; b \\\\ c &amp; d \\end{aligned})$ .  Recall that for  $2 \\times 2$ ,</p>\n<p>adj $(A)=(\\begin{aligned} d &amp; -b \\\\ -c &amp; a \\end{aligned}).$ </p>\n<p>Here we’re given</p>\n<p> $B=(\\begin{aligned} 1 &amp; 3 \\\\ 1 &amp; \\alpha \\end{aligned}).$ </p>\n<p>By matching entries:</p>\n<p>•  $d=1$  </p>\n<p>•  $-b=3⟹b=-3$  </p>\n<p>•  $-c=1⟹c=-1$  </p>\n<p>•  $a=\\alpha$ </p>\n<p>So</p>\n<p> $A=(\\begin{aligned} \\alpha &amp; -3 \\\\ -1 &amp; 1 \\end{aligned}),|A|=\\alpha \\cdot 1-(-3)(-1)=\\alpha-3.$ </p>\n<p>Since  $|A|=2$ , we get</p>\n<p> $\\alpha-3=2⟹\\alpha=5.$ </p>\n<p>Answer: 5.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "B=[\\begin{aligned} 1 & 3 \\\\ 1 & \\alpha \\end{aligned}]"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.387328"
     },
@@ -629,11 +630,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} A^{2}=A. &amp; (I-A)^{3}=(I-A)(I-2A+A^{2}) \\\\ &amp; =(I-A)(I-2A+A) \\\\ &amp; =(I-A)(I+A) \\\\ &amp; =I-A^{2}=I-A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.031498"
     },
@@ -679,14 +680,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A=[\\begin{aligned} k &amp; 2 \\\\ 2 &amp; k \\end{aligned}] \\\\ &amp; |A|=k^{2}-4 \\\\ &amp; |A|^{3}=|A| \\cdot |A| \\cdot |A|=125,\\text{given} \\\\ &amp; \\Rightarrow (k^{2}-4)^{3}=125 \\\\ &amp; \\Rightarrow k^{2}-4=5 \\Rightarrow k^{2}=9 \\\\ &amp; \\Rightarrow k= \\pm 3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "A=[\\begin{aligned} k & 2 \\\\ 2 & k \\end{aligned}]",
         "|A^{3}|=125"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.187149"
     },
@@ -732,11 +733,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let’s find the size of  $A$  step by step:</p>\n<p><p>B has size  $3 \\times 4$ .  </p></p>\n<p><p>For  $AB$  to be defined, if  $A$  is  $m \\times n$ , then  $n$  must equal 3.  </p></p>\n<p><p>So  $A$  is  $m \\times 3$ , and  </p>\n<p> $AB\\text{has size}(m \\times 3)(3 \\times 4)=(m \\times 4).$ </p></p>\n<p><p>Since  $AB$  is an identity matrix, it must be square. Hence  $m=4$ .  </p></p>\n<p>Therefore  </p>\n<p> $A\\text{is}4 \\times 3.$ </p>\n<p>Answer: Option C,  $4 \\times 3$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.041147"
     },
@@ -782,11 +783,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given} \\\\ &amp; \\begin{aligned} &amp; A^{2}-5A+7I=0( \\because \\text{Multiply by}A^{-1}\\text{both sides}|A| \\ne 0) \\\\ &amp; A-5I+7A^{-1}=0 \\\\ &amp; A^{-1}=\\frac{(5I-A)}{7} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.199569"
     },
@@ -832,11 +833,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{A diagonal matrix need not be contains only zero as it diagonal element.}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.049322"
     },
@@ -882,11 +883,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First note for a 3×3 matrix  $A$  with  $detA=3$ :</p>\n<p><p> $det(A^{-1})=\\frac{1}{detA}=\\frac{1}{3}.$  </p></p>\n<p><p>When you multiply a 3×3 matrix by a scalar  $3$ , its determinant is multiplied by  $3^{3}$ . So  </p>\n<p> $det(3A^{-1})=3^{3}det(A^{-1})=27 \\times \\frac{1}{3}=9.$ </p></p>\n<p>Hence the correct choice is Option D: 9.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.213112"
     },
@@ -932,7 +933,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P=⎡⎣⎢\\begin{aligned} 1 &amp; \\alpha &amp; 3 \\\\ 1 &amp; 3 &amp; 3 \\\\ 2 &amp; 4 &amp; 4 \\end{aligned}⎤⎦⎥$ </p>\n<p>For  $3 \\times 3$ , matrix,</p>\n<p> $\\begin{aligned} &amp; |adjA|=|A|^{2} \\\\ &amp; |adjA|=(4)^{2}=16 \\end{aligned}$ </p>\n<p>Now,  $P=|\\begin{aligned} 1 &amp; \\alpha &amp; 3 \\\\ 1 &amp; 3 &amp; 3 \\\\ 2 &amp; 4 &amp; 4 \\end{aligned}|=16$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 1(12-12)-\\alpha(4-6)+3(4-6)=16 \\\\ \\Rightarrow &amp; 0+2\\alpha-6=16 \\\\ \\Rightarrow &amp; 2\\alpha=22 \\end{aligned}$ </p>\n<p>Hence,  $\\alpha=11$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "P=⎡⎣⎢\\begin{aligned} 1 & \\alpha & 3 \\\\ 1 & 3 & 3 \\\\ 2 & 4 & 4 \\end{aligned}⎤⎦⎥",
@@ -942,7 +943,7 @@
         "P=|\\begin{aligned} 1 & \\alpha & 3 \\\\ 1 & 3 & 3 \\\\ 2 & 4 & 4 \\end{aligned}|=16"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.635673"
     },
@@ -988,11 +989,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} (I+A)^{3} &amp; =I^{3}+A^{3}+3I^{2}A+3A^{2}I \\\\ &amp; =I+A^{3}+3A+3A^{2} \\\\ &amp; =I+A^{2} \\cdot A+3A+3A[ \\because A^{2}=A] \\\\ &amp; =I+A \\cdot A+6A \\\\ &amp; =I+A^{2}+6A \\\\ &amp; =I+A+6A[ \\because A^{2}=A] \\\\ &amp; =I+7A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.398456"
     },
@@ -1038,7 +1039,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} B &amp; =|\\begin{aligned} x &amp; 1 &amp; 1 \\\\ 1 &amp; x &amp; 1 \\\\ 1 &amp; 1 &amp; x \\end{aligned}| \\\\ &amp; =|\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ 0 &amp; x &amp; 1 \\\\ 0 &amp; 1 &amp; x \\end{aligned}|+|\\begin{aligned} x &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 0 &amp; x \\end{aligned}|+|\\begin{aligned} x &amp; 1 &amp; 0 \\\\ 1 &amp; x &amp; 0 \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =(x^{2}-1)+(x^{2}-1)+(x^{2}-1) \\\\ &amp; =3(x^{2}-1) \\\\ &amp; =3A[ \\because A=|\\begin{aligned} x &amp; 1 \\\\ 1 &amp; x \\end{aligned}|=x^{2}-1] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=|\\begin{aligned} x & 1 \\\\ 1 & x \\end{aligned}|",
@@ -1046,7 +1047,7 @@
         "\\frac{dB}{dx}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.647743"
     },
@@ -1092,7 +1093,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because A^{2}=(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})$ </p>\n<p> $\\begin{aligned} \\therefore A^{2} &amp; =(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=(\\begin{aligned} 1+1 &amp; 1+1 \\\\ 1+1 &amp; 1+1 \\end{aligned}) \\\\ &amp; =(\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned})=2(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=2A \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} \\therefore A^{3} &amp; =(\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned})(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}) \\\\ &amp; =(\\begin{aligned} 2+2 &amp; 2+2 \\\\ 2+2 &amp; 2+2 \\end{aligned})=(\\begin{aligned} 4 &amp; 4 \\\\ 4 &amp; 4 \\end{aligned}) \\\\ &amp; =4(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=4A \\end{aligned} \\\\ &amp; \\text{Hence,}A^{10}=2^{9}A \\\\ &amp; [ \\because A^{n}=2^{n-1}A] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=(\\begin{aligned} 1 & 1 \\\\ 1 & 1 \\end{aligned})",
@@ -1100,7 +1101,7 @@
         "\\because A^{2}=(\\begin{aligned} 1 & 1 \\\\ 1 & 1 \\end{aligned})"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.407977"
     },
@@ -1146,11 +1147,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>At  $x=5$ ,</p>\n<p> $f(5)=|\\begin{aligned} 2 &amp; 32 &amp; 169 \\\\ 0 &amp; 0 &amp; 0 \\\\ 1 &amp; 2 &amp; 3 \\end{aligned}|=0$ </p>\n<p>Hence,</p>\n<p> $f(1) \\cdot f(3)+f(3) \\cdot f(5)+f(5) \\cdot f(1)=f(1) \\cdot f(3)$ </p>\n<p>Now,</p>\n<p> $f(1)=|\\begin{aligned} -2 &amp; -16 &amp; -79 \\\\ -4 &amp; -48 &amp; -496 \\\\ 1 &amp; 2 &amp; 3 \\end{aligned}|$ </p>\n<p>Expanding,</p>\n<p> $\\begin{aligned} f(1) &amp; =-2((-48)(3)-(-496)(2)) \\\\ &amp; -(-16)((-4)(3)-(-496)(1)) \\\\ &amp; +(-79)((-4)(2)-(-48)(1)) \\end{aligned}$ </p>\n<p> $\\begin{aligned} f(1) &amp; =-2(-144+992)+16(-12+496)-79(-8+48) \\\\ &amp; =-2(848)+16(484)-79(40) \\\\ &amp; =-1696+7744-3160 \\\\ &amp; =2888 \\end{aligned}$ </p>\n<p>Similarly,</p>\n<p> $f(3)=|\\begin{aligned} 0 &amp; 0 &amp; -27 \\\\ -2 &amp; -32 &amp; -392 \\\\ 1 &amp; 2 &amp; 3 \\end{aligned}|$ </p>\n<p>Expanding along the first row,</p>\n<p> $f(3)=(-27)|\\begin{aligned} -2 &amp; -32 \\\\ 1 &amp; 2 \\end{aligned}|$ </p>\n<p> $\\begin{aligned} f(3) &amp; =(-27)((-2)(2)-(-32)(1)) \\\\ &amp; =(-27)(-4+32) \\\\ &amp; =(-27)(28) \\\\ &amp; =-756 \\end{aligned}$ </p>\n<p>Therefore,</p>\n<p> $\\begin{aligned} f(1) \\cdot f(3) &amp; =2888 \\times (-756) \\\\ &amp; =-2183328 \\end{aligned}$ </p>\n<p> $-2183328$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.419996"
     },
@@ -1196,11 +1197,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $AB=B$  and  $BA=A$ </p>\n<p> $\\begin{aligned} A^{2}+B^{2} &amp; =AA+BB=A(BA)+B(AB) \\\\ &amp; =(AB)(A)+(BA)B=BA+AB=A+B \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.844751"
     },
@@ -1246,14 +1247,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A=[\\begin{aligned} 2-k &amp; 2 \\\\ 1 &amp; 3-k \\end{aligned}]$  is singular matrix we know that  $A$  is singular matrix, then  $|A|=0$ </p>\n<p> $\\begin{aligned} &amp; |A|=(2-k)(3-k)-2 \\\\ &amp; \\Rightarrow 0=6-2k-3k+k^{2}-2 \\\\ &amp; \\Rightarrow k^{2}-5k+4=0 \\Rightarrow k^{2}-5k=-4 \\\\ &amp; \\Rightarrow 5k-k^{2}=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2-k & 2 \\\\ 1 & 3-k \\end{aligned}]",
         "5k-k^{2}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.858570"
     },
@@ -1299,11 +1300,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}|\\begin{aligned} sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} &amp; tan135^{\\circ} \\\\ sin^{2}66^{\\circ} &amp; tan135^{\\circ} &amp; sin^{2}14^{\\circ} \\\\ tan135^{\\circ} &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\\\ &amp; \\text{Applying}C_{1} \\rightarrow C_{1}+C_{2}+C_{3} \\\\ &amp; =|\\begin{aligned} sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; sin^{2}66^{\\circ}tan135^{\\circ} \\\\ =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; tan135^{\\circ}sin^{2}14^{\\circ} \\\\ sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; sin^{2}14^{\\circ}sin^{2}66^{\\circ} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} \\\\ &amp; |\\begin{aligned} 1 &amp; sin^{2}66^{\\circ} &amp; tan135^{\\circ} \\\\ 1 &amp; tan135^{\\circ} &amp; sin^{2}14^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}-1|\\begin{aligned} 1 &amp; sin^{2}66 &amp; -1 \\\\ 1 &amp; -1 &amp; sin^{2}14^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}|. \\\\ &amp; \\text{Applying}R_{1} \\rightarrow R_{1}-R_{2},R_{2} \\rightarrow R_{2}-R_{3} \\\\ &amp; =cos^{2}66^{\\circ}+sin^{2}66^{\\circ}-1 \\\\ &amp; |\\begin{aligned} 0 &amp; 1+sin^{2}66^{\\circ} &amp; -1-sin^{2}14^{\\circ} \\\\ 0 &amp; -1-sin^{2}14^{\\circ} &amp; sin^{2}14^{\\circ}-sin^{2}66^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\\\ &amp; (cos^{2}66^{\\circ}+sin^{2}66^{\\circ}-1)=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.656663"
     },
@@ -1349,11 +1350,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} \\Delta &amp; =|\\begin{aligned} 1 &amp; a &amp; a^{2} \\\\ 1 &amp; b &amp; b^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\text{and}\\Delta_{1} &amp; =|\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ bc &amp; ca &amp; ab \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ \\Delta &amp; =|\\begin{aligned} 1 &amp; a &amp; a^{2} \\\\ 1 &amp; b &amp; b^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} R_{1} \\rightarrow R_{1}-R_{2}\\text{and}R_{2} \\rightarrow R_{2}-R_{3} &amp; \\\\ \\Delta &amp; =|\\begin{aligned} 0 &amp; a-b &amp; a^{2}-b^{2} \\\\ 0 &amp; b-c &amp; b^{2}-c^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\Delta &amp; =(a-b)(b-c)|\\begin{aligned} 0 &amp; 1 &amp; a+b \\\\ 0 &amp; 1 &amp; b+c \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\Delta &amp; =(a-b)(b-c)(c-a)\\text{.... (i)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Now,}\\Delta_{1} &amp; =|\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ bc &amp; ca &amp; ab \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ C_{1} \\rightarrow C_{1} &amp; -C_{2},C_{2} \\rightarrow C_{2}-C_{3} \\\\ \\Delta_{1} &amp; =|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ c(b-a) &amp; a(c-b) &amp; ab \\\\ a-b &amp; b-c &amp; c \\end{aligned}| \\\\ \\Delta_{1} &amp; =(a-b)(b-c)|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ -c &amp; -a &amp; ab \\\\ 1 &amp; 1 &amp; c \\end{aligned}| \\\\ \\Delta_{1} &amp; =(a-b)(b-c)(a-c) \\\\ \\Delta_{1} &amp; =-(a-b)(b-c)(c-a)\\text{.... (ii)} \\end{aligned}$ </p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $\\Delta=-\\Delta_{1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.871563"
     },
@@ -1399,11 +1400,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} x[\\begin{aligned} 3 \\\\ 2 \\end{aligned}]+y[\\begin{aligned} 1 \\\\ -1 \\end{aligned}]=[\\begin{aligned} 15 \\\\ 5 \\end{aligned}] \\\\ [\\begin{aligned} 3x \\\\ 2x \\end{aligned}]+[\\begin{aligned} y \\\\ -y \\end{aligned}]=[\\begin{aligned} 15 \\\\ 5 \\end{aligned}] \\\\ [\\begin{aligned} 3x+y \\\\ 2x-y \\end{aligned}]=[\\frac{15}{5}] \\\\ 3x+y=15\\text{..... (i)} \\\\ 2x-y=5\\text{..... (ii)} \\end{aligned}$ </p>\n<p>Adding Eqs. (i) and (ii), we get</p>\n<p> $5x=20 \\Rightarrow x=4$ </p>\n<p> $\\begin{aligned} \\text{So,} &amp; y=15-3x[\\text{From Eq. (i)}] \\\\ &amp; y=15-3 \\times 4=3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.667342"
     },
@@ -1449,7 +1450,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A=[\\begin{aligned} 1 &amp; tan\\frac{\\alpha}{2} \\\\ -tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}]$  and  $AB=I$ </p>\n<p> $\\Rightarrow B=A^{-1}$ </p>\n<p>Now  $A=[\\begin{aligned} 1 &amp; tan\\frac{\\alpha}{2} \\\\ -tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} &amp; |A|=[\\begin{aligned} 1 &amp; tan\\frac{\\alpha}{2} \\\\ -tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}]=1+an^{2}\\frac{\\alpha}{2}=sec^{2}\\frac{\\alpha}{2} \\\\ &amp; adjA=[\\begin{aligned} 1 &amp; -tan\\frac{\\alpha}{2} \\\\ tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}] \\end{aligned}$ </p>\n<p> $A^{-1}=\\frac{1}{sec^{2}\\frac{\\alpha}{2}}[\\begin{aligned} 1 &amp; -tan\\frac{\\alpha}{2} \\\\ tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}]$ </p>\n<p> $=cos^{2}\\frac{\\alpha}{2}[\\begin{aligned} 1 &amp; -tan\\frac{\\alpha}{2} \\\\ tan\\frac{\\alpha}{2} &amp; 1 \\end{aligned}]=cos^{2}\\frac{\\alpha}{2}AT$ </p>\n<p> $B=[cos^{2}\\frac{\\alpha}{2}]AT$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 1 & tan\\alpha/2 \\\\ -tan\\alpha/2 & 1 \\end{aligned}]",
@@ -1458,7 +1459,7 @@
         "B=[cos^{2}\\frac{\\alpha}{2}]AT"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.882623"
     },
@@ -1504,11 +1505,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; (A^{2})^{-1}=(A)^{-2}=(A^{-1})^{2}=(-A^{-1})^{2}=(-A)^{-2} \\\\ &amp; (A^{2})^{-1} \\ne A^{2},(-A^{2})^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.095738"
     },
@@ -1554,11 +1555,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A$  is a  $3 \\times 3$  matrix and  $|5 \\cdot Adj(A)|=5$ </p>\n<p> $\\begin{aligned} |5 \\cdot adj(A)| &amp; =5 \\Rightarrow 5^{3}|adj(A)|=5 \\\\ \\Rightarrow |adj(A)| &amp; =\\frac{1}{5^{2}} \\Rightarrow |A|^{3-1}=\\frac{1}{5^{2}} \\\\ \\Rightarrow |A|^{2} &amp; =(\\frac{1}{5})^{2} \\Rightarrow |A|= \\pm \\frac{1}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.497439"
     },
@@ -1604,14 +1605,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A=[\\begin{aligned} 2 &amp; -1 \\\\ 3 &amp; -2 \\end{aligned}] \\\\ &amp; |A|=-4+3=-1 \\\\ &amp; adj(A)=[\\begin{aligned} -2 &amp; -3 \\\\ -(-1) &amp; 2 \\end{aligned}]^{T}=[\\begin{aligned} -2 &amp; -3 \\\\ 1 &amp; 2 \\end{aligned}]^{T}=[\\begin{aligned} -2 &amp; 1 \\\\ -3 &amp; 2 \\end{aligned}] \\\\ &amp; A^{-1}=\\frac{adj(A)}{|A|}=\\frac{[\\begin{aligned} -2 &amp; 1 \\\\ -3 &amp; 2 \\end{aligned}]}{(-1)}=[\\begin{aligned} 2 &amp; -1 \\\\ 3 &amp; -2 \\end{aligned}]=A \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; &amp; A^{-1} &amp; =A \\Rightarrow A \\cdot A^{-1}=A \\cdot A \\\\ \\Rightarrow &amp; &amp; I &amp; =A^{2} \\Rightarrow A \\cdot I=A \\cdot A^{2} \\\\ \\Rightarrow &amp; &amp; A &amp; =A^{3} \\Rightarrow (A)^{-1}=(A^{3})^{-1} \\\\ \\Rightarrow &amp; &amp; A &amp; =(A^{3})^{-1} \\Rightarrow (A^{3})^{-1}=A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2 & -1 \\\\ 3 & -2 \\end{aligned}]",
         "A^{3}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.106992"
     },
@@ -1657,13 +1658,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{Given,}\\Delta=|\\begin{aligned} 1 &amp; -2 &amp; 5 \\\\ 2 &amp; a &amp; -1 \\\\ 0 &amp; 4 &amp; 2a \\end{aligned}|=86 \\Rightarrow$ </p>\n<p> $\\begin{aligned} &amp; |\\begin{aligned} 1 &amp; -2 &amp; 5 \\\\ 2 &amp; a &amp; -1 \\\\ 0 &amp; 4 &amp; 2a \\end{aligned}|=86 \\\\ &amp; \\Rightarrow 1[2a^{2}+4]+2[4a+0]+5[8-0]=86 \\\\ &amp; \\Rightarrow 2a^{2}+4+8a+40=86 \\\\ &amp; \\Rightarrow 2a^{2}+8a-42=0 \\Rightarrow a^{2}+4a-21=0 \\\\ &amp; \\Rightarrow a^{2}+7a-3a-21=0 \\Rightarrow (a+7)(a-3)=0 \\\\ &amp; a=-7,3 \\end{aligned}$ </p>\n<p> $\\therefore$  Required sum  $=-7+3=-4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "=-7+3=-4"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.509980"
     },
@@ -1709,11 +1710,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A^{T}=-A$ </p>\n<p>Let  $P=A^{2021}$ </p>\n<p> $\\begin{aligned} P^{T} &amp; =[A^{2021}]^{T}=[A^{T}]^{2021} \\\\ &amp; =[-A]^{2021}=-[A]^{2021}=-P \\end{aligned}$ </p>\n<p>Hence,  $A^{2021}$  is also a skew symmetric matrix.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.120330"
     },
@@ -1759,14 +1760,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} A_{n} &amp; =[\\begin{aligned} 1-n &amp; n \\\\ n &amp; 1-n \\end{aligned}]\\text{and} \\\\ |A_{n}| &amp; =[\\begin{aligned} 1-n &amp; n \\\\ n &amp; 1-n \\end{aligned}] \\\\ &amp; =(1-n)^{2}-n^{2}=1+n^{2}-2n-n^{2} \\\\ |A_{n}| &amp; =1-2n \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Now,} &amp; |A_{1}|+|A_{2}|+|A_{3}|+\\dots.+|A_{2021}| \\\\ &amp; =(1-2)+(1-4)+(1-6)+\\dots+(1-4042) \\\\ &amp; =(1+1+\\dots.+1)-(2+4+6+\\dots.+4042) \\\\ &amp; =2021-[\\frac{2021}{2}(2+4042)] \\\\ &amp; =2021-\\frac{2021}{2} \\times 4044=2021-2021 \\times 2022 \\\\ &amp; =2021(1-2022)=-(2021)^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A_{n}=[\\begin{aligned} 1-n & n \\\\ n & 1-n \\end{aligned}]",
         "|A_{1}|+|A_{2}|+\\dots.|A_{2021}|="
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.518306"
     },
@@ -1812,7 +1813,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{Given,}A=[\\begin{aligned} 0 &amp; 1 \\\\ 0 &amp; 0 \\end{aligned}]$ </p>\n<p>Let  $P(n):(aI+bA)^{n}=a^{n}I+na^{n-1}bA$ </p>\n<p>For  $n=1,p(1):(aI+bA)^{1}=a^{1}I+1 \\cdot a^{1-1}bA$ </p>\n<p> $aI+bA=aI+bA$ </p>\n<p>It is true for  $n=1$ .</p>\n<p>Let  $P(n)$  is true for  $n=K$ .</p>\n<p>So,  $P(K):(AI+bA)^{K}=a^{K}I+Ka^{K-1}bA$  .... (i)</p>\n<p>Now, for  $n=K+1$ </p>\n<p> $P(K+1):(aI+bA)^{K+1}=a^{K+1}I+(K+1)a^{K+1-1}bA$  .... (ii)</p>\n<p> $\\begin{aligned} \\text{LHS} &amp; =(aI+bA)^{K+1}=(aI+bA)^{K}(aI+bA) \\\\ &amp; =(a^{K}I+Ka^{K-1}bA)(aI+bA)[\\text{from Eq. (i)]} \\\\ &amp; =a^{K+1}I+Ka^{K}IbA+a^{K}IbA+Ka^{K-1}b^{2}A^{2} \\\\ &amp; =a^{K+1}I+Ka^{K}b(IA)+a^{K}b(IA)+Ka^{K-1}b^{2}(A^{2}) \\\\ &amp; =a^{K+1}I+Ka^{K}bA+a^{K}bA+Ka^{K-1}b^{2} \\times 0 \\end{aligned}$ </p>\n<p>[ $\\because IA=A$  and</p>\n<p> $\\begin{aligned} A^{2} &amp; =A \\cdot A=[\\begin{aligned} 0 &amp; 1 \\\\ 0 &amp; 0 \\end{aligned}][\\begin{aligned} 0 &amp; 1 \\\\ 0 &amp; 0 \\end{aligned}]=[\\begin{aligned} 0 &amp; 0 \\\\ 0 &amp; 0 \\end{aligned}]=0] \\\\ &amp; =a^{K+1}I+(K+1)a^{K}bA=\\text{RHS} \\end{aligned}$ </p>\n<p>Hence,  $P(n)$  is true for all  $n \\in N$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "A=[\\begin{aligned} 0 & 1 \\\\ 0 & 0 \\end{aligned}]",
@@ -1823,7 +1824,7 @@
         "P(K):(AI+bA)^{K}=a^{K}I+Ka^{K-1}bA"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.128756"
     },
@@ -1869,11 +1870,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let a symmetric matrix</p>\n<p> $M=[\\begin{aligned} a &amp; c \\\\ c &amp; b \\end{aligned}]$ </p>\n<p>For matrix to be invertible, determinant must not be equal to zero.</p>\n<p> $\\begin{aligned} &amp; |M|=ab-c^{2} \\ne 0 \\\\ \\Rightarrow ab &amp; \\ne c^{2} \\end{aligned}$ </p>\n<p>Therefore,  $M$  is a diagonal matrix with non-zero entries in the main diagonal and the product of entries in the main diagonal of  $M$  is not the square of an integer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations",
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.674680"
     },
@@ -1919,11 +1921,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given order of matrix  $A$  and  $B$  are 3,</p>\n<p> $|A|=5,|B|=3$ </p>\n<p> $\\Rightarrow$  The order of  $AB$  matrix is also 3.</p>\n<p> $|AB|=|A| \\cdot |B|=15$ </p>\n<p>Using the property  $|KA|=K^{n}|A|$ , where  $n$  is the order of square matrix</p>\n<p> $\\begin{aligned} \\Rightarrow |3AB| &amp; =3^{3}|AB| \\\\ &amp; =27 \\times 15=405 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.689591"
     },
@@ -1969,11 +1971,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are invertible matrices, then</p>\n<p>(a)  $(AB)^{-1}=B^{-1}A^{-1}$ </p>\n<p>(b)  $adjA=|A| \\cdot A^{-1}$ </p>\n<p>(c)  $|A^{-1}|=|A|^{-1}$ </p>\n<p>Hence,  $(A+B)^{-1} \\ne B^{-1}+A^{-1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.703798"
     },
@@ -2019,7 +2021,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Given,}A &amp; =[\\begin{aligned} 1 &amp; -2 &amp; 1 \\\\ 2 &amp; 1 &amp; 3 \\end{aligned}]B=⎡⎣⎢\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\\\ 1 &amp; 1 \\end{aligned}⎤⎦⎥ \\\\ \\\\ AB &amp; =[\\begin{aligned} 1 &amp; -2 &amp; 1 \\\\ 2 &amp; 1 &amp; 3 \\end{aligned}]⎡⎣⎢\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\\\ 1 &amp; 1 \\end{aligned}⎤⎦⎥ \\\\ \\\\ &amp; =[\\begin{aligned} 2-6+1 &amp; 1-4+1 \\\\ 4+3+3 &amp; 2+2+3 \\end{aligned}] \\\\ \\\\ &amp; =[\\begin{aligned} -3 &amp; -2 \\\\ 10 &amp; 7 \\end{aligned}] \\\\ \\\\ AB^{'} &amp; =[\\begin{aligned} -3 &amp; 10 \\\\ -2 &amp; 7 \\end{aligned}] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 1 & -2 & 1 \\\\ 2 & 1 & 3 \\end{aligned}]",
@@ -2027,7 +2029,7 @@
         "(AB)^{'}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.527226"
     },
@@ -2073,14 +2075,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $x^{3}-2x^{2}-9x+18=0$  and  $A=|\\begin{aligned} 1 &amp; 2 &amp; 3 \\\\ 4 &amp; x &amp; 6 \\\\ 7 &amp; 8 &amp; 9 \\end{aligned}|$ </p>\n<p> $\\begin{aligned} &amp; x^{3}-2x^{2}-9x+18 &amp; =0 \\\\ \\Rightarrow &amp; x^{2}(x-2)-9(x-2) &amp; =0 \\\\ \\Rightarrow &amp; (x^{2}-9)(x-2) &amp; =0 \\\\ \\Rightarrow &amp; (x-3)(x+3)(x-2) &amp; =0 \\\\ \\therefore &amp; x=2,3,-3 \\end{aligned}$ </p>\n<p> $\\begin{aligned} A &amp; =|\\begin{aligned} 1 &amp; 2 &amp; 3 \\\\ 4 &amp; x &amp; 6 \\\\ 7 &amp; 8 &amp; 9 \\end{aligned}| \\\\ &amp; =1(9x-48)-2(36-42+3(32-7x) \\\\ &amp; =9x-48+12+96-21x \\\\ &amp; =-12x+60 \\end{aligned}$ </p>\n<p> $A$ (when  $x=2$ ) $=-12 \\times 2+60=36$ </p>\n<p> $A($  when  $x=3)=-12 \\times 3+60=24$ </p>\n<p> $A($  when  $x=-3)=-12 \\times (-3)+60=96$ </p>\n<p>More value of  $A$  at  $x=-3$  is 96.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{3}-2x^{2}-9x+18=0",
         "A=|\\begin{aligned} 1 & 2 & 3 \\\\ 4 & x & 6 \\\\ 7 & 8 & 9 \\end{aligned}|"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.718232"
     },
@@ -2126,14 +2128,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; A=⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥ \\\\ &amp; A^{2}=⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥ \\\\ &amp; A^{4}=A^{2} \\cdot A^{2}=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=I \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=⎛⎝⎜\\begin{aligned} 0 & 0 & 1 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & 0 \\end{aligned}⎞⎠⎟",
         "A^{4}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.870408"
     },
@@ -2179,14 +2181,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $|A|=5$ </p>\n<p> $|AadjA|=|A|^{3}$ </p>\n<p> $|AadjA|=(5)^{3}=125$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "|AadjA|=|A|^{3}",
         "|AadjA|=(5)^{3}=125"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.089467"
     },
@@ -2232,11 +2234,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $[\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\end{aligned}]A=[\\begin{aligned} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{aligned}]$ </p>\n<p>Let</p>\n<p> $B=[\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} \\therefore BA &amp; =I \\\\ A &amp; =B^{-1}I \\\\ A &amp; =B^{-1} \\\\ \\therefore B^{-1} &amp; =[\\begin{aligned} 2 &amp; -1 \\\\ -3 &amp; 2 \\end{aligned}] \\end{aligned}$ </p>\n<p>Hence,  $A=[\\begin{aligned} 2 &amp; -1 \\\\ -3 &amp; 2 \\end{aligned}]$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.879182"
     },
@@ -2282,13 +2284,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $a_{1},a_{2},a_{3},\\dots,a_{9}$  are in AP.</p>\n<p> $\\begin{aligned} &amp; |\\begin{aligned} a_{1} &amp; a_{2} &amp; a_{3} \\\\ a_{4} &amp; a_{5} &amp; a_{6} \\\\ a_{7} &amp; a_{8} &amp; a_{9} \\end{aligned}| \\\\ &amp; \\text{Apply}R_{1} \\rightarrow R_{1}+R_{2}-2R_{2} \\\\ &amp; |\\begin{aligned} a_{1}+a_{7}-2a_{4} &amp; a_{2}+a_{8}-2a_{5} &amp; a_{3}+a_{9}-2a_{6} \\\\ a_{4} &amp; a_{5} &amp; a_{6} \\\\ a_{7} &amp; a_{8} &amp; a_{9} \\end{aligned}| \\\\ &amp; |\\begin{aligned} 0 &amp; 0 &amp; 0 \\\\ a_{4} &amp; a_{5} &amp; a_{6} \\\\ a_{7} &amp; a_{8} &amp; a_{9} \\end{aligned}| \\\\ &amp; [ \\because a_{1}+a_{7}-2a_{4}=a_{1}+a_{1}+6d-2a_{1}-6d=0 \\\\ &amp; \\text{Similarly}a_{2}+a_{4}-2a_{5}=0,a_{3}+a_{9}-2a_{6}=0] \\\\ &amp; =0 \\\\ &amp; =log_{e}1=log_{e}(log_{e}e) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "a_{1}a_{2}a_{3}\\dotsa_{9}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.100010"
     },
@@ -2334,13 +2336,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; f(x)=|\\begin{aligned} x^{3}-x &amp; a+x &amp; b+x \\\\ x-a &amp; x^{2}-x &amp; c+x \\\\ x-b &amp; x-c &amp; 0 \\end{aligned}| \\\\ &amp; f(0)=|\\begin{aligned} 0 &amp; a &amp; b \\\\ -a &amp; 0 &amp; c \\\\ -b &amp; -c &amp; 0 \\end{aligned}| \\end{aligned}$ </p>\n<p> $f(0)=0$ </p>\n<p> $f(0)$  is skew symmetric matrix of order 3.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "f(0)=0"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.890211"
     },
@@ -2386,14 +2388,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $B$  is skew-symmetric, we have</p>\n<p> $B^{'}=-B$ </p>\n<p>Now consider the matrix</p>\n<p> $A^{'}BA$ </p>\n<p>To find its nature, take its transpose:</p>\n<p> $(A^{'}BA)^{'}=A^{'}B^{'}A$ </p>\n<p>because transpose of a product is taken in reverse order:</p>\n<p> $(XYZ)^{'}=Z^{'}Y^{'}X^{'}$ </p>\n<p>So,</p>\n<p> $(A^{'}BA)^{'}=A^{'}(-B)A$ </p>\n<p> $(A^{'}BA)^{'}=-A^{'}BA$ </p>\n<p>This shows that the transpose of  $A^{'}BA$  is the negative of the matrix itself.</p>\n<p>So  $A^{'}BA$  is a skew-symmetric matrix.</p>\n<p>Hence, the correct option is</p>\n<p> $\\text{Option D: Skew symmetric matrix}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "(A^{'}BA)^{'}=-A^{'}BA",
         "A^{'}BA"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.902643"
     },
@@ -2439,7 +2441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $3A+4B^{'}=[\\begin{aligned} 7 &amp; -10 &amp; 17 \\\\ 0 &amp; 6 &amp; 31 \\end{aligned}]$  .... (i)</p>\n<p> $\\begin{aligned} &amp; \\text{and}2B-3A^{'}=⎡⎣⎢\\begin{aligned} -1 &amp; 18 \\\\ 4 &amp; 0 \\\\ -5 &amp; -7 \\end{aligned}⎤⎦⎥ \\\\ &amp; \\Rightarrow 2B^{'}-3A=[\\begin{aligned} -1 &amp; 4 &amp; -5 \\\\ 18 &amp; 0 &amp; -7 \\end{aligned}]\\text{.... (ii)} \\end{aligned}$ </p>\n<p> $( \\because (A^{'})^{'}=A)$ </p>\n<p>adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; 6B^{'}=[\\begin{aligned} 6 &amp; -6 &amp; 12 \\\\ 18 &amp; 6 &amp; 24 \\end{aligned}] \\Rightarrow 6B=⎡⎣⎢\\begin{aligned} 6 &amp; 18 \\\\ -6 &amp; 6 \\\\ 12 &amp; 24 \\end{aligned}⎤⎦⎥ \\\\ &amp; \\Rightarrow B=⎡⎣⎢\\begin{aligned} 1 &amp; 3 \\\\ -1 &amp; 1 \\\\ 2 &amp; 4 \\end{aligned}⎤⎦⎥ \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "3A+4B^{'}=[\\begin{aligned} 7 & -10 & 17 \\\\ 0 & 6 & 31 \\end{aligned}]",
@@ -2447,7 +2449,7 @@
         "( \\because (A^{'})^{'}=A)"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.324502"
     },
@@ -2493,11 +2495,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,}A=[\\begin{aligned} 1 &amp; 3 \\\\ 4 &amp; 2 \\end{aligned}] \\\\ &amp; \\Rightarrow |A|=2-12=-10 \\\\ &amp; \\text{and}B=[\\begin{aligned} 2 &amp; -1 \\\\ 1 &amp; 2 \\end{aligned}] \\Rightarrow B^{'}=[\\begin{aligned} 2 &amp; 1 \\\\ -1 &amp; 2 \\end{aligned}] \\\\ &amp; \\Rightarrow |B|=|B^{'}|=4+1=5 \\\\ &amp; \\text{Now,}|ABB^{'}|=|A||BB^{'}|=|A||B||B^{'}| \\\\ &amp; =(-10)(5)(5)=-250 \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.342332"
     },
@@ -2543,14 +2545,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea Firstly write the given matrix in the form of  $A=IA$  then apply sequence of elementary row operation on  $A$  of LHS to convert it into identity matrix and same operations apply on  $I$  of RHS</p>\n<p> $\\text{Let}A=⎡⎣⎢\\begin{aligned} 2 &amp; 5 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ -1 &amp; 0 &amp; 3 \\end{aligned}⎤⎦⎥$ </p>\n<p>For applying row operations  $A=IA$ , where  $A$  is an identity matrix of order 3.</p>\n<p>i.e.  $⎡⎣⎢\\begin{aligned} 2 &amp; 5 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ -1 &amp; 0 &amp; 3 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥A$ </p>\n<p>On applying  $R_{1} \\rightarrow \\frac{R_{1}}{2}$ , we get</p>\n<p> $⎡⎣⎢\\begin{aligned} 1 &amp; 5/2 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ -1 &amp; 0 &amp; 3 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} \\frac{1}{2} &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥A$ </p>\n<p> $\\begin{aligned} &amp; \\text{On applying}R_{3} \\rightarrow R_{3}+R_{1}, \\\\ &amp; ⎡⎣⎢\\begin{aligned} 1 &amp; 5/2 &amp; 0 \\\\ 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 5/2 &amp; 3 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1/2 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1/2 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥A \\end{aligned}$ </p>\n<p>On applying  $R_{1} \\rightarrow R_{1}-\\frac{5}{2}R_{2},R_{3} \\rightarrow R_{3}-\\frac{5}{2}R_{2}$ , we get</p>\n<p> $⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; -5/2 \\\\ 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 0 &amp; 1/2 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1/2 &amp; -5/2 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1/2 &amp; -5/2 &amp; 1 \\end{aligned}⎤⎦⎥A$ </p>\n<p>On applying  $R_{3} \\rightarrow 2R_{3}$ , we get</p>\n<p> $⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; -5/2 \\\\ 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1/2 &amp; -5/2 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; -5 &amp; 2 \\end{aligned}⎤⎦⎥A$ </p>\n<p> $R_{1} \\rightarrow R_{1}+\\frac{5}{2}R_{3},R_{2} \\rightarrow R_{2}-R_{3}$ , we get</p>\n<p> $⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 3 &amp; -15 &amp; 5 \\\\ -1 &amp; 6 &amp; -2 \\\\ 1 &amp; -5 &amp; 2 \\end{aligned}⎤⎦⎥A$ </p>\n<p>Hence,  $A^{-1}=⎡⎣⎢\\begin{aligned} 3 &amp; -15 &amp; 5 \\\\ -1 &amp; 6 &amp; -2 \\\\ 1 &amp; -5 &amp; 2 \\end{aligned}⎤⎦⎥$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "A=IA",
         "R_{1} \\rightarrow R_{1}+\\frac{5}{2}R_{3},R_{2} \\rightarrow R_{2}-R_{3}"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.114393"
     },
@@ -2596,7 +2598,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $|A|=16$ </p>\n<p> $adj(A)=$  Transpose of co-factors of matrix  $A$ </p>\n<p> $\\Rightarrow$  Transpose of co-factor matrix  $A|=|adjA|$ </p>\n<p> $=|A|^{3-1}=|A|^{2}=(16)^{2}=256$ </p>\n<p> $\\Rightarrow |$  co-factors matrix of  $A|=256$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "|A|=16",
@@ -2606,7 +2608,7 @@
         "A|=256"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.361380"
     },
@@ -2652,11 +2654,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $P$  and  $Q$  are symmetric matrices</p>\n<p> $\\begin{aligned} &amp; \\therefore P^{'}=P\\text{and}Q^{'}=Q \\\\ &amp; \\text{Let}A=PQ-QP \\\\ &amp; \\Rightarrow A^{'}=(PQ-QP)^{'}=(PQ)^{'}-(QP)^{'} \\\\ &amp; [ \\because (A+B)^{'}=A^{'}+B^{'};(AB)^{'}=B^{'}A^{'}] \\\\ &amp; =Q^{'}P^{'}-P^{'}Q^{'}=QP-PQ \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =-(PQ-QP) \\\\ \\Rightarrow A^{'} &amp; =-A \\\\ \\Rightarrow PQ-QP &amp; \\text{is skew symmetric matrix.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.127572"
     },
@@ -2702,11 +2704,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A=|\\begin{aligned} 3x+1 &amp; 2x-1 &amp; x+2 \\\\ 5x-1 &amp; 3x+2 &amp; x+1 \\\\ 7x-2 &amp; 3x+1 &amp; 4x-1 \\end{aligned}|$ </p>\n<p>for constant term, we put  $x=0$  in  $\\Delta$ , We get,</p>\n<p> $\\begin{aligned} &amp; \\Delta=|\\begin{aligned} 1 &amp; -1 &amp; 2 \\\\ -1 &amp; 2 &amp; 1 \\\\ -2 &amp; 1 &amp; -1 \\end{aligned}| \\\\ &amp; =1(-2-1)+1(1+2)+2(-1+4) \\\\ &amp; =-3+3+6=6 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.379615"
     },
@@ -2752,7 +2754,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> Given,  $A=[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}]$ </p>\n<p>Now,</p>\n<p> $A^{2}=[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}][\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}]$ </p>\n<p> $\\Rightarrow A^{2}=[\\begin{aligned} 8 &amp; -8 \\\\ -8 &amp; 8 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; A^{2}=2^{2}[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}] \\\\ \\Rightarrow &amp; A^{2}=2^{2}A \\end{aligned}$ </p>\n<p>Now,  $A^{3}=A^{2} \\cdot A$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; A^{3}=2^{2} \\cdot A^{2} \\\\ \\Rightarrow &amp; A^{3}=2^{4} \\cdot A \\\\ \\Rightarrow &amp; A^{4}=A^{3} \\cdot A \\\\ \\Rightarrow &amp; A^{4}=2^{4} \\cdot A^{2} \\\\ \\Rightarrow &amp; A^{4}=2^{6}A \\\\ \\Rightarrow &amp; A^{5}=A^{4} \\cdot A \\\\ \\Rightarrow &amp; A^{5}=2^{6}A^{2} \\\\ &amp; A^{5}=2^{8}A \\\\ \\therefore &amp; A^{n}=2^{2(n-1)}A \\end{aligned}$ </p>\n<p>Hence,  $k=2(n-1)$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2 & -2 \\\\ -2 & 2 \\end{aligned}]",
@@ -2760,7 +2762,7 @@
         "\\Rightarrow A^{2}=[\\begin{aligned} 8 & -8 \\\\ -8 & 8 \\end{aligned}]"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.789124"
     },
@@ -2806,7 +2808,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of the determinant  $\\Delta=|\\begin{aligned} a-b &amp; b+c &amp; a \\\\ b-a &amp; c+a &amp; b \\\\ c-a &amp; a+b &amp; c \\end{aligned}|$ , we can proceed with column and row operations to simplify it.</p>\n<p>First, perform the column operation  $C_{3} \\rightarrow C_{2}+C_{3}$ :</p>\n<p> $\\Delta=|\\begin{aligned} a-b &amp; b+c &amp; a+b+c \\\\ b-a &amp; c+a &amp; a+b+c \\\\ c-a &amp; a+b &amp; a+b+c \\end{aligned}|$ </p>\n<p>Factor out  $(a+b+c)$ , as it's common in the third column:</p>\n<p> $\\Delta=(a+b+c)|\\begin{aligned} a-b &amp; b+c &amp; 1 \\\\ b-a &amp; c+a &amp; 1 \\\\ c-a &amp; a+b &amp; 1 \\end{aligned}|$ </p>\n<p>Next, apply the row operations  $R_{2} \\rightarrow R_{2}-R_{1}$  and  $R_{3} \\rightarrow R_{3}-R_{1}$ :</p>\n<p> $\\Delta=(a+b+c)|\\begin{aligned} a-b &amp; b+c &amp; 1 \\\\ 2b &amp; a-b &amp; 0 \\\\ c-2a+b &amp; a-c &amp; 0 \\end{aligned}|$ </p>\n<p>Since the last column after the row operations has two zeros, the determinant simplifies to:</p>\n<p> $\\Delta=(a+b+c)(1 \\times (2b(a-c)-(a-b)(c-2a+b)))$ </p>\n<p>Now expand the expression inside the determinant:</p>\n<p> $=(a+b+c)[2ab-2bc-(ac-2a^{2}+ab-bc+2ab-b^{2})]$ </p>\n<p>Simplify the terms:</p>\n<p> $=(a+b+c)[2ab-2bc-ac+2a^{2}-ab+bc-2ab+b^{2}]$ </p>\n<p>Resulting in:</p>\n<p> $=(a+b+c)[2a^{2}-ac-ab-bc+b^{2}]$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "C_{3} \\rightarrow C_{2}+C_{3}",
@@ -2816,7 +2818,7 @@
         "=(a+b+c)[2a^{2}-ac-ab-bc+b^{2}]"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.140501"
     },
@@ -2862,11 +2864,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the values of  $x$  and  $y$ , we start with the matrix equation:</p>\n<p> $[\\begin{aligned} 1 &amp; 1 \\\\ -1 &amp; 1 \\end{aligned}][\\begin{aligned} x \\\\ y \\end{aligned}]=[\\begin{aligned} 2 \\\\ 4 \\end{aligned}]$ </p>\n<p>We can solve for the vector  $[\\begin{aligned} x \\\\ y \\end{aligned}]$  using the inverse of the coefficient matrix:</p>\n<p> $[\\begin{aligned} x \\\\ y \\end{aligned}]=[\\begin{aligned} 1 &amp; 1 \\\\ -1 &amp; 1 \\end{aligned}]^{-1}[\\begin{aligned} 2 \\\\ 4 \\end{aligned}]$ </p>\n<p>The inverse of the matrix  $[\\begin{aligned} a &amp; b \\\\ c &amp; d \\end{aligned}]$  is given by:</p>\n<p> $[\\begin{aligned} a &amp; b \\\\ c &amp; d \\end{aligned}]^{-1}=\\frac{1}{ad-bc}[\\begin{aligned} d &amp; -b \\\\ -c &amp; a \\end{aligned}]$ </p>\n<p>For our matrix  $[\\begin{aligned} 1 &amp; 1 \\\\ -1 &amp; 1 \\end{aligned}]$ , the determinant  $ad-bc=(1)(1)-(1)(-1)=2$ .</p>\n<p>Thus, the inverse is:</p>\n<p> $\\frac{1}{2}[\\begin{aligned} 1 &amp; -1 \\\\ 1 &amp; 1 \\end{aligned}]$ </p>\n<p>Substitute the inverse into the expression for  $[\\begin{aligned} x \\\\ y \\end{aligned}]$ :</p>\n<p> $[\\begin{aligned} x \\\\ y \\end{aligned}]=\\frac{1}{2}[\\begin{aligned} 1 &amp; -1 \\\\ 1 &amp; 1 \\end{aligned}][\\begin{aligned} 2 \\\\ 4 \\end{aligned}]$ </p>\n<p>Calculate the matrix product:</p>\n<p> $\\frac{1}{2}[\\begin{aligned} (1)(2)+(-1)(4) \\\\ (1)(2)+(1)(4) \\end{aligned}]=\\frac{1}{2}[\\begin{aligned} 2-4 \\\\ 2+4 \\end{aligned}]=\\frac{1}{2}[\\begin{aligned} -2 \\\\ 6 \\end{aligned}]$ </p>\n<p>This simplifies to:</p>\n<p> $[\\begin{aligned} x \\\\ y \\end{aligned}]=[\\begin{aligned} -1 \\\\ 3 \\end{aligned}]$ </p>\n<p>Therefore, the values of  $x$  and  $y$  are  $x=-1$  and  $y=3$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.801288"
     },
@@ -2912,7 +2914,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the problem, let's start by noting that the vertices of the triangle are given as  $(x_{1},y_{1})$ ,  $(x_{2},y_{2})$ , and  $(x_{3},y_{3})$  with a triangle area of  $k$  square units.</p>\n<p>The area  $k$  of the triangle can be calculated using the determinant method as follows:</p>\n<p> $\\frac{1}{2}|\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|=k$ </p>\n<p>This implies:</p>\n<p> $|\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|=2k$ </p>\n<p>Next, we need to evaluate the expression:</p>\n<p> $|\\begin{aligned} x_{1} &amp; y_{1} &amp; 4 \\\\ x_{2} &amp; y_{2} &amp; 4 \\\\ x_{3} &amp; y_{3} &amp; 4 \\end{aligned}|^{2}$ </p>\n<p>This determinant can be rewritten and expanded using properties of determinants:</p>\n<p> $|\\begin{aligned} x_{1} &amp; y_{1} &amp; 4 \\\\ x_{2} &amp; y_{2} &amp; 4 \\\\ x_{3} &amp; y_{3} &amp; 4 \\end{aligned}|=4 \\times |\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|$ </p>\n<p>Thus, the determinant squared is:</p>\n<p> $⎛⎝⎜4 \\cdot |\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|⎞⎠⎟^{2}$ </p>\n<p> $=16|\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|^{2}$ </p>\n<p>Substituting the value of the determinant in terms of  $k$ :</p>\n<p> $=16 \\cdot (2k)^{2}=16 \\cdot 4k^{2}=64k^{2}$ </p>\n<p>Therefore, the value of the expression is  $64k^{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "(x_{1},y_{1}),(x_{2},y_{2})",
@@ -2921,7 +2923,7 @@
         "(x_{2},y_{2})"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.152593"
     },
@@ -2967,11 +2969,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the matrix  $A=[\\begin{aligned} cos\\alpha &amp; sin\\alpha \\\\ -sin\\alpha &amp; cos\\alpha \\end{aligned}]$ , we need to calculate the product  $AA^{'}$ , where  $A^{'}$  is the transpose of matrix  $A$ .</p>\n<p>The transpose of  $A$ , denoted  $A^{'}$ , is:</p>\n<p> $A^{'}=[\\begin{aligned} cos\\alpha &amp; -sin\\alpha \\\\ sin\\alpha &amp; cos\\alpha \\end{aligned}]$ </p>\n<p>Now, we calculate the product  $AA^{'}$ :</p>\n<p> $AA^{'}=[\\begin{aligned} cos\\alpha &amp; sin\\alpha \\\\ -sin\\alpha &amp; cos\\alpha \\end{aligned}][\\begin{aligned} cos\\alpha &amp; -sin\\alpha \\\\ sin\\alpha &amp; cos\\alpha \\end{aligned}]$ </p>\n<p>Performing the matrix multiplication, we have:</p>\n<p> $AA^{'}=[\\begin{aligned} (cos\\alpha)(cos\\alpha)+(sin\\alpha)(sin\\alpha) &amp; (cos\\alpha)(-sin\\alpha)+(sin\\alpha)(cos\\alpha) \\\\ (-sin\\alpha)(cos\\alpha)+(cos\\alpha)(sin\\alpha) &amp; (-sin\\alpha)(-sin\\alpha)+(cos\\alpha)(cos\\alpha) \\end{aligned}]$ </p>\n<p>Calculating each element:</p>\n<p><p>Top left:  $cos^{2}\\alpha+sin^{2}\\alpha=1$  (using the Pythagorean identity)</p></p>\n<p><p>Top right:  $-cos\\alpha sin\\alpha+sin\\alpha cos\\alpha=0$ </p></p>\n<p><p>Bottom left:  $-sin\\alpha cos\\alpha+cos\\alpha sin\\alpha=0$ </p></p>\n<p><p>Bottom right:  $sin^{2}\\alpha+cos^{2}\\alpha=1$  (using the Pythagorean identity)</p></p>\n<p>Thus, the product is:</p>\n<p> $AA^{'}=[\\begin{aligned} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{aligned}]$ </p>\n<p>This is the identity matrix  $I$ . Hence,</p>\n<p> $AA^{'}=I$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:53.811497"
     },
@@ -3017,13 +3019,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When you multiply a square matrix by a scalar, the determinant of the new matrix is the product of the scalar raised to the power of the order of the matrix and the determinant of the original matrix. For a  $3 \\times 3$  matrix  $A$ , the formula is:</p>\n<p> $|5A|=5^{3}|A|=125|A|$ </p>\n<p>Thus, the correct answer is:</p>\n<p>Option B:  $125|A|$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "3 \\times 3"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.164437"
     },
@@ -3069,11 +3071,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{Let} \\\\ &amp; A=|\\begin{aligned} (5^{x}+5^{x})^{2} &amp; (5^{x}-5^{x})^{2} &amp; 1 \\\\ (6^{x}+6^{-x})^{2} &amp; (6^{x}-6^{-x})^{2} &amp; 1 \\\\ (7^{x}+7^{-x})^{2} &amp; (7^{x}-7^{-x})^{2} &amp; 1 \\end{aligned}| \\\\ &amp; \\begin{aligned} C_{1} \\rightarrow C_{1}-C_{2} \\\\ A=|\\begin{aligned} (5^{x}+5^{-x})^{2}-(5^{x}-5^{-x})^{2}(5^{x}-5^{x})^{2} &amp; 1 \\\\ (6^{x}+6^{-x})^{2}-(6^{x}-6^{-x})^{2}(6^{x}-6^{-x})^{2} &amp; 1 \\\\ (7^{x}+7^{-x})-(7^{x}-7^{-x})^{2}(7^{x}-7^{x})^{2} &amp; 1 \\end{aligned}| \\\\ A=|\\begin{aligned} 4 &amp; (5^{x}-5^{x})^{2} &amp; 1 \\\\ 4 &amp; (6^{x}-6^{-x})^{2} &amp; 1 \\\\ 4 &amp; (7^{x}-7^{-x})^{2} &amp; 1 \\end{aligned}| \\\\ A=4|\\begin{aligned} 1 &amp; (5^{x}-5^{x})^{2} &amp; 1 \\\\ 1 &amp; (6^{x}-6^{-x})^{2} &amp; 1 \\\\ 1 &amp; (7^{x}-7^{-x})^{2} &amp; 1 \\end{aligned}| \\\\ [ \\because (a+b)^{2}-(a-b)^{2}=4ab] \\\\ A=C_{1}\\text{and}C_{3}\\text{are identical}] \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.825092"
     },
@@ -3119,11 +3121,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; |\\begin{aligned} 3 &amp; x \\\\ x &amp; 1 \\end{aligned}|=|\\begin{aligned} 3 &amp; 2 \\\\ 4 &amp; 1 \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 3-x^{2}=3-8 \\\\ \\Rightarrow &amp; x^{2}=8 \\\\ \\Rightarrow &amp; x= \\pm 2\\sqrt{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:54.300639"
     },
@@ -3169,7 +3171,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If a matrix  $A$  is both symmetric and skew-symmetric, let's analyze the implications:</p>\n<p><p>A symmetric matrix satisfies the condition  $A^{'}=A$ .</p></p>\n<p><p>A skew-symmetric matrix satisfies the condition  $A^{'}=-A$ .</p></p>\n<p>For a matrix to be both symmetric and skew-symmetric, it must fulfill both conditions simultaneously:</p>\n<p> $A^{'}=A\\text{and}A^{'}=-A$ </p>\n<p>Comparing these, we find:</p>\n<p> $A=-A$ </p>\n<p>This equation holds true only when every element of matrix  $A$  is zero, making  $A$  a zero matrix. Hence, if a matrix is both symmetric and skew-symmetric, it must be a zero matrix.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Hard",
       "key_formulas": [
         "A^{'}=A",
@@ -3178,7 +3180,7 @@
         "A=-A"
       ],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:54.390805"
     },
@@ -3224,11 +3226,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; \\begin{aligned} &amp; 2[\\begin{aligned} 1 &amp; 3 \\\\ 0 &amp; x \\end{aligned}]+[\\begin{aligned} y &amp; 0 \\\\ 1 &amp; 2 \\end{aligned}]=[\\begin{aligned} 5 &amp; 6 \\\\ 1 &amp; 8 \\end{aligned}] \\\\ \\Rightarrow &amp; [\\begin{aligned} 2+y &amp; 6 \\\\ 1 &amp; 2x+2 \\end{aligned}]=[\\begin{aligned} 5 &amp; 6 \\\\ 1 &amp; 8 \\end{aligned}] \\\\ \\therefore &amp; 2+y=5\\text{and}2x+2=8 \\\\ \\Rightarrow &amp; y=3\\text{and}x=3 \\\\ \\therefore &amp; x=3,y=3 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.312260"
     },
@@ -3274,11 +3276,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We know that,</p>\n<p> $|KA|=K^{n}|A|$ , where  $n \\times n$  is order of the matrix.</p>\n<p> $\\therefore |KA|=K^{3}|A|[ \\because$  order of  $A$  is  $3 \\times 3]$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:54.321515"
     },
@@ -3324,11 +3326,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\\\ &amp; \\begin{aligned} Weℎave,\\Delta &amp; =|\\begin{aligned} Ax &amp; x^{2} &amp; 1 \\\\ By &amp; y^{2} &amp; 1 \\\\ Cz &amp; z^{2} &amp; 1 \\end{aligned}|and \\\\ \\Delta_{1} &amp; =|\\begin{aligned} A &amp; B &amp; C \\\\ x &amp; y &amp; z \\\\ zy &amp; zx &amp; xy \\end{aligned}| \\\\ Now,\\Delta_{1} &amp; =|\\begin{aligned} A &amp; B &amp; C \\\\ x &amp; y &amp; z \\\\ zy &amp; zx &amp; xy \\end{aligned}| \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{On applying} \\\\ &amp; \\begin{aligned} C_{1} \\rightarrow xC_{1},C_{2} &amp; \\rightarrow yC_{2},C_{3} \\rightarrow zC_{3}\\text{, we get} \\\\ &amp; =\\frac{1}{xyz}|\\begin{aligned} Ax &amp; By &amp; Cz \\\\ x^{2} &amp; y^{2} &amp; z^{2} \\\\ xyz &amp; xyz &amp; xyz \\end{aligned}| \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Taking common}xyz\\text{from}R_{3} \\\\ &amp; \\begin{aligned} &amp; =\\frac{xyz}{xyz}|\\begin{aligned} Ax &amp; By &amp; Cz \\\\ x^{2} &amp; y^{2} &amp; z^{2} \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}| \\\\ &amp; =|\\begin{aligned} Ax &amp; By &amp; Cz \\\\ x^{2} &amp; y^{2} &amp; z^{2} \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}| \\\\ &amp; =|\\begin{aligned} Ax &amp; x^{2} &amp; 1 \\\\ By &amp; y^{2} &amp; 1 \\\\ Cz &amp; z^{2} &amp; 1 \\end{aligned}|[ \\because |A^{'}|=|A|] \\\\ &amp; =\\Delta \\end{aligned} \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.178424"
     },
@@ -3374,11 +3376,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Hint} \\\\ &amp; \\begin{aligned} &amp; A=\\frac{1}{\\pi}[sin^{-1}(\\pi x)cot^{-1}(\\pi x)-tan^{-1}(\\frac{x}{\\pi})sin^{-1}(\\frac{x}{\\pi})] \\\\ &amp; B=cos^{-1}(\\pi x)tan^{-1}(\\pi x)-sin^{-1}(\\frac{x}{\\pi})tan^{-1}(\\frac{x}{\\pi}) \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Matrices And Determinants - Core Application",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Matrices And Determinants - Core Application"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.332276"
     }

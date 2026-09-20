@@ -8,20 +8,20 @@
     "total_questions_site": 187,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:38:08.312248"
+    "analyzed_at": "2026-09-20T16:42:29.916443"
   },
   "concepts": [
     {
-      "id": 328,
+      "id": 1525,
       "chapter_slug": "circle",
-      "name": "Circle - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Circle.",
-      "standard_formulas": "",
-      "exam_frequency": 183,
+      "name": "Circle Equation, Tangents & Chord of Contact",
+      "category": "Circles",
+      "summary": "Standard and general equations of circles, condition for line $y = mx + c$ to be tangent, and director circle $x^2 + y^2 = 2a^2$.",
+      "standard_formulas": "r = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2",
+      "exam_frequency": 182,
       "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "The center of $x^2 + y^2 + 2gx + 2fy + c = 0$ is $(-g, -f)$, NOT $(+g, +f)$.",
+      "tips_and_tricks": "The locus of the point of intersection of two perpendicular tangents to a circle is its director circle (radius $\\sqrt{2}a$).",
       "pyq_ids": [
         20115,
         20117,
@@ -131,7 +131,6 @@
         20353,
         20355,
         20357,
-        20360,
         20366,
         20368,
         20370,
@@ -207,20 +206,45 @@
         20518,
         20519
       ]
+    },
+    {
+      "id": 1526,
+      "chapter_slug": "circle",
+      "name": "Tangents, Normals & Orthogonal Circles",
+      "category": "Tangents & Circles",
+      "summary": "Point and slope forms of circle tangents, director circle $x^2 + y^2 = 2a^2$, and orthogonality condition.",
+      "standard_formulas": "\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2",
+      "exam_frequency": 11,
+      "frequency_tier": "High",
+      "common_traps": "The normal to a circle at any point ALWAYS passes through the center of the circle $(-g, -f)$.",
+      "tips_and_tricks": "Common chord of two intersecting circles $S_1 = 0$ and $S_2 = 0$ is given directly by the linear equation $S_1 - S_2 = 0$.",
+      "pyq_ids": [
+        20162,
+        20205,
+        20304,
+        20310,
+        20318,
+        20322,
+        20360,
+        20397,
+        20423,
+        20464,
+        20508
+      ]
     }
   ],
   "synthesis": {
     "id": 149,
     "chapter_slug": "circle",
     "title": "Circle Syllabus reduced Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Circle Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2002 – 2026)  \n**Empirical Dataset**: 183 Previous Year Questions Analyzed (144 MCQs, 39 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **183** authentic JEE Main problems.\n- **Question Format Breakdown**: **144 MCQs** (78%) and **39 Numerical Value Questions** (21%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2002 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Circle - Core Application | **183 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Circle - Core Application (General Concept)\n- **Exam Weightage**: Tested in **183 PYQs** (Very High Yield)\n- **Conceptual Summary**: Key problem pattern in Circle.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let C be a circle having centre in the first quadrant and touching the $x$ -axis at a distance of 3 units from the origin. If the circle $C$...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let a circle pass through the origin and its centre be the point of intersection of two mutually perpendicular lines $x+(k-1)y+3=0$ and $2x+...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let the set of all values of $r$ , for which the circles $(x+1)^{2}+(y+4)^{2}=r^{2}$ and $x^{2}+y^{2}-4x-2y-4=0$ intersect at two distinct p...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (Numerical)**: *\"Let a circle C have its centre in the first quadrant, intersect the coordinate axes at exactly three points and cut off equal intercepts fro...\"* — **Correct Answer: 8**\n",
-    "formula_sheet_markdown": "# Circle Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 183 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Circle Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2002 – 2026)  \n**Empirical Dataset**: 183 Previous Year Questions Analyzed (144 MCQs, 39 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **183** authentic JEE Main problems.\n- **Question Format Breakdown**: **144 MCQs** (78%) and **39 Numerical Value Questions** (21%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2002 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Circle Equation, Tangents & Chord of Contact | **182 PYQs** | Circles |\n| **High** | Tangents, Normals & Orthogonal Circles | **11 PYQs** | Tangents & Circles |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Circle Equation, Tangents & Chord of Contact (Circles)\n- **Exam Weightage**: Tested in **182 PYQs** (Very High Yield)\n- **Conceptual Summary**: Standard and general equations of circles, condition for line $y = mx + c$ to be tangent, and director circle $x^2 + y^2 = 2a^2$.\n\n#### Standard Mathematical Formulation\n$$\nr = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The center of $x^2 + y^2 + 2gx + 2fy + c = 0$ is $(-g, -f)$, NOT $(+g, +f)$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The locus of the point of intersection of two perpendicular tangents to a circle is its director circle (radius $\\sqrt{2}a$).\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let C be a circle having centre in the first quadrant and touching the $x$ -axis at a distance of 3 units from the origin. If the circle $C$...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let a circle pass through the origin and its centre be the point of intersection of two mutually perpendicular lines $x+(k-1)y+3=0$ and $2x+...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let the set of all values of $r$ , for which the circles $(x+1)^{2}+(y+4)^{2}=r^{2}$ and $x^{2}+y^{2}-4x-2y-4=0$ intersect at two distinct p...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (Numerical)**: *\"Let a circle C have its centre in the first quadrant, intersect the coordinate axes at exactly three points and cut off equal intercepts fro...\"* — **Correct Answer: 8**\n\n### 2.2 Tangents, Normals & Orthogonal Circles (Tangents & Circles)\n- **Exam Weightage**: Tested in **11 PYQs** (High Yield)\n- **Conceptual Summary**: Point and slope forms of circle tangents, director circle $x^2 + y^2 = 2a^2$, and orthogonality condition.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The normal to a circle at any point ALWAYS passes through the center of the circle $(-g, -f)$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Common chord of two intersecting circles $S_1 = 0$ and $S_2 = 0$ is given directly by the linear equation $S_1 - S_2 = 0$.\n\n#### Linked Representative PYQs:\n- **[2024 Evening Shift] Q#3 (MCQ)**: *\"Let the circle $C_{1}:x^{2}+y^{2}-2(x+y)+1=0$ and $C_{2}$ be a circle having centre at $(-1,0)$ and radius 2 . If the line of the common cho...\"* — **Correct Answer: N/A**\n- **[2024 Evening Shift] Q#3 (Numerical)**: *\"Consider two circles $C_{1}:x^{2}+y^{2}=25$ and $C_{2}:(x-\\alpha)^{2}+y^{2}=16$ , where $\\alpha \\in (5,9)$ . Let the angle between the two r...\"* — **Correct Answer: 1575**\n- **[2023 Evening Shift] Q#3 (MCQ)**: *\"If the tangents at the points $P$ and $Q$ on the circle $x^{2}+y^{2}-2x+y=5$ meet at the point $R(\\frac{9}{4},2)$ , then the area of the tri...\"* — **Correct Answer: N/A**\n- **[2021 Morning Shift] Q#4 (Numerical)**: *\"If the variable line 3x + 4y = $\\alpha$ lies between the two circles (x $-$ 1) 2 + (y $-$ 1) 2 = 1 and (x $-$ 9) 2 + (y $-$ 1) 2 = 4, withou...\"* — **Correct Answer: 165**\n",
+    "formula_sheet_markdown": "# Circle Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 183 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Circle Equation, Tangents & Chord of Contact** | $r = \\sqrt{g^2 + f^2 - c}, \\quad \\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Chord of contact: } T = 0, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2$ | Standard SI units apply |\n| **Tangents, Normals & Orthogonal Circles** | $\\text{Tangent: } y = mx \\pm a\\sqrt{1 + m^2}, \\quad \\text{Length of tangent: } L = \\sqrt{S_1}, \\quad \\text{Orthogonal: } 2g_1 g_2 + 2f_1 f_2 = c_1 + c_2$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Circle Syllabus reduced\nBased on rigorous analysis of all 183 questions from 2002 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Circle Syllabus reduced\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       20451
     ],
-    "updated_at": "2026-09-20T15:38:08.278009"
+    "updated_at": "2026-09-20T16:42:29.902982"
   },
   "total_questions": 183,
   "has_docx": true,

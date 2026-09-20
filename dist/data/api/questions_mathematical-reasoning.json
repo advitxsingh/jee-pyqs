@@ -44,11 +44,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given statement is:</p>\n<p> $p \\wedge (q \\wedge ∼(p \\wedge q))$ </p>\n<p>We want to find the negation of this statement. To do that, we negate the whole expression:</p>\n<p> $∼(p \\wedge (q \\wedge ∼(p \\wedge q)))$ </p>\n<p>Now, we will use De Morgan's laws to simplify the expression. De Morgan's laws state:</p>\n<ol>\n<li> $∼(A \\wedge B) \\equiv ∼A∨∼B$ </li>\n<li> $∼(A∨B) \\equiv ∼A \\wedge ∼B$ </li>\n</ol>\n<p>Applying the first De Morgan's law to the outer conjunction of the negated expression:</p>\n<p> $∼p∨∼(q \\wedge ∼(p \\wedge q))$ </p>\n<p>Now we need to address the inner conjunction  $(q \\wedge ∼(p \\wedge q))$ . To simplify this part of the expression, we again apply the first De Morgan's law:\n</p>\n<p> $∼p∨(∼q∨(p \\wedge q))$ \n</p>\n<p>Distribute the disjunction over the inner conjunction:</p>\n<p> $∼p∨((∼q∨p) \\wedge (∼q∨q))$ </p>\n<p>Apply the law of excluded middle (A ∨ ¬A = T) on the last term:</p>\n<p> $∼p∨(∼q∨p)$ </p>\n<p>Apply De Morgan's law on the inner disjunction:\n</p>\n<p> $∼(p \\wedge q)∨p$ \n</p>\n<p>Now, comparing this with the provided options, it matches with Option B :</p>\n<p> $(∼(p \\wedge q))∨p$ </p>\n<p>So, the negation of the given statement is :</p>\n<p> $(∼(p \\wedge q))∨p$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws",
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:54.287530"
     },
@@ -94,11 +95,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Converse of  $((∼p) \\wedge q) \\Rightarrow r$ \n<br/><br/> $\\begin{aligned} &amp; \\equiv r \\Rightarrow (∼p \\wedge q) \\\\ \\\\ &amp; \\equiv ∼r∨(∼p \\wedge q) \\\\ \\\\ &amp; \\equiv ∼r∨(p∨∼q) \\equiv (p∨∼q) \\Rightarrow ∼r \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:54.888810"
     },
@@ -144,11 +145,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given:  $(p \\rightarrow q) \\rightarrow (q \\rightarrow p)$ \n<br/><br/>Negation of above statement is :\n<br/><br/> $\\begin{aligned} &amp; ∼[(p \\rightarrow q) \\rightarrow (q \\rightarrow p)] \\\\ \\\\ &amp; \\equiv ∼[∼p \\rightarrow q \\wedge q \\rightarrow p] \\\\ \\\\ &amp; \\equiv p \\rightarrow q \\wedge ∼q \\rightarrow p \\\\ \\\\ &amp; \\equiv ∼p∨q \\wedge q \\wedge ∼p] \\\\ \\\\ &amp; \\equiv q \\wedge (∼p) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:55.504232"
     },
@@ -194,13 +195,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $q∨(∼q \\wedge p)$ \n<br/><br/> $\\Rightarrow (q∨∼q) \\wedge (q∨p)$ \n<br/><br/> $\\Rightarrow T \\wedge (q∨p)$ \n<br/><br/> $\\Rightarrow q∨p$ \n<br/><br/>Now,\n\n<br/><br/> $∼(q∨p)$ \n<br/><br/> $=∼q \\wedge ∼p$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "=∼q \\wedge ∼p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:56.396830"
     },
@@ -246,7 +247,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S1:((p∨q) \\Rightarrow r)⇔(p \\Rightarrow r)$ </p>\n<p> $S2:((p∨q) \\Rightarrow r)⇔((p \\Rightarrow r)∨(q \\Rightarrow r))$ </p>\n<p>In  $S1:$  If  $p=F,q=T,r=F$  then  $S_{1}$  is false</p>\n<p>In  $S2:$  If  $p=T,q=F,r=F$  then  $S_{2}$  is false</p>\n<p> $\\therefore$  Neither S1 nor S2 is a tautology</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "p=F,q=T,r=F",
@@ -255,7 +256,7 @@
         "S_{2}"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:56.952432"
     },
@@ -301,7 +302,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Making truth table  $(E \\equiv ∼(p \\wedge (p \\Rightarrow ∼q))$ </p>\n<p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-0pky\"> $p$ </th>\n<th class=\"tg-0pky\"> $q$ </th>\n<th class=\"tg-0pky\"> $∼p$ </th>\n<th class=\"tg-0pky\"> $∼q$ </th>\n<th class=\"tg-0pky\"> $p∨q$ </th>\n<th class=\"tg-0pky\"> $p \\wedge q$ </th>\n<th class=\"tg-0pky\"> $\\begin{aligned} p \\Rightarrow p∼q \\end{aligned}$ </th>\n<th class=\"tg-0pky\"> $p \\wedge (p \\Rightarrow ∼q)$ </th>\n<th class=\"tg-0pky\"> $E$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $&amp;$ </p>\n<p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-0pky\"> $∼p∨q$ </th>\n<th class=\"tg-0pky\"> $p∨(∼p \\wedge q)$ </th>\n<th class=\"tg-0pky\"> $p∨(p \\wedge q)$ </th>\n<th class=\"tg-0pky\"> $p∨(p \\wedge ∼q)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n</tr>\n<tr>\n<td class=\"tg-0pky\"> $T$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n<td class=\"tg-0pky\"> $F$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore ∼(p \\wedge (p \\Rightarrow ∼q))$  is equivalent to  $∼p∨q$ </p>\n<p><b>Other Method :</b></p>\n<p> $∼(p∨(p \\rightarrow ∼q)$ </p>\n<p> $=∼p∨∼(p \\rightarrow ∼q)$ </p>\n<p> $=∼p∨∼(∼p∨∼q)$ </p>\n<p> $=∼p∨(p \\wedge q)$ </p>\n<p> $=(∼p∨p) \\wedge (∼p∨q)$ </p>\n<p> $=t \\wedge (∼p∨q)$ </p>\n<p> $=∼p∨q$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "=∼p∨∼(p \\rightarrow ∼q)",
@@ -312,7 +313,7 @@
         "=∼p∨q"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:57.620235"
     },
@@ -337,13 +338,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} p &amp; q &amp; r &amp; p∨q &amp; p∨r &amp; \\begin{aligned} (p∨q) \\wedge \\\\ (p∨r) \\end{aligned} &amp; q∨r &amp; \\begin{aligned} (p∨q) \\wedge (p∨r) \\\\ \\Rightarrow (q∨r) \\end{aligned} \\\\ T &amp; T &amp; T &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ T &amp; T &amp; F &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ T &amp; F &amp; T &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ T &amp; F &amp; F &amp; T &amp; T &amp; T &amp; F &amp; F \\\\ F &amp; T &amp; T &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ F &amp; T &amp; F &amp; T &amp; F &amp; F &amp; T &amp; T \\\\ F &amp; F &amp; T &amp; F &amp; T &amp; F &amp; T &amp; T \\\\ F &amp; F &amp; F &amp; F &amp; F &amp; F &amp; F &amp; T \\end{aligned}$ \n<br/><br/>Hence, the total number of ordered triplets are 7.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "is True, is equal to ___________."
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:14.552795"
     },
@@ -389,11 +390,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} p &amp; q &amp; ∼q &amp; ∼p &amp; p \\wedge ∼q &amp; ∼p \\wedge q &amp; ∼p \\wedge ∼q \\\\ T &amp; T &amp; F &amp; F &amp; F &amp; F &amp; F \\\\ T &amp; F &amp; T &amp; F &amp; T &amp; F &amp; F \\\\ F &amp; T &amp; F &amp; T &amp; F &amp; T &amp; F \\\\ F &amp; F &amp; T &amp; T &amp; F &amp; F &amp; T \\end{aligned}$ \n<br/><br/>Using the truth table, we can see that the given statement is equivalent to  $(∼p)∨(∼q)$ .\n<br/><br/><b>Alternate Method :</b>\n<br/><br/>The given statement  $(p \\wedge (∼q))∨((∼p) \\wedge q)∨((∼p) \\wedge (∼q))$  can be simplified using the following steps:\n\n<br/><br/> $\\begin{aligned} &amp; (p \\wedge (∼q))∨((∼p) \\wedge q)∨((∼p) \\wedge (∼q)) \\\\ \\\\ &amp; =(p \\wedge (∼q))∨((∼p) \\wedge (q∨(∼q))) \\\\ \\\\ &amp; =(p \\wedge (∼q))∨((∼p) \\wedge t) \\\\ \\\\ &amp; =(p \\wedge (∼q))∨(∼p) \\\\ \\\\ &amp; =(∼p)∨(p \\wedge (∼q)) \\\\ \\\\ &amp; =(∼p∨p) \\wedge (∼p∨∼q) \\\\ \\\\ &amp; =t \\wedge (∼p∨∼q) \\\\ \\\\ &amp; =∼p∨∼q \\end{aligned}$ \n<br/><br/>Therefore, the given statement is equivalent to  $(∼p)∨(∼q)$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:54.307401"
     },
@@ -439,13 +440,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} p &amp; q &amp; p \\wedge q &amp; ∼(p \\wedge q) &amp; \\begin{aligned} p∨∼ \\\\ (p \\wedge q) \\end{aligned} &amp; \\begin{aligned} ∼[p∨∼ \\\\ (p \\wedge q)] \\end{aligned} &amp; p∨q &amp; \\begin{aligned} ∼(p \\\\ ∨q) \\end{aligned} &amp; \\begin{aligned} (p \\wedge q) \\wedge \\\\ (∼p) \\end{aligned} \\\\ T &amp; T &amp; T &amp; F &amp; T &amp; F &amp; T &amp; F &amp; F \\\\ T &amp; F &amp; F &amp; T &amp; T &amp; F &amp; T &amp; F &amp; F \\\\ F &amp; T &amp; F &amp; T &amp; T &amp; F &amp; T &amp; F &amp; F \\\\ F &amp; F &amp; F &amp; T &amp; T &amp; F &amp; F &amp; T &amp; F \\end{aligned}$ \n<br/><br/> $\\therefore ∼[p∨(∼(p \\wedge q))]=∼p \\wedge (p \\wedge q)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\therefore ∼[p∨(∼(p \\wedge q))]=∼p \\wedge (p \\wedge q)"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:54.931309"
     },
@@ -491,14 +492,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(S1) :  $(p \\Rightarrow q)∨((∼p) \\wedge q)$ \n<br/><br/> $\\begin{aligned} P &amp; Q &amp; ∼p &amp; ∼p \\wedge q &amp; p \\Rightarrow q &amp; \\begin{aligned} (p \\Rightarrow q)∨ \\\\ (∼p \\wedge q) \\end{aligned} \\\\ T &amp; T &amp; F &amp; F &amp; T &amp; T \\\\ T &amp; F &amp; F &amp; F &amp; F &amp; F \\\\ F &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ F &amp; F &amp; T &amp; F &amp; T &amp; T \\end{aligned}$ \n<br/><br/>Here, for every value of components compound statement (last column) are not true. Hence,  $S_{1}$  is not a tautology. \n<br/><br/> $S_{2}:(q \\Rightarrow p) \\Rightarrow ((∼p) \\wedge q)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{1}",
         "S_{2}:(q \\Rightarrow p) \\Rightarrow ((∼p) \\wedge q)"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:55.552459"
     },
@@ -544,11 +546,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $((p \\wedge q) \\Rightarrow (r∨q)) \\wedge ((p \\wedge r) \\Rightarrow q) \\equiv T$  (given)\n\n<br/><br/> $\\equiv ((∼p∨∼q)∨(r∨q)) \\wedge (∼p∨∼r∨q)$ \n<br/><br/> $\\equiv ((∼p∨r)∨(∼q∨q)) \\wedge (∼p∨∼r∨q)$ \n<br/><br/> $\\equiv ∼p∨∼r∨q$ \n<br/><br/>For above statement to be tautology\n\n<br/><br/> $r$  can be  $∼p$  or  $q$ \n<br/><br/> $\\therefore$  Two values of  $r$  are possible.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:56.440004"
     },
@@ -594,11 +596,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-7btt\"></th>\n<th class=\"tg-7btt\"> $p$ </th>\n<th class=\"tg-7btt\"> $q$ </th>\n<th class=\"tg-7btt\"> $r$ </th>\n<th class=\"tg-7btt\"> $(p∨q) \\wedge ((∼p)∨r)$ </th>\n<th class=\"tg-7btt\"> $∼q∨r$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\"> $(1)$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $(2)$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $(3)$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $(4)$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n</tbody>\n</table><br/>\nSo,  $(p∨q) \\wedge (∼q∨r) \\rightarrow (∼p∨r)$  will be False.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:56.999258"
     },
@@ -644,11 +646,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; (∼(P \\wedge Q))∨((∼P) \\wedge Q) \\Rightarrow ((∼P) \\wedge (∼Q)) \\\\ \\\\ &amp; (∼P∨∼Q)∨(∼P \\wedge Q) \\Rightarrow (∼P \\wedge ∼Q) \\\\ \\\\ &amp; \\Rightarrow (∼P∨∼Q∨∼P) \\wedge (∼P∨∼Q∨Q) \\Rightarrow (∼P \\wedge ∼Q) \\\\ \\\\ &amp; \\Rightarrow (∼P∨∼Q) \\wedge (T) \\Rightarrow (∼P \\wedge ∼Q) \\\\ \\\\ &amp; \\Rightarrow (∼P∨∼Q) \\Rightarrow (∼P \\wedge ∼Q) \\\\ \\\\ &amp; \\Rightarrow ∼(∼P∨∼Q)∨(∼P \\wedge ∼Q) \\\\ \\\\ &amp; \\Rightarrow (P \\wedge Q)∨(∼P \\wedge ∼Q) \\Rightarrow (∼P∨Q) \\wedge (∙Q∨P) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:57.640328"
     },
@@ -694,14 +696,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $((A \\wedge (B∨C)) \\Rightarrow (A∨B)) \\Rightarrow A$ \n<br/><br/> $\\equiv$   $[∼(A \\wedge (B∨C))∨(A∨B)] \\Rightarrow A$ \n<br/><br/> $\\equiv$   $∼(∼(A \\wedge (B∨C))∨(A∨B))∨A$ \n<br/><br/> $\\equiv$   $(A \\wedge (B∨C)) \\wedge ∼(A∨B)∨A$ \n<br/><br/> $\\equiv$   $(f∨A)=A$ \n<br/><br/> $\\therefore \\text{Negation of statement}=∼A$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "(f∨A)=A",
         "\\therefore \\text{Negation of statement}=∼A"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:54.339507"
     },
@@ -747,11 +749,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The negation of the statement  $(p∨q) \\wedge (q∨(∼r))$  is\n<br/><br/> $\\begin{aligned} &amp; =∼[(p∨q) \\wedge (q∨(∼r))] \\\\ \\\\ &amp; =∼[(p∨q)∨∼(q∨(∼r)] \\\\ \\\\ &amp; =((∼p) \\wedge ∼q))∨((∼q) \\wedge r)) \\end{aligned}$ \n<br/><br/>Apply distribution law,\n<br/><br/> $\\begin{aligned} &amp; =∼q \\wedge ((∼p)∨r)) \\\\ \\\\ &amp; =((∼p)∨r) \\wedge (∼q) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:54.962640"
     },
@@ -797,11 +799,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,  $(P \\Rightarrow Q) \\wedge (R \\Rightarrow Q)$ \n<br/><br/> $\\begin{aligned} &amp; \\equiv (∼P∨Q) \\wedge (∼R∨Q) \\\\ \\\\ &amp; \\equiv (∼P \\wedge ∼R)∨Q\\text{(by distributive law)} \\\\ \\\\ &amp; \\equiv ∼(P∨R)∨Q \\\\ \\\\ &amp; \\equiv (P∨R) \\Rightarrow Q \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:55.598072"
     },
@@ -850,11 +852,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lek3mdx9/896912c9-3981-4e34-b46a-5223559fea7c/7c31fad0-b51e-11ed-accc-792fddd82133/file-1lek3mdxa.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lek3nk24/09e41b34-c9d0-4e6b-a3aa-b005fb90770b/9cbe58c0-b51e-11ed-8c61-834212db4998/file-1lek3nk25.png?format=png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:56.497140"
     },
@@ -900,7 +902,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(p \\longrightarrow q)\\Delta(p\\nabla q)$ \n<br/><br/>\n $\\Rightarrow (p^{'}∨q)\\Delta(p\\nabla q)...(i)$ \n<br/><br/>\n $\\text{If}\\Delta=v,\\nabla=v$ \n<br/><br/>\n(i) becomes  $(p^{'}∨q)∨(p∨q) \\equiv T$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow (p^{'}∨q)\\Delta(p\\nabla q)...(i)",
@@ -908,7 +910,7 @@
         "(p^{'}∨q)∨(p∨q) \\equiv T"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:57.039731"
     },
@@ -954,11 +956,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} S_{1}: &amp; (p \\Rightarrow q) \\wedge (p \\wedge ∼q) \\\\ \\\\ &amp; \\equiv (∼p∨q) \\wedge (p \\wedge ∼q) \\\\ \\\\ &amp; \\equiv (∼p \\wedge p \\wedge ∼q)∨(q \\wedge p \\wedge ∼q) \\\\ \\\\ &amp; \\equiv (f \\wedge ∼q)∨(f \\wedge p) \\\\ \\\\ &amp; \\equiv f∨f \\equiv f \\\\ \\\\ S_{2}: &amp; (p \\wedge q)∨(∼p \\wedge q)∨(p \\wedge ∼q)∨(∼p \\wedge ∼q) \\\\ \\\\ &amp; \\equiv ((p∨∼p) \\wedge q)∨((p∨∼p) \\wedge ∼q) \\\\ \\\\ &amp; \\equiv (t \\wedge q)∨(t \\wedge ∼q) \\equiv q∨∼q \\equiv t \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:54.417468"
     },
@@ -1004,11 +1006,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; (p \\wedge (∼q))∨(∼p) \\\\ \\\\ &amp; \\equiv (p∨∼p) \\wedge (∼q∨∼p) \\\\ \\\\ &amp; \\equiv T \\wedge (∼q∨∼p) \\\\ \\\\ &amp; \\equiv ∼q∨∼p\\text{negation}p \\wedge q \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:55.003967"
     },
@@ -1054,11 +1056,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; ∼p \\rightarrow q \\equiv ∼(∼p)∨q \\equiv p∨q \\\\ \\\\ &amp; p \\wedge q \\rightarrow (∼p \\rightarrow q) \\\\ \\\\ &amp; \\equiv p \\wedge q \\rightarrow (p∨q) \\\\ \\\\ &amp; \\equiv ∼(p \\wedge q)∨(p∨q) \\\\ \\\\ &amp; \\equiv (∼p∨∼q)∨(p∨q) \\\\ \\\\ &amp; \\equiv (∼p∨(p∨q))∨(∼q∨(p∨q)) \\\\ \\\\ &amp; \\equiv T∨T \\\\ \\\\ &amp; \\equiv T \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:55.675040"
     },
@@ -1104,11 +1106,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given expression is</p>\n<p> $P \\rightarrow ∼Q \\wedge R$ </p>\n<p> $\\equiv (∼P)∨(∼Q \\wedge R)$ </p>\n<p> $\\equiv (∼P∨∼Q) \\wedge (∼P∨R)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:56.547616"
     },
@@ -1154,13 +1156,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Making truth table (Let  $(p \\wedge ∼q) \\Rightarrow (p \\Rightarrow ∼q)=E$  )</p>\n<p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-c3ow\"> $p$ </th>\n<th class=\"tg-c3ow\"> $q$ </th>\n<th class=\"tg-c3ow\"> $∼p$ </th>\n<th class=\"tg-c3ow\"> $∼q$ </th>\n<th class=\"tg-c3ow\"> $p \\wedge ∼q$ </th>\n<th class=\"tg-c3ow\"> $p \\Rightarrow ∼q$ </th>\n<th class=\"tg-c3ow\"> $E$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore E$  is a tautology</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(p \\wedge ∼q) \\Rightarrow (p \\Rightarrow ∼q)=E"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:57.109902"
     },
@@ -1206,11 +1208,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>p : Ramesh listens to music</p>\n<p>q : Ramesh is out of his village</p>\n<p>r : It is Sunday</p>\n<p>s : It is Saturday</p>\n<p>p  $\\rightarrow$  q conveys the same p only if q</p>\n<p>Statement \"Ramesh listens to music only if he is in his village and it is Sunday or Saturday\"</p>\n<p> $p \\Rightarrow ((∼q) \\wedge (r∨s))$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.056908"
     },
@@ -1256,11 +1258,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $p⇔(q \\Rightarrow p)$ </p>\n<p> $∼(p⇔(q⇔p))$ </p>\n<p> $\\equiv p⇔∼(q \\Rightarrow p)$ </p>\n<p> $\\equiv p⇔(q \\wedge ∼p)$ </p>\n<p> $\\equiv (p \\Rightarrow (q \\wedge ∼p)) \\wedge ((q \\wedge ∼p) \\Rightarrow p))$ </p>\n<p> $\\equiv (∼p∨(q \\wedge ∼p)) \\wedge ((∼q∨p)∨p))$ </p>\n<p> $\\equiv ((∼p∨q) \\wedge ∼p) \\wedge (∼q∨p)$ </p>\n<p> $\\equiv ∼p \\wedge (∼q∨p)$ </p>\n<p> $\\equiv (∼p \\wedge ∼q)∨(∼p \\wedge p)$ </p>\n<p> $\\equiv (∼p \\wedge ∼q)∨c$ </p>\n<p> $\\equiv (∼p \\wedge ∼q)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.545021"
     },
@@ -1306,7 +1308,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">r</th>\n<th class=\"tg-baqh\"> $∼$  p</th>\n<th class=\"tg-baqh\">A =<br/>p  $\\wedge$  q</th>\n<th class=\"tg-baqh\">B =<br/> $∼$  p  $∨$  r</th>\n<th class=\"tg-baqh\">C =<br/>(A  $\\rightarrow$  B)</th>\n<th class=\"tg-baqh\">D =<br/>(B  $\\rightarrow$  A)</th>\n<th class=\"tg-baqh\">C  $∨$  D</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  Given statement is a tautology.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "p A = p",
@@ -1315,7 +1317,7 @@
         "B) D = (B"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:58.971470"
     },
@@ -1361,13 +1363,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  (( $∼$  q)  $\\wedge$  p)  $∨$  (p  $∨$  ( $∼$  p))</p>\n<p>= ( $∼$  q  $\\wedge$  p)  $∨$  t (t is tautology)</p>\n<p> $\\equiv$  t</p>\n<p> $\\therefore$  option (C) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "p)) = ("
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:59.425929"
     },
@@ -1413,11 +1415,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $S:((∼q) \\wedge p) \\Rightarrow ((∼p)∨q)$ </p>\n<p> $\\Rightarrow S:∼((∼q) \\wedge p)∨((∼p)∨q)$ </p>\n<p> $\\Rightarrow S:(q∨(∼p))∨((∼p)∨q)$ </p>\n<p> $\\Rightarrow S:(∼p)∨q$ </p>\n<p> $\\Rightarrow S:p \\Rightarrow q$ </p>\n<p>So, negation of S will be  $∼(p \\Rightarrow q)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:59.881340"
     },
@@ -1463,14 +1465,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $∗,⊙ \\in { \\wedge ,∨}$ </p>\n<p>Now for  $(p∗q)⊙(p⊙∼q)$  is tautology</p>\n<p>(A)  $(∨, \\wedge ):(p∨q) \\wedge (p \\wedge ∼q)$  not a tautology</p>\n<p>(B)  $(∨,∨):(p∨q)∨(p∨∼q)$ </p>\n<p> $=P∨T$  is tautology</p>\n<p>(C)  $( \\wedge , \\wedge ):(p \\wedge q) \\wedge (p \\wedge ∼q)$ </p>\n<p> $=(p \\wedge p) \\wedge (q \\wedge ∼q)=p \\wedge F$  not a tautology (Fallasy)</p>\n<p>(D)  $( \\wedge ,∨):(p \\wedge q)∨(p∨∼q)$  not a tautology</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "=P∨T",
         "=(p \\wedge p) \\wedge (q \\wedge ∼q)=p \\wedge F"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.088106"
     },
@@ -1516,13 +1518,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $∼$  (p  $⇔$   $∼$  q)  $\\wedge$  q</p>\n<p>= (p  $⇔$  q)  $\\wedge$  q</p>\n<p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">p  $↔$  q</th>\n<th class=\"tg-baqh\">(p $\\rightarrow$  q)  $\\wedge$  q</th>\n<th class=\"tg-baqh\">(p  $\\rightarrow$  q)</th>\n<th class=\"tg-baqh\">(p  $\\rightarrow$  q)  $\\wedge$  q</th>\n<th class=\"tg-baqh\">(p  $\\rightarrow$  q)  $\\wedge$  p</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  ( $∼$  (p  $⇔$   $∼$  q))  $\\wedge$  q is equivalent to (p  $\\Rightarrow$  q)  $\\wedge$  p.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "q = (p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:58.577201"
     },
@@ -1568,7 +1570,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p>(p  $∨$  q)  $\\Rightarrow$  (( $∼$  r)  $∨$  p)</p>\n<p>Negation is</p>\n<p> $∼$  ((p  $∨$  q)  $\\Rightarrow$  ( $∼$  r)  $∨$  p))</p>\n<p>= (p  $∨$  q)  $\\wedge$   $∼$  (( $∼$  r)  $∨$  p)</p>\n<p>= (p  $∨$  q)  $\\wedge$  (r  $\\wedge$   $∼$  p)</p>\n<p>[(p  $\\wedge$   $∼$  p)  $∨$  (q  $\\wedge$   $∼$  p)]  $\\wedge$  r</p>\n<p>= q  $\\wedge$   $∼$  p  $\\wedge$  r</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "p)) = (p",
@@ -1576,7 +1578,7 @@
         "r = q"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:59.003445"
     },
@@ -1622,11 +1624,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Making truth table</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 972px\">\n<colgroup>\n<col style=\"width: 49px\"/>\n<col style=\"width: 52px\"/>\n<col style=\"width: 139px\"/>\n<col style=\"width: 187px\"/>\n<col style=\"width: 214px\"/>\n<col style=\"width: 100px\"/>\n<col style=\"width: 89px\"/>\n<col style=\"width: 142px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">p  $\\wedge$  q</th>\n<th class=\"tg-baqh\"> $∼$  p  $\\wedge$  q</th>\n<th class=\"tg-baqh\">( $∼$  (p  $\\wedge$  q))  $∨$  q</th>\n<th class=\"tg-baqh\">p  $∨$  q</th>\n<th class=\"tg-baqh\">p  $\\rightarrow$  q</th>\n<th class=\"tg-baqh\">p  $\\rightarrow$  (p  $∨$  q)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\">Tautology</td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\"></td>\n<td class=\"tg-baqh\">Tautology</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  ( $∼$  (p  $\\wedge$  q))  $∨$  q  $\\equiv$  p  $\\rightarrow$  (p  $∨$  q)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:59.465717"
     },
@@ -1672,13 +1674,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $p \\rightarrow (∼p∨q)$  is false <br/><br/> $\\Rightarrow ∼p∨q$  is false and  $p$  is true<br/><br/>\nNow  $p=$  True.<br/><br/>\n $∼T∨q=F$ <br/><br/>\n $F∨q=F \\Rightarrow q$  is false<br/><br/>\n $P1:∼(T \\rightarrow ∼F) \\equiv ∼(T \\rightarrow T) \\equiv$  False.<br/><br/>\n $\\begin{aligned} P2:(T \\wedge ∼F) \\wedge (∼T∨F) &amp; \\equiv (T \\wedge T) \\wedge (F∨F) \\\\ \\\\ &amp; \\equiv T \\wedge F \\equiv \\text{False} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "F∨q=F \\Rightarrow q"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:59.919582"
     },
@@ -1703,11 +1705,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->There are total 9 compound propositions, out of which 6 contain  $∼s$ . So if we assign  $s$  as false, these 6 propositions will be true.\n<br/><br/>\nIn remaining 3 compound propositions, two contain  $p$  and the third contains  $∼r$ . So if we assign  $p$  and  $r$  as true and false respectively, these 3 propositions will also be true.\n<br/><br/>\nHence maximum number of propositions that can be true are 9.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:14.587362"
     },
@@ -1753,11 +1755,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(A)(p \\wedge (∼r)) \\Rightarrow q$ \n<br/><br/> $\\begin{aligned} &amp; ∼(p \\wedge ∼r)∨q \\\\ \\\\ &amp; \\equiv (∼p∨r)∨q \\\\ \\\\ &amp; \\equiv ∼p∨(r∨q) \\\\ \\\\ &amp; \\equiv p \\rightarrow (q∨r) \\\\ \\\\ &amp; \\equiv (p \\Rightarrow q)∨(p \\Rightarrow r) \\end{aligned}$ \n<br/><br/>(C)  $p \\Rightarrow (q∨r)$ \n<br/><br/> $\\begin{aligned} &amp; \\equiv ∼p∨(q∨r) \\\\ \\\\ &amp; \\equiv (∼p∨q)∨(∼p∨r) \\\\ \\\\ &amp; \\equiv (p \\rightarrow q)∨(p \\rightarrow r) \\end{aligned}$ \n<br/><br/>(D)  $(p \\wedge ∼q) \\Rightarrow r$ \n<br/><br/> $\\equiv p \\Rightarrow (q∨r)$ \n<br/><br/> $\\begin{aligned} &amp; \\equiv (p \\Rightarrow q)∨(p \\Rightarrow r) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:57.668667"
     },
@@ -1803,11 +1805,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $X \\Rightarrow Y$  is a false<br/><br/>\nwhen  $X$  is true and  $Y$  is false<br/><br/>\nSo,  $P \\rightarrow T,Q \\rightarrow F,R \\rightarrow F$ <br/><br/>\n(A)  $P∨Q \\rightarrow ∼R$  is  $T$ <br/><br/>\n(B)  $R∨Q \\rightarrow ∼P$  is  $T$ <br/><br/>\n(C)  $∼(P∨Q) \\rightarrow ∼R$  is  $T$ <br/><br/>\n(D)  $∼(R∨Q) \\rightarrow ∼P$  is  $F$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.120371"
     },
@@ -1853,7 +1855,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>P : Ramu is intelligent</p>\n<p>Q : Ramu is rich</p>\n<p>R : Ramu is not honest</p>\n<p>Given statement, \"Ramu is intelligent and honest if and only if Ramu is not rich\"</p>\n<p> $=(P \\wedge ∼R)⇔∼Q$ </p>\n<p>So, negation of the statement is</p>\n<p> $∼[(P \\wedge ∼R)⇔∼Q]$ </p>\n<p> $=∼[{∼(P \\wedge ∼R)∨∼Q} \\wedge {Q∨(P \\wedge ∼R)}]$ </p>\n<p> $=((P \\wedge ∼R) \\wedge Q)∨(∼Q \\wedge (∼P∨R))$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "=(P \\wedge ∼R)⇔∼Q",
@@ -1861,7 +1863,7 @@
         "=((P \\wedge ∼R) \\wedge Q)∨(∼Q \\wedge (∼P∨R))"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:58.617879"
     },
@@ -1907,13 +1909,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(p∨q) \\Rightarrow q$ \n<br/><br/>\n $\\begin{aligned} &amp; ∼(p∨q)∨q \\\\ \\\\ &amp; =(∼p \\wedge ∼q)∨q \\\\ \\\\ &amp; =(∼p∨q) \\wedge (∼q∨q) \\\\ \\\\ &amp; =(∼p∨q) \\wedge T \\\\ \\\\ &amp; =∼p∨q \\end{aligned}$ \n<br/><br/>\nNow  $(p \\wedge q)\\Delta(∼p∨q)$ \n<br/><br/>\n $\\begin{aligned} p &amp; q &amp; ∼p &amp; p \\wedge q &amp; ∼p∨q &amp; (p \\wedge q)\\Delta(∼p∨q) \\\\ T &amp; T &amp; F &amp; T &amp; T &amp; T \\\\ T &amp; F &amp; F &amp; F &amp; F &amp; T \\\\ F &amp; T &amp; T &amp; F &amp; T &amp; T \\\\ F &amp; F &amp; T &amp; F &amp; T &amp; T \\end{aligned}$ \n<br/><br/>\n $\\therefore \\Delta= \\Rightarrow$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\therefore \\Delta= \\Rightarrow"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:59.040922"
     },
@@ -1959,14 +1961,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Clearly r must be equal to  $∼$  p</p>\n<p> $\\because$   $∼$  p  $∨$   $∼$  p =  $∼$  p</p>\n<p>and (p   $\\wedge$  q)  $∨$   $∼$  p = p</p>\n<p> $\\therefore$   $∼$  p  $\\Rightarrow$  p = tautology.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "p =",
         "p = p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:59.495851"
     },
@@ -2012,11 +2014,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  Given statement is</p>\n<p>(A  $\\wedge$  C)  $\\rightarrow$  B</p>\n<p>Then its negation is</p>\n<p> $∼$  {(A  $\\wedge$  C)  $\\rightarrow$  B}</p>\n<p>or  $∼$  { $∼$  (A  $\\wedge$  C)  $∨$  B}</p>\n<p> $\\therefore$  (A  $\\wedge$  C)  $\\wedge$  ( $∼$  B)</p>\n<p>or ( $∼$  B)  $\\wedge$  (A  $\\wedge$  C)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:42:59.968196"
     },
@@ -2062,14 +2064,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $p$ </th>\n<th class=\"tg-baqh\"> $q$ </th>\n<th class=\"tg-baqh\"> $r$ </th>\n<th class=\"tg-baqh\"> $A=p \\wedge q$ </th>\n<th class=\"tg-baqh\"> $B=p \\wedge r$ </th>\n<th class=\"tg-baqh\"> $A \\rightarrow B$ </th>\n<th class=\"tg-baqh\"> $q \\rightarrow B$ </th>\n<th class=\"tg-baqh\"> $p \\rightarrow B$ </th>\n<th class=\"tg-baqh\"> $B \\rightarrow A$ </th>\n<th class=\"tg-baqh\"> $A \\rightarrow r$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p> $(p \\wedge q) \\Rightarrow (p \\wedge r)$  is equivalent to  $(p \\wedge q) \\Rightarrow r$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "A=p \\wedge q",
         "B=p \\wedge r"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:57.714247"
     },
@@ -2115,11 +2117,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The truth table</p>\n<p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-c3ow\">p</th>\n<th class=\"tg-c3ow\">q</th>\n<th class=\"tg-c3ow\"> $∼$  p</th>\n<th class=\"tg-c3ow\"> $∼$  q</th>\n<th class=\"tg-c3ow\">p  $\\wedge$  q</th>\n<th class=\"tg-c3ow\">p  $\\wedge$    $∼$  q</th>\n<th class=\"tg-c3ow\">p  $\\wedge$  q  $⇔$  p  $\\wedge$   $∼$  q</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p>Clearly p  $\\wedge$  q  $⇔$  p  $\\wedge$   $∼$  q  $\\equiv$   $∼$  p</p>\n<p> $\\therefore$  r = q</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.160957"
     },
@@ -2167,11 +2169,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l97slo37/df9ec0ac-a06c-4e60-b3b5-9f73d35cb598/e7215830-4b5c-11ed-bfde-e1cb3fafe700/file-1l97slo38.png?format=png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:58.652243"
     },
@@ -2217,7 +2219,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S_{1}:(∼p∨q)∨(∼p∨r)$ </p>\n<p> $≅(∼p∨q∨r)$ </p>\n<p> $S_{2}:∼p∨(q∨r)$ </p>\n<p>Both are same</p>\n<p>So, option (C) is incorrect.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "S_{1}:((∼p)∨q)∨((∼p)∨r)",
@@ -2226,7 +2228,7 @@
         "S_{2}:∼p∨(q∨r)"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:42:59.090350"
     },
@@ -2272,11 +2274,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Case-I</b><br/><br/>\nIf  $\\nabla$  is same as  $\\wedge$ <br/><br/>\nThen  $(p \\wedge q) \\Rightarrow ((p\\Delta q) \\wedge r)$ <br/><br/> is equivalent to  $∼(p \\wedge q)∨$   $((p\\Delta q) \\wedge r)$ <br/><br/> is equivalent to  $(∼(p \\wedge q)∨(p\\Delta q)) \\wedge (∼(p \\wedge$   $q)∨r)$ <br/><br/>\nWhich cannot be a tautology<br/><br/>\nFor both  $\\Delta$  (i.e.  $∨$  or  $\\wedge$  )<br/><br/>\n<b>Case-II</b><br/><br/>\nIf  $\\nabla$  is same as  $v$ <br/><br/>\nThen  $(p∨q) \\Rightarrow ((p\\Delta q)∨r)$  is equivalent to  $∼(p∨q)∨(p\\Delta q)∨r$ <br/><br/> which can be a tautology if  $\\Delta$  is also same as  $∨$ .<br/><br/>\nHence both  $\\Delta$  and  $\\nabla$  are same as  $v$ .<br/><br/>\nNow  $(p\\nabla q)\\Delta r$  is equivalent to  $(p∨q∨r)$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:42:59.531221"
     },
@@ -2322,11 +2324,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $x:(p\\Delta q) \\Rightarrow (p\\Delta∼q)∨(∼p\\Delta q)$ \n<br/><br/>\n<b>Case-I</b>\n<br/><br/>\nWhen  $\\Delta$  is same as  $v$ \n<br/><br/>\nThen  $(p\\Delta∼q)∨(∼p\\Delta q)$  becomes\n<br/><br/>\n $(p∨∼q)∨(∼p∨q)$  which is always true, so  $x$  becomes a tautology.\n<br/><br/>\n<b>Case-II</b>\n<br/><br/>\nWhen  $\\Delta$  is same as  $\\wedge$ \n<br/><br/>\nThen  $(p \\wedge q) \\Rightarrow (p \\wedge ∼q)∨(∼p \\wedge q)$ \n<br/><br/>\nIf  $p \\wedge q$  is  $T$ , then  $(p \\wedge ∼q)∨(∼p \\wedge q)$  is  $F$ \n<br/><br/>\nso  $x$  cannot be a tautology.\n<br/><br/>\n<b>Case-III</b>\n<br/><br/>\nWhen  $\\Delta$  is same as  $\\Rightarrow$ \n<br/><br/>\nThen  $(p \\Rightarrow ∼q)∨(∼p \\Rightarrow q)$  is same at  $(∼p∨∼q)∨$   $(p∨q)$ , which is always true, so  $x$  becomes a tautology.\n<br/><br/>\n<b>Case-IV</b>\n<br/><br/>\nWhen  $\\Delta$  is same as  $⇔$ \n<br/><br/>\nThen  $(p⇔q) \\Rightarrow (p⇔∼q)∨(∼p⇔q)$ \n<br/><br/>\n $p⇔q$  is true when  $p$  and  $q$  have same truth values, then  $p⇔∼q$  and  $∼p⇔q$  both are false. Hence  $x$  cannot be a tautology.\n<br/><br/>\nSo finally  $x$  can be  $∨$  or  $\\Rightarrow$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:00.030775"
     },
@@ -2372,11 +2374,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼$  p</th>\n<th class=\"tg-baqh\"> $∼$  q</th>\n<th class=\"tg-baqh\">p  $\\rightarrow$  q</th>\n<th class=\"tg-baqh\"> $∼$  (p  $\\rightarrow$  q)</th>\n<th class=\"tg-baqh\">q  $\\rightarrow$  p</th>\n<th class=\"tg-baqh\"> $∼$  (q  $\\rightarrow$  p)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody>\n</table><br/><br/>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p  $\\wedge$   $∼$  q</th>\n<th class=\"tg-baqh\"> $∼$  p  $\\rightarrow$   $∼$  q</th>\n<th class=\"tg-baqh\">p  $\\rightarrow$   $∼$  q</th>\n<th class=\"tg-baqh\"> $∼$  (p  $\\rightarrow$   $∼$  q)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody>\n</table><br/><br/>p  $\\wedge$   $∼$  q  $\\equiv$   $∼$  (p  $\\rightarrow$  q)<br/><br/>Option (d)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:00.417985"
     },
@@ -2422,11 +2424,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(p  $\\wedge$  (p  $\\rightarrow$  q)  $\\wedge$  (q  $\\rightarrow$  r))  $\\rightarrow$  r<br/><br/> $\\equiv$  (p  $\\wedge$  ( $∼$  p  $∨$  q)  $∨$  ( $∼$  q  $∨$  r))  $\\rightarrow$  r<br/><br/> $\\equiv$  ((p  $\\wedge$  q)  $\\wedge$  ( $∼$  p  $∨$  r))  $\\rightarrow$  r<br/><br/> $\\equiv$  (p  $\\wedge$  q  $\\wedge$  r)  $\\rightarrow$  r<br/><br/> $\\equiv$   $∼$  (p  $\\wedge$  q  $\\wedge$  r)  $∨$  r<br/><br/> $\\equiv$  ( $∼$  p)  $∨$  ( $∼$  q)  $∨$  ( $∼$  r)  $∨$  r<br/><br/> $\\Rightarrow$  tautology<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:00.924764"
     },
@@ -2474,11 +2476,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks25jko2/e97fad3e-ea2f-4ab8-b7de-b0df54e998c9/2235f420-f7b3-11eb-b37d-c3b778e1195d/file-1ks25jko3.jpeg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:01.949918"
     },
@@ -2524,11 +2526,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Truth Table <br/><br/>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">P</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">P $\\rightarrow$ q</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:03.023706"
     },
@@ -2574,7 +2576,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The Boolean expression</p>\n<p> $(p \\Rightarrow q)⇔(q^{∗}(∼p))$  is a tautology.</p>\n<p>Making the truth table for this</p>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-c3ow\">p</th>\n<th class=\"tg-c3ow\">q</th>\n<th class=\"tg-c3ow\"> $p \\rightarrow q$ </th>\n<th class=\"tg-c3ow\"> $q^{∗}∼p$ </th>\n<th class=\"tg-c3ow\"> $∼q$ </th>\n<th class=\"tg-c3ow\"> $-q \\wedge p$ </th>\n<th class=\"tg-c3ow\"> $∼(∼q \\wedge p)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $F$ </td>\n<td class=\"tg-c3ow\"> $T$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">T</td>\n<td class=\"tg-c3ow\">F</td>\n<td class=\"tg-c3ow\">T</td>\n</tr>\n</tbody>\n</table><br/>\n<p> $\\therefore ∼(∼q \\wedge p)=q∨∼p=∼p∨q$ </p>\n<p> $\\therefore ^{∗}$  is equivalent to  $v$ .</p>\n<p>So,  $p^{∗}∼q=p∨∼q=∼q∨p$ </p>\n<p> $=q \\Rightarrow p$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "q^{∗}∼p",
@@ -2582,7 +2584,7 @@
         "=q \\Rightarrow p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:04.247895"
     },
@@ -2628,11 +2630,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A \\rightarrow (B \\rightarrow A)$ <br/><br/> $\\Rightarrow A \\rightarrow (∼B∨A)$ <br/><br/> $\\Rightarrow ∼A∨(∼B∨A)$ <br/><br/> $\\Rightarrow ∼B∨(∼A∨A)$ <br/><br/> $\\Rightarrow ∼B∨t$ <br/><br/>= t (tantology)<br/><br/>From options :<br/><br/>(B)  $A \\rightarrow (A∨B)$ <br/><br/> $\\Rightarrow ∼A∨(A∨B)$ <br/><br/> $\\Rightarrow (∼A∨A)∨B$ <br/><br/> $\\Rightarrow t∨B$ <br/><br/> $\\Rightarrow t$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:05.445066"
     },
@@ -2678,11 +2680,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Negative of (p  $∨$  r)  $\\Rightarrow$  (q  $∨$  r)</p>\n<p> $\\equiv$   $∼$  ((p  $∨$  r)  $\\Rightarrow$  (q  $∨$  r))  $\\equiv$  (p  $∨$  r)  $\\wedge$  ( $∼$  (q  $∨$  r))</p>\n<p> $\\equiv$  (p  $∨$  r)  $\\wedge$  ( $∼$  q  $\\wedge$   $∼$  r)  $\\equiv$  (p  $∨$  r)  $\\wedge$   $∼$  r)  $\\wedge$   $∼$  q</p>\n<p> $\\equiv$  ((p  $\\wedge$   $∼$  r))  $∨$  (r  $\\wedge$   $∼$  r)  $\\wedge$   $∼$  q  $\\equiv$  (p  $\\wedge$   $∼$  r)  $\\wedge$  f)  $\\wedge$   $∼$  q</p>\n<p> $\\equiv$  (p  $\\wedge$   $∼$  r)  $\\wedge$  ( $∼$  q)  $\\equiv$  p  $\\wedge$   $∼$  q  $\\wedge$   $∼$  r</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:00.436101"
     },
@@ -2728,7 +2730,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->S<sub>1</sub> : ( $∼$  p  $∨$  q)  $∨$  (q  $∨$  p) = (q  $∨$   $∼$  p)  $∨$  (q  $∨$  p)<br/><br/>S<sub>1</sub> = q  $∨$  ( $∼$  p  $∨$  p) = qvt = t = tautology<br/><br/>S<sub>2</sub> : (p  $\\wedge$   $∼$  q)  $\\wedge$  ( $∼$  p  $∨$  q) = (p  $\\wedge$   $∼$  q)  $\\wedge$   $∼$  (p  $\\wedge$   $∼$  q) = C = fallacy<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "p) = (q",
@@ -2737,7 +2739,7 @@
         "q) = (p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:00.960419"
     },
@@ -2783,11 +2785,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p : weather is good<br/><br/>q : ground is not wet<br/><br/> $∼$  (p  $\\wedge$  q)  $\\equiv$   $∼$  p  $∨$   $∼$  q<br/><br/> $\\equiv$  weather is not good or ground is wet<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:02.087432"
     },
@@ -2833,11 +2835,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼p$ </th>\n<th class=\"tg-baqh\"> $∼q$ </th>\n<th class=\"tg-baqh\"> $p \\wedge ∼q$ </th>\n<th class=\"tg-baqh\"> $q∨∼p$ </th>\n<th class=\"tg-baqh\"> $(p \\wedge ∼q) \\Rightarrow (q∨∼p)$ </th>\n<th class=\"tg-baqh\"> $p \\Rightarrow q$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table><br/><br/> $\\therefore$   $(p \\wedge ∼q) \\Rightarrow (q∨∼p)$ <br/><br/> $\\equiv p \\Rightarrow q$ <br/><br/>So, option (2) is correct<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:03.146578"
     },
@@ -2883,11 +2885,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} p &amp; q &amp; p \\wedge q &amp; p∨q &amp; p \\rightarrow q &amp; (p \\wedge q) \\rightarrow (p \\rightarrow q) \\\\ T &amp; T &amp; T &amp; T &amp; T &amp; T \\\\ F &amp; T &amp; F &amp; T &amp; T &amp; T \\\\ T &amp; F &amp; F &amp; T &amp; F &amp; T \\\\ F &amp; F &amp; F &amp; F &amp; T &amp; T \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:04.329726"
     },
@@ -2935,11 +2937,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krh70sq6/bc7e722e-a27a-4fda-a205-bcc8c7ef5d39/74aeeff0-ec2c-11eb-a11d-51ef7b2852da/file-1krh70sq7.png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:05.520071"
     },
@@ -2985,11 +2987,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(p  $\\wedge$   $∼$  q)  $\\rightarrow$  (p  $∨$  q) is tautology<br/><br/>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼$  q</th>\n<th class=\"tg-baqh\">p  $\\wedge$   $∼$  q</th>\n<th class=\"tg-baqh\">p  $∨$  q</th>\n<th class=\"tg-baqh\">(p  $\\wedge$   $∼$  q)  $\\rightarrow$  (p  $∨$  q)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:00.465362"
     },
@@ -3035,11 +3037,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">r</th>\n<th class=\"tg-baqh\"> $\\underset{a}{\\underset{}{p∨q}}$ </th>\n<th class=\"tg-baqh\"> $\\underset{b}{\\underset{}{q \\rightarrow r}}$ </th>\n<th class=\"tg-baqh\"> $a \\wedge b$ </th>\n<th class=\"tg-baqh\"> $∼r$ </th>\n<th class=\"tg-baqh\"> $\\underset{c}{\\underset{}{a \\wedge b \\wedge (∼r)}}$ </th>\n<th class=\"tg-baqh\"> $\\underset{d}{\\underset{}{p \\wedge q}}$ </th>\n<th class=\"tg-baqh\"> $c \\rightarrow d$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:01.022436"
     },
@@ -3085,11 +3087,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(p \\rightarrow q) \\wedge (q \\rightarrow ∼p)$ <br/><br/> $\\equiv (∼p∨q) \\wedge (∼q∨∼p){p \\rightarrow q \\equiv ∼p∨q}$ <br/><br/> $\\equiv (∼p∨q) \\wedge (∼p∨q)$  {commutative property}<br/><br/> $\\equiv ∼p∨(q \\wedge ∼q)$  {distributive property}<br/><br/> $\\equiv ∼p$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:02.167975"
     },
@@ -3137,11 +3139,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l3b0mtai/207863b7-e6a3-4fcf-9b41-05c186319670/5daac9b0-d659-11ec-9a06-bd4ec5b93eb4/file-1l3b0mtaj.png?format=png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:03.229484"
     },
@@ -3190,13 +3192,13 @@
         "https://imagex.cdn.examgoal.net/1km1x70d0/8340dcfe-e562-4bab-b135-f966bf0fa965/2f81f540-80c9-11eb-87d5-bb923adfd561/file-1km1x70d1-1940w.jpeg",
         "https://imagex.cdn.examgoal.net/1km1xjcid/64362bbf-853a-413f-aded-ffb6e5efb47d/869a2450-80ca-11eb-87d5-bb923adfd561/file-1km1xjcie-1940w.jpeg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "A and F 2 (A, B) = (A"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:04.402178"
     },
@@ -3244,11 +3246,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krh6367i/8c7a10eb-c8c1-4008-b798-a63113def03a/cd962bf0-ec28-11eb-ac03-4d74161d9b3d/file-1krh6367j.png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:05.584938"
     },
@@ -3294,11 +3296,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->given statement says<br/><br/>\"if p and q both happen then p and q and r will happen\"<br/><br/>it simply implies \"If p and q both happen then 'r' too will happen\"<br/><br/>i.e.<br/><br/>\"if p and q both happen then r and p too will happen<br/><br/>i.e.<br/><br/>(p  $\\wedge$  q)  $\\Rightarrow$  (r  $\\wedge$  p)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:00.526263"
     },
@@ -3344,11 +3346,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P : for all M &gt; 0, there exists x $\\in$ S such that x  $\\ge$  M.<br/><br/> $∼$  P : there exists M &gt; 0, for all x $\\in$ S<br/><br/>Such that x &lt; M<br/><br/>Negation of 'there exists' is 'for all'.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:01.083936"
     },
@@ -3394,7 +3396,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(1) (p  $\\rightarrow$  q)  $∨$  ( $∼$  q  $\\rightarrow$  p)<br/><br/>= ( $∼$  p  $∨$  q)  $∨$  (q  $∨$  p)<br/><br/>= ( $∼$  p  $∨$  p)  $∨$  q<br/><br/>= t  $∨$  q = t<br/><br/>(2) (q  $\\rightarrow$  p)  $∨$  ( $∼$  q  $\\rightarrow$  p)<br/><br/>= ( $∼$  q  $∨$  p)  $∨$  (q  $∨$  p)<br/><br/>= ( $∼$  q  $∨$  q)  $∨$  p<br/><br/>= t  $∨$  p = t<br/><br/>(3) (p  $\\rightarrow$   $∼$  q)  $∨$  ( $∼$  q  $\\rightarrow$  p)<br/><br/>= ( $∼$  p  $∨$   $∼$  p)  $∨$  (q  $∨$  p)<br/><br/>= ( $∼$  p  $∨$  p)  $∨$  ( $∼$  q  $∨$  q)<br/><br/>= t  $∨$  t = t<br/><br/>(4) ( $∼$  q  $\\rightarrow$  q)  $∨$  ( $∼$  q  $\\rightarrow$  p)<br/><br/>= (p  $∨$  q)  $∨$  (q  $∨$  p)<br/><br/>= (p  $∨$  p)  $∨$  (q  $∨$  p)<br/><br/>= p  $∨$  q<br/><br/>Which is not a tautology.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "p) = (",
@@ -3405,7 +3407,7 @@
         "q) = t"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:02.238732"
     },
@@ -3451,11 +3453,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(p \\wedge q) \\rightarrow (p \\rightarrow q)$ <br/><br/> $(p \\wedge q) \\rightarrow (∼p∨q)$ <br/><br/> $(∼p∨∼q)∨(∼p∨q)$ <br/><br/> $∼p∨(∼q∨q) \\Rightarrow$  Tautology<br/><br/> $\\Rightarrow ⊙ \\Rightarrow \\rightarrow$ <br/><br/> $⊗ \\Rightarrow \\rightarrow$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:03.315051"
     },
@@ -3501,11 +3503,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Contrapositive of p  $\\rightarrow$  q is ~q  $\\rightarrow$  ~p\n<br/><br/>p : you will work\n<br/><br/>q : you will earn money\n<br/><br/>~q : you will not earn money\n<br/><br/>~p : you will not work\n<br/><br/> $\\therefore$  ~q  $\\rightarrow$  ~p : If you will not earn money, you will not work<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:04.506077"
     },
@@ -3551,11 +3553,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $[A \\wedge (A \\rightarrow B)] \\rightarrow B$ \n<br/><br/>=  $A \\wedge (∼A∨B) \\rightarrow B$ \n<br/><br/>=  $[(A \\wedge ∼A)∨(A \\wedge B)] \\rightarrow B$ \n<br/><br/>=  $(A \\wedge B) \\rightarrow B$ \n<br/><br/>=  $∼A∨∼B∨B$ \n<br/><br/>= t\n<br/><br/>Hence,  $[A \\wedge (A \\rightarrow B)] \\rightarrow B$  is a tautology.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:05.659162"
     },
@@ -3601,11 +3603,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let,\np : n<sup>3</sup>–1 is even, \n<br/>q : n is odd\n<br/><br/>Contrapositive of p  $\\rightarrow$  q =  $∼$ q  $\\rightarrow$   $∼$ p\n<br/><br/> $\\Rightarrow$  If n is not odd then n<sup>3</sup> – 1 is not even.\n<br/><br/> $\\Rightarrow$  For an integer n, if n is even, then n<sup>3</sup> – 1 is odd.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:06.380270"
     },
@@ -3651,11 +3653,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p = function is differentiable at a\n<br/><br/>q = function is continuous at a\n<br/><br/>Contrapositive of statements p  $\\rightarrow$  q is\n<br/><br/> $∼$ q  $\\rightarrow$   $∼$ p\n<br/><br/> $\\therefore$  Contrapositive statement is :\n<br/><br/> If a function f is not continuous at a, then it is not differentiable at a.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:07.083386"
     },
@@ -3701,13 +3703,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->~ p  $\\wedge$  (p  $∨$  q)  $\\rightarrow$  q<br/><br/>\n $\\equiv$  (~ p  $\\wedge$  p)  $∨$  (~ p  $\\wedge$  q)  $\\rightarrow$  q<br/><br/>\n $\\equiv$  C  $∨$  (~ p  $\\wedge$  q)  $\\rightarrow$  q    [C = contradiction]<br/><br/>\n $\\equiv$  (~ p  $\\wedge$  q)  $\\rightarrow$  q<br/><br/>\n $\\equiv$  ~ (~ p  $\\wedge$  q)  $∨$  q<br/><br/>\n $\\equiv$  (p  $∨$  ~ q)  $∨$  q<br/><br/>\n $\\equiv$  (p  $∨$  q)  $∨$  (~ q  $∨$  q)<br/><br/>\n $\\equiv$  (p  $∨$  q)  $∨$  t<br/><br/>\nso ~ p  $\\wedge$  (p  $∨$  q)  $\\rightarrow$  q is a tautology<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "q    [C = contradiction]"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:07.737230"
     },
@@ -3755,11 +3757,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kd4dk73s5ucz/79eb6d80-23bd-44cb-8b49-61ff1d475fa4/d4085430-58d7-11ea-b62d-51ccc5d4afb6/file-7kd4dk73s5ud0-500w.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:08.547486"
     },
@@ -3805,7 +3807,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p  $∨$  (~p  $\\wedge$  q)\n<br/><br/>= (p  $∨$  ~p)  $\\wedge$  (p  $∨$  q)\n<br/><br/>= (T)  $\\wedge$  (p  $∨$  q)\n<br/><br/>= (p  $∨$  q)\n<br/><br/>Now negation of (p  $∨$  q) is\n<br/><br/> $∼$ (p  $∨$  q) =  $∼p \\wedge ∼q$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "q) = (p",
@@ -3813,7 +3815,7 @@
         "q) ="
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:06.453353"
     },
@@ -3859,14 +3861,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Truth table for S<sub>1</sub> :\n<br/><br/></b>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-amwm\">p</th>\n<th class=\"tg-amwm\">q</th>\n<th class=\"tg-amwm\">~q</th>\n<th class=\"tg-amwm\"> $q∨p$ </th>\n<th class=\"tg-amwm\"> $p↔∼q$ </th>\n<th class=\"tg-amwm\"> $(q∨p) \\rightarrow (p↔∼q)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table>\n<br/> $\\therefore$  S<sub>1</sub>\n is not correct.\n<br/><br/><b>Truth table for S<sub>2</sub> :</b>\n<br/><br/>\n<table class=\"tg\">\n<thead>\n<tr>\n<th class=\"tg-amwm\">p</th>\n<th class=\"tg-amwm\">q</th>\n<th class=\"tg-amwm\">~q</th>\n<th class=\"tg-amwm\">~p</th>\n<th class=\"tg-amwm\"> $∼p↔q$ </th>\n<th class=\"tg-amwm\"> $∼q \\wedge (∼p↔q)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody>\n</table>\n<br/><br/> $\\therefore$  S<sub>2</sub>\n is also not correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "(S_{1}):(q∨p) \\rightarrow (p↔∼q)",
         "(S_{2}):∼q \\wedge (∼p↔q)"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:07.134199"
     },
@@ -3912,11 +3914,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let p denotes statement\n<br/><br/>p : I reach the station in time.\n<br/><br/>q : I will catch the train.\n<br/><br/>Contrapositive of p  $\\rightarrow$  q\nis  $∼$ q  $\\rightarrow$   $∼$ p\n<br/><br/> $∼$ q  $\\rightarrow$   $∼$ p :  If I will not catch the train, then I do not reach the station in time.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:07.801841"
     },
@@ -3962,11 +3964,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Option A :</b>\n<br/><br/>\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-wa1i\">P</th>\n<th class=\"tg-amwm\">Q</th>\n<th class=\"tg-amwm\">P  $∨$  Q</th>\n<th class=\"tg-amwm\">P  $\\wedge$  (P  $∨$  Q)</th>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody></table>\n<br/><br/><b>Option B :</b>\n<br/><br/>\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-wa1i\">P</th>\n<th class=\"tg-amwm\">Q</th>\n<th class=\"tg-amwm\">P  $\\wedge$  Q</th>\n<th class=\"tg-amwm\">P  $∨$  (P  $\\wedge$  Q)</th>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody></table>\n<br/><br/><b>Option C :</b>\n<br/><br/>Q  $\\rightarrow$  (P  $\\wedge$  (P  $\\rightarrow$  Q))\n<br/><br/> $\\equiv$  ~ Q  $∨$  (P  $\\wedge$  (P  $\\rightarrow$  Q))\n<br/><br/> $\\equiv$  ~ Q  $∨$  (P  $\\wedge$  (~P  $∨$  Q))\n<br/><br/> $\\equiv$  ~ Q  $∨$  (P  $\\wedge$  ~P)  $∨$  (P  $\\wedge$  Q))\n<br/><br/> $\\equiv$  ~ Q  $∨$  (ƒ  $∨$  (P  $\\wedge$  Q))\n<br/><br/> $\\equiv$  ~ Q  $∨$  (P  $\\wedge$  Q)\n<br/><br/> $\\equiv$  (~Q  $∨$  P)  $\\wedge$  (~Q  $∨$  Q)\n<br/><br/> $\\equiv$  (~ Q  $∨$  P)  $\\wedge$  t\n<br/><br/> $\\equiv$  ~ Q  $∨$  P\n<br/><br/><b>Option D :</b>\n<br/><br/>(P  $\\wedge$  (P  $\\rightarrow$  Q))  $\\rightarrow$  Q\n<br/><br/> $\\equiv$   (P  $\\wedge$  (~P  $∨$  Q))  $\\rightarrow$  Q\n<br/><br/> $\\equiv$  ((P  $\\wedge$  ~P)  $∨$  (P  $\\wedge$  Q))  $\\rightarrow$  Q\n<br/><br/> $\\equiv$  (ƒ  $∨$  (P  $\\wedge$  Q))  $\\rightarrow$  Q\n<br/><br/> $\\equiv$  P  $\\wedge$  Q  $\\rightarrow$  Q\n<br/><br/> $\\equiv$  ~ (P  $\\wedge$  Q)  $∨$  Q\n<br/><br/> $\\equiv$  (~ P)  $∨$  (~Q)  $∨$  Q\n<br/><br/> $\\equiv$  (~ P)  $∨$  t\n<br/><br/> $\\equiv$  t\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:08.593623"
     },
@@ -4014,11 +4016,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukh0imuzm/97072154-57c2-4168-a57a-5acafc65045b/61d2b420-1d06-11eb-8293-3b6cc591631c/file-jgy2xukh0imuzn-320w.png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:06.523734"
     },
@@ -4064,7 +4066,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, (p  $\\wedge$  q)  $\\rightarrow$  ( $∼$ q  $∨$  r) is false.<br/><br/>This statement is false when<br/><br/>p  $\\wedge$  q = T<br/><br/>and ( $∼$ q  $∨$  r) = F<br/><br/>Now, p  $\\wedge$  q = T when<br/><br/>both p and q are True.<br/><br/>As q = T<br/><br/> $\\therefore$   $∼$ q = F<br/><br/>Now, ( $∼$ q  $∨$  r) = F when<br/><br/>r = F as  $∼$ q is already false.<br/><br/> $\\therefore$  p = T<br/><br/>q = T<br/><br/>r = F<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "q = T and (",
@@ -4074,7 +4076,7 @@
         "r) = F when r = F as"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:07.188172"
     },
@@ -4120,11 +4122,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p  $\\rightarrow$  (p  $\\wedge$  ~q) will be false only when p is true and (p  $\\wedge$  ~q) is false.\n<br/><br/>So, p = T, q = T<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:07.866269"
     },
@@ -4170,11 +4172,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Contrapositive of p  $\\rightarrow$  q is ~q  $\\rightarrow$  ~p\n<br/><br/>If A  $⊆$  B and B  $⊆$  D,\nthen A  $⊆$  C means\n<br/><br/>(A  $⊆$  B)  $\\wedge$  (B  $⊆$  D)  $\\rightarrow$  (A  $⊆$  C)\n<br/><br/>Contrapositive is\n<br/><br/> $∼$ (A  $⊆$  C)  $\\rightarrow$   $∼$ (A  $⊆$  B)  $∨$   $∼$ (B  $⊆$  D)\n<br/><br/> $\\Rightarrow$  A ⊈ C  $\\rightarrow$  (A ⊈ B)  $∨$  (B ⊈ D)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:08.641125"
     },
@@ -4220,11 +4222,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, p  $↔$   q  $\\equiv$   $(p \\rightarrow q) \\wedge (q \\rightarrow p)$ \n<br/><br/> $\\therefore$  x  $↔$   ~ y  $\\equiv$   $(x \\rightarrow ∼y) \\wedge (∼y \\rightarrow x)$ \n<br/><br/>[ Also  $p \\rightarrow q \\equiv ∼p∨q$  ]\n<br/><br/> $\\Rightarrow$  x  $↔$   ~ y  $\\equiv$   $(∼x∨∼y) \\wedge (y∨x)$ \n<br/><br/> $\\therefore$   $∼(x↔∼y) \\equiv (x \\wedge y)∨(∼y \\wedge ∼x)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:06.595786"
     },
@@ -4270,11 +4272,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $p \\rightarrow ∼(p \\wedge ∼q)$ <br/><br/> $\\equiv p \\rightarrow (∼p∨q)$ <br/><br/> $\\equiv ∼p∨(∼p∨q)$ <br/><br/> $\\equiv ∼p∨q$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:07.246025"
     },
@@ -4320,13 +4322,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p =  $\\sqrt{5}$  is an integer.\n<br/><br/>q : 5 is irrational\n<br/><br/> $∼$  $(p∨q)$   $\\equiv$   $∼$ p  $\\wedge$   $∼$ q\n<br/><br/>=  $\\sqrt{5}$  is not an integer and 5 is not irrational.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "q ="
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:07.929750"
     },
@@ -4372,11 +4374,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(p  $\\Rightarrow$  q)  $\\Lambda$  ( q  $\\Rightarrow$  ~p)\n<br/><br/> $\\equiv$   $(∼p∨q) \\wedge (∼q∨∼p)$ \n<br/><br/> $\\equiv$   $∼p∨(q \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $∼$ p\n<br/><br/>As  $q \\wedge ∼q$  is a fallacy.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:08.666446"
     },
@@ -4422,11 +4424,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $∼(p \\rightarrow ∼q) \\Rightarrow ∼(∼p∨∼q) \\Rightarrow p \\wedge q$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:09.126336"
     },
@@ -4472,7 +4474,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p  $\\rightarrow$  (q  $∨$  r)\n<br/><br/>=  $∼$  p  $∨$  (q  $∨$  r)\n<br/><br/> $∼$  p  $∨$  (q  $∨$  r) is false when\n<br/><br/>(1)  $∼$  p = False  $\\Rightarrow$  P = True\n<br/><br/>and (2) (q  $∨$  r) is false  $\\Rightarrow$  q and r both are false.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "r) =",
@@ -4480,7 +4482,7 @@
         "P = True and (2) (q"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:09.866380"
     },
@@ -4528,11 +4530,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/3dzmOObAHLYlYJDXM/IrxMXw8iCOjZOpA1KUsyD6X7uEdjz/oL8Wh4cTDJ5v7PFXAZWfWa/image.png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:10.731085"
     },
@@ -4578,11 +4580,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->It is obvious<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:11.276861"
     },
@@ -4628,11 +4630,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->p  $\\rightarrow$  ( ~ q  $∨$  r)  $\\equiv$  ~ p  $\\wedge$  ( ~ q  $∨$  r)  $\\equiv$  ( ~ p  $∨$  ~ q)  $∨$  r  $\\equiv$  ~ ( p  $\\wedge$  q )  $∨$  r<br/><br/>\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-hgcj\">p</th>\n<th class=\"tg-hgcj\">q</th>\n<th class=\"tg-amwm\">r</th>\n<th class=\"tg-amwm\">(p  $\\wedge$  q)  $∨$  r </th>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody></table><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:09.178071"
     },
@@ -4678,7 +4680,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $∼$ [p  $∨$  (~p  $\\wedge$  q)]\n<br/><br/>=  $∼$  p  $\\wedge$  ( $∼$ ( $∼$  p  $∨$   $∼$ q)\n<br/><br/>=  $∼$  p  $\\wedge$  ( p  $∨$   $∼$ q)\n<br/><br/>= (  $∼$  p  $\\wedge$  p )  $∨$  ( $∼$  p  $\\wedge$   $∼$ q)\n<br/><br/>= ( $∼$  p  $\\wedge$   $∼$ q) [ as  $∼$  p  $\\wedge$  p is always false)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "q)] =",
@@ -4686,7 +4688,7 @@
         "q) = ("
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:09.926687"
     },
@@ -4732,13 +4734,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->((p  $\\wedge$  q)  $∨$  (p  $∨$   $∼$  q))  $\\wedge$  ( $∼$  p  $\\wedge$   $∼$  q)\n<br/><br/> $\\equiv$   $(((p∨(p∨∼q))) \\wedge (q∨(p∨∼q))) \\wedge (∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $((p∨∼q) \\wedge (q∨∼q∨p)) \\wedge (∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $((p∨∼q) \\wedge (t∨p)) \\wedge (∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $((p∨∼q) \\wedge t) \\wedge (∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $(p∨∼q) \\wedge (∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $(p \\wedge ∼p \\wedge ∼q)∨(∼q \\wedge ∼p \\wedge ∼q)$ \n<br/><br/> $\\equiv$   $(f \\wedge ∼q)∨(∼q \\wedge ∼p)$ \n<br/><br/> $\\equiv$   $f^{'}∨(∼q \\wedge ∼p)$ \n<br/><br/> $\\equiv$   $(∼q \\wedge ∼p)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{'}∨(∼q \\wedge ∼p)"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:10.810992"
     },
@@ -4784,11 +4786,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P(n) : n<sup>2</sup>  $-$  n + 41 is prime\n<br/><br/>P(5) = 61 which is prime\n<br/><br/>P(3) = 47 which is also prime<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:11.307552"
     },
@@ -4834,11 +4836,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->~ s  $∨$  ( ~ r  $\\wedge$  s)<br/><br/>\n $\\equiv$  (~s  $∨$  ~r)  $\\wedge$  (~s  $∨$  s)<br/><br/>\n $\\equiv$  ( ~s  $∨$  ~r)  $\\wedge$  t<br/><br/>\n $\\equiv$  ~s  $∨$  ~ r  $\\equiv$  ~ (s  $\\wedge$  r)<br/><br/>\n $\\therefore$  Negation of ~s  $∨$  (~r  $\\wedge$  s) is s  $\\wedge$  r<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:09.238673"
     },
@@ -4884,7 +4886,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here you have to check all the options.\n<br/><br/>We know,  p  $\\rightarrow$  q =  $∼$  p  $∨$  q\n<br/><br/>(A) (p  $\\wedge$  q)  $\\rightarrow$  (~ p)  $∨$  q\n<br/><br/>=  $∼$  (p  $\\wedge$  q)  $∨$  ((~ p)  $∨$  q)\n<br/><br/>= ( $∼$  p  $∨$   $∼$  q)  $∨$  ((~ p)  $∨$  q)\n<br/><br/>=  $∼$  p  $∨$  (q  $∨$   $∼$  q)\n<br/><br/>=  $∼$  p  $∨$  t \n<br/><br/>[(q  $∨$   $∼$  q) = t (tautology)]\n<br/><br/>= t\n<br/><br/>(B) (p  $\\wedge$  q)  $\\rightarrow$  p\n<br/><br/>=  $∼$  (p  $\\wedge$  q)  $∨$  p\n<br/><br/>=  $∼$  p  $∨$   $∼$  q  $∨$  p\n<br/><br/>= t  $∨$   $∼$  q\n<br/><br/>= t\n<br/><br/>(C) ( p  $∨$  q)   $\\rightarrow$   ( p  $∨$  (~q))\n<br/><br/>=  $∼$  ( p  $∨$  q)   $∨$   ( p  $∨$  (~q))\n<br/><br/>= ( $∼$  p  $\\wedge$   $∼$  q)  $∨$  ( p  $∨$  (~q))\n<br/><br/>=  $∼$  q  $\\wedge$  (p  $∨$   $∼$ p)\n<br/><br/>=  $∼$  q  $\\wedge$  t\n<br/><br/>=  $∼$  q (not tautology)\n<br/><br/>(D) p  $\\rightarrow$  ( p  $∨$  q)\n<br/><br/>=  $∼$  p  $∨$  ( p  $∨$  q)\n<br/><br/>= t  $∨$  q\n<br/><br/>= t<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "q =",
@@ -4895,7 +4897,7 @@
         "p = t"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:09.987603"
     },
@@ -4941,11 +4943,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let,\n<br/><br/>p : two numbers are not equal\n<br/><br/>q : squares of two numbers are not equal\n<br/><br/>Contrapositive of p  $\\rightarrow$  q is  $∼$ q  $\\rightarrow$   $∼$ p.\n<br/><br/> $\\therefore$   $∼$ q  $\\rightarrow$   $∼$ p means \"If the squares of two numbers are equal, then the numbers are equal\".<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:10.874197"
     },
@@ -4993,11 +4995,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/lFylFg1JYcRX1XbGB/a0FZOTrKwOA6UxbCOWke8CwdAuSUT/TA6LXWVx5BZdfRfZ39xBln/image.png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:11.345648"
     },
@@ -5043,14 +5045,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(p  $∨$  q)  $∨$  (p  $∨$  ~ q)<br/><br/>\n= p  $∨$  (q  $∨$  p)  $∨$  ~ q<br/><br/>\n= (p  $∨$  p)  $∨$  (q  $∨$  ~ q)<br/><br/>\n= p  $∨$  T<br/><br/>\n= T so first statement is tautology<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "~ q) = p",
         "~ q = (p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:09.295866"
     },
@@ -5096,14 +5098,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let p = you are born in India.\n<br/><br/>q = you are a citizen of India.\n<br/><br/> $\\therefore$   $∼$  p = you are not born in India.\n<br/><br/> $∼$  q = you are not a citizen of India.\n<br/><br/>We know Contrapositive of p  $\\rightarrow$  q is ~q  $\\rightarrow$  ~p\n<br/><br/>So contrapositive of statement will be :\n<br/><br/>“If you are not a citizen of India, then you are\nnot born in India.”\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "p = you are not born in India.",
         "q = you are not a citizen of India. We know Contrapositive of p"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:10.048851"
     },
@@ -5149,11 +5151,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given q is F and (p  $\\wedge$  q)  $↔$  r is T\n<br/><br/> $\\Rightarrow$   p  $\\wedge$  q is F which implies that r is F\n<br/><br/> $\\Rightarrow$   q is F and r is F\n<br/><br/> $\\Rightarrow$   (p  $\\wedge$  r) is always F\n<br/><br/> $\\Rightarrow$   (p  $\\wedge$  r)  $\\rightarrow$  (p  $∨$  r) is tautology.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:10.925086"
     },
@@ -5201,11 +5203,11 @@
       "image_urls": [
         "https://gateclass.cdn.examgoal.net/qTCfGCsgnLJmurfJO/mTRBMelO4xBQhIbdNCj3SfmvgSIpr/yQ9Y64EkKKeaEzp8Qw7Tue/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:11.390242"
     },
@@ -5251,11 +5253,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-hgcj\">p</th>\n<th class=\"tg-amwm\">q</th>\n<th class=\"tg-amwm\">~p</th>\n<th class=\"tg-amwm\">~q</th>\n<th class=\"tg-amwm\">~p  $∨$  ~q</th>\n<th class=\"tg-amwm\">p  $\\rightarrow$  (~p  $∨$  ~q)</th>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody></table><br/>\nFrom the truth table,<br/><br/>\np  $\\rightarrow$  (~p  $∨$  ~q) is false only when p and q both are true.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:12.074667"
     },
@@ -5303,11 +5305,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/KGQBy2KN1RaOQNdxV/Z8k8WzVsSw3uP7Xz3EOFNCMgVcNdk/RUXOyGUFoplWNFCOiPHXfu/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:12.108846"
     },
@@ -5353,7 +5355,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Statement p :</b>\n<br/>sin 120<sup>o</sup> = cos 30<sup>o</sup> =  $\\frac{\\sqrt{3}}{2}$   $\\Rightarrow$  2 sin 120<sup>o</sup> =  $\\sqrt{3}$ \n<br/><br/>So,  $\\sqrt{1+sin240^{o}}-\\sqrt{1-sin240^{o}}$ \n<br/><br/>  $=\\sqrt{\\frac{1-\\sqrt{3}}{2}}-\\sqrt{\\frac{1+\\sqrt{3}}{2}} \\ne \\sqrt{3}$ \n<br/><br/><b>Statement q :</b>\n<br/>So,   A + B + C + D = 2 $\\pi$ \n<br/><br/> $\\Rightarrow$   $\\frac{A+C}{2}+\\frac{B+D}{2}=\\pi$ \n<br/><br/> $\\Rightarrow$   cos $(\\frac{A+C}{2})+cos(\\frac{B+D}{2})$ \n<br/><br/>= cos  $(\\frac{A+C}{2})$   $-$  cos $(\\frac{A+C}{2})=0$ \n<br/><br/>Therefore, statement p is false and statement q is true.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta=240^{o}",
@@ -5364,7 +5366,7 @@
         "=\\sqrt{\\frac{1-\\sqrt{3}}{2}}-\\sqrt{\\frac{1+\\sqrt{3}}{2}} \\ne \\sqrt{3}"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:12.143533"
     },
@@ -5412,11 +5414,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7Vb95b7k85ys9ytPy/eO9UER3yNPy9PZQx4zFFfN43uZDei/n16iicGVbGeZ2opyA7QykZ/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:12.180990"
     },
@@ -5462,11 +5464,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let,\n<br/><br/>p : two numbers are not equal\n<br/><br/>q : squares of two numbers are not equal\n<br/><br/>Contrapositive of p  $\\rightarrow$  q is  $∼$ q  $\\rightarrow$   $∼$ p.\n<br/><br/> $\\therefore$   $∼$ q  $\\rightarrow$   $∼$ p means \"If the squares of two numbers are equal, then the numbers are equal\".<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:12.571468"
     },
@@ -5514,11 +5516,11 @@
       "image_urls": [
         "https://gateclass.static.cdn.examgoal.net/5zTbH8zwu0wJZaFke/tyBqLcGYS9Pq5EOlU5qNL491PuOUh/gEmh8rTirgAroJSmV6GPRz/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:12.601939"
     },
@@ -5564,11 +5566,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have<br/><br/>\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-hgcj\">p</th>\n<th class=\"tg-hgcj\">q</th>\n<th class=\"tg-hgcj\">~p</th>\n<th class=\"tg-hgcj\">p $\\rightarrow$ q</th>\n<th class=\"tg-hgcj\">~p $\\rightarrow$ q</th>\n<th class=\"tg-hgcj\">(~p $\\rightarrow$ q) $\\rightarrow$ q</th>\n<th class=\"tg-hgcj\">(p $\\rightarrow$ q) $\\rightarrow$ ((~p $\\rightarrow$ q) $\\rightarrow$ q)</th>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">F</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n<td class=\"tg-s6z2\">T</td>\n</tr>\n</tbody></table>\n<br/>\n $\\therefore$  It is tautology.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:12.632327"
     },
@@ -5614,11 +5616,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Contrapositive of P : If 7 is not divisible by 2, \nthen 7 is not an odd number.\n<br/><br/>This statement is false.\n<br/><br/> $\\therefore$     V<sub>1</sub> = False (F)\n<br/><br/>Contrapositive of Q : If 7 is not an odd number \n,then 7 is not a prime number.\n<br/><br/>This statement is true.\n<br/><br/> $\\therefore$    V<sub>2</sub> = True (T)\n<br/><br/> $\\therefore$    (V<sub>1</sub>, V<sub>2</sub>) = (F, T).<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:13.051395"
     },
@@ -5666,11 +5668,11 @@
       "image_urls": [
         "https://gateclass.cdn.examgoal.net/W3iUUKAK091ok1iYR/8HSPWtDptuwd7CcOkhxrHgDo4hy7f/t0aUb5WYW03FsXNGzU2q58/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:13.082576"
     },
@@ -5716,11 +5718,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Contrapositive of  p  $\\rightarrow$  q is  $∼$ q  $\\rightarrow$   $∼$ p.\n<br/><br/>Here,\n<br/><br/>Let\n<br/><br/>   p = Side of a square is doubles.\n<br/><br/>   q =  Area of square increases four times.\n<br/><br/> $\\therefore$     $∼$ q  $\\rightarrow$   $∼$ p = If the area of a square does not increase four times, then its side is not doubled.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:12.698768"
     },
@@ -5768,11 +5770,11 @@
       "image_urls": [
         "https://gateclass.static.cdn.examgoal.net/2OAgJSCgoisOIuHQi/0RUPnVokAM5r5pw4wQPIququqMxsm/6RBqA2leE55pxx7XCRommU/uploadfile.jpg"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:13.128238"
     },
@@ -5818,11 +5820,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 664px\">\n<colgroup>\n<col style=\"width: 35px\"/>\n<col style=\"width: 43px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 108px\"/>\n<col style=\"width: 92px\"/>\n<col style=\"width: 102px\"/>\n<col style=\"width: 118px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼p$ </th>\n<th class=\"tg-baqh\"> $∼q$ </th>\n<th class=\"tg-baqh\"> $p↔q$ </th>\n<th class=\"tg-baqh\"> $p↔∼q$ </th>\n<th class=\"tg-baqh\"> $∼p↔q$ </th>\n<th class=\"tg-baqh\"> $∼(p↔∼q)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p>From the truth table we can say that given statement is equivalent to  $p↔q$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:13.198288"
     },
@@ -5868,11 +5870,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Statement - I :  $(p \\wedge ∼q) \\wedge (∼p \\wedge q)$ </p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 608px\">\n<colgroup>\n<col style=\"width: 35px\"/>\n<col style=\"width: 43px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 108px\"/>\n<col style=\"width: 92px\"/>\n<col style=\"width: 164px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼p$ </th>\n<th class=\"tg-baqh\"> $∼q$ </th>\n<th class=\"tg-baqh\"> $p \\wedge ∼q$ <br/></th>\n<th class=\"tg-baqh\"> $∼p \\wedge q$ <br/></th>\n<th class=\"tg-baqh\"> $(p \\wedge ∼q) \\wedge (∼p \\wedge q)$ <br/></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n</tbody>\n</table></p>\n<p>Hence, statement-I is a fallacy.</p>\n<p>Statement - II :  $(p \\rightarrow q)↔(∼q \\rightarrow ∼p)$ </p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 717px\">\n<colgroup>\n<col style=\"width: 35px\"/>\n<col style=\"width: 43px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 108px\"/>\n<col style=\"width: 112px\"/>\n<col style=\"width: 253px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼p$ </th>\n<th class=\"tg-baqh\"> $∼q$ </th>\n<th class=\"tg-baqh\"> $p \\rightarrow q$ <br/></th>\n<th class=\"tg-baqh\"> $∼q \\rightarrow ∼p$ <br/></th>\n<th class=\"tg-baqh\"> $(p \\rightarrow q)↔(∼q \\rightarrow ∼p)$ <br/></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p>Hence, statement - II is a tautology.</p>\n<p>Now, statement-II does not depend on statement-I.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:13.596428"
     },
@@ -5918,13 +5920,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let, p : I become a teacher</p>\n<p>q : I will open a school</p>\n<p> $\\therefore$  \"If I become a teacher, then I will open a school\", is p  $\\rightarrow$  q</p>\n<p>So, negation of  $(p \\rightarrow q)=∼(p \\rightarrow q)=p \\wedge ∼q$  = I will become a teacher and I will not open a school</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "(p \\rightarrow q)=∼(p \\rightarrow q)=p \\wedge ∼q"
       ],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:43:13.647386"
     },
@@ -5970,11 +5972,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->\"Suman is brilliant and dishonest\" an be expressed as :  $P \\wedge ∼R$ \n<br/><br/>So “Suman is brilliant and dishonest if and only if Suman is rich” can be expressed as :\n<br/><br/> $(P \\wedge ∼R)↔Q$ \n<br/><br/>Now negation of this =  $∼[(P \\wedge ∼R)↔Q]$ \n<br/><br/>You should know,  $p↔q \\equiv q↔p$ \n<br/><br/>So,  $∼[(P \\wedge ∼R)↔Q] \\equiv ∼[Q↔(P \\wedge ∼R)]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:13.695291"
     },
@@ -6020,11 +6022,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that S is a non-empty subset of R.</p>\n<p> $∙$  P : There is a rational number x  $\\in$  S such that x &gt; 0.</p>\n<p>Now, we need to find the negation of P. Clearly, P is equivalent to saying that \"There is a positive rational number in S.</p>\n<p>So, its negation ( $∼$  P) is \"There is no positive rational number in S\".</p>\n<p>Thus, for  $∼$  P : There exists no positive rational number in S.</p>\n<p> $∙$   $⇔$   $∼$  P : Every rational number x  $\\in$  S satisfies x  $\\le$  0.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:13.741632"
     },
@@ -6072,11 +6074,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l3fdb05p/c9d4c926-25a7-47f2-b2d6-27e5c7d3dd72/0e89a3d0-d8be-11ec-bed7-8f98fee06619/file-1l3fdb05q.png?format=png"
       ],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:14.133646"
     },
@@ -6122,11 +6124,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>p : x is an irrational number</p>\n<p>q : y is a transcendental number</p>\n<p>r : x is a rational number, if y is a transcendental number</p>\n<p> $\\Rightarrow$  r :  $∼$  p  $↔$  q</p>\n<p>S<sub>1</sub> : r  $\\equiv$  q  $∨$  p</p>\n<p>and S<sub>2</sub> : r  $\\equiv$   $∼$  (p  $↔$   $∼$  q)</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 966px\">\n<colgroup>\n<col style=\"width: 51px\"/>\n<col style=\"width: 53px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 83px\"/>\n<col style=\"width: 184px\"/>\n<col style=\"width: 92px\"/>\n<col style=\"width: 193px\"/>\n<col style=\"width: 227px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\"> $∼p$ </th>\n<th class=\"tg-baqh\"> $∼q$ </th>\n<th class=\"tg-baqh\">r<br/> $∼p↔q$ <br/></th>\n<th class=\"tg-baqh\">Statement I<br/> $q∨p$ <br/></th>\n<th class=\"tg-baqh\"> $(p↔∼q)$ </th>\n<th class=\"tg-baqh\">Statement II<br/> $∼(p↔∼q)$ <br/></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p>It is clear from the table that r is not equivalent to either of the statements.</p>\n<p>Therefore, both statements are false.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:43:14.177669"
     },
@@ -6172,11 +6174,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 551px\">\n<colgroup>\n<col style=\"width: 52px\"/>\n<col style=\"width: 63px\"/>\n<col style=\"width: 81px\"/>\n<col style=\"width: 122px\"/>\n<col style=\"width: 101px\"/>\n<col style=\"width: 132px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\">q</th>\n<th class=\"tg-baqh\">p</th>\n<th class=\"tg-baqh\"> $q \\rightarrow p$ </th>\n<th class=\"tg-baqh\"> $p \\rightarrow (q \\rightarrow p)$ </th>\n<th class=\"tg-baqh\"> $(p∨q)$ </th>\n<th class=\"tg-baqh\"> $p \\rightarrow (p∨q)$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">T</td>\n<td class=\"tg-baqh\">F</td>\n<td class=\"tg-baqh\">T</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  Statement p  $\\rightarrow$  (q  $\\rightarrow$  p) is equivalent to p  $\\rightarrow$  (p  $∨$  q).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning - Core Application",
+      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning - Core Application"
+        "Mathematical Reasoning — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:43:14.216148"
     }

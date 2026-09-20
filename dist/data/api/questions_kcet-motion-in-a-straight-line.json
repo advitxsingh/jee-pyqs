@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The velocity is given as a function of position:</p>\n<p> $v=x^{2}-5x+4$ </p>\n<p>We need acceleration when the velocity is zero.</p>\n<p>First find the positions where  $v=0$ :</p>\n<p> $x^{2}-5x+4=0$ </p>\n<p>Factorising,</p>\n<p> $(x-1)(x-4)=0$ </p>\n<p>So,</p>\n<p> $x=1\\text{m}\\text{or}x=4\\text{m}$ </p>\n<p>Now, since velocity is given as a function of  $x$ , acceleration is not simply  $\\frac{dv}{dx}$ .</p>\n<p>We use</p>\n<p> $a=\\frac{dv}{dt}$ </p>\n<p>Using chain rule,</p>\n<p> $a=\\frac{dv}{dx} \\cdot \\frac{dx}{dt}$ </p>\n<p>But</p>\n<p> $\\frac{dx}{dt}=v$ </p>\n<p>So,</p>\n<p> $a=v\\frac{dv}{dx}$ </p>\n<p>Here, when the velocity is zero,</p>\n<p> $v=0$ </p>\n<p>Hence,</p>\n<p> $a=0 \\cdot \\frac{dv}{dx}=0$ </p>\n<p>So the magnitude of acceleration is</p>\n<p> $0\\text{m/s}^{2}$ </p>\n<p>Correct option: C, Zero.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "v=x^{2}-5x+4",
@@ -54,7 +54,7 @@
         "x=1\\text{m}\\text{or}x=4\\text{m}"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.432971"
     },
@@ -100,11 +100,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For average speed, we use</p>\n<p> $\\text{Average speed}=\\frac{\\text{Total distance}}{\\text{Total time}}$ </p>\n<p>Here, the car covers equal distances at two different speeds.</p>\n<p>Let the total distance be  $2d$  km.</p>\n<p>So, first half distance  $=d$  km and second half distance  $=d$  km.</p>\n<p>Time taken for first half:</p>\n<p> $\\frac{d}{40}$ </p>\n<p>Time taken for second half:</p>\n<p> $\\frac{d}{50}$ </p>\n<p>Total time:</p>\n<p> $\\frac{d}{40}+\\frac{d}{50}$ </p>\n<p>Now average speed:</p>\n<p> $\\text{Average speed}=\\frac{2d}{\\frac{d}{40}+\\frac{d}{50}}$ </p>\n<p>Taking  $d$  common in the denominator:</p>\n<p> $\\text{Average speed}=\\frac{2d}{d(\\frac{1}{40}+\\frac{1}{50})}$ </p>\n<p>Cancel  $d$ :</p>\n<p> $\\text{Average speed}=\\frac{2}{\\frac{1}{40}+\\frac{1}{50}}$ </p>\n<p>Now,</p>\n<p> $\\frac{1}{40}+\\frac{1}{50}=\\frac{50+40}{2000}=\\frac{90}{2000}$ </p>\n<p>So,</p>\n<p> $\\text{Average speed}=\\frac{2}{\\frac{90}{2000}}=\\frac{4000}{90}=44.44\\text{km/h}$ </p>\n<p>So, the correct option is</p>\n<p> $\\text{Option B}44.44\\text{km/h}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:27:55.460430"
     },
@@ -150,7 +150,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we need to determine the time, denoted as  $t_{0}$ , at which the separation between two falling stones becomes  $H$ . The second stone starts falling  $\\Delta t$  seconds after the first stone.</p>\n<p><p><strong>Distance Fallen by the First Stone ( $S_{1}$ ):</strong></p>\n<p>The first stone falls for  $t_{0}$  seconds, so the distance it covers is given by:</p>\n<p> $S_{1}=\\frac{1}{2}gt_{0}^{2}$ </p></p>\n<p><p><strong>Distance Fallen by the Second Stone ( $S_{2}$ ):</strong></p>\n<p>The second stone starts falling  $\\Delta t$  seconds after the first, so it falls for  $(t_{0}-\\Delta t)$  seconds. Thus, the distance it covers is:</p>\n<p> $S_{2}=\\frac{1}{2}g(t_{0}-\\Delta t)^{2}$ </p></p>\n<p><p><strong>Distance of Separation ( $H$ ):</strong></p>\n<p>The separation distance between the two stones is:</p>\n<p> $H=S_{1}-S_{2}=\\frac{1}{2}gt_{0}^{2}-\\frac{1}{2}g(t_{0}-\\Delta t)^{2}$ </p>\n<p>Simplifying the equation:</p>\n<p> $\\begin{aligned} H &amp; =\\frac{1}{2}gt_{0}^{2}-\\frac{1}{2}g(t_{0}^{2}-2t_{0}\\Delta t+(\\Delta t)^{2}) \\\\ &amp; =\\frac{1}{2}g \\cdot (2t_{0}\\Delta t-(\\Delta t)^{2}) \\\\ &amp; =g \\cdot (t_{0}\\Delta t-\\frac{1}{2}\\Delta t^{2}) \\end{aligned}$ </p></p>\n<p><p><strong>Expression for  $t_{0}$ :</strong></p>\n<p>Solving the above equation for  $t_{0}$ , we have:</p>\n<p> $H=g(t_{0}\\Delta t-\\frac{1}{2}\\Delta t^{2})$ </p>\n<p> $t_{0}\\Delta t=\\frac{H}{g}+\\frac{1}{2}\\Delta t^{2}$ </p>\n<p> $t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}$ </p></p>\n<p>Therefore, the time  $t_{0}$  at which the separation between the two stones becomes  $H$  is given by:</p>\n<p> $t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{0}",
@@ -158,7 +158,7 @@
         "t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.480896"
     },
@@ -204,7 +204,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the average velocity of a body moving along a straight line with a constant acceleration  $a$ , given its initial velocity  $v_{0}$  and its final velocity  $v$  after  $t$  seconds, we can use the following approach:</p>\n<h3>Information Given:</h3>\n<p><p>Initial velocity,  $v_{0}$ </p></p>\n<p><p>Final velocity after time  $t$ ,  $v$ </p></p>\n<p><p>Constant acceleration,  $a$ </p></p>\n<h3>Using the Equation of Motion:</h3>\n<p>The equation related to velocity and displacement is:</p>\n<p> $v^{2}=u^{2}+2as$ </p>\n<p>Rearranging for displacement  $s$ :</p>\n<p> $s=\\frac{v^{2}-v_{0}^{2}}{2a}$ </p>\n<p>This equation gives us the total distance covered.</p>\n<h3>Calculating Average Velocity:</h3>\n<p>The average velocity  $\\bar{v}$  over an interval is the total distance divided by the total time:</p>\n<p> $\\bar{v}=\\frac{\\text{Total distance}}{\\text{Total time}}=\\frac{s}{t}$ </p>\n<p>Substituting for  $s$  from the displacement equation:</p>\n<p> $\\bar{v}=\\frac{\\frac{v^{2}-v_{0}^{2}}{2a}}{t}$ </p>\n<p>Simplifying:</p>\n<p> $\\bar{v}=\\frac{v^{2}-v_{0}^{2}}{2at}$ </p>\n<p>Hence, the average velocity is given by:</p>\n<p> $v_{\\text{avg}}=\\frac{v^{2}-v_{0}^{2}}{2at}$  </p>\n<p>This formula provides the average velocity of the body over the given time interval  $t$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{0}",
@@ -212,7 +212,7 @@
         "\\bar{v}=\\frac{\\text{Total distance}}{\\text{Total time}}=\\frac{s}{t}"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:27:55.524868"
     },
@@ -258,13 +258,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Displacement of the particle related with time is given as</p>\n<p> $t=\\sqrt{x}+3 \\Rightarrow \\sqrt{x}=t-3$ </p>\n<p>Squaring on both sides, we get</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; x=(t-3)^{2} \\\\ \\Rightarrow &amp; x=t^{2}-6t+9\\text{.... (i)} \\end{aligned}$ </p>\n<p>Velocity of the particle,</p>\n<p> $v=\\frac{dx}{dt}=\\frac{d}{dt}(t^{2}-6t+9)=2t-6$ </p>\n<p>when  $v=0$ </p>\n<p>i.e  $2t-6=0 \\Rightarrow t=36$ </p>\n<p>i.e velocity of particle is zero at  $t=3s$ .</p>\n<p> $\\therefore$  Displacement of particle at  $t=3s$ ,</p>\n<p> $\\begin{aligned} x=3^{2} &amp; -6 \\times 3+9[\\text{from Eq. (i)}] \\\\ &amp; =0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "t=\\sqrt{x}+3 \\Rightarrow \\sqrt{x}=t-3"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.664495"
     },
@@ -312,11 +312,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt9u0dqh/99f5a8f5-4f52-4e8e-b1d0-3e8de15791b0/4e469790-d870-11ee-aba2-450d22ee9eaf/file-1lt9u0dqi.png?format=png"
       ],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.714641"
     },
@@ -364,11 +364,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt9u6zhb/22bb495b-fb9c-4cbb-8aea-5926d637d435/05edaaf0-d871-11ee-aba2-450d22ee9eaf/file-1lt9u6zhc.png?format=png"
       ],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.757716"
     },
@@ -414,7 +414,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the time taken by the girl to walk up on the moving escalator, we can use the concept of relative speeds.</p>\n<p>Let's define:</p>\n<p><p> $v_{\\text{girl}}$  as the speed of the girl walking.</p></p>\n<p><p> $v_{\\text{escalator}}$  as the speed of the escalator.</p></p>\n<p>When the girl walks up on the stationary escalator, she takes 20 seconds. This gives us:</p>\n<p> $d=v_{\\text{girl}} \\times 20\\text{s}$ </p>\n<p>When the escalator alone moves and the girl does not walk, the time taken is 30 seconds. Thus:</p>\n<p> $d=v_{\\text{escalator}} \\times 30\\text{s}$ </p>\n<p>When the girl walks up on the moving escalator, both her speed and the escalator's speed contribute to her total speed:</p>\n<p> $d=(v_{\\text{girl}}+v_{\\text{escalator}}) \\times t$ </p>\n<p>Setting the distances equal since they all cover distance  $d$ :</p>\n<p><p>From  $v_{\\text{girl}}$ :</p>\n<p> $v_{\\text{girl}}=\\frac{d}{20}$ </p></p>\n<p><p>From  $v_{\\text{escalator}}$ :</p>\n<p> $v_{\\text{escalator}}=\\frac{d}{30}$ </p></p>\n<p><p>Combining both in the case of the moving escalator:</p>\n<p> $d=(\\frac{d}{20}+\\frac{d}{30}) \\times t$ </p></p>\n<p>Simplifying the combination:</p>\n<p> $1=(\\frac{1}{20}+\\frac{1}{30}) \\times t$ </p>\n<p>Finding a common denominator and solving:</p>\n<p> $\\frac{1}{20}+\\frac{1}{30}=\\frac{3}{60}+\\frac{2}{60}=\\frac{5}{60}=\\frac{1}{12}$ </p>\n<p>Now, solve for  $t$ :</p>\n<p> $1=\\frac{1}{12} \\times t$ </p>\n<p>So:</p>\n<p> $t=12\\text{s}$ </p>\n<p>Hence, the time taken by her to walk up on the moving escalator is 12 seconds.</p>\n<p><strong>Option C: 12 s</strong> is the correct answer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{\\text{girl}}",
@@ -424,7 +424,7 @@
         "d=(v_{\\text{girl}}+v_{\\text{escalator}}) \\times t"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:27:55.796505"
     },
@@ -473,7 +473,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltr5iwnq/8195830b-ac65-4780-baf0-a0f19bd3a827/a8eb4760-e1f6-11ee-85c8-8bd157c46335/file-1ltr5iwnr.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltr5mgtz/55c3610d-d529-4da4-85c4-61acbd4bbe7a/0bee1c70-e1f7-11ee-85c8-8bd157c46335/file-1ltr5mgu0.png?format=png"
       ],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "v=-kx+b\\text{.... (i)}",
@@ -481,7 +481,7 @@
         "\\begin{aligned} & a=-k(-kx+b) \\\\ & a=k^{2}x-kb\\text{.... (iii)} \\end{aligned}"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.928019"
     },
@@ -529,13 +529,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qsz2cl/1affa4e1-f177-48b9-a7b3-e35a1bd35ecf/63820d50-e324-11ef-b217-b145f2036112/file-jaoe38c1m6qsz2cm.png?format=png"
       ],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "V=\\underset{\\Delta t \\rightarrow 0}{lim}\\frac{\\Delta x}{\\Delta t}=\\frac{dx}{dt}"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.958293"
     },
@@ -581,7 +581,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Given Initial Conditions</strong>:</p>\n<p><p>Initial velocity,  $u=20m/s$ </p></p>\n<p><p>Stopping distance,  $s=40m$ </p></p>\n<p><p><strong>Determine Retardation (Deceleration)</strong>:</p>\n<p>We use the equation from Newton's second law of motion:</p>\n<p> $v^{2}=u^{2}+2as$ </p>\n<p>Since the car stops, its final velocity  $v=0$ . Therefore, we have:</p>\n<p> $0^{2}-u^{2}=2 \\times a \\times s$ </p>\n<p>Substituting the given values:</p>\n<p> $0-20^{2}=2 \\times a \\times 40$ </p>\n<p> $-400=80a$ </p>\n<p>Solving for  $a$ :</p>\n<p> $a=\\frac{-400}{80}=-5m/s^{2}$ </p></p>\n<p><p><strong>Increased Velocity Condition</strong>:</p>\n<p>When the velocity is doubled, the new initial velocity is  $u^{'}=2u=40m/s$ .</p></p>\n<p><p><strong>Calculate New Stopping Distance</strong>:</p>\n<p>Using the same formula with the new initial velocity:</p>\n<p> $0^{2}-(40)^{2}=2 \\times (-5) \\times s$ </p>\n<p> $-1600=-10s$ </p>\n<p>Solving for  $s$ :</p>\n<p> $s=\\frac{1600}{10}=160m$ </p></p>\n<p>Thus, the stopping distance when the car's velocity is doubled is  $160m$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Motion In A Straight Line - Core Application",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "20ms^{-1}",
@@ -592,7 +592,7 @@
         "0^{2}-u^{2}=2 \\times a \\times s"
       ],
       "key_concepts": [
-        "Kcet Motion In A Straight Line - Core Application"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:27:56.005426"
     }

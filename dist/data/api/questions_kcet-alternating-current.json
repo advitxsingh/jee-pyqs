@@ -169,8 +169,7 @@
         "0^{\\circ}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-20T15:27:22.604586"
     },
@@ -325,11 +324,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Domestic mains use alternating voltage and thus also alternating current. That matches:  </p>\n<p>Option D: AC voltage and AC current.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Alternating Current - Core Application",
+      "topic_tag": "Power in AC Circuits & Power Factor",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Alternating Current - Core Application"
+        "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-20T15:27:22.623602"
     },
@@ -745,11 +744,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, capacitancè,  $C=10^{-6}F$ </p>\n<p>Inductance,  $L=10^{-4}H$ </p>\n<p>Frequency of oscillation of  $L$ - $C$  series resonant circuit,</p>\n<p> $\\begin{aligned} f &amp; =\\frac{1}{2\\pi\\sqrt{LC}}=\\frac{1}{2\\pi\\sqrt{10^{-4} \\times 10^{-6}}} \\\\ &amp; =\\frac{1}{2\\pi \\times 10^{-5}}=\\frac{10^{5}}{2\\pi}Hz \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:23.720001"
@@ -800,9 +798,7 @@
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-20T15:27:23.753927"
     },
@@ -906,7 +902,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt9k07xv/6ef9b423-6e2a-4ee0-a311-5c4f54f2e3c8/2e822f40-d849-11ee-9836-257a34f89bec/file-1lt9k07xw.png?format=png"
       ],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{L}=X_{C}=4\\Omega",
@@ -916,7 +912,6 @@
         "V_{\\text{net}}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:23.931931"
@@ -963,13 +958,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For LC-oscillations,</p>\n<p> $L\\frac{di}{dt}+\\frac{q}{C}=0$ </p>\n<p>Differentiating further it w.r.t  $t$ , we get</p>\n<p> $L\\frac{d^{2}i}{dt^{2}}+\\frac{I}{C}=0\\text{.... (i)}$ </p>\n<p>Similarly, for spring-block system,</p>\n<p> $m\\frac{d^{2}x}{dt^{2}}+kx=0\\text{..... (ii)}$ </p>\n<p>Comparing Eqs. (i) and (ii), we get</p>\n<p> $m∝L$  and  $k∝\\frac{1}{C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Alternating Current - Core Application",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "L\\frac{di}{dt}+\\frac{q}{C}=0"
       ],
       "key_concepts": [
-        "Kcet Alternating Current - Core Application"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:23.970319"
     },
@@ -1015,7 +1010,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The charge is a function of time  $(t)$ , is given by</p>\n<p> $q=q_{0}sin\\omega t\\text{.... (i)}$ </p>\n<p>where,  $q_{0}=$  maximum charge,</p>\n<p>and  $\\omega=$  angular frequency.</p>\n<p>Differentiating Eq. (i), we get</p>\n<p> $I=\\frac{dq}{dt}=\\frac{d}{dt}(q_{0}sin\\omega t)=\\omega q_{0}cos\\omega t$ </p>\n<p>At,  $t=0$ ,</p>\n<p> $\\begin{aligned} I &amp; =\\omega q_{0}cos(0)=\\omega q_{0} \\\\ \\therefore I &amp; =\\frac{1}{\\sqrt{LC}}q_{0}\\text{or}q_{0}=I\\sqrt{LC}[ \\because \\omega=\\frac{1}{\\sqrt{LC}}] \\\\ &amp; =2\\sqrt{3 \\times 2.7 \\times 10^{-6}} \\\\ &amp; =18 \\times 10^{-5}C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "q=q_{0}sin\\omega t\\text{.... (i)}",
@@ -1025,7 +1020,6 @@
         "t=0"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-20T15:27:23.978010"
@@ -1301,7 +1295,6 @@
       "key_formulas": [],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
@@ -1509,14 +1502,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the current flowing through the bulb, we use the power formula for resistive loads:</p>\n<p> $P=IV,$ </p>\n<p>where </p>\n<p><p> $P$  is the power (in watts),</p></p>\n<p><p> $I$  is the current (in amperes),</p></p>\n<p><p> $V$  is the voltage (in volts).</p></p>\n<p>Given:</p>\n<p><p> $P=100\\text{W},$ </p></p>\n<p><p> $V=220\\text{V}.$ </p></p>\n<p>We rearrange the equation to solve for  $I$ :</p>\n<p> $I=\\frac{P}{V}.$ </p>\n<p>Substitute the given values:</p>\n<p> $I=\\frac{100}{220}=\\frac{10}{22}=\\frac{5}{11}\\text{A}.$ </p>\n<p>So, the current flowing through the bulb is  $\\frac{5}{11}\\text{A}$ , which corresponds to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "P=IV,",
         "V=220\\text{V}."
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-20T15:27:24.528460"
     },
@@ -1562,13 +1555,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In an ideal series L–C–R circuit, only the resistor dissipates power as heat. The inductor (L) and capacitor (C) store energy in their magnetic and electric fields, respectively, but do not dissipate it.</p>\n<p>Here's a brief explanation:</p>\n<p><p>The resistor (R) converts electrical energy into heat, and the power dissipated by it is given by</p>\n<p> $P=I^{2}R$ </p>\n<p>where  $I$  is the current through the resistor.</p></p>\n<p><p>The inductor (L) and capacitor (C) temporarily store energy (in their magnetic and electric fields) and then return it to the circuit. They do not cause any net loss of energy.</p></p>\n<p>Thus, the power loss in the circuit is solely due to the resistor.</p>\n<p>If the options are interpreted as follows:</p>\n<p><p>Option A: R (power dissipated here)</p></p>\n<p><p>Option B: L</p></p>\n<p><p>Option C: C</p></p>\n<p><p>Option D: Both L and C</p></p>\n<p>Then the correct answer is Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "P=I^{2}R"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
@@ -1675,11 +1667,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bfy8zs/796676c8-5eb3-4d2b-9e93-9b255b20aa7e/5a8c4880-1616-11f0-90eb-15e4634cfd40/file-jaoe38c1m9bfy8zt.png?format=png"
       ],
-      "topic_tag": "Kcet Alternating Current - Core Application",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Alternating Current - Core Application"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-20T15:27:24.805276"
     },

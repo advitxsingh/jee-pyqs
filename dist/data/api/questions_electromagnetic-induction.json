@@ -233,8 +233,7 @@
         "\\vec{B}_{3}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:51.572565"
     },
@@ -295,7 +294,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When an inductor is connected to a DC voltage source (V) with a resistance (R), it initially opposes the flow of current. Over time, the current increases until it reaches a steady, maximum state.</p>\n<p>Once the current is steady, the inductor acts like an ideal wire (zero resistance). Therefore, the maximum current (  $i_{\\text{max}}$  ) is determined by Ohm's Law :</p>\n<p> $i_{max}=\\frac{V}{R}$ </p>\n<p>For given circuit :</p>\n<ul>\n<li><p>Voltage  $V=10V$ </p></li>\n<li><p>Resistance  $R=10\\Omega$ </p></li>\n</ul>\n<p> $i_{max}=\\frac{10}{10}=1A$ </p>\n<p>The current in the circuit is  $\\frac{1}{e}$  time the maximum value,  $i=i_{\\text{max}} \\times (\\frac{1}{e})$ </p>\n<p> $i=1 \\times (\\frac{1}{e})=\\frac{1}{e}A$ </p>\n<p>For a long solenoid, the energy stored in an inductor is:  $U=\\frac{1}{2}Li^{2}$ </p>\n<p>The inductance of a long solenoid is:  $L=\\frac{\\mu_{0}N^{2}A}{l}$ , where N is total turns, A is cross-sectional area, and l is length.</p>\n<p>The volume of the cylindrical core of the solenoid is:  $V_{vol}=A \\times 1$ </p>\n<p>Then the energy density formula is  $u=\\frac{energy(U)}{volume(V_{\\text{vol}})}$ </p>\n<p> $u=\\frac{\\frac{1}{2}Li^{2}}{A \\cdot l}$ </p>\n<p> $\\Rightarrow$   $u=\\frac{\\frac{1}{2}(\\frac{\\mu_{0}N^{2}A}{l})i^{2}}{A \\cdot l}$ </p>\n<p> $\\Rightarrow$   $u=\\frac{\\mu_{0}N^{2}i^{2}}{2l^{2}}$ </p>\n<p> $\\Rightarrow$   $u=\\frac{1}{2}\\mu_{0}n^{2}i^{2}$ </p>\n<p>Where  $n=\\frac{N}{l}$  is the number of turns per unit length.</p>\n<p>Putting the given values into the derived energy density formula :</p>\n<p> $\\begin{aligned} \\mu_{0}=4\\pi \\times 10^{-7}Tm/A,n=10^{4}m^{-1},i=\\frac{1}{e}A; \\end{aligned}$ </p>\n<p> $\\Rightarrow$   $u=\\frac{1}{2} \\times (4\\pi \\times 10^{-7}) \\times (10^{4})^{2} \\times (\\frac{1}{e})^{2}$ </p>\n<p> $\\Rightarrow$   $u=20\\pi \\times 1/e^{2}J/m^{3}$ </p>\n<p> $\\Rightarrow 20\\pi \\times \\frac{1}{e^{2}}=\\alpha\\pi \\times \\frac{1}{e^{2}}$ </p>\n<p> $\\Rightarrow \\alpha=20.$ </p>\n<p>Therefore, the value of  $\\alpha$  is 20.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Hard",
       "key_formulas": [
         "10^{4}",
@@ -306,9 +305,7 @@
         "i_{\\text{max}}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits",
-        "Induced Electric Field & Eddy Currents"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:59.401655"
     },
@@ -566,7 +563,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mnumymp2/cb3b87a7-33bb-44a0-bace-ab1d1f20f2c1/b0ae2060-35cf-11f1-afe3-1d14009f2e59/file-6y3zli1mnumymp3.png?format=png"
       ],
-      "topic_tag": "Self Inductance & RL Transient Circuits",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Hard",
       "key_formulas": [
         "L_{1},L_{2}",
@@ -577,7 +574,6 @@
         "U_{t}/U_{l}"
       ],
       "key_concepts": [
-        "Self Inductance & RL Transient Circuits",
         "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:59.374607"
@@ -626,7 +622,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo5p10kk/3f10b405-ff6b-4e42-8bf5-ccf3b5496314/646b1e40-3be4-11f1-aafb-6f2b8ad54979/file-6y3zli1mo5p10kl.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -637,8 +633,7 @@
         "E=1.0V"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:51.426616"
     },
@@ -753,8 +748,7 @@
         "I=\\frac{V}{R} \\Rightarrow I=\\frac{9}{9}A=1A"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:51.549030"
     },
@@ -1071,8 +1065,7 @@
         "\\theta=0"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:59.392341"
     },
@@ -1212,8 +1205,7 @@
         "\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:59.413258"
     },
@@ -1266,7 +1258,6 @@
       ],
       "key_concepts": [
         "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:51.648266"
@@ -1443,7 +1434,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6s7ejzi/15bea592-6174-45fb-9568-eabba9dabc47/9ab9fce0-e3e9-11ef-88dd-b362bfa8d3ce/file-jaoe38c1m6s7ejzj.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\epsilon-\\frac{LdI}{dt}-I \\cdot R=0",
@@ -1454,7 +1445,6 @@
         "36=12I"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)",
         "Self Inductance & RL Transient Circuits"
       ],
@@ -1840,7 +1830,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; B_{v}=Bsin30=\\frac{1}{4} \\times 10^{-4} \\\\ &amp; \\omega=2\\pi \\times f=\\frac{2\\pi}{60} \\times 1200rad/s \\\\ &amp; \\epsilon=\\frac{1}{2}B_{V}\\omega\\ell^{2} \\\\ &amp; =32\\pi \\times 10^{-5}V \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "30^{\\circ}",
@@ -1848,7 +1838,7 @@
         "is _________."
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:01.610630"
     },
@@ -1983,14 +1973,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsrmpn5k/8bb0421b-5dee-44c6-a49e-5ddfb61af2af/a80e9870-ce6d-11ee-991d-5322ace9b43e/file-6y3zli1lsrmpn5l.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Hard",
       "key_formulas": [
         ", the power dissipated by the loop as heat is __________",
         "\\epsilon_{eq}=\\epsilon_{2}-\\epsilon_{1}=300 \\times 10^{-7}V"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:59.459855"
@@ -2070,7 +2059,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the current in the secondary coil of the transformer, we first need to calculate the output power, taking into account the efficiency. The efficiency ( $\\eta$ ) of the transformer is given by the ratio of the output power ( $P_{\\text{out}}$ ) to the input power ( $P_{\\text{in}}$ ) times 100%.</p>\n<p>The given efficiency is  $\\eta=80%$  or  $\\eta=0.8$  in decimal form. The input power is also given as  $P_{\\text{in}}=4\\text{kW}$  or  $P_{\\text{in}}=4000\\text{W}$ .</p>\n<p>Let's calculate  $P_{\\text{out}}$  using the efficiency formula:</p>\n<p> $P_{\\text{out}}=\\eta \\times P_{\\text{in}}=0.8 \\times 4000\\text{W}=3200\\text{W}$ </p>\n<p>Now that we have  $P_{\\text{out}}$ , we can calculate the secondary current ( $I_{\\text{secondary}}$ ) using the formula:</p>\n<p> $P_{\\text{out}}=V_{\\text{secondary}} \\times I_{\\text{secondary}}$ </p>\n<p>We are given  $V_{\\text{secondary}}=240\\text{V}$ .</p>\n<p>Isolating  $I_{\\text{secondary}}$  gives us:</p>\n<p> $I_{\\text{secondary}}=\\frac{P_{\\text{out}}}{V_{\\text{secondary}}}$ </p>\n<p>Substituting the known values:</p>\n<p> $I_{\\text{secondary}}=\\frac{3200\\text{W}}{240\\text{V}}$ </p>\n<p> $I_{\\text{secondary}}=\\frac{3200}{240}$ </p>\n<p> $I_{\\text{secondary}}=13.33\\text{A}$ </p>\n<p>Therefore, the current in the secondary coil is  $13.33\\text{A}$ , which corresponds to Option B.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Medium",
       "key_formulas": [
         "P_{\\text{out}}",
@@ -2081,7 +2070,7 @@
         "P_{\\text{in}}=4000\\text{W}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-19T23:06:52.582385"
     },
@@ -2441,13 +2430,12 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgtudtsr/c7b9881b-532d-4b4e-9213-84468adb7ae2/a143feb0-e212-11ed-a71b-5bec0e8df462/file-1lgtudtss.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\begin{aligned} & qE=eVB \\\\ \\\\ & E=VB \\end{aligned}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:07:01.668375"
@@ -2587,8 +2575,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:52.699911"
     },
@@ -2670,15 +2657,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that the rod is rotating at 210 rpm, we first convert this to radians per second:\n<br/><br/>\n $\\omega=210 \\cdot \\frac{2\\pi rad}{60s}=22rad/s$ \n<br/><br/>\nNow, we can find the linear velocity  $v$  of the tip of the rod:\n<br/><br/>\n $v=\\omega r$ \n<br/><br/>\nwhere  $r$  is the length of the rod (0.2 m).\n<br/><br/>\n $v=22rad/s \\cdot 0.2m=4.4m/s$ \n<br/><br/>\nNow, we can find the emf developed between the center and the ring using the formula:\n<br/><br/>\n $\\epsilon=\\frac{1}{2}B\\ell v$ \n<br/><br/>\nwhere  $B$  is the magnetic field (0.2 T),  $\\ell$  is the length of the rod (0.2 m), and  $v$  is the linear velocity (4.4 m/s).\n<br/><br/>\n $\\epsilon=\\frac{1}{2} \\cdot 0.2T \\cdot 0.2m \\cdot 4.4m/s=0.088V$ \n<br/><br/>\nTo express this value in mV, we can simply multiply it by 1000:\n<br/><br/>\n $\\epsilon=0.088V \\cdot 1000=88mV$ \n<br/><br/>\nSo the emf developed between the center and the ring is 88 mV.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Hard",
       "key_formulas": [
         "\\omega=210 \\cdot \\frac{2\\pi rad}{60s}=22rad/s",
         "\\epsilon=\\frac{1}{2}B\\ell v"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:01.643728"
     },
@@ -2740,7 +2726,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldrelxdu/f5b30579-144a-4df8-90b9-2a611d67c5cc/b901b220-a556-11ed-803e-f1576252b48d/file-1ldrelxdv.png?format=png"
       ],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dI}{dt}=-1A/s",
@@ -2749,7 +2735,7 @@
         "=30"
       ],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:01.710620"
     },
@@ -2795,7 +2781,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Statement I: If the number of turns in the coil of a moving coil galvanometer is doubled then the current sensitivity becomes double.</p>\n<p>This statement is true. The formula for current sensitivity ( $I_{s}$ ) of a moving coil galvanometer is given by:</p>\n<p> $I_{s}=\\frac{NAB}{k}$ </p>\n<p>where:</p>\n<ul>\n<li> $N$  is the number of turns in the coil,</li>\n<li> $A$  is the area of the coil,</li>\n<li> $B$  is the magnetic field strength, and</li>\n<li> $k$  is the spring constant of the coil.</li>\n</ul>\n<p>From this formula, you can see that the current sensitivity is directly proportional to the number of turns (N). If  $N$  is doubled, then the current sensitivity will also double.</p>\n<p>Statement II: Increasing current sensitivity of a moving coil galvanometer by only increasing the number of turns in the coil will also increase its voltage sensitivity in the same ratio.</p>\n<p>This statement is false. The formula for voltage sensitivity ( $V_{s}$ ) of a moving coil galvanometer is given by:</p>\n<p> $V_{s}=I_{s}R=\\frac{NAB}{k}R$ </p>\n<p>where:</p>\n<ul>\n<li> $R$  is the resistance of the coil.</li>\n</ul>\n<p>From this formula, you can see that the voltage sensitivity is proportional to the number of turns ( $N$ ) but also inversely proportional to the coil resistance ( $R$ ). If you double the number of turns ( $N$ ), you also double the length of the wire making up the coil, and thus, you double the resistance ( $R$ ) of the coil. The doubling of  $N$  is offset by the doubling of  $R$ , so the overall voltage sensitivity remains the same.</p>\n<p>Therefore, increasing the current sensitivity by only increasing the number of turns in the coil will not increase the voltage sensitivity in the same ratio.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{s}",
@@ -2804,7 +2790,7 @@
         "V_{s}=I_{s}R=\\frac{NAB}{k}R"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:52.668270"
     },
@@ -2908,8 +2894,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:52.765984"
     },
@@ -2944,8 +2929,7 @@
         "Q=-\\frac{2NBA}{R}=-\\frac{2(100)(1.5)(24 \\times 10^{-4})}{12}=-0.06C=-60mC"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Induced Electric Field & Eddy Currents"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:07:01.652128"
     },
@@ -3242,7 +3226,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgzn4x67/c3e81dd9-9142-43bd-903f-c7e854cbd952/fd94e7f0-e542-11ed-8d50-d941312069b0/file-1lgzn4x68.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1loi4kwvg/704af611-cd17-43e6-9216-6f7ca85969bd/d4d5aac0-7a02-11ee-bbdd-cfc3c972af88/file-6y3zli1loi4kwvh.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{-3}",
@@ -3250,7 +3234,6 @@
         "F_{\\text{net}}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:07:01.692871"
@@ -3279,14 +3262,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldxigfle/5c528e89-50d8-412c-9371-cbe6d9f8ee00/78a1ad20-a8b2-11ed-a3d7-5b81580a6b38/file-1ldxigflf.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le4deh44/b1217ea3-f19b-4a41-8dbf-ff553ce2b6d6/31164730-ac78-11ed-b725-7db87d3646da/file-1le4deh45.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{V}{R_{eq}}=\\frac{12V}{4\\Omega}=3A",
         "R_{eq}=3"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:01.728570"
@@ -3369,13 +3351,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6s8r5qj/d6d141e0-67ff-41a3-9adb-eafef6ab986f/18ba09b0-1b37-11ed-91de-637bbeffe542/file-1l6s8r5qk.png?format=png"
       ],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Easy",
       "key_formulas": [
         "i=\\frac{6}{4+2}=1A"
       ],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:07:01.737740"
     },
@@ -3400,7 +3382,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $E=Blv$ </p>\n<p> $=4 \\times 10^{-3} \\times \\frac{20}{100} \\times 20$  Volts</p>\n<p> $=16$  mV</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -3409,7 +3391,6 @@
         "=16"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:07:03.667676"
@@ -3456,7 +3437,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $B=\\frac{n\\mu_{0}I}{2R}$ </p>\n<p> $B_{1}=\\frac{2\\mu_{0}I}{2R_{1}}$ </p>\n<p> $B_{2}=\\frac{5\\mu_{0}I}{2R_{2}}$ </p>\n<p> $R_{2}=\\frac{2R_{1}}{5}$ </p>\n<p> $\\Rightarrow \\frac{B_{2}}{B_{1}}=\\frac{5}{2} \\times \\frac{R_{1}}{R_{2}}=\\frac{25}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{B_{2}}{B_{1}}",
@@ -3466,7 +3447,7 @@
         "R_{2}=\\frac{2R_{1}}{5}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:54.109885"
     },
@@ -3512,7 +3493,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $Emf=\\frac{1}{2}B\\omega l^{2}$ </p>\n<p> $=\\frac{1}{2} \\times 0.2 \\times 10^{-4} \\times 5 \\times 1^{2}$  V</p>\n<p>= 0.5  $\\times$  10<sup> $-$ 4</sup> V</p>\n<p>= 50  $\\mu$ V</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{2} \\times 0.2 \\times 10^{-4} \\times 5 \\times 1^{2}",
@@ -3520,8 +3501,7 @@
         "4 V = 50"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:54.156034"
     },
@@ -3583,7 +3563,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5jhw3yo/4d242564-1414-4300-8c7c-e97049b43a97/8f574100-029b-11ed-a9b8-43edceee002f/file-1l5jhw3yp.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{0}=\\frac{20}{10}=2A",
@@ -3592,7 +3572,7 @@
         "e_{avg}=400V"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:03.679808"
     },
@@ -3765,14 +3745,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $U=\\frac{1}{2}LI^{2}$ </p>\n<p> $=\\frac{1}{2}2 \\times 2^{2}=4$  J</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "U=\\frac{1}{2}LI^{2}",
         "=\\frac{1}{2}2 \\times 2^{2}=4"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:03.690677"
@@ -3889,14 +3868,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $V_{max}=NAB\\omega$ </p>\n<p> $=1000 \\times 1 \\times 0.07 \\times (2\\pi \\times 1)$ </p>\n<p> $≃440$  volts</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{max}=NAB\\omega",
         "=1000 \\times 1 \\times 0.07 \\times (2\\pi \\times 1)"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-19T23:07:03.698063"
     },
@@ -3996,7 +3975,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $U=\\frac{1}{2}Li^{2}=64 \\Rightarrow L=2$ <br/><br/> $i^{2}R=640$ <br/><br/> $R=\\frac{640}{(8)^{2}}=10$ <br/><br/> $\\tau=\\frac{L}{R}=\\frac{1}{5}=0.2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "U=\\frac{1}{2}Li^{2}=64 \\Rightarrow L=2",
@@ -4005,7 +3984,6 @@
         "\\tau=\\frac{L}{R}=\\frac{1}{5}=0.2"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:54.237493"
@@ -4087,7 +4065,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->V = 12 kV<br/><br/>Number of revolution = n<br/><br/> $n[2 \\times q_{P} \\times V]=\\frac{1}{2}m_{P} \\times v_{P}^{2}$ <br/><br/> $n[2 \\times 1.6 \\times 10^{-19} \\times 12 \\times 10^{3}]$ <br/><br/> $=\\frac{1}{2} \\times 1.67 \\times 10^{-27} \\times [\\frac{3 \\times 10^{8}}{6}]^{2}$ <br/><br/>n(38.4  $\\times$  10<sup> $-$ 16</sup>) = 0.2087  $\\times$  10<sup> $-$ 11</sup><br/><br/>n = 543.4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -4098,7 +4076,7 @@
         "=\\frac{1}{2} \\times 1.67 \\times 10^{-27} \\times [\\frac{3 \\times 10^{8}}{6}]^{2}"
       ],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:07:03.707366"
     },
@@ -4123,7 +4101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $L\\frac{di}{dt}=\\epsilon$ <br/><br/> $=3t$ <br/><br/> $L\\int di=3\\int tdt$ <br/><br/> $Li=\\frac{3t^{2}}{2}$ <br/><br/> $i=\\frac{3t^{2}}{2L}$ <br/><br/>energy,  $E=\\frac{1}{2}Li^{2}$ <br/><br/> $=\\frac{1}{2}L(\\frac{3t^{2}}{2L})^{2}$ <br/><br/> $=\\frac{1}{2} \\times \\frac{9t^{4}}{4L}$ <br/><br/> $=\\frac{9}{8} \\times \\frac{(4)^{4}}{4 \\times 2}=144$  J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "L\\frac{di}{dt}=\\epsilon",
@@ -4134,7 +4112,6 @@
         "E=\\frac{1}{2}Li^{2}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:03.743450"
@@ -4245,8 +4222,7 @@
         "e=-\\frac{d\\phi}{dt}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:54.248092"
     },
@@ -4292,7 +4268,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\epsilon$ <sub>ind</sub> = (B<sub>v</sub>) LV and B<sub>v</sub> = B<sub>Total</sub> sin60<sup>o</sup><br/><br/> $\\therefore$   $\\epsilon$ <sub>ind</sub> = (2.5  $\\times$  10<sup> $-$ 4</sup>)(sin 60<sup>o</sup>)  $\\times$  10  $\\times$  180  $\\times$   $\\frac{5}{18}$ <br/><br/>= 108.25 mV <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
@@ -4301,7 +4277,7 @@
         "\\frac{5}{18}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:54.292201"
     },
@@ -4326,7 +4302,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Maximum emf  $\\epsilon=N\\omega AB$ <br/><br/>N = 20,  $\\omega$  = 50, B = 3  $\\times$  10<sup> $-$ 2</sup> T<br/><br/> $\\epsilon$  = 20  $\\times$  50  $\\times$   $\\pi$   $\\times$  (0.08)<sup>2</sup>  $\\times$  3  $\\times$  10<sup> $-$ 2</sup> = 60.28  $\\times$  10<sup> $-$ 2</sup><br/><br/>Rounded off to nearest integer = 60<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "N = 20,",
@@ -4336,7 +4312,7 @@
         "2 = 60.28"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:03.717652"
     },
@@ -4388,8 +4364,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:54.207695"
     },
@@ -4495,15 +4470,14 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1la258352/b75b1fb5-df31-449b-b45d-469704b08f93/c7973860-5c0d-11ed-b429-1bdcfc436fa3/file-1la258353.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxkkcxgi/77599bb9-17fe-4078-8b6c-5b05e876fa3c/42f2b420-64d0-11ec-b334-61c7774f09f5/file-1kxkkcxgj.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
         "i=\\frac{9}{4}=2.25"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:54.300854"
     },
@@ -4698,7 +4672,7 @@
         "https://imagex.cdn.examgoal.net/1kmj0tavp/ea73e10a-b27c-4a3a-9a95-57fd3999dd9e/a9dcdf60-8a30-11eb-91cf-1f26b16dd4dd/file-1kmj0tavq.jpg",
         "https://imagex.cdn.examgoal.net/1kqs21hf7/8ed0113a-fc07-44d0-a435-e91fa8cb8f72/61e0f340-de59-11eb-b38a-e51f7a3230ff/file-1kqs21hf8.jpg"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}=B_{o}(\\frac{x}{a})\\hat{k}",
@@ -4709,7 +4683,7 @@
         "=Bvd"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-19T23:06:54.270031"
     },
@@ -4745,8 +4719,7 @@
         "\\epsilon=\\frac{-d\\phi}{dt}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:07:03.734588"
     },
@@ -4794,11 +4767,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukeu0wtu7/27084a62-2de9-407d-ae4e-240149c80e46/f00bf9f0-f1db-11ea-8293-3b6cc591631c/file-jgy2xukeu0wtu8-324w.jpg"
       ],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:55.359717"
     },
@@ -5030,14 +5003,14 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwlvrnde/5f5f350a-f6ec-405f-9bb2-c5acbf27dc82/71fc1f20-51bd-11ec-9e89-f95be170c8e5/file-1kwlvrndf.png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwlvsn7y/3aedd075-7075-4e1d-a0c3-dc960fb6e5de/8dad5ae0-51bd-11ec-9e89-f95be170c8e5/file-1kwlvsn7z.png"
       ],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{di}{dt}",
         "\\times"
       ],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:07:03.753707"
     },
@@ -5326,7 +5299,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5hh0k9k/d152bcde-5a7e-4566-af3e-f4f0dfd2f1a4/c71a2180-38c6-11ea-92dd-4b9c3519996f/file-7k9k2k5hh0k9l-302w.jpg"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "i=i_{0}(1-e^{-t/t_{c}})",
@@ -5337,7 +5310,6 @@
         "\\frac{\\in}{R}t_{c}.\\frac{1}{e}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:55.396738"
@@ -5472,7 +5444,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kejek1bxbopi/6b8f496c-32ef-4557-acbe-466236eea827/fd16c760-e688-11e9-a7bc-b7b08ce8d541/file-7kejek1bxbopj-320w.jpg"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{4}{3}\\Omega",
@@ -5481,7 +5453,6 @@
         "\\therefore i=\\frac{\\epsilon}{R} \\approx 166\\mu A \\approx 170\\mu A"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:55.465062"
@@ -5530,7 +5501,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/3C7NwsuddbspKwS5y/JsvtyuFMjr8Y71xXSPIUUFKGzVY0Y/MTRjRT6G2B1shwJOWON819/image.png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "i=\\frac{V}{2R}andi=\\frac{V}{R}(1-e^{-t/\\tau})",
@@ -5538,8 +5509,7 @@
         "\\frac{20}{10}ln(2)=2ln(2)"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:55.514792"
     },
@@ -5758,8 +5728,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:55.583896"
     },
@@ -5863,13 +5832,12 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/RRFhCDlAmWm9mWrf0/hDv3RgnvMZ52QEIwWyeP6abAErBRA/NlUvnieUoYrRCpjfBESXSO/image.png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{\\sqrt{3}a^{2}}{4})"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:55.541409"
@@ -6026,7 +5994,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $M=\\mu_{0}n_{1}n_{2}\\pi r_{1}^{2}$ \n<br/><br/> $L=\\mu_{0}n_{1}^{2}\\pi r_{1}^{2}$ \n<br/><br/> $\\Rightarrow \\frac{M}{L}=\\frac{n_{2}}{n_{1}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "M=\\mu_{0}n_{1}n_{2}\\pi r_{1}^{2}",
@@ -6034,7 +6002,6 @@
         "\\Rightarrow \\frac{M}{L}=\\frac{n_{2}}{n_{1}}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits",
         "Mutual Inductance & Coupled Coils"
       ],
@@ -6204,8 +6171,7 @@
         "|e|=\\frac{d\\phi}{dt}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-19T23:06:55.611730"
     },
@@ -6308,11 +6274,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:57.036216"
     },
@@ -6418,7 +6384,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l82xh0bw/491f70cf-0c05-4298-9e50-794d8f93289c/d08fd0e0-34e3-11ed-b84c-a3c7c2456516/file-1l82xh0by.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}",
@@ -6429,7 +6395,6 @@
         "\\epsilon_{0}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:57.064039"
@@ -6533,11 +6498,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{F_{1}}=\\vec{F_{2}}=0$ \n<br/><br/> because of action and reaction pair<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Motional EMF (Translational & Rotational)",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Motional EMF (Translational & Rotational)",
         "Self Inductance & RL Transient Circuits",
         "Mutual Inductance & Coupled Coils"
       ],
@@ -6745,7 +6709,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Induced  $emf$   $=vB_{H}l=1.5 \\times 5 \\times 10^{-5} \\times 2$ \n<br/><br/> $=15 \\times 10^{-5}=0.15mV$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Easy",
       "key_formulas": [
         "5.0 \\times 10^{-5}",
@@ -6754,8 +6718,7 @@
         "=15 \\times 10^{-5}=0.15mV"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-19T23:06:57.113850"
     },
@@ -6804,13 +6767,12 @@
         "https://imagex.cdn.examgoal.net/ylQh66aBKi0m0PMxu/8VbCmo71VCuQJ8DaLVcQfjMxx5Ry8/PYNwEh4WtF6tSkmWR2r6rV/image.png",
         "https://imagex.cdn.examgoal.net/cAPXjr95a6PxqipmF/Ay9e4fDmwzupqJ6FLhrOJEu6jX54Z/jefsk6Toh1Wzdg1IqUg0Hq/image.png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{1},I_{2}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:57.121201"
@@ -6857,7 +6819,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $M=\\frac{\\mu_{0}N_{1}N_{2}A}{\\ell}$ \n<br/><br/> $=\\frac{4\\pi \\times 10^{-7} \\times 300 \\times 400 \\times 100 \\times 10^{-4}}{0.2}$ \n<br/><br/> $=2.4\\pi \\times 10^{-4}H$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "10cm^{2}",
@@ -6867,7 +6829,6 @@
         "=2.4\\pi \\times 10^{-4}H"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits",
         "Mutual Inductance & Coupled Coils"
       ],
@@ -6915,7 +6876,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>KEY CONCEPT :</b>  $I=I_{0}(1-e^{-\\frac{R}{L}t})$ \n<br/><br/>(When current is in growth in  $LR$  circuit) \n<br/><br/> $=\\frac{E}{R}(1-e^{-\\frac{R}{L}t})$ \n<br/><br/> $=\\frac{5}{5}(1-e^{-\\frac{5}{10} \\times 2})$ \n<br/><br/> $=(1-e^{-1})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Easy",
       "key_formulas": [
         "I=I_{0}(1-e^{-\\frac{R}{L}t})",
@@ -6923,7 +6884,7 @@
         "=(1-e^{-1})"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:57.143965"
     },
@@ -7137,14 +7098,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>KEY CONCEPT :</b> The charging of inductance given\n<br/><br/>by,  $i=i_{0}(1-e^{-\\frac{Rt}{L}})$ \n<br/><br/> $\\frac{i_{0}}{2}=i_{0}(1-e^{-\\frac{Rt}{L}}) \\Rightarrow e^{-\\frac{Rt}{L}}=\\frac{1}{2}$ \n<br/><br/>Taking log on both the sides,\n<br/><br/> $-\\frac{Rt}{L}=log1-log2$ \n<br/><br/> $\\Rightarrow t=\\frac{L}{R}log2=\\frac{300 \\times 10^{-3}}{2} \\times 0.69$ \n<br/><br/> $\\Rightarrow t-0.1sec.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [
         "i=i_{0}(1-e^{-\\frac{Rt}{L}})",
         "\\Rightarrow t=\\frac{L}{R}log2=\\frac{300 \\times 10^{-3}}{2} \\times 0.69"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-19T23:06:57.178712"
@@ -7193,14 +7153,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/ULg4EKy1r1E3xBTsP/OfdIa0S2ZDDTAAIuCsRAqrshEgNk8/R6F9y6BH9jLOs8Q0QgSPHK/image.png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Easy",
       "key_formulas": [
         "=B.l(2v)"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-19T23:06:57.187599"
     },
@@ -7246,11 +7205,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\ell=1m,\\omega=5rad/s,B=0.2 \\times 10^{-4}T$ \n<br/><br/> $\\epsilon=\\frac{B\\omega\\ell^{2}}{2}=\\frac{0.2 \\times 10^{-4} \\times 5 \\times 1}{2}=50\\mu V$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-19T23:06:59.292267"
@@ -7572,13 +7530,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/FTW5sf7MIONu7HckB/Yx4RMZm2TtB5SnsQmSKdeCrAT9MEe/TQl7MJXbWinC2I6x5e7d3K/image.png"
       ],
-      "topic_tag": "Electromagnetic Induction - Core Application",
+      "topic_tag": "Mutual Inductance & Coupled Coils",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{3}+\\frac{1}{3}+\\frac{1}{3}=\\frac{3}{3}=1"
       ],
       "key_concepts": [
-        "Electromagnetic Induction - Core Application"
+        "Mutual Inductance & Coupled Coils"
       ],
       "crawled_at": "2026-09-19T23:06:59.356519"
     }

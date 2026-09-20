@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "4cm^{2}",
@@ -57,7 +57,8 @@
         "Q=\\Delta U+W"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes",
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:42.061681"
     },
@@ -103,7 +104,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using Ideal Gas Law:</p>\n<p>PV = nRT</p>\n<p>Where P is pressure, V is volume, n is number of moles, R is the gas constant, and T is absolute temperature. Since the system is closed, the total number of moles (  $n_{\\text{total}}$  ) remains constant before and after heating.</p>\n<p>Initial State:</p>\n<p>Both vessels (each of volume V ) are at  $P_{0}=90kPa$  and  $T_{0}=400K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{0}V}{RT_{0}}+\\frac{P_{0}V}{RT_{0}}=\\frac{2P_{0}V}{RT_{0}}\\dots(i)$ </p>\n<p>Final State: Pressure becomes  $P_{f}$  in both vessels. Vessel 1 stays at  $T_{1}=400K$ , and vessel 2 is at  $T_{2}=500K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{f}V}{RT_{1}}+\\frac{P_{f}V}{RT_{2}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})\\dots(ii)$ </p>\n<p>From both the equations,</p>\n<p> $\\frac{2P_{0}V}{RT_{0}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}}) \\Rightarrow \\frac{2P_{0}}{T_{0}}=P_{f}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})$ </p>\n<p>Substituting the values (  $P_{0}=90,T_{0}=400,T_{1}=400,T_{2}=500$  ):</p>\n<p> $2 \\times \\frac{90}{400}=P_{f}(\\frac{1}{400}+\\frac{1}{500})$ </p>\n<p> $\\Rightarrow$   $\\frac{180}{400}=P_{f}(\\frac{5+4}{2000})$ </p>\n<p> $\\Rightarrow$   $0.45=P_{f}(\\frac{9}{2000})$ </p>\n<p> $\\Rightarrow$   $P_{f}=\\frac{0.45 \\times 2000}{9}=\\frac{900}{9}=100kPa$ </p>\n<p>Therefore, the final pressure of the vessel is 100 kPa . Thus, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -114,7 +115,7 @@
         "0.45=P_{f}(\\frac{9}{2000})"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:43.694357"
     },
@@ -160,7 +161,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the kinetic theory of gases, the average translational kinetic energy (  $K_{\\text{avg}}$  ) of a gas molecule is directly proportional to its absolute temperature (T).</p>\n<p> $K_{avg}=\\frac{3}{2}k_{B}T$ </p>\n<p>Where  $k_{B}$  is the Boltzmann constant.</p>\n<p>So, the average kinetic energy depends only on the temperature and not on the mass of the molecule or the size/volume of the container.</p>\n<p>Since  $K_{avg}$  is the same for both  $H_{2}$  and  $O_{2}$ , their temperatures (T) must be identical.</p>\n<p>Therefore, Assertion A is true.</p>\n<p>The root mean square (r. m. s.) speed (  $v_{\\text{rms}}$  ) of a gas molecule is given by the formula:</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where R is the universal gas constant, T is the absolute temperature, and M is the molar mass of the gas.</p>\n<p>At the same temperature (T),  $v_{rms}$  is inversely proportional to the square root of the molar mass (M).</p>\n<p>Since the molar mass of  $H_{2}(2g/mol)$  is different from  $O_{2}(32g/mol)$ , their r.m.s. speeds will be different even at the same temperature.</p>\n<p>Therefore, Reason R is false.</p>\n<p>Hence, Assertion A is true, but Reason R is false. \n<br/><br/>So, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "H_{2}",
@@ -171,7 +172,7 @@
         "K_{avg}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:45.099730"
     },
@@ -217,7 +218,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the ideal gas equation  $PV=nRT$ </p>\n<p>The pressure of gas is given as  $P=100kPa=10^{5}Pa$ .</p>\n<p>The volume of gas is  $V=8310cm^{3}=8310 \\times 10^{-6}m^{3}=8.31 \\times 10^{-3}m^{3}$ </p>\n<p>The temperature of gas is  $T=300K$ </p>\n<p>The universal gas constant is  $R=8.31J/mol.K$ </p>\n<p>So, the number of moles of gas is,</p>\n<p> $n_{\\text{total}}=\\frac{PV}{RT}=\\frac{10^{5} \\times 8.31 \\times 10^{-3}}{8.31 \\times 300}$ </p>\n<p> $\\Rightarrow$   $n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles$ </p>\n<p>Let  $n_{1}$  be the moles of  $CO_{2}$  and  $n_{2}$  be the moles of  $O_{2},n_{1}+n_{2}=0.333$  .......(i) </p>\n<p>Molar mass of  $CO_{2}$  is  $M_{1}=12+(2 \\times 16)=44g/mol$ </p>\n<p>Molar mass of  $O_{2}$  is  $M_{2}=2 \\times 16=32g/mol$ </p>\n<p>As the total mass of the mixture is 13.2 g :</p>\n<p> $n_{1}M_{1}+n_{2}M_{2}=13.2$ </p>\n<p> $44n_{1}+32n_{2}=13.2\\dots......(ii)$ </p>\n<p>From equation (i),  $n_{2}=0.333-n_{1}$ .</p>\n<p>Substituting this into (ii) :</p>\n<p> $44n_{1}+32(0.333-n_{1})=13.2$ </p>\n<p> $\\Rightarrow$   $44n_{1}+10.66-32n_{1}=13.2$ </p>\n<p> $\\Rightarrow$   $12n_{1}=2.54$ </p>\n<p> $\\Rightarrow$   $n_{1} \\approx 0.21\\text{moles}$ </p>\n<p>So,  $n_{2}=0.333-0.21=0.12$  moles</p>\n<p>Therefore, the number of moles of carbon dioxide and oxygen gases in the mixture respectively are  $0.21,0.12$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "PV=nRT",
@@ -228,7 +229,7 @@
         "n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:46.727810"
     },
@@ -274,7 +275,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mass of the ice is  $m_{i}=10kg$ ,</p>\n<p>Initial temperature of ice is  $T_{i}=-10^{\\circ}C$ ,</p>\n<p>The specific heat of ice is  $c_{i}=2100\\frac{J}{kg \\cdot ^{\\circ}C}$ ,</p>\n<p>The latent heat of fusion of ice is  $L_{f}=3.36 \\times 10^{5}J/kg$ </p>\n<p>The mass of water is  $m_{w}=100kg$ ,</p>\n<p>The initial temperature of water is  $T_{w}=25^{\\circ}C$ ,</p>\n<p>The specific heat capacity of water is  $c_{w}=4200\\frac{J}{kg \\cdot ^{\\circ}C}$ </p>\n<p>Let the final equilibrium temperature is  $T_{f}$ .</p>\n<p>The heat gained by ice is for three process,</p>\n<p> $Q_{\\text{gained}}=Q_{1}$  (Heating ice to  $0^{\\circ}C)+Q_{2}$  (Melting ice at  $0^{\\circ}C)+Q_{3}$  (Heating the melted ice (water) to  $T_{f}$  )</p>\n<p> $\\Rightarrow$   $Q_{1}=m_{i}c_{i}\\Delta T=10 \\times 2100 \\times (0-(-10))=210000J$ </p>\n<p> $\\Rightarrow$   $Q_{2}=m_{i}L_{f}=10 \\times 3.36 \\times 10^{5}=3360000J$ </p>\n<p> $\\Rightarrow$   $Q_{3}=m_{i}c_{w}(T_{f}-0)=10 \\times 4200 \\times T_{f}=42000T_{f}$ </p>\n<p> $Q_{\\text{gained}}=210000+3360000+42000T_{f}=3570000+42000T_{f}$ </p>\n<p>The water cools from  $25^{\\circ}C$  to  $T_{f}$ . So the heat lost by water is,</p>\n<p> $Q_{\\text{loss}}=m_{w}c_{w}(25-T_{f})=100 \\times 4200 \\times (25-T_{f})=420000(25-T_{f})$ </p>\n<p> $\\Rightarrow$   $Q_{\\text{loss}}=10500000-420000T_{f}$ </p>\n<p>Using conservation of energy,  $Q_{\\text{gain}}=Q_{\\text{loss}}$ </p>\n<p> $3570000+42000T_{f}=10500000-420000T_{f}$ </p>\n<p> $\\Rightarrow$   $462000T_{f}=6930000$ </p>\n<p> $\\Rightarrow$   $T_{f}=\\frac{6930000}{462000}=15^{\\circ}C$ </p>\n<p>So the decrease in the temperature of the water:</p>\n<p> $\\Delta T_{\\text{water}}=T_{\\text{initial}}-T_{f}=25^{\\circ}C-15^{\\circ}C=10^{\\circ}C$ </p>\n<p>Therefore, the decrement to the temperature of water is  $10^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "-10^{\\circ}C",
@@ -285,7 +286,7 @@
         "=3.36 \\times 10^{5}J/Kg"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:48.442821"
     },
@@ -331,7 +332,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><b>Case -1 :</b> Isothermal Expansion  $(\\Delta T=0)$ </p>\n<p>For an ideal gas undergoing isothermal expansion from  $V_{1}$  to  $V_{2}$  :</p>\n<p> $W_{iso}=nRTln(\\frac{V_{2}}{V_{1}})$ </p>\n<p>Given :</p>\n<ul>\n<li><p> $n=1$  mole</p></li>\n<li><p> $T=27^{\\circ}C=300K$ </p></li>\n<li><p> $\\frac{V_{2}}{V_{1}}=\\frac{2V}{V}=2$ </p></li>\n<li><p> $ln2=0.693$ </p></li>\n</ul>\n<p> $W=1 \\times R \\times 300 \\times 0.693=207.9R$ </p>\n<p><b>Case - 2 :</b> Adiabatic Expansion (  $\\Delta Q$  )</p>\n<p>For an adiabatic process, the work done is given by:</p>\n<p> $W_{adia}=\\frac{nR(T_{1}-T_{2})}{\\gamma-1}$ </p>\n<p>The gas is diatomic, so the adiabatic constant  $\\gamma=\\frac{7}{5}=1.4$ .</p>\n<p> $T_{1}=300K$ </p>\n<p>Work done is the same magnitude (  $W=207.9R$  ).</p>\n<p> $207.9R=\\frac{1 \\times R(300-T_{2})}{1.4-1}$ </p>\n<p> $\\Rightarrow$   $207.9=\\frac{300-T_{2}}{0.4}$ </p>\n<p> $\\Rightarrow$   $83.16=300-T_{2}$ </p>\n<p> $\\Rightarrow$   $T_{2}=216.84K$ </p>\n<p> $\\Rightarrow$   $T(^{\\circ}C)=216.84-273.15$ </p>\n<p> $T(^{\\circ}C) \\approx -56.31^{\\circ}C$ </p>\n<p>The final temperature is approximately  $-56^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "27^{\\circ}C",
@@ -342,7 +343,7 @@
         "V_{2}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:50.003542"
     },
@@ -391,7 +392,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "H=\\frac{kA\\Delta T}{L}",
@@ -402,7 +403,7 @@
         "rodx(k_{x})"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:52.368936"
     },
@@ -448,7 +449,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In an adiabatic process, no heat is exchanged with the surroundings (  $Q=0$  ).</p>\n<p>For an ideal gas undergoing an adiabatic change, the relationship between pressure and volume is :</p>\n<p> $PV^{\\gamma}=\\text{constant}$ </p>\n<p>Where  $\\gamma$  is the ratio of specific heats  $(\\frac{C_{p}}{C_{v}})$ .</p>\n<p>For a monoatomic gas,  $\\gamma=53$ .</p>\n<p>The initial pressure of gas is  $P_{1}=P$ .</p>\n<p>The initial volume of gas is  $V_{1}=V$ </p>\n<p>The final volume of gas is  $V_{2}=27V$ </p>\n<p>Using the adiabatic relation  $P_{1}V_{1}^{\\gamma}=P_{2}V_{2}^{\\gamma}$  :</p>\n<p> $P \\cdot V^{5/3}=P_{\\text{final}} \\cdot (27V)^{5/3}$ </p>\n<p> $\\Rightarrow$   $P_{\\text{final}}=P(\\frac{V}{27V})^{5/3}=P(\\frac{1}{27})^{5/3}$ </p>\n<p> $P_{\\text{final}}=P(\\frac{1}{3^{3}})^{5/3}=P(\\frac{1}{3})^{5}=\\frac{P}{243}$ </p>\n<p>From the  $1^{\\text{st}}$  law of thermodynamics  $(Q=\\Delta U+W)$ , since  $Q=0$ , we have:</p>\n<p> $\\Delta U=-W$ </p>\n<p>The work done ( W ) in an adiabatic process is:</p>\n<p> $W=\\frac{P_{1}V_{1}-P_{2}V_{2}}{\\gamma-1}$ </p>\n<p>Therefore:</p>\n<p> $\\Delta U=\\frac{P_{2}V_{2}-P_{1}V_{1}}{\\gamma-1}$ </p>\n<p>Substitute the given values,  $P_{1}V_{1}=PV,P_{2}V_{2}=(\\frac{P}{243}) \\times (27V)=\\frac{PV}{9}$ </p>\n<p> $\\Delta U=\\frac{\\frac{PV}{9}-PV}{\\frac{5}{3}-1}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=\\frac{-\\frac{8}{9}PV}{2/3}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=-\\frac{8}{9}PV \\times \\frac{3}{2}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=-\\frac{4}{3}PV$ </p>\n<p>Therefore, the change in internal energy is  $-\\frac{4}{3}PV$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "PV^{\\gamma}=\\text{constant}",
@@ -459,7 +460,7 @@
         "V_{2}=27V"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:42.130306"
     },
@@ -505,7 +506,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The coefficient of volume expansion  $(\\gamma)$  is defined as the fractional change in volume per unit change in temperature at constant pressure :</p>\n<p> $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ </p>\n<p>The relation between pressure and temperature is,</p>\n<p> $PT^{3}=C\\text{(where}C\\text{is a constant)}$ </p>\n<p>For an ideal gas,  $PV=nRT \\Rightarrow P=\\frac{nRT}{V}$ </p>\n<p>Substitute P into the given process equation :</p>\n<p> $(\\frac{nRT}{V})T^{3}=C$ </p>\n<p> $\\Rightarrow$   $\\frac{nRT^{4}}{V}=C$ </p>\n<p> $\\Rightarrow V=(\\frac{nR}{C})T^{4}$ </p>\n<p>Let  $k=\\frac{nR}{C}$  (another constant), then:</p>\n<p> $V=kT^{4}$ </p>\n<p>On differentiating  $V$  with respect to  $T$  :</p>\n<p> $\\frac{dV}{dT}=\\frac{d}{dT}(kT^{4})=4kT^{3}$ </p>\n<p>Substituting the expressions for V and  $\\frac{dV}{dT}$  into the definition of  $\\gamma$  :</p>\n<p> $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{1}{kT^{4}}(4kT^{3})$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{4kT^{3}}{kT^{4}}$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{4}{T}$ </p>\n<p>Therefore, the coefficient of volume expansion of the gas is  $\\frac{4}{T}$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\gamma=\\frac{1}{V}(\\frac{dV}{dT})",
@@ -516,7 +517,7 @@
         "\\Rightarrow V=(\\frac{nR}{C})T^{4}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:43.764416"
     },
@@ -562,7 +563,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a metal of length  $L$  having coefficient of linear expansion  $\\alpha$  is heated by temperature  $\\Delta T$ , then the change in length is given as  $\\Delta L=L\\alpha\\Delta T$ </p>\n<p>For the first interval of heating  $(T_{1} \\rightarrow T_{2})$  :</p>\n<p>The increase in length  $\\Delta L_{1}$  is given by  $\\Delta L_{1}=L_{1}\\alpha(T_{2}-T_{1})$ </p>\n<p>It is given that  $T_{2}-T_{1}=\\Delta T$  :</p>\n<p> $\\Delta L_{1}=L_{1}\\alpha\\Delta T.....(i)$ </p>\n<p>The new length at temperature  $T_{2}$  is:</p>\n<p> $L_{2}=L_{1}+\\Delta L_{1}=L_{1}(1+\\alpha\\Delta T)........(ii)$ </p>\n<p>For the second interval of heating, (  $T_{2} \\rightarrow T_{3}$  )</p>\n<p>The increase in length is  $\\Delta L_{2}$  depends on the length at the start of this stage  $(L_{2})$  :</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha(T_{3}-T_{2})$ </p>\n<p>From the given condition  $T_{3}+T_{1}=2T_{2}$  :</p>\n<p> $T_{3}-T_{2}=T_{2}-T_{1}$ </p>\n<p>Since  $T_{2}-T_{1}=\\Delta T$ , then  $T_{3}-T_{2}=\\Delta T$ .</p>\n<p>Substituting this into the  $\\Delta L_{2}$  formula:</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha\\Delta T.......(iii)$ </p>\n<p>Substitute the value of  $L_{2}$  from equation (ii) into equation (iii) :</p>\n<p> $\\Delta L_{2}=[L_{1}(1+\\alpha\\Delta T)]\\alpha\\Delta T$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{2}=(L_{1}\\alpha\\Delta T)(1+\\alpha\\Delta T)$ </p>\n<p>From equation (i), we know  $L_{1}\\alpha\\Delta T=\\Delta L_{1}$ .</p>\n<p> $\\Delta L_{2}=\\Delta L_{1}(1+\\alpha\\Delta T)$ </p>\n<p>Therefore, the value of  $\\Delta L_{2}$  is  $\\Delta L_{1}[1+\\alpha\\Delta T]$ . </p>\n<p>Thus, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{1}",
@@ -573,7 +574,7 @@
         "T_{3}+T_{1}=2T_{2}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:45.156916"
     },
@@ -619,7 +620,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a diatomic gas (assuming no vibrational modes), the degrees of freedom  $f=5$ .</p>\n<p>The molar specific heat at constant volume for diatomic gas is</p>\n<p> $C_{v}=\\frac{f}{2}R=\\frac{5}{2}R$ </p>\n<p>The molar specific heat at constant pressure is</p>\n<p> $C_{p}=C_{v}+R=\\frac{5}{2}R+R=\\frac{7}{2}R$ </p>\n<p>The heat supplied at constant pressure is</p>\n<p> $\\Delta Q=nC_{p}\\Delta T=\\frac{7}{2}nR\\Delta T$ </p>\n<p>The change in internal energy is</p>\n<p> $\\Delta U=nC_{v}\\Delta T=\\frac{5}{2}nR\\Delta T$ </p>\n<p>The work done at constant pressure is</p>\n<p> $\\Delta W=P\\Delta V$ </p>\n<p>From ideal gas equation,</p>\n<p> $PV=nRT \\rightarrow P\\Delta V=nR\\Delta T$ </p>\n<p>So, the work done at constant pressure is</p>\n<p> $\\Delta W=P\\Delta V=nR\\Delta T=\\frac{2}{2}nR\\Delta T$ </p>\n<p>So, the ratio  $\\Delta Q:\\Delta U:\\Delta W$  is:</p>\n<p> $\\frac{7}{2}:\\frac{5}{2}:\\frac{2}{2} \\rightarrow 7:5:2$ </p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "f=5",
@@ -630,7 +631,8 @@
         "\\Delta W=P\\Delta V"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes",
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:46.795375"
     },
@@ -678,7 +680,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "(V-2)^{2}=4ap",
@@ -688,7 +690,7 @@
         "Area(CA)=p \\times \\Delta V=\\frac{1}{4}a \\times (3-1)=\\frac{2}{4a}=\\frac{1}{2a}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:48.505384"
     },
@@ -736,7 +738,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "17cm^{2}",
@@ -747,7 +749,7 @@
         "=\\Delta Q=126J"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:50.101122"
     },
@@ -793,7 +795,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>It is given that there is no exchange of heat in this process, which means  $\\Delta Q=0$ , i.e., this is an adiabatic process.</p>\n<p>For an ideal gas undergoing a reversible adiabatic process, the relationship between Temperature (T) and Volume (V) is given by the equation:</p>\n<p> $T \\cdot V^{\\gamma-1}=\\text{constant}$ </p>\n<p>Where  $\\gamma$  is the adiabatic index or the ratio of specific heats  $(\\frac{C_{p}}{C_{v}})$ . This  $\\gamma$  value is different depending atomicity of the gases (monoatomic, diatomic, polyatomic).</p>\n<p> $T_{1} \\cdot V_{1}^{\\gamma-1}=T_{2} \\cdot V_{2}^{\\gamma-1}$ </p>\n<p>Final volume  $(V_{2})$  is 8 times the initial volume  $(V_{1}) \\Rightarrow V_{2}=8V_{1}$ </p>\n<p>Final temperature  $(T_{2})$  is  $(\\frac{1}{4})^{\\text{th}}$  the initial temperature  $(T_{1}) \\Rightarrow T_{2}=\\frac{T_{1}}{4}$ </p>\n<p> $T_{1} \\cdot V_{1}^{\\gamma-1}=(\\frac{T_{1}}{4}) \\cdot (8V_{1})^{\\gamma-1}$ </p>\n<p> $\\Rightarrow$   $V_{1}^{\\gamma-1}=\\frac{1}{4} \\cdot 8^{\\gamma-1} \\cdot V_{1}^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 1=\\frac{1}{4} \\cdot 8^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 4=8^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 2^{2}=2^{3(\\gamma-1)}$ </p>\n<p><p><p> $\\Rightarrow 2=3(\\gamma-1)$  $2=3\\gamma-3$ </p>\n<p> $\\Rightarrow 5=3\\gamma$ </p>\n<p> $\\Rightarrow \\gamma=\\frac{5}{3}$ </p>\n<p>The value of  $\\gamma$  is directly related to the degrees of freedom (f) of the gas molecules by the formula :</p>\n<p> $\\gamma=1+\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{5}{3}=1+\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{5}{3}-1=\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{2}{3}=\\frac{2}{f}$ </p>\n<p> $\\Rightarrow f=3$ </p>\n<p>A gas with 3 degrees of freedom (all translational, no rotational or vibrational modes activated) is a monoatomic gas.</p>\n<p> $NH_{3}$  (Ammonia) is polyatomic molecule (non-linear).</p>\n<p> $O_{2}$  (Oxygen) is a diatomic molecule.</p>\n<p> $CO_{2}$  (Carbon Dioxide) is polyatomic molecule (linear).</p>\n<p>He (Helium) is a noble gas, exists as single atoms. It is a monoatomic gas. Therefore, the given gas is a monoatomic gas (He). </p>\n<p>Hence, the correct option is (D).</p></p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "(1/4)^{\\text{th}}",
@@ -804,7 +806,8 @@
         "T_{1} \\cdot V_{1}^{\\gamma-1}=T_{2} \\cdot V_{2}^{\\gamma-1}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes",
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:52.444966"
     },
@@ -852,7 +855,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -863,7 +866,7 @@
         "\\gamma=\\frac{C_{P}}{C_{V}}=1.5"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:42.199144"
     },
@@ -909,7 +912,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Internal energy (  $U$  ) of an ideal gas depends only on temperature. The change in internal energy for any process is given by:</p>\n<p> $\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})$ </p>\n<p>According to Mayer's relation,  $C_{p}-C_{v}=R$ .</p>\n<p> $\\frac{C_{p}}{C_{v}}-1=\\frac{R}{C_{v}}$ </p>\n<p>Since  $\\gamma=\\frac{C_{p}}{C_{v}}$ , then  $\\gamma-1=\\frac{R}{C_{v}} \\Rightarrow C_{v}=\\frac{R}{\\gamma-1}$ .</p>\n<p>Substituting  $C_{v}$  back into the  $\\Delta U$  equation:</p>\n<p> $\\Delta U=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ </p>\n<p>Thus, Statement I is true.</p>\n<p>From the law of equipartition of energy, the molar specific heat at constant volume is  $C_{v}=\\frac{f}{2}R$ , where  $f$  is the degree of freedom.</p>\n<p>Using  $C_{p}=C_{v}+R=\\frac{f}{2}R+R=R(1+\\frac{f}{2})$ .</p>\n<p>The ratio  $\\gamma=\\frac{C_{p}}{C_{v}}=\\frac{R(1+\\frac{f}{2})}{(f/2)R}=\\frac{1+f/2}{f/2}=\\frac{2}{f}+1$ .</p>\n<p>So,  $\\gamma=1+2$  f.</p>\n<p>Thus, Statement II is true.</p>\n<p>Statement II is the definition of  $\\gamma$  in terms of degrees of freedom, but Statement I is based on Mayer's relation which is the definition of  $C_{v}$ , i.e., not directly from the degrees of freedom.</p>\n<p>Therefore, both A and R are true but R is the correct explanation of A . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})",
@@ -920,7 +923,8 @@
         "C_{v}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes",
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:43.819695"
     },
@@ -966,7 +970,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The ideal gas law is given by:  $PV=nRT \\Rightarrow n=\\frac{PVR}{T}$ </p>\n<p>Where R is the universal gas constant.</p>\n<p>For the first gas :  $n_{1}=\\frac{P_{1}V_{1}R}{T_{1}}$ </p>\n<p>For the second gas :  $n_{2}=\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p>When the gases are mixed, the total number of moles  $n$  is the sum of the individual moles :</p>\n<p> $n=n_{1}+n_{2}$ </p>\n<p>Using the ideal gas law for the final mixture (pressure P , volume V , and temperature T ) :</p>\n<p> $\\frac{PVR}{T}=\\frac{P_{1}V_{1}R}{T_{1}}+\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p> $\\begin{aligned} \\frac{PV}{T}=\\frac{P_{1}V_{1}}{T_{1}}+\\frac{P_{2}V_{2}}{T_{2}} \\\\ \\frac{PV}{T}=\\frac{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}{T_{1}T_{2}} \\\\ \\frac{T}{PV}=\\frac{T_{1}T_{2}}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\\\ T=\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\end{aligned}$ </p>\n<p>Therefore, the temperature of the mixture of two gases is  $\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}$ . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "n_{1}",
@@ -977,7 +981,7 @@
         "T_{2}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:45.217079"
     },
@@ -1023,7 +1027,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The diameter of molecule is,  $d=5 \\times 10^{-10}m$ </p>\n<p>Temperature,  $T41^{\\circ}C=(41+273)K=314K$ </p>\n<p>Pressure,  $P=1.38 \\times 10^{5}Pa$ </p>\n<p>Boltzmann constant,  $k_{B}=1.38 \\times 10^{-23}J/K$ </p>\n<p>The standard formula for the mean free path  $\\lambda$  is:</p>\n<p> $\\lambda=\\frac{k_{B}T}{\\sqrt{2}\\pi d^{2}P}$ </p>\n<p>Substituting the values,</p>\n<p> $\\lambda=\\frac{(1.38 \\times 10^{-23}) \\times 314}{\\sqrt{2} \\times \\pi \\times (5 \\times 10^{-10})^{2} \\times (1.38 \\times 10^{5})}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{10^{-23} \\times 314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-20} \\times 10^{5}}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-8}}$ </p>\n<p>Using  $\\pi \\approx 3.14$  :</p>\n<p> $\\lambda=\\frac{314}{\\sqrt{2} \\times 3.14 \\times 25 \\times 10^{-8}}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{4}{\\sqrt{2}} \\times 10^{-8}=2\\sqrt{2} \\times 10^{-8}m$ </p>\n<p>Hence, the correct option is D.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "5 \\times 10^{-10}",
@@ -1034,7 +1038,7 @@
         "T41^{\\circ}C=(41+273)K=314K"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:46.866414"
     },
@@ -1083,7 +1087,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png"
       ],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "P_{1}",
@@ -1094,7 +1098,7 @@
         "V_{1}=1m^{3}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:48.564097"
     },
@@ -1140,7 +1144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Initial state (at the bottom)</p>\n<p>Volume  $=V_{1}=2.9cm^{3}$ </p>\n<p>Temperature  $=T_{1}=17^{\\circ}C=17+273=290K$ </p>\n<p>Pressure  $=P_{1}$ </p>\n<p>Total pressure at the bottom is atmospheric pressure  $(P_{0})$  plus the hydrostatic pressure  $(h\\rho g)$ .</p>\n<p> $P_{1}=10^{5}+10^{3} \\times 10 \\times 5=1.5 \\times 10^{5}Pa$ </p>\n<p>Final state (at the surface)</p>\n<p>Temperature  $=T_{2}=27^{\\circ}C=27+273=300K$ </p>\n<p>Pressure  $=P_{2}=P_{0}$  (Only atmospheric pressure acts at the surface.)</p>\n<p> $P_{2}=10^{5}Pa$ </p>\n<p>According to the Ideal Gas Law :</p>\n<p> $\\frac{P_{1}V_{1}}{T_{1}}=\\frac{P_{2}V_{2}}{T_{2}}$ </p>\n<p> $\\Rightarrow$   $\\frac{(1.5 \\times 10^{5}) \\times 2.9}{290}=\\frac{(10^{5}) \\times V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $\\frac{1.5 \\times 2.9}{290}=\\frac{V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $V_{2}=\\frac{1.5 \\times 2.9 \\times 300}{290}$ </p>\n<p> $\\Rightarrow$   $V_{2}=4.5cm^{3}$ </p>\n<p>So, as the bubble rises, the external pressure decreases significantly while the temperature increases slightly. Both factors contribute to the expansion of the air bubble, resulting in a final volume of  $4.5cm^{3}$ . \n<br/><br/>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "2.9cm^{3}",
@@ -1151,7 +1155,7 @@
         "g=10m/s^{2}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:50.195099"
     },
@@ -1197,7 +1201,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the Kinetic Theory of Gases, the r.m.s speed of an ideal gas is given by :</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where T is the absolute temperature and M is the molecular mass (in kg ).</p>\n<p>It is given that the r.m.s. speed of oxygen  $(O_{2})$  at  $T_{O_{2}}$  is equal to the r.m.s. speed of hydrogen  $(H_{2})$  at  $T_{H_{2}}$ .</p>\n<p> $V_{rms(O_{2})}=V_{rms(H_{2})}$ </p>\n<p> $\\Rightarrow$   $\\sqrt{\\frac{3RT_{O_{2}}}{M_{O_{2}}}}=\\sqrt{\\frac{3RT_{H_{2}}}{M_{H_{2}}}}$ </p>\n<p> $\\Rightarrow$   $\\frac{T_{O_{2}}}{M_{O_{2}}}=\\frac{T_{H_{2}}}{M_{H_{2}}}$ </p>\n<p>Temperature of oxygen is  $T_{O_{2}}=47+273=320K$ .</p>\n<p>Molar masses are  $M_{O_{2}}=32 \\times 10^{-3}kg$  and  $M_{H_{2}}=2 \\times 10^{-3}kg$ .</p>\n<p> $\\frac{320}{32}=\\frac{T_{H_{2}}}{2}$ </p>\n<p> $\\Rightarrow$   $10=\\frac{T_{H_{2}}}{2} \\Rightarrow T_{H_{2}}=20K$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=20-273$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=-253^{\\circ}C$ </p>\n<p>Therefore, the rms speed of oxygen molecules at  $47^{\\circ}C$  is equal to that of the hydrogen molecules kept at  $-253^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{rms}=\\sqrt{\\frac{3RT}{M}}",
@@ -1208,7 +1212,7 @@
         "V_{rms(O_{2})}=V_{rms(H_{2})}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:52.538206"
     },
@@ -1254,7 +1258,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The internal energy  $(U)$  of  $n$  moles of an ideal gas at temperature  $T$  is given by  $U=nC_{v}T$ , where  $C_{v}$  is the molar specific heat at constant volume.</p>\n<p>For the mixture, total initial internal energy  $U_{\\text{initial}}=U_{1}+U_{2}$ </p>\n<p>Total final internal energy  $U_{\\text{final}}=(n_{1}+n_{2})C_{v,\\text{mix}}T_{\\text{mix}}$ </p>\n<p>Since both gases are monoatomic, their molar specific heats are the same,</p>\n<p> $C_{v1}=C_{v2}=C_{v,mix}=\\frac{3}{2}R$ </p>\n<p>Therefore, using conservation of energy (total initial internal energy is equal to final internal energy).</p>\n<p> $n_{1}C_{v}T_{1}+n_{2}C_{v}T_{2}=(n_{1}+n_{2})C_{v}T_{mix}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{n_{1}T_{1}+n_{2}T_{2}}{(n_{1}+n_{2})}$ </p>\n<p>Moles of first gas is  $n_{1}=2$ </p>\n<p>Temperature of first gas is  $T_{1}=T$ </p>\n<p>Moles of second gas  $n_{2}=6$ </p>\n<p>Temperature of second gas  $T_{2}=2T$ </p>\n<p>On substituting the values into expression for the temperature of mixture,</p>\n<p> $T_{mix}=\\frac{(2 \\times T)+(6 \\times 2T)}{2+6}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{2T+12T}{8}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{14T}{8}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{7}{4}T$ </p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "U_{\\text{initial}}=U_{1}+U_{2}",
@@ -1265,7 +1269,7 @@
         "n_{1}=2"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:42.307702"
     },
@@ -1311,7 +1315,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The Zeroth Law states that if two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other, i.e., the Zeroth law gives idea about the property of temperature to be measured. Hence, statement A is true.</p>\n<p>The First Law is the mathematical relation between heat (  $\\Delta Q$  ), change in internal energy (  $\\Delta U$  ) and work done by the system (  $\\Delta W$  )</p>\n<p> $\\Delta Q=\\Delta U+\\Delta W$ </p>\n<p>This relation introduces internal energy (  $U$  ) as a state function which is based on energy conservation. Hence, statement B is true.</p>\n<p>In an isothermal expansion of an ideal gas, temperature remains constant, so  $\\Delta U=0$ .</p>\n<p>From the First Law:  $\\Delta Q=\\Delta U+\\Delta W \\Rightarrow \\Delta Q=0+\\Delta W \\Rightarrow \\Delta Q=\\Delta W$ .</p>\n<p>But as per statement  $C$ , in isothermal process  $\\Delta Q \\ne \\Delta W$ , so statement  $C$  is False.</p>\n<p>Intensive variables are the properties which do not depend on size, for example temperature and pressure.</p>\n<p>Extensive variables are the properties depend on size, for example volume.</p>\n<p>The product of intensive and extensive property  $P \\times V$  represents work or energy, which depends with the size of the system. Therefore, the product is extensive.</p>\n<p>When an extensive variable (like volume or heat capacity) is divided by mass, it becomes a specific quantity (like specific volume or specific heat). Specific quantities are intensive because they do not depend on the total mass of the system. Statement E says it remains extensive, so it is False.</p>\n<p>Therefore, only A, B, and D are correct. Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta Q=\\Delta U+\\Delta W",
@@ -1319,7 +1323,7 @@
         "P \\times V"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:43.877910"
     },
@@ -1365,7 +1369,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From the ideal gas law</p>\n<p> $PV=nRT \\Rightarrow T=\\frac{PV}{nR}$ </p>\n<p>The process for the given gas is  $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ </p>\n<p>Substituting the given expression for P :</p>\n<p> $P=\\frac{P_{0}}{1+\\frac{V_{0}^{2}}{V^{2}}}=\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}}$ </p>\n<p>Now, substituting this P into the temperature equation :</p>\n<p> $T=\\frac{1}{nR}(\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}})V=\\frac{P_{0}V^{3}}{nR(V^{2}+V_{0}^{2})}$ </p>\n<p>For sample A , the volume is  $V_{A}=V_{0}$  and the number of moles  $n=2$ .</p>\n<p> $T_{A}=\\frac{P_{0}(V_{0})^{3}}{2R(V_{0}^{2}+V_{0}^{2})}=\\frac{P_{0}V_{0}^{3}}{2R(2V_{0}^{2})}=\\frac{P_{0}V_{0}}{4R}$ </p>\n<p>For sample B , the volume is  $V_{B}=3V_{0}$  and  $n=2$ .</p>\n<p> $T_{B}=\\frac{P_{0}(3V_{0})^{3}}{2R((3V_{0})^{2}+V_{0}^{2})}=\\frac{P_{0}(27V_{0}^{3})}{2R(9V_{0}^{2}+V_{0}^{2})}=\\frac{27P_{0}V_{0}^{3}}{2R(10V_{0}^{2})}=\\frac{27P_{0}V_{0}}{20R}$ </p>\n<p>So, the temperature difference is,</p>\n<p> $T_{B}-T_{A}=\\frac{27P_{0}V_{0}}{20R}-\\frac{P_{0}V_{0}}{4R}$ </p>\n<p> $\\Rightarrow$   $T_{B}-T_{A}=\\frac{27P_{0}V_{0}-5P_{0}V_{0}}{20R}=\\frac{22P_{0}V_{0}}{20R}=\\frac{11P_{0}V_{0}}{10R}$ </p>\n<p>Therefore, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}",
@@ -1375,7 +1379,7 @@
         "____"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:45.267428"
     },
@@ -1421,7 +1425,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the correct graph, we must analyse the phase changes and temperature changes that occur when heat is supplied to water starting from  $-20^{\\circ}C$ .</p>\n<p><b>Step 1 :</b> Heating Ice (  $-20^{\\circ}C$  to  $0^{\\circ}C$  )</p>\n<p>Initially, the substance is ice. As heat is supplied, the temperature of the ice increases linearly from  $-20^{\\circ}C$  to 0  $^{\\circ}C$ . This is represented by a sloping line on the graph.</p>\n<p> $Q_{1}=m_{\\text{ice}}c_{\\text{ice}}(T+20)$ </p>\n<p><b>Step 2 :</b> Melting (Phase Change at  $0^{\\circ}C$  )</p>\n<p>At  $0^{\\circ}C$ , the ice begins to melt into water. During a phase change, the temperature remains constant even as heat is added (latent heat of fusion). This is represented by a horizontal line at  $0^{\\circ}C$ .</p>\n<p> $Q_{2}=m_{ice}L_{f}$ </p>\n<p><b>Step 3 :</b> Heating Liquid Water (  $0^{\\circ}C$  to  $100^{\\circ}C$  )</p>\n<p>Once all the ice has melted, further heat increases the temperature of the liquid water linearly from  $0^{\\circ}C$  up to its boiling point at  $100^{\\circ}C$ . This is another sloping line.</p>\n<p> $Q_{3}=m_{\\text{water}}c_{\\text{water}}T$ </p>\n<p><b>Step 4 :</b> Boiling (Phase Change at  $100^{\\circ}C$  )</p>\n<p>At  $100^{\\circ}C$ , the water begins to turn into steam. The temperature stays constant during this process (latent heat of vaporization). This is represented by a second horizontal line at  $100^{\\circ}C$ .</p>\n<p> $Q_{4}=m_{\\text{water}}L_{v}$ </p>\n<p><b>Step 5 :</b> Heating Steam (  $100^{\\circ}C$  to  $120^{\\circ}C$  )</p>\n<p>After all the water has turned into steam, the temperature of the steam increases from  $100^{\\circ}C$  toward  $120^{\\circ}C$ . This is represented by a final sloping line.</p>\n<p> $Q_{5}=m_{\\text{vapour}}C_{\\text{vapour}}(T-100)$ </p>\n<p>So, the correct graph must show :</p>\n<ol>\n<li>1. A start point below  $0^{\\circ}C$  (at  $-20^{\\circ}C$  ).</li>\n</ol>\n<ol start=\"2\">\n<li><p>2. A horizontal plateau at  $0^{\\circ}C$  (melting).</p></li>\n<li><p>3. A horizontal plateau at  $100^{\\circ}C$  (boiling).</p></li>\n</ol>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "-20^{\\circ}C",
@@ -1432,7 +1436,7 @@
         "Q_{2}=m_{ice}L_{f}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:46.933335"
     },
@@ -1478,7 +1482,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Heat supplied to water:</p>\n<p> $Q=mc\\Delta T$ </p>\n<p>Here,  $m=4\\text{kg}$ ,  $c=4.2 \\times 10^{3}\\text{J kg}^{-1}\\text{K}^{-1}$ , and  $\\Delta T=20-4=16\\text{K}$ .</p>\n<p>So,</p>\n<p> $Q=4 \\times 4.2 \\times 10^{3} \\times 16=268800\\text{J}$ </p>\n<p>Since heating is done at atmospheric pressure, water expands and does work:</p>\n<p> $W=P\\Delta V$ </p>\n<p>Initial volume:</p>\n<p> $V_{1}=\\frac{m}{\\rho_{1}}=\\frac{4}{1000}=0.004\\text{m}^{3}$ </p>\n<p>Final volume:</p>\n<p> $V_{2}=\\frac{m}{\\rho_{2}}=\\frac{4}{998}=0.004008016\\text{m}^{3}$ </p>\n<p>Change in volume:</p>\n<p> $\\Delta V=V_{2}-V_{1}=0.004008016-0.004=8.016 \\times 10^{-6}\\text{m}^{3}$ </p>\n<p>Work done:</p>\n<p> $W=10^{5} \\times 8.016 \\times 10^{-6}=0.8016\\text{J}$ </p>\n<p>By first law of thermodynamics,</p>\n<p> $\\Delta U=Q-W=268800-0.8016=268799.1984\\text{J} \\approx 268799.2\\text{J}$ </p>\n<p><strong>Correct option: A (268799.2 J)</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "4^{\\circ}C",
@@ -1489,7 +1493,7 @@
         "=4.2J/kg"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:48.630872"
     },
@@ -1535,7 +1539,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For an ideal gas, the collision frequency of a molecule is given by the kinetic theory of gases :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n$ </p>\n<p>Where :</p>\n<ul>\n<li><p>d is the molecular diameter (or size).</p></li>\n<li><p> $V_{\\text{avg}}$  is the average speed of the gas molecules.</p></li>\n<li><p>n is the number density (number of molecules per unit volume).</p></li>\n</ul>\n<p>The average speed  $(v_{\\text{avg}})$  of gas molecules depends on the absolute temperature ( T ) and the mass of a single molecule (m) according to the formula :</p>\n<p> $v_{avg}=\\sqrt{\\frac{8kT}{\\pi m}}$ </p>\n<p>Where k is the Boltzmann constant.</p>\n<p>Substituting this into the collision frequency formula gives :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}(\\sqrt{\\frac{8kT}{\\pi m}})n$ </p>\n<p>It is given that the temperatures (T), pressures, and number densities (n) are exactly the same for both gases A and B.</p>\n<p> $Z∝\\frac{d^{2}}{\\sqrt{m}}$ </p>\n<p> $\\Rightarrow \\frac{Z_{A}}{Z_{B}}=(\\frac{d_{A}}{d_{B}})^{2} \\times \\sqrt{\\frac{m_{B}}{m_{A}}}$ </p>\n<p>Molecular size of A is half that of  $B \\Rightarrow d_{A}=\\frac{1}{2}d_{B} \\Rightarrow \\frac{d_{A}}{d_{B}}=\\frac{1}{2}$ </p>\n<p>Mass of molecule A is four times that of  $B \\Rightarrow m_{A}=4m_{B} \\Rightarrow \\frac{m_{B}}{m_{A}}=\\frac{1}{4}$ .</p>\n<p>Collision frequency in gas B is  $Z_{B}=32 \\times 10^{18}/s$ .</p>\n<p> $\\frac{Z_{A}}{Z_{B}}=(\\frac{1}{2})^{2} \\times \\sqrt{\\frac{1}{4}}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{4} \\times \\frac{1}{2}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{8} \\Rightarrow Z_{A}=\\frac{Z_{B}}{8}=\\frac{32 \\times 10^{18}}{8}=4 \\times 10^{18}/s$ </p>\n\nSo, the collision frequency in gas A is  $4 \\times 10^{18}/s$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n",
@@ -1546,7 +1550,7 @@
         "Z∝\\frac{d^{2}}{\\sqrt{m}}"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:50.326691"
     },
@@ -1592,7 +1596,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The heat energy ( Q ) required to raise the temperature of a mass ( m ) is given by  $Q=mc\\Delta T$ </p>\n<p>Where c is the specific heat capacity and  $\\Delta T$  is the change in temperature.</p>\n<p>Temperature change is  $\\Delta T=87^{\\circ}C-27^{\\circ}C=60^{\\circ}C$ </p>\n<p>Specific heat is  $c=4200J/kg^{\\circ}C$ .</p>\n<p>The heat required per unit time is  $P_{req}=\\frac{dQ}{dt}=\\frac{dm}{dt} \\cdot c \\cdot \\Delta T$ </p>\n<p>Water flows at 5.0 litres  $/min$ .</p>\n<p>Since the density of water is  $1kg/L$ , the mass flow rate is  $5.0=\\frac{5.0}{60}kg/sec$ </p>\n<p> $P_{req}=(\\frac{5.0}{60}) \\times 4200 \\times 60\\frac{J}{s}=21000J/s$ </p>\n<p>Let the rate of consumption of gas be  $Rg/s$ .</p>\n<p>The heat produced per second is,</p>\n<p> $P_{\\text{prod}}=R \\times H$ </p>\n<p>Given heat of combustion of gas  $H=5.0 \\times 10^{4}J/g$ </p>\n<p> $P_{\\text{prod}}=R \\times 50000J/s$ </p>\n<p>Assuming 100% efficiency (because no heat loss is given),  $P_{\\text{prod}}=P_{\\text{req}}$ </p>\n<p> $R \\times 50000=21000$ </p>\n<p> $\\Rightarrow R=\\frac{21000}{50000}=0.42g/s$ </p>\n<p>Therefore, the gas must be consumed at a rate of  $0.42g/s$  to maintain the temperature rise. </p>\n<p>Hence, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "topic_tag": "Carnot Engine & Second Law Efficiency",
       "difficulty": "Medium",
       "key_formulas": [
         "27^{\\circ}C",
@@ -1603,7 +1607,7 @@
         "Q=mc\\Delta T"
       ],
       "key_concepts": [
-        "Heat And Thermodynamics - Core Application"
+        "Carnot Engine & Second Law Efficiency"
       ],
       "crawled_at": "2026-09-20T15:54:52.628117"
     }

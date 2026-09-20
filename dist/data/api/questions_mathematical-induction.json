@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $A=[\\begin{aligned} 1 &amp; 0 \\\\ 1 &amp; 1 \\end{aligned}]$ \n<br/><br/> $\\therefore$   $A \\times A$  =  $A^{2}$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ 2 &amp; 1 \\end{aligned}]$ \n<br/><br/>and  $A^{3}$  =  $A^{2} \\times A$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ 3 &amp; 1 \\end{aligned}]$ \n<br/><br/>So we can say  $A^{n}$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ n &amp; 1 \\end{aligned}]$ \n<br/><br/>Now  $nA-(n-1)I$ \n<br/><br/>=  $[\\begin{aligned} n &amp; 0 \\\\ n &amp; n \\end{aligned}]$  -  $[\\begin{aligned} n-1 &amp; 0 \\\\ 0 &amp; n-1 \\end{aligned}]$ \n<br/><br/>=  $[\\begin{aligned} 1 &amp; 0 \\\\ n &amp; 1 \\end{aligned}]$  =  $A^{n}$ \n<br/><br/> $\\therefore$   $A^{n}=nA-(n-1)I$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Induction - Core Application",
+      "topic_tag": "Mathematical Induction — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 1 & 0 \\\\ 1 & 1 \\end{aligned}]",
@@ -55,7 +55,7 @@
         "A^{2} \\times A"
       ],
       "key_concepts": [
-        "Mathematical Induction - Core Application"
+        "Mathematical Induction — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:54.416940"
     },
@@ -101,14 +101,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $S(K)$   $=1+3+5...+(2K-1)=3+K^{2}$ \n<br/><br/>When k = 1, S(1): 1 = 3 + 1, \n<br/><br/>L.H.S of S(k)  $\\ne$  R.H.S of S(k)\n<br/><br/>So S(1) is not true.\n<br/><br/>As S(1) is not true so principle of mathematical induction can not be used.\n<br/><br/>S(K+1) = 1 + 3 + 5... + (2K - 1) + (2K + 1) = 3 + (k + 1)<sup>2</sup>\n<br/><br/>Now let S(k) is true\n<br/><br/> $\\therefore$  1 + 3 + 5 +........(2k - 1) = 3 + k<sup>2</sup>\n<br/><br/> $\\Rightarrow$  1 + 3 + 5 +........(2k - 1) + (2k + 1) = 3 + k<sup>2</sup> + 2k +1\n<br/><br/>= 3 + (k + 1)<sup>2</sup>\n<br/><br/> $\\Rightarrow$  S(k + 1) is true.\n<br/><br/> $\\therefore$  S(k)  $\\Rightarrow$  S(k + 1)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Induction - Core Application",
+      "topic_tag": "Mathematical Induction — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "=1+3+5...+(2K-1)=3+K^{2}.",
         "=1+3+5...+(2K-1)=3+K^{2}"
       ],
       "key_concepts": [
-        "Mathematical Induction - Core Application"
+        "Mathematical Induction — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:54.433275"
     },
@@ -154,7 +154,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}$ \n<br/><br/> $\\therefore$   $a_{n}=\\sqrt{7+a_{n}}$ \n<br/><br/> $\\Rightarrow$   $a_{n}^{2}=7+a_{n}$ \n<br/><br/> $\\Rightarrow$   $a_{n}^{2}-a_{n}-7=0$ \n<br/><br/> $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{1-4 \\times 1 \\times -7}}{2}$ \n<br/><br/> $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{29}}{2}$ \n<br/><br/>As  $a_{n}$  &gt; 0, \n<br/><br/> $\\therefore$   $a_{n}=\\frac{1+\\sqrt{29}}{2}$  = 3.19\n<br/><br/>So  $a_{n}&gt;3∀n \\ge 1$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Induction - Core Application",
+      "topic_tag": "Mathematical Induction — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}",
@@ -165,7 +165,7 @@
         "\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{29}}{2}"
       ],
       "key_concepts": [
-        "Mathematical Induction - Core Application"
+        "Mathematical Induction — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:41:54.446594"
     }

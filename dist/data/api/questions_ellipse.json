@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since the ellipse has its major axis along the  $y$ -axis, the denominator under  $y^{2}$  must be bigger than the denominator under  $x^{2}$ .</p>\n<p>So we need</p>\n<p> $f(3a+15)&gt;f(a^{2}+7a+3).$ </p>\n<p>Given that  $f$  is a strictly decreasing positive function, a bigger function value happens when the input is smaller. So,</p>\n<p> $3a+15&lt;a^{2}+7a+3.$ </p>\n<p>Bring all terms to one side:</p>\n<p> $a^{2}+7a+3-3a-15&gt;0$ </p>\n<p> $a^{2}+4a-12&gt;0.$ </p>\n<p>Complete the square:</p>\n<p> $a^{2}+4a-12=(a+2)^{2}-16.$ </p>\n<p>So the inequality becomes</p>\n<p> $(a+2)^{2}-16&gt;0 \\Rightarrow (a+2)^{2}&gt;16.$ </p>\n<p>Taking square roots,</p>\n<p> $|a+2|&gt;4 \\Rightarrow a+2&gt;4\\text{or}a+2&lt;-4.$ </p>\n<p>So,</p>\n<p> $a&gt;2\\text{or}a&lt;-6.$ </p>\n<p>That means the allowed values are</p>\n<p> $a \\in R-[-6,2].$ </p>\n<p>Hence,  $\\alpha=-6$  and  $\\beta=2$ . Therefore,</p>\n<p> $\\alpha^{2}+\\beta^{2}=(-6)^{2}+(2)^{2}=36+4=40.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{f(a^{2}+7a+3)}+\\frac{y^{2}}{f(3a+15)}=1",
@@ -55,7 +55,7 @@
         "(a+2)^{2}-16>0 \\Rightarrow (a+2)^{2}>16."
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.181235"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $a&lt;b$ , the major axis is along the  $y$ -axis. So for the ellipse</p>\n<p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,$ </p>\n<p>we use the eccentricity formula</p>\n<p> $e=\\sqrt{1-\\frac{a^{2}}{b^{2}}}.$ </p>\n<p>Given</p>\n<p> $e=\\frac{\\sqrt{5}}{3},$ </p>\n<p>so</p>\n<p> $e^{2}=\\frac{5}{9}.$ </p>\n<p>Hence,</p>\n<p> $1-\\frac{a^{2}}{b^{2}}=\\frac{5}{9}$ </p>\n<p>which gives</p>\n<p> $\\frac{a^{2}}{b^{2}}=1-\\frac{5}{9}=\\frac{4}{9}.$ </p>\n<p>Therefore,</p>\n<p> $a^{2}=\\frac{4}{9}b^{2}.$ </p>\n<p>Now the ellipse passes through  $(4,3)$ , so it satisfies the equation:</p>\n<p> $\\frac{4^{2}}{a^{2}}+\\frac{3^{2}}{b^{2}}=1.$ </p>\n<p>That is,</p>\n<p> $\\frac{16}{a^{2}}+\\frac{9}{b^{2}}=1.$ </p>\n<p>Substitute  $a^{2}=\\frac{4}{9}b^{2}$ :</p>\n<p> $\\frac{16}{\\frac{4}{9}b^{2}}+\\frac{9}{b^{2}}=1.$ </p>\n<p>Simplifying,</p>\n<p> $16 \\cdot \\frac{9}{4b^{2}}+\\frac{9}{b^{2}}=1$ </p>\n<p> $\\frac{36}{b^{2}}+\\frac{9}{b^{2}}=1$ </p>\n<p> $\\frac{45}{b^{2}}=1$ </p>\n<p>so</p>\n<p> $b^{2}=45.$ </p>\n<p>Then</p>\n<p> $a^{2}=\\frac{4}{9} \\cdot 45=20.$ </p>\n<p>For an ellipse with major axis along the  $y$ -axis, the length of latus rectum is</p>\n<p> $\\frac{2a^{2}}{b}.$ </p>\n<p>So,</p>\n<p> $\\text{Length of latus rectum}=\\frac{2 \\cdot 20}{\\sqrt{45}}=\\frac{40}{3\\sqrt{5}}.$ </p>\n<p>Rationalising,</p>\n<p> $\\frac{40}{3\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}}=\\frac{8\\sqrt{5}}{3}.$ </p>\n<p>Therefore, the correct answer is</p>\n<p> $\\frac{8\\sqrt{5}}{3}$ </p>\n<p>So, Option D is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -112,7 +112,7 @@
         "a^{2}=\\frac{4}{9} \\cdot 45=20."
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.831966"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the given ellipses be :</p>\n<p> $\\begin{aligned} &amp; S_{1} \\equiv x^{2}+2y^{2}-6x-12y+23=0 \\\\ &amp; S_{2} \\equiv 4x^{2}+2y^{2}-20x-12y+35=0 \\end{aligned}$ </p>\n<p>The equation of a curve passing through the intersection of these two ellipses is given by the family of curves  $S_{1}+\\lambda S_{2}=0$  :</p>\n<p> $(x^{2}+2y^{2}-6x-12y+23)+\\lambda(4x^{2}+2y^{2}-20x-12y+35)=0$ </p>\n<p> $\\Rightarrow$  $(1+4\\lambda)x^{2}+(2+2\\lambda)y^{2}-(6+20\\lambda)x-(12+12\\lambda)y+(23+35\\lambda)=0$ </p>\n<p>Condition for circle: coefficient of  $x^{2}=$  coefficient of  $y^{2}$ </p>\n<p> $1+4\\lambda=2+2\\lambda$ </p>\n<p> $\\Rightarrow$   $2\\lambda=1$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{1}{2}$ </p>\n<p>Substitute  $\\lambda=\\frac{1}{2}$  :</p>\n<p> $3x^{2}+3y^{2}-16x-18y+\\frac{81}{2}=0$ </p>\n<p> $\\Rightarrow$   $x^{2}+y^{2}-\\frac{16}{3}x-6y+\\frac{27}{2}=0$ </p>\n<p> $\\begin{aligned} &amp; 2g=-\\frac{16}{3}⟹g=-\\frac{8}{3} \\\\ &amp; 2f=-6⟹f=-3 \\\\ &amp; \\text{Centre}(a,b)=(-g,-f)=(\\frac{8}{3},3) \\\\ &amp; a=\\frac{8}{3},b=3 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; r^{2}=g^{2}+f^{2}-c \\\\ &amp; r^{2}=(-\\frac{8}{3})^{2}+(-3)^{2}-\\frac{27}{2} \\\\ &amp; r^{2}=\\frac{64}{9}+9-\\frac{27}{2} \\\\ &amp; r^{2}=\\frac{128+162-243}{18} \\\\ &amp; r^{2}=\\frac{47}{18} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; ab+18r^{2}=(\\frac{8}{3})(3)+18(\\frac{47}{18}) \\\\ &amp; ab+18r^{2}=8+47=55 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+2y^{2}-6x-12y+23=0",
@@ -169,7 +169,7 @@
         "2\\lambda=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:44.420898"
     },
@@ -196,7 +196,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mozykyyo/ab058528-d4c1-4d6c-bdeb-3e4f1f4a7dea/45010000-4c89-11f1-8557-21d2ff4ed907/file-6y3zli1mozykyyp.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}+y^{2}=36",
@@ -207,7 +207,7 @@
         "2a=12 \\therefore a=6"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.155484"
     },
@@ -253,14 +253,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since the centre of the ellipse is at the origin and one directrix is  $x=9$ , the major axis is along the  $x$ -axis.</p>\n<p>Let the ellipse be</p>\n<p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>with eccentricity</p>\n<p> $e=\\frac{1}{3}$ </p>\n<p>For an ellipse with major axis along the  $x$ -axis, the directrices are</p>\n<p> $x= \\pm \\frac{a}{e}$ </p>\n<p>Given one directrix is  $x=9$ , so</p>\n<p> $\\frac{a}{e}=9$ </p>\n<p>Since  $e=\\frac{1}{3}$ ,</p>\n<p> $a=9 \\cdot \\frac{1}{3}=3$ </p>\n<p>Also,</p>\n<p> $c=ae=3 \\cdot \\frac{1}{3}=1$ </p>\n<p>So the focus  $P(\\alpha,0)$  is</p>\n<p> $P=(1,0)$ </p>\n<p>Hence  $\\alpha=1$ .</p>\n<p>Now,</p>\n<p> $b^{2}=a^{2}(1-e^{2})=9(1-\\frac{1}{9})=9 \\cdot \\frac{8}{9}=8$ </p>\n<p>Therefore the ellipse is</p>\n<p> $\\frac{x^{2}}{9}+\\frac{y^{2}}{8}=1$ </p>\n<p>Let the midpoint of chord  $AB$  passing through the focus  $(1,0)$  be  $(ℎ,k)$ .</p>\n<p>For the ellipse</p>\n<p> $\\frac{x^{2}}{9}+\\frac{y^{2}}{8}=1$ </p>\n<p>the equation of the chord whose midpoint is  $(ℎ,k)$  is given by the NCERT midpoint formula:</p>\n<p> $\\frac{xx_{1}}{9}+\\frac{yy_{1}}{8}=\\frac{x_{1}^{2}}{9}+\\frac{y_{1}^{2}}{8}$ </p>\n<p>So here the chord with midpoint  $(ℎ,k)$  is</p>\n<p> $\\frac{xℎ}{9}+\\frac{yk}{8}=\\frac{ℎ^{2}}{9}+\\frac{k^{2}}{8}$ </p>\n<p>Since this chord passes through the focus  $(1,0)$ , substitute  $(x,y)=(1,0)$ :</p>\n<p> $\\frac{ℎ}{9}=\\frac{ℎ^{2}}{9}+\\frac{k^{2}}{8}$ </p>\n<p>Multiply by  $72$ :</p>\n<p> $8ℎ=8ℎ^{2}+9k^{2}$ </p>\n<p>So,</p>\n<p> $9k^{2}=8ℎ-8ℎ^{2}=8ℎ(1-ℎ)$ </p>\n<p>Replacing  $(ℎ,k)$  by  $(x,y)$  for the locus of the midpoint, we get</p>\n<p> $9y^{2}=8x(1-x)$ </p>\n<p>Hence the required locus is</p>\n<p> $9y^{2}=8x(1-x)$ </p>\n<p>So the correct option is <strong>A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x=9",
         "\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.224128"
     },
@@ -308,7 +308,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1ml9qr5ll/b14536b4-fd29-4de0-b564-df552e4c4621/a0ee67a0-02b9-11f1-8fa0-137898af0656/file-jaoe38c1ml9qr5lm.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "2^{2}=4^{2}-b^{2}",
@@ -319,7 +319,7 @@
         "=\\frac{2(12)}{4}=6"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.859326"
     },
@@ -367,7 +367,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mu29z9d4/f404dfda-f5ed-421b-89b8-e8e11ec0d4f3/7cfb0a80-b0cc-11f1-9cb4-33d953cbea03/file-6y3zli1mu29z9d5.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "y-x=1",
@@ -378,7 +378,7 @@
         "y=1,-\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:44.467425"
     },
@@ -403,14 +403,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(h,k)$  lie on circle  $x^{2}+y^{2}=1$ .</p>\n<p>so,  $ℎ^{2}+k^{2}=1--$  (1)</p>\n<p> $(2ℎ+1),3k+2)$  lies on ellipse This means  $x=2ℎ+1$  and  $y=3k+2$  lies on ellipse</p>\n<p>Substitute  $h=\\frac{x-1}{2}$  and  $k=\\frac{y-2}{3}$  in equation (1)</p>\n<p> $\\begin{aligned} &amp; (\\frac{x-1}{2})^{2}+(\\frac{y-2}{3})^{2}=1 \\\\ &amp; \\frac{(x-1)^{2}}{4}+\\frac{(y-2)^{2}}{9}=1 \\end{aligned}$ </p>\n<p>This is shifted ellipse of the form  $\\frac{(x-x_{1})^{2}}{-2}+\\frac{(y-y_{1})^{2}}{12}=1a=2,b=3$ </p>\n<p>eccentricity e  $=\\sqrt{1-\\frac{a^{2}}{b^{2}}}=\\sqrt{1-\\frac{4}{9}}=\\sqrt{\\frac{5}{9}}$ </p>\n<p> $e^{2}=\\frac{5}{9}⟹\\frac{5}{e^{2}}=9$  Ans</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "C:x^{2}+y^{2}=4",
         "e^{2}=\\frac{5}{9}⟹\\frac{5}{e^{2}}=9"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.167392"
     },
@@ -456,7 +456,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the ellipse</p>\n<p> $E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>a focus is  $S(4,0)$  and eccentricity is</p>\n<p> $e=\\frac{4}{5}$ </p>\n<p>We need the area of  $△POS$ , where  $P(3,\\alpha)$  lies on the ellipse and  $O=(0,0)$ .</p>\n<p>Since the focus is on the  $x$ -axis, the ellipse has major axis along the  $x$ -axis.</p>\n<p>For such an ellipse, focus is at  $( \\pm ae,0)$ .</p>\n<p>Given one focus is  $(4,0)$ , so</p>\n<p> $ae=4$ </p>\n<p>and  $e=\\frac{4}{5}$ . Therefore,</p>\n<p> $a \\cdot \\frac{4}{5}=4$ </p>\n<p> $a=5$ </p>\n<p>Now,</p>\n<p> $c=ae=4$ </p>\n<p>and for ellipse,</p>\n<p> $b^{2}=a^{2}-c^{2}$ </p>\n<p>So,</p>\n<p> $b^{2}=25-16=9$ </p>\n<p>Hence the ellipse is</p>\n<p> $\\frac{x^{2}}{25}+\\frac{y^{2}}{9}=1$ </p>\n<p>Since  $P(3,\\alpha)$  lies on the ellipse, substitute  $x=3$ :</p>\n<p> $\\frac{3^{2}}{25}+\\frac{\\alpha^{2}}{9}=1$ </p>\n<p> $\\frac{9}{25}+\\frac{\\alpha^{2}}{9}=1$ </p>\n<p> $\\frac{\\alpha^{2}}{9}=1-\\frac{9}{25}=\\frac{16}{25}$ </p>\n<p> $\\alpha^{2}=\\frac{144}{25}$ </p>\n<p> $\\alpha= \\pm \\frac{12}{5}$ </p>\n<p>Now find the area of triangle with vertices</p>\n<p> $O(0,0),P(3,\\alpha),S(4,0)$ </p>\n<p>Using base  $OS$ :</p>\n<p> $OS=4$ </p>\n<p>Since  $OS$  lies on the  $x$ -axis, the height from  $P$  to  $OS$  is  $|\\alpha|$ .</p>\n<p>So area is</p>\n<p> $\\frac{1}{2} \\times 4 \\times |\\alpha|=2|\\alpha|$ </p>\n<p> $=2 \\times \\frac{12}{5}=\\frac{24}{5}$ </p>\n<p>Therefore, the area of  $△POS$  is</p>\n<p> $\\frac{24}{5}$ </p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -467,7 +467,7 @@
         "c=ae=4"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.289451"
     },
@@ -513,7 +513,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>length of latus rectum of ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,(a&gt;b)$  is given as:</p>\n<p> $l=\\frac{2b^{2}}{a}=30 \\Rightarrow b^{2}=15a$ </p>\n<p>It is given that eccentricity is the maximum value of the function  $f(t)=-t^{2}+2t-\\frac{3}{4}$ </p>\n<p>max value of quadratic function  $ax^{2}+bx+c$  is given as  $\\frac{-D}{4a}=\\frac{4ac-b^{2}}{4a}$ </p>\n<p> $f(t)_{max}=\\frac{4(-1)(-\\frac{3}{4})-(2)^{2}}{4(-1)}=\\frac{3-4}{-4}=\\frac{1}{4}$ </p>\n<p>so eccentricity  $e=\\sqrt{1-\\frac{b^{2}}{a^{2}}}=\\frac{1}{4}$ </p>\n<p>squaring</p>\n<p> $1-\\frac{b^{2}}{a^{2}}=\\frac{1}{16}$ </p>\n<p>put value of  $b^{2}=15a$ </p>\n<p> $\\begin{aligned} &amp; \\frac{a^{2}-15a}{a^{2}}=\\frac{1}{16} \\\\ &amp; 16a^{2}-240a=a^{2} \\\\ &amp; 15a^{2}-240a=0 \\\\ &amp; a(15a-240)=0 \\\\ &amp; \\text{since}a \\ne 0,a=\\frac{240}{15}=16 \\end{aligned}$ </p>\n<p>Now, value of  $a^{2}+b^{2}=a^{2}+15a{b^{2}=15a}$ </p>\n<p> $\\begin{aligned} &amp; =(16)^{2}+15 \\times 16 \\\\ &amp; =256+240=496 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,(a>b)",
@@ -524,7 +524,8 @@
         "ax^{2}+bx+c"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:43.897420"
     },
@@ -570,7 +571,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because P\\text{lies on ellipse} \\Rightarrow \\frac{\\alpha^{2}}{25}+\\frac{\\beta^{2}}{9}=1 \\\\ &amp; \\because PS+PS^{'}=2a \\Rightarrow PS+PS^{'}=10 \\\\ &amp; \\because (PS)^{2}+(PS^{'})^{2}-PS.PS^{'}=37 \\\\ &amp; (PS+PS^{'})-3PS.PS^{'}=37 \\\\ &amp; 100-3PS.PS^{'}=37 \\\\ &amp; 3PS.PS^{'}=63 \\Rightarrow PS.PS^{'}=21 \\\\ &amp; \\because PS&amp;PS^{'}\\text{are}(5 \\pm \\frac{4}{5}.\\alpha) \\\\ &amp; \\therefore PS.PS^{'}=25-\\frac{16}{25}\\alpha^{2}=21 \\\\ &amp; \\frac{16}{25}\\alpha^{2}=4 \\\\ &amp; \\alpha=\\frac{5}{2} \\Rightarrow \\alpha^{2}=\\frac{25}{4} \\\\ &amp; \\therefore \\beta^{2}=\\frac{27}{4} \\\\ &amp; \\therefore \\alpha^{2}+\\beta^{2}=\\frac{52}{4}=13 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "S^{'}",
@@ -579,7 +580,7 @@
         "\\alpha^{2}+\\beta^{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:44.524557"
     },
@@ -627,7 +628,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mozwrnke/23257ac8-41c9-4572-9862-645f7a3dddc7/2c9b22e0-4c82-11f1-999e-c37a02c95833/file-6y3zli1mozwrnkf.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1,Q",
@@ -636,7 +637,7 @@
         "(2+cos\\alpha,3+\\frac{2}{3}sin\\alpha)"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.332747"
     },
@@ -682,7 +683,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, for ellipse  $E_{1}$  and  $E_{2}$  eccentricity is  $\\frac{4}{5}$ .</p>\n<p> $E_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1a&gt;b$ </p>\n<p>distance between foci  $=8$ </p>\n<p> $2ae=8⟹ae=4$ </p>\n<p> $\\Rightarrow$   $a \\times \\frac{4}{5}=4⟹a=5$ </p>\n<p> $\\Rightarrow$   $e=\\sqrt{1-\\frac{b^{2}}{a^{2}}}=\\frac{4}{5}$ </p>\n<p> $\\Rightarrow$   $1-\\frac{b^{2}}{5^{2}}=\\frac{16}{25}$ </p>\n<p> $\\Rightarrow$   $\\frac{b^{2}}{5^{2}}=1-\\frac{16}{25}=\\frac{9}{25}$ </p>\n<p> $\\Rightarrow$   $b=3$ </p>\n<p>Length of latus rectum for  $E_{1},l_{1}=\\frac{2b^{2}}{a}$ \n<br/><br/> $l_{1}=2 \\times \\frac{3^{2}}{5}=\\frac{18}{5}$ </p>\n<p>For  $E_{2}:\\frac{x^{2}}{A^{2}}+\\frac{y^{2}}{B^{2}}=1(A&lt;B)$ </p>\n<p> $\\begin{aligned} &amp; \\text{eccentricity}e=\\frac{4}{5} \\\\ &amp; \\text{as}A&lt;B,e=\\sqrt{1-\\frac{A^{2}}{B^{2}}}=\\frac{4}{5} \\end{aligned}$ </p>\n<p> $1-\\frac{A^{2}}{B^{2}}=\\frac{16}{25}$ </p>\n<p> $\\Rightarrow$   $\\frac{A^{2}}{B^{2}}=1-\\frac{16}{25}=\\frac{9}{25}$ </p>\n<p> $\\Rightarrow$   $A^{2}=\\frac{9}{25}B^{2}$ </p>\n<p>If  $l_{2}$  is latus rectum of  $E_{2},l_{2}=\\frac{2A^{2}}{B}$ </p>\n<p> $l_{2}=\\frac{2}{B}(\\frac{9}{25}B^{2})=\\frac{18}{25}B$ </p>\n<p>It is given that  $2l_{1}^{2}=9l_{2}$ </p>\n<p> $2(\\frac{18}{5})^{2}=9 \\times \\frac{18}{25}B$ </p>\n<p> $\\Rightarrow$   $2 \\times \\frac{18}{9}=B$ </p>\n<p> $\\Rightarrow$   $B=4$ </p>\n<p>distance between foci of  $E_{2}$  is  $2Be$ </p>\n<p> $=2 \\times 4 \\times \\frac{4}{5}=\\frac{32}{5}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,(a>b)",
@@ -693,7 +694,7 @@
         "l_{1}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:43.931618"
     },
@@ -741,14 +742,15 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm2eldft/a14e2091-8280-4492-8fb7-1bdf2bfadb97/cd6a3390-127c-11f1-9713-0b51d8aa583a/file-jaoe38c1mm2eldfu.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha x+4y=\\sqrt{7}",
         "3x^{2}+4y^{2}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:44.567117"
     },
@@ -794,7 +796,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; E:\\frac{x^{2}}{4/3}+\\frac{y^{2}}{4/P}=1 \\\\ &amp; \\text{Centre of circle}(1,2)\\text{, radius} \\\\ &amp; r=\\sqrt{1+4+11} \\end{aligned}$ </p>\n<p> $r=4$ </p>\n<p> $\\because$  E pass from centre  $(1,2)$ </p>\n<p> $\\therefore \\frac{3}{4}+P=1$ </p>\n<p> $P=\\frac{1}{4} \\therefore$  vertical ellipse</p>\n<p> $\\begin{aligned} &amp; e=\\sqrt{1-\\frac{4/3}{16}}=\\sqrt{1-\\frac{1}{12}}=\\sqrt{\\frac{11}{12}} \\\\ &amp; \\therefore \\text{Focal distance of}C(h,k) \\\\ &amp; =b \\pm ek \\\\ &amp; F_{1}=4+\\sqrt{\\frac{11}{12}} \\times 2 \\\\ &amp; F_{2}=4-\\sqrt{\\frac{11}{12}} \\times 2 \\\\ &amp; \\therefore F_{1}F_{2}=16-\\frac{11}{3}=\\frac{37}{3} \\end{aligned}$ </p>\n<p> $\\therefore 6F_{1}F_{2}-r=74-4=70$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "3x^{2}+py^{2}=4",
@@ -804,7 +806,8 @@
         "\\therefore 6F_{1}F_{2}-r=74-4=70"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:44.987651"
     },
@@ -852,7 +855,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtmqtv/eb0a988d-5041-4563-b247-d04478807b70/64d08a30-1f18-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtmqtw.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a>b",
@@ -861,7 +864,7 @@
         "PF_{1}F_{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.778064"
     },
@@ -907,7 +910,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The length of the minor axis is equal to one-fourth of the distance between the foci. Mathematically, this can be expressed as:</p>\n<p> $2b=\\frac{1}{4}(2ae)$ </p>\n<p>This simplifies to:</p>\n<p> $b=\\frac{ae}{4}$ </p>\n<p>Given that the relationship between  $b$ ,  $a$ , and  $e$  is:</p>\n<p> $\\frac{b^{2}}{a^{2}}=1-e^{2}$ </p>\n<p>Substitute  $b=\\frac{ae}{4}$  into the equation:</p>\n<p> $(\\frac{ae}{4})^{2}=a^{2} \\cdot (1-e^{2})$ </p>\n<p>Expanding and simplifying gives:</p>\n<p> $\\frac{a^{2}e^{2}}{16}=a^{2}(1-e^{2})$ </p>\n<p>Divide both sides by  $a^{2}$ :</p>\n<p> $\\frac{e^{2}}{16}=1-e^{2}$ </p>\n<p>Rearrange and solve for  $e^{2}$ :</p>\n<p> $\\frac{e^{2}}{16}+e^{2}=1$ </p>\n<p> $\\frac{17e^{2}}{16}=1$ </p>\n<p>Solve for  $e$ :</p>\n<p> $e^{2}=\\frac{16}{17}$ </p>\n<p> $e=\\frac{4}{\\sqrt{17}}$ </p>\n<p>Thus, the eccentricity of the ellipse is:</p>\n<p> $\\frac{4}{\\sqrt{17}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "2b=\\frac{1}{4}(2ae)",
@@ -917,7 +920,7 @@
         "\\frac{4}{\\sqrt{17}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.180430"
     },
@@ -965,14 +968,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m74v50ov/0480cc36-5f4f-4f81-a903-abc0b6db5c73/d46e74f0-eadf-11ef-b903-374a4031b0cb/file-jaoe38c1m74v50ow.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1",
         "\\frac{2\\sqrt{\\alpha}}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.756229"
     },
@@ -1018,7 +1021,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We are given an ellipse</p>\n<p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a&gt;b,$ </p>\n<p>and a hyperbola</p>\n<p> $\\frac{x^{2}}{A^{2}}-\\frac{y^{2}}{B^{2}}=1.$ </p>\n<p>It is stated that “the distance between the foci of  $E$  and the foci of  $H$  is  $2\\sqrt{3}$ .” A natural interpretation is that the foci of the ellipse are separated by </p>\n<p> $2\\sqrt{a^{2}-b^{2}},$  </p>\n<p>and those of the hyperbola by </p>\n<p> $2\\sqrt{A^{2}+B^{2}},$  </p>\n<p>and each distance is equal to  $2\\sqrt{3}$ . That is, we have</p>\n<p> $2\\sqrt{a^{2}-b^{2}}=2\\sqrt{3}⟹a^{2}-b^{2}=3,$ </p>\n<p>and</p>\n<p> $2\\sqrt{A^{2}+B^{2}}=2\\sqrt{3}⟹A^{2}+B^{2}=3.$ </p>\n<p>We are also given that</p>\n<p> $a-A=2,$ </p>\n<p>and that the ratio of the eccentricities is</p>\n<p> $\\frac{e_{E}}{e_{H}}=\\frac{1}{3},$ </p>\n<p>where the eccentricity of the ellipse is </p>\n<p> $e_{E}=\\frac{\\sqrt{a^{2}-b^{2}}}{a}=\\frac{\\sqrt{3}}{a},$ </p>\n<p>and the eccentricity of the hyperbola is </p>\n<p> $e_{H}=\\frac{\\sqrt{A^{2}+B^{2}}}{A}=\\frac{\\sqrt{3}}{A}.$ </p>\n<p>Thus the ratio becomes</p>\n<p> $\\frac{e_{E}}{e_{H}}=\\frac{\\sqrt{3}/a}{\\sqrt{3}/A}=\\frac{A}{a}=\\frac{1}{3}.$ </p>\n<p>This implies</p>\n<p> $a=3A.$ </p>\n<p>Now, using the condition  $a-A=2$  together with  $a=3A$ , we get</p>\n<p> $3A-A=2⟹2A=2⟹A=1.$ </p>\n<p>Thus,</p>\n<p> $a=3.$ </p>\n<p>Next, for the ellipse we have</p>\n<p> $a^{2}-b^{2}=3⟹9-b^{2}=3⟹b^{2}=6.$ </p>\n<p>For the hyperbola,</p>\n<p> $A^{2}+B^{2}=3⟹1+B^{2}=3⟹B^{2}=2.$ </p>\n<p>The length of the latus rectum is given by the following formulas:</p>\n<p>For the ellipse:</p>\n<p> $L_{E}=\\frac{2b^{2}}{a},$ </p>\n<p>For the hyperbola:</p>\n<p> $L_{H}=\\frac{2B^{2}}{A}.$ </p>\n<p>Substitute the computed values:</p>\n<p>For the ellipse:</p>\n<p> $L_{E}=\\frac{2 \\times 6}{3}=\\frac{12}{3}=4,$ </p>\n<p>For the hyperbola:</p>\n<p> $L_{H}=\\frac{2 \\times 2}{1}=4.$ </p>\n<p>The sum of the lengths of the latus rectums is then</p>\n<p> $L_{E}+L_{H}=4+4=8.$ </p>\n<p>Thus, the answer is</p>\n<p> $8.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a>b",
@@ -1029,7 +1032,7 @@
         "L_{H}=\\frac{2B^{2}}{A}."
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.268271"
     },
@@ -1075,7 +1078,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the length of the latus rectum of the ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  is 10, we have:</p>\n<p> $\\frac{2b^{2}}{a}=10 \\Rightarrow 5a=b^{2}$ </p>\n<p>Next, consider the function  $f(t)=t^{2}+t+\\frac{11}{12}$ . To find its minimum value, we calculate the derivative:</p>\n<p> $\\frac{df(t)}{dt}=2t+1=0 \\Rightarrow t=\\frac{-1}{2}$ </p>\n<p>Plugging  $t=-\\frac{1}{2}$  into  $f(t)$  gives the minimum value:</p>\n<p> $f(-\\frac{1}{2})=(-\\frac{1}{2})^{2}+(-\\frac{1}{2})+\\frac{11}{12}=\\frac{1}{4}-\\frac{1}{2}+\\frac{11}{12}=\\frac{3-6+11}{12}=\\frac{8}{12}=\\frac{2}{3}$ </p>\n<p>Thus, the eccentricity  $e$  of the ellipse is  $\\frac{2}{3}$ , so  $e^{2}=(\\frac{2}{3})^{2}=\\frac{4}{9}$ .</p>\n<p>Using the eccentricity formula for an ellipse:</p>\n<p> $e^{2}=\\frac{1-b^{2}}{a^{2}} \\Rightarrow \\frac{4}{9}=\\frac{1-b^{2}}{a^{2}}$ </p>\n<p>Rearranging gives:</p>\n<p> $b^{2}=a^{2}(1-\\frac{4}{9})=a^{2} \\cdot \\frac{5}{9}$ </p>\n<p>From equation  $(1)$ ,  $b^{2}=5a$ . Substituting, we have:</p>\n<p> $5a=a^{2} \\cdot \\frac{5}{9} \\Rightarrow a^{2}=9a$ </p>\n<p>Solving for  $a$ ,</p>\n<p> $a=9,\\text{and therefore}b^{2}=5a=45 \\Rightarrow b=\\sqrt{45}=3\\sqrt{5}$ </p>\n<p>Finally, calculate  $a^{2}+b^{2}$ :</p>\n<p> $a^{2}+b^{2}=81+45=126$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -1086,7 +1089,7 @@
         "t=-\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.013687"
     },
@@ -1132,7 +1135,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the length of the latus rectum of the ellipse, we first recognize that the foci of the ellipse are given as  $F_{1}:(2,5)$  and  $F_{2}:(2,-3)$ . This indicates that the major axis is aligned along the  $y$ -axis.</p>\n<p><p><strong>Calculate the distance between the foci:</strong></p>\n<p> $F_{1}F_{2}=8$ </p>\n<p>The formula involving the distance between the foci and the eccentricity is:</p>\n<p> $F_{1}F_{2}=2be$ </p>\n<p>Here, the eccentricity  $e$  is given as  $\\frac{4}{5}$ . Thus, we can solve for  $b$ :</p>\n<p> $8=2b \\cdot \\frac{4}{5}⟹b=\\frac{8}{2 \\times \\frac{4}{5}}=5$ </p></p>\n<p><p><strong>Determine  $a^{2}$ :</strong></p>\n<p>Using the relationship between eccentricity, semi-minor axis  $b$ , and semi-major axis  $a$ :</p>\n<p> $e^{2}=1-\\frac{a^{2}}{b^{2}}=1-\\frac{a^{2}}{25}=\\frac{16}{25}$ </p>\n<p>Solving for  $a^{2}$ :</p>\n<p> $1-\\frac{a^{2}}{25}=\\frac{16}{25}⟹\\frac{a^{2}}{25}=\\frac{9}{25}⟹a^{2}=9$ </p>\n<p>Thus,  $a=3$ .</p></p>\n<p><p><strong>Compute the length of the latus rectum:</strong></p>\n<p>The formula for the length of the latus rectum  $L$  is:</p>\n<p> $L=\\frac{2a^{2}}{b}$ </p>\n<p>Substituting the known values:</p>\n<p> $L=\\frac{2 \\times (9)}{5}=\\frac{18}{5}$ </p></p>\n<p>Therefore, the length of the latus rectum of the ellipse is  $\\frac{18}{5}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{5}",
@@ -1140,7 +1143,7 @@
         "F_{2}:(2,-3)"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.800529"
     },
@@ -1188,11 +1191,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mahnp3p7/02412784-10d4-49a3-8087-48c3d3568411/907c1cb0-2d4d-11f0-8000-8fc9ddec6757/file-jaoe38c1mahnp3p8.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.244415"
     },
@@ -1238,13 +1241,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Equation of chord with given middle point} \\\\ &amp; \\begin{aligned} &amp; T=S_{1} \\\\ &amp; \\Rightarrow \\frac{3x}{25}+\\frac{y}{16}-1=\\frac{9}{25}+\\frac{1}{16}-1 \\\\ &amp; 48x+25y=144+25 \\\\ &amp; 48x+25y=169\\text{Ans.} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.773254"
     },
@@ -1290,13 +1293,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Total trangles}= \\Rightarrow =^{h}C_{3} \\\\ &amp; \\text{Total auadrilaterals}=^{h}C_{4}=q \\\\ &amp; ^{n}C_{3}+^{n}C_{4}=126 \\Rightarrow ^{n+1}C_{4}=126 \\\\ &amp; \\Rightarrow n+1=9 \\Rightarrow n=8 \\\\ &amp; \\frac{x^{2}}{16}+\\frac{y^{2}}{n}=1 \\Rightarrow \\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1 \\\\ &amp; e=\\sqrt{1-\\frac{8}{16}}=\\sqrt{\\frac{8}{16}}=\\frac{1}{\\sqrt{2}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{n}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.051199"
     },
@@ -1344,11 +1347,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9z8y34x/12f5e36c-8daf-4d30-a6fa-d32fe5b363e7/c5b48d10-232d-11f0-99e8-5f2c09d57200/file-jaoe38c1m9z8y34y.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.834625"
     },
@@ -1396,7 +1399,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m71djszz/74c36d25-0e9b-472a-9d8a-389b7c22dd08/b15ab1f0-e8f4-11ef-b48b-c3f51ea93f48/file-jaoe38c1m71djt00.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\alpha x+\\beta y=109",
@@ -1404,7 +1407,7 @@
         "(\\frac{5}{2},\\frac{1}{2})"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.290392"
     },
@@ -1450,7 +1453,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Product of focal distances}=(a+ex_{1})(a-ex_{1}) \\\\ &amp; =a^{2}-e^{2}x_{1}^{2}=a^{2}-e^{2}(3) \\\\ &amp; =a^{2}-3e^{2}=\\frac{7}{4} \\Rightarrow a^{2}=\\frac{7}{4}+3e^{2} \\\\ &amp; \\Rightarrow 4a^{2}=7+12e^{2} \\\\ &amp; &amp;(\\sqrt{3},\\frac{1}{2})\\text{lines on}\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\\\ &amp; \\therefore \\frac{3}{a^{2}}+\\frac{1}{4b^{2}}=1 \\\\ &amp; \\frac{3}{a^{2}}+\\frac{1}{4(a^{2})(1-e^{2})}=1 \\\\ &amp; 12(1-e^{2})+1=4a^{2}(1-e^{2}) \\\\ &amp; 13-12e^{2}=(7+12e^{2})(1-e^{2}) \\\\ &amp; \\Rightarrow 13-12e^{2}=7-7e^{2}+12e^{2}-12e^{4} \\\\ &amp; \\Rightarrow 12e^{4}-17e^{2}+6=0 \\\\ &amp; \\therefore e^{2}=\\frac{17 \\pm \\sqrt{289-288}}{24}=\\frac{17 \\pm 1}{24}=\\frac{3}{4}&amp;\\frac{2}{3} \\\\ &amp; \\therefore e=\\frac{\\sqrt{3}}{2}&amp;\\sqrt{\\frac{2}{3}} \\\\ &amp; \\therefore \\text{difference}==\\frac{\\sqrt{3}}{2}-\\sqrt{\\frac{2}{3}}=\\frac{3-2\\sqrt{2}}{2\\sqrt{3}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\sqrt{3},\\frac{1}{2})",
@@ -1458,7 +1461,8 @@
         "\\frac{7}{4}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:46.801476"
     },
@@ -1485,7 +1489,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m77qdhf8/13a3f8b3-aba8-46ec-a596-54492c21b30b/8c21e340-ec73-11ef-a7f5-ed1df7ab36a3/file-jaoe38c1m77qdhf9.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "E_{1}:\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1",
@@ -1496,7 +1500,7 @@
         "\\frac{5}{\\pi}(\\sum_{i=1}^{\\infty}A_{i})"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.180119"
     },
@@ -1544,7 +1548,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtb1cu/629e7525-f42d-4c18-a8c2-6c2a8d04fcef/1f3c9be0-1f17-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtb1cv.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x+p",
@@ -1555,7 +1559,7 @@
         "D(-\\frac{12}{5},-\\frac{12}{5})"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.099624"
     },
@@ -1604,13 +1608,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9zp4lij/9338f091-7a7f-44d2-96c6-c15ecf771f71/0cd2bbb0-236d-11f0-9dec-d979098f3e1c/file-jaoe38c1m9zp4lik.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9zp5pxr/3dc86d46-b0aa-47ee-8f23-9954c012446e/2c0c81f0-236d-11f0-9dec-d979098f3e1c/file-jaoe38c1m9zp5pxs.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{36}+\\frac{y^{2}}{25}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:45.850435"
     },
@@ -1656,7 +1660,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{\\begin{aligned} &amp;\\begin{aligned} &amp; 2 \\mathrm{ae}=4 \\\\ &amp; 2 \\mathrm{a}\\le ft(\\frac{1}{\\sqrt{3}}\\right)=4 \\\\ &amp; \\Rightarrow \\mathrm{a}=2 \\sqrt{3} \\\\ &amp; \\Rightarrow 1-\\frac{\\mathrm{b}^2}{12}=\\frac{1}{3} \\Rightarrow \\mathrm{~b}^2=8 \\\\ &amp; \\text { Now } \\frac{2 \\mathrm{~b}^2}{\\mathrm{a}} \\cdot \\frac{2 \\mathrm{~A}^2}{\\mathrm{~B}}=\\frac{32}{\\sqrt{3}} \\Rightarrow 2\\le ft(\\frac{8}{2 \\sqrt{3}}\\right) \\frac{2 \\mathrm{~A}^2}{\\mathrm{~B}}=\\frac{32}{\\sqrt{3}} \\\\ &amp; \\Rightarrow \\mathrm{~A}^2=2 \\mathrm{~B} \\\\ &amp; 1-\\frac{\\mathrm{A}^2}{\\mathrm{~B}^2}=\\frac{1}{3} \\Rightarrow 1-\\frac{2 \\mathrm{~B}}{\\mathrm{~B}^2}=\\frac{1}{3} \\Rightarrow \\mathrm{~B}=3 \\\\ &amp; \\Rightarrow \\mathrm{~A}^2=6 \\\\ &amp; \\frac{\\mathrm{x}^2}{12}+\\frac{\\mathrm{y}^2}{8}=1 \\ldots . .(1) \\\\ &amp; \\frac{\\mathrm{x}^2}{6}+\\frac{\\mathrm{y}^2}{9}=1 \\ldots . .(2) \\end{aligned}\\\\ &amp;\\text { On solving (1) &amp; (2) we get } \\end{aligned}}$ </p>\n<p> $\\begin{aligned} &amp; (x,y) \\equiv (\\frac{\\sqrt{6}}{\\sqrt{5}},\\frac{6}{\\sqrt{5}}),(\\frac{-\\sqrt{6}}{\\sqrt{5}},\\frac{6}{\\sqrt{5}}),(\\frac{\\sqrt{6}}{\\sqrt{5}},\\frac{-6}{\\sqrt{5}}),(\\frac{-\\sqrt{6}}{\\sqrt{5}},\\frac{-6}{\\sqrt{5}}) \\\\ &amp; \\text{The four points are vertices of rectangle and its area}= \\\\ &amp; \\frac{24\\sqrt{6}}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -1667,7 +1671,7 @@
         "E_{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.325906"
     },
@@ -1715,14 +1719,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7j7sgs0/cc2c4f68-7a9b-4ab5-8c95-c50e707abd99/471c3f00-f2c4-11ef-839d-2d40708f8cbd/file-jaoe38c1m7j7sgs1.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1",
         "(1,\\frac{1}{2})"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:46.820630"
     },
@@ -1768,7 +1772,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<p>Given the ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  with  $a&gt;b$ , the eccentricity  $e$  is given by the formula:</p>\n<p> $e=\\sqrt{1-(\\frac{b}{a})^{2}}$ </p>\n<p>It is provided that the eccentricity  $e$  is  $\\frac{1}{\\sqrt{2}}$  (given), so we can equate the two expressions for eccentricity:</p>\n<p> $\\frac{1}{\\sqrt{2}}=\\sqrt{1-(\\frac{b}{a})^{2}}$ </p>\n<p>Squaring both sides to eliminate the square root gives:</p>\n<p> $\\frac{1}{2}=1-(\\frac{b}{a})^{2}$ </p>\n<p> $(\\frac{b}{a})^{2}=1-\\frac{1}{2}$ </p>\n<p> $(\\frac{b}{a})^{2}=\\frac{1}{2}$ </p>\n<p>Taking the square root on both sides:</p>\n<p> $\\frac{b}{a}=\\frac{1}{\\sqrt{2}}$ </p>\n<p> $a=b\\sqrt{2}$ </p>\n<p>Now, for the ellipse, the length of the latus rectum is given by the formula:</p>\n<p> $\\text{Length of Latus Rectum (L)}=\\frac{2b^{2}}{a}$ </p>\n<p>It's provided that the length of the latus rectum  $L$  is  $\\sqrt{14}$ , so substitute the known values to find  $b$ :</p>\n<p> $\\sqrt{14}=\\frac{2b^{2}}{b\\sqrt{2}}=\\frac{2b}{\\sqrt{2}}$ </p>\n<p> $b\\sqrt{2}=\\sqrt{14}$ </p>\n<p> $b^{2}=\\frac{14}{2}$ </p>\n<p> $b^{2}=7$ </p>\n<p>And since  $a=b\\sqrt{2}$ , we can find  $a^{2}$ :</p>\n<p> $a^{2}=(b\\sqrt{2})^{2}$ </p>\n<p> $a^{2}=7 \\cdot 2$ </p>\n<p> $a^{2}=14$ </p>\n<p>Now we have an ellipse with  $a^{2}=14$  and  $b^{2}=7$ . The equation of a hyperbola similar to the given ellipse but with the terms subtracted is:</p>\n<p> $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ </p>\n<p>For the hyperbola, the square of the eccentricity  $e^{'}$  is given by:</p>\n<p> $(e^{'})^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p>Substitute the values we've found for  $a^{2}$  and  $b^{2}$  into the formula for the square of the hyperbola's eccentricity:</p>\n<p> $(e^{'})^{2}=1+\\frac{b^{2}}{a^{2}}$ </p>\n<p> $(e^{'})^{2}=1+\\frac{7}{14}$ </p>\n<p> $(e^{'})^{2}=1+\\frac{1}{2}$ </p>\n<p> $(e^{'})^{2}=\\frac{3}{2}$ </p>\n<p>Therefore, the square of the eccentricity of the hyperbola is  $\\frac{3}{2}$ , which corresponds to option C.</p>\n</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a>b",
@@ -1779,7 +1783,7 @@
         "(\\frac{b}{a})^{2}=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.761976"
     },
@@ -1825,7 +1829,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of chord with given middle point.</p>\n<p> $\\begin{aligned} &amp; T=S_{1} \\\\ &amp; \\frac{x}{25}+\\frac{y}{40}=\\frac{1}{25}+\\frac{1}{100} \\\\ &amp; \\frac{8x+5y}{200}=\\frac{8+2}{200} \\\\ &amp; y=\\frac{10-8x}{5}\\text{.... (i)} \\end{aligned}$ </p>\n<p> $\\frac{x^{2}}{25}+\\frac{(10-8x)^{2}}{400}=1$  (put in original equation)</p>\n<p> $\\begin{aligned} &amp; \\frac{16x^{2}+100+64x^{2}-160x}{400}=1 \\\\ &amp; 4x^{2}-8x-15=0 \\\\ &amp; x=\\frac{8 \\pm \\sqrt{304}}{8} \\\\ &amp; x_{1}=\\frac{8+\\sqrt{304}}{8};x_{2}=\\frac{8-\\sqrt{304}}{8} \\end{aligned}$ </p>\n<p>Similarly,  $y=\\frac{10-18 \\pm \\sqrt{304}}{5}=\\frac{2 \\pm \\sqrt{304}}{5}$ </p>\n<p> $\\begin{aligned} &amp; y_{1}=\\frac{2-\\sqrt{304}}{5};y_{2}=\\frac{2+\\sqrt{304}}{5} \\\\ &amp; \\text{Distance}=\\sqrt{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}} \\\\ &amp; =\\sqrt{\\frac{4 \\times 304}{64}+\\frac{4 \\times 304}{25}}=\\frac{\\sqrt{1691}}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1",
@@ -1833,7 +1837,7 @@
         "\\frac{x^{2}}{25}+\\frac{(10-8x)^{2}}{400}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.353758"
     },
@@ -1879,14 +1883,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; g(10)=10 \\\\ &amp; a=f(g(10))=f(10)=109 \\\\ &amp; f(3)=18 \\\\ &amp; b=g(f(3))=g(18)=2 \\\\ &amp; \\frac{x^{2}}{109}+\\frac{y^{2}}{2}=1 \\\\ &amp; e=\\sqrt{1-\\frac{2}{109}}=\\sqrt{\\frac{107}{109}} \\\\ &amp; I=\\frac{2b^{2}}{a}=\\frac{2 \\times 2}{\\sqrt{109}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} 8e^{2}+l^{2} &amp; =\\frac{8 \\times 107}{109}+\\frac{16}{109} \\\\ &amp; =8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{2}+9,g(x)=\\frac{x}{x-9}",
         "a=f^{\\circ}g(10),b=g^{\\circ}f(3)"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.299866"
     },
@@ -1934,14 +1938,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsjwesuo/97ad35c7-e930-402f-8ae3-bf6649f70495/50a78900-ca2d-11ee-8854-3b5a6c9e9092/file-6y3zli1lsjwesup.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow a^{2}=2b^{2}",
         "\\Rightarrow b^{2}=\\frac{328}{25}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.780121"
     },
@@ -1989,13 +1993,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwgi30yz/efd8a8c4-b19c-464d-9aab-50da9ed84968/ccf9e7b0-177f-11ef-97dc-2d80937d5077/file-1lwgi30z0.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+3y-k=0,k>0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:47.343926"
     },
@@ -2043,13 +2048,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsoxo287/d8da4921-3aa3-467d-a404-6687dd0b31e6/268e3570-ccf2-11ee-a330-494dca5e9a63/file-6y3zli1lsoxo288.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "5x+7y=50"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.803844"
     },
@@ -2098,11 +2103,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsqdjrqo/772aa650-3e8c-46a8-adce-0608922ed01d/09ef1300-cdbd-11ee-a926-9fabe9a328d8/file-6y3zli1lsqdjrqp.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsqdl51c/d5a5c6d5-b0af-43b9-b7e2-7efa69d9eeff/30039c00-cdbd-11ee-a926-9fabe9a328d8/file-6y3zli1lsqdl51d.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.382026"
     },
@@ -2148,11 +2153,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2b=ae \\\\ &amp; \\frac{b}{a}=\\frac{e}{2} \\\\ &amp; e=\\sqrt{1-\\frac{e^{2}}{4}} \\\\ &amp; e=\\frac{2}{\\sqrt{5}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:47.848190"
     },
@@ -2200,7 +2205,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ln5ufvyu/8420caac-c5f0-403f-a175-e82f7eb8d93d/8ea00c50-5f75-11ee-8999-67742721d03c/file-6y3zli1ln5ufvyv.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{k}:kx^{2}+k^{2}y^{2}=1,k=1,2,\\dots,20",
@@ -2211,7 +2216,7 @@
         "E_{K}=Kx^{2}+K^{2}y^{2}=1,K=1,2,\\dots20"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.902915"
     },
@@ -2257,7 +2262,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of normal is\n\n<br/><br/> $2xsec\\theta-bycosec\\theta=4-b^{2}$ \n<br/><br/>Distance from  $(0,0)=\\frac{4-b^{2}}{\\sqrt{4sec^{2}\\theta+b^{2}cosec^{2}\\theta}}$ \n<br/><br/>Distance is maximum if\n\n<br/><br/> $4sec^{2}\\theta+b^{2}cosec^{2}\\theta$  is minimum\n\n<br/><br/> $\\Rightarrow tan^{2}\\theta=\\frac{b}{2}$ \n<br/><br/> $\\Rightarrow \\frac{4-b^{2}}{\\sqrt{4 \\cdot \\frac{b+2}{2}+b^{2} \\cdot \\frac{b+2}{b}}}=1$ \n<br/><br/> $\\Rightarrow 4-b^{2}=(b+2) \\Rightarrow b^{2}+b-2=0$ \n<br/><br/> $\\Rightarrow (b+2)(b-1)=0$ \n<br/><br/> $\\Rightarrow b=1$ \n<br/><br/> $\\therefore e=\\sqrt{1-\\frac{1}{4}}=\\frac{\\sqrt{3}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{b^{2}}=1,b<2",
@@ -2268,7 +2273,7 @@
         "\\Rightarrow 4-b^{2}=(b+2) \\Rightarrow b^{2}+b-2=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:49.422388"
     },
@@ -2293,7 +2298,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\frac{a}{e}=8 \\\\ \\\\ &amp; ae=2.(1) \\\\ \\\\ &amp; 8e=\\frac{2}{e} \\\\ \\\\ &amp; e^{2}=\\frac{1}{4} \\Rightarrow e=\\frac{1}{2} \\\\ \\\\ &amp; a=4 \\\\ \\\\ &amp; b^{2}=a^{2}(1-e^{2}) \\\\ \\\\ &amp; =16(\\frac{3}{4})=12 \\\\ \\\\ &amp; \\frac{xcos\\theta}{4}+\\frac{ysin\\theta}{2\\sqrt{3}}=1 \\\\ \\\\ &amp; sin\\theta=\\frac{1}{2} \\\\ \\\\ &amp; \\theta=30^{\\circ} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; P(2\\sqrt{3},\\sqrt{3}) \\\\ \\\\ &amp; Q(\\frac{8}{\\sqrt{3}},0) \\\\ \\\\ &amp; (3PQ)^{2}=39 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "x=8",
@@ -2301,7 +2306,7 @@
         "is equal to ____________."
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.611162"
     },
@@ -2347,13 +2352,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\frac{x^{2}}{36}+\\frac{y^{2}}{4}=1 \\\\ \\\\ &amp; T:\\frac{3\\sqrt{3}x}{36}+\\frac{y}{4}=1 \\\\ \\\\ &amp; T:\\frac{\\sqrt{3}x}{12}+\\frac{y}{4}=1 \\\\ \\\\ &amp; N:\\frac{x-3\\sqrt{3}}{\\frac{3\\sqrt{3}}{36}}=\\frac{y-1}{\\frac{1}{4}} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\frac{12x-36\\sqrt{3}}{\\sqrt{3}}=4y-4 \\\\ \\\\ &amp; 3x-9\\sqrt{3}=\\sqrt{3}y-\\sqrt{3} \\\\ \\\\ &amp; N:3x-\\sqrt{3}y=8\\sqrt{3} \\\\ \\\\ &amp; A(0,4)B(0,-8) \\\\ \\\\ &amp; \\text{C:}x^{2}+(y-4)(y+8)=0 \\\\ \\\\ &amp; \\text{Line}x=2\\sqrt{5} \\\\ \\\\ &amp; 20+y^{2}+4y-32=0 \\\\ \\\\ &amp; y^{2}+4y-12=0 \\\\ \\\\ &amp; (y+6)(y-2)=0 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; P(2\\sqrt{5},-6)Q(2\\sqrt{5},2) \\\\ \\\\ &amp; C:x^{2}+y^{2}+4y-32=0 \\\\ \\\\ &amp; P(2\\sqrt{5},-6)Q(2\\sqrt{5},2) \\\\ \\\\ &amp; T:xx_{1}+yy_{1}+2y+2y_{1}-32=0 \\\\ \\\\ &amp; T_{1}:2\\sqrt{5}x-6y+2y-12-32=0 \\\\ \\\\ &amp; 2\\sqrt{5}x-4y=44 \\\\ \\\\ &amp; T_{1}:\\sqrt{5}x-2y=22.......(i) \\\\ \\\\ &amp; T_{2}:2\\sqrt{5}x+2y+2y+4-32=0 \\\\ \\\\ &amp; 2\\sqrt{5}x+4y=28 \\\\ \\\\ &amp; T_{2}:\\sqrt{5}x+2y=14.......(ii) \\end{aligned}$ \n<br/><br/>From (i) and (ii), we get\n<br/><br/> $\\begin{aligned} &amp; \\alpha=\\frac{18}{\\sqrt{5}}\\beta=-2 \\\\ \\\\ &amp; \\alpha^{2}-\\beta^{2}=\\frac{304}{5} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{36}+\\frac{y^{2}}{4}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.389501"
     },
@@ -2399,7 +2404,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have, equation of ellipse :  $15x^{2}+19y^{2}=285$ \n<br/><br/>or  $\\frac{x^{2}}{19}+\\frac{y^{2}}{15}=1$ \n<br/><br/>Let the coordinate of center of circle be  $(0,0)$ .\n<br/><br/>Equation of circle is  $x^{2}+y^{2}=16$ \n<br/><br/>Equation of tangent of ellipse is\n<br/><br/> $\\begin{aligned} y=mx \\pm \\sqrt{19m^{2}+15}\\text{or} \\\\ \\\\ mx-y \\pm \\sqrt{19m^{2}+15}=0 \\end{aligned}$ \n<br/><br/>It is also tangent to the circle  $x^{2}+y^{2}=16$ \n<br/><br/>Perpendicular distance from center of circle to tangent  $=4$ \n<br/><br/> $\\frac{|0-0 \\pm \\sqrt{19m^{2}+15}|}{\\sqrt{m^{2}+1}}=4$ \n<br/><br/>On squaring both side, we get\n<br/><br/> $\\begin{aligned} 19m^{2}+15=16m^{2}+16 \\\\ \\\\ 3m^{2}=1 \\\\ \\\\ m^{2}=\\frac{1}{3} \\\\ \\\\ m= \\pm \\frac{1}{\\sqrt{3}} \\end{aligned}$ \n<br/><br/> $tan\\theta=\\frac{1}{\\sqrt{3}} \\Rightarrow \\theta=\\frac{\\pi}{6}\\text{with}X\\text{-axis or}$  $\\frac{\\pi}{3}$  with  $Y$ -axis\n<br/><br/>Hence, the common tangents are inclined to the minor axis of the ellipse at an angle of  $\\frac{\\pi}{3}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "15x^{2}+19y^{2}=285",
@@ -2409,7 +2414,7 @@
         "\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.932414"
     },
@@ -2434,7 +2439,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{36}+\\frac{y^{2}}{16}=1$ \n<br/><br/>\n $r^{2}=(x-2)^{2}+y^{2}$ \n<br/><br/>\nSolving simultaneously\n<br/><br/>\n $-5x^{2}+36x+(9r^{2}-180)=0$ \n<br/><br/>\n $D=0$ \n<br/><br/>\n $r^{2}=\\frac{128}{10}$ \n<br/><br/>\nDistance between  $(1,\\alpha)$  and  $(2,0)$  should be  $r$ \n<br/><br/>\n $\\begin{aligned} &amp; 1+\\alpha^{2}=\\frac{128}{10} \\\\ \\\\ &amp; \\alpha^{2}=\\frac{118}{10} \\\\ \\\\ &amp; =118.00 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x^{2}}{36}+\\frac{y^{2}}{16}=1",
@@ -2445,7 +2450,7 @@
         "r^{2}=\\frac{128}{10}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.625053"
     },
@@ -2491,7 +2496,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, points  $P$  and  $R$  are on the ellipse defined by  $9x^{2}+4y^{2}=36$  which simplifies to  $\\frac{x^{2}}{4}+\\frac{y^{2}}{9}=1$ . \nThis is the standard form of the equation of an ellipse centered at the origin, with semi-major axis  $a=3$  along the  $y$ -axis and semi-minor axis  $b=2$  along the  $x$ -axis. \n<br/><br/>OP is the distance from origin O to point P, which is given by :\n\n<br/><br/> $OP=r_{1}=\\sqrt{(\\frac{2\\sqrt{3}}{\\sqrt{7}})^{2}+(\\frac{6}{\\sqrt{7}})^{2}}=\\sqrt{\\frac{12}{7}+\\frac{36}{7}}=\\sqrt{\\frac{48}{7}}=2\\sqrt{\\frac{12}{7}}.$ \n<br/><br/>1. Let's represent the given point  $P(\\frac{2\\sqrt{3}}{\\sqrt{7}},\\frac{6}{\\sqrt{7}})$  in polar coordinates. We can write  $P$  as  $(r_{1}cos\\theta,r_{1}sin\\theta)$ . Since  $P$  lies on the ellipse, it must satisfy the equation of the ellipse. Substituting  $x=r_{1}cos\\theta$  and  $y=r_{1}sin\\theta$  into the equation of the ellipse gives us :\n\n  <br/><br/>  $\\frac{r_{1}^{2}cos^{2}\\theta}{4}+\\frac{r_{1}^{2}sin^{2}\\theta}{9}=1$ \n<br/><br/>  Simplifying this, we obtain :\n\n<br/><br/>  $\\frac{cos^{2}\\theta}{4}+\\frac{sin^{2}\\theta}{9}=\\frac{7}{48}\\text{--- (equation 1)}$ \n<br/><br/>2. Similarly, if we represent the point  $R$  as  $(-r_{2}sin\\theta,r_{2}cos\\theta)$ , (the negative sign is due to the fact that line RS is perpendicular to line PQ. Since they are perpendicular, the angle between them is 90 degrees or  $\\pi/2$  radians. In terms of sin and cos,  $sin(\\theta+\\pi/2)=cos(\\theta)$  and  $cos(\\theta+\\pi/2)=-sin(\\theta)$ .) it too should satisfy the equation of the ellipse. We have :\n\n<br/><br/>  $\\frac{r_{2}^{2}sin^{2}\\theta}{4}+\\frac{r_{2}^{2}cos^{2}\\theta}{9}=1$ \n<br/><br/>  Simplifying this, we obtain :\n\n <br/><br/>  $\\frac{sin^{2}\\theta}{4}+\\frac{cos^{2}\\theta}{9}=\\frac{1}{r_{2}^{2}}\\text{--- (equation 2)}$ \n<br/><br/>3. From equations (1) and (2), we have :\n\n<br/><br/>  $\\frac{1}{r_{2}^{2}}=\\frac{1}{4}+\\frac{1}{9}-\\frac{7}{48}=\\frac{31}{144}$ \n<br/><br/>4. Now, note that lines  $PQ$  and  $RS$  are perpendicular and pass through the origin, so  $PQ=2OP$  and  $RS=2OR$ . Thus,\n\n<br/><br/>  $\\frac{1}{PQ^{2}}+\\frac{1}{RS^{2}}=\\frac{1}{4}(\\frac{1}{r_{1}^{2}}+\\frac{1}{r_{2}^{2}})$ \n<br/><br/>5. Substituting the values of  $r_{1}$  and  $r_{2}$ , we obtain :\n\n<br/><br/>  $\\frac{1}{PQ^{2}}+\\frac{1}{RS^{2}}=\\frac{1}{4}(\\frac{7}{48}+\\frac{31}{144})=\\frac{13}{144}=\\frac{p}{q}$ \n<br/><br/>6. Hence,  $p=13$  and  $q=144$ .\n\n<br/><br/>7. So, the final answer  $p+q=13+144=157$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "P(\\frac{2\\sqrt{3}}{\\sqrt{7}},\\frac{6}{\\sqrt{7}}),Q,R",
@@ -2501,7 +2506,7 @@
         "\\frac{r_{2}^{2}sin^{2}\\theta}{4}+\\frac{r_{2}^{2}cos^{2}\\theta}{9}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.439461"
     },
@@ -2549,14 +2554,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lnbcvqbx/b63739e8-c768-420d-a989-3fb42c2b49f4/96ca2bd0-627d-11ee-b4f9-75aabed442fa/file-6y3zli1lnbcvqby.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E:x^{2}+9y^{2}=9",
         "\\frac{m}{n}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.964209"
     },
@@ -2581,7 +2586,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given curve,</p>\n<p> $9x^{2}+16y^{2}=144$ </p>\n<p> $\\Rightarrow \\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1$ </p>\n<p> $\\Rightarrow \\frac{x^{2}}{4^{2}}+\\frac{y^{2}}{3^{2}}=1$ </p>\n<p> $\\therefore$  a = 4 and b = 3</p>\n<p>So, general point on the ellipse is  $=(4cos\\theta,3sin\\theta)$ </p>\n<p>We know,</p>\n<p>Equation of tangent to a given ellipse at its point  $(acos\\theta,bsin\\theta)$  is</p>\n<p> $\\frac{xcos\\theta}{a}+\\frac{ysin\\theta}{b}=1$ </p>\n<p> $\\therefore$  Here equation of tangent at point  $(4cos\\theta,3sin\\theta)$  is</p>\n<p> $\\frac{xcos\\theta}{4}+\\frac{ysin\\theta}{3}=1$ </p>\n<p>When this tangent cut's x axis then y = 0.</p>\n<p> $\\therefore$   $\\frac{xcos\\theta}{4}+0=1$ </p>\n<p> $\\Rightarrow x=4sec\\theta$ </p>\n<p> $\\therefore$  Point of intersection at x axis is  $A(4sec\\theta,0)$ .</p>\n<p>When this tangent cut's y axis then x = 0.</p>\n<p> $\\therefore$   $0+\\frac{ysin\\theta}{3}=1$ </p>\n<p> $\\Rightarrow y=3cosec\\theta$ </p>\n<p> $\\therefore$  Point of intersection at y axis is  $B(0,3cosec\\theta)$ </p>\n<p> $\\therefore$  Length of AB</p>\n<p> $=\\sqrt{(4sec\\theta-0)^{2}+(0-3cosec\\theta)^{2}}$ </p>\n<p> $=\\sqrt{16sec^{2}\\theta+9cosec^{2}\\theta}$ </p>\n<p> $=\\sqrt{16(1+tan^{2}\\theta)+9(1+cot^{2}\\theta)}$ </p>\n<p> $=\\sqrt{25+16tan^{2}\\theta+9cot^{2}\\theta}$ </p>\n<p>We know,  $AM \\ge GM$ </p>\n<p> $\\therefore$   $\\frac{16tan^{2}\\theta+9cot^{2}\\theta}{2} \\ge \\sqrt{(16tan^{2}\\theta)(9cot^{2}\\theta)}$ </p>\n<p> $\\Rightarrow 16tan^{2}\\theta+9cot^{2}\\theta \\ge 2(4tan\\theta)(3cot\\theta)$ </p>\n<p> $\\Rightarrow 16tan^{2}\\theta+9cot^{2}\\theta \\ge 2 \\times 4 \\times 3$ </p>\n<p> $\\Rightarrow 16tan^{2}\\theta+9cot^{2}\\theta \\ge 24$ </p>\n<p> $\\therefore$   $AB=\\sqrt{25+16tan^{2}\\theta+9cot^{2}\\theta}$ </p>\n<p> $\\ge \\sqrt{25+24}$ </p>\n<p> $\\ge \\sqrt{49}$ </p>\n<p> $\\ge 7$ </p>\n<p> $\\therefore$  Minimum length of  $AB=7$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "9x^{2}+16y^{2}=144",
@@ -2592,7 +2597,7 @@
         "\\frac{xcos\\theta}{4}+\\frac{ysin\\theta}{3}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.637261"
     },
@@ -2638,7 +2643,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given ellipse has the equation :\n\n<br/><br/> $x^{2}+4y^{2}=36$ \n<br/><br/>We can rewrite this as :\n\n<br/><br/> $\\frac{x^{2}}{6^{2}}+\\frac{y^{2}}{(6/2)^{2}}=1$ \n<br/><br/>This shows that it is an ellipse centered at (0,0) with semi-major axis a = 6 along the x-axis and semi-minor axis b = 3 along the y-axis.\n\n<br/><br/>The equation of a circle with center (2,0) and radius r is :\n\n<br/><br/> $(x-2)^{2}+y^{2}=r^{2}$ \n<br/><br/>Substituting y^2 from the ellipse equation into the circle equation gives us :\n\n<br/><br/> $x^{2}-4x+4+\\frac{36-x^{2}}{4}=r^{2}$ \n<br/><br/>Solving this equation leads to :\n\n<br/><br/> $3x^{2}-16x+52-4r^{2}=0$ \n<br/><br/>For the roots of this quadratic equation to be real (which they must be, since they represent real intersection points), the discriminant (D) must be greater than or equal to zero :\n\n<br/><br/> $D=b^{2}-4ac=(-16)^{2}-4 \\times 3 \\times (52-4r^{2})=256-12 \\times 52+48r^{2}$ \n<br/><br/>Setting D = 0 gives the minimum value for r (the radius of the inscribed circle) :\n\n<br/><br/> $256-624+48r^{2}=0$ \n<br/><br/> $48r^{2}=368$ \n<br/><br/> $r^{2}=\\frac{368}{48}=\\frac{23}{3}$ \n<br/><br/>And we're asked for the value of 12r<sup>2</sup>, so :\n\n<br/><br/> $12r^{2}=12 \\times \\frac{23}{3}=92$ \n<br/><br/>So, the correct answer is Option B : 92.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}+4y^{2}=36",
@@ -2649,7 +2654,7 @@
         "3x^{2}-16x+52-4r^{2}=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:48.485112"
     },
@@ -2697,13 +2702,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lo75i5g8/e4ea036e-437d-4176-8624-2ce86ca94e2d/d2049270-73f9-11ee-b2c1-dbe2f99c6f1d/file-6y3zli1lo75i5g9.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "25(\\beta^{2}x^{2}+\\alpha^{2}y^{2})=\\alpha^{2}\\beta^{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:49.000181"
     },
@@ -2730,13 +2735,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgrmkz0q/2a7d38c3-ba55-42ad-a453-25c4fef11776/8da18aa0-e0da-11ed-9ecd-e999028462e7/file-1lgrmkz0r.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.193299"
     },
@@ -2784,7 +2789,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l60jx84m/7dfa7ac3-4b51-48a5-b102-580ffe2e0760/d3aa7060-0bfc-11ed-8671-c161c1aef925/file-1l60jx84n.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+a^{2}y^{2}=25a^{2}",
@@ -2795,7 +2800,7 @@
         "=\\sqrt{1-\\frac{25}{25a^{2}}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.242703"
     },
@@ -2841,7 +2846,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let point (a, a + 1) as the point of intersection of line and ellipse.</p>\n<p>So,  $\\frac{a^{2}}{4}+\\frac{(a+1)^{2}}{2}=1 \\Rightarrow a^{2}+2(a^{2}+2a+1)=4$ </p>\n<p> $\\Rightarrow 3a^{2}+4a-2=0$ </p>\n<p>If roots of this equation are  $\\alpha$  and  $\\beta$ .</p>\n<p>So,  $P(\\alpha,\\alpha+1)$  and  $Q(\\beta,\\beta+1)$ </p>\n<p> $PQ=4r^{2}=(\\alpha-\\beta)^{2}+(\\alpha-\\beta)^{2}$ </p>\n<p> $\\Rightarrow 9r^{2}=\\frac{9}{4}(2(\\alpha-\\beta)^{2})$ </p>\n<p> $=\\frac{9}{2}[(\\alpha+\\beta)^{2}-4\\alpha\\beta]$ </p>\n<p> $=\\frac{9}{2}[(-\\frac{4}{3})^{2}+\\frac{8}{3}]$ </p>\n<p> $=\\frac{1}{2}[16+24]=20$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1",
@@ -2852,7 +2857,7 @@
         "=\\frac{9}{2}[(\\alpha+\\beta)^{2}-4\\alpha\\beta]"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.702747"
     },
@@ -2877,7 +2882,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of ellipse is :  $x^{2}+4y^{2}+2x+8y-\\lambda=0$ </p>\n<p> $(x+1)^{2}+4(y+1)^{2}=\\lambda+5$ </p>\n<p> $\\frac{(x+1)^{2}}{\\lambda+5}+\\frac{(y+1)^{2}}{(\\frac{\\lambda+5}{4})}=1$ </p>\n<p>Length of latus rectum  $=\\frac{2.(\\frac{\\lambda+5}{4})}{\\sqrt{\\lambda+5}}=4$ .</p>\n<p> $\\therefore$   $\\lambda=59$ .</p>\n<p>Length of major axis  $=2.\\sqrt{\\lambda+5}=16=l$ </p>\n<p> $\\therefore$   $\\lambda+l=75$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+4y^{2}+2x+8y-\\lambda=0",
@@ -2888,7 +2893,7 @@
         "\\lambda=59"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.933983"
     },
@@ -2934,7 +2939,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $L_{1}:bx+10y-8=0,L_{2}:2x-3y=0$ </p>\n<p>then  $L:(bx+10y-8)+\\lambda(2x-3y)=0$ </p>\n<p> $\\because$  It passes through  $(1,1)$ </p>\n<p> $\\therefore$   $b+2-\\lambda=0 \\Rightarrow \\lambda=b+2$ </p>\n<p>and touches the circle  $x^{2}+y^{2}=\\frac{16}{17}$ </p>\n<p> $|\\frac{8^{2}}{(2\\lambda+b)^{2}+(10-3\\lambda)^{2}}|=\\frac{16}{17}$ </p>\n<p> $\\Rightarrow 4\\lambda^{2}+b^{2}+4b\\lambda+100+9\\lambda^{2}-60\\lambda=68$ </p>\n<p> $\\Rightarrow 13(b+2)^{2}+b^{2}+4b(b+2)-60(b+2)+32=0$ </p>\n<p> $\\Rightarrow 18b^{2}=36$ </p>\n<p> $\\therefore$   $b^{2}=2$ </p>\n<p> $\\therefore$  Eccentricity of ellipse :  $\\frac{x^{2}}{5}+\\frac{y^{2}}{b^{2}}=1$  is</p>\n<p> $\\therefore$   $e=\\sqrt{1-\\frac{2}{5}}=\\sqrt{\\frac{3}{5}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "bx+10y-8=0",
@@ -2945,7 +2950,7 @@
         "\\Rightarrow 4\\lambda^{2}+b^{2}+4b\\lambda+100+9\\lambda^{2}-60\\lambda=68"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:49.489416"
     },
@@ -2991,7 +2996,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ </p>\n<p> $\\Rightarrow \\frac{(-4\\sqrt{\\frac{2}{5}})^{2}}{a^{2}}+\\frac{32}{b^{2}}=1$ </p>\n<p> $\\Rightarrow \\frac{32}{5a^{2}}+\\frac{9}{b^{2}}=1$  ..... (i)</p>\n<p> $a^{2}(1-e^{2})=b^{2}$ </p>\n<p> $a^{2}(1-\\frac{1}{16})=b^{2}$ </p>\n<p> $15a^{2}=16b^{2} \\Rightarrow a^{2}=\\frac{16b^{2}}{15}$ </p>\n<p>From (i)</p>\n<p> $\\frac{6}{b^{2}}+\\frac{9}{b^{2}}=1 \\Rightarrow b^{2}=15$  &amp;  $a^{2}=16$ </p>\n<p> $a^{2}+b^{2}=15+16=31$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -3002,7 +3007,7 @@
         "\\Rightarrow \\frac{32}{5a^{2}}+\\frac{9}{b^{2}}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.258881"
     },
@@ -3050,7 +3055,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5v5uvjp/f35361f2-1b79-408c-b8ee-7c34d92e23d8/e7463d60-0905-11ed-a790-b11fa70c8a36/file-1l5v5uvjq.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{4}=1,a>2",
@@ -3061,7 +3066,7 @@
         "cos\\theta=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.738774"
     },
@@ -3086,7 +3091,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because (\\alpha,\\beta)$  lies on the given ellipse,  $25\\alpha^{2}+4\\beta^{2}=1...(i)$ \n<br/><br/>\nTangent to the parabola,  $y=mx+\\frac{1}{m}$  passes through  $(\\alpha,\\beta)$ . So,  $\\alpha m^{2}-\\beta m+1=0$  has roots  $m_{1}$  and  $4m_{1}$ ,\n<br/><br/>\n $m_{1}+4m_{1}=\\frac{\\beta}{\\alpha}\\text{and}m_{1} \\cdot 4m_{1}=\\frac{1}{\\alpha}$ \n<br/><br/>\nGives that  $4\\beta^{2}=25\\alpha...(ii)$ \n<br/><br/>\nfrom (i) and (ii)\n<br/><br/>\n $25(\\alpha^{2}+\\alpha)=1...(iii)$ \n<br/><br/>\nNow,  $(10\\alpha+5)^{2}+(16\\beta^{2}+50)^{2}$ \n<br/><br/>\n $=25(2\\alpha+1)^{2}+2500(2\\alpha+1)^{2}$ \n<br/><br/>\n $=2525(4\\alpha^{2}+4\\alpha+1)$  from equation (iii)\n<br/><br/>\n $=2525(\\frac{4}{25}+1)$ \n<br/><br/>\n $=2929$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "25\\alpha^{2}+4\\beta^{2}=1...(i)",
@@ -3097,7 +3102,7 @@
         "m_{1}+4m_{1}=\\frac{\\beta}{\\alpha}\\text{and}m_{1} \\cdot 4m_{1}=\\frac{1}{\\alpha}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.947350"
     },
@@ -3143,7 +3148,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2x^{2}+3y^{2}=5$ </p>\n<p>Equation of tangent having slope m.</p>\n<p> $y=mx \\pm \\sqrt{\\frac{5}{2}m^{2}+\\frac{5}{3}}$ </p>\n<p>which passes through  $(1,3)$ </p>\n<p> $3=m \\pm \\sqrt{\\frac{5}{2}m^{2}+\\frac{5}{3}}$ </p>\n<p> $\\frac{5}{2}m^{2}+\\frac{5}{3}=9+m^{2}-6m$ </p>\n<p> $\\frac{3}{2}m^{2}+6m-\\frac{22}{3}=0$ </p>\n<p> $9m^{2}+36m-44=0$ </p>\n<p> $m_{1}+m_{2}=-4,m_{1}m_{2}=-\\frac{44}{9}$ </p>\n<p> $(m_{1}-m_{2})^{2}=16+4 \\times \\frac{44}{9}=\\frac{320}{9}$ </p>\n<p>Acute angle between the tangents is given by</p>\n<p> $\\alpha=tan^{-1}|\\frac{m_{1}-m_{2}}{1+m_{1}m_{2}}|$ </p>\n<p> $=tan^{-1}|\\frac{\\frac{8\\sqrt{5}}{3}}{1-\\frac{44}{9}}|$ </p>\n<p> $=tan^{-1}(\\frac{24\\sqrt{5}}{35})$ </p>\n<p> $\\alpha=tan^{-1}(\\frac{24}{7\\sqrt{5}})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "2x^{2}+3y^{2}=5",
@@ -3154,7 +3159,7 @@
         "9m^{2}+36m-44=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:49.526492"
     },
@@ -3200,7 +3205,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $C_{1}:\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1$  and  $C_{2}:x^{2}+y^{2}=12$ </p>\n<p>Let  $y=mx \\pm \\sqrt{16m^{2}+9}$  be any tangent to C<sub>1</sub> and if this is also tangent to C<sub>2</sub> then</p>\n<p> $|\\frac{\\sqrt{16m^{2}+9}}{\\sqrt{m^{2}+1}}|=\\sqrt{12}$ </p>\n<p> $\\Rightarrow 16m^{2}+9=12m^{2}+12$ </p>\n<p> $\\Rightarrow 4m^{2}=3 \\Rightarrow 12m^{2}=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Focal Properties & Auxiliary Circle",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1",
@@ -3211,7 +3216,7 @@
         "y=mx \\pm \\sqrt{16m^{2}+9}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:50.275330"
     },
@@ -3257,7 +3262,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  meets the line  $\\frac{x}{7}+\\frac{y}{2\\sqrt{6}}=1$  on the x-axis</p>\n<p>So,  $a=7$ </p>\n<p>and  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  meets the line  $\\frac{x}{7}-\\frac{y}{2\\sqrt{6}}=1$  on the y-axis</p>\n<p>So,  $b=2\\sqrt{6}$ </p>\n<p>Therefore,  $e^{2}=1-\\frac{b^{2}}{a^{2}}=1-\\frac{24}{49}$ </p>\n<p> $e=\\frac{5}{7}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -3265,7 +3270,7 @@
         "e=\\frac{5}{7}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:49.565339"
     },
@@ -3311,7 +3316,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $P(2cos\\theta,\\sqrt{2}sin\\theta)$  be any point on ellipse  $\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$  and Q(4, 3) and let (h, k) be the mid point of PQ</p>\n<p>then  $ℎ=\\frac{2cos\\theta+4}{2},k=\\frac{\\sqrt{2}sin\\theta+3}{2}$ </p>\n<p> $\\therefore$   $cos\\theta=ℎ-2,sin\\theta=\\frac{2k-3}{\\sqrt{2}}$ </p>\n<p> $\\therefore$   $(ℎ-2)^{2}+(\\frac{2k-3}{\\sqrt{2}})^{2}=1$ </p>\n<p> $\\Rightarrow \\frac{(x-2)^{2}}{1}+\\frac{(y-\\frac{3}{2})^{2}}{\\frac{1}{2}}=1$ </p>\n<p> $\\therefore$   $e=\\sqrt{1-\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+2y^{2}=4",
@@ -3322,7 +3327,7 @@
         "\\Rightarrow \\frac{(x-2)^{2}}{1}+\\frac{(y-\\frac{3}{2})^{2}}{\\frac{1}{2}}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.302443"
     },
@@ -3347,7 +3352,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $E \\equiv \\frac{x^{2}}{2}+\\frac{y^{2}}{4}=1$ </p>\n<p> $\\begin{aligned} &amp; T \\equiv y=mx \\pm \\sqrt{2m^{2}+4} \\\\ &amp; ↓(\\sqrt{2},2\\sqrt{2}-2) \\end{aligned}$ </p>\n<p> $\\Rightarrow (2\\sqrt{2}-2-m\\sqrt{2})= \\pm \\sqrt{2m^{2}+4}$ </p>\n<p> $\\Rightarrow 2m^{2}-2m\\sqrt{2}(2\\sqrt{2-2})+4(3-2\\sqrt{2})=2m^{2}+4$ </p>\n<p> $\\Rightarrow -2\\sqrt{2}m(2\\sqrt{2}-2)=4-12+8\\sqrt{2}$ </p>\n<p> $\\Rightarrow -4\\sqrt{2}m(\\sqrt{2}-1)=8(\\sqrt{2}-1)$ </p>\n<p> $\\Rightarrow m=-\\sqrt{2}$  and  $m \\rightarrow \\infty$ </p>\n<p> $\\therefore$  Tangents are  $x=\\sqrt{2}$  and  $y=-\\sqrt{2}x+\\sqrt{8}$ </p>\n<p> $\\therefore$   $P(\\sqrt{2},0)$  and  $Q(1,\\sqrt{2})$ </p>\n<p>and  $S=(0,-\\sqrt{2})$ </p>\n<p> $\\therefore$   $(PS)^{2}+(QS)^{2}=4+9=13$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ___________.",
@@ -3358,7 +3363,7 @@
         "\\Rightarrow m=-\\sqrt{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.658811"
     },
@@ -3404,7 +3409,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,x^{2}+y^{2}=ab$ <br/><br/> $\\frac{2x_{1}}{a^{2}}+\\frac{2y_{1}y^{'}}{b^{2}}=0$ <br/><br/> $\\Rightarrow y_{1}^{'}=\\frac{-x_{1}}{a^{2}}\\frac{b^{2}}{y_{1}}$  .... (1)<br/><br/> $\\therefore$   $2x_{1}+2y_{1}y^{'}=0$ <br/><br/> $\\Rightarrow y_{2}^{'}=\\frac{-x_{1}}{y_{1}}$  ..... (2)<br/><br/>Here (x<sub>1</sub>y<sub>1</sub>) is point of intersection of both curves<br/><br/> $\\therefore$   $x_{1}^{2}=\\frac{a^{2}b}{a+b},y_{1}^{2}=\\frac{ab^{2}}{a+b}$ <br/><br/> $\\therefore$   $tan\\theta=|\\frac{y_{1}^{'}-y_{2}^{'}}{1+y_{1}^{'}y_{2}^{'}}|=|\\frac{\\frac{-x_{1}b^{2}}{a^{2}y_{1}}+\\frac{x_{1}}{y_{1}}}{1+\\frac{x_{1}^{2}b^{2}}{a^{2}y_{1}^{2}}}|$ <br/><br/> $tan\\theta=|\\frac{-b^{2}x_{1}y_{1}+a^{2}x_{1}y_{1}}{a^{2}y_{1}^{2}+b^{2}x_{1}^{2}}|$ <br/><br/> $tan\\theta=|\\frac{a-b}{\\sqrt{ab}}|$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Focal Properties & Auxiliary Circle",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -3415,7 +3420,7 @@
         "\\Rightarrow y_{2}^{'}=\\frac{-x_{1}}{y_{1}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:51.140095"
     },
@@ -3463,7 +3468,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks2597cj/49307003-80f8-4c1d-9107-1cb8529f8b08/01d44520-f7b2-11eb-b37d-c3b778e1195d/file-1ks2597ck.jpeg"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{3}",
@@ -3474,7 +3479,7 @@
         "\\frac{a}{e}-e=\\frac{8}{\\sqrt{53}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.639036"
     },
@@ -3520,7 +3525,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Tangent =  $\\frac{x}{3\\sqrt{3}}cos\\theta+ysin\\theta=1$ <br/><br/>x-intercept =  $3\\sqrt{3}$  sec $\\theta$ <br/><br/>y-intercept = cosec $\\theta$ <br/><br/>sum =  $3\\sqrt{3}$  sec $\\theta$  + cosec $\\theta$  = f( $\\theta$ )  $\\theta$  $\\in$  $(0,\\frac{\\pi}{2})$ <br/><br/> $\\Rightarrow$  f'( $\\theta$ ) =  $3\\sqrt{3}$  sec $\\theta$ tan $\\theta$   $-$  cosec $\\theta$  cot $\\theta$  = 0<br/><br/> $\\Rightarrow$   $\\frac{3\\sqrt{3}sin\\theta}{cos^{2}\\theta}=\\frac{cos\\theta}{sin\\theta}$ <br/><br/> $\\Rightarrow tan^{3}\\theta=(\\frac{1}{\\sqrt{3}})^{3}$ <br/><br/> $\\Rightarrow tan\\theta=\\frac{1}{\\sqrt{3}}$ <br/><br/> $\\Rightarrow$   $\\theta$  =  $\\frac{\\pi}{6}$ <br/><br/>also f'( $\\theta$ ) changes sign  $-$  to + hence minimum.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{27}+y^{2}=1",
@@ -3531,7 +3536,7 @@
         "\\frac{3\\sqrt{3}sin\\theta}{cos^{2}\\theta}=\\frac{cos\\theta}{sin\\theta}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.038132"
     },
@@ -3556,7 +3561,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Tangent to the curve  $\\frac{x^{2}}{9}+\\frac{y^{2}}{14}=1$  is <br/><br/> $y=mx+\\sqrt{9m^{2}+4}$ <br/><br/>and equation of tangent to the curve  $x^{2}+y^{2}=\\frac{31}{4}$  is<br/><br/> $y=mx+\\sqrt{\\frac{31}{4}(1+m)^{2}}$ <br/><br/>for common tangent  $9m^{2}+4=\\frac{31}{4}+\\frac{31}{4}m^{2}$ <br/><br/> $\\Rightarrow \\frac{5}{4}m^{2}=\\frac{15}{4}$ <br/><br/> $\\Rightarrow m^{2}=3$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Focal Properties & Auxiliary Circle",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{14}=1",
@@ -3567,7 +3572,7 @@
         "\\Rightarrow \\frac{5}{4}m^{2}=\\frac{15}{4}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:58.121050"
     },
@@ -3613,7 +3618,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $12xcos\\theta+5ysin\\theta=60$ <br/><br/> $\\frac{xcos\\theta}{5}+\\frac{ysin\\theta}{12}=1$ <br/><br/>is tangent to  $\\frac{x^{2}}{25}+\\frac{y^{2}}{144}=1$ <br/><br/> $144x^{2}+25y^{2}=3600$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "12xcos\\theta+5ysin\\theta=60",
@@ -3622,7 +3627,7 @@
         "144x^{2}+25y^{2}=3600"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.177629"
     },
@@ -3670,7 +3675,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks0gcrh4/ee9e1c05-4fea-4164-8f8e-449fbecbf196/d7ed4980-f6c3-11eb-826c-5377cfaa694d/file-1ks0gcrh5.jpeg"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{1}=1",
@@ -3681,7 +3686,7 @@
         "x^{2}-4+y^{2}-(tan\\frac{\\theta}{2}+cot\\frac{\\theta}{2})y+1=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.654395"
     },
@@ -3727,7 +3732,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{16}+\\frac{y^{2}}{b^{2}}=1$  ... (1)<br/><br/> $x^{2}+y^{2}=4b$  .... (2)<br/><br/> $y^{2}=3x^{2}$  .... (3)<br/><br/>From eq (2) and (3) \n<br/><br/>x<sup>2</sup> = b and y<sup>2</sup> = 3b<br/><br/>From equation (1) \n<br/><br/> $\\frac{b}{16}+\\frac{3b}{b^{2}}=1$ <br/><br/> $\\Rightarrow b^{2}+48=16b$ <br/><br/> $\\Rightarrow b=12$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{b^{2}}=1",
@@ -3738,7 +3743,7 @@
         "\\Rightarrow b=12"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.091472"
     },
@@ -3784,7 +3789,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The point of intersection of the curves  $\\frac{x^{2}}{9}+\\frac{y^{2}}{1}=1$  and  $x^{2}+y^{2}=3$  in the first quadrant is  $(\\frac{3}{2},\\frac{\\sqrt{3}}{2})$ <br/><br/>Now slope of tangent to the ellipse  $\\frac{x^{2}}{9}+\\frac{y^{2}}{1}=1$  at  $(\\frac{3}{2},\\frac{\\sqrt{3}}{2})$  is <br/><br/> $m_{1}=-\\frac{1}{3\\sqrt{3}}$ <br/><br/>And slope of tangent to the circle at  $(\\frac{3}{2},\\frac{\\sqrt{3}}{2})$  is m<sub>2</sub>  $=-\\sqrt{3}$ <br/><br/>So, if angle between both curves is  $\\theta$  then<br/><br/> $tan\\theta=|\\frac{m_{1}-m_{2}}{1+m_{1}m_{2}}|=|\\frac{-\\frac{1}{3\\sqrt{3}}+\\sqrt{3}}{1+(-\\frac{1}{3\\sqrt{3}}(-\\sqrt{3}))}|$ <br/><br/> $=\\frac{2}{\\sqrt{3}}$ <br/><br/>Option (b)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{1}=1",
@@ -3795,7 +3800,7 @@
         "=\\frac{2}{\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.785035"
     },
@@ -3841,7 +3846,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x<sup>2</sup> + 9y<sup>2</sup>  $-$  4x + 3 = 0<br/><br/>(x<sup>2</sup>  $-$  4x) + (9y<sup>2</sup>) + 3 = 0<br/><br/>(x<sup>2</sup>  $-$  4x + 4) + (9y<sup>2</sup>) + 3  $-$  4 = 0<br/><br/>(x  $-$  2)<sup>2</sup> + (3y)<sup>2</sup> = 1<br/><br/> $\\frac{(x-2)^{2}}{(1)^{2}}+\\frac{y^{2}}{(\\frac{1}{3})^{2}}=1$  (equation of an ellipse).<br/><br/>As it is equation of an ellipse, x &amp; y can vary inside the ellipse.<br/><br/>So,  $x-2 \\in [-1,1]$  and  $y \\in [-\\frac{1}{3},\\frac{1}{3}]$ <br/><br/>x  $\\in$  [1, 3]  $y \\in [-\\frac{1}{3},\\frac{1}{3}]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "4x + 3 = 0, x, y",
@@ -3852,7 +3857,7 @@
         "y \\in [-\\frac{1}{3},\\frac{1}{3}]"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.213200"
     },
@@ -3898,7 +3903,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{3}{2a^{2}}+\\frac{1}{b^{2}}=1$  and  $1-\\frac{b^{2}}{a^{2}}=\\frac{1}{3}$ <br/><br/> $\\Rightarrow a^{2}=3b^{2}=3$  <br/><br/> $\\Rightarrow \\frac{x^{2}}{3}+\\frac{y^{2}}{2}=1$  ...... (i)<br/><br/>Its focus is (1, 0)<br/><br/>Now, equation of circle is <br/><br/> $(x-1)^{2}+y^{2}=\\frac{4}{3}$  ..... (ii)<br/><br/>Solving (i) and (ii) we get<br/><br/> $y= \\pm \\frac{2}{\\sqrt{3}},x=1$ <br/><br/> $\\Rightarrow PQ^{2}=(\\frac{4}{\\sqrt{3}})^{2}=\\frac{16}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -3909,7 +3914,7 @@
         "\\frac{3}{2a^{2}}+\\frac{1}{b^{2}}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.665951"
     },
@@ -3957,7 +3962,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kqzytmuf/b34ce48e-2f65-488f-81a0-b42b9168fb1b/1166b860-e2b3-11eb-9239-3328e18246f1/file-1kqzytmug.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{2}+\\frac{y}{1}=1",
@@ -3968,7 +3973,7 @@
         "x^{2}+4xy=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.130728"
     },
@@ -3995,7 +4000,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktqvu6kg/c3a2f873-81a6-44c0-8113-6d289113ad65/fd8abc00-1918-11ec-9e1c-4f8f7e7dad5b/file-1ktqvu6kh.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{b^{2}}+\\frac{y^{2}}{4a^{2}}=1",
@@ -4004,7 +4009,7 @@
         "=\\frac{2ab}{sin2\\theta} \\ge 2ab"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.959644"
     },
@@ -4050,7 +4055,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->General point on  $\\frac{x^{2}}{4}+\\frac{y^{2}}{9}=1$  is A(2cos $\\theta$ , 3sin $\\theta$ )<br/><br/>given B( $-$ 3,  $-$ 5)<br/><br/>midpoint  $C(\\frac{2cos\\theta-3}{2},\\frac{3sin\\theta-5}{2})$ <br/><br/> $ℎ=\\frac{2cos\\theta-3}{2};k=\\frac{3sin\\theta-5}{2}$ <br/><br/> $\\Rightarrow (\\frac{2ℎ+3}{2})^{2}+(\\frac{2k+5}{3})^{2}=1$ <br/><br/> $\\Rightarrow 36x^{2}+16y^{2}+108x+80y+145=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "ℎ=\\frac{2cos\\theta-3}{2};k=\\frac{3sin\\theta-5}{2}",
@@ -4058,7 +4063,7 @@
         "\\Rightarrow 36x^{2}+16y^{2}+108x+80y+145=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:50.809137"
     },
@@ -4106,7 +4111,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktcqh0pt/44837056-f91f-4a49-83e0-6da733224668/08c40510-1151-11ec-a14f-27601c78632f/file-1ktcqh0pu.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1",
@@ -4117,7 +4122,7 @@
         "e 2 )A ="
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.230656"
     },
@@ -4165,7 +4170,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kruuu54k/961977df-22d9-4ee1-8efa-0b0f6ac7cb43/c723ca50-f3af-11eb-a605-b34dacb82f1b/file-1kruuu54l.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,a>b",
@@ -4176,7 +4181,7 @@
         "\\Rightarrow c=\\frac{b}{e}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:51.682773"
     },
@@ -4203,7 +4208,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks2pwkdg/1bea8324-69b2-41ef-ac6c-661070dff45c/c2159730-f802-11eb-8b50-1b12e43245be/file-1ks2pwkdh.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "4) Hence, a = 2 & ae = 1",
@@ -4212,7 +4217,7 @@
         "\\frac{x^{2}-6x+9}{4}+\\frac{m^{2}x^{2}}{3}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:57.971618"
     },
@@ -4260,7 +4265,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukgqhshux/3764e95e-2f75-4d3c-9b21-019f0bc3cf02/3ee98ca0-1783-11eb-8293-3b6cc591631c/file-jgy2xukgqhshuy-359w.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1",
@@ -4271,7 +4276,8 @@
         "-\\frac{1}{m}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:52.530470"
     },
@@ -4317,7 +4323,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the equation of ellipse\n<br/><br/> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ , ( $a&gt;b$ )\n<br/><br/>Given 2b =  $\\frac{4}{\\sqrt{3}}$ \n<br/><br/> $\\Rightarrow$  b =  $\\frac{2}{\\sqrt{3}}$ \n<br/><br/>We know, Equation of tangent y = mx  $\\pm$   $\\sqrt{a^{2}m^{2}+b^{2}}$  ....(1)\n<br/><br/>Given tangent is x + 6y = 8\n<br/><br/> $\\Rightarrow$  y =  $-\\frac{1}{6}x+\\frac{8}{6}$  .....(2)\n<br/><br/>By comparing (1) and (2),\n<br/><br/>m =  $-\\frac{1}{6}$  and  $a^{2}m^{2}+b^{2}$  =  $\\frac{16}{9}$ \n<br/><br/> $\\Rightarrow$   $a^{2}(\\frac{1}{36})+\\frac{4}{3}$  =  $\\frac{16}{9}$ \n<br/><br/> $\\Rightarrow$   $a^{2}=16$ \n<br/><br/> $\\therefore$  e =  $\\sqrt{1-\\frac{b^{2}}{a^{2}}}$ \n<br/><br/>=  $\\sqrt{1-\\frac{\\frac{4}{3}}{16}}$ \n<br/><br/>=  $\\sqrt{\\frac{11}{12}}$  =  $\\frac{1}{2}\\sqrt{\\frac{11}{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{\\sqrt{3}}",
@@ -4328,7 +4334,7 @@
         "-\\frac{1}{6}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.013777"
     },
@@ -4374,14 +4380,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->9x<sup>2</sup> + 16y<sup>2</sup> = 144\n<br/><br/> $\\Rightarrow$   $\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1$ \n<br/><br/> $\\therefore$  a = 4; b = 3;\n<br/><br/>Now e =  $\\sqrt{1-\\frac{9}{16}}=\\frac{\\sqrt{7}}{4}$ \n<br/><br/>A and B are foci\n<br/><br/>PA + PB = 2a = 2 × 4 = 8<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1",
         "\\sqrt{1-\\frac{9}{16}}=\\frac{\\sqrt{7}}{4}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.575539"
     },
@@ -4427,7 +4433,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let P be (x<sub>1</sub>\n, y<sub>1</sub>)\n<br/><br/>Equation of normal at P is  $\\frac{x}{2x_{1}}-\\frac{y}{y_{1}}=\\frac{1}{2}-1$ \n<br/><br/>It passes through  $(-\\frac{1}{3\\sqrt{2}},0)$ \n<br/><br/> $\\therefore$   $\\frac{-1}{6\\sqrt{2}x_{1}}=-\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$  x<sub>1</sub> =  $\\frac{1}{3\\sqrt{2}}$ \n<br/><br/>Also using 2 $x_{1}^{2}$  +  $y_{1}^{2}$  = 1\n<br/><br/> $\\Rightarrow$   $y_{1}^{2}$  = 1 -  $\\frac{2}{18}$ \n<br/><br/> $\\Rightarrow$  y<sub>1</sub> =  $\\frac{2\\sqrt{2}}{3}$ \n<br/><br/>(0,  $\\beta$ ) is on the normal.\n<br/><br/>So 0 -  $\\frac{\\beta}{\\frac{2\\sqrt{2}}{3}}$  =  $-\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\beta$  =  $\\frac{\\sqrt{2}}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "(-\\frac{1}{3\\sqrt{2}},0)",
@@ -4438,7 +4444,7 @@
         "y_{1}^{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.069558"
     },
@@ -4484,7 +4490,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e=\\frac{1}{2}$  <br/><br/> $x=\\frac{a}{e}=4$ <br/><br/> $\\Rightarrow$  a = 2<br/><br/> $e^{2}=1-\\frac{b^{2}}{a^{2}}$ \n<br/><br/> $\\Rightarrow \\frac{1}{4}=1-\\frac{b^{2}}{4}$ <br/><br/> $\\frac{b^{2}}{4}=\\frac{3}{4} \\Rightarrow b^{2}=3$ <br/><br/> $\\therefore$  Ellipse  $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ <br/><br/>P(1,  $\\beta$ ) is on the ellipse<br/><br/>  $\\frac{1}{4}+\\frac{\\beta^{2}}{3}=1$ <br/><br/> $\\frac{\\beta^{2}}{3}=\\frac{3}{4} \\Rightarrow \\beta=\\frac{3}{2}$ <br/><br/> $\\Rightarrow P(1,\\frac{3}{2})$ <br/><br/>Equation of normal  $\\frac{a^{2}x}{x_{1}}-\\frac{b^{2}y}{y_{1}}=a^{2}-b^{2}$ <br/><br/> $\\Rightarrow$   $\\frac{4x}{1}-\\frac{3y}{\\frac{3}{2}}=4-3$ <br/><br/> $\\Rightarrow$   $4x-2y=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -4495,7 +4501,7 @@
         "\\frac{b^{2}}{4}=\\frac{3}{4} \\Rightarrow b^{2}=3"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.611610"
     },
@@ -4541,7 +4547,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->3x + 4y = 12 $\\sqrt{2}$ \n<br/><br/> $\\Rightarrow$  y =  $-\\frac{3x}{4}+3\\sqrt{2}$ \nis tangent to \n<br/><br/> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{9}=1$ \n<br/><br/> $\\therefore$   c<sup>2</sup>\n = a<sup>2</sup>m<sup>2</sup> + b<sup>2</sup>\n<br/><br/> $\\Rightarrow$   $(3\\sqrt{2})^{2}=a^{2}(-\\frac{3}{4})^{2}+9$ \n<br/><br/> $\\Rightarrow$  a<sup>2</sup> = 16\n<br/><br/>Also e =  $\\sqrt{1-\\frac{b^{2}}{a^{2}}}$ \n<br/><br/>=  $\\sqrt{1-\\frac{9}{16}}$  =  $\\frac{\\sqrt{7}}{4}$ \n<br/><br/>Distance between focii = 2ae\n<br/><br/>=  $2 \\times 4 \\times \\frac{\\sqrt{7}}{4}$ \n<br/><br/>=  $2\\sqrt{7}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{9}=1",
@@ -4552,7 +4558,7 @@
         "\\frac{\\sqrt{7}}{4}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.131503"
     },
@@ -4598,7 +4604,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of normal at  $(ae,\\frac{b^{2}}{a})$ \n<br/><br/> $\\frac{a^{2}x}{ae}-\\frac{b^{2}y}{\\frac{b^{2}}{a}}=a^{2}-b^{2}$ \n<br/><br/>It passes through (0,–b)\n<br/><br/> $\\therefore$   $0-\\frac{b^{2}(-b)}{\\frac{b^{2}}{a}}=a^{2}-b^{2}$ \n<br/><br/> $\\Rightarrow$   $a$ b =  $a^{2}-b^{2}$ \n<br/><br/> $\\Rightarrow$   $a$ b =  $a^{2}e^{2}$  [as b<sup>2</sup> =  $a^{2}(1-e^{2})$ ]\n<br/><br/> $\\Rightarrow$   $a$ <sup>2</sup>b<sup>2</sup> =  $a^{4}e^{4}$ \n<br/><br/> $\\Rightarrow$   $\\frac{b^{2}}{a^{2}}$  = e<sup>4</sup>\n<br/><br/> $\\Rightarrow$   $1-e^{2}$  = e<sup>4</sup>\n<br/><br/> $\\Rightarrow$  e<sup>4</sup> + e<sup>2</sup> – 1 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "(ae,\\frac{b^{2}}{a})",
@@ -4609,7 +4615,7 @@
         "2 b 2 ="
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.202469"
     },
@@ -4655,7 +4661,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  (a &gt; b)<br/><br/>Length of latus rectum  $=\\frac{2b^{2}}{a}=10$ <br/><br/> $\\phi(t)=\\frac{5}{12}+t-t^{2}$ <br/><br/> $=\\frac{8}{12}-(t-\\frac{1}{2})^{2}$ <br/><br/> $\\therefore$   $\\phi(t)_{max}=\\frac{8}{12}=\\frac{2}{3}$ <br/><br/> $\\therefore$  eccentricity (e) =  $\\frac{2}{3}$ <br/><br/>Also,  $e^{2}=1-\\frac{b^{2}}{a^{2}}$ <br/><br/> $\\Rightarrow \\frac{4}{9}=1-\\frac{b^{2}}{a^{2}}$ <br/><br/> $\\Rightarrow \\frac{b^{2}}{a^{2}}=\\frac{5}{9}$ <br/><br/> $\\Rightarrow \\frac{b^{2}}{a} \\times \\frac{1}{a}=\\frac{5}{9}$ <br/><br/> $\\Rightarrow \\frac{5}{a}=\\frac{5}{9}$ <br/><br/> $\\Rightarrow a=9$ <br/><br/> $\\therefore$   $b^{2}=5 \\times 9=45$ <br/><br/> $\\therefore$   $a^{2}+b^{2}=81+45=126$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -4666,7 +4672,7 @@
         "\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:52.670656"
     },
@@ -4712,7 +4718,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Distance between foci = 2ae = 6\n<br/><br/> $\\Rightarrow$  ae = 3 .....(1)\n<br/><br/>Distance between directrices =  $\\frac{2a}{e}$  = 12\n<br/><br/> $\\Rightarrow$   $\\frac{a}{e}$  = 6 .....(2)\n<br/><br/>from (1) and (2) \n<br/><br/>a<sup>2</sup> = 18\n<br/><br/>also a<sup>2</sup>e<sup>2</sup> = 9\n<br/><br/> $\\Rightarrow$  18e<sup>2</sup> = 9\n<br/><br/> $\\Rightarrow$  e<sup>2</sup> =  $\\frac{1}{2}$ \n<br/><br/>We know e<sup>2</sup> = 1 -  $\\frac{b^{2}}{a^{2}}$ \n<br/><br/> $\\therefore$   $\\frac{1}{2}$  = 1 -  $\\frac{b^{2}}{a^{2}}$ \n<br/><br/> $\\Rightarrow$  b<sup>2</sup> = 9\n<br/><br/> $\\therefore$  Length of latus rectum =  $\\frac{2b^{2}}{a}$ \n<br/><br/>=  $\\frac{2 \\times 9}{\\sqrt{18}}$ \n<br/><br/>=  $3\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2a}{e}",
@@ -4723,7 +4729,7 @@
         "\\frac{2 \\times 9}{\\sqrt{18}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.174737"
     },
@@ -4769,7 +4775,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a&lt;b)$  is the equation of ellipse, focii  $(0, \\pm 2)$ <br/><br/>\nGiven 2a = 4  $\\Rightarrow$  a = 2<br/><br/>\ne<sup>2</sup> = 1 -  $\\frac{a^{2}}{b^{2}}$   $\\Rightarrow$  b<sup>2</sup>e<sup>2</sup> = b<sup>2</sup> - a<sup>2</sup><br/><br/>\n4 = b<sup>2</sup> - 4<br/><br/>\nb<sup>2</sup> = 8<br/><br/>\n $\\because$  equation of ellipse is  $\\frac{x^{2}}{4}+\\frac{y^{2}}{8}=1$ <br/><br/>\nthen it passes through  $(\\sqrt{2},2)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a<b)",
@@ -4777,7 +4783,7 @@
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{8}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.481410"
     },
@@ -4823,7 +4829,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Point P( $\\alpha$ ,  $\\beta$ ) is on the parabola y<sup>2</sup> = x\n<br/><br/> $\\therefore$   $\\beta^{2}=\\alpha$  ...........(1)\n<br/><br/>Equation of tangent to the parabola y<sup>2</sup> = x\n<br/><br/>at ( $\\alpha$ ,  $\\beta$ ) is T = 0\n<br/><br/> $\\beta y=\\frac{x+\\alpha}{2}$ \n<br/><br/> $\\Rightarrow$   $2\\beta y=x+\\alpha$ \n<br/><br/> $\\Rightarrow$   $y=\\frac{1}{2\\beta}x+\\frac{\\alpha}{2\\beta}$ \n<br/><br/>For this straight line, m =  $\\frac{1}{2\\beta}$  and c =  $\\frac{\\alpha}{2\\beta}$ \n<br/><br/>This tangent is also a tangent to ellipse x<sup>2</sup> + 2y<sup>2</sup> = 1.\n<br/><br/> $\\Rightarrow$   $\\frac{x^{2}}{1}+\\frac{y^{2}}{\\frac{1}{2}}=1$ \n<br/><br/> $\\therefore$   $a^{2}=1$  and  $b^{2}=\\frac{1}{2}$ .\n<br/><br/>We know the condition of tangency on ellipse is\n<br/><br/> $c^{2}=a^{2}m^{2}+b^{2}$ \n<br/><br/> $\\Rightarrow$   $(\\frac{\\alpha}{2\\beta})^{2}=1(\\frac{1}{2\\beta})^{2}+\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\alpha^{2}}{4\\beta^{2}}=\\frac{1}{4\\beta^{2}}+\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{2}=1+2\\beta^{2}$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{2}=1+2\\alpha$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{2}-2\\alpha-1=0$ \n<br/><br/> $\\Rightarrow$   $\\alpha=1+\\sqrt{2}$  and  $\\alpha=1-\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\beta^{2}=\\alpha",
@@ -4834,7 +4840,7 @@
         "\\frac{\\alpha}{2\\beta}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.972726"
     },
@@ -4880,7 +4886,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{2b^{2}}{a}=8$  and  2ae  $=$  2b\n<br/><br/> $\\Rightarrow$    $\\frac{b}{a}$  = e  and 1  $-$  e<sup>2</sup> = e<sup>2</sup>  $\\Rightarrow$  e  $=$   $\\frac{1}{\\sqrt{2}}$ \n<br/><br/> $\\Rightarrow$   b = 4 $\\sqrt{2}$   and  a  $=$  8\n<br/><br/>So equation of ellipse is  $\\frac{x^{2}}{64}+\\frac{y^{2}}{32}=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2b^{2}}{a}=8",
@@ -4889,7 +4895,7 @@
         "\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:54.709631"
     },
@@ -4935,7 +4941,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of ellipse is  $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ <br/><br/>\nNormal at P(2 cos  $\\theta$ ,  $\\sqrt{3}sin\\theta$ ) is 2x sin $\\theta$  -  $\\sqrt{3}ycos\\theta$  = sin  $\\theta$  cos  $\\theta$  as the normal is parallel to 2x + y = 4<br/><br/>\n $\\Rightarrow$   $\\frac{2}{\\sqrt{3}}tan\\theta=-2$ <br/><br/>\n $\\Rightarrow tan\\theta=-\\sqrt{3}......(i)$ <br/><br/>\ntangent at P(2 cos  $\\theta$ ,  $\\sqrt{3}sin\\theta$ ) is <br/><br/>\n $\\sqrt{3}$  x cos  $\\theta$  + 2y sin  $\\theta$  = 2  $\\sqrt{3}$ <br/><br/>\nPasses through (4, 4)<br/><br/>\n $\\Rightarrow$  4 $\\sqrt{3}$  cos  $\\theta$  + 8 sin  $\\theta$  = 2 $\\sqrt{3}$  ....... (ii)<br/><br/>\nFrom (i) and (ii) <br/><br/>\n $\\Rightarrow P(-1,\\frac{3}{2})&amp;Q(4,4)$ <br/><br/>\n $\\Rightarrow PQ=\\sqrt{25+\\frac{25}{4}}=\\frac{5\\sqrt{5}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1",
@@ -4945,7 +4951,7 @@
         "\\Rightarrow PQ=\\sqrt{25+\\frac{25}{4}}=\\frac{5\\sqrt{5}}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.524903"
     },
@@ -4991,7 +4997,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Focus (0, be) = (0, 5 $\\sqrt{3}$ )\n<br/><br/> $\\therefore$  be = 5 $\\sqrt{3}$ \n<br/><br/> $\\Rightarrow$  b<sup>2</sup>e<sup>2</sup> = 75\n<br/><br/>As here b &gt; a\n<br/><br/>so e<sup>2</sup> =  $1-\\frac{a^{2}}{b^{2}}$ \n<br/><br/> $\\therefore$  b<sup>2</sup> $(1-\\frac{a^{2}}{b^{2}})$  = 75\n<br/><br/> $\\Rightarrow$  b<sup>2</sup> - a<sup>2</sup> = 75 .......(1)\n<br/><br/>Given that,\n<br/><br/>difference of the lengths of major axis and minor\naxis is 10.\n<br/><br/> $\\therefore$  2b - 2a = 10\n<br/><br/> $\\Rightarrow$  b - a = 5 .......(2)\n<br/><br/>From (1),\n<br/><br/>(b + a)(b - a) = 75\n<br/><br/> $\\Rightarrow$  (b + a)5 = 75\n<br/><br/> $\\Rightarrow$  (b + a) = 15 .......(3)\n<br/><br/>From (2) and (3) we get,\n<br/><br/>b = 10, a = 5\n<br/><br/> $\\therefore$  Length of its latus rectum =  $\\frac{2a^{2}}{b}$ \n<br/><br/>=  $\\frac{2 \\times 25}{10}$  = 5<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "1-\\frac{a^{2}}{b^{2}}",
@@ -5000,7 +5006,7 @@
         "\\frac{2 \\times 25}{10}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.989420"
     },
@@ -5046,7 +5052,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of general tangent on ellipse \n<br/><br/> $\\frac{x}{asec\\theta}+\\frac{y}{bcosec\\theta}=1$ \n<br/><br/> $a=\\sqrt{2},b=1$ \n<br/><br/> $\\Rightarrow \\frac{x}{\\sqrt{2}sec\\theta}+\\frac{y}{cosec\\theta}=1$ \n<br/><br/>Let the midpoint be (h, k)\n<br/><br/> $ℎ=\\frac{\\sqrt{2}sec\\theta}{2} \\Rightarrow cos\\theta=\\frac{1}{\\sqrt{2}ℎ}$ \n<br/><br/>and  $k=\\frac{cosec\\theta}{2} \\Rightarrow sin\\theta=\\frac{1}{2k}$ \n<br/><br/> $\\because$    $sin^{2}\\theta+cos^{2}\\theta=1$ \n<br/><br/> $\\Rightarrow$    $\\frac{1}{2ℎ^{2}}+\\frac{1}{4k^{2}}=1$ \n<br/><br/> $\\Rightarrow$    $\\frac{1}{2x^{2}}+\\frac{1}{4y^{2}}=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{asec\\theta}+\\frac{y}{bcosec\\theta}=1",
@@ -5057,7 +5063,7 @@
         "sin^{2}\\theta+cos^{2}\\theta=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:54.751419"
     },
@@ -5103,7 +5109,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $3x^{2}+5y^{2}=32$ <br/><br/>\n6x + 10yy' = 0<br/><br/>\n $\\Rightarrow y^{'}=\\frac{-3x}{5y}$ <br/><br/>\n $\\Rightarrow y_{(2,2)}^{'}=-\\frac{3}{5}$ <br/><br/>\nTangent  $(y-2)=-\\frac{3}{5}(x-2) \\Rightarrow Q(\\frac{16}{3},0)$ <br/><br/>\nNormal  $(y-2)=\\frac{5}{3}(x-2) \\Rightarrow R(\\frac{4}{5},0)$ <br/><br/>\n $\\therefore$  Area =  $\\frac{1}{2}(QR) \\times 2=QR=\\frac{68}{15}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "3x^{2}+5y^{2}=32",
@@ -5114,7 +5120,7 @@
         "\\frac{1}{2}(QR) \\times 2=QR=\\frac{68}{15}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.565763"
     },
@@ -5160,7 +5166,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, Equation of ellipse 4x<sup>2</sup>\n + y<sup>2</sup> = 8\n<br/><br/>We know equation of tangent at any point (x<sub>1</sub>, y<sub>1</sub>) is\n<br/><br/>4xx<sub>1</sub>\n + yy<sub>1</sub> = 8\n<br/><br/> $\\therefore$  Equation of tangent at point (1, 2) is\n<br/><br/>4x + 2y = 8\n<br/><br/> $\\Rightarrow$  2x + y = 4\n<br/><br/> $\\therefore$  Slope of this tangent = -2\n<br/><br/>Equation of tangent at point (a, b) is\n<br/><br/>4ax + by = 8\n<br/><br/>Slope of this tangent =  $-\\frac{4a}{b}$ \n<br/><br/>As tangent at (1, 2) and (a, b) are perpendicular\n<br/><br/> $\\therefore$   $(-2)(-\\frac{4a}{b})=-1$ \n<br/><br/> $\\Rightarrow$  b = -8 $a$ \n<br/><br/>As point (a, b) lies on the ellipse\n<br/><br/> $\\therefore$   $4a^{2}+b^{2}=8$ \n<br/><br/> $\\Rightarrow$   $4a^{2}+64a^{2}=8$ \n<br/><br/> $\\Rightarrow$   $a^{2}=\\frac{8}{68}$  =  $\\frac{2}{17}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{4a}{b}",
@@ -5171,7 +5177,7 @@
         "\\frac{2}{17}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:54.037079"
     },
@@ -5217,7 +5223,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{y^{2}}{1+r}-\\frac{x^{2}}{1-r}=1$ \n<br/><br/>for r &gt; 1,      $\\frac{y^{2}}{1+r}+\\frac{x^{2}}{1-r}=1$ \n<br/><br/> $e=\\sqrt{1-(\\frac{r-1}{r+2})}$ \n<br/><br/> $=\\sqrt{\\frac{(r+1)-(r-1)}{(r+1)}}$ \n<br/><br/> $=\\sqrt{\\frac{2}{r+1}}=\\sqrt{\\frac{2}{r+1}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Focal Properties & Auxiliary Circle",
       "difficulty": "Medium",
       "key_formulas": [
         "{(x,y) \\in R^{2}:\\frac{y^{2}}{1+r}-\\frac{x^{2}}{1-r}};r \\ne \\pm 1.",
@@ -5228,7 +5234,7 @@
         "=\\sqrt{\\frac{2}{r+1}}=\\sqrt{\\frac{2}{r+1}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:54.792661"
     },
@@ -5274,7 +5280,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of tangent at  $(3,-\\frac{9}{2})$  to  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$  is<br/><br/>\n $\\frac{3x}{a^{2}}-\\frac{y^{9}}{2b^{2}}=1$  which is equivalent to x – 2y = 12<br/><br/>\n $\\frac{3}{a^{2}}=\\frac{-9}{2b^{2}(-2)}=\\frac{1}{12}$    (On comparing)<br/><br/>\n $a^{2}=3 \\times 12$  and  $b^{2}=\\frac{9 \\times 12}{4}$ <br/><br/>\n $\\Rightarrow$  a = 6 and b =  $3\\sqrt{3}$ <br/><br/>\nSo latus rectum =  $\\frac{2b^{2}}{a}=\\frac{2 \\times 27}{6}=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -5285,7 +5291,7 @@
         "b^{2}=\\frac{9 \\times 12}{4}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:53.602504"
     },
@@ -5333,7 +5339,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/cH2yd1rBwE8MpVjWl/S1Lgwel1qXsIkRYdVLVK0Ddl8FoXc/11ov3FXLC1UMoDHntHG4tZ/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -5342,7 +5348,7 @@
         "\\frac{2b^{2}}{a}=4"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:54.085917"
     },
@@ -5388,7 +5394,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If the cordinate of focus and vertex are (ae, 0) and (a, 0) respectively, \n<br/><br/>then distance between focus and vertex, \n<br/><br/>a  $-$  ae =  $\\frac{3}{2}$  (given)\n<br/><br/> $\\Rightarrow$   a (1  $-$  e) =  $\\frac{3}{2}$ \n<br/><br/>Length of latus rectum, \n<br/><br/> $\\frac{2b^{2}}{a}=4$ \n<br/><br/> $\\Rightarrow$   b<sup>2</sup> = 2a\n<br/><br/> $\\Rightarrow$   a<sup>2</sup>(1  $-$  e<sup>2</sup>) = 2a   [As b<sup>2</sup> = a<sup>2</sup> (1  $-$  e<sup>2</sup>)]\n<br/><br/> $\\Rightarrow$   a (1  $-$  e) ( 1 + e) = 2\n<br/><br/>Putting    a (1  $-$  e) =  $\\frac{3}{2}$ \n<br/><br/> $\\Rightarrow$    $\\frac{3}{2}$  (1 + e) = 2\n<br/><br/> $\\Rightarrow$   3 + 3e = 4\n<br/><br/> $\\Rightarrow$   e =  $\\frac{1}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{2}",
@@ -5399,7 +5405,7 @@
         "\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:54.832300"
     },
@@ -5445,7 +5451,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Centre at (0, 0)\n<br/><br/> $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}$  = 1\n<br/><br/>at point (4,  $-$  1)\n<br/><br/> $\\frac{16}{a^{2}}+\\frac{1}{b^{2}}$  = 1\n<br/><br/> $\\Rightarrow$    16b<sup>2</sup> + a<sup>2</sup> = a<sup>2</sup>b<sup>2</sup>         . . . .(i)\n<br/><br/>at point ( $-$  2, 2)\n<br/><br/> $\\frac{4}{a^{2}}+\\frac{4}{b^{2}}=1$ \n<br/><br/> $\\Rightarrow$    4b<sup>2</sup> + 4a<sup>2</sup> = a<sup>2</sup>b<sup>2</sup>          . . . .(ii)\n<br/><br/> $\\Rightarrow$    16b<sup>2</sup> + a<sup>2</sup> = 4a<sup>2</sup> + 4b<sup>2</sup>\n<br/><br/>From equations (i) and (ii)\n<br/><br/> $\\Rightarrow$    3a<sup>2</sup> = 12b<sup>2</sup>\n<br/><br/> $\\Rightarrow$    <b>a<sup>2</sup> = 4b<sup>2</sup></b>\n<br/><br/>b<sup>2</sup> = a<sup>2</sup>(1  $-$  e<sup>2</sup>)\n<br/><br/> $\\Rightarrow$    e<sup>2</sup> =  $\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow$    e =  $\\frac{\\sqrt{3}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}",
@@ -5455,7 +5461,7 @@
         "\\frac{\\sqrt{3}}{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.134798"
     },
@@ -5503,7 +5509,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/ysOlM97XtquokyFN7/a14mu5QBSOTYAVqfvelWYPYy6EyND/L4lAvyVuzJbvxODy6WVRNX/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{3}{5}",
@@ -5511,7 +5517,7 @@
         "b = 4"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.230424"
     },
@@ -5557,7 +5563,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given e =  $\\frac{1}{2}$  and  $\\frac{a}{e}$  = 4\n<br/><br/> $\\therefore$   $a$  = 2\n<br/><br/>We have b<sup>2</sup> =  $a$ <sup>2</sup> (1 – e<sup>2</sup>) =  $4(1-\\frac{1}{4})$  = 3\n<br/><br/> $\\therefore$  Equation of ellipse is\n<br/><br/> $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ \n<br/><br/>Now, the equation of normal at  $(1,\\frac{3}{2})$  is\n<br/><br/> $\\frac{a^{2}x}{x_{1}}-\\frac{b^{2}y}{y_{1}}=a^{2}-b^{2}$ \n<br/><br/> $\\Rightarrow$   $\\frac{4x}{1}-\\frac{3y}{\\frac{3}{2}}=4-3$ \n<br/><br/> $\\Rightarrow$  4x – 2y = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -5568,7 +5574,7 @@
         "= 3"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.302986"
     },
@@ -5614,7 +5620,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of tangent to ellipse\n<br/><br/> $\\frac{x}{\\sqrt{27}}$  cos $\\theta$  +  $\\frac{y}{\\sqrt{3}}$ sin $\\theta$  = 1\n<br/><br/>Area bounded by line and co-ordinate axis\n<br/><br/> $\\Delta$  =  $\\frac{1}{2}$  .  $\\frac{\\sqrt{27}}{cos\\theta}.\\frac{\\sqrt{3}}{sin\\theta}$  =  $\\frac{9}{sin2\\theta}$ \n<br/><br/> $\\Delta$  = will be minimum when sin 2 $\\theta$  = 1\n<br/><br/> $\\Delta$ <sub>min</sub> = 9<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{27}+\\frac{y^{2}}{3}=1",
@@ -5625,7 +5631,7 @@
         "\\frac{9}{sin2\\theta}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.395305"
     },
@@ -5673,7 +5679,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l91nk9em/51951291-ca13-4e57-8386-abbd403322ab/7e6fcbe0-47fc-11ed-8757-0f869593f41f/file-1l91nk9en.png?format=png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{9}+\\frac{y^{2}}{5}=1",
@@ -5684,7 +5690,8 @@
         "=4 \\times (Area\\Delta OAB)=4 \\times \\frac{27}{4}=27"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse",
+        "Focal Properties & Auxiliary Circle"
       ],
       "crawled_at": "2026-09-20T15:40:55.816490"
     },
@@ -5730,7 +5737,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $eq^{n}$  of ellipse can be written as \n<br/><br/> $\\frac{x^{2}}{6}+\\frac{y^{2}}{2}=1 \\Rightarrow a^{2}=6,b^{2}=2$ \n<br/><br/>Now, equation of any variable tangent is \n<br/><br/> $y=mx \\pm \\sqrt{a^{2}m^{2}+b^{2}}....(i)$ \n<br/><br/>where  $m$  is slope of the tangent\n<br/><br/>So, equation of perpendicular line drawn- \n<br/><br/>from center to tangent is \n<br/><br/> $y=\\frac{-x}{m}...(ii)$ \n<br/><br/>Eliminating  $m,$  we get\n<br/><br/> $(x^{4}+y^{4}+2x^{2}y^{2})=a^{2}x^{2}+b^{2}y^{2}$ \n<br/><br/> $\\Rightarrow (x^{2}+y^{2})^{2}=a^{2}x^{2}+b^{2}y^{2}$ \n<br/><br/> $\\Rightarrow (x^{2}+y^{2})^{2}=6x^{2}+2y^{2}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+3y^{2}=6",
@@ -5741,7 +5748,7 @@
         "\\Rightarrow (x^{2}+y^{2})^{2}=a^{2}x^{2}+b^{2}y^{2}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.867012"
     },
@@ -5789,7 +5796,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/2eJ9vG3g4rv3SjKhY/lJTWVSpmvLilI2p4w10cYdW7287Av/SgNKDau9wSrEykvcOS8Atf/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1",
@@ -5800,7 +5807,7 @@
         "(x-0)^{2}+(y-3)^{2}=16"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.886442"
     },
@@ -5846,7 +5853,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of circle is  $(x-1)^{2}+y^{2}=1$ \n<br/><br/> $\\Rightarrow$  radius  $=1$  and diameter  $=2$ \n<br/><br/> $\\therefore$  Length of semi-minor axis is  $2.$ \n<br/><br/>Equation of circle is  $x^{2}+(y-2)^{2}=4=(2)^{2}$ \n<br/><br/> $\\Rightarrow$  radius  $=2$  and diameter  $=4$ \n<br/><br/> $\\therefore$  Length of semi major axis is  $4$ \n<br/><br/>We know, equation of ellipse is given by \n<br/><br/> $\\frac{x^{2}}{(Majoraxis^{2})}+\\frac{y^{2}}{(Minoraxis^{2})}=1$ \n<br/><br/> $\\Rightarrow \\frac{x^{2}}{(4)^{2}}+\\frac{y^{2}}{(2)^{2}}=1$ \n<br/><br/> $\\Rightarrow \\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ \n<br/><br/> $\\Rightarrow x^{2}+4y^{2}=16$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "(x-1)^{2}+y^{2}=1",
@@ -5856,7 +5863,7 @@
         "\\Rightarrow x^{2}+4y^{2}=16"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.275073"
     },
@@ -5902,7 +5909,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given equation of ellipse is  $2x^{2}+y^{2}=4$ \n<br/><br/> $\\Rightarrow \\frac{2x^{2}}{4}+\\frac{y^{2}}{4}=1 \\Rightarrow \\frac{x_{2}}{2}+\\frac{y^{2}}{4}=1$ \n<br/><br/>Equation of tangent to the ellipse  $\\frac{x^{2}}{2}+\\frac{y^{2}}{4}=1$  is \n<br/><br/> $y=mx \\pm \\sqrt{2m^{2}+4}...(1)$ \n<br/><br/>(  as equation of tangent to the ellipse  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ \n<br/><br/>is  $y=mx+c$  where  $c= \\pm \\sqrt{a^{2}m^{2}+b^{2}}$   )\n<br/><br/>Now, Equation of tangent to the parabola\n<br/><br/> $y^{2}=16\\sqrt{3}x$  is  $y=mx+\\frac{4\\sqrt{3}}{m}...(2)$ \n<br/><br/> (  as equation of tangent to the parabola  \n<br/><br/> $y^{2}=4ax$  is  $y=mx+\\frac{a}{m}$   )\n<br/><br/>On comparing  $(1)$  and  $(2),$  we get\n<br/><br/> $\\frac{4\\sqrt{3}}{m}= \\pm \\sqrt{2m^{2}+4}$ \n<br/><br/>Squaring on both the sides, we get\n<br/><br/> $16(3)=(2m^{2}+4)m^{2}$ \n<br/><br/> $\\Rightarrow 48=m^{2}(2m^{2}+4) \\Rightarrow 2m^{4}+4m^{2}-48=0$ \n<br/><br/> $\\Rightarrow m^{4}+2m^{2}-24=0 \\Rightarrow (m^{2}+6)(m^{2}-4)=0$ \n<br/><br/> $\\Rightarrow m^{2}=4$  ( as  $m^{2} \\ne -6$   )  $\\Rightarrow m= \\pm 2$ \n<br/><br/> $\\Rightarrow$  Equation of common tangents are  $y= \\pm 2x \\pm 2\\sqrt{3}$ \n<br/><br/>Thus, statement -  $1$  is true.\n<br/><br/>Statement -  $2$  is obviously true. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=16\\sqrt{3}x",
@@ -5913,7 +5920,7 @@
         "\\Rightarrow 48=m^{2}(2m^{2}+4) \\Rightarrow 2m^{4}+4m^{2}-48=0"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:55.913722"
     },
@@ -5959,7 +5966,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the ellipse be  $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ \n<br/><br/>It press through  $(-3,1)$  so  $\\frac{9}{a^{2}}+\\frac{1}{b^{2}}=1...(i)$ \n<br/><br/>Also,  $b^{2}=a^{2}(1-2/5)$ \n<br/><br/> $\\Rightarrow 5b^{2}=3a^{2}...(ii)$ \n<br/><br/>Solving  $(i)$  and  $(ii)$  we get  $a^{2}=\\frac{32}{3},b^{2}=\\frac{32}{5}$ \n<br/><br/>So, the equation of the ellipse is  $3x^{2}+5y^{2}=32$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{\\frac{2}{5}}",
@@ -5970,7 +5977,7 @@
         "a^{2}=\\frac{32}{3},b^{2}=\\frac{32}{5}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.330096"
     },
@@ -6018,7 +6025,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/hS6HFBHwq2ZBDaY7q/hAvv0tXvdSCjUKyjmxy8lF0kOYDAC/nFc7ORhyi4n0pEjGI03aZT/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+4y^{2}=4",
@@ -6029,7 +6036,7 @@
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.349392"
     },
@@ -6077,7 +6084,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7VFHcnwNT2KbaxetC/Ygi2yXzjgL4mpY8G32wy8AeIppesQ/oDshQmKSrXKKTKMvzNlr0S/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "x=4",
@@ -6088,7 +6095,7 @@
         "=8/3"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.406201"
     },
@@ -6134,7 +6141,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2ae=6 \\Rightarrow ae=3;2b=8 \\Rightarrow b=4$ \n<br/><br/> $b^{2}=a^{2}(1-e^{2});16=a^{2}-a^{2}e^{2}$ \n<br/><br/> $\\Rightarrow a^{2}=16+9=25$ \n<br/><br/> $\\Rightarrow a=5$ \n<br/><br/> $\\therefore$   $e=\\frac{3}{a}=\\frac{3}{5}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Easy",
       "key_formulas": [
         "b^{2}=a^{2}(1-e^{2});16=a^{2}-a^{2}e^{2}",
@@ -6143,7 +6150,7 @@
         "e=\\frac{3}{a}=\\frac{3}{5}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.643196"
     },
@@ -6191,7 +6198,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/IHZPNjUjilcYnLA1X/3qiTGwl6Kn6qK6XkZGNhf4EoUD9ja/IqqX75geqF6bBcQQb0JSHs/image.png"
       ],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow FB^{2}+F^{'}B^{2}=FF^{'2}",
@@ -6202,7 +6209,7 @@
         "\\Rightarrow 2e^{2}=1,e=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.681280"
     },
@@ -6248,7 +6255,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e=\\frac{1}{2}.$  Directrix,   $x=\\frac{a}{e}=4$ \n<br/><br/> $\\therefore$   $a=4 \\times \\frac{1}{2}=2$ \n<br/><br/> $\\therefore$   $b=2\\sqrt{1-\\frac{1}{4}}=\\sqrt{3}$ \n<br/><br/>Equation of elhipe  is \n<br/><br/> $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1 \\Rightarrow 3x^{2}+4y^{2}=12$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Ellipse - Core Application",
+      "topic_tag": "Eccentricity, Foci & Tangents of Ellipse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -6259,7 +6266,7 @@
         "b=2\\sqrt{1-\\frac{1}{4}}=\\sqrt{3}"
       ],
       "key_concepts": [
-        "Ellipse - Core Application"
+        "Eccentricity, Foci & Tangents of Ellipse"
       ],
       "crawled_at": "2026-09-20T15:40:56.730027"
     }

@@ -8,38 +8,66 @@
     "total_questions_site": 2,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:26:44.195747"
+    "analyzed_at": "2026-09-20T16:43:02.113792"
   },
   "concepts": [
     {
-      "id": 247,
+      "id": 1578,
       "chapter_slug": "kcet-logarithms",
-      "name": "Kcet Logarithms - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Logarithms.",
-      "standard_formulas": "",
-      "exam_frequency": 2,
+      "name": "Logarithm — Core Principles & Governing Laws",
+      "category": "Core Principle",
+      "summary": "Fundamental definitions, core postulates, and governing physical/chemical relations in Logarithm.",
+      "standard_formulas": "\\in R^{+}",
+      "exam_frequency": 1,
       "frequency_tier": "Standard",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "common_traps": "Carefully verify units, standard reference states, and sign conventions in Logarithm.",
+      "tips_and_tricks": "Focus on high-yield formulas and standard limiting approximations tested in Logarithm PYQs.",
       "pyq_ids": [
-        8926,
+        8926
+      ]
+    },
+    {
+      "id": 1579,
+      "chapter_slug": "kcet-logarithms",
+      "name": "Logarithm — Standard Calculations & Problem Archetypes",
+      "category": "Quantitative Analysis",
+      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Logarithm.",
+      "standard_formulas": "=e^{0}=1",
+      "exam_frequency": 1,
+      "frequency_tier": "Standard",
+      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
+      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
+      "pyq_ids": [
         8929
       ]
+    },
+    {
+      "id": 1580,
+      "chapter_slug": "kcet-logarithms",
+      "name": "Logarithm — Applied Cases, Reactions & Traps",
+      "category": "Applied Topics",
+      "summary": "Special cases, experimental observations, and conceptual traps designed to test deep understanding of Logarithm.",
+      "standard_formulas": "",
+      "exam_frequency": 0,
+      "frequency_tier": "Standard",
+      "common_traps": "Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.",
+      "tips_and_tricks": "Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.",
+      "pyq_ids": []
     }
   ],
   "synthesis": {
     "id": 74,
     "chapter_slug": "kcet-logarithms",
     "title": "Logarithms 2026 0 questions 0% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Logarithms 2026 0 questions 0% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2023 – 2024)  \n**Empirical Dataset**: 2 Previous Year Questions Analyzed (2 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **2** authentic KCET problems.\n- **Question Format Breakdown**: **2 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2023 to 2024.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Standard** | Kcet Logarithms - Core Application | **2 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Logarithms - Core Application (General Concept)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Logarithms.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#1 (MCQ)**: *\"Which one of the following observations is correct for the features of logarithm function to any base $b>1$ ?...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#2 (MCQ)**: *\"The value of $e^{log_{10}tan1^{\\circ}+log_{10}tan2^{\\circ}+log_{10}tan3^{\\circ}+\\dots+log_{10}tan89^{\\circ}}$ is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Logarithms 2026 0 questions 0% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 2 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Logarithms 2026 0 questions 0% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2023 – 2024)  \n**Empirical Dataset**: 2 Previous Year Questions Analyzed (2 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **2** authentic KCET problems.\n- **Question Format Breakdown**: **2 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2023 to 2024.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Standard** | Logarithm — Core Principles & Governing Laws | **1 PYQs** | Core Principle |\n| **Standard** | Logarithm — Standard Calculations & Problem Archetypes | **1 PYQs** | Quantitative Analysis |\n| **Standard** | Logarithm — Applied Cases, Reactions & Traps | **0 PYQs** | Applied Topics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Logarithm — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **1 PYQs** (Standard Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Logarithm.\n\n#### Standard Mathematical Formulation\n$$\n\\in R^{+}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Logarithm.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Logarithm PYQs.\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#1 (MCQ)**: *\"Which one of the following observations is correct for the features of logarithm function to any base $b>1$ ?...\"* — **Correct Answer: N/A**\n\n### 2.2 Logarithm — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **1 PYQs** (Standard Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Logarithm.\n\n#### Standard Mathematical Formulation\n$$\n=e^{0}=1\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2023 Shift] Q#2 (MCQ)**: *\"The value of $e^{log_{10}tan1^{\\circ}+log_{10}tan2^{\\circ}+log_{10}tan3^{\\circ}+\\dots+log_{10}tan89^{\\circ}}$ is...\"* — **Correct Answer: N/A**\n\n### 2.3 Logarithm — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **0 PYQs** (Standard Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Logarithm.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#1 (MCQ)**: *\"Which one of the following observations is correct for the features of logarithm function to any base $b>1$ ?...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#2 (MCQ)**: *\"The value of $e^{log_{10}tan1^{\\circ}+log_{10}tan2^{\\circ}+log_{10}tan3^{\\circ}+\\dots+log_{10}tan89^{\\circ}}$ is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Logarithms 2026 0 questions 0% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 2 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Logarithm — Core Principles & Governing Laws** | $\\in R^{+}$ | Standard SI units apply |\n| **Logarithm — Standard Calculations & Problem Archetypes** | $=e^{0}=1$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Logarithms 2026 0 questions 0% weightage\nBased on rigorous analysis of all 2 questions from 2023 to 2024:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Logarithms 2026 0 questions 0% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      8926
+      8926,
+      8929
     ],
-    "updated_at": "2026-09-20T15:26:44.147509"
+    "updated_at": "2026-09-20T16:43:02.102018"
   },
   "total_questions": 2,
   "has_docx": true,

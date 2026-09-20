@@ -44,11 +44,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a pair  $(a,b)$  to be in the relation  $R$ , it must satisfy both conditions:</p>\n<p> $a=b-2$ </p>\n<p>and</p>\n<p> $b&gt;6$ </p>\n<p>Check the options:</p>\n<p>For  $(2,4)$ :</p>\n<p> $2=4-2$ </p>\n<p>This is true, but  $4&gt;6$  is false. So  $(2,4)∉R$ .</p>\n<p>For  $(3,8)$ :</p>\n<p>Here  $b=8$ , so  $b&gt;6$  is true. But</p>\n<p> $b-2=8-2=6$ </p>\n<p>So  $a$  should be  $6$ , not  $3$ . Hence  $(3,8)∉R$ .</p>\n<p>For  $(6,8)$ :</p>\n<p>Here  $b=8$ , so  $b&gt;6$  is true. Also,</p>\n<p> $b-2=8-2=6$ </p>\n<p>So  $a=6$ . Both conditions are satisfied.</p>\n<p>Thus,</p>\n<p> $(6,8) \\in R$ </p>\n<p>So the correct answer is:</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.063870"
     },
@@ -94,14 +94,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of relations from set  $A$  to set  $B$  is given by</p>\n<p> $2^{n(A) \\times n(B)}$ </p>\n<p>Here,</p>\n<p> $n(A)=2$ </p>\n<p>and the number of relations is</p>\n<p> $1024$ </p>\n<p>So,</p>\n<p> $2^{2 \\times n(B)}=1024$ </p>\n<p>Now,</p>\n<p> $1024=2^{10}$ </p>\n<p>So,</p>\n<p> $2^{2n(B)}=2^{10}$ </p>\n<p>Since the bases are the same,</p>\n<p> $2n(B)=10$ </p>\n<p> $n(B)=5$ </p>\n<p>So, the correct option is</p>\n<p> $5$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [
         "n(A)=2",
         "n(B)=5"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.104060"
     },
@@ -147,13 +147,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The even numbers in the set</p>\n<p> $A={1,2,3,4,\\dots,10}$ </p>\n<p>are</p>\n<p> ${2,4,6,8,10}$ </p>\n<p>There are  $5$  even numbers.</p>\n<p>A set with  $5$  elements has</p>\n<p> $2^{5}=32$ </p>\n<p>subsets in total. But this includes the empty subset  $\\phi$ .</p>\n<p>Since the question asks for non-empty subsets, we subtract  $1$ :</p>\n<p> $32-1=31$ </p>\n<p>So, the number of non-empty subsets containing only even numbers is</p>\n<p> $31$ </p>\n<p>Correct option: <strong>A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "A={1,2,3,4,\\dots,10}"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.132141"
     },
@@ -199,13 +199,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Set  $A={a,b,c,d,e,f}$  has  $6$  elements.</p>\n<p>The total number of subsets of a set with  $n$  elements is  $2^{n}$ .</p>\n<p>So, total subsets of  $A$  are</p>\n<p> $2^{6}=64$ </p>\n<p>We need subsets which contain at least  $2$  elements.</p>\n<p>So we remove the subsets having:</p>\n<ul>\n<li><p> $0$  elements: only the empty set  $\\phi$ , so  $1$  subset</p></li>\n<li><p> $1$  element:  ${a},{b},{c},{d},{e},{f}$ , so  $6$  subsets</p></li>\n</ul>\n<p>Number of subsets with less than  $2$  elements:</p>\n<p> $1+6=7$ </p>\n<p>Hence, number of subsets with at least  $2$  elements:</p>\n<p> $64-7=57$ </p>\n<p>So the correct answer is</p>\n<p> $57$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "A={a,b,c,d,e,f}"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.146071"
     },
@@ -251,7 +251,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A={x:x\\text{is an integer and}x^{2}-9=0} \\\\ &amp; x^{2}=9 \\Rightarrow x= \\pm 3={-3,3} \\\\ &amp; B={x:x\\text{is a natural number and}2 \\le x&lt;5} \\\\ &amp; ={2,3,4} \\\\ &amp; C={x:x\\text{is a prime number} \\le 4} \\\\ &amp; ={2,3} \\\\ &amp; (B-C)∪A={4}∪{-3,3}={-3,3,4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "A={x:x",
@@ -260,7 +260,7 @@
         "C={x:x"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.433333"
     },
@@ -306,11 +306,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |A|=3 \\\\ &amp; |B|=6 \\\\ &amp; |A∪B|=|A|+|B|-|A∩B| \\\\ &amp; min|A∪B|=|A|+|B|-max|A∩B| \\\\ &amp; =3+6-3=6 \\\\ &amp; |A∩B|=|A|+|B|-|A∪B| \\\\ &amp; max|A∩B|=|A|+|B|-min|A∪B| \\\\ &amp; =3+6-6=3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.498602"
     },
@@ -356,11 +356,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the number of equivalence relations on the set  $A={a,b,c}$  that include the pair  $(b,c)$ , we must ensure the relations satisfy the reflexivity, symmetry, and transitivity properties of equivalence relations. </p>\n<p>Given:</p>\n<p><p>Reflexivity requires that every element is related to itself:  $(a,a)$ ,  $(b,b)$ , and  $(c,c)$  must be included.</p></p>\n<p><p>Symmetry necessitates that if  $(b,c)$  is included, then  $(c,b)$  must also be included.</p></p>\n<p><p>Transitivity requires that for the inclusion of  $(b,c)$ , the set must also consider the relationships between  $(a,b)$ ,  $(b,a)$ ,  $(a,c)$ , and  $(c,a)$ .</p></p>\n<p>There are two potential equivalence relations:</p>\n<p>Minimal relation involving  $(b,c)$ : </p>\n<p> ${(a,a),(b,b),(c,c),(b,c),(c,b)}$ </p>\n<p>Full equivalence connecting all elements:</p>\n<p> ${(a,a),(b,b),(c,c),(a,b),(b,a),(a,c),(c,a),(b,c),(c,b)}$ </p>\n<p>Thus, there are 2 equivalence relations on  $A$  containing  $(b,c)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.522012"
     },
@@ -406,11 +406,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 3x+8&lt;17 \\Rightarrow 3x&lt;9 \\Rightarrow x&lt;3 \\\\ &amp; 2x+8 \\ge 12 \\Rightarrow 2x \\ge 4 \\Rightarrow x \\ge 2 \\end{aligned}$ </p>\n<p>Statement I is correct.</p>\n<p>The common set of solution  $\\Rightarrow {2}$ </p>\n<p> $\\rightarrow$  Statement II is false</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.557091"
     },
@@ -456,11 +456,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let set  $A$  have  $m$  elements and set  $B$  have  $n$  elements</p>\n<p>Now,</p>\n<p> $2^{m}-2^{n}=56$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 2^{n}(2^{m-n}-1)=8 \\times 7 \\\\ \\Rightarrow &amp; 2^{n}(2^{m-n}-1)=2^{3} \\times 7 \\end{aligned}$ </p>\n<p>On comparing both sides, we get</p>\n<p> $2^{n}=2^{3}\\text{or}2^{m-n}-1=7$ </p>\n<p>Now,  $n=3\\text{.... (i)}$ </p>\n<p>So,  $2^{m-n}-1=7$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 2^{m-n}=8 \\\\ \\Rightarrow &amp; m-n=3\\text{.... (ii)} \\end{aligned}$ </p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $m=6\\text{and}n=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.770449"
     },
@@ -506,14 +506,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $(3,2)R(x,y)$ </p>\n<p> $\\Rightarrow 3y=2x$ </p>\n<p>This is possible in the cases</p>\n<p> $\\begin{aligned} &amp; x=3,y=2 \\\\ &amp; x=6,y=4 \\\\ &amp; x=9,y=6 \\\\ &amp; x=12,y=8 \\\\ &amp; x=15,y=10 \\\\ &amp; x=18,y=12 \\\\ &amp; \\text{Hence, total pairs are}6. \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [
         "A={2,3,4,5,\\dots,16,17,18}",
         "\\Rightarrow 3y=2x"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.782532"
     },
@@ -559,13 +559,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here,  $x^{2}+1=0$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow x^{2}=-1 \\\\ &amp; \\Rightarrow \\overset{˙}{x}= \\pm i \\end{aligned}$ </p>\n<p>It  $x$  is an imaginary number.</p>\n<p>Hence,  ${x:x$  is a real number and  $x^{2}+1=0}$  is an empty set</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{2}+1=0"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.793899"
     },
@@ -611,11 +611,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that  $3a+2b=27$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow 2b=27-3a \\\\ &amp; \\Rightarrow b=\\frac{27-3a}{2} \\end{aligned}$ </p>\n<p>For  $a=1,b=12$ </p>\n<p> $\\begin{aligned} &amp; a=3,b=9 \\\\ &amp; a=5,b=6 \\\\ &amp; a=7,b=3 \\\\ &amp; R={(1,12),(3,9),(5,6),(7,3)} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.809508"
     },
@@ -661,13 +661,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $n(A)=p,n(B)=q$  anc  $(A \\times B)=7$ </p>\n<p>Since,  $n(A \\times B)=n(A) \\times n(B)$ </p>\n<p> $\\Rightarrow 7=p \\times q \\Rightarrow pq=7$ </p>\n<p>So, possible values of  $p$  and  $q$  are 7, 1 respectively.</p>\n<p> $\\Rightarrow p^{2}+q^{2}=7^{2}+1^{2}=49+1=50$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow 7=p \\times q \\Rightarrow pq=7"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:05.988854"
     },
@@ -713,11 +713,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given relation is  $3a+2b=27$ , where  $a,b \\in N$ </p>\n<p> $\\begin{aligned} &amp; 3a+2b=27 \\\\ &amp; \\Rightarrow b=\\frac{27-3a}{2} \\\\ &amp; a=1 \\Rightarrow b=\\frac{27-3}{2}=\\frac{24}{2}=12 \\\\ &amp; a=3 \\Rightarrow b=\\frac{27-9}{2}=\\frac{18}{2}=9 \\\\ &amp; a=5 \\Rightarrow b=\\frac{27-15}{2}=\\frac{12}{2}=6 \\\\ &amp; a=7 \\Rightarrow b=\\frac{27-21}{2}=\\frac{6}{2}=3 \\end{aligned}$ </p>\n<p>Hence, we can see that the elements of option (a) satisfies the given relation. Hence, option (a) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:05.998760"
     },
@@ -763,11 +763,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the total number of families be  $x$ .</p>\n<p>Let  $A=$  number of families that own cell phones</p>\n<p> $A(A)=\\frac{65}{100} \\times x$ </p>\n<p>Let  $B=$  number of families that own scooter</p>\n<p> $A(B)=15000$ </p>\n<p>and  $(A∩B)=$  number of families that own cell phones and scooter both</p>\n<p> $n(A∩B)=\\frac{15}{100} \\times x$ </p>\n<p>Here,  $n(A∪B)=x$ </p>\n<p> $\\begin{aligned} n(A∪B) &amp; =n(A)+n(B)-n(A∩B) \\\\ x &amp; =\\frac{65x}{100}+15000-\\frac{15x}{100} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; &amp; 100x &amp; =65x+1500000-15x \\\\ \\Rightarrow &amp; &amp; 100x-50x &amp; =1500000 \\\\ \\Rightarrow &amp; &amp; 50x &amp; =1500000 \\\\ \\Rightarrow &amp; &amp; x &amp; =30000 \\end{aligned}$ </p>\n<p>Total number of families in the town is 30000.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:06.009350"
     },
@@ -813,14 +813,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given set  $A={1,2,3,4,5,6}$ </p>\n<p>Number of subsets of  $A$  which contain at least two elements is  $^{6}C_{2}+^{6}C_{3}+^{6}C_{4}+^{6}C_{5}+^{6}C_{6}$ </p>\n<p> $=2^{6}-^{6}C_{0}-^{6}C_{1}=64-1-6=57$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Easy",
       "key_formulas": [
         "A={1,2,3,4,5,6}",
         "=2^{6}-^{6}C_{0}-^{6}C_{1}=64-1-6=57"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:06.109094"
     },
@@ -866,11 +866,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $\\begin{aligned} &amp; A={1,2,3} \\\\ &amp; R={1,1} \\end{aligned}$ </p>\n<p> ${2,2}∉R,R$  is not reflexive but  $R$  is symmetric and transitive.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:06.122085"
     },
@@ -916,13 +916,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $A={a,b,c}$ </p>\n<p>The number of binary operations on  $A$  is  $3^{3^{2}}=3^{9}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Easy",
       "key_formulas": [
         "A={a,b,c}"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:06.133682"
     },
@@ -968,14 +968,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $n(A)=2$  let  $n(B)=n$ </p>\n<p>Total number of relations from set A to set B is</p>\n<p> $\\begin{aligned} &amp; 2^{2\\pi}=1024 \\\\ &amp; 2^{2n}=2^{10} \\Rightarrow 2n=10 \\Rightarrow n=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Easy",
       "key_formulas": [
         "n(A)=2",
         "n(B)=n"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:06.018610"
     },
@@ -1021,7 +1021,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A binary operation * is defined by  $a∗b=\\frac{2ab}{5}$ </p>\n<p>Now,  $a∗e=\\frac{2ae}{5}=a \\Rightarrow e=\\frac{5}{2}$ </p>\n<p> $\\begin{aligned} \\therefore &amp; a∗a^{-1}=e \\\\ \\Rightarrow &amp; \\frac{2aa^{-1}}{5}=\\frac{5}{2} \\Rightarrow a^{-1}=\\frac{25}{4a} \\end{aligned}$ </p>\n<p> $\\therefore 3^{-1}=\\frac{25}{4 \\times 3}=\\frac{25}{12}\\text{.... (i)}$ </p>\n<p>Since,  $2∗x=3^{-1}$ </p>\n<p> $\\Rightarrow \\frac{2 \\times 2 \\times x}{5}=\\frac{25}{12}\\text{(using (i))}$ </p>\n<p> $\\Rightarrow x=\\frac{125}{48}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "a∗b=\\frac{2ab}{5}",
@@ -1031,7 +1031,7 @@
         "\\Rightarrow x=\\frac{125}{48}"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:06.256836"
     },
@@ -1077,11 +1077,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea, use Identity  $n(A∪B)=n(A)+n(B)-n(A∩B)$  and find  $n(A∩B)$ , after then use  $n(A^{'}∩B^{'})=n((A∪B)^{'})$ </p>\n<p>We have,  $n(U)=100,n(A)=50,n(B)=60$  and  $n(A∩B)=20$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}n(A∪B)=n(A)+n(B)-n(A∩B) \\\\ &amp; =50+60-20=90 \\\\ &amp; \\therefore n(A^{'}∩B^{'})=n((A∪B)^{'})=n(u)-n(A∪B) \\\\ &amp; =100-90=10 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:06.267200"
     },
@@ -1127,14 +1127,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A={x|x\\epsilon N,x \\le 5}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow A={1,2,3,4,5} \\\\ &amp; \\text{and}B={x|x\\epsilon Z,x^{2}-5x+6=0} \\end{aligned}$ </p>\n<p> $\\Rightarrow B={2,3}$ </p>\n<p> $\\therefore$  Number of onto function from  $A$  to  $B$  is</p>\n<p> $2^{5}-2=32-2=30$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
       "difficulty": "Medium",
       "key_formulas": [
         "A={x|x \\in N,x \\le 5},B={x|x \\in Z,x^{2}-5x+6=0}",
         "\\Rightarrow B={2,3}"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Equivalence Relations (Reflexive, Symmetric, Transitive)"
       ],
       "crawled_at": "2026-09-20T15:27:06.146507"
     },
@@ -1180,13 +1180,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $A⊂B$ </p>\n<p> $\\therefore A∩B=A \\Rightarrow n(A∩B)=n(A)...(i)$ </p>\n<p>Again, we know that</p>\n<p> $\\begin{aligned} n(A∪B) &amp; =n(A)+n(B)-n(A∩B) \\\\ \\Rightarrow n(A∪B) &amp; =n(A)+n(B)-n(A)[\\text{from Eq. (i)]} \\\\ \\Rightarrow n(A∪B) &amp; =n(B) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Sets And Relations - Core Application",
+      "topic_tag": "Set Operations & Venn Diagram Principle",
       "difficulty": "Medium",
       "key_formulas": [
         "\\therefore A∩B=A \\Rightarrow n(A∩B)=n(A)...(i)"
       ],
       "key_concepts": [
-        "Kcet Sets And Relations - Core Application"
+        "Set Operations & Venn Diagram Principle"
       ],
       "crawled_at": "2026-09-20T15:27:06.284936"
     }

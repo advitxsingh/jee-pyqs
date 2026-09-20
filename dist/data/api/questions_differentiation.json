@@ -44,11 +44,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y=tan^{-1}(\\frac{\\frac{3}{4}-tanx}{1+\\frac{3}{4}tanx})+2tan^{-1}(\\frac{x}{1+\\sqrt{1-x^{2}}}) \\\\ &amp; \\text{In the first term, divide numerator and denominator by}cosx: \\\\ &amp; \\frac{3cosx-4sinx}{4cosx+3sinx}=\\frac{3-4tanx}{4+3tanx}=\\frac{\\frac{3}{4}-tanx}{1+\\frac{3}{4}tanx} \\\\ &amp; \\text{Now use}tan^{-1}(\\frac{a-b}{1+ab})=tan^{-1}a-tan^{-1}b: \\\\ &amp; tan^{-1}(\\frac{\\frac{3}{4}-tanx}{1+\\frac{3}{4}tanx})=tan^{-1}(\\frac{3}{4})-tan^{-1}(tanx) \\\\ &amp; \\text{For}2tan^{-1}(\\frac{x}{1+\\sqrt{1-x^{2}}}) \\\\ &amp; \\text{put}x=sin\\theta \\Rightarrow \\sqrt{1-x^{2}}=\\sqrt{1-sin^{2}\\theta}=cos\\theta \\\\ &amp; \\therefore 2tan^{-1}(\\frac{sin\\theta}{1+cos\\theta})=2tan^{-1}(tan\\frac{\\theta}{2})=\\theta=sin^{-1}x \\end{aligned}$ </p>\n<p>Hence</p>\n<p> $\\begin{aligned} &amp; y=tan^{-1}(\\frac{3}{4})-tan^{-1}(tanx)+sin^{-1}x \\\\ &amp; \\text{Differentiate term by term:}tan^{-1}(\\frac{3}{4})\\text{is constant, so its derivative is}0. \\\\ &amp; \\frac{d}{dx}[-tan^{-1}(tanx)]=-1(\\text{taking}tan^{-1}(tanx)=x\\text{in the principal range}) \\\\ &amp; \\frac{d}{dx}(sin^{-1}x)=\\frac{1}{\\sqrt{1-x^{2}}} \\\\ &amp; \\therefore \\frac{dy}{dx}=-1+\\frac{1}{\\sqrt{1-x^{2}}} \\\\ &amp; x=\\frac{\\sqrt{3}}{2} \\Rightarrow \\sqrt{1-x^{2}}=\\sqrt{1-\\frac{3}{4}}=\\frac{1}{2} \\\\ &amp; \\frac{dy}{dx}=-1+\\frac{1}{1/2}=-1+2=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.201358"
     },
@@ -94,14 +94,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}f^{'}(1)=a \\\\ &amp; \\begin{aligned} &amp; f^{'}(2)=b \\\\ &amp; f^{'}(3)=c \\\\ &amp; f(x)=x^{3}+ax^{2}+bx+c \\\\ &amp; f^{'}(x)=3x^{2}+2ax+b \\\\ &amp; f^{'}(x)=a=3+2a+b \\Rightarrow a+b=3\\dots..(1) \\\\ &amp; f^{''}(x)=6x+2a \\\\ &amp; f^{''}(2)=12+2a=\\frac{b}{2} \\Rightarrow 4a-b=-24 \\\\ &amp; f^{''}(x)=6 \\\\ &amp; f^{''}(3)=c=6 \\\\ &amp; \\Rightarrow a=\\frac{-27}{5},b=\\frac{12}{5} \\\\ &amp; f^{'}(5)=75+10a+b \\\\ &amp; =75-54+\\frac{12}{5}=21+\\frac{12}{5}=\\frac{117}{5} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{3}+x^{2}f^{'}(1)+2xf^{''}(2)+f^{'''}(3)",
         "f^{'}(5)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:50.211214"
     },
@@ -147,7 +147,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x^{2}f^{'}(x)-2xf(x)=3 \\\\ &amp; (\\frac{x^{2}f^{'}(x)-2xf(x)}{(x^{2})^{2}})=\\frac{3}{(x^{2})^{2}} \\\\ &amp; \\Rightarrow \\frac{d}{dx}(\\frac{f(x)}{x^{2}})=\\frac{3}{x^{4}} \\end{aligned}$ </p>\n<p>Integrating both sides</p>\n<p> $\\begin{aligned} &amp; \\frac{f(x)}{x^{2}}=-\\frac{1}{x^{3}}+C \\\\ &amp; f(x)=-\\frac{1}{x}+Cx^{2} \\\\ &amp; \\text{put}x=1 \\\\ &amp; 4=-1+C \\Rightarrow C=5 \\\\ &amp; f(x)=-\\frac{1}{x}+5x^{2} \\end{aligned}$ </p>\n<p>Now  $2 \\times f(2)=2 \\times [-\\frac{1}{2}+5 \\times 2^{2}]$ </p>\n<p> $=39$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}f^{'}(x)=2xf(x)+3",
@@ -155,7 +155,7 @@
         "=39"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.761571"
     },
@@ -180,14 +180,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f^{'}(x) \\ge 0,f^{''}(x)=f(x) \\\\ &amp; \\text{Second order differential equation} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; f(x)=Ae^{x}+Be^{-x} \\\\ &amp; f(0)=0 \\Rightarrow A=-B \\\\ &amp; \\Rightarrow f(x)=A(e^{x}-e^{-x}) \\\\ &amp; f^{'}(x)=Ae^{x}+Ae^{-x}=A(e^{x}+e^{-x}) \\\\ &amp; f^{'}(0)=3=A(e^{0}+e^{-0})=2A \\Rightarrow A=\\frac{3}{2} \\\\ &amp; f(x)=\\frac{3}{2}(e^{x}-e^{-x}) \\\\ &amp; \\text{If}(ln3)=\\frac{27}{2}(e^{ln3}-e^{-ln3})=\\frac{27}{2}(3-\\frac{1}{3})=\\frac{27}{2} \\cdot \\frac{8}{3} \\\\ &amp; =36 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "f^{'}(x) \\ge 0,f^{''}(x)=f(x),f(0)=0,f^{'}(0)=3",
         "9f(log_{e}3)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:58.662869"
     },
@@ -233,7 +233,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for  $y(x)$ , we start with the determinant of the given matrix:</p>\n<p> $|\\begin{aligned} sinx &amp; cosx &amp; sinx+cosx+1 \\\\ 27 &amp; 28 &amp; 27 \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}|$ </p>\n<p>Using the formula for a  $3 \\times 3$  determinant, we expand along the first row:</p>\n<p> $f(x)=sinx \\cdot |\\begin{aligned} 28 &amp; 27 \\\\ 1 &amp; 1 \\end{aligned}|-cosx \\cdot |\\begin{aligned} 27 &amp; 27 \\\\ 1 &amp; 1 \\end{aligned}|+(sinx+cosx+1) \\cdot |\\begin{aligned} 27 &amp; 28 \\\\ 1 &amp; 1 \\end{aligned}|$ </p>\n<p>Calculating the smaller  $2 \\times 2$  determinants:</p>\n<p> $|\\begin{aligned} 28 &amp; 27 \\\\ 1 &amp; 1 \\end{aligned}|=28 \\cdot 1-27 \\cdot 1=1$ </p>\n<p> $|\\begin{aligned} 27 &amp; 27 \\\\ 1 &amp; 1 \\end{aligned}|=27 \\cdot 1-27 \\cdot 1=0$ </p>\n<p> $|\\begin{aligned} 27 &amp; 28 \\\\ 1 &amp; 1 \\end{aligned}|=27 \\cdot 1-28 \\cdot 1=-1$ </p>\n<p>Substituting these into the determinant calculation gives:</p>\n<p> $f(x)=sinx \\cdot 1-cosx \\cdot 0+(sinx+cosx+1) \\cdot (-1)$ </p>\n<p> $f(x)=sinx-(sinx+cosx+1)$ </p>\n<p> $f(x)=sinx-sinx-cosx-1$ </p>\n<p> $f(x)=-cosx-1$ </p>\n<p>Now, calculate the derivatives:</p>\n<p><p>First derivative  $f^{'}(x)$ :</p>\n<p> $f^{'}(x)=\\frac{d}{dx}(-cosx-1)=sinx$ </p></p>\n<p><p>Second derivative  $\\frac{d^{2}f}{dx^{2}}$ :</p>\n<p> $\\frac{d^{2}f}{dx^{2}}=\\frac{d}{dx}(sinx)=cosx$ </p></p>\n<p>Finally, compute  $\\frac{d^{2}y}{dx^{2}}+y$ :</p>\n<p> $\\frac{d^{2}f}{dx^{2}}+f(x)=cosx-cosx-1=-1$ </p>\n<p>Thus,  $\\frac{d^{2}y}{dx^{2}}+y$  is equal to  $-1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "|\\begin{aligned} 27 & 27 \\\\ 1 & 1 \\end{aligned}|=27 \\cdot 1-27 \\cdot 1=0",
@@ -244,7 +244,7 @@
         "f(x)=-cosx-1"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.222849"
     },
@@ -290,7 +290,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; sin(x-y)f(2x+2y)=f(2x-2y)sin(x+y) \\\\ &amp; \\frac{f(2x+2y)}{sin(x+y)}=\\frac{f(2x-2y)}{sin(x-y)}=k(\\text{say}) \\\\ &amp; f(2x+2y)=ksin(x+y) \\\\ &amp; f(2x)=5sinx( \\because y=0) \\\\ &amp; f(x)=ksin\\frac{x}{2} \\\\ &amp; f^{'}(x)=\\frac{k}{2}cos\\frac{x}{2} \\\\ &amp; f^{'}(0)=\\frac{1}{2} \\Rightarrow k=1 \\\\ &amp; f(x)=sin\\frac{x}{2} \\Rightarrow f^{'}(x)=\\frac{1}{2}cos\\frac{x}{2} \\\\ &amp; f^{''}(x)=-\\frac{1}{4}sin\\frac{x}{2} \\\\ &amp; 24f^{''}(\\frac{5\\pi}{3})=-3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "(sinxcosy)(f(2x+2y)-f(2x-2y))=(cosxsiny)(f(2x+2y)+f(2x-2y))",
@@ -298,7 +298,7 @@
         "24f^{''}(\\frac{5\\pi}{3})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.235148"
     },
@@ -344,7 +344,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the function:</p>\n<p> $f(x)={\\begin{aligned} x^{3}sin(\\frac{1}{x}), &amp; x \\ne 0 \\\\ 0, &amp; x=0 \\end{aligned}$ </p>\n<p>we need to find its second derivative at specific points.</p>\n<p>First, let’s compute the first derivative  $f^{'}(x)$ :</p>\n<p> $f^{'}(x)=3x^{2}sin(\\frac{1}{x})-xcos(\\frac{1}{x})$ </p>\n<p>Next, the second derivative  $f^{''}(x)$  is:</p>\n<p> $f^{''}(x)=6xsin(\\frac{1}{x})-3xcos(\\frac{1}{x})-cos(\\frac{1}{x})-\\frac{1}{x}sin(\\frac{1}{x})$ </p>\n<p>Therefore, evaluating the second derivative at  $x=\\frac{2}{\\pi}$ :</p>\n<p> $f^{''}(\\frac{2}{\\pi})=6(\\frac{2}{\\pi})sin(\\frac{\\pi}{2})-3(\\frac{2}{\\pi})cos(\\frac{\\pi}{2})-cos(\\frac{\\pi}{2})-\\frac{\\pi}{2}sin(\\frac{\\pi}{2})$ </p>\n<p>Since  $sin(\\frac{\\pi}{2})=1$  and  $cos(\\frac{\\pi}{2})=0$ , this simplifies to:</p>\n<p> $f^{''}(\\frac{2}{\\pi})=\\frac{12}{\\pi}-\\frac{\\pi}{2}=\\frac{24-\\pi^{2}}{2\\pi}$ </p>\n<p>Finally, note that  $f^{'}(0)$  is not defined, as it involves terms like  $\\frac{1}{x}$  when  $x=0$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{'}(x)",
@@ -352,7 +352,7 @@
         "f^{''}(x)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.249476"
     },
@@ -398,7 +398,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(\\frac{x}{y})=\\frac{f(x)}{f(y)}$ </p>\n<p> $\\begin{aligned} &amp; f^{'}(1)=2024 \\\\ &amp; f(1)=1 \\end{aligned}$ </p>\n<p>Partially differentiating w. r. t. x</p>\n<p> $\\begin{aligned} &amp; f^{'}(\\frac{x}{y}) \\cdot \\frac{1}{y}=\\frac{1}{f(y)}f^{'}(x) \\\\ &amp; y \\rightarrow x \\\\ &amp; f^{'}(1) \\cdot \\frac{1}{x}=\\frac{f^{'}(x)}{f(x)} \\\\ &amp; 2024f(x)=xf^{'}(x) \\Rightarrow xf^{'}(x)-2024f(x)=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(\\frac{x}{y})=\\frac{f(x)}{f(y)}",
@@ -406,7 +406,7 @@
         "\\begin{aligned} & f^{'}(1)=2024 \\\\ & f(1)=1 \\end{aligned}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.671801"
     },
@@ -452,14 +452,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f^{'}(0)=\\underset{ℎ \\rightarrow 0}{lim}\\frac{f(ℎ)-f(0)}{ℎ} \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}\\frac{(2^{ℎ}+2^{-ℎ})tanℎ\\sqrt{tan^{-1}(ℎ^{2}-ℎ+1)}-0}{(7ℎ^{2}+3ℎ+1)^{3}ℎ} \\\\ &amp; =\\sqrt{\\pi} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{(2^{x}+2^{-x})tanx\\sqrt{tan^{-1}(x^{2}-x+1)}}{(7x^{2}+3x+1)^{3}}",
         "f^{'}(0)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.185602"
     },
@@ -505,7 +505,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; log_{e}y=3sin^{-1}x \\\\ &amp; \\begin{aligned} &amp; y=e^{3sin^{-1}x} \\\\ &amp; \\frac{dy}{dx}=e^{3sin^{-1}x} \\cdot \\frac{3}{\\sqrt{1-x^{2}}} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\sqrt{1-x^{2}}\\frac{dy}{dx}=3y$ </p>\n<p>Again differentiate</p>\n<p> $\\begin{aligned} &amp; \\sqrt{1-x^{2}} \\cdot y^{''}-\\frac{2x}{2\\sqrt{1-x^{2}}}y^{'}=3y^{'} \\\\ &amp; (1-x)^{2}y^{''}-xy^{'}=3y^{'}(\\sqrt{1-x^{2}}) \\end{aligned}$ </p>\n<p>So value of  $3y^{'}(\\sqrt{1-x^{2}})$  at  $x=\\frac{1}{2}$ </p>\n<p> $\\begin{aligned} &amp; 3 \\cdot \\frac{3}{\\sqrt{1-x^{2}}}e^{sin^{-1}x}(\\sqrt{1-x^{2}}) \\\\ &amp; =9e^{3\\frac{\\pi}{6}}=9e^{\\frac{\\pi}{2}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "log_{e}y=3sin^{-1}x",
@@ -514,7 +514,7 @@
         "\\sqrt{1-x^{2}}\\frac{dy}{dx}=3y"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:50.777493"
     },
@@ -560,14 +560,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f^{'}(1)=k$ </p>\n<p> $\\Rightarrow \\underset{x \\rightarrow 0}{lim}\\frac{f(x)}{x^{2}}=k(\\frac{0}{0})$ </p>\n<p> $\\begin{aligned} &amp; \\underset{x \\rightarrow 0}{lim}\\frac{f^{'}(x)}{2x}=\\underset{x \\rightarrow 0}{lim}\\frac{f^{''}(x)}{2}=k \\\\ \\Rightarrow &amp; f^{''}(0)=2k \\end{aligned}$ </p>\n<p>Given information is not complete.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{'}(1)=\\underset{a \\rightarrow \\infty}{lim}a^{2}f(\\frac{1}{a})",
         "\\Rightarrow \\underset{x \\rightarrow 0}{lim}\\frac{f(x)}{x^{2}}=k(\\frac{0}{0})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.264059"
     },
@@ -613,7 +613,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f^{'}(x)=\\frac{g^{'}(x)-g^{'}(2-x)}{2},f^{'}(\\frac{3}{2})=\\frac{g^{'}(\\frac{3}{2})-g^{'}(\\frac{1}{2})}{2}=0$ </p>\n<p>Also  $f^{'}(\\frac{1}{2})=\\frac{g^{'}(\\frac{1}{2})-g^{'}(\\frac{3}{2})}{2}=0,f^{'}(\\frac{1}{2})=0$ </p>\n<p> $\\Rightarrow f^{'}(\\frac{3}{2})=f^{'}(\\frac{1}{2})=0$ </p>\n<p> $\\Rightarrow rootsin(\\frac{1}{2},1)$  and  $(1,\\frac{3}{2})$ </p>\n<p> $\\Rightarrow f^{''}(x)$  is zero at least twice in  $(\\frac{1}{2},\\frac{3}{2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "g^{'}(\\frac{1}{2})=g^{'}(\\frac{3}{2})",
@@ -624,7 +624,7 @@
         "(\\frac{1}{2},\\frac{3}{2})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.683736"
     },
@@ -649,7 +649,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because f:R \\rightarrow R\\text{and}f(0)=0,f(1)=1,f(2)=-1\\text{,}$ </p>\n<p> $f(3)=2$  and  $f(4)=-2$  then</p>\n<p> $f(x)$  has atleast 4 real roots.</p>\n<p>Then  $f(x)$  has atleast 3 real roots and  $f^{'}(x)$  has atleast 2 real roots.</p>\n<p>Now we know that</p>\n<p> $\\begin{aligned} \\frac{d}{dx}(f^{3} \\cdot f^{''}) &amp; =3f^{2} \\cdot f^{'} \\cdot f^{''}+f^{3} \\cdot f^{'''} \\\\ &amp; =f^{2}(3f^{'} \\cdot f^{'}+f \\cdot f^{''}) \\end{aligned}$ </p>\n<p>Here  $f^{3} \\cdot f^{'}$  has atleast 6 roots.</p>\n<p>Then its differentiation has atleast 5 distinct roots.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "f(0)=0,f(1)=1,f(2)=-1,f(3)=2",
@@ -660,7 +660,7 @@
         "f^{'}(x)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:58.678470"
     },
@@ -706,7 +706,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the polynomial function:</p>\n<p> $f(x)=ax^{3}+bx^{2}+cx+41$ </p>\n<p>We are provided the following conditions from the problem:</p>\n<p>1.  $f(1)=40$ </p>\n<p>2.  $f^{'}(1)=2$ </p>\n<p>3.  $f^{''}(1)=4$ </p>\n<p>First, calculate  $f(1)$ :</p>\n<p> $f(1)=a(1)^{3}+b(1)^{2}+c(1)+41=40$ </p>\n<p>Simplifying, we get:</p>\n<p> $a+b+c+41=40$ </p>\n<p>Therefore:</p>\n<p> $a+b+c=-1$ </p>\n<p>Next, calculate the first derivative  $f^{'}(x)$ :</p>\n<p> $f^{'}(x)=3ax^{2}+2bx+c$ </p>\n<p>Given  $f^{'}(1)=2$ :</p>\n<p> $f^{'}(1)=3a(1)^{2}+2b(1)+c=2$ </p>\n<p>Simplifying, we get:</p>\n<p> $3a+2b+c=2$ </p>\n<p>Next, calculate the second derivative  $f^{''}(x)$ :</p>\n<p> $f^{''}(x)=6ax+2b$ </p>\n<p>Given  $f^{''}(1)=4$ :</p>\n<p> $f^{''}(1)=6a(1)+2b=4$ </p>\n<p>Simplifying, we get:</p>\n<p> $6a+2b=4$ </p>\n<p>Dividing the entire equation by 2:</p>\n<p> $3a+b=2$ </p>\n<p>We now have three equations:</p>\n<p>1.  $a+b+c=-1$ </p>\n<p>2.  $3a+2b+c=2$ </p>\n<p>3.  $3a+b=2$ </p>\n<p>To solve for  $a$ ,  $b$ , and  $c$ , follow these steps:</p>\n<p>First, subtract the third equation from the second equation:</p>\n<p> $(3a+2b+c)-(3a+b)=2-2$ </p>\n<p>Which simplifies to:</p>\n<p> $b+c=0$ </p>\n<p>So,</p>\n<p> $c=-b$ </p>\n<p>Substitute  $c=-b$  into the first equation:</p>\n<p> $(a+b-b=-1)$ </p>\n<p>Simplifying, we get:</p>\n<p> $a=-1$ </p>\n<p>Now substitute  $a=-1$  into the third equation:</p>\n<p> $3(-1)+b=2$ </p>\n<p>Which simplifies to:</p>\n<p> $-3+b=2$ </p>\n<p>Therefore:</p>\n<p> $b=5$ </p>\n<p>Next, since  $c=-b$ :</p>\n<p> $c=-5$ </p>\n<p>Finally, we need to find  $a^{2}+b^{2}+c^{2}$ :</p>\n<p> $a^{2}+b^{2}+c^{2}=(-1)^{2}+5^{2}+(-5)^{2}$ </p>\n<p>Simplifying, we get:</p>\n<p> $1+25+25=51$ </p>\n<p>Therefore, the answer is:</p>\n<p><strong>Option B: 51</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=ax^{3}+bx^{2}+cx+41",
@@ -717,7 +717,7 @@
         "f^{'}(1)=2"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.791164"
     },
@@ -763,14 +763,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y(\\theta)=\\frac{2cos\\theta+cos2\\theta}{cos3\\theta+4cos2\\theta+5cos\\theta+2} \\\\ &amp; =\\frac{2cos^{2}\\theta+2cos\\theta-1}{4cos^{3}\\theta+8cos^{2}\\theta+2cos\\theta-2} \\\\ &amp; =\\frac{2cos^{2}\\theta+2cos\\theta-1}{(2cos^{2}\\theta+2cos\\theta-1)(2cos\\theta+2)} \\\\ &amp; =\\frac{1}{2(1+cos\\theta)}=\\frac{1}{4cos^{2}\\theta/2}=\\frac{sec^{2}\\theta/2}{4} \\\\ &amp; y^{'}(\\theta)=\\frac{1}{4}(2sec\\frac{\\theta}{2} \\cdot sec\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2} \\cdot \\frac{1}{2}) \\\\ &amp; =\\frac{1}{4}sec^{2}\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2} \\end{aligned}$ </p>\n<p> $y^{''}(\\theta)=\\frac{1}{4}(tan\\frac{\\theta}{2})(sec^{2}\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2})+\\frac{1}{4}sec^{2}\\frac{\\theta}{2} \\cdot sec^{2}\\frac{\\theta}{2} \\cdot \\frac{1}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\text{at}\\theta=\\frac{\\pi}{2},y(\\theta)=\\frac{1}{2},y^{'}(\\theta)=\\frac{1}{2},y^{''}(\\theta)=1 \\\\ &amp; \\therefore y+y^{'}+y^{''}=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y(\\theta)=\\frac{2cos\\theta+cos2\\theta}{cos3\\theta+4cos2\\theta+5cos\\theta+2}",
         "\\theta=\\frac{\\pi}{2},y^{''}+y^{'}+y"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.271997"
     },
@@ -816,11 +816,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |\\begin{aligned} 2cos^{4}x &amp; 2sin^{4}x &amp; 3+sin^{2}2x \\\\ 3+2cos^{4}x &amp; 2sin^{4}x &amp; sin^{2}2x \\\\ 2cos^{4}x &amp; 3+2sin^{2}4x &amp; sin^{2}2x \\end{aligned}| \\\\ &amp; R_{2} \\rightarrow R_{2}-R_{1},R_{3} \\rightarrow R_{3}-R_{1} \\\\ &amp; |\\begin{aligned} 2cos^{4}x &amp; 2sin^{4}x &amp; 3+sin^{2}2x \\\\ 3 &amp; 0 &amp; -3 \\\\ 0 &amp; 3 &amp; -3 \\end{aligned}| \\\\ &amp; f(x)=45 \\\\ &amp; f^{'}(x)=0 \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.695286"
     },
@@ -845,11 +845,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=\\frac{(\\sqrt{x}+1)(x^{2}-\\sqrt{x})}{x\\sqrt{x}+x+\\sqrt{x}}+\\frac{1}{15}(3cos^{2}x-5)cos^{3}x \\\\ \\\\ &amp; y=\\frac{(\\sqrt{x}+1)(\\sqrt{x})((\\sqrt{x})^{3}-1)}{(\\sqrt{x})((\\sqrt{x})^{2}+(\\sqrt{x})+1)}+\\frac{1}{5}cos^{5}x-\\frac{1}{3}cos^{3}x \\\\ \\\\ &amp; y=(\\sqrt{x}+1)(\\sqrt{x}-1)+\\frac{1}{5}cos^{5}x-\\frac{1}{3}cos^{3}x \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; y^{'}=1-cos^{4}x \\cdot (sinx)+cos^{2}x(sinx \\\\ \\\\ &amp; y^{'}(\\frac{\\pi}{6})=1-\\frac{9}{16} \\times \\frac{1}{2}+\\frac{3}{4} \\times \\frac{1}{2} \\\\ \\\\ &amp; =\\frac{32-9+12}{32}=\\frac{35}{32} \\\\ \\\\ &amp; \\therefore 96y^{'}(\\frac{\\pi}{6})=105 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:58.694326"
     },
@@ -895,7 +895,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine  $g^{'}(0)$ , we start by applying the chain rule and product rule to find the derivative of the given function  $g(x)=ℎ(e^{x})e^{ℎ(x)}$ .</p>\n<p>The product rule states that if we have two functions  $u(x)$  and  $v(x)$ , then the derivative of their product is given by:</p>\n<p> $(u(x)v(x))^{'}=u^{'}(x)v(x)+u(x)v^{'}(x)$ </p>\n<p>Let's denote  $u(x)=ℎ(e^{x})$  and  $v(x)=e^{ℎ(x)}$ .</p>\n<p>First, we need to find  $u^{'}(x)$  and  $v^{'}(x)$ . Using the chain rule, we find:</p>\n<p> $u^{'}(x)=\\frac{d}{dx}ℎ(e^{x})=ℎ^{'}(e^{x}) \\cdot \\frac{d}{dx}(e^{x})=ℎ^{'}(e^{x}) \\cdot e^{x}$ </p>\n<p>Now, the derivative of  $v(x)$  is:</p>\n<p> $v^{'}(x)=\\frac{d}{dx}(e^{ℎ(x)})=e^{ℎ(x)} \\cdot ℎ^{'}(x)$ </p>\n<p>Using the product rule, we get the derivative of  $g(x)$ :</p>\n<p> $g^{'}(x)=u^{'}(x)v(x)+u(x)v^{'}(x)$ </p>\n<p>Substituting  $u(x)$ ,  $v(x)$ ,  $u^{'}(x)$ , and  $v^{'}(x)$  into the above expression, we get:</p>\n<p> $g^{'}(x)=(ℎ^{'}(e^{x})e^{x})e^{ℎ(x)}+(ℎ(e^{x}))(e^{ℎ(x)}ℎ^{'}(x))$ </p>\n<p>Next, we need to evaluate this at  $x=0$ :</p>\n<p>First, we know that:</p>\n<p> $ℎ(0)=0$ </p>\n<p> $ℎ(1)=1$ </p>\n<p> $ℎ^{'}(0)=2$ </p>\n<p> $ℎ^{'}(1)=2$ </p>\n<p>Substituting  $x=0$  into the expressions, we get:</p>\n<p> $u(0)=ℎ(e^{0})=ℎ(1)=1$ </p>\n<p> $v(0)=e^{ℎ(0)}=e^{0}=1$ </p>\n<p> $u^{'}(0)=ℎ^{'}(e^{0})e^{0}=ℎ^{'}(1) \\cdot 1=2$ </p>\n<p> $v^{'}(0)=e^{ℎ(0)}ℎ^{'}(0)=e^{0} \\cdot 2=2$ </p>\n<p>Therefore, evaluating  $g^{'}(0)$ :</p>\n<p> $g^{'}(0)=(u^{'}(0)v(0))+(u(0)v^{'}(0))$ </p>\n<p> $g^{'}(0)=(2 \\cdot 1)+(1 \\cdot 2)$ </p>\n<p> $g^{'}(0)=2+2=4$ </p>\n<p>Thus, the value of  $g^{'}(0)$  is 4, which corresponds to Option A.</p>\n<p>The correct answer is <strong>Option A: 4</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "ℎ,ℎ(0)=0,ℎ(1)=1",
@@ -906,7 +906,7 @@
         "u(x)=ℎ(e^{x})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:50.804499"
     },
@@ -952,7 +952,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that   $(g^{\\circ}f)(x)=x$   for all  $x \\in R$ . This means  $g(f(x))=x$  for all  $x \\in R$ . Differentiating both sides with respect to  $x$ , we get:\n\n<p> $g^{'}(f(x)) \\cdot f^{'}(x)=1$ </p>\n</p>\n<p>Now, we want to find the value of  $8g^{'}(2)$ . To do this, we need to find a value of  $x$  such that  $f(x)=2$ . Let's solve for  $x$ :\n\n<p> $x^{5}+2e^{x/4}=2$ </p>\n</p>\n<p>By inspection, we see that  $x=0$  is a solution. Therefore,  $f(0)=2$ . Now, we can substitute this into our differentiated equation:\n\n<p> $g^{'}(f(0)) \\cdot f^{'}(0)=1$ </p>\n<p> $g^{'}(2) \\cdot f^{'}(0)=1$ </p>\n</p>\n<p>Let's find  $f^{'}(0)$ :\n\n<p> $f^{'}(x)=5x^{4}+\\frac{1}{2}e^{x/4}$ </p>\n<p> $f^{'}(0)=\\frac{1}{2}$ </p>\n</p>\n<p>Substituting this back into our equation:\n\n<p> $g^{'}(2) \\cdot \\frac{1}{2}=1$ </p>\n<p> $g^{'}(2)=2$ </p>\n</p>\n<p>Finally, we can calculate  $8g^{'}(2)$ :\n\n<p> $8g^{'}(2)=8 \\cdot 2=16$ </p></p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{5}+2e^{x/4}",
@@ -963,7 +963,7 @@
         "f^{'}(0)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:51.283080"
     },
@@ -1009,11 +1009,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y=log_{e}(\\frac{1-x^{2}}{1+x^{2}}) \\\\ &amp; \\frac{dy}{dx}=y^{'}=\\frac{-4x}{1-x^{4}} \\end{aligned}$ </p>\n<p>Again,</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=y^{''}=\\frac{-4(1+3x^{4})}{(1-x^{4})^{2}}$ </p>\n<p>Again</p>\n<p> $y^{'}-y^{''}=\\frac{-4x}{1-x^{4}}+\\frac{4(1+3x^{4})}{(1-x^{4})^{2}}$ </p>\n<p>at  $x=\\frac{1}{2}$ ,</p>\n<p> $y^{'}-y^{''}=\\frac{736}{225}$ </p>\n<p>Thus  $225(y^{'}-y^{''})=225 \\times \\frac{736}{225}=736$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:51.706395"
     },
@@ -1038,14 +1038,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=x^{3}+x^{2} \\cdot f^{'}(1)+x \\cdot f^{''}(2)+f^{'''}(3) \\\\ &amp; f^{'}(x)=3x^{2}+2xf^{'}(1)+f^{''}(2) \\\\ &amp; f^{''}(x)=6x+2f^{'}(1) \\\\ &amp; f^{'''}(x)=6 \\\\ &amp; f^{'}(1)=-5,f^{''}(2)=2,f^{'''}(3)=6 \\\\ &amp; f(x)=x^{3}+x^{2} \\cdot (-5)+x \\cdot (2)+6 \\\\ &amp; f^{'}(x)=3x^{2}-10x+2 \\\\ &amp; f^{'}(10)=300-100+2=202 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{3}+x^{2}f^{'}(1)+xf^{''}(2)+f^{'''}(3),x \\in R",
         "f^{'}(10)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.709076"
     },
@@ -1091,14 +1091,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=x^{x} \\\\ \\\\ &amp; y^{'}=x^{x}(1+lnx) \\\\ \\\\ &amp; y^{''}=x^{x}(1+lnx)^{2}+\\frac{x^{x}}{x} \\\\ \\\\ &amp; f^{''}(2)-2f^{'}(2)=(4(1+ln2)^{2}+2)-(2)(4(1+ln2)) \\\\ \\\\ &amp; =4(1+(ln2)^{2})+2-8 \\\\ \\\\ &amp; =4(ln2)^{2}-2 \\\\ \\\\ &amp; \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "y(x)=x^{x},x>0",
         "y^{''}(2)-2y^{'}(2)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.710588"
     },
@@ -1144,7 +1144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=\\frac{1-x^{32}}{1-x}=1+x+x^{2}+x^{3}+\\dots+x^{31} \\\\ \\\\ &amp; y^{'}=1+2x+3x^{2}+\\dots+31x^{30} \\\\ \\\\ &amp; y^{'}(-1)=1-2+3-4+\\dots+31=16 \\\\ \\\\ &amp; y^{''}(x)=2+6x+12x^{2}+\\dots+31.30x^{29} \\\\ \\\\ &amp; y^{''}(-1)=2-6+12\\dots31.30=480 \\\\ \\\\ &amp; y^{''}(-1)-y^{'}(-1)=-496 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "y(x)=(1+x)(1+x^{2})(1+x^{4})(1+x^{8})(1+x^{16})",
@@ -1152,7 +1152,7 @@
         "x=-1"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:53.150143"
     },
@@ -1177,7 +1177,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $f(x)=\\sum_{k=1}^{10}kx^{k}$ \n<br/><br/> $\\begin{aligned} &amp; f(x)=x+2x^{2}+\\dots\\dots\\dots+10x^{10} \\\\ \\\\ &amp; f(x).x=x^{2}+2x^{3}+\\dots\\dots\\dots+9x^{10}+10x^{11} \\\\ \\\\ &amp; f(x)(1-x)=x+x^{2}+x^{3}+\\dots\\dots\\dots+x^{10}-10x^{11} \\\\ \\\\ &amp; \\therefore f(x)=\\frac{x(1-x^{10})}{(1-x)^{2}}-\\frac{10x^{11}}{(1-x)} \\end{aligned}$ \n<br/><br/> $\\Rightarrow$   $f(x)=\\frac{x-x^{11}-10x^{11}+10x^{12}}{(1-x)^{2}}=\\frac{10x^{12}-11x^{11}+x}{(1-x)^{2}}$ \n<br/><br/>So, \n<br/><br/> $\\begin{aligned} &amp; f(2)=2(1-2^{10})+10 \\cdot 2^{11} \\\\ \\\\ &amp; =2+18 \\cdot 2^{10} \\end{aligned}$ \n<br/><br/> $f^{'}(x)=\\frac{(1-x)^{2}(120x^{11}-121x^{10}+1)+2(1-x)(10x^{12}-11.x^{11}+2)}{(1-x)^{4}}$ \n<br/><br/>So,\n<br/><br/> $f^{'}(x)=\\frac{1(120.2^{11}-121.2^{10}+1)+2(-1)(10.2^{12}-11.2^{11}+2)}{(-1)^{4}}$ \n<br/><br/>=  $2^{10}(83)-3$ \n<br/><br/>Hence  $2f(2)+f^{'}(2)=119.2^{10}+1$ \n<br/><br/> $\\Rightarrow \\text{So,}n=10$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\sum_{k=1}^{10}kx^{k},x \\in ℝ",
@@ -1187,7 +1187,7 @@
         "\\Rightarrow \\text{So,}n=10"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.172239"
     },
@@ -1233,7 +1233,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol>\n<li><p>Given the equation:  $3f(x)+2f(\\frac{1}{x})=\\frac{1}{x}-10$ </p>\n</li>\n<li><p>Replace  $x$  with  $\\frac{1}{x}$  in the original equation: \n<br/> $3f(\\frac{1}{x})+2f(x)=x-10$ </p>\n</li>\n<li><p>Now, we have two equations:</p>\n</li>\n</ol>\n<p> $3f(x)+2f(\\frac{1}{x})=\\frac{1}{x}-10$ \n<br/><br/> $3f(\\frac{1}{x})+2f(x)=x-10$ </p>\n<ol>\n<li>By adding the two equations, we can find  $f(x)$ :</li>\n</ol>\n<p> $5f(x)=\\frac{3}{x}-2x-10$ </p>\n<ol>\n<li>Now, let's differentiate both sides with respect to  $x$ :</li>\n</ol>\n<p> $5f^{'}(x)=-\\frac{3}{x^{2}}-2$ </p>\n<ol>\n<li>Now, we can find the values for  $f(3)$  and  $f^{'}(\\frac{1}{4})$ :</li>\n</ol>\n<p> $f(3)=\\frac{1}{5}(1-6-10)=-3$ \n<br/><br/> $f^{'}(\\frac{1}{4})=\\frac{1}{5}(-48-2)=-10$ </p>\n<ol>\n<li>Finally, calculate the expression we are interested in :</li>\n</ol>\n<p> $|f(3)+f^{'}(\\frac{1}{4})|=|-3-10|=13$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "3f(x)+2f(\\frac{1}{x})=\\frac{1}{x}-10",
@@ -1244,7 +1244,7 @@
         "|f(3)+f^{'}(\\frac{1}{4})|=|-3-10|=13"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.197106"
     },
@@ -1290,14 +1290,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; f^{'}(x)=2+\\frac{1}{1+x^{2}},g^{'}(x)=\\frac{1}{\\sqrt{x^{2}+1}} \\\\ \\\\ &amp; f^{''}(x)=-\\frac{2x}{(1+x^{2})^{2}}&lt;0 \\\\ \\\\ &amp; g^{''}(x)=-\\frac{1}{2}(x^{2}+1)^{-3/2} \\cdot 2x&lt;0 \\\\ \\\\ &amp; f^{'}(x)|_{min}=f^{'}(3)=2+\\frac{1}{10}=\\frac{21}{10} \\\\ \\\\ &amp; g^{'}(x)|_{max}=g^{'}(0)=1 \\\\ \\\\ &amp; f^{'}(x)|_{max}=f(3)=2+tan^{-1}3 \\\\ \\\\ &amp; g(x)|_{max}=g(3)=ln(3+\\sqrt{10})&lt;ln&lt;7&lt;2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=2x+tan^{-1}x",
         "g(x)=log_{e}(\\sqrt{1+x^{2}}+x),x \\in [0,3]"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.723279"
     },
@@ -1343,7 +1343,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=x^{3}-x^{2}f^{'}(1)+xf^{''}(2)-f^{'''}(3),x \\in R$ <br/><br/>\nLet  $f^{'}(1)=a,f^{''}(2)=b,f^{'''}(3)=c$ <br/><br/>\n $\\begin{aligned} &amp; f(x)=x^{3}-ax^{2}+bx-c \\\\ \\\\ &amp; f^{'}(x)=3x^{2}-2ax+b \\\\ \\\\ &amp; f^{''}(x)=6x-2a \\\\ \\\\ &amp; f^{'''}(x)=6 \\\\ \\\\ &amp; c=6,a=3,b=6 \\\\ \\\\ &amp; f(x)=x^{3}-3x^{2}+6x-6 \\\\ \\\\ &amp; f(1)=-2,f(2)=2,f(3)=12,f(0)=-6 \\\\ \\\\ &amp; 2f(0)-f(1)+f(3)=2=f(2) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{3}-x^{2}f^{'}(1)+xf^{''}(2)-f^{'''}(3),x \\in ℝ",
@@ -1351,7 +1351,7 @@
         "f^{'}(1)=a,f^{''}(2)=b,f^{'''}(3)=c"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.165819"
     },
@@ -1376,7 +1376,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $g^{'}(1)=a$  and  $g^{''}(2)=b$ \n<br/><br/> $\\Rightarrow f(x)=x^{2}+ax+b$ \n<br/><br/>Now,  $f(1)=1+a+b;f^{'}(x)=2x+a;f^{''}(x)=2$ \n<br/><br/> $g(x)=(1+a+b)x^{2}+x(2x+a)+2$ \n<br/><br/> $\\Rightarrow g(x)=(a+b+3)x^{2}+ax+2$ \n<br/><br/> $\\Rightarrow g^{'}(x)=2x(a+b+3)+a \\Rightarrow g^{'}(1)=2(a+b+3)$  $+a=a$ \n<br/><br/> $\\Rightarrow a+b+3=0$  .......(1)\n\n<br/><br/> $g^{''}(x)=2(a+b+3)=b$ \n<br/><br/> $\\Rightarrow 2a+b+6=0$  ........(2)\n\n<br/><br/>Solving (i) and (ii), we get\n\n<br/><br/> $a=-3$  and  $b=0$ \n<br/><br/> $f(x)=x^{2}-3x$  and  $g(x)=-3x+2$ \n<br/><br/> $f(4)=4$  and  $g(4)=-12+2=-10$ \n<br/><br/> $\\Rightarrow f(4)-g(4)=16-2=14$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=x^{2}+g^{'}(1)x+g^{''}(2)",
@@ -1387,7 +1387,7 @@
         "f(1)=1+a+b;f^{'}(x)=2x+a;f^{''}(x)=2"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.188292"
     },
@@ -1433,7 +1433,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx}$ \n<br/><br/> $\\begin{aligned} &amp; =\\frac{\\frac{1}{\\sqrt{2}}sinx+\\frac{1}{\\sqrt{2}}cosx-1}{\\frac{1}{\\sqrt{2}}sinx-\\frac{1}{\\sqrt{2}}cosx} \\\\ \\\\ &amp; =\\frac{cos(x-\\frac{\\pi}{4})-1}{sin(x-\\frac{\\pi}{4})} \\\\ \\\\ &amp; =\\frac{-2sin^{2}(\\frac{x}{2}-\\frac{\\pi}{8})}{2sin(\\frac{x}{2}-\\frac{\\pi}{8})cos(\\frac{x}{2}-\\frac{\\pi}{8})} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow f(x)=-tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\\\ \\\\ &amp; \\Rightarrow f^{'}(x)=-\\frac{1}{2}sec^{2}(\\frac{x}{2}-\\frac{\\pi}{8}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow f^{''}(x)=-\\frac{1}{2} \\cdot 2sec(\\frac{x}{2}-\\frac{\\pi}{8}) \\cdot sec(\\frac{x}{2}-\\frac{\\pi}{8})tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\times \\frac{1}{2} \\\\ \\\\ &amp; =-\\frac{1}{2}sec^{2}(\\frac{x}{2}-\\frac{\\pi}{8}) \\cdot tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}f(\\frac{7\\pi}{12})f^{''}(\\frac{7\\pi}{12}) \\\\ \\\\ &amp; =-tan(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\times \\frac{-1}{2}sec^{2}(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\times tan(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\\\ \\\\ &amp; =\\frac{1}{2}tan^{2}(\\frac{\\pi}{6}) \\times sec^{2}\\frac{\\pi}{6} \\\\ \\\\ &amp; =\\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{4}{3}=\\frac{2}{9} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx},x \\in [0,\\pi]-{\\frac{\\pi}{4}}",
@@ -1441,7 +1441,7 @@
         "f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.207341"
     },
@@ -1487,14 +1487,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=sin^{3}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2}))$ \n<br/><br/> $\\begin{aligned} &amp; f^{'}(x)=3sin^{2}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; cos(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; \\frac{\\pi}{3}(-sin(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; \\frac{\\pi}{3\\sqrt{2}}\\frac{3}{2}(-4x^{3}+5x^{3}+1)^{1/2}(-12x^{2}+10x) \\end{aligned}$ \n<br/><br/> $f^{'}(1)=\\frac{3\\pi^{2}}{16}$ \n<br/><br/> $\\begin{aligned} &amp; f(1)=sin^{3}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}2\\sqrt{2})) \\\\ \\\\ &amp; =sin^{3}(-\\frac{\\pi}{6})=\\frac{-1}{8} \\\\ \\\\ &amp; \\therefore 2f^{'}(1)+3\\pi^{2}f(1)=0 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         ". Then, at x = 1,",
         "f^{'}(1)=\\frac{3\\pi^{2}}{16}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.734362"
     },
@@ -1519,7 +1519,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f^{'}(x)=\\frac{3x+2}{2x+3}x \\in R-{-\\frac{3}{2}}$ </p>\n<p> $f^{5}(x)=f_{o}f_{o}f_{o}f_{o}f(x)$ </p>\n<p> $f_{o}f(x)=\\frac{13x+12}{12x+13}$ </p>\n<p> $f_{o}f_{o}f_{o}f_{o}f(x)=\\frac{1563x+1562}{1562x+1563}$ </p>\n<p> $\\equiv \\frac{ax+b}{bx+a}$ </p>\n<p> $\\therefore$   $a=1563,b=1562$ </p>\n<p> $=3125$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{1}(x)=\\frac{3x+2}{2x+3},x \\in R-{\\frac{-3}{2}}",
@@ -1530,7 +1530,7 @@
         "f_{o}f(x)=\\frac{13x+12}{12x+13}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.201452"
     },
@@ -1576,7 +1576,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $2x^{y}+3y^{x}=20$  ..........(i)\n<br/><br/>Let  $u=x^{y}$ \n<br/><br/>On taking log both sides, we get \n<br/><br/> $logu=ylogx$ \n<br/><br/>On differentiating both sides with respect to  $x$ , we get\n<br/><br/> $\\begin{aligned} &amp; \\frac{1}{u}\\frac{du}{dx}=y\\frac{1}{x}+logx\\frac{dy}{dx} \\\\ \\\\ &amp; \\Rightarrow \\frac{du}{dx}=u(\\frac{y}{x}+logx\\frac{dy}{dx}) \\\\ \\\\ &amp; \\Rightarrow \\frac{du}{dx}=x^{y}(\\frac{y}{x}+logx\\frac{dy}{dx}).........(ii) \\end{aligned}$ \n<br/><br/>Also, let  $v=y^{x}$ \n<br/><br/>On taking log both sides, we get \n<br/><br/> $logv=xlogy$ \n<br/><br/>On differentiating both sides, we get\n<br/><br/> $\\begin{aligned} &amp; \\frac{1}{v}\\frac{dv}{dx}=x\\frac{1}{y}\\frac{dy}{dx}+logy \\cdot 1 \\\\ \\\\ &amp; \\Rightarrow \\frac{dv}{dx}=v(\\frac{x}{y}\\frac{dy}{dx}+logy) \\\\ \\\\ &amp; \\Rightarrow \\frac{dv}{dx}=y^{x}(\\frac{x}{y}\\frac{dy}{dx}+logy)..........(iii) \\end{aligned}$ \n<br/><br/>Now, from Equation (i),  $2u+3v=20$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow 2\\frac{du}{dx}+3\\frac{dv}{dx}=0 \\\\ \\\\ &amp; \\Rightarrow 2x^{y}(\\frac{y}{x}+logx\\frac{dy}{dx})+3y^{x}(\\frac{x}{y}\\frac{dy}{dx}+logy)=0\\text{[Using Eqs. (ii) and (iii)]} \\end{aligned}$ \n<br/><br/>On putting  $x=2$  and  $y=2$ , we get\n<br/><br/> $\\begin{aligned} &amp; 2(4)(1+log2\\frac{dy}{dx})+3(4)(\\frac{dy}{dx}+log2)=0 \\\\ \\\\ &amp; \\Rightarrow \\frac{dy}{dx}(8log2+12)+(8+12log2)=0 \\\\ \\\\ &amp; \\Rightarrow \\frac{dy}{dx}=-(\\frac{2+3log2}{3+2log2}) \\\\ \\\\ &amp; \\Rightarrow \\frac{dy}{dx}=-(\\frac{2+log8}{3+log4}) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "2x^{y}+3y^{x}=20",
@@ -1585,7 +1585,7 @@
         "logu=ylogx"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.217685"
     },
@@ -1631,7 +1631,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f^{''}(x)=g^{''}(x)+6x$ </p>\n<p> $\\Rightarrow f^{'}(x)=g^{'}(x)+3x^{2}+C$ </p>\n<p> $f^{'}(1)=g^{'}(1)+3+C$ </p>\n<p> $\\Rightarrow g=3+3+C \\Rightarrow C=3$ </p>\n<p> $\\Rightarrow f^{'}(x)=g^{'}(x)+3x^{2}+3$ </p>\n<p> $\\Rightarrow f(x)=g(x)+x^{2}+3x+C^{'}$ </p>\n<p> $x=2$ </p>\n<p> $f(2)=g(2)+14+C^{'}$ </p>\n<p> $12=4+14+C^{'}$ </p>\n<p> $\\Rightarrow C^{'}=-6$ </p>\n<p> $\\Rightarrow f(x)=g(2)+x^{3}+3x-6$ </p>\n<p> $f(-2)=g(-2)-8-6-6$ </p>\n<p> $g(-2)-f(-2)=20$ </p>\n<p> $f^{'}(x)-g^{'}(x)=3x^{2}+3$ </p>\n<p> $x \\in (-1,1)$ </p>\n<p> $3x^{2}+3 \\in (0,6)$ </p>\n<p> $\\Rightarrow f^{'}(x)-g^{'}(x) \\in (0,6)$ &lt;?p&gt;\n<p> $f(x)-g(x)=x^{3}+3x-6$ </p>\n<p>At  $x=-1$ </p>\n<p> $|f(-1)-g(-1)|=10$ </p>\n<p> $\\therefore$  Option (4) is false.</p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{'}(1)=4g^{'}(1)-3=9",
@@ -1642,7 +1642,7 @@
         "\\Rightarrow g=3+3+C \\Rightarrow C=3"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:52.744732"
     },
@@ -1667,7 +1667,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x+y)=f(x)+f(y)-1$ \n<br/><br/>\n $\\begin{aligned} &amp; f^{'}(x)=\\underset{ℎ \\rightarrow 0}{lim}\\frac{f(x+ℎ)-f(x)}{ℎ} \\\\ \\\\ &amp; f^{'}(x)=\\underset{ℎ \\rightarrow 0}{lim}\\frac{f(ℎ)-f(0)}{ℎ}=f^{'}(0)=2 \\\\ \\\\ &amp; f^{'}(x)=2 \\Rightarrow dy=2dx \\\\ \\\\ &amp; y=2x+C \\\\ \\\\ &amp; x=0,y=1,c=1 \\\\ \\\\ &amp; y=2x+1 \\\\ \\\\ &amp; |f(-2)|=|-4+1|=|-3|=3 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x+y)=f(x)+f(y)-1,∀x,y \\in ℝ",
@@ -1675,7 +1675,7 @@
         "f(x+y)=f(x)+f(y)-1"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.213665"
     },
@@ -1721,7 +1721,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos^{-1}(\\frac{y}{2})=log_{e}(\\frac{x}{5})^{5}|y|&lt;2$ </p>\n<p>Differentiating on both side</p>\n<p> $-\\frac{1}{\\sqrt{1-(\\frac{y}{2})^{2}}} \\times \\frac{y^{'}}{2}=\\frac{5}{\\frac{x}{5}} \\times \\frac{1}{5}$ </p>\n<p> $\\frac{-xy^{'}}{2}=5\\sqrt{1-(\\frac{y}{2})^{2}}$ </p>\n<p>Square on both side</p>\n<p> $\\frac{x^{2}y^{'2}}{4}=25(\\frac{4-y^{2}}{4})$ </p>\n<p>Diff on both side</p>\n<p> $2xy^{'2}+2y^{'}y^{''}x^{2}=-25 \\times 2yy^{'}$ </p>\n<p> $xy^{'}+y^{''}x^{2}+25y=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(\\frac{y}{2})=log_{e}(\\frac{x}{5})^{5},|y|<2",
@@ -1732,7 +1732,7 @@
         "xy^{'}+y^{''}x^{2}+25y=0"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:53.820943"
     },
@@ -1757,7 +1757,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $C:(x^{2}+y^{2}-3)+(x^{2}-y^{2}-1)^{5}=0$  for point ( $\\alpha$ ,  $\\alpha$ )</p>\n<p> $\\alpha^{2}+\\alpha^{2}-3+(\\alpha^{2}-\\alpha^{2}-1)^{5}=0$ </p>\n<p> $\\therefore$   $\\alpha=\\sqrt{2}$ </p>\n<p>On differentiating  $(x^{2}+y^{2}-3)+(x^{2}-y^{2}-1)^{5}=0$  we get</p>\n<p> $x+yy^{'}+5(x^{2}-y^{2}-1)^{4}(x-yy^{'})=0$  ...... (i)</p>\n<p>When  $x=y=\\sqrt{2}$  then  $y^{'}=\\frac{3}{2}$ </p>\n<p>Again on differentiating eq. (i) we get :</p>\n<p> $1+(y^{'})^{2}+yy^{''}+20(x^{2}-y^{2}-1)(2x-2yy^{'})(x-y^{'}y)+5(x^{2}-y^{2}-1)^{4}(1-y^{'2}-yy^{''})=0$ </p>\n<p>For  $x=y=\\sqrt{2}$  and  $y^{'}=\\frac{3}{2}$  we get  $y^{''}=-\\frac{23}{4\\sqrt{2}}$ </p>\n<p> $\\therefore$   $3y^{'}-y^{3}y^{''}=3.\\frac{3}{2}-(\\sqrt{2})^{3}.(-\\frac{23}{4\\sqrt{2}})=16$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "C:(x^{2}+y^{2}-3)+(x^{2}-y^{2}-1)^{5}=0",
@@ -1768,7 +1768,7 @@
         "x+yy^{'}+5(x^{2}-y^{2}-1)^{4}(x-yy^{'})=0"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.630760"
     },
@@ -1814,7 +1814,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=3x^{2}+1$ </p>\n<p>f'(x) is bijective function</p>\n<p>and  $f(g(x))=x \\Rightarrow g(x)$  is inverse of f(x)</p>\n<p> $g(f(x))=x$ </p>\n<p> $g^{'}(f(x)).f^{'}(x)=1$ </p>\n<p> $g^{'}(f(x))=\\frac{1}{3x^{2}+1}$ </p>\n<p>Put x = 4 we get</p>\n<p> $g^{'}(63)=\\frac{1}{49}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{3}+x-5",
@@ -1825,7 +1825,7 @@
         "g^{'}(f(x)).f^{'}(x)=1"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.835304"
     },
@@ -1850,7 +1850,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $ℎ(x)=f(x) \\cdot g^{'}(x)$ \n<br/><br/>\nAs  $f(x)$  is even  $f(\\frac{1}{2})=(\\frac{1}{4})=0$ \n<br/><br/>\n $\\Rightarrow f(-\\frac{1}{2})=f(-\\frac{1}{4})=0$ \n<br/><br/>\nand  $g(x)$  is even  $\\Rightarrow g^{'}(x)$  is odd <br/><br/>\nand  $g(1)=2$  ensures one root of  $g^{'}(x)$  is 0 .\n<br/><br/>\nSo,  $ℎ(x)=f(x) \\cdot g^{'}(x)$  has minimum five zeroes\n<br/><br/>\n $\\therefore ℎ^{'}(x)=f^{'}(x) \\cdot g^{'}(x)+f(x) \\cdot g^{''}(x)=0$ ,\n<br/><br/>\nhas minimum 4 zeroes\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to ________. Let",
@@ -1861,7 +1861,7 @@
         "ℎ(x)=f(x) \\cdot g^{'}(x)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.642489"
     },
@@ -1907,7 +1907,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=2\\sqrt{2}cost\\sqrt{sin2t},y=2\\sqrt{2}sint\\sqrt{sin2t}$ </p>\n<p> $\\therefore$   $\\frac{dx}{dt}=\\frac{2\\sqrt{2}cos3t}{\\sqrt{sin2t}},\\frac{dy}{dt}=\\frac{2\\sqrt{2}sin3t}{\\sqrt{sin2t}}$ </p>\n<p> $\\therefore$   $\\frac{dy}{dx}=tan3t,(att=\\frac{\\pi}{4},\\frac{dy}{dx}=-1)$ </p>\n<p>and  $\\frac{d^{2}y}{dx^{2}}=3sec^{2}3t.\\frac{dt}{dx}=\\frac{3sec^{2}3t.\\sqrt{sin2t}}{2\\sqrt{2}cos3t}$ </p>\n<p> $(Att=\\frac{\\pi}{4},\\frac{d^{2}y}{dx^{2}}=-3)$ </p>\n<p> $\\therefore$   $\\frac{1+(\\frac{dy}{dx})^{2}}{\\frac{d^{2}y}{dx^{2}}}=\\frac{2}{-3}=\\frac{-2}{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x(t)=2\\sqrt{2}cost\\sqrt{sin2t}",
@@ -1918,7 +1918,7 @@
         "\\frac{dy}{dx}=tan3t,(att=\\frac{\\pi}{4},\\frac{dy}{dx}=-1)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:53.179698"
     },
@@ -1964,7 +1964,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $x^{3}=\\theta \\Rightarrow \\frac{\\theta}{2} \\in (\\frac{\\pi}{4},\\frac{3\\pi}{4})$ </p>\n<p> $\\therefore$   $y=tan^{-1}(sec\\theta-tan\\theta)$ </p>\n<p> $=tan^{-1}(\\frac{1-sin\\theta}{cos\\theta})$ </p>\n<p> $\\therefore$   $y=\\frac{\\pi}{4}-\\frac{\\theta}{2}$ </p>\n<p> $y=\\frac{\\pi}{4}-\\frac{x^{3}}{2}$ </p>\n<p> $\\therefore$   $y^{'}=\\frac{-3x^{2}}{2}$ </p>\n<p> $y^{''}=-3x$ </p>\n<p> $\\therefore$   $x^{2}y^{''}-6y+\\frac{3\\pi}{2}=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=tan^{-1}(secx^{3}-tanx^{3}),\\frac{\\pi}{2}<x^{3}<\\frac{3\\pi}{2}",
@@ -1975,7 +1975,7 @@
         "y=\\frac{\\pi}{4}-\\frac{x^{3}}{2}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:53.849899"
     },
@@ -2000,7 +2000,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $y(x)=(x^{x})^{x}$ </p>\n<p> $\\therefore$   $y=x^{x^{2}}$ </p>\n<p> $\\therefore$   $\\frac{dy}{dx}=x^{2}.x^{x^{2}-1}+x^{x^{2}}lnx.2x$ </p>\n<p> $\\therefore$   $\\frac{dx}{dy}=\\frac{1}{x^{x^{2}+1}(1+2lnx)}$  ..... (i)</p>\n<p>Now,  $\\frac{d^{2}x}{dx^{2}}=\\frac{d}{dx}((x^{x^{2}+1}(1+2lnx))^{-1}).\\frac{dx}{dy}$ </p>\n<p> $=\\frac{-x(x^{x^{2}+1}(1+2lnx))^{-2}.x^{x^{2}}(1+2lnx)(x^{2}+2x^{2}lnx+3)}{x^{x^{2}}(1+2lnx)}$ </p>\n<p> $=\\frac{-x^{x^{2}}(1+2lnx)(x^{3}+3+2x^{2}lnx)}{(x^{x^{2}}(1+2lnx))^{3}}$ </p>\n<p> $\\frac{d^{2}x}{dy^{2}(atx=1)}=-4$ </p>\n<p> $\\therefore$   $\\frac{d^{2}x}{dy^{2}(atx=1)}+20=16$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Hard",
       "key_formulas": [
         "y(x)=(x^{x})^{x},x>0",
@@ -2011,7 +2011,7 @@
         "\\frac{dx}{dy}=\\frac{1}{x^{x^{2}+1}(1+2lnx)}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.653781"
     },
@@ -2057,7 +2057,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f(x)=log_{cosx}cosecx$ </p>\n<p> $=\\frac{logcosecx}{logcosx}$ </p>\n<p> $\\Rightarrow f^{'}(x)=\\frac{logcosx.sinx.(-cosecxcotx-logcosecx.\\frac{1}{cosx}.-sinx)}{(logcosx)^{2}}$ </p>\n<p>at  $x=\\frac{\\pi}{4}$ </p>\n<p> $f^{'}(\\frac{\\pi}{4})=\\frac{-log(\\frac{1}{\\sqrt{2}})+log\\sqrt{2}}{(log\\frac{1}{\\sqrt{2}})^{2}}=\\frac{2}{log\\sqrt{2}}$ </p>\n<p> $\\therefore$   $log_{e}2f^{'}(x)$  at  $x=\\frac{\\pi}{4}=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "log_{e}2\\frac{d}{dx}(log_{cosx}cosecx)",
@@ -2068,7 +2068,7 @@
         "x=\\frac{\\pi}{4}=4"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.191183"
     },
@@ -2093,7 +2093,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $f(x+y)=2^{x}f(y)+4^{y}f(x)$  ....... (1)</p>\n<p>Now,  $f(y+x)2^{y}f(x)+4^{x}f(y)$  ...... (2)</p>\n<p> $\\therefore$   $2^{x}f(y)+4^{y}f(x)=2^{y}f(x)+4^{x}f(y)$ </p>\n<p> $(4^{y}-2^{y})f(x)=(4^{x}-2^{x})f(y)$ </p>\n<p> $\\frac{f(x)}{4^{x}-2^{x}}=\\frac{f(y)}{4^{y}-2^{y}}=k$ </p>\n<p> $\\therefore$   $f(x)=k(4^{x}-2^{x})$ </p>\n<p> $\\because$   $f(2)=3$  then  $k=\\frac{1}{4}$ </p>\n<p> $\\therefore$   $f(x)=\\frac{4^{x}-2^{x}}{4}$ </p>\n<p> $\\therefore$   $f^{'}(x)=\\frac{4^{x}ln4-2^{x}ln2}{4}$ </p>\n<p> $f^{'}(x)=\\frac{(2.4^{x}-2^{x})ln2}{4}$ </p>\n<p> $\\therefore$   $\\frac{f^{'}(4)}{f^{'}(2)}=\\frac{2.256-16}{2.16-4}$ </p>\n<p> $\\therefore$   $14\\frac{f^{'}(4)}{f^{'}(2)}=248$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x+y)=2^{x}f(y)+4^{y}f(x)",
@@ -2104,7 +2104,7 @@
         "(4^{y}-2^{y})f(x)=(4^{x}-2^{x})f(y)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.664426"
     },
@@ -2150,7 +2150,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=cos(2tan^{-1}sin(cot^{-1}\\sqrt{\\frac{1-x}{x}}))$ <br/><br/> $cot^{-1}\\sqrt{\\frac{1-x}{x}}=sin^{-1}\\sqrt{x}$ <br/><br/>or  $f(x)=cos(2tan^{-1}\\sqrt{x})$ <br/><br/> $=costan^{-1}(\\frac{2\\sqrt{x}}{1-x})$ <br/><br/> $f(x)=\\frac{1-x}{1+x}$ <br/><br/>Now,  $f^{'}(x)=\\frac{-2}{(1+x)^{2}}$ <br/><br/>or  $f^{'}(x)(1-x)^{2}=-2(\\frac{1-x}{1+x})^{2}$ <br/><br/>or  $(1-x)^{2}f^{'}(x)+2(f(x))^{2}=0$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos(2tan^{-1}sin(cot^{-1}\\sqrt{\\frac{1-x}{x}}))",
@@ -2161,7 +2161,7 @@
         "f^{'}(x)=\\frac{-2}{(1+x)^{2}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:54.277389"
     },
@@ -2186,7 +2186,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->ln(x + y) = 4xy (At x = 0, y = 1)<br/><br/>x + y = e<sup>4xy</sup><br/><br/> $\\Rightarrow 1+\\frac{dy}{dx}=e^{4xy}(4x\\frac{dy}{dx}+4y)$ <br/><br/>At x = 0 <br/><br/> $\\frac{dy}{dx}=3$ <br/><br/> $\\frac{d^{2}y}{dx^{2}}=e^{4xy}(4x\\frac{dy}{dx}+4y)^{2}+e^{4xy}(4x\\frac{d^{2}y}{dx^{2}}+4y)$ <br/><br/>At x = 0,  $\\frac{d^{2}y}{dx^{2}}=e^{0}(4)^{2}+e^{0}(24)$ <br/><br/> $\\Rightarrow \\frac{d^{2}y}{dx^{2}}=40$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}y}{dx^{2}}",
@@ -2196,7 +2196,7 @@
         "\\Rightarrow \\frac{d^{2}y}{dx^{2}}=40"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.935089"
     },
@@ -2221,7 +2221,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=sincos^{-1}(\\frac{1-(2^{x})^{2}}{1+(2^{x})^{2}})$ <br/><br/> $=sin(2tan^{-1}2^{x})$ <br/><br/> $f^{'}(x)=cos(2tan^{-1}2^{x}).2.\\frac{1}{1+(2^{x})^{2}} \\times 2^{x}.log_{e}2$ <br/><br/> $\\therefore$   $f^{'}(1)=cos(2tan^{-1}2).\\frac{2}{1+4} \\times 2 \\times log_{e}2$ <br/><br/> $\\Rightarrow f^{'}(1)=coscos^{-1}(\\frac{1-2^{2}}{1+2^{2}}).\\frac{4}{5}log_{e}2$ <br/><br/> $=-\\frac{12}{25}log_{e}2$ <br/><br/> $\\Rightarrow a=25,b=12$ <br/><br/> $|a^{2}-b^{2}|=|625-144|=481$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin(cos^{-1}(\\frac{1-2^{2x}}{1+2^{2x}}))",
@@ -2232,7 +2232,7 @@
         "f^{'}(1)=cos(2tan^{-1}2).\\frac{2}{1+4} \\times 2 \\times log_{e}2"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.946624"
     },
@@ -2278,7 +2278,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,\n<br/><br/> $y(x)=cot^{-1}(\\frac{\\sqrt{1+sinx}+\\sqrt{1-sinx}}{\\sqrt{1+sinx}-\\sqrt{1-sinx}})$ \n<br/><br/> $=cot^{-1}\\frac{|cos\\frac{x}{2}+sin\\frac{x}{2}|+|cos\\frac{x}{2}-sin\\frac{x}{2}|}{|cos\\frac{x}{2}+sin\\frac{x}{2}|-|cos\\frac{x}{2}-sin\\frac{x}{2}|}$ \n<br/><br/> $[\\text{as}cos^{2}\\frac{x}{2}+sin^{2}\\frac{x}{2}=1$ \n<br/><br/>and  $sinx=2sin\\frac{x}{2}cos\\frac{x}{2}]$ \n<br/><br/> $\\begin{aligned} &amp; =cot^{-1}(\\frac{cos\\frac{x}{2}+sin\\frac{x}{2}+sin\\frac{x}{2}-cos\\frac{x}{2}}{cos\\frac{x}{2}+sin\\frac{x}{2}-sin\\frac{x}{2}+cos\\frac{x}{2}})∀x \\in (\\frac{\\pi}{2},\\pi) \\\\ &amp; \\end{aligned}$ \n<br/><br/> $=cot^{-1}(\\frac{sin\\frac{x}{2}}{cos\\frac{x}{2}})=cot^{-1}(tan\\frac{x}{2})$ \n<br/><br/> $=\\frac{\\pi}{2}-tan^{-1}(tan\\frac{x}{2})$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore y^{'}(x)=\\frac{\\pi}{2}-\\frac{x}{2} \\\\ \\\\ &amp; \\Rightarrow \\frac{dy}{dx}=y^{'}(x)=-\\frac{1}{2}=y^{'}(\\frac{5\\pi}{6}) \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "[\\text{as}cos^{2}\\frac{x}{2}+sin^{2}\\frac{x}{2}=1",
@@ -2287,7 +2287,7 @@
         "=\\frac{\\pi}{2}-tan^{-1}(tan\\frac{x}{2})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.861056"
     },
@@ -2333,13 +2333,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given the function composition f(g(x)) is the identity function, it means f(g(x)) = x for all x.\n\n<br/><br/> $\\Rightarrow$  ƒ'(g(x)) g'(x) = 1\n<br/><br/>put x = a\n<br/><br/> $\\Rightarrow$  ƒ'(b) g'(a) = 1\n<br/><br/> $\\Rightarrow$  ƒ'(b) =  $\\frac{1}{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{5}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:54.859210"
     },
@@ -2385,7 +2385,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y(\\alpha)=\\sqrt{2(\\frac{tan\\alpha+cot\\alpha}{1+tan^{2}\\alpha})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{2(\\frac{1+tan^{2}\\alpha}{tan\\alpha(1+tan^{2}\\alpha)})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{2(\\frac{cos\\alpha}{sin\\alpha})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{\\frac{sin2\\alpha+1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\frac{|sin\\alpha+cos\\alpha|}{|sin\\alpha|}$ \n<br/><br/>At  $\\alpha$  =  $\\frac{5\\pi}{6}$ \n<br/><br/> $|sin\\alpha+cos\\alpha|$  = -(sin $\\alpha$  + cos $\\alpha$ )\n<br/><br/>and |sin $\\alpha$ | = sin $\\alpha$ \n<br/><br/> $\\therefore$  y( $\\alpha$ ) =  $\\frac{-(sin\\alpha+cos\\alpha)}{sin\\alpha}$ \n<br/><br/>= -1 - cot $\\alpha$ \n<br/><br/> $\\therefore$   $\\frac{dy}{d\\alpha}$  = cosec<sup>2</sup> $\\alpha$ \n<br/><br/>So  $\\frac{dy}{d\\alpha}$  at  $\\alpha$  =  $\\frac{5\\pi}{6}$ ,\n<br/><br/>= cosec<sup>2</sup> $\\frac{5\\pi}{6}$  = 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{d\\alpha}at\\alpha=\\frac{5\\pi}{6}is",
@@ -2395,7 +2395,7 @@
         "\\frac{5\\pi}{6}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:55.271724"
     },
@@ -2441,7 +2441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let f =  $tan^{-1}(\\frac{\\sqrt{1+x^{2}}-1}{x})$ \n<br/><br/>Put x = tan  $\\theta$   $\\Rightarrow$   $\\theta$  = tan<sup>–1</sup> x\n<br/><br/>f =  $tan^{-1}(\\frac{sec\\theta-1}{tan\\theta})$ \n<br/><br/> $\\Rightarrow$  f =  $tan^{-1}(\\frac{1-cos\\theta}{sin\\theta})$  =  $\\frac{\\theta}{2}$ \n<br/><br/> $\\Rightarrow$  f =  $\\frac{tan^{-1}x}{2}$ \n<br/><br/> $\\therefore$   $\\frac{df}{dx}$  =  $\\frac{1}{2(1+x^{2})}$  ....(1)\n<br/><br/>Let g =  $tan^{-1}(\\frac{2x\\sqrt{1-x^{2}}}{1-2x^{2}})$ \n<br/><br/>Put x = sin  $\\theta$   $\\Rightarrow$   $\\theta$  = sin<sup>–1</sup>\n x\n<br/><br/> $\\Rightarrow$  g =  $tan^{-1}(\\frac{2sin\\theta cos\\theta}{1-2sin^{2}\\theta})$ \n<br/><br/> $\\Rightarrow$  g = tan<sup>–1</sup>\n (tan 2 $\\theta$ ) = 2 $\\theta$ \n<br/><br/> $\\Rightarrow$  g = 2sin<sup>-1</sup> x\n<br/><br/> $\\Rightarrow$   $\\frac{dg}{dx}$  =  $\\frac{2}{\\sqrt{1-x^{2}}}$  ...(2)\n<br/><br/>Using (i) and (ii),\n<br/><br/> $\\therefore$   $\\frac{df}{dg}$  =  $\\frac{1}{2(1+x^{2})}\\frac{\\sqrt{1-x^{2}}}{2}$ \n<br/><br/>At x =  $\\frac{1}{2}$ ,  $(\\frac{df}{dg})_{x=\\frac{1}{2}}$  =  $\\frac{\\sqrt{3}}{10}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "tan^{-1}(\\frac{\\sqrt{1+x^{2}}-1}{x})",
@@ -2452,7 +2452,7 @@
         "\\frac{\\theta}{2}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.293381"
     },
@@ -2498,7 +2498,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=2sin\\theta-sin2\\theta$ \n<br/><br/> $\\Rightarrow$   $\\frac{dx}{d\\theta}$  =  $2cos\\theta-2cos2\\theta$ \n<br/><br/> $y=2cos\\theta-cos2\\theta$ \n<br/><br/> $\\Rightarrow$   $\\frac{dy}{d\\theta}$  = –2sin $\\theta$  + 2sin2 $\\theta$ \n<br/><br/> $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}$  =  $\\frac{sin2\\theta-sin\\theta}{cos\\theta-cos2\\theta}$ \n<br/><br/>This expression is simplified by recognizing that  $sin2\\theta=2sin\\theta cos\\theta$  and  $cos2\\theta=2cos^{2}\\theta-1$ , leading to the expression:\n\n<br/><br/> $\\frac{dy}{dx}=\\frac{2sin\\frac{\\theta}{2} \\cdot cos\\frac{3\\theta}{2}}{2sin\\frac{\\theta}{2} \\cdot sin\\frac{3\\theta}{2}}=cot\\frac{3\\theta}{2}$ \n<br/><br/>This is the rate of change of y with respect to x, as a function of θ.\n\n<br/><br/>Next, we differentiate this function with respect to θ to find  $\\frac{d^{2}y}{dx^{2}}$ , yielding :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{d\\theta}(\\frac{dy}{dx})\\frac{d\\theta}{dx}=-\\frac{3}{2}cosec^{2}\\frac{3\\theta}{2} \\cdot \\frac{d\\theta}{dx}$ \n<br/><br/>Here,  $\\frac{d\\theta}{dx}$  is the reciprocal of  $\\frac{dx}{d\\theta}$ , so the equation becomes :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=\\frac{-\\frac{3}{2}cosec^{2}\\frac{3\\theta}{2}}{2(cos\\theta-cos2\\theta)}$ \n<br/><br/>Finally, we evaluate this expression at  $\\theta=\\pi$ , yielding :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}(\\pi)=\\frac{-3}{4(-1-1)}=\\frac{3}{8}$ \n<br/><br/>Therefore, the correct answer is (A)  $\\frac{3}{8}$ .\n<br/><br/><b>Alternate Method :</b>\n<br/><br/>First, let's find the derivatives of x and y with respect to θ :\n\n<br/><br/>1)  $\\frac{dx}{d\\theta}=2cos\\theta-2cos2\\theta$ \n<br/><br/>2)  $\\frac{dy}{d\\theta}=-2sin\\theta+2sin2\\theta$ \n<br/><br/>We know that  $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}$ \n<br/><br/>So, we substitute 1) and 2) into this equation :\n\n<br/><br/>We have \n\n<br/><br/> $\\frac{dy}{dx}=\\frac{-2sin\\theta+2sin2\\theta}{2cos\\theta-2cos2\\theta}=\\frac{sin2\\theta-sin\\theta}{cos\\theta-cos2\\theta}$ \n<br/><br/>For simplification, let's denote the numerator as  $N=sin2\\theta-sin\\theta$  and the denominator as  $D=cos\\theta-cos2\\theta$ .\n\n<br/><br/>We have to compute  $\\frac{d}{d\\theta}(\\frac{dy}{dx})$  which is  $\\frac{d}{d\\theta}(\\frac{N}{D})$ .\n\n<br/><br/>We can use the quotient rule for differentiation, which states that if we have a function of the form  $\\frac{u}{v}$ , then its derivative is given by  $\\frac{vu^{'}-uv^{'}}{v^{2}}$ . \n\n<br/><br/>So here,  $N^{'}=2cos2\\theta-cos\\theta$  and  $D^{'}=-sin\\theta+2sin2\\theta$ .\n\n<br/><br/>Applying the quotient rule :\n\n<br/><br/> $\\frac{d}{d\\theta}(\\frac{dy}{dx})=\\frac{DN^{'}-ND^{'}}{D^{2}}$ \n<br/><br/>Substituting the expressions for  $N^{'}$ ,  $D^{'}$ ,  $N$ , and  $D$  we get :\n\n<br/><br/> $\\frac{d}{d\\theta}(\\frac{dy}{dx})=\\frac{(cos\\theta-cos2\\theta)(2cos2\\theta-cos\\theta)-(sin2\\theta-sin\\theta)(-sin\\theta+2sin2\\theta)}{(cos\\theta-cos2\\theta)^{2}}$ \n<br/><br/>Now  $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}(\\frac{dy}{dx})=\\frac{d}{d\\theta}(\\frac{dy}{dx}) \\times \\frac{d\\theta}{dx}$ \n<br/><br/>=   $\\frac{(cos\\theta-cos2\\theta)(2cos2\\theta-cos\\theta)-(sin2\\theta-sin\\theta)(-sin\\theta+2sin2\\theta)}{(cos\\theta-cos2\\theta)^{2}}$  $\\times \\frac{1}{(2cos\\theta-2cos2\\theta)}$ \n<br/><br/> $\\begin{aligned} \\therefore \\frac{d^{2}y}{dx^{2}}|_{\\theta=\\pi} &amp; =\\frac{(-1-1)(2+1)-(0-0)(-0+0)}{2(-1-1)^{3}} \\\\ \\\\ &amp; =\\frac{-2 \\times 3}{-2 \\times 8}=\\frac{3}{8} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x=2sin\\theta-sin2\\theta",
@@ -2509,7 +2509,7 @@
         "\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.873060"
     },
@@ -2555,7 +2555,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x<sup>k</sup> + y<sup>k</sup> = a<sup>k</sup>\n<br/><br/> $\\Rightarrow$  kx<sup>k - 1</sup> + ky<sup>k - 1</sup> $\\frac{dy}{dx}$  = 0\n<br/><br/> $\\Rightarrow$   $\\frac{dy}{dx}+(\\frac{x}{y})^{k-1}$  = 0 ...(1)\n<br/><br/>Given  $\\frac{dy}{dx}+(\\frac{y}{x})^{\\frac{1}{3}}=0$  ...(2)\n<br/><br/>Comparing (1) and (2), we get\n<br/><br/>k - 1 =  $-\\frac{1}{3}$ \n<br/><br/> $\\Rightarrow$  k =  $\\frac{2}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}+(\\frac{y}{x})^{\\frac{1}{3}}=0",
@@ -2565,7 +2565,7 @@
         "\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.286142"
     },
@@ -2611,7 +2611,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(a+\\sqrt{2}bcosx)(a-\\sqrt{2}bcosy)=a^{2}-b^{2}$ <br/><br/> $\\Rightarrow a^{2}-\\sqrt{2}abcosy+\\sqrt{2}abcosx-2b^{2}cosxcosy=a^{2}-b^{2}$ <br/><br/>Differentiating both sides :<br/><br/> $0-\\sqrt{2}ab(-siny\\frac{dy}{dx})+\\sqrt{2}ab(-sinx)$ <br/><br/> $-2b^{2}[cosx(-siny\\frac{dy}{dx})+cosy(-sinx)]=0$ <br/><br/>At  $(\\frac{\\pi}{4},\\frac{\\pi}{4})$  :<br/><br/> $ab\\frac{dy}{dx}-ab-2b^{2}(-\\frac{1}{2}\\frac{dy}{dx}-\\frac{1}{2})=0$ <br/><br/> $\\Rightarrow \\frac{dx}{dy}=\\frac{ab+b^{2}}{ab-b^{2}}=\\frac{a+b}{a-b}$ ; a, b &gt; 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "(a+\\sqrt{2}bcosx)(a-\\sqrt{2}bcosy)=a^{2}-b^{2}",
@@ -2622,7 +2622,7 @@
         "(\\frac{\\pi}{4},\\frac{\\pi}{4})"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:54.305421"
     },
@@ -2668,7 +2668,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ƒ(x) = (sin(tan<sup>–1</sup>x) + sin(cot<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/> = (sin(tan<sup>–1</sup>x) + sin( $\\frac{\\pi}{2}$  - tan<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/> = (sin(tan<sup>–1</sup>x) + cos(tan<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/>= sin<sup>2</sup>(tan<sup>–1</sup>x) + cos<sup>2</sup>(tan<sup>–1</sup>x) + 2sin(tan<sup>–1</sup>x)cos(tan<sup>–1</sup>x) + 1\n<br/><br/>= 1 + sin(2tan<sup>–1</sup>x) - 1\n<br/><br/>= sin(2tan<sup>–1</sup>x)\n\n<br/><br/>Also given  $\\frac{dy}{dx}=\\frac{1}{2}\\frac{d}{dx}(sin^{-1}(f(x)))$ \n<br/><br/> Integrating both sides we get\n<br/><br/>y =  $\\frac{1}{2}$  sin<sup>-1</sup> (f(x)) + C\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>x)) + C\n<br/><br/>Given  $y(\\sqrt{3})=\\frac{\\pi}{6}$  mean x =  $\\sqrt{3}$  and y =  $\\frac{\\pi}{6}$ \n<br/><br/> $\\therefore$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup> $\\sqrt{3}$ )) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2 $\\times$  $\\frac{\\pi}{3}$ )) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> ( $\\frac{\\sqrt{3}}{2}$ ) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$   $\\times$   $\\frac{\\pi}{3}$  + C\n<br/><br/> $\\Rightarrow$  C = 0\n<br/><br/>Now y( $-\\sqrt{3}$ ) means when x =  $-\\sqrt{3}$  then find y.\n<br/><br/>y =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>x))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>( $-\\sqrt{3}$ )))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(-2tan<sup>–1</sup>( $\\sqrt{3}$ )))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(-2 $\\times$  $\\frac{\\pi}{3}$ ))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (-sin(2 $\\times$  $\\frac{\\pi}{3}$ ))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (- $\\frac{\\sqrt{3}}{2}$ )\n<br/><br/>=  $\\frac{1}{2}$   $\\times$  -sin<sup>-1</sup> ( $\\frac{\\sqrt{3}}{2}$ )\n<br/><br/>=  $\\frac{1}{2}$   $\\times$  - $\\frac{\\pi}{3}$ \n<br/><br/>= - $\\frac{\\pi}{6}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{1}{2}\\frac{d}{dx}(sin^{-1}(f(x)))",
@@ -2679,7 +2679,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:54.889324"
     },
@@ -2704,7 +2704,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Put,  $cos\\alpha=\\frac{3}{5},sin\\alpha=\\frac{4}{5}$ <br/><br/>\n $\\therefore \\frac{3}{5}coskx-\\frac{4}{5}sinkx$ <br/><br/>\n $=cos\\alpha.coskx-sin\\alpha.sinkx$ <br/><br/>\n $=cos(\\alpha+kx)$ <br/><br/>\nSo,  $y=\\sum_{k=1}^{6}kcos^{-1}(cos(\\alpha+kx))$ <br/><br/>\n $=\\sum_{k=1}^{6}(k^{2}x+kx)$ <br/><br/>\n $\\Rightarrow \\frac{dy}{dx}=\\sum_{k=1}^{6}k^{2}$ <br/><br/>\n $=\\frac{6 \\times 7 \\times 13}{6}=91$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{k=1}^{6}kcos^{-1}{\\frac{3}{5}coskx-\\frac{4}{5}sinkx}",
@@ -2715,7 +2715,7 @@
         "=cos(\\alpha+kx)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:59.961570"
     },
@@ -2761,14 +2761,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given y<sup>2</sup> + log<sub>e</sub> (cos<sup>2</sup>x) = y .....(1)\n<br/><br/>Put x  = 0, we get\n<br/><br/>y<sup>2</sup> + log<sub>e</sub> (1) = y\n<br/><br/> $\\Rightarrow$  y<sup>2</sup> = y\n<br/><br/> $\\Rightarrow$  y = 0, 1\n<br/><br/>Differentiating (1) we get\n<br/><br/>2yy' +  $\\frac{1}{cosx}(-sinx)$  = y'\n<br/><br/> $\\Rightarrow$  2yy' - 2tanx = y'  ....(2)\n<br/><br/>From (2) when x = 0, y = 0 then y'(0) = 0\n<br/><br/>From (2) when x = 0, y = 1 then \n<br/><br/>2y' = y'\n<br/><br/> $\\Rightarrow$  y'(0) = 0\n<br/><br/>Again differentiating (2) we get\n<br/><br/>2(y')<sup>2</sup>\n + 2yy'' – 2sec<sup>2</sup>x = y''\n<br/><br/>from (2) when x = 0, y = 0, y’(0) = 0 then\n<br/><br/>y”(0) = -2\n<br/><br/>Also from (2) when x = 0, y = 1, y’(0) = 0 then\n<br/><br/>y”(0) = 2\n<br/><br/> $\\therefore$  |y''(0)| = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2})",
         "\\frac{1}{cosx}(-sinx)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.316396"
     },
@@ -2814,7 +2814,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y\\sqrt{1-x^{2}}=k-x\\sqrt{1-y^{2}}$  ....(1)\n<br/><br/>On differentiating both side of eq. (1) w.r.t. x we\nget,\n<br/><br/> $\\frac{dy}{dx}\\sqrt{1-x^{2}}-y\\frac{2x}{2\\sqrt{1-x^{2}}}$ \n<br/><br/>= 0 -  $\\sqrt{1-y^{2}}+\\frac{xy}{\\sqrt{1-y^{2}}}\\frac{dy}{dx}$ \n<br/><br/>Put x =  $\\frac{1}{2}$  and y =  $-\\frac{1}{4}$ , we get\n<br/><br/> $\\frac{dy}{dx}\\frac{\\sqrt{3}}{2}-(-\\frac{1}{4})\\frac{\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}$ \n<br/><br/>=  $-\\frac{\\sqrt{15}}{4}+\\frac{-\\frac{1}{8}}{\\frac{\\sqrt{15}}{4}}.\\frac{dy}{dx}$ \n<br/><br/> $\\therefore$   $\\frac{dy}{dx}=-\\frac{\\sqrt{5}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y\\sqrt{1-x^{2}}=k-x\\sqrt{1-y^{2}}",
@@ -2825,7 +2825,7 @@
         "\\sqrt{1-y^{2}}+\\frac{xy}{\\sqrt{1-y^{2}}}\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.900210"
     },
@@ -2871,11 +2871,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = ln(sin x), g(x) = sin<sup>–1</sup> (e<sup>–x</sup>)<br/><br/>\nf(g(x)) = ln(sin(sin<sup>–1</sup> e<sup>–x</sup>)) = -x<br/><br/>\nf(g( $\\alpha$ )) = –  $\\alpha$  = b<br/><br/>\nAs f(g(x)) = – x <br/><br/>\n $\\therefore$  (f(g(x)))' = – 1<br/><br/>\n $\\Rightarrow$  (f(g( $\\alpha$ )))' = – 1 = a<br/><br/>\n $\\therefore$  b = –  $\\alpha$ ,\na = – 1<br/><br/>\n $\\therefore$  a $\\alpha$ <sup>2</sup> - b $\\alpha$  - a = -  $\\alpha$ <sup>2</sup> +  $\\alpha$ <sup>2</sup> + 1 = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:55.637128"
     },
@@ -2921,7 +2921,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Differentiating with respect to x,\n<br/><br/> $x.\\frac{1}{\\ell nx}.\\frac{1}{x}+\\ell n(\\ell nx)-2x+2y.\\frac{dy}{dx}=0$ \n<br/><br/>at    $x=e$   we get\n<br/><br/> $1-2e+2y\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=\\frac{2e-1}{2y}$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{2e-1}{2\\sqrt{4+e^{2}}}$ \n<br/><br/>as    $y(e)=\\sqrt{4+e^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x 2 + y 2 = 4(y > 0), then",
@@ -2930,7 +2930,7 @@
         "y(e)=\\sqrt{4+e^{2}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:56.037832"
     },
@@ -2976,14 +2976,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ƒ(1) = 1, ƒ'(1) = 3\n<br/><br/>Let y = ƒ(ƒ(ƒ(x))) + (ƒ(x))<sup>2\n</sup>\n<br/><br/>On differentiating both sides with respect to x we get,\n<br/><br/> $\\frac{dy}{dx}$  = ƒ'(ƒ(ƒ(x))).ƒ'(ƒ(x)).ƒ'(x) + 2ƒ(x).ƒ'(x)\n<br/><br/>Now at x = 1,\n<br/><br/> $\\frac{dy}{dx}$  = ƒ'(ƒ(ƒ(1))).ƒ'(ƒ(1)).ƒ'(1) + 2ƒ(1).ƒ'(1)\n<br/><br/>= ƒ'(ƒ(1)).ƒ'(1).ƒ'(1) + 2.1.ƒ'(1)\n<br/><br/>= ƒ'(1).ƒ'(1).ƒ'(1) + 2.1.ƒ'(1)\n<br/><br/>= 3 $\\times$ 3 $\\times$ 3 + 2 $\\times$ 3\n<br/><br/>= 33<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{dy}{dx}",
         "\\times"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.652026"
     },
@@ -3029,7 +3029,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = x<sup>3</sup> + x<sup>2</sup>f '(1) + xf ''(2) + f '''(3)\n<br/><br/> $\\Rightarrow$   f '(x) = 3x<sup>2</sup> + 2xf '(1) + f ''(x)     . . . . . (1)\n<br/><br/> $\\Rightarrow$   f ''(x) = 6x + 2f '(1)     . . . . . . (2)\n<br/><br/> $\\Rightarrow$   f '''(x) = 6      . . . . . .(3)\n<br/><br/>put x = 1 in equation (1) : \n<br/><br/>f '(1) = 3 + 2f '(1) + f ''(2)     . . . . .(4)\n<br/><br/>put x = 2 in equation (2) : \n<br/><br/>f ''(2) = 12 + 2f '(1)     . . . . .(5)\n<br/><br/>from equation (4) &amp; (5) : \n<br/><br/> $-$ 3  $-$  f '(1) = 12 + 2f'(1)\n<br/><br/> $\\Rightarrow$   3f '(1) =  $-$  15\n<br/><br/> $\\Rightarrow$   f '(1) =  $-$  5  $\\Rightarrow$   f ''(2) = 2      . . . . .(2)\n<br/><br/>put x = 3 in equation (3) :\n<br/><br/>f ''' (3) = 6\n<br/><br/> $\\therefore$   f(x) = x<sup>3</sup>  $-$  5x<sup>2</sup> + 2x + 6\n<br/><br/>f(2) = 8  $-$  20 + 4 + 6 =  $-$  2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f '(1) = 12 + 2f'(1)",
@@ -3040,7 +3040,7 @@
         "5x 2 + 2x + 6 f(2) = 8"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.050590"
     },
@@ -3086,7 +3086,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y=tan^{-1}(\\frac{tanx-1}{tanx+1})$ <br/><br/>\n $\\Rightarrow$   $-tan^{-1}(\\frac{1-tanx}{1+tanx})$ <br/><br/>\n $\\Rightarrow$   $-tan^{-1}(tan(\\frac{\\pi}{4}-x))$ <br/><br/>\n $\\Rightarrow$   $-(\\frac{\\pi}{4}-x)$ <br/><br/>\n $\\Rightarrow$   $\\frac{dy}{dx}=1$ <br/><br/>\nNow if differentiation of  $\\frac{x}{2}$  w.r.t is  $\\frac{1}{2}$ <br/><br/>\n $\\Rightarrow$  So differentiation of y w.r.t  $\\frac{x}{2}$  is  $\\frac{1}{\\frac{1}{2}}$  = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "tan^{-1}(\\frac{sinx-cosx}{sinx+cosx})",
@@ -3097,7 +3097,7 @@
         "-tan^{-1}(tan(\\frac{\\pi}{4}-x))"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:55.298197"
     },
@@ -3143,7 +3143,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2y=(cot^{-1}(\\frac{\\sqrt{3}cosx+sinx}{cosx-\\sqrt{3}sinx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}(\\frac{\\sqrt{3}+tanx}{1-\\sqrt{3}tanx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}(\\frac{tan\\frac{\\pi}{3}+tanx}{1-tan\\frac{\\pi}{3}tanx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}tan(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{2}-tan^{-1}tan(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/>As x  $\\in$   $(0,\\frac{\\pi}{2})$  then\n<br/><br/> $tan^{-1}tan(\\frac{\\pi}{3}+x)$  =  $(\\frac{\\pi}{3}+x)$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{2}-(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{6}-x)^{2}$ \n<br/><br/> $\\therefore$   $2\\frac{dy}{dx}=2(\\frac{\\pi}{6}-x)(-1)$ \n<br/><br/> $\\Rightarrow$   $\\frac{dy}{dx}=(x-\\frac{\\pi}{6})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "2y=(cot^{-1}(\\frac{\\sqrt{3}cosx+sinx}{cosx-\\sqrt{3}sinx}))^{2}",
@@ -3154,7 +3154,7 @@
         "(cot^{-1}tan(\\frac{\\pi}{3}+x))^{2}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:55.671315"
     },
@@ -3200,7 +3200,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x = 3 tan t and y = 3 sec t\n<br/><br/>So that  $\\frac{dx}{dt}$  = 3sec<sup>2</sup>t  and  $\\frac{dy}{dt}$  = 3 sec t tan t\n<br/><br/> $\\frac{dy}{dx}$  =  $\\frac{dy/dt}{dx/dt}$  = sin t\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}$  = (cos t) $.\\frac{dt}{dx}$ \n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=(cost).\\frac{1}{3sec^{2}t}$ \n<br/><br/> $\\frac{d^{2}y}{dx^{2}}$  =  $\\frac{1}{3}$ (cos<sup>3</sup> t)\n<br/><br/> $(\\frac{d^{2}y}{dx^{2}})_{t=\\pi/4}$  =  $\\frac{1}{3} \\times (\\frac{1}{\\sqrt{2}})^{3}=\\frac{1}{6\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "is : x = 3 tan t and y = 3 sec t So that",
@@ -3211,7 +3211,7 @@
         "= (cos t)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:56.060878"
     },
@@ -3257,7 +3257,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->y = 1  $\\Rightarrow$  x = 0<br/><br/>\n $e^{y}\\frac{dy}{dx}+x\\frac{dy}{dx}+y=0$ <br/><br/>\n $\\Rightarrow e\\frac{dy}{dx}+1=0 \\Rightarrow \\frac{dy}{dx}=-\\frac{1}{e}$ <br/><br/>\n $\\Rightarrow e^{y}\\frac{d^{2}y}{dx^{2}}+e^{y}(\\frac{dy}{dx})^{2}+x\\frac{d^{2}y}{dx^{2}}+2\\frac{dy}{dx}=0$ <br/><br/>\nx = 0, y = 1<br/><br/>\n $\\Rightarrow e\\frac{d^{2}y}{dx^{2}}+e(-\\frac{1}{e})^{2}+0+2(-\\frac{1}{e})=0$ <br/><br/>\n $\\Rightarrow \\frac{d^{2}y}{dx^{2}}=\\frac{1}{e^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{dy}{dx},\\frac{d^{2}y}{dx^{2}})",
@@ -3267,7 +3267,7 @@
         "\\Rightarrow \\frac{d^{2}y}{dx^{2}}=\\frac{1}{e^{2}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.313822"
     },
@@ -3313,7 +3313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(2x)<sup>2y</sup> = 4e<sup>2x-2y</sup>\n<br/><br/>2y $\\ell$ n2x =  $\\ell$ n4 + 2x  $-$  2y\n<br/><br/>y =  $\\frac{x+\\ell n2}{1+\\ell n2x}$ \n<br/><br/>y ' =  $\\frac{(1+\\ell n2x)-(x+\\ell n2)\\frac{1}{x}}{(1+\\ell n2x)^{2}}$ \n<br/><br/>y ' $(1+\\ell n2x)^{2}=[\\frac{x\\ell n2x-\\ell n2}{x}]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to : (2x) 2y = 4e 2x-2y 2y",
@@ -3322,7 +3322,7 @@
         "y ' ="
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.685490"
     },
@@ -3368,7 +3368,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since f(x) = sin $(\\frac{2 \\times 3^{x}}{1+9^{x}})$ \n<br/><br/>Suppose 3<sup>x</sup> = tan t\n<br/><br/>  $\\Rightarrow$    f(x) = sin<sup> $-$ 1</sup>  $(\\frac{2tant}{1+tan^{2}t})$  = sin<sup> $-$ 1</sup> (sin2t) = 2t\n<br/><br/>                                         = 2tan<sup> $-$ 1</sup> (3x)\n<br/><br/>So, f'(x) =  $\\frac{2}{1+(3^{x})^{2}} \\times 3^{x}.log_{e}3$ \n<br/><br/> $\\therefore$    f ' $(-\\frac{1}{2})$  =  $\\frac{2}{1+(3^{-\\frac{1}{2}})^{2}} \\times 3^{-\\frac{1}{2}}$  . log<sub>e</sub> 3\n<br/><br/>=   $\\frac{1}{2} \\times \\sqrt{3} \\times log_{e}3$    =   $\\sqrt{3} \\times log_{e}\\sqrt{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{2 \\times 3^{x}}{1+9^{x}}),",
@@ -3379,7 +3379,7 @@
         "1 (3x) So, f'(x) ="
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:56.601670"
     },
@@ -3425,7 +3425,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,<br/><br/>\n $f(x)=|\\begin{aligned} cosx &amp; x &amp; 1 \\\\ 2sinx &amp; x^{2} &amp; 2x \\\\ tanx &amp; x &amp; 1 \\end{aligned}|$ <br/><br/>\n= cosx(x<sup>2</sup> - 2x<sup>2</sup>) - x(2 sinx - 2x tanx) + (2x sinx - x<sup>2</sup> tanx)<br/>\n= x<sup>2</sup> (tanx - cosx)<br/>\n $\\therefore$   $f^{^{'}}(x)$  = 2x (tanx - cosx) + x<sup>2</sup>(sec<sup>2</sup>x + sinx)<br/><br/>\n $\\therefore$   $\\underset{x \\rightarrow 0}{lim}\\frac{f^{'}(x)}{x}$ <br/><br/>\n=  $\\underset{x \\rightarrow o}{lim}\\frac{2x(tanx-cosx)+x^{2}(sec^{2}x+sinx)}{x}$ <br/><br/>\n=  $\\underset{x \\rightarrow o}{lim}2(tanx-cosx)+x(sec^{2}x+sinx)$ <br/><br/>\n= 2 (0-1) + 0<br/><br/>\n= -2\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{^{'}}(x)",
@@ -3434,7 +3434,7 @@
         "\\underset{x \\rightarrow o}{lim}2(tanx-cosx)+x(sec^{2}x+sinx)"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.615074"
     },
@@ -3480,7 +3480,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, x<sup>2</sup> + y<sup>2</sup>  + sin y = 4\n<br/><br/>After differentiating the above equation  w.r.t.x  we get\n<br/><br/>2x + 2y  $\\frac{dy}{dx}$  + cos y  $\\frac{dy}{dx}$  = 0          . . . . (1)\n<br/><br/> $\\Rightarrow$   2x + (2y + cos y)  $\\frac{dy}{dx}$  = 0\n<br/><br/> $\\Rightarrow$    $\\frac{dy}{dx}$  =  $\\frac{-2x}{2y+cosy}$ \n<br/><br/>At ( $-$  2, 0),  $(\\frac{dy}{dx})_{(-2,0)}$  =  $\\frac{-2x-2}{2 \\times 0+cos0}$ \n<br/><br/> $\\Rightarrow$    $(\\frac{dy}{dx})_{(-2,0)}$  =  $\\frac{4}{0+1}$ \n<br/><br/> $\\Rightarrow$     $(\\frac{dy}{dx})_{(-2,0)}$  = 4          . . . . .(2)\n<br/><br/>Again differentiating equation (1) w.r.t  to  x, we get \n<br/><br/>2 + 2  $(\\frac{dy}{dx})^{2}$  + 2y $\\frac{d^{2}y}{dx^{2}}$   $-$  sin y  $(\\frac{dy}{dx})^{2}$  + cos y  $\\frac{d^{2}y}{dx^{2}}$  = 0\n<br/><br/> $\\Rightarrow$    2 + (2  $-$  sin y)  $(\\frac{dy}{dx})^{2}$  + (2y + cos y) $\\frac{d^{2}y}{dx^{2}}$  = 0\n<br/><br/> $\\Rightarrow$   (2y + cos y)  $\\frac{d^{2}y}{dx^{2}}$  =  $-$  2  $-$  (2  $-$  sin y) $(\\frac{dy}{dx})^{2}$ \n<br/><br/> $\\Rightarrow$     $\\frac{d^{2}y}{dx^{2}}$  =  $\\frac{-2-(2-siny)(\\frac{dy}{dx})^{2}}{2y+cosy}$ \n<br/><br/>So, at ( $-$  2, 0),\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}$   =  $\\frac{-2-(2-0) \\times 4^{2}}{2 \\times 0+1}$ \n<br/><br/> $\\Rightarrow$    $\\frac{d^{2}y}{dx^{2}}$  =  $\\frac{-2-2 \\times 16}{1}$ \n<br/><br/> $\\Rightarrow$   $\\frac{d^{2}y}{dx^{2}}$  =  $-$  34<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}y}{dx^{2}}",
@@ -3491,7 +3491,7 @@
         "\\frac{4}{0+1}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:56.629728"
     },
@@ -3537,7 +3537,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x =   $\\sqrt{2^{cosec^{-1}t}}$ \n<br/><br/> $\\therefore$   $\\frac{dx}{dt}$  =  $\\frac{1}{2\\sqrt{2^{cosec^{-1}t}}}$   $\\times$  ( $2^{cosec^{-1}t}.log2$ )  $\\times$   $\\frac{-1}{t\\sqrt{t^{2}-1}}$ \n<br/><br/> $\\frac{dy}{dt}$  =  $\\frac{1}{2\\sqrt{2^{sec^{-1}t}}}$   $\\times$   $(2^{sec^{-1}t}log2)$   $\\times$   $\\frac{1}{t\\sqrt{t^{2}-1}}$ \n<br/><br/> $\\therefore$   $\\frac{dy}{dx}$ \n<br/><br/>=  $\\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}$ \n<br/><br/>=  $\\frac{-\\sqrt{2^{cosec^{-1}t}}}{\\sqrt{2^{cosec^{-1}t}}}$   $\\times$   $\\frac{2^{sec^{-1}t}}{2^{cosec^{-1}t}}$ \n<br/><br/>=  $-\\sqrt{\\frac{2^{sec^{-1}t}}{2^{cosec^{-1}t}}}$ \n<br/><br/>=  $-$   $\\frac{y}{x}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\sqrt{2^{cosec^{-1}}}",
@@ -3548,7 +3548,7 @@
         "\\frac{1}{2\\sqrt{2^{cosec^{-1}t}}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.072111"
     },
@@ -3594,13 +3594,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given equation is</p>\n<p> $y=(x^{2}+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p>Differentiating w.r.t. x, we get</p>\n<p> $\\frac{dy}{dx}=15(x+\\sqrt{x^{2}-1})^{14}(1+\\frac{1(2x)}{2\\sqrt{x^{2}-1}})+15(x-\\sqrt{x^{2}-1})^{14}(1-\\frac{1(2x)}{2\\sqrt{x^{2}-1}})$ </p>\n<p>Here, we have used the standard differentiatials</p>\n<p> $\\frac{d}{dx}x^{n}=nx^{n-1}$ </p>\n<p>That is,  $\\frac{d}{dx}(\\sqrt{f(x)})=\\frac{1}{2\\sqrt{f(x)}} \\times \\frac{d}{dx}(f(x))$ </p>\n<p>Therefore</p>\n<p> $\\frac{dy}{dx}=\\frac{15(x+\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}+x)}{\\sqrt{x^{2}-1}}+\\frac{15(x-\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}-x)}{\\sqrt{x^{2}-1}}$ </p>\n<p> $\\Rightarrow \\sqrt{x^{2}-1}\\frac{dy}{dx}=15(x+\\sqrt{x^{2}-1})^{15}-15(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p>Differentiating w.r.t. x, we get</p>\n<p> $\\frac{1(2x)}{2\\sqrt{x^{2}+1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}=15 \\times 15(x+\\sqrt{x^{2}-1})^{14}(1+\\frac{1(2x)}{2\\sqrt{x^{2}-1}})-15 \\times 15(x-\\sqrt{x^{2}-1})^{14}(\\frac{1-1(2x)}{2\\sqrt{x^{2}-1}})$ </p>\n<p> $\\Rightarrow \\frac{x}{\\sqrt{x^{2}-1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}=225(x+\\sqrt{x^{2}-1})^{14}\\frac{(\\sqrt{x^{2}-1}+x)}{\\sqrt{x^{2}-1}}-\\frac{225(x-\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}-x)}{\\sqrt{x^{2}-1}}$ </p>\n<p> $\\Rightarrow \\sqrt{x^{2}-1}[\\frac{x}{\\sqrt{x^{2}-1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}]=225(x+\\sqrt{x^{2}-1})^{15}+225(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p> $\\Rightarrow x\\frac{dy}{dx}+(x^{2}-1)\\frac{d^{2}y}{dx^{2}}=225[(x+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}]$ </p>\n<p>Substituting  $(x+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}=y$ , we get</p>\n<p> $(x^{2}-1)\\frac{d^{2}y}{dx^{2}}+\\frac{xdy}{dx}=225y$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "[x+\\sqrt{x^{2}-1}]^{15}+[x-\\sqrt{x^{2}-1}]^{15},"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.316443"
     },
@@ -3646,7 +3646,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let y =  $tan^{-1}(\\frac{6x\\sqrt{x}}{1-9x^{3}})$ \n<br/><br/>=  $tan^{-1}[\\frac{2.(3x^{\\frac{3}{2}})}{1-(3x^{\\frac{3}{2}})^{2}}]$ \n<br/><br/>= 2 $tan^{-1}(3x^{\\frac{3}{2}})$ \n<br/><br/> $\\therefore$   $\\frac{dy}{dx}=2.\\frac{1}{1+(3x^{\\frac{3}{2}})^{2}}.3 \\times \\frac{3}{2}(x)^{\\frac{1}{2}}$ \n<br/><br/>=  $\\frac{9}{1+9x^{3}}.\\sqrt{x}$ \n<br/><br/> $\\therefore$  g(x) =  $\\frac{9}{1+9x^{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\in (0,\\frac{1}{4})",
@@ -3657,7 +3657,7 @@
         "\\frac{9}{1+9x^{3}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.326453"
     },
@@ -3703,7 +3703,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f(x)=a_{0}x^{n}+a_{1}x^{n-1}+a_{2}x^{n-1}+....+a_{n-1}x+a_{n}$ </p>\n<p> $f^{'}(x)=a_{0}nx^{n-1}+a_{1}(n-1)x^{n-2}+.....+a_{n-1}$ </p>\n<p> $f^{''}(x)=a_{0}n(n-1)x^{n-2}+a_{1}(n-1)(n-2)x^{n-3}+....+a_{n-2}$ </p>\n<p>Now,</p>\n<p> $f(3x)=3^{n}a_{0}x^{n}+3^{n-1}a_{1}x^{n-1}+3^{n-2}a_{2}x^{n-2}+....+3a_{n-1}+a_{n}$ </p>\n<p> $f^{'}(x).f^{''}(x)=[a_{0}nx^{n-1}+a_{1}(n-1)x^{n-2}+....+a_{n-1}]$ </p>\n<p> $[a_{0}n(n-1)x^{n-2}+a_{1}(n-1)(n-2)x^{n-3}+....+a_{n-2}]$ </p>\n<p>Comparing highest powers of x, we get</p>\n<p> $3^{n}a_{0}x_{n}=a_{0}^{2}(n-1)x^{n-1+n-2}=a_{0}^{2}n^{2}(n-1)x^{2n-3}$ </p>\n<p>Therefore,  $2n-3=n$ </p>\n<p> $\\Rightarrow$  n = 3 and  $3^{n}a_{0}=a_{0}^{2}n^{2}(n-1)$ </p>\n<p> $\\Rightarrow a_{0}=27=\\frac{3}{2}$ </p>\n<p>Therefore,  $f(x)=\\frac{3}{2}x^{3}+a_{1}x^{2}+a_{2}x+a_{3}$ </p>\n<p> $f^{'}(x)=\\frac{9}{2}x^{2}+2a_{1}x+a_{2}$ </p>\n<p> $f^{''}(x)=9x+2a_{1}$ </p>\n<p> $f(3x)=\\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}$ </p>\n<p>Now,  $f(3x)=f^{'}(x).f^{''}(x)$ </p>\n<p> $\\Rightarrow \\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}$ </p>\n<p> $\\Rightarrow (\\frac{9}{2}x^{2}+2a_{1}x+a_{2})(9x+2a_{1})$ </p>\n<p> $\\Rightarrow \\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}=\\frac{81}{2}x^{3}+[9a_{1}+18a_{1}]x^{2}+[4a_{1}^{2}+9a_{2}]x+2a_{1}a_{2}$ </p>\n<p>Comparing the coefficients, we get</p>\n<p> $9a_{1}=27a_{1}$ </p>\n<p> $\\Rightarrow a_{1}=0,3a_{2}=4a_{1}^{2}+9a_{2}=9a_{2}$ </p>\n<p> $\\Rightarrow a_{2}=0$ </p>\n<p>Therefore,  $f(x)=\\frac{3}{2}x^{3}$ </p>\n<p> $f^{'}(x)=\\frac{9}{2}x^{2}$ </p>\n<p> $f^{''}(x)=9x$ </p>\n<p>Hence,  $f^{''}(2)-f^{'}(x)=18-18=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=a_{0}x^{n}+a_{1}x^{n-1}+a_{2}x^{n-1}+....+a_{n-1}x+a_{n}",
@@ -3714,7 +3714,7 @@
         "3^{n}a_{0}x_{n}=a_{0}^{2}(n-1)x^{n-1+n-2}=a_{0}^{2}n^{2}(n-1)x^{2n-3}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.641443"
     },
@@ -3760,7 +3760,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since  $f(x)$  and  $g(x)$  are inverse of each other\n<br/><br/> $\\therefore$   $g^{'}(f(x))=\\frac{1}{f^{'}(x)}$ \n<br/><br/> $\\Rightarrow g^{'}(f(x))=1+x^{5}$ \n<br/><br/> $($  As  $f^{'}(x)=\\frac{1}{1+x^{5}}$   $)$ \n<br/><br/>Here  $x=g(y)$ \n<br/><br/> $\\therefore$   $g^{'}(y)=1+{g(y)}$ \n<br/><br/> $\\Rightarrow g^{'}(x)=1+{g(x)}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "g^{'}(f(x))=\\frac{1}{f^{'}(x)}",
@@ -3769,7 +3769,7 @@
         "\\Rightarrow g^{'}(x)=1+{g(x)}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.337058"
     },
@@ -3817,7 +3817,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/whJloKFHCTca8LmBm/CR6By6wkHqkd725QZy4WVl4g6QMLH/F8bOtwkRCRyLMym3pceJML/image.png"
       ],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=sec(tan^{-1}x),",
@@ -3828,7 +3828,7 @@
         "\\Rightarrow x=tan\\theta"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.350407"
     },
@@ -3874,7 +3874,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{d^{2}x}{dy^{2}}=\\frac{d}{dy}(\\frac{dx}{dy})$ \n<br/><br/> $=\\frac{d}{dx}(\\frac{dx}{dy})\\frac{dx}{dy}$ \n<br/><br/> $=\\frac{d}{dx}(\\frac{1}{dy/dx})\\frac{dx}{dy}$ \n<br/><br/> $=-\\frac{1}{(\\frac{dy}{dx})^{2}}.\\frac{d^{2}y}{dx^{2}}.\\frac{1}{\\frac{dy}{dx}}$ \n<br/><br/> $=-\\frac{1}{(\\frac{dy}{dx})^{3}}\\frac{d^{2}y}{dx^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}x}{dy^{2}}",
@@ -3885,7 +3885,7 @@
         "=-\\frac{1}{(\\frac{dy}{dx})^{3}}\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.798383"
     },
@@ -3931,7 +3931,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $g^{'}(x)=2(f(2f(x)+2))$ \n<br/><br/> $(\\frac{d}{dx}(f(2f(x)+2)))$ \n<br/><br/> $=2f(2f(x)+2)f^{'}(2f(x))$ \n<br/><br/> $+2).(2f^{'}(x))$ \n<br/><br/> $\\Rightarrow g^{'}(0)=2f(2f(0)+2).$ \n<br/><br/> $f^{'}(2f(0)+2).2f^{'}(0)$ \n<br/><br/> $=4f(0)(f^{'}(0))^{2}$ \n<br/><br/> $=4(-1)(1)^{2}=-4$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(0)=-1",
@@ -3942,7 +3942,7 @@
         "(\\frac{d}{dx}(f(2f(x)+2)))"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.814661"
     },
@@ -3988,7 +3988,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{2x}-2x^{x}coty-1=0$ \n<br/><br/> $\\Rightarrow 2coty=x^{x}-x^{-x}$ \n<br/><br/> $\\Rightarrow 2coty=u-\\frac{1}{u}$ \n<br/><br/>where  $u=x^{x}$ \n<br/><br/>Differentiating both sides with respect to  $x,$ \n<br/><br/>we get  $\\Rightarrow -2cosec^{2}y\\frac{dy}{dx}$ \n<br/><br/> $=(1+\\frac{1}{u^{2}})\\frac{du}{dx}$ \n<br/><br/>where  $u=x^{x} \\Rightarrow logu=xlogx$ \n<br/><br/> $\\Rightarrow \\frac{1}{u}\\frac{du}{dx}=1+logx$ \n<br/><br/> $\\Rightarrow \\frac{du}{dx}=x^{x}(1+logx)$ \n<br/><br/> $\\therefore$  We get  $-2cosec^{2}y\\frac{dy}{dx}$ \n<br/><br/> $=(1+x^{-2x})x^{x}(1+logx)$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{(x^{x}+x^{-x})(1+logx)}{-2(1+cot^{2}y)}...(i)$ \n<br/><br/>Now when \n<br/><br/> $x=1,$   $x^{2x}-2x^{x}coty-1=0,$ \n<br/><br/>gives  $1-2coty-1=0$ \n<br/><br/> $\\Rightarrow coty=0$ \n<br/><br/> $\\therefore$  From equation  $(i),$  at  $x=1$ \n<br/><br/>and  $coty=0,$  we get \n<br/><br/> $y^{'}(1)=\\frac{(1+1)(1+0)}{-2(1+0)}=-1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow 2coty=x^{x}-x^{-x}",
@@ -3999,7 +3999,7 @@
         "\\Rightarrow \\frac{1}{u}\\frac{du}{dx}=1+logx"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.829569"
     },
@@ -4045,7 +4045,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{m}.y^{n}=(x+y)^{m+n}$ \n<br/><br/> $\\Rightarrow mlnx+nlny=(m+n)ln(x+y)$ \n<br/><br/>Differentiating both sides.\n<br/><br/> $\\therefore$   $\\frac{m}{x}+\\frac{n}{y}\\frac{dy}{dx}=\\frac{m+n}{x+y}(1+\\frac{dy}{dx})$ \n<br/><br/> $\\Rightarrow (\\frac{m}{x}-\\frac{m+n}{x+y})=(\\frac{m+n}{x+y}-\\frac{n}{y})\\frac{dy}{dx}$ \n<br/><br/> $\\Rightarrow \\frac{my-nx}{x(x+y)}=(\\frac{my-nx}{y(x+y)})\\frac{dy}{dx}$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{y}{x}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{m}.y^{n}=(x+y)^{m+n},",
@@ -4056,7 +4056,7 @@
         "\\Rightarrow \\frac{my-nx}{x(x+y)}=(\\frac{my-nx}{y(x+y)})\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.844986"
     },
@@ -4102,7 +4102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=e^{y+e^{y+.....\\infty}} \\Rightarrow x=e^{y+x}.$ \n<br/><br/>Taking log.\n<br/><br/> $logx=y+x$ \n<br/><br/> $\\Rightarrow \\frac{1}{x}=\\frac{dy}{dx}+1$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{1}{x}-1=\\frac{1-x}{x}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "x=e^{y+e^{y}+e^{y+.....\\infty}}",
@@ -4113,7 +4113,7 @@
         "\\Rightarrow \\frac{dy}{dx}=\\frac{1}{x}-1=\\frac{1-x}{x}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:58.270766"
     },
@@ -4159,7 +4159,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=x^{n} \\Rightarrow f(1)=1$ \n<br/><br/> $f^{'}(x)=nx^{n-1} \\Rightarrow f^{'}(1)=n$ \n<br/><br/> $f^{''}(x)=n(n-1)x^{n-2}$ \n<br/><br/> $\\Rightarrow f^{''}(1)=n(n-1)$ \n<br/><br/> $\\therefore$   $f^{n}(x)=n!$ \n<br/><br/> $\\Rightarrow f^{n}(1)=n!$ \n<br/><br/> $=1-\\frac{n}{1!}+\\frac{n(n-1)}{2!}\\frac{n(n-1)(n-2)}{3!}$ \n<br/><br/> $+....+(-1)^{n}\\frac{n!}{n!}$ \n<br/><br/> $=^{n}C_{0}-^{n}C_{1}+^{n}C_{2}-^{n}C_{3}$ \n<br/><br/> $+......+(-1)^{n}^{n}C_{n}=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{n},",
@@ -4170,7 +4170,7 @@
         "\\Rightarrow f^{n}(1)=n!"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.282111"
     },
@@ -4216,7 +4216,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=ax^{2}+bx+c$ \n<br/><br/> $f(1)=f(-1)$ \n<br/><br/> $\\Rightarrow a+b+c=a-b+c$ \n<br/><br/>or  $b=0$ \n<br/><br/> $\\therefore$   $f(x)=ax^{2}+c$ \n<br/><br/>or  $f^{'}(x)=2ax$ \n<br/><br/>Now  $f^{'}(a);f^{'}(b);$ \n<br/><br/>and  $f^{'}(c)$  are  $2a(a);2a(b);2a(c)$ \n<br/><br/>i.e. $2a^{2},2ab,2ac.$ \n<br/><br/> $\\Rightarrow$  If  $a,b,c$  are in  $A.P.$  then\n<br/><br/> $f^{'}(a);f^{'}(b)$  and \n<br/><br/> $f^{'}(c)$  are also in  $A.P.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(1)=f(-1)",
@@ -4227,7 +4227,7 @@
         "f(x)=ax^{2}+c"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:58.294112"
     },
@@ -4273,7 +4273,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y=(x+\\sqrt{1+x^{2}})^{n}$ \n<br/><br/> $\\frac{dy}{dx}=n(x+\\sqrt{1+x^{2}})^{n-1}$ \n<br/><br/> $(1+\\frac{1}{2}(1+x^{2})^{-1/2}.2x);$ \n<br/><br/> $\\frac{dy}{dx}=n(x+\\sqrt{1+x^{2}})^{n-1}$ \n<br/><br/> $\\frac{(\\sqrt{1+x^{2}}+x)}{\\sqrt{1+x^{2}}}$ \n<br/><br/> $=\\frac{n(\\sqrt{1+x^{2}}+x)^{n}}{\\sqrt{1+x^{2}}}$ \n<br/><br/>or  $\\sqrt{1+x^{2}}\\frac{dy}{dx}=ny$ \n<br/><br/>or  $\\sqrt{1+x^{2}}y_{1}=ny$ \n<br/><br/> $(y_{1}=\\frac{dy}{dx})$ \n<br/><br/>Squaring,  $(1+x^{2})y_{1}^{2}=n^{2}y^{2}$ \n<br/><br/>Differentiating,  $(1+x^{2})2y_{1}y_{2}+y_{1}^{2}.2x$ \n<br/><br/> $=n^{2}.2yy_{1}$ \n<br/><br/>or  $(1+x^{2})y_{2}+xy_{1}=n^{2}y$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Differentiation - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=(x+\\sqrt{1+x^{2}})^{n},",
@@ -4284,7 +4284,7 @@
         "\\frac{(\\sqrt{1+x^{2}}+x)}{\\sqrt{1+x^{2}}}"
       ],
       "key_concepts": [
-        "Differentiation - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.304192"
     }

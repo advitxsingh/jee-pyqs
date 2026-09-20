@@ -8,27 +8,41 @@
     "total_questions_site": 8,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:25:44.498040"
+    "analyzed_at": "2026-09-20T16:41:29.019375"
   },
   "concepts": [
     {
-      "id": 216,
+      "id": 1418,
       "chapter_slug": "kcet-ionic-equilibrum",
-      "name": "Kcet Ionic Equilibrum - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Kcet Ionic Equilibrum.",
-      "standard_formulas": "",
-      "exam_frequency": 8,
-      "frequency_tier": "High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "pH Calculation of Acids, Bases & Salts",
+      "category": "pH & Hydrolysis",
+      "summary": "Self-ionization of water ($K_w = 10^{-14}$ at $25^\\circ\\text{C}$), Ostwald dilution law, buffer solutions, and salt hydrolysis formulas.",
+      "standard_formulas": "\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{conjugate base}]}{[\\text{acid}]}, \\quad \\text{Salt of WA-SB: } \\text{pH} = 7 + \\frac{1}{2}\\text{p}K_a + \\frac{1}{2}\\log c",
+      "exam_frequency": 4,
+      "frequency_tier": "Moderate",
+      "common_traps": "pH of $10^{-8}\\text{ M HCl}$ is NOT 8 (cannot be basic!); including water's auto-ionization $[H^+] = 10^{-8} + 10^{-7} \\implies \\text{pH} \\approx 6.79$.",
+      "tips_and_tricks": "Buffer capacity is maximum when $[\\text{salt}] = [\\text{acid}] \\implies \\text{pH} = \\text{p}K_a$.",
       "pyq_ids": [
         7871,
-        7872,
         7873,
         7874,
+        7876
+      ]
+    },
+    {
+      "id": 1419,
+      "chapter_slug": "kcet-ionic-equilibrum",
+      "name": "Solubility Product (Ksp) & Common Ion Effect",
+      "category": "Solubility",
+      "summary": "Calculation of molar solubility $s$ from $K_{sp}$, ionic product comparison, and suppression of solubility via common ion effect.",
+      "standard_formulas": "A_x B_y \\rightleftharpoons x A^{y+} + y B^{x-} \\implies K_{sp} = x^x y^y s^{x+y}, \\quad Q_{sp} > K_{sp} \\implies \\text{Precipitation occurs}",
+      "exam_frequency": 4,
+      "frequency_tier": "Moderate",
+      "common_traps": "For $\\text{Ag}_2\\text{CrO}_4$ ($A_2B$ type): $K_{sp} = (2s)^2(s) = 4s^3 \\implies s = \\sqrt[3]{K_{sp}/4}$, NOT $s^2$!",
+      "tips_and_tricks": "Common ion effect ALWAYS suppresses the solubility of a sparingly soluble salt (e.g. $\\text{AgCl}$ is less soluble in $\\text{NaCl}$ than pure water).",
+      "pyq_ids": [
+        7872,
         7875,
-        7876,
         7877,
         7878
       ]
@@ -38,14 +52,15 @@
     "id": 43,
     "chapter_slug": "kcet-ionic-equilibrum",
     "title": "Ionic Equilibrium 2026 1 questions 1.67% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Ionic Equilibrium 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2019 – 2026)  \n**Empirical Dataset**: 8 Previous Year Questions Analyzed (8 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **8** authentic KCET problems.\n- **Question Format Breakdown**: **8 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2019 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Kcet Ionic Equilibrum - Core Application | **8 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kcet Ionic Equilibrum - Core Application (General Concept)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: Key problem pattern in Kcet Ionic Equilibrum.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A $0.15$ mole of pyridinium chloride has been added to $500\\text{cm}^{3}$ of $0.2$ M pyridine solution (a base). Assuming there is no change...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"Solubility product of $CaC_{2}O_{4}$ at a given temperature in pure water is $4 \\times 10^{-9}(molL^{-1})^{2}$ . Solubility of $CaC_{2}O_{4}...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A weak acid with $pK_{a}5.9$ and weak base with $pK_{b}5.8$ are mixed in equal proportions. $pH$ of the resulting solution is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#4 (MCQ)**: *\"Which among the following has highest $pH$ ?...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Ionic Equilibrium 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 8 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Ionic Equilibrium 2026 1 questions 1.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2019 – 2026)  \n**Empirical Dataset**: 8 Previous Year Questions Analyzed (8 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **8** authentic KCET problems.\n- **Question Format Breakdown**: **8 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2019 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | pH Calculation of Acids, Bases & Salts | **4 PYQs** | pH & Hydrolysis |\n| **Moderate** | Solubility Product (Ksp) & Common Ion Effect | **4 PYQs** | Solubility |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 pH Calculation of Acids, Bases & Salts (pH & Hydrolysis)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Self-ionization of water ($K_w = 10^{-14}$ at $25^\\circ\\text{C}$), Ostwald dilution law, buffer solutions, and salt hydrolysis formulas.\n\n#### Standard Mathematical Formulation\n$$\n\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{conjugate base}]}{[\\text{acid}]}, \\quad \\text{Salt of WA-SB: } \\text{pH} = 7 + \\frac{1}{2}\\text{p}K_a + \\frac{1}{2}\\log c\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: pH of $10^{-8}\\text{ M HCl}$ is NOT 8 (cannot be basic!); including water's auto-ionization $[H^+] = 10^{-8} + 10^{-7} \\implies \\text{pH} \\approx 6.79$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Buffer capacity is maximum when $[\\text{salt}] = [\\text{acid}] \\implies \\text{pH} = \\text{p}K_a$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A $0.15$ mole of pyridinium chloride has been added to $500\\text{cm}^{3}$ of $0.2$ M pyridine solution (a base). Assuming there is no change...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A weak acid with $pK_{a}5.9$ and weak base with $pK_{b}5.8$ are mixed in equal proportions. $pH$ of the resulting solution is...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#4 (MCQ)**: *\"Which among the following has highest $pH$ ?...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#2 (MCQ)**: *\"The conjugate base of $NH_{3}$ is...\"* — **Correct Answer: N/A**\n\n### 2.2 Solubility Product (Ksp) & Common Ion Effect (Solubility)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Calculation of molar solubility $s$ from $K_{sp}$, ionic product comparison, and suppression of solubility via common ion effect.\n\n#### Standard Mathematical Formulation\n$$\nA_x B_y \\rightleftharpoons x A^{y+} + y B^{x-} \\implies K_{sp} = x^x y^y s^{x+y}, \\quad Q_{sp} > K_{sp} \\implies \\text{Precipitation occurs}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For $\\text{Ag}_2\\text{CrO}_4$ ($A_2B$ type): $K_{sp} = (2s)^2(s) = 4s^3 \\implies s = \\sqrt[3]{K_{sp}/4}$, NOT $s^2$!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Common ion effect ALWAYS suppresses the solubility of a sparingly soluble salt (e.g. $\\text{AgCl}$ is less soluble in $\\text{NaCl}$ than pure water).\n\n#### Linked Representative PYQs:\n- **[2024 Shift] Q#2 (MCQ)**: *\"Solubility product of $CaC_{2}O_{4}$ at a given temperature in pure water is $4 \\times 10^{-9}(molL^{-1})^{2}$ . Solubility of $CaC_{2}O_{4}...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"$K_{a}$ values for acids $H_{2}SO_{3},HNO_{2},CH_{3}COOH$ and $HCN$ are respectively $13 \\times 10^{-2},4 \\times 10^{-4},1.8 \\times 10^{-5}$...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#3 (MCQ)**: *\"In the reaction $B(OH)_{3}+2H_{2}O \\rightarrow [B(OH)_{4}]^{-}+H_{2}\\overset{+}{O},B(OH)_{3}$ functions as...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#4 (MCQ)**: *\"Solubility of AgCl is least in...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Ionic Equilibrium 2026 1 questions 1.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 8 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **pH Calculation of Acids, Bases & Salts** | $\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{conjugate base}]}{[\\text{acid}]}, \\quad \\text{Salt of WA-SB: } \\text{pH} = 7 + \\frac{1}{2}\\text{p}K_a + \\frac{1}{2}\\log c$ | Standard SI units apply |\n| **Solubility Product (Ksp) & Common Ion Effect** | $A_x B_y \\rightleftharpoons x A^{y+} + y B^{x-} \\implies K_{sp} = x^x y^y s^{x+y}, \\quad Q_{sp} > K_{sp} \\implies \\text{Precipitation occurs}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Ionic Equilibrium 2026 1 questions 1.67% weightage\nBased on rigorous analysis of all 8 questions from 2019 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Ionic Equilibrium 2026 1 questions 1.67% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      7871
+      7871,
+      7872
     ],
-    "updated_at": "2026-09-20T15:25:44.342959"
+    "updated_at": "2026-09-20T16:41:29.007696"
   },
   "total_questions": 8,
   "has_docx": true,

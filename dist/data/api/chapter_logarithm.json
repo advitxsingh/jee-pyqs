@@ -8,29 +8,57 @@
     "total_questions_site": 11,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T15:41:13.562252"
+    "analyzed_at": "2026-09-20T16:43:01.634541"
   },
   "concepts": [
     {
-      "id": 339,
+      "id": 1575,
       "chapter_slug": "logarithm",
-      "name": "Logarithm - Core Application",
-      "category": "General Concept",
-      "summary": "Key problem pattern in Logarithm.",
-      "standard_formulas": "",
-      "exam_frequency": 8,
-      "frequency_tier": "High",
-      "common_traps": "Watch for algebraic and sign errors.",
-      "tips_and_tricks": "Verify dimensions and boundary conditions.",
+      "name": "Logarithm — Standard Calculations & Problem Archetypes",
+      "category": "Quantitative Analysis",
+      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Logarithm.",
+      "standard_formulas": "sin^{-1}(\\frac{\\alpha+\\sqrt{\\beta}}{2}), \\quad log_{(x+1)}(2x^{2}+7x+5)+log_{(2x+5)}(x+1)^{2}-4=0, \\quad log_{(x+1)}(2x+5)(x+1)+2log_{(2x+5)}(x+1)=4",
+      "exam_frequency": 4,
+      "frequency_tier": "Moderate",
+      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
+      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
       "pyq_ids": [
         23125,
-        23126,
-        23127,
         23128,
         23129,
-        23130,
-        23131,
+        23130
+      ]
+    },
+    {
+      "id": 1576,
+      "chapter_slug": "logarithm",
+      "name": "Logarithm — Core Principles & Governing Laws",
+      "category": "Core Principle",
+      "summary": "Fundamental definitions, core postulates, and governing physical/chemical relations in Logarithm.",
+      "standard_formulas": "e^{5(log_{e}x)^{2}+3}=x^{8},x>0, \\quad log_{\\frac{1}{2}}|sinx|=2-log_{\\frac{1}{2}}|cosx|, \\quad log_{\\frac{1}{2}}|sinx|",
+      "exam_frequency": 2,
+      "frequency_tier": "Standard",
+      "common_traps": "Carefully verify units, standard reference states, and sign conventions in Logarithm.",
+      "tips_and_tricks": "Focus on high-yield formulas and standard limiting approximations tested in Logarithm PYQs.",
+      "pyq_ids": [
+        23127,
         23132
+      ]
+    },
+    {
+      "id": 1577,
+      "chapter_slug": "logarithm",
+      "name": "Logarithm — Applied Cases, Reactions & Traps",
+      "category": "Applied Topics",
+      "summary": "Special cases, experimental observations, and conceptual traps designed to test deep understanding of Logarithm.",
+      "standard_formulas": "3) is _________., \\quad log_{(x+3)}(6x^{2}+28x+30)=5-2log_{(6x+10)}(x^{2}+6x+9), \\quad 1) = log 2 (x",
+      "exam_frequency": 2,
+      "frequency_tier": "Standard",
+      "common_traps": "Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.",
+      "tips_and_tricks": "Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.",
+      "pyq_ids": [
+        23126,
+        23131
       ]
     }
   ],
@@ -38,14 +66,16 @@
     "id": 160,
     "chapter_slug": "logarithm",
     "title": "Logarithm Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Logarithm — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2020 – 2026)  \n**Empirical Dataset**: 8 Previous Year Questions Analyzed (5 MCQs, 3 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **8** authentic JEE Main problems.\n- **Question Format Breakdown**: **5 MCQs** (62%) and **3 Numerical Value Questions** (37%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2020 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Logarithm - Core Application | **8 PYQs** | General Concept |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Logarithm - Core Application (General Concept)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: Key problem pattern in Logarithm.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic and sign errors.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Verify dimensions and boundary conditions.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\dots\\infty$ and $\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\dots\\infty$ . Then the value ...\"* — **Correct Answer: C**\n- **[2026 Evening Shift] Q#2 (MCQ)**: *\"The sum of all the real solutions of the equation $log_{(x+3)}(6x^{2}+28x+30)=5-2log_{(6x+10)}(x^{2}+6x+9)$ is equal to :...\"* — **Correct Answer: N/A**\n- **[2025 Morning Shift] Q#3 (MCQ)**: *\"The product of all solutions of the equation $e^{5(log_{e}x)^{2}+3}=x^{8},x>0$ , is :...\"* — **Correct Answer: N/A**\n- **[2023 Morning Shift] Q#1 (MCQ)**: *\"If the solution of the equation $log_{cosx}cotx+4log_{sinx}tanx=1,x \\in (0,\\frac{\\pi}{2})$ , is $sin^{-1}(\\frac{\\alpha+\\sqrt{\\beta}}{2})$ , ...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Logarithm — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 8 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n",
+    "summary_markdown": "# Logarithm — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2020 – 2026)  \n**Empirical Dataset**: 8 Previous Year Questions Analyzed (5 MCQs, 3 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **8** authentic JEE Main problems.\n- **Question Format Breakdown**: **5 MCQs** (62%) and **3 Numerical Value Questions** (37%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2020 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Logarithm — Standard Calculations & Problem Archetypes | **4 PYQs** | Quantitative Analysis |\n| **Standard** | Logarithm — Core Principles & Governing Laws | **2 PYQs** | Core Principle |\n| **Standard** | Logarithm — Applied Cases, Reactions & Traps | **2 PYQs** | Applied Topics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Logarithm — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Logarithm.\n\n#### Standard Mathematical Formulation\n$$\nsin^{-1}(\\frac{\\alpha+\\sqrt{\\beta}}{2}), \\quad log_{(x+1)}(2x^{2}+7x+5)+log_{(2x+5)}(x+1)^{2}-4=0, \\quad log_{(x+1)}(2x+5)(x+1)+2log_{(2x+5)}(x+1)=4\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\dots\\infty$ and $\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\dots\\infty$ . Then the value ...\"* — **Correct Answer: C**\n- **[2023 Morning Shift] Q#1 (MCQ)**: *\"If the solution of the equation $log_{cosx}cotx+4log_{sinx}tanx=1,x \\in (0,\\frac{\\pi}{2})$ , is $sin^{-1}(\\frac{\\alpha+\\sqrt{\\beta}}{2})$ , ...\"* — **Correct Answer: N/A**\n- **[2023 Morning Shift] Q#4 (MCQ)**: *\"The number of integral solutions $x$ of $log_{(x+\\frac{7}{2})}(\\frac{x-7}{2x-3})^{2} \\ge 0$ is :...\"* — **Correct Answer: N/A**\n- **[2021 Evening Shift] Q#1 (Numerical)**: *\"The number of solutions of the equation $log_{(x+1)}(2x^{2}+7x+5)+log_{(2x+5)}(x+1)^{2}-4=0$ , x > 0, is :...\"* — **Correct Answer: 1**\n\n### 2.2 Logarithm — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Logarithm.\n\n#### Standard Mathematical Formulation\n$$\ne^{5(log_{e}x)^{2}+3}=x^{8},x>0, \\quad log_{\\frac{1}{2}}|sinx|=2-log_{\\frac{1}{2}}|cosx|, \\quad log_{\\frac{1}{2}}|sinx|\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Logarithm.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Logarithm PYQs.\n\n#### Linked Representative PYQs:\n- **[2025 Morning Shift] Q#3 (MCQ)**: *\"The product of all solutions of the equation $e^{5(log_{e}x)^{2}+3}=x^{8},x>0$ , is :...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#3 (Numerical)**: *\"The number of distinct solutions of the equation $log_{\\frac{1}{2}}|sinx|=2-log_{\\frac{1}{2}}|cosx|$ in the interval\n[0, 2 $\\pi$ ], is ____....\"* — **Correct Answer: 8**\n\n### 2.3 Logarithm — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **2 PYQs** (Standard Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Logarithm.\n\n#### Standard Mathematical Formulation\n$$\n3) is _________., \\quad log_{(x+3)}(6x^{2}+28x+30)=5-2log_{(6x+10)}(x^{2}+6x+9), \\quad 1) = log 2 (x\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#2 (MCQ)**: *\"The sum of all the real solutions of the equation $log_{(x+3)}(6x^{2}+28x+30)=5-2log_{(6x+10)}(x^{2}+6x+9)$ is equal to :...\"* — **Correct Answer: N/A**\n- **[2021 Morning Shift] Q#2 (Numerical)**: *\"The number of solutions of the equation log 4 (x $-$ 1) = log 2 (x $-$ 3) is _________....\"* — **Correct Answer: 1**\n",
+    "formula_sheet_markdown": "# Logarithm — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 8 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Logarithm — Standard Calculations & Problem Archetypes** | $sin^{-1}(\\frac{\\alpha+\\sqrt{\\beta}}{2}), \\quad log_{(x+1)}(2x^{2}+7x+5)+log_{(2x+5)}(x+1)^{2}-4=0, \\quad log_{(x+1)}(2x+5)(x+1)+2log_{(2x+5)}(x+1)=4$ | Standard SI units apply |\n| **Logarithm — Core Principles & Governing Laws** | $e^{5(log_{e}x)^{2}+3}=x^{8},x>0, \\quad log_{\\frac{1}{2}}|sinx|=2-log_{\\frac{1}{2}}|cosx|, \\quad log_{\\frac{1}{2}}|sinx|$ | Standard SI units apply |\n| **Logarithm — Applied Cases, Reactions & Traps** | $3) is _________., \\quad log_{(x+3)}(6x^{2}+28x+30)=5-2log_{(6x+10)}(x^{2}+6x+9), \\quad 1) = log 2 (x$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Logarithm\nBased on rigorous analysis of all 8 questions from 2020 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Logarithm\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
-      23125
+      23125,
+      23126,
+      23127
     ],
-    "updated_at": "2026-09-20T15:41:13.524035"
+    "updated_at": "2026-09-20T16:43:01.622733"
   },
   "total_questions": 8,
   "has_docx": true,

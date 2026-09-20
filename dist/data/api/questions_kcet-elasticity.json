@@ -44,13 +44,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a wire, the extension produced by a load is given by</p>\n<p> $\\Delta L=\\frac{FL}{AY}$ </p>\n<p>Here,</p>\n<ul>\n<li><p> $F$  is the load applied,</p></li>\n<li><p> $L$  is the length of the wire,</p></li>\n<li><p> $A$  is the area of cross-section,</p></li>\n<li><p> $Y$  is Young’s modulus.</p></li>\n</ul>\n<p>Both wires have the same material, so  $Y$  is the same.</p>\n<p>Both have the same length, and the same load is applied.</p>\n<p>So,</p>\n<p> $\\Delta L∝\\frac{1}{A}$ </p>\n<p>Now, area of cross-section of a wire is</p>\n<p> $A=\\frac{\\pi d^{2}}{4}$ </p>\n<p>So area is proportional to the square of diameter:</p>\n<p> $A∝d^{2}$ </p>\n<p>Given,</p>\n<p> $d_{2}=2d_{1}$ </p>\n<p>So,</p>\n<p> $A_{2}=4A_{1}$ </p>\n<p>Since extension is inversely proportional to area,</p>\n<p> $\\frac{\\Delta L_{1}}{\\Delta L_{2}}=\\frac{A_{2}}{A_{1}}=4$ </p>\n<p>Hence, the ratio of extensions is</p>\n<p> $\\Delta L_{1}:\\Delta L_{2}=4:1$ </p>\n<p>So the correct option is <strong>Option D:  $4:1$ </strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta L=\\frac{FL}{AY}"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:27:38.830974"
     },
@@ -96,11 +96,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The problem involves two wires, A and B, made from the same material. The ratio of their diameters is  $1:2$ , and the ratio of their lengths is  $1:3$ . When the same force is applied to both wires, we need to determine the ratio of their length increases.</p>\n<p>Here's how we can solve it:</p>\n<p>The formula for the increase in length ( $\\Delta\\ell$ ) when a wire is stretched by a force  $F$  is given by:</p>\n<p> $\\Delta\\ell=\\frac{F\\ell}{AY}=\\frac{F\\ell}{\\pi r^{2}Y}$ </p>\n<p>Where:</p>\n<p><p> $\\ell$  is the original length,</p></p>\n<p><p> $A$  is the cross-sectional area of the wire,</p></p>\n<p><p> $Y$  is Young's modulus,</p></p>\n<p><p> $r$  is the radius of the wire.</p></p>\n<p>To find the ratio of the increase in lengths of wires A and B, we calculate:</p>\n<p> $\\frac{\\Delta\\ell_{1}}{\\Delta\\ell_{2}}=(\\frac{\\ell_{1}}{\\ell_{2}}) \\times (\\frac{r_{2}}{r_{1}})^{2}$ </p>\n<p>For wires A and B:</p>\n<p><p>The length ratio  $\\ell_{1}:\\ell_{2}$  is  $1:3$ .</p></p>\n<p><p>The diameter ratio ( $\\Rightarrow$  radius ratio) is  $1:2$ , so  $\\frac{r_{2}}{r_{1}}=\\frac{2}{1}$ .</p></p>\n<p>Substitute these values into the equation:</p>\n<p> $\\frac{\\Delta\\ell_{1}}{\\Delta\\ell_{2}}=\\frac{1}{3} \\times (\\frac{2}{1})^{2}=\\frac{1}{3} \\times 4=\\frac{4}{3}$ </p>\n<p>Therefore, the ratio of the increase in their lengths is  $4:3$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:38.850612"
     },
@@ -146,14 +146,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Weight of the metal wire,  $w=mg$ </p>\n<p> $\\therefore$  Longitudinal stress  $=\\frac{w}{A}=\\frac{mg}{A}$ </p>\n<p> $\\therefore Y=\\frac{\\text{Longitudinal stress}}{\\text{Longitudinal strain}}=\\frac{\\frac{mg}{A}}{\\frac{\\Delta l}{(\\frac{l}{2})}}$ </p>\n<p> $[ \\because$  Weight of the wire acts at its centre  $\\therefore L^{'}=\\frac{L}{2}]$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\Delta l &amp; =\\frac{mgl}{2YA} \\\\ &amp; =\\frac{m}{AL} \\cdot \\frac{L^{2}g}{2Y} \\\\ &amp; =\\frac{\\rho L^{2}g}{2Y} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{w}{A}=\\frac{mg}{A}",
         "\\therefore L^{'}=\\frac{L}{2}]"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:38.865881"
     },
@@ -199,7 +199,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, Young's modulus,  $Y=2 \\times 10^{11}Nm^{-2}$ </p>\n<p>Poisson ratio,  $\\sigma=0.25$ </p>\n<p>Lateral strain,  $\\epsilon_{1}=10^{-3}$ </p>\n<p>Elastic potential energy density is given by,  $PE=\\frac{1}{2} \\times Y \\times (\\text{strain})^{2}$ </p>\n<p>Poisson ratio  $=\\frac{\\text{Lateral strain}}{\\text{longitudinal strain}}=\\frac{\\epsilon_{1}}{\\text{longitudinal strain}}$ </p>\n<p> $\\Rightarrow \\sigma=\\frac{\\epsilon_{1}}{\\text{longitudinal strain}}$ </p>\n<p> $\\Rightarrow$  longitudinal strain  $=\\frac{\\epsilon_{1}}{\\sigma}=\\frac{10^{-3}}{0.25}=c \\times 10^{-3}$ </p>\n<p>Elastic potential energy density  $=\\frac{1}{2} \\times Y \\times (\\frac{E_{1}}{\\sigma})^{2}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{1}{2} \\times 2 \\times 10^{11} \\times (4 \\times 10^{-3})^{2} \\\\ &amp; =10^{11} \\times 16 \\times 10^{-6}=16 \\times 10^{5}Jm^{-3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "Y=2 \\times 10^{11}Nm^{-2}",
@@ -210,7 +210,7 @@
         "\\Rightarrow \\sigma=\\frac{\\epsilon_{1}}{\\text{longitudinal strain}}"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:38.882663"
     },
@@ -256,7 +256,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, Youngs' modulus,  $Y=7 \\times 10^{9}N/m^{2}$ </p>\n<p>Load,  $F=10^{4}N$ </p>\n<p>We know that,</p>\n<p> $\\begin{aligned} Y &amp; =\\frac{Fl}{A\\Delta l} \\\\ \\Rightarrow A &amp; =\\frac{Fl}{Y\\Delta l}=\\frac{F}{Y} \\times \\frac{1}{(\\frac{\\Delta l}{l})} \\\\ &amp; =\\frac{10^{4}}{7 \\times 10^{9}} \\times \\frac{1}{0.2}=7.1 \\times 10^{-4}m^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "rod7 \\times 10^{9}N/m^{2}",
@@ -265,7 +265,7 @@
         "F=10^{4}N"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:39.146583"
     },
@@ -311,13 +311,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a perfect rigid body, strain is always zero, for all values of stress.</p>\n<p>As, Young's modulus,  $Y=\\frac{\\text{Normal stress}}{\\text{Longitudinal strain}}$ </p>\n<p>So, its Young's modulus would be infinity.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "Y=\\frac{\\text{Normal stress}}{\\text{Longitudinal strain}}"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:39.158033"
     },
@@ -363,14 +363,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Volume of wire is given by  $V=\\pi r^{2}l\\text{.... (i)}$ </p>\n<p>where,  $r=$  radius of wire</p>\n<p> $l=$  length of wire</p>\n<p>Since, volume of wire is constant, hence</p>\n<p> $dv=0\\text{.... (ii)}$ </p>\n<p>From Eq (i)</p>\n<p> $\\begin{aligned} &amp; \\frac{dV}{V}=2\\frac{dr}{r}+\\frac{dl}{l} \\\\ &amp; 0=2\\frac{dr}{r}+\\frac{dl}{l} \\end{aligned}$ </p>\n<p> $-\\frac{dr}{r}=\\frac{1}{2}\\frac{dl}{l} \\Rightarrow \\frac{\\frac{dr}{r}}{\\frac{dl}{l}}=-\\frac{1}{2}$ </p>\n<p> $\\therefore$  Poission's ratio,  $\\sigma=\\frac{dr/r}{dl/l}=-\\frac{1}{2}=-0.5$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "V=\\pi r^{2}l\\text{.... (i)}",
         "\\sigma=\\frac{dr/r}{dl/l}=-\\frac{1}{2}=-0.5"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:39.167854"
     },
@@ -416,13 +416,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Stress in a wire is defined as the force applied per unit area, given by the formula:</p>\n<p> $\\text{Stress}=\\frac{\\text{Force}}{\\text{Area}}$ </p>\n<p>Let's denote the load (force) by  $F$  and the area of cross-section of wire B by  $A_{B}$ . Since the area of wire A is double that of wire B, we have:</p>\n<p> $A_{A}=2A_{B}$ </p>\n<p>Now, compute the stress in each wire:</p>\n<p><p>For wire A:</p>\n<p> $\\sigma_{A}=\\frac{F}{A_{A}}=\\frac{F}{2A_{B}}$ </p></p>\n<p><p>For wire B:</p>\n<p> $\\sigma_{B}=\\frac{F}{A_{B}}$ </p></p>\n<p>To find the ratio of the stresses, divide  $\\sigma_{B}$  by  $\\sigma_{A}$ :</p>\n<p> $\\frac{\\sigma_{B}}{\\sigma_{A}}=\\frac{\\frac{F}{A_{B}}}{\\frac{F}{2A_{B}}}=\\frac{F}{A_{B}} \\times \\frac{2A_{B}}{F}=2$ </p>\n<p>This shows that the stress on wire B is twice that on wire A. Therefore, the correct option is:</p>\n<p>Option B: twice that on A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{Stress}=\\frac{\\text{Force}}{\\text{Area}}"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:39.177338"
     },
@@ -468,13 +468,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Young's modulus is defined as the ratio of tensile stress to longitudinal strain. This relationship can be expressed in the following formula:</p>\n<p> $\\text{Young’s modulus}=\\frac{\\text{tensile stress}}{\\text{longitudinal strain}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Elasticity - Core Application",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\text{Young’s modulus}=\\frac{\\text{tensile stress}}{\\text{longitudinal strain}}"
       ],
       "key_concepts": [
-        "Kcet Elasticity - Core Application"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:27:39.269238"
     }

@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given expression is</p>\n<p> $\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}$ </p>\n<p>We can recognize both numerator and denominator using identities.</p>\n<p> $x^{3}+3x^{2}+3x+1=(x+1)^{3}$ </p>\n<p>and</p>\n<p> $x^{4}+4x^{3}+6x^{2}+4x+1=(x+1)^{4}$ </p>\n<p>So the expression becomes</p>\n<p> $\\frac{(x+1)^{3}}{(x+1)^{4}}$ </p>\n<p>Cancel the common factor  $(x+1)^{3}$ :</p>\n<p> $\\frac{(x+1)^{3}}{(x+1)^{4}}=\\frac{1}{x+1}$ </p>\n<p>Now put  $x=2$ :</p>\n<p> $\\frac{1}{2+1}=\\frac{1}{3}$ </p>\n<p>So the correct option is</p>\n<p> $\\frac{1}{3}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "Properties & Series Sum of Binomial Coefficients",
       "difficulty": "Medium",
       "key_formulas": [
         "x=2",
@@ -55,7 +55,7 @@
         "(x+1)^{3}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "Properties & Series Sum of Binomial Coefficients"
       ],
       "crawled_at": "2026-09-20T15:26:13.856063"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A binomial expansion  $(ax+b)^{k}$  has  $k+1$  distinct terms. Here  $k=3n$ , so:</p>\n<p><p>Number of terms  $=3n+1$ .  </p></p>\n<p><p>Set  $3n+1=22$ :  </p>\n<p> $3n+1=22$  </p>\n<p> $3n=21$  </p>\n<p> $n=7$  </p></p>\n<p>Answer: 7 (Option C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "General Term, Middle Term & Greatest Term",
       "difficulty": "Easy",
       "key_formulas": [
         "(2x+3)^{3n}",
@@ -112,7 +112,7 @@
         "3n=21"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "General Term, Middle Term & Greatest Term"
       ],
       "crawled_at": "2026-09-20T15:26:13.865057"
     },
@@ -158,13 +158,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because ^{n}C_{r}+^{n}C_{r+1}=^{n+1}C_{r+1} \\\\ &amp; \\text{Given,}^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4} \\\\ &amp; \\\\ &amp; =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{46}C_{4} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{47}C_{4} \\\\ &amp; =^{49}C_{3}+^{48}C_{3}+^{48}C_{4} \\\\ &amp; =^{49}C_{3}+^{49}C_{4}=^{50}C_{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "Properties & Series Sum of Binomial Coefficients",
       "difficulty": "Easy",
       "key_formulas": [
         "^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "Properties & Series Sum of Binomial Coefficients"
       ],
       "crawled_at": "2026-09-20T15:26:13.872212"
     },
@@ -210,14 +210,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because \\frac{C_{1}}{C_{0}}+2 \\cdot \\frac{C_{2}}{C_{1}}+3 \\cdot \\frac{C_{3}}{C_{2}}+\\dotsn\\frac{C_{n}}{C_{n-1}}$ </p>\n<p> $=\\frac{n}{1}+2 \\cdot \\frac{\\frac{n(n-1)}{1 \\cdot 2}}{n}+3 \\cdot \\frac{\\frac{n(n-1)(n-2)}{3 \\cdot 2 \\cdot 1}}{\\frac{n(n-1)}{1 \\cdot 2}}+\\dots+n \\cdot \\frac{1}{n}$ </p>\n<p> $=n+(n-1)+(n-2)\\dots+1=\\Sigma n=\\frac{n(n+1)}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "General Term, Middle Term & Greatest Term",
       "difficulty": "Easy",
       "key_formulas": [
         "(1+x)^{n}",
         "=n+(n-1)+(n-2)\\dots+1=\\Sigma n=\\frac{n(n+1)}{2}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "General Term, Middle Term & Greatest Term"
       ],
       "crawled_at": "2026-09-20T15:26:13.882628"
     },
@@ -263,7 +263,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For  $(x^{2}+\\frac{1}{x})^{n}$  have middle term  $n$  is even</p>\n<p> $\\Rightarrow n=2a;a \\in N$ </p>\n<p>Middle term  $^{2a}C_{a}(x^{2})^{a} \\cdot \\frac{1}{x^{a}}=^{2a}C_{a}x^{a}=924x^{6}$ </p>\n<p> $\\Rightarrow a=6$ </p>\n<p>Also, for  $a=6,^{2a}C_{a}=^{12}C_{6}=924$ </p>\n<p>So,  $n=2a=12$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "General Term, Middle Term & Greatest Term",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow a=6",
@@ -271,7 +271,7 @@
         "n=2a=12"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "General Term, Middle Term & Greatest Term"
       ],
       "crawled_at": "2026-09-20T15:26:14.047153"
     },
@@ -317,14 +317,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $(x+y+z)^{10}$ </p>\n<p>Total number of terms in the expansion of</p>\n<p> $(x+y+z)^{10}=^{10+3-1}C_{3-1}=^{12}C_{2}=66$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "General Term, Middle Term & Greatest Term",
       "difficulty": "Easy",
       "key_formulas": [
         "(x+y+z)^{10}",
         "(x+y+z)^{10}=^{10+3-1}C_{3-1}=^{12}C_{2}=66"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "General Term, Middle Term & Greatest Term"
       ],
       "crawled_at": "2026-09-20T15:26:14.057020"
     },
@@ -370,13 +370,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea. To use, if  $n$  is odd then  $(x+a)^{n}-(x-a)^{n}$  has  $(\\frac{n+1}{2})$  terms</p>\n<p>Given, expansion  $(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}$ </p>\n<p>Here,  $n=25$  (odd)</p>\n<p> $\\therefore$  required number of terms  $=\\frac{25+1}{2}=\\frac{26}{2}=13$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "Properties & Series Sum of Binomial Coefficients",
       "difficulty": "Medium",
       "key_formulas": [
         "(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "Properties & Series Sum of Binomial Coefficients"
       ],
       "crawled_at": "2026-09-20T15:26:14.065716"
     },
@@ -422,7 +422,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have,  $(x^{2}-\\frac{1}{x^{2}})^{16}$ </p>\n<p>Now,  $T_{r+1}=^{16}C_{r}(x^{2})^{16-r}(x^{-2})^{r}$ </p>\n<p> $\\Rightarrow T_{r+1}=^{16}C_{r}x^{32-2r-2r}$ </p>\n<p> $T_{r+1}$  is constant if  $32-2r-2r=0$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\text{Constant term}=^{16}C_{8} \\end{aligned}$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "General Term, Middle Term & Greatest Term",
       "difficulty": "Medium",
       "key_formulas": [
         "(x^{2}-\\frac{1}{x^{2}})^{16}",
@@ -433,7 +433,7 @@
         "\\begin{aligned} & \\Rightarrow \\text{Constant term}=^{16}C_{8} \\end{aligned}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "General Term, Middle Term & Greatest Term"
       ],
       "crawled_at": "2026-09-20T15:26:14.077750"
     },
@@ -479,14 +479,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The total number of terms in the expansion of  $(x+a)^{n}-(x-a)^{n}$  is determined based on whether the exponent  $n$  is odd or even.</p>\n<p><p><strong>If  $n$  is odd:</strong></p>\n<p> $\\text{Total number of terms}=\\frac{n+1}{2}$ </p></p>\n<p><p><strong>If  $n$  is even:</strong></p>\n<p> $\\text{Total number of terms}=\\frac{n}{2}$ </p></p>\n<p>In this specific case, we're looking at the expansion of  $(x+a)^{47}-(x-a)^{47}$ . Since 47 is an odd number:</p>\n<p> $\\text{Total number of terms}=\\frac{47+1}{2}=\\frac{48}{2}=24$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "topic_tag": "Properties & Series Sum of Binomial Coefficients",
       "difficulty": "Medium",
       "key_formulas": [
         "(x+a)^{47}-(x-a)^{47}",
         "(x+a)^{n}-(x-a)^{n}"
       ],
       "key_concepts": [
-        "Kcet Binomial Theorem - Core Application"
+        "Properties & Series Sum of Binomial Coefficients"
       ],
       "crawled_at": "2026-09-20T15:26:14.143246"
     }

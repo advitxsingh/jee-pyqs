@@ -44,11 +44,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For  $x \\rightarrow 1$ , the values of  $x$  are near  $1$ , which is less than  $2$ .</p>\n<p>So we use</p>\n<p> $f(x)=x+1$ </p>\n<p>Hence,</p>\n<p> $\\underset{x \\rightarrow 1}{lim}f(x)=\\underset{x \\rightarrow 1}{lim}(x+1)=1+1=2$ </p>\n<p>Now for  $x \\rightarrow 2$ , we check both sides.</p>\n<p>For  $x&lt;2$ ,</p>\n<p> $f(x)=x+1$ </p>\n<p>So,</p>\n<p> $\\underset{x \\rightarrow 2^{-}}{lim}f(x)=2+1=3$ </p>\n<p>For  $x \\ge 2$ ,</p>\n<p> $f(x)=x^{2}-1$ </p>\n<p>So,</p>\n<p> $\\underset{x \\rightarrow 2^{+}}{lim}f(x)=2^{2}-1=4-1=3$ </p>\n<p>Since both left-hand and right-hand limits are equal,</p>\n<p> $\\underset{x \\rightarrow 2}{lim}f(x)=3$ </p>\n<p>Now,</p>\n<p> $\\underset{x \\rightarrow 1}{lim}f(x)+\\underset{x \\rightarrow 2}{lim}f(x)=2+3=5$ </p>\n<p>So the correct option is</p>\n<p> $5$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:44.651218"
     },
@@ -94,7 +94,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the limit</p>\n<p> $\\underset{x \\rightarrow 3}{lim}(\\frac{x^{2}-ax-3b}{x-3})=5$ </p>\n<p>the denominator becomes  $0$  when  $x=3$ .</p>\n<p>For the limit to be finite, the numerator must also become  $0$  at  $x=3$ .</p>\n<p>So,</p>\n<p> $3^{2}-a(3)-3b=0$ </p>\n<p> $9-3a-3b=0$ </p>\n<p>Divide by  $3$ :</p>\n<p> $3-a-b=0$ </p>\n<p> $a+b=3$ </p>\n<p>So the required value is</p>\n<p> $3$ </p>\n<p>Correct option: C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\underset{x \\rightarrow 3}{lim}(\\frac{x^{2}-ax-3b}{x-3})=5",
@@ -103,7 +103,7 @@
         "a+b=3"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:44.693492"
     },
@@ -149,7 +149,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For  $f(x)$  to be continuous at  $x=1$ , we need</p>\n<p> $\\underset{x \\rightarrow 1^{-}}{lim}f(x)=f(1)=\\underset{x \\rightarrow 1^{+}}{lim}f(x)$ </p>\n<p>First, find the value of the function at  $x=1$ .</p>\n<p>Since at  $x=1$ ,</p>\n<p> $f(x)=3x-1$ </p>\n<p>So,</p>\n<p> $f(1)=3(1)-1=2$ </p>\n<p>Now check the left-hand limit.</p>\n<p>For  $x&lt;1$ ,</p>\n<p> $f(x)=ax+7$ </p>\n<p>So,</p>\n<p> $\\underset{x \\rightarrow 1^{-}}{lim}f(x)=a(1)+7=a+7$ </p>\n<p>Continuity gives</p>\n<p> $a+7=2$ </p>\n<p> $a=-5$ </p>\n<p>Now check the right-hand limit.</p>\n<p>For  $x&gt;1$ ,</p>\n<p> $f(x)=\\frac{b}{x+3}$ </p>\n<p>So,</p>\n<p> $\\underset{x \\rightarrow 1^{+}}{lim}f(x)=\\frac{b}{1+3}=\\frac{b}{4}$ </p>\n<p>Continuity gives</p>\n<p> $\\frac{b}{4}=2$ </p>\n<p> $b=8$ </p>\n<p>So,</p>\n<p> $a=-5,b=8$ </p>\n<p>Hence, the correct option is Option D.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "a=-5",
@@ -160,7 +160,8 @@
         "a=-5,b=8"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule",
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:44.714329"
     },
@@ -208,13 +209,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbvdb0c/f21eb89a-34ff-4bd9-90ec-4879f111cab9/4c50e3c0-51b7-11f0-a812-7314eec6f461/file-jaoe38c1mcbvdb0d.png?format=png"
       ],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)={\\begin{aligned} x^{2}, & x \\ge 0 \\\\ -x^{2} & x<0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:44.993642"
     },
@@ -260,14 +261,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)={\\begin{aligned} e^{x}+ax,x&lt;0 \\\\ b(x-1)^{2},x \\ge 0 \\end{aligned} \\\\ &amp; \\text{Continuity LHL}=1 \\\\ &amp; \\text{RHL}=b \\Rightarrow b=1 \\\\ &amp; \\text{Differentiability LHD}=1+a \\\\ &amp; \\begin{aligned} \\text{RHD} &amp; =-2b \\\\ 1+a &amp; =-2b \\\\ a &amp; =-3 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)={\\begin{aligned} e^{x}+ax & ,x<0 \\\\ b(x-1)^{2} & ,x \\ge 0 \\end{aligned}",
         "x=0"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.056470"
     },
@@ -313,11 +314,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=⎧⎩⎨\\begin{aligned} \\frac{e^{\\frac{1}{x}}-1}{e^{\\frac{1}{x}}+1} &amp; ,x \\ne 0 \\\\ 0 &amp; ,x=0 \\end{aligned} \\\\ &amp; \\text{LHL}=-1\\text{, RHL}=1\\text{, Not continuous.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.126530"
     },
@@ -363,13 +364,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\underset{x \\rightarrow 1}{lim}\\frac{x^{4}-\\sqrt{x}}{\\sqrt{x}-1}=\\underset{x \\rightarrow 1}{lim}\\frac{4x^{3}-\\frac{1}{2\\sqrt{x}}}{\\frac{1}{2\\sqrt{x}}}=\\underset{x \\rightarrow 1}{lim}\\frac{\\frac{8x^{3}\\sqrt{x}-1}{2\\sqrt{4}}}{\\frac{1}{2\\sqrt{x}}} \\\\ =7 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\underset{x \\rightarrow 1}{lim}\\frac{x^{4}-\\sqrt{x}}{\\sqrt{x}-1}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:44.737665"
     },
@@ -415,11 +416,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\because f(x) &amp; =|\\begin{aligned} cosx &amp; x &amp; 1 \\\\ 2sinx &amp; x &amp; 2x \\\\ sinx &amp; x &amp; x \\end{aligned}| \\\\ &amp; =cosx(x^{2}-2x^{2})-x(2xsinx-2xsinx) \\\\ &amp; =-x^{2}cosx+xsinx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,} \\\\ &amp; \\begin{aligned} \\underset{x \\rightarrow 0}{lim}\\frac{f(x)}{x^{2}} &amp; =\\underset{x \\rightarrow 0}{lim}(\\frac{-x^{2}cosx+xsinx}{x^{2}}) \\\\ &amp; =\\underset{x \\rightarrow 0}{lim}(-cosx+\\frac{sinx}{x}) \\\\ &amp; =-1+1[ \\because \\underset{x \\rightarrow 0}{lim}\\frac{sinx}{x}=1] \\\\ &amp; =0 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.427353"
     },
@@ -467,7 +468,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xxgnzm/70a66890-4274-411f-922e-0678cb8d8165/36a9c520-d343-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xxgnzn.png?format=png"
       ],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=|cosx|",
@@ -475,7 +476,7 @@
         "x=(2n+1)\\frac{\\pi}{2},n \\in Z"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.454360"
     },
@@ -521,11 +522,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\underset{n \\rightarrow \\infty}{lim}(\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\frac{n}{n^{2}+3^{2}}+\\dots+\\frac{1}{5n}) \\\\ &amp; =\\underset{n \\rightarrow \\infty}{lim}(\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\frac{n}{n^{2}+3^{2}}+\\dots+\\frac{n}{n^{2}+(2n)^{2}}) \\\\ &amp; =\\underset{n \\rightarrow \\infty}{lim}\\sum_{r=1}^{2n}\\frac{n}{n^{2}+r^{2}} \\\\ &amp; =\\underset{n \\rightarrow \\infty}{lim}\\sum_{r=1}^{2n}\\frac{1}{n}(\\frac{1}{1+(\\frac{r}{n})^{2}}) \\\\ &amp; =\\int_{0}^{2}\\frac{dx}{1+x^{2}}=tan^{-1}(2) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.501019"
     },
@@ -571,13 +572,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because \\underset{x \\rightarrow \\frac{\\pi}{4}}{lim}\\frac{\\sqrt{2}cosx-1}{cotx-1}$ </p>\n<p> $\\begin{aligned} &amp; =\\underset{x \\rightarrow \\frac{\\pi}{4}}{lim}\\frac{-\\sqrt{2}sinx}{-cosec^{2}x}\\text{[using L-Hospital rule]} \\\\ &amp; =\\frac{-\\sqrt{2} \\times \\frac{1}{\\sqrt{2}}}{-2}=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\underset{x \\rightarrow \\frac{\\pi}{4}}{lim}\\frac{\\sqrt{2}cosx-1}{cotx-1}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:45.191339"
     },
@@ -623,7 +624,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=cotx$ </p>\n<p> $\\Rightarrow f(x)=\\frac{cosx}{sinx}$ </p>\n<p>We know that  $sinx=0$ , if  $f(x)$  is discontinuous</p>\n<p> $\\therefore$  If  $sinx=0$ </p>\n<p> $\\therefore x=n\\pi,n \\in n\\pi$ </p>\n<p>So, the given function  $f(x)$  is discontinuous on the set  ${x=n\\pi,n \\in Z}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cotx",
@@ -633,7 +634,7 @@
         "{x=n\\pi,n \\in Z}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.820042"
     },
@@ -679,7 +680,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\underset{x \\rightarrow 0}{lim}\\frac{sin(2+x)-sin(2-x)}{x}=AcosB$ </p>\n<p> $\\underset{x \\rightarrow 0}{lim}\\frac{2cos(\\frac{2+x+2-x}{2})sin(\\frac{2+x-2+x}{2})}{x}$ </p>\n<p> $=\\underset{x \\rightarrow 0}{lim}2cos2\\frac{sinx}{x}$ </p>\n<p> $=2cos2\\underset{x \\rightarrow 0}{lim}\\frac{sinx}{x}=2cos2$ </p>\n<p>Thus,  $A=2$  and  $B=2$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\underset{x \\rightarrow 0}{lim}\\frac{sin(2+x)-sin(2-x)}{x}=AcosB",
@@ -689,7 +690,7 @@
         "B=2"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:45.577424"
     },
@@ -735,7 +736,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)={\\begin{aligned} x^{2}-1, &amp; 0&lt;x&lt;2 \\\\ 2x+3, &amp; 2 \\le x&lt;3 \\end{aligned}$ </p>\n<p>Now,  $\\underset{x \\rightarrow 2^{-}}{lim}f(x)=\\underset{x \\rightarrow 2^{-}}{lim}x^{2}-1=\\underset{ℎ \\rightarrow 0}{lim}[(2-ℎ)^{2}-1]=\\underset{ℎ \\rightarrow 0}{lim}[4+ℎ^{2}-4ℎ-1]=4+0-0-1=3$ </p>\n<p> $\\begin{aligned} \\text{and}\\underset{x \\rightarrow 2^{+}}{lim}f(x) &amp; =\\underset{x \\rightarrow 2^{+}}{lim}(2x+3)=\\underset{ℎ \\rightarrow 0}{lim}2(2+ℎ)+3 \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}4+2ℎ+3=4+0+3=7 \\end{aligned}$ </p>\n<p>Therefore, the quadratic equation whose roots are 3 and 7 is given by  $x^{2}-(3+7)x+(3 \\times 7)=0$  which is  $x^{2}-10x+21=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)={\\begin{aligned} x^{2}-1, & 0<x<2 \\\\ 2x+3, & 2 \\le x<3 \\end{aligned}",
@@ -743,7 +744,7 @@
         "\\underset{x \\rightarrow 2^{+}}{lim}f(x)"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:45.830500"
     },
@@ -789,13 +790,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}L=\\underset{y \\rightarrow 0}{lim}\\frac{\\sqrt{3+y^{3}}-\\sqrt{3}}{y^{3}} \\\\ &amp; \\begin{aligned} L=\\underset{y \\rightarrow 0}{lim}\\frac{(\\sqrt{3+y^{3}}-\\sqrt{3})}{y^{3}} \\times \\frac{(\\sqrt{3+y^{3}}+\\sqrt{3})}{(\\sqrt{3+y^{3}}+\\sqrt{3})} \\\\ =\\underset{y \\rightarrow 0}{lim}\\frac{3+y^{3}-3}{y^{3}(\\sqrt{3+y^{3}}+\\sqrt{3})}=\\underset{y \\rightarrow 0}{lim}\\frac{y^{3}}{y^{3}(\\sqrt{3+y^{3}}+\\sqrt{3})} \\\\ =\\underset{y \\rightarrow 0}{lim}\\frac{1}{\\sqrt{3+y^{3}}+\\sqrt{3}}=\\frac{1}{\\sqrt{3}+\\sqrt{3}}=\\frac{1}{2\\sqrt{3}} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [
         "\\underset{y \\rightarrow 0}{lim}\\frac{\\sqrt{3+y^{3}}-\\sqrt{3}}{y^{3}}="
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:45.841289"
     },
@@ -841,11 +842,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $f(x)=|\\begin{aligned} cosx &amp; 1 &amp; 0 \\\\ 0 &amp; 2cosx &amp; 3 \\\\ 0 &amp; 1 &amp; 2cosx \\end{aligned}|$ </p>\n<p>Expand along  $C_{1}$ ,</p>\n<p> $\\begin{aligned} &amp; =cosx(4cos^{2}x-3) \\\\ &amp; =4cos^{3}x-3cosx \\\\ &amp; =cos3x \\\\ \\therefore \\underset{x \\rightarrow \\pi}{lim} &amp; cos3x=cos3\\pi=-1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.051132"
     },
@@ -891,14 +892,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)={\\begin{aligned} x^{3}-1, &amp; 1&lt;x&lt;\\infty \\\\ x-1, &amp; -\\infty&lt;x \\le 1 \\end{aligned}$ </p>\n<p>We have to check the continuity at  $x=1$ .</p>\n<p> $\\text{RHL} \\Rightarrow \\underset{x \\rightarrow 1^{+}}{lim}f(x)=\\underset{x \\rightarrow 1^{+}}{lim}(x^{3}-1)=1-1=0$ </p>\n<p>LHL  $\\Rightarrow \\underset{x \\rightarrow 1^{-}}{lim}f(x)=\\underset{x \\rightarrow 1^{-}}{lim}(x-1)=1-1=0$ </p>\n<p> $f(1)=1-1=0$ </p>\n<p>Thus the function is continuous at  $x=1$ .</p>\n<p> $f^{'}(x)={\\begin{aligned} 3x^{2}, &amp; 1&lt;x&lt;\\infty \\\\ 1, &amp; -\\infty&lt;x \\le 1 \\end{aligned}$ </p>\n<p>Now, check the differentiability at  $x=1$ .</p>\n<p>LHD at  $x=1 \\Rightarrow 1$ </p>\n<p>RHD at  $x=1 \\Rightarrow 3(1)^{2}=3$ </p>\n<p>As, LHD  $\\ne$  RHD, function is not differentiable.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x=1",
         "f(1)=1-1=0"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.064153"
     },
@@ -944,7 +945,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Explanation for Statement 1:</strong></p>\n<p>Given the limit:</p>\n<p> $\\underset{x \\rightarrow 1}{lim}\\frac{ax^{2}+bx+c}{x^{2}+bx+a}$ </p>\n<p>Evaluating this limit at  $x=1$  gives:</p>\n<p> $\\frac{a \\times 1^{2}+b \\times 1+c}{1^{2}+b \\times 1+a}=\\frac{a+b+c}{a+b+c}=1$ </p>\n<p>As long as  $a+b+c \\ne 0$ , dividing the numerator and the denominator by the same non-zero quantity results in 1. Therefore, Statement 1 is true.</p>\n<p><strong>Explanation for Statement 2:</strong></p>\n<p>Consider the limit:</p>\n<p> $\\underset{x \\rightarrow -2}{lim}\\frac{\\frac{1}{x}+\\frac{1}{2}}{x+2}$ </p>\n<p>This can be rewritten as:</p>\n<p> $\\underset{x \\rightarrow -2}{lim}\\frac{\\frac{2+x}{2x}}{x+2}$ </p>\n<p>Simplifying further, we have:</p>\n<p> $\\underset{x \\rightarrow -2}{lim}\\frac{1}{2x}$ </p>\n<p>Substituting  $x=-2$ , we find:</p>\n<p> $\\frac{1}{2 \\times (-2)}=-\\frac{1}{4}$ </p>\n<p>Thus, the correct limit is  $-\\frac{1}{4}$ , not  $\\frac{1}{4}$  as stated. Therefore, Statement 2 is false.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\underset{x \\rightarrow 1}{lim}\\frac{ax^{2}+bx+c}{x^{2}+bx+a}",
@@ -955,7 +956,7 @@
         "\\underset{x \\rightarrow -2}{lim}\\frac{\\frac{2+x}{2x}}{x+2}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:45.850120"
     },
@@ -1001,14 +1002,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $f(x)={\\begin{aligned} \\frac{1-coskx}{xsinx} &amp; ,x \\ne 0 \\\\ \\frac{1}{2} &amp; ,x=0 \\end{aligned}$ </p>\n<p> $f(x)$  is continuous at  $x=0$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\underset{x \\rightarrow 0}{lim}\\frac{1-coskx}{xsinx}=\\frac{1}{2} \\\\ &amp; \\Rightarrow \\underset{x \\rightarrow 0}{lim}\\frac{2sin^{2}\\frac{k}{2}x}{xsinx}=\\frac{1}{2} \\\\ &amp; \\Rightarrow \\underset{x \\rightarrow 0}{lim}2(\\frac{sin\\frac{kx}{2}}{\\frac{kx}{2}})^{2} \\times \\underset{x \\rightarrow 0}{lim}\\frac{1}{\\frac{sinx}{x}} \\times \\frac{k^{2}}{4}=\\frac{1}{2} \\\\ &amp; \\Rightarrow 2 \\times \\frac{k^{2}}{4}=\\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow k^{2}=1 \\\\ k= \\pm 1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x=0",
         "\\begin{aligned} \\Rightarrow k^{2}=1 \\\\ k= \\pm 1 \\end{aligned}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.256800"
     },
@@ -1054,11 +1055,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{We have,}f(x)={\\begin{aligned} \\frac{e^{1/x}-1}{e^{1/x}+1}, &amp; \\text{if}x \\ne 0 \\\\ 0, &amp; x=0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\begin{aligned} \\text{Right hand limit} &amp; =\\underset{x \\rightarrow 0^{+}}{lim}f(x)=\\underset{ℎ \\rightarrow 0}{lim}f(0+ℎ) \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}f(ℎ)=\\underset{ℎ \\rightarrow 0}{lim}\\frac{e^{1/ℎ}-1}{e^{1/ℎ}+1} \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}\\frac{1-e^{-1/ℎ}}{1+e^{-1/ℎ}} \\\\ &amp; =\\frac{1-0}{1+0}=1( \\because \\underset{ℎ \\rightarrow 0}{lim}e^{-1/ℎ}=0) \\\\ \\text{Left hand limit} &amp; =\\underset{x \\rightarrow 0^{-}}{lim}f(x)=\\underset{ℎ \\rightarrow 0}{lim}f(0-ℎ) \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}f(-ℎ) \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\underset{ℎ \\rightarrow 0}{lim}\\frac{e^{-1/ℎ}-1}{e^{-1/ℎ}+1} \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}(\\frac{\\frac{1}{e^{1/ℎ}}-1}{\\frac{1}{e^{1/ℎ}}+1})=\\frac{0-1}{0+1}=-1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule",
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.075825"
     },
@@ -1104,14 +1106,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\underset{x \\rightarrow 0}{lim}(\\frac{tanx}{\\sqrt{2x+4}-2})$ </p>\n<p> $\\begin{aligned} &amp; =\\underset{x \\rightarrow 0}{lim}\\frac{(tanx)(\\sqrt{2x+4}+2)}{(2x+4)-4} \\\\ &amp; =\\underset{x \\rightarrow 0}{lim}\\frac{tanx(\\sqrt{2x+4}+2)}{2x} \\\\ &amp; =\\frac{1}{2} \\times (\\sqrt{4}+2)=\\frac{1}{2}(2+2)=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\underset{x \\rightarrow 0}{lim}(\\frac{tanx}{\\sqrt{2x+4}-2})\\text{is equal to}",
         "\\underset{x \\rightarrow 0}{lim}(\\frac{tanx}{\\sqrt{2x+4}-2})"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:46.088272"
     },
@@ -1157,11 +1159,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)={\\begin{aligned} \\frac{sin3x}{e^{2x}-1}; &amp; x \\ne 0 \\\\ k-2; &amp; x=0 \\end{aligned}$  is continuous at  $x=0$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\underset{x \\rightarrow 0}{lim}f(x)=f(0) \\Rightarrow \\underset{x \\rightarrow 0}{lim}\\frac{sin3x}{e^{2x}-1}=k-2 \\\\ &amp; \\Rightarrow \\underset{x \\rightarrow 0}{lim}\\frac{cos3x(3)}{e^{2x}(2)}=k-2( \\div \\text{form}) \\Rightarrow \\frac{3}{2}=k-2 \\\\ &amp; \\Rightarrow k=\\frac{3}{2}+2=\\frac{7}{2} \\end{aligned}$ </p>\n<p>Thus any option is not matching</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.268609"
     },
@@ -1207,14 +1209,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\sum_{r=1}^{n}(2r-1)=x$ </p>\n<p> $\\Rightarrow x=$  sum of first  $n$  odd natural numbers  $\\Rightarrow x=n^{2}$ </p>\n<p>Now,  $\\underset{n \\rightarrow \\infty}{lim}[\\frac{1^{3}+2^{3}+3^{3}+\\dots+n^{3}}{x^{2}}]$ </p>\n<p> $\\Rightarrow \\underset{x \\rightarrow \\infty}{lim}[\\frac{(\\frac{n(n+1)}{2})^{2}}{(n^{2})^{2}}] \\Rightarrow \\underset{n \\rightarrow \\infty}{lim}[\\frac{n^{2}(n+1)^{2}}{4n^{4}}]$ </p>\n<p> $\\Rightarrow \\underset{n \\rightarrow \\infty}{lim}[\\frac{(n+1)^{2}}{4 \\cdot n^{2}}]=\\underset{n \\rightarrow \\infty}{lim}\\frac{1}{4}[(1+\\frac{1}{n})^{2}]=\\frac{1}{4}(1+0)^{2}=\\frac{1}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{r=1}^{n}(2r-1)=x",
         "\\Rightarrow x="
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.279897"
     },
@@ -1260,11 +1262,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea Rolle's theorem applicable when  $f(x)$  be a real value function defined in  $[a,b]$  such that (i)  $f$  is continuous is  $[a,b]$  (ii)  $f$  is differentiable in  $(a,b)$  (iii)  $f(a)=f(b)$  then there exists  $c \\in (a,b)$  such that  $f^{'}(c)=0$ . We know that  $f(x)=|x|$  is not differentiable at  $x=0$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.288850"
     },
@@ -1310,13 +1312,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"30\">\n<p> We have,</p>\n<p> $\\begin{aligned} &amp; \\underset{x \\rightarrow 0}{lim}\\frac{[x]}{x} \\\\ &amp; \\text{LHL}=\\underset{x \\rightarrow 0^{-}}{lim}\\frac{[x]}{x}=\\underset{x \\rightarrow 0-ℎ}{lim}\\frac{[0-ℎ]}{0-ℎ} \\\\ &amp; \\Rightarrow \\underset{ℎ \\rightarrow 0}{lim}\\frac{-1}{-ℎ}=\\infty \\\\ &amp; \\text{RHL}=\\underset{x \\rightarrow 0^{+}}{lim}\\frac{[x]}{x}=\\underset{x \\rightarrow 0+ℎ}{lim}\\frac{[0+ℎ]}{ℎ} \\\\ &amp; \\Rightarrow \\underset{ℎ \\rightarrow 0}{lim}\\frac{0}{ℎ}=0 \\\\ &amp; \\text{LHL} \\ne \\text{RHL} \\end{aligned}$ </p>\n<p>Hence, limit does not exists.</p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\underset{x \\rightarrow 0}{lim}\\frac{[x]}{x}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:46.442492"
     },
@@ -1362,11 +1364,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To ensure the function  $f(x)$  is continuous at  $x=0$ , the left-hand limit as  $x$  approaches zero from the negative side should equal the function's value at  $x=0$ .</p>\n<p>We have the function defined as:</p>\n<p> $f(x)={\\begin{aligned} \\frac{\\sqrt{1+kx}-\\sqrt{1-kx}}{x} &amp; \\text{if}-1 \\le x&lt;0 \\\\ \\frac{2x+1}{x-1} &amp; \\text{if}0 \\le x \\le 1 \\end{aligned}$ </p>\n<p>Since we want the function to be continuous at  $x=0$ , we require:</p>\n<p> $\\underset{x \\rightarrow 0^{-}}{lim}f(x)=f(0)$ </p>\n<p>For  $x \\rightarrow 0^{-}$ , we look at:</p>\n<p> $\\underset{x \\rightarrow 0^{-}}{lim}\\frac{\\sqrt{1+kx}-\\sqrt{1-kx}}{x}$ </p>\n<p>Using the identity  $(a-b)(a+b)=a^{2}-b^{2}$ , we can simplify:</p>\n<p> $\\frac{\\sqrt{1+kx}-\\sqrt{1-kx}}{x} \\cdot \\frac{\\sqrt{1+kx}+\\sqrt{1-kx}}{\\sqrt{1+kx}+\\sqrt{1-kx}}=\\frac{(1+kx)-(1-kx)}{x(\\sqrt{1+kx}+\\sqrt{1-kx})}$ </p>\n<p>This simplifies further to:</p>\n<p> $\\frac{2kx}{x(\\sqrt{1+kx}+\\sqrt{1-kx})}=\\frac{2k}{\\sqrt{1+kx}+\\sqrt{1-kx}}$ </p>\n<p>As  $x \\rightarrow 0^{-}$ , the expression simplifies to:</p>\n<p> $\\frac{2k}{\\sqrt{1+0}+\\sqrt{1-0}}=\\frac{2k}{2}=k$ </p>\n<p>The function  $f(x)$  at  $x=0$  is expressed by the right-side function evaluated as  $x \\rightarrow 0^{+}$ :</p>\n<p> $f(0)=\\frac{2(0)+1}{0-1}=-1$ </p>\n<p>Thus, equating the limits:</p>\n<p> $k=-1$ </p>\n<p>Hence, for the function  $f(x)$  to be continuous at  $x=0$ , the value of  $k$  must be  $-1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule",
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.454120"
     },
@@ -1412,14 +1415,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have,</p>\n<p> $f(x)={\\begin{aligned} \\frac{log_{e}x}{x-1;} &amp; x \\ne 1 \\\\ k; &amp; x=1 \\end{aligned}$ </p>\n<p>Since this function is continuous at  $x=1$ </p>\n<p> $\\begin{aligned} \\therefore &amp; \\underset{x \\rightarrow 1}{lim}f(x)=k \\\\ \\Rightarrow &amp; \\underset{x \\rightarrow 1}{lim}\\frac{log_{e}\\overset{˙}{x}}{x-1}=k \\end{aligned}$ </p>\n<p>Apply L'Hospital's rule,</p>\n<p> $\\begin{aligned} \\underset{x \\rightarrow 1}{lim}\\frac{1}{x} &amp; =k \\\\ 1 &amp; =k \\\\ k &amp; =1 \\end{aligned}$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)={\\begin{aligned} \\frac{log_{e}x}{x-1} & ;x \\ne 1 \\\\ k & ;x=1 \\end{aligned}",
         "x=1"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.466700"
     },
@@ -1465,11 +1468,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have,</p>\n<p> $f(x)={\\begin{aligned} kx^{2}, &amp; x \\le 2 \\\\ 3, &amp; x&gt;2 \\end{aligned}$ </p>\n<p>Since,  $f(x)$  is continuous at  $x=2$ </p>\n<p> $\\begin{aligned} \\therefore &amp; \\text{LHL}(\\text{at}x=2)=\\text{RHL}(\\text{at}x=2) \\\\ \\Rightarrow &amp; \\underset{x \\rightarrow 2^{-}}{lim}kx^{2}=\\underset{x \\rightarrow 2^{+}}{lim}3 \\\\ \\Rightarrow &amp; \\underset{ℎ \\rightarrow 0}{lim}k(2-ℎ)^{2}=3 \\\\ \\Rightarrow &amp; k(2-0)^{2}=3 \\\\ \\Rightarrow &amp; 4k=3 \\\\ \\Rightarrow &amp; k=\\frac{3}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:46.641306"
     },
@@ -1515,13 +1518,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\underset{\\theta \\rightarrow 0}{lim} &amp; \\frac{1-cos4\\theta}{1-cos6\\theta} \\\\ &amp; =\\underset{\\theta \\rightarrow 0}{lim}\\frac{2sin^{2}2\\theta}{2sin^{2}3\\theta} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\underset{\\theta \\rightarrow 0}{lim}\\frac{sin^{2}2\\theta}{4\\theta^{2}} \\cdot \\frac{1}{\\frac{sin^{2}3\\theta}{9\\theta^{2}}} \\cdot \\frac{4\\theta^{2}}{9\\theta^{2}} \\\\ &amp; =\\underset{\\theta \\rightarrow 0}{lim}(\\frac{sin2\\theta}{2\\theta})^{2} \\cdot \\frac{1}{(\\frac{sin3\\theta}{3\\theta})^{2}} \\cdot \\frac{4}{9}[ \\because \\underset{x \\rightarrow 0}{lim}\\frac{sinx}{x}=1] \\end{aligned}$ </p>\n $=\\frac{4}{9}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kcet Limits Continuity And Differentiability - Core Application",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{4}{9}"
       ],
       "key_concepts": [
-        "Kcet Limits Continuity And Differentiability - Core Application"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:46.481210"
     }

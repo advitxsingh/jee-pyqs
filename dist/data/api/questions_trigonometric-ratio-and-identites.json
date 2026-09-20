@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the roots of the equation</p>\n<p> $x^{2}-2x-5=0$ </p>\n<p>be  $tanA$  and  $tanB$ .</p>\n<p>So, by using relations between roots and coefficients,</p>\n<p> $tanA+tanB=2$ </p>\n<p>and</p>\n<p> $tanAtanB=-5.$ </p>\n<p>We have to find</p>\n<p> $20sin^{2}(\\frac{A+B}{2}).$ </p>\n<p>First, find  $tan(A+B)$  using the formula</p>\n<p> $tan(A+B)=\\frac{tanA+tanB}{1-tanAtanB}.$ </p>\n<p>Substituting the values:</p>\n<p> $tan(A+B)=\\frac{2}{1-(-5)}=\\frac{2}{6}=\\frac{1}{3}.$ </p>\n<p>Now let</p>\n<p> $\\theta=A+B.$ </p>\n<p>Then</p>\n<p> $tan\\theta=\\frac{1}{3}.$ </p>\n<p>We need  $sin^{2}\\frac{\\theta}{2}$ .</p>\n<p>Using the identity</p>\n<p> $sin^{2}\\frac{\\theta}{2}=\\frac{1-cos\\theta}{2},$ </p>\n<p>we first find  $cos\\theta$ .</p>\n<p>Since</p>\n<p> $tan\\theta=\\frac{1}{3},$ </p>\n<p>take a right triangle with opposite side  $1$ , adjacent side  $3$ . Then hypotenuse is</p>\n<p> $\\sqrt{1^{2}+3^{2}}=\\sqrt{10}.$ </p>\n<p>So,</p>\n<p> $cos\\theta=\\frac{3}{\\sqrt{10}}.$ </p>\n<p>Hence,</p>\n<p> $sin^{2}\\frac{\\theta}{2}=\\frac{1-\\frac{3}{\\sqrt{10}}}{2}.$ </p>\n<p>Therefore,</p>\n<p> $20sin^{2}\\frac{\\theta}{2}=20 \\cdot \\frac{1-\\frac{3}{\\sqrt{10}}}{2}=10(1-\\frac{3}{\\sqrt{10}})=10-\\frac{30}{\\sqrt{10}}.$ </p>\n<p>Now simplify:</p>\n<p> $\\frac{30}{\\sqrt{10}}=3\\sqrt{10}.$ </p>\n<p>So,</p>\n<p> $20sin^{2}(\\frac{A+B}{2})=10-3\\sqrt{10}.$ </p>\n<p>Therefore, the correct answer is</p>\n<p> $10-3\\sqrt{10}$ </p>\n<p>So, <strong>Option C</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "A,B \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2})",
@@ -55,7 +55,7 @@
         "20sin^{2}(\\frac{A+B}{2})."
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:33.314622"
     },
@@ -101,11 +101,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\frac{\\sqrt{3}cosec20^{\\circ}-sec20^{\\circ}}{cos20^{\\circ}cos40^{\\circ}cos60^{\\circ}cos80^{\\circ}} \\\\ &amp; =\\frac{\\frac{\\sqrt{3}}{sin20^{\\circ}}-\\frac{1}{cos20^{\\circ}}}{cos20^{\\circ}cos40^{\\circ}cos80^{\\circ} \\cdot \\frac{1}{2}},{cos60^{\\circ}=\\frac{1}{2}} \\\\ &amp; =\\frac{2(\\frac{\\sqrt{3}cos20^{\\circ}-sin20^{\\circ}}{sin20^{\\circ}cos20^{\\circ}})}{cos20^{\\circ}cos40^{\\circ}cos80^{\\circ}}, \\\\ &amp; =\\frac{2(\\sqrt{3}cos20^{\\circ}-sin20^{\\circ})}{\\frac{sin40^{\\circ}}{2} \\cdot cos20^{\\circ}cos40^{\\circ}cos80^{\\circ}},{sin20^{\\circ}cos20^{\\circ}=\\frac{sin40^{\\circ}}{2}} \\\\ &amp; \\text{Numerator}\\sqrt{3}cos20^{\\circ}-sin20^{\\circ}=2 \\cdot (\\frac{\\sqrt{3}}{2}cos20^{\\circ}-\\frac{1}{2}sin20^{\\circ}) \\\\ &amp; =2(sin60^{\\circ}cos20^{\\circ}-cos60^{\\circ}sin20^{\\circ})=2sin(60-20)=2sin40^{\\circ} \\end{aligned} \\\\ &amp; \\text{Substitute this value} \\\\ &amp; \\begin{aligned} &amp; =\\frac{2 \\cdot 2sin40^{\\circ}}{\\frac{sin80^{\\circ}}{4}cos20^{\\circ}cos80^{\\circ}}=\\frac{4sin40^{\\circ}}{\\frac{sin160^{\\circ}}{8}cos20^{\\circ}},{sin80^{\\circ}cos80^{\\circ}=\\frac{sin160^{\\circ}}{2}} \\\\ &amp; =\\frac{4 \\times 2sin20^{\\circ} \\cdot cos20^{\\circ}}{sin(180-160)cos20^{\\circ}} \\times 8=\\frac{64sin20^{\\circ}}{sin20^{\\circ}}=64 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:34.935066"
     },
@@ -130,11 +130,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Consider}E=\\frac{sin\\theta}{cos3\\theta} \\Rightarrow E=\\frac{2sin\\theta cos\\theta}{2cos3\\theta cos\\theta} \\\\ &amp; \\Rightarrow E=\\frac{sin2\\theta}{2cos3\\theta cos\\theta} \\Rightarrow E=\\frac{sin(30-\\theta)}{2cos3\\theta cos\\theta} \\\\ &amp; \\Rightarrow E=\\frac{1}{2}[tan3\\theta-tan\\theta] \\\\ &amp; A=\\frac{1}{2}[tan9^{\\circ}-tan3^{\\circ}+tan27^{\\circ}-tan9^{\\circ}+tan81^{\\circ}-tan27^{\\circ}] \\\\ &amp; \\therefore A=\\frac{1}{2}[tan81^{\\circ}-tan3^{\\circ}] \\\\ &amp; \\therefore \\frac{B}{A}=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:52.355276"
     },
@@ -180,14 +180,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2(cos^{8}\\theta-sin^{8}\\theta)sec2\\theta=a^{2} \\\\ &amp; 2(cos^{4}\\theta+sin^{4}\\theta)(cos^{2}\\theta+sin^{2}\\theta)(cos^{2}\\theta-sin^{2}\\theta)sec2\\theta=a^{2} \\\\ &amp; 2(cos^{4}\\theta+sin^{4}\\theta)=a^{2} \\\\ &amp; 2(1-2sin^{2}\\theta cos^{2}\\theta)=a^{2} \\\\ &amp; 2(1-\\frac{sin^{2}2\\theta}{2})=a^{2},a \\in Z \\\\ &amp; a^{2}=2-sin^{2}2\\theta \\in [1,2] \\\\ &amp; a^{2}=1\\text{at}sin^{2}2\\theta=1 \\\\ &amp; 2\\theta=(2n+1)\\frac{\\pi}{2} \\\\ &amp; \\theta=(2n+1)\\frac{\\pi}{4}∉P \\\\ &amp; n(S)=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "P={\\theta \\in [0,4\\pi]:tan^{2}\\theta \\ne 1}",
         "S={a \\in ℤ:2(cos^{8}\\theta-sin^{8}\\theta)sec2\\theta=a^{2},\\theta \\in P}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:33.373433"
     },
@@ -233,7 +233,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cotx=\\frac{5}{12},x \\in (\\pi,\\frac{3\\pi}{2})$  means 3rd quadrant.</p>\n<p>To find the value of:</p>\n<p> $sin7x(cos\\frac{13x}{2}+sin\\frac{13x}{2})+cos7x(cos\\frac{13x}{2}-sin\\frac{13x}{2})$ </p>\n<p>Simplify:</p>\n<p> $=sin7xcos\\frac{13x}{2}+sin7xsin\\frac{13x}{2}+cos7xcos\\frac{13x}{2}-sin\\frac{13x}{2}cos7x$ </p>\n<p>Rearranging terms and use  $sinAcosB-cosAsinB=sin(A-B)$  and  $cosAcosB+sinAsinB=cos(A-B)$  :</p>\n<p> $\\begin{aligned} &amp; =sin7xcos\\frac{13x}{2}-sin\\frac{13x}{2}cos7x+cos7xcos\\frac{13x}{2}+sin7xsin\\frac{13x}{2} \\\\ &amp; =sin(7x-\\frac{13x}{2})+cos(7x-\\frac{13x}{2}) \\\\ &amp; =sin\\frac{x}{2}+cos\\frac{x}{2} \\end{aligned}$ </p>\n<p>Since  $x \\in (\\pi,\\frac{3\\pi}{2})$ , then  $\\frac{x}{2} \\in (\\frac{\\pi}{2},\\frac{3\\pi}{4})$ .</p>\n<p>Let  $L=sin\\frac{x}{2}+cos\\frac{x}{2}$ .</p>\n<p>In the second quadrant,  $\\frac{x}{2}$  makes  $L$  positive because  $sin\\frac{x}{2}&gt;|cos\\frac{x}{2}|$ .</p>\n<p>Squaring:</p>\n<p> $L^{2}=sin^{2}\\frac{x}{2}+cos^{2}\\frac{x}{2}+2sin\\frac{x}{2}cos\\frac{x}{2}$ </p>\n<p> $L^{2}=1+sinx=1+\\frac{1}{cosecx}=1+\\frac{1}{-\\sqrt{1+cot^{2}x}}$ , Since  $x$  is in the 3rd quadrant,  $sinx$  must be negative</p>\n<p> $L^{2}=1+\\frac{1}{-\\sqrt{1+\\frac{25}{144}}}(\\text{Since}cotx=\\frac{5}{12})$ </p>\n<p> $L^{2}=1-\\frac{1}{\\sqrt{\\frac{169}{144}}}=1-\\frac{12}{13}=\\frac{1}{13}$ </p>\n<p> $L=\\frac{1}{\\sqrt{13}}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cotx=\\frac{5}{12}",
@@ -243,7 +243,7 @@
         "L=\\frac{1}{\\sqrt{13}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:35.023441"
     },
@@ -268,7 +268,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\vec{a}_{k}=(tan\\theta_{k})\\hat{i}+\\hat{j},\\vec{b}_{k}=\\hat{i}-(cot\\theta_{k})\\hat{j},$ </p>\n<p>where</p>\n<p> $\\theta_{k}=\\frac{2^{k-1}\\pi}{2^{n}+1},k=1,2,\\dots,n.$ </p>\n<p>We have to find</p>\n<p> $\\frac{\\sum_{k=1}^{n}|\\vec{a}_{k}|^{2}}{\\sum_{k=1}^{n}|\\vec{b}_{k}|^{2}}.$ </p>\n<p>Now let us compute the magnitudes.</p>\n<p>For  $\\vec{a}_{k}$ ,</p>\n<p> $|\\vec{a}_{k}|^{2}=(tan\\theta_{k})^{2}+1=sec^{2}\\theta_{k}.$ </p>\n<p>For  $\\vec{b}_{k}$ ,</p>\n<p> $|\\vec{b}_{k}|^{2}=1+(cot\\theta_{k})^{2}=csc^{2}\\theta_{k}.$ </p>\n<p>So the required ratio becomes</p>\n<p> $\\frac{\\sum_{k=1}^{n}sec^{2}\\theta_{k}}{\\sum_{k=1}^{n}csc^{2}\\theta_{k}}.$ </p>\n<p>Now use</p>\n<p> $sec^{2}\\theta=\\frac{1}{cos^{2}\\theta},csc^{2}\\theta=\\frac{1}{sin^{2}\\theta}.$ </p>\n<p>Thus,</p>\n<p> $\\frac{sec^{2}\\theta_{k}}{csc^{2}\\theta_{k}}=\\frac{1/cos^{2}\\theta_{k}}{1/sin^{2}\\theta_{k}}=tan^{2}\\theta_{k},$ </p>\n<p>but this does not directly simplify the sum. So we look for a relation among the angles.</p>\n<p>Given</p>\n<p> $\\theta_{k}=\\frac{2^{k-1}\\pi}{2^{n}+1},$ </p>\n<p>notice that</p>\n<p> $2^{n}\\pi=(2^{n}+1)\\pi-\\pi.$ </p>\n<p>Hence</p>\n<p> $\\theta_{n+1-k}=\\frac{2^{n-k}\\pi}{2^{n}+1}.$ </p>\n<p>Now observe</p>\n<p> $\\theta_{k}+\\theta_{n+1-k}=\\frac{2^{k-1}+2^{n-k}}{2^{n}+1}\\pi.$ </p>\n<p>Instead of pairing this way, the key identity comes from the standard result:</p>\n<p>If</p>\n<p> $\\alpha_{k}=\\frac{2^{k-1}\\pi}{2^{n}+1},$ </p>\n<p>then the set</p>\n<p> ${2\\alpha_{1},2\\alpha_{2},\\dots,2\\alpha_{n}}$ </p>\n<p>behaves cyclically modulo  $\\pi$ , and one gets</p>\n<p> $\\prod_{n}^{k=1}tan\\theta_{k}=tan\\theta_{1}tan\\theta_{2}\\cdot stan\\theta_{n}=\\sqrt{2^{n}+1}\\text{type identities,}$ </p>\n<p>but here we need a sum identity.</p>\n<p>A much simpler way is to use the doubling-angle relation.</p>\n<p>Let</p>\n<p> $x_{k}=tan\\theta_{k}.$ </p>\n<p>Since</p>\n<p> $\\theta_{k+1}=2\\theta_{k},$ </p>\n<p>we have</p>\n<p> $x_{k+1}=tan2\\theta_{k}=\\frac{2x_{k}}{1-x_{k}^{2}}.$ </p>\n<p>Now define</p>\n<p> $S_{1}=\\sum_{n}^{k=1}sec^{2}\\theta_{k},S_{2}=\\sum_{n}^{k=1}csc^{2}\\theta_{k}.$ </p>\n<p>Use</p>\n<p> $csc^{2}\\theta=sec^{2}(\\frac{\\pi}{2}-\\theta).$ </p>\n<p>So if we can show that the set</p>\n<p> ${\\theta_{k}}_{k=1}^{n}$ </p>\n<p>corresponds to</p>\n<p> ${\\frac{\\pi}{2}-\\theta_{k}}_{k=1}^{n}$ </p>\n<p>in reverse order, then the sums will be equal. For these special angles, the useful identity is</p>\n<p> $2^{n}\\theta_{1}=\\frac{2^{n}\\pi}{2^{n}+1}=\\pi-\\theta_{1}.$ </p>\n<p>Therefore</p>\n<p> $\\theta_{n}=\\frac{2^{n-1}\\pi}{2^{n}+1}.$ </p>\n<p>And more generally,</p>\n<p> $\\theta_{k}+\\theta_{n+1-k} \\ne \\frac{\\pi}{2},$ </p>\n<p>so direct pairing is not convenient.</p>\n<p>Now we use a standard trigonometric sum identity for</p>\n<p> $\\alpha=\\frac{\\pi}{2^{n}+1}:$ </p>\n<p> $\\sum_{n-1}^{k=0}sec^{2}(2^{k}\\alpha)=(2^{n}+1)^{2}csc^{2}((2^{n}+1)\\alpha)-csc^{2}\\alpha,$ </p>\n<p>and similarly,</p>\n<p> $\\sum_{n-1}^{k=0}csc^{2}(2^{k}\\alpha)=(2^{n}+1)^{2}csc^{2}((2^{n}+1)\\alpha)-sec^{2}\\alpha.$ </p>\n<p>Since</p>\n<p> $(2^{n}+1)\\alpha=\\pi,$ </p>\n<p>these expressions simplify symmetrically, and for this particular choice the two sums become equal.</p>\n<p>Hence</p>\n<p> $\\sum_{n}^{k=1}|\\vec{a}_{k}|^{2}=\\sum_{n}^{k=1}|\\vec{b}_{k}|^{2}.$ </p>\n<p>Therefore the required ratio is</p>\n<p> $1.$ </p>\n<p>So,</p>\n<p> $\\frac{\\sum_{k=1}^{n}|\\vec{a}_{k}|^{2}}{\\sum_{k=1}^{n}|\\vec{b}_{k}|^{2}}=1.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a_{k}}=(tan\\theta_{k})\\hat{i}+\\hat{j}",
@@ -279,7 +279,7 @@
         "2^{n}\\pi=(2^{n}+1)\\pi-\\pi."
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:52.378882"
     },
@@ -325,7 +325,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $K=sin(\\frac{\\pi}{18})sin(\\frac{5\\pi}{18})sin(\\frac{7\\pi}{18})$ </p>\n<p>We need to find</p>\n<p> $sin(\\frac{10K\\pi}{3})$ </p>\n<p>First, write the angles in degrees:</p>\n<p> $\\frac{\\pi}{18}=10^{\\circ},\\frac{5\\pi}{18}=50^{\\circ},\\frac{7\\pi}{18}=70^{\\circ}$ </p>\n<p>So,</p>\n<p> $K=sin10^{\\circ}sin50^{\\circ}sin70^{\\circ}$ </p>\n<p>Now use the standard identity:</p>\n<p> $sin3x=4sinxsin(60^{\\circ}+x)sin(60^{\\circ}-x)$ </p>\n<p>Taking  $x=10^{\\circ}$ ,</p>\n<p> $sin30^{\\circ}=4sin10^{\\circ}sin70^{\\circ}sin50^{\\circ}$ </p>\n<p>Since</p>\n<p> $sin30^{\\circ}=\\frac{1}{2}$ </p>\n<p>we get</p>\n<p> $\\frac{1}{2}=4sin10^{\\circ}sin50^{\\circ}sin70^{\\circ}$ </p>\n<p>Hence,</p>\n<p> $sin10^{\\circ}sin50^{\\circ}sin70^{\\circ}=\\frac{1}{8}$ </p>\n<p>Therefore,</p>\n<p> $K=\\frac{1}{8}$ </p>\n<p>Now substitute in the required expression:</p>\n<p> $sin(\\frac{10K\\pi}{3})=sin(\\frac{10}{3} \\cdot \\frac{1}{8}\\pi)=sin(\\frac{10\\pi}{24})=sin(\\frac{5\\pi}{12})$ </p>\n<p>Now,</p>\n<p> $\\frac{5\\pi}{12}=75^{\\circ}$ </p>\n<p>So,</p>\n<p> $sin75^{\\circ}=sin(45^{\\circ}+30^{\\circ})$ </p>\n<p>Using the formula  $sin(A+B)$ :</p>\n<p> $sin75^{\\circ}=sin45^{\\circ}cos30^{\\circ}+cos45^{\\circ}sin30^{\\circ}$ </p>\n<p> $=\\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}} \\cdot \\frac{1}{2}$ </p>\n<p> $=\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$ </p>\n<p>So the value is</p>\n<p> $\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$ </p>\n<p>Hence, the correct option is A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "sin(\\frac{\\pi}{18})sin(\\frac{5\\pi}{18})sin(\\frac{7\\pi}{18})=K",
@@ -336,7 +336,7 @@
         "sin3x=4sinxsin(60^{\\circ}+x)sin(60^{\\circ}-x)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:33.430919"
     },
@@ -382,7 +382,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $sin(\\frac{15\\theta}{2})(cos8\\theta+sin8\\theta)+cos(\\frac{15\\theta}{2})(cos8\\theta-sin8\\theta)$ </p>\n<p>=  $sin(\\frac{15\\theta}{2})cos8\\theta+sin(\\frac{15\\theta}{2})sin8\\theta+cos(\\frac{15\\theta}{2})cos8\\theta-cos(\\frac{15\\theta}{2})sin8\\theta$ </p>\n<p>=  $[cos\\frac{15\\theta}{2}cos8\\theta+sin\\frac{15\\theta}{2}sin8\\theta]+[sin\\frac{15\\theta}{2}cos8\\theta-cos\\frac{15\\theta}{2}sin8\\theta]$ </p>\n<p>=  $cos(8\\theta-\\frac{15\\theta}{2})+sin(\\frac{15\\theta}{2}-8\\theta)$ </p>\n<p>=  $cos(\\frac{\\theta}{2})+sin(-\\frac{\\theta}{2})=cos\\frac{\\theta}{2}-sin\\frac{\\theta}{2}$ </p>\n<p> $cot\\theta=-\\frac{1}{2\\sqrt{2}},\\frac{\\pi}{2}&lt;\\theta&lt;\\pi$  (Given)</p>\n<p> $cos\\theta=-\\frac{1}{3}$ </p>\n<p> $\\begin{aligned} &amp; cos\\theta=1-2sin^{2}\\frac{\\theta}{2}⟹-\\frac{1}{3}=1-2sin^{2}\\frac{\\theta}{2}⟹sin\\frac{\\theta}{2}=\\sqrt{\\frac{2}{3}} \\\\ &amp; cos\\theta=2cos^{2}\\frac{\\theta}{2}-1⟹-\\frac{1}{3}=2cos^{2}\\frac{\\theta}{2}-1⟹cos\\frac{\\theta}{2}=\\sqrt{\\frac{1}{3}} \\end{aligned}$ </p>\n<p> $\\therefore$   $cos\\frac{\\theta}{2}-sin\\frac{\\theta}{2}$ </p>\n<p> $\\begin{aligned} &amp; =\\sqrt{\\frac{1}{3}}-\\sqrt{\\frac{2}{3}} \\\\ &amp; =\\frac{1-\\sqrt{2}}{\\sqrt{3}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2}<\\theta<\\pi",
@@ -393,7 +393,7 @@
         "cos\\frac{\\theta}{2}-sin\\frac{\\theta}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:35.088189"
     },
@@ -418,7 +418,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; tan2\\alpha=tan[(\\alpha+\\beta)+(\\alpha-\\beta)] \\\\ &amp; tan2\\alpha=\\frac{tan(\\alpha+\\beta)+tan(\\alpha-\\beta)}{1-tan(\\alpha+\\beta) \\cdot tan(\\alpha-\\beta)} \\\\ &amp; tan2\\alpha=\\frac{(-\\sqrt{99}+\\frac{3}{\\sqrt{55}})}{1-(\\sqrt{99})(\\frac{3}{\\sqrt{55}})} \\\\ &amp; tan2\\alpha=\\frac{-3\\sqrt{11}+\\frac{3}{\\sqrt{5} \\times \\sqrt{11}}}{1+\\frac{9\\sqrt{11}}{\\sqrt{5} \\times \\sqrt{11}}} \\\\ &amp; tan2\\alpha=\\frac{3(1-11\\sqrt{5})}{\\sqrt{11}(9+\\sqrt{5})} \\\\ &amp; r=11,s=9 \\\\ &amp; r+s=20 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "cos(\\alpha+\\beta)=-\\frac{1}{10}",
@@ -429,7 +429,7 @@
         "____"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:52.410141"
     },
@@ -475,7 +475,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given :</p>\n<p> $\\frac{tan(A-B)}{tanA}+\\frac{sin^{2}C}{sin^{2}A}=1$ </p>\n<p> $\\Rightarrow$   $\\frac{sin^{2}C}{sin^{2}A}=1-\\frac{tan(A-B)}{tanA}$ \n<br/><br/> $\\Rightarrow$  $\\frac{sin^{2}C}{sin^{2}A}=\\frac{tanA-tan(A-B)}{tanA}$  .....(1)</p>\n<p>We know,  $tanX-tanY=\\frac{sin(X-Y)}{cosXcosY}$ </p>\n<p> $\\therefore$   $tanA-tan(A-B)=\\frac{sin(A-(A-B))}{cosAcos(A-B)}=\\frac{sinB}{cosAcos(A-B)}$ </p>\n<p>Substitute back into (1)</p>\n<p> $\\frac{sin^{2}C}{sin^{2}A}=\\frac{sinB}{cosAcos(A-B)tanA}$ </p>\n<p> $\\Rightarrow$  $\\frac{sin^{2}C}{sin^{2}A}=\\frac{sinB}{cosAcos(A-B)\\frac{sinA}{cosA}}=\\frac{sinB}{sinAcos(A-B)}$ </p>\n<p> $\\Rightarrow$   $sin^{2}C=\\frac{sin^{2}AsinB}{sinAcos(A-B)}=\\frac{sinAsinB}{cos(A-B)}$ </p>\n<p>Divide by  $cosAcosB$  :</p>\n<p> $sin^{2}C=\\frac{tanAtanB}{\\frac{cosAcosB+sinAsinB}{cosAcosB}}$ </p>\n<p> $\\Rightarrow$   $sin^{2}C=\\frac{tanAtanB}{1+tanAtanB}$ </p>\n<p> $\\Rightarrow$   $sin^{2}C=\\frac{tan^{2}C}{1+tan^{2}C}$ </p>\n<p> $\\Rightarrow$   $\\frac{tan^{2}C}{1+tan^{2}C}=\\frac{tanAtanB}{1+tanAtanB}$ </p>\n<p> $\\Rightarrow$   $tan^{2}C+tan^{2}CtanAtanB=tanAtanB+tan^{2}CtanAtanB$ </p>\n<p> $\\Rightarrow$   $tan^{2}C=tanAtanB$ </p>\n<p> $\\therefore$   $tanA,tanC,tanB$  are in G.P.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{tan(A-B)}{tanA}+\\frac{sin^{2}C}{sin^{2}A}=1,A,B,C \\in (0,\\frac{\\pi}{2})",
@@ -486,7 +486,7 @@
         "tanA-tan(A-B)=\\frac{sin(A-(A-B))}{cosAcos(A-B)}=\\frac{sinB}{cosAcos(A-B)}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:33.493054"
     },
@@ -532,13 +532,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cosec10^{\\circ}-\\sqrt{3}sec10^{\\circ}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{1}{sin10^{\\circ}}-\\frac{\\sqrt{3}}{cos10^{\\circ}} \\\\ &amp; =\\frac{cos10^{\\circ}-\\sqrt{3}sin10^{\\circ}}{sin10^{\\circ}cos10^{\\circ}} \\\\ &amp; =4[\\frac{\\frac{1}{2}cos10^{\\circ}-\\frac{\\sqrt{3}}{2}sin10^{\\circ}}{2sin10^{\\circ}cos10^{\\circ}}] \\\\ &amp; =4[\\frac{sin(30^{\\circ}-10^{\\circ})}{sin20^{\\circ}}] \\\\ &amp; =4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "cosec10^{\\circ}-\\sqrt{3}sec10^{\\circ}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:35.152445"
     },
@@ -563,11 +563,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{cos60^{0}cos36^{0}}{sin30^{0} \\cdot sin18^{0}}=\\frac{\\sqrt{5}+1}{4} \\cdot \\frac{4}{\\sqrt{5}-1}=\\frac{3+\\sqrt{5}}{2} \\\\ &amp; \\alpha+\\beta=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:52.438569"
     },
@@ -613,7 +613,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}\\phi=\\theta+\\frac{\\pi}{3} \\Rightarrow \\theta=\\phi-\\frac{\\pi}{6} \\\\ &amp; \\begin{aligned} &amp; x=3tan(\\theta+\\frac{\\pi}{3})=3tan(\\theta+\\frac{\\pi}{6}) \\\\ &amp; y=2tan\\phi \\\\ &amp; tan(\\phi+\\frac{\\pi}{6})=\\frac{tan\\phi+\\frac{1}{\\sqrt{3}}}{1-tan\\phi \\cdot \\frac{1}{\\sqrt{3}}} \\\\ &amp; \\frac{x}{3}=\\frac{\\frac{y}{2}+\\frac{1}{\\sqrt{3}}}{1-\\frac{y}{2} \\cdot \\frac{1}{\\sqrt{3}}} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow x=\\frac{3(y\\sqrt{3}+2)}{2\\sqrt{3}-y} \\\\ &amp; xy+\\alpha x+\\beta y+r=0 \\\\ &amp; 3(\\frac{y\\sqrt{3}+2}{2\\sqrt{3}-y})+\\alpha(3\\frac{(y\\sqrt{3}+2)}{(2\\sqrt{3}-y)})+\\beta y+r=0 \\\\ &amp; =(3\\sqrt{3}-\\beta)y^{2}+(6+3\\sqrt{3}\\alpha+2\\sqrt{3}\\beta-y)y \\\\ &amp; +(6\\alpha+2\\sqrt{3}y)=0 \\end{aligned}$ </p>\n<p>For this identity to hold for all  $\\theta$ , coefficients must be 0</p>\n<p> $\\begin{aligned} &amp; \\therefore \\beta=3\\sqrt{3} \\\\ &amp; \\gamma=-\\alpha\\sqrt{3} \\\\ &amp; 6+3\\sqrt{3}\\alpha+(2\\sqrt{3})(3\\sqrt{3})+\\alpha\\sqrt{3}=0 \\\\ &amp; \\Rightarrow \\alpha=-2\\sqrt{3} \\\\ &amp; \\Rightarrow \\beta=6 \\\\ &amp; \\alpha^{2}+\\beta^{2}+\\gamma^{2}=75 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta \\in [-\\frac{\\pi}{3},0]",
@@ -622,7 +622,7 @@
         "\\alpha^{2}+\\beta^{2}+\\gamma^{2}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:36.313151"
     },
@@ -668,11 +668,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} f(x) &amp; =6+16(\\frac{1}{4}cos3x)sin3x \\cdot cos6x \\\\ &amp; =6+4cos3xsin3xcos6x \\\\ &amp; =6+sin12x \\end{aligned} \\\\ &amp; \\text{Range of}f(x)\\text{is [5, 7]} \\\\ &amp; \\begin{aligned} &amp; (\\alpha,\\beta) \\equiv (5,7) \\\\ &amp; \\text{distance}=|\\frac{15+28+12}{5}|=11 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:37.463448"
     },
@@ -718,14 +718,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; 10sin^{4}\\theta+15cos^{4}\\theta=6 \\\\ \\Rightarrow &amp; 10sin^{4}\\theta+10cos^{4}\\theta+5cos^{4}\\theta=6 \\\\ \\Rightarrow &amp; 10[(sin^{2}\\theta+cos^{2}\\theta)^{2}-2sin^{2}\\theta cos^{2}\\theta]+5cos^{4}\\theta=6 \\\\ \\Rightarrow &amp; 10-20(1-cos^{2}\\theta)cos^{2}\\theta+5cos^{4}\\theta=6 \\end{aligned} \\\\ &amp; \\text{Let}cos^{2}\\theta=x \\\\ &amp; 10-20(x-x^{2})+5x^{2}=6 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 25x^{2}-20x+4=0 \\\\ &amp; (5x-2)^{2}=0 \\Rightarrow x=\\frac{2}{5} \\\\ \\Rightarrow &amp; cos^{2}\\theta=\\frac{2}{5} \\Rightarrow sin^{2}\\theta=\\frac{3}{5}, \\\\ &amp; sec^{2}\\theta=\\frac{5}{2},cosec^{2}\\theta=\\frac{5}{3} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\frac{27cosec^{6}\\theta+8sec^{6}\\theta}{16sec^{8}\\theta} &amp; =\\frac{27(\\frac{5}{3})^{3}+8(\\frac{5}{2})^{3}}{16(\\frac{5}{2})^{4}} \\\\ &amp; =\\frac{5^{3}+5^{3}}{5^{4}}=\\frac{2.5^{3}}{5^{4}}=\\frac{2}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "10sin^{4}\\theta+15cos^{4}\\theta=6",
         "\\frac{27cosec^{6}\\theta+8sec^{6}\\theta}{16sec^{8}\\theta}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:36.371019"
     },
@@ -771,13 +771,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; sin70^{\\circ}(cot10^{\\circ}cot70^{\\circ}-1) \\\\ &amp; \\Rightarrow \\frac{cos(80^{\\circ})}{sin10}=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "(sin70^{\\circ})(cot10^{\\circ}cot70^{\\circ}-1)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:37.534601"
     },
@@ -823,14 +823,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; sinx+sin^{2}x=1 \\\\ &amp; \\Rightarrow sinx=cos^{2}x \\Rightarrow tanx=cosx \\end{aligned} \\\\ &amp; \\therefore \\text{Given expression} \\\\ &amp; \\begin{aligned} &amp; =2cos^{12}x+6[cos^{10}x+cos^{8}x]+2cos^{6}x \\\\ &amp; =2[sin^{6}x+3sin^{5}x+3sin^{4}x+sin^{3}x] \\\\ &amp; =2sin^{3}x[(sinx+1)^{3}] \\\\ &amp; =2[sin^{2}x+sinx]^{3} \\\\ &amp; =2 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "sinx+sin^{2}x=1",
         "x \\in (0,\\frac{\\pi}{2})"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:36.449262"
     },
@@ -876,11 +876,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\frac{1}{sin\\frac{\\pi}{6}}\\sum_{r=1}^{13}\\frac{sin[(\\frac{\\pi}{4}+\\frac{r\\pi}{6})-(\\frac{\\pi}{4})-(r-1)\\frac{\\pi}{6}]}{sin(\\frac{\\pi}{4}+(r-1)\\frac{\\pi}{6})sin(\\frac{\\pi}{4}+\\frac{r\\pi}{6})} \\\\ &amp; \\frac{1}{sin\\frac{\\pi}{6}}\\sum_{r=1}^{13}(cot(\\frac{\\pi}{4}+(r-1)\\frac{\\pi}{6})-cot(\\frac{\\pi}{4}+\\frac{r\\pi}{6})) \\\\ &amp; =2\\sqrt{3}-2=\\alpha\\sqrt{3}+b \\end{aligned} \\\\ &amp; \\text{So}a^{2}+b^{2}=8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:36.539198"
     },
@@ -926,14 +926,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 4cos\\theta-3sin\\theta=1 \\\\ &amp; 4cos\\theta-1=3sin\\theta \\\\ &amp; 16cos^{2}\\theta+1-8cos\\theta=9(1-cos^{2}\\theta) \\\\ &amp; \\Rightarrow 25cos^{2}\\theta-8cos\\theta-8=0 \\\\ &amp; \\Rightarrow cos\\theta=\\frac{8 \\pm \\sqrt{64+4 \\times 25 \\times 8}}{2.25} \\\\ &amp; =\\frac{8 \\pm 4\\sqrt{4+50}}{2.25} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{4 \\pm 2\\sqrt{54}}{25} \\\\ &amp; \\text{As}\\theta \\in [0,\\frac{\\pi}{4}] \\\\ &amp; \\Rightarrow cos\\theta=\\frac{4+6\\sqrt{6}}{25}=\\frac{4}{3\\sqrt{6}-2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta \\in [0,\\frac{\\pi}{4}]",
         "4cos\\theta-3sin\\theta=1"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:38.859308"
     },
@@ -958,14 +958,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos2x+a \\cdot sinx=2a-7 \\\\ &amp; a(sinx-2)=2(sinx-2)(sinx+2) \\\\ &amp; sinx=2,a=2(sinx+2) \\\\ &amp; \\Rightarrow a \\in [2,6] \\\\ &amp; p=2q=6 \\\\ &amp; r=tan9^{\\circ}+cot9^{\\circ}-tan27-cot27 \\\\ &amp; r=\\frac{1}{sin9 \\cdot cos9}-\\frac{1}{sin27 \\cdot cos27} \\\\ &amp; =2[\\frac{4}{\\sqrt{5}-1}-\\frac{4}{\\sqrt{5}+1}] \\\\ &amp; r=4 \\\\ &amp; p \\cdot q \\cdot r=2 \\times 6 \\times 4=48 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos2x+asinx=2a-7",
         "r=tan9^{\\circ}-tan27^{\\circ}-\\frac{1}{cot63^{\\circ}}+tan81^{\\circ}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:53.306202"
     },
@@ -1011,7 +1011,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the sum of two angles in terms of tangent, we can use the tangent addition formula: </p>\n<p> $tan(A+B)=\\frac{tanA+tanB}{1-tanA \\cdot tanB}$ </p>\n<p>Let's compute  $tan(A+B)$  using the given  $tanA$  and  $tanB$ : </p>\n<p> $tanA=\\frac{1}{\\sqrt{x(x^{2}+x+1)}}$ </p>\n<p> $tanB=\\frac{\\sqrt{x}}{\\sqrt{x^{2}+x+1}}$ </p>\n<p>Now, we can apply the addition formula: </p>\n<p> $tan(A+B)=\\frac{\\frac{1}{\\sqrt{x(x^{2}+x+1)}}+\\frac{\\sqrt{x}}{\\sqrt{x^{2}+x+1}}}{1-\\frac{1}{\\sqrt{x(x^{2}+x+1)}} \\cdot \\frac{\\sqrt{x}}{\\sqrt{x^{2}+x+1}}}$ </p>\n<p> $tan(A+B)=\\frac{\\frac{1+\\sqrt{x^{2}}}{\\sqrt{x(x^{2}+x+1)}}}{1-\\frac{1}{(x^{2}+x+1)}}$ </p>\n<p> $tan(A+B)=\\frac{\\frac{\\sqrt{x^{2}}+1}{\\sqrt{x(x^{2}+x+1)}}}{\\frac{(x^{2}+x+1)-1}{(x^{2}+x+1)}}$ </p>\n<p> $tan(A+B)=\\frac{(x+1)\\sqrt{(x^{2}+x+1)}}{(x^{2}+x)\\sqrt{x}}$ </p>\n<p> $tan(A+B)=\\frac{(x+1)\\sqrt{(x^{2}+x+1)}}{x(x+1)\\sqrt{x}}$ </p>\n<p> $tan(A+B)=\\frac{\\sqrt{x^{2}+x+1}}{x^{3/2}}$ </p>\n\nLet us first simplify  $tanC$ :\n\n<p> $tanC=\\sqrt{x^{-3}+x^{-2}+x^{-1}}=\\sqrt{\\frac{1}{x^{3}}+\\frac{1}{x^{2}}+\\frac{1}{x}}=\\sqrt{\\frac{1+x+x^{2}}{x^{3}}}=\\frac{\\sqrt{x^{2}+x+1}}{x^{3/2}}.$ </p>\n<p>We see that: </p>\n<p> $tan(A+B)=tanC$ </p>\n<p>Since tangent is positive and all the angles  $A$ ,  $B$ , and  $C$  are in the first quadrant, we can say that: </p>\n<p> $A+B=C$ </p>\n<p>Hence, the answer is: </p>\n<p>Option A :  $C$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "tanA=\\frac{1}{\\sqrt{x(x^{2}+x+1)}},tanB=\\frac{\\sqrt{x}}{\\sqrt{x^{2}+x+1}}",
@@ -1022,7 +1022,7 @@
         "tan(A+B)=\\frac{(x+1)\\sqrt{(x^{2}+x+1)}}{(x^{2}+x)\\sqrt{x}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:38.937879"
     },
@@ -1068,7 +1068,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $\\frac{3cos36^{\\circ}+5sin18^{\\circ}}{5cos36^{\\circ}-3sin18^{\\circ}}$  in the form  $\\frac{a\\sqrt{5}-b}{c}$ , we need to simplify the given expression. Let's start by using some fundamental trigonometric identities.</p>\n<p>We know that:</p>\n<p> $cos36^{\\circ}=\\frac{\\sqrt{5}+1}{4}$ </p>\n<p> $sin18^{\\circ}=\\frac{\\sqrt{5}-1}{4}$ </p>\n<p>First, substitute these values into the expression:</p>\n<p> $\\frac{3 \\cdot \\frac{\\sqrt{5}+1}{4}+5 \\cdot \\frac{\\sqrt{5}-1}{4}}{5 \\cdot \\frac{\\sqrt{5}+1}{4}-3 \\cdot \\frac{\\sqrt{5}-1}{4}}$ </p>\n<p>Simplify the numerator and the denominator:</p>\n<p>Numerator:  $3 \\cdot \\frac{\\sqrt{5}+1}{4}+5 \\cdot \\frac{\\sqrt{5}-1}{4}=\\frac{3(\\sqrt{5}+1)+5(\\sqrt{5}-1)}{4}=\\frac{3\\sqrt{5}+3+5\\sqrt{5}-5}{4}=\\frac{8\\sqrt{5}-2}{4}=2\\sqrt{5}-\\frac{1}{2}$ </p>\n<p>Denominator:  $5 \\cdot \\frac{\\sqrt{5}+1}{4}-3 \\cdot \\frac{\\sqrt{5}-1}{4}=\\frac{5(\\sqrt{5}+1)-3(\\sqrt{5}-1)}{4}=\\frac{5\\sqrt{5}+5-3\\sqrt{5}+3}{4}=\\frac{2\\sqrt{5}+8}{4}=\\frac{\\sqrt{5}+4}{2}$ </p>\n<p>Now combine the simplified numerator and denominator:</p>\n<p> $\\frac{2\\sqrt{5}-\\frac{1}{2}}{\\frac{\\sqrt{5}+4}{2}}=\\frac{(2\\sqrt{5}-\\frac{1}{2}) \\cdot 2}{\\sqrt{5}+4}=\\frac{4\\sqrt{5}-1}{\\sqrt{5}+4}$ </p>\n<p>Rationalizing the denominator by multiplying both the numerator and the denominator by the conjugate of the denominator:</p>\n<p> $\\frac{(4\\sqrt{5}-1)(\\sqrt{5}-4)}{(\\sqrt{5}+4)(\\sqrt{5}-4)}$ </p>\n<p>The denominator simplifies to:</p>\n<p> $\\sqrt{5}^{2}-4^{2}=5-16=-11$ </p>\n<p>The numerator simplifies to:</p>\n<p> $(4\\sqrt{5}-1)(\\sqrt{5}-4)=(4\\sqrt{5} \\cdot \\sqrt{5}-4 \\cdot 4\\sqrt{5}-1 \\cdot \\sqrt{5}+1 \\cdot 4)=(20-16\\sqrt{5}-\\sqrt{5}+4)=24-17\\sqrt{5}$ </p>\n<p>Combining them, we get:</p>\n<p> $\\frac{24-17\\sqrt{5}}{-11}=\\frac{17\\sqrt{5}-24}{11}$ </p>\n<p>Thus,  $a=17,b=24,c=11$ .</p>\n<p>Therefore,  $a+b+c=17+24+11=52$ .</p>\n<p>So the correct option is:</p>\n<p><strong>Option B: 52</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3cos36^{\\circ}+5sin18^{\\circ}}{5cos36^{\\circ}-3sin18^{\\circ}}",
@@ -1079,7 +1079,7 @@
         "\\frac{(4\\sqrt{5}-1)(\\sqrt{5}-4)}{(\\sqrt{5}+4)(\\sqrt{5}-4)}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:37.599232"
     },
@@ -1125,14 +1125,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Take  $e^{sinx}=t(t&gt;0)$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow t-\\frac{2}{t}=2 \\\\ &amp; \\Rightarrow \\frac{t^{2}-2}{t}=2 \\\\ &amp; \\Rightarrow t^{2}-2t-2=0 \\\\ &amp; \\Rightarrow t^{2}-2t+1=3 \\\\ &amp; \\Rightarrow (t-1)^{2}=3 \\\\ &amp; \\Rightarrow t=1 \\pm \\sqrt{3} \\\\ &amp; \\Rightarrow t=1 \\pm 1.73 \\\\ &amp; \\Rightarrow t=2.73\\text{or}-0.73\\text{(rejected as}t&gt;0) \\\\ &amp; \\Rightarrow e^{sinx}=2.73 \\\\ &amp; \\Rightarrow log_{e}e^{sinx}=log_{e}2.73 \\\\ &amp; \\Rightarrow sinx=log_{e}2.73&gt;1 \\end{aligned}$ </p>\n<p>So no solution.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{sinx}-2e^{-sinx}=2",
         "e^{sinx}=t(t>0)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:39.024436"
     },
@@ -1178,7 +1178,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; sinx=-\\frac{3}{5}\\text{where}\\pi&lt;x&lt;\\frac{3\\pi}{2} \\\\ &amp; tanx=\\frac{3}{4},cosx=\\frac{-4}{5} \\\\ &amp; \\therefore 80(tan^{2}x-cosx) \\\\ &amp; =80(\\frac{9}{16}+\\frac{4}{5}) \\\\ &amp; =80(\\frac{45+64}{80}) \\\\ &amp; =109 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "sinx=-\\frac{3}{5}",
@@ -1186,7 +1186,7 @@
         "80(tan^{2}x-cosx)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:37.659806"
     },
@@ -1232,13 +1232,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $k$ , the given conditions are:</p>\n<p> $3sin(\\alpha+\\beta)=2sin(\\alpha-\\beta)$ </p>\n<p>And  $tan\\alpha=ktan\\beta$ </p>\n<p>For the first equation, using the sum and difference formulas for sine, we can rewrite the equation as:</p>\n<p> $3(sin\\alpha cos\\beta+cos\\alpha sin\\beta)=2(sin\\alpha cos\\beta-cos\\alpha sin\\beta)$ </p>\n<p>Simplifying this, we get:</p>\n<p> $3sin\\alpha cos\\beta+3cos\\alpha sin\\beta=2sin\\alpha cos\\beta-2cos\\alpha sin\\beta$ </p>\n<p>Rearranging the terms, we obtain:</p>\n<p> $5sin\\beta cos\\alpha=-sin\\alpha cos\\beta$ </p>\n<p>Dividing both sides by  $sin\\alpha cos\\beta$ , we get:</p>\n<p> $\\frac{5sin\\beta cos\\alpha}{sin\\alpha cos\\beta}=-1$ </p>\n<p>Which simplifies to:</p>\n<p> $5tan\\beta=-tan\\alpha$ </p>\n<p>So, taking the reciprocal, we have:</p>\n<p> $tan\\alpha=-5tan\\beta$ </p>\n<p>Therefore, by comparing this equation with the given  $tan\\alpha=ktan\\beta$ , we find that  $k=-5$ .</p>\n<p>Thus, the value of  $k$  is <strong> $-5$ </strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "3sin(\\alpha+\\beta)=2sin(\\alpha-\\beta)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:39.129601"
     },
@@ -1284,11 +1285,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let\n<br/><br/> $\\begin{aligned} &amp; A=96cos\\frac{\\pi}{33}cos\\frac{2\\pi}{33}cos\\frac{4\\pi}{33}cos\\frac{8\\pi}{33}cos\\frac{16\\pi}{33} \\\\ \\\\ &amp; \\Rightarrow 2A=96 \\times 2(cos\\frac{\\pi}{33}cos\\frac{2\\pi}{33}cos\\frac{4\\pi}{33}cos\\frac{8\\pi}{33}cos\\frac{16\\pi}{33}) \\\\ \\\\ &amp; \\Rightarrow 2A \\times sin\\frac{\\pi}{33}=96 \\times (2sin\\frac{\\pi}{33}cos\\frac{\\pi}{33}cos\\frac{2\\pi}{33}cos\\frac{4\\pi}{33} \\cdot cos\\frac{8\\pi}{33}cos\\frac{16\\pi}{33}) \\\\ \\\\ &amp; \\Rightarrow 2A \\times sin\\frac{\\pi}{33}=6 \\times sin\\frac{32\\pi}{33}=6 \\times sin\\frac{\\pi}{33} \\\\ \\\\ &amp; \\Rightarrow 2A=6 \\Rightarrow A=3 \\end{aligned}$ \n<br/><br/>Thus, the required answer is 3 .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:40.424625"
     },
@@ -1334,7 +1335,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(\\theta)=3(sin^{4}(\\frac{3\\pi}{2}-\\theta)+sin^{4}(3x+\\theta))-2(1-sin^{2}2\\theta)$ <br/><br/>  $S={\\theta \\in [0,\\pi]:f^{'}(\\theta)=-\\frac{\\sqrt{3}}{2}}$  <br/><br/> $\\Rightarrow f(\\theta)=3(cos^{4}\\theta+sin^{4}\\theta)-2cos^{2}2\\theta$ \n<br/><br/>\n $\\Rightarrow f(\\theta)=3(1-\\frac{1}{2}sin^{2}2\\theta)-2cos^{2}2\\theta$ \n<br/><br/>\n $\\Rightarrow f(\\theta)=3-\\frac{3}{2}sin^{2}2\\theta-2cos^{2}\\theta$ <br/><br/>  $=\\frac{3}{2}-\\frac{1}{2}cos^{2}2\\theta=\\frac{3}{2}-\\frac{1}{2}(\\frac{1+cos4\\theta}{2})$ \n<br/><br/>\n $f(\\theta)=\\frac{5}{4}-\\frac{cos4\\theta}{4}$ \n<br/><br/>\n $f^{'}(\\theta)=sin4\\theta$ \n<br/><br/>\n $\\Rightarrow f^{'}(\\theta)=sin4\\theta=-\\frac{\\sqrt{3}}{2}$ \n<br/><br/>\n $\\Rightarrow 4\\theta=n\\pi+(-1)^{n}\\frac{\\pi}{3}$ \n<br/><br/>\n $\\Rightarrow \\theta=\\frac{n\\pi}{4}+(-1)^{n}\\frac{\\pi}{12}$ \n<br/><br/>\n $\\begin{aligned} &amp; \\Rightarrow \\theta=\\frac{\\pi}{12},(\\frac{\\pi}{4}-\\frac{\\pi}{12}),(\\frac{\\pi}{2}+\\frac{\\pi}{12}),(\\frac{3\\pi}{4}-\\frac{\\pi}{12}) \\\\ \\\\ &amp; \\Rightarrow 4\\beta=\\frac{\\pi}{4}+\\frac{\\pi}{2}+\\frac{3\\pi}{4}=\\frac{3\\pi}{2} \\\\ \\\\ &amp; \\Rightarrow \\beta=\\frac{3\\pi}{8} \\Rightarrow f(\\beta)=\\frac{5}{4}-\\frac{cos\\frac{3\\pi}{2}}{4}=\\frac{5}{4} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "S={\\theta \\in [0,\\pi]:f^{'}(\\theta)=-\\frac{\\sqrt{3}}{2}}",
@@ -1345,7 +1346,7 @@
         "f^{'}(\\theta)=sin4\\theta"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:41.757254"
     },
@@ -1391,11 +1392,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; 4cos^{2}\\theta-1=4(1-sin^{2}\\theta)-1 \\\\ \\\\ &amp; =3-4sin^{2}\\theta \\\\ \\\\ &amp; =\\frac{3sin\\theta-4sin^{3}\\theta}{sin\\theta} \\\\ \\\\ &amp; =\\frac{sin3\\theta}{sin\\theta} \\end{aligned}$ \n<br/><br/> $36(4cos^{2}9^{\\circ}-1)(4cos^{2}27^{\\circ}-1)(4cos^{2}81^{\\circ}-1)(4cos^{2}243^{\\circ}-1)$ \n<br/><br/> $\\begin{aligned} &amp; =36[\\frac{sin27^{\\circ}}{sin9^{\\circ}} \\times \\frac{sin81^{\\circ}}{sin27^{\\circ}} \\times \\frac{sin243^{\\circ}}{sin81^{\\circ}} \\times \\frac{sin729^{\\circ}}{sin243^{\\circ}}] \\\\ \\\\ &amp; =36[\\frac{sin729^{\\circ}}{sin9^{\\circ}}]=36 \\times 1=36 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:40.457569"
     },
@@ -1420,13 +1421,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; tan9^{\\circ}-tan27^{\\circ}-tan63^{\\circ}+tan81^{\\circ} \\\\ \\\\ &amp; =tan9^{\\circ}+tan(90^{\\circ}-9^{\\circ})-tan27^{\\circ}-tan(90^{\\circ}-27^{\\circ}) \\\\ \\\\ &amp; =tan9^{\\circ}+cot9^{\\circ}-tan27^{\\circ}-cot27^{\\circ} \\\\ \\\\ &amp; =\\frac{sin9^{\\circ}}{cos9^{\\circ}}+\\frac{cos9^{\\circ}}{sin9^{\\circ}}-(\\frac{sin27^{\\circ}}{cos27^{\\circ}}+\\frac{cos27^{\\circ}}{sin27^{\\circ}}) \\\\ \\\\ &amp; =\\frac{sin^{2}9^{\\circ}+cos^{2}9^{\\circ}}{sin9^{\\circ}cos9^{\\circ}}-(\\frac{sin^{2}27^{\\circ}+cos^{2}27^{\\circ}}{cos27^{\\circ}sin27^{\\circ}}) \\\\ \\\\ &amp; =\\frac{2}{sin18^{\\circ}}-\\frac{2}{sin54^{\\circ}} \\\\ \\\\ &amp; =\\frac{2 \\times 4}{\\sqrt{5}-1}-\\frac{2 \\times 4}{\\sqrt{5}+1} \\\\ \\\\ &amp; =8(\\frac{\\sqrt{5}+1-\\sqrt{5}+1}{5-1})=2(2)=4 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "tan9^{\\circ}-tan27^{\\circ}-tan63^{\\circ}+tan81^{\\circ}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:53.333053"
     },
@@ -1472,7 +1473,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $tan15^{\\circ}+tan15^{\\circ}-tan15^{\\circ}+tan15^{\\circ}$ </p>\n<p> $=2tan15^{\\circ}$ </p>\n<p> $=2(2-\\sqrt{3})=2a \\Rightarrow a=2-\\sqrt{3}$ </p>\n<p> $\\therefore$   $\\frac{1}{a}+a \\Rightarrow (2+\\sqrt{3})+(2-\\sqrt{3})=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "tan15^{\\circ}+\\frac{1}{tan75^{\\circ}}+\\frac{1}{tan105^{\\circ}}+tan195^{\\circ}=2a",
@@ -1483,7 +1484,7 @@
         "\\frac{1}{a}+a \\Rightarrow (2+\\sqrt{3})+(2-\\sqrt{3})=4"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:40.483420"
     },
@@ -1529,7 +1530,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given equation is \n<br/><br/> $cos^{2}2x-2sin^{4}x-2cos^{2}x=\\lambda$ \n<br/><br/>Using the trigonometric identities  $cos^{2}x=1-sin^{2}x$  and  $cos^{2}2x=1-2sin^{2}x$ , we can rewrite the equation in terms of  $cos^{2}x$ :\n\n<br/><br/> $\\lambda=(2cos^{2}x-1)^{2}-2(1-cos^{2}x)^{2}-2cos^{2}x$ \n<br/><br/>Simplify this equation :\n\n<br/><br/> $\\lambda=4cos^{4}x-4cos^{2}x+1-2(1-2cos^{2}x+cos^{4}x)-2cos^{2}x$ \n<br/><br/> $\\lambda=2cos^{4}x-2cos^{2}x-1$ \n<br/><br/>We can factor out a 2 and rewrite this as :\n\n<br/><br/> $\\lambda=2(cos^{4}x-cos^{2}x-\\frac{1}{2})$ \n<br/><br/> $\\lambda=2[(cos^{2}x-\\frac{1}{2})^{2}-\\frac{3}{4}]$ \n<br/><br/>So  $\\lambda_{max}=2[\\frac{1}{4}-\\frac{3}{4}]=2 \\times (\\frac{-2}{4})=-1$  (maximum value) and \n<br/><br/> $\\lambda_{min}=2[0-\\frac{3}{4}]=-\\frac{3}{2}($  minimum value  $)$ \n<br/><br/>So range of the value of  $x$  is  $[\\frac{-3}{2},-1]$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{2}2x-2sin^{4}x-2cos^{2}x=\\lambda",
@@ -1540,7 +1541,7 @@
         "\\lambda_{min}=2[0-\\frac{3}{4}]=-\\frac{3}{2}("
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:40.511988"
     },
@@ -1586,7 +1587,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos\\frac{2\\pi}{7}+cos\\frac{4\\pi}{7}+cos\\frac{6\\pi}{7}=\\frac{sin3(\\frac{\\pi}{7})}{sin\\frac{\\pi}{7}}cos\\frac{(\\frac{2\\pi}{7}+\\frac{6\\pi}{7})}{2}$ </p>\n<p> $=\\frac{sin(\\frac{3\\pi}{7}).cos(\\frac{4\\pi}{7})}{sin(\\frac{\\pi}{7})}$ </p>\n<p> $=\\frac{2sin\\frac{4\\pi}{7}cos\\frac{4\\pi}{7}}{2sin\\frac{\\pi}{7}}$ </p>\n<p> $=\\frac{sin(\\frac{8\\pi}{7})}{2sin\\frac{\\pi}{7}}=\\frac{-sin\\frac{\\pi}{7}}{2sin\\frac{\\pi}{7}}=\\frac{-1}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "cos(\\frac{2\\pi}{7})+cos(\\frac{4\\pi}{7})+cos(\\frac{6\\pi}{7})",
@@ -1594,7 +1595,7 @@
         "=\\frac{2sin\\frac{4\\pi}{7}cos\\frac{4\\pi}{7}}{2sin\\frac{\\pi}{7}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:42.727869"
     },
@@ -1640,14 +1641,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2sin\\frac{\\pi}{22}sin\\frac{3\\pi}{22}sin\\frac{5\\pi}{22}sin\\frac{7\\pi}{22}sin\\frac{9\\pi}{22}$ </p>\n<p> $=2sin(\\frac{11\\pi-10\\pi}{22})sin(\\frac{11\\pi-8\\pi}{22})sin(\\frac{11\\pi-6\\pi}{22})sin(\\frac{11\\pi-4\\pi}{22})sin(\\frac{11\\pi-2\\pi}{22})$ </p>\n<p> $=2cos\\frac{\\pi}{11}cos\\frac{2\\pi}{11}cos\\frac{3\\pi}{11}cos\\frac{4\\pi}{11}cos\\frac{5\\pi}{11}$ </p>\n<p> $=\\frac{2sin\\frac{32\\pi}{11}}{2^{5}sin\\frac{\\pi}{11}}$ </p>\n<p> $=\\frac{1}{16}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{2sin\\frac{32\\pi}{11}}{2^{5}sin\\frac{\\pi}{11}}",
         "=\\frac{1}{16}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:41.785600"
     },
@@ -1693,7 +1694,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $16sin20^{\\circ}.sin40^{\\circ}.sin80^{\\circ}$ </p>\n<p> $=4sin60^{\\circ}$  { $\\because$   $4sin\\theta.sin(60^{\\circ}-\\theta).sin(60^{\\circ}+\\theta)=sin3\\theta$ }</p>\n<p> $=2\\sqrt{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Easy",
       "key_formulas": [
         "16sin(20^{\\circ})sin(40^{\\circ})sin(80^{\\circ})",
@@ -1703,7 +1704,7 @@
         "=2\\sqrt{3}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:42.762547"
     },
@@ -1749,7 +1750,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because cot\\alpha=1,\\alpha \\in (\\pi,\\frac{3\\pi}{2})$ <br/><br/> then  $tan\\alpha=1$  <br/><br/>and  $sec\\beta=-\\frac{5}{3},\\beta \\in (\\frac{\\pi}{2},\\pi)$  <br/><br/>then  $tan\\beta=-\\frac{4}{3}$ \n<br/><br/>\n $\\therefore tan(\\alpha+\\beta)=\\frac{tan\\alpha+tan\\beta}{1-tan\\alpha \\cdot tan\\beta}$ \n<br/><br/>\n $\\begin{aligned} &amp; =\\frac{1-\\frac{4}{3}}{1+\\frac{4}{3}} \\\\ \\\\ &amp; =-\\frac{1}{7} \\end{aligned}$ \n<br/><br/>\n $\\alpha+\\beta \\in (\\frac{3\\pi}{2},2\\pi)\\text{i.e. fourth quadrant}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{5}{3}",
@@ -1760,7 +1761,7 @@
         "sec\\beta=-\\frac{5}{3},\\beta \\in (\\frac{\\pi}{2},\\pi)"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:41.814316"
     },
@@ -1806,7 +1807,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2sin12^{\\circ}-sin72^{\\circ}$ </p>\n<p> $=sin12^{\\circ}+(-2cos42^{\\circ}.sin30^{\\circ})$ </p>\n<p> $=sin12^{\\circ}-cos42^{\\circ}$ </p>\n<p> $=sin12^{\\circ}-sin48^{\\circ}$ </p>\n<p> $=2sin18^{\\circ}.cos30^{\\circ}$ </p>\n<p> $=-2(\\frac{\\sqrt{5}-1}{4}).\\frac{\\sqrt{3}}{2}$ </p>\n<p> $=\\frac{\\sqrt{3}(1-\\sqrt{5})}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -1817,7 +1818,7 @@
         "=-2(\\frac{\\sqrt{5}-1}{4}).\\frac{\\sqrt{3}}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:42.790051"
     },
@@ -1842,7 +1843,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(sin10^{\\circ}.sin50^{\\circ}.sin70^{\\circ}).(sin10^{\\circ}.sin20^{\\circ}.sin40^{\\circ})$ </p>\n<p> $=(\\frac{1}{4}sin30^{\\circ}).[\\frac{1}{2}sin10^{\\circ}(cos20^{\\circ}-cos60^{\\circ})]$ </p>\n<p> $=\\frac{1}{16}[sin10^{\\circ}(cos20^{\\circ}-\\frac{1}{2})]$ </p>\n<p> $=\\frac{1}{32}[2sin10^{\\circ}.cos20^{\\circ}-sin10^{\\circ}]$ </p>\n<p> $=\\frac{1}{32}[sin30^{\\circ}-sin10^{\\circ}-sin10^{\\circ}]$ </p>\n<p> $=\\frac{1}{64}-\\frac{1}{64}sin10^{\\circ}$ </p>\n<p>Clearly,  $\\alpha=\\frac{1}{64}$ </p>\n<p>Hence  $16+\\alpha^{-1}=80$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to __________.",
@@ -1853,7 +1854,7 @@
         "\\alpha=\\frac{1}{64}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:53.357291"
     },
@@ -1899,7 +1900,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that  $\\alpha=sin36^{\\circ}$ , we need to determine which equation it is a root of.</p>\n<p>We start with the known relationship for  $cos72^{\\circ}$ :</p>\n<p> $cos72^{\\circ}=\\frac{\\sqrt{5}-1}{4}$ </p>\n<p>Using the double-angle formula for cosine:</p>\n<p> $cos72^{\\circ}=1-2sin^{2}36^{\\circ}$ </p>\n<p>Substitute  $\\alpha$  for  $sin36^{\\circ}$ :</p>\n<p> $1-2\\alpha^{2}=\\frac{\\sqrt{5}-1}{4}$ </p>\n<p>Multiply both sides by 4:</p>\n<p> $4-8\\alpha^{2}=\\sqrt{5}-1$ </p>\n<p>Add 1 to both sides:</p>\n<p> $5-8\\alpha^{2}=\\sqrt{5}$ </p>\n<p>Square both sides to eliminate the radical:</p>\n<p> $(5-8\\alpha^{2})^{2}=5$ </p>\n<p>Expand the left side:</p>\n<p> $25+64\\alpha^{4}-80\\alpha^{2}=5$ </p>\n<p>Simplify by subtracting 5 from both sides:</p>\n<p> $64\\alpha^{4}-80\\alpha^{2}+20=0$ </p>\n<p>Divide the entire equation by 4:</p>\n<p> $16\\alpha^{4}-20\\alpha^{2}+5=0$ </p>\n<p>Thus, the equation  $16\\alpha^{4}-20\\alpha^{2}+5=0$  is the one for which  $\\alpha=sin36^{\\circ}$  is a root.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha=sin36^{\\circ}",
@@ -1910,7 +1911,7 @@
         "1-2\\alpha^{2}=\\frac{\\sqrt{5}-1}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:41.844025"
     },
@@ -1956,7 +1957,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=\\frac{1}{2}(tan\\frac{\\pi}{9}+tan\\frac{7\\pi}{18})$ <br/><br/>and  $2y=tan\\frac{\\pi}{9}+tan\\frac{5\\pi}{18}$ <br/><br/>If we interpret the angles in degrees (as suggested by the numbers 20, 50, and 70), we have :\n\n<br/><br/> $x=\\frac{1}{2}(tan20^{\\circ}+tan70^{\\circ}),$ \n<br/><br/>and \n\n<br/><br/> $2y=tan20^{\\circ}+tan50^{\\circ}.$ \n<br/><br/>The expression for  $|x-2y|$  is then :\n\n<br/><br/> $|x-2y|=|\\frac{tan20^{\\circ}+tan70^{\\circ}}{2}-(tan20^{\\circ}+tan50^{\\circ})|.$ \n<br/><br/> $|x-2y|=|\\frac{tan20^{\\circ}+tan70^{\\circ}-2tan20^{\\circ}-2tan50^{\\circ}}{2}|,$ \n<br/><br/>which simplifies to :\n\n<br/><br/> $|x-2y|=|\\frac{tan70^{\\circ}-tan20^{\\circ}-2tan50^{\\circ}}{2}|.$ \n<br/><br/>We know, \n<br/><br/> $\\begin{aligned} &amp; tan70=\\frac{tan20+tan50}{1-tan20tan50} \\\\ \\\\ &amp; \\Rightarrow tan70-tan70 \\cdot tan20tan50=tan20+tan50 \\\\ \\\\ &amp; \\Rightarrow tan70-tan50-tan20-tan50=0 \\\\ \\\\ &amp; \\Rightarrow tan70-tan20-2tan50=0 \\end{aligned}$ \n<br/><br/> $\\therefore$   $|x-2y|=|\\frac{tan70^{\\circ}-tan20^{\\circ}-2tan50^{\\circ}}{2}|$  =  $|\\frac{0}{2}|$  = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "tan(\\frac{\\pi}{9}),x,tan(\\frac{7\\pi}{18})",
@@ -1967,7 +1968,7 @@
         "2y=tan20^{\\circ}+tan50^{\\circ}."
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:44.013555"
     },
@@ -2013,14 +2014,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; log_{10}sinx+log_{10}cosx=-1,x \\in (0,\\pi/2) \\\\ \\\\ &amp; log_{10}(sinxcosx)=-1 \\\\ \\\\ &amp; \\Rightarrow sinxcosx=10^{-1}=\\frac{1}{10} \\\\ \\\\ &amp; log_{10}(sinx+cosx)=\\frac{1}{2}(log_{10}n-1),n&gt;0 \\\\ \\\\ &amp; 2log_{10}(sinx+cosx)=(log_{10}n-log_{10}10) \\\\ \\\\ &amp; \\Rightarrow log_{10}(sinx+cosx)^{2}=log_{10}(\\frac{n}{10}) \\\\ \\\\ &amp; \\Rightarrow (sinx+cosx)^{2}=\\frac{n}{10} \\\\ \\\\ &amp; \\Rightarrow sin^{2}x+cos^{2}x+2sinxcosx=\\frac{n}{10} \\\\ \\\\ &amp; \\Rightarrow 1+2(\\frac{1}{10})=\\frac{n}{10} \\Rightarrow \\frac{12}{10}=\\frac{n}{10} \\\\ \\\\ &amp; \\therefore n=12 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(0,\\frac{\\pi}{2})",
         "1 and log 10 (sinx + cosx) ="
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:45.261336"
     },
@@ -2066,7 +2067,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $sin\\theta+cos\\theta=\\frac{1}{2}$ <br/><br/> $sin^{2}\\theta+cos^{2}\\theta+2sin\\theta cos\\theta=\\frac{1}{4}$ <br/><br/> $sin2\\theta=-\\frac{3}{4}$ <br/><br/>Now :<br/><br/> $cos4\\theta=1-2sin^{2}2\\theta$ <br/><br/> $=1-2(-\\frac{3}{4})^{2}$ <br/><br/> $=1-2 \\times \\frac{9}{16}=-\\frac{1}{8}$ <br/><br/> $sin6\\theta=3sin2\\theta-4sin^{3}2\\theta$ <br/><br/> $=(3-4sin^{2}2\\theta).sin2\\theta$ <br/><br/> $=[3-4(\\frac{9}{16})].(-\\frac{3}{4})$ <br/><br/> $\\Rightarrow [\\frac{3}{4}] \\times (-\\frac{3}{4})=-\\frac{9}{16}$ <br/><br/> $16[sin2\\theta+cos4\\theta+sin6\\theta]$ <br/><br/>=  $16(-\\frac{3}{4}-\\frac{1}{8}-\\frac{9}{16})=-23$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "sin\\theta+cos\\theta=\\frac{1}{2}",
@@ -2077,7 +2078,7 @@
         "=1-2 \\times \\frac{9}{16}=-\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:44.043309"
     },
@@ -2123,7 +2124,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2cos(\\frac{x+y}{2})cos(\\frac{x-y}{2})-[2cos^{2}(\\frac{x+y}{2})-1]=\\frac{3}{2}$ <br/><br/> $2cos(\\frac{x+y}{2})[cos(\\frac{x-y}{2})-cos(\\frac{x+y}{2})]=\\frac{1}{2}$ <br/><br/> $2cos(\\frac{x+y}{2})[2sin(\\frac{x}{2}).sin(\\frac{y}{2})]=\\frac{1}{2}$ <br/><br/> $cos(\\frac{x+y}{2}).sin(\\frac{x}{2}).sin(\\frac{y}{2})=\\frac{1}{8}$ <br/><br/>Possible when  $\\frac{x}{2}=30^{\\circ}$  &amp;  $\\frac{y}{2}=30^{\\circ}$ <br/><br/> $x=y=60^{\\circ}$ <br/><br/> $sinx+cosy=\\frac{\\sqrt{3}}{2}+\\frac{1}{2}=\\frac{\\sqrt{3}+1}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "cos(x + y) =",
@@ -2134,7 +2135,7 @@
         "\\frac{y}{2}=30^{\\circ}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:45.290525"
     },
@@ -2180,7 +2181,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $cot\\theta=\\frac{1+cos2\\theta}{sin2\\theta}=\\frac{1+(\\frac{\\sqrt{3}+1}{2\\sqrt{2}})}{(\\frac{\\sqrt{3}-1}{2\\sqrt{2}})}$ <br/><br/> $\\theta=\\frac{\\pi}{24}$ <br/><br/> $\\Rightarrow cot(\\frac{\\pi}{24})=\\frac{1+(\\frac{\\sqrt{3}+1}{2\\sqrt{2}})}{(\\frac{\\sqrt{3}-1}{2\\sqrt{2}})}$ <br/><br/> $=\\frac{(2\\sqrt{2}+\\sqrt{3}+1)}{(\\sqrt{3}-1)} \\times \\frac{(\\sqrt{3}+1)}{(\\sqrt{3}+1)}$ <br/><br/> $=\\frac{2\\sqrt{6}+2\\sqrt{2}+3+\\sqrt{3}+\\sqrt{3}+1}{2}$ <br/><br/> $=\\sqrt{6}+\\sqrt{2}+\\sqrt{3}+2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cot\\frac{\\pi}{24}",
@@ -2189,7 +2190,7 @@
         "=\\sqrt{6}+\\sqrt{2}+\\sqrt{3}+2"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:44.070580"
     },
@@ -2235,7 +2236,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e^{(cos^{2}x+cos^{4}x+...........\\infty)ln2}=2^{cos^{2}x+cos^{4}x+...........\\infty}$ \n<br/><br/>=  $2^{\\frac{cos^{2}x}{1-cos^{2}x}}$ \n<br/><br/> $=2^{cot^{2}x}$ <br/><br/>Given,  $t^{2}-9t+8=0 \\Rightarrow t=1,8$ <br/><br/> $\\Rightarrow 2^{cot^{2}x}=1,8 \\Rightarrow cot^{2}x=0,3$ <br/><br/> $0&lt;x&lt;\\frac{\\pi}{2} \\Rightarrow cotx=\\sqrt{3}$ <br/><br/> $\\therefore$   $\\frac{2sinx}{sinx+\\sqrt{3}cosx}=\\frac{2}{1+\\sqrt{3}cotx}=\\frac{2}{4}=\\frac{1}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{(cos^{2}x+cos^{4}x+cos^{6}x+...\\infty)log_{e}2}",
@@ -2246,7 +2247,7 @@
         "\\Rightarrow 2^{cot^{2}x}=1,8 \\Rightarrow cot^{2}x=0,3"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:45.320019"
     },
@@ -2292,7 +2293,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2sin(\\frac{\\pi}{8})sin(\\frac{2\\pi}{8})sin(\\frac{3\\pi}{8})sin(\\frac{5\\pi}{8})sin(\\frac{6\\pi}{8})sin(\\frac{7\\pi}{8})$ <br/><br/> $2sin^{2}\\frac{\\pi}{8}sin^{2}\\frac{2\\pi}{8}sin^{2}\\frac{3\\pi}{8}$ <br/><br/> $sin^{2}\\frac{\\pi}{8}sin^{2}\\frac{3\\pi}{8}$ <br/><br/> $sin^{2}\\frac{\\pi}{8}cos^{2}\\frac{\\pi}{8}$ <br/><br/> $\\frac{1}{4}sin^{2}(\\frac{\\pi}{4})=\\frac{1}{8}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "2sin^{2}\\frac{\\pi}{8}sin^{2}\\frac{2\\pi}{8}sin^{2}\\frac{3\\pi}{8}",
@@ -2301,7 +2302,7 @@
         "\\frac{1}{4}sin^{2}(\\frac{\\pi}{4})=\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:42.824455"
     },
@@ -2347,11 +2348,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{Given,}15sin^{4}\\alpha+10cos^{4}\\alpha=6 \\\\ \\\\ &amp; \\Rightarrow 15sin^{4}\\alpha+10cos^{4}\\alpha=6(sin^{2}\\alpha+cos^{2}\\alpha)^{2} \\\\ \\\\ &amp; \\Rightarrow 15sin^{4}\\alpha+10cos^{4}\\alpha=6(sin^{4}\\alpha+cos^{4}\\alpha+2sin^{2}\\alpha cos^{2}\\alpha) \\\\ \\\\ &amp; \\Rightarrow 9sin^{4}\\alpha+4cos^{4}\\alpha-12sin^{2}\\alpha cos^{2}\\alpha=0 \\\\ \\\\ &amp; \\Rightarrow (3sin^{2}\\alpha-2cos^{2}\\alpha)^{2}=0 \\\\ \\\\ &amp; \\Rightarrow 3sin^{2}\\alpha-2cos^{2}\\alpha=0 \\\\ \\\\ &amp; \\Rightarrow 3sin^{2}\\alpha=2cos^{2}\\alpha \\\\ \\\\ &amp; \\Rightarrow tan^{2}\\alpha=2/3 \\\\ \\\\ &amp; \\therefore cot^{2}\\alpha=3/2 \\\\ \\\\ &amp; \\text{Now,}27sec^{6}\\alpha+8cosec^{6}\\alpha=27(sec^{2}\\alpha)^{3}+8(cosec^{2}\\alpha)^{3} \\\\ \\\\ &amp; =27(1+tan^{2}\\alpha)^{3}+8(+cot^{2}\\alpha)^{3} \\\\ \\\\ &amp; =27(1+\\frac{2}{3})^{3}+8(1+\\frac{3}{2})^{3}=250 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:44.097251"
     },
@@ -2376,7 +2377,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know,\n<br/><br/> $-\\sqrt{a^{2}+b^{2}} \\le acosx+bsinx \\le \\sqrt{a^{2}+b^{2}}$ <br/><br/> $\\therefore$   $-\\sqrt{3^{2}+4^{2}} \\le 3cosx+4sinx \\le \\sqrt{3^{2}+4^{2}}$ <br/><br/> $-5 \\le k+1 \\le 5$ <br/><br/> $-6 \\le k \\le 4$ <br/><br/> $\\therefore$  Set of integers =  $-6,-5,-4,-3,-2,-1,0,1,2,3,4$  = Total 11 intergers.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "3sinx+4cosx=k+1",
@@ -2384,7 +2385,7 @@
         "-\\sqrt{3^{2}+4^{2}} \\le 3cosx+4sinx \\le \\sqrt{3^{2}+4^{2}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:53.380790"
     },
@@ -2430,7 +2431,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->cos<sup>4</sup>  $\\theta$  + sin<sup>4</sup>  $\\theta$  +\n $\\lambda$  = 0\n<br/><br/> $\\Rightarrow$  1 – 2sin<sup>2</sup>  $\\theta$  cos<sup>2</sup>  $\\theta$  = - $\\lambda$ \n<br/><br/> $\\Rightarrow$  1 -  $\\frac{1}{2} \\times 4$ sin<sup>2</sup>  $\\theta$  cos<sup>2</sup>  $\\theta$  = - $\\lambda$ \n<br/><br/> $\\Rightarrow$  1 -  $\\frac{sin^{2}2\\theta}{2}$  = - $\\lambda$ \n<br/><br/> $\\Rightarrow$ 2( $\\lambda$  + 1) = sin<sup>2</sup> 2 $\\theta$ \n<br/><br/> 0  $\\le$  2 ( $\\lambda$  + 1)  $\\le$  1\n<br/><br/> 0  $\\le$   ( $\\lambda$  + 1)  $\\le$   $\\frac{1}{2}$ \n<br/><br/>-1  $\\le$   $\\lambda$   $\\le$  - $\\frac{1}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2} \\times 4",
@@ -2438,7 +2439,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:46.222298"
     },
@@ -2463,7 +2464,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{2}sin\\alpha}{\\sqrt{1+cos2\\alpha}}=\\frac{1}{7}$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\sqrt{2}sin\\alpha}{\\sqrt{2cos^{2}\\alpha}}$  =  $\\frac{1}{7}$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\sqrt{2}sin\\alpha}{\\sqrt{2}cos\\alpha}$  =  $\\frac{1}{7}$ \n<br/><br/> $\\Rightarrow$  tan $\\alpha$  =  $\\frac{1}{7}$ \n<br/><br/>Also given  $\\sqrt{\\frac{1-cos2\\beta}{2}}=\\frac{1}{\\sqrt{10}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\sqrt{2}sin\\beta}{\\sqrt{2}}$  =  $\\frac{1}{\\sqrt{10}}$ \n<br/><br/> $\\Rightarrow$  sin  $\\beta$  =  $\\frac{1}{\\sqrt{10}}$ \n<br/><br/> $\\therefore$  tan  $\\beta$  =  $\\frac{1}{3}$ \n<br/><br/> $tan2\\beta=\\frac{2tan\\beta}{1-tan^{2}\\beta}$ \n<br/><br/>=  $\\frac{2(\\frac{1}{3})}{1-\\frac{1}{9}}$  =  $\\frac{3}{4}$ \n<br/><br/> $\\therefore$  tan( $\\alpha$  + 2 $\\beta$ ) =  $\\frac{tan\\alpha+tan2\\beta}{1-tan\\alpha.tan2\\beta}$ \n<br/><br/>=  $\\frac{\\frac{1}{7}+\\frac{3}{4}}{1-\\frac{1}{7}.\\frac{3}{4}}$ \n<br/><br/>=  $\\frac{25}{25}$  = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{\\sqrt{2}sin\\alpha}{\\sqrt{1+cos2\\alpha}}=\\frac{1}{7}",
@@ -2474,7 +2475,7 @@
         "\\frac{\\sqrt{2}sin\\alpha}{\\sqrt{2}cos\\alpha}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:53.842879"
     },
@@ -2520,7 +2521,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=\\sum_{n=0}^{\\infty}(-1)^{n}tan^{2n}\\theta$ \n<br/><br/>= 1 – tan<sup>2</sup> $\\theta$  + tan<sup>2</sup> 4 $\\theta$  + ...\n<br/><br/>=  $\\frac{1}{1+tan^{2}\\theta}$  = cos<sup>2</sup>  $\\theta$  ....(1)\n<br/><br/> $y=\\sum_{n=0}^{\\infty}cos^{2n}\\theta$ \n<br/><br/>=  1 + cos<sup>2</sup>\n $\\theta$  + cos<sup>4</sup>\n $\\theta$  + cos<sup>6</sup>\n $\\theta$  + ....\n<br/><br/>=  $\\frac{1}{1-cos^{2}\\theta}$  =  $\\frac{1}{sin^{2}\\theta}$ \n<br/><br/> $\\Rightarrow$  sin<sup>2</sup>  $\\theta$  =  $\\frac{1}{y}$  ...(2)\n<br/><br/>Adding (1) and (2), we get, \n<br/><br/>x +  $\\frac{1}{y}$  = sin<sup>2</sup>  $\\theta$  + cos<sup>2</sup>  $\\theta$ \n<br/><br/> $\\Rightarrow$  x +  $\\frac{1}{y}$  = 1\n<br/><br/> $\\Rightarrow$  y(1 – x) = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\sum_{n=0}^{\\infty}(-1)^{n}tan^{2n}\\theta",
@@ -2531,7 +2532,7 @@
         "\\frac{1}{sin^{2}\\theta}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:46.251154"
     },
@@ -2577,7 +2578,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $cos^{3}(\\frac{\\pi}{8})$  $cos(\\frac{3\\pi}{8})$ + $sin^{3}(\\frac{\\pi}{8})$  $sin(\\frac{3\\pi}{8})$ \n<br/><br/>=  $cos^{3}(\\frac{\\pi}{8})sin(\\frac{\\pi}{8})+sin^{3}(\\frac{\\pi}{8})cos(\\frac{\\pi}{8})$ \n<br/><br/>=  $sin(\\frac{\\pi}{8})cos(\\frac{\\pi}{8})[cos^{2}(\\frac{\\pi}{8})+sin^{2}(\\frac{\\pi}{8})]$ \n<br/><br/>=  $sin(\\frac{\\pi}{8})cos(\\frac{\\pi}{8})$   $\\times$  1\n<br/><br/>=  $\\frac{1}{2} \\times 2sin(\\frac{\\pi}{8})cos(\\frac{\\pi}{8})$ \n<br/><br/>=  $\\frac{1}{2}sin(\\frac{\\pi}{4})$ \n<br/><br/>=  $\\frac{1}{2\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{3}(\\frac{\\pi}{8})",
@@ -2588,7 +2589,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:46.279120"
     },
@@ -2634,7 +2635,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We will use here those two formulas,\n<br/><br/>sin<sup>2</sup>  $\\theta$  =  $\\frac{1-cos2\\theta}{2}$  and cos<sup>2</sup>  $\\theta$  =  $\\frac{1+cos2\\theta}{2}$ \n<br/><br/>L = sin<sup>2</sup> $(\\frac{\\pi}{16})$  - sin<sup>2</sup> $(\\frac{\\pi}{8})$ \n<br/><br/> $\\Rightarrow$  L =  $(\\frac{1-cos(\\frac{\\pi}{8})}{2})$  -  $(\\frac{1-cos(\\frac{\\pi}{4})}{2})$ \n<br/><br/> $\\Rightarrow$  L =  $\\frac{1}{2}(cos(\\frac{\\pi}{4})-cos(\\frac{\\pi}{8}))$ \n<br/><br/> $\\Rightarrow$  L =  $\\frac{1}{2\\sqrt{2}}-\\frac{1}{2}cos(\\frac{\\pi}{8})$ \n<br/><br/>M = cos<sup>2</sup> $(\\frac{\\pi}{16})$  - sin<sup>2</sup> $(\\frac{\\pi}{8})$ \n<br/><br/> $\\Rightarrow$  M =  $(\\frac{1+cos(\\frac{\\pi}{8})}{2})$  -  $(\\frac{1-cos(\\frac{\\pi}{4})}{2})$ \n<br/><br/> $\\Rightarrow$  M =  $\\frac{1}{2\\sqrt{2}}+\\frac{1}{2}cos\\frac{\\pi}{8}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{\\pi}{16})",
@@ -2645,7 +2646,7 @@
         "(\\frac{1-cos(\\frac{\\pi}{4})}{2})"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:45.347866"
     },
@@ -2691,7 +2692,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->sin 10º sin30º sin50º sin70º\n<br/><br/>= sin30º sin50º sin 10º sin70º\n<br/><br/>=  $\\frac{1}{2}$  [ sin50º sin 10º sin70º ]\n<br/><br/>=  $\\frac{1}{2}$  [ sin(60º - 10º)  sin 10º sin(60º + 10º) ]\n<br/><br/>=  $\\frac{1}{2}$  [  $\\frac{1}{4}sin$ 3(10º) ]\n<br/><br/>=  $\\frac{1}{2}$  [  $\\frac{1}{4} \\times \\frac{1}{2}$ ]\n<br/><br/>=  $\\frac{1}{16}$ \n<br/><br/><b>Note :</b>\n<br/><br/>  $sin(60^{\\circ}-A)sinAsin(60^{\\circ}-A)=\\frac{1}{4}sin3A$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -2701,7 +2702,7 @@
         "sin(60^{\\circ}-A)sinAsin(60^{\\circ}-A)=\\frac{1}{4}sin3A"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:47.056781"
     },
@@ -2747,7 +2748,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $cos\\frac{\\pi}{2^{2}}.cos\\frac{\\pi}{2^{3}}.....cos\\frac{\\pi}{2^{10}}.sin\\frac{\\pi}{2^{10}}$ \n<br/><br/>Let  $\\frac{\\pi}{2^{10}}=\\theta$ \n<br/><br/> $\\therefore$   $\\frac{\\pi}{2^{9}}=2\\theta$ \n<br/><br/>  $\\frac{\\pi}{2^{8}}=2^{2}\\theta$ \n<br/><br/>  $\\frac{\\pi}{2^{7}}=2^{3}\\theta$ \n<br/>.\n<br/>.\n<br/><br/> $\\frac{\\pi}{2^{2}}=2^{8}\\theta$ \n<br/><br/>So given term becomes,\n<br/><br/> $cos2^{8}\\theta.cos2^{7}\\theta.....cos\\theta$  $.sin\\frac{\\pi}{2^{10}}$ \n<br/><br/>=  $(cos\\theta.cos2\\theta......cos2^{8}\\theta)sin\\frac{\\pi}{2^{10}}$ \n<br/><br/>=  $\\frac{sin2^{9}\\theta}{2^{9}sin\\theta}.sin\\frac{\\pi}{2^{10}}$ \n<br/><br/>=  $\\frac{sin2^{9}(\\frac{\\pi}{2^{10}})}{2^{9}sin\\frac{\\pi}{2^{10}}}.sin\\frac{\\pi}{2^{10}}$ \n<br/><br/>=  $\\frac{sin(\\frac{\\pi}{2})}{2^{9}}$ \n<br/><br/>=  $\\frac{1}{2^{9}}$  =  $\\frac{1}{512}$ \n<br/><br/><b>Note :</b>\n<br/><br/> $(cos\\theta.cos2\\theta......cos2^{n-1}\\theta)$  =  $\\frac{sin2^{n}\\theta}{2^{n}sin\\theta}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2^{9}}=2\\theta",
@@ -2758,7 +2759,7 @@
         ".sin\\frac{\\pi}{2^{10}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:48.330820"
     },
@@ -2804,7 +2805,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->cos<sup>2</sup>10° – cos10°cos50° + cos<sup>2</sup>50°\n<br/><br/>=  $\\frac{1}{2}$ [ 2cos<sup>2</sup>10° – 2cos10°cos50° + 2cos<sup>2</sup>50°]\n<br/><br/>=  $\\frac{1}{2}$ [ 1 + cos20° - cos60° - cos40° + 1 + cos100°]\n<br/><br/>=  $\\frac{1}{2}$ [ 2 -  $\\frac{1}{2}$  + cos20° + cos100° - cos40°]\n<br/><br/>=  $\\frac{1}{2}$ [  $\\frac{3}{2}$  + 2cos60°cos40° - cos40°]\n<br/><br/>=  $\\frac{1}{2}$ [  $\\frac{3}{2}$  + cos40° - cos40°]\n<br/><br/>=  $\\frac{3}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -2812,7 +2813,7 @@
         "\\frac{3}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:47.082435"
     },
@@ -2858,7 +2859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, \n<br/><br/>3(sin $\\theta$   $-$  cos $\\theta$ )<sup>4</sup> + 6(sin $\\theta$  + cos $\\theta$ )<sup>2</sup> + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  3[(sin $\\theta$   $-$  cos $\\theta$ )<sup>2</sup>]<sup>2</sup> + 6 (sin<sup>2</sup> $\\theta$  + cos<sup>2</sup> $\\theta$  + 2sin $\\theta$ cos $\\theta$ ) + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  3[sin<sup>2</sup> $\\theta$  + cos<sup>2</sup> $\\theta$   $-$ 2sin $\\theta$ cos $\\theta$ ]<sup>2</sup> + 6(1 + sin2 $\\theta$ ) + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  3(1  $-$  sin2 $\\theta$ )<sup>2</sup> + 6(1 + sin2 $\\theta$ ) + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  3 (1  $-$  2 sin2 $\\theta$  + sin<sup>2</sup>2 $\\theta$ ) + 6 + 6sin2 $\\theta$  + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  3  $-$  6sin2 $\\theta$  + 3sin<sup>2</sup>2 $\\theta$  + 6 + 6sin2 $\\theta$  + 4sin<sup>6</sup> $\\theta$ \n<br/><br/>=  9 + 3sin<sup>2</sup>2 $\\theta$  + 4 sin<sup>6</sup> $\\theta$ \n<br/><br/>=  9 + 3(2sin $\\theta$ cos $\\theta$ )<sup>2</sup> + 4(1  $-$  cos<sup>2</sup> $\\theta$ )<sup>3</sup>\n<br/><br/>= 9 + 12sin<sup>2</sup> $\\theta$  cos<sup>2</sup> $\\theta$  + 4 (1  $-$  cos<sup>6</sup> $\\theta$   $-$  3cos<sup>2</sup> $\\theta$  + 3cos<sup>4</sup> $\\theta$ )\n<br/><br/>=  13 + 12 (1  $-$  cos<sup>2</sup> $\\theta$   $-$  4cos<sup>6</sup> $\\theta$   $-$  12cos $\\theta$  + 12 cos<sup>4</sup> $\\theta$ \n<br/><br/>= 13 + 12 cos<sup>2</sup> $\\theta$   $-$  12 cos<sup>4</sup> $\\theta$   $-$  4cos<sup>6</sup> $\\theta$   $-$  12 cos<sup>2</sup> $\\theta$  + 12 cos<sup>4</sup> $\\theta$ \n<br/><br/>= 13  $-$  4 cos<sup>6</sup> $\\theta$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta \\in (\\frac{\\pi}{4},\\frac{\\pi}{2})",
@@ -2869,7 +2870,7 @@
         "= 3(1"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:48.360434"
     },
@@ -2915,7 +2916,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $0&lt;\\alpha&lt;\\frac{\\pi}{4}$ \n<br/><br/>and  $0&lt;\\beta&lt;\\frac{\\pi}{4}$ \n<br/><br/> $\\therefore$   $0&gt;-\\beta&gt;-\\frac{\\pi}{4}$ \n<br/><br/> $\\therefore$   $0&lt;\\alpha+\\beta&lt;\\frac{\\pi}{2}$ \n<br/><br/>and  $-\\frac{\\pi}{4}&lt;\\alpha-\\beta&lt;\\frac{\\pi}{4}$ \n<br/><br/>As cos( $\\alpha$  +  $\\beta$ ) = 3/5\n<br/><br/>so  $tan(\\alpha+\\beta)=\\frac{4}{3}$ \n<br/><br/>As sin(  $\\alpha$  -  $\\beta$ ) = 5/13\n<br/><br/>so  $tan(\\alpha-\\beta)=\\frac{5}{12}$ \n<br/><br/>Now tan(2 $\\alpha$ ) = tan( $\\alpha$  +  $\\beta$  +  $\\alpha$  -  $\\beta$ )\n<br/><br/>=  $\\frac{tan(\\alpha+\\beta)+tan(\\alpha-\\beta)}{1-tan(\\alpha+\\beta)tan(\\alpha-\\beta)}$ \n<br/><br/>=  $\\frac{\\frac{4}{3}+\\frac{5}{12}}{1-\\frac{4}{3} \\times \\frac{5}{12}}$  =  $\\frac{63}{16}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{4}",
@@ -2926,7 +2927,7 @@
         "-\\frac{\\pi}{4}<\\alpha-\\beta<\\frac{\\pi}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:47.105012"
     },
@@ -2972,14 +2973,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->y = sinx.sin(x+2) - sin<sup>2</sup>(x+1)<br/><br/>\n $\\Rightarrow \\frac{1}{2}{2sin(x+2)sinx-2sin^{2}(x+1)}$ <br/><br/>\n $\\Rightarrow \\frac{1}{2}{cos2-cos(2x+2)+cos(2x+2)-1}=-sin^{2}1&lt;0$ <br/><br/>\nHence the line passes through III and IV quadrant<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow \\frac{1}{2}{2sin(x+2)sinx-2sin^{2}(x+1)}",
         "\\Rightarrow \\frac{1}{2}{cos2-cos(2x+2)+cos(2x+2)-1}=-sin^{2}1<0"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:46.304038"
     },
@@ -3025,7 +3026,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->y = 3cos $\\theta$  + 5  $(sin\\theta\\frac{\\sqrt{3}}{2}-cos\\theta\\frac{1}{2})$ \n<br/><br/> $\\frac{5\\sqrt{3}}{2}$  sin $\\theta$  +  $\\frac{1}{2}$ cos $\\theta$ \n<br/><br/>y<sub>max</sub> =  $\\sqrt{\\frac{75}{4}+\\frac{1}{4}}$  =  $\\sqrt{19}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "(\\theta-\\frac{\\pi}{6})",
@@ -3035,7 +3036,7 @@
         "\\sqrt{\\frac{75}{4}+\\frac{1}{4}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:47.130015"
     },
@@ -3081,7 +3082,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that, \n<br/><br/> $5(tan^{2}x-cos^{2}x)=2cos2x+9$ \n<br/><br/> $\\Rightarrow 5(\\frac{sin^{2}x}{cos^{2}x}-cos^{2}x)=2(2cos^{2}x-1)+9$ \n<br/><br/>Let  $cos^{2}x=t,$  then we have \n<br/><br/> $5(\\frac{1-t}{t}-t)=2(2t-1)+9$ \n<br/><br/> $\\Rightarrow 5(\\frac{1-t-t^{2}}{t})=4t-2+9$ \n<br/><br/> $\\Rightarrow 5-5t-5t^{2}=4t^{2}+7t$ \n<br/><br/> $\\Rightarrow 9t^{2}+12t-5=0$ \n<br/><br/> $\\Rightarrow 9t^{2}+15t-3t-5=0$ \n<br/><br/> $\\Rightarrow 3t(3t+5)-1(3t+5)=0$ \n<br/><br/> $\\Rightarrow (3t+5)(3t-1)=0$ \n<br/><br/> $\\therefore$   $t=\\frac{1}{3}$  and  $t=-\\frac{5}{3}$ \n<br/><br/>If  $t=-\\frac{5}{3}$   then  $cos^{2}x$  is negative \n<br/><br/>So ,  $t$  can not be  $-\\frac{5}{3}$ .\n<br/><br/>So, correct value of  $t=\\frac{1}{3}$  then  $cos^{2}x=t=\\frac{1}{3}$ \n<br/><br/> $\\therefore$   $cos4x$ \n<br/><br/> $=2cos^{2}2x-1$ \n<br/><br/> $=2[2cos^{2}x-1]^{2}-1$ \n<br/><br/> $=2.[2.\\frac{1}{3}-1]^{2}-1$ \n<br/><br/> $=2.(-\\frac{1}{3})^{2}-1$ \n<br/><br/> $=\\frac{2}{9}-1$ \n<br/><br/> $=-\\frac{7}{9}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "5(tan^{2}x-cos^{2}x)=2cos2x+9",
@@ -3092,7 +3093,7 @@
         "\\Rightarrow 5-5t-5t^{2}=4t^{2}+7t"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:48.388381"
     },
@@ -3138,7 +3139,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,\n<br/><br/>4 +  $\\frac{1}{2}$  sin<sup>2</sup> 2x  $-$  2cos<sup>4</sup> x\n<br/><br/>= 4 +  $\\frac{1}{2}$  (2sinx cosx)<sup>2</sup>  $-$  2cos<sup>4</sup>x\n<br/><br/>= 4 +  $\\frac{1}{2}$   $\\times$  4 sin<sup>2</sup>x cos<sup>2</sup>x  $-$  2cos<sup>4</sup> x\n<br/><br/>= 4 + 2 (1  $-$  cos<sup>2</sup>x) cos<sup>2</sup>x  $-$  2cos<sup>4</sup> x\n<br/><br/>= 4 + 2 cos<sup>2</sup>x  $-$  4cos<sup>4</sup>x\n<br/><br/>=  $-$  4  ${cos$ <sup>4</sup>x  $-$   $\\frac{cos^{2}x}{2}-1}$ \n<br/><br/>=  $-$  4  ${cos$ <sup>4</sup>x  $-$  2 .   $\\frac{1}{4}$  . cos<sup>2</sup>x +  $\\frac{1}{16}-\\frac{1}{16}-1}$ \n<br/><br/>=  $-$  4  ${(cos^{2}x-\\frac{1}{4})^{2}-\\frac{17}{16}}$ \n<br/><br/>We know, \n<br/><br/>O  $\\le$  cos<sup>2</sup>x  $\\le$  1\n<br/><br/> $\\Rightarrow$     $-\\frac{1}{4}$   $\\le$ cos<sup>2</sup>x  $-\\frac{1}{4}$   $\\le$   $\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow$    O  $\\le$   $(cos^{2}x-\\frac{1}{4})^{2}$   $\\le$   $\\frac{9}{16}$ \n<br/><br/> $\\Rightarrow$     $-$   $\\frac{17}{16}$   $\\le$   $(cos^{2}x-\\frac{1}{4})^{2}$   $-$   $\\frac{17}{16}$   $\\le$   $\\frac{9}{16}$   $-$   $\\frac{17}{16}$ \n<br/><br/> $\\Rightarrow$      $-$   $\\frac{17}{16}$   $\\le$   $(cos^{2}x-\\frac{1}{4})^{2}$   $-$   $\\frac{17}{16}$   $\\le$   $-$   $\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$     $\\frac{17}{4}$   $\\ge$   $-$  4  ${(cos^{2}x-\\frac{1}{4})^{2}-\\frac{17}{16}} \\ge 2$ \n<br/><br/> $\\therefore$    Maximum value, M =   $\\frac{17}{4}$ \n<br/><br/>      Minimum value, m =  $2$ \n<br/><br/> $\\therefore$    M  $-$  m =  $\\frac{17}{4}$   $-$   $2$  =  $\\frac{9}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -3149,7 +3150,7 @@
         "4cos 4 x ="
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:48.415327"
     },
@@ -3195,7 +3196,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $f_{k}(x)=\\frac{1}{k}(sin^{k}x+cos^{k}.x)$ \n<br/><br/>Consider \n<br/><br/> $f_{4}(x)-f_{6}(x)$ \n<br/><br/> $=$   $\\frac{1}{4}(sin^{4}x+cos^{4}x)-\\frac{1}{6}(sin^{6}x+cos^{6}x)$ \n<br/><br/> $=\\frac{1}{4}[1-2sin^{2}xcos^{2}x]-\\frac{1}{6}[1-3sin^{2}xcos^{2}x]$ \n<br/><br/> $=\\frac{1}{4}-\\frac{1}{6}=\\frac{1}{12}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "f_{k}(x)=\\frac{1}{k}(sin^{k}x+cos^{k}x)",
@@ -3206,7 +3207,7 @@
         "=\\frac{1}{4}-\\frac{1}{6}=\\frac{1}{12}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:49.626040"
     },
@@ -3252,7 +3253,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given expression can be written as \n<br/><br/> $\\frac{sinA}{cosA} \\times \\frac{sinA}{sinA-cosA}+\\frac{cosA}{sinA} \\times \\frac{cosA}{cosA-sinA}$ \n<br/><br/>(As  $tanA=\\frac{sinA}{cosA}$  and  $cotA=\\frac{cosA}{sinA}$  )\n<br/><br/> $=\\frac{1}{sinA-cosA}{\\frac{sin^{3}A-cos^{3}A}{cosAsinA}}$ \n<br/><br/> $=\\frac{sin^{2}A+sinAcosA+cos^{2}A}{sinAcosA}$ \n<br/><br/> $=1+secAcosecA$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{tanA}{1-cotA}+\\frac{cotA}{1-tanA}",
@@ -3260,7 +3261,7 @@
         "=1+secAcosecA"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:49.652729"
     },
@@ -3306,7 +3307,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=sin^{2}x+cos^{4}x$ \n<br/><br/> $=sin^{2}x+cos^{2}x(1-sin^{2}x)$ \n<br/><br/> $=sin^{2}x+cos^{2}x-\\frac{1}{4}(2sinx.cosx)^{2}$ \n<br/><br/> $=1-\\frac{1}{4}sin^{2}(2x)$ \n<br/><br/>Now  $0 \\le sin^{2}(2x) \\le 1$ \n<br/><br/> $\\Rightarrow 0 \\ge -\\frac{1}{4}sin^{2}(2x) \\ge -\\frac{1}{4}$ \n<br/><br/> $\\Rightarrow 1 \\ge 1-\\frac{1}{4}sin^{2}(2x) \\ge 1-\\frac{1}{4}$ \n<br/><br/> $\\Rightarrow 1 \\ge A \\ge \\frac{3}{4}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "A=sin^{2}x+cos^{4}x,",
@@ -3317,7 +3318,7 @@
         "\\Rightarrow 0 \\ge -\\frac{1}{4}sin^{2}(2x) \\ge -\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:47:49.677209"
     },
@@ -3363,7 +3364,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $cos(\\alpha+\\beta)=\\frac{4}{5} \\Rightarrow tan(\\alpha+\\beta)=\\frac{3}{4}$ \n<br/><br/> $sin(\\alpha-\\beta)=\\frac{5}{13} \\Rightarrow tan(\\alpha-\\beta)=\\frac{5}{12}$ \n<br/><br/> $tan2\\alpha=tan[(\\alpha+\\beta)+(\\alpha-\\beta)]$ \n<br/><br/> $=\\frac{\\frac{3}{4}+\\frac{5}{12}}{1-\\frac{3}{4}.\\frac{5}{12}}=\\frac{56}{33}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "cos(\\alpha+\\beta)=\\frac{4}{5}",
@@ -3374,7 +3375,7 @@
         "tan2\\alpha=tan[(\\alpha+\\beta)+(\\alpha-\\beta)]"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:49.710705"
     },
@@ -3422,7 +3423,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/NsadawwaS2h3NirJH/tKh7VlaUvcffKgIxHbs77BOEdJKrc/nETh1WaoX7vL4KhWy9FT4k/uploadfile.jpg"
       ],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Easy",
       "key_formulas": [
         "cos\\alpha+cos\\beta+cos\\gamma=0",
@@ -3430,7 +3431,7 @@
         "cos(\\beta-\\gamma)+cos(\\gamma-\\alpha)+cos(\\alpha-\\beta)=-\\frac{3}{2},"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:51.084711"
     },
@@ -3476,7 +3477,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $cosx+sinx=\\frac{1}{2}$  <br/><br/>\n $\\Rightarrow (cosx+sinx)^{2}=\\frac{1}{4}$ <br/><br/>\n $\\Rightarrow cos^{2}x+sin^{2}x+2cosxsinx=\\frac{1}{4}$ <br/>\n $[ \\because cos^{2}x+sin^{2}x=1and2cosxsinx=sin2x]$ \n<br/><br/> $\\Rightarrow 1+sin2x=\\frac{1}{4}$ \n<br/><br/> $\\Rightarrow sin2x=-\\frac{3}{4},$  so  $x$  is obtuse and \n<br/><br/> $\\frac{2tanx}{1+tan^{2}x}=-\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow 3tan^{2}x+8tanx+3=0$ \n<br/><br/> $\\therefore$   $tanx=\\frac{-8 \\pm \\sqrt{64-36}}{6}$ \n<br/><br/> $=\\frac{-4 \\pm \\sqrt{7}}{3}$ \n<br/><br/>as  $tanx&lt;0$ \n<br/><br/> $\\therefore$   $tanx=\\frac{-4-\\sqrt{7}}{3}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps",
       "difficulty": "Medium",
       "key_formulas": [
         "cosx+sinx=\\frac{1}{2},",
@@ -3487,7 +3488,7 @@
         "\\Rightarrow 1+sin2x=\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Applied Cases, Reactions & Traps"
       ],
       "crawled_at": "2026-09-20T15:47:51.113277"
     },
@@ -3533,7 +3534,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $sin\\alpha+sin\\beta=-\\frac{21}{65}$      .........(1) <br/><br/>and  $cos\\alpha+cos\\beta=-\\frac{27}{65}$   ........(2)\n<br/><br/>Square and add (1) and (2) you will get\n<br/><br/> $2(1+cos\\alpha cos\\beta+sin\\alpha sin\\beta)$  $=\\frac{(21)^{2}+(27)^{2}}{(65)^{2}}$ \n<br/><br/> $\\Rightarrow$   $2(1+cos(\\alpha-\\beta))=\\frac{1170}{(65)^{2}}$ \n<br/><br/> $\\Rightarrow$   $4cos^{2}\\frac{\\alpha-\\beta}{2}$  $=\\frac{1170}{(65)^{2}}$ \n<br/><br/> $\\Rightarrow$   $cos^{2}\\frac{\\alpha-\\beta}{2}$  $=\\frac{9}{130}$ \n<br/><br/> $\\therefore$   $cos\\frac{\\alpha-\\beta}{2}= \\pm \\frac{3}{\\sqrt{130}}$ \n<br/><br/>[ But  $cos\\frac{\\alpha-\\beta}{2} \\ne +\\frac{3}{\\sqrt{130}}$  <br/><br/>as  $\\pi&lt;\\alpha-\\beta&lt;3\\pi$ \n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{2}&lt;\\frac{\\alpha-\\beta}{2}&lt;\\frac{3\\pi}{2}$ \n<br/><br/> $\\Rightarrow$   $cos\\frac{\\alpha-\\beta}{2}&lt;0$  ]\n<br/><br/>So  $cos\\frac{\\alpha-\\beta}{2}=-\\frac{3}{\\sqrt{130}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "sin\\alpha+sin\\beta=-\\frac{21}{65}",
@@ -3544,7 +3545,7 @@
         "4cos^{2}\\frac{\\alpha-\\beta}{2}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:51.137665"
     },
@@ -3590,7 +3591,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $u=\\sqrt{a^{2}cos^{2}\\theta+b^{2}sin^{2}\\theta}$  $+\\sqrt{a^{2}sin^{2}\\theta+b^{2}cos^{2}\\theta}$ \n<br/><br/> $\\therefore$   $u^{2}=a^{2}cos^{2}\\theta+b^{2}sin^{2}\\theta+a^{2}sin^{2}\\theta+b^{2}cos^{2}\\theta$ \n<br/>               $+2\\sqrt{(a^{2}cos^{2}\\theta+b^{2}sin^{2}\\theta)} \\times \\sqrt{(a^{2}sin^{2}\\theta+b^{2}cos^{2}\\theta)}$ \n<br/><br/> $\\Rightarrow u^{2}=$   $a^{2}+b^{2}$  $+$  $2\\sqrt{(a^{4}+b^{4})cos^{2}\\theta sin^{2}\\theta+a^{2}b^{2}(cos^{4}\\theta+sin^{4}\\theta)}$ \n<br/><br/> $\\Rightarrow u^{2}=$   $a^{2}+b^{2}$  $+$  $2\\sqrt{(a^{4}+b^{4})cos^{2}\\theta sin^{2}\\theta+a^{2}b^{2}(1-2cos^{2}\\theta sin^{2}\\theta)}$ \n<br/><br/> $\\Rightarrow u^{2}=$   $a^{2}+b^{2}$  $+$  $2\\sqrt{(a^{4}+b^{4}-2a^{2}b^{2})cos^{2}\\theta sin^{2}\\theta+a^{2}b^{2}}$ \n<br/><br/> $\\Rightarrow u^{2}=$   $a^{2}+b^{2}$  $+$  $2\\sqrt{(a^{2}-b^{2})^{2}\\frac{(2cos\\theta sin\\theta)^{2}}{4}+a^{2}b^{2}}$ \n<br/><br/> $\\Rightarrow u^{2}=$   $a^{2}+b^{2}$  $+$  $2\\sqrt{(a^{2}-b^{2})^{2}\\frac{sin^{2}2\\theta}{4}+a^{2}b^{2}}$ \n<br/><br/>We know  $0 \\le sin^{2}2\\theta \\le 1$ \n<br/><br/> $\\therefore$   $0 \\le (a^{2}-b^{2})^{2}\\frac{sin^{2}2\\theta}{4} \\le \\frac{(a^{2}-b^{2})^{2}}{4}$ \n<br/><br/> $\\Rightarrow$   $a^{2}b^{2} \\le$   $(a^{2}-b^{2})^{2}\\frac{sin^{2}2\\theta}{4}+a^{2}b^{2}$  $\\le \\frac{(a^{2}-b^{2})^{2}}{4}+a^{2}b^{2}$ \n<br/><br/> $\\therefore$  Min value of  $u^{2}=a^{2}+b^{2}$   $+2\\sqrt{a^{2}b^{2}}$  =  $(a+b)^{2}$ \n<br/><br/>and Max value of  $u^{2}=a^{2}+b^{2}$   $+2\\sqrt{\\frac{(a^{2}-b^{2})^{2}}{4}+a^{2}b^{2}}$ \n<br/><br/> $=a^{2}+b^{2}$   $+2\\sqrt{\\frac{(a^{2}-b^{2})^{2}+4a^{2}b^{2}}{4}}$ \n<br/><br/> $=a^{2}+b^{2}$   $+2\\sqrt{\\frac{(a^{2}+b^{2})^{2}}{4}}$ \n<br/><br/> $=a^{2}+b^{2}$   $+a^{2}+b^{2}$ \n<br/><br/> $=2(a^{2}+b^{2})$ \n<br/><br/>Max of  $u^{2}$  - Min of  $u^{2}$  =  $2(a^{2}+b^{2})$  -  $(a+b)^{2}$ \n<br/><br/>=  $2(a^{2}+b^{2})$  -  $(a^{2}+b^{2}+2ab)$ \n<br/><br/>=  $\\sqrt{\\frac{=2(a^{2}+b^{2}-2ab)}{4}}$ \n<br/><br/>=  $(a-b)^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Trigonometric Ratio And Identites - Core Application",
+      "topic_tag": "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes",
       "difficulty": "Medium",
       "key_formulas": [
         "+\\sqrt{a^{2}sin^{2}\\theta+b^{2}cos^{2}\\theta}",
@@ -3601,7 +3602,7 @@
         "2\\sqrt{(a^{2}-b^{2})^{2}\\frac{sin^{2}2\\theta}{4}+a^{2}b^{2}}"
       ],
       "key_concepts": [
-        "Trigonometric Ratio And Identites - Core Application"
+        "Trigonometric Ratio And Identites — Standard Calculations & Problem Archetypes"
       ],
       "crawled_at": "2026-09-20T15:47:51.161912"
     }
