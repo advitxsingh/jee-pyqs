@@ -23,11 +23,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=\\int \\frac{1}{Tan^{11/2}x} \\cdot sec^{8}xdx=\\int \\frac{(1+Tan^{2}x)^{3}sec^{2}x}{Tan^{11/2}x}dx \\\\ &amp; \\text{put}Tanx=t \\\\ &amp; \\frac{15p_{1}p_{2}p_{3}p_{4}}{q_{1}q_{2}q_{3}q_{4}}=\\frac{15(2 \\times 6 \\times 6 \\times 2)}{9 \\times 5 \\times 1 \\times 3}=16 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:00.279662"
     },
@@ -52,13 +52,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int (\\frac{1}{x^{2}}+\\frac{1}{x^{4}})(\\frac{3}{x}+\\frac{1}{x^{3}})^{\\frac{1}{23}}dx \\\\ &amp; \\text{using}t=\\frac{3}{x}+\\frac{1}{x^{3}} \\Rightarrow dt=-3(\\frac{1}{x^{2}}+\\frac{1}{x^{4}})dx \\\\ &amp; \\int \\frac{t^{1/23}dt}{-3}=\\frac{t^{24/23}}{(\\frac{24}{23})(-3)}+C \\\\ &amp; \\Rightarrow \\alpha=23\\beta=-1\\gamma=-3 \\\\ &amp; \\alpha+\\beta+\\gamma=19 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Standard Integrals, Substitution & By Parts",
+      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to ___________."
       ],
       "key_concepts": [
-        "Standard Integrals, Substitution & By Parts"
+        "Partial Fractions & Special Algebraic Integrals"
       ],
       "crawled_at": "2026-09-20T15:41:00.315115"
     },
@@ -83,13 +83,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\sqrt{1+x^{2}}+x=sec\\theta+tan\\theta=t \\\\ &amp; \\sqrt{1+x^{2}}=sec\\theta=\\frac{t^{2}+1}{2t} \\\\ &amp; x=tan\\theta=\\frac{t^{2}-1}{2t} \\end{aligned}$ </p>\n<p>The given expression becomes</p>\n<p> $\\frac{1}{m}t^{2}(n \\cdot \\frac{t^{2}+1}{2t}-\\frac{t^{2}-1}{2t})=\\frac{t^{n-1}}{2m}((n-1)t^{2}+n+1)$ </p>\n<p>By compare</p>\n<p> $\\begin{aligned} &amp; n=19 \\\\ &amp; m=360 \\\\ &amp; \\therefore n+m=379 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to _________ ."
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:00.354430"
     },
@@ -145,14 +145,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; I=\\int \\frac{1}{\\sqrt[5]{}}dx \\\\ &amp; \\frac{x+3}{x-1}=t \\Rightarrow dx=\\frac{-4}{(t-1)^{2}}dt \\Rightarrow x=(\\frac{3+t}{t-1}) \\\\ &amp; \\Rightarrow (x-1)^{4}(x+3)^{6}=(x-1)^{5}(x+3)^{5}(\\frac{x+3}{x-1}) \\\\ &amp; I=\\int \\frac{\\frac{-4}{(t-1)^{2}}dt}{t^{1/5}(\\frac{3+t}{t-1}-1)(\\frac{3+t}{t-3}+3)} \\\\ &amp; I=\\int \\frac{-4dt}{t^{1/5}(16t)}=\\frac{5}{4}(\\frac{x-1}{x+3})^{1/5}+c \\end{aligned}$ </p>\n<p>Comparing,</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow A=\\frac{5}{4},B=\\frac{1}{5},\\alpha=1,\\beta=1 \\\\ &amp; \\Rightarrow \\alpha+\\beta+20AB=1+1+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C",
         "is _________."
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:01.002720"
     },
@@ -208,7 +208,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $I=\\int \\sqrt{sec2x-1}dx=\\int \\sqrt{\\frac{1-cos2x}{cos2x}}dx$ </p>\n<p> $=\\int \\sqrt{\\frac{2sin^{2}x}{2cos^{2}x-1}}dx$ </p>\n<p>Let  $\\sqrt{2cos}x=t-\\sqrt{2}sinxdx=dt$ </p>\n<p> $I=\\int -\\frac{dt}{\\sqrt{t^{2}-1}}=-ln|t+\\sqrt{t^{2}-a^{2}}|+c$ </p>\n<p> $=-ln|\\sqrt{2}cosx+\\sqrt{2cos^{2}}x-1|+c$ </p>\n<p> $=-\\frac{1}{2}ln|2cos^{2}x+cos2x+2\\sqrt{2}\\sqrt{cos2x.cos^{2}x}|+c$ </p>\n<p> $=-\\frac{1}{2}ln|2cos2x+1+2\\sqrt{cos2x(1+cos2x)}|+c$ </p>\n<p> $=-\\frac{1}{2}ln|cos2x+\\frac{1}{2}+\\sqrt{cos2x(1+cos2x)}|+c$ </p>\n<p> $\\therefore$   $\\alpha=\\frac{-1}{2},\\beta=\\frac{1}{2}$ </p>\n<p> $\\therefore$   $\\beta-\\alpha=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ____________.",
@@ -219,7 +219,7 @@
         "=-\\frac{1}{2}ln|2cos^{2}x+cos2x+2\\sqrt{2}\\sqrt{cos2x.cos^{2}x}|+c"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:01.621907"
     },
@@ -244,7 +244,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}} \\\\ \\\\ &amp; x=\\frac{1}{t} \\\\ \\\\ &amp; =\\int \\frac{\\frac{-1}{t^{2}}dt}{\\frac{(3t^{2}+4)}{t^{2}}\\frac{\\sqrt{4t^{2}-3}}{t}} \\\\ \\\\ &amp; =\\int \\frac{-dt \\cdot t}{(3t^{2}+4)\\sqrt{4t^{2}-3}}:\\text{Put}4t^{2}-3=z^{2} \\\\ \\\\ &amp; =-\\frac{1}{4}\\int \\frac{zdz}{(3(\\frac{z^{2}+3}{4})+4)z} \\end{aligned}$ <br/><br/>\n $\\begin{aligned} &amp; =\\int \\frac{-dz}{3z^{2}+25}=-\\frac{1}{3}\\int \\frac{dz}{z^{2}+(\\frac{5}{\\sqrt{3}})^{2}} \\\\ \\\\ &amp; =-\\frac{1}{3}\\frac{\\sqrt{3}}{5}tan^{-1}(\\frac{\\sqrt{3}z}{5})+C \\\\ \\\\ &amp; =-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{4t^{2}-3})+C \\\\ \\\\ &amp; f(x)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{\\frac{4-3x^{2}}{x^{2}}})+C \\\\ \\\\ &amp; \\because f(0)=0 \\because c=\\frac{\\pi}{10\\sqrt{3}} \\end{aligned}$ <br/><br/> $\\begin{aligned} &amp; f(1)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5})+\\frac{\\pi}{10\\sqrt{3}} \\\\ \\\\ &amp; f(1)=\\frac{1}{5\\sqrt{3}}cot^{-1}(\\frac{\\sqrt{3}}{5})=\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{5}{\\sqrt{3}}) \\\\ \\\\ &amp; \\alpha=5:\\beta=\\sqrt{3} \\therefore \\alpha^{2}+\\beta^{2}=28 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}},|x|<\\frac{2}{\\sqrt{3}}",
@@ -253,7 +253,7 @@
         "\\alpha^{2}+\\beta^{2}"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:01.079296"
     },
@@ -314,7 +314,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{5x^{8}+7x^{6}}{(2x^{7}+x^{2}+1)^{2}}dx=\\int \\frac{5x^{8}+7x^{6}}{x^{14}(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ <br/><br/> $\\int \\frac{\\frac{5}{x^{6}}+\\frac{7}{x^{8}}}{(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ <br/><br/>put  $2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}=t$ <br/><br/> $\\Rightarrow -(\\frac{5}{x^{6}}+\\frac{7}{x^{8}})dx=dt$ <br/><br/> $\\int \\frac{-dt}{t^{2}}=\\frac{1}{t}+c$ <br/><br/> $\\Rightarrow f(x)=\\frac{1}{2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}}+C=\\frac{x^{7}}{2x^{7}+1+x^{2}}+C$ <br/><br/> $f(0)=0 \\Rightarrow C=0$ <br/><br/> $f(x)=\\frac{1}{4}=\\frac{1}{k}$ <br/><br/> $\\Rightarrow k=4$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\int \\frac{5x^{8}+7x^{6}}{(x^{2}+1+2x^{7})^{2}}dx,(x \\ge 0),f(0)=0",
@@ -325,7 +325,7 @@
         "f(x)=\\frac{1}{4}=\\frac{1}{k}"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:02.180939"
     },
@@ -422,7 +422,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2e^{x}+3e^{-x}=A(4e^{x}+7e^{-x})+B(4e^{x}-7e^{-x})+\\lambda$ <br/><br/>2 = 4A + 4B ; 3 = 7A  $-$  7B ;  $\\lambda$  = 0<br/><br/> $A+B=\\frac{1}{2}$ <br/><br/> $A-B=\\frac{3}{7}$ <br/><br/> $A=\\frac{1}{2}(\\frac{1}{2}+\\frac{3}{7})=\\frac{7+6}{28}=\\frac{13}{28}$ <br/><br/> $B=A-\\frac{3}{7}=\\frac{13}{28}-\\frac{3}{7}=\\frac{13-12}{28}=\\frac{1}{28}$ <br/><br/> $\\int \\frac{13}{28}dx+\\frac{1}{28}\\int \\frac{4e^{x}-7e^{-x}}{4e^{x}+7e^{-x}}dx$ <br/><br/>=  $\\frac{13}{28}x+\\frac{1}{28}ln|4e^{x}+7e^{-x}|+C$ <br/><br/> $u=\\frac{13}{2};v=\\frac{1}{2}$ <br/><br/> $\\Rightarrow$  u + v = 7<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         ", where C is a constant of integration, then u + v is equal to _____________.",
@@ -433,7 +433,7 @@
         "B=A-\\frac{3}{7}=\\frac{13}{28}-\\frac{3}{7}=\\frac{13-12}{28}=\\frac{1}{28}"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:41:01.737918"
     },
@@ -515,7 +515,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $I=\\int \\frac{dx}{cosx+\\sqrt{3}sinx}$ \n<br/><br/> $\\Rightarrow I=\\int \\frac{dx}{2[\\frac{1}{2}cosx+\\frac{\\sqrt{3}}{2}sinx]}$ \n<br/><br/> $=\\frac{1}{2}\\int \\frac{dx}{[sin\\frac{\\pi}{6}cosx+cos\\frac{\\pi}{6}sinx]}$ \n<br/><br/> $=\\frac{1}{2}.\\int \\frac{dx}{sin(x+\\frac{\\pi}{6})}$ \n<br/><br/> $\\Rightarrow I=\\frac{1}{2}.\\int cosec(x+\\frac{\\pi}{6})dx$ \n<br/><br/>But we know that \n<br/><br/> $\\int cosecxdx=log|(tanx/2)|+C$ \n<br/><br/> $\\therefore$   $I=\\frac{1}{2}.logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{dx}{cosx+\\sqrt{3}sinx}",
@@ -526,7 +526,7 @@
         "\\Rightarrow I=\\frac{1}{2}.\\int cosec(x+\\frac{\\pi}{6})dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:40:59.765227"
     },
@@ -629,7 +629,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{cosx-sinx}$ \n<br/><br/> $=\\int \\frac{dx}{\\sqrt{2}cos(x+\\frac{\\pi}{4})}$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}\\int sec(x+\\frac{\\pi}{4})dx$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{8})|+C$ \n<br/><br/> $[$  As  $\\int secxdx=log|tan(\\frac{\\pi}{4}+\\frac{x}{2})|$   $]$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{dx}{cosx-sinx}",
@@ -639,7 +639,7 @@
         "=\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:40:59.843413"
     },

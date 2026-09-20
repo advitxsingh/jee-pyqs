@@ -8,66 +8,66 @@
     "total_questions_site": 14,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:43:16.290970"
+    "analyzed_at": "2026-09-20T17:12:05.045092"
   },
   "concepts": [
     {
-      "id": 1600,
-      "chapter_slug": "kcet-permutations-and-combinations",
-      "name": "Combinations, Selection & Multinomial Partitioning",
-      "category": "Selections & Distribution",
-      "summary": "Combinatorial selection, Pascal identity $^n C_r + ^n C_{r-1} = ^{n+1} C_r$, distribution of identical items into distinct bins, and derangements.",
-      "standard_formulas": "^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}",
-      "exam_frequency": 9,
-      "frequency_tier": "High",
-      "common_traps": "Number of positive integral solutions ($x_i \\ge 1$) to $x_1 + x_2 + \\dots + x_r = n$ is $^{n-1} C_{r-1}$, whereas non-negative ($x_i \\ge 0$) is $^{n+r-1} C_{r-1}$.",
-      "tips_and_tricks": "Number of derangements of 4 items is $D_4 = 9$; for 5 items is $D_5 = 44$.",
-      "pyq_ids": [
-        9094,
-        9096,
-        9101,
-        9105,
-        9110,
-        9116,
-        9118,
-        9120,
-        9122
-      ]
-    },
-    {
-      "id": 1601,
+      "id": 2068,
       "chapter_slug": "kcet-permutations-and-combinations",
       "name": "Fundamental Principles & Permutations (Distinct & Identical)",
       "category": "Arrangements",
       "summary": "Multiplication and addition principles, linear permutations with repetitions, rank of words in dictionary, and circular arrangements.",
       "standard_formulas": "^n P_r = \\frac{n!}{(n-r)!}, \\quad \\text{Arrangements with duplicates: } \\frac{n!}{p! q! r!}, \\quad \\text{Circular: } (n-1)!",
-      "exam_frequency": 6,
-      "frequency_tier": "Moderate",
+      "exam_frequency": 11,
+      "frequency_tier": "High",
       "common_traps": "For circular permutations of necklaces/garlands where clockwise and anticlockwise arrangements are indistinguishable, divide by 2: $\\frac{(n-1)!}{2}$.",
       "tips_and_tricks": "Gap method: Place items that cannot be adjacent into the gaps created by the remaining unrestricted items.",
       "pyq_ids": [
         9092,
+        9096,
         9098,
         9101,
         9103,
+        9105,
         9107,
-        9113
+        9110,
+        9113,
+        9116,
+        9120
+      ]
+    },
+    {
+      "id": 2069,
+      "chapter_slug": "kcet-permutations-and-combinations",
+      "name": "Combinations, Selection & Multinomial Partitioning",
+      "category": "Selections & Distribution",
+      "summary": "Combinatorial selection, Pascal identity $^n C_r + ^n C_{r-1} = ^{n+1} C_r$, distribution of identical items into distinct bins, and derangements.",
+      "standard_formulas": "^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}",
+      "exam_frequency": 4,
+      "frequency_tier": "Moderate",
+      "common_traps": "Number of positive integral solutions ($x_i \\ge 1$) to $x_1 + x_2 + \\dots + x_r = n$ is $^{n-1} C_{r-1}$, whereas non-negative ($x_i \\ge 0$) is $^{n+r-1} C_{r-1}$.",
+      "tips_and_tricks": "Number of derangements of 4 items is $D_4 = 9$; for 5 items is $D_5 = 44$.",
+      "pyq_ids": [
+        9094,
+        9101,
+        9118,
+        9122
       ]
     }
   ],
   "synthesis": {
     "id": 79,
     "chapter_slug": "kcet-permutations-and-combinations",
-    "title": "Permutations and Combinations 2026 2 questions 3.33% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Permutations and Combinations 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 14 Previous Year Questions Analyzed (14 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **14** authentic KCET problems.\n- **Question Format Breakdown**: **14 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Combinations, Selection & Multinomial Partitioning | **9 PYQs** | Selections & Distribution |\n| **Moderate** | Fundamental Principles & Permutations (Distinct & Identical) | **6 PYQs** | Arrangements |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Combinations, Selection & Multinomial Partitioning (Selections & Distribution)\n- **Exam Weightage**: Tested in **9 PYQs** (High Yield)\n- **Conceptual Summary**: Combinatorial selection, Pascal identity $^n C_r + ^n C_{r-1} = ^{n+1} C_r$, distribution of identical items into distinct bins, and derangements.\n\n#### Standard Mathematical Formulation\n$$\n^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Number of positive integral solutions ($x_i \\ge 1$) to $x_1 + x_2 + \\dots + x_r = n$ is $^{n-1} C_{r-1}$, whereas non-negative ($x_i \\ge 0$) is $^{n+r-1} C_{r-1}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Number of derangements of 4 items is $D_4 = 9$; for 5 items is $D_5 = 44$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"$10$ distinct points are taken on a circle. Then using these points Statement I: The number of triangles that can be formed is $100$ Stateme...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"The number of four digit even number that can be formed using the digits $0,1,2$ and 3 without repetition is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6 ,...\"* — **Correct Answer: A**\n- **[2021 Shift] Q#3 (MCQ)**: *\"$A$ and $B$ are non-singleton sets and $n(A \\times B)=35$ . If $B⊂A$ , then $^{n(A)}C_{n(B)}$ is equal to...\"* — **Correct Answer: N/A**\n\n### 2.2 Fundamental Principles & Permutations (Distinct & Identical) (Arrangements)\n- **Exam Weightage**: Tested in **6 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Multiplication and addition principles, linear permutations with repetitions, rank of words in dictionary, and circular arrangements.\n\n#### Standard Mathematical Formulation\n$$\n^n P_r = \\frac{n!}{(n-r)!}, \\quad \\text{Arrangements with duplicates: } \\frac{n!}{p! q! r!}, \\quad \\text{Circular: } (n-1)!\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For circular permutations of necklaces/garlands where clockwise and anticlockwise arrangements are indistinguishable, divide by 2: $\\frac{(n-1)!}{2}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Gap method: Place items that cannot be adjacent into the gaps created by the remaining unrestricted items.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"How many ways can you arrange all the letters and numbers in \"KCET 2025\" which start with K and end with $5$ ?...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"$\\text{The number of diagonals that can be drawn in an octagon is}$...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6 ,...\"* — **Correct Answer: A**\n- **[2022 Shift] Q#2 (MCQ)**: *\"If all permutations of the letters of the word MASK are arranged in the order as in dictionary with or without meaning, which one of the fol...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Permutations and Combinations 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 14 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Combinations, Selection & Multinomial Partitioning** | $^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}$ | Standard SI units apply |\n| **Fundamental Principles & Permutations (Distinct & Identical)** | $^n P_r = \\frac{n!}{(n-r)!}, \\quad \\text{Arrangements with duplicates: } \\frac{n!}{p! q! r!}, \\quad \\text{Circular: } (n-1)!$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Permutations and Combinations 2026 2 questions 3.33% weightage\nBased on rigorous analysis of all 14 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Permutations and Combinations 2026 2 questions 3.33% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Permutations and Combinations Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Permutations and Combinations — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 14 Previous Year Questions Analyzed (14 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **14** authentic KCET problems.\n- **Question Format Breakdown**: **14 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Fundamental Principles & Permutations (Distinct & Identical) | **11 PYQs** | Arrangements |\n| **Moderate** | Combinations, Selection & Multinomial Partitioning | **4 PYQs** | Selections & Distribution |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Fundamental Principles & Permutations (Distinct & Identical) (Arrangements)\n- **Exam Weightage**: Tested in **11 PYQs** (High Yield)\n- **Conceptual Summary**: Multiplication and addition principles, linear permutations with repetitions, rank of words in dictionary, and circular arrangements.\n\n#### Standard Mathematical Formulation\n$$\n^n P_r = \\frac{n!}{(n-r)!}, \\quad \\text{Arrangements with duplicates: } \\frac{n!}{p! q! r!}, \\quad \\text{Circular: } (n-1)!\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: For circular permutations of necklaces/garlands where clockwise and anticlockwise arrangements are indistinguishable, divide by 2: $\\frac{(n-1)!}{2}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Gap method: Place items that cannot be adjacent into the gaps created by the remaining unrestricted items.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"How many ways can you arrange all the letters and numbers in \"KCET 2025\" which start with K and end with $5$ ?...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"The number of four digit even number that can be formed using the digits $0,1,2$ and 3 without repetition is...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"$\\text{The number of diagonals that can be drawn in an octagon is}$...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6 ,...\"* — **Correct Answer: A**\n\n### 2.2 Combinations, Selection & Multinomial Partitioning (Selections & Distribution)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Combinatorial selection, Pascal identity $^n C_r + ^n C_{r-1} = ^{n+1} C_r$, distribution of identical items into distinct bins, and derangements.\n\n#### Standard Mathematical Formulation\n$$\n^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Number of positive integral solutions ($x_i \\ge 1$) to $x_1 + x_2 + \\dots + x_r = n$ is $^{n-1} C_{r-1}$, whereas non-negative ($x_i \\ge 0$) is $^{n+r-1} C_{r-1}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Number of derangements of 4 items is $D_4 = 9$; for 5 items is $D_5 = 44$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"$10$ distinct points are taken on a circle. Then using these points Statement I: The number of triangles that can be formed is $100$ Stateme...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6 ,...\"* — **Correct Answer: A**\n- **[2018 Shift] Q#4 (MCQ)**: *\"Everybody in a room shakes hands with everybody else. The total number of handshakes is 45 . The total number of persons in the room is...\"* — **Correct Answer: N/A**\n- **[2017 Shift] Q#2 (MCQ)**: *\"If $^{n}C_{12}=^{n}C_{8}$ , then $n$ is equal to...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Permutations and Combinations — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 14 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Fundamental Principles & Permutations (Distinct & Identical)** | $^n P_r = \\frac{n!}{(n-r)!}, \\quad \\text{Arrangements with duplicates: } \\frac{n!}{p! q! r!}, \\quad \\text{Circular: } (n-1)!$ | Standard SI units apply |\n| **Combinations, Selection & Multinomial Partitioning** | $^n C_r = \\frac{n!}{r!(n-r)!}, \\quad \\text{Non-negative solutions: } ^{n+r-1}C_{r-1}, \\quad \\text{Derangements: } D_n = n!\\Sigma_{k=0}^n \\frac{(-1)^k}{k!}$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Permutations and Combinations\nBased on rigorous analysis of all 14 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Permutations and Combinations\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       9092,
       9094
     ],
-    "updated_at": "2026-09-20T16:43:16.279048"
+    "updated_at": "2026-09-20T17:12:05.034011"
   },
   "total_questions": 14,
   "has_docx": true,

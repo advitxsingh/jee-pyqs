@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given sum is</p>\n<p> $tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\cdot s+tan^{-1}(\\frac{1}{1+n(n+1)})$ </p>\n<p>The general term is</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>Using the identity</p>\n<p> $tan^{-1}x-tan^{-1}y=tan^{-1}(\\frac{x-y}{1+xy})$ </p>\n<p>take  $x=k+1$  and  $y=k$ .</p>\n<p>Then,</p>\n<p> $tan^{-1}(k+1)-tan^{-1}k=tan^{-1}(\\frac{(k+1)-k}{1+k(k+1)})$ </p>\n<p> $=tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>So each term can be written as</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k$ </p>\n<p>Now the sum becomes</p>\n<p> $[tan^{-1}2-tan^{-1}1]+[tan^{-1}3-tan^{-1}2]+\\cdot s+[tan^{-1}(n+1)-tan^{-1}n]$ </p>\n<p>All middle terms cancel, leaving</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1$ </p>\n<p>Again using the same identity,</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1=tan^{-1}(\\frac{(n+1)-1}{1+(n+1) \\cdot 1})$ </p>\n<p> $=tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>So the value is</p>\n<p> $tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>Correct option: <strong>A</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "=tan^{-1}(\\frac{1}{1+k(k+1)})",
@@ -55,7 +55,7 @@
         "=tan^{-1}(\\frac{n}{n+2})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:35.042296"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $sin^{-1}x=A\\text{and}sin^{-1}y=B$ </p>\n<p>So,</p>\n<p> $A+B=\\frac{\\pi}{2}$ </p>\n<p>This gives</p>\n<p> $A=\\frac{\\pi}{2}-B$ </p>\n<p>Now,</p>\n<p> $x=sinA$ </p>\n<p>So,</p>\n<p> $x=sin(\\frac{\\pi}{2}-B)$ </p>\n<p>Using the identity</p>\n<p> $sin(\\frac{\\pi}{2}-\\theta)=cos\\theta$ </p>\n<p>we get</p>\n<p> $x=cosB$ </p>\n<p>But</p>\n<p> $sinB=y$ </p>\n<p>So,</p>\n<p> $cos^{2}B=1-sin^{2}B$ </p>\n<p>Hence,</p>\n<p> $x^{2}=cos^{2}B=1-y^{2}$ </p>\n<p>So the correct option is</p>\n<p> $1-y^{2}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}",
@@ -112,7 +112,7 @@
         "x=sinA"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:35.138395"
     },
@@ -262,7 +262,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because f(x)=tanx$ </p>\n<p>Since,  $f^{-1}$  is inverse of  $f$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; f(f^{-1}(1))=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=1 \\\\ \\text{But} &amp; tan(\\frac{\\pi}{4})=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=tan(\\frac{\\pi}{4}) \\\\ \\therefore &amp; f^{-1}(l)=\\frac{\\pi}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=tanx",
@@ -271,7 +271,7 @@
         "f^{-1}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:35.626383"
     },
@@ -528,7 +528,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=cos^{-1}[x]$ </p>\n<p>We know, for  $cos^{-1}x$ </p>\n<p> $\\Rightarrow -1 \\le x \\le 1$ </p>\n<p>Therefore, for  $cos^{-1}[x]$ </p>\n<p> $\\Rightarrow -1 \\le [x] \\le 1 \\Rightarrow -1 \\le x&lt;2 \\Rightarrow x \\in [-1,2)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "cos^{-1}[x]",
@@ -536,7 +536,7 @@
         "cos^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.166393"
     },
@@ -634,11 +634,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-1}(\\frac{\\sqrt{3}}{2}))] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin(2\\pi+\\frac{\\pi}{2})]sin^{-1}[cos(\\frac{\\pi}{3})] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{\\pi}{2}] \\cdot sin^{-1}[cos\\frac{\\pi}{3}] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}} \\times 1] \\cdot sin^{-1}[\\frac{1}{2}] \\\\ \\\\ &amp; =\\frac{\\pi}{6} \\times \\frac{\\pi}{6}=(\\frac{\\pi}{6})^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.227731"
     },
@@ -684,7 +684,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ </p>\n<p>On putting</p>\n<p> $\\begin{aligned} &amp; x=tan\\theta \\\\ &amp; \\theta=tan^{-1}x \\end{aligned}$ </p>\n<p>Then we get,  $f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})$ </p>\n<p> $\\begin{aligned} &amp; =sin^{-1}(sin2\\theta) \\\\ &amp; =2\\theta=2tan^{-1}x\\text{.... (i)} \\end{aligned}$ </p>\n<p>On differentiating Eq. (i) both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =\\frac{2}{1+x^{2}} \\\\ \\therefore f^{'}(\\sqrt{3}) &amp; =\\frac{2}{1+(\\sqrt{3})^{2}}=\\frac{2}{1+3}=\\frac{2}{4}=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})",
@@ -693,7 +693,7 @@
         "f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.403148"
     },
@@ -739,13 +739,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=cos^{-1}\\sqrt{x-1}$ </p>\n<p> $f(x)$  is defined when  $\\sqrt{x-1} \\in [0,1]$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 0 \\le \\sqrt{x-1} \\le 1 \\\\ &amp; 0 \\le x-1 \\le 1 \\\\ &amp; 1 \\le x \\le 2 \\end{aligned}$ </p>\n<p> $\\therefore$  Domain of  $f(x)$  is  $[1,2]$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos^{-1}\\sqrt{x-1}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.445247"
     },
@@ -846,13 +846,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}] \\\\ &amp; \\Rightarrow cos[sin^{-1}\\frac{3}{4}+\\frac{\\pi}{2}]( \\because sin^{-1}x+cos^{-1}y=\\frac{\\pi}{2}) \\\\ &amp; \\Rightarrow -sin(sin^{-1}\\frac{3}{4}) \\Rightarrow -\\frac{3}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}]="
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.722202"
     },
@@ -898,13 +898,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,}a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3cot^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3(\\frac{\\pi}{2}-tan^{-1}x)&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;\\frac{3\\pi}{2}-tan^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}-\\frac{3\\pi}{2}&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow a-\\pi&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow \\pi-a&gt;tan^{-1}x&gt;\\frac{3\\pi}{2}-b \\\\ &amp; \\text{Since,}-\\frac{\\pi}{2}&lt;tan^{-1}x&lt;\\frac{\\pi}{2} \\therefore a=\\frac{\\pi}{2},b=2\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.749458"
     },
@@ -950,7 +950,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})$ </p>\n<p> $\\Rightarrow f(x)=sin^{-1}(\\frac{2^{x} \\cdot 2}{1+(2^{x})^{2}}) \\Rightarrow f(x)=2tan^{-1}(2^{x})$ </p>\n<p>On differentiating both sides, we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=2 \\cdot \\frac{1}{1+(2^{x})^{2}} \\cdot 2^{x}log2( \\because \\frac{d}{dx}(a^{x})=a^{x}loga) \\\\ &amp; \\therefore f^{'}(0)=\\frac{2}{1+(1)^{2}} \\cdot log2=log2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4^{x}})",
@@ -958,7 +958,7 @@
         "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.540913"
     },
@@ -1117,14 +1117,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png"
       ],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "sec^{-1}x",
         "y=sec^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
       ],
       "crawled_at": "2026-09-20T15:26:36.955195"
     },

@@ -319,7 +319,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $k_{1}=10^{6}e^{-30000/T},k_{2}=10^{4}e^{-24000/T}$ </p>\n<p>At the temperature  $T$  when  $k_{1}=k_{2}$ :</p>\n<p> $10^{6}e^{-30000/T}=10^{4}e^{-24000/T}$ </p>\n<p>Divide both sides by  $10^{4}e^{-30000/T}$ :</p>\n<p> $10^{2}=e^{(-24000/T)-(-30000/T)}=e^{6000/T}$ </p>\n<p>Take natural log on both sides:</p>\n<p> $ln(10^{2})=\\frac{6000}{T}$ </p>\n<p> $2ln10=\\frac{6000}{T}$ </p>\n<p>Given  $ln10=2.303$ :</p>\n<p> $2(2.303)=\\frac{6000}{T}$ </p>\n<p> $4.606=\\frac{6000}{T}$ </p>\n<p> $T=\\frac{6000}{4.606} \\approx 1302.65\\text{K}$ </p>\n<p>Nearest integer:</p>\n<p> $1303\\text{K}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "____",
@@ -330,7 +330,7 @@
         "T=\\frac{6000}{4.606} \\approx 1302.65\\text{K}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:00.978268"
     },
@@ -852,7 +852,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the reaction</p>\n<p> $2A(g) \\longrightarrow 4B(g)+C(g)$ </p>\n<p>let the initial pressure of  $A$  be  $P_{0}$ .</p>\n<p>Since the vessel is closed and temperature is constant, pressure is proportional to number of moles.</p>\n<p>At  $t=\\infty$ , reaction is complete.</p>\n<p>From the stoichiometry:</p>\n<ul>\n<li> $2$  moles of  $A$  produce  $4+1=5$  moles of products</li>\n</ul>\n<p>So if initially only  $A$  is present, total moles increase by a factor</p>\n<p> $\\frac{5}{2}$ </p>\n<p>Hence final total pressure is</p>\n<p> $P_{\\infty}=\\frac{5}{2}P_{0}$ </p>\n<p>Given:</p>\n<p> $P_{\\infty}=600\\text{mm Hg}$ </p>\n<p>So,</p>\n<p> $\\frac{5}{2}P_{0}=600$ </p>\n<p> $P_{0}=600 \\times \\frac{2}{5}=240\\text{mm Hg}$ </p>\n<p>Now at  $30$  min, let the extent of reaction correspond to consumption of  $x$  pressure units of  $A$  according to:</p>\n<p> $2A \\rightarrow 4B+C$ </p>\n<p>Then pressure changes are:</p>\n<ul>\n<li><p> $A$ : decreases by  $x$ </p></li>\n<li><p> $B$ : increases by  $2x$ </p></li>\n<li><p> $C$ : increases by  $\\frac{x}{2}$ </p></li>\n</ul>\n<p>This is because for  $2A \\rightarrow 4B+C$ ,</p>\n<p>if  $2$  units of  $A$  react,  $4$  units of  $B$  and  $1$  unit of  $C$  are formed.</p>\n<p>So total pressure at time  $t$  is</p>\n<p> $P_{t}=(240-x)+2x+\\frac{x}{2}$ </p>\n<p> $P_{t}=240+\\frac{3x}{2}$ </p>\n<p>Given at  $30$  min,</p>\n<p> $240+\\frac{3x}{2}=300$ </p>\n<p> $\\frac{3x}{2}=60$ </p>\n<p> $x=40$ </p>\n<p>Therefore pressure of  $C$  at  $30$  min is</p>\n<p> $P_{C}=\\frac{x}{2}=20\\text{mm Hg}$ </p>\n<p>So, the required pressure is</p>\n<p> $20\\text{mm Hg}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "25^{\\circ}",
@@ -863,7 +863,7 @@
         "x=40"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:59.941138"
     },
@@ -999,7 +999,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mld9598q/cbbbead5-77e2-444b-a445-3653a7309134/e75876a0-04a7-11f1-9f3c-8f468745da5f/file-6y3zli1mld9598r.png?format=png"
       ],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Medium",
       "key_formulas": [
         "A \\rightarrow B\\Delta H_{i}=+ve",
@@ -1007,7 +1007,7 @@
         "C \\rightarrow D\\Delta H_{iii}=-ve"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:30:44.882189"
     },
@@ -1292,14 +1292,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1maf6swge/6943ff27-b658-4d7f-9f56-6e41c3d7b211/eda176e0-2bf1-11f0-a3da-bb2e3871eb5a/file-jaoe38c1maf6swgf.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Delta H=+",
         "E_{a_{1}} \\rightarrow High"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:47.767057"
     },
@@ -1347,7 +1347,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m75xaspb/025bcf68-a6bd-4d3b-849f-b768dd4a31cd/100615f0-eb75-11ef-8f46-f7c9ae574220/file-jaoe38c1m75xaspc.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "N_{0}",
@@ -1356,7 +1356,7 @@
         "N=N_{0}e^{Kt}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:48.668747"
     },
@@ -1860,7 +1860,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9gk6l9i/1254b9f4-eda5-4a30-9221-631db18e5e90/d2435c60-18e6-11f0-a103-9bd1ffe79f48/file-jaoe38c1m9gk6l9j.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{T}",
@@ -1869,7 +1869,7 @@
         "Ea_{2}>Ea_{1}>Ea_{3}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:46.371107"
     },
@@ -1969,7 +1969,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Reaction given:</p>\n<p> $A_{2}+B_{2} \\rightarrow 2AB$ </p>\n<p>Mechanism:</p>\n<p> $A_{2}\\rightleftharpoons_{k_{-1}}^{k_{1}}A+A$  (fast)</p>\n<p> $\\begin{aligned} &amp; A+B_{2}\\overset{k_{2}}{\\rightarrow \\le ftarrow}AB+B\\text{(slow)} \\\\ &amp; A+B \\longrightarrow AB\\text{(fast)} \\end{aligned}$ </p>\n<p>The rate determining step in a mechanism is the slow step.</p>\n<p>So, late  $=k_{2}[A][B_{2}]$ </p>\n<p> $A$  is the intermediate; to determine the concentration of  $A$ , the equilibrium is considered.</p>\n<p> $A_{2}\\rightleftharpoons_{k_{-1}}^{k_{1}}A+A$ </p>\n<p> $\\begin{aligned} \\frac{k_{1}}{k_{-1}} &amp; =\\frac{[A][A]}{[A_{2}]} \\\\ &amp; =\\frac{[A]^{2}}{[A_{2}]} \\end{aligned}$ </p>\n<p> $\\begin{aligned} S_{0,}[A]^{2} &amp; =\\frac{k_{1}}{k_{-1}}[A_{2}] \\\\ [A] &amp; ={\\frac{k_{1}}{k_{-1}}[A_{2}]}^{1/2} \\end{aligned}$ </p>\n<p>Substitute  $[A]$  in the late,</p>\n<p>late  $=k_{2}[A][B_{2}]$ </p>\n<p> $\\begin{aligned} &amp; =k_{2}(\\frac{k_{1}}{k_{-1}})^{1/2}[A_{2}]^{1/2}[B_{2}] \\\\ &amp; =k_{2}(\\frac{k_{1}}{k_{-1}})^{1/2}[A_{2}]^{1/2}[B_{2}]^{1} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Overall rate} &amp; =\\frac{1}{2}+1 \\\\ &amp; =\\frac{3}{2} \\\\ &amp; =1.5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A_{2}+B_{2} \\rightarrow 2AB",
@@ -1978,7 +1978,7 @@
         "A_{2}\\rightleftharpoons_{k_{-1}}^{k_{1}}A+A"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:47.836226"
     },
@@ -2081,7 +2081,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Answer: Option B</strong> is not true.</p>\n<p><strong>Explanation:</strong></p>\n<p><p><strong>Option A</strong> states that the half‐life  $t_{1/2}$  is  $ln2$  times  $\\frac{1}{k}$ , where  $k$  is the decay (rate) constant.  </p>\n<p> $t_{1/2}=\\frac{ln2}{k}=ln2 \\times \\frac{1}{k}.$ </p>\n<p>This is correct.</p></p>\n<p><p><strong>Option B</strong> states that the decay constant  $k$  increases with an increase in temperature. However, for radioactive (nuclear) decay processes, the decay constant is essentially <strong>independent of external factors</strong> such as temperature and pressure. Hence, saying that it increases with temperature is <strong>not true</strong>.</p></p>\n<p><p><strong>Option C</strong> states that the decay constant does not depend upon temperature, which <strong>is</strong> true for radioactive decay.</p></p>\n<p><p><strong>Option D</strong> states that the amount of radioactive substance left after three half‐lives is  $\\frac{1}{8}$  of the original. Since one half‐life leaves  $\\frac{1}{2}$  of the sample, three half‐lives leave  $(\\frac{1}{2})^{3}=\\frac{1}{8}$ . This is correct.</p></p>\n<p>Therefore, the statement that is <strong>not</strong> true is <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{1/2}",
@@ -2091,7 +2091,7 @@
         "(\\frac{1}{2})^{3}=\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:49.464423"
     },
@@ -2118,7 +2118,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9fr722c/880e8481-90d4-4c04-aa7e-e9648bc56c78/767f2650-1875-11f0-a7dd-51762233016a/file-jaoe38c1m9fr722d.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "2.5gL^{-1}",
@@ -2126,7 +2126,7 @@
         "log2=0.3010"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:01.011263"
     },
@@ -2151,7 +2151,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the time required for 50% of molecule A to change into its isomeric form B, follow these steps:</p>\n<p><p><strong>Half-life Formula for First Order Kinetics:</strong></p>\n<p>The half-life ( $t_{1/2}$ ) for a first-order reaction is given by:</p>\n<p> $t_{1/2}=\\frac{0.693}{K}$ </p></p>\n<p><p><strong>Calculate the Rate Constant (K):</strong></p>\n<p>The rate constant  $K$  can be calculated using the Arrhenius equation:</p>\n<p> $K=A \\cdot e^{-\\frac{E_{a}}{RT}}$ </p>\n<p>Given:</p></p>\n<p><p> $A$  (frequency factor) =  $10^{20}$ </p></p>\n<p><p> $E_{a}$  (activation energy) =  $191.48\\text{kJ/mol}=191.48 \\times 10^{3}\\text{J/mol}$ </p></p>\n<p><p> $R$  (universal gas constant) =  $8.314\\text{J/mol} \\cdot \\text{K}$ </p></p>\n<p><p> $T=1000\\text{K}$ </p>\n<p>Substitute the values into the Arrhenius equation:</p>\n<p> $K=10^{20} \\times e^{-\\frac{191.48 \\times 10^{3}}{8.314 \\times 1000}}$ </p>\n<p>Simplify this calculation:</p>\n<p> $K=10^{20} \\times e^{-23.031}$ </p>\n<p>Simplifying further by recognizing that  $e^{-23.031}$  is a very small number, gives:</p>\n<p> $K \\approx \\frac{10^{20}}{10^{10}}=10^{10}\\text{sec}^{-1}$ </p></p>\n<p><p><strong>Calculate the Half-life:</strong></p>\n<p>Using the calculated value of  $K$ :</p>\n<p> $t_{1/2}=\\frac{0.693}{10^{10}}=6.93 \\times 10^{-11}\\text{seconds}$ </p></p>\n<p><p><strong>Convert to Picoseconds:</strong></p>\n<p>Since  $1\\text{second}=10^{12}\\text{picoseconds}$ :</p>\n<p> $t_{1/2}=6.93 \\times 10^{-11} \\times 10^{12}\\text{picoseconds}=69.3\\text{picoseconds}$ </p></p>\n<p>Therefore, the time required for 50% of the molecules of A to become B is approximately 69 picoseconds (nearest integer).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Hard",
       "key_formulas": [
         "191.48kJmol^{-1}",
@@ -2162,7 +2162,6 @@
         "(frequency factor) ="
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations",
         "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:31:01.736489"
@@ -2584,7 +2583,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2A(g)+B(g) \\rightarrow C(g)$ </p>\n<p>As this is single step reaction,</p>\n<p> $r=k_{f}[A]^{2}[B]^{2}$ </p>\n<p> $\\begin{aligned} &amp; 2A(g)+ &amp; B(g) \\rightarrow &amp; C(g) \\\\ t=0 &amp; 1.5 &amp; 0.7 &amp; 0 \\\\ t=t^{'} &amp; 1.5-2x &amp; 0.7-x &amp; x \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow x=0.5atm \\\\ &amp; r_{1}=k_{f}(1.5)^{2}(0.7) \\\\ &amp; r_{2}=k_{f}(0.5)^{2}(0.2) \\\\ &amp; \\frac{r_{1}}{r_{2}}=\\frac{9 \\times 7}{2}=31.5 \\\\ &amp; =315 \\times 10^{-1} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "2A_{(g)}+B_{(g)} \\rightarrow C_{(g)}",
@@ -2592,7 +2591,7 @@
         "is _________"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:03.170724"
     },
@@ -2685,14 +2684,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lscuztwk/e46a8a3c-01d2-4676-a28f-5cf4a1403011/4aa7be40-c64e-11ee-9d8b-f1be86a1b2f3/file-6y3zli1lscuztwl.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "2HI_{(g)} \\rightarrow H_{2(g)}+I_{2(g)}",
         "R=k[HI]^{n}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:05.122537"
     },
@@ -2881,13 +2880,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A+B \\rightarrow C \\\\ &amp; \\frac{-d[A]}{dt}=k[A]^{1/2}[B]^{1/2} \\end{aligned}$ </p>\n<p>Since,  $[A]=[B]$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{-d[A]}{dt}=k[A] \\\\ &amp; \\Rightarrow kt=ln\\frac{[A]_{0}}{[A]} \\\\ &amp; \\Rightarrow t=\\frac{1}{4.6 \\times 10^{-2}} \\times ln(\\frac{1}{0.1}) \\\\ &amp; =\\frac{2.303}{4.6} \\times 100 \\approx 50 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "is _________ sec.\n(nearest integer)"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:03.202545"
     },
@@ -2945,7 +2944,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; K=\\frac{K_{1} \\cdot K_{2}}{K_{3}}=\\frac{A_{1} \\cdot A_{2}}{A_{3}} \\cdot e^{-\\frac{(E_{a_{1}}+E_{a_{2}}-E_{a_{3}})}{RT}} \\\\ &amp; A \\cdot e^{-E_{a}/RT}=\\frac{A_{1}A_{2}}{A_{3}} \\cdot e^{-\\frac{(E_{a_{1}}+E_{a_{2}}-E_{a_{3}})}{RT}} \\end{aligned}$ </p>\n<p> $E_{a}=E_{a_{1}}+E_{a_{2}}-E_{a_{3}}=40+50-60=30kJ/mole.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "K=\\frac{K_{1}K_{2}}{K_{3}}",
@@ -2955,7 +2954,7 @@
         "E_{a}=E_{a_{1}}+E_{a_{2}}-E_{a_{3}}=40+50-60=30kJ/mole."
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:04.422842"
     },
@@ -3229,7 +3228,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; t_{1/2}∝(P_{o})^{1-n} \\\\ \\\\ &amp; \\frac{(t_{1/2})_{1}}{(t_{1/2})_{2}}=\\frac{(P_{o})_{1}^{1-n}}{(P_{o_{2}})_{2}^{1-n}} \\\\ \\\\ &amp; \\Rightarrow (\\frac{4}{2})=(\\frac{50}{100})^{1-n} \\\\ \\\\ &amp; \\Rightarrow 2=(\\frac{1}{2})^{1-n} \\\\ \\\\ &amp; \\Rightarrow 2=(2)^{n-1} \\\\ \\\\ &amp; \\Rightarrow n-1=1 \\\\ \\\\ &amp; \\Rightarrow n=2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "_{3}",
@@ -3237,7 +3236,7 @@
         "_{1/2}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:50.504742"
     },
@@ -3262,7 +3261,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The overall order of a reaction is determined by the slow (rate-determining) step. </p>\n<p>Here, the slow step is:\n $\\text{NOBr}_{2}+\\text{NO} \\rightarrow 2\\text{NOBr}$ </p>\n<p>This is a second-order reaction: first-order with respect to  $\\text{NOBr}_{2}$  and first-order with respect to NO.</p>\n<p>However,  $\\text{NOBr}_{2}$  is not a reactant in the overall reaction. It's an intermediate. So, we need to express it in terms of the initial reactants.</p>\n<p>From the first (fast) step, we get: \n $\\text{NO}+\\text{Br}_{2} \\rightleftharpoons \\text{NOBr}_{2}$ </p>\n<p>In the steady state approximation, the rate of formation of  $\\text{NOBr}_{2}$  equals the rate of its consumption. We can write this as:</p>\n<p> $k_{1}[\\text{NO}][\\text{Br}_{2}]=k_{-1}[\\text{NOBr}_{2}]+k_{2}[\\text{NOBr}_{2}][\\text{NO}]$ </p>\n<p>Since the second reaction (slow step) is much slower than the first one,  $k_{2}[\\text{NOBr}_{2}][\\text{NO}]$  term is negligible in comparison to  $k_{-1}[\\text{NOBr}_{2}]$ . </p>\n<p>So, we can simplify to:<br/><br/>\n $k_{1}[\\text{NO}][\\text{Br}_{2}] \\approx k_{-1}[\\text{NOBr}_{2}]$ </p>\n<p>Solving for  $[\\text{NOBr}_{2}]$ , we get:\n $[\\text{NOBr}_{2}] \\approx \\frac{k_{1}}{k_{-1}}[\\text{NO}][\\text{Br}_{2}]$ </p>\n<p>Substitute  $[\\text{NOBr}_{2}]$  into the rate equation for the slow step:<br/><br/>\n $\\text{Rate}=k_{2}[\\text{NO}][\\text{NOBr}_{2}]$ <br/><br/>\n $\\text{Rate}=k_{2}[\\text{NO}](\\frac{k_{1}}{k_{-1}}[\\text{NO}][\\text{Br}_{2}])$ </p>\n<p>So the overall reaction order is 3 (2 with respect to NO and 1 with respect to  $\\text{Br}_{2}$ ).</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "2NO+Br_{2} \\rightarrow 2NOBr",
@@ -3273,7 +3272,7 @@
         "\\text{NO}+\\text{Br}_{2} \\rightleftharpoons \\text{NOBr}_{2}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:05.851389"
     },
@@ -4404,7 +4403,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; k=Ae^{\\frac{-E_{a}}{RT}} \\\\ \\\\ &amp; lnk=lnA-\\frac{E_{a}}{RT} \\\\ \\\\ &amp; \\Rightarrow log(2 \\times 10^{-6})=log(4 \\times 10^{13})-\\frac{8.3 \\times 10^{3}}{8.3 \\times T \\times 2.3} \\\\ \\\\ &amp; \\Rightarrow log(2)-6=2 \\times log(2)+13-\\frac{8.3 \\times 10^{3}}{8.3 \\times T \\times 2.3} \\\\ \\\\ &amp; \\Rightarrow -19.3=-\\frac{10^{3}}{T \\times 2.3} \\Rightarrow T=225 \\times 10^{-1}K \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -4413,7 +4412,6 @@
         "1 , log2 = 0.30)"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations",
         "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:31:09.128861"
@@ -4598,7 +4596,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $t_{1/2}∝\\frac{1}{(a_{0})^{n-1}}$ \n<br/><br/>\n $\\begin{aligned} t_{1/2}=100sec &amp; a_{0}=0.5 \\\\ t_{1/2}=50sec &amp; a_{0}=1 \\end{aligned}$ \n<br/><br/>\n $\\frac{100}{50}=(\\frac{1}{0 \\cdot 5})^{n-1}$ \n<br/><br/>\n $(2)=(2)^{n-1}$ \n<br/><br/>\n $n-1=1$ \n<br/><br/>\n $n=2$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "respectively. The order of the reaction is ______________ . (Nearest Integer)",
@@ -4608,7 +4606,7 @@
         "n=2"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:08.607518"
     },
@@ -5047,14 +5045,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the reaction</p>\n<p> $A \\rightarrow B$ </p>\n<p>the average rate in terms of formation of  $B$  is</p>\n<p> $\\text{Average rate}=\\frac{\\Delta[B]}{\\Delta t}$ </p>\n<p>Given,</p>\n<p> $\\Delta[B]=0.2molL^{-1}$ </p>\n<p>and</p>\n<p> $\\Delta t=30min=0.5h$ </p>\n<p>Thus,</p>\n<p> $\\text{Average rate}=\\frac{0.2}{0.5}=0.4molL^{-1}h^{-1}$ </p>\n<p> $0.4=4 \\times 10^{-1}$ </p>\n<p>Hence, the nearest integer is</p>\n<p> $4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "in 30 min. The average rate of the reaction is ____________",
         "0.4=4 \\times 10^{-1}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:11.310138"
     },
@@ -5242,7 +5240,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, <br/><br/> $logK=20.35-\\frac{2.47 \\times 10^{3}}{T}$ <br/><br/>We know<br/><br/> $logK=logA-\\frac{E_{a}}{2.303RT}$ <br/><br/> $\\Rightarrow \\frac{E_{a}}{2.303RT}=2.47 \\times 10^{3}$ <br/><br/> $E_{a}=2.47 \\times 10^{3} \\times 2.303 \\times \\frac{8.314}{1000}$  KJ/mole<br/><br/>= 47.29 = 47 (Nearest integer)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Medium",
       "key_formulas": [
         "1 is ____________. (Nearest integer) [Given : R = 8.314 J K",
@@ -5250,7 +5248,7 @@
         "E_{a}=2.47 \\times 10^{3} \\times 2.303 \\times \\frac{8.314}{1000}"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:31:10.620151"
     },
@@ -5543,7 +5541,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktcpfs0z/9cd926af-e458-4ec3-8d08-55d22602e474/fd1d3820-114c-11ec-a14f-27601c78632f/file-1ktcpfs10.jpg"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -5551,7 +5549,7 @@
         "8 = K"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:10.974790"
     },
@@ -5611,7 +5609,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let initial concentration of A &amp; B is a &amp; b<br/><br/>Rate =  $K[A]^{2}[B_{2}]^{1}$ <br/><br/> $r_{1}=K(\\frac{a}{V})^{2}(\\frac{b}{V})^{1}$ <br/><br/> $r_{2}=K(\\frac{3a}{V})^{2}(\\frac{3b}{V})^{1}$ <br/><br/> $(\\frac{r_{2}}{r_{1}})=27$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "K[A]^{2}[B_{2}]^{1}",
@@ -5620,7 +5618,7 @@
         "(\\frac{r_{2}}{r_{1}})=27"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:31:11.659521"
     },
@@ -5736,11 +5734,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $_{1}^{1}$ H and  $_{1}^{2}$ H are stable while  $_{1}^{3}$ H is radioactive.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:30:51.092907"
     },
@@ -5965,11 +5963,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukfumpxuc/414edee6-5480-485f-8cc0-d57c1e3ad8a3/70b22540-05fd-11eb-8293-3b6cc591631c/file-jgy2xukfumpxud-380w.png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:51.543736"
     },
@@ -6357,7 +6355,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A<sub>t</sub> = A<sub>0</sub>.e<sup>-k<sub>1</sub>t</sup>\n<br/><br/>B<sub>t</sub> = B<sub>0</sub>.e<sup>-k<sub>2</sub>t</sup>\n<br/><br/>k<sub>1</sub> =  $\\frac{ln2}{300}$ \n<br/><br/>k<sub>2</sub> =  $\\frac{ln2}{180}$ \n<br/><br/>Given, A<sub>0</sub> = B<sub>0</sub>\n<br/><br/>and A<sub>t</sub>\n and B<sub>t</sub>\n are related as [A] = 4[B]\n<br/><br/> $\\therefore$  A<sub>0</sub>.e<sup>-k<sub>1</sub>t</sup> = 4B<sub>0</sub>.e<sup>-k<sub>2</sub>t</sup>\n<br/><br/> $\\Rightarrow$   $e^{(\\frac{ln2}{180}-\\frac{ln2}{300})t}$  = 4\n<br/><br/> $\\Rightarrow$   $(\\frac{ln2}{180}-\\frac{ln2}{300})t$  = ln 4 = 2ln 2\n<br/><br/> $\\Rightarrow$   $(\\frac{1}{180}-\\frac{l}{300})t$  = 2\n<br/><br/> $\\Rightarrow$  t =  $\\frac{2 \\times 180 \\times 300}{120}$  = 900 sec<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{ln2}{300}",
@@ -6368,7 +6366,7 @@
         "\\frac{2 \\times 180 \\times 300}{120}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:51.630499"
     },
@@ -6908,14 +6906,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dN}{dt}=-5N^{2}$          for  t &gt; 1 hr\n<br/><br/>'N' increases upto 1 hr and then start decreasing after 1 hr.\n<br/><br/> $\\therefore$   $\\frac{N_{0}}{N}$  will increase after 1 hr.\n<br/><br/>Therefore option (D) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{dN}{dt}=-5N^{2}",
         "\\frac{N_{0}}{N}"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:30:53.045010"
     },
@@ -7122,7 +7120,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Rate of disappearance of N<sub>2</sub>O<sub>5</sub> =   $-\\frac{\\Delta[N_{2}O_{5}]}{\\Delta[t]}$  =  $-\\frac{[2.75-3]}{30}$  =  $+\\frac{1}{120}$  mol L<sup>-1</sup> min<sup>-1</sup>\n<br/><br/>Rate of formation of NO<sub>2</sub> =  $+\\frac{\\Delta[NO_{2}]}{\\Delta[t]}$ \n<br/><br/>As  $-\\frac{1}{2}\\frac{\\Delta[N_{2}O_{5}]}{\\Delta[t]}=+\\frac{1}{4}\\frac{\\Delta[NO_{2}]}{\\Delta[t]}$ \n<br/> $\\Rightarrow$   $\\frac{\\Delta[NO_{2}]}{\\Delta[t]}$  =  $+\\frac{1}{120} \\times \\frac{4}{2}$  = 0.01667 = 1.667 × 10<sup>–2</sup>\n mol L<sup>–1</sup>\n min<sup>–1</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{\\Delta[N_{2}O_{5}]}{\\Delta[t]}",
@@ -7133,7 +7131,7 @@
         "+\\frac{1}{120} \\times \\frac{4}{2}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:52.722229"
     },
@@ -7237,7 +7235,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/gnCaO5qRZetNoKYJX/kJhTbRS2EbVcseAVNPjrZdNQDXfWR/6KLWy1hT5F6Hq4ujDR5Oj3/image.png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "^{-\\frac{Ea}{RT}}",
@@ -7248,7 +7246,7 @@
         "5 ) = ln A"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:53.662132"
     },
@@ -7297,13 +7295,13 @@
         "https://imagex.cdn.examgoal.net/tH2tjuimOofGzh0pk/U9BAMgDq9wHZkI4Xo2zHNsDsNbj2n/7ag9RWzyMdV5UYCBtHFUJI/image.png",
         "https://imagex.cdn.examgoal.net/tKDFGOzDgePQWRGcY/wYRXRmEsh8SBP7KFcbs9ySu6NiLMf/4vB4UdA9QY2djSgsNGYcfn/image.png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{d[A]}{dt}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:53.959783"
     },
@@ -8011,7 +8009,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have</p>\n<p> $O_{3}(g)+Cl^{∙}(g) \\rightarrow O_{2}(g)+ClO^{∙}(g)$  ...... (1)</p>\n<p> $ClO^{∙}(g)+O^{∙}(g) \\rightarrow O_{2}(g)+Cl^{∙}(g)$  ...... (2)</p>\n<p>On adding Eq. (1) and Eq. (2), we get the required equation for overall reaction</p>\n<p> $O_{3}(g)+O^{∙}(g) \\rightarrow 2O_{2}(g)$ </p>\n<p>Therefore,</p>\n<p> $k_{overall}=k_{1} \\times k_{2}$ </p>\n<p> $=5.2 \\times 10^{9} \\times 2.6 \\times 10^{10}$ </p>\n<p> $=1.4 \\times 10^{20}$  L mol<sup> $-$ 1</sup> s<sup> $-$ 1</sup></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "^{∙}",
@@ -8022,7 +8020,7 @@
         "=5.2 \\times 10^{9} \\times 2.6 \\times 10^{10}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:55.528914"
     },
@@ -8125,11 +8123,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Reactions of higher order  $(&gt;3)$  are very rate due to very less chances of many molecules to undergo effective collisions. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:55.902537"
     },
@@ -8343,7 +8341,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since for every  $10^{\\circ}C$  rise in temperature rate doubles for  $50^{\\circ}C$  rise in temp increase in reaction rate  $=2^{5}=32$  times<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "10^{\\circ}C",
@@ -8351,7 +8349,7 @@
         "=2^{5}=32"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:56.290188"
     },
@@ -8566,7 +8564,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The rates of reactions for the reaction\n<br/><br/> $\\frac{1}{2}A \\rightarrow 2B$ \n<br/><br/>can be written either as \n<br/><br/> $-2\\frac{d}{dt}[A]$  with respect to  $^{'}A^{'}$ \n<br/><br/>or   $\\frac{1}{2}\\frac{d}{dt}[B]$  with respect to  $^{'}B^{'}$ \n<br/><br/>From the above, we have\n<br/><br/> $-2\\frac{d}{dt}[A]=\\frac{1}{2}\\frac{d}{dt}[B]$ \n<br/><br/>or   $-\\frac{d}{dt}[A]=\\frac{1}{4}\\frac{d}{dt}[B]$ \n<br/><br/>i.e., correct answer is (b)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}A \\rightarrow 2B",
@@ -8577,7 +8575,7 @@
         "-2\\frac{d}{dt}[A]=\\frac{1}{2}\\frac{d}{dt}[B]"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:56.702125"
     },
@@ -8623,13 +8621,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>NOTE :</b> Isotopes are atoms of same element having same atomic number but different atomic masses. Neutron has atomic number  $0$  and atomic mass  $1.$  So loss of neutron will generate isotope.  $e.g.,$ \n<br/> $_{92}U^{238}+_{0}n^{1} \\rightarrow _{92}U^{239}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "_{92}U^{238}+_{0}n^{1} \\rightarrow _{92}U^{239}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:57.052645"
     },
@@ -9057,11 +9055,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Option C</p>\n<p>Nuclear fusion</p>\n<p>Explanation :</p>\n<p>A hydrogen bomb, also known as a thermonuclear bomb, uses the principle of nuclear fusion. In a fusion reaction, two lighter atomic nuclei combine to form a heavier nucleus, and a substantial amount of energy is released in the process. In the case of a hydrogen bomb, isotopes of hydrogen (such as deuterium and tritium) fuse together to form helium, releasing a large amount of energy.</p>\n<p>It's worth noting that a hydrogen bomb usually involves a two-stage process. The first stage is a fission bomb (like those used in Hiroshima and Nagasaki) that creates the conditions necessary for the fusion reaction in the second stage. Despite this, the majority of the energy in a hydrogen bomb comes from fusion, which is why it is categorized as a fusion weapon.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:57.620594"
     },
@@ -9109,7 +9107,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/73EaYGvMI9pLDjvR5/00mDaD4CTvkRgIXuSjJkKHQAUbgB7/arP7Td0mruq8bsqptq4V7Y/image.png"
       ],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation & Activation Energy",
       "difficulty": "Easy",
       "key_formulas": [
         "K_{eq}",
@@ -9117,7 +9115,7 @@
         "logkVs\\frac{1}{T}"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation & Activation Energy"
       ],
       "crawled_at": "2026-09-20T15:30:57.396713"
     },
@@ -9323,7 +9321,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know that,  $\\alpha$  - decay formula is -<br/><br/>\n $_{Z}^{A}X\\bar{\\rightarrow}_{Z-2}^{A-4}Y$ <br/><br/>\nAnd the formula for  $\\beta$  is -<br/><br/>\n $_{Z}^{A}X\\bar{\\rightarrow}_{Z-1}^{A}Y$ <br/><br/>\nNow for the given above question we see that, -<br/><br/>\n $\\begin{aligned} &amp; _{92}^{238}M\\bar{\\rightarrow}_{92-4}^{238-8}N \\\\ \\\\ &amp; _{Y}^{X}X\\hat{\\rightarrow}_{86}^{230}L \\end{aligned}$ <br/><br/>\nTherefore we can now calculate the number of neutrons in  $L$ , -<br/><br/>\n $L=230-86$ <br/><br/>\n $L=144$ <br/><br/>\nSo, as we can see the no. of neutrons present in  $L$  is 144 .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "_{92}^{238}M \\rightarrow _{Y}^{X}N+2_{2}^{4}He",
@@ -9333,7 +9331,7 @@
         "L=144"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:58.154426"
     },
@@ -9642,13 +9640,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $_{90}^{234}Tℎ\\bar{\\longrightarrow}_{91}^{234}X\\bar{\\longrightarrow}_{92}^{234}Tℎ\\bar{\\longrightarrow}_{90}^{230}Tℎ$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "_{90}^{234}Tℎ"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:58.183645"
     },
@@ -9802,13 +9800,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $_{0}n^{1} \\rightarrow _{+1}p^{1}+_{-1}e$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "_{0}n^{1} \\rightarrow _{+1}p^{1}+_{-1}e"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations"
       ],
       "crawled_at": "2026-09-20T15:30:59.032624"
     },

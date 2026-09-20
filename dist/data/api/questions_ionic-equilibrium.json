@@ -193,7 +193,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the diprotic acid  $H_{2}X$  (total concentration  $C=0.1M$ ):</p>\n<p> $K_{a1}=2.5 \\times 10^{-8},K_{a2}=1.0 \\times 10^{-13}$ </p>\n<p><strong>1) Find  $[H^{+}]$ </strong> (second dissociation is negligible for  $[H^{+}]$ ):</p>\n<p> $[H^{+}] \\approx \\sqrt{K_{a1}C}=\\sqrt{(2.5 \\times 10^{-8})(0.1)}=\\sqrt{2.5 \\times 10^{-9}}=5.0 \\times 10^{-5}M$ </p>\n<p><strong>2) Use diprotic distribution for  $[X^{2-}]$ :</strong></p>\n<p> $[X^{2-}]=C \\cdot \\frac{K_{a1}K_{a2}/[H^{+}]^{2}}{1+K_{a1}/[H^{+}]+K_{a1}K_{a2}/[H^{+}]^{2}}$ </p>\n<p>Compute key terms:</p>\n<p> $\\frac{K_{a1}K_{a2}}{[H^{+}]^{2}}=\\frac{(2.5 \\times 10^{-8})(10^{-13})}{(5 \\times 10^{-5})^{2}}=\\frac{2.5 \\times 10^{-21}}{2.5 \\times 10^{-9}}=10^{-12}$ </p>\n<p> $\\frac{K_{a1}}{[H^{+}]}=\\frac{2.5 \\times 10^{-8}}{5 \\times 10^{-5}}=5 \\times 10^{-4}$ </p>\n<p>So denominator  $\\approx 1+5 \\times 10^{-4} \\approx 1.0005$ , hence</p>\n<p> $[X^{2-}] \\approx 0.1 \\times \\frac{10^{-12}}{1.0005} \\approx 1.0 \\times 10^{-13}M$ </p>\n<p>Expressed as  $____ \\times 10^{-15}M$ :</p>\n<p> $1.0 \\times 10^{-13}M=100 \\times 10^{-15}M$ </p>\n<p><strong>Nearest integer =  $100$ .</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Hard",
       "key_formulas": [
         "2.5 \\times 10^{-8}",
@@ -204,7 +204,7 @@
         "C=0.1M"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:02.251314"
     },
@@ -545,8 +545,7 @@
         "Pℎ^{-}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:32:51.289867"
     },
@@ -1086,13 +1085,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7cy1nml/e352853c-c3e8-482a-9959-6b721bb5b5a0/777f0fe0-ef51-11ef-86e9-a9266a15e525/file-jaoe38c1m7cy1nmm.png?format=png"
       ],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Easy",
       "key_formulas": [
         "(Zr^{4+})_{3}(PO_{4}^{3-})_{4}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:54.041505"
     },
@@ -1526,8 +1525,7 @@
         "pK_{a}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:03.147993"
     },
@@ -1573,7 +1571,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the solubility product (K<sub>sp</sub>) of calcium phosphate, we need to consider its chemical formula and how it dissociates in water. The formula for calcium phosphate is  $\\text{Ca}_{3}(\\text{PO}_{4})_{2}$ . When dissolved in water, it dissociates according to the following equation:</p>\n<p> $\\text{Ca}_{3}(\\text{PO}_{4})_{2}(s) \\rightleftharpoons 3\\text{Ca}^{2+}(aq)+2\\text{PO}_{4}^{3-}(aq)$ </p>\n<p>Let  $S$  be the molar solubility of calcium phosphate in  $\\text{mol}/L$ . According to the stoichiometry of the dissociation, if  $S$  moles per liter of calcium phosphate dissolve,  $3S$  moles per liter of calcium ions and  $2S$  moles per liter of phosphate ions are produced.</p>\n<p>The expression for the solubility product constant (Ksp) for calcium phosphate in water is the product of the concentrations of the ions raised to the power of their respective coefficients in the balanced equation:</p>\n<p> $K_{sp}=[\\text{Ca}^{2+}]^{3}[\\text{PO}_{4}^{3-}]^{2}$ </p>\n<p>Substituting the concentrations with  $3S$  for  $\\text{Ca}^{2+}$  and  $2S$  for  $\\text{PO}_{4}^{3-}$ , we get:</p>\n<p> $K_{sp}=(3S)^{3}(2S)^{2}=27S^{3} \\cdot 4S^{2}=108S^{5}$ </p>\n<p>If the solubility of calcium phosphate is  $\\text{W}_{g}$  per  $100\\text{mL}$  of water at  $25^{\\circ}\\text{C}$ , we need to convert grams to moles to find  $S$ . Solubility in moles per liter (which is the same as moles per  $1000\\text{mL}$ ) is:</p>\n<p> $S=\\frac{\\text{W}}{\\text{M}} \\times \\frac{1000\\text{mL}}{100\\text{mL}}=10\\frac{\\text{W}}{\\text{M}}$ </p>\n<p>Now, substituting  $S$  with  $10\\frac{\\text{W}}{\\text{M}}$  into the expression for  $K_{sp}$ :</p>\n<p> $K_{sp}=108(10\\frac{\\text{W}}{\\text{M}})^{5}$ </p>\n<p>This simplifies to:</p>\n<p> $K_{sp}=108 \\times 10^{5}(\\frac{\\text{W}}{\\text{M}})^{5}$ </p>\n<p>Since  $108$  is on the order of  $10^{2}$ , we can approximate this to:</p>\n<p> $K_{sp} \\approx 10^{7}(\\frac{\\text{W}}{\\text{M}})^{5}$ </p>\n<p>Therefore, the correct answer based on the options provided is:</p>\n<p>Option C:  $10^{7}(\\frac{\\text{W}}{\\text{M}})^{5}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Medium",
       "key_formulas": [
         "W_{g}",
@@ -1582,7 +1580,6 @@
         "K_{sp}=[\\text{Ca}^{2+}]^{3}[\\text{PO}_{4}^{3-}]^{2}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
         "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:54.795748"
@@ -1759,8 +1756,7 @@
         "ions is __________."
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:03.172763"
     },
@@ -1967,11 +1963,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The reaction between silver nitrate (AgNO<sub>3</sub>) and potassium iodide (KI) forms silver iodide (AgI), which is practically insoluble in water. The reaction is as follows :\n\n<br/><br/>AgNO<sub>3</sub>(aq) + KI(aq) → AgI(s) + KNO<sub>3</sub>(aq)\n\n<br/><br/>Although the reaction stoichiometry indicates that iodide ions (I<sup>-</sup>) and silver ions (Ag<sup>+</sup>) are produced, silver iodide (AgI) precipitates out of the solution due to its low solubility, and very little Ag<sup>+</sup> and I<sup>-</sup> ions remain in the solution. Hence, their concentration in the solution will be negligible.\n\n<br/><br/>So, the correct answer should be :\n\n<br/><br/>Option C : Ag+ and I- both<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:55.561667"
     },
@@ -2455,7 +2451,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $H_{2}C_{2}O_{4} \\rightleftharpoons 2H^{+}+C_{2}O_{4}^{2-}K_{a_{3}}$ \n<br/><br/>\n $H_{2}C_{2}O_{4} \\rightleftharpoons H^{+}+HC_{2}O_{4}^{-}K_{a_{1}}$ \n<br/><br/>\n $HC_{2}O_{4}^{-} \\rightleftharpoons H^{+}+C_{2}O_{4}^{2-}K_{a_{2}}$ \n<br/><br/>\n $K_{a_{3}}=\\frac{[H^{+}]^{2}[C_{2}O_{4}^{2-}]}{[H_{2}C_{2}O_{4}]}$ \n<br/><br/>\n $K_{a_{1}}=\\frac{[H^{+}][HC_{2}O_{4}^{-}]}{[H_{2}C_{2}O_{4}]},K_{a_{2}}=\\frac{[H^{+}][C_{2}O_{4}^{-}]}{[HC_{2}O_{4}^{-}]}$ \n<br/><br/>\n $K_{a_{3}}=K_{a_{1}} \\times K_{a_{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Medium",
       "key_formulas": [
         "K_{a_{1}}",
@@ -2466,7 +2462,7 @@
         "H_{2}C_{2}O_{4}\\vec{\\le ftarrow}2H^{+}+C_{2}O_{4}^{2-}"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:32:56.442056"
     },
@@ -2514,13 +2510,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5k0djkt/0df5bd8d-fc81-45e3-8459-254386070eb4/d87bb0d0-02e3-11ed-baaf-13f0aedc901d/file-1l5k0djku.png?format=png"
       ],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:56.701683"
     },
@@ -2630,14 +2626,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2KMnO_{4}+16HCl \\rightarrow 2MnCl_{2}+2KCl+8H_{2}O+Cl_{2}$ <br/><br/> $HCl$  is not used in the process of titration because it reacts with the  $(KMnO_{4})$  that is used in the process and gets oxidized.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Easy",
       "key_formulas": [
         "2KMnO_{4}+16HCl \\rightarrow 2MnCl_{2}+2KCl+8H_{2}O+Cl_{2}",
         "(KMnO_{4})"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:55.986488"
     },
@@ -2950,7 +2946,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $16H^{+}+2MnO_{4}^{-}+5C_{2}O_{4}^{2-} \\rightarrow 10CO_{2}+2Mn^{2+}+8H_{2}O$ \n<br/><br/>\nDuring titration of oxalic acid by  $KMnO_{4}$ , oxalic acid converts into  $CO_{2}$ .\n<br/><br/>\n $\\therefore$  Change in oxidation state of carbon  $=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Medium",
       "key_formulas": [
         "KMnO_{4}",
@@ -2958,7 +2954,7 @@
         "CO_{2}"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:04.474441"
     },
@@ -3642,7 +3638,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Conc. of Cl<sup> $-$ </sup> = 0.1 M = 10<sup> $-$ 1</sup> M<br/><br/>Conc. of CrO $_{4}^{2-}$  = 0.001 M = 10<sup> $-$ 3</sup> M<br/><br/>K<sub>sp</sub>(AgCl) = [Ag<sup>+</sup>][Cl<sup> $-$ </sup>]<br/><br/>[Ag<sup>+</sup>]<sub>AgCl</sub> =  $\\frac{1.7 \\times 10^{-10}}{10^{-1}}=1.7 \\times 10^{-9}$ <br/><br/> $K_{sp}(Ag_{2}CrO_{4})=[Ag^{+}]^{2}[CrO_{4}^{2-}]$ <br/><br/> $[Ag^{+}]=\\sqrt{\\frac{1.9 \\times 10^{-12}}{10^{-3}}}=\\sqrt{19} \\times 10^{-4}$ <br/><br/> $\\therefore$  AgCl will be precipitate first<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -3653,7 +3649,7 @@
         "] [Ag + ] AgCl ="
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:56.846821"
     },
@@ -3936,11 +3932,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Aq. NaOH in a burette and aqueous oxalic acid in a conical flask.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:32:57.999149"
     },
@@ -4303,11 +4299,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->K<sub>sp</sub> value of CuS is very low  10<sup>–36</sup> (3.6 × 10<sup>–36</sup>)\ndue to low K<sub>sp</sub> value Cu<sup>+2</sup> ion gets precipitated\nvery quickly even with very low concentration\nof S<sup>–2</sup> ion.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:57.460144"
     },
@@ -4615,8 +4611,7 @@
         "\\frac{10^{-5} \\times c\\alpha}{c(1-\\alpha)}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:32:58.459916"
     },
@@ -4929,14 +4924,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-nrix\">Zr<sub>3</sub>(PO<sub>4</sub>)<sub>4</sub></th>\n<th class=\"tg-nrix\">⇌</th>\n<th class=\"tg-nrix\">3Zr<sup>+4</sup></th>\n<th class=\"tg-nrix\">+</th>\n<th class=\"tg-nrix\">4PO<sub>4</sub><sup>-3</sup></th>\n</tr>\n<tr>\n<td class=\"tg-nrix\">S</td>\n<td class=\"tg-nrix\"></td>\n<td class=\"tg-nrix\">3S</td>\n<td class=\"tg-nrix\"></td>\n<td class=\"tg-nrix\">4S</td>\n</tr>\n</tbody></table>\n<br/><br/>K<sub>sp</sub> = [Zr<sup>+4</sup>]<sup>3</sup> [PO<sub>4</sub><sup>-3</sup>]<sup>4</sup>\n<br/><br/>= [3S]<sup>3</sup> [4S]<sup>4</sup>\n<br/><br/>= 27S<sup>3</sup>  $\\times$  256S<sup>4</sup>\n<br/><br/>= 6912S<sup>7</sup>\n<br/><br/> $\\therefore$   $S=(\\frac{K_{sp}}{6912})^{1/7}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
         "S=(\\frac{K_{sp}}{6912})^{1/7}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Common Ion Effect"
       ],
       "crawled_at": "2026-09-20T15:32:58.517870"
     },
@@ -5309,11 +5304,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/HWSBCUIi7D06Wqc3H/fpNwpYrJSCGQWNa4DTh8BotY1d7GI/5py9JgXIpIPYRFcDvpps2u/image.png"
       ],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:32:59.739869"
     },
@@ -5815,8 +5810,7 @@
         "pOH=4"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts",
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:00.480474"
     },
@@ -5919,7 +5913,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\underset{1 \\times 10^{-4}M}{Na_{2}CO_{3}} \\rightarrow \\underset{1 \\times 10^{-4}M}{2Na^{+}}+\\underset{1 \\times 10^{-4}M}{CO_{3}^{2-}}$ \n<br/><br/> $K_{SP(BaCO_{3})}=[Ba^{2+}][CO_{3}^{2-}]$ \n<br/><br/> $[Ba^{2+}]=\\frac{5.1 \\times 10^{-9}}{1 \\times 10^{-4}}$ \n<br/><br/> $=5.1 \\times 10^{-5}M$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -5928,7 +5922,7 @@
         "=5.1 \\times 10^{-5}M"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:00.776211"
     },
@@ -6740,7 +6734,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(HSO_{4})^{-}$  can accept and donate a proton\n<br/><br/> $(HSO_{4})^{-}+H^{+} \\rightarrow H_{2}SO_{4}$  (acting as base)\n<br/><br/> $(HSO_{4})^{-}-H^{+} \\rightarrow H_{2}SO_{4}^{2-}.$  (acting as acid)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Calculation of Acids, Bases & Salts",
       "difficulty": "Easy",
       "key_formulas": [
         "(HSO_{4})^{-}",
@@ -6748,7 +6742,7 @@
         "(HSO_{4})^{-}-H^{+} \\rightarrow H_{2}SO_{4}^{2-}."
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Calculation of Acids, Bases & Salts"
       ],
       "crawled_at": "2026-09-20T15:33:01.706337"
     },

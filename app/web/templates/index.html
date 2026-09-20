@@ -328,6 +328,17 @@
         </div>
       </div>
 
+      <!-- Active Concept Filter Banner -->
+      <div id="active-concept-banner" class="hidden flex items-center justify-between px-3.5 py-2 bg-zinc-900 border border-zinc-800 rounded-md text-xs text-zinc-300">
+        <div class="flex items-center space-x-2">
+          <span class="text-zinc-500 font-mono text-[11px] uppercase tracking-wider">Filtered Topic:</span>
+          <span id="active-concept-banner-text" class="text-zinc-100 font-semibold"></span>
+        </div>
+        <button onclick="clearConceptFilter()" class="text-xs text-zinc-400 hover:text-zinc-100 transition underline font-mono flex items-center gap-1 cursor-pointer">
+          <span>Show All Questions</span> &times;
+        </button>
+      </div>
+
       <!-- PYQs List -->
       <div id="pyqs-container" class="space-y-3">
         <!-- Rendered question cards -->
@@ -770,6 +781,18 @@
       const concept = document.getElementById('filter-concept').value;
       const search = document.getElementById('filter-search').value;
 
+      // Sync active concept filter banner
+      const banner = document.getElementById('active-concept-banner');
+      const bannerText = document.getElementById('active-concept-banner-text');
+      if (banner && bannerText) {
+        if (concept) {
+          banner.classList.remove('hidden');
+          bannerText.innerText = concept;
+        } else {
+          banner.classList.add('hidden');
+        }
+      }
+
       let url = `/api/chapter/${currentChapterSlug}/questions?limit=100`;
       if (year) url += `&year=${year}`;
       if (qtype) url += `&qtype=${qtype}`;
@@ -804,6 +827,11 @@
           console.error('Error loading questions:', err, e2);
         }
       }
+    }
+
+    function clearConceptFilter() {
+      document.getElementById('filter-concept').value = '';
+      applyFilters();
     }
 
     function renderQuestions(questions, total) {
@@ -851,10 +879,12 @@
               <span class="text-[11px] font-mono text-zinc-400">Q#${q.question_index || (idx+1)}</span>
               <span class="text-xs font-medium text-zinc-300">${q.paper_name}</span>
             </div>
-            <div class="flex items-center space-x-1.5">
+            <div class="flex flex-wrap items-center gap-1.5">
               <span class="text-[10px] font-mono text-zinc-400 bg-zinc-800/60 border border-zinc-800 px-2 py-0.5 rounded">${q.question_type}</span>
               <span class="text-[10px] font-mono text-zinc-400 bg-zinc-800/60 border border-zinc-800 px-2 py-0.5 rounded">${q.difficulty}</span>
-              ${q.topic_tag ? `<span class="text-[10px] font-mono text-zinc-500 bg-zinc-800/30 border border-zinc-800/60 px-2 py-0.5 rounded">${q.topic_tag}</span>` : ''}
+              ${(q.key_concepts && q.key_concepts.length ? q.key_concepts : (q.topic_tag ? [q.topic_tag] : [])).map(k => `
+                <span class="text-[10px] font-mono text-zinc-300 bg-zinc-800/80 hover:bg-zinc-700 hover:text-zinc-100 border border-zinc-700/60 px-2 py-0.5 rounded transition cursor-pointer" onclick="filterPYQsByConcept('${k.replace(/'/g, "\\'")}')" title="Filter by this topic">${k}</span>
+              `).join('')}
             </div>
           </div>
 

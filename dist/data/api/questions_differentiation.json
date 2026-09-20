@@ -452,14 +452,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f^{'}(0)=\\underset{ℎ \\rightarrow 0}{lim}\\frac{f(ℎ)-f(0)}{ℎ} \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}\\frac{(2^{ℎ}+2^{-ℎ})tanℎ\\sqrt{tan^{-1}(ℎ^{2}-ℎ+1)}-0}{(7ℎ^{2}+3ℎ+1)^{3}ℎ} \\\\ &amp; =\\sqrt{\\pi} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{(2^{x}+2^{-x})tanx\\sqrt{tan^{-1}(x^{2}-x+1)}}{(7x^{2}+3x+1)^{3}}",
         "f^{'}(0)"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.185602"
     },
@@ -763,14 +763,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y(\\theta)=\\frac{2cos\\theta+cos2\\theta}{cos3\\theta+4cos2\\theta+5cos\\theta+2} \\\\ &amp; =\\frac{2cos^{2}\\theta+2cos\\theta-1}{4cos^{3}\\theta+8cos^{2}\\theta+2cos\\theta-2} \\\\ &amp; =\\frac{2cos^{2}\\theta+2cos\\theta-1}{(2cos^{2}\\theta+2cos\\theta-1)(2cos\\theta+2)} \\\\ &amp; =\\frac{1}{2(1+cos\\theta)}=\\frac{1}{4cos^{2}\\theta/2}=\\frac{sec^{2}\\theta/2}{4} \\\\ &amp; y^{'}(\\theta)=\\frac{1}{4}(2sec\\frac{\\theta}{2} \\cdot sec\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2} \\cdot \\frac{1}{2}) \\\\ &amp; =\\frac{1}{4}sec^{2}\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2} \\end{aligned}$ </p>\n<p> $y^{''}(\\theta)=\\frac{1}{4}(tan\\frac{\\theta}{2})(sec^{2}\\frac{\\theta}{2} \\cdot tan\\frac{\\theta}{2})+\\frac{1}{4}sec^{2}\\frac{\\theta}{2} \\cdot sec^{2}\\frac{\\theta}{2} \\cdot \\frac{1}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\text{at}\\theta=\\frac{\\pi}{2},y(\\theta)=\\frac{1}{2},y^{'}(\\theta)=\\frac{1}{2},y^{''}(\\theta)=1 \\\\ &amp; \\therefore y+y^{'}+y^{''}=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y(\\theta)=\\frac{2cos\\theta+cos2\\theta}{cos3\\theta+4cos2\\theta+5cos\\theta+2}",
         "\\theta=\\frac{\\pi}{2},y^{''}+y^{'}+y"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:51.271997"
     },
@@ -816,11 +816,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |\\begin{aligned} 2cos^{4}x &amp; 2sin^{4}x &amp; 3+sin^{2}2x \\\\ 3+2cos^{4}x &amp; 2sin^{4}x &amp; sin^{2}2x \\\\ 2cos^{4}x &amp; 3+2sin^{2}4x &amp; sin^{2}2x \\end{aligned}| \\\\ &amp; R_{2} \\rightarrow R_{2}-R_{1},R_{3} \\rightarrow R_{3}-R_{1} \\\\ &amp; |\\begin{aligned} 2cos^{4}x &amp; 2sin^{4}x &amp; 3+sin^{2}2x \\\\ 3 &amp; 0 &amp; -3 \\\\ 0 &amp; 3 &amp; -3 \\end{aligned}| \\\\ &amp; f(x)=45 \\\\ &amp; f^{'}(x)=0 \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:51.695286"
     },
@@ -845,11 +845,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=\\frac{(\\sqrt{x}+1)(x^{2}-\\sqrt{x})}{x\\sqrt{x}+x+\\sqrt{x}}+\\frac{1}{15}(3cos^{2}x-5)cos^{3}x \\\\ \\\\ &amp; y=\\frac{(\\sqrt{x}+1)(\\sqrt{x})((\\sqrt{x})^{3}-1)}{(\\sqrt{x})((\\sqrt{x})^{2}+(\\sqrt{x})+1)}+\\frac{1}{5}cos^{5}x-\\frac{1}{3}cos^{3}x \\\\ \\\\ &amp; y=(\\sqrt{x}+1)(\\sqrt{x}-1)+\\frac{1}{5}cos^{5}x-\\frac{1}{3}cos^{3}x \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; y^{'}=1-cos^{4}x \\cdot (sinx)+cos^{2}x(sinx \\\\ \\\\ &amp; y^{'}(\\frac{\\pi}{6})=1-\\frac{9}{16} \\times \\frac{1}{2}+\\frac{3}{4} \\times \\frac{1}{2} \\\\ \\\\ &amp; =\\frac{32-9+12}{32}=\\frac{35}{32} \\\\ \\\\ &amp; \\therefore 96y^{'}(\\frac{\\pi}{6})=105 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.694326"
     },
@@ -952,7 +952,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that   $(g^{\\circ}f)(x)=x$   for all  $x \\in R$ . This means  $g(f(x))=x$  for all  $x \\in R$ . Differentiating both sides with respect to  $x$ , we get:\n\n<p> $g^{'}(f(x)) \\cdot f^{'}(x)=1$ </p>\n</p>\n<p>Now, we want to find the value of  $8g^{'}(2)$ . To do this, we need to find a value of  $x$  such that  $f(x)=2$ . Let's solve for  $x$ :\n\n<p> $x^{5}+2e^{x/4}=2$ </p>\n</p>\n<p>By inspection, we see that  $x=0$  is a solution. Therefore,  $f(0)=2$ . Now, we can substitute this into our differentiated equation:\n\n<p> $g^{'}(f(0)) \\cdot f^{'}(0)=1$ </p>\n<p> $g^{'}(2) \\cdot f^{'}(0)=1$ </p>\n</p>\n<p>Let's find  $f^{'}(0)$ :\n\n<p> $f^{'}(x)=5x^{4}+\\frac{1}{2}e^{x/4}$ </p>\n<p> $f^{'}(0)=\\frac{1}{2}$ </p>\n</p>\n<p>Substituting this back into our equation:\n\n<p> $g^{'}(2) \\cdot \\frac{1}{2}=1$ </p>\n<p> $g^{'}(2)=2$ </p>\n</p>\n<p>Finally, we can calculate  $8g^{'}(2)$ :\n\n<p> $8g^{'}(2)=8 \\cdot 2=16$ </p></p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{5}+2e^{x/4}",
@@ -963,7 +963,7 @@
         "f^{'}(0)"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:51.283080"
     },
@@ -1091,14 +1091,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=x^{x} \\\\ \\\\ &amp; y^{'}=x^{x}(1+lnx) \\\\ \\\\ &amp; y^{''}=x^{x}(1+lnx)^{2}+\\frac{x^{x}}{x} \\\\ \\\\ &amp; f^{''}(2)-2f^{'}(2)=(4(1+ln2)^{2}+2)-(2)(4(1+ln2)) \\\\ \\\\ &amp; =4(1+(ln2)^{2})+2-8 \\\\ \\\\ &amp; =4(ln2)^{2}-2 \\\\ \\\\ &amp; \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y(x)=x^{x},x>0",
         "y^{''}(2)-2y^{'}(2)"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.710588"
     },
@@ -1144,7 +1144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; y=\\frac{1-x^{32}}{1-x}=1+x+x^{2}+x^{3}+\\dots+x^{31} \\\\ \\\\ &amp; y^{'}=1+2x+3x^{2}+\\dots+31x^{30} \\\\ \\\\ &amp; y^{'}(-1)=1-2+3-4+\\dots+31=16 \\\\ \\\\ &amp; y^{''}(x)=2+6x+12x^{2}+\\dots+31.30x^{29} \\\\ \\\\ &amp; y^{''}(-1)=2-6+12\\dots31.30=480 \\\\ \\\\ &amp; y^{''}(-1)-y^{'}(-1)=-496 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y(x)=(1+x)(1+x^{2})(1+x^{4})(1+x^{8})(1+x^{16})",
@@ -1152,7 +1152,7 @@
         "x=-1"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.150143"
     },
@@ -1177,7 +1177,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $f(x)=\\sum_{k=1}^{10}kx^{k}$ \n<br/><br/> $\\begin{aligned} &amp; f(x)=x+2x^{2}+\\dots\\dots\\dots+10x^{10} \\\\ \\\\ &amp; f(x).x=x^{2}+2x^{3}+\\dots\\dots\\dots+9x^{10}+10x^{11} \\\\ \\\\ &amp; f(x)(1-x)=x+x^{2}+x^{3}+\\dots\\dots\\dots+x^{10}-10x^{11} \\\\ \\\\ &amp; \\therefore f(x)=\\frac{x(1-x^{10})}{(1-x)^{2}}-\\frac{10x^{11}}{(1-x)} \\end{aligned}$ \n<br/><br/> $\\Rightarrow$   $f(x)=\\frac{x-x^{11}-10x^{11}+10x^{12}}{(1-x)^{2}}=\\frac{10x^{12}-11x^{11}+x}{(1-x)^{2}}$ \n<br/><br/>So, \n<br/><br/> $\\begin{aligned} &amp; f(2)=2(1-2^{10})+10 \\cdot 2^{11} \\\\ \\\\ &amp; =2+18 \\cdot 2^{10} \\end{aligned}$ \n<br/><br/> $f^{'}(x)=\\frac{(1-x)^{2}(120x^{11}-121x^{10}+1)+2(1-x)(10x^{12}-11.x^{11}+2)}{(1-x)^{4}}$ \n<br/><br/>So,\n<br/><br/> $f^{'}(x)=\\frac{1(120.2^{11}-121.2^{10}+1)+2(-1)(10.2^{12}-11.2^{11}+2)}{(-1)^{4}}$ \n<br/><br/>=  $2^{10}(83)-3$ \n<br/><br/>Hence  $2f(2)+f^{'}(2)=119.2^{10}+1$ \n<br/><br/> $\\Rightarrow \\text{So,}n=10$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\sum_{k=1}^{10}kx^{k},x \\in ℝ",
@@ -1187,7 +1187,7 @@
         "\\Rightarrow \\text{So,}n=10"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.172239"
     },
@@ -1433,7 +1433,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx}$ \n<br/><br/> $\\begin{aligned} &amp; =\\frac{\\frac{1}{\\sqrt{2}}sinx+\\frac{1}{\\sqrt{2}}cosx-1}{\\frac{1}{\\sqrt{2}}sinx-\\frac{1}{\\sqrt{2}}cosx} \\\\ \\\\ &amp; =\\frac{cos(x-\\frac{\\pi}{4})-1}{sin(x-\\frac{\\pi}{4})} \\\\ \\\\ &amp; =\\frac{-2sin^{2}(\\frac{x}{2}-\\frac{\\pi}{8})}{2sin(\\frac{x}{2}-\\frac{\\pi}{8})cos(\\frac{x}{2}-\\frac{\\pi}{8})} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow f(x)=-tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\\\ \\\\ &amp; \\Rightarrow f^{'}(x)=-\\frac{1}{2}sec^{2}(\\frac{x}{2}-\\frac{\\pi}{8}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow f^{''}(x)=-\\frac{1}{2} \\cdot 2sec(\\frac{x}{2}-\\frac{\\pi}{8}) \\cdot sec(\\frac{x}{2}-\\frac{\\pi}{8})tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\times \\frac{1}{2} \\\\ \\\\ &amp; =-\\frac{1}{2}sec^{2}(\\frac{x}{2}-\\frac{\\pi}{8}) \\cdot tan(\\frac{x}{2}-\\frac{\\pi}{8}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}f(\\frac{7\\pi}{12})f^{''}(\\frac{7\\pi}{12}) \\\\ \\\\ &amp; =-tan(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\times \\frac{-1}{2}sec^{2}(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\times tan(\\frac{7\\pi}{24}-\\frac{\\pi}{8}) \\\\ \\\\ &amp; =\\frac{1}{2}tan^{2}(\\frac{\\pi}{6}) \\times sec^{2}\\frac{\\pi}{6} \\\\ \\\\ &amp; =\\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{4}{3}=\\frac{2}{9} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx},x \\in [0,\\pi]-{\\frac{\\pi}{4}}",
@@ -1441,7 +1441,7 @@
         "f(x)=\\frac{sinx+cosx-\\sqrt{2}}{sinx-cosx}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.207341"
     },
@@ -1487,14 +1487,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=sin^{3}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2}))$ \n<br/><br/> $\\begin{aligned} &amp; f^{'}(x)=3sin^{2}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; cos(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; \\frac{\\pi}{3}(-sin(\\frac{\\pi}{3\\sqrt{2}}(-4x^{3}+5x^{2}+1)^{3/2})) \\\\ \\\\ &amp; \\frac{\\pi}{3\\sqrt{2}}\\frac{3}{2}(-4x^{3}+5x^{3}+1)^{1/2}(-12x^{2}+10x) \\end{aligned}$ \n<br/><br/> $f^{'}(1)=\\frac{3\\pi^{2}}{16}$ \n<br/><br/> $\\begin{aligned} &amp; f(1)=sin^{3}(\\frac{\\pi}{3}cos(\\frac{\\pi}{3\\sqrt{2}}2\\sqrt{2})) \\\\ \\\\ &amp; =sin^{3}(-\\frac{\\pi}{6})=\\frac{-1}{8} \\\\ \\\\ &amp; \\therefore 2f^{'}(1)+3\\pi^{2}f(1)=0 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         ". Then, at x = 1,",
         "f^{'}(1)=\\frac{3\\pi^{2}}{16}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:52.734362"
     },
@@ -1721,7 +1721,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos^{-1}(\\frac{y}{2})=log_{e}(\\frac{x}{5})^{5}|y|&lt;2$ </p>\n<p>Differentiating on both side</p>\n<p> $-\\frac{1}{\\sqrt{1-(\\frac{y}{2})^{2}}} \\times \\frac{y^{'}}{2}=\\frac{5}{\\frac{x}{5}} \\times \\frac{1}{5}$ </p>\n<p> $\\frac{-xy^{'}}{2}=5\\sqrt{1-(\\frac{y}{2})^{2}}$ </p>\n<p>Square on both side</p>\n<p> $\\frac{x^{2}y^{'2}}{4}=25(\\frac{4-y^{2}}{4})$ </p>\n<p>Diff on both side</p>\n<p> $2xy^{'2}+2y^{'}y^{''}x^{2}=-25 \\times 2yy^{'}$ </p>\n<p> $xy^{'}+y^{''}x^{2}+25y=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(\\frac{y}{2})=log_{e}(\\frac{x}{5})^{5},|y|<2",
@@ -1732,7 +1732,7 @@
         "xy^{'}+y^{''}x^{2}+25y=0"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.820943"
     },
@@ -1907,7 +1907,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x=2\\sqrt{2}cost\\sqrt{sin2t},y=2\\sqrt{2}sint\\sqrt{sin2t}$ </p>\n<p> $\\therefore$   $\\frac{dx}{dt}=\\frac{2\\sqrt{2}cos3t}{\\sqrt{sin2t}},\\frac{dy}{dt}=\\frac{2\\sqrt{2}sin3t}{\\sqrt{sin2t}}$ </p>\n<p> $\\therefore$   $\\frac{dy}{dx}=tan3t,(att=\\frac{\\pi}{4},\\frac{dy}{dx}=-1)$ </p>\n<p>and  $\\frac{d^{2}y}{dx^{2}}=3sec^{2}3t.\\frac{dt}{dx}=\\frac{3sec^{2}3t.\\sqrt{sin2t}}{2\\sqrt{2}cos3t}$ </p>\n<p> $(Att=\\frac{\\pi}{4},\\frac{d^{2}y}{dx^{2}}=-3)$ </p>\n<p> $\\therefore$   $\\frac{1+(\\frac{dy}{dx})^{2}}{\\frac{d^{2}y}{dx^{2}}}=\\frac{2}{-3}=\\frac{-2}{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x(t)=2\\sqrt{2}cost\\sqrt{sin2t}",
@@ -1918,7 +1918,7 @@
         "\\frac{dy}{dx}=tan3t,(att=\\frac{\\pi}{4},\\frac{dy}{dx}=-1)"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.179698"
     },
@@ -1964,7 +1964,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $x^{3}=\\theta \\Rightarrow \\frac{\\theta}{2} \\in (\\frac{\\pi}{4},\\frac{3\\pi}{4})$ </p>\n<p> $\\therefore$   $y=tan^{-1}(sec\\theta-tan\\theta)$ </p>\n<p> $=tan^{-1}(\\frac{1-sin\\theta}{cos\\theta})$ </p>\n<p> $\\therefore$   $y=\\frac{\\pi}{4}-\\frac{\\theta}{2}$ </p>\n<p> $y=\\frac{\\pi}{4}-\\frac{x^{3}}{2}$ </p>\n<p> $\\therefore$   $y^{'}=\\frac{-3x^{2}}{2}$ </p>\n<p> $y^{''}=-3x$ </p>\n<p> $\\therefore$   $x^{2}y^{''}-6y+\\frac{3\\pi}{2}=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=tan^{-1}(secx^{3}-tanx^{3}),\\frac{\\pi}{2}<x^{3}<\\frac{3\\pi}{2}",
@@ -1975,7 +1975,7 @@
         "y=\\frac{\\pi}{4}-\\frac{x^{3}}{2}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:53.849899"
     },
@@ -2000,7 +2000,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $y(x)=(x^{x})^{x}$ </p>\n<p> $\\therefore$   $y=x^{x^{2}}$ </p>\n<p> $\\therefore$   $\\frac{dy}{dx}=x^{2}.x^{x^{2}-1}+x^{x^{2}}lnx.2x$ </p>\n<p> $\\therefore$   $\\frac{dx}{dy}=\\frac{1}{x^{x^{2}+1}(1+2lnx)}$  ..... (i)</p>\n<p>Now,  $\\frac{d^{2}x}{dx^{2}}=\\frac{d}{dx}((x^{x^{2}+1}(1+2lnx))^{-1}).\\frac{dx}{dy}$ </p>\n<p> $=\\frac{-x(x^{x^{2}+1}(1+2lnx))^{-2}.x^{x^{2}}(1+2lnx)(x^{2}+2x^{2}lnx+3)}{x^{x^{2}}(1+2lnx)}$ </p>\n<p> $=\\frac{-x^{x^{2}}(1+2lnx)(x^{3}+3+2x^{2}lnx)}{(x^{x^{2}}(1+2lnx))^{3}}$ </p>\n<p> $\\frac{d^{2}x}{dy^{2}(atx=1)}=-4$ </p>\n<p> $\\therefore$   $\\frac{d^{2}x}{dy^{2}(atx=1)}+20=16$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Hard",
       "key_formulas": [
         "y(x)=(x^{x})^{x},x>0",
@@ -2011,7 +2011,7 @@
         "\\frac{dx}{dy}=\\frac{1}{x^{x^{2}+1}(1+2lnx)}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.653781"
     },
@@ -2150,7 +2150,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=cos(2tan^{-1}sin(cot^{-1}\\sqrt{\\frac{1-x}{x}}))$ <br/><br/> $cot^{-1}\\sqrt{\\frac{1-x}{x}}=sin^{-1}\\sqrt{x}$ <br/><br/>or  $f(x)=cos(2tan^{-1}\\sqrt{x})$ <br/><br/> $=costan^{-1}(\\frac{2\\sqrt{x}}{1-x})$ <br/><br/> $f(x)=\\frac{1-x}{1+x}$ <br/><br/>Now,  $f^{'}(x)=\\frac{-2}{(1+x)^{2}}$ <br/><br/>or  $f^{'}(x)(1-x)^{2}=-2(\\frac{1-x}{1+x})^{2}$ <br/><br/>or  $(1-x)^{2}f^{'}(x)+2(f(x))^{2}=0$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos(2tan^{-1}sin(cot^{-1}\\sqrt{\\frac{1-x}{x}}))",
@@ -2161,7 +2161,7 @@
         "f^{'}(x)=\\frac{-2}{(1+x)^{2}}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.277389"
     },
@@ -2186,7 +2186,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->ln(x + y) = 4xy (At x = 0, y = 1)<br/><br/>x + y = e<sup>4xy</sup><br/><br/> $\\Rightarrow 1+\\frac{dy}{dx}=e^{4xy}(4x\\frac{dy}{dx}+4y)$ <br/><br/>At x = 0 <br/><br/> $\\frac{dy}{dx}=3$ <br/><br/> $\\frac{d^{2}y}{dx^{2}}=e^{4xy}(4x\\frac{dy}{dx}+4y)^{2}+e^{4xy}(4x\\frac{d^{2}y}{dx^{2}}+4y)$ <br/><br/>At x = 0,  $\\frac{d^{2}y}{dx^{2}}=e^{0}(4)^{2}+e^{0}(24)$ <br/><br/> $\\Rightarrow \\frac{d^{2}y}{dx^{2}}=40$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}y}{dx^{2}}",
@@ -2196,7 +2196,7 @@
         "\\Rightarrow \\frac{d^{2}y}{dx^{2}}=40"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.935089"
     },
@@ -2385,7 +2385,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y(\\alpha)=\\sqrt{2(\\frac{tan\\alpha+cot\\alpha}{1+tan^{2}\\alpha})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{2(\\frac{1+tan^{2}\\alpha}{tan\\alpha(1+tan^{2}\\alpha)})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{2(\\frac{cos\\alpha}{sin\\alpha})+\\frac{1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\sqrt{\\frac{sin2\\alpha+1}{sin^{2}\\alpha}}$ \n<br/><br/>=  $\\frac{|sin\\alpha+cos\\alpha|}{|sin\\alpha|}$ \n<br/><br/>At  $\\alpha$  =  $\\frac{5\\pi}{6}$ \n<br/><br/> $|sin\\alpha+cos\\alpha|$  = -(sin $\\alpha$  + cos $\\alpha$ )\n<br/><br/>and |sin $\\alpha$ | = sin $\\alpha$ \n<br/><br/> $\\therefore$  y( $\\alpha$ ) =  $\\frac{-(sin\\alpha+cos\\alpha)}{sin\\alpha}$ \n<br/><br/>= -1 - cot $\\alpha$ \n<br/><br/> $\\therefore$   $\\frac{dy}{d\\alpha}$  = cosec<sup>2</sup> $\\alpha$ \n<br/><br/>So  $\\frac{dy}{d\\alpha}$  at  $\\alpha$  =  $\\frac{5\\pi}{6}$ ,\n<br/><br/>= cosec<sup>2</sup> $\\frac{5\\pi}{6}$  = 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{d\\alpha}at\\alpha=\\frac{5\\pi}{6}is",
@@ -2395,7 +2395,7 @@
         "\\frac{5\\pi}{6}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.271724"
     },
@@ -2498,7 +2498,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=2sin\\theta-sin2\\theta$ \n<br/><br/> $\\Rightarrow$   $\\frac{dx}{d\\theta}$  =  $2cos\\theta-2cos2\\theta$ \n<br/><br/> $y=2cos\\theta-cos2\\theta$ \n<br/><br/> $\\Rightarrow$   $\\frac{dy}{d\\theta}$  = –2sin $\\theta$  + 2sin2 $\\theta$ \n<br/><br/> $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}$  =  $\\frac{sin2\\theta-sin\\theta}{cos\\theta-cos2\\theta}$ \n<br/><br/>This expression is simplified by recognizing that  $sin2\\theta=2sin\\theta cos\\theta$  and  $cos2\\theta=2cos^{2}\\theta-1$ , leading to the expression:\n\n<br/><br/> $\\frac{dy}{dx}=\\frac{2sin\\frac{\\theta}{2} \\cdot cos\\frac{3\\theta}{2}}{2sin\\frac{\\theta}{2} \\cdot sin\\frac{3\\theta}{2}}=cot\\frac{3\\theta}{2}$ \n<br/><br/>This is the rate of change of y with respect to x, as a function of θ.\n\n<br/><br/>Next, we differentiate this function with respect to θ to find  $\\frac{d^{2}y}{dx^{2}}$ , yielding :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{d\\theta}(\\frac{dy}{dx})\\frac{d\\theta}{dx}=-\\frac{3}{2}cosec^{2}\\frac{3\\theta}{2} \\cdot \\frac{d\\theta}{dx}$ \n<br/><br/>Here,  $\\frac{d\\theta}{dx}$  is the reciprocal of  $\\frac{dx}{d\\theta}$ , so the equation becomes :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=\\frac{-\\frac{3}{2}cosec^{2}\\frac{3\\theta}{2}}{2(cos\\theta-cos2\\theta)}$ \n<br/><br/>Finally, we evaluate this expression at  $\\theta=\\pi$ , yielding :\n\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}(\\pi)=\\frac{-3}{4(-1-1)}=\\frac{3}{8}$ \n<br/><br/>Therefore, the correct answer is (A)  $\\frac{3}{8}$ .\n<br/><br/><b>Alternate Method :</b>\n<br/><br/>First, let's find the derivatives of x and y with respect to θ :\n\n<br/><br/>1)  $\\frac{dx}{d\\theta}=2cos\\theta-2cos2\\theta$ \n<br/><br/>2)  $\\frac{dy}{d\\theta}=-2sin\\theta+2sin2\\theta$ \n<br/><br/>We know that  $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}$ \n<br/><br/>So, we substitute 1) and 2) into this equation :\n\n<br/><br/>We have \n\n<br/><br/> $\\frac{dy}{dx}=\\frac{-2sin\\theta+2sin2\\theta}{2cos\\theta-2cos2\\theta}=\\frac{sin2\\theta-sin\\theta}{cos\\theta-cos2\\theta}$ \n<br/><br/>For simplification, let's denote the numerator as  $N=sin2\\theta-sin\\theta$  and the denominator as  $D=cos\\theta-cos2\\theta$ .\n\n<br/><br/>We have to compute  $\\frac{d}{d\\theta}(\\frac{dy}{dx})$  which is  $\\frac{d}{d\\theta}(\\frac{N}{D})$ .\n\n<br/><br/>We can use the quotient rule for differentiation, which states that if we have a function of the form  $\\frac{u}{v}$ , then its derivative is given by  $\\frac{vu^{'}-uv^{'}}{v^{2}}$ . \n\n<br/><br/>So here,  $N^{'}=2cos2\\theta-cos\\theta$  and  $D^{'}=-sin\\theta+2sin2\\theta$ .\n\n<br/><br/>Applying the quotient rule :\n\n<br/><br/> $\\frac{d}{d\\theta}(\\frac{dy}{dx})=\\frac{DN^{'}-ND^{'}}{D^{2}}$ \n<br/><br/>Substituting the expressions for  $N^{'}$ ,  $D^{'}$ ,  $N$ , and  $D$  we get :\n\n<br/><br/> $\\frac{d}{d\\theta}(\\frac{dy}{dx})=\\frac{(cos\\theta-cos2\\theta)(2cos2\\theta-cos\\theta)-(sin2\\theta-sin\\theta)(-sin\\theta+2sin2\\theta)}{(cos\\theta-cos2\\theta)^{2}}$ \n<br/><br/>Now  $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}(\\frac{dy}{dx})=\\frac{d}{d\\theta}(\\frac{dy}{dx}) \\times \\frac{d\\theta}{dx}$ \n<br/><br/>=   $\\frac{(cos\\theta-cos2\\theta)(2cos2\\theta-cos\\theta)-(sin2\\theta-sin\\theta)(-sin\\theta+2sin2\\theta)}{(cos\\theta-cos2\\theta)^{2}}$  $\\times \\frac{1}{(2cos\\theta-2cos2\\theta)}$ \n<br/><br/> $\\begin{aligned} \\therefore \\frac{d^{2}y}{dx^{2}}|_{\\theta=\\pi} &amp; =\\frac{(-1-1)(2+1)-(0-0)(-0+0)}{2(-1-1)^{3}} \\\\ \\\\ &amp; =\\frac{-2 \\times 3}{-2 \\times 8}=\\frac{3}{8} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x=2sin\\theta-sin2\\theta",
@@ -2509,7 +2509,7 @@
         "\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:54.873060"
     },
@@ -2611,7 +2611,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(a+\\sqrt{2}bcosx)(a-\\sqrt{2}bcosy)=a^{2}-b^{2}$ <br/><br/> $\\Rightarrow a^{2}-\\sqrt{2}abcosy+\\sqrt{2}abcosx-2b^{2}cosxcosy=a^{2}-b^{2}$ <br/><br/>Differentiating both sides :<br/><br/> $0-\\sqrt{2}ab(-siny\\frac{dy}{dx})+\\sqrt{2}ab(-sinx)$ <br/><br/> $-2b^{2}[cosx(-siny\\frac{dy}{dx})+cosy(-sinx)]=0$ <br/><br/>At  $(\\frac{\\pi}{4},\\frac{\\pi}{4})$  :<br/><br/> $ab\\frac{dy}{dx}-ab-2b^{2}(-\\frac{1}{2}\\frac{dy}{dx}-\\frac{1}{2})=0$ <br/><br/> $\\Rightarrow \\frac{dx}{dy}=\\frac{ab+b^{2}}{ab-b^{2}}=\\frac{a+b}{a-b}$ ; a, b &gt; 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "(a+\\sqrt{2}bcosx)(a-\\sqrt{2}bcosy)=a^{2}-b^{2}",
@@ -2622,7 +2622,7 @@
         "(\\frac{\\pi}{4},\\frac{\\pi}{4})"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.305421"
     },
@@ -2668,7 +2668,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ƒ(x) = (sin(tan<sup>–1</sup>x) + sin(cot<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/> = (sin(tan<sup>–1</sup>x) + sin( $\\frac{\\pi}{2}$  - tan<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/> = (sin(tan<sup>–1</sup>x) + cos(tan<sup>–1</sup>x))<sup>2</sup> – 1\n<br/><br/>= sin<sup>2</sup>(tan<sup>–1</sup>x) + cos<sup>2</sup>(tan<sup>–1</sup>x) + 2sin(tan<sup>–1</sup>x)cos(tan<sup>–1</sup>x) + 1\n<br/><br/>= 1 + sin(2tan<sup>–1</sup>x) - 1\n<br/><br/>= sin(2tan<sup>–1</sup>x)\n\n<br/><br/>Also given  $\\frac{dy}{dx}=\\frac{1}{2}\\frac{d}{dx}(sin^{-1}(f(x)))$ \n<br/><br/> Integrating both sides we get\n<br/><br/>y =  $\\frac{1}{2}$  sin<sup>-1</sup> (f(x)) + C\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>x)) + C\n<br/><br/>Given  $y(\\sqrt{3})=\\frac{\\pi}{6}$  mean x =  $\\sqrt{3}$  and y =  $\\frac{\\pi}{6}$ \n<br/><br/> $\\therefore$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup> $\\sqrt{3}$ )) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2 $\\times$  $\\frac{\\pi}{3}$ )) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$  sin<sup>-1</sup> ( $\\frac{\\sqrt{3}}{2}$ ) + C\n<br/><br/> $\\Rightarrow$   $\\frac{\\pi}{6}$  =  $\\frac{1}{2}$   $\\times$   $\\frac{\\pi}{3}$  + C\n<br/><br/> $\\Rightarrow$  C = 0\n<br/><br/>Now y( $-\\sqrt{3}$ ) means when x =  $-\\sqrt{3}$  then find y.\n<br/><br/>y =  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>x))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(2tan<sup>–1</sup>( $-\\sqrt{3}$ )))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(-2tan<sup>–1</sup>( $\\sqrt{3}$ )))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (sin(-2 $\\times$  $\\frac{\\pi}{3}$ ))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (-sin(2 $\\times$  $\\frac{\\pi}{3}$ ))\n<br/><br/>=  $\\frac{1}{2}$  sin<sup>-1</sup> (- $\\frac{\\sqrt{3}}{2}$ )\n<br/><br/>=  $\\frac{1}{2}$   $\\times$  -sin<sup>-1</sup> ( $\\frac{\\sqrt{3}}{2}$ )\n<br/><br/>=  $\\frac{1}{2}$   $\\times$  - $\\frac{\\pi}{3}$ \n<br/><br/>= - $\\frac{\\pi}{6}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{1}{2}\\frac{d}{dx}(sin^{-1}(f(x)))",
@@ -2679,7 +2679,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:54.889324"
     },
@@ -2704,7 +2704,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Put,  $cos\\alpha=\\frac{3}{5},sin\\alpha=\\frac{4}{5}$ <br/><br/>\n $\\therefore \\frac{3}{5}coskx-\\frac{4}{5}sinkx$ <br/><br/>\n $=cos\\alpha.coskx-sin\\alpha.sinkx$ <br/><br/>\n $=cos(\\alpha+kx)$ <br/><br/>\nSo,  $y=\\sum_{k=1}^{6}kcos^{-1}(cos(\\alpha+kx))$ <br/><br/>\n $=\\sum_{k=1}^{6}(k^{2}x+kx)$ <br/><br/>\n $\\Rightarrow \\frac{dy}{dx}=\\sum_{k=1}^{6}k^{2}$ <br/><br/>\n $=\\frac{6 \\times 7 \\times 13}{6}=91$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{k=1}^{6}kcos^{-1}{\\frac{3}{5}coskx-\\frac{4}{5}sinkx}",
@@ -2715,7 +2715,7 @@
         "=cos(\\alpha+kx)"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:59.961570"
     },
@@ -2871,11 +2871,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = ln(sin x), g(x) = sin<sup>–1</sup> (e<sup>–x</sup>)<br/><br/>\nf(g(x)) = ln(sin(sin<sup>–1</sup> e<sup>–x</sup>)) = -x<br/><br/>\nf(g( $\\alpha$ )) = –  $\\alpha$  = b<br/><br/>\nAs f(g(x)) = – x <br/><br/>\n $\\therefore$  (f(g(x)))' = – 1<br/><br/>\n $\\Rightarrow$  (f(g( $\\alpha$ )))' = – 1 = a<br/><br/>\n $\\therefore$  b = –  $\\alpha$ ,\na = – 1<br/><br/>\n $\\therefore$  a $\\alpha$ <sup>2</sup> - b $\\alpha$  - a = -  $\\alpha$ <sup>2</sup> +  $\\alpha$ <sup>2</sup> + 1 = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.637128"
     },
@@ -2921,7 +2921,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Differentiating with respect to x,\n<br/><br/> $x.\\frac{1}{\\ell nx}.\\frac{1}{x}+\\ell n(\\ell nx)-2x+2y.\\frac{dy}{dx}=0$ \n<br/><br/>at    $x=e$   we get\n<br/><br/> $1-2e+2y\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=\\frac{2e-1}{2y}$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{2e-1}{2\\sqrt{4+e^{2}}}$ \n<br/><br/>as    $y(e)=\\sqrt{4+e^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x 2 + y 2 = 4(y > 0), then",
@@ -2930,7 +2930,7 @@
         "y(e)=\\sqrt{4+e^{2}}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.037832"
     },
@@ -3086,7 +3086,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y=tan^{-1}(\\frac{tanx-1}{tanx+1})$ <br/><br/>\n $\\Rightarrow$   $-tan^{-1}(\\frac{1-tanx}{1+tanx})$ <br/><br/>\n $\\Rightarrow$   $-tan^{-1}(tan(\\frac{\\pi}{4}-x))$ <br/><br/>\n $\\Rightarrow$   $-(\\frac{\\pi}{4}-x)$ <br/><br/>\n $\\Rightarrow$   $\\frac{dy}{dx}=1$ <br/><br/>\nNow if differentiation of  $\\frac{x}{2}$  w.r.t is  $\\frac{1}{2}$ <br/><br/>\n $\\Rightarrow$  So differentiation of y w.r.t  $\\frac{x}{2}$  is  $\\frac{1}{\\frac{1}{2}}$  = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "tan^{-1}(\\frac{sinx-cosx}{sinx+cosx})",
@@ -3097,7 +3097,7 @@
         "-tan^{-1}(tan(\\frac{\\pi}{4}-x))"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.298197"
     },
@@ -3143,7 +3143,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2y=(cot^{-1}(\\frac{\\sqrt{3}cosx+sinx}{cosx-\\sqrt{3}sinx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}(\\frac{\\sqrt{3}+tanx}{1-\\sqrt{3}tanx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}(\\frac{tan\\frac{\\pi}{3}+tanx}{1-tan\\frac{\\pi}{3}tanx}))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(cot^{-1}tan(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{2}-tan^{-1}tan(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/>As x  $\\in$   $(0,\\frac{\\pi}{2})$  then\n<br/><br/> $tan^{-1}tan(\\frac{\\pi}{3}+x)$  =  $(\\frac{\\pi}{3}+x)$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{2}-(\\frac{\\pi}{3}+x))^{2}$ \n<br/><br/> $\\Rightarrow$  2y =  $(\\frac{\\pi}{6}-x)^{2}$ \n<br/><br/> $\\therefore$   $2\\frac{dy}{dx}=2(\\frac{\\pi}{6}-x)(-1)$ \n<br/><br/> $\\Rightarrow$   $\\frac{dy}{dx}=(x-\\frac{\\pi}{6})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "2y=(cot^{-1}(\\frac{\\sqrt{3}cosx+sinx}{cosx-\\sqrt{3}sinx}))^{2}",
@@ -3154,7 +3154,7 @@
         "(cot^{-1}tan(\\frac{\\pi}{3}+x))^{2}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:55.671315"
     },
@@ -3200,7 +3200,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x = 3 tan t and y = 3 sec t\n<br/><br/>So that  $\\frac{dx}{dt}$  = 3sec<sup>2</sup>t  and  $\\frac{dy}{dt}$  = 3 sec t tan t\n<br/><br/> $\\frac{dy}{dx}$  =  $\\frac{dy/dt}{dx/dt}$  = sin t\n<br/><br/> $\\frac{d^{2}y}{dx^{2}}$  = (cos t) $.\\frac{dt}{dx}$ \n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=(cost).\\frac{1}{3sec^{2}t}$ \n<br/><br/> $\\frac{d^{2}y}{dx^{2}}$  =  $\\frac{1}{3}$ (cos<sup>3</sup> t)\n<br/><br/> $(\\frac{d^{2}y}{dx^{2}})_{t=\\pi/4}$  =  $\\frac{1}{3} \\times (\\frac{1}{\\sqrt{2}})^{3}=\\frac{1}{6\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "is : x = 3 tan t and y = 3 sec t So that",
@@ -3211,7 +3211,7 @@
         "= (cos t)"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.060878"
     },
@@ -3313,7 +3313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(2x)<sup>2y</sup> = 4e<sup>2x-2y</sup>\n<br/><br/>2y $\\ell$ n2x =  $\\ell$ n4 + 2x  $-$  2y\n<br/><br/>y =  $\\frac{x+\\ell n2}{1+\\ell n2x}$ \n<br/><br/>y ' =  $\\frac{(1+\\ell n2x)-(x+\\ell n2)\\frac{1}{x}}{(1+\\ell n2x)^{2}}$ \n<br/><br/>y ' $(1+\\ell n2x)^{2}=[\\frac{x\\ell n2x-\\ell n2}{x}]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to : (2x) 2y = 4e 2x-2y 2y",
@@ -3322,7 +3322,7 @@
         "y ' ="
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:55.685490"
     },
@@ -3368,7 +3368,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since f(x) = sin $(\\frac{2 \\times 3^{x}}{1+9^{x}})$ \n<br/><br/>Suppose 3<sup>x</sup> = tan t\n<br/><br/>  $\\Rightarrow$    f(x) = sin<sup> $-$ 1</sup>  $(\\frac{2tant}{1+tan^{2}t})$  = sin<sup> $-$ 1</sup> (sin2t) = 2t\n<br/><br/>                                         = 2tan<sup> $-$ 1</sup> (3x)\n<br/><br/>So, f'(x) =  $\\frac{2}{1+(3^{x})^{2}} \\times 3^{x}.log_{e}3$ \n<br/><br/> $\\therefore$    f ' $(-\\frac{1}{2})$  =  $\\frac{2}{1+(3^{-\\frac{1}{2}})^{2}} \\times 3^{-\\frac{1}{2}}$  . log<sub>e</sub> 3\n<br/><br/>=   $\\frac{1}{2} \\times \\sqrt{3} \\times log_{e}3$    =   $\\sqrt{3} \\times log_{e}\\sqrt{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{2 \\times 3^{x}}{1+9^{x}}),",
@@ -3379,7 +3379,7 @@
         "1 (3x) So, f'(x) ="
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:56.601670"
     },
@@ -3594,13 +3594,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given equation is</p>\n<p> $y=(x^{2}+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p>Differentiating w.r.t. x, we get</p>\n<p> $\\frac{dy}{dx}=15(x+\\sqrt{x^{2}-1})^{14}(1+\\frac{1(2x)}{2\\sqrt{x^{2}-1}})+15(x-\\sqrt{x^{2}-1})^{14}(1-\\frac{1(2x)}{2\\sqrt{x^{2}-1}})$ </p>\n<p>Here, we have used the standard differentiatials</p>\n<p> $\\frac{d}{dx}x^{n}=nx^{n-1}$ </p>\n<p>That is,  $\\frac{d}{dx}(\\sqrt{f(x)})=\\frac{1}{2\\sqrt{f(x)}} \\times \\frac{d}{dx}(f(x))$ </p>\n<p>Therefore</p>\n<p> $\\frac{dy}{dx}=\\frac{15(x+\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}+x)}{\\sqrt{x^{2}-1}}+\\frac{15(x-\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}-x)}{\\sqrt{x^{2}-1}}$ </p>\n<p> $\\Rightarrow \\sqrt{x^{2}-1}\\frac{dy}{dx}=15(x+\\sqrt{x^{2}-1})^{15}-15(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p>Differentiating w.r.t. x, we get</p>\n<p> $\\frac{1(2x)}{2\\sqrt{x^{2}+1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}=15 \\times 15(x+\\sqrt{x^{2}-1})^{14}(1+\\frac{1(2x)}{2\\sqrt{x^{2}-1}})-15 \\times 15(x-\\sqrt{x^{2}-1})^{14}(\\frac{1-1(2x)}{2\\sqrt{x^{2}-1}})$ </p>\n<p> $\\Rightarrow \\frac{x}{\\sqrt{x^{2}-1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}=225(x+\\sqrt{x^{2}-1})^{14}\\frac{(\\sqrt{x^{2}-1}+x)}{\\sqrt{x^{2}-1}}-\\frac{225(x-\\sqrt{x^{2}-1})^{14}(\\sqrt{x^{2}-1}-x)}{\\sqrt{x^{2}-1}}$ </p>\n<p> $\\Rightarrow \\sqrt{x^{2}-1}[\\frac{x}{\\sqrt{x^{2}-1}}\\frac{dy}{dx}+\\sqrt{x^{2}-1}\\frac{d^{2}y}{dx^{2}}]=225(x+\\sqrt{x^{2}-1})^{15}+225(x-\\sqrt{x^{2}-1})^{15}$ </p>\n<p> $\\Rightarrow x\\frac{dy}{dx}+(x^{2}-1)\\frac{d^{2}y}{dx^{2}}=225[(x+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}]$ </p>\n<p>Substituting  $(x+\\sqrt{x^{2}-1})^{15}+(x-\\sqrt{x^{2}-1})^{15}=y$ , we get</p>\n<p> $(x^{2}-1)\\frac{d^{2}y}{dx^{2}}+\\frac{xdy}{dx}=225y$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "[x+\\sqrt{x^{2}-1}]^{15}+[x-\\sqrt{x^{2}-1}]^{15},"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.316443"
     },
@@ -3646,7 +3646,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let y =  $tan^{-1}(\\frac{6x\\sqrt{x}}{1-9x^{3}})$ \n<br/><br/>=  $tan^{-1}[\\frac{2.(3x^{\\frac{3}{2}})}{1-(3x^{\\frac{3}{2}})^{2}}]$ \n<br/><br/>= 2 $tan^{-1}(3x^{\\frac{3}{2}})$ \n<br/><br/> $\\therefore$   $\\frac{dy}{dx}=2.\\frac{1}{1+(3x^{\\frac{3}{2}})^{2}}.3 \\times \\frac{3}{2}(x)^{\\frac{1}{2}}$ \n<br/><br/>=  $\\frac{9}{1+9x^{3}}.\\sqrt{x}$ \n<br/><br/> $\\therefore$  g(x) =  $\\frac{9}{1+9x^{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\in (0,\\frac{1}{4})",
@@ -3657,7 +3657,7 @@
         "\\frac{9}{1+9x^{3}}"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:57.326453"
     },
@@ -3703,7 +3703,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f(x)=a_{0}x^{n}+a_{1}x^{n-1}+a_{2}x^{n-1}+....+a_{n-1}x+a_{n}$ </p>\n<p> $f^{'}(x)=a_{0}nx^{n-1}+a_{1}(n-1)x^{n-2}+.....+a_{n-1}$ </p>\n<p> $f^{''}(x)=a_{0}n(n-1)x^{n-2}+a_{1}(n-1)(n-2)x^{n-3}+....+a_{n-2}$ </p>\n<p>Now,</p>\n<p> $f(3x)=3^{n}a_{0}x^{n}+3^{n-1}a_{1}x^{n-1}+3^{n-2}a_{2}x^{n-2}+....+3a_{n-1}+a_{n}$ </p>\n<p> $f^{'}(x).f^{''}(x)=[a_{0}nx^{n-1}+a_{1}(n-1)x^{n-2}+....+a_{n-1}]$ </p>\n<p> $[a_{0}n(n-1)x^{n-2}+a_{1}(n-1)(n-2)x^{n-3}+....+a_{n-2}]$ </p>\n<p>Comparing highest powers of x, we get</p>\n<p> $3^{n}a_{0}x_{n}=a_{0}^{2}(n-1)x^{n-1+n-2}=a_{0}^{2}n^{2}(n-1)x^{2n-3}$ </p>\n<p>Therefore,  $2n-3=n$ </p>\n<p> $\\Rightarrow$  n = 3 and  $3^{n}a_{0}=a_{0}^{2}n^{2}(n-1)$ </p>\n<p> $\\Rightarrow a_{0}=27=\\frac{3}{2}$ </p>\n<p>Therefore,  $f(x)=\\frac{3}{2}x^{3}+a_{1}x^{2}+a_{2}x+a_{3}$ </p>\n<p> $f^{'}(x)=\\frac{9}{2}x^{2}+2a_{1}x+a_{2}$ </p>\n<p> $f^{''}(x)=9x+2a_{1}$ </p>\n<p> $f(3x)=\\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}$ </p>\n<p>Now,  $f(3x)=f^{'}(x).f^{''}(x)$ </p>\n<p> $\\Rightarrow \\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}$ </p>\n<p> $\\Rightarrow (\\frac{9}{2}x^{2}+2a_{1}x+a_{2})(9x+2a_{1})$ </p>\n<p> $\\Rightarrow \\frac{81}{2}x^{3}+9a_{1}x^{2}+3a_{2}x+a_{3}=\\frac{81}{2}x^{3}+[9a_{1}+18a_{1}]x^{2}+[4a_{1}^{2}+9a_{2}]x+2a_{1}a_{2}$ </p>\n<p>Comparing the coefficients, we get</p>\n<p> $9a_{1}=27a_{1}$ </p>\n<p> $\\Rightarrow a_{1}=0,3a_{2}=4a_{1}^{2}+9a_{2}=9a_{2}$ </p>\n<p> $\\Rightarrow a_{2}=0$ </p>\n<p>Therefore,  $f(x)=\\frac{3}{2}x^{3}$ </p>\n<p> $f^{'}(x)=\\frac{9}{2}x^{2}$ </p>\n<p> $f^{''}(x)=9x$ </p>\n<p>Hence,  $f^{''}(2)-f^{'}(x)=18-18=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=a_{0}x^{n}+a_{1}x^{n-1}+a_{2}x^{n-1}+....+a_{n-1}x+a_{n}",
@@ -3714,7 +3714,7 @@
         "3^{n}a_{0}x_{n}=a_{0}^{2}(n-1)x^{n-1+n-2}=a_{0}^{2}n^{2}(n-1)x^{2n-3}"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T16:02:56.641443"
     },
@@ -3760,7 +3760,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since  $f(x)$  and  $g(x)$  are inverse of each other\n<br/><br/> $\\therefore$   $g^{'}(f(x))=\\frac{1}{f^{'}(x)}$ \n<br/><br/> $\\Rightarrow g^{'}(f(x))=1+x^{5}$ \n<br/><br/> $($  As  $f^{'}(x)=\\frac{1}{1+x^{5}}$   $)$ \n<br/><br/>Here  $x=g(y)$ \n<br/><br/> $\\therefore$   $g^{'}(y)=1+{g(y)}$ \n<br/><br/> $\\Rightarrow g^{'}(x)=1+{g(x)}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "g^{'}(f(x))=\\frac{1}{f^{'}(x)}",
@@ -3769,7 +3769,7 @@
         "\\Rightarrow g^{'}(x)=1+{g(x)}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.337058"
     },
@@ -3874,7 +3874,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{d^{2}x}{dy^{2}}=\\frac{d}{dy}(\\frac{dx}{dy})$ \n<br/><br/> $=\\frac{d}{dx}(\\frac{dx}{dy})\\frac{dx}{dy}$ \n<br/><br/> $=\\frac{d}{dx}(\\frac{1}{dy/dx})\\frac{dx}{dy}$ \n<br/><br/> $=-\\frac{1}{(\\frac{dy}{dx})^{2}}.\\frac{d^{2}y}{dx^{2}}.\\frac{1}{\\frac{dy}{dx}}$ \n<br/><br/> $=-\\frac{1}{(\\frac{dy}{dx})^{3}}\\frac{d^{2}y}{dx^{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}x}{dy^{2}}",
@@ -3885,7 +3885,7 @@
         "=-\\frac{1}{(\\frac{dy}{dx})^{3}}\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.798383"
     },
@@ -3988,7 +3988,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{2x}-2x^{x}coty-1=0$ \n<br/><br/> $\\Rightarrow 2coty=x^{x}-x^{-x}$ \n<br/><br/> $\\Rightarrow 2coty=u-\\frac{1}{u}$ \n<br/><br/>where  $u=x^{x}$ \n<br/><br/>Differentiating both sides with respect to  $x,$ \n<br/><br/>we get  $\\Rightarrow -2cosec^{2}y\\frac{dy}{dx}$ \n<br/><br/> $=(1+\\frac{1}{u^{2}})\\frac{du}{dx}$ \n<br/><br/>where  $u=x^{x} \\Rightarrow logu=xlogx$ \n<br/><br/> $\\Rightarrow \\frac{1}{u}\\frac{du}{dx}=1+logx$ \n<br/><br/> $\\Rightarrow \\frac{du}{dx}=x^{x}(1+logx)$ \n<br/><br/> $\\therefore$  We get  $-2cosec^{2}y\\frac{dy}{dx}$ \n<br/><br/> $=(1+x^{-2x})x^{x}(1+logx)$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{(x^{x}+x^{-x})(1+logx)}{-2(1+cot^{2}y)}...(i)$ \n<br/><br/>Now when \n<br/><br/> $x=1,$   $x^{2x}-2x^{x}coty-1=0,$ \n<br/><br/>gives  $1-2coty-1=0$ \n<br/><br/> $\\Rightarrow coty=0$ \n<br/><br/> $\\therefore$  From equation  $(i),$  at  $x=1$ \n<br/><br/>and  $coty=0,$  we get \n<br/><br/> $y^{'}(1)=\\frac{(1+1)(1+0)}{-2(1+0)}=-1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow 2coty=x^{x}-x^{-x}",
@@ -3999,7 +3999,7 @@
         "\\Rightarrow \\frac{1}{u}\\frac{du}{dx}=1+logx"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:57.829569"
     },
@@ -4102,7 +4102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x=e^{y+e^{y+.....\\infty}} \\Rightarrow x=e^{y+x}.$ \n<br/><br/>Taking log.\n<br/><br/> $logx=y+x$ \n<br/><br/> $\\Rightarrow \\frac{1}{x}=\\frac{dy}{dx}+1$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}=\\frac{1}{x}-1=\\frac{1-x}{x}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "x=e^{y+e^{y}+e^{y+.....\\infty}}",
@@ -4113,7 +4113,7 @@
         "\\Rightarrow \\frac{dy}{dx}=\\frac{1}{x}-1=\\frac{1-x}{x}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.270766"
     },
@@ -4216,7 +4216,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=ax^{2}+bx+c$ \n<br/><br/> $f(1)=f(-1)$ \n<br/><br/> $\\Rightarrow a+b+c=a-b+c$ \n<br/><br/>or  $b=0$ \n<br/><br/> $\\therefore$   $f(x)=ax^{2}+c$ \n<br/><br/>or  $f^{'}(x)=2ax$ \n<br/><br/>Now  $f^{'}(a);f^{'}(b);$ \n<br/><br/>and  $f^{'}(c)$  are  $2a(a);2a(b);2a(c)$ \n<br/><br/>i.e. $2a^{2},2ab,2ac.$ \n<br/><br/> $\\Rightarrow$  If  $a,b,c$  are in  $A.P.$  then\n<br/><br/> $f^{'}(a);f^{'}(b)$  and \n<br/><br/> $f^{'}(c)$  are also in  $A.P.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(1)=f(-1)",
@@ -4227,7 +4227,7 @@
         "f(x)=ax^{2}+c"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T16:02:58.294112"
     },

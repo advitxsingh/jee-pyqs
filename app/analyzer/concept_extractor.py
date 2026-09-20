@@ -77,8 +77,8 @@ CURATED_TAXONOMY = {
             "category": "Applied Electrochemistry",
             "primary": ["battery", "batteries", "lead storage", "fuel cell", "dry cell", "mercury cell", "corrosion", "rusting", "discharge", "recharging", "sacrificial", "galvanized", "lead-acid"],
             "formula_cues": [r"pb(s)", r"pbo_2", r"2h_2so_4"],
-            "secondary": ["anode", "cathode", "cell", "efficiency"],
-            "keywords": ["battery", "lead storage", "fuel cell", "dry cell", "corrosion", "rusting", "anode", "cathode", "discharge", "recharge"],
+            "secondary": ["efficiency", "accumulator", "secondary cell", "primary cell"],
+            "keywords": ["battery", "lead storage", "fuel cell", "dry cell", "corrosion", "rusting", "discharge", "recharge", "galvanized"],
             "summary": "Primary cells (dry cell, mercury cell), secondary lead-acid batteries (charge/discharge cycles), $\\text{H}_2\\text{-O}_2$ fuel cells (thermodynamic efficiency $\\eta = \\frac{\\Delta G}{\\Delta H}$), and electrochemical corrosion prevention.",
             "standard_formulas": r"\text{Lead Storage Discharge: } \text{Pb(s)} + \text{PbO}_2\text{(s)} + 2\text{H}_2\text{SO}_4 \rightarrow 2\text{PbSO}_4\text{(s)} + 2\text{H}_2\text{O}, \quad \eta = \frac{\Delta G}{\Delta H}",
             "common_traps": "In a lead storage battery, the density of $\\text{H}_2\\text{SO}_4$ decreases during discharge because sulfuric acid is consumed and water is produced.",
@@ -360,13 +360,25 @@ for k, v in MASTER_TAXONOMY.items():
         CURATED_TAXONOMY[k] = v
 
 
+def term_matches(term: str, content: str) -> bool:
+    term = term.strip().lower()
+    if not term:
+        return False
+    # If term contains LaTeX / symbols / math characters, use substring check
+    if any(sym in term for sym in [r'\\', '{', '}', '^', '_', '=', '+', '-', '<', '>', '/', '(', ')', '[', ']']):
+        return term in content
+    # Textual keywords: require regex word boundaries \b...\b so 'rms' doesn't match 'terms'!
+    pattern = r'\b' + re.escape(term) + r'\b'
+    return bool(re.search(pattern, content, re.IGNORECASE))
+
+
 def match_concepts_for_question(
     q: QuestionModel,
     chapter_slug: str
 ) -> Tuple[List[str], List[Tuple[str, str]]]:
     """
-    Match a question to relevant concepts in the chapter taxonomy.
-    Guarantees rich multi-concept mapping for every question and chapter.
+    Match a question to relevant concepts in the chapter taxonomy with high precision.
+    Prevents cross-concept pollution via word-boundary matching and dominance filtering.
     """
     matched_names: List[str] = []
     links_info: List[Tuple[str, str]] = []
@@ -379,42 +391,58 @@ def match_concepts_for_question(
     if not taxonomy:
         taxonomy = get_taxonomy_for_chapter(chapter_slug)
 
+    scores: Dict[str, int] = {}
     for c_def in taxonomy:
+        c_name = c_def["name"]
         score = 0
-        # 1. Primary high-signal keywords (+3 points)
-        for p in c_def.get("primary", []):
-            if p in content:
-                score += 3
 
-        # 2. Key formula cues (+4 points)
+        # 1. Key formula cues (+6 points)
         for f in c_def.get("formula_cues", []):
-            if f.lower() in content:
-                score += 4
+            if term_matches(f, content):
+                score += 6
 
-        # 3. Secondary contextual terms (+1 point if >= 2 present)
-        sec_matches = sum(1 for s in c_def.get("secondary", []) if s in content)
+        # 2. Primary high-signal keywords (+5 points)
+        for p in c_def.get("primary", []):
+            if term_matches(p, content):
+                score += 5
+
+        # 3. Secondary contextual terms (+2 points only if >= 2 match)
+        sec_matches = sum(1 for s in c_def.get("secondary", []) if term_matches(s, content))
         if sec_matches >= 2:
             score += 2
 
-        # 4. Backward compatibility with keywords
-        for k in c_def.get("keywords", []):
-            if k.lower() in content:
-                score += 2
+        scores[c_name] = score
 
-        if score >= 3:
-            c_name = c_def["name"]
+    max_score = max(scores.values()) if scores else 0
+
+    # Dominance Selection:
+    # A concept is matched if:
+    # 1. It is the dominant top-scoring concept (with score >= 4)
+    # 2. OR it is a genuine co-dominant concept (score >= 0.75 * max_score and score >= 8)
+    if max_score >= 4:
+        for c_name, sc in scores.items():
+            if sc == max_score or (sc >= 0.75 * max_score and sc >= 8):
+                matched_names.append(c_name)
+                rel_note = f"Tests {c_name} in {q.year} ({q.exam})"
+                links_info.append((c_name, rel_note))
+    else:
+        # Fallback: Token overlap with concept name + summary (NO random modulo!)
+        best_c = None
+        best_overlap = -1
+        words = set(re.findall(r'\b[a-z]{3,}\b', content))
+        for c_def in taxonomy:
+            c_words = set(re.findall(r'\b[a-z]{3,}\b', (c_def["name"] + " " + c_def.get("summary", "")).lower()))
+            overlap = len(words & c_words)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_c = c_def["name"]
+        if best_c:
+            matched_names.append(best_c)
+            links_info.append((best_c, f"Problem archetype in {q.year} ({q.exam})"))
+        elif taxonomy:
+            c_name = taxonomy[0]["name"]
             matched_names.append(c_name)
-            rel_note = f"Tests {c_name} in {q.year} ({q.exam})"
-            links_info.append((c_name, rel_note))
-
-    # If no specific keyword reached threshold, assign cleanly across chapter sub-concepts
-    if not matched_names and taxonomy:
-        # Round-robin distribution by question index or hash
-        q_idx = q.question_index or (abs(hash(q.qid)) % 1000)
-        chosen = taxonomy[q_idx % len(taxonomy)]
-        c_name = chosen["name"]
-        matched_names.append(c_name)
-        links_info.append((c_name, f"Standard problem archetype in {q.year} ({q.exam})"))
+            links_info.append((c_name, f"Standard archetype in {q.year} ({q.exam})"))
 
     return (matched_names, links_info)
 

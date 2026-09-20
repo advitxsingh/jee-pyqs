@@ -367,7 +367,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When the rod falls vertically downward, it cuts the horizontal component of Earth’s magnetic field.</p>\n<p>The motional emf induced in a rod is</p>\n<p> $E=Blv$ </p>\n<p>Here,</p>\n<ul>\n<li><p> $B=B_{H}=3 \\times 10^{-5}\\text{T}$ </p></li>\n<li><p> $l=1\\text{m}$ </p></li>\n<li><p> $v$  is the speed of the rod after  $t=2\\text{s}$ </p></li>\n</ul>\n<p>Since the rod is falling freely from rest,</p>\n<p> $v=gt=10 \\times 2=20\\text{m s}^{-1}$ </p>\n<p>Now put the values in the formula:</p>\n<p> $E=3 \\times 10^{-5} \\times 1 \\times 20$ </p>\n<p> $E=6 \\times 10^{-4}\\text{V}$ </p>\n<p>So the induced emf is</p>\n<p> $6 \\times 10^{-4}\\text{V}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{H}=3 \\times 10^{-5}T",
@@ -378,7 +378,6 @@
         "l=1\\text{m}"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-20T15:21:17.048147"
@@ -481,11 +480,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\Delta I=5-2=3A \\\\ &amp; \\Delta t=0.3s \\end{aligned}$ </p>\n<p>Induced emf,  $e=1V$ </p>\n<p>We know that,  $e=\\frac{LdI}{dt}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow e=\\frac{L\\Delta I}{\\Delta t} \\\\ &amp; \\Rightarrow L=\\frac{e}{\\frac{\\Delta I}{\\Delta t}}=\\frac{1}{\\frac{3}{0.3}}=0.1H=100mH \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-20T15:21:16.517007"
@@ -649,7 +647,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lta7i982/d58c8939-d999-4226-b365-4909c52cb96e/1608c120-d8a5-11ee-af57-b7f80329f46d/file-1lta7i983.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lta7ps92/e51ad47f-514a-411c-82fc-cc7ec09ca229/e7658e60-d8a5-11ee-b3bf-bd292d4e486d/file-1lta7ps93.png?format=png"
       ],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Self Inductance & RL Transient Circuits",
       "difficulty": "Easy",
       "key_formulas": [
         "t=20s",
@@ -658,7 +656,6 @@
         "L=6mH=6 \\times 10^{-3}H"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Self Inductance & RL Transient Circuits"
       ],
       "crawled_at": "2026-09-20T15:21:17.566835"
@@ -822,8 +819,7 @@
         "=L\\frac{\\Delta I}{\\Delta t}=\\frac{0.2 \\times (5-2)}{0.5}=1.2V"
       ],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Self Inductance & RL Transient Circuits"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-20T15:21:17.629564"
     },
@@ -875,8 +871,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-20T15:21:17.656546"
     },
@@ -979,7 +974,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's break down the solution step by step:</p>\n<p><p>Since the transformer is a step-up type with a ratio of primary to secondary windings of  $1:25$ , the secondary voltage is:</p>\n<p> $V_{s}=25 \\times 230\\text{V}=5750\\text{V}$ </p></p>\n<p><p>Assuming the transformer is ideal (no energy losses), the input power equals the output power:</p>\n<p> $V_{p}I_{p}=V_{s}I_{s}$ </p></p>\n<p><p>Rearranging to solve for the primary current  $I_{p}$ :</p>\n<p> $I_{p}=\\frac{V_{s}I_{s}}{V_{p}}$ </p></p>\n<p><p>Substitute the known values:</p>\n<p> $I_{p}=\\frac{5750\\text{V} \\times 2\\text{A}}{230\\text{V}}=\\frac{11500}{230}=50\\text{A}$ </p></p>\n<p>Therefore, the current in the primary is  $50\\text{A}$ , which corresponds to Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Self Inductance & RL Transient Circuits",
+      "topic_tag": "Motional EMF (Translational & Rotational)",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{s}=25 \\times 230\\text{V}=5750\\text{V}",
@@ -988,7 +983,7 @@
         "I_{p}=\\frac{V_{s}I_{s}}{V_{p}}"
       ],
       "key_concepts": [
-        "Self Inductance & RL Transient Circuits"
+        "Motional EMF (Translational & Rotational)"
       ],
       "crawled_at": "2026-09-20T15:21:18.170742"
     },
@@ -1034,7 +1029,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Speed  $v=400m/s$ </p></p>\n<p><p>Magnetic field  $B=4 \\times 10^{-4}T$ </p></p>\n<p><p>Dip angle  $\\theta=30^{\\circ}$ </p></p>\n<p>To find the voltage difference developed across the ends of the wing, we use the formula:</p>\n<p> $\\text{Voltage difference}=B \\cdot l \\cdot v \\cdot sin\\theta$ </p>\n<p>Substituting the given values:</p>\n<p> $\\begin{aligned} \\text{Voltage difference} &amp; =4 \\times 10^{-4} \\cdot 20 \\cdot 400 \\cdot sin30^{\\circ} \\\\ &amp; =32000 \\times 10^{-4} \\times sin30^{\\circ} \\\\ &amp; =32000 \\times 10^{-4} \\cdot \\frac{1}{2} \\\\ &amp; =1.6V \\end{aligned}$ </p>\n<p>Thus, the voltage difference across the ends of the wing is  $1.6V$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Motional EMF (Translational & Rotational)",
+      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
       "difficulty": "Medium",
       "key_formulas": [
         "400ms^{-1}",
@@ -1045,7 +1040,7 @@
         "\\theta=30^{\\circ}"
       ],
       "key_concepts": [
-        "Motional EMF (Translational & Rotational)"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-20T15:21:18.541649"
     },
@@ -1091,11 +1086,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Magnetic braking in trains works on the principle of eddy currents. Here’s a quick breakdown:</p>\n<p><p>When a magnet moves relative to a conductive material (like aluminum), it induces circular currents (eddy currents) in that conductor.</p></p>\n<p><p>According to Lenz's law, these eddy currents create their own magnetic fields that oppose the motion causing them.</p></p>\n<p><p>This opposition produces a braking force, which helps in slowing down the train without physical friction.</p></p>\n<p>So, the correct answer is:  </p>\n<p> $\\text{Option A: eddy current.}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
+      "topic_tag": "Induced Electric Field & Eddy Currents",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Magnetic Flux & Faraday-Lenz Law",
         "Induced Electric Field & Eddy Currents"
       ],
       "crawled_at": "2026-09-20T15:21:18.199252"
@@ -1144,11 +1138,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bfl3ww/f2798684-173b-43cd-ac33-05f964b37698/ed1ad100-1614-11f0-90eb-15e4634cfd40/file-jaoe38c1m9bfl3wx.png?format=png"
       ],
-      "topic_tag": "Induced Electric Field & Eddy Currents",
+      "topic_tag": "Magnetic Flux & Faraday-Lenz Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Induced Electric Field & Eddy Currents"
+        "Magnetic Flux & Faraday-Lenz Law"
       ],
       "crawled_at": "2026-09-20T15:21:18.225285"
     }

@@ -1266,14 +1266,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; C:x^{2}+y^{2}=4 \\Rightarrow C(0,0),r_{1}=2 \\\\ \\\\ &amp; C^{'}:x^{2}+y^{2}-4\\lambda x+9=0 \\Rightarrow C^{'}(2\\lambda,0),r_{2}=\\sqrt{4\\lambda^{2}-9} \\\\ \\\\ &amp; |r_{1}-r_{2}|&lt;CC^{'}&lt;|r_{1}+r_{2}| \\\\ \\\\ &amp; |2-\\sqrt{4\\lambda^{2}-9}|&lt;|2\\lambda|&lt;2+\\sqrt{4\\lambda^{2}-9} \\\\ \\\\ &amp; |2\\lambda|&gt;|2-\\sqrt{4\\lambda^{2}-9}| \\\\ \\\\ &amp; \\Rightarrow 4\\lambda^{2}&gt;4+4\\lambda^{2}-9-4\\sqrt{4\\lambda^{2}-9} \\\\ \\\\ &amp; 4\\sqrt{4\\lambda^{2}-9}+5&gt;0 \\Rightarrow \\lambda \\in R \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; |2\\lambda|&lt;2+\\sqrt{4\\lambda^{2}-9} \\\\ \\\\ &amp; \\Rightarrow 4\\lambda^{2}&lt;4+4\\lambda^{2}-9+4\\sqrt{(4\\lambda^{2})-9} \\\\ \\\\ &amp; 5&lt;4\\sqrt{4\\lambda^{2}-9}\\text{and}\\lambda^{2} \\ge \\frac{9}{4} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\frac{25}{16}&lt;4\\lambda^{2}-9 \\\\ \\\\ &amp; \\Rightarrow \\lambda^{2}&gt;\\frac{169}{64} \\\\ \\\\ &amp; \\lambda \\in (-\\infty,\\frac{-13}{8})∪(\\frac{13}{8},\\infty) \\\\ \\\\ &amp; \\lambda \\in R-[\\frac{-13}{8},\\frac{13}{8}] \\\\ \\\\ &amp; a=\\frac{-13}{8},b=\\frac{13}{8} \\\\ \\\\ &amp; \\Rightarrow (8a+12,16b-20)=(-1,6) \\\\ \\\\ &amp; \\Rightarrow 6(-1)^{2}+(6)^{2}=42 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
+      "topic_tag": "Tangents, Normals & Orthogonal Circles",
       "difficulty": "Medium",
       "key_formulas": [
         "C:x^{2}+y^{2}=4",
         "C^{'}:x^{2}+y^{2}-4\\lambda x+9=0"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact"
+        "Tangents, Normals & Orthogonal Circles"
       ],
       "crawled_at": "2026-09-20T15:37:42.084016"
     },
@@ -5662,8 +5662,7 @@
         "1) 2 = 1 and (x"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact",
-        "Tangents, Normals & Orthogonal Circles"
+        "Circle Equation, Tangents & Chord of Contact"
       ],
       "crawled_at": "2026-09-20T15:37:51.486079"
     },
@@ -5932,8 +5931,7 @@
         "(3+c)^{2}=2"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact",
-        "Tangents, Normals & Orthogonal Circles"
+        "Circle Equation, Tangents & Chord of Contact"
       ],
       "crawled_at": "2026-09-20T15:37:45.218956"
     },
@@ -5958,11 +5956,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->C<sub>1</sub> : x<sup>2</sup> + y<sup>2</sup> – 6x +  + 8 = 0\n<br/><br/>C<sub>1</sub>(3, 0) and r<sub>1</sub> = 1\n<br/><br/>C<sub>2</sub> : x<sup>2</sup> + y<sup>2</sup> – 8y + 16 – k = 0\n<br/><br/>C<sub>2</sub>(0, 4) and r<sub>2</sub> =  $\\sqrt{k}$ \n<br/><br/>Two circles touch each other\n<br/><br/> $\\therefore$   C<sub>1</sub>C<sub>2</sub> = | r<sub>1</sub>  $\\pm$  r<sub>2</sub> |\n<br/><br/> $\\Rightarrow$  5 = | 1  $\\pm$   $\\sqrt{k}$  |\n<br/><br/> $\\therefore$  1 +  $\\sqrt{k}$  = 5 or  $\\sqrt{k}$  - 1 = 5\n<br/><br/> $\\Rightarrow$  k = 16 or k = 36\n<br/><br/>So largest value of k = 36.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
+      "topic_tag": "Tangents, Normals & Orthogonal Circles",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact"
+        "Tangents, Normals & Orthogonal Circles"
       ],
       "crawled_at": "2026-09-20T15:37:51.897113"
     },
@@ -6214,7 +6212,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->S<sub>1</sub>  $\\equiv$  x<sup>2</sup> + y<sup>2</sup> + 5Kx + 2y + K = 0<br/><br/>\n $S_{2} \\equiv x^{2}+y^{2}+Kx+\\frac{3}{2}y-\\frac{1}{2}=0$ <br/><br/>\nEquation of common chord is<br/><br/>\nS<sub>1</sub> – S<sub>2</sub> = 0<br/><br/>\n $\\Rightarrow 4Kx+\\frac{y}{2}+K+\\frac{1}{2}=0$  ....(1)<br/><br/>\n4x + 5y – K = 0 …(2) (given)<br/><br/>\nOn comparing (1) and (2)<br/><br/>\n $\\frac{4K}{4}=\\frac{1}{10}=\\frac{2K+1}{-2K}$ <br/><br/>\n $\\Rightarrow K=\\frac{1}{10}$  and   $-2K=20K+10$ <br/><br/>\n $\\Rightarrow$  22K = –10<br/><br/>\n $\\therefore K=\\frac{-5}{11}$ <br/><br/>\nSo No value of <b>K</b> exists.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
+      "topic_tag": "Tangents, Normals & Orthogonal Circles",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{2} \\equiv x^{2}+y^{2}+Kx+\\frac{3}{2}y-\\frac{1}{2}=0",
@@ -6225,7 +6223,6 @@
         "\\therefore K=\\frac{-5}{11}"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact",
         "Tangents, Normals & Orthogonal Circles"
       ],
       "crawled_at": "2026-09-20T15:37:45.675572"
@@ -6443,14 +6440,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf762wkjxv0iuuf/a029374b-2b8a-418e-898e-7385a8c36530/86b43b70-a1d7-11e9-902e-23ffedc9804e/file-jf762wkjxv0iuug.jpg"
       ],
-      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
+      "topic_tag": "Tangents, Normals & Orthogonal Circles",
       "difficulty": "Easy",
       "key_formulas": [
         "\\sqrt{12^{2}+5^{2}}",
         "\\frac{1}{2}.12.5=\\frac{1}{2}.13\\frac{AB}{2} \\Rightarrow AB=\\frac{120}{13}units"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact",
         "Tangents, Normals & Orthogonal Circles"
       ],
       "crawled_at": "2026-09-20T15:37:45.370520"
@@ -7512,7 +7508,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/2c1SGPNhurCXKQ3bV/vRoEslCsyvAprfl9CISCCIRteAHGd/2l9piOYQcgjCFpiPbADM3x/image.png"
       ],
-      "topic_tag": "Tangents, Normals & Orthogonal Circles",
+      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{a^{2}+b^{2}-c^{2}}{2ab}",
@@ -7523,7 +7519,7 @@
         "= 120 o"
       ],
       "key_concepts": [
-        "Tangents, Normals & Orthogonal Circles"
+        "Circle Equation, Tangents & Chord of Contact"
       ],
       "crawled_at": "2026-09-20T15:37:47.102607"
     },
@@ -8832,7 +8828,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $s_{1}=x^{2}+y^{2}+2ax+cy+a=0$ \n<br/><br/> $s_{2}=x^{2}+y^{2}-3ax+dy-1=0$ \n<br/><br/>Equation of common chord of circles  $s_{1}$  and  $s_{2}$  is \n<br/><br/>given by  $s_{1}-s_{2}=0$ \n<br/><br/> $\\Rightarrow 5ax+(c-d)y+a+1=0$ \n<br/><br/>Given that  $5x+by-a=0$  passes through  $P$  and  $Q$ \n<br/><br/> $\\therefore$  The two equations should represent the same line\n<br/><br/> $\\Rightarrow \\frac{a}{1}=\\frac{c-d}{b}=\\frac{a+1}{-a}$ \n<br/><br/> $\\Rightarrow a+1=-a^{2}$ \n<br/><br/> $a^{2}+a+1=0$ \n<br/><br/>No real value of  $a.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circle Equation, Tangents & Chord of Contact",
+      "topic_tag": "Tangents, Normals & Orthogonal Circles",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+y^{2}+2ax+cy+a=0",
@@ -8843,7 +8839,6 @@
         "s_{2}"
       ],
       "key_concepts": [
-        "Circle Equation, Tangents & Chord of Contact",
         "Tangents, Normals & Orthogonal Circles"
       ],
       "crawled_at": "2026-09-20T15:37:49.027039"

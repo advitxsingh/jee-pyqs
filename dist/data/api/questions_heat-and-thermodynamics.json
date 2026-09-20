@@ -57,8 +57,7 @@
         "Q=\\Delta U+W"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes",
-        "Kinetic Theory of Gases & Thermal Radiation"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:42.061681"
     },
@@ -104,7 +103,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using Ideal Gas Law:</p>\n<p>PV = nRT</p>\n<p>Where P is pressure, V is volume, n is number of moles, R is the gas constant, and T is absolute temperature. Since the system is closed, the total number of moles (  $n_{\\text{total}}$  ) remains constant before and after heating.</p>\n<p>Initial State:</p>\n<p>Both vessels (each of volume V ) are at  $P_{0}=90kPa$  and  $T_{0}=400K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{0}V}{RT_{0}}+\\frac{P_{0}V}{RT_{0}}=\\frac{2P_{0}V}{RT_{0}}\\dots(i)$ </p>\n<p>Final State: Pressure becomes  $P_{f}$  in both vessels. Vessel 1 stays at  $T_{1}=400K$ , and vessel 2 is at  $T_{2}=500K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{f}V}{RT_{1}}+\\frac{P_{f}V}{RT_{2}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})\\dots(ii)$ </p>\n<p>From both the equations,</p>\n<p> $\\frac{2P_{0}V}{RT_{0}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}}) \\Rightarrow \\frac{2P_{0}}{T_{0}}=P_{f}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})$ </p>\n<p>Substituting the values (  $P_{0}=90,T_{0}=400,T_{1}=400,T_{2}=500$  ):</p>\n<p> $2 \\times \\frac{90}{400}=P_{f}(\\frac{1}{400}+\\frac{1}{500})$ </p>\n<p> $\\Rightarrow$   $\\frac{180}{400}=P_{f}(\\frac{5+4}{2000})$ </p>\n<p> $\\Rightarrow$   $0.45=P_{f}(\\frac{9}{2000})$ </p>\n<p> $\\Rightarrow$   $P_{f}=\\frac{0.45 \\times 2000}{9}=\\frac{900}{9}=100kPa$ </p>\n<p>Therefore, the final pressure of the vessel is 100 kPa . Thus, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -115,7 +114,7 @@
         "0.45=P_{f}(\\frac{9}{2000})"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:43.694357"
     },
@@ -161,7 +160,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the kinetic theory of gases, the average translational kinetic energy (  $K_{\\text{avg}}$  ) of a gas molecule is directly proportional to its absolute temperature (T).</p>\n<p> $K_{avg}=\\frac{3}{2}k_{B}T$ </p>\n<p>Where  $k_{B}$  is the Boltzmann constant.</p>\n<p>So, the average kinetic energy depends only on the temperature and not on the mass of the molecule or the size/volume of the container.</p>\n<p>Since  $K_{avg}$  is the same for both  $H_{2}$  and  $O_{2}$ , their temperatures (T) must be identical.</p>\n<p>Therefore, Assertion A is true.</p>\n<p>The root mean square (r. m. s.) speed (  $v_{\\text{rms}}$  ) of a gas molecule is given by the formula:</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where R is the universal gas constant, T is the absolute temperature, and M is the molar mass of the gas.</p>\n<p>At the same temperature (T),  $v_{rms}$  is inversely proportional to the square root of the molar mass (M).</p>\n<p>Since the molar mass of  $H_{2}(2g/mol)$  is different from  $O_{2}(32g/mol)$ , their r.m.s. speeds will be different even at the same temperature.</p>\n<p>Therefore, Reason R is false.</p>\n<p>Hence, Assertion A is true, but Reason R is false. \n<br/><br/>So, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "H_{2}",
@@ -172,7 +171,7 @@
         "K_{avg}"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:45.099730"
     },
@@ -218,7 +217,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the ideal gas equation  $PV=nRT$ </p>\n<p>The pressure of gas is given as  $P=100kPa=10^{5}Pa$ .</p>\n<p>The volume of gas is  $V=8310cm^{3}=8310 \\times 10^{-6}m^{3}=8.31 \\times 10^{-3}m^{3}$ </p>\n<p>The temperature of gas is  $T=300K$ </p>\n<p>The universal gas constant is  $R=8.31J/mol.K$ </p>\n<p>So, the number of moles of gas is,</p>\n<p> $n_{\\text{total}}=\\frac{PV}{RT}=\\frac{10^{5} \\times 8.31 \\times 10^{-3}}{8.31 \\times 300}$ </p>\n<p> $\\Rightarrow$   $n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles$ </p>\n<p>Let  $n_{1}$  be the moles of  $CO_{2}$  and  $n_{2}$  be the moles of  $O_{2},n_{1}+n_{2}=0.333$  .......(i) </p>\n<p>Molar mass of  $CO_{2}$  is  $M_{1}=12+(2 \\times 16)=44g/mol$ </p>\n<p>Molar mass of  $O_{2}$  is  $M_{2}=2 \\times 16=32g/mol$ </p>\n<p>As the total mass of the mixture is 13.2 g :</p>\n<p> $n_{1}M_{1}+n_{2}M_{2}=13.2$ </p>\n<p> $44n_{1}+32n_{2}=13.2\\dots......(ii)$ </p>\n<p>From equation (i),  $n_{2}=0.333-n_{1}$ .</p>\n<p>Substituting this into (ii) :</p>\n<p> $44n_{1}+32(0.333-n_{1})=13.2$ </p>\n<p> $\\Rightarrow$   $44n_{1}+10.66-32n_{1}=13.2$ </p>\n<p> $\\Rightarrow$   $12n_{1}=2.54$ </p>\n<p> $\\Rightarrow$   $n_{1} \\approx 0.21\\text{moles}$ </p>\n<p>So,  $n_{2}=0.333-0.21=0.12$  moles</p>\n<p>Therefore, the number of moles of carbon dioxide and oxygen gases in the mixture respectively are  $0.21,0.12$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "PV=nRT",
@@ -229,7 +228,7 @@
         "n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:46.727810"
     },
@@ -275,7 +274,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mass of the ice is  $m_{i}=10kg$ ,</p>\n<p>Initial temperature of ice is  $T_{i}=-10^{\\circ}C$ ,</p>\n<p>The specific heat of ice is  $c_{i}=2100\\frac{J}{kg \\cdot ^{\\circ}C}$ ,</p>\n<p>The latent heat of fusion of ice is  $L_{f}=3.36 \\times 10^{5}J/kg$ </p>\n<p>The mass of water is  $m_{w}=100kg$ ,</p>\n<p>The initial temperature of water is  $T_{w}=25^{\\circ}C$ ,</p>\n<p>The specific heat capacity of water is  $c_{w}=4200\\frac{J}{kg \\cdot ^{\\circ}C}$ </p>\n<p>Let the final equilibrium temperature is  $T_{f}$ .</p>\n<p>The heat gained by ice is for three process,</p>\n<p> $Q_{\\text{gained}}=Q_{1}$  (Heating ice to  $0^{\\circ}C)+Q_{2}$  (Melting ice at  $0^{\\circ}C)+Q_{3}$  (Heating the melted ice (water) to  $T_{f}$  )</p>\n<p> $\\Rightarrow$   $Q_{1}=m_{i}c_{i}\\Delta T=10 \\times 2100 \\times (0-(-10))=210000J$ </p>\n<p> $\\Rightarrow$   $Q_{2}=m_{i}L_{f}=10 \\times 3.36 \\times 10^{5}=3360000J$ </p>\n<p> $\\Rightarrow$   $Q_{3}=m_{i}c_{w}(T_{f}-0)=10 \\times 4200 \\times T_{f}=42000T_{f}$ </p>\n<p> $Q_{\\text{gained}}=210000+3360000+42000T_{f}=3570000+42000T_{f}$ </p>\n<p>The water cools from  $25^{\\circ}C$  to  $T_{f}$ . So the heat lost by water is,</p>\n<p> $Q_{\\text{loss}}=m_{w}c_{w}(25-T_{f})=100 \\times 4200 \\times (25-T_{f})=420000(25-T_{f})$ </p>\n<p> $\\Rightarrow$   $Q_{\\text{loss}}=10500000-420000T_{f}$ </p>\n<p>Using conservation of energy,  $Q_{\\text{gain}}=Q_{\\text{loss}}$ </p>\n<p> $3570000+42000T_{f}=10500000-420000T_{f}$ </p>\n<p> $\\Rightarrow$   $462000T_{f}=6930000$ </p>\n<p> $\\Rightarrow$   $T_{f}=\\frac{6930000}{462000}=15^{\\circ}C$ </p>\n<p>So the decrease in the temperature of the water:</p>\n<p> $\\Delta T_{\\text{water}}=T_{\\text{initial}}-T_{f}=25^{\\circ}C-15^{\\circ}C=10^{\\circ}C$ </p>\n<p>Therefore, the decrement to the temperature of water is  $10^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "-10^{\\circ}C",
@@ -286,7 +285,7 @@
         "=3.36 \\times 10^{5}J/Kg"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:48.442821"
     },
@@ -392,7 +391,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png"
       ],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "H=\\frac{kA\\Delta T}{L}",
@@ -403,7 +402,7 @@
         "rodx(k_{x})"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:52.368936"
     },
@@ -563,7 +562,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a metal of length  $L$  having coefficient of linear expansion  $\\alpha$  is heated by temperature  $\\Delta T$ , then the change in length is given as  $\\Delta L=L\\alpha\\Delta T$ </p>\n<p>For the first interval of heating  $(T_{1} \\rightarrow T_{2})$  :</p>\n<p>The increase in length  $\\Delta L_{1}$  is given by  $\\Delta L_{1}=L_{1}\\alpha(T_{2}-T_{1})$ </p>\n<p>It is given that  $T_{2}-T_{1}=\\Delta T$  :</p>\n<p> $\\Delta L_{1}=L_{1}\\alpha\\Delta T.....(i)$ </p>\n<p>The new length at temperature  $T_{2}$  is:</p>\n<p> $L_{2}=L_{1}+\\Delta L_{1}=L_{1}(1+\\alpha\\Delta T)........(ii)$ </p>\n<p>For the second interval of heating, (  $T_{2} \\rightarrow T_{3}$  )</p>\n<p>The increase in length is  $\\Delta L_{2}$  depends on the length at the start of this stage  $(L_{2})$  :</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha(T_{3}-T_{2})$ </p>\n<p>From the given condition  $T_{3}+T_{1}=2T_{2}$  :</p>\n<p> $T_{3}-T_{2}=T_{2}-T_{1}$ </p>\n<p>Since  $T_{2}-T_{1}=\\Delta T$ , then  $T_{3}-T_{2}=\\Delta T$ .</p>\n<p>Substituting this into the  $\\Delta L_{2}$  formula:</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha\\Delta T.......(iii)$ </p>\n<p>Substitute the value of  $L_{2}$  from equation (ii) into equation (iii) :</p>\n<p> $\\Delta L_{2}=[L_{1}(1+\\alpha\\Delta T)]\\alpha\\Delta T$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{2}=(L_{1}\\alpha\\Delta T)(1+\\alpha\\Delta T)$ </p>\n<p>From equation (i), we know  $L_{1}\\alpha\\Delta T=\\Delta L_{1}$ .</p>\n<p> $\\Delta L_{2}=\\Delta L_{1}(1+\\alpha\\Delta T)$ </p>\n<p>Therefore, the value of  $\\Delta L_{2}$  is  $\\Delta L_{1}[1+\\alpha\\Delta T]$ . </p>\n<p>Thus, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{1}",
@@ -574,7 +573,7 @@
         "T_{3}+T_{1}=2T_{2}"
       ],
       "key_concepts": [
-        "Kinetic Theory of Gases & Thermal Radiation"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:45.156916"
     },
@@ -631,8 +630,7 @@
         "\\Delta W=P\\Delta V"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes",
-        "Kinetic Theory of Gases & Thermal Radiation"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:46.795375"
     },
@@ -680,7 +678,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png"
       ],
-      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
+      "topic_tag": "First Law & Thermodynamic Processes",
       "difficulty": "Medium",
       "key_formulas": [
         "(V-2)^{2}=4ap",
@@ -690,7 +688,7 @@
         "Area(CA)=p \\times \\Delta V=\\frac{1}{4}a \\times (3-1)=\\frac{2}{4a}=\\frac{1}{2a}"
       ],
       "key_concepts": [
-        "Kinetic Theory of Gases & Thermal Radiation"
+        "First Law & Thermodynamic Processes"
       ],
       "crawled_at": "2026-09-20T15:54:48.505384"
     },
@@ -912,7 +910,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Internal energy (  $U$  ) of an ideal gas depends only on temperature. The change in internal energy for any process is given by:</p>\n<p> $\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})$ </p>\n<p>According to Mayer's relation,  $C_{p}-C_{v}=R$ .</p>\n<p> $\\frac{C_{p}}{C_{v}}-1=\\frac{R}{C_{v}}$ </p>\n<p>Since  $\\gamma=\\frac{C_{p}}{C_{v}}$ , then  $\\gamma-1=\\frac{R}{C_{v}} \\Rightarrow C_{v}=\\frac{R}{\\gamma-1}$ .</p>\n<p>Substituting  $C_{v}$  back into the  $\\Delta U$  equation:</p>\n<p> $\\Delta U=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ </p>\n<p>Thus, Statement I is true.</p>\n<p>From the law of equipartition of energy, the molar specific heat at constant volume is  $C_{v}=\\frac{f}{2}R$ , where  $f$  is the degree of freedom.</p>\n<p>Using  $C_{p}=C_{v}+R=\\frac{f}{2}R+R=R(1+\\frac{f}{2})$ .</p>\n<p>The ratio  $\\gamma=\\frac{C_{p}}{C_{v}}=\\frac{R(1+\\frac{f}{2})}{(f/2)R}=\\frac{1+f/2}{f/2}=\\frac{2}{f}+1$ .</p>\n<p>So,  $\\gamma=1+2$  f.</p>\n<p>Thus, Statement II is true.</p>\n<p>Statement II is the definition of  $\\gamma$  in terms of degrees of freedom, but Statement I is based on Mayer's relation which is the definition of  $C_{v}$ , i.e., not directly from the degrees of freedom.</p>\n<p>Therefore, both A and R are true but R is the correct explanation of A . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "First Law & Thermodynamic Processes",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})",
@@ -923,7 +921,6 @@
         "C_{v}"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes",
         "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:43.819695"
@@ -970,7 +967,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The ideal gas law is given by:  $PV=nRT \\Rightarrow n=\\frac{PVR}{T}$ </p>\n<p>Where R is the universal gas constant.</p>\n<p>For the first gas :  $n_{1}=\\frac{P_{1}V_{1}R}{T_{1}}$ </p>\n<p>For the second gas :  $n_{2}=\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p>When the gases are mixed, the total number of moles  $n$  is the sum of the individual moles :</p>\n<p> $n=n_{1}+n_{2}$ </p>\n<p>Using the ideal gas law for the final mixture (pressure P , volume V , and temperature T ) :</p>\n<p> $\\frac{PVR}{T}=\\frac{P_{1}V_{1}R}{T_{1}}+\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p> $\\begin{aligned} \\frac{PV}{T}=\\frac{P_{1}V_{1}}{T_{1}}+\\frac{P_{2}V_{2}}{T_{2}} \\\\ \\frac{PV}{T}=\\frac{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}{T_{1}T_{2}} \\\\ \\frac{T}{PV}=\\frac{T_{1}T_{2}}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\\\ T=\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\end{aligned}$ </p>\n<p>Therefore, the temperature of the mixture of two gases is  $\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}$ . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "First Law & Thermodynamic Processes",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "n_{1}",
@@ -981,7 +978,7 @@
         "T_{2}"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:45.217079"
     },
@@ -1144,7 +1141,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Initial state (at the bottom)</p>\n<p>Volume  $=V_{1}=2.9cm^{3}$ </p>\n<p>Temperature  $=T_{1}=17^{\\circ}C=17+273=290K$ </p>\n<p>Pressure  $=P_{1}$ </p>\n<p>Total pressure at the bottom is atmospheric pressure  $(P_{0})$  plus the hydrostatic pressure  $(h\\rho g)$ .</p>\n<p> $P_{1}=10^{5}+10^{3} \\times 10 \\times 5=1.5 \\times 10^{5}Pa$ </p>\n<p>Final state (at the surface)</p>\n<p>Temperature  $=T_{2}=27^{\\circ}C=27+273=300K$ </p>\n<p>Pressure  $=P_{2}=P_{0}$  (Only atmospheric pressure acts at the surface.)</p>\n<p> $P_{2}=10^{5}Pa$ </p>\n<p>According to the Ideal Gas Law :</p>\n<p> $\\frac{P_{1}V_{1}}{T_{1}}=\\frac{P_{2}V_{2}}{T_{2}}$ </p>\n<p> $\\Rightarrow$   $\\frac{(1.5 \\times 10^{5}) \\times 2.9}{290}=\\frac{(10^{5}) \\times V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $\\frac{1.5 \\times 2.9}{290}=\\frac{V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $V_{2}=\\frac{1.5 \\times 2.9 \\times 300}{290}$ </p>\n<p> $\\Rightarrow$   $V_{2}=4.5cm^{3}$ </p>\n<p>So, as the bubble rises, the external pressure decreases significantly while the temperature increases slightly. Both factors contribute to the expansion of the air bubble, resulting in a final volume of  $4.5cm^{3}$ . \n<br/><br/>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "First Law & Thermodynamic Processes",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "2.9cm^{3}",
@@ -1155,7 +1152,7 @@
         "g=10m/s^{2}"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:50.195099"
     },
@@ -1201,7 +1198,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the Kinetic Theory of Gases, the r.m.s speed of an ideal gas is given by :</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where T is the absolute temperature and M is the molecular mass (in kg ).</p>\n<p>It is given that the r.m.s. speed of oxygen  $(O_{2})$  at  $T_{O_{2}}$  is equal to the r.m.s. speed of hydrogen  $(H_{2})$  at  $T_{H_{2}}$ .</p>\n<p> $V_{rms(O_{2})}=V_{rms(H_{2})}$ </p>\n<p> $\\Rightarrow$   $\\sqrt{\\frac{3RT_{O_{2}}}{M_{O_{2}}}}=\\sqrt{\\frac{3RT_{H_{2}}}{M_{H_{2}}}}$ </p>\n<p> $\\Rightarrow$   $\\frac{T_{O_{2}}}{M_{O_{2}}}=\\frac{T_{H_{2}}}{M_{H_{2}}}$ </p>\n<p>Temperature of oxygen is  $T_{O_{2}}=47+273=320K$ .</p>\n<p>Molar masses are  $M_{O_{2}}=32 \\times 10^{-3}kg$  and  $M_{H_{2}}=2 \\times 10^{-3}kg$ .</p>\n<p> $\\frac{320}{32}=\\frac{T_{H_{2}}}{2}$ </p>\n<p> $\\Rightarrow$   $10=\\frac{T_{H_{2}}}{2} \\Rightarrow T_{H_{2}}=20K$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=20-273$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=-253^{\\circ}C$ </p>\n<p>Therefore, the rms speed of oxygen molecules at  $47^{\\circ}C$  is equal to that of the hydrogen molecules kept at  $-253^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "First Law & Thermodynamic Processes",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{rms}=\\sqrt{\\frac{3RT}{M}}",
@@ -1212,7 +1209,7 @@
         "V_{rms(O_{2})}=V_{rms(H_{2})}"
       ],
       "key_concepts": [
-        "First Law & Thermodynamic Processes"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:52.538206"
     },
@@ -1369,7 +1366,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From the ideal gas law</p>\n<p> $PV=nRT \\Rightarrow T=\\frac{PV}{nR}$ </p>\n<p>The process for the given gas is  $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ </p>\n<p>Substituting the given expression for P :</p>\n<p> $P=\\frac{P_{0}}{1+\\frac{V_{0}^{2}}{V^{2}}}=\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}}$ </p>\n<p>Now, substituting this P into the temperature equation :</p>\n<p> $T=\\frac{1}{nR}(\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}})V=\\frac{P_{0}V^{3}}{nR(V^{2}+V_{0}^{2})}$ </p>\n<p>For sample A , the volume is  $V_{A}=V_{0}$  and the number of moles  $n=2$ .</p>\n<p> $T_{A}=\\frac{P_{0}(V_{0})^{3}}{2R(V_{0}^{2}+V_{0}^{2})}=\\frac{P_{0}V_{0}^{3}}{2R(2V_{0}^{2})}=\\frac{P_{0}V_{0}}{4R}$ </p>\n<p>For sample B , the volume is  $V_{B}=3V_{0}$  and  $n=2$ .</p>\n<p> $T_{B}=\\frac{P_{0}(3V_{0})^{3}}{2R((3V_{0})^{2}+V_{0}^{2})}=\\frac{P_{0}(27V_{0}^{3})}{2R(9V_{0}^{2}+V_{0}^{2})}=\\frac{27P_{0}V_{0}^{3}}{2R(10V_{0}^{2})}=\\frac{27P_{0}V_{0}}{20R}$ </p>\n<p>So, the temperature difference is,</p>\n<p> $T_{B}-T_{A}=\\frac{27P_{0}V_{0}}{20R}-\\frac{P_{0}V_{0}}{4R}$ </p>\n<p> $\\Rightarrow$   $T_{B}-T_{A}=\\frac{27P_{0}V_{0}-5P_{0}V_{0}}{20R}=\\frac{22P_{0}V_{0}}{20R}=\\frac{11P_{0}V_{0}}{10R}$ </p>\n<p>Therefore, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}",
@@ -1379,7 +1376,7 @@
         "____"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:45.267428"
     },
@@ -1539,7 +1536,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For an ideal gas, the collision frequency of a molecule is given by the kinetic theory of gases :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n$ </p>\n<p>Where :</p>\n<ul>\n<li><p>d is the molecular diameter (or size).</p></li>\n<li><p> $V_{\\text{avg}}$  is the average speed of the gas molecules.</p></li>\n<li><p>n is the number density (number of molecules per unit volume).</p></li>\n</ul>\n<p>The average speed  $(v_{\\text{avg}})$  of gas molecules depends on the absolute temperature ( T ) and the mass of a single molecule (m) according to the formula :</p>\n<p> $v_{avg}=\\sqrt{\\frac{8kT}{\\pi m}}$ </p>\n<p>Where k is the Boltzmann constant.</p>\n<p>Substituting this into the collision frequency formula gives :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}(\\sqrt{\\frac{8kT}{\\pi m}})n$ </p>\n<p>It is given that the temperatures (T), pressures, and number densities (n) are exactly the same for both gases A and B.</p>\n<p> $Z∝\\frac{d^{2}}{\\sqrt{m}}$ </p>\n<p> $\\Rightarrow \\frac{Z_{A}}{Z_{B}}=(\\frac{d_{A}}{d_{B}})^{2} \\times \\sqrt{\\frac{m_{B}}{m_{A}}}$ </p>\n<p>Molecular size of A is half that of  $B \\Rightarrow d_{A}=\\frac{1}{2}d_{B} \\Rightarrow \\frac{d_{A}}{d_{B}}=\\frac{1}{2}$ </p>\n<p>Mass of molecule A is four times that of  $B \\Rightarrow m_{A}=4m_{B} \\Rightarrow \\frac{m_{B}}{m_{A}}=\\frac{1}{4}$ .</p>\n<p>Collision frequency in gas B is  $Z_{B}=32 \\times 10^{18}/s$ .</p>\n<p> $\\frac{Z_{A}}{Z_{B}}=(\\frac{1}{2})^{2} \\times \\sqrt{\\frac{1}{4}}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{4} \\times \\frac{1}{2}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{8} \\Rightarrow Z_{A}=\\frac{Z_{B}}{8}=\\frac{32 \\times 10^{18}}{8}=4 \\times 10^{18}/s$ </p>\n\nSo, the collision frequency in gas A is  $4 \\times 10^{18}/s$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Carnot Engine & Second Law Efficiency",
+      "topic_tag": "Kinetic Theory of Gases & Thermal Radiation",
       "difficulty": "Medium",
       "key_formulas": [
         "Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n",
@@ -1550,7 +1547,7 @@
         "Z∝\\frac{d^{2}}{\\sqrt{m}}"
       ],
       "key_concepts": [
-        "Carnot Engine & Second Law Efficiency"
+        "Kinetic Theory of Gases & Thermal Radiation"
       ],
       "crawled_at": "2026-09-20T15:54:50.326691"
     },

@@ -156,7 +156,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $(1+x^{2})\\frac{dy}{dx}+xy=1$ </p>\n<p>First write it in the standard linear form</p>\n<p> $\\frac{dy}{dx}+Py=Q$ </p>\n<p>Divide the whole equation by  $1+x^{2}$ :</p>\n<p> $\\frac{dy}{dx}+\\frac{x}{1+x^{2}}y=\\frac{1}{1+x^{2}}$ </p>\n<p>So,</p>\n<p> $P=\\frac{x}{1+x^{2}}$ </p>\n<p>For a linear differential equation, the integrating factor is</p>\n<p> $\\text{I.F.}=e^{\\int Pdx}$ </p>\n<p>Thus,</p>\n<p> $\\text{I.F.}=e^{\\int \\frac{x}{1+x^{2}}dx}$ </p>\n<p>Now,</p>\n<p> $\\int \\frac{x}{1+x^{2}}dx=\\frac{1}{2}log(1+x^{2})$ </p>\n<p>So,</p>\n<p> $\\text{I.F.}=e^{\\frac{1}{2}log(1+x^{2})}$ </p>\n<p>Using  $e^{loga}=a$ ,</p>\n<p> $\\text{I.F.}=(1+x^{2})^{1/2}$ </p>\n<p>Hence,</p>\n<p> $\\text{I.F.}=\\sqrt{1+x^{2}}$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\sqrt{1+x^{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "(1+x^{2})\\frac{dy}{dx}+xy=1",
@@ -167,7 +167,6 @@
         "\\text{I.F.}=e^{\\int Pdx}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:25.742413"
@@ -478,7 +477,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the equation of the curve by  $y=f(x)$  and curve passes through the point  $(1,1)$ , So,  $f(1)=1$  Also, we know that at any point  $(x,y)$  on the curve, the product of the slope of its tangent and  $x$  co-ordinate of the point is equal to the  $y$  co-ordinate of the point.</p>\n<p> $\\begin{aligned} \\frac{y}{x} &amp; =\\frac{dy}{dx} \\\\ xy^{'} &amp; =y \\end{aligned}$ </p>\n<p> $\\frac{y^{'}}{y}=\\frac{1}{x}$ </p>\n<p>On integrating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} ln|y| &amp; =|In|x|+e^{c} \\\\ y &amp; =kx,\\text{where}k=e^{c} \\end{aligned}$ </p>\n<p>Now, we can use the fact that the curve passes through the point  $(1,1)$  to find the value of  $k$ .</p>\n<p> $\\Rightarrow l=k(l)k=1$ </p>\n<p>Therefore, the equation of the curve is  $y=x$ </p>\n<p>Substituting the value of  $x$  and  $y$  from the given option, we find that the curve passes through the point  $(2,2)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "y=f(x)",
@@ -486,7 +485,7 @@
         "\\frac{y^{'}}{y}=\\frac{1}{x}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:25.941155"
     },
@@ -743,7 +742,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $xdy=ydx$ </p>\n<p> $\\Rightarrow \\frac{1}{y}dy=\\frac{1}{x}dx$ </p>\n<p>Integrating both sides,</p>\n<p> $\\begin{aligned} \\int \\frac{1}{y}dy &amp; =\\int \\frac{1}{x}dx. \\\\ \\Rightarrow logy &amp; =logx+logc \\end{aligned}$ </p>\n<p> $\\Rightarrow y=xc$  which is the equation of line passing through origin.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "xdy-ydx=0",
@@ -752,7 +751,7 @@
         "\\Rightarrow y=xc"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:26.367396"
     },
@@ -1060,13 +1059,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have differential equation,</p>\n<p> $\\begin{aligned} &amp; (2x+3y^{2})dy=ydx,y&gt;0 \\\\ &amp; \\Rightarrow y\\frac{dx}{dy}=2x+3y^{2} \\Rightarrow \\frac{dx}{dy}-\\frac{2x}{y}=3y \\end{aligned}$ </p>\n<p>Which is linear differential equation in the form of  $\\frac{dx}{dy}+Px=Q$ .</p>\n<p> $\\therefore I.F=e^{\\int Pdy}=e^{\\int \\frac{-2}{y}dy}=e^{-2logy}=e^{log(\\frac{1}{y^{2}})}=\\frac{1}{y^{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "(2x+3y^{2})dy=ydx(y>0)"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:26.638593"
@@ -1336,13 +1334,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}+y=1 \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=1-y \\\\ \\Rightarrow &amp; \\frac{1}{1-y}dy=dx \\end{aligned}$ </p>\n<p>On integrating both the sides, we have</p>\n<p> $\\begin{aligned} &amp; \\int \\frac{1}{1-y}dy=\\int dx \\\\ &amp; \\Rightarrow -log|1-y|=x+C \\\\ &amp; \\Rightarrow log|\\frac{1}{1-y}|=x+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}+y=1(y \\ne 1)"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:27.226157"
     },
@@ -1441,7 +1439,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the differential equation, we start with:</p>\n<p> $x\\frac{dy}{dx}+2y=x^{2}$ </p>\n<p>Rewriting it in standard linear form, we have:</p>\n<p> $\\frac{dy}{dx}+\\frac{2}{x}y=x$ </p>\n<p>This is a linear differential equation, and to solve it, we need to find the integrating factor. The integrating factor,  $\\mu(x)$ , is given by:</p>\n<p> $\\mu(x)=e^{\\int \\frac{2}{x}dx}$ </p>\n<p>Calculating the integral, we get:</p>\n<p> $\\mu(x)=e^{2logx}$ </p>\n<p>Using the properties of logarithms and exponents:</p>\n<p> $e^{2logx}=e^{logx^{2}}=x^{2}$ </p>\n<p>Thus, the integrating factor is  $x^{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "x \\cdot \\frac{dy}{dx}+2y=x^{2}",
@@ -1452,7 +1450,6 @@
         "e^{2logx}=e^{logx^{2}}=x^{2}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T15:26:27.322036"

@@ -413,7 +413,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $m=\\sum_{9}^{i=1}(i)^{2}=1^{2}+2^{2}+\\cdot s9$ </p>\n<p>We know,  $1^{2}+2^{2}+3^{2}+\\cdot sn^{2}=\\frac{n(n+1)(2n+1)}{6}$ </p>\n<p>so,  $m=\\frac{9 \\times 10 \\times 19}{6}=3 \\times 5 \\times 19=285$ </p>\n<p>Given equation</p>\n<p> $3f(x)+2f(\\frac{m}{19x})=5x,x \\ne 0$ </p>\n<p>put  $m=285,3f(x)+2f(\\frac{285}{19x})=5x$ </p>\n<p> $3f(x)+2f(\\frac{15}{x})=5x-(1)$ </p>\n<p>put  $x=\\frac{15}{x}$ </p>\n<p> $\\begin{aligned} &amp; 3f(\\frac{15}{x})+2f(\\frac{15}{15/x})=5 \\times \\frac{15}{x} \\\\ &amp; 3f(\\frac{15}{x})+2f(x)=\\frac{75}{x}-(2) \\end{aligned}$ </p>\n<p>from (1)  $f(\\frac{15}{x})=\\frac{5x-3f(x)}{2}$  substitute in equation (2)</p>\n<p> $\\begin{aligned} &amp; 3[\\frac{5x-3f(x)}{2}]+2f(x)=\\frac{75}{x} \\\\ &amp; 15x-9f(x)+4f(x)=\\frac{150}{x} \\\\ &amp; 5f(x)=15x-\\frac{150}{x} \\\\ &amp; f(x)=3x-\\frac{30}{x} \\end{aligned}$ </p>\n<p>to find  $f(5)-f(2)$ </p>\n<p> $\\begin{aligned} &amp; f(5)-f(2)=(3(5)-\\frac{30}{5})-(3 \\times 2-\\frac{30}{2}) \\\\ &amp; =(15-6)-(6-15) \\end{aligned}$ </p>\n<p>=  $9-(-9)=18$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "3f(x)+2f(\\frac{15}{x})=5x-(1)",
@@ -421,7 +421,7 @@
         "="
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:25.522142"
     },
@@ -721,13 +721,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=sin^{-1}[\\frac{5-x}{3+2x}]+\\frac{1}{log_{e}(10-x)} \\\\ &amp; -1 \\le \\frac{5-x}{3+2x} \\le 1 \\\\ &amp; \\frac{2-3x}{3+2x} \\le 0 \\\\ &amp; (3x-2)(2x+3) \\ge 0 \\\\ &amp; (3x-2)(2x+3) \\ge 0x \\in (-\\infty,-\\frac{3}{2}]∪[\\frac{2}{3},\\infty) \\\\ &amp; \\frac{8+x}{3+2x} \\ge 0 \\\\ &amp; x \\in (-\\infty,-8]∪[\\frac{-3}{2},\\infty) \\\\ &amp; x \\in (-\\infty,-8]∪[\\frac{2}{3},10)-{9}=6(\\alpha+\\beta+\\gamma+\\delta)=70 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{5-x}{3+2x})+\\frac{1}{log_{e}(10-x)}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:25.982095"
     },
@@ -811,7 +811,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $f(x+y)=f(x)+2y^{2}+y+\\alpha xy\\text{for all}x,y \\in ℝ$ </p>\n<p>with</p>\n<p> $f(0)=-1,f(1)=2.$ </p>\n<p>We have to find</p>\n<p> $\\sum_{5}^{n=1}(\\alpha+f(n)).$ </p>\n<h2>Step 1: Use the given relation to find  $\\alpha$ </h2>\n<p>Put  $x=0$  in</p>\n<p> $f(x+y)=f(x)+2y^{2}+y+\\alpha xy.$ </p>\n<p>Then</p>\n<p> $f(y)=f(0)+2y^{2}+y+\\alpha \\cdot 0 \\cdot y$ </p>\n<p>so</p>\n<p> $f(y)=-1+2y^{2}+y.$ </p>\n<p>Thus, for every real  $y$ ,</p>\n<p> $f(y)=2y^{2}+y-1.$ </p>\n<p>Now use  $f(1)=2$ :</p>\n<p> $f(1)=2(1)^{2}+1-1=2.$ </p>\n<p>This is already satisfied, so now we must use the original equation to determine  $\\alpha$ .</p>\n<p>Substitute</p>\n<p> $f(x+y)=2(x+y)^{2}+(x+y)-1$ </p>\n<p>and</p>\n<p> $f(x)=2x^{2}+x-1$ </p>\n<p>into the given equation:</p>\n<p> $2(x+y)^{2}+(x+y)-1=2x^{2}+x-1+2y^{2}+y+\\alpha xy.$ </p>\n<p>Expand the left side:</p>\n<p> $2x^{2}+4xy+2y^{2}+x+y-1.$ </p>\n<p>Right side is:</p>\n<p> $2x^{2}+x-1+2y^{2}+y+\\alpha xy.$ </p>\n<p>Comparing both sides,</p>\n<p> $4xy=\\alpha xy.$ </p>\n<p>Hence,</p>\n<p> $\\alpha=4.$ </p>\n<h2>Step 2: Find  $f(n)$  for  $n=1$  to  $5$ </h2>\n<p>Since</p>\n<p> $f(n)=2n^{2}+n-1,$ </p>\n<p>we get:</p>\n<p> $f(1)=2(1)^{2}+1-1=2$ </p>\n<p> $f(2)=2(2)^{2}+2-1=8+2-1=9$ </p>\n<p> $f(3)=2(3)^{2}+3-1=18+3-1=20$ </p>\n<p> $f(4)=2(4)^{2}+4-1=32+4-1=35$ </p>\n<p> $f(5)=2(5)^{2}+5-1=50+5-1=54$ </p>\n<h2>Step 3: Compute the required sum</h2>\n<p>We need</p>\n<p> $\\sum_{5}^{n=1}(\\alpha+f(n)).$ </p>\n<p>Since  $\\alpha=4$ ,</p>\n<p> $\\alpha+f(1)=4+2=6$ </p>\n<p> $\\alpha+f(2)=4+9=13$ </p>\n<p> $\\alpha+f(3)=4+20=24$ </p>\n<p> $\\alpha+f(4)=4+35=39$ </p>\n<p> $\\alpha+f(5)=4+54=58$ </p>\n<p>Therefore,</p>\n<p> $6+13+24+39+58=140.$ </p>\n<p>So the required value is</p>\n<p> $140.$ </p>\n<p>Hence, the correct option is <strong>B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x+y)=f(x)+2y^{2}+y+\\alpha xy",
@@ -822,7 +822,7 @@
         "f(0)=-1,f(1)=2."
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:24.425912"
     },
@@ -979,7 +979,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ru2ml3/68caf361-57a0-47fe-8fb3-a58e292befc5/1e7bb580-1f1a-11f0-9588-0d31893f02ea/file-jaoe38c1m9ru2ml4.png?format=png"
       ],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log_{4}log_{3}log_{7}(8-log_{2}(x^{2}+4x+5))",
@@ -988,7 +988,7 @@
         "f(x)=log_{4}(log_{3}(log_{7}(8-log_{2}(x^{2}+4x+5)))"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:26.653070"
     },
@@ -1036,13 +1036,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mal0i8hz/3ac1afe8-abf6-41e2-b7db-2851053ab864/0227c970-2f26-11f0-b439-af8bbc2a7b79/file-jaoe38c1mal0i8i0.png?format=png"
       ],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2x-3}{4x+5}>0"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:27.078173"
     },
@@ -1088,14 +1088,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=\\frac{2^{x}}{2^{x}+\\sqrt{2}} \\\\ &amp; f(x)+f(1-x)=\\frac{2^{x}}{2^{x}+\\sqrt{2}}+\\frac{2^{1-x}}{2^{1-x}+\\sqrt{2}} \\\\ &amp; =\\frac{2^{x}}{2^{x}+\\sqrt{2}}+\\frac{2}{2+\\sqrt{2}2^{x}}=\\frac{2^{x}+\\sqrt{2}}{2^{x}+\\sqrt{2}}=1 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Now,}\\sum_{81}^{k=1}f(\\frac{k}{82})=f(\\frac{1}{82})+f(\\frac{2}{82})+\\dots\\dots+f(\\frac{81}{82}) \\\\ =f(\\frac{1}{82})+f(\\frac{2}{82})+\\dots\\dots.+f(1-\\frac{2}{82})+f(1-\\frac{1}{82}) \\\\ =[f(\\frac{1}{82})+f(1-\\frac{1}{82})]+[f(\\frac{2}{82})+f(1-\\frac{2}{82})]+\\dots..40\\text{cases}+f(\\frac{41}{82}) \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =(1+1+\\dots40\\text{times})+\\frac{2^{1/2}}{2^{1/2}+2^{1/2}} \\\\ &amp; 40+\\frac{1}{2}=\\frac{81}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{2^{x}}{2^{x}+\\sqrt{2}},x \\in ℝ",
         "\\sum_{k=1}^{81}f(\\frac{k}{82})"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:27.552653"
     },
@@ -1304,7 +1304,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=(3a+2)x^{2}+(\\frac{a+2}{a-1})x+b \\\\ &amp; f(x+\\frac{1}{2})=f(x)+f(y)+1-\\frac{2}{7}xy\\text{.... (1)} \\end{aligned}$ </p>\n<p>In (1) Put  $x=y=0 \\Rightarrow f(0)=2f(0)+1 \\Rightarrow f(0)=-1$ </p>\n<p>So,  $f(0)=0+0+b=-1 \\Rightarrow b=-1$ </p>\n<p> $\\begin{aligned} &amp; \\text{In (1) Put}y=-x \\Rightarrow f(0)=f(x)+f(-x)+1+\\frac{2}{7}x^{2} \\\\ &amp; -1=2(3a+2)x^{2}+2b+1+\\frac{2}{7}x^{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; -1=(2(3a+2)+\\frac{2}{7})x^{2}+1-2 \\\\ &amp; \\Rightarrow 6a+4+\\frac{2}{7}=0 \\\\ &amp; a=-\\frac{5}{7} \\end{aligned}$ </p>\n<p>So  $f(x)=-\\frac{1}{7}x^{2}-\\frac{3}{4}x-1$ </p>\n<p> $\\Rightarrow |f(x)|=\\frac{1}{28}|4x^{2}+21x+28|$ </p>\n<p>Now,  $28\\sum_{5}^{i=1}|f(i)|=28(|f(1)|+|f(2)|+\\dots+|f(5)|)$ </p>\n<p> $28 \\cdot \\frac{1}{28} \\cdot 675=675$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(2+3a)x^{2}+(\\frac{a+2}{a-1})x+b,a \\ne 1",
@@ -1315,7 +1315,7 @@
         "28 \\cdot \\frac{1}{28} \\cdot 675=675"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:27.566687"
     },
@@ -1470,7 +1470,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m70k64ep/410bf002-1381-4dd8-9a7f-7ba053814aa1/cc17ed00-e881-11ef-9ef3-219db9e82920/file-jaoe38c1m70k64eq.png?format=png"
       ],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "log_{5}(18x-x^{2}-77)",
@@ -1478,7 +1478,7 @@
         "\\alpha^{2}+\\beta^{2}+\\gamma^{2}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:27.102816"
     },
@@ -2118,7 +2118,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(\\frac{1}{\\pi})&lt;f(\\frac{1}{e})\\text{as}\\frac{1}{\\pi}&lt;\\frac{1}{e}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (\\frac{1}{1})^{\\frac{2}{\\pi}}&lt;(\\frac{1}{\\frac{1}{e}})^{\\frac{2}{e}} \\\\ &amp; \\Rightarrow (\\pi)^{\\frac{2}{\\pi}}&lt;(e)^{\\frac{2}{e}} \\\\ &amp; \\Rightarrow \\pi^{e}&lt;e^{\\pi} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=(\\frac{1}{x})^{2x};x>0",
@@ -2126,7 +2126,7 @@
         "f(\\frac{1}{\\pi})<f(\\frac{1}{e})\\text{as}\\frac{1}{\\pi}<\\frac{1}{e}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:28.362670"
     },
@@ -2316,13 +2316,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(m+n)=f(m)+f(n) \\\\ &amp; f(x)=kx \\\\ &amp; \\because f(1)=1 \\\\ &amp; \\Rightarrow k=1 \\\\ &amp; \\Rightarrow f(x)=x \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\sum_{k=1}^{2022}f(\\lambda+k)=\\sum_{k=1}^{2022}(\\lambda+k)=\\underset{2022}{\\underset{}{\\lambda+\\lambda+\\dots+\\lambda}}+(1+2+\\dots+2022) \\\\ &amp; =2022\\lambda+\\frac{2022 \\times 2023}{2} \\le (2022)^{2} \\\\ &amp; \\Rightarrow \\lambda \\le \\frac{2021}{2} \\\\ &amp; \\text{largest}\\lambda=1010 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to _________."
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:39.159920"
     },
@@ -2400,13 +2400,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; F(x)=\\frac{1}{2+sin3x+cos3x},x \\in ℝ \\\\ &amp; sin3x+cos3x \\in [-\\sqrt{2},\\sqrt{2}] \\\\ &amp; 2+sin3x+cos3x \\in [2-\\sqrt{2},2+\\sqrt{2}] \\\\ &amp; \\Rightarrow \\frac{1}{2+sin3x+cos3x} \\in [\\frac{1}{2+\\sqrt{2}},\\frac{1}{2-\\sqrt{2}}] \\\\ &amp; \\Rightarrow a=\\frac{1}{2+\\sqrt{2}},b=\\frac{1}{2-\\sqrt{2}} \\\\ &amp; \\alpha=\\frac{a+b}{2}=\\frac{\\frac{1}{2+\\sqrt{2}}+\\frac{1}{2-\\sqrt{2}}}{2} \\\\ &amp; =\\frac{4}{2 \\times 2}=1 \\\\ &amp; \\beta=\\sqrt{ab}=\\sqrt{(\\frac{1}{2+\\sqrt{2}}) \\times (\\frac{1}{2-\\sqrt{2}})} \\\\ &amp; =\\sqrt{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}} \\\\ &amp; \\Rightarrow \\frac{\\alpha}{\\beta}=\\sqrt{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{1}{2+sin3x+cos3x},x \\in ℝ"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:28.006224"
     },
@@ -2452,13 +2452,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=\\frac{1}{7-sin5x} \\\\ \\\\ &amp; -1 \\le sin5x \\le 1 \\\\ \\\\ &amp; -1 \\le -sin5x \\le 1 \\\\ \\\\ &amp; -1+7 \\le 7-sin5x \\le 1+7 \\\\ \\\\ &amp; 6 \\le 7-sin5x \\le 8 \\\\ \\\\ &amp; \\frac{1}{8} \\le \\frac{1}{7-sin5x} \\le \\frac{1}{6} \\\\ \\\\ &amp; \\frac{1}{8} \\le f(x) \\le \\frac{1}{6} \\\\ \\\\ &amp; \\text{Range}=[\\frac{1}{8},\\frac{1}{6}] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{1}{7-sin5x}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:28.373519"
     },
@@ -2504,7 +2504,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the domain of the function \n $f(x)=\\frac{\\sqrt{x^{2}-25}}{(4-x^{2})}+log_{10}(x^{2}+2x-15),$  \nwe need to consider the domain conditions for both the square root function and the logarithmic function.</p>\n<p>The square root function  $\\sqrt{x^{2}-25}$  requires that the argument of the square root be non-negative, so\n $x^{2}-25 \\ge 0.$ \nThis inequality is satisfied when\n $x \\le -5\\text{or}x \\ge 5.$ </p>\n<p>The denominator of the rational part of  $f(x)$ ,  $(4-x^{2})$ , cannot be zero, otherwise, the function will become undefined due to division by zero. Thus, we must have\n $4-x^{2} \\ne 0.$ \nThis inequality is violated when\n $x= \\pm 2.$ </p>\n<p>Combining these conditions gives us the domain for the rational part of the function:\n $x \\in (-\\infty,-5]∪(5,\\infty)\\text{and}x \\ne 2,-2.$ </p>\n<p>Moving on to the logarithmic function,  $log_{10}(x^{2}+2x-15)$ , the argument must be positive:\n $x^{2}+2x-15&gt;0.$ \nThis is a quadratic inequality, which we can factor to find the solution:\n $(x+5)(x-3)&gt;0.$ \nFrom this, we see that the inequality is satisfied for\n $x&lt;-5\\text{or}x&gt;3.$ </p>\n<p>The overall domain of  $f(x)$  is the intersection of the domains for each piece. Taking the intersection of the two sets gives us:\n $x \\in (-\\infty,-5)∪(5,\\infty),$ </p>\n<p>Since the question states that the domain is of the form  $(-\\infty,\\alpha)∪[\\beta,\\infty)$ , we can infer that\n $\\alpha=-5\\text{and}\\beta=5.$ </p>\n<p>We calculate  $\\alpha^{2}+\\beta^{3}$  as follows:\n $\\alpha^{2}+\\beta^{3}=(-5)^{2}+5^{3}=25+125=150.$ </p>\n<p>So the correct answer, representing the sum of  $\\alpha^{2}$  and  $\\beta^{3}$ , is:\nOption D  $150$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\frac{\\sqrt{x^{2}-25}}{(4-x^{2})}+log_{10}(x^{2}+2x-15)",
@@ -2515,7 +2515,7 @@
         "(4-x^{2})"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:28.801027"
     },
@@ -2561,13 +2561,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; -1 \\le |\\frac{2-|x|}{4}| \\le 1 \\\\ &amp; \\Rightarrow |\\frac{2-|x|}{4}| \\le 1 \\\\ &amp; -4 \\le 2-|x| \\le 4 \\\\ &amp; -6 \\le -|x| \\le 2 \\\\ &amp; -2 \\le |x| \\le 6 \\\\ &amp; |x| \\le 6 \\end{aligned}$ </p>\n<p> $\\Rightarrow x \\in [-6,6]$  .... (1)</p>\n<p>Now,  $3-x \\ne 1$ </p>\n<p>And  $x \\ne 2$  .... (2)</p>\n<p>and  $3-x&gt;0$ </p>\n<p> $x&lt;3$  .... (3)</p>\n<p> $\\begin{aligned} &amp; \\text{From (1), (2) and (3)} \\\\ &amp; \\Rightarrow x \\in [-6,3)-{2} \\\\ &amp; \\alpha=6 \\\\ &amp; \\beta=3 \\\\ &amp; \\gamma=2 \\\\ &amp; \\alpha+\\beta+\\gamma=11 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos^{-1}(\\frac{2-|x|}{4})+{log_{e}(3-x)}^{-1}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:29.244954"
     },
@@ -2592,7 +2592,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the range of the function  $f(\\theta)=\\frac{sin^{4}\\theta+3cos^{2}\\theta}{sin^{4}\\theta+cos^{2}\\theta}$ , let's start by simplifying the expression. Let  $sin^{2}\\theta=x$ , so  $cos^{2}\\theta=1-x$ . The function then transforms into:</p>\n<p> $f(x)=\\frac{x^{2}+3(1-x)}{x^{2}+(1-x)}$ </p>\n<p>Simplify the numerator and denominator separately:</p>\n<p>Numerator:  $x^{2}+3-3x$ </p>\n<p>Denominator:  $x^{2}+1-x$ </p>\n<p>Thus, the function becomes:</p>\n<p> $f(x)=\\frac{x^{2}+3-3x}{x^{2}+1-x}=\\frac{x^{2}-3x+3}{x^{2}-x+1}$ </p>\n<p>Next, we need to find the range of this function. Let's analyze the function by testing specific values of  $x$  in the interval  $[0,1]$  (since  $sin^{2}\\theta$  ranges from 0 to 1):</p>\n<p>When  $x=0$ :</p>\n<p> $f(0)=\\frac{0^{2}-3(0)+3}{0^{2}-0+1}=\\frac{3}{1}=3$ </p>\n<p>When  $x=1$ :</p>\n<p> $f(1)=\\frac{1^{2}-3(1)+3}{1^{2}-1+1}=\\frac{1-3+3}{1-1+1}=\\frac{1}{1}=1$ </p>\n<p>It appears that  $f(x)$  achieves values within  $[1,3]$ . To confirm this, we need to solve the quadratic inequality:</p>\n<p> $1 \\le \\frac{x^{2}-3x+3}{x^{2}-x+1} \\le 3$ </p>\n<p>By solving the inequalities, it can be confirmed that the function indeed ranges from 1 to 3 on the interval [0,1]. Hence, we have:</p>\n<p> $\\alpha=1$ </p>\n<p> $\\beta=3$ </p>\n<p>The common ratio of the infinite geometric progression is:</p>\n<p> $\\frac{\\alpha}{\\beta}=\\frac{1}{3}$ </p>\n<p>Given the first term  $a=64$ , the sum  $S$  of the infinite geometric progression can be given as:</p>\n<p> $S=\\frac{a}{1-r}$ </p>\n<p>Substituting the values  $a=64$  and  $r=\\frac{1}{3}$ , we get:</p>\n<p> $S=\\frac{64}{1-\\frac{1}{3}}=\\frac{64}{\\frac{2}{3}}=64 \\times \\frac{3}{2}=96$ </p>\n<p>Therefore, the sum of the infinite geometric progression is 96.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{\\alpha}{\\beta}",
@@ -2603,7 +2603,7 @@
         "x^{2}+3-3x"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:39.170318"
     },
@@ -3137,13 +3137,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=|\\begin{aligned} 1+sin^{2}x &amp; cos^{2}x &amp; sin2x \\\\ sin^{2}x &amp; 1+cos^{2}x &amp; sin2x \\\\ sin^{2}x &amp; cos^{2}x &amp; 1+sin2x \\end{aligned}|$ \n<br/><br/> $C_{1} \\rightarrow C_{1}+C_{2}+C_{3}$ \n<br/><br/> $\\begin{aligned} &amp; =(2+sin2x)|\\begin{aligned} 1 &amp; cos^{2}x &amp; sin2x \\\\ 1 &amp; 1+cos^{2}x &amp; sin2x \\\\ 1 &amp; cos^{2}x &amp; 1+sin2x \\end{aligned}| \\\\ \\\\ &amp; R_{2} \\rightarrow R_{2} \\rightarrow R_{1};R_{3} \\rightarrow R_{3} \\rightarrow R_{1} \\\\ \\\\ &amp; =(2+sin2x)|\\begin{aligned} 1 &amp; cos^{2}x &amp; sin2x \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}| \\\\ \\\\ &amp; f(x)=2+sin2x;x \\in [\\frac{\\pi}{6},\\frac{\\pi}{3}] \\\\ \\\\ &amp; f(x)_{max}=2+1=3\\text{for}x=\\frac{\\pi}{4} \\\\ \\\\ &amp; f(x)_{min}=2+\\frac{\\sqrt{3}}{2}\\text{for}x=\\frac{\\pi}{6},\\frac{\\pi}{3} \\\\ \\\\ &amp; \\beta^{2}-2\\sqrt{\\alpha}=4+\\frac{3}{4}+2\\sqrt{3}-2\\sqrt{3} \\\\ \\\\ &amp; =\\frac{19}{4} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1} \\rightarrow C_{1}+C_{2}+C_{3}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:30.740808"
     },
@@ -3225,13 +3225,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\frac{x^{2}}{1+x^{2}}=1-\\frac{1}{1+x^{2}}&lt;1 \\\\ \\\\ \\therefore &amp; 0 \\le \\frac{x^{2}}{1+x^{2}}&lt;1 \\\\ \\\\ \\Rightarrow &amp; 0 \\le sin^{-1}(\\frac{x^{2}}{1+x^{2}})&lt;\\frac{\\pi}{2} \\\\ \\\\ \\Rightarrow &amp; 0 \\le 4sin^{-1}(\\frac{x^{2}}{1+x^{2}})&lt;2\\pi \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=4sin^{-1}(\\frac{x^{2}}{x^{2}+1})"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:29.578068"
     },
@@ -3332,7 +3332,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y=\\frac{x^{2}+2x+1}{x^{2}-8x+12}$ \n<br/><br/> $\\Rightarrow (y-1)x^{2}-(8y+2)x+12y-1=0$ \n<br/><br/>Let  $y \\ne 1$ , then  $D \\ge 0$ \n<br/><br/> $4(4y+1)^{2}-4(y-1)(12y-1) \\ge 0$ \n<br/><br/> $\\Rightarrow 16y^{2}+1+8y-(12y^{2}-13y+1) \\ge 0$ \n<br/><br/> $\\Rightarrow 4y^{2}+21y \\ge 0$ \n<br/><br/> $\\Rightarrow y \\in (-\\infty,-\\frac{21}{4})∪[0,\\infty)-{1}$ \n<br/><br/> $\\text{for}y=1\\text{,}$ \n<br/><br/> $\\begin{aligned} &amp; -8x+12=2x+1 \\\\ \\\\ &amp; x=\\frac{11}{10} \\therefore I \\in R \\end{aligned}$ \n<br/><br/> $\\therefore$  Range  $=(-\\infty,-\\frac{21}{4}]∪[0,\\infty)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{x^{2}+2x+1}{x^{2}-8x+12}",
@@ -3343,7 +3343,7 @@
         "\\Rightarrow y \\in (-\\infty,-\\frac{21}{4})∪[0,\\infty)-{1}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:30.754698"
     },
@@ -3635,7 +3635,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because f(1)=\\frac{1}{5} \\therefore f(2)=f(1)+f(1)=\\frac{2}{5}$ \n<br/><br/>\n $f(2)=\\frac{2}{5}f(3)=f(2)+f(1)=\\frac{3}{5}$ \n<br/><br/>\n $f(3)=\\frac{3}{5}$ \n<br/><br/>\n $\\therefore \\sum_{n=1}^{m}\\frac{f(n)}{n(n+1)(n+2)}$ \n<br/><br/>\n $=\\frac{1}{5}\\sum_{n=1}^{m}(\\frac{1}{n+1}-\\frac{1}{n+2})$ \n<br/><br/>\n $=\\frac{1}{5}(\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\dots.+\\frac{1}{m+1}-\\frac{1}{m+2})$ \n<br/><br/>\n $=\\frac{1}{5}(\\frac{1}{2}-\\frac{1}{m+2})=\\frac{m}{10(m+2)}=\\frac{1}{12}$ \n<br/><br/>\n $\\therefore m=10$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to __________.",
@@ -3646,7 +3646,7 @@
         "=\\frac{1}{5}(\\frac{1}{2}-\\frac{1}{m+2})=\\frac{m}{10(m+2)}=\\frac{1}{12}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:40.050757"
     },
@@ -3747,7 +3747,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f:R \\rightarrow R$  defined as</p>\n<p> $f(x)=x-1$  and  $g:R \\rightarrow {1,-1} \\rightarrow R,g(x)=\\frac{x^{2}}{x^{2}-1}$ </p>\n<p>Now  $fog(x)=\\frac{x^{2}}{x^{2}-1}-1=\\frac{1}{x^{2}-1}$ </p>\n<p> $\\therefore$  Domain of  $fog(x)=R-{-1,1}$ </p>\n<p>And range of  $fog(x)=(-\\infty,-1]∪(0,\\infty)$ </p>\n<p>Now,  $\\frac{d}{dx}(fog(x))=\\frac{-1}{x^{2}-1}.2x=\\frac{2x}{1-x^{2}}$ </p>\n<p> $\\therefore$   $\\frac{d}{dx}(fog(x))&gt;0$  for  $\\frac{2x}{(1-x)(1+x)}&gt;0$ </p>\n<p> $\\Rightarrow \\frac{x}{(x-1)(x+1)}&lt;0$ </p>\n<p> $\\therefore$   $x \\in (-\\infty,-1)∪(0,1)$ </p>\n<p>and  $\\frac{d}{dx}(fog(x))&lt;0$  for  $x \\in (-1,0)∪(1,\\infty)$ </p>\n<p> $\\therefore$   $fog(x)$  is neither one-one nor onto.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "fog(x)=R-{-1,1}",
@@ -3758,7 +3758,6 @@
         "\\Rightarrow \\frac{x}{(x-1)(x+1)}<0"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions",
         "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:31.794216"
@@ -3784,7 +3783,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f(x)=(x-\\alpha)(x-\\beta)$ </p>\n<p>It is given that  $f(0)=p \\Rightarrow \\alpha\\beta=p$ </p>\n<p>and  $f(1)=\\frac{1}{3} \\Rightarrow (1-\\alpha)(1-\\beta)=\\frac{1}{3}$ </p>\n<p>Now, let us assume that,  $\\alpha$  is the common root of  $f(x)=0$  and  $fofofof(x)=0$ </p>\n<p> $fofofof(x)=0$ </p>\n<p> $\\Rightarrow fofof(0)=0$ </p>\n<p> $\\Rightarrow fof(p)=0$ </p>\n<p>So,  $f(p)$  is either  $\\alpha$  or  $\\beta$ .</p>\n<p> $(p-\\alpha)(p-\\beta)=\\alpha$ </p>\n<p> $(\\alpha\\beta-\\alpha)(\\alpha\\beta-\\beta)=\\alpha \\Rightarrow (\\beta-1)(\\alpha-1)\\beta=1$  ( $\\because$   $\\alpha \\ne 0$ )</p>\n<p>So,  $\\beta=3$ </p>\n<p> $(1-\\alpha)(1-3)=\\frac{1}{3}$ </p>\n<p> $\\alpha=\\frac{7}{6}$ </p>\n<p> $f(x)=(x-\\frac{7}{6})(x-3)$ </p>\n<p> $f(-3)=(-3-\\frac{7}{6})(3-3)=25$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         "f(0)=p,p \\ne 0",
@@ -3795,7 +3794,7 @@
         "f(0)=p \\Rightarrow \\alpha\\beta=p"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:40.879407"
     },
@@ -3928,7 +3927,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $f(x)=\\frac{x-1}{x+1}$ </p>\n<p>Also given,</p>\n<p> $f^{n+1}(x)=f(f^{n}(x))$  ..... (1)</p>\n<p> $\\therefore$  For  $n=1$ </p>\n<p> $f^{1+1}(x)=f(f^{1}(x))$ </p>\n<p> $\\Rightarrow f^{2}(x)=f(f(x))$ </p>\n<p> $=f(\\frac{x-1}{x+1})$ </p>\n<p> $=\\frac{\\frac{x-1}{x+1}-1}{\\frac{x-1}{x+1}+1}$ </p>\n<p> $=\\frac{\\frac{x-1-x-1}{x+1}}{\\frac{x-1+x+1}{x+1}}$ </p>\n<p> $=\\frac{-2}{2x}$ </p>\n<p> $=-\\frac{1}{x}$ </p>\n<p>From equation (1), when n = 2</p>\n<p> $f^{2+1}(x)=f(f^{2}(x))$ </p>\n<p> $\\Rightarrow f^{3}(x)=f(f^{2}(x))$ </p>\n<p> $=f(-\\frac{1}{x})$ </p>\n<p> $=\\frac{-\\frac{1}{x}-1}{-\\frac{1}{x}+1}$ </p>\n<p> $=\\frac{\\frac{-1-x}{x}}{\\frac{-1+x}{x}}$ </p>\n<p> $=\\frac{-1-x}{-1+x}=\\frac{-(x+1)}{x-1}$ </p>\n<p>Similarly,</p>\n<p> $f^{4}(x)=f(f^{3}(x))$ </p>\n<p> $=f(\\frac{-x+1}{x-1})$ </p>\n<p> $=\\frac{\\frac{-(x+1)}{x-1}-1}{\\frac{-(x+1)}{x-1}+1}$ </p>\n<p> $=\\frac{\\frac{-x-1-x+1}{x-1}}{\\frac{-x-1+x-1}{x-1}}$ </p>\n<p> $=\\frac{-2x}{-2}=x$ </p>\n<p> $\\therefore$   $f^{5}(x)=f(f^{4}(x))$ </p>\n<p> $=f(x)$ </p>\n<p> $=\\frac{x-1}{x+1}$ </p>\n<p> $f^{6}(x)=f(f^{5}(x))$ </p>\n<p> $=f(\\frac{x-1}{x+1})$ </p>\n<p> $=-\\frac{1}{x}$  (Already calculated earlier)</p>\n<p> $f^{7}(x)=f(f^{6}(x))$ </p>\n<p> $=f(-\\frac{1}{x})$ </p>\n<p> $=\\frac{-\\frac{1}{x}-1}{-\\frac{1}{x}+1}$ </p>\n<p> $=\\frac{-(x+1)}{x-1}$ </p>\n<p> $\\therefore$   $f^{6}(6)=-\\frac{1}{6}$ </p>\n<p>and  $f^{7}(7)=\\frac{-(7+1)}{7-1}=-\\frac{8}{6}$ </p>\n<p>So,  $f^{6}(6)+f^{7}(7)$ </p>\n<p> $=-\\frac{1}{6}-\\frac{8}{6}$ </p>\n<p> $=-\\frac{3}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{x-1}{x+1},x \\in R-{0,-1,1}",
@@ -3939,7 +3938,7 @@
         "f^{1+1}(x)=f(f^{1}(x))"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:31.806465"
     },
@@ -3964,7 +3963,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $a_{1},a_{2},a_{3},a_{4}$ </p>\n<p> $\\therefore$   $a_{2}=p-3d,a_{2}=p-d,a_{3}=p+d$  and  $a_{4}=p+3d$ </p>\n<p>Where  $d&gt;0$ </p>\n<p> $\\because$   $|f(a_{i})|=500$ </p>\n<p> $\\Rightarrow |9d^{2}-q|=500$ </p>\n<p>and  $|d^{2}-q|=500$  ..... (i)</p>\n<p>either  $9d^{2}-q=d^{2}-q$ </p>\n<p> $\\Rightarrow d=0$  not acceptable</p>\n<p> $\\therefore$   $9d^{2}-q=q-d^{2}$ </p>\n<p> $\\therefore$   $5d^{2}-q=0$  ..... (ii)</p>\n<p>Roots of  $f(x)=0$  are  $p+\\sqrt{q}$  and  $p-\\sqrt{q}$ </p>\n<p> $\\therefore$  absolute difference between roots  $=|2\\sqrt{q}|=50$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=(x-p)^{2}-q,x \\in R",
@@ -3975,7 +3974,7 @@
         "is ___________."
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:40.431832"
     },
@@ -4036,7 +4035,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $f(x)=\\frac{2e^{2x}}{e^{2x}+e}$ </p>\n<p> $\\therefore$   $f(1-x)=\\frac{2e^{2(1-x)}}{e^{2(1-x)}+e}$ </p>\n<p> $=\\frac{2.\\frac{e^{2}}{e^{2x}}}{\\frac{e^{2}}{e^{2x}}+e}$ </p>\n<p> $=\\frac{2e^{2}}{e^{2}+e^{2x}.e}$ </p>\n<p> $=\\frac{2e^{2}}{e(e+e^{2x})}$ </p>\n<p> $=\\frac{2e}{e+e^{2x}}$ </p>\n<p> $\\therefore$   $f(x)+f(1-x)=\\frac{2e^{2x}}{e^{2x}+e}+\\frac{2e}{e^{2x}+e}$ </p>\n<p> $=\\frac{2(e^{2x}+e)}{e^{2x}+e}$ </p>\n<p> $=2$  ...... (1)</p>\n<p>Now,</p>\n<p> $f(\\frac{1}{100})+f(\\frac{99}{100})$ </p>\n<p> $=f(\\frac{1}{100})+f(1-\\frac{1}{100})$ </p>\n<p> $=2$  [as  $f(x)+f(1-x)=2$ ]</p>\n<p>Similarly,</p>\n<p> $f(\\frac{2}{100})+f(1-\\frac{2}{100})=2$ </p>\n<p> $⋮$ </p>\n<p> $f(\\frac{49}{100})+f(1-\\frac{49}{100})=2$ </p>\n<p> $\\therefore$  Total sum  $=49 \\times 2$ </p>\n<p>Remaining term  $=f(\\frac{50}{100})=f(\\frac{1}{2})$ </p>\n<p>Put  $x=\\frac{1}{2}$  in equation (1), we get</p>\n<p> $f(\\frac{1}{2})+f(1-\\frac{1}{2})=2$ </p>\n<p> $\\Rightarrow 2f(\\frac{1}{2})=2$ </p>\n<p> $\\Rightarrow f(\\frac{1}{2})=1$ </p>\n<p> $\\therefore$  Sum  $=49 \\times 2+1=99$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\frac{2e^{2x}}{e^{2x}+e}",
@@ -4047,7 +4046,7 @@
         "=\\frac{2e^{2}}{e(e+e^{2x})}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:41.860751"
     },
@@ -4093,7 +4092,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(1)+f(2)=f(3)$ </p>\n<p>It means  $f(1),f(2)$  and  $f(3)$  are dependent on each other. But there is no condition on  $f(4)$ , so  $f(4)$  can be  $f(4)=1,2,3,4,5,6$ .</p>\n<p>For  $f(1),f(2)$  and we have to find how many functions possible which will satisfy the condition  $f(1)+f(2)=f(3)$ </p>\n<p>Case 1 :</p>\n<p>When  $f(3)=2$  then possible values of  $f(1)$  and  $f(2)$  which satisfy  $f(1)+f(2)=f(3)$  is  $f(1)=1$  and  $f(2)=1$ .</p>\n<p>And  $f(4)$  can be = 1, 2, 3, 4, 5, 6</p>\n<p> $\\therefore$  Total possible functions  $=1 \\times 6=6$ </p>\n<p>Case 2 :</p>\n<p>When  $f(3)=3$  then possible values</p>\n<p>(1)  $f(1)=1$  and  $f(2)=2$ </p>\n<p>(2)  $f(1)=2$  and  $f(2)=1$ </p>\n<p>And  $f(4)$  can be = 1, 2, 3, 4, 5, 6.</p>\n<p> $\\therefore$  Total functions  $=2 \\times 6=12$ </p>\n<p>Case 3 :</p>\n<p>When  $f(3)=4$  then</p>\n<p>(1)  $f(1)=1$  and  $f(2)=3$ </p>\n<p>(2)  $f(1)=2$  and  $f(2)=2$ </p>\n<p>(3)  $f(1)=3$  and  $f(2)=1$ </p>\n<p>And  $f(4)$  can be = 1, 2, 3, 4, 5, 6</p>\n<p> $\\therefore$  Total functions  $=3 \\times 6=18$ </p>\n<p>Case 4 :</p>\n<p>When  $f(3)=5$  then</p>\n<p>(1)  $f(1)=1$  and  $f(4)=4$ </p>\n<p>(2)  $f(1)=2$  and  $f(4)=3$ </p>\n<p>(3)  $f(1)=3$  and  $f(4)=2$ </p>\n<p>(4)  $f(1)=4$  and  $f(4)=1$ </p>\n<p>And  $f(4)$  can be  = 1, 2, 3, 4, 5 and 6</p>\n<p> $\\therefore$  Total functions  $=4 \\times 6=24$ </p>\n<p>Case 5 :</p>\n<p>When  $f(3)=6$  then</p>\n<p>(1)  $f(1)=1$  and  $f(2)=5$ </p>\n<p>(2)  $f(1)=2$  and  $f(2)=4$ </p>\n<p>(3)  $f(1)=3$  and  $f(2)=3$ </p>\n<p>(4)  $f(1)=4$  and  $f(2)=2$ </p>\n<p>(5)  $f(1)=5$  and  $f(2)=1$ </p>\n<p>And  $f(4)$  can be = 1, 2, 3, 4, 5 and 6</p>\n<p> $\\therefore$  Total possible functions  $=5 \\times 6=30$ </p>\n<p> $\\therefore$  Total functions from those 5 cases we get</p>\n<p> $=6+12+18+24+30$ </p>\n<p> $=90$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(1)+f(2)=f(3)",
@@ -4104,7 +4103,7 @@
         "=1 \\times 6=6"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:31.205383"
     },
@@ -4186,7 +4185,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A={\\begin{aligned} x \\in N, &amp; x^{2}-10x+9 \\le 0 \\end{aligned}}$ </p>\n<p> $={1,2,3,....,9}$ </p>\n<p> $B={1,4,9,16,.....}$ </p>\n<p> $f(x) \\le (x-3)^{2}+1$ </p>\n<p> $f(1) \\le 5,f(2) \\le 2,..........f(9) \\le 37$ </p>\n<p> $x=1$  has 2 choices</p>\n<p> $x=2$  has 1 choice</p>\n<p> $x=3$  has 1 choice</p>\n<p> $x=4$  has 1 choice</p>\n<p> $x=5$  has 2 choices</p>\n<p> $x=6$  has 3 choices</p>\n<p> $x=7$  has 4 choices</p>\n<p> $x=8$  has 5 choices</p>\n<p> $x=9$  has 6 choices</p>\n<p> $\\therefore$  Total functions =  $2 \\times 1 \\times 1 \\times 1 \\times 2 \\times 3 \\times 4 \\times 5 \\times 6=1440$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         ", is ___________.",
@@ -4197,7 +4196,7 @@
         "x=2"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:40.442479"
     },
@@ -4533,7 +4532,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=log_{\\sqrt{5}}(3+cos(\\frac{3\\pi}{4}+x)+cos(\\frac{\\pi}{4}+x)+cos(\\frac{\\pi}{4}-x)-cos(\\frac{3\\pi}{4}-x))$ <br/><br/> $f(x)=log_{\\sqrt{5}}[3+2cos(\\frac{\\pi}{4})cos(x)-2sin(\\frac{3\\pi}{4})sin(x)]$ <br/><br/> $f(x)=log_{\\sqrt{5}}[3+\\sqrt{2}(cosx-sinx)]$ <br/><br/>Since  $-\\sqrt{2} \\le cosx-sinx \\le \\sqrt{2}$ <br/><br/> $\\Rightarrow log_{\\sqrt{5}}[3+\\sqrt{2}(-\\sqrt{2}) \\le f(x) \\le log_{\\sqrt{5}}[3+\\sqrt{2}(\\sqrt{2})]]$ <br/><br/> $\\Rightarrow log_{\\sqrt{5}}(1) \\le f(x) \\le log_{\\sqrt{5}}(5)$ <br/><br/>So, Range of f(x) is [0, 2]<br/><br/>Option (d)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log_{\\sqrt{5}}[3+2cos(\\frac{\\pi}{4})cos(x)-2sin(\\frac{3\\pi}{4})sin(x)]",
@@ -4541,7 +4540,7 @@
         "\\Rightarrow log_{\\sqrt{5}}(1) \\le f(x) \\le log_{\\sqrt{5}}(5)"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:32.145223"
     },
@@ -4587,7 +4586,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->g : N  $\\rightarrow$  N <br/><br/>g(3n + 1) = 3n + 2,<br/><br/>g(3n + 2) = 3n + 3,<br/><br/>g(3n + 3) = 3n + 1<br/><br/> $g(x)=⎡⎣⎢\\begin{aligned} x+1 &amp; x=3k+1 \\\\ x+1 &amp; x=3k+2 \\\\ x-2 &amp; x=3k+3 \\end{aligned}$ <br/><br/> $g(g(x))=⎡⎣⎢\\begin{aligned} x+2 &amp; x=3k+1 \\\\ x-1 &amp; x=3k+2 \\\\ x-1 &amp; x=3k+3 \\end{aligned}$ <br/><br/> $g(g(g(x)))=⎡⎣⎢\\begin{aligned} x &amp; x=3k+1 \\\\ x &amp; x=3k+2 \\\\ x &amp; x=3k+3 \\end{aligned}$ <br/><br/>If f : N  $\\rightarrow$  N, if is a one-one function such that f(g(x)) = f(x)  $\\Rightarrow$  g(x) = x, which is not the case<br/><br/>If f : N  $\\rightarrow$  N f is an onto function<br/><br/>such that f(g(x)) = f(x),<br/><br/>one possibility is <br/><br/> $f(x)=⎡⎣⎢\\begin{aligned} x &amp; x=3n+1 \\\\ x &amp; x=3n+2 \\\\ x &amp; x=3n+3 \\end{aligned}$  n $\\in$ N<sub>0</sub><br/><br/>Here f(x) is onto, also f(g(x)) = f(x)  $∀$  x $\\in$ N<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "N, if is a one-one function such that f(g(x)) = f(x)",
@@ -4596,7 +4595,6 @@
         "N 0 Here f(x) is onto, also f(g(x)) = f(x)"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions",
         "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.535233"
@@ -4767,8 +4765,7 @@
         "1+\\frac{1}{x-1^{'}}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions",
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:33.877691"
     },
@@ -4793,14 +4790,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->F(mn) = f(m) . f(n)<br/><br/>Put m = 1 f(n) = f(1) . f(n)  $\\Rightarrow$  f(1) = 1<br/><br/>Put m = n = 2<br/><br/> $f(4)=f(2).f(2)⎧⎩⎨⎪⎪\\begin{aligned} f(2)=1 \\Rightarrow f(4)=1 \\\\ or \\\\ f(2)=2 \\Rightarrow f(4)=4 \\end{aligned}$ <br/><br/>Put m = 2, n = 3<br/><br/> $f(6)=f(2).f(3)⎧⎩⎨⎪⎪\\begin{aligned} wℎenf(2)=1 \\\\ f(3)=1to7 \\\\ \\\\ f(2)=2 \\\\ f(3)=1or2or3 \\end{aligned}$ <br/><br/>f(5), f(7) can take any value <br/><br/>Total = (1  $\\times$  1  $\\times$  7  $\\times$  1  $\\times$  7  $\\times$  1  $\\times$  7) + (1  $\\times$  1  $\\times$  3  $\\times$  1  $\\times$  7  $\\times$  1  $\\times$  7)<br/><br/>= 490<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         "Put m = 2, n = 3",
         "f(5), f(7) can take any value Total = (1"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:42.159846"
     },
@@ -4846,13 +4843,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(m + n) = f(m) + f(n)<br/><br/>Put m  = 1, n = 1<br/><br/>f(2) = 2f(1)<br/><br/>Put m = 2, n = 1<br/><br/>f(3) = f(2) + f(1) = 3f(1)<br/><br/>Put m = 3, n = 3<br/><br/>f(6) = 2f(3)  $\\Rightarrow$  f(3) = 9<br/><br/> $\\Rightarrow$  f(1) = 3, f(2) = 6<br/><br/>f(2) . f(3) = 6  $\\times$  9 = 54<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.158147"
     },
@@ -4898,7 +4895,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{5x+3}{6x-\\alpha}=y$  ..... (i)<br/><br/> $5x+3=6xy-\\alpha y$ <br/><br/> $x(6y-5)=\\alpha y+3$ <br/><br/> $x=\\frac{\\alpha y+3}{6y-5}$ <br/><br/> $f^{-1}(x)=\\frac{\\alpha x+3}{6x-5}$  ...... (ii)<br/><br/>fo  $f(x)=x$ <br/><br/> $f(x)=f^{-1}(x)$ <br/><br/>From eq<sup>n</sup> (i) &amp; (ii)<br/><br/>Clearly  $(\\alpha=5)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f:R-{\\frac{\\alpha}{6}} \\rightarrow R",
@@ -4909,7 +4906,7 @@
         "x(6y-5)=\\alpha y+3"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.546204"
     },
@@ -5012,7 +5009,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{5^{x}}{5^{x}+5}$  ..... (i)<br/><br/> $f(2-x)=\\frac{5^{2-x}}{5^{2-x}+5}$ <br/><br/> $f(2-x)=\\frac{5}{5^{x}+5}$  .... (ii)<br/><br/>Adding equation (i) and (ii) <br/><br/> $f(x)+f(2-x)=1$ <br/><br/> $f(\\frac{1}{20})+f(\\frac{39}{20})=1$ <br/><br/> $f(\\frac{2}{20})+f(\\frac{38}{20})=1$ <br/><br/> $\\begin{aligned} &amp; : \\\\ &amp; : \\end{aligned}$ <br/><br/> $f(\\frac{19}{20})+f(\\frac{21}{20})=1$ <br/><br/>and  $f(\\frac{20}{20})=f(1)=\\frac{1}{2}$ <br/><br/> $\\therefore$  Sum =  $19+\\frac{1}{2}=\\frac{39}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{5^{x}}{5^{x}+5}",
@@ -5023,7 +5020,7 @@
         "f(\\frac{1}{20})+f(\\frac{39}{20})=1"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:33.274136"
     },
@@ -5102,7 +5099,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = cos $\\lambda$ x<br/><br/> $\\because$   $f(\\frac{1}{2})$  =  $-$ 1<br/><br/>So,  $-$ 1 = cos $\\frac{\\lambda}{2}$ <br/><br/> $\\Rightarrow$   $\\lambda$  = 2 $\\pi$ <br/><br/>Thus f(x) = cos2 $\\pi$ x<br/><br/>Now k is natural number<br/><br/>Thus f(k) = 1<br/><br/> $\\sum_{k=1}^{20}\\frac{1}{sinksin(k+1)}=\\frac{1}{sin1}\\sum_{k=1}^{20}[\\frac{sin((k+1)-k)}{sink.sin(k+1)}]$ <br/><br/> $=\\frac{1}{sin1}\\sum_{k=1}^{20}(cotk-cot(k+1)$ )<br/><br/> $=\\frac{cot1-cot21}{sin1}=cosec^{2}1cosec(21).sin20$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x+y)+f(x-y)=2f(x)f(y),f(\\frac{1}{2})=-1",
@@ -5113,7 +5110,7 @@
         "=\\frac{cot1-cot21}{sin1}=cosec^{2}1cosec(21).sin20"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:32.168717"
     },
@@ -5307,7 +5304,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, p(x) = f(x<sup>3</sup>) + xg(x<sup>3</sup>)<br/><br/>We know, x<sup>2</sup> + x + 1 = (x  $-$   $\\omega$ ) (x  $-$   $\\omega$ <sup>2</sup>)<br/><br/>Given, p(x) is divisible by x<sup>2</sup> + x + 1. So, roots of p(x) is  $\\omega$  and  $\\omega$ <sup>2</sup>.<br/><br/>As root satisfy the equation,<br/><br/>So, put x =  $\\omega$ <br/><br/>p( $\\omega$ ) = f( $\\omega$ <sup>3</sup>) +  $\\omega$ g( $\\omega$ <sup>3</sup>) = 0<br/><br/>= f(1) +  $\\omega$ g(1) = 0 [ $\\omega$ <sup>3</sup> = 1]<br/><br/>= f(1) +  $(-\\frac{1}{2}+\\frac{i\\sqrt{3}}{2})$  g(1) = 0<br/><br/> $\\Rightarrow$  f(1)  $-$   $\\frac{g(1)}{2}+i(\\frac{\\sqrt{3}g(1)}{2})$  = 0 + i0<br/><br/>Comparing both sides, we get<br/><br/>f(1)  $-$   $\\frac{g(1)}{2}$  = 0<br/><br/>and  $\\frac{\\sqrt{3}}{2}g(1)=0$   $\\Rightarrow$  g(1) = 0<br/><br/>So, f(1) = 0<br/><br/>Now, p(1) = f(1) + 1 . g(1) = 0 + 0 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Hard",
       "key_formulas": [
         "\\omega",
@@ -5317,7 +5314,7 @@
         "\\frac{\\sqrt{3}}{2}g(1)=0"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:42.184006"
     },
@@ -5363,11 +5360,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\therefore$  (gof)<sup> $-$ 1</sup> exist  $\\Rightarrow$  gof is bijective<br/><br/> $\\Rightarrow$  'f' must be one-one and 'g' must be ONTO.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Domain, Range & Composite Functions",
         "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.179543"
@@ -5414,7 +5410,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Finding inverse of f(x)<br/><br/> $y=\\frac{x-2}{x-3} \\Rightarrow xy-3y=x-2 \\Rightarrow x(y-1)=3y-2$ <br/><br/> $\\therefore$   $f^{-1}(x)=\\frac{3x-2}{x-1}$ <br/><br/>Similarly for  $g^{-1}(x)$ <br/><br/> $y=2x-3 \\Rightarrow x=\\frac{y+3}{2} \\Rightarrow g^{-1}(x)=\\frac{x+3}{2}$ <br/><br/> $\\therefore$   $\\frac{3x-2}{x-1}+\\frac{x+3}{2}=\\frac{13}{2}$ <br/><br/> $\\Rightarrow 6x-4+x^{2}+2x-3=13x-13$ <br/><br/> $\\Rightarrow x^{2}-5x+6=0$ <br/><br/> $\\Rightarrow (x-2)(x-3)=0$ <br/><br/> $\\Rightarrow$  x = 2 or 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "{1} be defined by f(x) =",
@@ -5425,7 +5421,7 @@
         "y=2x-3 \\Rightarrow x=\\frac{y+3}{2} \\Rightarrow g^{-1}(x)=\\frac{x+3}{2}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.569431"
     },
@@ -5471,7 +5467,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=(4a-3)(x+ln5)+2(a-7)(\\frac{cos\\frac{x}{2}}{sin\\frac{x}{2}}.sin^{2}\\frac{x}{2})$ <br/><br/> $f(x)=(4a-3)(x+ln5)+(a-7)sinx$ <br/><br/> $f^{'}(x)=(4a-3)+(a-7)cosx=0$ <br/><br/> $cosx=\\frac{-(4a-3)}{a-7}$ <br/><br/> $-1 \\le -\\frac{4a-3}{a-7} \\le 1$ <br/><br/> $-1 \\le \\frac{4a-3}{a-7} \\le 1$ <br/><br/> $\\frac{4a-3}{a-7}-1 \\le 0$  and  $\\frac{4a-3}{a-7}+1 \\ge 0$ <br/><br/> $\\Rightarrow \\frac{-4}{3} \\le a \\le 2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(4a-3)(x+ln5)+(a-7)sinx",
@@ -5482,7 +5478,7 @@
         "\\frac{4a-3}{a-7}-1 \\le 0"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:32.963138"
     },
@@ -5620,7 +5616,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->R<sub>1</sub>  $\\rightarrow$  R<sub>1</sub> + R<sub>3</sub> – 2R<sub>2</sub>\n<br/><br/>f(x) =  $|\\begin{aligned} a+c-2b &amp; 0 &amp; 0 \\\\ x+b &amp; x+3 &amp; x+2 \\\\ x+c &amp; x+4 &amp; x+3 \\end{aligned}|$ \n<br/><br/>= (a + c – 2b) ((x + 3)<sup>2</sup> – (x + 2)(x + 4))\n<br/><br/>= x<sup>2</sup> + 6x + 9 – x<sup>2</sup> – 6x – 8 = 1\n<br/><br/> $\\therefore$  f(x) = 1\n<br/><br/> $\\Rightarrow$   f(50) = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "R 1 + R 3 – 2R 2 f(x) =",
@@ -5628,7 +5624,7 @@
         "f(x) = 1"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:34.242683"
     },
@@ -5707,7 +5703,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $f(x)=\\frac{a-x}{a+x}$ \n<br/><br/>and (fof)(x) = x\n<br/><br/> $\\Rightarrow$  f(f(x)) =  $\\frac{a-f(x)}{a+f(x)}$  = x<br/><br/> $\\Rightarrow$   $\\frac{a-(\\frac{a-x}{a+x})}{a+(\\frac{a-x}{a+x})}$  = x\n<br/><br/> $\\Rightarrow$   $\\frac{a^{2}+ax-a+x}{a^{2}+ax+a+x}$  = x\n<br/><br/> $\\Rightarrow$  (a<sup>2</sup>\n – a) + x(a + 1) = (a<sup>2</sup>\n + a)x + x<sup>2</sup>(a – 1)\n<br/><br/> $\\Rightarrow$  a(a – 1) + x(1 – a<sup>2</sup>) – x<sup>2</sup>(a – 1) = 0\n<br/><br/> $\\Rightarrow$  a = 1\n<br/><br/> $\\therefore$  f(x) =  $\\frac{1-x}{1+x}$ \n<br/><br/>So,  $f(-\\frac{1}{2})$  =  $\\frac{1+\\frac{1}{2}}{1-\\frac{1}{2}}$  = 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{a-x}{a+x}",
@@ -5718,7 +5714,7 @@
         "\\frac{1-x}{1+x}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:33.893208"
     },
@@ -5849,7 +5845,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x + y) = f(x)f(y)\n<br/><br/> $\\sum_{x=1}^{\\infty}f(x)=2$ \n<br/><br/> $\\Rightarrow$  f(1) + f(2) + f(3) + ........ $\\infty$  = 2 ....(1)\n<br/><br/>On f(x + y) = f(x) f(y)\n<br/>* Put x = 1, y = 1\n<br/>f(2) = (f(1))<sup>2</sup>\n<br/>* Put x = 2, y = 1\n<br/>f(3) = f(2). f(1) = f((1))<sup>3</sup>\n<br/>* Put x = 2, y = 2\n<br/>f(4) = f((2))<sup>2</sup> = f((1))<sup>4</sup>\n<br/><br/>Now put these values in equation (1)\n<br/><br/> f(1) + f((1))<sup>2</sup> + f((1))<sup>3</sup> + ....... = 2\n<br/><br/> $\\Rightarrow$   $\\frac{f(1)}{1-f(1)}$  = 2\n<br/><br/> $\\Rightarrow$  f(1) =  $\\frac{2}{3}$ \n<br/><br/>Now f(2) =  $(\\frac{2}{3})^{2}$ \n<br/><br/>and f(4) =  $(\\frac{2}{3})^{4}$ \n<br/><br/> $\\therefore$   $\\frac{f(4)}{f(2)}$ \n<br/><br/>=  $\\frac{(\\frac{2}{3})^{4}}{(\\frac{2}{3})^{2}}$  =  $\\frac{4}{9}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{x=1}^{\\infty}f(x)=2",
@@ -5860,7 +5856,7 @@
         "(\\frac{2}{3})^{4}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:33.905845"
     },
@@ -5963,7 +5959,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given f(1) = 2 ; \n<br/><br/>f(x + y) = f(x) + f(y)\n\n\n<br/><br/>When x = y = 1  $\\Rightarrow$ \nf(2) = 2 + 2 = 4\n\n<br/><br/>When x = 2, y = 1  $\\Rightarrow$  f(3) = 4 + 2 = 6\n<br/><br/> g(n) =  $\\sum_{k=1}^{(n-1)}f(k)$ \n<br/><br/>= f(1) + f(2) +.........+ f(n - 1)\n<br/><br/>= 2 + 4 + 6 + ......+ 2(n - 1)\n<br/><br/>= 2  $\\times$   $\\frac{(n-1)(n)}{2}$ \n<br/><br/>= n<sup>2</sup> - n\n<br/><br/> Given g(n) = 20\n<br/><br/> $\\Rightarrow$  n<sup>2</sup>– n = 20\n\n<br/><br/> $\\Rightarrow$  n<sup>2</sup> – n – 20 = 0\n\n<br/><br/> $\\Rightarrow$  n = 5<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "R. If f(1) = 2 and g(n) =",
@@ -5972,7 +5968,7 @@
         "\\frac{(n-1)(n)}{2}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:33.918090"
     },
@@ -6190,13 +6186,12 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/kjF2yS4h7fHdXQeXU/EppaImhGgkvKhT9ejkbkqtAcnrkMc/93t4OUmEGS8vWXXj1fqOL9/image.png"
       ],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "|1-\\frac{1}{x}|"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions",
         "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:35.234563"
@@ -6299,7 +6294,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = a<sup>x</sup>\n<br/><br/>As f<sub>1</sub>(x) is even function then\n<br/><br/>f<sub>1</sub>(x) =  $\\frac{f(x)+f(-x)}{2}$ \n<br/><br/>=  $\\frac{a^{x}+a^{-x}}{2}$ \n<br/><br/>As f<sub>2</sub>(x) is odd function then\n<br/><br/>f<sub>2</sub>(x) =  $\\frac{f(x)-f(-x)}{2}$ \n<br/><br/>=  $\\frac{a^{x}-a^{-x}}{2}$ \n<br/><br/>Now,\n<br/><br/>ƒ<sub>1</sub>\n(x + y) + ƒ<sub>1</sub>\n(x – y)\n<br/><br/>=  $\\frac{a^{x+y}+a^{-(x+y)}+a^{x+y}-a^{-(x-y)}}{2}$ \n<br/><br/>Also ƒ<sub>1</sub>\n(x)ƒ<sub>1</sub>\n(y) =  $(\\frac{a^{x}+a^{-x}}{2})(\\frac{a^{y}+a^{-y}}{2})$ \n<br/><br/>=  $\\frac{a^{x+y}+a^{x-y}+a^{-x+y}+a^{-x-y}}{4}$ \n<br/><br/>=  $\\frac{f_{1}(x+y)+f_{2}(x-y)}{2}$ \n<br/><br/> $\\therefore$   ƒ<sub>1</sub>\n(x + y) + ƒ<sub>1</sub>\n(x – y) = 2ƒ<sub>1</sub>\n(x)ƒ<sub>1</sub>\n(y)\n\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{f(x)+f(-x)}{2}",
@@ -6310,7 +6305,7 @@
         "(\\frac{a^{x}+a^{-x}}{2})(\\frac{a^{y}+a^{-y}}{2})"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:34.929845"
     },
@@ -6356,7 +6351,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f<sub>4</sub>(x)  $-$  f<sub>6</sub>(x)\n<br/><br/>=   $\\frac{1}{4}$  (sin<sup>4</sup> x + cos<sup>4</sup> x)  $-$   $\\frac{1}{6}$  (sin<sup>6</sup> x + cos<sup>6</sup> x)\n<br/><br/>=  $\\frac{1}{4}$  (1 $-$   $\\frac{1}{2}$  sin<sup>2</sup> 2x)  $-$   $\\frac{1}{6}$   (1  $-$   $\\frac{3}{4}$  sin<sup>2</sup> 2x) =  $\\frac{1}{12}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{k}(sin^{k}x+cos^{k}x)",
@@ -6367,7 +6362,7 @@
         "\\frac{3}{4}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:35.248666"
     },
@@ -6522,7 +6517,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $f(x)=log_{e}(\\frac{1-x}{1+x})$ \n<br/><br/> $f(\\frac{2x}{1+x^{2}})$  =  $ln(\\frac{1-\\frac{2x}{1+x^{2}}}{1+\\frac{2x}{1+x^{2}}})$ \n<br/><br/>=  $ln(\\frac{x^{2}-2x+1}{x^{2}+2x+1})$ \n<br/><br/>=  $ln(\\frac{1-x}{1+x})^{2}$ \n<br/><br/>=  $2ln(\\frac{1-x}{1+x})$ \n<br/><br/>= 2f(x)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log_{e}(\\frac{1-x}{1+x})",
@@ -6533,7 +6528,7 @@
         "2ln(\\frac{1-x}{1+x})"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:34.941540"
     },
@@ -6579,7 +6574,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(0)  = 0  &amp;  f(x) is odd\n<br/><br/>Further, if x &gt; 0 then\n<br/><br/>f(x) =  $f(x)=\\frac{1}{x+\\frac{1}{x}} \\in (0,\\frac{1}{2}]$ \n<br/><br/>Hence,   $f(x) \\in [-\\frac{1}{2},\\frac{1}{2}]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x}{1+x^{2}},x \\in R",
@@ -6587,7 +6582,7 @@
         "f(x) \\in [-\\frac{1}{2},\\frac{1}{2}]"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:35.261093"
     },
@@ -7022,7 +7017,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = ax<sup>2</sup> + bx + c\n<br/><br/>f(1) = a + b + c = 3  $\\Rightarrow$  f (1) = 3\n<br/><br/>Now f(x + y) = f(x) + f(y) + xy ...(1)\n<br/><br/>Put x = y = 1 in eqn (1)\n<br/><br/>f(2) = f(1) + f(1) + 1\n<br/><br/>= 2f(1) + 1\n<br/><br/> $\\Rightarrow$  f(2) = 7\n<br/><br/>Similarly f(3) = 12\n<br/><br/>f(4) = 18\n<br/><br/> $\\sum_{n=1}^{10}f(n)$  = 3 + 7 + 12 + 18 + 25 + 33 + 42 + 52 + 63 + 75 = 330<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "(x) = ax 2 + bx + c is such that",
@@ -7032,7 +7027,7 @@
         "\\sum_{n=1}^{10}f(n)"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:35.983986"
     },
@@ -7247,14 +7242,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{1}{\\sqrt{|x|-x}},$  define if  $|x|-x&gt;0$ \n<br/><br/> $\\Rightarrow |x|&gt;x, \\Rightarrow x&lt;0$ \n<br/><br/>Hence domain of  $f(x)$  is  $(-\\infty,0)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{\\sqrt{|x|-x}}",
         "f(x)=\\frac{1}{\\sqrt{|x|-x}},"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:36.383213"
     },
@@ -7463,7 +7458,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=4^{-x^{2}}+cos^{-1}(\\frac{x}{2}-1)+log(cosx)$ \n<br/><br/> $f(x)$  is defined if  $-1 \\le (\\frac{x}{2}-1) \\le 1$  and  $cosx&gt;0$ \n<br/><br/>or  $0 \\le \\frac{x}{2} \\le 2$  and  $-\\frac{\\pi}{2}&lt;x&lt;\\frac{\\pi}{2}$ \n<br/><br/>or   $0 \\le x \\le 4$   and  $-\\frac{\\pi}{2}&lt;x&lt;\\frac{\\pi}{2}$ \n<br/><br/> $\\therefore$   $x \\in [0,\\frac{\\pi}{2})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "(-\\frac{\\pi}{2},\\frac{\\pi}{2})",
@@ -7474,7 +7469,7 @@
         "-\\frac{\\pi}{2}<x<\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:36.839061"
     },
@@ -7520,7 +7515,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(2a-x)=f(a-(x-a))$ \n<br/><br/> $=f(a)f(x-a)-f(0)f(x)$ \n<br/><br/> $=f(a)f(x-a)-f(x)$ \n<br/><br/> $=-f(x)$ \n<br/><br/> $[$  as  $x=0,y=0,f(0)=f^{2}(0)-f^{2}(a)$ \n<br/><br/> $\\Rightarrow f^{2}(a)=0 \\Rightarrow f(a)=0]$ \n<br/><br/> $\\Rightarrow f(2a-x)=-f(x)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(2a-x)=f(a-(x-a))",
@@ -7531,7 +7526,7 @@
         "\\Rightarrow f(2a-x)=-f(x)"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:37.116246"
     },
@@ -7579,7 +7574,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/A2SHp4szHhTAUr0nK/H05yJIro3LzoLuY886IGtmqNWHVSw/CqPMuJTmGCIciTlyyg3ZNH/image.png"
       ],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Easy",
       "key_formulas": [
         "x=2",
@@ -7589,7 +7584,7 @@
         "f(2-x)=f(2+x)"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:40:37.130331"
     },
@@ -7635,14 +7630,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The range of the function  $f(x)=^{7-x}P_{x-3}$  can be found by considering the possible values of  $f(x)$  as  $x$  varies over its domain.\n<br/><br/>\nThe domain of  $f(x)$  is the set of all real numbers such that \n<br/><br/>(i)  $x \\ge 3$  (since the permutation function is only defined for non-negative integers) \n<br/><br/>(ii) 7 - x &gt; 0  $\\Rightarrow$  x &lt; 7 \n<br/><br/>(iii) x - 3  $\\le$  7 - x  $\\Rightarrow$  2x  $\\le$  10  $\\Rightarrow$  x  $\\le$  5.\n<br/><br/>\nTo find the range of  $f(x)$ , we need to consider what values the expression  $^{7-x}P_{x-3}$  can take as  $x$  varies over its domain.\n<br/><br/>\nFor  $x=3$ , we have  $^{7-x}P_{x-3}=^{4}P_{0}=1$ .\n<br/><br/>\nFor  $x=4$ , we have  $^{7-x}P_{x-3}=^{3}P_{1}=3$ .\n<br/><br/>\nFor  $x=5$ , we have  $^{7-x}P_{x-3}=^{2}P_{2}=2$ .\n<br/><br/>\nTherefore, the range of  $f(x)$  is the set of all non-negative integers less than or equal to 3, i.e.,  $1,2,3$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "^{7-x}P_{x-3}",
         "f(x)=^{7-x}P_{x-3}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:37.150741"
     },
@@ -7688,7 +7683,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{sin^{-1}(x-3)}{\\sqrt{9-x^{2}}}$  is defined\n<br/><br/>if  $(i)$   $-1 \\le x-3 \\le 1 \\Rightarrow 2 \\le x \\le 4$ \n<br/><br/>and  $(ii)$   $9-x^{2}&gt;0 \\Rightarrow -3&lt;x&lt;3$ \n<br/><br/>Taking common solution of  $(i)$  and  $(ii),$ \n<br/><br/>we get  $2 \\le x&lt;3$ \n<br/><br/> $\\therefore$  Domain  $=[2,3)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{sin^{-1}(x-3)}{\\sqrt{9-x^{2}}}",
@@ -7696,7 +7691,7 @@
         "=[2,3)"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:37.701738"
     },
@@ -7800,7 +7795,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/560wctTK9mXdOqgCg/jSWBVmaarnrZvUWoRbvIPv12TxTXk/1TxpzLAMqK8aOsHjCdpjZV/image.png"
       ],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{3}{4-x^{2}}",
@@ -7811,7 +7806,7 @@
         "D=(-1,0)∪(1,2)∪(2,\\infty)."
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:40:38.055288"
     },

@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr8j9x7x/7a3adea1-002c-4b88-8c95-80bbf9103108/e56c11d0-78d8-11f1-8461-e162b37dfdaa/file-6y3zli1mr8j9x7y.png?format=png"
       ],
-      "topic_tag": "Refraction at Interfaces, Snell's Law & TIR",
+      "topic_tag": "Prism Dispersion & Minimum Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "A=60^{\\circ}",
@@ -57,7 +57,6 @@
         "sin60^{\\circ}=\\frac{\\sqrt{3}}{2}"
       ],
       "key_concepts": [
-        "Refraction at Interfaces, Snell's Law & TIR",
         "Prism Dispersion & Minimum Deviation"
       ],
       "crawled_at": "2026-09-20T15:28:00.125211"
@@ -653,8 +652,7 @@
       "key_formulas": [],
       "key_concepts": [
         "Reflection at Spherical Mirrors & Mirror Formula",
-        "Refraction at Interfaces, Snell's Law & TIR",
-        "Lens Maker's Formula & Optical Instruments"
+        "Refraction at Interfaces, Snell's Law & TIR"
       ],
       "crawled_at": "2026-09-20T15:28:01.004978"
     },
@@ -704,8 +702,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reflection at Spherical Mirrors & Mirror Formula",
-        "Lens Maker's Formula & Optical Instruments"
+        "Reflection at Spherical Mirrors & Mirror Formula"
       ],
       "crawled_at": "2026-09-20T15:28:00.743550"
     },
@@ -751,13 +748,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the angle of minimum deviation  $\\delta_{m}$  is equal to the angle of the prism  $A$  for an equilateral prism, we have:</p>\n<p> $A=60^{\\circ},\\delta_{m}=60^{\\circ}$ </p>\n<p>The refractive index  $\\mu$  of the prism can be determined using the formula:</p>\n<p> $\\mu=\\frac{sin(\\frac{A+\\delta_{m}}{2})}{sin\\frac{A}{2}}$ </p>\n<p>Substitute the values:</p>\n<p> $\\mu=\\frac{sin(\\frac{60^{\\circ}+60^{\\circ}}{2})}{sin\\frac{60^{\\circ}}{2}}=\\frac{sin60^{\\circ}}{sin30^{\\circ}}=\\frac{\\sqrt{3}/2}{1/2}=\\sqrt{3}$ </p>\n<p>Therefore, if  $v$  is the speed of light inside the prism, the relationship with  $\\mu$  is:</p>\n<p> $\\mu=\\frac{c}{v}$ </p>\n<p>Rearrange to find  $v$ :</p>\n<p> $v=\\frac{c}{\\mu}=\\frac{3 \\times 10^{8}\\text{m/s}}{\\sqrt{3}}=\\sqrt{3} \\times 10^{8}\\text{m/s}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Refraction at Interfaces, Snell's Law & TIR",
+      "topic_tag": "Prism Dispersion & Minimum Deviation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\delta_{m}"
       ],
       "key_concepts": [
-        "Refraction at Interfaces, Snell's Law & TIR",
         "Prism Dispersion & Minimum Deviation"
       ],
       "crawled_at": "2026-09-20T15:28:00.783388"
@@ -1026,8 +1022,7 @@
         "v=\\frac{mx}{m+1}"
       ],
       "key_concepts": [
-        "Reflection at Spherical Mirrors & Mirror Formula",
-        "Lens Maker's Formula & Optical Instruments"
+        "Reflection at Spherical Mirrors & Mirror Formula"
       ],
       "crawled_at": "2026-09-20T15:28:01.853392"
     },
@@ -1073,14 +1068,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The focal length of a convex lens depends on the refractive index of the material from which the lens is made. The relationship given by the lens maker's formula is:</p>\n<p> $\\frac{1}{f}=(\\mu-1)(\\frac{1}{R_{1}}-\\frac{1}{R_{2}})$ </p>\n<p>where  $f$  is the focal length,  $\\mu$  is the refractive index, and  $R_{1}$  and  $R_{2}$  are the radii of curvature of the lens surfaces.</p>\n<p>The focal length  $f$  is inversely related to the factor  $(\\mu-1)$ :</p>\n<p> $\\frac{1}{f}∝(\\mu-1) \\Rightarrow f∝\\frac{1}{(\\mu-1)}\\text{.... (i)}$ </p>\n<p>The refractive index  $\\mu$  itself is inversely related to the wavelength  $\\lambda$  of the light:</p>\n<p> $\\mu∝\\frac{1}{\\lambda}\\text{.... (ii)}$ </p>\n<p>Combining these relationships from equations (i) and (ii), we find:</p>\n<p> $f∝\\lambda$ </p>\n<p>This tells us that the focal length is directly proportional to the wavelength of the light. Since red light has the longest wavelength among the visible spectrum components, the focal length of a convex lens will be maximum for red light.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reflection at Spherical Mirrors & Mirror Formula",
+      "topic_tag": "Lens Maker's Formula & Optical Instruments",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{f}=(\\mu-1)(\\frac{1}{R_{1}}-\\frac{1}{R_{2}})"
       ],
       "key_concepts": [
-        "Reflection at Spherical Mirrors & Mirror Formula",
-        "Refraction at Interfaces, Snell's Law & TIR",
         "Lens Maker's Formula & Optical Instruments"
       ],
       "crawled_at": "2026-09-20T15:28:01.867272"
@@ -1127,7 +1120,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The problem involves finding the radii of curvature of an equi-concave lens with a given power and refractive index. </p>\n<p><strong>Given:</strong></p>\n<p><p>Power of the lens,  $P=-4.5\\text{D}$ </p></p>\n<p><p>Refractive index,  $\\mu=1.6$ </p></p>\n<p><strong>Step-by-step Solution:</strong></p>\n<p><p><strong>Calculate the focal length:</strong></p>\n<p>The power of a lens is related to its focal length by the equation:</p>\n<p> $f=\\frac{1}{P}$ </p>\n<p>Substituting the given power:</p>\n<p> $f=\\frac{1}{-4.5}\\text{m}=\\frac{100}{-4.5}\\text{cm}=\\frac{-200}{9}\\text{cm}$ </p></p>\n<p><p><strong>Use the Lens Maker's Formula:</strong></p>\n<p>The lens maker's formula is:</p>\n<p> $\\frac{1}{f}=(\\mu-1)(\\frac{1}{R_{1}}-\\frac{1}{R_{2}})$ </p></p>\n<p><p><strong>Apply conditions for an equi-concave lens:</strong></p>\n<p>For an equi-concave lens,  $R_{1}=-R$  and  $R_{2}=R$ . Substituting these into the formula:</p>\n<p> $\\frac{1}{f}=(\\mu-1)(\\frac{1}{-R}-\\frac{1}{R})$ </p></p>\n<p><p><strong>Substitute and solve:</strong></p>\n<p>Let's substitute the given values into the equation:</p>\n<p> $\\frac{9}{200}=(1.6-1)(\\frac{-2}{R})$ </p>\n<p>Simplifying gives:</p>\n<p> $\\frac{9}{200}=0.6(\\frac{-2}{R})$ </p>\n<p>Solving for  $R$ :</p>\n<p> $R=\\frac{-0.6 \\times 2 \\times 200}{9}=-26.6\\text{cm}$ </p></p>\n<p>The radii of curvature for this equi-concave lens is  $-26.6\\text{cm}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reflection at Spherical Mirrors & Mirror Formula",
+      "topic_tag": "Lens Maker's Formula & Optical Instruments",
       "difficulty": "Medium",
       "key_formulas": [
         "P=-4.5\\text{D}",
@@ -1138,8 +1131,6 @@
         "R_{1}=-R"
       ],
       "key_concepts": [
-        "Reflection at Spherical Mirrors & Mirror Formula",
-        "Refraction at Interfaces, Snell's Law & TIR",
         "Lens Maker's Formula & Optical Instruments"
       ],
       "crawled_at": "2026-09-20T15:28:01.656928"
@@ -1293,7 +1284,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Refractive index from air to glass:  $_{a}\\mu_{g}=\\frac{3}{2}$ </p></p>\n<p><p>Refractive index from air to water:  $_{a}\\mu_{w}=\\frac{4}{3}$ </p></p>\n<p>Using the Lens Maker's Formula:</p>\n<p> $\\frac{1}{f}=(_{1}\\mu_{2}-1)(\\frac{1}{R_{1}}-\\frac{1}{R_{2}})$ </p>\n<p>The ratio of the focal lengths of the glass lens in water and in air is given by:</p>\n<p> $\\frac{f_{\\text{water}}}{f_{\\text{air}}}=\\frac{(_{a}\\mu_{g}-1)}{(\\frac{_{a}\\mu_{g}}{_{a}\\mu_{w}}-1)}$ </p>\n<p>Substituting the provided values:</p>\n<p> $\\frac{f_{\\text{water}}}{f_{\\text{air}}}=\\frac{(\\frac{3}{2}-1)}{(\\frac{\\frac{3}{2}}{\\frac{4}{3}}-1)}$ </p>\n<p>Simplify:</p>\n<p> $=\\frac{1/2}{(\\frac{3}{2} \\times \\frac{3}{4}-1)}=\\frac{1/2}{(\\frac{9}{8}-1)}$ </p>\n<p>This further simplifies to:</p>\n<p> $=\\frac{1}{2} \\times \\frac{8}{1}=\\frac{4}{1}$ </p>\n<p>Therefore, the ratio of the focal lengths is  $4:1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reflection at Spherical Mirrors & Mirror Formula",
+      "topic_tag": "Refraction at Interfaces, Snell's Law & TIR",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{2}",
@@ -1303,7 +1294,6 @@
         "\\frac{1}{f}=(_{1}\\mu_{2}-1)(\\frac{1}{R_{1}}-\\frac{1}{R_{2}})"
       ],
       "key_concepts": [
-        "Reflection at Spherical Mirrors & Mirror Formula",
         "Refraction at Interfaces, Snell's Law & TIR",
         "Lens Maker's Formula & Optical Instruments"
       ],
@@ -1515,11 +1505,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Angle of the prism  $A$ </p></p>\n<p><p>Refractive index of the prism material  $\\mu=cot\\frac{A}{2}$ </p></p>\n<p>We know that the refractive index  $\\mu$  is related to the angle of minimum deviation  $\\delta_{m}$  as follows:</p>\n<p> $\\mu=\\frac{sin(\\frac{A+\\delta_{m}}{2})}{sin(\\frac{A}{2})}$ </p>\n<p>Substitute the given refractive index:</p>\n<p> $cot\\frac{A}{2}=\\frac{sin(\\frac{A+\\delta_{m}}{2})}{sin(\\frac{A}{2})}$ </p>\n<p>This simplifies to:</p>\n<p> $\\frac{cos(\\frac{A}{2})}{sin(\\frac{A}{2})}=\\frac{sin(\\frac{A+\\delta_{m}}{2})}{sin(\\frac{A}{2})}$ </p>\n<p>Therefore:</p>\n<p> $sin(90^{\\circ}-\\frac{A}{2})=sin(\\frac{A+\\delta_{m}}{2})$ </p>\n<p>Equating the angles, we get:</p>\n<p> $\\frac{180^{\\circ}-A}{2}=\\frac{A+\\delta_{m}}{2}$ </p>\n<p>Solving for  $\\delta_{m}$  gives:</p>\n<p> $\\delta_{m}=180^{\\circ}-2A$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Refraction at Interfaces, Snell's Law & TIR",
+      "topic_tag": "Prism Dispersion & Minimum Deviation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Refraction at Interfaces, Snell's Law & TIR",
         "Prism Dispersion & Minimum Deviation"
       ],
       "crawled_at": "2026-09-20T15:28:02.281435"
@@ -2016,11 +2005,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to cartesian sign convention, in ray optics all distance in the direction of incident ray are taken positive.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Refraction at Interfaces, Snell's Law & TIR",
+      "topic_tag": "Reflection at Spherical Mirrors & Mirror Formula",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Refraction at Interfaces, Snell's Law & TIR"
+        "Reflection at Spherical Mirrors & Mirror Formula"
       ],
       "crawled_at": "2026-09-20T15:28:02.643501"
     },

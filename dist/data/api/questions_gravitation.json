@@ -166,7 +166,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlzdwlza/aa314589-fe4e-411a-9050-f64a91899b23/c2d61570-10d3-11f1-a982-f930035e5675/file-6y3zli1mlzdwlzb.webp?format=jpg",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlzdz8yi/30dd00d7-e2e2-43af-bac8-7ec2e37adeff/0c3447a0-10d4-11f1-a982-f930035e5675/file-6y3zli1mlzdz8yj.webp?format=png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "F_{1}",
@@ -177,7 +177,7 @@
         "F=\\frac{Gm \\cdot m_{0}}{r^{2}}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:53:57.516883"
     },
@@ -459,7 +459,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlwdl9ji/ad5a238c-9425-415d-9ae1-d6f5048b5343/2d60eae0-0f2c-11f1-bd0d-b1da3324815a/file-6y3zli1mlwdl9jj.webp?format=jpg"
       ],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{R_{e}}{g}}",
@@ -470,7 +470,6 @@
         "T=\\sqrt{\\frac{3\\pi}{G\\rho}}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
         "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:53:56.134459"
@@ -585,8 +584,7 @@
         "Mass(M)=Volume(V) \\times \\text{Density}(\\rho)"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:53:56.162142"
     },
@@ -1448,14 +1446,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that the radius of the Earth is decreased to three-fourths of its current value while its mass remains unchanged, we need to determine the new duration of the Earth's day.</p>\n<p>First, using the principle of conservation of angular momentum, we have:</p>\n<p> $\\tau_{\\text{ext}}=0⟹\\text{Angular momentum is conserved}$ </p>\n<p>Therefore,</p>\n<p> $\\frac{2}{5}MR^{2} \\cdot \\omega_{i}=\\frac{2}{5}M(\\frac{3R}{4})^{2} \\cdot \\omega_{f}$ </p>\n<p>Simplifying this equation, we find:</p>\n<p> $\\omega_{f}=\\frac{16}{9}\\omega$ </p>\n<p>Since the period  $T$  of rotation is given by:</p>\n<p> $T=\\frac{2\\pi}{\\omega}$ </p>\n<p>For the new period  $T_{1}$ , we have:</p>\n<p> $T_{1}=\\frac{2\\pi}{\\omega_{f}}=\\frac{2\\pi}{\\frac{16}{9}\\omega}=\\frac{9}{16} \\times T$ </p>\n<p>Given that the initial period  $T$  is 24 hours:</p>\n<p> $T_{1}=\\frac{9}{16} \\times 24\\text{hours}$ </p>\n<p> $T_{1}=13\\text{hours}30\\text{minutes}$ </p>\n<p>Thus, the new duration of the Earth's day would be 13 hours and 30 minutes.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Hard",
       "key_formulas": [
         "\\tau_{\\text{ext}}=0⟹\\text{Angular momentum is conserved}",
         "T_{1}=13\\text{hours}30\\text{minutes}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:37.856273"
     },
@@ -1911,7 +1909,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{K.E}=\\frac{GMm}{2a}\\text{(II)}$ </p>\n<p> $U_{G}=\\frac{-GMm}{a}\\text{(I)}$ </p>\n<p> $M.E=\\frac{-GMm}{2a}\\text{(IV)}$ </p>\n<p> $\\text{and Escape Energy}=\\frac{Gm}{r}\\text{(III)}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{Gm}{r}",
@@ -1920,7 +1918,7 @@
         "\\text{and Escape Energy}=\\frac{Gm}{r}\\text{(III)}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:01.543808"
     },
@@ -1966,7 +1964,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the correct option for the relationship between the period of revolution T and the radius of the orbit R, we will consider the force of attraction and its proportionality to  $R^{-3/2}$ .</p>\n<p>According to Newton's law of universal gravitation, the force of attraction  $F$  between two masses  $m_{1}$  and  $m_{2}$  separated by a distance  $r$  is given by\n $F=\\frac{Gm_{1}m_{2}}{r^{2}},$ \nwhere  $G$  is the gravitational constant.</p>\n<p>However, in this particular case, the force of attraction is given to be proportional to  $R^{-3/2}$ , so we can write\n $F∝\\frac{1}{R^{3/2}}.$ </p>\n<p>Since the planet is in a circular orbit around the star, the centripetal force required to keep the planet in orbit must be provided by this gravitational force. Hence, we can write that\n $\\frac{mv^{2}}{R}∝\\frac{1}{R^{3/2}},$ \nwhere  $m$  is the mass of the planet and  $v$  is its orbital speed.</p>\n<p>Simplifying this, we get\n $v^{2}∝\\frac{1}{R^{1/2}}.$ </p>\n<p>Now, the speed  $v$  can be related to the period T through the circumference of the orbit, which is given by  $2\\pi R$ . The orbital speed is the circumference divided by the period:\n $v=\\frac{2\\pi R}{T}.$ </p>\n<p>Substituting this into our proportionality, we get\n<br/><br/> $(\\frac{2\\pi R}{T})^{2}∝\\frac{1}{R^{1/2}},$ \n<br/><br/>which simplifies to\n<br/><br/> $\\frac{4\\pi^{2}R^{2}}{T^{2}}∝\\frac{1}{R^{1/2}}.$ </p>\n<p>Solving for  $T^{2}$ , we get\n<br/><br/> $T^{2}∝\\frac{R^{2+1/2}}{4\\pi^{2}},$ \n<br/><br/>so\n $T^{2}∝R^{5/2}.$ </p>\n<p>Therefore, the correct option is \nOption C\n<br/><br/> $T^{2}∝R^{5/2}.$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "R^{-3/2}",
@@ -1977,7 +1975,7 @@
         "\\frac{4\\pi^{2}R^{2}}{T^{2}}∝\\frac{1}{R^{1/2}}."
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:02.473511"
     },
@@ -2189,8 +2187,7 @@
         "K=mgR_{E}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:00.206941"
     },
@@ -2452,7 +2449,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The gravitational force between two particles of mass  $m$  separated by a distance  $r$  is given by:\n<br/><br/>\n $F=\\frac{Gm^{2}}{r^{2}}$ \n<br/><br/>\nwhere  $G$  is the gravitational constant. In this problem, the two particles are moving in a circular orbit of radius  $a$  under the influence of their mutual gravitational attraction. Therefore, the gravitational force between the two particles provides the necessary centripetal force to keep them in circular motion.\n<br/><br/>\nThe centripetal force required for a particle of mass  $m$  moving in a circle of radius  $a$  with angular speed  $\\omega$  is given by:\n<br/><br/>\n $F_{\\text{centripetal}}=m\\omega^{2}a$ \n<br/><br/>\nSetting the gravitational force equal to the centripetal force, we get:\n<br/><br/>\n $\\frac{Gm^{2}}{r^{2}}=m\\omega^{2}a$ \n<br/><br/>\nSubstituting  $r=2a$  (since the two particles are separated by a distance equal to twice the radius of the circle), we get:\n<br/><br/>\n $\\frac{Gm^{2}}{(2a)^{2}}=m\\omega^{2}a$ \n<br/><br/>\nSimplifying, we get:\n<br/><br/>\n $\\omega^{2}=\\frac{Gm}{4a^{3}}$ \n<br/><br/>\nTaking the square root of both sides, we get:\n<br/><br/>\n $\\omega=\\sqrt{\\frac{Gm}{4a^{3}}}$ \n<br/><br/>\nTherefore, the angular speed of each particle is  $\\sqrt{\\frac{Gm}{4a^{3}}}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{Gm^{2}}{(2a)^{2}}=m\\omega^{2}a",
@@ -2461,7 +2458,7 @@
         "\\sqrt{\\frac{Gm}{4a^{3}}}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:04.692675"
     },
@@ -3617,7 +3614,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a satellite orbiting the Earth at a height equal to Earth's radius, its distance from the center of the Earth will be 2R, where R is the radius of the Earth.</p>\n<p>Using the formula for the gravitational force:</p>\n<p> $F=G\\frac{Mm}{r^{2}}$ </p>\n<p>where F is the gravitational force, G is the gravitational constant, M is the mass of the Earth, m is the mass of the satellite, and r is the distance from the center of the Earth.</p>\n<p>The centripetal force acting on the satellite is given by:</p>\n<p> $F_{c}=\\frac{mv^{2}}{r}$ </p>\n<p>Equating the gravitational force and the centripetal force, we get:</p>\n<p> $G\\frac{Mm}{(2R)^{2}}=\\frac{mv^{2}}{2R}$ </p>\n<p>Solving for the orbital speed v, we get:</p>\n<p> $v^{2}=\\frac{GM}{2R}$ </p>\n<p>The circumference of the satellite's orbit is given by:</p>\n<p> $C=2\\pi(2R)=4\\pi R$ </p>\n<p>The time period T of the satellite's orbit can be calculated as the ratio of the circumference to the orbital speed:</p>\n<p> $T=\\frac{C}{v}=\\frac{4\\pi R}{\\sqrt{\\frac{GM}{2R}}}$ </p>\n<p>Given that the acceleration due to gravity at the Earth's surface is  $g=\\pi^{2}m/s^{2}$ , we can express the gravitational constant G in terms of the Earth's radius R and mass M:</p>\n<p> $g=\\frac{GM}{R^{2}} \\Rightarrow GM=gR^{2}=\\pi^{2}R^{2}$ </p>\n<p>Substituting the expression for GM into the equation for the time period T, we get:</p>\n<p> $T=\\frac{4\\pi R}{\\sqrt{\\frac{\\pi^{2}R^{2}}{2R}}}=\\frac{4\\pi R}{\\sqrt{\\frac{\\pi^{2}R}{2}}}$ </p>\n<p> $T=\\frac{4\\pi R}{\\sqrt{\\pi^{2}}\\sqrt{\\frac{R}{2}}}=\\frac{4\\pi R}{\\pi\\sqrt{\\frac{R}{2}}}=\\frac{4R}{\\sqrt{\\frac{R}{2}}}$ </p>\n<p>Multiplying the numerator and denominator by  $\\sqrt{2}$ , we get:</p>\n<p> $T=\\frac{4R\\sqrt{2}}{\\sqrt{R}}=4\\sqrt{2R}=\\sqrt{32R}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "F=G\\frac{Mm}{r^{2}}",
@@ -3628,7 +3625,6 @@
         "T=\\frac{C}{v}=\\frac{4\\pi R}{\\sqrt{\\frac{GM}{2R}}}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
         "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:06.490722"
@@ -3728,14 +3724,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the gravitational force on the body when taken at a height equal to one-fourth the radius of the Earth, we can use the formula for gravitational force:</p>\n<p> $F=G\\frac{m_{1}m_{2}}{r^{2}}$ </p>\n<p>where  $F$  is the gravitational force,  $G$  is the gravitational constant,  $m_{1}$  and  $m_{2}$  are the masses of the two objects, and  $r$  is the distance between their centers.</p>\n<p>The weight of the body on the surface of the Earth is given as  $100\\text{N}$ , which is also the gravitational force acting on it:</p>\n<p> $F_{\\text{surface}}=G\\frac{m_{\\text{body}}m_{\\text{earth}}}{R_{\\text{earth}}^{2}}$ </p>\n<p>When the body is taken to a height equal to one-fourth the radius of the Earth, the distance between the centers of the body and the Earth becomes  $r_{\\text{new}}=R_{\\text{earth}}+\\frac{1}{4}R_{\\text{earth}}=\\frac{5}{4}R_{\\text{earth}}$ .</p>\n<p>Now the gravitational force acting on the body at this new height is:</p>\n<p> $F_{\\text{new}}=G\\frac{m_{\\text{body}}m_{\\text{earth}}}{r_{\\text{new}}^{2}}$ </p>\n<p> $F_{\\text{new}}=G\\frac{m_{\\text{body}}m_{\\text{earth}}}{(\\frac{5}{4}R_{\\text{earth}})^{2}}$ </p>\n<p>To find the ratio between the new gravitational force and the original force on the surface, we can write:</p>\n<p> $\\frac{F_{\\text{new}}}{F_{\\text{surface}}}=\\frac{G\\frac{m_{\\text{body}}m_{\\text{earth}}}{(\\frac{5}{4}R_{\\text{earth}})^{2}}}{G\\frac{m_{\\text{body}}m_{\\text{earth}}}{R_{\\text{earth}}^{2}}}$ </p>\n<p>Canceling out the common terms, we get:</p>\n<p> $\\frac{F_{\\text{new}}}{F_{\\text{surface}}}=\\frac{R_{\\text{earth}}^{2}}{(\\frac{5}{4}R_{\\text{earth}})^{2}}=\\frac{1}{(\\frac{5}{4})^{2}}=\\frac{1}{(\\frac{25}{16})}=\\frac{16}{25}$ </p>\n<p>Now, since the weight of the body on the surface is  $100\\text{N}$ , we can find the new gravitational force as:</p>\n<p> $F_{\\text{new}}=\\frac{16}{25} \\times 100\\text{N}=64\\text{N}$ </p>\n<p>So, the gravitational force on the body when taken at a height equal to one-fourth the radius of the Earth is  $64\\text{N}$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "F=G\\frac{m_{1}m_{2}}{r^{2}}",
         "F_{\\text{surface}}=G\\frac{m_{\\text{body}}m_{\\text{earth}}}{R_{\\text{earth}}^{2}}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:07.945442"
     },
@@ -4152,7 +4148,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the additional velocity required to overcome the gravitational pull and launch the spaceship into orbit, we first need to find the orbital velocity. The formula for orbital velocity (v) is given by:</p>\n<p> $v=\\sqrt{\\frac{GM}{r}}$ </p>\n<p>where G is the gravitational constant, M is the mass of Earth, and r is the distance from the center of the Earth to the spaceship (which is the sum of the Earth's radius and the altitude of the spaceship's orbit).</p>\n<p>In this problem, the spaceship is orbiting close to Earth's surface, so we can approximate r as the Earth's radius. Given that g = 10 m/s² and Earth's radius R = 6400 km, we can relate the gravitational constant G and the mass of Earth M through the formula:</p>\n<p> $g=\\frac{GM}{R^{2}}$ </p>\n<p>Now, we can find the orbital velocity:</p>\n<p> $v=\\sqrt{\\frac{gR^{2}}{R}}=\\sqrt{gR}$ </p>\n<p>Converting the Earth's radius to meters:</p>\n<p> $R=6400 \\times 10^{3}m$ </p>\n<p>Plugging in the values:</p>\n<p> $v=\\sqrt{10 \\times 6400 \\times 10^{3}}=8 \\times 10^{3}m/s$ </p>\n<p>Now, we need to find the additional velocity required to overcome the gravitational pull. To do this, we can use the formula for escape velocity:</p>\n<p> $v\\text{escape}=\\sqrt{2} \\times v\\text{orbital}$ </p>\n<p>Finding the additional velocity required:</p>\n<p> $\\Delta v=v\\text{escape}-v\\text{orbital}=(\\sqrt{2}-1) \\times v_{\\text{orbital}}$ </p>\n<p>Plugging in the values:</p>\n<p> $\\Delta v=(\\sqrt{2}-1) \\times 8 \\times 10^{3}m/s$ </p>\n<p>Converting the velocity to km/s:</p>\n<p> $\\Delta v=(\\sqrt{2}-1) \\times 8km/s$ </p>\n<p>Thus, the additional velocity required to overcome the gravitational pull and launch the spaceship into orbit is:</p>\n<p> $8(\\sqrt{2}-1)km/s$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "2 \\times 10^{4}kg",
@@ -4163,7 +4159,6 @@
         "v=\\sqrt{\\frac{gR^{2}}{R}}=\\sqrt{gR}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
         "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:05.628877"
@@ -4635,14 +4630,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $g=\\frac{GM}{r^{2}}$ </p>\n<p> $\\Rightarrow \\frac{\\Delta g}{g}=2\\frac{\\Delta r}{r}$ </p>\n<p> $\\Rightarrow \\frac{\\Delta g}{g} \\times 100=2 \\times \\frac{32}{6400} \\times 100%=1%$ </p>\n<p> $\\Rightarrow$  % decrease in weight = 1%</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "g=\\frac{GM}{r^{2}}",
         "\\Rightarrow \\frac{\\Delta g}{g}=2\\frac{\\Delta r}{r}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:12.707232"
     },
@@ -4747,7 +4742,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5hwg3n0/f13a1ec3-1130-4a3f-980d-b49d7ef40d09/e9c85ac0-01ba-11ed-85a8-43d162d2b7e8/file-1l5hwg3n1.png?format=png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [
         "F=\\frac{Gm^{2}}{l^{2}}",
@@ -4755,7 +4750,7 @@
         "\\frac{2m}{3}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:14.130422"
     },
@@ -4801,11 +4796,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><b>Statement I</b> is true. Newton's law of universal gravitation states that every particle of matter in the universe attracts every other particle with a force that is directly proportional to the product of the masses of the particles and inversely proportional to the square of the distance between their centers. This law applies to any pair of bodies in the universe.</p>\n<p><b>Statement II</b> is also true. The weight of an object is the force of gravity acting on it. If a person were at the center of the Earth, the gravitational pull from all the surrounding mass of the Earth would cancel out, resulting in zero net gravitational force and therefore zero weight.</p>\n<p>Therefore, Option A: Both Statement I and Statement II are true, is the correct answer.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:14.712112"
     },
@@ -4851,14 +4846,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that</p>\n<p>T<sup>2</sup>  $∝$  R<sup>3</sup></p>\n<p> $\\Rightarrow (\\frac{T^{'}}{T})^{2}=(\\frac{3R}{R})^{3}$ </p>\n<p> $\\Rightarrow \\frac{T^{'}}{T}=3\\sqrt{3}$ </p>\n<p> $\\Rightarrow T^{'}=3\\sqrt{3}$  years</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow \\frac{T^{'}}{T}=3\\sqrt{3}",
         "\\Rightarrow T^{'}=3\\sqrt{3}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:15.593786"
     },
@@ -5314,7 +5309,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The weight of an object at a distance d from the center of the Earth is given by:</p>\n<p> $W^{'}=W(\\frac{R}{d})^{2}$ </p>\n<p>where:</p>\n<ul>\n<li>W' is the weight at distance d,</li>\n<li>W is the weight at the Earth's surface,</li>\n<li>R is the radius of the Earth,</li>\n<li>d is the distance from the center of the Earth.</li>\n</ul>\n<p>In this problem, we are asked to find the percentage decrease in weight, which can be calculated by:</p>\n<p> $\\Delta W=\\frac{W-W^{'}}{W} \\times 100%$ </p>\n<p>where ΔW is the percentage change in weight. Substituting the weight formula into the percentage change formula gives:</p>\n<p> $\\Delta W=(1-(\\frac{R}{d})^{2}) \\times 100%$ </p>\n<p>The radius of the Earth R is 6400 km and the distance d from the center of the Earth is given as  $\\frac{5}{4}R$ . Substituting these values into the equation gives:</p>\n<p> $\\Delta W=(1-(\\frac{6400km}{\\frac{5}{4} \\cdot 6400km})^{2}) \\times 100%=(1-(\\frac{4}{5})^{2}) \\times 100%=36%$ </p>\n<p>Therefore, the percentage decrease in the weight of the object when taken to a height of  $\\frac{1}{4}R$  above the surface of the Earth is 36%.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{5}{4}",
@@ -5325,7 +5320,7 @@
         "\\frac{1}{4}R"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:12.753955"
     },
@@ -6229,7 +6224,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxehbywy/aea2594a-3ff3-49a2-8b56-6e4bb066e705/b8facf10-6177-11ec-97a3-cfb8e5d281d3/file-1kxehbywz.png?format=png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{2m \\times 0+m \\times d}{2m+m}=\\frac{d}{3}",
@@ -6240,7 +6235,7 @@
         "T=\\frac{2\\pi}{\\omega}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:22.268485"
     },
@@ -6721,7 +6716,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwosd9th/d3b78cc4-b556-46a5-bb26-c4cc2e2ff072/80bf8250-5356-11ec-b443-85f16d0c41b6/file-1kwosd9ti.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwoseg2d/8affd279-21c4-435d-ac21-b626c882737f/a1620050-5356-11ec-b443-85f16d0c41b6/file-1kwoseg2e.png?format=png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "F_{net}=\\frac{MV^{2}}{R}",
@@ -6732,7 +6727,7 @@
         "V=\\sqrt{\\frac{GM(4+\\sqrt{2})}{R4\\sqrt{2}}}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:15.652158"
     },
@@ -6993,7 +6988,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1klse24x4/4859a6d7-a609-43ae-b23b-345e599fe470/4caf4e80-7b8b-11eb-a157-49f87e3afb79/file-1klse24x5-307w.jpg"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{R}{2})",
@@ -7004,7 +6999,7 @@
         "\\frac{F_{1}}{F_{2}}=\\frac{mg_{1}}{mg_{2}}=\\frac{41}{50}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:19.872976"
     },
@@ -7052,7 +7047,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxehgyer/c578dd8a-84ff-4cd5-87c2-8f654e73200d/43a2b830-6178-11ec-90ef-97830a7fdb59/file-1kxehgyes.png?format=png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "F=\\frac{Gm_{1}m_{2}}{r^{2}}",
@@ -7063,7 +7058,7 @@
         "=\\frac{Gm^{2}}{4R^{2}}+2(\\frac{Gm^{2}}{2R^{2}}).\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:21.041756"
     },
@@ -7409,7 +7404,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kp45kroj/1cfbd759-fa48-4c79-a969-48dcdef363a9/2e999e40-bd68-11eb-8f4d-1d38168e9814/file-1kp45krok.jpg"
       ],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -7418,7 +7413,7 @@
         "\\frac{8 \\times 10^{10} \\times 6 \\times 10^{4}}{1.6 \\times 10^{12}}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:18.982123"
     },
@@ -7466,7 +7461,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1klse5uj5/fd1e4e39-e626-4bcd-84c6-5a90789db238/b3e59410-7b8b-11eb-a157-49f87e3afb79/file-1klse5uj6-220w.jpg"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "T A : [Given : radius of earth = 6400 km, mass of earth = 6",
@@ -7477,7 +7472,7 @@
         "=314 \\times 4.107"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:19.906551"
     },
@@ -7861,7 +7856,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukgn88zcm/6017754f-b176-44d2-9ccb-eb886fab460e/94214960-15b7-11eb-8293-3b6cc591631c/file-jgy2xukgn88zcn-421w.png"
       ],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{G(M)(m)}{(10a-x)^{2}}=\\frac{G(16M)(m)}{x^{2}}",
@@ -7872,7 +7867,7 @@
         "GMm[\\frac{1+64-4-16}{8a}]"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:22.302846"
     },
@@ -7918,7 +7913,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $V_{0}=\\sqrt{\\frac{GM}{r}}$ \n<br/><br/> $V_{e}=\\sqrt{\\frac{2GM}{r}}$ \n<br/><br/> $\\therefore$   $\\frac{V_{0}}{V_{e}}=\\sqrt{\\frac{GM}{r} \\times \\frac{2GM}{r}}=\\frac{1}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{0}=\\sqrt{\\frac{GM}{r}}",
@@ -7926,7 +7921,7 @@
         "\\frac{V_{0}}{V_{e}}=\\sqrt{\\frac{GM}{r} \\times \\frac{2GM}{r}}=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:23.597432"
     },
@@ -8296,14 +8291,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->At equator, weight\n<br/><br/>W = Mg - M $\\omega^{2}$ R\n<br/><br/>= 196 -  $(19.6)(\\frac{2\\pi}{24 \\times 3600})^{2} \\times 6400 \\times 10^{3}$ \n<br/><br/>= 195.32 N<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega^{2}",
         "(19.6)(\\frac{2\\pi}{24 \\times 3600})^{2} \\times 6400 \\times 10^{3}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:26.258897"
     },
@@ -8581,7 +8576,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->W = mg\n<br/><br/>as m = constant everywhere\n<br/><br/> $\\therefore$  W  $∝$  g\n<br/><br/> $\\frac{g_{E}}{g_{p}}$  =  $\\frac{9}{4}$ \n<br/><br/>We know,\n<br/><br/> $g=\\frac{GM}{R^{2}}$ \n<br/><br/> $\\therefore$   $\\frac{g_{E}}{g_{p}}=\\frac{M_{E}}{M_{p}} \\times \\frac{R_{p}^{2}}{R_{E}^{2}}$ \n<br/><br/> $\\Rightarrow$  $\\frac{9}{4}=\\frac{9}{1} \\times \\frac{R_{p}^{2}}{R_{E}^{2}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{R_{p}}{R_{E}}=\\frac{1}{2}$ \n<br/><br/> $R_{p}=\\frac{R_{E}}{2}$  =  $\\frac{R}{2}$  [Here R<sub>E</sub> = R ]<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{9}",
@@ -8592,7 +8587,7 @@
         "R_{p}=\\frac{R_{E}}{2}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:26.976999"
     },
@@ -8692,7 +8687,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/O1vONWMrEix3tFidX/xNMVDragtOaQEJ5gHBR0v1QHsZn1A/2lU3SwYsw8sMQA6yAVlves/image.png"
       ],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{GMdm}{x^{2}}",
@@ -8701,7 +8696,7 @@
         "[A(\\frac{1}{a}-\\frac{1}{a+L})+BL]"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:29.038747"
     },
@@ -9144,8 +9139,7 @@
         "v 0 ="
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:29.086569"
     },
@@ -9525,7 +9519,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, Central force in circular motion, F =  $m\\omega^{2}R$ \n<br/><br/>According to the question,\n<br/><br/> $F∝\\frac{1}{R^{n}}$ \n<br/><br/> $\\therefore$   $m\\omega^{2}R$   $∝\\frac{1}{R^{n}}$ \n<br/><br/> $\\Rightarrow m\\omega^{2}R=\\frac{k}{R^{n}}$ \n<br/><br/> $\\Rightarrow \\omega^{2}=\\frac{k}{mR^{n+1}}$ \n<br/><br/> $\\therefore$   $\\omega∝\\frac{1}{R^{\\frac{n+1}{2}}}$  .......(1)\n<br/><br/>And we know,  $T=\\frac{2\\pi}{\\omega}$ \n<br/><br/> $\\therefore$   $T∝\\frac{1}{\\omega}$  ...... (2)\n<br/><br/>From (1) and (2) we can conclude that,\n<br/><br/> $T∝R^{\\frac{n+1}{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "m\\omega^{2}R",
@@ -9536,7 +9530,7 @@
         "\\omega∝\\frac{1}{R^{\\frac{n+1}{2}}}"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential"
+        "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:29.888852"
     },
@@ -9808,7 +9802,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Orbital velocity of satellite,\n<br/><br/> $v_{0}=\\sqrt{\\frac{GM}{R+ℎ}}$ \n<br/><br/>=  $\\sqrt{\\frac{GM}{R}}$  [ As  $ℎ&lt;&lt;R$  then R + h = R ]\n<br/><br/>=  $\\sqrt{gR}$  [ As  $g=\\frac{GM}{R^{2}}$  ]\n<br/><br/>Escape velocity\n <br/><br/> $v_{e}=\\sqrt{\\frac{2GM}{R}}$ \n<br/><br/>=  $\\sqrt{2gR}$  [ As  $g=\\frac{GM}{R^{2}}$  ]\n<br/><br/> $\\therefore$  The minimum increase in its orbital velocity required to escape from the earth gravitational field\n<br/><br/> $=\\sqrt{2gR}-\\sqrt{gR}=\\sqrt{gR}(\\sqrt{2}-1)$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Gravitational Field & Potential",
+      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
       "difficulty": "Medium",
       "key_formulas": [
         "^{'}ℎ^{'}",
@@ -9819,7 +9813,6 @@
         "=\\sqrt{2gR}-\\sqrt{gR}=\\sqrt{gR}(\\sqrt{2}-1)"
       ],
       "key_concepts": [
-        "Gravitational Field & Potential",
         "Orbital Velocity, Escape Velocity & Kepler's Laws"
       ],
       "crawled_at": "2026-09-20T15:54:31.709170"
@@ -10043,7 +10036,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Potential energy at earth surface =  $-\\frac{GMm}{R}$ \n<br/><br/>and at free space potential energy = 0\n<br/><br/>Work done for this =  $0-(-\\frac{GMm}{R})$  =  $\\frac{GMm}{R}$ \n<br/><br/>So the required energy for this work is \n<br/><br/>=  $\\frac{GMm}{R}$ \n<br/><br/>= $\\frac{gR^{2}m}{R}$  [ as  $g=\\frac{GM}{R^{2}}$  ]\n<br/><br/>=  $mgR$ \n<br/><br/> $=1000 \\times 10 \\times 6400 \\times 10^{3}$ \n<br/><br/> $=6.4 \\times 10^{10}$  Joules<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{GMm}{R}",
@@ -10054,7 +10047,7 @@
         "=1000 \\times 10 \\times 6400 \\times 10^{3}"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:32.841156"
     },
@@ -10383,7 +10376,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Mass of earth = Volume  $\\times$  Density of earth( $\\rho$ )\n<br/><br/> $\\therefore$  M =  $\\frac{4}{3}\\pi R^{3}$  $\\times$   $\\rho$ \n<br/><br/>We know,  $g=\\frac{GM}{R^{2}}$ \n<br/><br/> $\\Rightarrow g=\\frac{G \\times \\rho \\times \\frac{4}{3}\\pi R^{3}}{R^{2}}$ \n<br/><br/> $\\Rightarrow$   $g=\\frac{4}{3}\\rho\\pi GR$ \n<br/><br/> $\\therefore$   $g∝\\rho$  or  $\\rho∝g$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -10393,7 +10386,7 @@
         "g=\\frac{4}{3}\\rho\\pi GR"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:34.220335"
     },
@@ -10496,7 +10489,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, Work done = Difference in potential energy\n<br/><br/> $\\therefore$   $W=\\Delta U=U_{f}-U_{i}=0-[\\frac{-GMm}{R}]$ \n<br/><br/> $\\Rightarrow$  $W=\\frac{6.67 \\times 10^{-11} \\times 100}{0.1} \\times \\frac{10}{1000}$ \n<br/><br/> $=6.67 \\times 10^{-10}J$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Orbital Velocity, Escape Velocity & Kepler's Laws",
+      "topic_tag": "Gravitational Field & Potential",
       "difficulty": "Medium",
       "key_formulas": [
         "=6.67 \\times 10^{-11}Nm^{2}/kg^{2}",
@@ -10505,7 +10498,7 @@
         "=6.67 \\times 10^{-10}J"
       ],
       "key_concepts": [
-        "Orbital Velocity, Escape Velocity & Kepler's Laws"
+        "Gravitational Field & Potential"
       ],
       "crawled_at": "2026-09-20T15:54:34.266207"
     },

@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the area formula for a triangle with vertices  $(x_{1},y_{1})$ ,  $(x_{2},y_{2})$  and  $(x_{3},y_{3})$ ,</p>\n<p> $\\text{Area}=\\frac{1}{2}|x_{1}(y_{2}-y_{3})+x_{2}(y_{3}-y_{1})+x_{3}(y_{1}-y_{2})|$ </p>\n<p>Here the vertices are  $(3,8)$ ,  $(-4,2)$  and  $(5,1)$ .</p>\n<p>So,</p>\n<p> $\\text{Area}=\\frac{1}{2}|3(2-1)+(-4)(1-8)+5(8-2)|$ </p>\n<p> $=\\frac{1}{2}|3(1)+(-4)(-7)+5(6)|$ </p>\n<p> $=\\frac{1}{2}|3+28+30|$ </p>\n<p> $=\\frac{1}{2} \\times 61$ </p>\n<p> $=\\frac{61}{2}$ </p>\n<p>Given that the area is  $\\frac{P}{4}$ ,</p>\n<p> $\\frac{P}{4}=\\frac{61}{2}$ </p>\n<p>Multiplying both sides by  $4$ ,</p>\n<p> $P=122$ </p>\n<p>So, the correct option is</p>\n<p> $122$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{P}{4}",
@@ -55,7 +55,7 @@
         "\\frac{P}{4}=\\frac{61}{2}"
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:50.512110"
     },
@@ -630,11 +630,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} A^{2}=A. &amp; (I-A)^{3}=(I-A)(I-2A+A^{2}) \\\\ &amp; =(I-A)(I-2A+A) \\\\ &amp; =(I-A)(I+A) \\\\ &amp; =I-A^{2}=I-A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.031498"
     },
@@ -833,11 +833,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{A diagonal matrix need not be contains only zero as it diagonal element.}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.049322"
     },
@@ -989,11 +989,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} (I+A)^{3} &amp; =I^{3}+A^{3}+3I^{2}A+3A^{2}I \\\\ &amp; =I+A^{3}+3A+3A^{2} \\\\ &amp; =I+A^{2} \\cdot A+3A+3A[ \\because A^{2}=A] \\\\ &amp; =I+A \\cdot A+6A \\\\ &amp; =I+A^{2}+6A \\\\ &amp; =I+A+6A[ \\because A^{2}=A] \\\\ &amp; =I+7A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.398456"
     },
@@ -1093,7 +1093,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because A^{2}=(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})$ </p>\n<p> $\\begin{aligned} \\therefore A^{2} &amp; =(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=(\\begin{aligned} 1+1 &amp; 1+1 \\\\ 1+1 &amp; 1+1 \\end{aligned}) \\\\ &amp; =(\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned})=2(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=2A \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} \\therefore A^{3} &amp; =(\\begin{aligned} 2 &amp; 2 \\\\ 2 &amp; 2 \\end{aligned})(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned}) \\\\ &amp; =(\\begin{aligned} 2+2 &amp; 2+2 \\\\ 2+2 &amp; 2+2 \\end{aligned})=(\\begin{aligned} 4 &amp; 4 \\\\ 4 &amp; 4 \\end{aligned}) \\\\ &amp; =4(\\begin{aligned} 1 &amp; 1 \\\\ 1 &amp; 1 \\end{aligned})=4A \\end{aligned} \\\\ &amp; \\text{Hence,}A^{10}=2^{9}A \\\\ &amp; [ \\because A^{n}=2^{n-1}A] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=(\\begin{aligned} 1 & 1 \\\\ 1 & 1 \\end{aligned})",
@@ -1101,7 +1101,7 @@
         "\\because A^{2}=(\\begin{aligned} 1 & 1 \\\\ 1 & 1 \\end{aligned})"
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.407977"
     },
@@ -1247,14 +1247,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A=[\\begin{aligned} 2-k &amp; 2 \\\\ 1 &amp; 3-k \\end{aligned}]$  is singular matrix we know that  $A$  is singular matrix, then  $|A|=0$ </p>\n<p> $\\begin{aligned} &amp; |A|=(2-k)(3-k)-2 \\\\ &amp; \\Rightarrow 0=6-2k-3k+k^{2}-2 \\\\ &amp; \\Rightarrow k^{2}-5k+4=0 \\Rightarrow k^{2}-5k=-4 \\\\ &amp; \\Rightarrow 5k-k^{2}=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2-k & 2 \\\\ 1 & 3-k \\end{aligned}]",
         "5k-k^{2}"
       ],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:51.858570"
     },
@@ -1300,11 +1300,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}|\\begin{aligned} sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} &amp; tan135^{\\circ} \\\\ sin^{2}66^{\\circ} &amp; tan135^{\\circ} &amp; sin^{2}14^{\\circ} \\\\ tan135^{\\circ} &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\\\ &amp; \\text{Applying}C_{1} \\rightarrow C_{1}+C_{2}+C_{3} \\\\ &amp; =|\\begin{aligned} sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; sin^{2}66^{\\circ}tan135^{\\circ} \\\\ =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; tan135^{\\circ}sin^{2}14^{\\circ} \\\\ sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} &amp; sin^{2}14^{\\circ}sin^{2}66^{\\circ} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}+tan135^{\\circ} \\\\ &amp; |\\begin{aligned} 1 &amp; sin^{2}66^{\\circ} &amp; tan135^{\\circ} \\\\ 1 &amp; tan135^{\\circ} &amp; sin^{2}14^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =sin^{2}14^{\\circ}+sin^{2}66^{\\circ}-1|\\begin{aligned} 1 &amp; sin^{2}66 &amp; -1 \\\\ 1 &amp; -1 &amp; sin^{2}14^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}|. \\\\ &amp; \\text{Applying}R_{1} \\rightarrow R_{1}-R_{2},R_{2} \\rightarrow R_{2}-R_{3} \\\\ &amp; =cos^{2}66^{\\circ}+sin^{2}66^{\\circ}-1 \\\\ &amp; |\\begin{aligned} 0 &amp; 1+sin^{2}66^{\\circ} &amp; -1-sin^{2}14^{\\circ} \\\\ 0 &amp; -1-sin^{2}14^{\\circ} &amp; sin^{2}14^{\\circ}-sin^{2}66^{\\circ} \\\\ 1 &amp; sin^{2}14^{\\circ} &amp; sin^{2}66^{\\circ} \\end{aligned}| \\\\ &amp; (cos^{2}66^{\\circ}+sin^{2}66^{\\circ}-1)=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.656663"
     },
@@ -1350,11 +1350,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} \\Delta &amp; =|\\begin{aligned} 1 &amp; a &amp; a^{2} \\\\ 1 &amp; b &amp; b^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\text{and}\\Delta_{1} &amp; =|\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ bc &amp; ca &amp; ab \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ \\Delta &amp; =|\\begin{aligned} 1 &amp; a &amp; a^{2} \\\\ 1 &amp; b &amp; b^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} R_{1} \\rightarrow R_{1}-R_{2}\\text{and}R_{2} \\rightarrow R_{2}-R_{3} &amp; \\\\ \\Delta &amp; =|\\begin{aligned} 0 &amp; a-b &amp; a^{2}-b^{2} \\\\ 0 &amp; b-c &amp; b^{2}-c^{2} \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\Delta &amp; =(a-b)(b-c)|\\begin{aligned} 0 &amp; 1 &amp; a+b \\\\ 0 &amp; 1 &amp; b+c \\\\ 1 &amp; c &amp; c^{2} \\end{aligned}| \\\\ \\Delta &amp; =(a-b)(b-c)(c-a)\\text{.... (i)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Now,}\\Delta_{1} &amp; =|\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ bc &amp; ca &amp; ab \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ C_{1} \\rightarrow C_{1} &amp; -C_{2},C_{2} \\rightarrow C_{2}-C_{3} \\\\ \\Delta_{1} &amp; =|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ c(b-a) &amp; a(c-b) &amp; ab \\\\ a-b &amp; b-c &amp; c \\end{aligned}| \\\\ \\Delta_{1} &amp; =(a-b)(b-c)|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ -c &amp; -a &amp; ab \\\\ 1 &amp; 1 &amp; c \\end{aligned}| \\\\ \\Delta_{1} &amp; =(a-b)(b-c)(a-c) \\\\ \\Delta_{1} &amp; =-(a-b)(b-c)(c-a)\\text{.... (ii)} \\end{aligned}$ </p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $\\Delta=-\\Delta_{1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:51.871563"
     },
@@ -1605,14 +1605,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A=[\\begin{aligned} 2 &amp; -1 \\\\ 3 &amp; -2 \\end{aligned}] \\\\ &amp; |A|=-4+3=-1 \\\\ &amp; adj(A)=[\\begin{aligned} -2 &amp; -3 \\\\ -(-1) &amp; 2 \\end{aligned}]^{T}=[\\begin{aligned} -2 &amp; -3 \\\\ 1 &amp; 2 \\end{aligned}]^{T}=[\\begin{aligned} -2 &amp; 1 \\\\ -3 &amp; 2 \\end{aligned}] \\\\ &amp; A^{-1}=\\frac{adj(A)}{|A|}=\\frac{[\\begin{aligned} -2 &amp; 1 \\\\ -3 &amp; 2 \\end{aligned}]}{(-1)}=[\\begin{aligned} 2 &amp; -1 \\\\ 3 &amp; -2 \\end{aligned}]=A \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; &amp; A^{-1} &amp; =A \\Rightarrow A \\cdot A^{-1}=A \\cdot A \\\\ \\Rightarrow &amp; &amp; I &amp; =A^{2} \\Rightarrow A \\cdot I=A \\cdot A^{2} \\\\ \\Rightarrow &amp; &amp; A &amp; =A^{3} \\Rightarrow (A)^{-1}=(A^{3})^{-1} \\\\ \\Rightarrow &amp; &amp; A &amp; =(A^{3})^{-1} \\Rightarrow (A^{3})^{-1}=A \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2 & -1 \\\\ 3 & -2 \\end{aligned}]",
         "A^{3}"
       ],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.106992"
     },
@@ -1760,14 +1760,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} A_{n} &amp; =[\\begin{aligned} 1-n &amp; n \\\\ n &amp; 1-n \\end{aligned}]\\text{and} \\\\ |A_{n}| &amp; =[\\begin{aligned} 1-n &amp; n \\\\ n &amp; 1-n \\end{aligned}] \\\\ &amp; =(1-n)^{2}-n^{2}=1+n^{2}-2n-n^{2} \\\\ |A_{n}| &amp; =1-2n \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{Now,} &amp; |A_{1}|+|A_{2}|+|A_{3}|+\\dots.+|A_{2021}| \\\\ &amp; =(1-2)+(1-4)+(1-6)+\\dots+(1-4042) \\\\ &amp; =(1+1+\\dots.+1)-(2+4+6+\\dots.+4042) \\\\ &amp; =2021-[\\frac{2021}{2}(2+4042)] \\\\ &amp; =2021-\\frac{2021}{2} \\times 4044=2021-2021 \\times 2022 \\\\ &amp; =2021(1-2022)=-(2021)^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A_{n}=[\\begin{aligned} 1-n & n \\\\ n & 1-n \\end{aligned}]",
         "|A_{1}|+|A_{2}|+\\dots.|A_{2021}|="
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.518306"
     },
@@ -1921,11 +1921,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given order of matrix  $A$  and  $B$  are 3,</p>\n<p> $|A|=5,|B|=3$ </p>\n<p> $\\Rightarrow$  The order of  $AB$  matrix is also 3.</p>\n<p> $|AB|=|A| \\cdot |B|=15$ </p>\n<p>Using the property  $|KA|=K^{n}|A|$ , where  $n$  is the order of square matrix</p>\n<p> $\\begin{aligned} \\Rightarrow |3AB| &amp; =3^{3}|AB| \\\\ &amp; =27 \\times 15=405 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.689591"
     },
@@ -2128,14 +2128,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; A=⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥ \\\\ &amp; A^{2}=⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥⎡⎣⎢\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\\\ 1 &amp; 0 &amp; 0 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥ \\\\ &amp; A^{4}=A^{2} \\cdot A^{2}=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=⎡⎣⎢\\begin{aligned} 1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}⎤⎦⎥=I \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=⎛⎝⎜\\begin{aligned} 0 & 0 & 1 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & 0 \\end{aligned}⎞⎠⎟",
         "A^{4}"
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:52.870408"
     },
@@ -2234,11 +2234,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $[\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\end{aligned}]A=[\\begin{aligned} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{aligned}]$ </p>\n<p>Let</p>\n<p> $B=[\\begin{aligned} 2 &amp; 1 \\\\ 3 &amp; 2 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} \\therefore BA &amp; =I \\\\ A &amp; =B^{-1}I \\\\ A &amp; =B^{-1} \\\\ \\therefore B^{-1} &amp; =[\\begin{aligned} 2 &amp; -1 \\\\ -3 &amp; 2 \\end{aligned}] \\end{aligned}$ </p>\n<p>Hence,  $A=[\\begin{aligned} 2 &amp; -1 \\\\ -3 &amp; 2 \\end{aligned}]$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Properties of Determinants & System of Linear Equations",
+      "topic_tag": "Matrix Inversion, Adjoint & Powers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Properties of Determinants & System of Linear Equations"
+        "Matrix Inversion, Adjoint & Powers"
       ],
       "crawled_at": "2026-09-20T15:26:52.879182"
     },
@@ -2441,7 +2441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $3A+4B^{'}=[\\begin{aligned} 7 &amp; -10 &amp; 17 \\\\ 0 &amp; 6 &amp; 31 \\end{aligned}]$  .... (i)</p>\n<p> $\\begin{aligned} &amp; \\text{and}2B-3A^{'}=⎡⎣⎢\\begin{aligned} -1 &amp; 18 \\\\ 4 &amp; 0 \\\\ -5 &amp; -7 \\end{aligned}⎤⎦⎥ \\\\ &amp; \\Rightarrow 2B^{'}-3A=[\\begin{aligned} -1 &amp; 4 &amp; -5 \\\\ 18 &amp; 0 &amp; -7 \\end{aligned}]\\text{.... (ii)} \\end{aligned}$ </p>\n<p> $( \\because (A^{'})^{'}=A)$ </p>\n<p>adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; 6B^{'}=[\\begin{aligned} 6 &amp; -6 &amp; 12 \\\\ 18 &amp; 6 &amp; 24 \\end{aligned}] \\Rightarrow 6B=⎡⎣⎢\\begin{aligned} 6 &amp; 18 \\\\ -6 &amp; 6 \\\\ 12 &amp; 24 \\end{aligned}⎤⎦⎥ \\\\ &amp; \\Rightarrow B=⎡⎣⎢\\begin{aligned} 1 &amp; 3 \\\\ -1 &amp; 1 \\\\ 2 &amp; 4 \\end{aligned}⎤⎦⎥ \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "3A+4B^{'}=[\\begin{aligned} 7 & -10 & 17 \\\\ 0 & 6 & 31 \\end{aligned}]",
@@ -2449,7 +2449,7 @@
         "( \\because (A^{'})^{'}=A)"
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.324502"
     },
@@ -2754,7 +2754,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> Given,  $A=[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}]$ </p>\n<p>Now,</p>\n<p> $A^{2}=[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}][\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}]$ </p>\n<p> $\\Rightarrow A^{2}=[\\begin{aligned} 8 &amp; -8 \\\\ -8 &amp; 8 \\end{aligned}]$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; A^{2}=2^{2}[\\begin{aligned} 2 &amp; -2 \\\\ -2 &amp; 2 \\end{aligned}] \\\\ \\Rightarrow &amp; A^{2}=2^{2}A \\end{aligned}$ </p>\n<p>Now,  $A^{3}=A^{2} \\cdot A$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; A^{3}=2^{2} \\cdot A^{2} \\\\ \\Rightarrow &amp; A^{3}=2^{4} \\cdot A \\\\ \\Rightarrow &amp; A^{4}=A^{3} \\cdot A \\\\ \\Rightarrow &amp; A^{4}=2^{4} \\cdot A^{2} \\\\ \\Rightarrow &amp; A^{4}=2^{6}A \\\\ \\Rightarrow &amp; A^{5}=A^{4} \\cdot A \\\\ \\Rightarrow &amp; A^{5}=2^{6}A^{2} \\\\ &amp; A^{5}=2^{8}A \\\\ \\therefore &amp; A^{n}=2^{2(n-1)}A \\end{aligned}$ </p>\n<p>Hence,  $k=2(n-1)$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[\\begin{aligned} 2 & -2 \\\\ -2 & 2 \\end{aligned}]",
@@ -2762,7 +2762,7 @@
         "\\Rightarrow A^{2}=[\\begin{aligned} 8 & -8 \\\\ -8 & 8 \\end{aligned}]"
       ],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:53.789124"
     },
@@ -3121,11 +3121,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; |\\begin{aligned} 3 &amp; x \\\\ x &amp; 1 \\end{aligned}|=|\\begin{aligned} 3 &amp; 2 \\\\ 4 &amp; 1 \\end{aligned}| \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 3-x^{2}=3-8 \\\\ \\Rightarrow &amp; x^{2}=8 \\\\ \\Rightarrow &amp; x= \\pm 2\\sqrt{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Matrix Inversion, Adjoint & Powers",
+      "topic_tag": "Properties of Determinants & System of Linear Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Matrix Inversion, Adjoint & Powers"
+        "Properties of Determinants & System of Linear Equations"
       ],
       "crawled_at": "2026-09-20T15:26:54.300639"
     },

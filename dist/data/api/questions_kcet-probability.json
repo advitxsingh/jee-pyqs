@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to find  $P(A|L)$ , which means:</p>\n<p>Probability that both parents are left handed, given that the child is left handed.</p>\n<p>Using Bayes’ theorem,</p>\n<p> $P(A|L)=\\frac{P(A)P(L|A)}{P(L)}$ </p>\n<p>Here,</p>\n<p> $P(A)=P(B)=P(C)=P(D)=\\frac{1}{4}$ </p>\n<p>Also,</p>\n<p> $P(L|A)=24%=\\frac{24}{100}$ </p>\n<p>Now find  $P(L)$  using the total probability formula:</p>\n<p> $P(L)=P(A)P(L|A)+P(B)P(L|B)+P(C)P(L|C)+P(D)P(L|D)$ </p>\n<p>Substitute the values:</p>\n<p> $P(L)=\\frac{1}{4} \\times \\frac{24}{100}+\\frac{1}{4} \\times \\frac{9}{100}+\\frac{1}{4} \\times \\frac{17}{100}+\\frac{1}{4} \\times \\frac{22}{100}$ </p>\n<p>Since  $\\frac{1}{4}$  is common,</p>\n<p> $P(L)=\\frac{1}{4}(\\frac{24+9+17+22}{100})$ </p>\n<p> $P(L)=\\frac{1}{4} \\times \\frac{72}{100}$ </p>\n<p>Now,</p>\n<p> $P(A|L)=\\frac{\\frac{1}{4} \\times \\frac{24}{100}}{\\frac{1}{4} \\times \\frac{72}{100}}$ </p>\n<p>Cancel the common factor  $\\frac{1}{4} \\times \\frac{1}{100}$ :</p>\n<p> $P(A|L)=\\frac{24}{72}$ </p>\n<p> $P(A|L)=\\frac{1}{3}$ </p>\n<p>So the correct option is:</p>\n<p> $\\frac{1}{3}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "=24%",
@@ -55,7 +55,7 @@
         "P(A|L)=\\frac{P(A)P(L|A)}{P(L)}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:55.789869"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p> $P(A∪B)=0.6$ </p>\n<p>and</p>\n<p> $P(A∩B)=0.2$ </p>\n<p>We use the formula:</p>\n<p> $P(A∪B)=P(A)+P(B)-P(A∩B)$ </p>\n<p>So,</p>\n<p> $0.6=P(A)+P(B)-0.2$ </p>\n<p> $P(A)+P(B)=0.8$ </p>\n<p>Now,</p>\n<p> $P(\\bar{A})=1-P(A),P(\\bar{B})=1-P(B)$ </p>\n<p>So,</p>\n<p> $P(\\bar{A})+P(\\bar{B})=(1-P(A))+(1-P(B))$ </p>\n<p> $=2-(P(A)+P(B))$ </p>\n<p> $=2-0.8=1.2$ </p>\n<p>So the correct answer is:</p>\n<p> $1.2$ </p>\n<p>Option D</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A∪B)=0.6",
@@ -112,7 +112,7 @@
         "P(\\bar{A})=1-P(A),P(\\bar{B})=1-P(B)"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:56.278756"
     },
@@ -208,11 +208,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An even prime number is only  $2$ .</p>\n<p>When one die is rolled, the probability of getting  $2$  is</p>\n<p> $\\frac{1}{6}$ </p>\n<p>Since a pair of dice is rolled, and we want an even prime number on each die, both dice must show  $2$ .</p>\n<p>So the probability is</p>\n<p> $\\frac{1}{6} \\times \\frac{1}{6}=\\frac{1}{36}$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\frac{1}{36}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:55.904867"
     },
@@ -311,13 +311,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A\\text{and}B\\text{are non mutually exclusive} \\\\ &amp; \\begin{aligned} &amp; P(A|B)=P(B|A) \\\\ &amp; \\Rightarrow \\frac{P(A∩B)}{P(B)}=\\frac{P(A∩B)}{P(A)} \\\\ &amp; \\Rightarrow P(B)=P(A)[ \\because P(A∩B) \\ne 0] \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "P(A|B)=P(B|A)"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:56.547633"
     },
@@ -470,7 +470,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the probability of rolling a 1 or a 3 on this die, let's first outline the probability of each individual outcome:</p>\n<p><p>Probability of rolling a 1,  $P(1)$ : Since there are 2 faces showing the number 1, the probability is  $\\frac{2}{6}$ .</p></p>\n<p><p>Probability of rolling a 3,  $P(3)$ : There is 1 face showing the number 3, so the probability is  $\\frac{1}{6}$ .</p></p>\n<p>To find the probability of rolling a 1 or a 3, we use the rule for the union of two mutually exclusive events:</p>\n<p> $P(1∪3)=P(1)+P(3)$ </p>\n<p>Substituting the known probabilities:</p>\n<p> $P(1∪3)=\\frac{2}{6}+\\frac{1}{6}$ </p>\n<p> $P(1∪3)=\\frac{3}{6}$ </p>\n<p>Thus, the probability of rolling a 1 or a 3 is   $\\frac{1}{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2}{6}",
@@ -481,7 +481,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:56.352931"
     },
@@ -527,7 +527,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; P(A)=\\frac{2}{5}F:\\text{The events of meera meets her friend.} \\\\ &amp; P(F/A)=\\frac{1}{3} \\\\ &amp; P(F/B)=\\frac{2}{7} \\\\ &amp; P(B)=1-P(A) \\\\ &amp; =1-\\frac{2}{5} \\\\ &amp; =\\frac{3}{5} \\end{aligned} \\\\ &amp; \\text{The probability she meet her at temple}B \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; P(B/F)=\\frac{P(F∩B)}{P(F)} \\\\ &amp; =\\frac{P(B) \\times P(B/F)}{P(A)P(F/A)+P(B)P(B/F)} \\\\ &amp; =\\frac{3/5 \\times 2/7}{(2/5 \\times 1/3)+(3/5 \\times 5/7)}=\\frac{9}{16} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2}{5}",
@@ -535,7 +535,7 @@
         "\\frac{2}{7}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:56.647407"
     },
@@ -795,11 +795,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(A)=\\frac{1}{4},P(\\frac{A}{B})=\\frac{1}{2}$  and  $P(\\frac{B}{A})=\\frac{2}{3}$ </p>\n<p>We know that,  $P(\\frac{E_{1}}{E_{2}})=\\frac{P(E_{1}∩E_{2})}{P(E_{2})}$ </p>\n<p> $\\begin{aligned} \\therefore &amp; P(\\frac{B}{A})=\\frac{P(B∩A)}{P(A)} \\\\ \\Rightarrow &amp; \\frac{2}{3}=\\frac{P(A∩B)}{1/4}[ \\because A∩B=B∩A] \\\\ \\Rightarrow &amp; P(A∩B)=\\frac{2}{3} \\times \\frac{1}{4}=\\frac{1}{6} \\\\ \\because &amp; P(\\frac{A}{B})=\\frac{1}{2} \\\\ \\therefore &amp; \\frac{P(A∩B)}{P(B)}=\\frac{1}{2} \\\\ \\Rightarrow &amp; P(B)=2P(A∩B)=2 \\times \\frac{1}{6}=\\frac{1}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:57.105325"
     },
@@ -1059,14 +1059,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(A)=\\frac{1}{2},P(B)=\\frac{1}{2}$  and  $P(A|B)=\\frac{1}{4}$ </p>\n<p> $P(A|B)=\\frac{P(A∩B)}{P(B)} \\Rightarrow \\frac{1}{4}=\\frac{P(A∩B)}{1/2}$ </p>\n<p> $\\Rightarrow P(A∩B)=\\frac{1}{4} \\times \\frac{1}{2}=\\frac{1}{8}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}P(A^{'}∩B^{'})=P(A∪B)^{'}=1-P(A∪B) \\\\ &amp; =1-[P(A)+P(B)-P(A∩B)]=1-[\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{8}] \\\\ &amp; =1-1+\\frac{1}{8}=\\frac{1}{8} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A|B)=\\frac{P(A∩B)}{P(B)} \\Rightarrow \\frac{1}{4}=\\frac{P(A∩B)}{1/2}",
         "\\Rightarrow P(A∩B)=\\frac{1}{4} \\times \\frac{1}{2}=\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:57.157132"
     },
@@ -1166,7 +1166,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $E=$  the event that the car is of standard quality.</p>\n<p>Let  $A_{1}=$  the event that the car is manufactured in plant  $X$ .</p>\n<p>and  $A_{2}=$  the event that the car is manufactured in plant  $Y$ .</p>\n<p>Now,  $P(A_{1})=\\frac{70}{100}=\\frac{7}{10},P(A_{2})=\\frac{30}{100}=\\frac{3}{10}$ </p>\n<p> $P(\\frac{E}{A_{1}})=$  Probability that a standard quality car is manufactured in plant  $X=\\frac{80}{100}=\\frac{8}{10}$ </p>\n<p> $P(\\frac{E}{A_{2}})=$  Probability that a standard quality car is manufactured in plant  $Y=\\frac{90}{100}=\\frac{9}{10}$ </p>\n<p> $P(\\frac{A_{1}}{E})=$  Probability that a standard quality car has come from plant  $X$ </p>\n<p> $=\\frac{P(A_{1}) \\times P(\\frac{E}{A_{1}})}{P(A_{1}) \\cdot P(\\frac{E}{A_{1}})+P(A_{2}) \\cdot P(\\frac{E}{A_{2}})}$ </p>\n<p> $=\\frac{\\frac{7}{10} \\times \\frac{8}{10}}{\\frac{7}{10} \\times \\frac{8}{10}+\\frac{3}{10} \\times \\frac{9}{10}}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{7 \\times 8}{7 \\times 8+3 \\times 9} \\\\ &amp; =\\frac{56}{56+27}=\\frac{56}{83} \\end{aligned}$ </p>\n<p>Hence, the required probability is  $\\frac{56}{83}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(\\frac{E}{A_{1}})=",
@@ -1176,7 +1176,7 @@
         "P(\\frac{A_{1}}{E})="
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:57.597821"
     },
@@ -1429,14 +1429,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given}P(E_{1})=P(E_{2})=\\frac{1}{2} \\\\ &amp; P(E_{2}/A)=\\frac{1}{2},P(A/E_{2})=\\frac{2}{3} \\\\ &amp; P(E_{1}/A)=\\frac{P(E_{1}) \\times P(A/E_{1})}{P(A)} \\\\ &amp; P(E_{2}/A)=\\frac{P(E_{2}) \\times P(A/E_{2})}{P(A)} \\\\ &amp; P(E_{1}/A)+P(E_{2}/A)=1 \\\\ &amp; P(E_{1}/A)=1-P(E_{2}/A) \\\\ &amp; =1-\\frac{1}{2}=\\frac{1}{2} \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{1}",
         "E_{2}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:57.960855"
     },
@@ -1532,14 +1532,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A die is thrown 10 times</p>\n<p>Probability of success is an odd number</p>\n<p> $\\therefore n=10,p=\\frac{1}{2},q=\\frac{1}{2}$ </p>\n<p>Number of success is atleast one</p> <p>Required probability  $P(x \\ge 1)=1-P(x=0)$ </p>\n<p> $\\begin{aligned} &amp; =1-^{10}C_{0}(\\frac{1}{2})^{0}(\\frac{1}{2})^{10} \\\\ &amp; =1-\\frac{1}{1024}=\\frac{1023}{1024} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\therefore n=10,p=\\frac{1}{2},q=\\frac{1}{2}",
         "P(x \\ge 1)=1-P(x=0)"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:57.680784"
     },
@@ -1585,13 +1585,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A,B,C$  are mutually exclusive and exhaustive events.</p>\n<p> $\\begin{aligned} &amp; \\therefore P(A∩B)=P(B∩C) \\\\ &amp; =P(A∩C)=0=P(A∩B∩C) \\\\ &amp; \\text{and}P(A)+P(B)+P(C)=1 \\\\ &amp; 2P(B)+P(B)+\\frac{2}{3}P(B)=1 \\\\ &amp; [ \\because P(A)=2P(B),2P(B)=3P(C)] \\\\ &amp; =\\frac{11P(B)}{3}=1 \\\\ &amp; P(B)=\\frac{3}{11} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "P(A)=2P(B)=3P(C)"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:58.040572"
     },
@@ -2008,7 +2008,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since events A and B are mutually exclusive (they cannot occur at the same time), the probability of A or B occurring is simply the sum of their individual probabilities. Here’s how we calculate it:</p>\n<p><p>Write the formula for mutually exclusive events:</p>\n<p> $P(A\\text{or}B)=P(A)+P(B)$ </p></p>\n<p><p>Substitute the given values:</p>\n<p> $P(A\\text{or}B)=\\frac{3}{5}+\\frac{1}{5}$ </p></p>\n<p><p>Add the fractions:</p>\n<p> $P(A\\text{or}B)=\\frac{4}{5}$ </p></p>\n<p><p>Convert to decimal:</p>\n<p> $\\frac{4}{5}=0.8$ </p></p>\n<p>Thus, the correct answer is Option A: 0.8.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A\\text{or}B)=P(A)+P(B)",
@@ -2017,7 +2017,7 @@
         "\\frac{4}{5}=0.8"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:59.106312"
     },
@@ -2118,11 +2118,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the probability of neither event  $A$  nor event  $B$  occurring, given that they are mutually exclusive, we start with the following information:</p>\n<p><p>The probability of event  $A$ ,  $P(A)$ , is 0.5.</p></p>\n<p><p>The probability of event  $B$ ,  $P(B)$ , is 0.3.</p></p>\n<p><p>Since  $A$  and  $B$  are mutually exclusive, the probability of both events occurring simultaneously,  $P(A∩B)$ , is 0.</p></p>\n<p>Using these probabilities, we calculate the probability of the union of  $A$  and  $B$ , which is the probability of either event  $A$  or event  $B$  occurring. This is given by:</p>\n<p> $P(A∪B)=P(A)+P(B)-P(A∩B)$ </p>\n<p>Substituting the values:</p>\n<p> $P(A∪B)=0.5+0.3-0=0.8$ </p>\n<p>Thus, the probability of the union of events  $A$  and  $B$  is 0.8.</p>\n<p>To find the probability that neither  $A$  nor  $B$  occurs, which we denote as  $P(A^{'}∩B^{'})$ , we take the complement of  $P(A∪B)$ :</p>\n<p> $P(A^{'}∩B^{'})=1-P(A∪B)$ </p>\n<p>Calculating this gives:</p>\n<p> $P(A^{'}∩B^{'})=1-0.8=0.2$ </p>\n<p>Therefore, the probability that neither event  $A$  nor event  $B$  occurs is 0.2.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T15:26:58.860151"
     },

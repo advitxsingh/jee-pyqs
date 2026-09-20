@@ -150,7 +150,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we need to determine the time, denoted as  $t_{0}$ , at which the separation between two falling stones becomes  $H$ . The second stone starts falling  $\\Delta t$  seconds after the first stone.</p>\n<p><p><strong>Distance Fallen by the First Stone ( $S_{1}$ ):</strong></p>\n<p>The first stone falls for  $t_{0}$  seconds, so the distance it covers is given by:</p>\n<p> $S_{1}=\\frac{1}{2}gt_{0}^{2}$ </p></p>\n<p><p><strong>Distance Fallen by the Second Stone ( $S_{2}$ ):</strong></p>\n<p>The second stone starts falling  $\\Delta t$  seconds after the first, so it falls for  $(t_{0}-\\Delta t)$  seconds. Thus, the distance it covers is:</p>\n<p> $S_{2}=\\frac{1}{2}g(t_{0}-\\Delta t)^{2}$ </p></p>\n<p><p><strong>Distance of Separation ( $H$ ):</strong></p>\n<p>The separation distance between the two stones is:</p>\n<p> $H=S_{1}-S_{2}=\\frac{1}{2}gt_{0}^{2}-\\frac{1}{2}g(t_{0}-\\Delta t)^{2}$ </p>\n<p>Simplifying the equation:</p>\n<p> $\\begin{aligned} H &amp; =\\frac{1}{2}gt_{0}^{2}-\\frac{1}{2}g(t_{0}^{2}-2t_{0}\\Delta t+(\\Delta t)^{2}) \\\\ &amp; =\\frac{1}{2}g \\cdot (2t_{0}\\Delta t-(\\Delta t)^{2}) \\\\ &amp; =g \\cdot (t_{0}\\Delta t-\\frac{1}{2}\\Delta t^{2}) \\end{aligned}$ </p></p>\n<p><p><strong>Expression for  $t_{0}$ :</strong></p>\n<p>Solving the above equation for  $t_{0}$ , we have:</p>\n<p> $H=g(t_{0}\\Delta t-\\frac{1}{2}\\Delta t^{2})$ </p>\n<p> $t_{0}\\Delta t=\\frac{H}{g}+\\frac{1}{2}\\Delta t^{2}$ </p>\n<p> $t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}$ </p></p>\n<p>Therefore, the time  $t_{0}$  at which the separation between the two stones becomes  $H$  is given by:</p>\n<p> $t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{0}",
@@ -158,7 +158,7 @@
         "t_{0}=\\frac{H}{g\\Delta t}+\\frac{\\Delta t}{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:27:55.480896"
     },
@@ -204,7 +204,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the average velocity of a body moving along a straight line with a constant acceleration  $a$ , given its initial velocity  $v_{0}$  and its final velocity  $v$  after  $t$  seconds, we can use the following approach:</p>\n<h3>Information Given:</h3>\n<p><p>Initial velocity,  $v_{0}$ </p></p>\n<p><p>Final velocity after time  $t$ ,  $v$ </p></p>\n<p><p>Constant acceleration,  $a$ </p></p>\n<h3>Using the Equation of Motion:</h3>\n<p>The equation related to velocity and displacement is:</p>\n<p> $v^{2}=u^{2}+2as$ </p>\n<p>Rearranging for displacement  $s$ :</p>\n<p> $s=\\frac{v^{2}-v_{0}^{2}}{2a}$ </p>\n<p>This equation gives us the total distance covered.</p>\n<h3>Calculating Average Velocity:</h3>\n<p>The average velocity  $\\bar{v}$  over an interval is the total distance divided by the total time:</p>\n<p> $\\bar{v}=\\frac{\\text{Total distance}}{\\text{Total time}}=\\frac{s}{t}$ </p>\n<p>Substituting for  $s$  from the displacement equation:</p>\n<p> $\\bar{v}=\\frac{\\frac{v^{2}-v_{0}^{2}}{2a}}{t}$ </p>\n<p>Simplifying:</p>\n<p> $\\bar{v}=\\frac{v^{2}-v_{0}^{2}}{2at}$ </p>\n<p>Hence, the average velocity is given by:</p>\n<p> $v_{\\text{avg}}=\\frac{v^{2}-v_{0}^{2}}{2at}$  </p>\n<p>This formula provides the average velocity of the body over the given time interval  $t$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kinematic Equations & Free Fall",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{0}",
@@ -212,7 +212,7 @@
         "\\bar{v}=\\frac{\\text{Total distance}}{\\text{Total time}}=\\frac{s}{t}"
       ],
       "key_concepts": [
-        "Kinematic Equations & Free Fall"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:27:55.524868"
     },

@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a single circular turn of radius  $r$  carrying current  $I$ , the magnetic moment is :</p>\n<p> $m=I \\cdot A=I(\\pi r^{2})$ </p>\n<p>In a flat coil where the turns are wound from  $r_{1}$  to  $r_{2}$ , the number of turns per unit radial length is  $n=\\frac{N}{r_{2}-r_{1}}$ . The total magnetic moment ( M ) is the integral of the moments of all infinitesimal turns of thickness dr :</p>\n<p> $M=\\int_{r_{1}}^{r_{2}}(I\\pi r^{2}) \\cdot ndr$ </p>\n<p> $\\Rightarrow$   $M=I\\pi n\\int_{r_{1}}^{r_{2}}r^{2}dr=I\\pi(\\frac{N}{r_{2}-r_{1}})[\\frac{r^{3}}{3}]_{r_{1}}^{r_{2}}$ </p>\n<p> $\\Rightarrow$   $M=\\frac{NI\\pi}{3(r_{2}-r_{1})}(r_{2}^{3}-r_{1}^{3})$ </p>\n<p>Using the algebraic identity  $r_{2}^{3}-r_{1}^{3}=(r_{2}-r_{1})(r_{2}^{2}+r_{1}^{2}+r_{1}r_{2})$  :</p>\n<p> $M=\\frac{NI\\pi}{3}(r_{1}^{2}+r_{2}^{2}+r_{1}r_{2})$ </p>\n<p>Substituting the values, where number of turns is  $N=200$ , the current is  $I=20mA=20 \\times 10^{-3}A$ , the inner radius of coil is  $r_{1}=3cm=0.03m$  and the outer radius is  $r_{2}=6cm=0.06m$ </p>\n<p> $M=\\frac{200 \\times 20 \\times 10^{-3} \\times 3.14}{3}(0.03^{2}+0.06^{2}+0.03 \\times 0.06)$ </p>\n<p> $\\Rightarrow$   $M=\\frac{4 \\times 3.14}{3}(0.0009+0.0036+0.0018)$ </p>\n<p> $\\Rightarrow$   $M=\\frac{12.56}{3}(0.0063)=12.56 \\times 0.0021$ </p>\n<p> $\\Rightarrow$   $M=0.026376 \\approx 2.64 \\times 10^{-2}A.m^{2}=\\alpha \\times 10^{-2}A.m^{2} \\Rightarrow \\alpha=2.64$ </p>\n<p>Therefore, the value of  $\\alpha$  is 2.64 . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Hard",
       "key_formulas": [
         "N=200",
@@ -112,7 +112,7 @@
         "M=\\int_{r_{1}}^{r_{2}}(I\\pi r^{2}) \\cdot ndr"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:54:57.014245"
     },
@@ -160,7 +160,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlghz14m/38c153e0-b822-45a2-b79f-491c6f736041/c6555160-0670-11f1-9240-6d9343ac6d1d/file-6y3zli1mlghz14n.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{c}=\\frac{\\mu_{0}i}{2R}",
@@ -171,7 +171,7 @@
         "B_{a}=\\frac{16\\mu T}{8}=2\\mu T"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:54:59.397937"
     },
@@ -219,7 +219,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml7sh3h2/ba7c1195-e6d3-4bfb-9fbe-513b426b2156/ca281760-01a6-11f1-a189-2d3796da7674/file-6y3zli1ml7sh3h3.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{\\text{straight}}=\\frac{\\mu_{0}I}{2\\pi r}",
@@ -230,7 +230,7 @@
         "\\vec{B}_{total}=(\\frac{\\mu_{0}I}{2\\pi r})\\hat{i}+(-\\frac{\\mu_{0}I}{2r})\\hat{i}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:01.059075"
     },
@@ -489,7 +489,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mm4mgtsm/5fcb0283-41e8-430b-a58c-1512215fa125/2955e760-13b5-11f1-865a-8bf6aebc55a0/file-6y3zli1mm4mgtsn.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}",
@@ -500,7 +500,6 @@
         "0^{\\circ}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law",
         "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:01.115526"
@@ -583,7 +582,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The magnetic field produced at the center of a circular wire of radius  $r$  carrying current  $I$  is:</p>\n<p> $B=\\frac{\\mu_{0}I}{2r}$ </p>\n<p>The electric current in the circular loop is  $I=2A$ , the radius of the loop is  $r=10cm=0.1m$ .</p>\n<p> $B=\\frac{4\\pi \\times 10^{-7} \\times 2}{2 \\times 0.1}=4\\pi \\times 10^{-6}T$ </p>\n<p>Magnetic energy is stored in the space where a magnetic field exists. The energy per unit volume is:</p>\n<p> $u_{B}=\\frac{B^{2}}{2\\mu_{0}}$ </p>\n<p>For a very small volume V where the field B is approximately uniform:</p>\n<p> $U=u_{B} \\times V=\\frac{B^{2}}{2\\mu_{0}} \\times V$ </p>\n<p>The volume of the cube is,</p>\n<p> $V=(1mm)^{3}=(10^{-3}m)^{3}=10^{-9}m^{3}$ </p>\n<p>So, the total energy stored in the cube is,</p>\n<p> $U=\\frac{(4\\pi \\times 10^{-6})^{2}}{2 \\times 4\\pi \\times 10^{-7}} \\times 10^{-9}$ </p>\n<p> $\\Rightarrow$   $U=\\frac{16\\pi^{2} \\times 10^{-12}}{8\\pi \\times 10^{-7}} \\times 10^{-9}=2\\pi \\times 10^{-5} \\times 10^{-9}$ </p>\n<p> $\\Rightarrow$   $U=2 \\times 3.14 \\times 10^{-14}=6.28 \\times 10^{-14}J=\\alpha \\times 10^{-14}J$ </p>\n<p> $\\Rightarrow \\alpha=6.28$ </p>\n<p>Therefore, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha \\times 10^{-14}J",
@@ -594,7 +593,7 @@
         "V=(1mm)^{3}=(10^{-3}m)^{3}=10^{-9}m^{3}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:54:54.991850"
     },
@@ -642,7 +641,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mtcan6ov/f6aa4f85-c138-4286-abbd-1ff53cfe60f0/b57332f0-a282-11f1-90ef-b75b11d8a259/file-6y3zli1mtcan6ow.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{1}",
@@ -653,7 +652,7 @@
         "B_{1}=\\frac{\\mu_{0}I}{4r}+\\frac{\\mu_{0}I}{2\\pi r}=\\frac{\\mu_{0}I}{4\\pi r}(\\pi+2)"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:54:57.183140"
     },
@@ -702,7 +701,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljg1nsm/8c4219dc-f14f-4583-b105-b0aa943824cb/9726a560-080f-11f1-838d-857e7b97e68d/file-6y3zli1mljg1nsn.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljg4sc1/308ead0d-5c3e-40e5-8de1-103c5deb0c8c/ee15be10-080f-11f1-838d-857e7b97e68d/file-6y3zli1mljg4sc2.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{P}",
@@ -712,7 +711,7 @@
         "(B_{net})"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:54:59.628743"
     },
@@ -1125,7 +1124,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $B=\\frac{2\\sqrt{2}\\mu_{0}I}{\\pi L}$ </p>\n<p>For a square loop of side length </p>\n<p> $L=\\frac{1}{\\sqrt{2}}\\text{m},$  </p>\n<p>the perpendicular distance from the center to any side is </p>\n<p> $d=\\frac{L}{2}=\\frac{1}{2\\sqrt{2}}\\text{m}.$ </p>\n<p>For a finite straight wire, the magnetic field at a point at distance  $d$  from the wire is given by the Biot–Savart expression</p>\n<p> $B_{\\text{side}}=\\frac{\\mu_{0}I}{4\\pi d}(sin\\theta_{1}+sin\\theta_{2})$ </p>\n<p>where  $\\theta_{1}$  and  $\\theta_{2}$  are the angles between the extended wire and the line joining the ends of the wire with the observation point. For one side of the square, by symmetry, the midpoint of the side and the center of the square give</p>\n<p> $tan\\theta=\\frac{L/2}{L/2}=1 \\Rightarrow \\theta=45^{\\circ}.$ </p>\n<p>Thus,</p>\n<p> $sin\\theta_{1}=sin\\theta_{2}=sin45^{\\circ}=\\frac{1}{\\sqrt{2}}.$ </p>\n<p>Then the field due to one side is</p>\n<p> $B_{\\text{side}}=\\frac{\\mu_{0}I}{4\\pi(\\frac{L}{2})}(\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{2}})=\\frac{\\mu_{0}I}{4\\pi(\\frac{L}{2})}(\\frac{2}{\\sqrt{2}})=\\frac{\\mu_{0}I\\sqrt{2}}{2\\pi L}.$ </p>\n<p>Since there are 4 sides with contributions that add vectorially in the same direction at the center, the total magnetic field is</p>\n<p> $B=4 \\cdot B_{\\text{side}}=\\frac{4\\mu_{0}I\\sqrt{2}}{2\\pi L}=\\frac{2\\sqrt{2}\\mu_{0}I}{\\pi L}.$ </p>\n<p>Substitute </p>\n<p> $L=\\frac{1}{\\sqrt{2}},$ </p>\n<p>to obtain</p>\n<p> $B=\\frac{2\\sqrt{2}\\mu_{0}I}{\\pi(\\frac{1}{\\sqrt{2}})}=\\frac{2\\sqrt{2}\\mu_{0}I\\sqrt{2}}{\\pi}=\\frac{4\\mu_{0}I}{\\pi}.$ </p>\n<p>Using the provided values </p>\n<p> $I=5\\text{A}\\text{and}\\mu_{0}=4\\pi \\times 10^{-7}\\text{T}\\text{m/A},$ </p>\n<p>the magnetic field becomes</p>\n<p> $B=\\frac{4 \\times (4\\pi \\times 10^{-7}) \\times 5}{\\pi}=\\frac{80\\pi \\times 10^{-7}}{\\pi}=80 \\times 10^{-7}\\text{T}=8 \\times 10^{-6}\\text{T}.$ </p>\n<p>Thus, the value of  $p$  is</p>\n<p> $p=8.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{1}{\\sqrt{2}}m",
@@ -1134,7 +1133,7 @@
         "sin\\theta_{1}=sin\\theta_{2}=sin45^{\\circ}=\\frac{1}{\\sqrt{2}}."
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:36.119872"
     },
@@ -1180,11 +1179,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The explanation involves analyzing the motion of charged particles in a magnetic field using the concept of radius of curvature. When a charged particle moves perpendicularly to a magnetic field, the radius of curvature  $r$  of its path is given by:</p>\n<p> $r=\\frac{mv}{qB}=\\frac{p}{qB}$ </p>\n<p>Where:</p>\n<p><p> $m$  is the mass of the particle.</p></p>\n<p><p> $v$  is the velocity.</p></p>\n<p><p> $q$  is the charge.</p></p>\n<p><p> $B$  is the magnetic field strength.</p></p>\n<p><p> $p$  is the momentum of the particle.</p></p>\n<p>From this formula, we can see that the radius of curvature  $r$  is directly proportional to the momentum  $p$  and inversely proportional to the charge  $q$ . </p>\n<p>In the given scenario:</p>\n<p><p>The Oxygen ion  $O^{-2}$  and the Hydrogen ion  $H^{+}$  both enter the magnetic field with equal momentum.</p></p>\n<p><p>Since  $O^{-2}$  has a charge of  $-2e$  and  $H^{+}$  has a charge of  $+e$ , and given that  $r∝\\frac{1}{q}$ , the path of  $O^{-2}$  will indeed have a smaller radius of curvature compared to that of  $H^{+}$ .</p></p>\n<p>Therefore, the Assertion  $A$  is true. </p>\n<p>The Reason  $R$  states that a proton and an electron with the same linear momentum will form paths of different radii upon entering a magnetic field, with the proton having a smaller radius of curvature. This reasoning is based on the same principle, since the mass and charge of the electron and proton are different. However, this explanation does not directly justify the assertion about Oxygen and Hydrogen ions, so Reason  $R$  is false in the context of explaining Assertion  $A$ . Thus, the correct conclusion is that  $A$  is true, but  $R$  is false.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:02.860252"
     },
@@ -1457,7 +1456,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In a moving coil galvanometer, the voltage sensitivity is given by the formula:</p>\n<p> $\\text{Voltage sensitivity}=\\frac{\\theta}{V}=\\frac{N \\cdot A \\cdot B}{c \\cdot R}$ </p>\n<p>Here,  $\\theta$  is the deflection angle,  $V$  is the voltage,  $N$  is the number of turns,  $A$  is the coil area,  $B$  is the magnetic field,  $c$  is the torsional constant of the spring, and  $R$  is the resistance of the coil.</p>\n<p>For the two moving coils  $M_{1}$  and  $M_{2}$ , we want to determine the ratio of their voltage sensitivities. Given that the torsional constant  $c$  is the same for both coils, we can express the ratio as:</p>\n<p> $\\text{Ratio of voltage sensitivities}=(\\frac{N_{1} \\cdot A_{1} \\cdot B_{1}}{N_{2} \\cdot A_{2} \\cdot B_{2}}) \\cdot \\frac{R_{2}}{R_{1}}$ </p>\n<p>Plugging in the given values:</p>\n<p><p> $N_{1}=15$ </p></p>\n<p><p> $A_{1}=3.6 \\times 10^{-3}\\text{m}^{2}$ </p></p>\n<p><p> $B_{1}=0.25\\text{T}$ </p></p>\n<p><p> $R_{1}=5\\Omega$ </p></p>\n<p><p> $N_{2}=21$ </p></p>\n<p><p> $A_{2}=1.8 \\times 10^{-3}\\text{m}^{2}$ </p></p>\n<p><p> $B_{2}=0.50\\text{T}$ </p></p>\n<p><p> $R_{2}=7\\Omega$ </p></p>\n<p>We calculate:</p>\n<p> $\\text{Ratio}=(\\frac{15 \\times 3.6 \\times 0.25}{21 \\times 1.8 \\times 0.5}) \\times \\frac{7}{5}=\\frac{1}{1}$ </p>\n<p>Thus, the ratio of the voltage sensitivities of  $M_{1}$  to  $M_{2}$  is 1:1.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "M_{1}",
@@ -1468,7 +1467,7 @@
         "R_{1}=5\\Omega"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:02.922920"
     },
@@ -1517,11 +1516,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6rjvdwl/bccbe477-401f-4c30-be85-4b8c4eca78ba/93af5550-e38d-11ef-9897-61eb62716c5d/file-jaoe38c1m6rjvdwm.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m74pjn58/18601f2f-6e70-4781-bda2-bafb3798408c/f45482c0-eac9-11ef-be87-1347496dd836/file-jaoe38c1m74pjn59.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:04.618178"
     },
@@ -1569,11 +1568,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m791qw3z/77852ccb-5e9f-4ec1-95b8-11c5f8f62cf2/ce1129f0-ed2c-11ef-a68c-ebff1065b3a4/file-jaoe38c1m791qw40.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:05.816817"
     },
@@ -1726,11 +1725,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9oc6aam/c23ee622-8051-4055-bf33-49857da337d6/c5f3abe0-1d2d-11f0-ae5e-19047862b6d9/file-jaoe38c1m9oc6aan.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9oc6zos/95a568ad-dbc2-47c9-8b15-2c064c7e6cd2/d99156c0-1d2d-11f0-ae5e-19047862b6d9/file-jaoe38c1m9oc6zot.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:01.333700"
     },
@@ -1889,11 +1888,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When an electron is projected perpendicular to a uniform magnetic field  $B$ , it travels in a circular path. According to Bohr's quantization rule, the radius of the electron's orbit in the first excited state can be determined using the following approach:</p>\n<p><p>The radius  $r$  in a magnetic field is expressed as:</p>\n<p> $r=\\frac{mv}{eB}$ </p>\n<p>where  $m$  is the mass of the electron,  $v$  is its velocity,  $e$  is its charge, and  $B$  is the magnetic field strength.</p></p>\n<p><p>According to Bohr's quantization condition:</p>\n<p> $mvr=\\frac{nℎ}{2\\pi}$ </p>\n<p>Substituting the expression for  $r$ :</p>\n<p> $(eBr)r=\\frac{nℎ}{2\\pi}$ </p>\n<p>This simplifies to the expression for the radius:</p>\n<p> $r=\\sqrt{\\frac{nℎ}{2\\pi eB}}$ </p></p>\n<p><p>In the first excited state, the principal quantum number  $n$  is 2. So, the radius becomes:</p>\n<p> $r=\\sqrt{\\frac{2ℎ}{2\\pi eB}}=\\sqrt{\\frac{ℎ}{\\pi eB}}$  </p></p>\n<p>Thus, for the first excited state, the radius of the electron's orbit is  $\\sqrt{\\frac{ℎ}{\\pi eB}}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:05.908391"
     },
@@ -1918,7 +1917,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a charged particle moving perpendicular to a uniform magnetic field, it performs <strong>uniform circular motion</strong>.</p>\n<p>The time taken to return to the original position for the first time is the <strong>time period</strong> of circular motion:</p>\n<p> $T=\\frac{2\\pi m}{qB}$ </p>\n<p>Now substitute the given values.</p>\n<h3>Given:</h3>\n<p> $q=1.6\\mu C=1.6 \\times 10^{-6}C$ </p>\n<p> $m=16\\mu g=16 \\times 10^{-9}kg$ </p>\n<p>because</p>\n<p> $1\\mu g=10^{-9}kg$ </p>\n<p>and</p>\n<p> $B=6.28T$ </p>\n<p>Using</p>\n<p> $T=\\frac{2\\pi m}{qB}$ </p>\n<p> $T=\\frac{2 \\times 3.14 \\times 16 \\times 10^{-9}}{1.6 \\times 10^{-6} \\times 6.28}$ </p>\n<p>Now simplify:</p>\n<p>Since</p>\n<p> $2 \\times 3.14=6.28$ </p>\n<p> $T=\\frac{6.28 \\times 16 \\times 10^{-9}}{1.6 \\times 10^{-6} \\times 6.28}$ </p>\n<p>Cancel  $6.28$  from numerator and denominator:</p>\n<p> $T=\\frac{16 \\times 10^{-9}}{1.6 \\times 10^{-6}}$ </p>\n<p> $T=\\frac{16}{1.6} \\times 10^{-3}$ </p>\n<p> $T=10 \\times 10^{-3}$ </p>\n<p> $T=10^{-2}s$ </p>\n<p>So, the required time is</p>\n<p> $0.01\\text{s}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Hard",
       "key_formulas": [
         "(\\pi=3.14)",
@@ -1929,7 +1928,7 @@
         "B=6.28T"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:35.008181"
     },
@@ -2245,11 +2244,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's analyze each statement in detail to determine the correct answer:</p>\n<p><strong>Statement (I) :</strong> \"When currents vary with time, Newton's third law is valid only if momentum carried by the electromagnetic field is taken into account.\" This statement is true. According to physics, particularly when dealing with electromagnetism and Maxwell's equations, the momentum of the electromagnetic field plays a critical role in conserving momentum in systems where electromagnetic forces are at play. In situations where electric and magnetic fields vary with time, they can carry momentum. Thus, for the conservation laws to hold, including Newton's third law which states that for every action, there is an equal and opposite reaction, the momentum carried by the electromagnetic fields must be included. This is essential in scenarios such as radiation pressure where light (which can be considered an electromagnetic wave) exerts pressure on surfaces, thereby imparting momentum.</p>\n<p><strong>Statement (II) :</strong> \"Ampere's circuital law does not depend on Biot-Savart's law.\" This statement is false. Historically and mathematically, Ampère's Circuital Law and Biot-Savart Law are closely related in the context of classical electromagnetism. Ampère's Law, particularly in its integral form, relates the integrated magnetic field around a closed loop to the electric current passing through the loop. Biot-Savart Law, on the other hand, is used to calculate the magnetic field generated by a current-carrying element at a point in space. Although Ampère's Law can be derived without directly invoking the Biot-Savart Law, the fundamental understanding and derivations of magnetic fields due to currents, as presented in many textbooks and formulations, show that both laws are manifestations of how moving charges produce magnetic fields. Moreover, the formulation of Ampère's Law was later extended by Maxwell (Maxwell's addition) to include the concept of displacement current, linking it more fundamentally to the changing electric fields and closing a conceptual loop that ties it to the broader electromagnetic theory that includes the effects described by the Biot-Savart Law.</p>\n<p>Given the above explanations:</p>\n<p>Option D (Statement I is true but Statement II is false) is the correct answer.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:07.322204"
     },
@@ -2471,7 +2470,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the ratio of the magnetic field at  $\\frac{a}{2}$  and  $2a$  distances from the axis of a long straight wire, we use Ampère's Law, which relates the magnetic field around a current-carrying conductor to the current enclosed by it.</p>\n<p>Ampère’s Law is given by:</p>\n<p> $∮\\vec{B} \\cdot d\\vec{l}=\\mu_{0}I_{\\text{enc}}$ </p>\n<p>where:</p>\n<p> $\\vec{B}$  is the magnetic field,</p>\n<p> $\\mu_{0}$  is the permeability of free space,</p>\n<p> $I_{\\text{enc}}$  is the enclosed current.</p>\n<p>For a point inside the wire (at radius  $r=a/2$ ):</p>\n<p>The current enclosed by a radius  $r$  is proportional to the area of the cross-section at radius  $r$ .</p>\n<p>The area of the cross-section at radius  $r$  is given by:</p>\n<p> $\\pi(\\frac{a}{2})^{2}=\\frac{\\pi a^{2}}{4}$ </p>\n<p>The total current  $I$  is uniformly distributed, thus the current enclosed  $I_{\\text{enc}}$  at radius  $r=\\frac{a}{2}$  is:</p>\n<p> $I_{\\text{enc}}=I \\times \\frac{\\text{Area enclosed}}{\\text{Total area}}=I \\times \\frac{\\frac{\\pi a^{2}}{4}}{\\pi a^{2}}=\\frac{I}{4}$ </p>\n<p>Applying Ampère’s Law inside the conductor, we get:</p>\n<p> $B \\cdot 2\\pi(\\frac{a}{2})=\\mu_{0}(\\frac{I}{4})$ </p>\n<p>So,</p>\n<p> $B \\cdot \\pi a=\\frac{\\mu_{0}I}{4}$ </p>\n<p>Therefore, the magnetic field inside the wire at  $r=\\frac{a}{2}$  is:</p>\n<p> $B_{\\frac{a}{2}}=\\frac{\\mu_{0}I}{4\\pi a}$ </p>\n<p>For a point outside the wire (at radius  $r=2a$ ):</p>\n<p>The total current enclosed by a radius  $r=2a$  is the entire current  $I$ .</p>\n<p>Applying Ampère’s Law outside the conductor, we get:</p>\n<p> $B \\cdot 2\\pi(2a)=\\mu_{0}I$ </p>\n<p>So,</p>\n<p> $B \\cdot 4\\pi a=\\mu_{0}I$ </p>\n<p>Therefore, the magnetic field outside the wire at  $r=2a$  is:</p>\n<p> $B_{2a}=\\frac{\\mu_{0}I}{4\\pi a}$ </p>\n<p>Hence, the ratio of the magnetic field at  $\\frac{a}{2}$  and  $2a$  is:</p>\n<p> $\\frac{B_{\\frac{a}{2}}}{B_{2a}}=\\frac{\\frac{\\mu_{0}I}{4\\pi a}}{\\frac{\\mu_{0}I}{4\\pi a}}=1:1$ </p>\n<p>So, the correct option is:</p>\n<p>Option C:  $1:1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{a}{2}",
@@ -2482,7 +2481,7 @@
         "r=a/2"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:07.396822"
     },
@@ -2764,13 +2763,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsiipawi/c2ee55fb-a339-4a52-9686-5e1d94c5e2cf/ec3b7520-c96a-11ee-b416-eff853096672/file-6y3zli1lsiipawj.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "2 \\times 10^{-3}T"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:08.826941"
     },
@@ -2816,7 +2815,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Net force on particle must be zero i.e.\n $q\\vec{E}+q\\vec{V} \\times \\vec{B}=0$ </p>\n<p>Possible cases are</p>\n<p>(i)  $\\vec{E}&amp;\\vec{B}=0$ </p>\n<p>(ii)  $\\vec{V} \\times \\vec{B}=0,\\vec{E}=0$ </p>\n<p>(iii)  $q\\vec{E}=-q\\vec{V} \\times \\vec{B}$ </p>\n<p> $\\vec{E} \\ne 0&amp;\\vec{B} \\ne 0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{E}",
@@ -2827,7 +2826,7 @@
         "q\\vec{E}+q\\vec{V} \\times \\vec{B}=0"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:09.777911"
     },
@@ -2852,7 +2851,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Magnetic moment is defined as the product of the magnet's pole strength and the distance between the poles (also known as the magnetic length). When a magnetic strip is bent, its magnetic moment changes based on the new configuration.</p>\n<p>Consider a straight magnetic strip with a magnetic moment of  $44\\text{Am}^{2}$ . If this strip is bent into a semicircular shape, we need to find the new effective magnetic moment.</p>\n<p>The magnetic moment in a straight strip is given by:</p>\n<p> $M_{\\text{straight}}=m \\cdot l$ </p>\n<p>where:</p>\n<ul>\n<li> $m$  is the pole strength</li>\n<li> $l$  is the magnetic length</li>\n</ul>\n<p>Given  $M_{\\text{straight}}=44\\text{Am}^{2}$ , let's now consider the strip bent into a semicircular shape.</p>\n<p>When the strip is bent into a semicircle, the effective distance between the magnetic poles is the diameter of the semicircle. Let's denote the original length of the strip as  $L$ . In a straight line, this length  $L$  is also the magnetic length. When bent into a semicircle, the length of the arc of the semicircle is still  $L$ .</p>\n<p>The circumference of a full circle is given by:</p>\n<p> $C=2\\pi R$ </p>\n<p>Therefore, the length of the arc of a semicircle is:</p>\n<p> $L=\\pi R$ </p>\n<p>Solving for  $R$ , we get:</p>\n<p> $R=\\frac{L}{\\pi}$ </p>\n<p>The diameter of the semicircle (which is the new effective magnetic length,  $l_{\\text{new}}$ ) is twice the radius:</p>\n<p> $l_{\\text{new}}=2R=2 \\cdot \\frac{L}{\\pi}=\\frac{2L}{\\pi}$ </p>\n<p>Now, the new magnetic moment  $M_{\\text{new}}$  is:</p>\n<p> $M_{\\text{new}}=m \\cdot l_{\\text{new}}=m \\cdot \\frac{2L}{\\pi}$ </p>\n<p>We know from the original magnetic strip:</p>\n<p> $M_{\\text{straight}}=m \\cdot L=44\\text{Am}^{2}$ </p>\n<p>Rewriting  $m$  in terms of the known magnetic moment of the straight strip:</p>\n<p> $m=\\frac{44}{L}$ </p>\n<p>Substituting  $m$  into the new magnetic moment equation:</p>\n<p> $M_{\\text{new}}=\\frac{44}{L} \\cdot \\frac{2L}{\\pi}$ </p>\n<p>Canceling out  $L$  from the numerator and the denominator:</p>\n<p> $M_{\\text{new}}=\\frac{44 \\cdot 2}{\\pi}=\\frac{88}{\\pi}$ </p>\n<p>Given  $\\pi=\\frac{22}{7}$ , we substitute this value into the equation:</p>\n<p> $M_{\\text{new}}=\\frac{88 \\cdot 7}{22}=28\\text{Am}^{2}$ </p>\n<p>Therefore, the magnetic moment of the strip when bent into a semicircular shape is  $28\\text{Am}^{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Hard",
       "key_formulas": [
         "44Am^{2}",
@@ -2863,7 +2862,7 @@
         "28\\text{Am}^{2}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:36.166632"
     },
@@ -2888,7 +2887,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the work done in turning the coil through  $90^{\\circ}$ , we first need to understand the concept of torque on a current-carrying loop in a magnetic field and how work done relates to the change in potential energy of the system. The potential energy (U) of a magnetic dipole in a magnetic field is given by:</p>\n<p> $U=-\\vec{M} \\cdot \\vec{B}$ </p>\n<p>where:</p>\n<ul>\n<li> $\\vec{M}$  is the magnetic moment of the coil, and</li>\n<li> $\\vec{B}$  is the magnetic field.</li>\n</ul>\n<p>For a coil with  $N$  turns, carrying current  $I$ , and with an area  $A$ , the magnetic moment  $\\vec{M}$  is defined as:</p>\n<p> $M=NI \\cdot A$ </p>\n<p>Given that the coil has  $100$  turns, carries a current of  $1mA=1 \\times 10^{-3}A$ , and the area of the coil is  $5 \\times 10^{-3}m^{2}$ , we can calculate its magnetic moment as follows:</p>\n<p> $M=100 \\cdot 1 \\times 10^{-3} \\cdot 5 \\times 10^{-3}=0.5 \\times 10^{-3}Am^{2}$ </p>\n<p>Since the coil is initially placed such that its plane is perpendicular to the magnetic field (i.e., the angle  $\\theta=0^{\\circ}$ ), and then it is turned through  $90^{\\circ}$ , the initial and final angles ( $\\theta_{i}$  and  $\\theta_{f}$ ) of the coil with respect to the magnetic field are  $0^{\\circ}$  and  $90^{\\circ}$  respectively. This means the initial potential energy ( $U_{i}$ ) and final potential energy ( $U_{f}$ ) of the system are:</p>\n<p> $U_{i}=-MBcos(\\theta_{i})$ </p>\n<p> $U_{f}=-MBcos(\\theta_{f})$ </p>\n<p>Given that  $B=0.20T$ ,  $\\theta_{i}=0^{\\circ}(cos(0)=1)$ , and  $\\theta_{f}=90^{\\circ}(cos(90^{\\circ})=0)$ , the potential energies are:</p>\n<p> $U_{i}=-0.5 \\times 10^{-3} \\cdot 0.20 \\cdot 1=-1 \\times 10^{-4}J$ </p>\n<p> $U_{f}=-0.5 \\times 10^{-3} \\cdot 0.20 \\cdot 0=0J$ </p>\n<p>The work done ( $W$ ) is equal to the change in potential energy:</p>\n<p> $W=U_{f}-U_{i}$ </p>\n<p> $W=0-(-1 \\times 10^{-4})=1 \\times 10^{-4}J$ </p>\n<p>Therefore, the work done in turning the coil through  $90^{\\circ}$  is  $100\\mu J$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Hard",
       "key_formulas": [
         "5 \\times 10^{-3}m^{2}",
@@ -2899,7 +2898,7 @@
         "\\theta=0^{\\circ}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:37.079966"
     },
@@ -2926,14 +2925,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv1so3ej/c47b339c-4f07-495d-9d1f-e052f6a01154/3904b0b0-fb9d-11ee-aecf-73c37d9c3a58/file-1lv1so3ek.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "is __________. At point",
         "B_{A}=\\frac{\\mu_{0}I}{2\\pi r}+\\frac{\\mu_{0}(2I)}{2\\pi(3r)}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:37.573201"
     },
@@ -3036,11 +3035,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The magnetic field due to a current carrying wire can be calculated using Ampere's law. When the current is uniformly distributed across the cross-section of the wire, the situation will be different inside and outside the wire.</p>\n<p>Inside the wire (r &lt; a), the magnetic field is directly proportional to r (the distance from the center of the wire). This is because as you move away from the center of the wire, you enclose more current, so the magnetic field increases linearly with r.</p>\n<p>Outside the wire (r &gt; a), all the current in the wire is enclosed, so the magnetic field decreases with increasing r. This is a result of the magnetic field lines spreading out as they move away from the wire.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:11.029756"
     },
@@ -3193,7 +3192,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because \\theta=(\\frac{NBA}{K})I$ \n<br/><br/>\n $\\begin{aligned} A &amp; =\\frac{\\theta K}{NBI} \\\\ \\\\ &amp; =\\frac{0.05 \\times 4 \\times 10^{-5}}{(200) \\times (0.01) \\times (10 \\times 10^{-3})} \\\\ \\\\ &amp; =1cm^{2} \\end{aligned}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "4.0 \\times 10^{-5}Nmrad^{-1}",
@@ -3201,7 +3200,7 @@
         "\\because \\theta=(\\frac{NBA}{K})I"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:12.827955"
     },
@@ -3249,11 +3248,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le1jbhf8/43f020d0-7d07-44c2-9c0d-b5a53dd02ca4/fab9ab40-aae8-11ed-b71e-0f88f2caf2c9/file-1le1jbhf9.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:13.384357"
     },
@@ -3576,7 +3575,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The magnetic field inside a solenoid is uniform and parallel to the axis of the solenoid. When an electron moves with constant velocity along the axis of the solenoid, the angle between its velocity vector and the magnetic field is 0°.</p>\n<p>The magnetic force experienced by a moving charge is given by the Lorentz force formula:</p>\n<p> $\\vec{F}=q(\\vec{v} \\times \\vec{B})$ </p>\n<p>Since the angle between the velocity vector and the magnetic field is 0°, the cross product term becomes zero:</p>\n<p> $\\vec{v} \\times \\vec{B}=0$ </p>\n<p>Therefore, the magnetic force experienced by the electron is also zero:</p>\n<p> $\\vec{F}=0$ </p>\n<p>As a result, the electron will not experience any magnetic force (Option B) and will continue to move along the axis of the solenoid with constant velocity (Option C).</p>\n<p>Thus, the correct answer is:</p>\n<p>B and C only</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}=q(\\vec{v} \\times \\vec{B})",
@@ -3584,7 +3583,6 @@
         "\\vec{F}=0"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law",
         "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:10.258523"
@@ -3633,11 +3631,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ldosjkk0/35b528c7-cdf5-4f0f-bbeb-13dfa094736b/dd569d00-a3e6-11ed-bf36-9572993cebd7/file-1ldosjkk1.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:11.135772"
     },
@@ -3742,11 +3740,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1leyppydm/a49ed501-87f3-41e8-b71b-ed6fd4eb0db5/e15b3aa0-bd27-11ed-b3fe-cdb5b674c004/file-1leyppydn.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:12.297522"
     },
@@ -4109,14 +4107,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $NiAB=k\\theta$ </p>\n<p> $\\Rightarrow \\frac{\\theta}{i}=\\frac{NAB}{k}$ </p>\n<p> $\\Rightarrow$  Sensitivity increases if  $B↑$  and  $k↓$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "NiAB=k\\theta",
         "\\Rightarrow \\frac{\\theta}{i}=\\frac{NAB}{k}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:13.903720"
     },
@@ -4441,7 +4439,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6tbdcod/845bf8c4-f082-43db-bad7-d9af4079c231/1ccbe1d0-1bce-11ed-bd9f-71db3a4811b2/file-1l6tbdcoe.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7e980jx/74287a5b-9bac-4113-b5cb-b03b67df1fb8/2bc3b0c0-2752-11ed-a077-1f1e3989e798/file-1l7e980jy.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "B=\\frac{\\mu_{0}I_{1}}{2\\pi d}=\\frac{\\mu_{0} \\times 3}{2\\pi \\times 0.05}",
@@ -4452,7 +4450,7 @@
         "F_{XY}=1.2 \\times 10^{-5}N"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:13.404275"
     },
@@ -4613,14 +4611,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>As B<sub>net</sub>  $\\ne$  0 that is the wires are carrying current in opposite direction.</p>\n<p> $\\frac{\\mu_{0}I \\times 2}{2\\pi(4 \\times 10^{-2})}=30 \\times 10^{-6}$  T</p>\n<p> $\\Rightarrow I=\\frac{30 \\times 10^{-6}}{10^{-6}}$  A = 30 A in opposite direction.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\mu_{0}I \\times 2}{2\\pi(4 \\times 10^{-2})}=30 \\times 10^{-6}",
         "\\Rightarrow I=\\frac{30 \\times 10^{-6}}{10^{-6}}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:15.001237"
     },
@@ -5050,7 +5048,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\therefore$   $r=\\frac{mv}{qB}=\\frac{\\sqrt{2m(KE)}}{qB}$ </p>\n<p> $\\Rightarrow r_{1}:r_{2}:r_{3}=\\frac{\\sqrt{m_{1}}}{q_{1}}:\\frac{\\sqrt{m_{2}}}{q_{2}}:\\frac{\\sqrt{m_{3}}}{q_{3}}$ </p>\n<p> $=\\frac{\\sqrt{1}}{1}:\\frac{\\sqrt{2}}{1}:\\frac{\\sqrt{4}}{2}$ </p>\n<p> $=1:\\sqrt{2}:1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "r=\\frac{mv}{qB}=\\frac{\\sqrt{2m(KE)}}{qB}",
@@ -5058,7 +5056,7 @@
         "=1:\\sqrt{2}:1"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:16.042025"
     },
@@ -5331,14 +5329,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $R=\\frac{mv}{qB}$ \n<br/><br/> $\\frac{R_{\\alpha}}{R_{P}}=\\frac{M_{\\alpha}}{M_{P}} \\times \\frac{q_{P}}{q_{\\alpha}}$ \n<br/><br/> $\\frac{R_{\\alpha}}{R_{P}}=\\frac{4}{1} \\times \\frac{1}{2}=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "R=\\frac{mv}{qB}",
         "\\frac{R_{\\alpha}}{R_{P}}=\\frac{4}{1} \\times \\frac{1}{2}=2"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:15.528680"
     },
@@ -5440,7 +5438,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktqsmvwg/2dd647d2-b2bf-4882-ba9f-cbac75e311ee/77403000-190c-11ec-9e1c-4f8f7e7dad5b/file-1ktqsmvwh.png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{1}(2\\pi x)=\\mu_{0}(\\frac{i_{0}}{\\pi a^{2}})\\pi x^{2}",
@@ -5450,7 +5448,7 @@
         "B_{2}=\\frac{\\mu_{0}i_{0}}{2\\pi x}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:17.676258"
     },
@@ -5496,13 +5494,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $R=\\frac{mv}{qB} \\Rightarrow \\frac{R_{1}}{R_{2}}=\\frac{\\frac{mv_{1}}{q_{1}B}}{\\frac{mv_{2}}{q_{2}B}}=\\frac{v_{1}}{q_{1}} \\times \\frac{q_{2}}{v_{2}}=\\frac{q_{2}}{q_{1}} \\times \\frac{v_{1}}{v_{2}}$ <br/><br/> $=\\frac{2}{1} \\times (\\frac{2}{3})=\\frac{4}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{2}{1} \\times (\\frac{2}{3})=\\frac{4}{3}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:18.438700"
     },
@@ -5598,7 +5596,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->F = qvB = q $\\frac{p}{m}$ B<br/><br/>F  $∝$   $\\frac{q}{m}$  [as p, B are const.]<br/><br/> $\\therefore$  F<sub>1</sub> : F<sub>2</sub> : F<sub>3</sub><br/><br/>=  $\\frac{e}{m}:\\frac{e}{2m}:\\frac{2e}{4m}$ <br/><br/>= 2 : 1 : 1<br/><br/>And v<sub>1</sub> : v<sub>2</sub> : v<sub>3</sub><br/><br/>=  $\\frac{p}{m}:\\frac{p}{2m}:\\frac{p}{4m}$ <br/><br/>= 4 : 2 : 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{p}{m}",
@@ -5607,7 +5605,7 @@
         "\\frac{p}{m}:\\frac{p}{2m}:\\frac{p}{4m}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:20.154944"
     },
@@ -5772,7 +5770,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, kinetic energy of  $\\alpha$ -particle (K<sub> $\\alpha$ </sub>) = kinetic energy of deuteron (K<sub>d</sub>)<br/><br/>Since, kinetic energy, K =  $\\frac{1}{2}$  mv<sup>2</sup><br/><br/> $\\Rightarrow$  mv<sup>2</sup> = 2K  $\\Rightarrow$  v<sup>2</sup> =  $\\frac{2K}{m}$ <br/><br/> $\\Rightarrow$  v =  $\\sqrt{\\frac{2K}{m}}$  .... (i)<br/><br/>We know that,<br/><br/>r =  $\\frac{mv}{Bq}$  .... (ii)<br/><br/>where, r = radius of curvature of path of a charged particle, m = mass of the charged particle, q = charge of the particle, v = velocity of charged particle and B = magnetic field.<br/><br/>From Eqs. (i) and (ii), we get<br/><br/> $r=\\frac{m\\sqrt{\\frac{2K}{m}}}{Bq}$ <br/><br/> $\\Rightarrow r=\\frac{\\sqrt{2Km}}{Bq}$  .... (iii)<br/><br/>Since, m, K and B are same for both deuteron and  $\\alpha$ -particle.<br/><br/>From Eq. (iii), we get<br/><br/> $\\gamma∝\\frac{\\sqrt{m}}{q}$ <br/><br/> $\\therefore$   $\\frac{r_{d}}{r_{\\alpha}}=\\sqrt{\\frac{m_{d}}{m_{\\alpha}}}.\\frac{q_{\\alpha}}{q_{d}}=\\sqrt{\\frac{2}{4}}(\\frac{2}{1})$  <br/><br/>[ $\\because$  m<sub>d</sub> = 2m<sub>p</sub> and m<sub> $\\alpha$ </sub> = 4m<sub>p</sub><br/><br/>q<sub> $\\alpha$ </sub> = 2e and q<sub>d</sub> = e.]<br/><br/> $\\frac{r_{d}}{r_{\\alpha}}=\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{r_{d}}{r_{\\alpha}}",
@@ -5783,7 +5781,7 @@
         "r=\\frac{m\\sqrt{\\frac{2K}{m}}}{Bq}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:18.458274"
     },
@@ -6002,7 +6000,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $B_{axis}=\\frac{\\mu_{0}iR^{2}}{2(R^{2}+x^{2})^{3/2}}$ <br/><br/> $B_{centre}=\\frac{\\mu_{0}i}{2R}$ <br/><br/> $\\therefore$   $B_{centre}=\\frac{\\mu_{0}i}{2a}$ <br/><br/> $\\therefore$   $B_{axis}=\\frac{\\mu_{0}ia^{2}}{2(a^{2}+r^{2})^{3/2}}$ <br/><br/> $\\therefore$  fractional change in magnetic field =<br/><br/> $\\frac{\\frac{\\mu_{0}i}{2a}-\\frac{\\mu_{0}ia^{2}}{2(a^{2}+r^{2})^{3/2}}}{\\frac{\\mu_{0}i}{2a}}=1-\\frac{1}{[1+(\\frac{r^{2}}{a^{2}})]^{3/2}}$ <br/><br/> $\\approx 1-[1-\\frac{3}{2}\\frac{r^{2}}{a^{2}}]=\\frac{3}{2}\\frac{r^{2}}{a^{2}}$ <br/><br/>Note :  $(1+\\frac{r^{2}}{a^{2}})^{-3/2} \\approx (1-\\frac{3}{2}\\frac{r^{2}}{a^{2}})$ <br/><br/>[True only if r &lt;&lt; a]<br/><br/>Hence, option (d) is the most suitable option.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{axis}=\\frac{\\mu_{0}iR^{2}}{2(R^{2}+x^{2})^{3/2}}",
@@ -6013,7 +6011,7 @@
         "(1+\\frac{r^{2}}{a^{2}})^{-3/2} \\approx (1-\\frac{3}{2}\\frac{r^{2}}{a^{2}})"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:17.735498"
     },
@@ -6341,7 +6339,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know,<br/><br/> $\\vec{F}=q(\\vec{v} \\times \\vec{B})$ <br/><br/> $\\therefore$   $\\vec{F}\\perp\\vec{v}$  and  $\\vec{F}\\perp\\vec{B}$ <br/><br/>Power (p)  $=\\frac{dw}{dt}$ <br/><br/> $=\\frac{\\vec{F}.\\vec{dl}}{dt}$ <br/><br/> $=\\vec{F}.\\frac{\\vec{dl}}{dt}$ <br/><br/> $=\\vec{F}.\\vec{v}$ <br/><br/> $=Fvcos\\theta$ <br/><br/> $=Fvcos90^{\\circ}$ <br/><br/> $=0$ <br/><br/>As power supply by the field is zero so, total work done also zero.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{dl}",
@@ -6352,7 +6350,7 @@
         "=\\frac{dw}{dt}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:19.173728"
     },
@@ -6566,7 +6564,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\tau$  = - MBsin  $\\theta$ \n<br/><br/>I $\\alpha$  = - MBsin  $\\theta$ \n<br/><br/>for small  $\\theta$ ,\n<br/><br/> $\\alpha$  =  $-\\frac{MB}{I}\\theta$ \n<br/><br/> $\\therefore$   $\\omega^{2}$  =  $\\frac{MB}{I}$ \n<br/><br/> $\\Rightarrow$   $\\omega$  =  $\\sqrt{\\frac{I(\\pi R^{2})B}{\\frac{mR^{2}}{2}}}$  =  $\\sqrt{\\frac{2I\\pi B}{m}}$ \n<br/><br/> $\\therefore$  T =  $\\frac{2\\pi}{\\omega}$  =  $\\sqrt{\\frac{2\\pi m}{IB}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{MB}{I}\\theta",
@@ -6577,7 +6575,7 @@
         "\\sqrt{\\frac{2I\\pi B}{m}}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:23.060981"
     },
@@ -6625,7 +6623,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kd4dk6nk8vfo/2ce8245d-d0bc-4fc0-a026-7e55f2b5a49c/54ddce40-4fec-11ea-b62d-51ccc5d4afb6/file-7kd4dk6nk8vfp-361w.jpg"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}mv^{2}",
@@ -6634,7 +6632,7 @@
         "\\sqrt{2} \\times 10^{7}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:23.606732"
     },
@@ -6682,7 +6680,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukguh46xk/3eedafde-5784-4926-9bda-b995cb6ca9f5/bda63980-19b3-11eb-8293-3b6cc591631c/file-jgy2xukguh46xl-423w.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -6693,7 +6691,7 @@
         "q\\vec{E}+q\\vec{V} \\times \\vec{B}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:20.805271"
     },
@@ -6855,7 +6853,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5ifai7t/41d48ff4-5379-4d83-9d5a-c6474ec4cb47/d2008a90-394c-11ea-92dd-4b9c3519996f/file-7k9k2k5ifai7u-277w.jpg"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "E\\vec{i}",
@@ -6866,7 +6864,7 @@
         "\\frac{3}{4}(\\frac{mv^{3}}{a})"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:23.082812"
     },
@@ -6912,7 +6910,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Electric field will increase the speed of particle in x direction.\n<br/><br/>F<sub>x</sub> = qE\n<br/><br/> $\\therefore$  a =  $\\frac{qE}{m}$ \n<br/><br/>Also v<sub>x</sub> = at =  $\\frac{qE}{m}$ t\n<br/><br/> $v_{x}^{2}+v_{y}^{2}=v^{2}$ \n<br/><br/> $\\Rightarrow$   $v_{x}^{2}+v_{0}^{2}=(2v_{0})^{2}$ \n<br/><br/> $\\Rightarrow$  v<sub>x</sub> =  $\\sqrt{3}$ v<sub>0</sub>\n<br/><br/> $\\therefore$   $\\frac{qE}{m}$ t =  $\\sqrt{3}$ v<sub>0</sub>\n<br/><br/> $\\Rightarrow$  t =  $\\frac{\\sqrt{3}mv_{0}}{qE_{0}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{v}=v_{0}\\hat{j}",
@@ -6923,7 +6921,7 @@
         "v_{x}^{2}+v_{0}^{2}=(2v_{0})^{2}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:23.623453"
     },
@@ -6972,7 +6970,7 @@
         "https://imagex.cdn.examgoal.net/jgy2xukgm8i0js/451ee02b-1484-44d2-a35b-7ed72ff86325/c6b06c80-152b-11eb-8293-3b6cc591631c/file-jgy2xukgm8i0jt-406w.png",
         "https://imagex.cdn.examgoal.net/jgy2xukgm8kmb6/d20babcb-00eb-4595-8ae3-cf4a82e39d94/0f1dfd20-152c-11eb-8293-3b6cc591631c/file-jgy2xukgm8kmb7-411w.png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "x=a",
@@ -6983,7 +6981,7 @@
         "B_{a} \\approx \\frac{\\mu_{0}I}{2\\pi b}(1-\\frac{a}{b})"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:20.198290"
     },
@@ -7084,7 +7082,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kk1f4nn3/4331f316-f8fa-403b-8f27-c8f66310eb1b/1afafce0-58ea-11eb-ba23-f72763da8ff4/file-1kk1f4nn4-431w.png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\mu_{0}I}{\\pi}",
@@ -7095,7 +7093,7 @@
         "B=\\frac{\\mu_{0}IN}{4\\pi d}(sin\\theta_{1}+sin\\theta_{2})"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:21.572128"
     },
@@ -7196,7 +7194,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kd4dk62hqyic/4f180996-780a-4f6e-8b2c-851d02bfc61f/1ac7cf40-4456-11ea-b62d-51ccc5d4afb6/file-7kd4dk62hqyid-268w.jpg"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{a}{3}",
@@ -7205,7 +7203,7 @@
         "\\frac{B_{P}}{B_{Q}}=\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:23.102088"
     },
@@ -7253,7 +7251,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jgy2xukgm7h2se/2e17516b-bb7c-4465-a8e0-07db58eb6695/c37b07e0-1527-11eb-8293-3b6cc591631c/file-jgy2xukgm7h2sf-392w.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}",
@@ -7264,7 +7262,7 @@
         "\\vec{M}=-\\frac{mv^{2}}{2B}\\hat{B}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:20.219443"
     },
@@ -7312,7 +7310,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kjv243gd/02612fa2-1081-4328-ae02-37221331ab3e/80cfd2d0-556a-11eb-8019-15fa055c4bb6/file-1kjv243ge-332w.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\tau=MBsin\\theta",
@@ -7321,7 +7319,7 @@
         "\\frac{2\\mu_{0}I^{2}a^{2}}{\\pi b}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:20.851285"
     },
@@ -7367,7 +7365,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,\n<br/><br/> $\\vec{V}$  =  $(2\\hat{i}+3\\hat{j}+4\\hat{k})$  ms<sup>–1</sup>\n<br/><br/> $\\vec{B}$  =  $(5\\hat{i}+3\\hat{j}-6\\hat{k})$ × 10<sup>–3</sup> T\n<br/><br/>q = 1  $\\mu$ C\n<br/><br/> $\\vec{F}=q(\\vec{V} \\times \\vec{B})$ \n<br/><br/>=  $10^{-6} \\times 10^{-3} \\times |\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; 3 &amp; 4 \\\\ 5 &amp; 3 &amp; -6 \\end{aligned}|$ \n<br/><br/>= ( $-30\\hat{i}+32\\hat{j}-9\\hat{k}$ )  $\\times$  10<sup>-9</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{F}",
@@ -7377,7 +7375,7 @@
         "= ("
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:21.593720"
     },
@@ -7538,7 +7536,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $B=\\frac{\\mu_{0}i}{2a}\\frac{\\omega q}{2\\pi}=i$ <br/><br/>\n $B=\\frac{\\mu_{0}}{2a}.\\frac{\\omega q}{2\\pi}$ <br/><br/>\n $B=\\frac{10^{-7} \\times 40}{0.1} \\times q \\times \\pi$ <br/><br/>\n $\\Rightarrow q=3 \\times 10^{-5}C$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "B=\\frac{\\mu_{0}i}{2a}\\frac{\\omega q}{2\\pi}=i",
@@ -7547,7 +7545,7 @@
         "\\Rightarrow q=3 \\times 10^{-5}C"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:24.473471"
     },
@@ -7593,14 +7591,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $r=\\frac{mv}{qB}=\\frac{\\sqrt{2mK}}{qB}$ <br/><br/>\n $r_{He}=r_{p}&gt;r_{e}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "r=\\frac{mv}{qB}=\\frac{\\sqrt{2mK}}{qB}",
         "r_{He}=r_{p}>r_{e}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:24.981747"
     },
@@ -7920,14 +7918,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->NIAB = KQ<br/><br/>\n175 × 1 × 10<sup>–3</sup> × 1 × 10<sup>–4</sup> × B =  $\\frac{10^{-6} \\times \\pi}{180}$ <br/><br/>\n $\\Rightarrow B=\\frac{\\pi}{180} \\times \\frac{10}{175} \\approx 9.97 \\times 10^{-4}T$ <br/><br/>\n $\\Rightarrow$  B = 10<sup>–3</sup> T<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{10^{-6} \\times \\pi}{180}",
         "\\Rightarrow B=\\frac{\\pi}{180} \\times \\frac{10}{175} \\approx 9.97 \\times 10^{-4}T"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:25.000873"
     },
@@ -8035,7 +8033,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1da9i2ynke17oapb/f7558c70-f5cd-421a-84a6-c5adac618302/a7dcdbf0-e203-11ea-b796-4745b429ed6f/file-1da9i2ynke17oapc-440w.jpg"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}=B\\hat{z}",
@@ -8046,7 +8044,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:26.197625"
     },
@@ -8148,7 +8146,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l8mgqn3i/89fea387-ce1c-415a-8640-29d29ba15751/0e38f8e0-3fa2-11ed-835d-8b6c97a43374/file-1l8mgqn3j.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\mu_{0}}{4\\pi} \\times \\frac{\\vec{M} \\times \\vec{d}}{d^{3}}",
@@ -8156,7 +8154,7 @@
         "\\frac{a^{2}}{d^{2}}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:27.324567"
     },
@@ -8264,14 +8262,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lj670g6j/203e8b10-11ee-48e9-971d-90abd28ae946/da751bb0-1075-11ee-a86a-a55b30b450d2/file-6y3zli1lj670g6k.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\pi(\\frac{2a}{\\pi})^{2}=\\frac{4a^{2}}{\\pi}",
         "m^{'}=IA^{'}=I\\frac{4a^{2}}{\\pi}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:24.513135"
     },
@@ -8598,7 +8596,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/3rsa0w2w9jwyu2kec/34e09438-ee30-4653-91bc-41f19f26798f/3621b840-9025-11e9-86c1-73f7f991b766/file-3rsa0w2w9jwyu2ked.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\mu_{0}I_{1}I}{2\\pi x}+\\frac{\\mu_{0}I_{2}I}{2\\pi(d-x)}=0",
@@ -8606,7 +8604,7 @@
         "\\Rightarrow x=\\frac{I_{1}d}{I_{1}-I_{2}}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:24.532447"
     },
@@ -8654,7 +8652,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/18hoxe66ijwhsjjiz/1e411011-e7c2-45dd-a814-e763aa2cd6b3/e8ea76b0-86c5-11e9-8081-1d558b7f1d26/file-18hoxe66ijwhsjjj0.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "I_{2}\\frac{\\mu_{0}I_{1}}{2\\pi a}a",
@@ -8663,7 +8661,7 @@
         "\\frac{\\mu_{0}I_{1}I_{2}}{4\\pi}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:25.041234"
     },
@@ -8876,7 +8874,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Dipole moment, M = IA\n<br/><br/>Let radius of circular loop = R\n<br/><br/> $\\therefore$  M  =  I  $\\times$   $\\pi$ R<sup>2</sup>\n<br/><br/>Later,  we keep current constant , \n<br/><br/>But dipole moment becomes double, let new radius = R<sub>1</sub>\n<br/><br/> $\\therefore$  2M  =  I  $\\times$   $\\pi$ R $_{1}^{2}$ \n<br/><br/> $\\Rightarrow$  2I $\\pi$ R<sup>2</sup>  =  I $\\pi$ R $_{1}^{2}$ \n<br/><br/> $\\Rightarrow$  R<sub>1</sub>  =   $\\sqrt{2}$  R\n<br/><br/>At the center of circular ring, the magnetic field, \n<br/><br/>B  =   $\\frac{\\mu_{0}I}{2R}$ \n<br/><br/> $\\therefore$  B<sub>1</sub>  =   $\\frac{\\mu_{0}I}{2R}$    and    B<sub>2</sub> =  $\\frac{\\mu_{0}I}{2 \\times (\\sqrt{2}R)}$ \n<br/><br/> $\\therefore$   $\\frac{B_{1}}{B_{2}}$   =    $\\frac{\\frac{\\mu_{0}I}{2R}}{\\frac{\\mu_{0}I}{2\\sqrt{2}R}}$ \n<br/><br/>=  $\\frac{2\\sqrt{2}}{2}$ \n<br/><br/>=  $\\sqrt{2}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B_{2}",
@@ -8887,7 +8885,7 @@
         "\\frac{\\mu_{0}I}{2 \\times (\\sqrt{2}R)}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:27.879698"
     },
@@ -9050,7 +9048,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7u7dvlx/b0f122a1-0471-464b-aac1-825e1b07d76e/86eeee60-3017-11ed-ab58-4f43f7f8c851/file-1l7u7dvly.png?format=png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "⎡⎣\\frac{\\mu_{0}NIR^{2}}{2(R^{2}+\\frac{R^{2}}{4})^{\\frac{3}{2}}}⎤⎦",
@@ -9058,7 +9056,7 @@
         "\\frac{8\\mu_{0}NI}{5^{\\frac{3}{2}}R}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:27.909065"
     },
@@ -9104,7 +9102,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->When a  charged particle moves in a magnetic field then the charged particle moves in a circular path.  So, \n<br/><br/> $\\frac{mv^{2}}{r}$  = Bqv\n<br/><br/> $\\Rightarrow$  r =  $\\frac{mv}{Bq}$ \n<br/><br/>We know kinetic energy,  K =  $\\frac{1}{2}$  mv<sup>2</sup>\n<br/><br/> $\\therefore$  mv =  $\\sqrt{2Km}$ \n<br/><br/> $\\therefore$  r =  $\\frac{\\sqrt{2Km}}{Bq}$ \n<br/><br/>According to the question, \n<br/><br/>K<sub>e</sub> (electron) = K<sub>p</sub> (proton) = K<sub> $\\alpha$ </sub>(Alpha particle) = K = constant, and all of them are in uniform magnetic field.\n<br/><br/> $\\therefore$  B = constant. \n<br/><br/> $\\therefore$  r  $∝$   $\\frac{\\sqrt{m}}{q}$ \n<br/><br/>For proton (<sub>1</sub>H<sup>1</sup>), mass = m, and charge = e \n<br/><br/> $\\therefore$  r<sub>p</sub>  $∝$   $\\frac{\\sqrt{m}}{e}$ \n<br/><br/>For alpha particle (<sub>2</sub>H<sup>4</sup>),\n<br/><br/>mass = 4m\n<br/><br/>and charge = 2e\n<br/><br/> $\\therefore$  r<sub> $\\alpha$ </sub>  $∝$   $\\frac{\\sqrt{4m}}{2e}$   $∝$   $\\frac{\\sqrt{m}}{e}$ \n<br/><br/> $\\therefore$  r<sub>p</sub> = r<sub> $\\alpha$ </sub>\n<br/><br/>For electron, \n<br/><br/>charge = e \n<br/><br/>and mass  (m<sub>e</sub>) = 9.1  $\\times$  10<sup> $-$ 31</sup> kg\n<br/><br/>and mass of proton = 1.67  $\\times$  10<sup> $-$ 27</sup> kg\n<br/><br/> $\\therefore$  mass of electron &lt; mass of proton.\n<br/><br/>r<sub>e</sub>  $∝$   $\\frac{\\sqrt{m_{e}}}{e}$  &lt; r<sub>p</sub>\n<br/><br/> $\\therefore$  r<sub>e</sub> &lt; r<sub>p</sub> = r<sub> $∝$ </sub><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "_{\\alpha}",
@@ -9115,7 +9113,7 @@
         "\\frac{\\sqrt{m}}{q}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:27.360831"
     },
@@ -9161,13 +9159,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In uniform magnetic field, the torque experienced by the magnetic dipole is   $\\tau$  = MB sin  $\\theta$ \n<br/><br/>Torque will be maximum when  $\\theta$  = 90<sup>o</sup>\n<br/><br/> $\\tau$ <sub>max</sub> = MB sin90<sup>o</sup> = MB \n<br/><br/>Potential energy of magnetic dipole, \n<br/><br/> $\\mu$  =  $-$  MB cos  $\\theta$ \n<br/><br/>at maximum torque, \n<br/><br/> $\\mu$  =  $-$  MB cos 90<sup>o</sup> = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "="
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:28.456925"
     },
@@ -9213,7 +9211,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here test charge experience no net force,  So, sum of electric and magnetic field is zero.\n<br/><br/> $\\therefore$  F<sub>e</sub> + F<sub>m</sub> = 0\n<br/><br/> $\\therefore$  F<sub>e</sub> =  $-$  q ( $\\vec{v}$   $\\times$   $\\vec{B})$ \n<br/><br/>=  $-$  qB<sub>0</sub>  $\\upsilon$ <sub>0</sub> [(3 $\\hat{i}$   $-$   $\\hat{j}$  +  2 $\\hat{k}$ )  $\\times$  ( $\\hat{i}$  + 2 $\\hat{j}$   $-$  4 $\\hat{k}$ )]\n<br/><br/>=  $-$  q $\\upsilon$ <sub>0</sub> B<sub>0</sub> (14 $\\hat{j}$  + 7 $\\hat{k}$ ) \n<br/><br/>Electric field produced by the charge q, \n<br/><br/> $\\vec{E}$  =  $\\frac{\\vec{F_{e}}}{q}$ \n<br/><br/>=  $\\frac{-q\\upsilon_{0}B_{0}(14\\hat{j}+7\\hat{k})}{q}$ \n<br/><br/>=  $-$   $\\upsilon$ <sub>0</sub>  B<sub>0</sub> (14  $\\hat{j}$  + 7  $\\hat{k}$ )<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}=B_{0}(\\hat{i}+2\\hat{j}-4\\hat{k})",
@@ -9224,7 +9222,7 @@
         "="
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:28.479734"
     },
@@ -9272,14 +9270,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kyl2xev0/ca028ecf-3aed-4c1d-9321-f76cbc6039c6/18471bc0-78e5-11ec-83c0-f7d0013bbaf7/file-1kyl2xev1.png?format=png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{F}=q(\\vec{v} \\times \\vec{B})",
         "\\vec{F}=-q_{0}(\\vec{v} \\times \\vec{B})"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:27.926531"
     },
@@ -9328,7 +9326,7 @@
         "https://imagex.cdn.examgoal.net/hNZbS7XNRRjtmaLiE/VW97fEuZ3zqn9wZFuJw9h91nj0lvh/YBPO7kE9kssc7j6r5Boau5/image.png",
         "https://imagex.cdn.examgoal.net/Rdo3IAkyROrkMIkQc/65BVCqOLrH4bDcbFh4YnfWArphLrC/0UYkOklQfUhSSl5yjCW3OI/image.svg"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{B_{A}}{B_{B}}",
@@ -9339,7 +9337,7 @@
         "B_{B}=4 \\times \\frac{\\mu_{0}}{4\\pi}\\frac{I}{a/2}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:29.257306"
     },
@@ -9611,7 +9609,7 @@
         "https://imagex.cdn.examgoal.net/dVIxXqre0xvNdBh44/CvPvTA32JGjJtktjg7G0Vrq78KME2/NOgpKdWqR3r1IE2j2IUyz7/image.png",
         "https://imagex.cdn.examgoal.net/vCPVZ6Qpj0sj4yLhD/g38UAMB36MCHFFqzpqiAtxKV9YrSM/TWeDkNX0xrH7Zpe9eK5pqC/image.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\int_{0}^{2}3.0 \\times 10^{-4}e^{-02x} \\times 10 \\times 3dx",
@@ -9622,7 +9620,7 @@
         "=9 \\times 10^{-3} \\times (0.33)=2.97 \\times 10^{-3}J"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:29.319083"
     },
@@ -9779,7 +9777,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/KzpI94yMkCTNA84NJ/jQxVmKiGHGx69caZHM7vgtu4lY0El/weNDGrKK3s4yeorU722lVi/image.png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "dl=\\frac{d\\theta}{\\pi}I",
@@ -9788,7 +9786,7 @@
         "\\int_{0}^{\\pi}sin\\theta d\\theta=\\frac{\\mu_{0}I}{\\pi^{2}R}"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:29.879906"
     },
@@ -9888,14 +9886,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/qB0iYGtiD7LY2zmJl/7wpw9gqkKpyBGkBnynlb8vc48209U/4DpjyBtaDwjPdTggxWgpPJ/image.png"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{\\mu_{0}I}{24}(\\frac{1}{a}-\\frac{1}{b})",
         "=\\frac{\\mu_{0}I}{24ab}(b-a)"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:30.830799"
     },
@@ -9943,14 +9941,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/qB0iYGtiD7LY2zmJl/7wpw9gqkKpyBGkBnynlb8vc48209U/4DpjyBtaDwjPdTggxWgpPJ/image.png"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{1}",
         "\\vec{F}=I(\\vec{\\ell} \\times \\vec{B})"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:30.852453"
     },
@@ -9998,14 +9996,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/eAw9GIRclNRuJMCPv/FVkqNFdMW4Mqnh6uJEqThcxR1BWdI/HY0mT4vEaW7HD8ZbppADWE/image.svg"
       ],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "=10^{-7} \\times \\frac{2 \\times 100}{4}",
         "=5 \\times 10^{-6}T"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:30.871127"
     },
@@ -10051,7 +10049,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->There is no current inside the pipe. Therefore \n<br/><br/> $∮\\bar{B}.\\bar{d\\ell}=\\mu_{0}I$ \n<br/><br/> $I=0$ \n<br/><br/> $\\therefore$   $B=0$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [
         "∮\\bar{B}.\\bar{d\\ell}=\\mu_{0}I",
@@ -10059,7 +10057,7 @@
         "B=0"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:31.475342"
     },
@@ -10217,13 +10215,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here,  $\\vec{E}$  and  $\\vec{B}$  are perpendicular to each other and the velocity  $\\vec{v}$  does not change; therefore\n<br/><br/> $qE=qvB \\Rightarrow v=\\frac{E}{B}$ \n<br/><br/>Also,  $|\\frac{\\vec{E} \\times \\vec{B}}{B^{2}}|=\\frac{EBsin\\theta}{B^{2}}$ \n<br/><br/> $=\\frac{EBsin90^{\\circ}}{B^{2}}=\\frac{E}{B}=|\\vec{v}|=v$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{EBsin90^{\\circ}}{B^{2}}=\\frac{E}{B}=|\\vec{v}|=v"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:30.889411"
     },
@@ -10598,11 +10596,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Due to electric field, it experiences force and decelerates i.e. its velocity decreases.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:32.102458"
     },
@@ -10648,7 +10646,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The magnetic field at a point on the axis of a circular loop at a distance  $x$  from center is, \n<br/><br/> $B=\\frac{\\mu_{0}ia^{2}}{2(x^{2}+a^{2})3/2}$   $B^{'}=\\frac{\\mu_{0}i}{2a}$ \n<br/><br/> $\\therefore$   $B^{'}=\\frac{B.(x^{2}+a^{2})^{3/2}}{a^{3}}$ \n<br/><br/>Put  $x=4$  &amp;  $a=3 \\Rightarrow B^{'}=\\frac{54(5^{3})}{3 \\times 3 \\times 3}=250\\mu T$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B^{'}=\\frac{\\mu_{0}i}{2a}",
@@ -10657,7 +10655,7 @@
         "a=3 \\Rightarrow B^{'}=\\frac{54(5^{3})}{3 \\times 3 \\times 3}=250\\mu T"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:33.370532"
     },
@@ -10703,7 +10701,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Force between two long conductor carrying current, \n<br/><br/> $F=\\frac{\\mu_{0}}{4\\pi}\\frac{2I_{1}I_{2}}{d} \\times \\ell$ \n<br/><br/> $F^{'}=-\\frac{\\mu_{0}}{4\\pi}\\frac{2(2I_{1})I_{2}}{3d}\\ell$ \n<br/><br/> $\\therefore$   $\\frac{F^{'}}{F}=\\frac{-2}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "F=\\frac{\\mu_{0}}{4\\pi}\\frac{2I_{1}I_{2}}{d} \\times \\ell",
@@ -10711,7 +10709,7 @@
         "\\frac{F^{'}}{F}=\\frac{-2}{3}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:33.391917"
     },
@@ -10757,13 +10755,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Using Ampere's law at a distance  $r$  from axis,  $B$  is same from symmetry.\n<br/><br/> $\\int B.dl=\\mu_{0}i$ \n<br/><br/>i.e.,  $B \\times 2\\pi r=\\mu_{0}i$ \n<br/><br/>Here  $i$  is zero, for  $r&lt;R,$  whereas  $R$  is the radius\n<br/><br/> $\\therefore$   $B=0$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Medium",
       "key_formulas": [
         "B=0"
       ],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:32.826120"
     },
@@ -10918,7 +10916,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/5NBZ4b4Bcvgf2iNOk/XLXDxfh78rHvnIa34SzUeRAkitiK4/MKudloFzWJuatZX8ecVZMi/image.svg"
       ],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Medium",
       "key_formulas": [
         "-16 \\times 10^{-18}",
@@ -10928,7 +10926,7 @@
         "=10^{3}weber/m^{2}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:33.430253"
     },
@@ -10974,11 +10972,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->When current is passed through a spring, every current\ncarrying loop of a spring behaves like a tiny magnet and\nloop of a spring faces another loop are form magnet of\ndifferent poles which attract one another. Therefore,\nspring is compressed.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
+      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
+        "Biot-Savart Law & Ampere's Circuital Law"
       ],
       "crawled_at": "2026-09-20T15:55:33.774117"
     },
@@ -11187,13 +11185,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>KEY CONCEPT :</b> The time period of a charged particle \n<br/><br/> $(m,q)$  moving in a magnetic field  $(B)$  is  $T=\\frac{2\\pi m}{qB}$ \n<br/><br/>The time period does not depend on the speed of the particle.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic_tag": "Lorentz Force, Cyclotron & Magnetic Force on Wires",
       "difficulty": "Easy",
       "key_formulas": [
         "T=\\frac{2\\pi m}{qB}"
       ],
       "key_concepts": [
-        "Biot-Savart Law & Ampere's Circuital Law"
+        "Lorentz Force, Cyclotron & Magnetic Force on Wires"
       ],
       "crawled_at": "2026-09-20T15:55:33.833845"
     }

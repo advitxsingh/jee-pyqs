@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For an <strong>ideal gas</strong> undergoing <strong>isothermal reversible expansion</strong>:</p>\n<ul>\n<li><p>Temperature is constant  $\\Rightarrow \\Delta U=0$  (for ideal gas,  $U$  depends only on  $T$ )</p></li>\n<li><p>Hence  $\\Delta H=0$  (since  $H$  also depends only on  $T$  for ideal gas)</p></li>\n</ul>\n<h3>Step 1: Given data (convert units)</h3>\n<ul>\n<li><p> $V_{1}=20.0\\text{dm}^{3}=20.0 \\times 10^{-3}\\text{m}^{3}=0.020\\text{m}^{3}$ </p></li>\n<li><p> $P_{1}=0.5\\text{MPa}=0.5 \\times 10^{6}\\text{Pa}=5.0 \\times 10^{5}\\text{Pa}$ </p></li>\n<li><p> $P_{2}=0.2\\text{MPa}$ </p></li>\n<li><p> $T=600\\text{K}$ </p></li>\n</ul>\n<h3>Step 2: Find number of moles using  $PV=nRT$ </h3>\n<p> $n=\\frac{P_{1}V_{1}}{RT}=\\frac{(5.0 \\times 10^{5})(0.020)}{(8.314)(600)}=\\frac{10000}{4988.4} \\approx 2.0\\text{mol}$ </p>\n<h3>Step 3: Work done in reversible isothermal expansion</h3>\n<p>For reversible isothermal process:</p>\n<p> $w=-nRTln(\\frac{V_{2}}{V_{1}})=-nRTln(\\frac{P_{1}}{P_{2}})$ </p>\n<p>Convert to base-10 log form (NCERT style):</p>\n<p> $w=-2.303nRTlog(\\frac{P_{1}}{P_{2}})$ </p>\n<p>Now,</p>\n<p> $\\frac{P_{1}}{P_{2}}=\\frac{0.5}{0.2}=2.5$ </p>\n<p>Given:</p>\n<p> $log(2.5)=log(\\frac{5}{2})=log5-log2=0.6989-0.3010=0.3979$ </p>\n<p>So,</p>\n<p> $w=-2.303(2.0)(8.314)(600)(0.3979)$ </p>\n<p>First calculate  $nRT$ :</p>\n<p> $nRT=2.0 \\times 8.314 \\times 600 \\approx 9976.8\\text{J}$ </p>\n<p>Then,</p>\n<p> $w \\approx -2.303 \\times 9976.8 \\times 0.3979 \\approx -9130\\text{J} \\approx -9.1\\text{kJ}$ </p>\n<h3>Step 4: Heat and energy changes</h3>\n<p>For isothermal ideal gas:</p>\n<p> $\\Delta U=0$ </p>\n<p>First law (NCERT sign convention):  </p>\n<p> $\\Delta U=q+w$ </p>\n<p>So,</p>\n<p> $0=q+(-9.1) \\Rightarrow q=+9.1\\text{kJ}$ </p>\n<p>Also,</p>\n<p> $\\Delta H=0$ </p>\n<h3>Correct option</h3>\n<p><strong>Option A</strong>:  </p>\n<p> $w=-9.1\\text{kJ},\\Delta U=0,\\Delta H=0,q=+9.1\\text{kJ}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "20.0dm^{3}",
@@ -169,7 +169,7 @@
         "P_{2}=0.2\\text{MPa}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:07.419331"
     },
@@ -557,7 +557,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the reaction</p>\n<p> $X_{2}(g)+Y_{2}(g) \\rightleftharpoons 2XY(g)$ </p>\n<p>we use</p>\n<p> $\\Delta_{r}G^{\\circ}=\\Delta_{r}H^{\\circ}-T\\Delta_{r}S^{\\circ}$ </p>\n<p>Using standard enthalpies of formation,</p>\n<p> $\\Delta_{r}H^{\\circ}=\\sum \\nu\\Delta_{f}H^{\\circ}(\\text{products})-\\sum \\nu\\Delta_{f}H^{\\circ}(\\text{reactants})$ </p>\n<p>So,</p>\n<p> $\\Delta_{r}H^{\\circ}=2(42)-[8+80]$ </p>\n<p> $\\Delta_{r}H^{\\circ}=84-88=-4\\text{kJ mol}^{-1}$ </p>\n<p>Using standard molar entropies,</p>\n<p> $\\Delta_{r}S^{\\circ}=\\sum \\nu S^{\\circ}(\\text{products})-\\sum \\nu S^{\\circ}(\\text{reactants})$ </p>\n<p> $\\Delta_{r}S^{\\circ}=2(200)-[140+250]$ </p>\n<p> $\\Delta_{r}S^{\\circ}=400-390=10\\text{J mol}^{-1}\\text{K}^{-1}$ </p>\n<p>Convert into  $\\text{kJ mol}^{-1}\\text{K}^{-1}$ :</p>\n<p> $10\\text{J mol}^{-1}\\text{K}^{-1}=0.010\\text{kJ mol}^{-1}\\text{K}^{-1}$ </p>\n<p>At  $T=600\\text{K}$ ,</p>\n<p> $\\Delta_{r}G^{\\circ}=-4-600(0.010)$ </p>\n<p> $\\Delta_{r}G^{\\circ}=-4-6=-10\\text{kJ mol}^{-1}$ </p>\n<p>Hence, the correct answer is</p>\n<p> $-10\\text{kJ mol}^{-1}$ </p>\n<p>So, <strong>Option B</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{2}(g)+Y_{2}(g) \\rightleftharpoons 2XY(g)",
@@ -568,7 +568,7 @@
         "\\Delta_{r}S^{\\circ}=2(200)-[140+250]"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:06.421413"
     },
@@ -923,7 +923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\underset{5^{\\circ}C}{H_{2}O(\\ell)} \\longrightarrow \\underset{100^{\\circ}C}{H_{2}O(\\ell)⇄}\\underset{100^{\\circ}C}{H_{2}O(g)}$ </p>\n<p>When water is heated in the microwave, its temperature increases from  $5^{\\circ}C$  to  $100^{\\circ}C$ . After reaching  $100^{\\circ}C$ , it starts changing from liquid to vapour (boiling), so liquid water and water vapour can exist together.</p>\n<p>During boiling, the water changes into steam and the volume increases (expansion).</p>\n<p>Because of expansion, the system does work on the surroundings, so work done by the system is negative.</p>\n<p> $w=-ve$ </p>\n<p>Since the microwave supplies energy to the water, heat is absorbed by the system, so  $q$  is positive.</p>\n<p>Also, water vapour has more internal energy than liquid water at the same temperature, so the internal energy of the system increases. Therefore,  $\\Delta U$  is positive.</p>\n<p>So,  $q=+ve$  and  $\\Delta U=+ve$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "5^{\\circ}C",
@@ -932,7 +932,7 @@
         "\\Delta U=+ve"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:07.607769"
     },
@@ -1075,14 +1075,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9jkrctw/c67cc0c7-f522-4a63-934a-5dfdb5172eda/6db04740-1a8f-11f0-99a3-8966777a8fdf/file-jaoe38c1m9jkrctx.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "K^{+}",
         "Cl^{-}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:08.364893"
     },
@@ -1128,7 +1128,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; (10L,300K)\\overset{n=1}{\\rightarrow \\le ftarrow}(20L,300K) \\\\ &amp; -q=w=-nRTln\\frac{V_{2}}{V_{1}} \\\\ &amp; =-8.3 \\times 300 \\times ln(\\frac{20}{10}) \\\\ &amp; =-1.718kJ \\\\ &amp; \\Rightarrow q=1.718kJ \\\\ &amp; w=-1.718kJ \\\\ &amp; \\Delta U=0( \\because \\Delta T=0) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "10dm^{3}",
@@ -1139,7 +1139,7 @@
         "log3=0.48"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:08.803898"
     },
@@ -1245,11 +1245,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6rlogg7/b509b6a5-bbbb-4075-8046-e56700b936e8/a53eb570-e394-11ef-bd37-5bfdd6d633f7/file-jaoe38c1m6rlogg8.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:09.786585"
     },
@@ -1625,7 +1625,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9e5c08z/ae9b983a-4bfc-479f-8648-1711f0ce7267/2ea60930-1793-11f0-aee8-bb76a49499e3/file-jaoe38c1m9e5c090.png?format=png"
       ],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow P_{\\text{ext}}=0",
@@ -1633,7 +1633,7 @@
         "\\Delta U=0"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:09.460617"
     },
@@ -2182,7 +2182,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the temperature at which the given reaction is at equilibrium, we need to apply the concept of Gibbs free energy change  $(\\Delta G^{0})$  at equilibrium, where  $\\Delta G^{0}$  is equal to zero. </p>\n<p>The given reaction is:</p>\n<p> $\\frac{1}{2}X_{2}+\\frac{5}{2}Y_{2} \\rightleftharpoons XY_{5}$ </p>\n<p>We are given the standard entropies and enthalpy change ( $\\Delta H^{\\circ}$ ):</p>\n<p><p>Standard entropies: </p></p>\n<p><p> $X_{2}=70JK^{-1}mol^{-1}$ </p></p>\n<p><p> $Y_{2}=50JK^{-1}mol^{-1}$ </p></p>\n<p><p> $XY_{5}=110JK^{-1}mol^{-1}$ </p></p>\n<p><p>Standard enthalpy change: </p></p>\n<p><p> $\\Delta H^{\\circ}=-35kJ/mol$ </p></p>\n<p>First, calculate the standard entropy change ( $\\Delta S_{Rxn}^{0}$ ) of the reaction:</p>\n<p> $\\Delta S_{Rxn}^{0}=110-(\\frac{1}{2} \\times 70+\\frac{5}{2} \\times 50)$ </p>\n<p> $=110-(35+125)$ </p>\n<p> $=110-160$ </p>\n<p> $=-50JK^{-1}mol^{-1}$ </p>\n<p>At equilibrium,  $\\Delta G^{0}=0$ , and the relation  $\\Delta G^{0}=\\Delta H^{0}-T\\Delta S^{0}$  applies. Thus:</p>\n<p> $0=-35000J/mol-T(-50JK^{-1}mol^{-1})$ </p>\n<p>Solving for  $T$ :</p>\n<p> $T \\cdot 50=35000$ </p>\n<p> $T=\\frac{35000}{50}$ </p>\n<p> $T=700K$ </p>\n<p>Therefore, the temperature at which the reaction is at equilibrium is 700 Kelvin.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Hard",
       "key_formulas": [
         "X_{2},Y_{2}",
@@ -2193,7 +2193,6 @@
         "\\frac{1}{2}X_{2}+\\frac{5}{2}Y_{2} \\rightleftharpoons XY_{5}"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:20.991080"
@@ -2354,7 +2353,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Amount of energy transpired as hat,  $Q=500J$ </p>\n<p>Number of moles of Argon,  $n=0.5mol$ </p>\n<p>Temperature (Initial),  $T_{i}=298K$ </p>\n<p>Pressure,  $P=1.00atm$ </p>\n<p>Final temperature,  $T_{F}=$  ?</p>\n<p>Change in internal energy,  $\\Delta V=$  ?</p>\n<p> $R=8.3JK^{-1}mol^{-1}$ </p>\n<p>For a constant pressure process, the heat added is related to the temperature changes as</p>\n<p> $Q=nC_{p}\\Delta T$  ....... (1)</p>\n<p> $\\begin{aligned} &amp; \\text{Also, the change in internal energy formula is} \\\\ &amp; \\Delta U=nC_{V}\\Delta T-(2)\\text{.... (2)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{For monoatomic gas (Argon),} \\\\ &amp; \\begin{aligned} C_{v} &amp; =\\frac{3}{2}R \\\\ \\text{So,}C_{p} &amp; =C_{v}+R(C_{p}-C_{v}=R) \\\\ &amp; =\\frac{3}{2}R+R=\\frac{5}{2}R \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{In equation (1)} \\Rightarrow \\\\ &amp; \\begin{aligned} &amp; Q=nC_{p}\\Delta T \\\\ &amp; Q=nC_{p}(T_{F}-T_{i}) \\\\ &amp; 500J=0.5mol \\times \\frac{5}{2}R(T_{F}-T_{i})R=8.3JK^{-1}mol^{-1} \\\\ &amp; 500J=0.5mol \\times \\frac{5}{2} \\times 8.3JK^{-1}mol^{-1}(T_{F}-T_{i}) \\end{aligned} \\end{aligned}$ </p>\n<p> $T_{F}-T_{i}=\\frac{500J}{0.5mol \\times \\frac{5}{2} \\times 8.3\\text{J K}^{1}mol^{-1}}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{500}{0.5 \\times \\frac{5}{2} \\times 8.3}k \\\\ &amp; =48.2k \\\\ T_{F} &amp; =48.2k+298k \\\\ &amp; =346.2k \\\\ &amp; \\approx 348k \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{In equation (2)} \\Rightarrow \\\\ &amp; \\begin{aligned} \\Delta U &amp; =nC_{V}\\Delta T \\\\ &amp; =0.5mol \\times \\frac{3}{2}R \\times 48.2K \\\\ &amp; =0.5mol \\times \\frac{3}{2} \\times 8.3JK^{-1}mol^{-1} \\times 48.2K \\\\ &amp; =300.045J \\approx 300J \\end{aligned} \\end{aligned}$ </p>\n<p>The final temperature is, 348 k</p>\n<p>change in internal energy is 300 J</p>\n<p>So, correct answer is Option 2) 348 K and 300 J</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=500J",
@@ -2365,7 +2364,7 @@
         "\\Delta V="
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:09.545391"
     },
@@ -2413,11 +2412,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m8ihqpv2/f4dbb872-ac84-4e07-bd74-9aab33cdaac7/a087e8e0-062a-11f0-95f4-0f12c369875d/file-jaoe38c1m8ihqpv3.png?format=png"
       ],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:09.910620"
     },
@@ -2501,13 +2500,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1ma0ocraj/9fcad671-e306-4b41-951f-52654c2fd9cc/cf479fb0-23f6-11f0-97d4-0962b8b605df/file-jaoe38c1ma0ocrak.png?format=png"
       ],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "is_________"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:20.532952"
     },
@@ -2568,7 +2567,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>(I)  $CuSO_{4}+H_{2}O \\longrightarrow CuSO_{4}$ \nSolution  $\\Delta H=-70kJ$ </p>\n<p>(II)  $CuSO_{4} \\cdot 5H_{2}O+H_{2}O \\longrightarrow CuSO_{4}$  Solution  $\\Delta H=12kJ$ </p>\n<p>(I) - (II)</p>\n<p> $\\begin{aligned} &amp; CuSO_{4}+H_{2}O \\longrightarrow CuSO_{4} \\cdot 5H_{2}O \\\\ &amp; \\Delta H=-70-12=-82 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "CuSO_{4}",
@@ -2578,7 +2577,7 @@
         "is ________. (nearest integer). (I)"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:21.824590"
     },
@@ -2603,13 +2602,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $-1(2V_{1}-V_{1})=n \\times \\frac{5R}{2}(T_{2}-T_{1})$ </p>\n<p> $\\begin{aligned} &amp; -V_{1}=\\frac{5}{2}(nRT_{2}-5V_{1}) \\\\ &amp; -V_{1}=2.5(nRT_{2})-12.5V_{1} \\\\ &amp; 11.5V_{1}=2.5(nRT_{2}) \\\\ &amp; 11.5 \\times \\frac{nRT_{1}}{P_{1}}=2.5 \\times (nRT_{2}) \\\\ &amp; T_{2}=274.16k \\\\ &amp; \\approx 274\\text{(Nearest integer)} \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{C}_{v}=\\frac{5}{2}R"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:22.301996"
     },
@@ -2698,7 +2697,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The process involves an ideal gas expanding isothermally, meaning temperature ( $T$ ) remains constant. In an isothermal process for an ideal gas, the change in internal energy ( $\\Delta U$ ) is zero:</p>\n<p> $\\Delta U=0$  because temperature is constant.</p>\n<p>According to the first law of thermodynamics,  $\\Delta U=Q+W$ , where  $Q$  is the heat transferred to the system and  $W$  is the work done by the system. Since  $\\Delta U=0$  in an isothermal process,  $Q=-W$ .</p>\n<p>The work done by the gas during the isothermal expansion against a constant external pressure ( $P_{ext}$ ) is given by:</p>\n<p> $W=P_{ext} \\times \\Delta V$ </p>\n<p>where:</p>\n<ul>\n<li> $P_{ext}$  = constant opposing pressure =  $80$  kPa =  $80 \\times 10^{3}$  Pa (since  $1$  kPa =  $10^{3}$  Pa)</li>\n<li> $\\Delta V$  = change in volume =  $45$  dm³ -  $30$  dm³ =  $15$  dm³ =  $15 \\times 10^{-3}$  m³ (since  $1$  dm³ =  $10^{-3}$  m³)</li>\n</ul>\n<p> $W=-80 \\times 10^{3} \\times 15 \\times 10^{-3}=-1200$  J</p>\n<p>Therefore, the amount of heat transferred ( $Q$ ) is  $1200$  J, taking into consideration the sign convention that work done by the system is negative.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "30dm^{3}",
@@ -2709,7 +2708,7 @@
         "W=P_{ext} \\times \\Delta V"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:23.951642"
     },
@@ -2899,11 +2898,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lshg9dp5/743e733d-759e-4cf0-bc58-d28a3415653d/9689a890-c8d4-11ee-adc8-974b9031006b/file-6y3zli1lshg9dp6.png?format=png"
       ],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:23.543957"
     },
@@ -3086,13 +3085,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>It is isothermal reversible expansion, so work done negative</p>\n<p> $\\begin{aligned} &amp; W=-2.303nRTlog(\\frac{V_{2}}{V_{1}}) \\\\ &amp; =-2.303 \\times 5 \\times 8.314 \\times 300log(\\frac{100}{10}) \\\\ &amp; =-28720.713J \\\\ &amp; \\equiv -28721J \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "is __________. (Given R = 8.314 J K"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:23.108668"
     },
@@ -3299,13 +3298,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{3}{2}O_{2(g)} \\rightleftharpoons O_{3(g)} \\cdot K_{P}=2.47 \\times 10^{-29}. \\\\ &amp; \\Delta_{r}G^{\\Theta}=-RTlnK_{P} \\\\ &amp; =-8.314 \\times 10^{-3} \\times 298 \\times ln(2.47 \\times 10^{-29}) \\\\ &amp; =-8.314 \\times 10^{-3} \\times 298 \\times (-65.87) \\\\ &amp; =163.19kJ \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "for the reaction is _________"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:23.164647"
     },
@@ -3385,11 +3384,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgpkxvbv/4d7eb699-6ac9-4f52-b48b-74fd24bc35bb/90bdeab0-dfba-11ed-ae63-1b5c56cec3c4/file-1lgpkxvbw.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:10.971701"
     },
@@ -3445,7 +3444,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The heat provided by the heater is given by the equation:</p>\n<p> $Q=\\text{Power} \\times \\text{Time}$ </p>\n<p>Substituting the given values:</p>\n<p> $Q=60\\text{W} \\times 100\\text{s}=6000\\text{J}$ </p>\n<p>The heat capacity (C) is defined as the amount of heat required to raise the temperature of a substance by one degree. It is given by the equation:</p>\n<p> $C=Q/\\Delta T$ </p>\n<p>Substituting the given values:</p>\n<p> $C=6000\\text{J}/5\\text{°C}=1200\\text{J/K}$ </p>\n<p>So, the heat capacity of the given gas is approximately 1200 J/K.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "5^{\\circ}C",
@@ -3456,7 +3455,7 @@
         "C=6000\\text{J}/5\\text{°C}=1200\\text{J/K}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:24.664729"
     },
@@ -3481,7 +3480,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $C_{2}H_{6}(g)+\\frac{7}{2}O_{2}(g) \\rightarrow 2CO_{2}(g)+3H_{2}O(\\ell)$ \n<br/><br/> $\\begin{aligned} &amp; \\text{No. of moles of ethane}=\\frac{0.3}{30}=0.01 \\\\ \\\\ &amp; \\text{Heat evolved in Bomb calorimeter}=20 \\times 0.5 \\\\ \\\\ &amp; =10kJ \\\\ \\\\ &amp; \\Delta U=-\\frac{10}{0.01}=-1000kJmol^{-1} \\\\ \\\\ &amp; \\Delta H=\\Delta U+\\Delta n_{g}RT \\\\ \\\\ &amp; =-1000+(-2.5) \\times \\frac{8.3 \\times 300}{1000} \\\\ \\\\ &amp; =-1000-6.225 \\\\ \\\\ &amp; =-1006.225 \\\\ \\\\ &amp; |\\Delta H|≃1006kJmol^{-1} \\\\ \\\\ &amp; \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "27^{\\circ}C",
@@ -3490,7 +3489,7 @@
         "20kJK^{-1},R=8.3JK^{-1}mol^{-1}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:25.100437"
     },
@@ -3515,7 +3514,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $T_{1}=300K$ </p>\n<p> $w=3$  kJ/mole</p>\n<p> $w=nC_{v}\\Delta T$ </p>\n<p> $3000=1 \\times 20 \\times (300-T_{2})$ </p>\n<p> $300-T_{2}=150$ </p>\n<p> $T_{2}=150K$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "27^{\\circ}C",
@@ -3526,7 +3525,7 @@
         "3000=1 \\times 20 \\times (300-T_{2})"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:25.405655"
     },
@@ -3646,7 +3645,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The heat required to melt one mole of a substance is known as its molar enthalpy of fusion, denoted as  $\\Delta H_{fus}$ . For sodium chloride,  $\\Delta H_{fus}$  is  $30.4kJ/mol$ . \n<br/><br/>\nThe entropy change at the melting point is given by  $\\Delta S=\\frac{\\Delta H_{fus}}{T_{m}}$ , where  $T_{m}$  is the melting point in Kelvin. Substituting the given values, we get:\n<br/><br/>\n $28.4J/K/mol=\\frac{30.4kJ/mol}{T_{m}}$ \n<br/><br/>\nSolving for  $T_{m}$ , we get:\n<br/><br/>\n $T_{m}=\\frac{30.4kJ/mol}{28.4J/K/mol}=1070.4K$ \n<br/><br/>\nRounding off to the nearest integer, the melting point of sodium chloride is  $1070K$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Hard",
       "key_formulas": [
         "28.4JK^{-1}mol^{-1}",
@@ -3657,7 +3656,6 @@
         "T_{m}=\\frac{30.4kJ/mol}{28.4J/K/mol}=1070.4K"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:23.966172"
@@ -3791,13 +3789,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For isothermal process of an ideal gas;  $\\Delta E=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Delta E=0"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:25.420274"
     },
@@ -3950,7 +3948,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An endothermic process is one that absorbs heat from the surroundings. Here are the types of the given reactions:</p>\n<p>A.  $I_{2}(g) \\rightarrow 2I(g)$ </p>\n<p>This process involves the dissociation of iodine molecules into individual iodine atoms. This requires energy to break the bonds between the iodine atoms, so it is an endothermic process.</p>\n<p>B.  $HCl(g) \\rightarrow H(g)+Cl(g)$ </p>\n<p>This is the dissociation of hydrogen chloride into hydrogen and chlorine. Similar to the first reaction, it requires energy to break the bond between the hydrogen and chlorine atoms. Therefore, this is also an endothermic process.</p>\n<p>C.  $H_{2}O(l) \\rightarrow H_{2}O(g)$ </p>\n<p>This is the process of evaporation or vaporization, where liquid water is converted to water vapor. Evaporation is an endothermic process because it requires heat to break the hydrogen bonds between water molecules and convert it into a gas.</p>\n<p>D.  $C(s)+O_{2}(g) \\rightarrow CO_{2}(g)$ </p>\n<p>This is a combustion reaction. Combustion reactions are generally exothermic because they release energy in the form of heat and light. So, this is not an endothermic process.</p>\n<p>E. Dissolution of ammonium chloride in water</p>\n<p>The dissolution of ammonium chloride ( $NH_{4}Cl$ ) in water is known to be endothermic. The ionic bonds in the ammonium chloride and the hydrogen bonds in the water must be broken for the salt to dissolve, which requires heat.</p>\n<p>So, in summary, four of these processes (A, B, C, and E) are endothermic.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "I_{2}(g) \\rightarrow 2I(g)",
@@ -3959,7 +3957,7 @@
         "NH_{4}Cl"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:24.337510"
     },
@@ -4053,7 +4051,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lef4bwye/c33528a7-bcd9-4e71-a79f-57c26aae2662/56e0d360-b261-11ed-bb8c-373642a734af/file-1lef4bwyf.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "_{2}",
@@ -4063,7 +4061,7 @@
         "CO_{2}=2x+16.8-x"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:25.432432"
     },
@@ -4156,7 +4154,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In the given combustion reaction, the number of moles of gaseous products ( $\\Delta n_{g}$ ) is -2 (since we have 2 moles of CO₂ gas on the product side and 4 moles of gaseous reactants). </p>\n<p>The change in internal energy ( $\\Delta U$ ) is given as -1406 kJ/mol.<br/><br/> We can calculate the change in enthalpy ( $\\Delta H$ ) using the equation  $\\Delta H=\\Delta U+\\Delta n_{g}RT$ , where  $R$  is the ideal gas constant and  $T$  is the temperature.</p>\n<p>Substituting the given values:</p>\n<p> $\\begin{aligned} \\Delta H &amp; =\\Delta U+\\Delta n_{g}RT \\\\ \\\\ &amp; =-1406kJ/mol+(-2) \\times 8.3 \\times 10^{-3}kJ/K/mol \\times 300K \\\\ \\\\ &amp; =-1406kJ/mol-4.98kJ/mol \\\\ \\\\ &amp; \\approx -1411kJ/mol \\end{aligned}$ </p>\n<p>At equilibrium,  $\\Delta G=0$ , so  $\\Delta H=T\\Delta S$ , which gives  $T\\Delta S=\\Delta H$ . <br/><br/>Therefore, the minimum value of  $T\\Delta S$  needed to reach equilibrium is -1411 kJ</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Hard",
       "key_formulas": [
         "C_{2}H_{4}(g)+3O_{2}(g) \\rightarrow 2CO_{2}(g)+2H_{2}O(l)",
@@ -4165,7 +4163,6 @@
         "\\Delta H=\\Delta U+\\Delta n_{g}RT"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:24.349628"
@@ -4315,14 +4312,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $U+Pv$  (By definition)<br/><br/>\n $\\Delta 14=\\Delta U+\\Delta(Pr)$  at constant pressure<br/><br/>\n $\\Delta H=\\Delta U+P\\Delta V$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Delta 14=\\Delta U+\\Delta(Pr)",
         "\\Delta H=\\Delta U+P\\Delta V"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:11.345353"
     },
@@ -4469,14 +4466,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\Delta T=-40K$ \n<br/><br/>\n $\\begin{aligned} \\Delta U &amp; =q+w \\\\ \\\\ &amp; =\\frac{100 \\times 2.2}{44}(-40)-(-49.39) \\times 10^{-3} \\times 101.325 \\end{aligned}$ \n<br/><br/>\n $\\begin{aligned} &amp; =-200+5 \\\\ \\\\ &amp; =-195J \\\\ \\\\ x= &amp; 195 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "1 and of O = 16 g mol",
         "\\begin{aligned} & =-200+5 \\\\ \\\\ & =-195J \\\\ \\\\ x= & 195 \\end{aligned}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:26.823304"
     },
@@ -4501,13 +4498,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} W_{rev} &amp; =-2.303nRTlog_{10}(\\frac{V_{2}}{V_{1}}) \\\\ \\\\ &amp; =-2.303 \\times 5 \\times 8.3 \\times 300 \\times log_{10}(\\frac{20}{10}) \\\\ \\\\ &amp; ≃-8630J \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "1 and log 2 = 0.3010)"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:27.104754"
     },
@@ -4691,7 +4688,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\underset{36g}{H_{2}O}(\\ell) \\longrightarrow \\underset{36g}{H_{2}O}(g)$  (evaporation)\n<br/><br/>\n $\\begin{aligned} n_{H_{2}O} &amp; =\\frac{36}{18}=2\\Delta n_{g}=1-0=1 \\\\ \\\\ \\Delta U_{\\text{vap}} &amp; =\\Delta H_{\\text{vap}}-\\Delta n_{g}RT \\\\ \\\\ &amp; =41.1-(1) \\times 8.31 \\times 10^{-3} \\times 373 \\\\ \\\\ &amp; =41.1-3.099 \\\\ \\\\ &amp; =38kJ/mol \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -4699,7 +4696,7 @@
         "1 ; R = 8.31 J K"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:27.116865"
     },
@@ -4745,7 +4742,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(A) For a spontaneous process  $\\Delta$ G<sub>T,P</sub> &lt; 0 <br/><br/>\n(B)  $\\Delta$ P = 0  $\\rightarrow$  Isobaric process,  $\\Delta$ T = 0  $\\rightarrow$  Isothermal process<br/><br/>\n(C)  $\\Delta$ H<sub>reaction</sub> = ( $\\Sigma$  Bond energies of reactants) -\n ( $\\Sigma$  bond energies of products) <br/><br/>\n(D)  $\\Delta$ H &lt; 0 is for exothermic reaction \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta P=0",
@@ -4754,7 +4751,7 @@
         "\\Delta H_{reaction}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:11.429399"
     },
@@ -4779,7 +4776,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->  $C_{p}=20.785JK^{-1}mol^{-1}$ \n<br/><br/>\n $\\begin{aligned} &amp; \\text{and}\\Delta U=nCv\\Delta T \\\\ \\\\ &amp; \\therefore nC_{v}=\\frac{5000}{200}=25 \\end{aligned}$ \n<br/><br/>\nand we know that\n<br/><br/>\n $\\begin{aligned} &amp; C_{p}-C_{v}=R \\\\ \\\\ &amp; 20.785-\\frac{25}{n}=8.314 \\\\ \\\\ &amp; n=\\frac{25}{(20.785-8.314)}=2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "20.785JK^{-1}mol^{-1}",
@@ -4787,7 +4784,7 @@
         "C_{p}=20.785JK^{-1}mol^{-1}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:26.094448"
     },
@@ -5154,13 +5151,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\Delta G=\\Delta H-T\\Delta S=0$  at equilibrium<br/><br/>\n $\\begin{aligned} &amp; \\Rightarrow -165 \\times 10^{3}-T \\times (-505)=0 \\\\ \\\\ &amp; \\Rightarrow T=300K \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta G=\\Delta H-T\\Delta S=0"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:27.141056"
@@ -5258,7 +5254,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->w =  $-$ 200 J, q = +150 :  $\\Delta$ U = q + w<br/><br/> $\\Delta$ U = 150  $-$  200 =  $-$ 50 J <br/><br/>Magnitude = 50 J = | $\\Delta$ U |<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "200 J, q = +150 :",
@@ -5268,7 +5264,7 @@
         "50 J Magnitude = 50 J = |"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:27.968407"
     },
@@ -5592,11 +5588,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->X  $\\rightarrow$  Y\n<br/><br/> $\\Delta$ E = (E<sub>a</sub>)<sub>f</sub>\n – (E<sub>a</sub>)<sub>b</sub>\n<br/><br/> $\\Rightarrow$  – 20 = 30 – (E<sub>a</sub>)<sub>b</sub>\n<br/><br/> $\\Rightarrow$  (E<sub>a</sub>)<sub>b</sub> = 50 kJ<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:28.560657"
     },
@@ -5745,7 +5741,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $n_{H^{+}}=\\frac{400 \\times 0.2}{1000} \\times 2=0.16$ <br/><br/> $n_{OH^{-}}=\\frac{600 \\times 0.1}{1000}=0.06$  (L.R.)<br/><br/>Now, heat liberated from reaction = heat gained by solutions<br/><br/>or, 0.06  $\\times$  57.1  $\\times$  10<sup>3</sup><br/><br/>= (1000  $\\times$  1.0)  $\\times$  4.18  $\\times$   $\\Delta$ T<br/><br/> $\\therefore$   $\\Delta$ T = 0.8196K<br/><br/>= 81.96  $\\times$  10<sup> $-$ 2</sup> K  $\\approx$  82  $\\times$  10<sup> $-$ 2</sup> K<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -5754,7 +5750,7 @@
         "n_{OH^{-}}=\\frac{600 \\times 0.1}{1000}=0.06"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:27.771609"
     },
@@ -5810,7 +5806,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $Fe+2HCl \\rightarrow FeCl_{2}+H_{2}$ <br/><br/> $\\frac{50}{55.85}moles$ \n<br/><br/>Moles of Fe =  $\\frac{50}{55.85}moles$  = Moles of H<sub>2</sub>\n<br/><br/>No. of H<sub>2</sub> produced   $=\\frac{50}{55.85}moles$ <br/><br/>Work done  $=-P_{ext}.\\Delta V$ <br/><br/> $=-\\Delta n_{g}RT$ <br/><br/> $=-\\frac{50}{55.85} \\times 8.314 \\times 298$ \n<br/><br/>= -2218.05 J\n<br/><br/>Nearest integer = 2218<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -5821,7 +5817,7 @@
         "=-\\frac{50}{55.85} \\times 8.314 \\times 298"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:28.293203"
     },
@@ -5846,7 +5842,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The gas performs isothermal irreversible work (W).</p>\n<p>where,  $\\Delta$ U = 0 (change in internal energy)</p>\n<p>From, 1st law of thermodynamics,</p>\n<p> $\\Rightarrow$   $\\Delta$ U =  $\\Delta$ Q + W</p>\n<p> $\\Rightarrow$  0 =  $\\Delta$ Q + W</p>\n<p> $\\Rightarrow$   $\\Delta$ Q =  $-$ W</p>\n<p>Now,  $W=-p_{ext}(V_{2}-V_{1})$ </p>\n<p> $=-p_{ext}(\\frac{nRT}{p_{2}}-\\frac{nRT}{p_{1}})=-p_{ext} \\times nRT(\\frac{1}{p_{2}}-\\frac{1}{p_{1}})$ </p>\n<p>Given, p<sub>ext</sub> = 4.3 MPa, p<sub>1</sub> = 2.1 MPa, p<sub>2</sub> = 1.3 MPa, n = 5 mol, T = 293 K and R = 8.314 J mol<sup> $-$ 1</sup> K<sup> $-$ 1</sup></p>\n<p> $=-4.3 \\times 5 \\times 8.314 \\times 293(\\frac{1}{1.3}-\\frac{1}{2.1})$ </p>\n<p>=  $-$  15347.70 J mol<sup> $-$ 1</sup></p>\n<p>=  $-$  15.347 kJ mol<sup> $-$ 1</sup>  $≃$   $-$  15 kJ mol<sup> $-$ 1</sup></p>\n<p> $\\Rightarrow$   $\\Delta$ Q = 15 kJ mol<sup> $-$ 1</sup></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Hard",
       "key_formulas": [
         "1 . (Rounded off to the nearest integer) [Use R = 8.314 J mol",
@@ -5855,7 +5851,7 @@
         "1 ="
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:28.570416"
     },
@@ -5916,7 +5912,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->H<sub>2</sub>O<sub>(l)</sub>  $\\rightleftharpoons$  H<sub>2</sub>O<sub>(v)</sub><br/><br/> $\\Delta$ H =  $\\Delta$ U +  $\\Delta$ n<sub>g</sub>RT<br/><br/>For 1 mole waters;<br/><br/> $\\Delta$ n<sub>g</sub> = 1<br/><br/> $\\therefore$   $\\Delta$ n<sub>g</sub>RT = 1 mol  $\\times$  8.31 J/mol-k  $\\times$  373 K<br/><br/>= 3099.63 J  $≅$  31  $\\times$  10<sup>2</sup> J<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -5924,7 +5920,7 @@
         "1 . (Round off to the Nearest Integer) [Use : R = 8.31 J mol"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:27.786503"
     },
@@ -5949,7 +5945,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\Delta$ G =  $-$ 49.4 kJ/mol<br/><br/> $\\Delta$ H = 51.4 kJ/mol<br/><br/> $\\Delta$ G =  $\\Delta$ H  $-$  T $\\Delta$ S<br/><br/> $-$ 49400 = 51400  $-$  300 $\\Delta$ S<br/><br/> $\\Delta S=\\frac{+100800}{300}=336$  JK<sup> $-$ 1</sup> mol<sup> $-$ 1</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "1 . The entropy change of the reaction is _____________ JK",
@@ -5958,7 +5954,6 @@
         "49400 = 51400"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:28.006526"
@@ -6022,7 +6017,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $NH_{2}CN(s)+\\frac{3}{2}O_{2}(g)\\longrightarrowN_{2}(g)+CO_{2}(g)+H_{2}O(l)$ <br/><br/> $\\Delta ng=(1+1)-\\frac{3}{2}=\\frac{1}{2}$ <br/><br/> $\\Delta H=\\Delta U+\\Delta ngRT$ <br/><br/> $=-742.24+\\frac{1}{2} \\times \\frac{8.314 \\times 298}{1000}$ <br/><br/> $=-742.24+1.24$ <br/><br/> $=-741$  kJ/mol<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta ng=(1+1)-\\frac{3}{2}=\\frac{1}{2}",
@@ -6032,7 +6027,7 @@
         "=-741"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:28.585616"
     },
@@ -6377,11 +6372,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->H(g) + e<sup>-</sup>  $\\rightarrow$  H<sup>-</sup>(g) is exothermic\n<br/><br/>rest of all endothermic process.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:12.083356"
     },
@@ -6439,13 +6434,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5h76fj3/82c925d6-ccc5-4ef1-9b2e-aeaa8322d689/4f01eaf0-38a0-11ea-92dd-4b9c3519996f/file-7k9k2k5h76fj4-485w.jpg"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:29.136877"
     },
@@ -6491,11 +6486,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\Delta$ G =  $\\Delta$ H – T $\\Delta$ S\n<br/><br/> $\\Delta$ G = –ve (stable oxide)\n<br/><br/> $\\Delta$ G = +ve (unstable oxide)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:11.824967"
     },
@@ -6653,13 +6648,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know,\n<br/><br/> $\\Delta$ H -  $\\Delta$ U =  $\\Delta$ n<sub>g</sub>RT\n<br/><br/>C<sub>7</sub>H<sub>16</sub>( $l$ ) + 11O<sub>2</sub>(g)  $\\rightarrow$  7CO<sub>2</sub>(g) + 8H2O( $l$ )\n<br/><br/>Here  $\\Delta$ n<sub>g</sub> = 7 - 11 = - 4\n<br/><br/> $\\therefore$   $\\Delta$ H -  $\\Delta$ U = - 4RT<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [
         "n g = 7 - 11 = - 4"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:12.616285"
     },
@@ -6813,7 +6808,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Work done on isothermal irreversible for ideal gas \n<br/><br/>=  $-$ P<sub>ext</sub>  (V<sub>2</sub>  $-$  V<sub>1</sub>)\n<br/><br/>=   $-$ 4 N/m<sup>2</sup> (1 m<sup>3</sup>  $-$  5m<sup>3</sup>)\n<br/><br/>= 16 Nm\n<br/><br/>Isothermal process for ideal gas\n<br/><br/> $\\Delta$ U = 0\n<br/><br/>q =  $-$  w\n<br/><br/>=  $-$  16 Nm\n<br/><br/>=  $-$  16 J\n<br/><br/>Heat used to increase temperature of Al\n<br/><br/> q = n C<sub>m</sub><sub></sub>  $\\Delta$ T\n<br/><br/>16 J = 1  $\\times$  24  $\\frac{J}{mol.K}$   $\\times$   $\\Delta$ T\n<br/><br/> $\\Delta$ T =  $\\frac{2}{3}$ K<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "V 1 ) =",
@@ -6824,7 +6819,7 @@
         "16 J Heat used to increase temperature of Al q = n C m"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:14.093342"
     },
@@ -6870,11 +6865,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A reaction is spontaneous if  $\\Delta$ G is negative.\n<br/><br/>and we know that\n<br/><br/> $\\Delta$ G =  $\\Delta$ H – T $\\Delta$ S\n<br/><br/>If  $\\Delta$ H = –ve and  $\\Delta$ S = + ve then at all the temperature the process will be spontaneous.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:12.657060"
     },
@@ -6920,7 +6915,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Give that,\n<br/><br/>n = 3\n<br/><br/>T<sub>1</sub> = 300\n<br/><br/>T<sub>2</sub> = 1000\n<br/><br/>C<sub>p</sub> = 23 + 0.01T\n<br/><br/>We know,\n<br/><br/> $\\Delta$ H =  $\\int_{T_{1}}^{T_{2}}nC_{p}dT$ \n<br/><br/>=  $\\int_{300}^{1000}3(23+\\frac{T}{100})dT$ \n<br/><br/>=  $3[23T+\\frac{T^{2}}{200}]_{300}^{1000}$ \n<br/><br/>= 3[ 23(1000 - 300 +  $\\frac{1}{200}$ ((1000)<sup>2</sup> - (300)<sup>2</sup>)]\n<br/><br/>= 3[ 23  $\\times$  700 +  $\\frac{700 \\times 1300}{200}$  ]\n<br/><br/>= 61950 J\n<br/><br/>= 61.95 kJ\n<br/><br/> $≃$  62 kJ<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int_{T_{1}}^{T_{2}}nC_{p}dT",
@@ -6931,7 +6926,7 @@
         "\\frac{700 \\times 1300}{200}"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:12.959146"
     },
@@ -6977,11 +6972,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->C<sub>P</sub> does not changes with change in pressure.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:13.271633"
     },
@@ -7133,11 +7128,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here heat is released so q is negative. \n<br/><br/> $\\therefore$  q = - 2 kJ\n<br/><br/>Work done on the system, w = 10 kJ\n<br/><br/>From first law of thermodynamics,\n<br/><br/> $\\Delta$ U = q + w = -2 + 10 = 8 kJ\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:12.709081"
     },
@@ -7183,13 +7178,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->From 1<sup>st</sup> law of thermodynamics we know,\n<br/><br/> $\\Delta$ U = q + W\n<br/><br/><b>Option A :</b>\n<br/><br/>In adiabatic process exchage of heat = 0\n<br/><br/> $\\therefore$  q = 0\n<br/><br/> $\\therefore$  From 1st law of thermodynaics,  $\\Delta$ U = W\n<br/><br/>So option A is wrong.\n<br/><br/><b>Option B :</b>\n<br/><br/>U is a state function. In cyclic process, initial state and final state both are same. So change in all the state function in cyclic process will be zero.\n<br/><br/> $\\therefore$   $\\Delta$ U  = 0\n<br/><br/> $\\therefore$  From 1st law of thermodynaics, \n<br/><br/>q + W = 0  $\\Rightarrow$  q = -W\n<br/><br/>So option B is correct..\n<br/><br/><b>Option C :</b>\n<br/><br/>In isochoric process volume (V) is constant. So dV = 0.\n<br/><br/>We know, W =  $-\\int P_{ex}dV$ \n<br/><br/> $\\therefore$  W = 0\n<br/><br/> $\\therefore$  From 1st law of thermodynaics, \n<br/><br/> $\\Delta$ U = q\n<br/><br/>So option C is correct.\n<br/><br/><b>Option D :</b>\n<br/><br/>In isothermal process temerature (T) is constant. So dT = 0.\n<br/><br/>We know,  $\\Delta$ U = nC<sub>v</sub>dT\n<br/><br/> $\\therefore$   $\\Delta$ U = 0\n<br/><br/> $\\therefore$  From 1st law of thermodynaics, \n<br/><br/>q + W = 0  $\\Rightarrow$  q = -W\n<br/><br/>So option D is correct.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\int P_{ex}dV"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:12.995414"
     },
@@ -7552,7 +7547,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->2H<sub>2</sub>O  $\\rightleftharpoons$   H<sub>3</sub>O<sup>+</sup> + OH<sup> $-$ </sup>\n<br/><br/>Here K<sub>eq</sub> = K<sub>w</sub>(H<sub>2</sub>O)\n<br/><br/>At 298 K, K<sub>w</sub>(H<sub>2</sub>O) = 10<sup>-14</sup>\n<br/><br/> $\\therefore$  K<sub>eq</sub> = 10<sup>-14</sup>\n<br/><br/> $\\Delta$ G<sup>o</sup> = -RTln(K<sub>eq</sub>)\n<br/><br/>= -RTln(K<sub>w</sub>)\n<br/><br/>= -2.303RT log (10<sup>-14</sup>)\n<br/><br/>= -2.303  $\\times$  8.314  $\\times$  298  $\\times$   $\\times$  (-14)\n<br/><br/>= 80 kJ/mol<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "Here K eq = K w (H 2 O) At 298 K, K w (H 2 O) = 10 -14",
@@ -7561,7 +7556,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:13.341607"
     },
@@ -7716,7 +7711,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A<sub>2</sub> (g)  $\\rightleftharpoons$  2 A (g)\n<br/><br/>Assume initially concentration of A<sub>2</sub> = [A<sub>2</sub>] = 1 m\n<br/><br/>at equilibrium [A<sub>2</sub>] = 1  $\\times$   $\\frac{80}{100}$  = 0.8 M\n<br/><br/>and 20% of  [A<sub>2</sub>] = 1  $\\times$   $\\frac{20}{100}$  = 0.2 M\n<br/><br/> $\\therefore$  [A] = 2  $\\times$  0.2 = 0.4 M\n<br/><br/>Equilibrium constant \n<br/><br/>K =  $\\frac{[A]^{2}}{[A_{2}]}$  =  $\\frac{[0.4]^{2}}{[0.8]}$  = 0.2\n<br/><br/> $\\Delta$ G<sup>o</sup> =  $-$  RT  $\\ell$ nK\n<br/><br/>=  $-$  8.314  $\\times$  320  $\\times$   $\\ell$ n(0.2)\n<br/><br/>= 4281 J/mol.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -7727,7 +7722,7 @@
         "nK ="
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:14.511171"
     },
@@ -7773,7 +7768,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->S( $l$ )    $\\longrightarrow$    S(g)\n<br/><br/> $\\Delta$ G<sup>o</sup> =  $\\Delta$ <sub>f</sub>G<sup>o</sup> (Vapour)  $-$   $\\Delta$ <sub>f</sub> G<sup>o</sup> (liquid)\n<br/><br/>= 103  $-$  100.7\n<br/><br/>= 2.3 kcal / mol\n<br/><br/>= 2.3  $\\times$  10<sup>3</sup> cal/mol.\n<br/><br/> $\\Delta$ G<sup>o</sup> =  $-$  RT $l$ nk\n<br/><br/> $\\Rightarrow$  2.3  $\\times$  10<sup>3</sup> =  $-$  2.303  $\\times$  2  $\\times$  500 log K\n<br/><br/> $\\Rightarrow$  log K =  $-$  1\n<br/><br/> $\\Rightarrow$  K = 0.1 atm<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "G o =",
@@ -7782,7 +7777,7 @@
         "log K ="
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:14.894190"
     },
@@ -7878,7 +7873,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given\n<br/><br/>(i)   2Fe<sub>2</sub>O<sub>3</sub>(s)  $\\rightarrow$  4Fe(s) + 3O<sub>2</sub>(g); \n<br/><br/> $\\Delta$ <sub>r</sub>G<sup>o</sup> = + 1487.0 kJ mol<sup>-1</sup>\n<br/><br/>(ii)   2CO(g) + O<sub>2</sub>(g)  $\\rightarrow$  2CO<sub>2</sub>(g); \n<br/><br/> $\\Delta$ <sub>r</sub>G<sup>o</sup> =  $-$  514.4 kJ mol<sup>-1</sup>\n<br/><br/>Multiply reaction (ii) with  3 and we get,  \n<br/><br/>(iii)   6CO(g) + 3O<sub>2</sub> (g)     $\\longrightarrow$     6CO<sub>2</sub>(g) ;\n<br/><br/> $\\Delta$ <sub>r</sub>G<sup>o</sup> = 3  $\\times$   $-$  514.4 =  $-$  1543.2 kJ mol<sup> $-$ 1</sup>\n<br/><br/>Now add reaction (i)   with  (iii),  we get\n<br/><br/>2Fe<sub>2</sub>O<sub>3</sub>(s) + 6CO(g)     $\\longrightarrow$     4Fe(s) + 6CO<sub>2</sub>(g)\n<br/><br/> $\\therefore$  Free energy change of the reaction, \n<br/><br/> $\\Delta$ <sub>r</sub>G<sup>o</sup>  =  1487.0  $-$  1543.2  =   $-$  56.2 kJ/mol<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "r G o = + 1487.0 kJ mol -1 (ii)   2CO(g) + O 2 (g)",
@@ -7889,7 +7884,7 @@
         "1543.2  ="
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:14.913815"
     },
@@ -7997,7 +7992,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7u7unk7/8615336a-0bfd-4c94-b844-2e7923600d20/5978d480-3019-11ed-ab58-4f43f7f8c851/file-1l7u7unk8.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "5 kJ mol -1 , q AB =",
@@ -8008,7 +8003,7 @@
         "5) ="
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:14.943261"
     },
@@ -8111,13 +8106,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\Delta$ H =  $\\Delta$  $\\mu$  +  $\\Delta$ ng RT\n<br/><br/> $\\therefore$   $\\Delta$ H =  $\\Delta$  $\\mu$ \n<br/><br/>When,  $\\Delta$ ng RT = 0\n<br/><br/> $\\Rightarrow$   $\\Delta$ ng = 0\n<br/><br/>For this reaction, \n<br/><br/>2HI(g)  $\\rightarrow$  H<sub>2</sub> (g) + I<sub>2</sub> (g)\n<br/><br/> $\\Delta$ ng = (1 + 1)  $-$  2 = 0\n<br/><br/> $\\therefore$   $\\Delta$ H =  $\\Delta$  $\\mu$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "2 = 0"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:14.996618"
     },
@@ -8163,7 +8158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From first law of thermodynamics, we have</p>\n<p> $\\Delta$ U = q + w</p>\n<p> $∙$  For state A to B : q = +5 J, w =  $-$ 8 J and</p>\n<p> $\\Delta$ U<sub>AB</sub> = 5 + ( $-$ 8) =  $-$ 3 J</p>\n<p> $∙$  For state B to A : q =  $-$ 3 J</p>\n<p>Since the internal energy is a state function, we have  $\\Delta$ U<sub>BA</sub> =  $-$   $\\Delta$ U<sub>AB</sub>. Therefore,</p>\n<p> $\\Delta$ U<sub>BA</sub> = q + w</p>\n<p>3 =  $-$ 3 + w  $\\Rightarrow$  w = 6 J</p>\n<p>Positive value of work indicates that 6 J of work is done by the surrounding on gas.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "For state A to B : q = +5 J, w =",
@@ -8173,7 +8168,7 @@
         "U BA ="
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:15.291689"
     },
@@ -8276,7 +8271,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given reaction,\n<br/><br/>A(g)   $\\rightarrow$   A( $l$ ) ;\n<br/><br/>We know, \n<br/><br/> $\\Delta$ H =  $\\Delta$ V +  $\\Delta$ n<sub>g</sub> RT\n<br/><br/>Given,  $\\Delta$ H =  $-$ 3RT\n<br/><br/>From reaction, \n<br/><br/> $\\Delta$ n<sub>g</sub> = 0 $-$  1 =  $-1$ \n<br/><br/> $\\therefore$   $\\Delta$ H =  $\\Delta$ U  $-$  RT\n<br/><br/> $\\Rightarrow$    $-$  3RT =  $\\Delta$ U  $-$  RT\n<br/><br/> $\\Rightarrow$   $\\Delta$ U =  $-$  2RT\n<br/><br/> $\\therefore$   $|\\Delta U|$  = 2RT\n<br/><br/>and  $|\\Delta H|$  = 3RT\n<br/><br/> $\\therefore$   $|\\Delta H|$  &gt;  $|\\Delta U|$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "H =",
@@ -8285,7 +8280,7 @@
         "3RT ="
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:15.356245"
     },
@@ -8388,11 +8383,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->From 1st law of thermodynamics\n<br/><br/>ΔU = q + w\n<br/><br/>For adiabatic process :\n<br/><br/>q = 0\n<br/><br/> $\\therefore$  ΔU = w\n<br/><br/>So change in internal energy (ΔU) is equal to adiabatic work.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:15.453705"
     },
@@ -8438,7 +8433,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For reaction : 2H<sub>2</sub>O<sub>2</sub>(1)  $\\rightleftharpoons$  2H<sub>2</sub>O(1) + O<sub>2</sub>(g)</p>\n<p>Given, p = 1 bar, T = 300 K, n = 100 mol, R = 8.3 J K<sup> $-$ </sup> mol<sup> $-$ 1</sup></p>\n<p>We know that</p>\n<p>w = p $\\Delta$ V = nRT</p>\n<p>= 100  $\\times$  8.3  $\\times$  300</p>\n<p>= 249000 J or 249 kJ</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "2H 2 O(1) + O 2 (g) Given, p = 1 bar, T = 300 K, n = 100 mol, R = 8.3 J K",
@@ -8446,7 +8441,7 @@
         "V = nRT = 100"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:15.764738"
     },
@@ -8658,11 +8653,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that  $\\Delta$ G =  $\\Delta$ H  $-$  T $\\Delta$ S</p>\n<p>At low temperature :  $\\Delta$ G is positive (non-spontaneous process), so  $\\Delta$ H is positive and  $\\Delta$ S is positive (T $\\Delta$ S &lt;  $\\Delta$ H as T is low).</p>\n<p>At high temperature :  $\\Delta$ G is negative (spontaneous process), so  $\\Delta$ H is positive and  $\\Delta$ S is positive (T $\\Delta$ S &gt;  $\\Delta$ H as T is high).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:15.815646"
     },
@@ -9760,11 +9755,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/zSs8v217uTprNbShE/u80zon3zz9iEVf7A7TP1ADdDpc1XY/BOXbjjmCNvUK1zN630N9ek/image.png"
       ],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:35:18.776088"
     },
@@ -10019,11 +10014,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->According to first law of thermodynamics energy can neither be created nor destroyed although it can be converted from one form to another. \n<br/><br/><b>NOTE :</b> Carnot cycle is based upon this principle but during the conversion of heat into work some mechanical energy is always converted to other form of energy hence this data violates  $1$  st. law of  thermodynamics.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:35:19.305101"
     },

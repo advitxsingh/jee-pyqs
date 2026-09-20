@@ -46,11 +46,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mox7d0js/d1bd891e-1719-4300-b280-96c5287812a7/3ff86880-4b05-11f1-8ae6-6d0dc390027c/file-6y3zli1mox7d0jt.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:36.642550"
     },
@@ -96,7 +96,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to count the number of ordered triples  $(a,b,c)$  of non-negative integers satisfying</p>\n<p> $a+b+2c=22$ </p>\n<p>Since  $a,b,c \\ge 0$ , let us fix  $c$  first.</p>\n<p>For a fixed value of  $c$ , the equation becomes</p>\n<p> $a+b=22-2c$ </p>\n<p>Now, the number of non-negative integer solutions of</p>\n<p> $a+b=n$ </p>\n<p>is</p>\n<p> $n+1$ </p>\n<p>So, for fixed  $c$ , number of solutions is</p>\n<p> $(22-2c)+1=23-2c$ </p>\n<p>Now find all possible values of  $c$ .</p>\n<p>Since  $2c \\le 22$ ,</p>\n<p> $c=0,1,2,\\dots,11$ </p>\n<p>Hence total number of solutions is</p>\n<p> $\\sum_{11}^{c=0}(23-2c)$ </p>\n<p>This is an arithmetic series:</p>\n<ul>\n<li><p>first term  $=23$ </p></li>\n<li><p>last term  $=23-2(11)=1$ </p></li>\n<li><p>number of terms  $=12$ </p></li>\n</ul>\n<p>So,</p>\n<p> $n(A)=\\frac{12}{2}(23+1)$ </p>\n<p> $n(A)=6 \\cdot 24=144$ </p>\n<p>Therefore,</p>\n<p> $n(A)=144$ </p>\n<p>So the correct option is:</p>\n<p> $144$ </p>\n<p>Hence,  $\\text{Option C}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "A={(a,b,c):a,b,c",
@@ -106,7 +106,7 @@
         "n(A)=144"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:37.086224"
     },
@@ -161,8 +161,7 @@
         "^{n-1}C_{r}=\\frac{(n-1)!}{r!(n-r-1)!}."
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)",
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:37.656709"
     },
@@ -276,7 +275,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $^{4}C_{2} \\cdot ^{5}C_{2} \\cdot ^{4}C_{1}+^{4}C_{2} \\cdot ^{5}C_{2} \\cdot ^{4}C_{1}+^{4}C_{2} \\cdot ^{4}C_{2} \\cdot ^{5}C_{1}=240+240+180=660$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "p_{1},p_{2},p_{3},p_{4}",
@@ -285,7 +284,7 @@
         "____"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:50.643312"
     },
@@ -617,14 +616,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From the word <strong>INCONSEQUENTIAL</strong>, let us first identify the vowels and consonants available.</p>\n<p>The letters are:</p>\n<p> $I,N,C,O,N,S,E,Q,U,E,N,T,I,A,L$ </p>\n<p>We have to form  $4$ -letter words containing:</p>\n<ul>\n<li><p>exactly  $2$  vowels</p></li>\n<li><p>exactly  $2$  consonants</p></li>\n<li><p>no letter repeated</p></li>\n</ul>\n<p>Since letters of the word may repeat in the original word, we count only <strong>distinct available letters</strong> for selection.</p>\n<h3>Step 1: Distinct vowels</h3>\n<p>The vowels present are:</p>\n<p> $A,E,I,O,U$ </p>\n<p>So, number of distinct vowels  $=5$ .</p>\n<h3>Step 2: Distinct consonants</h3>\n<p>The consonants present are:</p>\n<p> $N,C,S,Q,T,L$ </p>\n<p>So, number of distinct consonants  $=6$ .</p>\n<h3>Step 3: Choose 2 vowels and 2 consonants</h3>\n<p>Number of ways to choose  $2$  vowels from  $5$ :</p>\n<p> $^{5}C_{2}=10$ </p>\n<p>Number of ways to choose  $2$  consonants from  $6$ :</p>\n<p> $^{6}C_{2}=15$ </p>\n<p>So, total selections of letters:</p>\n<p> $^{5}C_{2} \\times ^{6}C_{2}=10 \\times 15=150$ </p>\n<h3>Step 4: Arrange the 4 chosen letters</h3>\n<p>All 4 letters are distinct, so number of arrangements:</p>\n<p> $4!=24$ </p>\n<p>Hence, total number of such 4-letter words is:</p>\n<p> $150 \\times 24=3600$ </p>\n<p>Therefore, the correct answer is:</p>\n<p> $3600$ </p>\n<p>So, <strong>Option D</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Medium",
       "key_formulas": [
         "4!=24",
         "150 \\times 24=3600"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)",
         "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:36.720296"
@@ -779,13 +777,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm0qlshu/36e4d64b-dcdb-42a0-9b4d-87deb2960d57/354be620-1192-11f1-991d-6b24cf51586e/file-jaoe38c1mm0qlshv.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow 21+6+1=28"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:38.167600"
     },
@@ -923,11 +921,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have to form a  $7$ -digit number using the digits  $1,2,3,5,7$  such that <strong>each digit is used at least once</strong>.</p>\n<p>Since there are  $5$  distinct digits and the number has  $7$  places, after using each digit once, there are  $2$  extra places.</p>\n<p>So, the repetition can happen in the following ways:</p>\n<h2>Case 1: One digit is repeated  $3$  times</h2>\n<p>Then the distribution of digits is:</p>\n<p> $3,1,1,1,1$ </p>\n<p>Choose the digit which appears  $3$  times:</p>\n<p> $^{5}C_{1}=5$ </p>\n<p>Now arrange the  $7$  digits:</p>\n<p> $\\frac{7!}{3!}$ </p>\n<p>So, total numbers in this case:</p>\n<p> $5 \\times \\frac{7!}{3!}=5 \\times \\frac{5040}{6}=5 \\times 840=4200$ </p>\n<h2>Case 2: Two digits are repeated  $2$  times each</h2>\n<p>Then the distribution is:</p>\n<p> $2,2,1,1,1$ </p>\n<p>Choose the two digits which are repeated:</p>\n<p> $^{5}C_{2}=10$ </p>\n<p>Now arrange the  $7$  digits:</p>\n<p> $\\frac{7!}{2!2!}$ </p>\n<p>So, total numbers in this case:</p>\n<p> $10 \\times \\frac{7!}{2!2!}=10 \\times \\frac{5040}{4}=10 \\times 1260=12600$ </p>\n<h2>Total number of such  $7$ -digit numbers</h2>\n<p> $4200+12600=16800$ </p>\n<p>Hence, the required number is</p>\n<p> $16800$ </p>\n<p>So, the correct option is <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:37.174845"
     },
@@ -1164,11 +1162,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7c21asa/a3efa841-34d8-481b-a497-aa3076bf21fd/497163a0-eed4-11ef-81d9-610d814056f7/file-jaoe38c1m7c21asb.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:39.297658"
     },
@@ -1193,7 +1191,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When numbers are uniformly distributed, half of them have even digit sums and half have odd digits sums.</p>\n<p>Number of 7-digit numbers with even digit sum =</p>\n<p> $\\frac{1}{2} \\cdot 9 \\cdot 10^{6}=4.5 \\cdot 10^{6}$ </p>\n<p>Note that  $9 \\cdot 5 \\cdot 10^{5}=4.5 \\cdot 10^{6}$ </p>\n<p> $m+n=9+5=14$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "m \\cdot n \\cdot 10^{n};m,n \\in {1,2,3,\\dots,9}",
@@ -1202,7 +1200,7 @@
         "m+n=9+5=14"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:50.978489"
     },
@@ -1227,7 +1225,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>No, of 3 digits  $=999-99=900$ </p>\n<p>No. of 3 digit numbers divisible by 2 &amp; 3 i.e. by 6</p>\n<p> $\\frac{900}{6}=150$ </p>\n<p>No. of 3 digit numbers divisible by 4 &amp; 9 i.e. by 36</p>\n<p> $\\frac{900}{36}=25$ </p>\n<p> $\\therefore$  No of 3 digit numbers divisible by  $2&amp;3$  but not by  $4&amp;9$ </p>\n<p> $150-25=125$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "=999-99=900",
@@ -1236,7 +1234,7 @@
         "150-25=125"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:51.354744"
     },
@@ -1507,11 +1505,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9fqcldi/0da0b840-26cf-40a4-ae72-98b877b46fcc/27544d60-1872-11f0-a7dd-51762233016a/file-jaoe38c1m9fqcldj.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mafcurcw/4dbe4cec-ca4f-4032-8eae-cf659f997b4d/98162000-2c09-11f0-bf88-ff84dceebac9/file-jaoe38c1mafcurcx.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:38.617585"
     },
@@ -1557,7 +1555,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; ^{n}C_{r-1}=28,^{n}C_{r}=56 \\\\ &amp; \\frac{^{n}C_{r-1}}{^{n}C_{r}}=\\frac{28}{56} \\\\ &amp; \\frac{\\frac{n!}{(r-1)!(n-r+1)!}}{\\frac{n!}{r!(n-r)!}}=\\frac{1}{2} \\\\ &amp; \\frac{r}{(n-r+1)}=\\frac{1}{2} \\\\ &amp; 3r=n+1\\text{..... (i)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{^{n}C_{r}}{^{n}C_{r+1}}=\\frac{56}{70} \\\\ &amp; \\frac{(r+1)}{(n-r)}=\\frac{56}{70} \\Rightarrow 9r=4n-5\\text{.... (ii)} \\end{aligned}$ </p>\n<p> $\\text{\\begin{aligned} &amp; \\text { By (i) &amp; (ii) } \\\\ &amp; \\begin{array}{l} (r=3),(n=8) \\\\ A(4 \\cos t, 4 \\sin t) \\quad B(2 \\sin t,-2 \\cos t) C\\le ft(3 r-n, r^2-n-1\\right) \\\\ A(4 \\cos t, 4 \\sin t) \\quad B(2 \\sin t,-2 \\operatorname{cost}) C(1,0) \\\\ (3 x-1)^2+(3 y)^2=(4 \\operatorname{cost}+2 \\sin t)^2+(4 \\sin t-\\operatorname{cost})^2 \\\\ (3 x-1)^2+(3 y)^2=20 \\quad \\therefore \\text { option }(1) \\end{array} \\end{aligned}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{n}C_{r-1}=28,^{n}C_{r}=56",
@@ -1566,7 +1564,7 @@
         "=\\alpha"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:38.996707"
     },
@@ -1648,13 +1646,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; m=6a,n=6b \\\\ &amp; \\text{So}gcd(m,n)=6 \\Rightarrow gcd(a,b)=1 \\\\ &amp; m=6a \\ge 10 \\Rightarrow a \\ge [\\frac{10}{6}]=2 \\\\ &amp; m=6a \\le 99 \\Rightarrow a \\le [\\frac{99}{6}]=16 \\end{aligned}$ </p>\n<p>So  $a,b \\in {2,3,\\dots,16}$ , and we count how many coprime pairs  $(a,b)$  with  $a&lt;b,gcd(a,b)=1$ </p>\n<p> $\\begin{aligned} &amp; a=2 \\Rightarrow b=3,5,7,9,11,13,15 \\Rightarrow 7 \\\\ &amp; a=3 \\Rightarrow b=4,5,7,8,10,11,13,14,16 \\Rightarrow 9 \\\\ &amp; a=4 \\Rightarrow b=5,7,9,11,13,15 \\Rightarrow 6 \\\\ &amp; a=5 \\Rightarrow b=6,7,8,9,11,12,13,14,16 \\Rightarrow 9 \\\\ &amp; a=6 \\Rightarrow b=7,11,13 \\Rightarrow 3 \\\\ &amp; a=7 \\Rightarrow b=8,9,10,11,12,13,15,16 \\Rightarrow 8 \\\\ &amp; a=8 \\Rightarrow b=9,11,13,15 \\Rightarrow 4 \\\\ &amp; a=9 \\Rightarrow b=10,11,13,14,16 \\Rightarrow 5 \\\\ &amp; a=10 \\Rightarrow b=11,13 \\Rightarrow 2 \\\\ &amp; a=11 \\Rightarrow b=12,13,14,15,16 \\Rightarrow 5 \\\\ &amp; a=12 \\Rightarrow b=13,17 \\times \\rightarrow \\text{only}13\\text{is valid} \\Rightarrow 1 \\\\ &amp; a=13 \\Rightarrow b=14,15,16 \\Rightarrow 3 \\\\ &amp; a=14 \\Rightarrow b=15, \\Rightarrow 1 \\\\ &amp; a=15 \\Rightarrow b=16 \\Rightarrow 1 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Total}=7+9+6+9+3+8+4+5+2+5+1 \\\\ &amp; +3+1+1=64 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "gcd(m,n)=6"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:50.679273"
     },
@@ -1679,7 +1677,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} x &amp; y &amp; z \\end{aligned}$ </p>\n<p>Let  $x=2 \\Rightarrow y+z=13$ </p>\n<p> $(4,9),(5,8),(6,7),(7,6),(8,5),(9,4), \\rightarrow 6$ </p>\n<p>Let  $x=3 \\rightarrow y+z=12$ </p>\n<p> $(3,9),(4,8),\\dots\\dots..,(9,3) \\rightarrow 7$ </p>\n<p>Let  $x=4 \\rightarrow y+z=11$ </p>\n<p> $(2,9),(3,8),\\dots\\dots\\dots,(9,1) \\rightarrow 9$ </p>\n<p>Let  $x=5 \\rightarrow y+z=10$ </p>\n<p> $(1,9),(2,8),\\dots\\dots..,(9,1) \\rightarrow 10$ </p>\n<p>Let  $x=6 \\rightarrow y+z=9$ </p>\n<p> $(0,9),(1,8),\\dots\\dots..,(9,0) \\rightarrow 9$ </p>\n<p>Let  $x=7 \\rightarrow y+z=8$ </p>\n<p> $(0,9),(1,7),\\dots\\dots..,(8,0) \\rightarrow 9$ </p>\n<p>Let  $x=8 \\rightarrow y+z=7$ </p>\n<p> $(0,7),(1,6),\\dots\\dots..,(7,0) \\rightarrow 8$ </p>\n<p>Let  $x=9 \\rightarrow y+z=6$ </p>\n<p> $(0,6),(1,5),\\dots\\dots\\dots,(6,0) \\rightarrow 7$ </p>\n<p>Total  $=6=7+8+9+10+9+8+7=64$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "x=2 \\Rightarrow y+z=13",
@@ -1690,7 +1688,7 @@
         "x=7 \\rightarrow y+z=8"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:51.079447"
     },
@@ -2024,7 +2022,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2M \\\\ &amp; 2A \\\\ &amp; 2T \\\\ &amp; H,E,I,C,S \\end{aligned}$ </p>\n<p>Case-I</p>\n<p>2 Alike 2 Alike 1 Diff</p>\n<p> $^{3}C_{2} \\times ^{6}C_{1}=18$ </p>\n<p>Case-II</p>\n<p>2 Alike + 3 Diff</p>\n<p> $^{3}C_{1} \\times ^{7}C_{3}=105$ </p>\n<p>Case-III</p>\n<p>All different</p>\n<p> $^{8}C_{5}=56$ </p>\n<p>Total ways  $=179$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "^{3}C_{2} \\times ^{6}C_{1}=18",
@@ -2033,7 +2031,7 @@
         "=179"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:39.998010"
     },
@@ -2223,14 +2221,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Number of ways  $=$  coefficient of  $x^{16}$  in  $(x+x^{2}+\\dots+$   $x^{6})^{4}$ </p>\n<p> $=$  coefficient of  $x^{16}$  in  $(1-x^{6})^{4}(1-x)^{-4}$ </p>\n<p> $=$  coefficient of  $x^{16}$  in  $(1-4x^{6}+6x^{12}\\dots)(1-x)^{-4}$ </p>\n<p> $=^{15}C_{3}-4 \\cdot ^{9}C_{3}+6=125$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{6})^{4}",
         "=^{15}C_{3}-4 \\cdot ^{9}C_{3}+6=125"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:51.776782"
     },
@@ -2645,7 +2643,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; ^{6}C_{m}+2(^{6}C_{m+1})+^{6}C_{m+2}&gt;^{8}C_{3} \\\\ &amp; ^{7}C_{m+1}+^{7}C_{m+2}&gt;^{8}C_{3} \\\\ &amp; ^{8}C_{m+2}&gt;^{8}C_{3} \\\\ &amp; \\therefore m=2 \\\\ &amp; \\text{And}^{n-1}P_{3}:^{n}P_{4}=1:8 \\\\ &amp; \\frac{(n-1)(n-2)(n-3)}{n(n-1)(n-2)(n-3)}=\\frac{1}{8} \\\\ &amp; \\therefore n=8 \\\\ &amp; \\therefore ^{n}P_{m+1}+^{n+1}C_{m}=^{8}P_{3}+^{9}C_{2} \\\\ &amp; =8 \\times 7 \\times 6+\\frac{9 \\times 8}{2} \\\\ &amp; =372 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "m,n;^{6}C_{m}+2(^{6}C_{m+1})+^{6}C_{m+2}>^{8}C_{3}",
@@ -2653,7 +2651,7 @@
         "^{n}P_{m+1}+^{n+1}C_{m}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:40.944113"
     },
@@ -2678,7 +2676,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Number in this range will be 3-digit number.</p>\n<p> $N=\\bar{abc}$  such that  $a+b+c=14$ </p>\n<p>Also,  $a \\ge 1,a,b,c \\in {0,1,2,\\dots9}$ </p>\n<p>Case I</p>\n<p>All 3-digit same</p>\n<p> $\\Rightarrow 3a=14$  not possible</p>\n<p>Case II</p>\n<p>Exactly 2 digit same:</p>\n<p> $\\Rightarrow 2a+c=14$ </p>\n<p> $\\begin{aligned} &amp; (a,c) \\in {(3,8),(4,6),(5,4),(6,2),(7,0)} \\\\ &amp; \\Rightarrow (\\frac{3!}{2!})\\text{ways} \\Rightarrow 5 \\times 3-1 \\\\ &amp; =15-1=14 \\end{aligned}$ </p>\n<p>Case III</p>\n<p>All digits are distinct</p>\n<p> $a+b+c=14$ </p>\n<p>without losing generality  $a&gt;b&gt;c$ </p>\n<p> $\\begin{aligned} &amp; (a,b,c) \\in ⎧⎩⎨⎪⎪\\begin{aligned} (9,5,0),(9,4,1),(9,3,2) \\\\ (8,6,0),(8,5,1),(8,4,2) \\\\ (7,6,1),(7,5,2),(7,4,3) \\\\ (6,5,3) \\end{aligned} \\\\ &amp; \\Rightarrow 8 \\times 3!+2(3!-2!)=48+8=56 \\\\ &amp; =0+14+56=70 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "N=\\bar{abc}",
@@ -2687,7 +2685,7 @@
         "\\Rightarrow 2a+c=14"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:51.424337"
     },
@@ -2712,7 +2710,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x+2y+3z=42$ \n<br/><br/> $x,y,z \\ge 0$ \n<br/><br/>as\n<br/><br/> $\\begin{aligned} z=0 &amp; x+2y=42 \\Rightarrow 22\\text{cases} \\\\ \\\\ z=1 &amp; x+2y=39 \\Rightarrow 20\\text{cases} \\\\ \\\\ z=2 &amp; x+2y=36 \\Rightarrow 19\\text{cases} \\\\ \\\\ z=3 &amp; x+2y=33 \\Rightarrow 17\\text{cases} \\\\ \\\\ z=4 &amp; x+2y=30 \\Rightarrow 16\\text{cases} \\\\ \\\\ z=5 &amp; x+2y=27 \\Rightarrow 14\\text{cases} \\end{aligned}$ \n<br/><br/> $z=6x+2y=24 \\Rightarrow 13$  cases\n<br/><br/> $z=7x+2y=21 \\Rightarrow 11$  cases\n<br/><br/> $z=8x+2y=18 \\Rightarrow 10$  cases\n<br/><br/> $z=9x+2y=15 \\Rightarrow 8$  cases\n<br/><br/> $z=10x+2y=12 \\Rightarrow 7$  cases\n<br/><br/> $z=11x+2y=9 \\Rightarrow 5$  cases\n<br/><br/> $z=12x+2y=6 \\Rightarrow 4$  cases\n<br/><br/> $z=13x+2y=3 \\Rightarrow 2$  cases\n<br/><br/> $z=14x+2y=0 \\Rightarrow 1$  case\n<br/><br/>Total = 169<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "S={(x,y,z):x,y,z \\in Z,x+2y+3z=42,x,y,z⩾0}",
@@ -2723,7 +2721,7 @@
         "z=9x+2y=15 \\Rightarrow 8"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:51.824555"
     },
@@ -2769,7 +2767,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $0 \\le r \\le n$ . If  $(\\frac{n+1}{r+1}):(\\frac{n}{r}):(\\frac{n-1}{r-1})=55:35:21$ , then we are to determine the value of  $2n+5r$ .</p>\n<h3>Step-by-Step Solution:</h3>\n<ol>\n<li>Write the given proportions involving binomial coefficients:</li>\n</ol>\n<p> $\\frac{n+1}{r+1} \\times (\\frac{n}{r}):(\\frac{n}{r}):\\frac{r}{n} \\times (\\frac{n}{r})=55:35:21$ </p>\n<ol>\n<li>Simplify the proportions:</li>\n</ol>\n<p> $\\frac{n+1}{r+1}=\\frac{55}{35}\\text{and}\\frac{n}{r}=\\frac{35}{21}$ </p>\n<ol>\n<li>From the simplified ratios, we establish the following two equations:</li>\n</ol>\n<p> $\\frac{n+1}{r+1}=\\frac{11}{7} \\Rightarrow 7(n+1)=11(r+1) \\Rightarrow 7n-11r=4\\text{.... (1)}$ </p>\n<p> $\\frac{n}{r}=\\frac{5}{3} \\Rightarrow 3n=5r \\Rightarrow 3n-5r=0\\text{.... (2)}$ </p>\n<ol>\n<li>Solve equations (1) and (2) simultaneously:</li>\n</ol>\n<ul>\n<li>From equation (2), solve for  $n$ :</li>\n</ul>\n<p> $3n=5r \\Rightarrow n=\\frac{5r}{3}$ </p>\n<ul>\n<li>Substitute  $n$  into equation (1):</li>\n</ul>\n<p> $7(\\frac{5r}{3})-11r=4 \\Rightarrow \\frac{35r}{3}-11r=4$ </p>\n<p> $\\frac{35r-33r}{3}=4 \\Rightarrow \\frac{2r}{3}=4 \\Rightarrow 2r=12 \\Rightarrow r=6$ </p>\n<ul>\n<li>Substituting  $r$  back to find  $n$ :</li>\n</ul>\n<p> $n=\\frac{5 \\times 6}{3}=10$ </p>\n<ol>\n<li>Compute  $2n+5r$ :</li>\n</ol>\n<p> $2n+5r=2 \\times 10+5 \\times 6=20+30=50$ </p>\n<p>Thus, the value of  $2n+5r$  is 50.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Hard",
       "key_formulas": [
         "^{n+1}C_{r+1}:^{n}C_{r}:^{n-1}C_{r-1}=55:35:21",
@@ -2778,7 +2776,7 @@
         "\\frac{35r-33r}{3}=4 \\Rightarrow \\frac{2r}{3}=4 \\Rightarrow 2r=12 \\Rightarrow r=6"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:40.095973"
     },
@@ -2878,11 +2876,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $3\\text{Shelf empty:}(8,0,0,0) \\rightarrow 1\\text{way}$ </p>\n<p> $2\\text{shelf empty:}\\begin{aligned} (7,1,0,0) \\\\ (6,2,0,0) \\\\ (5,3,0,0) \\\\ (4,4,0,0) \\end{aligned}⎤⎦⎥ \\rightarrow 4\\text{ways}$ </p>\n<p> $1\\text{shelf empty:}\\begin{aligned} (6,1,1,0) &amp; (3,3,2,0) \\\\ (4,2,1,0) &amp; (4,2,2,0) \\\\ (4,3,0) &amp; \\end{aligned}⎤⎦⎥ \\rightarrow 5\\text{ways}$ </p>\n<p> $0\\text{Shelf empty :}\\begin{aligned} (1,2,3,2) &amp; (5,1,1,1) \\\\ (2,2,2,2) \\\\ (3,3,2,1,1) \\\\ (4,2,1,1) &amp; \\end{aligned}⎤⎦⎥ \\rightarrow 5\\text{ways}$ </p>\n<p>Total  $=15$  ways</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:40.981979"
     },
@@ -3100,11 +3098,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; S=\\frac{1}{1!50!}+\\frac{1}{3!48!}+\\frac{1}{5!46!}+\\dots\\dots+\\frac{1}{49!2!}+\\frac{1}{51!1!} \\\\ \\\\ &amp; =\\frac{1}{51!}(\\frac{51!}{1!50!}+\\frac{51!}{3!48!}+\\frac{51!}{5!46!}+\\dots..+\\frac{51!}{49!2!}+\\frac{51!}{51!0!}) \\\\ \\\\ &amp; =\\frac{1}{51!}(^{51}C_{50}+^{51}C_{48}+^{51}C_{46}+\\dots\\dots.+^{51}C_{2}+^{51}C_{0}) \\\\ \\\\ &amp; \\because ^{n}C_{0}+^{n}C_{2}+^{n}C_{4}+\\dots\\dots=2^{n-1} \\\\ \\\\ &amp; \\therefore S=\\frac{2^{50}}{51!} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:42.591182"
     },
@@ -3152,11 +3150,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lef5alut/f8dc7152-4573-493d-a2cc-0b09243a1255/1b9fc550-b265-11ed-a126-5dfa1a9d5fb8/file-1lef5aluu.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:42.990675"
     },
@@ -3243,13 +3241,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; x+y+z=21 \\\\ \\\\ &amp; \\because x \\ge 1,y \\ge 3,y \\ge 4 \\\\ \\\\ &amp; \\therefore x_{1}+y_{1}+z_{1}=13 \\\\ \\\\ &amp; \\text{Number of solutions}=^{13+3-1}C_{3-1} \\\\ \\\\ &amp; =^{15}C_{2}=\\frac{15 \\times 14}{2}=7 \\times 15 \\\\ \\\\ &amp; =105 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "x+y+z=21"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:53.407982"
     },
@@ -3274,7 +3272,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=[\\begin{aligned} a_{11} &amp; a_{12} \\\\ a_{13} &amp; a_{14} \\end{aligned}]$ \n<br/><br/>Such that  $\\Sigma a_{ii}=3,5,7$  or 11\n\n<br/><br/>Then for sum 3, the possible entries are  $(0,0,0,3)$ ,  $(0,0,1,2),(0,1,1,1)$ .\n\n<br/><br/>Then total number of possible matrices\n\n $=4+12+4$ \n $=20$ \n<br/><br/>For sum 5 the possible entries are  $(0,0,1,4)$ ,  $(0,0,2,3),(0,1,2,2),(0,1,1,3)$  and  $(1,1,1,2)$ .\n\n<br/><br/> $\\therefore$  Total possible matrices  $=12+12+12+12+4=52$ \n<br/><br/>For sum 7 the possible entries are  $(0,0,3,4)$ ,  $(0,2,2,3),(0,1,2,4),(0,1,3,3),(1,2,2,2)$ ,  $(1,1,2,3)$  and  $(1,1,1,4)$ .\n\n<br/><br/> $\\therefore$  Total possible matrices  $=80$ \n<br/><br/>For sum 11 the possible entries are  $(0,3,4,4)$ ,  $(1,2,4,4),(2,3,3,3),(2,2,3,4)$ .\n\n<br/><br/> $\\therefore$  Total number of matrices  $=52$ \n<br/><br/> $\\therefore$  Total required matrices  $=20+52+80+52$ \n $=204$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "A=[a_{ij}],a_{ij} \\in ℤ∩[0,4],1 \\le i,j \\le 2",
@@ -3285,7 +3283,7 @@
         "=12+12+12+12+4=52"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:53.819589"
     },
@@ -3310,7 +3308,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $.......1 \\rightarrow \\frac{6!}{2!3!}=60$ </p>\n<p> $.......3 \\rightarrow \\frac{6!}{3!}=120$ </p>\n<p> $.......5 \\rightarrow \\frac{6!}{3!2!}=60$ </p>\n<p>Total = 240</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         ".......1 \\rightarrow \\frac{6!}{2!3!}=60",
@@ -3318,7 +3316,7 @@
         ".......5 \\rightarrow \\frac{6!}{3!2!}=60"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:54.439990"
     },
@@ -3351,13 +3349,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le2g48bm/5e3286ff-1f06-4186-a954-c8121f8cf64f/3e4b4730-ab69-11ed-b88f-0b6f40cc9ae6/file-1le2g48bn.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le2g4qkb/9fafb3cc-ba1e-4c03-a575-be2b1b45a714/4c6274b0-ab69-11ed-b88f-0b6f40cc9ae6/file-1le2g4qkc.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:54.963743"
     },
@@ -3382,7 +3380,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Among 12 courses, 5 courses are of language.</p>\n<p> $\\therefore$  Remaining 7 are different courses.</p>\n<p>Now, number of ways to select 5 courses where at most 2 language courses present.</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 448px\">\n<colgroup>\n<col style=\"width: 106px\"/>\n<col style=\"width: 87px\"/>\n<col style=\"width: 86px\"/>\n<col style=\"width: 169px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-7btt\"></th>\n<th class=\"tg-7btt\">Language</th>\n<th class=\"tg-7btt\">Different</th>\n<th class=\"tg-7btt\">Number of ways</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-c3ow\">Case 1</td>\n<td class=\"tg-c3ow\">0</td>\n<td class=\"tg-c3ow\">5</td>\n<td class=\"tg-c3ow\"> $^{5}C_{0} \\times ^{7}C_{5}$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">Case 2</td>\n<td class=\"tg-c3ow\">1</td>\n<td class=\"tg-c3ow\">4</td>\n<td class=\"tg-c3ow\"> $^{5}C_{1} \\times ^{7}C_{4}$ </td>\n</tr>\n<tr>\n<td class=\"tg-c3ow\">Case 3</td>\n<td class=\"tg-c3ow\">2</td>\n<td class=\"tg-c3ow\">3</td>\n<td class=\"tg-c3ow\"> $^{5}C_{2} \\times ^{7}C_{3}$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  Total number of ways</p>\n<p> $=^{5}C_{0} \\times ^{7}C_{5}+^{5}C_{1} \\times ^{7}C_{4}+^{5}C_{2} \\times ^{7}C_{3}$ </p>\n<p> $=546$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "^{5}C_{0} \\times ^{7}C_{5}",
@@ -3391,7 +3389,7 @@
         "=546"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:55.344848"
     },
@@ -4007,14 +4005,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lnj292pt/52c17b6b-83cf-405a-ba54-57beea816528/4aa6a710-66ba-11ee-bc75-8500166e483f/file-6y3zli1lnj292pu.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1},C_{2}",
         "C_{3}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:41.796193"
     },
@@ -4060,13 +4058,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, let's determine the number of elements in the Cartesian product  $A \\times B$ . If set  $A$  has 5 elements and set  $B$  has 2 elements, then the number of elements in  $A \\times B$  is:</p>\n<p>\n<p> $|A \\times B|=|A| \\times |B|=5 \\times 2=10$ </p>\n</p>\n<p>We need to find the number of subsets of  $A \\times B$  with at least 3 elements and at most 6 elements. The total number of elements in  $A \\times B$  is 10, so we must consider the subsets containing 3, 4, 5, and 6 elements.</p>\n<p>The number of ways to choose  $r$  elements from a set of 10 elements is given by the binomial coefficient:</p>\n<p>\n<p> $(\\frac{10}{r})=\\frac{10!}{r!(10-r)!}$ </p>\n</p>\n<p>We will find the sum of the binomial coefficients for  $r=3,4,5,6$ :</p>\n<p>First,  $(\\frac{10}{3})$ :</p>\n<p>\n<p> $(\\frac{10}{3})=\\frac{10!}{3!7!}=\\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1}=120$ </p>\n</p>\n<p>Next,  $(\\frac{10}{4})$ :</p>\n<p>\n<p> $(\\frac{10}{4})=\\frac{10!}{4!6!}=\\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1}=210$ </p>\n</p>\n<p>Next,  $(\\frac{10}{5})$ :</p>\n<p>\n<p> $(\\frac{10}{5})=\\frac{10!}{5!5!}=\\frac{10 \\times 9 \\times 8 \\times 7 \\times 6}{5 \\times 4 \\times 3 \\times 2 \\times 1}=252$ </p>\n</p>\n<p>Next,  $(\\frac{10}{6})$ :</p>\n<p>\n<p> $(\\frac{10}{6})=\\frac{10!}{6!4!}=\\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1}=210$ </p>\n</p>\n<p>Finally, we sum these values:</p>\n<p>\n<p> $(\\frac{10}{3})+(\\frac{10}{4})+(\\frac{10}{5})+(\\frac{10}{6})=120+210+252+210=792$ </p>\n</p>\n<p>Therefore, the number of subsets of  $A \\times B$  each having at least 3 and at most 6 elements is:</p>\n<p>Option D - 792</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "A \\times B"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:42.267854"
     },
@@ -4112,11 +4110,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Lets arrange the letters of OUGHT in alphabetical\norder.\n <br/><br/>G, H, O, T, U</p>\n<br/>Words starting with\n<br/><br/> $\\begin{aligned} &amp; G---- \\rightarrow 4! \\\\ \\\\ &amp; H---- \\rightarrow 4! \\\\ \\\\ &amp; O---- \\rightarrow 4! \\end{aligned}$ \n<br/><br/> $TG--- \\rightarrow 3$  !\n<br/><br/>T H  $--- \\rightarrow 3$  !\n<br/><br/>T O  $G-- \\rightarrow 2$  !\n<br/><br/>T O H  $-- \\rightarrow 2$  !\n<br/><br/>T O U G H  $\\rightarrow 1$  !\n<br/>____________________________\n<br/>Total = 89<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:42.684174"
     },
@@ -4162,7 +4160,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Four digit numbers greater than 7000  $=2 \\times 4 \\times 3 \\times 2=48$ <br/><br/>\nFive digit number  $=5!=120$ <br/><br/>\nTotal number greater than 7000  $=120+48=168$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "=2 \\times 4 \\times 3 \\times 2=48",
@@ -4170,7 +4168,7 @@
         "=120+48=168"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:43.053815"
     },
@@ -4201,7 +4199,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgv32tqq/b0d7959c-9018-4ef6-a138-3892ec03995b/6a221f20-e2c1-11ed-99f0-2347181d377e/file-1lgv32tqr.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgv34b44/8ad108c1-684d-453a-8d6e-de913d462fc1/935ca040-e2c1-11ed-99f0-2347181d377e/file-1lgv34b45.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "a+b=x+y",
@@ -4212,7 +4210,7 @@
         "\\lambda=11"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:52.409065"
     },
@@ -4243,8 +4241,7 @@
         "D(5) ="
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)",
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:52.793131"
     },
@@ -4269,11 +4266,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, word is UNIVERSE\n\n<br/><br/>Here, vowels are E, I, U and consonants are N, R, S, V \n<br/><br/> $\\therefore$  Required number of 4-letters words, with or without meaning, \n<br/><br/>each consisting of 2 vowels and 2 consonants\n<br/><br/> $\\begin{aligned} &amp; =^{3}C_{2} \\times ^{4}C_{2} \\times 4! \\\\ \\\\ &amp; =^{3}C_{1} \\times ^{4}C_{2} \\times 24 \\\\ \\\\ &amp; =3 \\times 6 \\times 24=432 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:53.108106"
     },
@@ -4300,7 +4297,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le9xbqbh/6a03e2bb-e7c5-4885-abb8-b77d1c53361f/0699bad0-af86-11ed-8a80-c79017866e24/file-1le9xbqbi.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "=n(2)+n(3)-n(6)",
@@ -4311,7 +4308,7 @@
         "n(A∩C)=n(14)=112,126,\\dots.,994=64"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:53.483223"
     },
@@ -4338,11 +4335,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lelo42n9/53ce0458-9680-4b44-8466-08f8e9ec8d51/6747a240-b5fb-11ed-9b52-9b6c0357d10e/file-1lelo42na.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:53.903948"
     },
@@ -4367,7 +4364,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $gcd(a,54)=2$  when a is a 4 digit no.</p>\n<p>And  $54=3 \\times 3 \\times 3 \\times 2$ </p>\n<p>So,  $a=$  all even no. of 4 digits  $-$  Even multiple of 3 (4 digits)</p>\n<p> $=4500-1500$ </p>\n<p> $=3000$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "gcd(a,54)=2",
@@ -4375,7 +4372,7 @@
         "=3000"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:54.578863"
     },
@@ -4400,11 +4397,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total 8 oranges, 5 white apple and 7 red apple. 5 fruits needs to be selected.\n<br/><br/>\n<b>Case I</b>: 3 orange  $+1$  red apple  $+1$  white apple\n<br/><br/>\n $=^{8}C_{3} \\times ^{7}C_{1} \\times ^{5}C_{1}=1960$ \n<br/><br/>\n<b>Case II</b> : 2 oranges  $+2$  red apples  $+1$  white apple.\n<br/><br/>\n $=^{8}C_{2} \\times ^{7}C_{2} \\times ^{5}C_{1}=2940$ \n<br/><br/>\n<b>Case III</b> : 2 oranges  $+1$  red apples  $+2$  white apple.\n<br/><br/>\n $\\begin{aligned} &amp; =^{8}C_{2} \\times ^{7}C_{1} \\times ^{5}C_{2} \\\\ \\\\ &amp; =1960 \\\\ \\\\ \\text{Total} &amp; =1960+2940+1960 \\\\ \\\\ &amp; =6860 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:55.040176"
     },
@@ -4981,7 +4978,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $^{b}C_{3}.^{g}C_{2}=168$ </p>\n<p> $\\Rightarrow \\frac{b(b-1)(b-2)}{6}.\\frac{g(g-1)}{2}=168$ </p>\n<p> $\\Rightarrow b(b-1)(b-2)g(g-1)=2^{5}.3^{2}.7$ </p>\n<p> $\\Rightarrow b(b-1)(b-2)g(g-1)=6.7.8.3.2$ </p>\n<p> $\\therefore$   $b=8$  and  $g=3$ </p>\n<p> $\\therefore$   $b+3g=17$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{b}C_{3}.^{g}C_{2}=168",
@@ -4992,7 +4989,7 @@
         "g=3"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:55.715692"
     },
@@ -5026,7 +5023,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l79f4997/9a6ce487-3cbd-4e4f-822e-42b6ff66ac73/4ec74ab0-24a9-11ed-8d2e-5f0df5271c2d/file-1l79f4998.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l79f79sr/bdabc9fc-26b6-4f3a-9eaa-4b6346d15d96/a2a022b0-24a9-11ed-8d2e-5f0df5271c2d/file-1l79f79ss.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{6!}{2!}",
@@ -5037,7 +5034,7 @@
         "=4.\\frac{6!}{2!}+0.\\frac{5!}{2!}+3.\\frac{4!}{2!}+2.3!+1.2!+1.1!+0!"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.087605"
     },
@@ -5062,13 +5059,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  Sum of all entries of matrix A must be prime p such that 2 &lt; p &lt; 8 then sum of entries may be 3, 5 or 7.</p>\n<p>If sum is 3 then possible entries are (0, 0, 0, 3), (0, 0, 1, 2) or (0, 1, 1, 1).</p>\n<p> $\\therefore$  Total number of matrices = 4  + 4 + 12 = 20</p>\n<p>If sum of 5 then possible entries are</p>\n<p>(0, 0, 0, 5), (0, 0, 1, 4), (0, 0, 2, 3), (0, 1, 1, 3), (0, 1, 2, 2) and (1, 1, 1, 2).</p>\n<p> $\\therefore$  Total number of matrices = 4 + 12 + 12 + 12 + 12 + 4 = 56</p>\n<p>If sum is 7 then possible entries are</p>\n<p>(0, 0, 2, 5), (0, 0, 3, 4), (0, 1, 1, 5), (0, 3, 3, 1), (0, 2, 2, 3), (1, 1, 1, 4), (1, 2, 2, 2), (1, 1, 2, 3) and (0, 1, 2, 4).</p>\n<p>Total number of matrices with sum 7 = 104</p>\n<p> $\\therefore$  Total number of required matrices</p>\n<p>= 20 + 56 + 104</p>\n<p>= 180</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.332336"
     },
@@ -5093,7 +5090,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $C-1:$  All digits are non-zero</p>\n<p> $^{9}C_{2}.2.\\frac{3!}{2}=216$ </p>\n<p> $C-2$  : One digit is 0</p>\n<p> $0,0,x \\Rightarrow ^{9}C_{1}.1=9$ </p>\n<p> $0,x,x \\Rightarrow ^{9}C_{1}.2=18$ </p>\n<p>Total  $=216+27=243$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{9}C_{2}.2.\\frac{3!}{2}=216",
@@ -5102,7 +5099,7 @@
         "=216+27=243"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.677811"
     },
@@ -5127,13 +5124,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let student marks  $x$  correct answers and  $y$  incorrect. So\n<br/><br/>\n $3x-2y=5$  and  $x+y \\le 5$  where  $x,y \\in W$ \n<br/><br/>\nOnly possible solution is  $(x,y)=(3,2)$ \n<br/><br/>\nStudents can mark correct answers by only one choice but for an incorrect answer, there are two choices. So total number of ways of scoring 5 marks  $=^{5}C_{3}(1)^{3} \\cdot (2)^{2}=40$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "=^{5}C_{3}(1)^{3} \\cdot (2)^{2}=40"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.929380"
     },
@@ -5349,11 +5346,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Case-I</b><br/><br/> When number is 4-digit number  $(\\bar{abcd})$  here  $d$  is fixed as 5\n<br/><br/>\nSo,  $(a,b,c)$  can be  $(6,4,3),(3,4,6),(2,3,6)$ ,  $(6,3,2),(3,2,4)$  or  $(4,2,3)$ \n<br/><br/>\n $\\Rightarrow 6$  numbers\n<br/><br/>\n<b>Case-II</b><br/><br/> No number possible<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:55.423339"
     },
@@ -5381,11 +5378,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l97twac2/f9689a1f-abde-44d3-bf0b-1a1289bdd7bc/f788ec10-4b61-11ed-80b9-4154b7faa509/file-1l97twac3.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l97tyhd1/d57389e9-902a-407f-843c-e06ca2c6e0b2/3494f950-4b62-11ed-80b9-4154b7faa509/file-1l97tyhd2.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:55.801771"
     },
@@ -5410,7 +5407,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If unit digit is 1 then  $\\rightarrow 9 \\times$  s  $10 \\times 10=900$  numbers <br/><br/>If unit digit is 2 then  $\\rightarrow 4 \\times 5 \\times 5=100$  numbers <br/><br/>If unit digit is 3 then  $\\rightarrow 3 \\times 4 \\times 4=48$  numbers<br/><br/> If unit digit is 4 then  $\\rightarrow 2 \\times 3 \\times 3=18$  numbers<br/><br/> If unit digit is 5 then  $\\rightarrow 1 \\times 2 \\times 2=4$  numbers <br/><br/>If unit digit is 6 then  $\\rightarrow 1 \\times 2 \\times 2=4$  numbers\n<br/><br/>\nFor  $7,8,9 \\rightarrow 4+4+4=12$  Numbers\n<br/><br/>\nTotal  $=1086$  Numbers<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\rightarrow 9 \\times",
@@ -5421,7 +5418,7 @@
         "\\rightarrow 1 \\times 2 \\times 2=4"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.114240"
     },
@@ -5446,14 +5443,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  x  $\\in$  [100, 999], x  $\\in$  N</p>\n<p>Then  $\\frac{x}{2}$   $\\in$  [50, 499],  $\\frac{x}{2}$   $\\in$  N</p>\n<p>Number whose G.C.D. with 18 is 1 in this range have the required condition. There are 6 such number from 18  $\\times$  3 to 18  $\\times$  4. Similarly from 18  $\\times$  4 to 18  $\\times$  5 ......., 26  $\\times$  18 to 27  $\\times$  18</p>\n<p> $\\therefore$  Total numbers = 24  $\\times$  6 + 6 = 150</p>\n<p>The extra numbers are 53, 487, 491, 493, 497 and 499.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x}{2}",
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.356694"
     },
@@ -5478,14 +5475,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><b>Case-I</b>: <br/><br/> $\\begin{aligned} 1 &amp; \\rightarrow 7\\text{times} \\\\ \\\\ \\text{and}-1 &amp; \\rightarrow 2\\text{times} \\end{aligned}$ <br/><br/>\nnumber of possible marrix  $=\\frac{9!}{7!2!}=36$ <br/><br/>\n<b>Case-II</b>: <br/><br/> $1 \\rightarrow 6$  times,<br/><br/>\n $-1 \\rightarrow 1$  times<br/><br/>\nand  $0 \\rightarrow 2$  times<br/><br/>\nnumber of possible marrix  $=\\frac{9!}{6!2!}=252$ <br/><br/>\n<b>Case-III</b>: <br/><br/> $1 \\rightarrow 5$  times,<br/><br/>\nand  $0 \\rightarrow 4$  times<br/><br/>\nnumber of possible marrix  $=\\frac{9!}{5!4!}=126$ <br/><br/>\nHence total number of all such matrix  $A$   $=414$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
         "=414"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.700161"
     },
@@ -5694,7 +5691,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total possible numbers using 1, 2, 2 and 3 is\n<br/><br/>=  $\\frac{4!}{2!}$  = 12\n<br/><br/>When unit place is 1, the total possible numbers using remaining 2, 2 and 3 are\n<br/><br/>=  $\\frac{3!}{2!}$  = 3\n<br/><br/>When unit place is 2, the total possible numbers using remaining 1, 2 and 3 are\n<br/><br/>= 3! = 6\n<br/><br/>When unit place is 3, the total possible numbers using remaining 1, 2 and 2 are\n<br/><br/>=  $\\frac{3!}{2!}$  = 3\n<br/><br/> $\\therefore$  Sum of unit places of all (3 + 6 + 3) 12 numbers is \n<br/><br/>= ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)\n<br/><br/>Similarly,\n<br/><br/>When 10<sup>th</sup> place is 1, the total possible numbers using remaining 2, 2 and 3 are\n<br/><br/>=  $\\frac{3!}{2!}$  = 3\n<br/><br/>When 10<sup>th</sup> place is 2, the total possible numbers using remaining 1, 2 and 3 are\n<br/><br/>= 3! = 6\n<br/><br/>When 10<sup>th</sup> place is 3, the total possible numbers using remaining 1, 2 and 2 are\n<br/><br/>=  $\\frac{3!}{2!}$  = 3\n<br/><br/> $\\therefore$  Sum of 10<sup>th</sup> places of all (3 + 6 + 3) 12 numbers is \n<br/><br/>= ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  10\n<br/><br/>Similarly,\n<br/><br/>Sum of 100<sup>th</sup> places of all (3 + 6 + 3) 12 numbers is \n<br/><br/>= ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  100\n<br/><br/>and Sum of 1000<sup>th</sup> places of all (3 + 6 + 3) 12 numbers is \n<br/><br/>= ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  1000\n<br/><br/> $\\therefore$  Total sum = ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3) + ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  10 \n<br/><br/>+ ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  100 + ( 1 $\\times$ 3 + 2 $\\times$ 6 + 3 $\\times$ 3)  $\\times$  1000\n<br/><br/>= (3 + 12 + 9) (1 + 10 + 100 + 1000) = 1111  $\\times$  24 = 26664<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4!}{2!}",
@@ -5702,7 +5699,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:43.702078"
     },
@@ -5748,7 +5745,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->y + z = 5 ....... (1)<br/><br/> $\\frac{1}{y}+\\frac{1}{z}=\\frac{5}{6}$ <br/><br/> $\\Rightarrow \\frac{y+z}{yz}=\\frac{5}{6}$ <br/><br/> $\\Rightarrow \\frac{5}{yz}=\\frac{5}{6}$ <br/><br/> $\\Rightarrow$  yz = 6<br/><br/>Also, (y  $-$  z)<sup>2</sup> = (y + z)<sup>2</sup>  $-$  4yz<br/><br/> $\\Rightarrow$  (y  $-$  z)<sup>2</sup> = (y + z)<sup>2</sup>  $-$  4yz<br/><br/> $\\Rightarrow$  (y  $-$  z)<sup>2</sup> = 25  $-$  4(6) = 1<br/><br/> $\\Rightarrow$  y  $-$  z = 1 ..... (2)<br/><br/>from (1) and (2), y = 3 and z = 2<br/><br/>for calculating odd divisor of p = 2<sup>x</sup> . 3<sup>y</sup> . 5<sup>z</sup><br/><br/>x must be zero<br/><br/>P = 2<sup>0</sup> . 3<sup>3</sup> . 5<sup>2</sup> <br/><br/> $\\Rightarrow$  Total possible cases = (3<sup>0</sup>5<sup>0</sup> + 3<sup>1</sup>5<sup>0</sup> + 3<sup>2</sup>5<sup>0</sup> + 3<sup>3</sup>5<sup>0</sup> + .... + 3<sup>3</sup>5<sup>2</sup>)<br/><br/> $\\therefore$  Total odd divisors must be (3 + 1) ( 2 + 1) = 12<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "1 =",
@@ -5759,7 +5756,7 @@
         "z) 2 = 25"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:44.024158"
     },
@@ -5784,13 +5781,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><table class=\"tg\">\n<thead>\n<tr>\n<td class=\"tg-baqh\">5</td>\n<td class=\"tg-baqh\">a</td>\n<td class=\"tg-baqh\">b</td>\n<td class=\"tg-baqh\">b</td>\n<td class=\"tg-baqh\">a</td>\n<td class=\"tg-baqh\">5</td>\n</tr>\n</thead>\n</table>\n<br/><br/>For divisible by 55 it shall be divisible by 11 and 5\nboth, for divisibility by 5 unit digit shall be 0 or 5 but\nas the number is six digit palindrome unit digit is 5.\n\n<br/><br/>A number is divisible by 11 if the difference between sum of the digits in the odd places and the sum of the digits in the even places is a multiple of 11 or zero.\n<br/><br/>Sum of the digits in the even place = a + b + 5\n<br/><br/>Sum of the digits in the odd places = a + b + 5\n<br/><br/>Difference between the two sums = (a + b + 5 ) - (a + b + 5) = 0\n<br/><br/>0 is divisible by 11.\n<br/><br/>Hence, 5abba5 is divisible by 11.\n<br/><br/>So, required number = 10  $\\times$  10 = 100<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.180181"
     },
@@ -5847,11 +5844,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In single digit numbers = 1\n<br/><br/>In double digit numbers = 10 + 9 = 19\n<br/><br/>In triple digit numbers = 100 + 90 + 90 = 280\n<br/><br/>Total = 300 times<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.653715"
     },
@@ -6143,13 +6140,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwoq1bj3/a1cd0f3a-86a8-4d72-98ac-6d132a8be6f4/621a22f0-534d-11ec-9cbb-695a838b20fb/file-1kwoq1bj4.png?format=png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "^{15}C_{3}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:43.417073"
     },
@@ -6195,14 +6192,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total matches between boys of both team =  $^{7}C_{1} \\times ^{4}C_{1}=28$ <br/><br/>Total matches between girls of both team =  $^{n}C_{1}^{6}C_{1}=6n$ <br/><br/>Now, 28 + 6n = 52<br/><br/> $\\Rightarrow$  n = 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "^{7}C_{1} \\times ^{4}C_{1}=28",
         "^{n}C_{1}^{6}C_{1}=6n"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:43.776057"
     },
@@ -6248,7 +6245,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x.y.z=24$ <br/><br/> $x.y.z=2^{3}.3^{1}$ <br/><br/>Three 2 has to be distributed among x, y and z<br/><br/>Each may receive none, one or two<br/><br/> $\\therefore$  Number of ways =  $^{3+3-1}C_{3-1}$  =  $^{5}C_{2}$  ways<br/><br/>Similarly one 3 has to be distributed among x, y and z<br/><br/> $\\therefore$  Number of ways =  $^{1+3-1}C_{3-1}$  =  $^{3}C_{2}$  ways<br/><br/>Total ways =  $^{5}C_{2}.^{3}C_{2}$  = 30<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "x.y.z=24",
@@ -6259,7 +6256,7 @@
         "^{3}C_{2}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:44.128228"
     },
@@ -6284,13 +6281,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total possible words = 6! = 720\n<br/><br/>When 4 consonants are together (V, W, L, S)\n<br/>such cases = 3! ⋅ 4! = 144\n<br/><br/>All consonants should not be together<br/><br/>= Total  $-$  All consonants together,<br/><br/>= 6!  $-$  3! 4! = 576<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "All consonants together, = 6!"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:56.951454"
     },
@@ -6318,11 +6315,11 @@
         "https://imagex.cdn.examgoal.net/1ktcvji8i/0960b949-dbbc-46ad-8cdd-ebbe0e205c7e/db8ff810-1164-11ec-8e70-b744652da63b/file-1ktcvji8j.png",
         "https://imagex.cdn.examgoal.net/1ktcvk37l/a021f687-9936-4fe5-9830-037e399861ae/ebc3eb10-1164-11ec-8e70-b744652da63b/file-1ktcvk37m.png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.204323"
     },
@@ -6347,13 +6344,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->15 : Players<br/><br/>6 : Bowlers<br/><br/>7 : Batsman<br/><br/>2 : Wicket keepers<br/><br/>Total number of ways for :<br/><br/>at least 4 bowler, 5 batsman &amp; 1 wicket keeper<br/><br/>=  $^{6}C_{4}(^{7}C_{6} \\times ^{2}C_{1}+^{7}C_{5} \\times ^{2}C_{2})+^{6}C_{5} \\times ^{7}C_{5} \\times ^{2}C_{1}$ <br/><br/> $=777$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "=777"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.471297"
     },
@@ -6675,11 +6672,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If group C has one student then number of\ngroups\n<br/><br/>= <sup>10</sup>C<sub>1</sub>\n[2<sup>9</sup>\n – 2] = 5100\n<br/><br/>If group C has two students then number of\ngroups\n<br/><br/>= <sup>10</sup>C<sub>2</sub>\n[2<sup>8</sup>\n – 2] = 11430\n<br/><br/>If group C has three students then number of\ngroups\n<br/><br/>= <sup>10</sup>C<sub>3</sub>\n × [2<sup>7</sup>\n – 2] = 15120\n<br/><br/>So total groups = 31650<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:57.686585"
     },
@@ -6779,13 +6776,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kd4dk65jigi7/d0d2eb32-e7be-475c-9d2b-79a92e71a0fc/5a9b39f0-4603-11ea-b62d-51ccc5d4afb6/file-7kd4dk65jigi8-345w.jpg"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.125756"
     },
@@ -6810,14 +6807,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Consonants  $\\rightarrow$  LTTR\n<br/>Vowels  $\\rightarrow$  EE\n<br/><br/>Total No of words =  $\\frac{6!}{2!2!}$  = 180\n<br/><br/>Total no of words if vowels are together\n<br/>=  $\\frac{5!}{2!}$  = 60\n<br/><br/> $\\therefore$  Total no of words where<br/> vowels never come together = 180 – 60 = 120.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{6!}{2!2!}",
         "\\frac{5!}{2!}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.881053"
     },
@@ -6842,7 +6839,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let xyz is 3 digits number.<br/><br/>Given that sum of digits = 10<br/><br/> $\\therefore$  x + y + z = 10 ......(1)<br/><br/>Also x can't be 0 as if x = 0 then it will become 2 digits number.<br/><br/>So, x  $\\ge$  1, y  $\\ge$  0, z  $\\ge$  0<br/><br/>As x  $\\ge$  1<br/><br/> $\\Rightarrow$  x  $-$  1  $\\ge$  0<br/><br/>Let x  $-$  1 = t<br/><br/> $\\therefore$  t  $\\ge$  0<br/><br/>From equation (1)<br/><br/>(x  $-$  1) + y + z = 9<br/><br/> $\\Rightarrow$  t + y + z = 9<br/><br/>Now this problem becomes, distributing 9 things among 3 people t, y, z.<br/><br/>Number of ways we can do that<br/><br/>=  $^{9+3-1}C_{3-1}=^{11}C_{2}=55$ <br/><br/>Now when 3 digit number is 900 then t = 9, y = 0, z = 0.<br/><br/>And when t = 9, then<br/><br/>x  $-$  1 = 9<br/><br/> $\\Rightarrow$  x = 10<br/><br/>But we can't take x = 10 in a 3 digits number. So, we have to remove this case.<br/><br/> $\\therefore$  Total number of 3 digit numbers = 55  $-$  1 = 54.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "1 = t",
@@ -6851,7 +6848,7 @@
         "1 = 9"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:58.113262"
     },
@@ -7072,11 +7069,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(2.<sup>1</sup>P<sub>0</sub>\n – 3.<sup>2</sup>P<sub>1</sub> + 4.<sup>3</sup>P<sub>2</sub> .... up to\n51<sup>th</sup> term)<br/> + (1! – 2! + 3! – ..... up to 51<sup>th</sup> term)\n<br/><br/>= ( 2.1! - 3.2! + 4.3! - ....+ 52.51!)\n<br/>+ ( 1! – 2! + 3! – ..... + (51)! )\n<br/><br/>= (2! - 3! + 4! .....+ 52! )\n<br/>+ ( 1! - 2! + 3! - 4! + .....+ 51! )\n<br/><br/>= 1 + (52)!<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:44.514076"
     },
@@ -7122,14 +7119,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->6.<sup>35</sup>C<sub>r</sub>\n = (k<sup>2</sup> - 3). <sup>36</sup>C<sub>r + 1</sub>\n<br/><br/> $\\Rightarrow$  6.<sup>35</sup>C<sub>r</sub>\n = (k<sup>2</sup> - 3). $\\frac{36}{r+1}$ <sup>35</sup>C<sub>r</sub>\n<br/><br/> $\\Rightarrow$  k<sup>2</sup> - 3 =  $\\frac{r+1}{6}$ \n<br/><br/>Possible values of r for integral values of k, are\n<br/><br/>r = 5, 35\n<br/><br/>number of ordered pairs are 4\n<br/><br/>(5, 2), (5, –2), (35, 3), (35, 3)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{36}{r+1}",
         "\\frac{r+1}{6}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.188849"
     },
@@ -7154,7 +7151,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->4 dice are independently thrown. Each die has probability to show 3 or 5 is <br/><br/> $P=\\frac{2}{6}=\\frac{1}{3}$ <br/><br/> $\\therefore$   $q=1-\\frac{1}{3}=\\frac{2}{3}$  (not showing 3 or 5)<br/><br/>Experiment is performed with 4 dices independently<br/><br/> $\\therefore$  Their binomial distribution is <br/><br/> $(q+p)^{4}=(q)^{4}+^{4}C_{1}q^{3}p+^{4}C_{2}q^{2}p^{2}+^{4}C_{3}qp^{3}+^{4}C_{4}P^{4}$ <br/><br/> $\\therefore$  In one throw of each dice probability of showing 3 or 5 at least twice is<br/><br/>=  $p^{4}+^{4}C_{3}qp^{3}+^{4}C_{2}q^{2}p^{2}$ <br/><br/> $=\\frac{33}{81}$ <br/><br/>Given such experiment performed 27 times<br/><br/> $\\therefore$  So expected outcomes = np<br/><br/>=  $\\frac{33}{81} \\times 27$ <br/><br/>= 11<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "P=\\frac{2}{6}=\\frac{1}{3}",
@@ -7164,7 +7161,7 @@
         "\\frac{33}{81} \\times 27"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:57.908001"
     },
@@ -7189,7 +7186,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->2A, 2I, 2N, E, X, M, T, O\n<br/><br/>To form four letter words\n<br/><br/><b>Case 1 :</b> All same ( not possible)\n<br/><br/><b>Case 2 :</b> 1 different, 3 same (not possible)\n<br/><br/><b>Case 3 :</b> 2 different, 2 same\n<br/><br/>= <sup>3</sup>C<sub>1</sub>  $\\times$  <sup>7</sup>C<sub>2</sub>  $\\times$   $\\frac{4!}{2!}$  = 756\n<br/><br/><b>Case 4 :</b> 2 same of one kind, 2 same same of other kind\n<br/><br/>= <sup>3</sup>C<sub>2</sub>  $\\times$   $\\frac{4!}{2!2!}$  = 18\n<br/><br/><b>Case 5 :</b> All letters are different\n<br/><br/>= <sup>8</sup>C<sub>4</sub>  $\\times$  4! = 1680\n<br/><br/> $\\therefore$  Total ways = 1680 + 756 + 18 = 2454\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
@@ -7197,7 +7194,7 @@
         "\\frac{4!}{2!2!}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:58.142973"
     },
@@ -7414,7 +7411,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that 5 Boy, n girls.<br/><br/>\n(1B, 2G) + (2B, 1G)<br/><br/>\n $^{5}C_{1}.^{n}C_{2}+^{5}C_{2}.^{n}C_{1}=1750$ <br/><br/>\n $\\Rightarrow 5.\\frac{n(n-1)}{2}+10.n=1750$ <br/><br/>\n $\\Rightarrow \\frac{n(n-1)}{2}+2n=350$ <br/><br/>\n $\\Rightarrow n^{2}-n+4n=700$ <br/><br/>\n $\\Rightarrow n^{2}+3n-700=0$ <br/><br/>\n $\\Rightarrow (n+28)(n-25)=0$ <br/><br/>\n $\\Rightarrow n=25,-28$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{5}C_{1}.^{n}C_{2}+^{5}C_{2}.^{n}C_{1}=1750",
@@ -7425,7 +7422,7 @@
         "\\Rightarrow (n+28)(n-25)=0"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.450386"
     },
@@ -7471,14 +7468,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->At least 6 males means in the committee there can be 6 males or 7 males or 8 males.\n<br/><br/> $\\therefore$  m =  $^{8}C_{6} \\times ^{5}C_{5}+^{8}C_{7} \\times ^{5}C_{4}+^{8}C_{8} \\times ^{5}C_{3}$  = 78\n<br/><br/>At least 3 females means in the committee there can be 3 females or 4 females or 5 females.\n<br/><br/> $\\therefore$  n =  $^{5}C_{3} \\times ^{8}C_{8}+^{5}C_{4} \\times ^{8}C_{7}+^{5}C_{5} \\times ^{8}C_{6}$  = 78\n<br/><br/>So, m = n = 78<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "^{8}C_{6} \\times ^{5}C_{5}+^{8}C_{7} \\times ^{5}C_{4}+^{8}C_{8} \\times ^{5}C_{3}",
         "^{5}C_{3} \\times ^{8}C_{8}+^{5}C_{4} \\times ^{8}C_{7}+^{5}C_{5} \\times ^{8}C_{6}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.819211"
     },
@@ -7524,11 +7521,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Number of ways = <sup>10</sup>C<sub>3</sub> = 120<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:46.163407"
     },
@@ -7574,14 +7571,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->From 5 girls 2 girls can be selected \n<br/><br/>= <sup>5</sup>C<sub>2</sub> ways\n<br/><br/>From 7 boys 3 boys can be selected \n<br/><br/>= <sup>7</sup>C<sub>3</sub> way\n<br/><br/> $\\therefore$   Total number of ways we can select 2 girls and 3 boys \n<br/><br/>= <sup>5</sup>C<sub>2</sub>  $\\times$  <sup>7</sup>C<sub>3</sub> ways \n<br/><br/>When two boys A and B are chosen in a team then one more boy will be chosen from remaining 5 boys.\n<br/><br/>So, no of ways 3 boys can be chosen when A and B should must be chosen = <sup>5</sup>C<sub>1</sub> ways\n<br/><br/> $\\therefore$   Total number of ways a team of 2 girl and 3 boys can be made where boy A and B must be in the team = <sup>5</sup><sup></sup>C<sub>1</sub>  $\\times$  <sup>5</sup>C<sub>2</sub> ways\n<br/><br/> $\\therefore$   Required number of ways \n<br/>= Total number of ways  $-$  when A and B are always included. \n<br/><br/>= <sup>5</sup>C<sub>2</sub>  $\\times$  <sup>7</sup>C<sub>3</sub>  $-$  <sup>5</sup>C<sub>1</sub>  $\\times$  <sup>5</sup>C<sub>2</sub>\n<br/><br/>= 300<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
         "when A and B are always included. = 5 C 2"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:46.531513"
     },
@@ -7793,11 +7790,11 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf762wkjxz9azw4/7b793fb2-990b-43d9-9bfd-be5563db68ea/00e3bf40-a42d-11e9-902e-23ffedc9804e/file-jf762wkjxz9azw5.jpg"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.541498"
     },
@@ -7845,7 +7842,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7km5fk0r83c7c/631bc302-7fe0-4594-97e8-f1c89c0a8b3f/a3bd4080-db26-11e9-acf6-6d09a288f7f2/file-7km5fk0r83c7d-1220w.jpg"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -7853,7 +7850,7 @@
         "\\frac{6!}{2!4!}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:45.896861"
     },
@@ -7901,13 +7898,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/t4cC5tNJI145bNMHB/FqPaXH7Qf6pbKpL84T24dmmPrn2c8/R0kdHlSEgPNFTyw1S0497e/image.png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:46.229711"
     },
@@ -8112,13 +8109,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In n digit number first place can be filled with any one of 2, 5, 7. So no of ways first digit can be filled  = 3<br/><br/>\nSimilarly,<br/>\nno of ways 2nd digit can be filled  = 3 ways<br/>\n.<br/>\n.<br/>\n.<br/>\n.<br/>\n- - - - - - nth  - - - - - - - = 3 ways<br/>\n<br/>\n $\\therefore$  Total numbers = 3  $\\times$  3  $\\times$  3 .... n times<br/>\n= 3<sup>n</sup><br/>\n $\\therefore$  According to question, for smallest value of n, <br/><br/>\n3<sup>n</sup> &gt; 900<br/><br/>\n3<sup>6</sup> = 729 &lt; 900<br/><br/>\n3<sup>7</sup> = 2187 &gt; 900<br/><br/>\n $\\therefore$  n = 7<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:46.867738"
     },
@@ -8384,14 +8381,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the position of the word QUEEN:</p>\n<p> $∙$  The number of words starting with E is 4! = 24.</p>\n<p> $∙$  The number of words starting with N is  $\\frac{4!}{2}=12$ .</p>\n<p> $∙$  The number of words starting with QE is 3! = 6.</p>\n<p> $∙$  Number of words starting with QN is  $\\frac{3!}{2}=3$ .</p>\n<p>Therefore, the position of the word QUEEN is next to the sum, 24 + 12 + 6 + 3 = 45.</p>\n<p>That is, the word 'QUEEN' will be on 46th position.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "The number of words starting with E is 4! = 24.",
         "The number of words starting with QE is 3! = 6."
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:46.949853"
     },
@@ -8492,7 +8489,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sum_{r=1}^{10}(r^{2}+1) \\times r!$ \n<br/><br/> $=\\sum_{r=1}^{10}[(r+1)^{2}-2r].r!$ \n<br/><br/> $=\\sum_{r=1}^{10}[(r+1)^{2}.r!-2r.r!]$ \n<br/><br/> $=\\sum_{r=1}^{10}(r+1)(r+1)!-2\\sum_{r=1}^{10}r.r!$ \n<br/><br/> $=\\sum_{r=1}^{10}[(r+1)(r+1)!-r.r!]-\\sum_{r=1}^{10}r.r!$ \n<br/><br/> $=[(2.2!-1.1!)+(3.3!-2.2!)+....+(11.11!-10.10!)]$ \n<br/><br/>       $-\\sum_{r=1}^{10}r.r!$ \n<br/><br/> $=$    11.11!  $-$  1.1!  $-$   $\\sum_{r=1}^{10}r.r!$ \n<br/><br/> $=$  (11.11!  $-$  1)  $-$   $\\sum_{r=1}^{10}(r+1-1).r!$ \n<br/><br/> $=$  (11.11!  $-$  1)  $-$   $\\sum_{r=1}^{10}[(r+1)r!-r!]$ \n<br/><br/> $=$  (11.11!  $-$  1)  $-$   $\\sum_{r=1}^{10}[(r+1)!-r!]$ \n<br/><br/> $=$  (11.11!  $-$  1)  $-$  [(2!  $-$  1!) + (3!  $-$  2!) + . . . .+ (11!  $-$  10!)]\n<br/><br/> $=$  (11.11!  $-$  1)  $-$  (11!  $-$  1)\n<br/><br/> $=$  11.11!  $-$  11!\n<br/><br/> $=$  11! (11  $-$  1)\n<br/><br/> $=$   $10.(11!)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sum_{r=1}^{10}(r^{2}+1) \\times (r!)",
@@ -8503,7 +8500,7 @@
         "=\\sum_{r=1}^{10}[(r+1)(r+1)!-r.r!]-\\sum_{r=1}^{10}r.r!"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:47.373141"
     },
@@ -8549,7 +8546,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Clearly, number of words start with  $A=\\frac{4!}{2!}=12$ </p>\n<p>Number of words start with  $L=4!=24$ </p>\n<p>Number of words start with  $M=\\frac{4!}{2!}=12$ </p>\n<p>Number of words start with  $SA=\\frac{3!}{2!}=3$ </p>\n<p>Number of words start with  $SL=3!=6$ </p>\n<p>Note that, next word will be \"SMALL\"</p>\n<p>Hence, the position of word \"SMALL\" is 58th.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "A=\\frac{4!}{2!}=12",
@@ -8559,7 +8556,7 @@
         "SL=3!=6"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:47.819612"
     },
@@ -8662,13 +8659,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here total no of different letters present are,\n<br/><br/>(1)   One M\n<br/><br/>(2)   Three E (E E E)\n<br/><br/>(3)   One D\n<br/><br/>(4)   One I\n<br/><br/>(5)   One T\n<br/><br/>(6)   Two R (R R)\n<br/><br/>(7)   Two A (A A)\n<br/><br/>(8)    Two N (N N)\n<br/><br/>In the four letter word first letter is R and last letter is E.\n<br/><br/> $\\therefore$      Word is = R _ _ E\n<br/><br/>Now remaining letters are, \n<br/><br/>M, EE, D, I, T, R, AA, NN\n<br/><br/>Those 2 empty places can be filled with identical letters [EE, AA, NN] in 3 ways.\n<br/><br/>Or two empty places can be filled with distinct letters [M, E,  D, I, T, R, A, N] in  $^{8}C_{2} \\times 2!$  ways.\n<br/><br/> $\\therefore$    Total no of words = 3 +  $^{8}C_{2} \\times 2!$  = 59<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{8}C_{2} \\times 2!"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:47.509394"
     },
@@ -8823,7 +8820,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Number of possible triangle using n vertices = <sup>n</sup>C<sub>3</sub>\n<br/><br/> $\\therefore$  T<sub>n</sub> = <sup>n</sup>C<sub>3</sub>\n<br/><br/>then T<sub>n + 1</sub> = <sup>n + 1</sup>C<sub>3</sub>\n<br/><br/>Given,  $T_{n+1}-T_{n}$  = 10\n<br/><br/> $\\Rightarrow$  <sup>n + 1</sup>C<sub>3</sub> - <sup>n</sup>C<sub>3</sub> = 10\n<br/><br/> $\\Rightarrow$   $\\frac{(n+1)n(n-1)}{6}-\\frac{n(n-1)(n-2)}{6}$  = 10\n<br/><br/> $\\Rightarrow$  3n(n - 1) = 60\n<br/><br/> $\\Rightarrow$  n(n - 1) = 20\n<br/><br/> $\\Rightarrow$  n<sup>2</sup> - n - 20 = 0\n<br/><br/> $\\Rightarrow$  (n - 5)(n + 4) = 0\n<br/><br/> $\\therefore$  n = 5<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{n}",
@@ -8831,7 +8828,7 @@
         "\\frac{(n+1)n(n-1)}{6}-\\frac{n(n-1)(n-2)}{6}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:47.908466"
     },
@@ -8929,11 +8926,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For alike n objects, number of ways we can select zero or more objects  = n + 1 and number of ways we can select at least one object = n</p>\n<p>Given 10 identical white balls, 9 identical green balls and 7 identical black balls.</p>\n<p>To find number of ways for selecting atleast one ball.</p>\n<p>Number of ways to choose zero or more white balls = (10 + 1) [since, all white balls are mutually identical]</p>\n<p>Number of ways to choose zero or more green balls = (9 + 1) [since, all green balls are mutually identical]</p>\n<p>Number of ways to choose zero or more black balls = (7 + 1) [since, all black balls are mutually identical]</p>\n<p>Hence, number of ways to choose zero or more balls of any colour = (10 + 1) (9 + 1) (7 + 1)</p>\n<p>Also, number of ways to choose a total of zero balls = 1</p>\n<p>Hence, the number, if ways to choose at least one ball (irrespective of any colour) = (10 + 1) (9 + 1) (7 + 1)  $-$  1 = 879</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:48.203686"
     },
@@ -9036,7 +9033,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let XA<sub></sub>, X<sub>B</sub>, X<sub>C</sub> and X<sub>D</sub> represent number of balls present in box A, B, C and D respectively.</p>\n<p>As no box can be empty so,</p>\n<p>X<sub>A</sub>  $\\ge$  1, X<sub>B</sub>  $\\ge$  1, X<sub>C</sub>  $\\ge$  1 and X<sub>D</sub>  $\\ge$  1</p>\n<p> $\\Rightarrow$  X<sub>A</sub>  $-$  1  $\\ge$  0,  $\\Rightarrow$  X<sub>B</sub>  $-$  1  $\\ge$  0,  $\\Rightarrow$  X<sub>C</sub>  $-$  1  $\\ge$  0 and  $\\Rightarrow$  X<sub>D</sub>  $-$  1  $\\ge$  0</p>\n<p>t<sub>A</sub>  $\\ge$  0, t<sub>B</sub>  $\\ge$  0, t<sub>C</sub>  $\\ge$  0 and t<sub>D</sub>  $\\ge$  0</p>\n<p>According to the question,</p>\n<p>X<sub>A</sub> + X<sub>B</sub> + X<sub>C</sub> + X<sub>D</sub> = 10</p>\n<p> $\\Rightarrow$  (X<sub>A</sub>  $-$  1) + (X<sub>B</sub>  $-$  1) + (X<sub>C</sub>  $-$  1) + (X<sub>D</sub>  $-$  1) = 6</p>\n<p> $\\Rightarrow$  t<sub>A</sub> + t<sub>B</sub> + t<sub>C</sub> + t<sub>D</sub> = 6</p>\n<p>Now question becomes, box A, B, C, and D can have none or one or more balls and total balls are 6</p>\n<p>From formula we know, n things can be distributed among r people in  $^{n+r-1}C_{r-1}$  ways where each people can have either 0 or more things.</p>\n<p> $\\therefore$  6 balls can be distributed among 4 boxes in  $^{6+4-1}C_{4-1}=^{9}C_{3}$  ways where each box can have either 0 or more balls.</p>\n<p>Therefore, Statement 1 is correct. The number of ways of choosing any 3 places from 9 different places is  $^{9}C_{3}$  ways. But Statement - 2 is not the correct explanation of Statement - 1.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{9}C_{3}",
@@ -9046,7 +9043,7 @@
         "^{6+4-1}C_{4-1}=^{9}C_{3}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:48.275789"
     },
@@ -9313,13 +9310,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The total number of ways is</p>\n<p> $^{12}C_{4} \\times ^{12-4}C_{4} \\times ^{12-4-4}C_{4}=^{12}C_{4} \\times ^{8}C_{4} \\times ^{4}C_{4}=\\frac{12!}{(4!)^{3}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
       "difficulty": "Easy",
       "key_formulas": [
         "A∪B∪C=S,A∩B=B∩C=A∩C=\\phi"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Combinations, Selection & Multinomial Partitioning"
       ],
       "crawled_at": "2026-09-20T16:03:48.764388"
     },
@@ -9365,7 +9362,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A voter can give vote to either 1 candidate or 2 candidates or 3 candidates or 4 candidates.\n<br/><br/>Case 1 : When he give vote to only 1 candidate then no ways =  $^{10}C_{1}$ \n<br/><br/>Case 2 : When he give vote to 2 candidates then no ways =  $^{10}C_{2}$ \n<br/><br/>Case 3 : When he give vote to 3 candidates then no ways =  $^{10}C_{3}$ \n<br/><br/>Case 4 : When he give vote to 4 candidates then no ways =  $^{10}C_{4}$ \n<br/>So, total no of ways he can give votes \n<br/>=  $^{10}C_{1}+^{10}C_{2}+^{10}C_{3}+^{10}C_{4}$ \n<br/>= 385\n<br/><br/><b>Note :</b> Here we use addition rule as he can vote any one of those four rules. Whenever there is \"or\" choices, we use addition rule.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "^{10}C_{1}",
@@ -9375,7 +9372,7 @@
         "^{10}C_{1}+^{10}C_{2}+^{10}C_{3}+^{10}C_{4}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:48.960131"
     },
@@ -9476,13 +9473,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In the word ''GARDEN'', there are two vowels A and E present, and A should come always before E.\n<br/><br/> $\\therefore$  Total no of ways =  $\\frac{6!}{2!}$  = 360\n<br/><br/>Here A and E  has  fixed order that is why we divide by 2!. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{6!}{2!}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:49.034975"
     },
@@ -9585,7 +9582,7 @@
         "https://imagex.cdn.examgoal.net/SQ6PLd2RkkJfHddRE/mvsvFm6ZLuXL7md1GOg9ejwN0m0O1/3skQFXCf6jMuJ3nPB8A4Gi/image.png",
         "https://imagex.cdn.examgoal.net/wt8ItfkNTuIN6pRPh/xeDfjcRdlQW5nFbaTaqJoHVPNMcW0/4twbHkUf1YXSzn0KJkQMHS/image.png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "(6-1)!=5!",
@@ -9594,7 +9591,7 @@
         "5! \\times 6!"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:49.332458"
     },
@@ -9754,14 +9751,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/2Yq95yiQwye1ShR7I/LqJlgLJMHJCICdnuqXVpYjCXs1irL/KxhvLEhyIWDvlR2xV2Kooy/image.png"
       ],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
         "^{4}C_{1}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:49.618530"
     },
@@ -9807,7 +9804,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->According to this question, any number between 1 to 100 should be divisible by 2 or 5 but not by 2 $\\times$ 5 = 10.\n<br/><br/>Possible numbers between 1 to 100 divisible by 2 are 2, 4, 6, .... , 100\n<br/><br/>This is an A.P where first term = 2, last term = 100 and total terms = 50.\n<br/><br/> $\\therefore$  Sum of the numbers divisible by 2\n<br/><br/> =  $\\frac{50}{2}[2+100]$ \n<br/><br/>= 25 $\\times$ 102\n<br/><br/>= 2550\n<br/><br/>Possible numbers between 1 to 100 divisible by 5 are 5, 10, 15, .... , 100\n<br/><br/> $\\therefore$  Sum of the numbers divisible by 5\n<br/><br/> =  $\\frac{20}{2}[5+100]$ \n<br/><br/>= 10 $\\times$ 105\n<br/><br/>= 1050\n<br/><br/> And possible numbers between 1 to 100 divisible by 10 are 10, 20, 30, .... , 100\n<br/><br/> $\\therefore$  Sum of the numbers divisible by 10\n<br/><br/> =  $\\frac{10}{2}[10+100]$ \n<br/><br/>= 5 $\\times$ 110\n<br/><br/>= 550\n<br/><br/> $\\therefore$  Required sum = 2550 + 1050 - 550 = 3050<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -9816,7 +9813,7 @@
         "\\frac{10}{2}[10+100]"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T16:03:49.658501"
     },

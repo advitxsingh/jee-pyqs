@@ -8,51 +8,27 @@
     "total_questions_site": 22,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:40:33.972275"
+    "analyzed_at": "2026-09-20T17:09:36.943239"
   },
   "concepts": [
     {
-      "id": 1329,
-      "chapter_slug": "kcet-aldehyde-and-ketone",
-      "name": "Nucleophilic Addition & Carbonyl Condensation",
-      "category": "Carbonyl Reactions",
-      "summary": "Reversible nucleophilic additions, Aldol condensation mechanism, and Cannizzaro disproportionation of non-enolizable aldehydes.",
-      "standard_formulas": "\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}",
-      "exam_frequency": 12,
-      "frequency_tier": "High",
-      "common_traps": "Benzaldehyde and Formaldehyde lack $\\alpha$-hydrogen atoms, so they undergo CANNIZZARO reaction with concentrated $\\text{NaOH}$, NOT Aldol condensation!",
-      "tips_and_tricks": "Reactivity toward nucleophilic addition: $\\text{HCHO} > \\text{CH}_3\\text{CHO} > \\text{CH}_3\\text{COCH}_3$ (decreases with steric crowding and $+I$ electron donation).",
-      "pyq_ids": [
-        7375,
-        7378,
-        7380,
-        7385,
-        7387,
-        7392,
-        7404,
-        7407,
-        7412,
-        7413,
-        7416,
-        7422
-      ]
-    },
-    {
-      "id": 1330,
+      "id": 1797,
       "chapter_slug": "kcet-aldehyde-and-ketone",
       "name": "Oxidation, Reduction & Identification Tests",
       "category": "Tests & Reductions",
       "summary": "Silver mirror Tollens' test, Fehling's cuprous reduction, yellow iodoform precipitation, Clemmensen ($\\text{Zn-Hg/HCl}$), and Wolff-Kishner ($\\text{NH}_2\\text{NH}_2/\\text{KOH}$) carbonyl deoxygenation.",
       "standard_formulas": "\\text{Iodoform test is positive for } \\text{CH}_3\\text{CO-} \\text{ or } \\text{CH}_3\\text{CH(OH)- groups} \\implies \\text{CHI}_3 \\text{ (yellow ppt)}",
-      "exam_frequency": 10,
+      "exam_frequency": 12,
       "frequency_tier": "High",
       "common_traps": "Benzaldehyde reduces Tollens' reagent to give silver mirror, but does NOT reduce Fehling's solution!",
       "tips_and_tricks": "Clemmensen reduction is suitable for acid-stable compounds. For acid-sensitive carbonyls, use Wolff-Kishner reduction (basic medium).",
       "pyq_ids": [
         7371,
-        7390,
+        7380,
         7396,
         7399,
+        7404,
+        7407,
         7410,
         7417,
         7418,
@@ -60,21 +36,45 @@
         7420,
         7421
       ]
+    },
+    {
+      "id": 1798,
+      "chapter_slug": "kcet-aldehyde-and-ketone",
+      "name": "Nucleophilic Addition & Carbonyl Condensation",
+      "category": "Carbonyl Reactions",
+      "summary": "Reversible nucleophilic additions, Aldol condensation mechanism, and Cannizzaro disproportionation of non-enolizable aldehydes.",
+      "standard_formulas": "\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}",
+      "exam_frequency": 10,
+      "frequency_tier": "High",
+      "common_traps": "Benzaldehyde and Formaldehyde lack $\\alpha$-hydrogen atoms, so they undergo CANNIZZARO reaction with concentrated $\\text{NaOH}$, NOT Aldol condensation!",
+      "tips_and_tricks": "Reactivity toward nucleophilic addition: $\\text{HCHO} > \\text{CH}_3\\text{CHO} > \\text{CH}_3\\text{COCH}_3$ (decreases with steric crowding and $+I$ electron donation).",
+      "pyq_ids": [
+        7375,
+        7378,
+        7385,
+        7387,
+        7390,
+        7392,
+        7412,
+        7413,
+        7416,
+        7422
+      ]
     }
   ],
   "synthesis": {
     "id": 29,
     "chapter_slug": "kcet-aldehyde-and-ketone",
-    "title": "Aldehyde and Ketone 2026 3 questions 5% weightage ↑50.15% Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Aldehyde and Ketone 2026 3 questions 5% weightage ↑50.15% — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 22 Previous Year Questions Analyzed (22 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **22** authentic KCET problems.\n- **Question Format Breakdown**: **22 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Nucleophilic Addition & Carbonyl Condensation | **12 PYQs** | Carbonyl Reactions |\n| **High** | Oxidation, Reduction & Identification Tests | **10 PYQs** | Tests & Reductions |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Nucleophilic Addition & Carbonyl Condensation (Carbonyl Reactions)\n- **Exam Weightage**: Tested in **12 PYQs** (High Yield)\n- **Conceptual Summary**: Reversible nucleophilic additions, Aldol condensation mechanism, and Cannizzaro disproportionation of non-enolizable aldehydes.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Benzaldehyde and Formaldehyde lack $\\alpha$-hydrogen atoms, so they undergo CANNIZZARO reaction with concentrated $\\text{NaOH}$, NOT Aldol condensation!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Reactivity toward nucleophilic addition: $\\text{HCHO} > \\text{CH}_3\\text{CHO} > \\text{CH}_3\\text{COCH}_3$ (decreases with steric crowding and $+I$ electron donation).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"The major product ' $A$ ' in the given reaction is Benzaldehyde $\\hat{\\rightarrow \\le ftarrow}$ ' $A$ ' (Major product)...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"Match the reagents in List-I with products obtained from their carbonyl compounds in List-II. List-I List-II (a) $\\text{NH}_{2}\\text{OH}$ (i...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"Arrange the following compounds in their decreasing order of reactivity towards Nucleop addition reaction. $CH_{3}COCH_{3},CH_{3}COC_{2}H_{5...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Oxidation of Toluene with chromyl chloride followed by hydrolysis gives Benzaldehyde. This reaction is known as ____________...\"* — **Correct Answer: N/A**\n\n### 2.2 Oxidation, Reduction & Identification Tests (Tests & Reductions)\n- **Exam Weightage**: Tested in **10 PYQs** (High Yield)\n- **Conceptual Summary**: Silver mirror Tollens' test, Fehling's cuprous reduction, yellow iodoform precipitation, Clemmensen ($\\text{Zn-Hg/HCl}$), and Wolff-Kishner ($\\text{NH}_2\\text{NH}_2/\\text{KOH}$) carbonyl deoxygenation.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Iodoform test is positive for } \\text{CH}_3\\text{CO-} \\text{ or } \\text{CH}_3\\text{CH(OH)- groups} \\implies \\text{CHI}_3 \\text{ (yellow ppt)}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Benzaldehyde reduces Tollens' reagent to give silver mirror, but does NOT reduce Fehling's solution!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Clemmensen reduction is suitable for acid-stable compounds. For acid-sensitive carbonyls, use Wolff-Kishner reduction (basic medium).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"The compound that does not answer iodoform test is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"The heating of phenyl methyl ether with HI produces an aromatic compound $A$ which on treatment with conc. $HNO_{3}$ gives $B$ . $A$ and $B$...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#1 (MCQ)**: *\"The test to differentiate between pentan-2-one and pentan-3-one is...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"Which is the most suitable reagent for the following conversion?...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Aldehyde and Ketone 2026 3 questions 5% weightage ↑50.15% — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 22 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Nucleophilic Addition & Carbonyl Condensation** | $\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}$ | Standard SI units apply |\n| **Oxidation, Reduction & Identification Tests** | $\\text{Iodoform test is positive for } \\text{CH}_3\\text{CO-} \\text{ or } \\text{CH}_3\\text{CH(OH)- groups} \\implies \\text{CHI}_3 \\text{ (yellow ppt)}$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Aldehyde and Ketone 2026 3 questions 5% weightage ↑50.15%\nBased on rigorous analysis of all 22 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Aldehyde and Ketone 2026 3 questions 5% weightage ↑50.15%\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Aldehyde and Ketone Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Aldehyde and Ketone — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Chemistry | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 22 Previous Year Questions Analyzed (22 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **22** authentic KCET problems.\n- **Question Format Breakdown**: **22 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Oxidation, Reduction & Identification Tests | **12 PYQs** | Tests & Reductions |\n| **High** | Nucleophilic Addition & Carbonyl Condensation | **10 PYQs** | Carbonyl Reactions |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Oxidation, Reduction & Identification Tests (Tests & Reductions)\n- **Exam Weightage**: Tested in **12 PYQs** (High Yield)\n- **Conceptual Summary**: Silver mirror Tollens' test, Fehling's cuprous reduction, yellow iodoform precipitation, Clemmensen ($\\text{Zn-Hg/HCl}$), and Wolff-Kishner ($\\text{NH}_2\\text{NH}_2/\\text{KOH}$) carbonyl deoxygenation.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Iodoform test is positive for } \\text{CH}_3\\text{CO-} \\text{ or } \\text{CH}_3\\text{CH(OH)- groups} \\implies \\text{CHI}_3 \\text{ (yellow ppt)}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Benzaldehyde reduces Tollens' reagent to give silver mirror, but does NOT reduce Fehling's solution!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Clemmensen reduction is suitable for acid-stable compounds. For acid-sensitive carbonyls, use Wolff-Kishner reduction (basic medium).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"The compound that does not answer iodoform test is...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Oxidation of Toluene with chromyl chloride followed by hydrolysis gives Benzaldehyde. This reaction is known as ____________...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#1 (MCQ)**: *\"The test to differentiate between pentan-2-one and pentan-3-one is...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"Which is the most suitable reagent for the following conversion?...\"* — **Correct Answer: N/A**\n\n### 2.2 Nucleophilic Addition & Carbonyl Condensation (Carbonyl Reactions)\n- **Exam Weightage**: Tested in **10 PYQs** (High Yield)\n- **Conceptual Summary**: Reversible nucleophilic additions, Aldol condensation mechanism, and Cannizzaro disproportionation of non-enolizable aldehydes.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Benzaldehyde and Formaldehyde lack $\\alpha$-hydrogen atoms, so they undergo CANNIZZARO reaction with concentrated $\\text{NaOH}$, NOT Aldol condensation!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Reactivity toward nucleophilic addition: $\\text{HCHO} > \\text{CH}_3\\text{CHO} > \\text{CH}_3\\text{COCH}_3$ (decreases with steric crowding and $+I$ electron donation).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"The major product ' $A$ ' in the given reaction is Benzaldehyde $\\hat{\\rightarrow \\le ftarrow}$ ' $A$ ' (Major product)...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"Match the reagents in List-I with products obtained from their carbonyl compounds in List-II. List-I List-II (a) $\\text{NH}_{2}\\text{OH}$ (i...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"Arrange the following compounds in their decreasing order of reactivity towards Nucleop addition reaction. $CH_{3}COCH_{3},CH_{3}COC_{2}H_{5...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#2 (MCQ)**: *\"Compounds P and R in the following reaction are $CH_{3}CHO\\longrightarrow_{(ii)H_{3}O^{+}}^{(i)CH_{3}MgBr}P\\longrightarrow_{Heat}^{conc.H_{2...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Aldehyde and Ketone — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 22 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Oxidation, Reduction & Identification Tests** | $\\text{Iodoform test is positive for } \\text{CH}_3\\text{CO-} \\text{ or } \\text{CH}_3\\text{CH(OH)- groups} \\implies \\text{CHI}_3 \\text{ (yellow ppt)}$ | Standard SI units apply |\n| **Nucleophilic Addition & Carbonyl Condensation** | $\\text{Aldol: Requires } \\alpha\\text{-H} \\to \\alpha,\\beta\\text{-unsaturated carbonyl}, \\quad \\text{Cannizzaro: No } \\alpha\\text{-H} \\to \\text{Alcohol} + \\text{Carboxylate salt}$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Aldehyde and Ketone\nBased on rigorous analysis of all 22 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Aldehyde and Ketone\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       7371,
       7375
     ],
-    "updated_at": "2026-09-20T16:40:33.961769"
+    "updated_at": "2026-09-20T17:09:36.930402"
   },
   "total_questions": 22,
   "has_docx": true,

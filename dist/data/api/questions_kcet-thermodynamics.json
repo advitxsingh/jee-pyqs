@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr8jfjxo/08caee2f-cc87-4fbd-9c09-4666f3a6a70f/8203cec0-78d9-11f1-8461-e162b37dfdaa/file-6y3zli1mr8jfjxp.png?format=png"
       ],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta U=Q-W",
@@ -57,7 +57,7 @@
         "Q_{ADB}=30+10=40"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.237445"
     },
@@ -321,13 +321,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Option D</p>\n<p>Explanation:</p>\n<p>Statement I  </p>\n<p><p>For an adiabatic process  $Q=0$ .  </p></p>\n<p><p>If “work done”  $W$  is taken positive when done on the system, then the first law gives  </p>\n<p> $\\Delta U=Q+W=0+W=W.$ </p></p>\n<p><p>Thus if work is done on the system  $(W&gt;0)$ , its internal energy increases  $(\\Delta U&gt;0)$ .  </p></p>\n<p>Statement II  </p>\n<p><p>In a free (Joule) expansion the external pressure  $P_{ext}=0$ , so  </p>\n<p> $W=\\int P_{ext}dV=0.$ </p></p>\n<p><p>Hence no work is done during the free expansion of an ideal gas.  </p></p>\n<p>Both statements are therefore true.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=0"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies"
+        "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.266570"
     },
@@ -589,13 +589,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, initial volume  $V_{1}=1L$ </p>\n<p> $\\begin{aligned} &amp; \\text{Final volume,}V_{2}=2L \\\\ &amp; \\text{Temperature}=300K \\\\ &amp; R=0.0083kJKmol^{-1} \\end{aligned}$ </p>\n<p>Moles  $(n)=2$  moles</p>\n<p>We know that,</p>\n<p>Work done,  $W=2.303nRTlog\\frac{V_{2}}{V_{1}}$ </p>\n<p> $=2.303 \\times 2 \\times 0.0083 \\times 300log10=11.5kJ$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
+      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
       "difficulty": "Medium",
       "key_formulas": [
         "=2.303 \\times 2 \\times 0.0083 \\times 300log10=11.5kJ"
       ],
       "key_concepts": [
-        "Entropy & Gibbs Free Energy Spontaneity"
+        "Enthalpy, Hess's Law & Bond Energies"
       ],
       "crawled_at": "2026-09-20T15:26:00.621568"
     },
@@ -755,13 +755,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In this scenario, both the change in enthalpy ( $\\Delta H$ ) and the change in entropy ( $\\Delta S$ ) are negative. </p>\n<p>To determine the effect of temperature on the reaction, we consider the Gibbs free energy equation:</p>\n<p> $\\Delta G=\\Delta H-T\\Delta S$ </p>\n<p>For a reaction to be spontaneous,  $\\Delta G$  must be negative. Given that both  $\\Delta H$  and  $\\Delta S$  are negative, we want the absolute value of  $\\Delta H$  to be greater than  $T\\Delta S$  to ensure  $\\Delta G$  remains negative:</p>\n<p> $\\Delta H&gt;T\\Delta S$ </p>\n<p>This inequality suggests that at lower temperatures, the negative enthalpy term ( $\\Delta H$ ) dominates, making it more likely for  $\\Delta G$  to be negative. Therefore, the reaction is exothermic and more favorable at lower temperatures, increasing its rate as the temperature decreases.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Enthalpy, Hess's Law & Bond Energies",
+      "topic_tag": "Entropy & Gibbs Free Energy Spontaneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta G=\\Delta H-T\\Delta S"
       ],
       "key_concepts": [
-        "Enthalpy, Hess's Law & Bond Energies",
         "Entropy & Gibbs Free Energy Spontaneity"
       ],
       "crawled_at": "2026-09-20T15:26:00.792063"

@@ -8,57 +8,57 @@
     "total_questions_site": 23,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:43:29.012737"
+    "analyzed_at": "2026-09-20T17:12:16.974671"
   },
   "concepts": [
     {
-      "id": 1622,
+      "id": 2090,
+      "chapter_slug": "kcet-sets-and-relations",
+      "name": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
+      "category": "Relations",
+      "summary": "Formal definitions of binary relations on sets, properties for equivalence, and total number of reflexive relations $2^{n^2 - n}$.",
+      "standard_formulas": "\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R",
+      "exam_frequency": 18,
+      "frequency_tier": "Very High",
+      "common_traps": "A relation is vacuously transitive if there are no pairs $(a,b)$ and $(b,c)$ with distinct elements to contradict transitivity.",
+      "tips_and_tricks": "Total number of relations on set of $n$ elements is $2^{n^2}$; total number of symmetric relations is $2^{n(n+1)/2}$.",
+      "pyq_ids": [
+        9306,
+        9317,
+        9318,
+        9319,
+        9321,
+        9322,
+        9323,
+        9324,
+        9325,
+        9326,
+        9327,
+        9328,
+        9329,
+        9330,
+        9331,
+        9332,
+        9333,
+        9335
+      ]
+    },
+    {
+      "id": 2091,
       "chapter_slug": "kcet-sets-and-relations",
       "name": "Set Operations & Venn Diagram Principle",
       "category": "Set Theory",
       "summary": "Inclusion-exclusion principle for cardinality, De Morgan's set identities, and power set cardinality $2^n$.",
       "standard_formulas": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B), \\quad n(A \\cup B \\cup C) = \\Sigma n(A) - \\Sigma n(A \\cap B) + n(A \\cap B \\cap C)",
-      "exam_frequency": 12,
-      "frequency_tier": "High",
+      "exam_frequency": 5,
+      "frequency_tier": "Moderate",
       "common_traps": "If set $A$ has $n$ elements, the number of proper subsets is $2^n - 1$ (excluding the set itself).",
       "tips_and_tricks": "Number of elements belonging to EXACTLY two of three sets: $\\Sigma n(A \\cap B) - 3n(A \\cap B \\cap C)$.",
       "pyq_ids": [
         9304,
         9308,
         9310,
-        9317,
-        9321,
-        9323,
-        9325,
-        9327,
-        9329,
-        9331,
-        9333,
-        9335
-      ]
-    },
-    {
-      "id": 1623,
-      "chapter_slug": "kcet-sets-and-relations",
-      "name": "Equivalence Relations (Reflexive, Symmetric, Transitive)",
-      "category": "Relations",
-      "summary": "Formal definitions of binary relations on sets, properties for equivalence, and total number of reflexive relations $2^{n^2 - n}$.",
-      "standard_formulas": "\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R",
-      "exam_frequency": 11,
-      "frequency_tier": "High",
-      "common_traps": "A relation is vacuously transitive if there are no pairs $(a,b)$ and $(b,c)$ with distinct elements to contradict transitivity.",
-      "tips_and_tricks": "Total number of relations on set of $n$ elements is $2^{n^2}$; total number of symmetric relations is $2^{n(n+1)/2}$.",
-      "pyq_ids": [
-        9306,
-        9318,
-        9319,
         9320,
-        9322,
-        9324,
-        9326,
-        9328,
-        9330,
-        9332,
         9334
       ]
     }
@@ -66,16 +66,16 @@
   "synthesis": {
     "id": 85,
     "chapter_slug": "kcet-sets-and-relations",
-    "title": "Sets and Relations 2026 4 questions 6.67% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Sets and Relations 2026 4 questions 6.67% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 23 Previous Year Questions Analyzed (23 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **23** authentic KCET problems.\n- **Question Format Breakdown**: **23 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Set Operations & Venn Diagram Principle | **12 PYQs** | Set Theory |\n| **High** | Equivalence Relations (Reflexive, Symmetric, Transitive) | **11 PYQs** | Relations |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Set Operations & Venn Diagram Principle (Set Theory)\n- **Exam Weightage**: Tested in **12 PYQs** (High Yield)\n- **Conceptual Summary**: Inclusion-exclusion principle for cardinality, De Morgan's set identities, and power set cardinality $2^n$.\n\n#### Standard Mathematical Formulation\n$$\nn(A \\cup B) = n(A) + n(B) - n(A \\cap B), \\quad n(A \\cup B \\cup C) = \\Sigma n(A) - \\Sigma n(A \\cap B) + n(A \\cap B \\cap C)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: If set $A$ has $n$ elements, the number of proper subsets is $2^n - 1$ (excluding the set itself).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Number of elements belonging to EXACTLY two of three sets: $\\Sigma n(A \\cap B) - 3n(A \\cap B \\cap C)$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Let R be the relation in the set $ℕ$ given by $R={(a,b):a=b-2,b>6}$ . Which of the following is the correct answer?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"If $A={1,2,3,4,\\dots,10}$ , then the number of non-empty subsets of A containing only even number is...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#4 (MCQ)**: *\"If $A={a,b,c,d,e,f}$ , then the number of subsets of A which contains at least $2$ elements is...\"* — **Correct Answer: C**\n- **[2025 Shift] Q#1 (MCQ)**: *\"If $A={x:x$ is an integer and $x^{2}-9=0}$ $B={x:x$ is a natural number and $2 \\le x<5}$ $C={x:x$ is a prime number $\\le 4}$ Then $(B-C)∪A$ ...\"* — **Correct Answer: N/A**\n\n### 2.2 Equivalence Relations (Reflexive, Symmetric, Transitive) (Relations)\n- **Exam Weightage**: Tested in **11 PYQs** (High Yield)\n- **Conceptual Summary**: Formal definitions of binary relations on sets, properties for equivalence, and total number of reflexive relations $2^{n^2 - n}$.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: A relation is vacuously transitive if there are no pairs $(a,b)$ and $(b,c)$ with distinct elements to contradict transitivity.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Total number of relations on set of $n$ elements is $2^{n^2}$; total number of symmetric relations is $2^{n(n+1)/2}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"If $n(A)=2$ and the number of relations from set A to set B is $1024$ , then $n(B)$ is...\"* — **Correct Answer: B**\n- **[2025 Shift] Q#2 (MCQ)**: *\"$A$ and $B$ are two sets having 3 and 6 elements respectively. Consider the following statements. Statement (I): Minimum number of elements ...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"$\\text{Let}A={a,b,c}\\text{, then the number of equivalence relations on A containing}(b,c)\\text{is}$...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Consider the following statements : Statement(I) : The set of all solutions of the linear inequalities $3x+8<17$ and $2x+8 \\ge 12$ are $x<3$...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Sets and Relations 2026 4 questions 6.67% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 23 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Set Operations & Venn Diagram Principle** | $n(A \\cup B) = n(A) + n(B) - n(A \\cap B), \\quad n(A \\cup B \\cup C) = \\Sigma n(A) - \\Sigma n(A \\cap B) + n(A \\cap B \\cap C)$ | Standard SI units apply |\n| **Equivalence Relations (Reflexive, Symmetric, Transitive)** | $\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Sets and Relations 2026 4 questions 6.67% weightage\nBased on rigorous analysis of all 23 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Sets and Relations 2026 4 questions 6.67% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Sets and Relations Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Sets and Relations — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 23 Previous Year Questions Analyzed (23 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **23** authentic KCET problems.\n- **Question Format Breakdown**: **23 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Equivalence Relations (Reflexive, Symmetric, Transitive) | **18 PYQs** | Relations |\n| **Moderate** | Set Operations & Venn Diagram Principle | **5 PYQs** | Set Theory |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Equivalence Relations (Reflexive, Symmetric, Transitive) (Relations)\n- **Exam Weightage**: Tested in **18 PYQs** (Very High Yield)\n- **Conceptual Summary**: Formal definitions of binary relations on sets, properties for equivalence, and total number of reflexive relations $2^{n^2 - n}$.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: A relation is vacuously transitive if there are no pairs $(a,b)$ and $(b,c)$ with distinct elements to contradict transitivity.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Total number of relations on set of $n$ elements is $2^{n^2}$; total number of symmetric relations is $2^{n(n+1)/2}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"If $n(A)=2$ and the number of relations from set A to set B is $1024$ , then $n(B)$ is...\"* — **Correct Answer: B**\n- **[2025 Shift] Q#1 (MCQ)**: *\"If $A={x:x$ is an integer and $x^{2}-9=0}$ $B={x:x$ is a natural number and $2 \\le x<5}$ $C={x:x$ is a prime number $\\le 4}$ Then $(B-C)∪A$ ...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#2 (MCQ)**: *\"$A$ and $B$ are two sets having 3 and 6 elements respectively. Consider the following statements. Statement (I): Minimum number of elements ...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"$\\text{Let}A={a,b,c}\\text{, then the number of equivalence relations on A containing}(b,c)\\text{is}$...\"* — **Correct Answer: N/A**\n\n### 2.2 Set Operations & Venn Diagram Principle (Set Theory)\n- **Exam Weightage**: Tested in **5 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Inclusion-exclusion principle for cardinality, De Morgan's set identities, and power set cardinality $2^n$.\n\n#### Standard Mathematical Formulation\n$$\nn(A \\cup B) = n(A) + n(B) - n(A \\cap B), \\quad n(A \\cup B \\cup C) = \\Sigma n(A) - \\Sigma n(A \\cap B) + n(A \\cap B \\cap C)\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: If set $A$ has $n$ elements, the number of proper subsets is $2^n - 1$ (excluding the set itself).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Number of elements belonging to EXACTLY two of three sets: $\\Sigma n(A \\cap B) - 3n(A \\cap B \\cap C)$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"Let R be the relation in the set $ℕ$ given by $R={(a,b):a=b-2,b>6}$ . Which of the following is the correct answer?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"If $A={1,2,3,4,\\dots,10}$ , then the number of non-empty subsets of A containing only even number is...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#4 (MCQ)**: *\"If $A={a,b,c,d,e,f}$ , then the number of subsets of A which contains at least $2$ elements is...\"* — **Correct Answer: C**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Consider the following statements : Statement(I) : The set of all solutions of the linear inequalities $3x+8<17$ and $2x+8 \\ge 12$ are $x<3$...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Sets and Relations — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 23 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Equivalence Relations (Reflexive, Symmetric, Transitive)** | $\\text{Reflexive: } \\forall a \\in A, (a,a) \\in R, \\quad \\text{Symmetric: } (a,b) \\in R \\implies (b,a) \\in R, \\quad \\text{Transitive: } (a,b),(b,c) \\in R \\implies (a,c) \\in R$ | Standard SI units apply |\n| **Set Operations & Venn Diagram Principle** | $n(A \\cup B) = n(A) + n(B) - n(A \\cap B), \\quad n(A \\cup B \\cup C) = \\Sigma n(A) - \\Sigma n(A \\cap B) + n(A \\cap B \\cap C)$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Sets and Relations\nBased on rigorous analysis of all 23 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Sets and Relations\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       9304,
       9306
     ],
-    "updated_at": "2026-09-20T16:43:29.000542"
+    "updated_at": "2026-09-20T17:12:16.962707"
   },
   "total_questions": 23,
   "has_docx": true,

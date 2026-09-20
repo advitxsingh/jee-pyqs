@@ -103,7 +103,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Write the given line in parametric form.</p>\n<p> $\\frac{x+3}{8}=\\frac{y-4}{2}=\\frac{z+1}{2}=t$ </p>\n<p>So any point on the line is</p>\n<p> $P(t)=(-3+8t,4+2t,-1+2t)$ </p>\n<p>Since both  $P$  and  $Q$  lie on this line and are at a distance  $6$  from  $R(1,2,3)$ , we find the points on the line whose distance from  $R$  is  $6$ .</p>\n<p>Distance condition:</p>\n<p> $\\sqrt{(x-1)^{2}+(y-2)^{2}+(z-3)^{2}}=6$ </p>\n<p>Substitute  $x=-3+8t,y=4+2t,z=-1+2t$ :</p>\n<p> $(-3+8t-1)^{2}+(4+2t-2)^{2}+(-1+2t-3)^{2}=36$ </p>\n<p> $(8t-4)^{2}+(2t+2)^{2}+(2t-4)^{2}=36$ </p>\n<p>Now expand:</p>\n<p> $64t^{2}-64t+16+4t^{2}+8t+4+4t^{2}-16t+16=36$ </p>\n<p> $72t^{2}-72t+36=36$ </p>\n<p> $72t^{2}-72t=0$ </p>\n<p> $72t(t-1)=0$ </p>\n<p>So,</p>\n<p> $t=0\\text{or}t=1$ </p>\n<p>Hence the two points are:</p>\n<p>For  $t=0$ ,</p>\n<p> $P=(-3,4,-1)$ </p>\n<p>For  $t=1$ ,</p>\n<p> $Q=(5,6,1)$ </p>\n<p>Now centroid of triangle  $PQR$  is</p>\n<p> $(\\alpha,\\beta,\\gamma)=(\\frac{x_{P}+x_{Q}+x_{R}}{3},\\frac{y_{P}+y_{Q}+y_{R}}{3},\\frac{z_{P}+z_{Q}+z_{R}}{3})$ </p>\n<p>Substitute  $P=(-3,4,-1)$ ,  $Q=(5,6,1)$ ,  $R=(1,2,3)$ :</p>\n<p> $\\alpha=\\frac{-3+5+1}{3}=\\frac{3}{3}=1$ </p>\n<p> $\\beta=\\frac{4+6+2}{3}=\\frac{12}{3}=4$ </p>\n<p> $\\gamma=\\frac{-1+1+3}{3}=\\frac{3}{3}=1$ </p>\n<p>Therefore,</p>\n<p> $\\alpha+\\beta+\\gamma=1+4+1=6$ </p>\n<p>So the correct answer is:</p>\n<p> $6$ </p>\n<p>Hence, Option C is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+3}{8}=\\frac{y-4}{2}=\\frac{z+1}{2}",
@@ -114,7 +114,7 @@
         "72t^{2}-72t+36=36"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:26.243850"
     },
@@ -160,7 +160,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For two skew lines,</p>\n<p> $\\vec{r}=\\vec{a}_{1}+\\lambda\\vec{b}_{1}\\text{and}\\vec{r}=\\vec{a}_{2}+\\mu\\vec{b}_{2},$ </p>\n<p>the shortest distance is</p>\n<p> $d=\\frac{|(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})|}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}.$ </p>\n<p>Now compare with the given lines.</p>\n<p>First line:</p>\n<p> $\\vec{r}=(\\frac{1}{3}\\hat{i}+2\\hat{j}+\\frac{8}{3}\\hat{k})+\\lambda(2\\hat{i}-5\\hat{j}+6\\hat{k})$ </p>\n<p>So,</p>\n<p> $\\vec{a}_{1}=(\\frac{1}{3},2,\\frac{8}{3}),\\vec{b}_{1}=(2,-5,6)$ </p>\n<p>Second line:</p>\n<p> $\\vec{r}=(-\\frac{2}{3}\\hat{i}-\\frac{1}{3}\\hat{k})+\\mu(\\hat{j}-\\hat{k})$ </p>\n<p>So,</p>\n<p> $\\vec{a}_{2}=(-\\frac{2}{3},0,-\\frac{1}{3}),\\vec{b}_{2}=(0,1,-1)$ </p>\n<p>Now find</p>\n<p> $\\vec{a}_{2}-\\vec{a}_{1}=(-\\frac{2}{3}-\\frac{1}{3},0-2,-\\frac{1}{3}-\\frac{8}{3})=(-1,-2,-3)$ </p>\n<p>Next, calculate  $\\vec{b}_{1} \\times \\vec{b}_{2}$ :</p>\n<p> $\\vec{b}_{1} \\times \\vec{b}_{2}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; -5 &amp; 6 \\\\ 0 &amp; 1 &amp; -1 \\end{aligned}|$ </p>\n<p> $=\\hat{i}[(-5)(-1)-6(1)]-\\hat{j}[2(-1)-6(0)]+\\hat{k}[2(1)-(-5)(0)]$ </p>\n<p> $=\\hat{i}(5-6)-\\hat{j}(-2)+\\hat{k}(2)=-\\hat{i}+2\\hat{j}+2\\hat{k}$ </p>\n<p>So,</p>\n<p> $\\vec{b}_{1} \\times \\vec{b}_{2}=(-1,2,2)$ </p>\n<p>Its magnitude is</p>\n<p> $|\\vec{b}_{1} \\times \\vec{b}_{2}|=\\sqrt{(-1)^{2}+2^{2}+2^{2}}=\\sqrt{1+4+4}=3$ </p>\n<p>Now find the scalar triple product:</p>\n<p> $(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})=(-1,-2,-3) \\cdot (-1,2,2)$ </p>\n<p> $=(-1)(-1)+(-2)(2)+(-3)(2)=1-4-6=-9$ </p>\n<p>Therefore,</p>\n<p> $d=\\frac{|-9|}{3}=3$ </p>\n<p>Hence, the shortest distance is</p>\n<p> $3$ </p>\n<p>So, the correct option is <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\hat{i}[(-5)(-1)-6(1)]-\\hat{j}[2(-1)-6(0)]+\\hat{k}[2(1)-(-5)(0)]",
@@ -171,7 +171,7 @@
         "d=\\frac{|-9|}{3}=3"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:26.934645"
     },
@@ -276,7 +276,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let line  $L:\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}$ , point  $P(1,2,a)$ .</p>\n<p> $\\begin{aligned} &amp; L_{1}:\\frac{x-1}{3}=\\frac{y-2}{4}=\\frac{z-a}{b}=\\lambda_{1}, \\\\ &amp; L_{2}:\\frac{x-1}{1}=\\frac{y-2}{4}=\\frac{z-a}{c}=\\lambda_{2}. \\end{aligned}$ </p>\n<p>Aany point  $Q$  on  $L$  is  $(t+1,2t,t+1)$ .</p>\n<p>Let  $Q_{1}(t_{1}+1,2t_{1},t_{1}+1)$  be point on  $L$  and  $d_{1}$  be the distance measured from  $P(1,2,a)$  along  $L_{1}$  such that  $|PQ_{1}|=d_{1}$ .</p>\n<p>So, direction ratio of  $\\vec{PQ_{1}}$  and line  $L_{1}$  are proportional.</p>\n<p>Direction ratio of  $\\vec{PQ_{1}}$ </p>\n<p> $\\begin{aligned} =Q_{1}-P=(t_{1}+1,2t_{1},t_{1}+1)-(1,2,a)=(t_{1},2t_{1}-2,t_{1}+1-a) \\end{aligned}$ </p>\n<p>Direction ratio of  $L_{1}=(3,4,b)$ .</p>\n<p>So,</p>\n<p> $\\frac{t_{1}}{3}=\\frac{2t_{1}-2}{4}=\\frac{t_{1}-a+1}{b}$ </p>\n<p>Equating</p>\n<p> $\\frac{t_{1}}{3}=\\frac{2t_{1}-2}{4}\\text{and}\\frac{t_{1}}{3}=\\frac{t_{1}-a+1}{b}$ </p>\n<p> $4t_{1}=6t_{1}-6$  and put  $t_{1}=3$ </p>\n<p> $t_{1}=3$  and  $\\frac{3}{3}=\\frac{3-a+1}{b} \\Rightarrow a+b=4$ …….(1)</p>\n<p>Similarly, let  $Q_{2}(t_{2}+1,2t_{2},t_{2}+1)$  be point on  $L$  and  $d_{2}$  be the distance measured from  $P(1,2,a)$  along  $L_{2}$  such that  $|PQ_{2}|=d_{2}$ .</p>\n<p>so, direction ratio of  $\\vec{PQ_{2}}$  and  $d_{2}$  are proportional.</p>\n<p>direction ratio of  $\\vec{PQ}$ ,</p>\n<p> $\\begin{aligned} =Q_{2}-P=(t_{2}+1,2t_{2},t_{2}+1)-(1,2,a) \\\\ \\\\ =(t_{2},2t_{2}-2,t_{2}+1-a) \\end{aligned}$ </p>\n<p>Direction ratio of  $L_{2}=(1,4,c)$ .</p>\n<p> $\\frac{t_{2}}{1}=\\frac{2t_{2}-2}{4}=\\frac{t_{2}+1-a}{c}$ </p>\n<p>Equating</p>\n<p> $\\frac{t_{2}}{1}=\\frac{2t_{2}-2}{4}\\text{and}\\frac{t_{2}}{1}=\\frac{t_{2}+1-a}{c}$ </p>\n<p> $4t_{2}=2t_{2}-2$  and put  $t_{2}=-1$ </p>\n<p> $2t_{2}=-2$  and  $\\frac{-1}{1}=\\frac{-1+1-a}{c}$ </p>\n<p> $\\Rightarrow$   $-1=\\frac{-a}{c} \\Rightarrow a=c$  ........(2)</p>\n<p>Now, calculating</p>\n<p> $d_{1}^{2}=|PQ_{1}|^{2}=t_{1}^{2}+(2t_{1}-2)^{2}+(t_{1}+1-a)^{2},\\text{use}t_{1}=3$ </p>\n<p> $\\Rightarrow$   $d_{1}^{2}=(3)^{2}+(2 \\times 3-2)^{2}+(3+1-a)^{2}$ </p>\n<p> $=9+16+(4-a)^{2}=25+16+a^{2}-8a$ </p>\n<p> $=a^{2}-8a+41$ </p>\n<p>Similarly,</p>\n<p> $d_{2}^{2}=|PQ_{2}|^{2}=t_{2}^{2}+(2t_{2}-2)^{2}+(t_{2}+1-a)^{2}$ </p>\n<p> $\\Rightarrow$   $d_{2}^{2}=(-1)^{2}+(2 \\times (-1)-2)^{2}+(-1+1-a)^{2}{$  use  $t_{2}=-1}$ </p>\n<p> $\\Rightarrow$   $d_{2}^{2}=1+16+a^{2}=17+a^{2}$ </p>\n<p>It is given that  $|PQ_{1}|=|PQ_{2}| \\Rightarrow d_{1}^{2}=d_{2}^{2}$ </p>\n<p> $\\Rightarrow$   $a^{2}-8a+41=17+a^{2}$ </p>\n<p> $\\Rightarrow -8a+41=17$ </p>\n<p> $\\Rightarrow$   $8a=41-17=24 \\Rightarrow a=3$ </p>\n<p>from (1) &amp; (2)</p>\n<p> $b=4-a=4-3=1\\text{and}c=a=3$ </p>\n<p>So value of  $a+b+c=3+1+3=7$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}",
@@ -287,7 +287,7 @@
         "t_{1}=3"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:28.675532"
     },
@@ -386,7 +386,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; L_{1}:\\frac{x-2}{-3}=\\frac{y-6}{2}=\\frac{z-7}{4}=t \\\\ &amp; L_{2}:\\frac{x-4}{2}=\\frac{y-3}{1}=\\frac{z-5}{3}=s \\end{aligned}$ </p>\n<p>Any point on  $L_{1}$  is  $C=(-3t+2,2t+6,4t+7)$ </p>\n<p>Any point on  $L_{2}$  is  $D=(2s+4,s+3,3s+5)$ </p>\n<p>d.r's of  $\\vec{CD}=(2s+3t+2,s-2t-3,3s-4t-2)$ </p>\n<p>CD is parallel to  $-3i+5j+16k$ </p>\n<p> $\\begin{aligned} &amp; \\frac{2s+3t+2}{-3}=\\frac{s-2t-3}{5}=\\frac{3s-4t-2}{16} \\\\ &amp; 13s+9t+1=0\\dots.(i) \\\\ &amp; 41s+36t+26=0\\dots.(2) \\end{aligned}$ </p>\n<p>Solve (i) \\&amp; (2)  $s=2;t=-3$ </p>\n<p> $\\begin{aligned} &amp; C=(11,0,-5) \\\\ &amp; D=(8,5,11) \\\\ &amp; CD^{2}=290 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}",
@@ -395,7 +395,7 @@
         "\\begin{aligned} & C=(11,0,-5) \\\\ & D=(8,5,11) \\\\ & CD^{2}=290 \\end{aligned}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:29.658946"
     },
@@ -420,7 +420,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{let}L_{1}:\\frac{x-4}{4}=\\frac{y-1}{1}=\\frac{z-1}{1}=\\lambda_{1} \\\\ &amp; L_{2}:\\frac{x-17}{1}=\\frac{y-71}{1}=\\frac{z}{0}=\\lambda_{2} \\end{aligned}$ </p>\n<p>given that  $L$  is passing through  $P(1,1,1)$ </p>\n<p>and perpendicular to  $L_{1}$  and  $L_{2}$ .</p>\n<p>dr's of  $L=$  dr's of  $L_{1} \\times$  dr's of  $L_{2}$ </p>\n<p> $\\begin{aligned} &amp; =|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; 1 &amp; 1 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}| \\\\ \\\\ = &amp; \\hat{i}(0-1)-\\hat{j}(0-1)+\\hat{k}(4-1) \\\\ \\\\ = &amp; -\\hat{i}+\\hat{j}+3\\hat{k} \\end{aligned}$ </p>\n<p>Equation of line  $L:\\frac{x-1}{-1}=\\frac{y-1}{1}=\\frac{z-1}{3}=\\lambda$ \n<br/><br/>It is given that  $L$  intersect  $yz$  plane at  $Q$  for  $Q$  on  $y-z$  plane  $x=0$ \n<br/><br/> $\\lambda=\\frac{0-1}{-1}=1$ </p>\n<p> $\\frac{y-1}{1}=\\lambda \\Rightarrow y-1=1 \\Rightarrow y=2$ </p>\n<p> $\\frac{z-1}{3}=\\lambda \\Rightarrow \\frac{z-1}{3}=1 \\Rightarrow z=4$  <br/><br/>Point  $Q$  is  $(0,2,4)$ </p>\n<p>Another line parallel to  $L$  let  $L^{'}$  passing through  $S(1,0,-1)$ .</p>\n<p>The area of parallelogram  $PQRS$ </p>\n<p> $\\begin{aligned} = &amp; |\\vec{PQ} \\times \\vec{PS}| \\\\ &amp; \\vec{PQ}=Q-P=(0,2,4)-(1,1,1)=(-1,1,3) \\\\ &amp; \\vec{PS}=S-P=(1,0,-1)-(1,1,1)=(0,-1,-2) \\end{aligned}$ </p>\n<p> $=\\hat{i}(-2+3)-\\hat{j}(2-0)+\\hat{k}(1-0)$ </p>\n<p> $=\\hat{i}-2\\hat{j}+\\hat{k}$ </p>\n<p> $\\text{Area}=|\\vec{PQ} \\times \\vec{PS}|=\\sqrt{1^{2}+(-2)^{2}+(1)^{2}}=\\sqrt{6}$ </p>\n<p>Square of area  $=6$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x-4}{4}=\\frac{y-1}{1}=\\frac{z-1}{1}",
@@ -431,7 +431,7 @@
         "\\frac{z-1}{3}=\\lambda \\Rightarrow \\frac{z-1}{3}=1 \\Rightarrow z=4"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:05.913351"
     },
@@ -593,14 +593,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mozf3yv4/c03fe3ca-4169-4e55-b355-80dfe2534085/1eb7e400-4c3d-11f1-b7ba-d7d50994dc72/file-6y3zli1mozf3yv5.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "(2\\alpha+1,\\alpha^{2}-3\\alpha,\\frac{\\alpha-1}{2})",
         "\\frac{x-2}{3}=\\frac{y-1}{2}=\\frac{z}{1}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:26.983100"
     },
@@ -646,7 +646,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the common point of intersection of the two lines be  $P$ .</p>\n<p>Since the point lies on the  $xy$ -plane, its  $z$ -coordinate must be  $0$ .</p>\n<p>We write both lines in parametric form.</p>\n<p>For the first line,</p>\n<p> $\\frac{x+1}{3}=\\frac{y+a}{5}=\\frac{z+b+1}{7}=\\lambda$ </p>\n<p>So,</p>\n<p> $x=3\\lambda-1,y=5\\lambda-a,z=7\\lambda-b-1$ </p>\n<p>For the second line,</p>\n<p> $\\frac{x-2}{1}=\\frac{y-b}{4}=\\frac{z-2a}{7}=\\mu$ </p>\n<p>So,</p>\n<p> $x=\\mu+2,y=4\\mu+b,z=7\\mu+2a$ </p>\n<p>At the point of intersection, coordinates are equal.</p>\n<p>So we get:</p>\n<p> $3\\lambda-1=\\mu+2$ </p>\n<p> $5\\lambda-a=4\\mu+b$ </p>\n<p> $7\\lambda-b-1=7\\mu+2a$ </p>\n<p>Also, since the point lies on the  $xy$ -plane,</p>\n<p> $z=0$ </p>\n<p>Hence from both lines:</p>\n<p> $7\\lambda-b-1=0$ </p>\n<p>and</p>\n<p> $7\\mu+2a=0$ </p>\n<p>Now solve step by step.</p>\n<p>From</p>\n<p> $3\\lambda-1=\\mu+2$ </p>\n<p>we get</p>\n<p> $3\\lambda-\\mu=3 \\Rightarrow \\mu=3\\lambda-3$ </p>\n<p>From  $z=0$  in the first line,</p>\n<p> $b=7\\lambda-1$ </p>\n<p>From  $z=0$  in the second line,</p>\n<p> $2a=-7\\mu \\Rightarrow a=-\\frac{7\\mu}{2}$ </p>\n<p>Now use</p>\n<p> $5\\lambda-a=4\\mu+b$ </p>\n<p>Substitute  $\\mu=3\\lambda-3$ ,  $b=7\\lambda-1$ :</p>\n<p> $5\\lambda-a=4(3\\lambda-3)+(7\\lambda-1)$ </p>\n<p> $5\\lambda-a=12\\lambda-12+7\\lambda-1$ </p>\n<p> $5\\lambda-a=19\\lambda-13$ </p>\n<p> $-a=14\\lambda-13$ </p>\n<p> $a=13-14\\lambda$ </p>\n<p>Also,</p>\n<p> $a=-\\frac{7\\mu}{2}=-\\frac{7(3\\lambda-3)}{2}$ </p>\n<p> $a=\\frac{-21\\lambda+21}{2}$ </p>\n<p>Equate the two values of  $a$ :</p>\n<p> $13-14\\lambda=\\frac{-21\\lambda+21}{2}$ </p>\n<p>Multiply by  $2$ :</p>\n<p> $26-28\\lambda=-21\\lambda+21$ </p>\n<p> $5=7\\lambda$ </p>\n<p> $\\lambda=\\frac{5}{7}$ </p>\n<p>Then</p>\n<p> $\\mu=3\\lambda-3=3 \\cdot \\frac{5}{7}-3=\\frac{15}{7}-\\frac{21}{7}=-\\frac{6}{7}$ </p>\n<p>Now find  $a$  and  $b$ .</p>\n<p> $b=7\\lambda-1=5-1=4$ </p>\n<p> $a=-\\frac{7\\mu}{2}=-\\frac{7}{2}(-\\frac{6}{7})=3$ </p>\n<p>Therefore,</p>\n<p> $a+b=3+4=7$ </p>\n<p>So the correct answer is:</p>\n<p> $7$ </p>\n<p>Option C</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+1}{3}=\\frac{y+a}{5}=\\frac{z+b+1}{7}",
@@ -657,7 +657,7 @@
         "5\\lambda-a=19\\lambda-13"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:28.010472"
     },
@@ -796,7 +796,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mmao5y0p/424d276c-5fbe-417e-a245-f393c7706927/80da6690-1708-11f1-a55e-8fc0a6e2251b/file-6y3zli1mmao5y0q.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x}{2}=\\frac{y+a}{1}=\\frac{z}{1}",
@@ -805,7 +805,7 @@
         "\\frac{x}{2}=\\frac{y+a}{1}=\\frac{z}{1}=\\lambda"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:05.927649"
     },
@@ -1359,7 +1359,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Point  $P(3,2,1)$ \n<br/><br/>Let Line  $L_{1}:\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}$  and  $L_{2}:\\frac{x-9}{3}=\\frac{y-9}{2}=\\frac{z-5}{-2}$ </p>\n<p>Direction vector of  $L_{1}:(1,2,1)$ </p>\n<p>Let the first line be  $L_{1}:\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}=\\lambda$ . \n<br/><br/>Any general point  $M$  on this line is  $M(\\lambda+1,2\\lambda,\\lambda+1)$ .</p>\n<p>If  $M$  is the foot of the perpendicular from  $P(3,2,1)$  to  $L_{1}$ , the direction ratio of  $PM$  is  $(\\lambda-2,2\\lambda-2,\\lambda)$ . \n<br/><br/>Since  $PM⟂L_{1}$  : Since  $PM⟂L_{1}$  :</p>\n<p> $1(\\lambda-2)+2(2\\lambda-2)+1(\\lambda)=0$ \n<br/><br/> $\\Rightarrow$   $\\lambda-2+4\\lambda-4+\\lambda=0⟹6\\lambda=6⟹\\lambda=1$ </p>\n<p>The foot of the perpendicular  $M$  is  $(2,2,2)$ . Since  $M$  is the midpoint of  $PQ$ , where  $Q$  is  $(a,b,c)$  :</p>\n<ul>\n<li><p> $\\frac{a+3}{2}=2⟹a=1$ </p></li>\n<li><p> $\\frac{b+2}{2}=2⟹b=2$ </p></li>\n<li><p> $\\frac{c+1}{2}=2⟹c=3$ </p></li>\n</ul>\n<p>So,  $Q=(1,2,3)$ .</p>\n<p>Find the distance of  $Q(1,2,3)$  from the second line</p>\n<p>The second line is  $L_{2}:\\frac{x-9}{3}=\\frac{y-9}{2}=\\frac{z-5}{-2}=\\mu$ . \n<br/><br/>Let  $A(9,9,5)$  be a point on  $L_{2}$  and  $d=3\\hat{i}+2\\hat{j}-2\\hat{k}$  be its direction vector.</p>\n<p>The vector  $AQ=(1-9)\\hat{i}+(2-9)\\hat{j}+(3-5)\\hat{k}=-8\\hat{i}-7\\hat{j}-2\\hat{k}$ .\n<br/><br/>The distance  $D$  of a point from a line is given by:</p>\n<p>Distance of point from line :</p>\n<p> $D=\\frac{|\\vec{AQ} \\times \\vec{d}|}{|\\vec{d}|}$ </p>\n<p>Cross product</p>\n<p> $\\begin{aligned} \\vec{AQ} \\times \\vec{d}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ -8 &amp; -7 &amp; -2 \\\\ 3 &amp; 2 &amp; -2 \\end{aligned}| \\\\ =\\hat{i}[(-7)(-2)-(-2)(2)]-\\hat{j}[(-8)(-2)-(-2)(3)]+\\hat{k}[(-8)(2)-(-7)(3)] \\\\ =\\hat{i}(14+4)-\\hat{j}(16+6)+\\hat{k}(-16+21) \\\\ \\vec{AQ} \\times \\vec{d}=18\\hat{i}-22\\hat{j}+5\\hat{k} \\end{aligned}$ </p>\n<p>Magnitudes</p>\n<p> $\\begin{aligned} |\\vec{AQ} \\times \\vec{d}|=\\sqrt{18^{2}+(-22)^{2}+5^{2}}=\\sqrt{833} \\\\ |\\vec{d}|=\\sqrt{3^{2}+2^{2}+(-2)^{2}}=\\sqrt{17} \\end{aligned}$ </p>\n<p>Distance of point from line</p>\n<p> $D=\\frac{|\\vec{AQ} \\times \\vec{d}|}{|\\vec{d}|}=\\sqrt{\\frac{833}{17}}=\\sqrt{49}=7$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}",
@@ -1370,7 +1370,7 @@
         "L_{1}:\\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{1}=\\lambda"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:28.058612"
     },
@@ -1418,13 +1418,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm53fxol/e1b52743-4bd5-43c1-8fe0-ebc18ebc89b7/8bb9b750-13f7-11f1-a5aa-9180806cce30/file-jaoe38c1mm53fxom.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{1}=\\frac{1-y}{-2}=\\frac{z-2}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:28.734021"
     },
@@ -1472,13 +1472,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm2elfwx/ecdedce6-805f-4a8f-9506-eb4f3438a774/cf53b410-127c-11f1-9713-0b51d8aa583a/file-jaoe38c1mm2elfwy.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{\\frac{14}{3}}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:29.233959"
     },
@@ -1526,7 +1526,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9l4sxxq/8c9a95a7-c026-4c4b-9fde-abc544516fc2/99121db0-1b6a-11f0-bbff-0f04539847fe/file-jaoe38c1m9l4sxzf.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y+1}{3}=\\frac{z-1}{4}",
@@ -1535,7 +1535,7 @@
         "L_{2}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:30.165856"
     },
@@ -1581,14 +1581,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; L_{1}:\\frac{x-3}{3}=\\frac{y-\\alpha}{-1}=\\frac{z-3}{1} \\\\ &amp; L_{2}:\\frac{x+3}{-3}=\\frac{y+7}{2}=\\frac{z-\\beta}{4} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; a_{1}:(3,\\alpha,3)a^{2}=(-3,-7,\\beta) \\\\ &amp; \\vec{b}_{1}=3\\hat{i}-\\hat{j}+\\hat{k}\\vec{b}_{2}=-3\\hat{i}+2\\hat{j}+4\\hat{k} \\end{aligned}$ </p>\n<p> $d=\\frac{|(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})|}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}=3\\sqrt{30}$ </p>\n<p> $=\\frac{|\\begin{aligned} 6 &amp; \\alpha+7 &amp; 3-\\beta \\\\ 3 &amp; -1 &amp; 1 \\\\ -3 &amp; 2 &amp; 4 \\end{aligned}|}{\\sqrt{6^{2}+15^{2}+3^{2}}}=3\\sqrt{30}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; |-15\\alpha-3\\beta-132|=270 \\\\ &amp; |5\\alpha+\\beta+44|=90 \\\\ \\Rightarrow &amp; 5\\alpha+\\beta=90-44=46 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-3}{3}=\\frac{y-\\alpha}{-1}=\\frac{z-3}{1}",
         "\\frac{x+3}{-3}=\\frac{y+7}{2}=\\frac{z-\\beta}{4}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:30.690056"
     },
@@ -1636,14 +1636,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9zocx6b/efe58957-d010-433b-9908-dff651c72b9c/0b2cdb40-236a-11f0-b5f7-cfeab3fea8ed/file-jaoe38c1m9zocx6c.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}:\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}",
         "L_{2}:x-6=y=-z+4"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:31.408680"
     },
@@ -1743,7 +1743,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Step 1. Identify the Given Lines</strong></p>\n<p>The line </p>\n<p> $L_{1}:\\frac{x-1}{1}=\\frac{y-2}{-1}=\\frac{z-1}{2}$  </p>\n<p>passes through the point </p>\n<p> $P_{1}=(1,2,1)$  </p>\n<p>with direction vector </p>\n<p> $u=(1,-1,2).$ </p>\n<p>Similarly, the line </p>\n<p> $L_{2}:\\frac{x+1}{-1}=\\frac{y-2}{2}=\\frac{z}{1}$  </p>\n<p>passes through the point </p>\n<p> $P_{2}=(-1,2,0)$  </p>\n<p>with direction vector </p>\n<p> $v=(-1,2,1).$ </p>\n<p><strong>Step 2. Determine the Direction of  $L_{3}$ </strong></p>\n<p>Since  $L_{3}$  is perpendicular to both  $L_{1}$  and  $L_{2}$ , its direction vector must be parallel to the cross product of  $u$  and  $v$ . Compute:</p>\n<p> $d=u \\times v=|\\begin{aligned} i &amp; j &amp; k \\\\ 1 &amp; -1 &amp; 2 \\\\ -1 &amp; 2 &amp; 1 \\end{aligned}|.$ </p>\n<p>Using the determinant, we obtain:</p>\n<p> $\\begin{aligned} d_{x} &amp; =(-1)(1)-(2)(2)=-1-4=-5, \\\\ d_{y} &amp; =(2)(-1)-(1)(1)=-2-1=-3, \\\\ d_{z} &amp; =(1)(2)-(-1)(-1)=2-1=1. \\end{aligned}$ </p>\n<p>Thus, a valid direction vector is </p>\n<p> $d=(-5,-3,1).$ </p>\n<p><strong>Step 3. Express  $L_{3}$  in Terms of Its Intersection with  $L_{1}$ </strong></p>\n<p>Since  $L_{3}$  intersects  $L_{1}$ , let the intersection point (on  $L_{1}$ ) be expressed using a parameter  $t$  as:</p>\n<p> $A(t)=(1+t,2-t,1+2t).$ </p>\n<p>Since  $L_{3}$  passes through  $A(t)$  and also through the given point </p>\n<p> $Q=(\\alpha,\\beta,\\gamma),$  </p>\n<p>its parametric form can be written as:</p>\n<p> $(\\alpha,\\beta,\\gamma)=A(t)+sd=(1+t,2-t,1+2t)+s(-5,-3,1)$ </p>\n<p>for some parameters  $s$  and  $t$ .</p>\n<p><strong>Step 4. Express  $\\alpha,\\beta,\\gamma$  in Terms of  $t$  and  $s$ </strong></p>\n<p>Comparing coordinates, we have:</p>\n<p> $⎧⎩⎨⎪⎪\\begin{aligned} \\alpha=1+t-5s, \\\\ \\beta=2-t-3s, \\\\ \\gamma=1+2t+s. \\end{aligned}$ </p>\n<p><strong>Step 5. Compute  $5\\alpha-11\\beta-8\\gamma$ </strong></p>\n<p>Substitute the expressions for  $\\alpha$ ,  $\\beta$ , and  $\\gamma$ :</p>\n<p> $\\begin{aligned} 5\\alpha-11\\beta-8\\gamma &amp; =5(1+t-5s)-11(2-t-3s)-8(1+2t+s) \\\\ &amp; =(5+5t-25s)-(22-11t-33s)-(8+16t+8s) \\\\ &amp; =(5-22-8)+(5t+11t-16t)+(-25s+33s-8s) \\\\ &amp; =-25+0t+0s \\\\ &amp; =-25. \\end{aligned}$ </p>\n<p>Taking the absolute value yields:</p>\n<p> $|5\\alpha-11\\beta-8\\gamma|=25.$ </p>\n<p><strong>Conclusion</strong></p>\n<p>The value of </p>\n<p> $|5\\alpha-11\\beta-8\\gamma|$  is  $25.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "L_{1}:\\frac{x-1}{1}=\\frac{y-2}{-1}=\\frac{z-1}{2}",
@@ -1754,7 +1754,7 @@
         "P_{1}=(1,2,1)"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.604053"
     },
@@ -1802,11 +1802,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7dbel5i/a2f1f034-e79b-4a8e-8395-e60c6087fa6c/b5c85a70-ef85-11ef-a31c-61942b0d8216/file-jaoe38c1m7dbel5j.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:33.129461"
     },
@@ -2053,13 +2053,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $L:\\frac{x-6}{3}=\\frac{y-7}{2}=\\frac{z-7}{-2}$ </p>\n<p>Point  $A(3\\lambda+6,2\\lambda+7,7-2\\lambda)$ </p>\n<p> $B(3\\mu+6,2\\mu+7,7-2\\mu)$ </p>\n<p>Let  $P(3k+6,2k+7,7-2k)$  be foot of perpendicular from  $P^{'}(1,2,3)$ </p>\n<p> $\\begin{aligned} &amp; \\therefore PP^{'}⟨3,2,-2⟩=0 \\\\ &amp; 3(3k+5)+(2k+5)2+(4-2k)(-2)=0 \\\\ &amp; 9k+15+4k+10-8+4k=0 \\\\ &amp; 17k+17=0 \\\\ &amp; \\Rightarrow k=-1 \\therefore P(3,5,9) \\\\ &amp; |\\vec{AP}|=2\\sqrt{17} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (3\\lambda+3)^{2}+(2\\lambda+2)^{2}+(-2-2\\lambda)^{2}=17 \\times 4 \\\\ &amp; =17(\\lambda+1)^{2}=17 \\times 4 \\\\ &amp; \\Rightarrow \\lambda+1= \\pm 2 \\Rightarrow \\lambda=1\\text{or}\\lambda=-3 \\\\ &amp; \\therefore A(9,9,5),B(-3,1,13) \\\\ &amp; \\vec{OA} \\cdot \\vec{OB}=(9\\hat{i}+9\\hat{j}+5\\hat{k}) \\cdot (-3\\hat{i}+\\hat{j}+13\\hat{k}) \\\\ &amp; =-27+9+65=47 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "P^{'}(1,2,3)"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:30.716813"
     },
@@ -2163,11 +2163,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mahnmjqh/dc5313d1-6a6c-408a-af82-9d0aa2184ac9/4971c590-2d4d-11f0-8000-8fc9ddec6757/file-jaoe38c1mahnmjqi.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.004234"
     },
@@ -2215,14 +2215,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m74vtkpt/b8cc281d-42f6-44f5-a5a0-eafdbdeaf325/7f521910-eae2-11ef-b903-374a4031b0cb/file-jaoe38c1m74vtkpu.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{15}{7},\\frac{32}{7},7)",
         "\\frac{x+1}{3}=\\frac{y+3}{5}=\\frac{z+5}{7}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.640228"
     },
@@ -2604,11 +2604,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the distance between the points  $P$  and  $Q$ , let's consider the following steps:</p>\n<p><p><strong>Determine the direction vector of line  $L$ :</strong> </p>\n<p>For the line  $L$  to be perpendicular to both given lines, we find the direction vector of  $L$  using the cross product of the direction vectors of the given lines.</p>\n<p>The first line has direction vector  $⟨2,1,-2⟩$  and the second line has direction vector  $⟨1,3,4⟩$ . The cross product is:</p>\n<p> $|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; 1 &amp; -2 \\\\ 1 &amp; 3 &amp; 4 \\end{aligned}|=10\\hat{i}-10\\hat{j}+5\\hat{k}=5(2\\hat{i}-2\\hat{j}+\\hat{k})$ </p>\n<p>Thus, the direction vector of line  $L$  is  $⟨2,-2,1⟩$ .</p></p>\n<p><p><strong>Equation of line  $L$ :</strong> </p>\n<p>Since  $L$  passes through point  $P(2,-1,3)$  with direction vector  $⟨2,-2,1⟩$ , its parametric form is:</p>\n<p> $\\frac{x-2}{2}=\\frac{y+1}{-2}=\\frac{z-3}{1}=\\lambda$ </p></p>\n<p><p><strong>Find the intersection with the  $yz$ -plane:</strong> </p>\n<p>On the  $yz$ -plane,  $x=0$ . Substitute into the line equation to find  $\\lambda$ :</p>\n<p> $2\\lambda+2=0⟹\\lambda=-1$ </p>\n<p>Substitute  $\\lambda=-1$  back into the parametric equations to find  $Q$ :</p>\n<p> $x=2(-1)+2=0,y=-2(-1)-1=1,z=(-1)+3=2$ </p>\n<p>Therefore, the intersection point  $Q$  is  $(0,1,2)$ .</p></p>\n<p><p><strong>Calculate the distance between  $P$  and  $Q$ :</strong></p>\n<p> $\\text{d}(P,Q)=\\sqrt{(2-0)^{2}+(-1-1)^{2}+(3-2)^{2}}=\\sqrt{4+4+1}=\\sqrt{9}=3$ </p></p>\n<p>Thus, the distance between points  $P$  and  $Q$  is 3.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.047930"
     },
@@ -2704,7 +2704,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a}=(2,1,-3) \\\\ &amp; \\vec{b}=(-1,-3,-5) \\\\ &amp; \\vec{p} \\times \\vec{q}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; -3 \\\\ 2 &amp; 4 &amp; -5 \\end{aligned}| \\\\ &amp; =2\\hat{i}-\\hat{j} \\\\ &amp; \\vec{b}-\\vec{a}=-3\\hat{i}-4\\hat{j}-2\\hat{k} \\\\ &amp; S_{d}=\\frac{|(\\vec{b}-\\vec{a}) \\cdot (\\vec{p} \\times \\vec{q})|}{|\\vec{p} \\times \\vec{q}|} \\\\ &amp; =\\frac{2}{\\sqrt{5}} \\\\ &amp; (S_{d})^{2}=\\frac{4}{5} \\\\ &amp; m=4,n=5 \\Rightarrow m+n=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-2}{1}=\\frac{y-1}{2}=\\frac{z+3}{-3}",
@@ -2712,7 +2712,7 @@
         "\\frac{m}{n}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:33.156998"
     },
@@ -2796,7 +2796,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9h1byaq/4f3aec88-5a8f-4803-b0c4-a440a538d26d/e292a420-1929-11f0-aa66-05ee025e30bb/file-jaoe38c1m9h1byar.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "x+2=y-1=z,\\frac{x-3}{5}=\\frac{y}{-1}=\\frac{z-1}{1}",
@@ -2804,7 +2804,7 @@
         "is equal to ________."
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:05.940035"
     },
@@ -2852,11 +2852,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9jingpq/c76e21bc-ff7e-44f1-8f9a-450b6f54f0c9/2f31b7e0-1a87-11f0-b2bf-61e6e294e88a/file-jaoe38c1m9jingpr.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:29.706637"
     },
@@ -3070,13 +3070,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m71ej7rz/ed179328-07c0-4a08-8c9a-5b715f5c6e84/8a16faf0-e8f8-11ef-b48b-c3f51ea93f48/file-jaoe38c1m71ej7s0.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "L:\\frac{x-1}{1}=\\frac{y+1}{-1}=\\frac{z-2}{2}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.082275"
     },
@@ -3124,13 +3124,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m77mt379/15802126-76bc-45da-a81c-2c5ebc5ab0bd/99938a50-ec65-11ef-a7f5-ed1df7ab36a3/file-jaoe38c1m77mt37a.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y-2}{1}=\\frac{z-1}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:32.736643"
     },
@@ -3271,14 +3271,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7c3htun/3255bb4a-5a80-4641-851d-952c88411427/fe3efef0-eed9-11ef-81d9-610d814056f7/file-jaoe38c1m7c3htuo.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "L:\\frac{x-1}{2}=\\frac{y+1}{3}=\\frac{z}{4}",
         "is _________."
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:05.953065"
     },
@@ -3326,11 +3326,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw1mpu79/db1f9115-bd83-4afa-bbc1-7bdbc6f490b3/2a21d550-0f52-11ef-91cd-f19f7dc20f18/file-1lw1mpu7a.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:34.314793"
     },
@@ -3426,7 +3426,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given two lines are represented as:</p>\n<p> $\\frac{x-3}{2}=\\frac{y+15}{-7}=\\frac{z-9}{5}$ </p>\n<p>and</p>\n<p> $\\frac{x+1}{2}=\\frac{y-1}{1}=\\frac{z-9}{-3}$ </p>\n<p>The formula for the shortest distance between two lines is:</p>\n<p> $d=\\frac{|(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})|}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}$ </p>\n<p>From the given lines:</p>\n<p> $\\vec{a}_{1}=(3,-15,9)$ </p>\n<p> $\\vec{a}_{2}=(-1,1,9)$ </p>\n<p> $\\vec{b}_{1}=(2,-7,5)$ </p>\n<p> $\\vec{b}_{2}=(2,1,-3)$ </p>\n<p>Calculate the difference:</p>\n<p> $\\vec{a}_{2}-\\vec{a}_{1}=(-1-3,1+15,9-9)=(-4,16,0)$ </p>\n<p>Next, compute the cross product:</p>\n<p> $\\vec{b}_{1} \\times \\vec{b}_{2}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; -7 &amp; 5 \\\\ 2 &amp; 1 &amp; -3 \\end{aligned}|=(16\\hat{i}+16\\hat{j}+16\\hat{k})$ </p>\n<p>The magnitude of the cross product is:</p>\n<p> $|\\vec{b}_{1} \\times \\vec{b}_{2}|=|(16\\hat{i}+16\\hat{j}+16\\hat{k})|=16\\sqrt{3}$ </p>\n<p>Calculate the dot product:</p>\n<p> $(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})=(-4\\hat{i}+16\\hat{j}+0\\hat{k}) \\cdot (16\\hat{i}+16\\hat{j}+16\\hat{k})=-64+256+0=192$ </p>\n<p>Finally, find the shortest distance:</p>\n<p> $d=\\frac{|192|}{16\\sqrt{3}}=\\frac{192}{16\\sqrt{3}}=4\\sqrt{3}$ </p>\n<p>Thus, the shortest distance is:</p>\n<p> $4\\sqrt{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-3}{2}=\\frac{y+15}{-7}=\\frac{z-9}{5}",
@@ -3437,7 +3437,7 @@
         "\\vec{a}_{2}-\\vec{a}_{1}=(-1-3,1+15,9-9)=(-4,16,0)"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:35.740838"
     },
@@ -3485,14 +3485,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwhgb1g0/feeaa3f8-43fb-402d-a95e-980c0569abe3/a234b100-1805-11ef-b156-f754785ad3ce/file-1lwhgb1g1.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{3}:\\frac{x}{\\frac{1}{4}}=\\frac{y}{\\frac{1}{2}}=\\frac{z}{1}",
         "L_{3}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:36.312135"
     },
@@ -3644,11 +3644,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt2yowkb/31073c70-5b0c-4f0f-80c0-62ea5ac61070/2035eab0-d4a9-11ee-bdd1-01c80c3e2d9a/file-1lt2yowkc.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:37.753518"
     },
@@ -3694,7 +3694,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{x-4}{1}=\\frac{y+1}{2}=\\frac{z}{-3} \\\\ &amp; \\frac{x-\\lambda}{2}=\\frac{y+1}{4}=\\frac{z-2}{-5} \\end{aligned}$ </p>\n<p>the shortest distance between the lines</p>\n<p> $=|\\frac{(\\vec{a}-\\vec{b}) \\cdot (\\vec{d_{1}} \\times \\vec{d_{2}})}{|\\vec{d_{1}} \\times \\vec{d_{2}}|}|$ </p>\n<p> $=|\\frac{|\\begin{aligned} \\lambda-4 &amp; 0 &amp; 2 \\\\ 1 &amp; 2 &amp; -3 \\\\ 2 &amp; 4 &amp; -5 \\end{aligned}|}{|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; -3 \\\\ 2 &amp; 4 &amp; -5 \\end{aligned}|}|$ </p>\n<p> $=|\\frac{(\\lambda-4)(-10+12)-0+2(4-4)}{|2\\hat{i}-1\\hat{j}+0\\hat{k}|}|$ </p>\n<p> $\\begin{aligned} &amp; \\frac{6}{\\sqrt{5}}=|\\frac{2(\\lambda-4)}{\\sqrt{5}}| \\\\ &amp; 3=|\\lambda-4| \\\\ &amp; \\lambda-4= \\pm 3 \\\\ &amp; \\lambda=7,1 \\end{aligned}$ </p>\n<p>Sum of all possible values of  $\\lambda$  is  $=8$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-4}{1}=\\frac{y+1}{2}=\\frac{z}{-3}",
@@ -3703,7 +3703,7 @@
         "=|\\frac{(\\lambda-4)(-10+12)-0+2(4-4)}{|2\\hat{i}-1\\hat{j}+0\\hat{k}|}|"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:38.706184"
     },
@@ -3730,7 +3730,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwd5pdpk/204a0778-5148-47b3-a659-091fdb696421/09fd8280-15a9-11ef-99cc-63deb36dcc4a/file-1lwd5pdpl.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to _________.",
@@ -3740,7 +3740,7 @@
         "8(8k+1)+12(12k+12)+16(16k+5)=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:06.823846"
     },
@@ -3765,13 +3765,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{x-4}{12}=\\frac{x+6}{4}=\\frac{z+2}{6} \\\\ &amp; \\frac{x-4}{\\frac{6}{7}}=\\frac{y+6}{\\frac{2}{7}}=\\frac{z+2}{\\frac{3}{7}}=21 \\\\ &amp; (21 \\times \\frac{6}{7}+4,\\frac{2}{7} \\times 21-6,\\frac{3}{7} \\times 21-2) \\\\ &amp; =(22,0,7)=(a,b,c) \\\\ &amp; \\therefore \\sqrt{324+144+16}=22 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to __________."
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:07.172166"
     },
@@ -3796,13 +3796,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $L_{1}:\\frac{x-5}{4}=\\frac{y-4}{1}=\\frac{z-5}{3}=\\lambda drs(4,1,3)=b_{1}$ </p>\n<p> $\\begin{aligned} &amp; M(4\\lambda+5,\\lambda+4,3\\lambda+5) \\\\ &amp; L_{2}:\\frac{x+8}{12}=\\frac{y+2}{5}=\\frac{z+11}{9}=\\mu \\\\ &amp; N(12\\mu-8,5\\mu-2,9\\mu-11) \\\\ &amp; \\vec{MN}=(4\\lambda-12\\mu+13,\\lambda-5\\mu+6,3\\lambda-9\\mu+16)\\text{..... (1)} \\end{aligned}$ </p>\n<p>Now</p>\n<p> $\\vec{b}_{1} \\times \\vec{b}_{2}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; 1 &amp; 3 \\\\ 12 &amp; 5 &amp; 9 \\end{aligned}|=-6\\hat{i}+8\\hat{k}\\text{.... (2)}$ </p>\n<p>Equation (1) and (2)</p>\n<p> $\\therefore \\frac{4\\lambda-12\\mu+13}{-6}=\\frac{\\lambda-5\\mu+6}{0}=\\frac{3\\lambda-9\\mu+16}{8}$ </p>\n<p>I and II</p>\n<p> $\\lambda-5\\mu+6=0\\text{.... (3)}$ </p>\n<p>I and III</p>\n<p> $\\lambda-3\\mu+4=0\\text{.... (4)}$ </p>\n<p>Solve (3) and (4) we get</p>\n<p> $\\begin{aligned} \\lambda= &amp; -1,\\mu=1 \\\\ \\therefore &amp; M(1,3,2) \\\\ &amp; N(4,3,-2) \\\\ \\therefore &amp; \\vec{OM} \\cdot \\vec{ON}=4+9-4=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to _________."
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:07.561620"
     },
@@ -3955,13 +3955,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwenv6x5/39fb95d9-cd80-4c68-91b8-1f5c0166f573/d8931b90-167c-11ef-9070-f523f4c6bd4b/file-1lwenv6x6.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y+1}{3}=\\frac{z-2}{5}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:35.783696"
     },
@@ -4123,7 +4123,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsqnidnf/3617c118-3469-40cf-b021-2c95fa43dbe8/fe8826b0-cde3-11ee-a0d3-7b75c4537559/file-6y3zli1lsqnidng.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+3}{5}=\\frac{y-1}{2}=\\frac{z+4}{3}",
@@ -4132,7 +4132,7 @@
         "19(\\alpha+\\beta+\\gamma)=𝟏𝟎𝟏"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:37.323224"
     },
@@ -4178,13 +4178,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Centroid  $G$  divides MR in  $1:2$ </p>\n<p> $G(1,2,2)$ </p>\n<p>Point of intersection  $A$  of given lines is  $(2,-6,0)$ </p>\n<p> $AG=\\sqrt{69}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "AG=\\sqrt{69}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:37.916310"
     },
@@ -4211,13 +4211,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw1my772/a7f8567c-57ab-46bd-a498-b733b7e930a6/12a4b0e0-0f53-11ef-91cd-f19f7dc20f18/file-1lw1my773.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{3}=\\frac{y}{2}=\\frac{z-2}{4}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:06.398784"
     },
@@ -4278,13 +4278,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{x}{1}=\\frac{y}{1}=\\frac{z-1}{0}=r \\rightarrow Q(r,r,1) \\\\ &amp; \\frac{x}{1}=\\frac{y}{-1}=\\frac{z+1}{0}=k \\rightarrow R(k,-k,-1) \\\\ &amp; \\bar{PQ}=(a-r)\\hat{i}+(a-r)\\hat{j}+(a-1)\\hat{k} \\\\ &amp; a=r+a-r=0 \\\\ &amp; 2a=2r \\rightarrow a=r \\\\ &amp; \\bar{PR}=(a-k)i+(a+k)\\hat{j}+(a+1)\\hat{k} \\\\ &amp; a-k-a-k=0 \\Rightarrow k=0 \\\\ &amp; As,PQ⟂PR \\\\ &amp; (a-r)(a-k)+(a-r)(a+k)+(a-1)(a+1)=0 \\\\ &amp; a=1\\text{or}-1 \\\\ &amp; 12a^{2}=12 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to _________."
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:07.187703"
     },
@@ -4368,7 +4368,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; L_{1}:\\frac{x-2}{1}=\\frac{y}{-1}=\\frac{z-1}{1}=\\lambda \\\\ &amp; L_{2}:\\frac{x+1}{(1/2)}=\\frac{y-1}{(1/2)}=\\frac{z+1}{1}=\\mu \\end{aligned}$ </p>\n<p>Any point of  $L_{1}$  and  $L_{2}$  will be  $(\\lambda+2,-\\lambda,\\lambda+1)$  and\n $(\\frac{\\mu}{2}-1,\\frac{\\mu}{2}+1,\\mu-1)$ </p>\n<p>Now Dr of line  $&lt;\\lambda-\\frac{\\mu}{2}+3,-\\lambda-\\frac{\\mu}{2}-1,\\lambda-\\mu+2&gt;$ </p>\n<p>Now  $\\frac{\\lambda-\\frac{\\mu}{3}+3}{3}=\\frac{-\\lambda-\\frac{\\mu}{2}-1}{1}=\\frac{\\lambda-\\mu+2}{2}$ </p>\n<p> $\\begin{aligned} \\lambda-\\frac{\\mu}{3}+3=-3\\lambda-\\frac{3\\mu}{2}-3...(1) \\\\ 2(\\lambda-\\frac{\\mu}{3}+3)=3(\\lambda-\\mu+2)...(2) \\end{aligned}}\\lambda=\\frac{-4}{3},\\mu=\\frac{-2}{3}$ </p>\n<p> $\\therefore$  Points will be  $(\\frac{2}{3},\\frac{4}{3},\\frac{-1}{3})$  and  $(\\frac{-4}{3},\\frac{2}{3},\\frac{-5}{3})$ </p>\n<p> $\\therefore L$  will be  $\\frac{x-\\frac{2}{3}}{3}=\\frac{y-\\frac{4}{3}}{1}=\\frac{z+\\frac{1}{3}}{2}$ </p>\n<p> $\\therefore (\\frac{-1}{3},1,-1)$  will satisfy  $L$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{2}{3},\\frac{4}{3},\\frac{-1}{3})",
@@ -4377,7 +4377,7 @@
         "\\therefore (\\frac{-1}{3},1,-1)"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:34.357829"
     },
@@ -4640,13 +4640,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Area}=|\\vec{AC} \\times \\vec{BD}| \\\\ &amp; =|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 5 &amp; -1 &amp; 7 \\\\ 1 &amp; 2 &amp; 3 \\end{aligned}| \\\\ &amp; =\\frac{1}{2}|-17\\hat{i}-8\\hat{j}+11\\hat{k}|=\\frac{1}{2}\\sqrt{474} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{BD}=\\hat{i}+2\\hat{j}+3\\hat{k}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:37.357730"
     },
@@ -4694,7 +4694,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1toimr/45988a05-1bb2-47f1-9316-43cb63fa6ccd/bf271320-d408-11ee-b9d5-0585032231f0/file-1lt1toimt.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{1}=\\frac{y-1}{2}=\\frac{z-2}{3}",
@@ -4705,7 +4705,7 @@
         "l^{2}=\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:38.053565"
     },
@@ -4765,13 +4765,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwhk80oi/a0341b0b-ecfa-449a-9d8f-e828635e1020/f2b47520-1814-11ef-a08c-4f00e8f9a4da/file-1lwhk80oj.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to __________."
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:06.855809"
     },
@@ -4798,7 +4798,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsoxte3w/356f1335-5223-47e5-b5cc-ef41c9b2c27b/bac74ec0-ccf2-11ee-a330-494dca5e9a63/file-6y3zli1lsoxte3x.png?format=png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "L_{1}:\\frac{x-1}{3}=\\frac{y-2}{2}=\\frac{z+1}{-2}",
@@ -4806,7 +4806,7 @@
         "\\frac{(\\alpha+\\beta+\\gamma)^{2}}{(a+b+c)^{2}}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:07.200083"
     },
@@ -4996,13 +4996,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; P_{1}:(3k-6,2k,k-1) \\\\ &amp; P_{2}(4\\alpha+7,3\\alpha+9,2\\alpha+4) \\\\ &amp; P_{1} \\equiv P_{2} \\\\ &amp; 3k-6=4\\alpha+7 \\Rightarrow 3k-4\\alpha=13 \\\\ &amp; 2k=3\\alpha+9 \\Rightarrow 2k-3\\alpha=9 \\\\ &amp; \\therefore k=3,\\alpha=-1 \\\\ &amp; \\therefore P_{1}:(3,6,2) \\end{aligned}$ </p>\n<p>Distance of  $(3,6,2)$  and  $(7,8,9)$ </p>\n<p> $\\begin{aligned} &amp; =\\sqrt{16+4+49}=\\sqrt{69}=d \\\\ &amp; d^{2}+6=69+6=75 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\begin{aligned} & =\\sqrt{16+4+49}=\\sqrt{69}=d \\\\ & d^{2}+6=69+6=75 \\end{aligned}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:35.846449"
     },
@@ -5048,11 +5048,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Any point on line  $\\frac{x+3}{8}=\\frac{y-4}{2}=\\frac{z+1}{2}$  <br/><br/>can be taken as  $(8\\lambda-3,2\\lambda+4,2\\lambda-1)$ \n<br/><br/> If at a distance of 6 units from  $R(1,2,3)$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow (8\\lambda-3-1)^{2}+(2\\lambda+4-2)^{2}+(2\\lambda-1-3)^{2}=36 \\\\ \\\\ &amp; \\Rightarrow \\lambda^{2}-\\lambda=0\\text{{on simplification}} \\\\ \\\\ &amp; \\Rightarrow \\lambda=0,\\lambda=1 \\end{aligned}$ \n<br/><br/>Here  $P&amp;Q$  are  $(-3,4,-1)$  and  $(5,6,1)$  Centroid of  $△PQR$ \n<br/><br/> $\\begin{aligned} &amp; (\\alpha,\\beta,\\gamma) \\equiv (\\frac{5-3+1}{3},\\frac{6+4+2}{3},\\frac{1-1+3}{3}) \\\\ \\\\ &amp; \\Rightarrow \\alpha=1,\\beta=4,\\gamma=1 \\\\ \\\\ &amp; \\Rightarrow \\alpha^{2}+\\beta^{2}+\\gamma^{2}=18 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:36.446391"
     },
@@ -5155,7 +5155,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsr8wgd3/6b24122f-fe39-4086-be4a-889687b965f8/a5aaee70-ce37-11ee-9412-cd4f9c6f2c40/file-6y3zli1lsr8wgd4.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "PR=(4,1,-1)",
@@ -5164,7 +5164,7 @@
         "\\theta=\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:37.394609"
     },
@@ -5212,7 +5212,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1c0zyx/3ef0ec08-6ff8-4ca7-97e0-1c5c0fde9c3c/b5ee7090-d3c3-11ee-a50b-bb659a2e1d74/file-1lt1c0zyy.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-6}{1}=\\frac{y-4}{0}=\\frac{z-8}{3}",
@@ -5223,7 +5223,7 @@
         "\\lambda=-2"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:38.216861"
     },
@@ -5428,7 +5428,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->1. Determine the line of shortest distance between the given two lines:\n\n\n<br/><br/>Direction vector of line 1:  $\\vec{d_{1}}=2\\hat{i}+\\hat{k}$ \n<br/><br/>Direction vector of line 2:  $\\vec{d_{2}}=\\hat{i}-\\hat{j}+\\hat{k}$ \n<br/><br/>Now, let's find the cross product  $\\vec{N}=\\vec{d_{1}} \\times \\vec{d_{2}}$ \n<br/><br/> $\\vec{N}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; 0 &amp; 1 \\\\ 1 &amp; -1 &amp; 1 \\end{aligned}|=(\\hat{i}(0+1)-\\hat{j}(2-1)+\\hat{k}(-2-0))=\\hat{i}-\\hat{j}-2\\hat{k}$ \n<br/><br/>So, the direction vector of the line of shortest distance is  $\\vec{N}=\\hat{i}-\\hat{j}-2\\hat{k}$ .\n\n<br/><br/>2. Find the equation of a line passing through point  $A(-1,2,3)$  and having the direction vector  $\\vec{N}$ :\n\n<br/><br/> $\\frac{x+1}{1}=\\frac{y-2}{-1}=\\frac{z-3}{-2}=\\lambda$ \n<br/><br/>3. Find the point  $P$  where the line intersects the given plane:\n\n<br/><br/>Let the coordinates of point  $P$  be in terms of  $\\lambda$ :\n\n<br/><br/> $P(\\lambda-1,-\\lambda+2,-2\\lambda+3)$ \n<br/><br/>Since  $P$  lies on the plane  $x-2y+3z=10$ , we can substitute the coordinates of  $P$  in terms of  $\\lambda$  into the equation of the plane:\n\n<br/><br/> $(\\lambda-1)-2(-\\lambda+2)+3(-2\\lambda+3)=10$ \n<br/><br/> $\\lambda=-2$ \n<br/><br/> $P(-3,4,7)$ \n<br/><br/>4. Calculate the distance between points  $A$  and  $P$ :\n\n<br/><br/> $AP=\\sqrt{(-3-(-1))^{2}+(4-2)^{2}+(7-3)^{2}}=2\\sqrt{6}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r} \\cdot (\\hat{i}-2\\hat{j}+3\\hat{k})=10",
@@ -5439,7 +5439,7 @@
         "\\vec{N}=\\vec{d_{1}} \\times \\vec{d_{2}}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:40.260425"
     },
@@ -6183,7 +6183,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Shortest distance between the lines<br/><br/>  $\\frac{x+\\sqrt{6}}{2}=\\frac{y-\\sqrt{6}}{3}=\\frac{z-\\sqrt{6}}{4}$ <br/><br/>  $\\frac{x-\\lambda}{3}=\\frac{y-2\\sqrt{6}}{4}=\\frac{2+2\\sqrt{6}}{5}$  is 6<br/><br/>\nVector along line of shortest distance<br/><br/>  $=|\\begin{aligned} i &amp; j &amp; k \\\\ 2 &amp; 3 &amp; 4 \\\\ 3 &amp; 4 &amp; 5 \\end{aligned}|, \\Rightarrow -\\hat{i}+2\\hat{j}-k$  (its magnitude is  $\\sqrt{6}$  )<br/><br/>\nNow  $\\frac{1}{\\sqrt{6}}|\\begin{aligned} \\sqrt{6}+\\lambda &amp; \\sqrt{6} &amp; -3\\sqrt{6} \\\\ 2 &amp; 3 &amp; 4 \\\\ 3 &amp; 4 &amp; 5 \\end{aligned}|= \\pm 6$  <br/><br/> $\\Rightarrow \\lambda=-2\\sqrt{6},10\\sqrt{6}$ <br/><br/>\nSo, square of sum of these values\n<br/><br/> $=(10\\sqrt{6}-2\\sqrt{6})^{2}=(8\\sqrt{6})^{2}=384$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x+\\sqrt{6}}{2}=\\frac{y-\\sqrt{6}}{3}=\\frac{z-\\sqrt{6}}{4}",
@@ -6193,7 +6193,7 @@
         "=(10\\sqrt{6}-2\\sqrt{6})^{2}=(8\\sqrt{6})^{2}=384"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:10.576618"
     },
@@ -6239,14 +6239,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The equation of the plane passing through points  $A(-1,-2,-3)$ ,  $B(9,3,4)$ , and  $C(9,-2,1)$  can be written using the determinant :</p>\n<p> $|\\begin{aligned} x+1 &amp; y+2 &amp; z+3 \\\\ 10 &amp; 5 &amp; 7 \\\\ 10 &amp; 0 &amp; 4 \\end{aligned}|=0$ </p>\n<p>Expanding the determinant, we get :</p>\n<p> $2x+3y-5z-7=0$ </p>\n<p>Next, we find the foot of the perpendicular from point  $P(3,-2,-9)$  to the plane. Using the coordinates of  $P$  and the equation of the plane, we can find the ratio of the perpendicular distance to the sum of the squares of the coefficients of  $x$ ,  $y$ , and  $z$  :</p>\n<p> $\\frac{2(3)+3(-2)-5(-9)-7}{2^{2}+3^{2}+(-5)^{2}}=\\frac{-38}{38}$ </p>\n<p>We can now find the coordinates of the foot of the perpendicular,  $Q(\\alpha,\\beta,\\gamma)$  :</p>\n<p> $\\frac{\\alpha-3}{2}=\\frac{\\beta+2}{3}=\\frac{\\gamma+9}{-5}=-\\frac{38}{38}$ </p>\n<p>Solving for  $\\alpha$ ,  $\\beta$ , and  $\\gamma$  :</p>\n<p> $\\alpha=3-2(-\\frac{38}{38})=1$ </p>\n<p> $\\beta=-2+3(-\\frac{38}{38})=-5$ </p>\n<p> $\\gamma=-9-5(-\\frac{38}{38})=-4$ </p>\n<p>So, the coordinates of the foot of the perpendicular are  $Q(1,-5,-4)$ . Now, we can find the distance of point  $Q$  from the origin :</p>\n<p> $OQ=\\sqrt{\\alpha^{2}+\\beta^{2}+\\gamma^{2}}=\\sqrt{1^{2}+(-5)^{2}+(-4)^{2}}=\\sqrt{42}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\beta=-2+3(-\\frac{38}{38})=-5",
         "\\gamma=-9-5(-\\frac{38}{38})=-4"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:38.752985"
     },
@@ -6398,13 +6398,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ln74ubxe/c878026c-5267-42b0-b10f-7150edf4c2a2/04392c20-602b-11ee-84d4-f1c1aec911f3/file-6y3zli1ln74ubxf.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+y-3z=6"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:40.875040"
     },
@@ -6890,7 +6890,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1leyorqpr/6043abe7-b1a8-4575-ada8-a5ec43b191a3/29ee5170-bd24-11ed-8df0-25e8b2ace386/file-1leyorqpz.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+3y-z=5",
@@ -6900,7 +6900,7 @@
         "=(3\\lambda-1,-4\\lambda+9,12\\lambda-16)"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:46.326050"
     },
@@ -7030,7 +7030,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $L:\\frac{x-2}{1}=\\frac{y-3}{-1}=\\frac{z-1}{-1}=\\lambda$ </p>\n<p>Any point on L can be taken as</p>\n<p> $B(\\lambda+2,-\\lambda+3,-\\lambda+1)$ </p>\n<p>Let  $A(5,3,8)$ </p>\n<p>So,  $AB.(\\hat{i}-\\hat{j}-\\hat{k})=0$ </p>\n<p> $[(\\lambda-3)\\hat{i}-\\lambda\\hat{j}-(\\lambda+7)\\hat{k}].[\\hat{i}-\\hat{j}-\\hat{k}]=0$ </p>\n<p> $\\lambda-3+\\lambda+\\lambda+7=0$ </p>\n<p> $\\therefore$   $\\lambda=\\frac{-4}{3}$ </p>\n<p> $\\vec{AB}=\\frac{13}{3}\\hat{i}+\\frac{4}{3}\\hat{i}-\\frac{17}{3}\\hat{k}$ </p>\n<p> $|\\vec{AB}|=\\sqrt{\\frac{169}{9}+\\frac{16}{9}+\\frac{289}{9}}$ </p>\n<p> $=\\frac{\\sqrt{474}}{3}=\\alpha$ </p>\n<p> $3\\alpha^{2}=\\frac{474}{9} \\times 3=158$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\lambda-3+\\lambda+\\lambda+7=0",
@@ -7041,7 +7041,7 @@
         "3\\alpha^{2}=\\frac{474}{9} \\times 3=158"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:09.812457"
     },
@@ -7450,14 +7450,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given lines are\n<br/><br/> $\\frac{x-4}{4}=\\frac{y+2}{5}=\\frac{z+3}{3}$  and  $\\frac{x-1}{3}=\\frac{y-3}{4}=\\frac{z-4}{2}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{So,}\\vec{b}_{1}=4\\hat{i}+5\\hat{j}+3\\hat{k} \\\\ \\\\ &amp; \\vec{b}_{2}=3\\hat{i}+4\\hat{j}+2\\hat{k} \\\\ \\\\ &amp; \\vec{a}_{1}=4\\hat{i}-2\\hat{j}-3\\hat{k} \\\\ \\\\ &amp; \\vec{a}_{2}=\\hat{i}+3\\hat{j}+4\\hat{k} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore \\vec{b}_{1} \\times \\vec{b}_{2}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; 5 &amp; 3 \\\\ 3 &amp; 4 &amp; 2 \\end{aligned}| \\\\ \\\\ &amp; =(10-12)\\hat{i}-(8-9)\\hat{j}+(16-15)\\hat{k} \\\\ \\\\ &amp; =-2\\hat{i}+\\hat{j}+\\hat{k} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Shortest distance,}d=|\\frac{(\\vec{a}_{2}-\\vec{a}_{1}) \\cdot (\\vec{b}_{1} \\times \\vec{b}_{2})}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}| \\\\ \\\\ &amp; =|\\frac{(3\\hat{i}-5\\hat{j}-7\\hat{k}) \\cdot (-2\\hat{i}+\\hat{j}+\\hat{k})}{\\sqrt{4+1+1}}| \\\\ \\\\ &amp; =|\\frac{-6-5-7}{\\sqrt{6}}|=\\frac{18}{\\sqrt{6}}=3\\sqrt{6}\\text{units} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-4}{4}=\\frac{y+2}{5}=\\frac{z+3}{3}",
         "\\frac{x-1}{3}=\\frac{y-3}{4}=\\frac{z-4}{2}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:42.275802"
     },
@@ -7892,14 +7892,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Plane :\n<br/><br/> $a(x-3)+b(y+2)+c(z-5)=0$ \n<br/><br/>Dr's of plane :  $3\\hat{i}-\\hat{j}-2\\hat{k}$ \n<br/><br/> $\\begin{aligned} &amp; &lt;3,-1,-2&gt; \\\\ \\\\ &amp; P:3(x-3)-1(y+2)-2(z-5)=0 \\\\ \\\\ &amp; 3x-9-y-2-2z+10=0 \\\\ \\\\ &amp; 3x-y-2z=1 \\\\ \\\\ &amp; \\therefore \\alpha=3,\\beta=-1,\\gamma=-2 \\\\ \\\\ &amp; \\Rightarrow \\alpha\\beta\\gamma=6 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha x+\\beta y+\\gamma z=1",
         "a(x-3)+b(y+2)+c(z-5)=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:09.430346"
     },
@@ -7960,7 +7960,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Points  $(1,2,3)$  and  $(2,3,4)$ \n<br/><br/>\n $L_{1}:\\frac{(x-1)}{1}=\\frac{(y-2)}{1}=\\frac{(2-3)}{1}$ \n<br/><br/>\n $L_{2}:\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z-2}{0}$ \n<br/><br/>\n $\\vec{b}_{1}=\\hat{i}+\\hat{j}+\\hat{k}$ \n<br/><br/>\n $\\vec{b}_{2}=2\\hat{i}-\\hat{j}+0\\hat{k}$ <br/><br/>\n $\\begin{aligned} &amp; \\vec{a_{1}}-\\vec{a_{2}}=0\\hat{i}-3\\hat{j}-\\hat{k} \\\\ \\\\ &amp; d=|\\frac{(\\bar{a}_{1}-\\bar{a}_{2}) \\cdot (n_{1} \\times n_{2})}{|n_{1} \\times n_{2}|}| \\\\ \\\\ &amp; =|\\frac{6-3}{\\sqrt{9+1+4}}|=\\frac{3}{\\sqrt{14}}=\\alpha \\\\ \\\\ &amp; 28\\alpha^{2}=\\frac{28 \\times 9}{14}=18 \\end{aligned}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z-2}{0}",
@@ -7971,7 +7971,7 @@
         "\\vec{b}_{2}=2\\hat{i}-\\hat{j}+0\\hat{k}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:10.182613"
     },
@@ -8241,7 +8241,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, equation of line is\n<br/><br/> $\\begin{aligned} &amp; \\frac{x+3}{3}=\\frac{y+2}{1}=\\frac{1-z}{2}=k \\\\ \\\\ &amp; \\therefore x=3k-3,y=k-2,z=1-2k \\end{aligned}$ \n<br/><br/>Since, given that  $P \\equiv (3k-3,k-2,1-2k)$  be the point of intersection of the given line and the plane  $x+y+z=2$ \n<br/><br/> $\\begin{aligned} &amp; \\text{So,}(3k-3)+(k-2)+(1-2k)=2 \\\\ \\\\ &amp; \\Rightarrow 2k-4=2 \\Rightarrow k=3 \\end{aligned}$ \n<br/><br/>Thus,  $P=(6,1,-5)$ \n<br/><br/>Now, distance of point  $P$  from the plane  $3x-4y+12z=32$  is\n<br/><br/> $\\begin{aligned} &amp; q=|\\frac{18-4-60-32}{\\sqrt{9+16+144}}|=|\\frac{-78}{\\sqrt{169}}| \\\\ \\\\ &amp; \\Rightarrow q=|\\frac{-78}{13}|=\\frac{78}{13}=6 \\\\ \\\\ &amp; \\therefore q=6 \\Rightarrow 2q=12 \\end{aligned}$ \n<br/><br/>Thus,  $q$  and  $2q$  are roots of the equation  $x^{2}-18x+72=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+3}{3}=\\frac{y+2}{1}=\\frac{1-z}{2}",
@@ -8249,7 +8249,7 @@
         "3x-4y+12z=32"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:41.596498"
     },
@@ -8515,7 +8515,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1let6xptn/17e2a896-c42e-490f-a47a-4034b21a373c/808505a0-ba1e-11ed-b1c7-2f0d4a78b053/file-1let6xpto.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2x-y+z=4",
@@ -8526,7 +8526,7 @@
         "\\Rightarrow 2a+8-2b+2-2=12"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:44.875106"
     },
@@ -8662,13 +8662,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgrmtdff/7b21977a-d096-41a4-aa81-a71dc07e4eb1/773bf0b0-e0db-11ed-900a-094cf67a472f/file-1lgrmtdfg.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ______________. Plane"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:07.605023"
     },
@@ -8761,7 +8761,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $L:\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z-3}{1}=r$  (say)\n\n<br/><br/>Let  $P \\equiv (2r_{1}+1,-r_{1},r_{1}+3)$ \n<br/><br/> $P$  lies on  $2x+y+3z=16$ \n<br/><br/> $\\therefore 2(2r_{1}+1)+(-r_{1}-1)+3(r_{1}+3)=16$ \n<br/><br/> $r_{1}=1$ \n<br/><br/> $P \\equiv (3,-2,4)$ \n<br/><br/> $R \\equiv (1,-1,-3)$ \n<br/><br/>Let  $Q \\equiv (2r_{2}+1,-r_{2}-1,r_{2}+3)$ \n<br/><br/> $DR$  s of  $QR \\equiv (2r_{2}-r_{2}r_{2}+6)$ \n<br/><br/>DRs of  $L \\equiv (2,-1,1)$ \n<br/><br/> $QR⟂L \\Rightarrow 4r_{2}+r_{2}+r_{2}+6=0$ \n<br/><br/> $r_{2}=-1$ \n<br/><br/> $Q \\equiv (-1,0,2)$ \n<br/><br/> $\\vec{QP} \\times \\vec{RP}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; -2 &amp; 2 \\\\ 2 &amp; -1 &amp; 7 \\end{aligned}|=-12\\hat{i}-24\\hat{j}+0\\hat{k}$ \n<br/><br/> $\\alpha=[PQR]=\\frac{1}{2}|\\vec{QP} \\times \\vec{RP}|=\\frac{1}{2} \\times 12\\sqrt{5}$ \n<br/><br/> $=6\\sqrt{5}$ \n<br/><br/> $\\alpha^{2}=180$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "L:\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z-3}{1}",
@@ -8772,7 +8772,7 @@
         "Q \\equiv (2r_{2}+1,-r_{2}-1,r_{2}+3)"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:09.443793"
     },
@@ -8797,7 +8797,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P_{1}:\\vec{r}.(3\\hat{i}-5\\hat{j}+\\hat{k})=7$ </p>\n<p> $P_{2}:\\vec{r}.(\\lambda\\hat{i}+\\hat{j}-3\\hat{k})=9$ </p>\n<p>Let angle between P<sub>1</sub> and P<sub>2</sub> is  $\\theta$ </p>\n<p>Then  $cos\\theta=\\frac{3\\lambda-5-3}{\\sqrt{35}\\sqrt{\\lambda^{2}+10}}$ </p>\n<p>But  $sin\\theta=\\frac{2\\sqrt{6}}{5}$ </p>\n<p> $\\therefore$   $\\frac{(3\\lambda-8)^{2}}{35(\\lambda^{2}+10)}=1-\\frac{24}{25}$ </p>\n<p> $\\Rightarrow 5(9\\lambda^{2}+64-48\\lambda)=7\\lambda^{2}+70$ </p>\n<p> $\\Rightarrow 38\\lambda^{2}-240\\lambda+250=0$ </p>\n<p> $\\Rightarrow 19\\lambda^{2}-120\\lambda+125=0$ </p>\n<p> $\\Rightarrow (19\\lambda-25)(\\lambda-5)=0$ </p>\n<p> $\\therefore$   $\\lambda_{1}=\\frac{25}{19},\\lambda_{2}=5$ </p>\n<p>So, point (50, 50, 2)</p>\n<p> $\\therefore$   $d=\\frac{|150-250+2-7|}{\\sqrt{35}}=315$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\lambda_{1}<\\lambda_{2}",
@@ -8808,7 +8808,7 @@
         "P_{1}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:09.838463"
     },
@@ -8833,7 +8833,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the equation of the plane is\n<br/><br/>\n $(x-2y-z-5)+\\lambda(x+y+3z-5)=0$ \n<br/><br/>\n $\\because$  it's parallel to the line\n<br/><br/>\n $x+y+2z-7=0=2x+3y+z-2$  <br/><br/>So, vector along the line  $|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 1 &amp; 2 \\\\ 2 &amp; 3 &amp; 1 \\end{aligned}|$ \n<br/><br/>\n $=-5\\hat{i}+3\\hat{j}+\\hat{k}$ \n<br/><br/>\n $\\because$  Plane is parallel to line\n<br/><br/>\n $\\therefore -5(1+\\lambda)+3(-2+\\lambda)+1(-1+3\\lambda)=0$ \n<br/><br/>\n $\\lambda=12$ \n<br/><br/>\nSo, by (i)\n<br/><br/>\n $13x+10y+35z=65$ \n<br/><br/>\n $\\therefore a=13,b=10,c=35$ \n\nand  $d=\\frac{26+20-35+16}{\\sqrt{9}}=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "x-2y-z-5=0=x+y+3z-5",
@@ -8844,7 +8844,7 @@
         "=-5\\hat{i}+3\\hat{j}+\\hat{k}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:10.193797"
     },
@@ -9295,7 +9295,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the equation of required plane</p>\n<p> $\\pi:(x+3y-z-5)+\\lambda(2x-y+z-3)=0$ </p>\n<p> $\\because$  (2, 1,  $-$ 2) lies on it so,  $2+\\lambda(-2)=0$ </p>\n<p> $\\Rightarrow \\lambda=1$ </p>\n<p>Hence,  $\\pi:3x+2y-8=0$ </p>\n<p> $\\because$   $\\pi_{x}=-9$ ,  $\\pi_{y}=5$ ,  $\\pi_{x+y}=4$ </p>\n<p> $\\pi_{x-y}=-22$  and  $\\pi_{y-x}=6$ </p>\n<p>Clearly X and Y are on opposite sides of plane  $\\pi$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}.(\\hat{i}+3\\hat{j}-\\hat{k})=5",
@@ -9306,7 +9306,7 @@
         "\\pi_{y}=5"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:50.617622"
     },
@@ -9563,8 +9563,7 @@
         "\\vec{n}_{1} \\times \\vec{n}_{2}=(bc,-ac,0)"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D",
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:47.635764"
     },
@@ -9724,7 +9723,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5obyhm8/67807093-6d4d-453b-a541-6801368b15df/45fa9b00-0544-11ed-987f-3938cfc0f7f1/file-1l5obyhm9.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "-x+2y-z=0",
@@ -9735,7 +9734,7 @@
         "\\Rightarrow \\alpha=\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:49.330154"
     },
@@ -9836,7 +9835,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\vec{v}=\\lambda_{1}\\vec{a}+\\lambda_{2}\\vec{b}$ , where  $\\lambda_{1},\\lambda_{2} \\in R$ .</p>\n<p> $=(\\lambda_{1}+2\\lambda_{2})\\hat{i}+(\\lambda_{1}-3\\lambda_{2})\\hat{j}+(2\\lambda_{1}+\\lambda_{2})\\hat{k}$ </p>\n<p> $\\because$  Projection of  $\\vec{v}$  on  $\\vec{c}$  is  $\\frac{2}{\\sqrt{3}}$ </p>\n<p> $\\therefore$   $\\frac{\\lambda_{1}+2\\lambda_{2}-\\lambda_{1}+3\\lambda_{2}+2\\lambda_{1}+\\lambda_{2}}{\\sqrt{3}}=\\frac{2}{\\sqrt{3}}$ </p>\n<p> $\\therefore$   $\\lambda_{1}+3\\lambda_{2}=1$  ..... (i)</p>\n<p>and  $\\vec{v}.\\hat{j}=7 \\Rightarrow \\lambda_{1}-3\\lambda_{2}=7$  ... (ii)</p>\n<p>from equation (i) and (ii)</p>\n<p> $\\lambda_{1}=4$ ,  $\\lambda_{2}=-1$ </p>\n<p> $\\therefore$   $\\vec{v}=2\\hat{i}+7\\hat{j}+7\\hat{k}$ </p>\n<p> $\\therefore$   $\\vec{v}.(\\hat{i}+\\hat{k})=2+7$ </p>\n<p> $=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+2\\hat{k}",
@@ -9847,7 +9846,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:50.223433"
     },
@@ -9966,7 +9965,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6dmv11z/765801b8-1a82-4486-8b88-3108e93f1dbd/8269d270-132e-11ed-941a-4dd6502f33e3/file-1l6dmv120.png?format=png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "3 = 0 = y and G be the centroid of",
@@ -9977,7 +9976,7 @@
         "x+z-3=0 \\Rightarrow ℎ+k-3=0 \\Rightarrow ℎ=3-k"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:11.454759"
     },
@@ -10002,7 +10001,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x-a}{3}=\\frac{y-b}{-4}=\\frac{z-c}{12}=\\frac{-2(3a-4b+12c+19)}{3^{2}+(-4)^{2}+12^{2}}$ </p>\n<p> $\\frac{x-a}{3}=\\frac{y-b}{-4}=\\frac{z-c}{12}=\\frac{-6a+8b-24c-38}{169}$ </p>\n<p> $(x,y,z) \\equiv (a-6,\\beta,\\gamma)$ </p>\n<p> $\\frac{(a-6)-a}{3}=\\frac{\\beta-b}{-4}=\\frac{\\gamma-c}{12}=\\frac{-6a+8b-24c-38}{169}$ </p>\n<p> $\\frac{\\beta-b}{-4}=-2 \\Rightarrow \\beta=8+b$ </p>\n<p> $\\frac{\\gamma-c}{12}=-2 \\Rightarrow \\gamma=-24+c$ </p>\n<p> $\\frac{-6a+8b-24c-38}{169}=-2$ </p>\n<p> $\\Rightarrow 3a-4b+12c=150$  ..... (1)</p>\n<p> $a+b+c=5$ </p>\n<p> $3a+3b+3c=15$  ...... (2)</p>\n<p>Applying (1) - (2)</p>\n<p> $-7b+9c=135$ </p>\n<p> $7b-9c=-135$ </p>\n<p> $7\\beta-9\\gamma=7(8+b)-9(-24+c)$ </p>\n<p> $=56+216+7b-9c$ </p>\n<p> $=56+216-135=137$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "4y + 12z + 19 = 0 be (a",
@@ -10013,7 +10012,7 @@
         "\\frac{\\gamma-c}{12}=-2 \\Rightarrow \\gamma=-24+c"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:11.790380"
     },
@@ -10263,7 +10262,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $L_{1}:\\frac{x+7}{6}=\\frac{y-6}{7}=\\frac{z-0}{1}$ </p>\n<p>Any point on it  $\\vec{a}_{1}(-7,6,0)$  and L<sub>1</sub> is parallel to  $\\vec{b}_{1}(-6,7,1)$ </p>\n<p> $L_{2}:\\frac{x-7}{-2}=\\frac{y-2}{1}=\\frac{z-6}{1}$ </p>\n<p>Any point on it  $\\vec{a}_{2}(7,2,6)$  and L<sub>2</sub> is parallel to  $\\vec{b}_{2}(-2,1,1)$ </p>\n<p>Shortest distance between L<sub>1</sub> and L<sub>2</sub></p>\n<p> $=|\\frac{(\\vec{a}_{2}-\\vec{a}_{1}).(\\vec{b}_{1} \\times \\vec{b}_{2})}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}|=|\\frac{(-14,4,-6).(3,2,4)}{\\sqrt{9+4+16}}|$ </p>\n<p> $=2\\sqrt{29}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+7}{-6}=\\frac{y-6}{7}=z",
@@ -10274,7 +10273,7 @@
         "L_{2}:\\frac{x-7}{-2}=\\frac{y-2}{1}=\\frac{z-6}{1}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:48.423297"
     },
@@ -10547,7 +10546,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\vec{a}_{1}=\\hat{i}+2\\hat{j}+3\\hat{k}$ </p>\n<p> $\\vec{a}_{2}=2\\hat{i}+4\\hat{j}+5\\hat{k}$ </p>\n<p> $\\vec{p}=2\\hat{i}+3\\hat{j}+\\lambda\\hat{k},\\vec{q}=\\hat{i}+4\\hat{j}+5\\hat{k}$ </p>\n<p> $\\therefore$   $\\vec{p} \\times \\vec{q}=(15-4\\lambda)\\hat{i}-(10-\\lambda)\\hat{j}+5\\hat{k}$ </p>\n<p> $\\vec{a}_{2}-\\vec{a}_{1}=\\hat{i}+2\\hat{j}+2\\hat{k}$ </p>\n<p> $\\therefore$  Shortest distance</p>\n<p> $=|\\frac{(15-4\\lambda)-2(10-\\lambda)+10}{\\sqrt{(15-4\\lambda)^{2}+(10-\\lambda)^{2}+25}}|=\\frac{1}{\\sqrt{3}}$ </p>\n<p> $\\Rightarrow 3(5-2\\lambda)^{2}=(15-4\\lambda)^{2}+(10-\\lambda)^{2}+25$ </p>\n<p> $\\Rightarrow 5\\lambda^{2}-80\\lambda+275=0$ </p>\n<p> $\\therefore$  Sum of values of  $\\lambda=\\frac{80}{5}=16$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{\\lambda}",
@@ -10558,7 +10557,7 @@
         "\\vec{p}=2\\hat{i}+3\\hat{j}+\\lambda\\hat{k},\\vec{q}=\\hat{i}+4\\hat{j}+5\\hat{k}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:50.645204"
     },
@@ -10691,7 +10690,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{x-\\frac{1}{8}}{\\frac{1}{8}}=\\frac{y}{-\\frac{1}{4\\sqrt{2}}}=\\frac{z}{0}$  ______L<sub>1</sub></p>\n<p>or  $\\frac{x-\\frac{1}{8}}{1}=\\frac{y}{-\\sqrt{2}}=\\frac{z}{0}$  ..... (i)</p>\n<p>Equation of L<sub>2</sub></p>\n<p> $\\frac{x+\\frac{1}{8}}{-6\\sqrt{3}}=\\frac{y}{0}=\\frac{z}{8}$  ...... (ii)</p>\n<p> $d=|\\frac{(\\vec{c}-\\vec{a}).(\\vec{b} \\times \\vec{d})}{|\\vec{b} \\times \\vec{d}|}|$ </p>\n<p> $=\\frac{(\\frac{1}{4}\\hat{i}).(4\\sqrt{2}\\hat{i}+4\\hat{j}+3\\sqrt{6}\\hat{k})}{\\sqrt{(4\\sqrt{2})^{2}+4^{2}+(3\\sqrt{6})^{2}}}$ </p>\n<p> $=\\frac{\\sqrt{2}}{\\sqrt{32+16+54}}=\\frac{1}{\\sqrt{51}}$ </p>\n<p> $d^{-2}=51$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{1}{8}",
@@ -10702,7 +10701,7 @@
         "______L 1 or"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:11.803282"
     },
@@ -10804,7 +10803,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Any point on  $x^{2}+y^{2}=1$ ,  $z=0$  is  $p(cos\\theta,sin\\theta,0)$ </p>\n<p>If foot of perpendicular of p on the plane  $2x+3y+z=6$  is  $(ℎ,k,l)$  then</p>\n<p> $\\frac{ℎ-cos\\theta}{2}=\\frac{k-sin\\theta}{3}=\\frac{l-0}{1}$ </p>\n<p> $=-(\\frac{2cos\\theta+3sin\\theta+0-6}{2^{2}+3^{2}+1^{2}})=r$  (let)</p>\n<p> $ℎ=2r+cos\\theta,k=3r+sin\\theta,l=r$ </p>\n<p>Hence,  $ℎ-2l=cos\\theta$  and  $k-3l=sin\\theta$ </p>\n<p>Hence,  $(ℎ-2l)^{2}+(k-3l)^{2}=1$ </p>\n<p>When  $l=6-2ℎ-3k$ </p>\n<p>Hence required locus is</p>\n<p> $(x-2(6-2x-3y))^{2}+(y-3(6-2x-3y))^{2}=1$ </p>\n<p> $\\Rightarrow (5x+6y-12)^{2}+4(3x+5y-9)^{2}=1,z=6-2x-3y$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+y^{2}=1,z=0",
@@ -10815,7 +10814,7 @@
         "=-(\\frac{2cos\\theta+3sin\\theta+0-6}{2^{2}+3^{2}+1^{2}})=r"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:47.102366"
     },
@@ -10861,7 +10860,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\vec{n}_{1}$  is a vector normal to the plane determined by  $\\hat{i}$  and  $\\hat{i}+\\hat{j}$  then</p>\n<p> $\\vec{n}_{1}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 0 &amp; 0 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}|=\\hat{k}$ </p>\n<p>If  $\\vec{n}_{2}$  is a vector normal to the plane determined by  $\\hat{i}-\\hat{j}$  and  $\\hat{i}+\\hat{k}$  then</p>\n<p> $\\bar{n}_{2}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; -1 &amp; 0 \\\\ 1 &amp; 0 &amp; 1 \\end{aligned}|=-\\hat{i}-\\hat{j}+\\hat{k}$ </p>\n<p>Vector  $\\vec{a}$  is parallel to  $\\vec{n}_{1} \\times \\vec{n}_{2}$ </p>\n<p>i.e.  $\\vec{a}$  is parallel to  $|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 0 &amp; 0 &amp; 1 \\\\ -1 &amp; -1 &amp; 1 \\end{aligned}|=\\hat{i}-\\hat{j}$ </p>\n<p>Given  $\\vec{b}=\\hat{i}-2\\hat{j}+2\\hat{k}$ </p>\n<p>Cosine of acute angle between</p>\n<p> $\\vec{a}$  and  $\\vec{b}=|\\frac{\\vec{a}.\\vec{b}}{|\\vec{a}|.|\\vec{b}|}|=\\frac{1}{\\sqrt{2}}$ </p>\n<p>Obtuse angle between  $\\vec{a}$  and  $\\vec{b}=\\frac{3\\pi}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -10869,7 +10868,7 @@
         "\\vec{n}_{1}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:47.758219"
     },
@@ -10969,7 +10968,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know mirror image of point (x<sub>1</sub>, y<sub>1</sub>, z<sub>1</sub>) in the plane ax + by + cz = d</p>\n<p> $\\frac{x-x_{1}}{a}=\\frac{y-y_{1}}{b}=\\frac{z-z_{1}}{c}=\\frac{-2(ax_{1}+by_{1}+cz_{1}-d)}{a^{2}+b^{2}+c^{2}}$ </p>\n<p>Here given point (2, 4, 7) and plane  $3x-y+4z=2$  then mirror image is</p>\n<p> $\\frac{x-2}{3}=\\frac{y-4}{-1}=\\frac{z-7}{4}=\\frac{-2(6-4+28-2)}{9+1+16}$ </p>\n<p> $\\Rightarrow \\frac{x-2}{3}=\\frac{y-4}{-1}=\\frac{z-7}{4}=-\\frac{28}{13}$ </p>\n<p> $\\therefore$   $x=-\\frac{58}{13}=a$ </p>\n<p> $y=\\frac{80}{13}=b$ </p>\n<p> $z=-\\frac{21}{13}=c$ </p>\n<p> $\\therefore$   $2a+b+2c$ </p>\n<p> $=2(-\\frac{58}{13})+\\frac{80}{13}+2(-\\frac{21}{13})$ </p>\n<p> $=\\frac{-116+80-42}{13}=\\frac{-78}{13}=-6$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\frac{x-2}{3}=\\frac{y-4}{-1}=\\frac{z-7}{4}=-\\frac{28}{13}",
@@ -10980,7 +10979,7 @@
         "=\\frac{-116+80-42}{13}=\\frac{-78}{13}=-6"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:49.001342"
     },
@@ -11083,7 +11082,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P_{1}:2x+y-52=0$ ,  $P_{2}:3x-y+4z-7=0$ </p>\n<p>Family of planes P<sub>1</sub> and P<sub>2</sub></p>\n<p> $P:P_{1}+\\lambda P_{2}$ </p>\n<p> $\\therefore$   $P:(2+3\\lambda)x+(1-\\lambda)y+(-5+4\\lambda)z-7\\lambda=0$ </p>\n<p> $\\because$   $P\\perpP_{1}$ </p>\n<p> $\\therefore$   $4+6\\lambda+1-\\lambda+25-20\\lambda=0$ </p>\n<p> $\\lambda=2$ </p>\n<p> $\\therefore$   $P:8x-y+32-14=0$ </p>\n<p>It passes through the point (1, 0, 2)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+y-5z=0",
@@ -11094,7 +11093,7 @@
         "P:P_{1}+\\lambda P_{2}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:49.834619"
     },
@@ -11197,7 +11196,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let P(x, y, z) be any point on plane P<sub>1</sub></p>\n<p>Then  $(x+4)^{2}+(y-2)^{2}+(z-1)^{2}=(x-2)^{2}+(y+2)^{2}+(z-3)^{2}$ </p>\n<p> $\\Rightarrow 12x-8y+4z+4=0$ </p>\n<p> $\\Rightarrow 3x-2y+z+1=0$ </p>\n<p>And  $P_{2}:2x+y+3z=0$ </p>\n<p> $\\therefore$  angle between P<sub>1</sub> and P<sub>2</sub></p>\n<p> $cos\\theta=|\\frac{6-2+3}{14}| \\Rightarrow \\theta=\\frac{\\pi}{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "(x+4)^{2}+(y-2)^{2}+(z-1)^{2}=(x-2)^{2}+(y+2)^{2}+(z-3)^{2}",
@@ -11207,7 +11206,7 @@
         "cos\\theta=|\\frac{6-2+3}{14}| \\Rightarrow \\theta=\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:50.657537"
     },
@@ -11510,7 +11509,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(x+y+4z-16)+\\lambda(-x+y+z-6)=0$ <br/><br/>Passes through (1, 2, 3)<br/><br/> $-1+\\lambda(-2) \\Rightarrow \\lambda=-\\frac{1}{2}$ <br/><br/> $2(x+y+4z-16)-(-x+y+z-6)=0$ <br/><br/> $3x+y+7z-26=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{r}.(\\hat{i}+\\hat{j}+4\\hat{k})=16",
@@ -11521,7 +11520,7 @@
         "3x+y+7z-26=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:52.034242"
     },
@@ -12031,7 +12030,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x-\\lambda}{1}=\\frac{y-\\frac{1}{2}}{\\frac{1}{2}}=\\frac{z}{-\\frac{1}{2}}$ <br/><br/> $\\frac{x-\\lambda}{2}=\\frac{y-\\frac{1}{2}}{1}=\\frac{2}{-1}$  ....... (1)<br/><br/>Point on line =  $(\\lambda,\\frac{1}{2},0)$ <br/><br/> $\\frac{x}{1}=\\frac{y+2\\lambda}{1}=\\frac{z-\\lambda}{1}$  ....... (2)<br/><br/>Point on line =  $(0,-2\\lambda,\\lambda)$ <br/><br/>Distance between skew lines  $=\\frac{[\\vec{a}_{2}-\\vec{a}_{1}\\vec{b}_{1}\\vec{b}_{2}]}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}$ <br/><br/> $|\\begin{aligned} \\lambda &amp; \\frac{1}{2}+2\\lambda &amp; -\\lambda \\\\ 2 &amp; 1 &amp; -1 \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}|$ <br/><br/> $\\bar{|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; 1 &amp; -1 \\\\ 1 &amp; 1 &amp; 1 \\end{aligned}|}$ <br/><br/> $=\\frac{|-5\\lambda-\\frac{3}{2}|}{\\sqrt{14}}=\\frac{\\sqrt{7}}{2\\sqrt{2}}$ <br/><br/> $=|10\\lambda+3|=7 \\Rightarrow \\lambda=-1$ <br/><br/> $\\Rightarrow |\\lambda|=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "1 =",
@@ -12042,7 +12041,7 @@
         "\\frac{x-\\lambda}{2}=\\frac{y-\\frac{1}{2}}{1}=\\frac{2}{-1}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:14.106170"
     },
@@ -12088,7 +12087,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $3y-2z-1=0=3x-z+4$ <br/><br/> $3y-2z-1=0$ <br/><br/>D.R's  $\\Rightarrow$  (0, 3,  $-$ 2)<br/><br/> $3x-z+4$  = 0<br/><br/>D.R's  $\\Rightarrow$  (3,  $-$ 1, 0)<br/><br/>Let DR's of given line are a, b, c<br/><br/>Now, 3b  $-$  2c = 0 &amp; 3a  $-$  c = 0<br/><br/> $\\therefore$  6a = 3b = 2c<br/><br/>a : b : c = 3 : 6 : 9<br/><br/>Any point on line<br/><br/>3K  $-$  1, 6K + 1, 9K + 1<br/><br/>Now, 3(3K  $-$  1) + 6(6K + 1)1 + 9(9K + 1) = 0<br/><br/> $\\Rightarrow$  K =  $\\frac{1}{3}$ <br/><br/>Point on line  $\\Rightarrow$  (0, 3, 4)<br/><br/>Given point (2,  $-$ 1, 6)<br/><br/> $\\Rightarrow$  Distance =  $\\sqrt{4+16+4}=2\\sqrt{6}$ <br/><br/>Option (c)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "3y-2z-1=0=3x-z+4",
@@ -12099,7 +12098,7 @@
         "6a = 3b = 2c a : b : c = 3 : 6 : 9 Any point on line 3K"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:51.034818"
     },
@@ -12145,7 +12144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of planes are<br/><br/> $\\vec{r}.(\\hat{i}+\\hat{j}+\\hat{k})-1=0 \\Rightarrow x+y+z-1=0$ <br/><br/>and  $\\vec{r}.(2\\hat{i}+3\\hat{j}-\\hat{k})+4=0 \\Rightarrow 2x+3y-z+4=0$ <br/><br/>equation of planes through line of intersection of these planes is :-<br/><br/> $(x+y+z-1)+\\lambda(2x+3y-z+4)=0$ <br/><br/> $\\Rightarrow (1+2\\lambda)x+(1+3\\lambda)y+(1-\\lambda)z-1+4\\lambda=0$ <br/><br/>But this plane is parallel to x-axis whose direction are (1, 0, 0)<br/><br/> $\\therefore$   $(1+2\\lambda)1+(1+3\\lambda)0+(1-\\lambda)0=0$ <br/><br/> $\\lambda=-\\frac{1}{2}$ <br/><br/> $\\therefore$  Required plane is <br/><br/> $0x+(1-\\frac{3}{2})y+(1+\\frac{1}{2})z-1+4(\\frac{-1}{2})=0$ <br/><br/> $\\Rightarrow \\frac{-y}{2}+\\frac{3}{2}z-3=0$ <br/><br/> $\\Rightarrow y-3z+6=0$ <br/><br/> $\\Rightarrow \\vec{r}.(\\hat{j}-3\\hat{k})+6=0$  Ans.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}.(\\hat{i}+\\hat{j}+\\hat{k})=1",
@@ -12156,7 +12155,7 @@
         "\\Rightarrow (1+2\\lambda)x+(1+3\\lambda)y+(1-\\lambda)z-1+4\\lambda=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:51.693925"
     },
@@ -12261,7 +12260,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krutu3cj/1f54ce4d-3a30-4592-bcab-7e0c9e26d899/dca2dc30-f3ab-11eb-a605-b34dacb82f1b/file-1krutu3ck.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}.(\\hat{i}-\\hat{j}+2\\hat{k})=2",
@@ -12272,7 +12271,7 @@
         "\\vec{PF}.\\vec{a}=0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:52.545590"
     },
@@ -12439,7 +12438,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmg8tiox/b4a304ed-22f0-4a03-8a12-b7161774152e/9efb4510-88a9-11eb-b86e-cb3577c30dae/file-1kmg8tioy.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\lambda=\\frac{10}{7}",
@@ -12447,7 +12446,7 @@
         "21(\\alpha+\\beta+\\gamma)=21(\\frac{34}{7})=102"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:53.818954"
     },
@@ -12583,7 +12582,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Containing the line  $|\\begin{aligned} x+1 &amp; y-1 &amp; z-3 \\\\ 6 &amp; 7 &amp; 8 \\\\ 3 &amp; 5 &amp; 7 \\end{aligned}|=0$ <br/><br/> $9(x+1)-18(y-1)+9(z-3)=0$ <br/><br/> $x-2y+z=0$ <br/><br/> $PQ=|\\frac{7+4+13}{\\sqrt{6}}|=4\\sqrt{6}$ <br/><br/> $PQ^{2}=96$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         ". Then (PQ) 2 , is equal to ___________. Containing the line",
@@ -12593,7 +12592,7 @@
         "PQ^{2}=96"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:12.609527"
     },
@@ -12693,7 +12692,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ko9sfyle/24ee6592-d318-4dda-b1c9-8d46cb3facf4/4ebb7c20-acb5-11eb-bf54-c57ad44d0811/file-1ko9sfylf.jpg"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "3z + 10 = 0 measured parallel to the line,",
@@ -12704,7 +12703,7 @@
         "\\Rightarrow 3\\lambda-2m\\lambda-3\\lambda+1-4-9+10=0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:13.747194"
     },
@@ -12926,7 +12925,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kruufy06/fdd3a601-c9af-4a1c-afcb-9c24ca55fd2d/3c4f6f70-f3ae-11eb-a605-b34dacb82f1b/file-1kruufy07.png"
       ],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "3(x-1)=6(y-2)=2(z-1)",
@@ -12937,7 +12936,7 @@
         "\\frac{1}{\\sqrt{38}}=\\frac{|14-5\\lambda|}{\\sqrt{38}}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:52.562023"
     },
@@ -13670,7 +13669,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(3, 5, 7) lie on given line L<sub>1</sub><br/><br/> $\\frac{3-a}{l}=\\frac{3}{3}=\\frac{7-b}{4}$ <br/><br/> $\\frac{7-b}{4}=1 \\Rightarrow b=3$ <br/><br/> $\\frac{3-a}{l}=1 \\Rightarrow 3-a=l$ <br/><br/>M(4, 3, 8)<br/><br/>N(3, 5, 7)<br/><br/>DR'S of MN = (1,  $-$ 2, 1)<br/><br/>MN  $\\perp$  line L<sub>1</sub><br/><br/>(1)(l) + ( $-$ 2)(3) + 4(1) = 0<br/><br/> $\\Rightarrow$  l = 2<br/><br/>a = 1<br/><br/>a = 1, b = 3, l = 2<br/><br/> $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ <br/><br/> $\\frac{x-2}{3}=\\frac{y-4}{4}=\\frac{z-5}{5}$ <br/><br/> $A=&lt;1,2,3&gt;$ <br/><br/> $B=&lt;2,4,5&gt;$ <br/><br/> $\\vec{AB}=&lt;1,2,2&gt;$ <br/><br/> $\\vec{p}=2\\hat{i}+3\\hat{j}+4\\hat{k}$ <br/><br/> $\\vec{q}=3\\hat{i}+4\\hat{j}+5\\hat{k}$ <br/><br/> $\\vec{p} \\times \\vec{q}=-\\hat{i}+2\\hat{j}-\\hat{k}$ <br/><br/>Shortest distance =  $|\\frac{\\vec{AB}.(\\vec{p} \\times \\vec{q})}{|\\vec{p} \\times \\vec{q}|}|=\\frac{1}{\\sqrt{6}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}:\\frac{x-a}{l}=\\frac{y-2}{3}=\\frac{z-b}{4}",
@@ -13681,7 +13680,7 @@
         "2)(3) + 4(1) = 0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:52.976644"
     },
@@ -13729,7 +13728,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kp3scjf3/ecfba5ce-8e9c-4018-a148-b342d934c7fc/731076e0-bd34-11eb-9b93-ddbbaf4f20e8/file-1kp3scjf4.jpg"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2a, 3) and B(0, 4, 5) on the plane lx + my + nz = 0 are points C(0,",
@@ -13740,7 +13739,7 @@
         "|\\vec{AB}|=a\\hat{i}-(2a+4)\\hat{j}-2\\hat{k}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:53.451459"
     },
@@ -13843,7 +13842,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, P(a, 6, 9)<br/><br/>Equation of line  $\\frac{x-3}{7}=\\frac{y-2}{5}=\\frac{z-1}{-9}$ <br/><br/>Image of point P with respect to line is point Q(20, b,  $-$ a  $-$ 9)<br/><br/>Mid-point of P and Q =  $(\\frac{a+20}{2},\\frac{6+b}{2},\\frac{-a}{2})$ <br/><br/>This point lies on line<br/><br/> $\\therefore$   $\\frac{\\frac{a+20}{2}-3}{7}=\\frac{\\frac{6+b}{2}-2}{5}=\\frac{\\frac{-a}{2}-1}{-9}$ <br/><br/> $\\Rightarrow \\frac{a+14}{14}=\\frac{b+2}{10}=\\frac{a+2}{18}$ <br/><br/> $\\Rightarrow \\frac{a+14}{14}=\\frac{a+2}{18}$  and  $\\frac{b+2}{10}=\\frac{a+2}{18}$ <br/><br/>Solving, we get a =  $-$  56, b =  $-$  32<br/><br/> $\\therefore$   $|a+b|=|-56-32|=88$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-3}{7}=\\frac{y-2}{5}=\\frac{z-1}{-9}",
@@ -13854,7 +13853,7 @@
         "\\frac{b+2}{10}=\\frac{a+2}{18}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:54.382579"
     },
@@ -13879,7 +13878,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z+1}{6}=\\lambda$ <br/><br/> $x=2\\lambda+1,y=3\\lambda+2,z=6\\lambda-1$ <br/><br/>for point of intersection of line &amp; plane<br/><br/> $2(2\\lambda+1)-(3\\lambda+2)+(6\\lambda-1)=6$ <br/><br/> $7\\lambda=7 \\Rightarrow \\lambda=1$ <br/><br/>point : (3, 5, 5)<br/><br/>(distance)<sup>2</sup> =  $(3+1)^{2}+(5+1)^{2}+(5-2)^{2}$ <br/><br/> $=16+36+9=61$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z+1}{6}",
@@ -13890,7 +13889,7 @@
         "7\\lambda=7 \\Rightarrow \\lambda=1"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:12.280341"
     },
@@ -13915,13 +13914,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{QR}:-\\frac{x-3}{1}=\\frac{y+4}{-1}=\\frac{z+5}{-6}=r$ <br/><br/> $\\Rightarrow (x,y,z) \\equiv (r+3,-r-4,-6r-5)$ <br/><br/>Now, satisfying it in the given plane.<br/><br/>We get r =  $-$ 2<br/><br/>so, required point of intersection is T(1,  $-$ 2, 7).<br/><br/>Hence, PT = 7.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "3, 1) and the plane 2x + y + z = 7, is equal to ______________."
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:12.637313"
     },
@@ -13985,7 +13984,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let point P is ( $\\alpha$ ,  $\\beta$ ,  $\\gamma$ )<br/><br/> $(\\frac{\\alpha+\\beta+\\gamma}{\\sqrt{3}})^{2}+(\\frac{l\\alpha-n\\gamma}{\\sqrt{l^{2}+n^{2}}})^{2}+(\\frac{\\alpha-2\\beta+\\gamma}{\\sqrt{6}})^{2}=9$ <br/><br/>Locus is  $\\frac{(x+y+z)^{2}}{3}+\\frac{(ln-nz)^{2}}{l^{2}+n^{2}}+\\frac{(x-2y+z)^{2}}{6}=9$ <br/><br/> $x^{2}(\\frac{1}{2}+\\frac{l^{2}}{l^{2}+n^{2}})+y^{2}+z^{2}(\\frac{1}{2}+\\frac{n^{2}}{l^{2}+n^{2}})+2zx(\\frac{1}{2}-\\frac{ln}{l^{2}+n^{2}})-9=0$ <br/><br/>Since its given that  $x^{2}+y^{2}+z^{2}=9$ <br/><br/>After solving l = n,<br/><br/>then, l  $-$  n = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Hard",
       "key_formulas": [
         "nz = 0 and x",
@@ -13993,7 +13992,7 @@
         "After solving l = n, then, l"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:13.302149"
     },
@@ -14075,7 +14074,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Plane through line of intersection is\n<br/><br/>x + y + z + 1 +  $\\lambda$  (2x –y + z + 3) = 0\n<br/><br/>It should be parallel to given line  $\\frac{x-1}{0}=\\frac{y+1}{-1}=\\frac{z}{1}$ \n<br/><br/> $\\therefore$  0(1 + 2 $\\lambda$ ) - 1(1 -  $\\lambda$ ) + 1(1 +  $\\lambda$ ) = 0  $\\Rightarrow$   $\\lambda$  = 0\n<br/><br/> $\\therefore$  Required Plane : x + y + z + 1 = 0\n<br/><br/>Shortest distance of (1, –1, 0) from this plane\n<br/><br/>=  $\\frac{|1-1+0+1|}{\\sqrt{1^{2}+1^{2}+1^{2}}}$  =  $\\frac{1}{\\sqrt{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{0}=\\frac{y+1}{-1}=\\frac{z}{1}",
@@ -14083,7 +14082,7 @@
         "\\frac{1}{\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:55.471270"
     },
@@ -14129,11 +14128,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Direction ratios of normal to plane are &lt; 2, –6, 4 &gt;\n<br/><br/> Also plane passes through (3, 1, 1)\n<br/><br/> $\\therefore$  Equation of plane \n<br/><br/>2(x–3)–6(y–1)+4(z–1) = 0\n<br/><br/> $\\Rightarrow$  x – 3y + 2z = 2\n<br/><br/>By checking all options we can see this equation passes through (4, 0, –1)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D",
         "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:55.778299"
@@ -14216,7 +14214,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let A (1, – 1, 3), B(2, – 4, 11), C (–1, 2, 3) &amp; D (3, –2, 10)\n<br/><br/> $\\therefore$   $\\vec{AB}=\\hat{i}-3\\hat{j}+8\\hat{k}$ \n<br/><br/> $\\Rightarrow$   $\\vec{CD}=4\\hat{i}-4\\hat{j}+7\\hat{k}$ \n<br/><br/>Projection of  $\\vec{AB}$  on  $\\vec{CD}$  =  $\\frac{\\vec{AB}.\\vec{CD}}{|\\vec{CD}|}$ \n<br/><br/> =  $\\frac{4+12+56}{\\sqrt{16+16+49}}$ \n<br/><br/> =  $\\frac{72}{9}$ \n<br/><br/> = 8<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{AB}=\\hat{i}-3\\hat{j}+8\\hat{k}",
@@ -14227,7 +14225,7 @@
         "\\frac{4+12+56}{\\sqrt{16+16+49}}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:14.319569"
     },
@@ -14329,7 +14327,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kj5vv3oi/f8fad418-fde0-481e-972e-3fc23bd152e6/77b1a420-4792-11eb-b50b-250ef113c544/file-1kj5vv3oj-428w.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{0}=\\frac{y+2}{3}=\\frac{z-3}{-3}=\\lambda",
@@ -14340,7 +14338,7 @@
         "\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:55.791054"
     },
@@ -14628,14 +14626,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Plane passing through  (2, 1, 0), (4, 1, 1) and\n(5, 0, 1) is\n<br/><br/> $|\\begin{aligned} x-2 &amp; y-1 &amp; z-0 \\\\ 4-2 &amp; 1-1 &amp; 1-0 \\\\ 5-2 &amp; 0-1 &amp; 1-0 \\end{aligned}|$  = 0\n<br/><br/> $\\Rightarrow$   x + y – 2z = 3\n<br/><br/> $\\therefore$   Image of R(2, 1, 6) in this plane is\n<br/><br/> $\\frac{x-2}{1}=\\frac{y-1}{1}=\\frac{z-6}{-2}=-2\\frac{(2+1-12-3)}{1+1+4}$ \n<br/><br/> $\\therefore$  (x, y, z) = (6, 5, –2)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "= 0",
         "x + y – 2z = 3"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:56.146741"
     },
@@ -14774,7 +14772,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of line parallel to  $\\frac{x}{2}=\\frac{y}{3}=\\frac{z}{-6}$  passes through  $(1,-2,3)$  is<br/><br/> $\\frac{x-1}{2}=\\frac{y+2}{3}=\\frac{z-3}{-6}=r$ <br/><br/> $x=2r+1$ <br/><br/> $y=3r-2$ , <br/><br/> $z=-6r+3$ \n<br/><br/>A point on whole line = (2r + 1, 3r – 2, – 6r + 3).\n<br/><br/>This point lies on plane x – y + 2 = 5\n<br/><br/>so,  $2r+1-3r+2-6r+3=5$ <br/><br/> $\\Rightarrow$   $r=\\frac{1}{7}$ <br/><br/> $\\therefore$   $x=\\frac{9}{7}$ ,  $y=\\frac{-11}{7}$ ,  $z=\\frac{15}{7}$ <br/><br/>Distance is =  $\\sqrt{(\\frac{9}{7}-1)^{2}+(2-\\frac{11}{7})^{2}+(3-\\frac{15}{7})^{2}}$ <br/><br/> $=\\sqrt{(\\frac{2}{7})^{2}+(\\frac{3}{7})^{2}+(\\frac{6}{7})^{2}}$ <br/><br/> $=\\frac{1}{7}\\sqrt{4+9+36}$  = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{2}=\\frac{y}{3}=\\frac{z}{-6}",
@@ -14785,7 +14783,7 @@
         "2r+1-3r+2-6r+3=5"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:55.509823"
     },
@@ -14868,7 +14866,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Required distance = perpendicular distance of plane 23x – 10y – 2z + 48 = 0 either from (–1, 3, –1) or (–3, –2, 1)\n<br/><br/> $\\Rightarrow$   $|\\frac{-23-30+2+48}{\\sqrt{(23)^{2}+(10)^{2}+(2)^{2}}}|$  =  $\\frac{k}{\\sqrt{633}}$ \n<br/><br/> $\\Rightarrow$   $|\\frac{3}{\\sqrt{633}}|$  =  $\\frac{k}{\\sqrt{633}}$ \n<br/><br/> $\\Rightarrow$  k = 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+1}{2}=\\frac{y-3}{4}=\\frac{z+1}{3}",
@@ -14878,7 +14876,7 @@
         "|\\frac{3}{\\sqrt{633}}|"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:14.148290"
     },
@@ -15147,11 +15145,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->All four points are coplanar so\n<br/><br/> $|\\begin{aligned} 1-\\lambda^{2} &amp; 2 &amp; 0 \\\\ 2 &amp; -\\lambda^{2}+1 &amp; 0 \\\\ 2 &amp; 2 &amp; -\\lambda^{2}-1 \\end{aligned}|=0$ \n<br/><br/>( $\\lambda$ <sup>2</sup> + 1)<sup>2</sup> (3  $-$   $\\lambda$ <sup>2</sup>) = 0\n<br/><br/> $\\lambda$   =  $\\pm$  $\\sqrt{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:57.996799"
     },
@@ -15304,14 +15302,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation of 1<sup>st</sup> line is \n<br/><br/> $\\frac{x-b}{a}=\\frac{y}{1}=\\frac{z-d}{c}$ \n<br/><br/>Dr's of 1<sup>st</sup> line = ( $a$ , 1 , c)\n<br/><br/>Equation of 2<sup>nd</sup> line is \n<br/><br/> $\\frac{x-b^{'}}{a^{'}}=\\frac{y-b^{'}}{c^{'}}=\\frac{z}{1}$ \n<br/><br/>Dr's of 2<sup>nd</sup> line = ( $a^{'}$ , c' , 1)\n<br/><br/>Lines are perpendicular, so the dot product of the Dr's of two lines are zero.\n<br/><br/> $\\therefore$   $aa$ ' + c + c' = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-b}{a}=\\frac{y}{1}=\\frac{z-d}{c}",
         "Dr's of 2 nd line = ("
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:59.426946"
     },
@@ -15357,7 +15355,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x-2}{3}=\\frac{y+1}{2}=\\frac{z-1}{-1}=\\lambda$ <br/><br/>\n $A(3\\lambda+2,2\\lambda-1,-\\lambda+1)$  line on 2x + 3y -z + 13 = 0<br/><br/>\n $\\Rightarrow 2(3\\lambda+2)+3(2\\lambda-1)-(-\\lambda+1)+13=0$ <br/><br/>\n $\\Rightarrow 13\\lambda+13=0 \\Rightarrow \\lambda=-1$ <br/><br/>\nNow point P(-1, -3, 2) lie on 3x + y + 4z = 16<br/><br/>\n $\\Rightarrow 3(3\\lambda+2)+(3\\lambda+2)+4(3\\lambda+2)=16$ <br/><br/>\n $\\Rightarrow 9\\lambda+6+2\\lambda-4\\lambda-1+4=16$ <br/><br/>\n $\\Rightarrow 7\\lambda=7 \\Rightarrow \\lambda=1$ <br/><br/>\n $\\Rightarrow$  Q(5, 1, 0)<br/><br/>\n $\\therefore$  PQ =  $\\sqrt{36+16+4}=\\sqrt{56}=2\\sqrt{14}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-2}{3}=\\frac{y+1}{2}=\\frac{z-1}{-1}",
@@ -15368,7 +15366,7 @@
         "\\Rightarrow 9\\lambda+6+2\\lambda-4\\lambda-1+4=16"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:56.520427"
     },
@@ -15414,7 +15412,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Image of Q in plane<br/><br/>\n $\\frac{(x-0)}{3}=\\frac{(y+1)}{-1}=\\frac{z+3}{+4}=\\frac{-2(1-12-2)}{9+1+16}=1$ <br/><br/>\nx = 3, y = –2, z = 1<br/><br/>\nP(3, –2, 1), Q(0, –1, –3), R(3, –1, –2)<br/><br/>\nNow area of  $\\Delta$ PQR is<br/><br/>\n $\\frac{1}{2}|\\bar{PQ} \\times \\bar{QR}|=\\frac{1}{2}||\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 3 &amp; -1 &amp; 4 \\\\ 3 &amp; 0 &amp; 1 \\end{aligned}||$ <br/><br/>\n $\\Rightarrow \\frac{1}{2}|{\\hat{i}(-1)-\\hat{j}(3-12)+\\hat{k}(3)}|$ <br/><br/>\n $\\Rightarrow \\frac{1}{2}\\sqrt{(1+81+9)}$ <br/><br/>\n $\\Rightarrow \\frac{\\sqrt{91}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{(x-0)}{3}=\\frac{(y+1)}{-1}=\\frac{z+3}{+4}=\\frac{-2(1-12-2)}{9+1+16}=1",
@@ -15423,7 +15421,7 @@
         "\\Rightarrow \\frac{\\sqrt{91}}{2}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:56.951541"
     },
@@ -15469,7 +15467,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\frac{x-1}{2}=\\frac{y+1}{3}=\\frac{z-2}{4}$  =  $\\lambda$ \n<br/><br/>Any arbitary point on the line is P( 2 $\\lambda$  + 1, 3 $\\lambda$  - 1, 4 $\\lambda$  + 2).\n<br/><br/>This point also lies on the plane x + 2y + 3z = 15.\n<br/><br/> $\\therefore$  (2 $\\lambda$  + 1) + 2(3 $\\lambda$  - 1) + 3(4 $\\lambda$  + 2) = 15\n<br/><br/> $\\Rightarrow$  20 $\\lambda$  = 10\n<br/><br/> $\\Rightarrow$   $\\lambda$  =  $\\frac{1}{2}$ \n<br/><br/>So point P is (2,  $\\frac{1}{2}$ , 4).\n<br/><br/>Distance from the origin(O) of point P(2,  $\\frac{1}{2}$ , 4) is\n<br/><br/>OP =  $\\sqrt{(2)^{2}+(\\frac{1}{2})^{2}+(4)^{2}}$ \n<br/><br/>=  $\\sqrt{4+\\frac{1}{4}+16}$ \n<br/><br/>=  $\\sqrt{\\frac{81}{4}}$ \n<br/><br/>=  $\\frac{9}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y+1}{3}=\\frac{z-2}{4}",
@@ -15480,7 +15478,7 @@
         "\\frac{9}{2}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:57.334309"
     },
@@ -15526,11 +15524,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The equation of any plane passing through the intersection of the planes 2x – y – 4 = 0 and\ny + 2z – 4 = 0 is :\n<br/><br/>(2x – y – 4) +  $\\lambda$ (y + 2z – 4) = 0 ........(1)\n<br/><br/>As this plane passes through (1, 1, 0) then this point satisfy the equation (1).\n<br/><br/> $\\therefore$  (2 – 1 – 4) +  $\\lambda$ (1 + 0 – 4) = 0\n<br/><br/> $\\Rightarrow$   $\\lambda$  = -1\n<br/><br/>Equation of required plane will be\n<br/><br/>(2x – y – 4) – (y + 2z – 4) = 0\n<br/><br/> $\\Rightarrow$  2x – 2y – 2z = 0\n<br/><br/> $\\Rightarrow$  x – y – z = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:57.680123"
     },
@@ -15576,7 +15574,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|\\begin{aligned} i &amp; j &amp; k \\\\ 3 &amp; 5 &amp; 7 \\\\ 1 &amp; 4 &amp; 7 \\end{aligned}|$ \n<br/><br/>=  $\\hat{i}$ (35  $-$  28)  $-$   $\\hat{j}$ (21.7) +  $\\hat{k}$ (12  $-$  5)\n<br/><br/>= 7 $\\hat{i}$   $-$  14 $\\hat{j}$  + 7 $\\hat{k}$ \n<br/><br/>=  $\\hat{i}$   $-$  2 $\\hat{j}$  +  $\\hat{k}$ \n<br/><br/>1(x + 2)  $-$  2(y  $-$  2) + 1 (z + 15) = 0\n<br/><br/>x  $-$  2y + z + 11 = 0\n<br/><br/> $\\frac{11}{\\sqrt{4+1+1}}=\\frac{11}{\\sqrt{6}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+2}{3}=\\frac{y-2}{5}=\\frac{z+5}{7}",
@@ -15587,7 +15585,7 @@
         "2y + z + 11 = 0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:58.010168"
     },
@@ -15633,7 +15631,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The normal vector of required plane\n<br/><br/> $=(2\\hat{i}-\\hat{j}+3\\hat{k}) \\times (2\\hat{i}+3\\hat{j}-\\hat{k})$ \n<br/><br/> $=-8\\hat{i}+8\\hat{j}+8\\hat{k}$ \n<br/><br/>So, direction ratio of normal is  $(-1,1,1)$ \n<br/><br/>So required plane is \n<br/><br/> $-(x-3)+(y+2)+(z-1)=0$ \n<br/><br/> $\\Rightarrow -x+y+z+4=0$ \n<br/><br/>Which is satisfied by  $(2,0,-2)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-3}{2}=\\frac{y+2}{-1}=\\frac{z-1}{3}",
@@ -15643,7 +15641,7 @@
         "\\Rightarrow -x+y+z+4=0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:58.334776"
     },
@@ -15747,7 +15745,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/gn6BRi2doa3iG1nU7/RkMldfl0fRlsq1l3VW5Y8f7h8vjb8/a68eyoMz8onQ6HjBtpUJ3V/image.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+1}{-3}=\\frac{y-3}{2}=\\frac{z-2}{-1}",
@@ -15758,7 +15756,7 @@
         "\\vec{n}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:59.437795"
     },
@@ -16261,13 +16259,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Planes bisecting the given planes are<br/><br/>\n $\\frac{2x-y+2z-4}{3}= \\pm \\frac{x+2y+2z-2}{3}$ <br/><br/>\n $\\Rightarrow$  x - 3y = 2 or 3x + y + 4z = 6<br/><br/>\nOut of the four given points in question's options only (2, -4, 1) lies on the plane 3x + y + 4z = 6<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{2x-y+2z-4}{3}= \\pm \\frac{x+2y+2z-2}{3}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:56.161484"
     },
@@ -16313,7 +16311,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z}{1}=\\lambda$ <br/><br/>\nLet a point P on the line is <br/><br/>\n(2 $\\lambda$  + 1, –  $\\lambda$  –1, +  $\\lambda$ )<br/><br/>\nFoot of  $\\perp^{r}Q$  is given by<br/><br/>\n $\\frac{x-2\\lambda-1}{1}=\\frac{y+\\lambda+1}{1}=\\frac{z-\\lambda}{1}=-\\frac{(2\\lambda-3)}{3}$ <br/><br/>\n $\\therefore$   Q lies on x + y + z = 3 &amp; x – y + z = 3<br/><br/>\n $\\Rightarrow$   x + z = 3 &amp; y = 0<br/><br/>\n $\\therefore$   $y=0 \\Rightarrow \\lambda+1=\\frac{-2\\lambda+3}{3} \\Rightarrow \\lambda=0$ <br/><br/>\n $\\therefore$  Q is (2, 0, 1)\n\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z}{1}",
@@ -16322,7 +16320,7 @@
         "y=0 \\Rightarrow \\lambda+1=\\frac{-2\\lambda+3}{3} \\Rightarrow \\lambda=0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:56.539854"
     },
@@ -16422,7 +16420,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,\n<br/><br/>P<sub>1</sub> : x + y + z = 1\n<br/><br/>P<sub>1</sub> : 2x\n+ 3y + 4z = 5\n<br/><br/>Equation of the plane passing through the line\nof intersection of the plane P<sub>1</sub> and P<sub>2</sub> is :\n<br/><br/>P<sub>1</sub> +  $\\lambda$ P<sub>2</sub> = 0\n<br/><br/> $\\Rightarrow$  (x + y + z –1) +  $\\lambda$ (2x + 3y + 4z – 5) = 0\n<br/><br/> $\\Rightarrow$  x(1 + 2 $\\lambda$ ) + y(1 + 3 $\\lambda$ ) + z(1 + 4 $\\lambda$ ) - 5 $\\lambda$  - 1 = 0 .....(1)\n<br/><br/>Direction Ratio (D.R) of this plane = (1 + 2 $\\lambda$ , 1 + 3 $\\lambda$ , 1 + 4 $\\lambda$ )\n<br/><br/>Plane (1) is perpendicular to x - y + z = 0, whose D.R = (1, -1, 1)\n<br/><br/>As they are perpendicular so dot product of D.R = 0\n\n<br/><br/> $\\therefore$  (1) (1 + 2 $\\lambda$ ) + (–1) (1 + 3 $\\lambda$ ) + (1) (1 + 4 $\\lambda$ ) = 0\n\n<br/><br/> $\\Rightarrow$  1 + 2 $\\lambda$  –1 – 3 $\\lambda$  + 1 + 4 $\\lambda$  = 0\n<br/><br/> $\\Rightarrow$   $\\lambda$  =  $-\\frac{1}{3}$ \n<br/><br/>Putting the value of  $\\lambda$  in equation (1), we get\n<br/><br/> $\\Rightarrow$   $\\frac{x}{3}-\\frac{z}{3}+\\frac{2}{3}=0$ \n<br/><br/> $\\Rightarrow$  x - z + 2 = 0\n<br/><br/>Vector form of this plane,\n<br/><br/> $\\vec{r}.(\\overset{\\wedge}{i}-\\overset{\\wedge}{k})+2=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{1}{3}",
@@ -16430,7 +16428,7 @@
         "\\vec{r}.(\\overset{\\wedge}{i}-\\overset{\\wedge}{k})+2=0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:57.360242"
     },
@@ -16476,7 +16474,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->DR's of line are 2, 1,  $-$ 2\n<br/><br/>normal vector of plane is  $\\hat{i}$   $-$  2 $\\hat{j}$   $-$  k $\\hat{k}$ \n<br/><br/>sin $\\alpha$  =  $\\frac{(2\\hat{i}+\\hat{j}-2\\hat{k}).(\\hat{i}-2\\hat{j}-k\\hat{k})}{3\\sqrt{1+4+k^{2}}}$ \n<br/><br/>sin  $\\alpha$  =  $\\frac{2k}{3\\sqrt{k^{2}+5}}$          . . . . . . (1)\n<br/><br/>cos  $\\alpha$  = $\\frac{2\\sqrt{2}}{3}$          . . . . .. . (2)\n<br/><br/>(1)<sup>2</sup> + (2)<sup>2</sup> = 1  $\\Rightarrow$  k<sup>2</sup> =  $\\frac{5}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x+1}{2}=\\frac{y-2}{1}=\\frac{z-3}{-2}",
@@ -16487,7 +16485,7 @@
         "k 2 ="
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:57.707146"
     },
@@ -16588,14 +16586,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->General point on the given line is \n<br/><br/>x = 2 $\\lambda$  + 4\n<br/><br/>y = 2 $\\lambda$  + 5\n<br/><br/>z =  $\\lambda$  + 3\n<br/><br/>Solving with plane, \n<br/><br/>2 $\\lambda$  + 4 + 2 $\\lambda$  + 5 +  $\\lambda$  + 3 = 2\n<br/><br/>5 $\\lambda$  + 12 = 2\n<br/><br/>5 $\\lambda$  =  $-$  10\n<br/><br/> $\\lambda$  =  $-$  2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-4}{2}=\\frac{y-5}{2}=\\frac{z-3}{1}",
         "="
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:58.364381"
     },
@@ -16814,7 +16812,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/rOzDWMNNxnvW48xq0/zruvru0lnDjUZsgeNq6aZOA1DDg4G/LOkNmoFuD0Pu60AvCAVcug/image.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-5}{1}=\\frac{y+1}{1}=\\frac{z-4}{1}=\\frac{-(5-1+4)}{1^{2}+1^{2}+1^{2}}",
@@ -16825,7 +16823,7 @@
         "(\\frac{7}{3},-\\frac{11}{3},\\frac{4}{3})"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:36:59.837405"
     },
@@ -16871,7 +16869,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If a, b, c are the intercepts of the variable plane on the x,y,z axes respectively, then the equation of the plane is <br/><br/> $\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1$ \n<br/><br/>And  the point of intersection of the planes parallel to  the xy, yz and zx planes is  $(a,b,c)$ .\n<br/><br/>As the point (3, 2, 1) lies on the variables plane, \n<br/><br/>so   $\\frac{3}{a}+\\frac{2}{b}+\\frac{1}{c}=1$ \n<br/><br/>Therefore, the  required locus is \n<br/><br/> $\\frac{3}{x}+\\frac{2}{y}+\\frac{1}{z}=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1",
@@ -16879,7 +16877,7 @@
         "\\frac{3}{x}+\\frac{2}{y}+\\frac{1}{z}=1"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:00.171177"
     },
@@ -17261,11 +17259,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,\n<br/><br/>x + 8y + 7z = 0\n<br/><br/>9x + 2y + 3z = 0\n<br/><br/>x + y + z = 0\n<br/><br/>Solving those equations, we get\n<br/><br/>x =  $\\lambda$ , y = 6 $\\lambda$ , z = -7 $\\lambda$ \n<br/><br/>This point lies on the plane x + 2y + z = 6\n<br/><br/> $\\therefore$   $\\lambda$  + 2(6 $\\lambda$ )  + (-7 $\\lambda$ )  = 0\n<br/><br/> $\\Rightarrow$   $\\lambda$  = 1\n<br/><br/> $\\therefore$  x = 1, y = 6, z = -7\n<br/><br/> $\\therefore$  a = 1, b = 6, c = -7\n<br/><br/>So, 2a + b + c = 2(1) + 6 + (-7) = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:00.510702"
     },
@@ -17311,7 +17309,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the plane be \n<br/><br/>a(x  $-$  1) + b(y + 1) + c (z + 1) = 0\n<br/><br/>Normal vector\n<br/><br/> $|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; -2 &amp; 3 \\\\ 2 &amp; -1 &amp; -1 \\end{aligned}|=5\\hat{i}+7\\hat{j}+3\\hat{k}$ \n<br/><br/>So plane is 5(x  $-$  1) + 7(y + 1) + 3(z + 1) = 0\n<br/><br/> $\\Rightarrow$    5x + 7y + 3z + 5 = 0\n<br/><br/>Distance of point (1, 3,  $-$  7) from the plane is \n<br/><br/> $\\frac{5+21-21+5}{\\sqrt{25+49+9}}=\\frac{10}{\\sqrt{83}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{1}=\\frac{y+2}{-2}=\\frac{z-4}{3}",
@@ -17321,7 +17319,7 @@
         "5x + 7y + 3z + 5 = 0 Distance of point (1, 3,"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:00.881899"
     },
@@ -17424,7 +17422,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Point (3,  $-$  2,  $-$   $\\lambda$ ) on p line 2x  $-$  4y + 3z  $-$  2  $=$  0\n<br/><br/> $=$  6 + 8  $-$  3 $\\lambda$   $-$  2 = 0\n<br/><br/> $=$  3 $\\lambda$   $=$  12\n<br/><br/><b> $\\lambda$   $=$  4</b>\n<br/><br/>Now,\n<br/><br/> $\\frac{x-3}{1}=\\frac{y+2}{-1}=\\frac{z+4}{-2}=k_{1}$           . . .(i)\n<br/><br/> $\\frac{x-1}{12}=\\frac{y}{9}=\\frac{z}{4}=k_{2}$                  . . .(ii)\n<br/><br/>Point on equation (i) P (k<sub>1</sub> + 3,  $-$  k<sub>1</sub>  $-$  2,  $-$  2k<sub>1</sub>  $-$  4)\n<br/><br/>Point on equation (ii) Q(12k<sub>2</sub> + 1, 9k<sub>2</sub>, 4k<sub>2</sub>)\n<br/><br/>k<sub>1</sub> + 3  $=$  12k<sub>2</sub> + 1  $|-k_{1}-2=9k_{2}|$   $-$  2k<sub>1</sub>  $-$  4  $=$  4k<sub>2</sub>\n<br/><br/>k<sub>2</sub>   $=$   0\n<br/><br/>k<sub>1</sub>    $=$    $-$  2\n<br/><br/>p (1, 0, 0) lie on equation of a line 1\n<br/><br/>gives shortest distance  $=$  0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-3}{1}=\\frac{y+2}{-1}=\\frac{z+\\lambda}{-2}",
@@ -17432,7 +17430,7 @@
         "2 = 0"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:00.194339"
     },
@@ -17647,7 +17645,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As lines are coplanar, so\n<br/><br/> $|\\begin{aligned} 3-1 &amp; 2-2 &amp; 1-(-3) \\\\ 1 &amp; 2 &amp; \\lambda^{2} \\\\ 1 &amp; \\lambda^{2} &amp; 2 \\end{aligned}|$  = 0\n<br/><br/> $\\Rightarrow$     $|\\begin{aligned} 2 &amp; 0 &amp; 4 \\\\ 1 &amp; 2 &amp; \\lambda^{2} \\\\ 1 &amp; \\lambda^{2} &amp; 2 \\end{aligned}|$  = 0\n<br/><br/> $\\Rightarrow$    2(4  $-$   $\\lambda$ <sup>4</sup>) + 4( $\\lambda$ <sup>2</sup>  $-$  2) = 0\n<br/><br/> $\\Rightarrow$    4  $-$   $\\lambda$ <sup>4</sup> + 2 $\\lambda$ <sup>2</sup>  $-$  4 = 0\n<br/><br/> $\\Rightarrow$     $\\lambda$ <sup>2</sup>( $\\lambda$ <sup>2</sup>  $-$  2) = 0\n<br/><br/> $\\Rightarrow$     $\\lambda$  = 0,   $\\sqrt{2},-\\sqrt{2}$ \n<br/><br/> $\\therefore$    3 distinct real values are possible.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z+3}{\\lambda^{2}}",
@@ -17657,7 +17655,7 @@
         "4 = 0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:00.898881"
     },
@@ -17818,7 +17816,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/AstMGsjiCvZQm0zxn/j1XRO3pIGEQCq0PNo4DOnD5gNuyNT/TX1rSSERl0qnnS0pcVJaFC/image.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "x-y+z=5",
@@ -17829,7 +17827,7 @@
         "\\lambda+1-\\lambda+5+\\lambda+9=5"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:01.329870"
     },
@@ -18325,7 +18323,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\theta$  be the angle between the given line and plane, then \n<br/><br/> $sin\\theta=\\frac{1 \\times 1+2 \\times 2+\\lambda \\times 3}{\\sqrt{1^{2}+2^{2}+\\lambda^{2}}.\\sqrt{1^{2}+2^{2}+3^{2}}}$ \n<br/><br/> $=\\frac{5+3\\lambda}{\\sqrt{14}.\\sqrt{5+\\lambda^{2}}}$ \n<br/><br/>But it is given that \n<br/><br/> $\\theta=cos^{-1}\\sqrt{\\frac{5}{14}} \\Rightarrow sin\\theta=\\frac{3}{\\sqrt{14}}$ \n<br/><br/> $\\therefore$   $\\frac{5+3\\lambda}{\\sqrt{14}\\sqrt{5+\\lambda^{2}}}=\\frac{3}{\\sqrt{14}} \\Rightarrow \\lambda=\\frac{2}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{y-1}{2}=\\frac{z-3}{\\lambda}",
@@ -18335,7 +18333,7 @@
         "\\theta=cos^{-1}\\sqrt{\\frac{5}{14}} \\Rightarrow sin\\theta=\\frac{3}{\\sqrt{14}}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:02.353674"
     },
@@ -18606,7 +18604,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The two lines intersect if shortest distance between them is zero  $i.e.$ \n<br/><br/> $\\frac{(\\vec{a}_{2}-\\vec{a}_{1}).\\vec{b}_{1} \\times \\vec{b}_{2}}{|\\vec{b}_{1} \\times \\vec{b}_{2}|}=0$ \n<br/><br/> $\\Rightarrow (\\vec{a}_{2}-\\vec{a}_{1}).\\vec{b}_{1} \\times \\vec{b}_{2}=0$ \n<br/><br/>where  $\\vec{a}_{1}=\\hat{i}+2\\hat{j}+3\\hat{k},\\vec{b}_{1}=k\\hat{i}+2\\hat{j}+3\\hat{k}$ \n<br/><br/> $\\vec{a}_{2}=2\\hat{i}+3\\hat{j}+\\hat{k},\\hat{b}_{2}=3\\hat{i}+k\\hat{j}+2\\hat{k}$ \n<br/><br/> $\\Rightarrow |\\begin{aligned} 1 &amp; 1 &amp; -2 \\\\ k &amp; 2 &amp; 3 \\\\ 3 &amp; k &amp; 2 \\end{aligned}|=0$ \n<br/><br/> $\\Rightarrow 1(4-3k)-1(2k-9)-2(k^{2}-6)=0$ \n<br/><br/> $\\Rightarrow -2k^{2}-5k+25=0 \\Rightarrow k=-5$   or   $\\frac{5}{2}$ \n<br/><br/>As  $k$  is an integer, therefore  $k=-5$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-1}{k}=\\frac{y-2}{2}=\\frac{z-3}{3}",
@@ -18617,7 +18615,7 @@
         "\\Rightarrow 1(4-3k)-1(2k-9)-2(k^{2}-6)=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:03.133827"
     },
@@ -18892,7 +18890,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given lines are  $2x=3y=-z$ \n<br/><br/>or  $\\frac{x}{3}=\\frac{y}{2}=\\frac{z}{-6}$   $[$  Dividing by  $6$   $]$ \n<br/><br/>and  $6x=-y=-4z$ \n<br/><br/>or  $\\frac{x}{2}=\\frac{y}{-12}=\\frac{z}{-3}$   $[$  Dividing by  $12$   $]$ \n<br/><br/> $\\therefore$  Angle between two lines is \n<br/><br/> $cos\\theta=\\frac{3.2+2.(-12)+(-6).(-3)}{\\sqrt{3^{2}+2^{2}+(-6)^{2}}\\sqrt{2^{2}+(-12)^{2}+(-3)^{2}}}$ \n<br/><br/> $=\\frac{6-24+18}{\\sqrt{49}\\sqrt{157}}=0 \\Rightarrow \\theta=90^{\\circ}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "2x=3y=-z",
@@ -18901,7 +18899,7 @@
         "=\\frac{6-24+18}{\\sqrt{49}\\sqrt{157}}=0 \\Rightarrow \\theta=90^{\\circ}"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:04.188179"
     },
@@ -19062,7 +19060,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/Ud7hwRPNON5FJAwyV/fy8IK4Y57tFlEGeCr3geRRVGR2r7O/lyWOvLjJM3Kra97MaUFPuF/image.png"
       ],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "x+2y-z=4",
@@ -19073,7 +19071,7 @@
         "=\\sqrt{\\frac{1}{4}+\\frac{1}{4}+2}=\\sqrt{\\frac{5}{2}}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:03.532789"
     },
@@ -19119,7 +19117,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A point on lines is  $(2,-2,3)$  its perpendicular distance \n<br/><br/>from the plane  $x+5y+z-5=0$  is \n<br/><br/> $=|\\frac{2-10+3-5}{\\sqrt{1+25+1}}|=\\frac{10}{3\\sqrt{3}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{r}=2\\hat{i}-2\\hat{j}+3\\hat{k}+\\lambda(i-j+4k),",
@@ -19128,7 +19126,7 @@
         "=|\\frac{2-10+3-5}{\\sqrt{1+25+1}}|=\\frac{10}{3\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:03.860011"
     },
@@ -19457,7 +19455,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{x-b}{a}=\\frac{y}{1}=\\frac{z-d}{c};$ \n<br/><br/> $\\frac{x-b^{'}}{a^{'}}$ \n $=\\frac{y}{1}=\\frac{z-d^{'}}{c^{'}}$ \n<br/><br/>For perpenedicularity of lines  $aa^{'}+1+cc^{'}=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Easy",
       "key_formulas": [
         "x=ay+b,z=cy+d",
@@ -19468,7 +19466,7 @@
         "aa^{'}+1+cc^{'}=0"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:04.816408"
     },
@@ -19629,7 +19627,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Shortest distance  $=$  perpendicular distance between the plane and sphere  $=$  distance of plane from center of sphere  $-$  radius\n<br/><br/> $=|\\frac{-2 \\times 12+4 \\times 1+3 \\times 3-327}{\\sqrt{144+9+16}}|-\\sqrt{4+1+9+155}$ \n<br/><br/> $=26-13=13$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
+      "topic_tag": "Planes & Line-Plane Intersections in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "12x+4y+3z=327",
@@ -19637,7 +19635,7 @@
         "=26-13=13"
       ],
       "key_concepts": [
-        "Direction Cosines & Equations of Lines in 3D"
+        "Planes & Line-Plane Intersections in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:04.483843"
     },
@@ -19735,14 +19733,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As the point  $(3,2,0)$  lies on the given line \n<br/><br/> $\\frac{x-4}{1}=\\frac{y-7}{5}=\\frac{z-4}{4}$ \n<br/><br/> $\\therefore$  There can be infinite many planes passing through this line. But here out of the four options only first option is satisfied by the coordinates of both the points  $(3,2,0)$  and  $(4,7,4)$ \n<br/><br/> $\\therefore$   $x-y+z=1$  is the required plane.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Planes & Line-Plane Intersections in 3D",
+      "topic_tag": "Direction Cosines & Equations of Lines in 3D",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x-4}{1}=\\frac{y-7}{5}=\\frac{z-4}{4}",
         "x-y+z=1"
       ],
       "key_concepts": [
-        "Planes & Line-Plane Intersections in 3D"
+        "Direction Cosines & Equations of Lines in 3D"
       ],
       "crawled_at": "2026-09-20T15:37:05.091457"
     },

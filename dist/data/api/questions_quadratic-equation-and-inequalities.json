@@ -52,8 +52,7 @@
         "\\underset{x \\rightarrow 2}{lim}\\frac{tan(x-2)(rx^{2}+(p-2)x-2p)}{(x-2)^{2}}=5."
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations",
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:43:56.983091"
     },
@@ -156,7 +155,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>given  $x|x+3|+|x-1|-2=0$ .</p>\n<p>critical points  $x=-3,1$ .</p>\n<p>two critical points means 3 cases.</p>\n<p><b>Case 1 :</b>  $x&lt;-3,|x+3|=-(x+3)$  and  $|x-1|=-(x-1)$ . equation become</p>\n<p> $\\begin{aligned} &amp; -x(x+3)-(x-1)-2=0 \\\\ &amp; -x^{2}-3x-x+1-2=0 \\\\ &amp; -x^{2}-4x-1=0⟹x^{2}+4x+1=0 \\\\ &amp; x=\\frac{-4 \\pm \\sqrt{16-4}}{2}=\\frac{-4 \\pm 2\\sqrt{3}}{2}=-2 \\pm \\sqrt{3} \\end{aligned}$ </p>\n<p>since  $x&lt;-3$  so  $x=-2-\\sqrt{3}$  is only solution.</p>\n<p><b>Case  2 :</b>  $-3 \\le x \\le 1,|x+3|=x+3$  and  $|x-1|=-(x-1)$ . equation become</p>\n<p> $\\begin{aligned} &amp; x(x+3)-(x-1)-2=0. \\\\ &amp; x^{2}+3x-x+1-2=0. \\\\ &amp; x^{2}+2x-1=0. \\\\ &amp; x=\\frac{-2 \\pm \\sqrt{4+4}}{2}=\\frac{-2 \\pm 2\\sqrt{2}}{2}=-1 \\pm \\sqrt{2}. \\end{aligned}$ </p>\n<p>since  $-3 \\le x \\le 1$  so  $x=-1+\\sqrt{2},-1-\\sqrt{2}$  both accepted.</p>\n<p><b>Case 3 :</b>  $x&gt;1,|x+3|=x+3\\text{and}|x-1|=x-1\\text{.}$ </p>\n<p>equation become</p>\n<p> $x(x+3)+x-1-2=0.$ </p>\n<p> $x^{2}+4x-3=0.$ </p>\n<p> $x=\\frac{-4 \\pm \\sqrt{16+12}}{2}=\\frac{-4 \\pm 2\\sqrt{7}}{2}=-2 \\pm \\sqrt{7}$ . Checking positive solution. since  $x&gt;1$ , so  $x=\\sqrt{7}-2 \\approx 0.645$ , so no solution.</p>\n<p>so final solution is</p>\n<p> $x=-2-\\sqrt{3},-1+\\sqrt{2},-1-\\sqrt{2}.$ </p>\n<p>Number of solution = 3</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x|x+3|+|x-1|-2=0",
@@ -167,7 +166,7 @@
         "x=\\frac{-4 \\pm \\sqrt{16+12}}{2}=\\frac{-4 \\pm 2\\sqrt{7}}{2}=-2 \\pm \\sqrt{7}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:01.078048"
     },
@@ -276,8 +275,7 @@
         "-7\\lambda^{2}-32\\lambda \\ge 0"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations",
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:43:57.008391"
     },
@@ -489,7 +487,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to solve</p>\n<p> $|x^{2}+x-9|=|x|+|x^{2}-9|.$ </p>\n<p>We will do it by considering intervals where the expressions inside modulus change sign.</p>\n<p>The critical points are obtained from:</p>\n<ul>\n<li><p> $x=0$  from  $|x|$ </p></li>\n<li><p> $x= \\pm 3$  from  $|x^{2}-9|$ </p></li>\n<li><p>roots of  $x^{2}+x-9=0$ , but for NCERT-style interval splitting here, it is enough to use the main sign-change points  $-3,0,3$  and then check sign of  $x^{2}+x-9$  in each interval.</p></li>\n</ul>\n<p>Now solve interval-wise.</p>\n<h2>1. For  $x \\le -3$ </h2>\n<p>Here,</p>\n<ul>\n<li><p> $|x|=-x$ </p></li>\n<li><p> $|x^{2}-9|=x^{2}-9$ </p></li>\n<li><p>Also  $x^{2}+x-9&gt;0$ , so  $|x^{2}+x-9|=x^{2}+x-9$ </p></li>\n</ul>\n<p>Thus,</p>\n<p> $x^{2}+x-9=-x+(x^{2}-9)$ </p>\n<p> $x^{2}+x-9=x^{2}-x-9$ </p>\n<p> $x=-x$ </p>\n<p> $2x=0 \\Rightarrow x=0$ </p>\n<p>But  $0≰-3$ , so no solution here.</p>\n<h2>2. For  $-3 \\le x \\le 0$ </h2>\n<p>Here,</p>\n<ul>\n<li><p> $|x|=-x$ </p></li>\n<li><p> $|x^{2}-9|=9-x^{2}$ </p></li>\n</ul>\n<p>Now we check  $x^{2}+x-9$  on this interval.</p>\n<p>At  $x=-3$ ,</p>\n<p> $x^{2}+x-9=9-3-9=-3&lt;0$ </p>\n<p>At  $x=0$ ,</p>\n<p> $x^{2}+x-9=-9&lt;0$ </p>\n<p>So throughout this interval,</p>\n<p> $|x^{2}+x-9|=-(x^{2}+x-9)=-x^{2}-x+9.$ </p>\n<p>Hence equation becomes</p>\n<p> $-x^{2}-x+9=-x+(9-x^{2}).$ </p>\n<p>Simplify RHS:</p>\n<p> $-x^{2}-x+9=-x+9-x^{2}.$ </p>\n<p>Both sides are identical, so this is true for every  $x \\in [-3,0]$ .</p>\n<p>So all  $x \\in [-3,0]$  are solutions.</p>\n<h2>3. For  $0 \\le x \\le 3$ </h2>\n<p>Here,</p>\n<ul>\n<li><p> $|x|=x$ </p></li>\n<li><p> $|x^{2}-9|=9-x^{2}$ </p></li>\n</ul>\n<p>Also on this interval,</p>\n<p> $x^{2}+x-9$ </p>\n<p>At  $x=0$ , it is  $-9&lt;0$ , and at  $x=3$ , it is  $9+3-9=3&gt;0$ .</p>\n<p>So the sign changes inside this interval.  </p>\n<p>Let us find the root:</p>\n<p> $x^{2}+x-9=0$ </p>\n<p> $x=\\frac{-1 \\pm \\sqrt{37}}{2}.$ </p>\n<p>The positive root is</p>\n<p> $\\frac{-1+\\sqrt{37}}{2}.$ </p>\n<p>So split further.</p>\n<h3>(i) For  $0 \\le x \\le \\frac{-1+\\sqrt{37}}{2}$ </h3>\n<p>Here  $x^{2}+x-9 \\le 0$ , so</p>\n<p> $|x^{2}+x-9|=-x^{2}-x+9.$ </p>\n<p>Equation:</p>\n<p> $-x^{2}-x+9=x+(9-x^{2})$ </p>\n<p> $-x^{2}-x+9=-x^{2}+x+9$ </p>\n<p> $-x=x$ </p>\n<p> $2x=0 \\Rightarrow x=0.$ </p>\n<p>So only  $x=0$ , already included in previous interval.</p>\n<h3>(ii) For  $\\frac{-1+\\sqrt{37}}{2} \\le x \\le 3$ </h3>\n<p>Here  $x^{2}+x-9 \\ge 0$ , so</p>\n<p> $|x^{2}+x-9|=x^{2}+x-9.$ </p>\n<p>Equation:</p>\n<p> $x^{2}+x-9=x+(9-x^{2})$ </p>\n<p> $x^{2}-9=9-x^{2}$ </p>\n<p> $2x^{2}=18$ </p>\n<p> $x^{2}=9$ </p>\n<p> $x= \\pm 3.$ </p>\n<p>In this interval, only  $x=3$  is valid.</p>\n<p>So from  $[0,3]$ , only  $x=0,3$  are solutions.</p>\n<h2>4. For  $x \\ge 3$ </h2>\n<p>Here,</p>\n<ul>\n<li><p> $|x|=x$ </p></li>\n<li><p> $|x^{2}-9|=x^{2}-9$ </p></li>\n<li><p> $x^{2}+x-9&gt;0$ , so  $|x^{2}+x-9|=x^{2}+x-9$ </p></li>\n</ul>\n<p>Thus,</p>\n<p> $x^{2}+x-9=x+(x^{2}-9)$ </p>\n<p> $x^{2}+x-9=x^{2}+x-9$ </p>\n<p>This is true for every  $x \\ge 3$ .</p>\n<p>So all  $x \\in [3,\\infty)$  are solutions.</p>\n<h2>Complete solution set</h2>\n<p>Combining all intervals:</p>\n<p> $[-3,0]∪[3,\\infty).$ </p>\n<p>Thus,</p>\n<p> $\\alpha=-3,\\beta=0,\\gamma=3.$ </p>\n<p>Now,</p>\n<p> $\\alpha^{2}+\\beta^{2}+\\gamma^{2}=(-3)^{2}+0^{2}+3^{2}=9+0+9=18.$ </p>\n<p>So the correct answer is</p>\n<p> $18$ </p>\n<p>Hence, <strong>Option B</strong> is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "|x^{2}+x-9|=|x|+|x^{2}-9|",
@@ -500,7 +498,7 @@
         "|x^{2}-9|"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:43:57.035635"
     },
@@ -546,7 +544,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S={x^{3}+ax^{2}+bx+c:a,b,c \\in ℕ\\text{and}a,b,c \\le 20}\\text{so}a,b,c \\in {1,2,3,\\dots20}$ </p>\n<p> $x^{3}+ax^{2}+bx+c$  is divisible by  $x^{2}+2$ \n<br/><br/> $\\therefore$   $x^{3}+ax^{2}+bx+c=(x^{2}+2)L(x)$ </p>\n<p>Let  $L(x)=x+n$  because L.H.S is cubic have leading coefficient 1 .</p>\n<p> $\\begin{aligned} x^{3}+ax^{2}+bx+c &amp; =(x^{2}+2)(x+n) \\\\ &amp; =x^{3}+x^{2}n+2x+2n \\end{aligned}$ </p>\n<p>Compare  $n=a,b=2,2n=c⟹c=2a$ </p>\n<p>so,  $c=2a$  and  $b=2$ </p>\n<p><b>Finding the Number of Possible Polynomials</b></p>\n<ul>\n<li><p>For  $b$  : There is only  $𝟏$  choice  $(b=2)$ , which is within the range  $[1,20]$ .</p></li>\n<li><p>For  $a$  and  $c$  : Since  $c=2a$ , we must ensure  $c \\le 20$ .</p></li>\n<li><p>If  $a=1,c=2$ </p></li>\n<li><p>If  $a=2,c=4$ </p></li>\n<li><p>…</p></li>\n<li><p>If  $a=10,c=20$ \n<br/><br/>There are 10 possible values for the pair (  $a,c$  ).</p></li>\n</ul>\n<p>Total polynomials  $=($  Choices for  $b) \\times ($  Choices for  $a,c$  pairs  $)=1 \\times 10=𝟏𝟎$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x^{3}+ax^{2}+bx+c:a,b,c \\in N",
@@ -556,7 +554,7 @@
         "L(x)=x+n"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:43:59.501451"
     },
@@ -602,14 +600,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; (-2+\\sqrt{3})(|\\sqrt{x}-3|)+(x-6\\sqrt{x}+9)-2\\sqrt{3}=0,x \\ge 0 \\\\ &amp; \\text{put}|\\sqrt{x}-3|=t \\\\ &amp; \\Rightarrow (-2+\\sqrt{3})t+t^{2}-2\\sqrt{3}=0 \\\\ &amp; \\Rightarrow t(t-2)+\\sqrt{3}(t-2)=0 \\\\ &amp; \\Rightarrow (t+\\sqrt{3})(t-2)=0 \\\\ &amp; t+\\sqrt{3} \\ne 0 \\Rightarrow t=2 \\\\ &amp; \\Rightarrow |\\sqrt{x}-3|=2 \\\\ &amp; \\sqrt{x}-3= \\pm 2 \\\\ &amp; \\sqrt{x}=5,1 \\\\ &amp; x=25,1 \\\\ &amp; \\Rightarrow \\alpha=1,\\beta=25 \\\\ &amp; \\Rightarrow \\sqrt{\\frac{\\beta}{\\alpha}}+\\sqrt{\\alpha\\beta}=10 \\end{aligned} \\\\ &amp; \\text{Option (2) is Correct.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "(-2+\\sqrt{3})(|\\sqrt{x}-3|)+(x-6\\sqrt{x})+(9-2\\sqrt{3})=0,x⩾0",
         "\\sqrt{\\frac{\\beta}{\\alpha}}+\\sqrt{\\alpha\\beta}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:01.145255"
     },
@@ -655,13 +653,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because \\alpha&lt;1&lt;\\beta \\\\ &amp; f(1)&lt;0 \\\\ &amp; \\Rightarrow 1+2a+(3a+10)&lt;0 \\\\ &amp; \\Rightarrow 5a+11&lt;0 \\\\ &amp; a&lt;\\frac{-11}{5} \\\\ &amp; \\therefore a \\in (-\\infty,\\frac{-11}{5}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{2}+2ax+(3a+10)=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:02.584148"
     },
@@ -917,14 +915,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{\\begin{aligned} &amp; |\\mathrm{x}-2|^2+2|\\mathrm{x}-2|-|\\mathrm{x}-2|-2=0 \\\\ &amp; \\Rightarrow(|\\mathrm{x}-2|+2)(|\\mathrm{x}-2|-1)=0 \\\\ &amp; \\Rightarrow|\\mathrm{x}-2|=1 \\\\ &amp; \\Rightarrow \\mathrm{x}=2 \\pm 1=3,1 \\\\ &amp; \\Rightarrow \\text { sum of square of roots }=9+1=10 \\\\ &amp; \\mathrm{x}^2-2|\\mathrm{x}-3|-5=0 \\\\ &amp; \\text { Case-I } \\mathrm{x}-3 \\ge q 0 \\\\ &amp; \\Rightarrow \\mathrm{x}^2-2 \\mathrm{x}+1=0 \\\\ &amp; \\Rightarrow(\\mathrm{x}-1)^2=0 \\\\ &amp; \\Rightarrow \\mathrm{x}=1 \\\\ &amp; \\text { But } \\mathrm{x} \\ge q 3 \\\\ &amp; \\Rightarrow \\mathrm{x} \\in \\phi \\\\ &amp; \\text { Case-II } \\mathrm{x}-3&lt;0 \\\\ &amp; \\mathrm{x}^2+2 \\mathrm{x}-11=0, \\mathrm{D}&gt;0 \\Rightarrow \\text { Real &amp; distinct roots } \\\\ &amp; \\mathrm{f}(\\mathrm{x})=\\mathrm{x}^2+2 \\mathrm{x}-11 \\\\ &amp; \\mathrm{f}(3)&gt;0, \\frac{-\\mathrm{p}}{2 \\mathrm{a}}=-1&lt;3 \\\\ &amp; \\Rightarrow \\text { both roots }&lt;3, \\text { both roots acceptable } \\\\ &amp; \\text { Sum of square of roots }=(\\alpha+\\beta)^2-2 \\alpha \\beta \\\\ &amp; =4+22=26 \\\\ &amp; \\Rightarrow \\text { Final sum }=10+26=36 \\end{aligned}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "|x-2|^{2}+|x-2|-2=0",
         "x^{2}-2|x-3|-5=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:03.608590"
     },
@@ -1024,14 +1022,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider  $\\frac{1}{\\sqrt{x}}=\\alpha x&gt;0$ </p>\n<p> $\\begin{aligned} &amp; (9\\alpha^{2}-9\\alpha+2)(2\\alpha^{2}-7\\alpha+3)=0 \\\\ &amp; (3\\alpha-2)(3\\alpha-1)(\\alpha-3)(2\\alpha-1)=0 \\\\ &amp; \\alpha=\\frac{1}{3},\\frac{1}{2},\\frac{2}{3},3 \\\\ &amp; x=9,4,\\frac{9}{4},\\frac{1}{9} \\end{aligned}$ </p>\n<p>So, no. of solutions  $=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "(\\frac{9}{x}-\\frac{9}{\\sqrt{x}}+2)(\\frac{2}{x}-\\frac{7}{\\sqrt{x}}+3)=0",
         "\\frac{1}{\\sqrt{x}}=\\alpha x>0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:05.997896"
     },
@@ -1857,7 +1855,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, observe that for a degree-4 polynomial  </p>\n<p> $P(x)=4x^{4}+8x^{3}-17x^{2}-12x+9$  </p>\n<p>with roots  $x_{1},\\dots,x_{4}$ , we have  </p>\n<p> $\\prod_{4}^{i=1}(x_{i}^{2}+4)=\\prod_{4}^{i=1}[(x_{i}-2i)(x_{i}+2i)]=\\frac{P(2i)P(-2i)}{4^{2}}.$ </p>\n<p><p>Compute  $P(2i)$ :  </p>\n<p> $P(2i)=4(2i)^{4}+8(2i)^{3}-17(2i)^{2}-12(2i)+9=64-64i+68-24i+9=141-88i.$ </p></p>\n<p><p>By conjugation,  </p>\n<p> $P(-2i)=141+88i.$ </p></p>\n<p><p>Hence  </p>\n<p> $\\prod_{4}^{i=1}(x_{i}^{2}+4)=\\frac{(141-88i)(141+88i)}{16}=\\frac{141^{2}+88^{2}}{16}=\\frac{19881+7744}{16}=\\frac{27625}{16}.$ </p></p>\n<p><p>We are told  </p>\n<p> $\\prod_{4}^{i=1}(x_{i}^{2}+4)=\\frac{125}{16}m=\\frac{27625}{16},$  </p>\n<p>so  </p>\n<p> $125m=27625⟹m=221.$ </p></p>\n<p>Answer:  $221.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "x_{1},x_{2},x_{3},x_{4}",
@@ -1866,7 +1864,7 @@
         "is _________. First, observe that for a degree-4 polynomial"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:46.267061"
     },
@@ -2121,7 +2119,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x^{2}-\\sqrt{2}x-\\sqrt{3}=0 \\\\ &amp; P_{n}=\\alpha^{n}-\\beta^{n} \\end{aligned}$ </p>\n<p> $\\alpha$  and  $\\beta$  are the roots of the equation</p>\n<p>Using Newton's theorem</p>\n<p> $\\begin{aligned} &amp; P_{n+2}-\\sqrt{2}P_{n+1}-\\sqrt{3}P_{n}=0 \\\\ &amp; \\text{Put}n=10 \\\\ &amp; P_{12}-\\sqrt{2}P_{11}-\\sqrt{3}P_{10}=0 \\end{aligned}$ </p>\n<p> $P_{12}=\\sqrt{2}P_{11}+\\sqrt{3}P_{10}$ </p>\n<p>Put  $n=9$ </p>\n<p> $\\begin{aligned} &amp; P_{11}-\\sqrt{2}P_{10}-\\sqrt{3}P_{9}=0 \\\\ &amp; P_{11}=\\sqrt{2}P_{10}+\\sqrt{3}P_{9} \\\\ &amp; (11\\sqrt{3}-10\\sqrt{2})P_{10}+(11\\sqrt{2}+10)P_{11}-11P_{12} \\end{aligned}$ </p>\n<p>Put the value of  $P_{12}$  &amp;  $P_{12}$  in above equation.</p>\n<p> $\\begin{aligned} = &amp; (11\\sqrt{3}-10\\sqrt{2})P_{10}+(11\\sqrt{2}+10)(\\sqrt{2}P_{10}+\\sqrt{3}P_{9})-11(\\sqrt{2}P_{11}+\\sqrt{3}P_{10}) \\\\ = &amp; 11\\sqrt{3}P_{10}-10\\sqrt{2}P_{10}+22P_{10}+10\\sqrt{2}P_{10}+11\\sqrt{6}P_{9}+10\\sqrt{3}P_{9}-11\\sqrt{2}P_{11}-11\\sqrt{3}P_{10} \\\\ = &amp; 22P_{10}+11\\sqrt{6}P_{9}+10\\sqrt{3}P_{9}-11\\sqrt{2}(\\sqrt{2}P_{10}+\\sqrt{3}P_{9}) \\\\ = &amp; 22P_{10}+11\\sqrt{6}P_{9}+10\\sqrt{3}P_{9}-22P_{10}-11\\sqrt{6}P_{9} \\\\ = &amp; 10\\sqrt{3}P_{9} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}-\\sqrt{2}x-\\sqrt{3}=0",
@@ -2131,7 +2129,7 @@
         "n=9"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:07.677889"
     },
@@ -2234,14 +2232,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x^{2}-x-1=0 \\\\ &amp; S_{n}=2023\\alpha^{n}+2024\\beta^{n} \\\\ &amp; S_{n-1}+S_{n-2}=2023\\alpha^{n-1}+2024\\beta^{n-1}+2023\\alpha^{n-2}+2024\\beta^{n-2} \\\\ &amp; =2023\\alpha^{n-2}[1+\\alpha]+2024\\beta^{n-2}[1+\\beta] \\\\ &amp; =2023\\alpha^{n-2}[\\alpha^{2}]+2024\\beta^{n-2}[\\beta^{2}] \\\\ &amp; =2023\\alpha^{n}+2024\\beta^{n} \\\\ &amp; S_{n-1}+S_{n-2}=S_{n} \\\\ &amp; P_{ut}n=12 \\\\ &amp; S_{11}+S_{10}=S_{12} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{2}-x-1=0",
         "S_{n}=2023\\alpha^{n}+2024\\beta^{n}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:10.738093"
     },
@@ -2268,7 +2266,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw4nlbkg/60bbafa8-f162-4063-8d33-6f852bb91330/ef943d00-10fb-11ef-aaa0-17ca36a32505/file-1lw4nlbkh.png?format=png"
       ],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "|x+1||x+3|-4|x+2|+5=0",
@@ -2276,7 +2274,7 @@
         "x=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:45.169626"
     },
@@ -2303,14 +2301,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1lwgkotns/48dc3e18-87b2-4fd8-a3b9-f30ede35fcf3/fd635a80-1789-11ef-b185-b7bdfa18e39b/file-jaoe38c1lwgkotnt.png?format=png"
       ],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "|x||x+2|-5|x+1|-1=0",
         "\\begin{aligned} & x^{2}+2x-5x-5-1=0 \\\\ & x^{2}-3x-6=0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:46.314903"
     },
@@ -2335,14 +2333,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, let's consider the equation  $x^{2}-2^{y}=2023$  where  $x$  and  $y$  are natural numbers. Our goal is to find all the pairs  $(x,y)$  that satisfy this equation and then sum the values of  $x+y$  for each pair in set  $C$ .\n\n<p>Since  $2023$  is an odd number, and  $x^{2}$ , the square of any natural number, is even when  $x$  is even and odd when  $x$  is odd, we can determine that for the left-hand side of the equation to be odd (thus equal to  $2023$ ),  $x$  must be odd since the right-hand side of the equation ( $2^{y}$ ) is always even as it represents a power of two.</p>\n<p>Also,  $2023$  can be factored into prime factors to further analyze the possible solutions:</p>\n<p> $2023=7 \\times 17 \\times 17$ </p>\n<p>Thus, allowing us to rewrite the equation as:</p>\n<p> $x^{2}-2^{y}=7 \\times 17^{2}$ </p>\n<p>The next step is to check for potential values of  $x$  that would fit the equation, keeping in mind that  $x$  must be odd. We can try to express  $x^{2}$  as  $7 \\times 17^{2}$  plus a power of  $2$ , recognizing that we are looking for the decomposition of the form:</p>\n<p> $x^{2}=7 \\times 17^{2}+2^{y}$ </p>\n<p>By examining the powers of  $2$  and keeping in mind that they grow very quickly, we can reason that  $y$  cannot be very large because  $x^{2}$  must not exceed  $2023$  by a large margin.</p>\n<p>Let's start by trying the lowest values for  $y$  since that would make  $2^{y}$  small and  $x$  has a better chance of being a natural number:</p>\n<ol>\n<li>For  $y=1$ :</li>\n</ol>\n<p> $x^{2}=2023+2^{1}=2023+2=2025$ </p>\n<p>Surprisingly, we find a perfect square since  $45^{2}=2025$ . Therefore,  $(x,y)=(45,1)$  is one solution.</p>\n<ol>\n<li>For  $y=2$  or higher:</li>\n</ol>\n<p> $2^{y}$  becomes at least  $4$  and increases exponentially, so  $x^{2}$  must be at least  $2027$  or higher in such cases. There's no natural number between  $45$  and  $46$ , and  $46^{2}$  far exceeds the target (2116), making it impossible for  $x^{2}$  to be less than  $2116$  for any larger  $y$ .</p>\n<p>Hence, it appears there is only one possible solution:  $(x,y)=(45,1)$ .</p>\n<p>Therefore, the sum  $\\underset{(x,y) \\in C}{\\sum}(x+y)$  for this set will consist of only this one pair:</p>\n<p> $\\underset{(x,y) \\in C}{\\sum}(x+y)=45+1=46$ </p>\n<p>So the answer is  $46$ . </p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "C={(x,y)|x^{2}-2^{y}=2023,x,y \\in ℕ}",
         "x^{2}-2^{y}=2023"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:47.697790"
     },
@@ -2619,14 +2617,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,\n<br/><br/> $\\begin{aligned} &amp; A={x \\in R:[x+3]+[x+4] \\le 3} \\\\ \\\\ &amp; \\text{Here,}[x+3]+[x+4] \\le 3 \\\\ \\\\ &amp; \\Rightarrow [x]+3+[x]+4 \\le 3 \\\\ \\\\ &amp; ( \\because [x+n]=[x]+n,n \\in I) \\\\ \\\\ &amp; \\Rightarrow 2[x]+4 \\le 0 \\Rightarrow [x] \\le -2 \\\\ \\\\ &amp; \\Rightarrow x \\in (-\\infty,-1) \\\\ \\\\ &amp; A \\equiv (-\\infty,-1)...........(i) \\end{aligned}$ \n<br/><br/>Also,\n<br/><br/> $B={x \\in R:3^{x}(\\sum_{r=1}^{\\infty}\\frac{3}{10^{r}})^{x-3}&lt;3^{-3x}}$ \n<br/><br/>Here,\n<br/><br/> $\\begin{aligned} &amp; 3^{x}(\\frac{3}{10}+\\frac{3}{10^{2}}+\\frac{3}{10^{3}}+\\dots)^{x-3}&lt;3^{-3x} \\\\ \\\\ \\Rightarrow &amp; 3^{x}(\\frac{\\frac{3}{10}}{1-\\frac{1}{10}})^{x-3}&lt;3^{-3x} \\\\ \\\\ \\Rightarrow &amp; 3^{x}(\\frac{1}{3})^{x-3}&lt;3^{-3x} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} \\Rightarrow &amp; 3^{x-x+3}&lt;3^{-3x} \\Rightarrow 3^{3}&lt;3^{-3x} \\\\ \\\\ \\Rightarrow &amp; -3x&gt;3 \\Rightarrow x&lt;-1 \\\\ \\\\ \\Rightarrow &amp; x \\in (-\\infty,-1) \\\\ \\\\ \\Rightarrow &amp; B \\equiv (-\\infty,-1)...........(ii) \\end{aligned}$ \n<br/><br/>From equations (i) and (ii), we get\n<br/><br/> $A=B$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "A={x \\in R:[x+3]+[x+4] \\le 3},",
         "B={x \\in R:3^{x}(\\sum_{r=1}^{\\infty}\\frac{3}{10^{r}})^{x-3}<3^{-3x}},"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:13.682851"
     },
@@ -2672,7 +2670,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e^{4x}+8e^{3x}+13e^{2x}-8e^{x}+1=0$ \n<br/><br/>Let  $e^{x}=t$ \n<br/><br/>Now,  $t^{4}+8t^{3}+13t^{2}-8t+1=0$ \n<br/><br/>Dividing equation by  $t^{2}$ \n<br/><br/> $\\begin{aligned} &amp; t^{2}+8t+13-\\frac{8}{t}+\\frac{1}{t^{2}}=0 \\\\ \\\\ &amp; t^{2}+\\frac{1}{t^{2}}+8(t-\\frac{1}{t})+13=0 \\\\ \\\\ &amp; (t-\\frac{1}{t})^{2}+2+8(t-\\frac{1}{t})+13=0 \\end{aligned}$ \n<br/><br/>Let  $t-\\frac{1}{t}=z$ \n<br/><br/> $z^{2}+8z+15=0$ \n<br/><br/> $\\begin{aligned} &amp; (z+3)(z+5)=0 \\end{aligned}$ \n<br/><br/> $z=-3\\text{or}z=-5$ \n<br/><br/>So,  $t-\\frac{1}{t}=-3$  or  $t-\\frac{1}{t}=-5$ \n<br/><br/> $t^{2}+3t-1=0$  or  $t^{2}+5t-1=0$ \n<br/><br/> $t=\\frac{-3 \\pm \\sqrt{13}}{2}$  or  $t=\\frac{-5 \\pm \\sqrt{29}}{2}$ \n<br/><br/>as  $t=e^{x}$  so  $t$  must be positive,\n\n<br/><br/> $t=\\frac{\\sqrt{13}-3}{2}\\text{or}\\frac{\\sqrt{29}-5}{2}$ \n<br/><br/>So,  $x=ln(\\frac{\\sqrt{13}-3}{2})$  or  $x=ln(\\frac{\\sqrt{29}-5}{2})$ \n<br/><br/>Hence two solutions and both are negative.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{4x}+8e^{3x}+13e^{2x}-8e^{x}+1=0,x \\in ℝ",
@@ -2683,7 +2681,7 @@
         "z^{2}+8z+15=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:15.028191"
     },
@@ -2729,7 +2727,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x^{2}-4x+[x]+3=x[x]$ </p>\n<p> $\\Rightarrow x^{2}-4x+[x]+3-x[x]=0$ </p>\n<p> $\\Rightarrow (x-1)(x-3)-[x](x-1)=0$ </p>\n<p> $\\Rightarrow (x-1)(x-[x]-3)=0$ </p>\n<p> $\\therefore$   $x=1$ </p>\n<p>or</p>\n<p> $x-[x]-3=0$ </p>\n<p> $\\Rightarrow {x}-3=0$  [As  ${x}=x-[x]$ ]</p>\n<p> $\\Rightarrow {x}=3$ </p>\n<p>But we know,  $0&lt;{x}&lt;1$ </p>\n<p> $\\therefore$   ${x} \\ne 3$ </p>\n<p> $\\therefore$   $x$  has only one solution in ( $-\\infty,\\infty$ ) which is  $x=1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}-4x+[x]+3=x[x]",
@@ -2740,7 +2738,7 @@
         "x-[x]-3=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:15.984273"
     },
@@ -2801,7 +2799,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x^{7}+3x^{5}-13x^{3}-15x=0$ </p>\n<p> $x(x^{6}+3x^{4}-13x^{2}-15)=0$ </p>\n<p> $x=0=\\alpha_{7}$ </p>\n<p>Let  $x^{2}=t$ </p>\n<p> $t^{3}+3t^{2}-13t-15=0$ </p>\n<p> $(t+1)(t+5)(t-3)=0$ </p>\n<p> $t=x^{2}=-1,-5,3$ </p>\n<p> $x= \\pm i, \\pm \\sqrt{5}i, \\pm \\sqrt{3}$ </p>\n<p> $\\alpha_{1},\\alpha_{2}= \\pm \\sqrt{5}i,\\alpha_{3},\\alpha_{4}= \\pm \\sqrt{3},\\alpha_{5},\\alpha_{6}= \\pm i$ </p>\n<p> $\\alpha_{1}\\alpha_{2}-\\alpha_{3}\\alpha_{4}+\\alpha_{5}\\alpha_{6}=5+3+1=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha_{1},\\alpha_{2},....,\\alpha_{7}",
@@ -2812,7 +2810,7 @@
         "x=0=\\alpha_{7}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:49.854524"
     },
@@ -3155,13 +3153,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le5hv330/3bf12c29-312e-4d43-a5a3-c05d3e6a864c/6c2ba9c0-ad16-11ed-8a8c-4d67f5492755/file-1le5hv331.png?format=png"
       ],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "2x^{2}-8x+k=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:13.737634"
     },
@@ -3243,7 +3241,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The givne eqn is :  $x^{2}-12x+[x]+31=0$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow {x}-x=x^{2}-12x+31 \\\\ \\\\ &amp; \\Rightarrow {x}=x^{2}-11x+31 \\end{aligned}$ \n<br/><br/>So,  $0 \\le x^{2}-11x+31&lt;1$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow x^{2}-11x+30 \\le 0 \\\\ \\\\ &amp; \\Rightarrow (x-5)(x-6)&lt;0 \\\\ \\\\ &amp; \\Rightarrow x \\in (5,6) \\\\ \\\\ &amp; \\therefore [x]=5 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore x^{2}-12x+5+31=0 \\\\ \\\\ &amp; \\Rightarrow x^{2}-12x+36=0 \\\\ \\\\ &amp; \\Rightarrow (x-6)^{2}=0 \\Rightarrow x=6 \\end{aligned}$ \n<br/><br/>Hence,  $x \\in \\phi$ \n<br/><br/> $( \\because x \\in (5,6))$ \n<br/><br/> $\\therefore m=0$ \n<br/><br/>Another equation is  $x^{2}-5[x+2]-4=0$ \n<br/><br/><b>Case I :</b>  $x \\ge -2$ \n<br/><br/> $x^{2}-5x-14=0 \\Rightarrow x=7,-2$ \n<br/><br/><b>Case II :</b>  $x&lt;-2$ \n<br/><br/> $\\begin{aligned} &amp; x^{2}+5x+6=0 \\Rightarrow x=-3-2 \\\\ \\\\ &amp; \\therefore x \\in {-3,-2,7} \\end{aligned}$ \n<br/><br/> $\\therefore n=3$ \n<br/><br/>Hence,  $m^{2}+mx+n^{2}=0+0+9=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Roots of Quadratic & Vieta's Relations",
+      "topic_tag": "Location of Roots & Quadratic Inequalities",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to __________. The givne eqn is :",
@@ -3254,7 +3252,7 @@
         "m^{2}+mx+n^{2}=0+0+9=9"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations"
+        "Location of Roots & Quadratic Inequalities"
       ],
       "crawled_at": "2026-09-20T15:44:48.842317"
     },
@@ -3620,13 +3618,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7q9vxzm/482edcf8-ee96-45ef-83c7-507c2a3fb4dc/2cff2b20-2dee-11ed-a744-1fb8f3709cfa/file-1l7q9vxzn.png?format=png"
       ],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "=5-\\frac{5}{3}=\\frac{10}{3}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:17.343969"
     },
@@ -3674,7 +3672,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5ykeybm/9c9e29ec-41a0-441a-a6fa-621f2f2c715d/2f5b3b10-0ae5-11ed-a51c-73986e88f75f/file-1l5ykeybn.png?format=png"
       ],
-      "topic_tag": "Roots of Quadratic & Vieta's Relations",
+      "topic_tag": "Location of Roots & Quadratic Inequalities",
       "difficulty": "Hard",
       "key_formulas": [
         "3x^{2}+(\\alpha-6)x+(\\alpha+3)=0",
@@ -3685,7 +3683,6 @@
         "\\Rightarrow \\alpha^{2}-24\\alpha \\ge 0"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations",
         "Location of Roots & Quadratic Inequalities"
       ],
       "crawled_at": "2026-09-20T15:44:18.414901"
@@ -3732,7 +3729,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A = ( $-$ 3, 1) and B = ( $-$   $\\infty$ ,  $-$ 1]  $∪$  [3,  $\\infty$ )</p>\n<p>So, A  $-$  B = ( $-$ 1, 1)</p>\n<p>B  $-$  A = ( $-$   $\\infty$ ,  $-$ 3]  $∪$  [3,  $\\infty$ ) = R  $-$  ( $-$ 3, 3)</p>\n<p>A  $∩$  B = ( $-$ 3,  $-$ 1]</p>\n<p>and A  $∪$  B = ( $-$   $\\infty$ , 1)  $∪$  [3,  $\\infty$ ) = R  $-$  [1, 3)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "A={x \\in R:|x+1|<2}",
@@ -3743,7 +3740,7 @@
         ") = R"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:19.602312"
     },
@@ -3861,7 +3858,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $\\alpha$ ,  $\\beta$  are roots of x<sup>2</sup>  $-$  4 $\\lambda$ x + 5 = 0</p>\n<p> $\\therefore$   $\\alpha$  +  $\\beta$  = 4 $\\lambda$  and  $\\alpha$  $\\beta$  = 5</p>\n<p>Also,  $\\alpha$ ,  $\\gamma$  are roots of</p>\n<p> $x^{2}-(3\\sqrt{2}+2\\sqrt{3})x+7+3\\sqrt{3}\\lambda=0,\\lambda&gt;0$ </p>\n<p> $\\therefore$   $\\alpha+\\gamma=3\\sqrt{2}+2\\sqrt{3}$ ,  $\\alpha\\gamma=7+3\\sqrt{3}\\lambda$ </p>\n<p> $\\because$   $\\alpha$  is common root</p>\n<p> $\\therefore$   $\\alpha^{2}-4\\lambda\\alpha+5=0$  ....... (i)</p>\n<p>and  $\\alpha^{2}-(3\\sqrt{2}+2\\sqrt{3})\\alpha+7+3\\sqrt{3}\\lambda=0$  ...... (ii)</p>\n<p>From (i) - (ii) : we get  $\\alpha=\\frac{2+3\\sqrt{3}\\lambda}{3\\sqrt{2}+2\\sqrt{3}-4\\lambda}$ </p>\n<p> $\\because$   $\\beta+\\gamma=3\\sqrt{2}$ </p>\n<p> $\\therefore$   $4\\lambda+3\\sqrt{2}+2\\sqrt{3}-2\\alpha=3\\sqrt{2}$ </p>\n<p> $\\Rightarrow 3\\sqrt{2}=4\\lambda+3\\sqrt{2}+2\\sqrt{3}-\\frac{4+6\\sqrt{3}\\lambda}{3\\sqrt{2}+2\\sqrt{3}-4\\lambda}$ </p>\n<p> $\\Rightarrow 8\\lambda^{2}+3(\\sqrt{3}+2\\sqrt{2})\\lambda-4-3\\sqrt{6}=0$ </p>\n<p> $\\therefore$   $\\lambda=\\frac{6\\sqrt{2}-3\\sqrt{2} \\pm \\sqrt{9(11-4\\sqrt{6})+32(4+3\\sqrt{6})}}{16}$ </p>\n<p> $\\therefore$   $\\lambda=\\sqrt{2}$ </p>\n<p> $\\therefore$   $(\\alpha+2\\beta+\\gamma)^{2}=(\\alpha+\\beta+\\beta+\\gamma)^{2}$ </p>\n<p> $=(4\\sqrt{2}+3\\sqrt{2})^{2}$ </p>\n<p> $=(7\\sqrt{2})^{2}=98$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}-4\\lambda x+5=0",
@@ -3872,7 +3869,7 @@
         "x^{2}-(3\\sqrt{2}+2\\sqrt{3})x+7+3\\sqrt{3}\\lambda=0,\\lambda>0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:51.910399"
     },
@@ -4221,7 +4218,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $|x^{2}|-7|x|+9 \\le 0$ </p>\n<p> $\\Rightarrow |x| \\in [\\frac{7-\\sqrt{13}}{2},\\frac{7+\\sqrt{13}}{2}]$ </p>\n<p>As  $x \\in Z$ </p>\n<p>So, x can be  $\\pm 2, \\pm 3, \\pm 4, \\pm 5$ </p>\n<p>Out of these values of x,</p>\n<p> $x=3,-4,-5$ </p>\n<p>satisfy S as well</p>\n<p> $n(S∩T)=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{Let}S={x \\in [-6,3]-{-2,2}:\\frac{|x+3|-1}{|x|-2} \\ge 0}\\text{and}",
@@ -4232,7 +4229,7 @@
         "n(S∩T)=3"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:16.038969"
     },
@@ -4278,7 +4275,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When,  $x^{5}=1$ </p>\n<p>then  $x^{5}-1=0$ </p>\n<p> $\\Rightarrow (x-1)(x^{4}+x^{3}+x^{2}+x+1)=0$ </p>\n<p>Given,  $x^{4}+x^{3}+x^{2}+x+1=0$  has roots  $\\alpha$ ,  $\\beta$ ,  $\\gamma$  and 8.</p>\n<p> $\\therefore$  Roots of  $x^{5}-1=0$  are 1,  $\\alpha$ ,  $\\beta$ ,  $\\gamma$  and 8.</p>\n<p>We know, Sum of p<sup>th</sup> power of n<sup>th</sup> roots of unity = 0. (If p is not multiple of n) or n (If p is multiple of n)</p>\n<p> $\\therefore$  Here, Sum of p<sup>th</sup> power of n<sup>th</sup> roots of unity</p>\n<p> $=1^{p}+\\alpha^{p}+\\beta^{p}+\\gamma^{p}+8^{p}={\\begin{aligned} 0 &amp; ; &amp; Ifpisnotmultipleof5 \\\\ 5 &amp; ; &amp; Ifpismultipleof5 \\end{aligned}$ </p>\n<p>Here,  $p=2021$ , which is not multiple of 5.</p>\n<p> $\\therefore$   $1^{2021}+\\alpha^{2021}+\\beta^{2021}+\\gamma^{2021}+8^{2021}=0$ </p>\n<p> $\\Rightarrow \\alpha^{2021}+\\beta^{2021}+\\gamma^{2021}+8^{2021}=-1$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{4}+x^{3}+x^{2}+x+1=0",
@@ -4289,7 +4286,7 @@
         "1^{2021}+\\alpha^{2021}+\\beta^{2021}+\\gamma^{2021}+8^{2021}=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:17.385056"
     },
@@ -4392,7 +4389,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(e^{2x}-4)(6e^{2x}-5e^{x}+1)=0$ </p>\n<p>Let  $e^{x}=t$ </p>\n<p> $\\therefore$   $(t^{2}-4)(6t^{2}-5t+1)=0$ </p>\n<p> $\\Rightarrow (t^{2}-4)(2t-1)(3t-1)=0$ </p>\n<p> $\\therefore$  t = 2,  $-$ 2,  $\\frac{1}{2}$ ,  $\\frac{1}{3}$ </p>\n<p> $\\therefore$   $e^{x}=2 \\Rightarrow x=ln2$ </p>\n<p> $e^{x}=-2$  (not possible)</p>\n<p> $e^{x}=\\frac{1}{2} \\Rightarrow x=-ln2$ </p>\n<p> $e^{x}=\\frac{1}{3} \\Rightarrow x=-ln3$ </p>\n<p> $\\therefore$  Sum of all real roots</p>\n<p> $=ln2-ln2-ln3$ </p>\n<p> $=-ln3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "(e^{2x}-4)(6e^{2x}-5e^{x}+1)=0",
@@ -4403,7 +4400,7 @@
         "e^{x}=-2"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:19.658071"
     },
@@ -4428,7 +4425,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $x^{8}-x^{7}-x^{6}+x^{5}+3x^{4}-4x^{3}-2x^{2}+4x-1=0$ </p>\n<p> $\\Rightarrow x^{7}(x-1)-x^{5}(x-1)+3x^{3}(x-1)-x(x^{2}-1)+2x(1-x)+(x-1)=0$ </p>\n<p> $\\Rightarrow (x-1)(x^{7}-x^{5}+3x^{3}-x(x+1)-2x+1)=0$ </p>\n<p> $\\Rightarrow (x-1)(x^{7}-x^{5}+3x^{3}-x^{2}-3x+1)=0$ </p>\n<p> $\\Rightarrow (x-1)(x^{5}(x^{2}-1)+3x(x^{2}-1)-1(x^{2}-1))=0$ </p>\n<p> $\\Rightarrow (x-1)(x^{2}-1)(x^{5}+3x-1)=0$ </p>\n<p> $\\therefore$   $x= \\pm 1$  are roots of above equation and  $x^{5}+3x-1$  is a monotonic term hence vanishs at exactly one value of x other than 1 or  $-$ 1.</p>\n<p> $\\therefore$  3 real roots.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{5}(x^{3}-x^{2}-x+1)+x(3x^{3}-4x^{2}-2x+4)-1=0",
@@ -4439,7 +4436,7 @@
         "\\Rightarrow (x-1)(x^{5}(x^{2}-1)+3x(x^{2}-1)-1(x^{2}-1))=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:50.841985"
     },
@@ -4862,7 +4859,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktspksub/97cdca85-848e-4d3b-bc2b-71c3b47b25ac/132e3530-1a1a-11ec-936d-39bc2204656a/file-1ktspksuc.jpeg"
       ],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow a(a-kb)-b(a-kb)=0",
@@ -4873,7 +4870,7 @@
         "k \\in [1,\\frac{5}{2}]"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:22.113731"
     },
@@ -4919,7 +4916,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->|x|<sup>2</sup>  $-$  |x|  $-$  12 = 0<br/><br/> $\\Rightarrow$  (|x| + 3)(|x|  $-$  4) = 0<br/><br/> $\\Rightarrow$  |x| = 4 \n<br/><br/> $\\Rightarrow$  x =  $\\pm$ 4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "12 = 0 is : |x| 2",
@@ -4929,7 +4926,7 @@
         "x ="
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:23.085647"
     },
@@ -4975,7 +4972,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $x=3+\\frac{1}{4+\\frac{1}{3+\\frac{1}{4+\\frac{1}{3+....\\infty}}}}$ <br/><br/>So,  $x=3+\\frac{1}{4+\\frac{1}{x}}=3+\\frac{1}{\\frac{4x+1}{x}}$ <br/><br/> $\\Rightarrow (x-3)=\\frac{x}{(4x+1)}$ <br/><br/> $\\Rightarrow (4x+1)(x-3)=x$ <br/><br/> $\\Rightarrow 4x^{2}-12x+x-3=x$ <br/><br/> $\\Rightarrow 4x^{2}-12x-3=0$ <br/><br/> $x=\\frac{12 \\pm \\sqrt{(12)^{2}+12 \\times 4}}{2 \\times 4}=\\frac{12 \\pm \\sqrt{12(16)}}{8}$ <br/><br/> $=\\frac{12 \\pm 4 \\times 2\\sqrt{3}}{8}=\\frac{3 \\pm 2\\sqrt{3}}{2}$ <br/><br/> $x=\\frac{3}{2} \\pm \\sqrt{3}=1.5 \\pm \\sqrt{3}$ .<br/><br/>But only positive value is accepted<br/><br/>So, x =  $1.5+\\sqrt{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "3+\\frac{1}{4+\\frac{1}{3+\\frac{1}{4+\\frac{1}{3+....\\infty}}}}",
@@ -4986,7 +4983,7 @@
         "\\Rightarrow 4x^{2}-12x+x-3=x"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:24.069027"
     },
@@ -5068,7 +5065,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $kf(k)+2=\\lambda(x-2)(x-3)(x-4)(x-5)$  .... (1)<br/><br/>put x = 0<br/><br/>we get  $\\lambda=\\frac{1}{60}$ <br/><br/>Now, put  $\\lambda$  in equation (1)<br/><br/> $\\Rightarrow kf(k)+2=\\frac{1}{60}(x-2)(x-3)(x-4)(x-5)$ <br/><br/>Put x = 10<br/><br/> $\\Rightarrow 10f(10)+2=\\frac{1}{60}(8)(7)(6)(5)$ <br/><br/> $\\Rightarrow 52-10f(10)=52-26=26$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "f(k)=-\\frac{2}{k}",
@@ -5077,7 +5074,7 @@
         "\\Rightarrow 52-10f(10)=52-26=26"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:52.778826"
     },
@@ -5102,11 +5099,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->(a + b + c)<sup>2</sup> = 1\n<br/><br/> $\\Rightarrow$  a<sup>2</sup>\n + b<sup>2</sup>\n + c<sup>2</sup>\n + 2(ab + bc + ca) = 1\n<br/><br/> $\\Rightarrow$  a<sup>2</sup> + b<sup>2</sup>\n + c<sup>2</sup> = – 3 ….(i)\n<br/><br/> $\\Rightarrow$  ab + bc + ca = 2 ….(ii)\n <br/><br/>Squaring of equation (ii),\n<br/><br/> $\\Rightarrow$  a<sup>2</sup>b<sup>2</sup>\n + b<sup>2</sup>c<sup>2</sup>\n + c<sup>2</sup>a<sup>2</sup>\n + 2(ab<sup>2</sup>c + bc<sup>2</sup>a + ca<sup>2</sup>b) = 4\n<br/><br/> $\\Rightarrow$  a<sup>2</sup>b<sup>2</sup>\n + b<sup>2</sup>c<sup>2</sup>\n + c<sup>2</sup>a<sup>2</sup>\n + 2abc(a + b + c) = 4\n<br/><br/> $\\Rightarrow$  a<sup>2</sup>b<sup>2</sup>\n + b<sup>2</sup>c<sup>2</sup>\n + c<sup>2</sup>a<sup>2</sup>\n + 6 = 4\n<br/><br/> $\\Rightarrow$  a<sup>2</sup>b<sup>2</sup>\n + b<sup>2</sup>c<sup>2</sup>\n + c<sup>2</sup>a<sup>2</sup> = – 2 ….(iii)\n <br/><br/>Squaring of equation (i),\n<br/><br/> $\\Rightarrow$  a<sup>4</sup>\n + b<sup>4</sup>\n + c<sup>4</sup>\n + 2(a<sup>2</sup>b<sup>2</sup>\n + b<sup>2</sup>c<sup>2</sup>\n + c<sup>2</sup>a<sup>2</sup>) = 9\n<br/><br/> $\\Rightarrow$  a<sup>4</sup>\n + b<sup>4</sup>\n + c<sup>4</sup> – 4 = 9\n<br/><br/> $\\Rightarrow$  a<sup>4</sup>\n + b<sup>4</sup>\n + c<sup>4</sup>\n = 13<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:53.858927"
     },
@@ -5131,7 +5128,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->When  $x&gt;5$ <br/><br/> $(x+1)^{2}+(x-5)=\\frac{27}{4}$ <br/><br/> $\\Rightarrow x^{2}+3x-4=\\frac{27}{4}$ <br/><br/> $\\Rightarrow x^{2}+3x-\\frac{43}{4}=0$ <br/><br/> $\\Rightarrow 4x^{2}+12x-43=0$ <br/><br/> $x=\\frac{-12 \\pm \\sqrt{144+688}}{8}$ <br/><br/> $x=\\frac{-12 \\pm \\sqrt{832}}{8}=\\frac{-12 \\pm 28.8}{8}$ <br/><br/> $=\\frac{-3+7.2}{2}$ <br/><br/> $=\\frac{-3+7.2}{2},\\frac{-3-7.2}{2}$ \n<br/><br/>= 2.1, -5.1 [ both are rejected as x should be &gt; 5 ]\n\n<br/><br/>(Therefore no solution)<br/><br/>For  $x \\le 5$ <br/><br/> $(x+1)^{2}-(x-5)=\\frac{27}{4}$ <br/><br/> $x^{2}+x+6-\\frac{27}{4}=0$ <br/><br/> $4x^{2}+4x-3=0$ <br/><br/> $x=\\frac{-4 \\pm \\sqrt{16+48}}{8}$ <br/><br/> $x=\\frac{-4 \\pm 8}{8} \\Rightarrow x=-\\frac{12}{8},\\frac{4}{8}$ <br/><br/> $\\therefore$  So, the equation have two real roots.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "(x+1)^{2}+|x-5|=\\frac{27}{4}",
@@ -5142,7 +5139,7 @@
         "x=\\frac{-12 \\pm \\sqrt{144+688}}{8}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:54.512921"
     },
@@ -5430,7 +5427,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{2}+5\\sqrt{2}x+10=0$ <br/><br/>&amp;  $P_{n}=\\alpha^{n}-\\beta^{n}$  (Given)<br/><br/>Now,  $\\frac{P_{17}P_{20}+5\\sqrt{2}P_{17}P_{19}}{P_{18}P_{19}+5\\sqrt{2}P_{18}^{2}}$  =  $\\frac{P_{17}(P_{20}+5\\sqrt{2}P_{19})}{P_{18}(P_{19}+5\\sqrt{2}P_{18})}$ <br/><br/> $\\frac{P_{17}(\\alpha^{20}-\\beta^{20}+5\\sqrt{2}(\\alpha^{19}-\\beta^{19}))}{P_{18}(\\alpha^{19}-\\beta^{19}+5\\sqrt{2}(\\alpha^{18}-\\beta^{18}))}$ <br/><br/> $\\frac{P_{17}(\\alpha^{19}(\\alpha+5\\sqrt{2})-\\beta^{19}(\\beta+5\\sqrt{2}))}{P_{18}(\\alpha^{18}(\\alpha+5\\sqrt{2})-\\beta^{18}(\\beta+5\\sqrt{2}))}$ <br/><br/>Since,  $\\alpha+5\\sqrt{2}=-10/\\alpha$  ..... (1)<br/><br/>&amp;  $\\beta+5\\sqrt{2}=-10/\\beta$  ....... (2)<br/><br/>Now, put there values in above expression  $=-\\frac{10P_{17}P_{18}}{-10P_{18}P_{17}}=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Roots of Quadratic & Vieta's Relations",
+      "topic_tag": "Location of Roots & Quadratic Inequalities",
       "difficulty": "Hard",
       "key_formulas": [
         "x^{2}+5(\\sqrt{2})x+10=0",
@@ -5441,7 +5438,7 @@
         "\\frac{P_{17}(P_{20}+5\\sqrt{2}P_{19})}{P_{18}(P_{19}+5\\sqrt{2}P_{18})}"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations"
+        "Location of Roots & Quadratic Inequalities"
       ],
       "crawled_at": "2026-09-20T15:44:53.890311"
     },
@@ -5487,7 +5484,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x+1-2log_{2}(3+2^{x})+2log_{4}(10-2^{-x})=0$ <br/><br/> $log_{2}(2^{x+1})-log_{2}(3+2^{x})^{2}+log_{2}(10-2^{-x})=0$ <br/><br/> $log_{2}(\\frac{2^{x+1}.(10-2^{-x})}{(3+2^{x})^{2}})=0$ <br/><br/> $\\frac{2(10.2^{-x}-1)}{(3+2^{x})^{2}}=1$ <br/><br/> $\\Rightarrow 20.2^{x}-2=9+2^{2x}+6.2^{x}$ <br/><br/> $\\therefore$   $(2^{x})^{2}-14(2^{x})+11=0$ <br/><br/>Roots are 2<sup>x<sub>1</sub></sup> &amp; 2<sup>x<sub>2</sub></sup><br/><br/> $\\therefore$  2<sup>x<sub>1</sub></sup> . 2<sup>x<sub>2</sub></sup> = 11<br/><br/>x<sub>1</sub> + x<sub>2</sub> = log<sub>2</sub>(11)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x+1-2log_{2}(3+2^{x})+2log_{4}(10-2^{-x})=0",
@@ -5498,7 +5495,7 @@
         "(2^{x})^{2}-14(2^{x})+11=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:20.903023"
     },
@@ -5544,14 +5541,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x<sup>2</sup> + (20)<sup>1/4</sup>x + (5)<sup>1/2</sup> = 0\n<br/><br/> $\\Rightarrow$  x<sup>2</sup> +  $\\sqrt{5}$  = - (20)<sup>1/4</sup>x\n<br/><br/>Squaring both sides, we get\n<br/><br/> $(x^{2}+\\sqrt{5})^{2}=\\sqrt{20}x^{2}$ <br/><br/> $\\Rightarrow$  x<sup>4</sup> =  $-$ 5  $\\Rightarrow$  x<sup>8</sup> = 25<br/><br/> $\\Rightarrow$   $\\alpha$ <sup>8</sup> +  $\\beta$ <sup>8</sup> = 50<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "(x^{2}+\\sqrt{5})^{2}=\\sqrt{20}x^{2}",
         "x 8 = 25"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:22.200435"
     },
@@ -5597,7 +5594,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $[e^{x}]^{2}+[e^{x}+1]-3=0$ <br/><br/> $\\Rightarrow [e^{x}]^{2}+[e^{x}]+1-3=0$ <br/><br/>Let  $[e^{x}]=t$ <br/><br/> $\\Rightarrow t^{2}+t-2=0$ <br/><br/> $\\Rightarrow t=-2,1$ <br/><br/> $[e^{x}]=-2$  (Not possible)<br/><br/>or  $[e^{x}]=1$   $\\therefore$   $1 \\le e^{x}&lt;2$ <br/><br/> $\\Rightarrow ln(1) \\le x&lt;ln(2)$ <br/><br/> $\\Rightarrow 0 \\le x&lt;ln(2)$ <br/><br/> $\\Rightarrow x \\in [0,ln2)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "[e^{x}]^{2}+[e^{x}+1]-3=0",
@@ -5608,7 +5605,7 @@
         "[e^{x}]=-2"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:23.137518"
     },
@@ -5654,7 +5651,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $\\alpha$  and  $\\beta$  be the roots of  $x^{2}-6x-2=0$ <br/><br/> $\\begin{aligned} \\alpha+\\beta=6 \\\\ \\alpha\\beta=-2 \\end{aligned}$ <br/><br/>and  $\\alpha^{2}-6\\alpha-2=0 \\Rightarrow \\alpha^{2}-2=6\\alpha$ <br/><br/> $\\beta^{2}-6\\beta-2=0 \\Rightarrow \\beta^{2}-2=6\\beta$ <br/><br/> $\\frac{a_{10}-2a_{8}}{3a_{9}}=\\frac{(\\alpha^{10}-\\beta^{10})-2(\\alpha^{8}-\\beta^{8})}{3(\\alpha^{9}-\\beta^{9})}$ <br/><br/> $=\\frac{(\\alpha^{10}-2\\alpha^{8})-(\\beta^{10}-2\\beta^{8})}{3(\\alpha^{9}-\\beta^{9})}$ <br/><br/>Now,  $=\\frac{\\alpha^{8}(\\alpha^{2}-2)-\\beta^{8}(\\beta^{2}-2)}{3(\\alpha^{9}-\\beta^{9})}$ <br/><br/> $=\\frac{\\alpha^{8}(6\\alpha)-\\beta^{8}(6\\beta)}{3(\\alpha^{9}-\\beta^{9})}=\\frac{6(\\alpha^{9}-\\beta^{9})}{3(\\alpha^{9}-\\beta^{9})}=\\frac{6}{3}=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "2 = 0. If a n =",
@@ -5665,7 +5662,7 @@
         "\\beta^{2}-6\\beta-2=0 \\Rightarrow \\beta^{2}-2=6\\beta"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:24.126352"
     },
@@ -5690,7 +5687,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{2}{x-1}-\\frac{1}{x-2}=\\frac{2}{k}$ <br/><br/> $x \\in R-{1,2}$ <br/><br/> $\\Rightarrow k(2x-4-x+1)=2(x^{2}-3x+2)$ <br/><br/> $\\Rightarrow k(x-3)=2(x^{2}-3x+2)$ <br/><br/>for x  $\\ne$  3,  $k=2(x-3+\\frac{2}{x-3}+3)$ <br/><br/> $x-3+\\frac{2}{x-3} \\ge 2\\sqrt{2},∀x&gt;3$ <br/><br/>&amp;  $x-3+\\frac{2}{x-3} \\le -2\\sqrt{2},∀x&lt;-3$ <br/><br/> $\\Rightarrow 2(x-3+\\frac{2}{x-3}+3) \\in (-\\infty,6-4\\sqrt{2}]∪[6+4\\sqrt{2},\\infty)$ <br/><br/>for no real roots<br/><br/> $k \\in (6-4\\sqrt{2},6+4\\sqrt{2})-{0}$ <br/><br/>Integral k $\\in$ {1, 2 ..... 11}<br/><br/>Sum of k = 66<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{2}{x-1}-\\frac{1}{x-2}=\\frac{2}{k}",
@@ -5701,7 +5698,7 @@
         "x-3+\\frac{2}{x-3} \\le -2\\sqrt{2},∀x<-3"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:52.832011"
     },
@@ -6189,7 +6186,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Roots of equation ax<sup>2</sup>\n– 2bx + 5 = 0 are  $\\alpha$ ,  $\\alpha$ .\n<br/><br/> $\\therefore$   $\\alpha$  +  $\\alpha$  =  $\\frac{2b}{a}$ \n<br/><br/> $\\Rightarrow$  2 $\\alpha$  =  $\\frac{2b}{a}$ \n<br/><br/> $\\Rightarrow$   $\\alpha$  =  $\\frac{b}{a}$  ....(1)\n<br/><br/>and  $\\alpha$ <sup>2</sup> =  $\\frac{5}{a}$  ....(2)\n<br/><br/>From (1) and (2), we get\n<br/><br/> $\\frac{b^{2}}{a^{2}}=\\frac{5}{a}$ \n<br/><br/> $\\Rightarrow$  b<sup>2</sup> = 5a\n<br/><br/> $\\alpha$ ,  $\\beta$  are the roots  of equation x<sup>2</sup>\n– 2bx – 10 = 0\n<br/><br/> $\\therefore$   $\\alpha$  +  $\\beta$  = 2b\n<br/><br/>and  $\\alpha$  $\\beta$  = -10\n<br/><br/>As  $\\alpha$  is a root of the equation x<sup>2</sup>\n– 2bx – 10 = 0.\n<br/><br/> $\\therefore$   $\\alpha$ <sup>2</sup> - 2b $\\alpha$  - 10 = 0\n<br/><br/> $\\Rightarrow$   $\\frac{b^{2}}{a^{2}}-\\frac{2b^{2}}{a}-10=0$ \n<br/><br/> $\\Rightarrow$   $\\frac{5a}{a^{2}}-\\frac{10a}{a}-10=0$ \n<br/><br/> $\\Rightarrow$   $\\frac{5}{a}-10-10=0$ \n<br/><br/> $\\Rightarrow$   $a$  =  $\\frac{1}{4}$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{2}$  = 20\n<br/><br/> $\\alpha$  $\\beta$  = -10\n<br/><br/> $\\Rightarrow$  $\\beta^{2}$  = 5\n<br/><br/> $\\therefore$   $\\alpha^{2}+\\beta^{2}$  = 20 + 5 = 25<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2b}{a}",
@@ -6200,7 +6197,7 @@
         "\\frac{5a}{a^{2}}-\\frac{10a}{a}-10=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:28.339429"
     },
@@ -6246,14 +6243,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x<sup>2</sup>\n - x - 1 = 0\n<br/><br/> $\\therefore$   $\\alpha$ <sup>2</sup>\n -  $\\alpha$  - 1 = 0\n<br/><br/> $\\Rightarrow$   $\\alpha$ <sup>2</sup> =  $\\alpha$  + 1\n<br/><br/> $\\therefore$   $\\alpha$ <sup>3</sup> =  $\\alpha$ <sup>2</sup> +  $\\alpha$ \n<br/><br/>=  $\\alpha$  + 1 +  $\\alpha$ \n<br/><br/>= 2 $\\alpha$  + 1\n<br/><br/>Now  $\\alpha$ <sup>4</sup> = 2 $\\alpha$ <sup>2</sup> +  $\\alpha$ \n<br/><br/>= 2( $\\alpha$  + 1) +  $\\alpha$ \n<br/><br/>= 3 $\\alpha$  + 2\n<br/><br/>Now  $\\alpha$ <sup>5</sup> = 3 $\\alpha$ <sup>2</sup> + 2 $\\alpha$ \n<br/><br/>= 3( $\\alpha$  + 1) + 2 $\\alpha$ \n<br/><br/>= 5 $\\alpha$  + 3\n<br/><br/>Given p<sub>k</sub>\n =  $(\\alpha)^{k}+(\\beta)^{k}$ \n<br/><br/> $\\therefore$  p<sub>5</sub> =  $(\\alpha)^{5}+(\\beta)^{5}$ \n<br/><br/>= 5 $\\alpha$  + 3 + 5 $\\beta$  + 3\n<br/><br/>= 5( $\\alpha$  +  $\\beta$ ) + 6\n<br/><br/>= 5(1) + 6 [As  $\\alpha$  +  $\\beta$  = 1]\n<br/><br/>= 11\n<br/><br/>Now p<sub>2</sub> · p<sub>3</sub>\n<br/><br/>= ( $\\alpha$ <sup>2</sup> +  $\\beta$ <sup>2</sup>).( $\\alpha$ <sup>3</sup> +  $\\beta$ <sup>3</sup>)\n<br/><br/>= (  $\\alpha$  + 1 +  $\\beta$  + 1)(2 $\\alpha$  + 1 + 2 $\\beta$  + 1)\n<br/><br/>= (  $\\alpha$  +  $\\beta$  + 2)(2( $\\alpha$  +  $\\beta$ ) + 2)\n<br/><br/>= (1 + 2)(2 + 2) = 12\n<br/><br/> $\\therefore$  p<sub>5</sub>  $\\ne$  p<sub>2</sub> ·p<sub>3</sub>\n<br/><br/>So option (D) is wrong.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\alpha)^{k}+(\\beta)^{k}",
         "(\\alpha)^{5}+(\\beta)^{5}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:29.453799"
     },
@@ -6522,7 +6519,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let tan $\\alpha$  and tan $\\beta$  are the roots of\n<br/><br/>(k + 1)tan<sup>2</sup>x -  $\\sqrt{2}$  .  $\\lambda$ tanx - (1 - k) = 0\n<br/><br/> $\\therefore$  tan $\\alpha$  + tan $\\beta$  =  $\\frac{\\sqrt{2}\\lambda}{k+1}$ \n<br/><br/>and an $\\alpha$ .tan $\\beta$  =  $\\frac{k-1}{k+1}$ \n<br/><br/>Now tan( $\\alpha$  +  $\\beta$ )\n<br/><br/>=  $\\frac{tan\\alpha+tan\\beta}{1-tan\\alpha tan\\beta}$ \n<br/><br/>=  $\\frac{\\frac{\\lambda\\sqrt{2}}{k+1}}{1-\\frac{k-1}{k+1}}$ \n<br/><br/>=  $\\frac{\\lambda\\sqrt{2}}{2}$  =  $\\frac{\\lambda}{\\sqrt{2}}$ \n<br/><br/>Given  $\\frac{\\lambda^{2}}{2}$  = 50\n<br/><br/> $\\Rightarrow$   $\\lambda$  = 10<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Roots of Quadratic & Vieta's Relations",
+      "topic_tag": "Location of Roots & Quadratic Inequalities",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\sqrt{2}\\lambda}{k+1}",
@@ -6533,7 +6530,7 @@
         "\\frac{\\lambda}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations"
+        "Location of Roots & Quadratic Inequalities"
       ],
       "crawled_at": "2026-09-20T15:44:29.482119"
     },
@@ -6611,14 +6608,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->x<sup>2</sup> – 64x + 256 = 0\n<br/><br/> $\\alpha$  +  $\\beta$  = 64,  $\\alpha$  $\\beta$  = 256\n<br/><br/> $(\\frac{\\alpha^{3}}{\\beta^{5}})^{1/8}+(\\frac{\\beta^{3}}{\\alpha^{5}})^{1/8}$ \n<br/><br/>=  $\\frac{\\alpha^{\\frac{3}{8}}}{\\beta^{\\frac{5}{8}}}+\\frac{\\beta^{\\frac{3}{8}}}{\\alpha^{\\frac{5}{8}}}$ \n<br/><br/>=  $\\frac{\\alpha+\\beta}{(\\alpha\\beta)^{\\frac{5}{8}}}$ \n<br/><br/>=  $\\frac{64}{(256)^{\\frac{5}{8}}}$ \n<br/><br/>= 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{\\alpha^{3}}{\\beta^{5}})^{1/8}+(\\frac{\\beta^{3}}{\\alpha^{5}})^{1/8}",
         "="
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:25.044266"
     },
@@ -6664,7 +6661,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\alpha$  and  $\\beta$  are the roots of x<sup>2</sup>  $-$  3x + p = 0<br/><br/> $\\therefore$   $\\alpha$  +  $\\beta$  = 3 and  $\\alpha\\beta$  = p<br/><br/> $\\gamma$  and  $\\delta$  are the roots of x<sup>2</sup>  $-$  6x + q = 0<br/><br/> $\\therefore$   $\\gamma$  +  $\\delta$  = 6 and  $\\gamma\\delta$  = q<br/><br/>Given that,  $\\alpha$ ,  $\\beta$ ,  $\\gamma$ ,  $\\delta$  are in G.P.<br/><br/> $\\therefore$  Let  $\\alpha$  = a,  $\\beta$  = ar,  $\\gamma$  = ar<sup>2</sup> and  $\\delta$  = ar<sup>3</sup><br/><br/>As  $\\alpha$  +  $\\beta$  = 3<br/><br/> $\\Rightarrow$  a + ar = 3<br/><br/> $\\Rightarrow$  a(1 + r) = 3 ...(1)<br/><br/>Also  $\\gamma$  +  $\\delta$  = 6<br/><br/> $\\Rightarrow$  ar<sup>2</sup> + ar<sup>3</sup> = 6<br/><br/> $\\Rightarrow$  ar<sup>2</sup> (1 + r) = 6 ... (2)<br/><br/>Dividing (2) by (1),<br/><br/>r<sup>2</sup> = 2<br/><br/> $\\Rightarrow r=\\sqrt{2}$ <br/><br/> $\\therefore$   $a=\\frac{3}{1+\\sqrt{2}}$ <br/><br/>So,  $\\alpha=\\frac{3}{1+\\sqrt{2}}$ ,  $\\beta=\\frac{3\\sqrt{2}}{1+\\sqrt{2}}$ ,  $\\gamma=\\frac{3 \\times 2}{1+\\sqrt{2}}$ ,  $\\delta=\\frac{3(2\\sqrt{2)}}{1+\\sqrt{2}}$ <br/><br/> $\\therefore$   $p=\\alpha\\beta=\\frac{9\\sqrt{2}}{(1+\\sqrt{2})^{2}}$ <br/><br/>and  $q=\\gamma\\delta=\\frac{36\\sqrt{2}}{(1+\\sqrt{2})^{2}}$ <br/><br/>Now,  $\\frac{2q+p}{2q-p}$ <br/><br/> $=\\frac{\\frac{72\\sqrt{2}}{(1+\\sqrt{2})^{2}}+\\frac{9\\sqrt{2}}{(1+\\sqrt{2})^{2}}}{\\frac{72\\sqrt{2}}{(1+\\sqrt{2})^{2}}-\\frac{9\\sqrt{2}}{(1+\\sqrt{2})^{2}}}$ <br/><br/> $=\\frac{72\\sqrt{2}+9\\sqrt{2}}{72\\sqrt{2}-9\\sqrt{2}}$ <br/><br/> $=\\frac{81}{63}$ <br/><br/> $=\\frac{9}{7}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "3x + p = 0",
@@ -6675,7 +6672,7 @@
         "\\beta=\\frac{3\\sqrt{2}}{1+\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:26.136124"
     },
@@ -6721,13 +6718,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the other root is  $\\alpha$ .\n<br/><br/> $\\therefore$  f(x)\n\n=\n\na(x\n\n–\n\n3)\n\n(x\n\n–\n\n $\\alpha$ )\n\n<br/><br/>f(2) = a( $\\alpha$ – 2)\n\n<br/><br/>f(–1) = 4a(1 +  $\\alpha$ )\n<br/><br/>Given f(–1) + f(2) = 0\n<br/><br/> $\\Rightarrow$ a( $\\alpha$  – 2 + 4 + 4 $\\alpha$ ) = 0\n<br/><br/> $\\Rightarrow$  5 $\\alpha$  = -2      As a  $\\ne$  0\n<br/><br/> $\\Rightarrow$   $\\alpha$  =  $-\\frac{2}{5}$  = - 0.4\n<br/><br/> $\\therefore$   $\\alpha$   $\\in$  (–1, 0)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{2}{5}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:27.239181"
     },
@@ -7428,7 +7425,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the common ratio of G.P is <b>r</b><br/><br/>\nThen the equation of   $\\alpha x^{2}+2\\beta x+\\gamma=0$ <br/><br/>\n $\\Rightarrow$   $\\alpha x^{2}+2\\alpha rx+\\alpha r^{2}=0$ <br/><br/>\n $\\Rightarrow$  x<sup>2</sup> + 2rx + r<sup>2</sup> = 0 ........<b>(i)</b><br/>\nEquation (i) and x<sup>2</sup> + x - 1 = 0 ......... <b>(ii)</b> has a common root.<br/><br/>\nNow (i) - (ii)  $\\Rightarrow$  (2r-1)x + (r<sup>2</sup>+1) = 0<br/><br/>\n $\\Rightarrow$  x =  $\\frac{-(r^{2}+1)}{2r-1}$  ....... <b>(iii)</b><br/><br/>\nNow putting (iii) in equation (ii) <br/><br/>\n $\\Rightarrow$  (r<sup>2</sup>+1)<sup>2</sup> - (r<sup>2</sup>+1) (2r - 1) -  (2r - 1)<sup>2</sup> = 0<br/><br/>\n $\\Rightarrow$  r<sup>4</sup> - 2r<sup>3</sup> - r<sup>2</sup> + 2r + 1 = 0 ..........<b> (iv)</b><br/><br/>\ndividing equation (iv) by r<sup>2</sup><br/><br/>\n $\\Rightarrow$  r<sup>2</sup> - 2r - 1 +  $\\frac{2}{r}+\\frac{1}{r^{2}}=0$ <br/><br/>\n $\\Rightarrow$   $(r-\\frac{1}{r})^{2}-2(r-\\frac{1}{r})+1=0$ <br/><br/>\n $\\Rightarrow$   $(r-\\frac{1}{r}-r)^{2}=0$ <br/><br/>\n $\\Rightarrow$   $\\frac{r^{2}-1}{r}=1$   $\\Rightarrow$  r<sup>2</sup> = 1 + r<br/><br/>\nNow  $\\alpha$ ( $\\beta$  +  $\\gamma$ )  $\\Rightarrow$   $\\alpha$ ( $\\alpha$ r +  $\\alpha$ r<sup>2</sup>)<br/><br/>  $\\Rightarrow$   $\\alpha^{2}r(1+r)$    [ $\\because$   r<sup>2</sup> = 1 + r]<br/><br/>\n $\\Rightarrow$   $\\alpha^{2}r.r^{2}$   $\\Rightarrow$   $(\\alpha r)(\\alpha r^{2})$   $\\Rightarrow$   $\\beta$  $\\gamma$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha x^{2}+2\\beta x+\\gamma=0",
@@ -7439,7 +7436,7 @@
         "(r-\\frac{1}{r}-r)^{2}=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:29.507820"
     },
@@ -7967,7 +7964,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, \n<br/><br/> $\\frac{1}{x+p}+\\frac{1}{x+q}=\\frac{1}{r}$ \n<br/><br/> $\\Rightarrow$   $\\frac{x+p+x+q}{(x+p)(x+q)}=\\frac{1}{r}$ \n<br/><br/> $\\Rightarrow$  (2x + p + q) r = x<sup>2</sup> + px + qx + pq\n<br/><br/> $\\Rightarrow$  x<sup>2</sup> + (p + q  $-$  2r) x + pq  $-$  pr  $-$  qr = 0\n<br/><br/>Let  $\\alpha$  and  $\\beta$  are the roots, \n<br/><br/> $\\therefore$   $\\alpha$  +  $\\beta$  =  $-$  (p + q  $-$  2r)\n<br/><br/>and  $\\alpha$   $\\beta$  = pq  $-$  pr  $-$  qr\n<br/><br/>Given that,   $\\alpha$  =  $-$   $\\beta$   $\\Rightarrow$   $\\alpha$ \n +  $\\beta$  = 0\n<br/><br/> $\\therefore$   $-$  (p + q  $-$  2r) = 0\n<br/><br/>Now,  $\\alpha$ <sup>2</sup> +  $\\beta$ <sup>2</sup>\n<br/><br/>= ( $\\alpha$  +  $\\beta$ )<sup>2</sup>  $-$  2 $\\alpha$   $\\beta$ \n<br/><br/>= ( $-$  (p + q  $-$  2r))<sup>2</sup>  $-$  2 (pq  $-$  pr  $-$  qr)\n<br/><br/>= p<sup>2</sup> +q<sup>2</sup> + 4r<sup>2</sup> + 2pq  $-$  4pr  $-$  4qr  $-$   2pq + 2pr + 2qr\n<br/><br/>= p<sup>2</sup> + q<sup>2</sup> + 4r<sup>2</sup>  $-$  2pr  $-$  2qr\n<br/><br/>= p<sup>2</sup> + q<sup>2</sup>  $-$  2r (p + q  $-$  2r)\n<br/><br/>= p<sup>2</sup> + q<sup>2</sup>  $-$   2r (0)\n<br/><br/>= p<sup>2</sup> + q<sup>2</sup> <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{x+p}+\\frac{1}{x+q}=\\frac{1}{r}",
@@ -7978,7 +7975,7 @@
         "2 = ("
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:33.280823"
     },
@@ -8195,7 +8192,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We know, 2<sup>x</sup> = 1 only when  x = 0.\n<br/><br/>Similarly, 2<sup>(x $-$ 1)(x<sup>2</sup> + 5x  $-$  50)</sup> = 1 when\n<br/><br/>(x $-$ 1)(x<sup>2</sup> + 5x  $-$  50) = 0\n<br/><br/> $\\Rightarrow$  (x - 1)(x + 10)(x - 5) = 0\n<br/><br/> $\\therefore$  x = 1, -10, 5\n<br/><br/>Sum of real values of x = 1 + (-10) + 5 = -4<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "50) = 1 is : We know, 2 x = 1 only when x = 0. Similarly, 2 (x",
@@ -8204,7 +8201,7 @@
         "(x - 1)(x + 10)(x - 5) = 0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:35.569057"
     },
@@ -8364,7 +8361,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,\n<br/><br/>x<sup>2</sup> + bx  $-$  1 = 0 . . . . .(1)\n<br/><br/>and x<sup>2</sup> + x + b = 0 . . . . . (2)\n<br/><br/>Performing (1)  $-$  (2) we get, \n<br/><br/>bx  $-$  1  $-$  x  $-$  b = 0\n<br/><br/> $\\Rightarrow$     x(b  $-$  1) = b + 1\n<br/><br/> $\\Rightarrow$    x =  $\\frac{b+1}{b-1}$ \n<br/><br/>putting value of x in equation (2),\n<br/><br/> $(\\frac{b+1}{b-1})^{2}+(\\frac{b+1}{b-1})+b=0$ \n<br/><br/> $\\Rightarrow$    (b + 1)<sup>2</sup> + (b + 1) (b  $-$  1) + b (b  $-$  1)<sup>2</sup> = 0\n<br/><br/> $\\Rightarrow$     b<sup>2</sup> + 2b + 1 + b<sup>2</sup>  $-$  1 + b (b<sup>2</sup>  $-$  2b + 1) = 0\n<br/><br/> $\\Rightarrow$     2b<sup>3</sup> + 2b + b<sup>3</sup>  $-$  2b<sup>2</sup>  + b = 0\n<br/><br/> $\\Rightarrow$      b<sup>3</sup> + 3b = 0\n<br/><br/> $\\Rightarrow$     b(b<sup>2</sup> + 3) = 0\n<br/><br/>b<sup>2</sup> =  $-$  3, b = 0\n<br/><br/> $\\therefore$     b =  $\\pm \\sqrt{3}i$ \n<br/><br/> $\\Rightarrow$      $|b|$  =  $\\sqrt{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "1 = 0 . . . . .(1) and x 2 + x + b = 0 . . . . . (2) Performing (1)",
@@ -8375,7 +8372,7 @@
         "2b + 1) = 0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:36.578991"
     },
@@ -8528,7 +8525,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given equation, x<sup>2</sup> - 6x - 2 = 0\n<br/><br/> Roots are  $\\alpha$  and  $\\beta$ .\n<br/><br/>So,  $\\alpha+\\beta=6$  and  $\\alpha\\beta=-2$ \n<br/><br/>In the question given,  $a_{n}=\\alpha^{n}-\\beta^{n}$ \n<br/><br/> $\\therefore$   $a_{8}=\\alpha^{8}-\\beta^{8}$ \n<br/><br/>and  $a_{9}=\\alpha^{9}-\\beta^{9}$ \n<br/><br/>and  $a_{10}=\\alpha^{10}-\\beta^{10}$ \n<br/><br/>Now, the given equation\n<br/><br/> $\\frac{a_{10}-2a_{8}}{2a_{9}}$ \n<br/><br/>=  $\\frac{\\alpha^{10}-\\beta^{10}-2(\\alpha^{8}-\\beta^{8})}{2(\\alpha^{9}-\\beta^{9})}$ \n<br/><br/>= $\\frac{\\alpha^{10}-\\beta^{10}+\\alpha\\beta(\\alpha^{8}-\\beta^{8})}{2(\\alpha^{9}-\\beta^{9})}$  (as  $\\alpha\\beta=-2$ )\n<br/><br/>= $\\frac{\\alpha^{10}-\\beta^{10}+\\alpha^{9}\\beta-\\alpha\\beta^{9}}{2(\\alpha^{9}-\\beta^{9})}$ \n<br/><br/>=  $\\frac{\\alpha^{9}(\\alpha+\\beta)-\\beta^{9}(\\alpha+\\beta)}{2(\\alpha^{9}-\\beta^{9})}$ \n<br/><br/>=  $\\frac{(\\alpha+\\beta)(\\alpha^{9}-\\beta^{9})}{2(\\alpha^{9}-\\beta^{9})}$ \n<br/><br/>=  $\\frac{(\\alpha+\\beta)}{2}$ \n<br/><br/>=  $\\frac{6}{2}$  (as  $\\alpha+\\beta$  = 6)\n<br/><br/>= 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}-6x-2=0",
@@ -8539,7 +8536,7 @@
         "a_{n}=\\alpha^{n}-\\beta^{n}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:36.634009"
     },
@@ -8756,7 +8753,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given equation is  $e^{sinx}-e^{-sinx}-4=0$ \n<br/><br/>Put  $e^{sinx}=t$  in the given equation, \n<br/><br/>we get  $t^{2}-4t-1=0$ \n<br/><br/> $\\Rightarrow t=\\frac{4 \\pm \\sqrt{16+4}}{2}$ \n<br/><br/> $=\\frac{4 \\pm \\sqrt{20}}{2}$ \n<br/><br/> $=\\frac{4 \\pm 2\\sqrt{5}}{2}$ \n<br/><br/> $=2 \\pm \\sqrt{5}$ \n<br/><br/> $\\Rightarrow e^{sinx}=2 \\pm \\sqrt{5}$   (as  $t=e^{sinx}$ )\n<br/><br/> $\\Rightarrow e^{sinx}=2-\\sqrt{5}$  and \n<br/><br/>  $e^{sinx}=2+\\sqrt{5}$ \n<br/><br/> $\\Rightarrow e^{sinx}=2-\\sqrt{5}&lt;0$ \n<br/><br/>and  $sinx=ln(2+\\sqrt{5})&gt;1$  So, rejected\n<br/><br/>Hence given equation has no solution.\n<br/><br/> $\\therefore$  The equation has no real roots.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{sinx}-e^{-sinx}-4=0",
@@ -8767,7 +8764,7 @@
         "=\\frac{4 \\pm 2\\sqrt{5}}{2}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:38.314150"
     },
@@ -8984,7 +8981,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Statements  $2$  is   $\\sqrt{n(n+1)}&lt;n+1,n \\ge 2$ \n<br/><br/> $\\Rightarrow \\sqrt{n}&lt;\\sqrt{n+1},n \\ge 2$  which is true\n<br/><br/> $\\Rightarrow \\sqrt{2}&lt;\\sqrt{3}&lt;\\sqrt{4}&lt;\\sqrt{5}&lt;------\\sqrt{n}$ \n<br/><br/>Now  $\\sqrt{2}&lt;\\sqrt{n} \\Rightarrow \\frac{1}{\\sqrt{2}}&gt;\\frac{1}{\\sqrt{n}}$ \n<br/><br/> $\\sqrt{3}&lt;\\sqrt{n} \\Rightarrow \\frac{1}{\\sqrt{3}}&gt;\\frac{1}{\\sqrt{n}};$ \n<br/><br/> $\\sqrt{n} \\le \\sqrt{n} \\Rightarrow \\frac{1}{\\sqrt{n}} \\ge \\frac{1}{\\sqrt{n}}$ \n<br/><br/>Also  $\\frac{1}{\\sqrt{1}}&gt;\\frac{1}{\\sqrt{n}}$ \n<br/><br/> $\\therefore$  Adding all, we get \n<br/><br/> $\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{3}}+.......+\\frac{1}{n}&gt;\\frac{n}{\\sqrt{n}}=\\sqrt{n}$ \n<br/><br/>Hence both the statements are correct and statement  $2$  is a correct explanation of statement  $-1.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{\\sqrt{1}}+\\frac{1}{\\sqrt{2}}+........+\\frac{1}{\\sqrt{n}}>\\sqrt{n}.",
@@ -8994,7 +8991,7 @@
         "\\frac{1}{\\sqrt{1}}>\\frac{1}{\\sqrt{n}}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:39.282640"
     },
@@ -9097,7 +9094,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Equation  $x^{2}-2mx+m^{2}-1=0$ \n<br/><br/> $(x-m)^{2}-1=0$ \n<br/><br/>or  $(x-m+1)(x-m-1)=0$ \n<br/><br/> $x=m-1,m+1$ \n<br/><br/> $m-1&gt;-2$  and  $m+1&lt;4$ \n<br/><br/> $\\Rightarrow m&gt;-1$  and  $m&lt;3$ \n<br/><br/>or  $-1&lt;m&lt;3$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "(x-m)^{2}-1=0",
@@ -9105,7 +9102,7 @@
         "x=m-1,m+1"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:40.166238"
     },
@@ -9208,7 +9205,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let n and (n + 1) be the roots of x<sup>2</sup>  $-$  bx + c = 0.</p>\n<p>Then, n + (n + 1) = b and n(n + 1) = c</p>\n<p> $\\therefore$  b<sup>2</sup>  $-$  4c = (2n + 1)<sup>2</sup>  $-$  4n(n + 1)</p>\n<p>= 4n<sup>2</sup> + 4n + 1  $-$  4n<sup>2</sup>  $-$  4n = 1</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{2}-bx+c=0",
@@ -9218,7 +9215,7 @@
         "4n(n + 1) = 4n 2 + 4n + 1"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:41.350773"
     },
@@ -9264,7 +9261,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\angle$ R = 90<sup>o</sup>  $\\therefore$   $\\angle$ P +  $\\angle$ Q = 90<sup>o</sup>\n<br/><br/> $\\Rightarrow$   $\\frac{P}{2}+\\frac{Q}{2}=\\frac{90}{2}=45$ <sup>o</sup>\n<br/><br/> $tan(\\frac{P}{2}),tan(\\frac{Q}{2})$  are the roots of  $ax^{2}+bx+c=0$ \n<br/><br/> $\\therefore$   $tan(\\frac{P}{2})+tan(\\frac{Q}{2})=-\\frac{b}{a},$ \n<br/><br/>and  $tan(\\frac{P}{2}).tan(\\frac{Q}{2})=\\frac{c}{a}$ \n<br/><br/> $\\frac{tan(\\frac{P}{2})+tan(\\frac{Q}{2})}{1-tan(\\frac{P}{2})tan(\\frac{Q}{2})}$ \n<br/><br/> $=tan(\\frac{P}{2}+\\frac{Q}{2})$ = tan 45<sup>o</sup> = 1\n<br/><br/> $\\Rightarrow \\frac{-\\frac{b}{a}}{1-\\frac{c}{a}}=1$ \n<br/><br/> $\\Rightarrow -\\frac{b}{a}=\\frac{a}{a}-\\frac{c}{a}$ \n<br/><br/> $\\Rightarrow -b=a-c$  or  $c=a+b.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "PQR,\\angleR=\\frac{\\pi}{2}.Iftan(\\frac{P}{2})",
@@ -9275,7 +9272,7 @@
         "ax^{2}+bx+c=0"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:42.111579"
     },
@@ -9378,7 +9375,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{2}-(a-2)x-a-1=0$ \n<br/><br/> $\\Rightarrow \\alpha+\\beta=a-2;\\alpha\\beta=-(a+1)$ \n<br/><br/> $\\alpha^{2}+\\beta^{2}=(\\alpha+\\beta)^{2}-2\\alpha\\beta$ \n<br/><br/> $=a^{2}-2a+6=(a-1)^{2}+5$ \n<br/><br/>For min. value of  $\\alpha^{2}+\\beta^{2}$  where  $\\alpha$  is an integer\n<br/><br/> $\\Rightarrow a=1.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\alpha+\\beta=a-2;\\alpha\\beta=-(a+1)",
@@ -9388,7 +9385,7 @@
         "\\Rightarrow a=1."
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:40.223522"
     },
@@ -9888,7 +9885,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\alpha,\\beta$  and  $\\gamma,\\delta$  be the roots of the equations  $x^{2}+ax+b=0$ \n<br/><br/>and  $x^{2}+bx+a=0$  respectively.\n<br/><br/> $\\therefore$   $\\alpha+\\beta=-a,\\alpha\\beta=b$ \n<br/><br/>and  $\\gamma+\\delta=-b,\\gamma\\delta=a.$ \n<br/><br/>Given  $|\\alpha-\\beta|=|\\gamma-\\delta|$ \n<br/><br/> $\\Rightarrow (\\alpha-\\beta)^{2}=(\\gamma-\\delta)^{2}$ \n<br/><br/> $\\Rightarrow (\\alpha+\\beta)^{2}-4\\alpha\\beta=(\\gamma+\\delta)^{2}-4\\gamma\\delta$ \n<br/><br/> $\\Rightarrow a^{2}-4b=b^{2}-4a$ \n<br/><br/> $\\Rightarrow (a^{2}-b^{2})+4(a-b)=0$ \n<br/><br/> $\\Rightarrow a+b+4=0$ \n<br/><br/>( as  $a \\ne b$  )<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+ax+b=0",
@@ -9899,7 +9896,7 @@
         "\\Rightarrow (\\alpha-\\beta)^{2}=(\\gamma-\\delta)^{2}"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:43.860845"
     },
@@ -9945,7 +9942,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As  $(a-b)^{2}+(b-c)^{2}+(c-a)^{2}&gt;0$ \n<br/><br/> $\\Rightarrow 2(a^{2}+b^{2}+c^{2}-ab-bc-ca)&gt;0$ \n<br/><br/> $\\Rightarrow 2&gt;2(ab+bc+ca)$ \n<br/><br/> $\\Rightarrow ab+bc+ca&lt;1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Roots of Quadratic & Vieta's Relations",
+      "topic_tag": "Location of Roots & Quadratic Inequalities",
       "difficulty": "Easy",
       "key_formulas": [
         "a^{2}+b^{2}+c^{2}=1",
@@ -9953,7 +9950,7 @@
         "\\Rightarrow 2(a^{2}+b^{2}+c^{2}-ab-bc-ca)>0"
       ],
       "key_concepts": [
-        "Roots of Quadratic & Vieta's Relations"
+        "Location of Roots & Quadratic Inequalities"
       ],
       "crawled_at": "2026-09-20T15:44:43.885230"
     },
@@ -9999,7 +9996,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $p+q=-p$  and  $pq=q \\Rightarrow q(p-1)=0$ \n<br/><br/> $\\Rightarrow q=0$  or  $p=1.$ \n<br/><br/>If  $q=0,$  then  $p=0.$  i.e. $p=q$ \n<br/><br/> $\\therefore$   $p=1$  and  $q=-2.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Location of Roots & Quadratic Inequalities",
+      "topic_tag": "Roots of Quadratic & Vieta's Relations",
       "difficulty": "Easy",
       "key_formulas": [
         "\\Rightarrow q=0",
@@ -10010,7 +10007,7 @@
         "p=1"
       ],
       "key_concepts": [
-        "Location of Roots & Quadratic Inequalities"
+        "Roots of Quadratic & Vieta's Relations"
       ],
       "crawled_at": "2026-09-20T15:44:43.913284"
     },

@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The path of the drone is given by</p>\n<p> $3y=x^{3}-3$ </p>\n<p>The statement says that the  $y$ -coordinate changes  $9$  times as fast as the  $x$ -coordinate.</p>\n<p>This means</p>\n<p> $\\frac{dy}{dx}=9$ </p>\n<p>Now differentiate the given equation with respect to  $x$ :</p>\n<p> $3y=x^{3}-3$ </p>\n<p> $3\\frac{dy}{dx}=3x^{2}$ </p>\n<p>So,</p>\n<p> $\\frac{dy}{dx}=x^{2}$ </p>\n<p>At the required instant,</p>\n<p> $x^{2}=9$ </p>\n<p> $x= \\pm 3$ </p>\n<p>Now check the points on the curve.</p>\n<p>For  $x=3$ :</p>\n<p> $3y=3^{3}-3$ </p>\n<p> $3y=27-3=24$ </p>\n<p> $y=8$ </p>\n<p>So one position is</p>\n<p> $(3,8)$ </p>\n<p>Hence the correct option is</p>\n<p> $\\text{Option C}(3,8)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "3y=x^{3}-3",
@@ -112,7 +112,7 @@
         "x=3"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.002881"
     },
@@ -269,13 +269,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=xe^{x(1-x)}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.472909"
     },
@@ -321,14 +321,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\because f(x)=x^{3}-6x^{2}+12x-3 \\\\ &amp; \\Rightarrow f^{'}(x)=3x^{2}-12x+12 \\\\ &amp; \\Rightarrow f^{''}(x)=6x-12=6(x-2) \\\\ &amp; \\Rightarrow f^{''}(2)=0 \\end{aligned} \\\\ &amp; \\text{Hence,}x=2\\text{is a point of inflexion.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{3}-6x^{2}+12x-3",
         "x=2"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:10.280206"
     },
@@ -802,7 +802,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$ </p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =12sin^{2}x \\cdot cosx-12sinxcosx+12cosx \\\\ &amp; =12cosx[sin^{2}x-sinx+1] \\\\ &amp; =12cosx[sin^{2}x+(1-sinx)] \\end{aligned}$ </p>\n<p>We know,  $1-sinx \\ge 0$  and  $sin^{2}x \\ge 0$ </p>\n<p> $\\therefore sin^{2}x+1-sinx&gt;0$ </p>\n<p>Therefore,  $f^{'}(x)&gt;0$ , when  $cosx&gt;0 \\Rightarrow x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$ </p>\n<p>So,  $f(x)$  is increasing when  $x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$  and  $f^{'}(x)&lt;0$ , when  $cosx&lt;0 \\Rightarrow x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>So,  $f(x)$  is decreasing when  $x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>Hence,  $f(x)$  is decreasing in  $(\\frac{\\pi}{2},\\pi)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=4sin^{3}x-6sin^{2}x+12sinx+100",
@@ -813,7 +813,7 @@
         "f^{'}(x)<0"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.079992"
     },
@@ -859,7 +859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=log(1+x)-\\frac{2x}{2+x}$ </p>\n<p>Differentiating the function w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=\\frac{1}{(1+x)}(0+1)-2[\\frac{(2+x) \\times 1-x(0+1)}{(2+x)^{2}}] \\\\ &amp; =\\frac{1}{1+x}-2[\\frac{2+x-x}{(2+x)^{2}}]=\\frac{1}{1+x}-\\frac{4}{(2+x)^{2}} \\\\ &amp; =\\frac{(2+x)^{2}-4(1+x)}{(1+x)(2+x)^{2}}=\\frac{4+x^{2}+4x-4-4x}{(x+1)(x+2)^{2}} \\\\ &amp; =\\frac{x^{2}}{(x+1)(x+2)^{2}}=(\\frac{x}{x+2})^{2} \\cdot \\frac{1}{(x+1)} \\end{aligned}$ </p>\n<p>Sign of  $f^{'}(x)$  depends on the sign of  $\\frac{1}{(x+1)}$ </p>\n<p> $f^{'}(x)&gt;0$  when  $x&gt;-1 \\Rightarrow$  increasing</p>\n<p> $f^{'}(x)&lt;0$  when  $x&lt;-1 \\Rightarrow$  decreasing</p>\n<p>Hence,  $f(x)$  is increasing on  $(-1,\\infty)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=log(1+x)-\\frac{2x}{2+x}",
@@ -867,7 +867,7 @@
         "f^{'}(x)<0"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:10.804936"
     },
@@ -965,7 +965,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=-x^{3}+3x^{2}+2x-27$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{dy}{dx}=-3x^{2}+6x+2$ </p>\n<p>Slope of the curve  $=-3x^{2}+6x+2$ </p>\n<p>Let  $m=-3x^{2}+6x+2$ </p>\n<p> $\\therefore \\frac{dm}{dx}=-6x+6$ </p>\n<p>Put  $\\frac{dm}{dx}=0$  to find the critical points,</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; -6x+6=0 \\\\ \\Rightarrow &amp; x=1 \\\\ &amp; (\\frac{d^{2}m}{dx^{2}})_{x=1}=-6&lt;0 \\end{aligned}$ </p>\n<p>Slope is maximum at  $x=1$ </p>\n<p>The maximum slope,</p>\n<p> $\\begin{aligned} m_{max} &amp; =-3(1)^{2}+6(l)+2 \\\\ &amp; =-3+6+2=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "y=-x^{3}+3x^{2}+2x-27",
@@ -973,7 +973,7 @@
         "\\frac{dm}{dx}=0"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.360847"
     },
@@ -1019,14 +1019,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $C(x)=20x+4000$ </p>\n<p> $R(x)=60x+2000$ </p>\n<p> $x=$  number of items produced and sold</p>\n<p>To earn profit,  $R(x)-C(x)&gt;0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 60x+2000-20x-4000&gt;0 \\\\ \\Rightarrow &amp; 40x-2000&gt;0 \\\\ \\Rightarrow &amp; 40x&gt;2000 \\\\ \\Rightarrow &amp; x&gt;50 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "c(x)=20x+4000",
         "R(x)=60x+2000"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.112747"
     },
@@ -1236,13 +1236,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that the surface area of cube is given by  $S=6x^{2}$ </p>\n<p> $\\begin{aligned} \\therefore \\frac{dS}{dx} &amp; =12x^{2} \\\\ \\Delta x &amp; =5%\\text{of}x=0.05x \\end{aligned}$ </p>\n<p>The surface area of a cube is increased by  $=\\frac{\\Delta S}{S} \\times 100%$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{(\\frac{dS}{dx})\\Delta x}{S} \\times 100% \\\\ &amp; =\\frac{12x \\times (0.05x)}{6x^{2}} \\times 100% \\\\ &amp; =0.10 \\times 100%=10% \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "S=6x^{2}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.419804"
     },
@@ -1288,14 +1288,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=\\frac{log_{e}x}{x}$ </p>\n<p> $\\Rightarrow \\frac{dy}{dx}=\\frac{x \\cdot \\frac{1}{x}-log_{e}x \\cdot 1}{x^{2}}=\\frac{1-log_{e}x}{x^{2}}$ </p>\n<p>For maximum, put  $\\frac{dy}{dx}=0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 1-log_{e}x=0 \\\\ \\Rightarrow &amp; log_{e}x=1 \\\\ \\Rightarrow &amp; x=e \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}\\frac{d^{2}y}{dx^{2}}=\\frac{x^{2}(0-\\frac{1}{x})-(1-log_{e}x)(2x)}{x^{4}} \\\\ &amp; =\\frac{-x-2x(1-log_{e}x)}{x^{4}} \\\\ &amp; \\therefore (\\frac{d^{2}y}{dx^{2}})_{\\text{at}x=e}&lt;0 \\\\ &amp; \\therefore y(e)=\\frac{log_{e}e}{e}=\\frac{1}{e} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{log_{e}x}{x}",
         "y=\\frac{log_{e}x}{x}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:26:11.457306"
     },
@@ -1343,13 +1343,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{3}-6x^{2}+9x+10"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:26:11.665296"
     },

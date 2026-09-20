@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Take</p>\n<p>$$ y=\\cos^{-1}(4x^3-3x) $$</p>\n<p>and</p>\n<p>$$ t=\\cos^{-1}(2x^2-1) $$</p>\n<p>We need</p>\n<p>$$ \\frac{d^2y}{dt^2} $$</p>\n<p>Since $\\frac{1}{2}<x<1$, can=\"\" p=\"\" we=\"\" write<=\"\">\n<p>$$ x=\\cos \\theta $$</p>\n<p>where</p>\n<p>$$ 0&lt;\\theta&lt;\\frac{\\pi}{3} $$</p>\n<p>Now use the standard identities:</p>\n<p>$$ 4\\cos^3\\theta-3\\cos\\theta=\\cos 3\\theta $$</p>\n<p>and</p>\n<p>$$ 2\\cos^2\\theta-1=\\cos 2\\theta $$</p>\n<p>So,</p>\n<p>$$ y=\\cos^{-1}(\\cos 3\\theta) $$</p>\n<p>Since $0&lt;3\\theta&lt;\\pi$, we get</p>\n<p>$$ y=3\\theta $$</p>\n<p>Also,</p>\n<p>$$ t=\\cos^{-1}(\\cos 2\\theta) $$</p>\n<p>Since $0&lt;2\\theta&lt;\\pi$, we get</p>\n<p>$$ t=2\\theta $$</p>\n<p>Thus,</p>\n<p>$$ y=3\\theta,\\qquad t=2\\theta $$</p>\n<p>So,</p>\n<p>$$ y=\\frac{3}{2}t $$</p>\n<p>Hence,</p>\n<p>$$ \\frac{dy}{dt}=\\frac{3}{2} $$</p>\n<p>and</p>\n<p>$$ \\frac{d^2y}{dt^2}=0 $$</p>\n<p>So the correct option is</p>\n<p>$$ \\boxed{0} $$</p>\n<p>Option A.</p></x<1$,></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(4x^{3}-3x)",
@@ -55,7 +55,7 @@
         "\\frac{d^2y}{dt^2}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:22.868840"
     },
@@ -212,14 +212,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}$ </p>\n<p>and</p>\n<p> $x\\frac{dy}{dx}-y=0$ </p>\n<p>From the second equation,</p>\n<p> $x\\frac{dy}{dx}=y$ </p>\n<p>So,</p>\n<p> $\\frac{dy}{dx}=\\frac{y}{x}$ </p>\n<p>Now take logarithm on both sides of</p>\n<p> $\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}$ </p>\n<p>We get</p>\n<p> $log(x^{1/2}y^{1/3})=log((x+y)^{n})$ </p>\n<p>Using laws of logarithms,</p>\n<p> $\\frac{1}{2}logx+\\frac{1}{3}logy=nlog(x+y)$ </p>\n<p>Differentiate both sides with respect to  $x$ :</p>\n<p> $\\frac{1}{2x}+\\frac{1}{3} \\cdot \\frac{1}{y}\\frac{dy}{dx}=n \\cdot \\frac{1+\\frac{dy}{dx}}{x+y}$ </p>\n<p>Now substitute</p>\n<p> $\\frac{dy}{dx}=\\frac{y}{x}$ </p>\n<p>So the left side becomes</p>\n<p> $\\frac{1}{2x}+\\frac{1}{3} \\cdot \\frac{1}{y} \\cdot \\frac{y}{x}=\\frac{1}{2x}+\\frac{1}{3x}=\\frac{5}{6x}$ </p>\n<p>The right side becomes</p>\n<p> $n \\cdot \\frac{1+\\frac{y}{x}}{x+y}=n \\cdot \\frac{\\frac{x+y}{x}}{x+y}=\\frac{n}{x}$ </p>\n<p>So,</p>\n<p> $\\frac{5}{6x}=\\frac{n}{x}$ </p>\n<p>Hence,</p>\n<p> $n=\\frac{5}{6}$ </p>\n<p>So the correct option is</p>\n<p> $\\frac{5}{6}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{x}\\sqrt[3]{}=(x+y)^{n}",
         "x\\frac{dy}{dx}-y=0"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:22.905505"
     },
@@ -265,7 +265,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; y=\\frac{cosx}{1+sinx} \\\\ &amp; y^{'}=\\frac{-sinx(1+sinx)-cosx(cosx)}{(1+sinx)^{2}}=\\frac{-(1+sinx)}{(1+sinx)^{2}} \\\\ &amp; y^{'}=\\frac{-1}{(cos\\frac{x}{2}+sin\\frac{x}{2})^{2}}=\\frac{-1}{1+sinx} \\\\ &amp; =\\frac{-1}{2 \\cdot (\\frac{1}{\\sqrt{2}} \\cdot cos\\frac{x}{2}+\\frac{1}{\\sqrt{2}}sin\\frac{x}{2})^{2}}=\\frac{-1}{2 \\cdot cos^{2}(\\frac{\\pi}{4}-\\frac{x}{2})} \\\\ &amp; =\\frac{-1}{2} \\cdot sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=\\frac{cosx}{1+sinx}",
@@ -275,7 +275,7 @@
         "\\frac{dy}{dx}=\\frac{1}{2}sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2})"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.047647"
     },
@@ -375,7 +375,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the derivative of  $sinx$  with respect to  $logx$ , we need to use the concept of implicit differentiation and the chain rule.</p>\n<p>Let  $f(x)=sinx$ .</p>\n<p>We want to find  $\\frac{d(sinx)}{d(logx)}$ .</p>\n<p>Using the chain rule, we have:</p>\n<p> $\\frac{d(sinx)}{d(logx)}=\\frac{d(sinx)}{dx} \\cdot \\frac{dx}{d(logx)}$ </p>\n<p>First, we calculate each part separately:</p>\n<p><p> $\\frac{d(sinx)}{dx}=cosx$ </p></p>\n<p><p>To find  $\\frac{dx}{d(logx)}$ , consider that  $\\frac{d(logx)}{dx}=\\frac{1}{x}$ , hence:</p>\n<p> $\\frac{dx}{d(logx)}=x$ </p></p>\n<p>Putting it all together, we get:</p>\n<p> $\\frac{d(sinx)}{d(logx)}=cosx \\cdot x=xcosx$ </p>\n<p>Therefore, the derivative of  $sinx$  with respect to  $logx$  is  $xcosx$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sinx",
@@ -386,7 +386,7 @@
         "\\frac{d(logx)}{dx}=\\frac{1}{x}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.066693"
     },
@@ -434,13 +434,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xy1iui/2cbd3a5f-fad1-49b8-9fa1-5f8ac7667d3b/7aaee0a0-d345-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xy1iuj.png?format=png"
       ],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{d}{dx}[cos^{2}(cot^{-1}\\sqrt{\\frac{2+x}{2-x}})]"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.275561"
     },
@@ -592,7 +592,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} f(x)=1+nx+\\frac{n(n-1)}{2}x^{2}+\\frac{n(n-1)(n-2)}{6}x^{3}+\\dots+x^{n}. \\end{aligned}$ </p>\n<p>The given equation can be written as  $f(x)=(1+x)^{n}$ </p>\n<p> $\\begin{aligned} &amp; \\because (1+x)^{n}=1+nx+\\frac{n(n-1)}{2!} \\\\ &amp; x^{2}+\\frac{n(n-1)(n-2)}{3!}x^{3}+\\dotsx^{n} \\end{aligned}$ </p>\n<p>Now,  $f^{'}(x)=n(1+x)^{n-1}$ </p>\n<p>and,  $f^{''}(x)=n(n-1)(1+x)^{n-2}$ </p>\n<p>put  $x=1$ </p>\n<p> $\\therefore f^{''}(1)=n(n-1)2^{n-2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=1+nx+\\frac{n(n-1)}{2}x^{2}+\\frac{n(n-1)(n-2)}{6}x^{3}+\\dots+x^{n}",
@@ -600,7 +600,7 @@
         "\\therefore f^{''}(1)=n(n-1)2^{n-2}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.294095"
     },
@@ -700,14 +700,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $y=(1+x^{2})tan^{-1}x-x$ </p>\n<p>Differentiating the given function w.r.t.  $x$ </p>\n<p> $\\begin{aligned} \\frac{dy}{dx}=(1+x^{2})\\frac{d}{dx}(tan^{-1}x)+tan^{-1}x\\frac{d}{dx}(1+x^{2})-\\frac{d}{dx}(x) \\\\ =(1+x^{2})\\frac{1}{(1+x^{2})}+tan^{-1}x(2x)-1 \\\\ =1+2xtan^{-1}x-1=2xtan^{-1}x \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Easy",
       "key_formulas": [
         "y=(1+x^{2})tan^{-1}x-x",
         "\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.458538"
     },
@@ -753,7 +753,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $y=x^{sinx}+(sinx)^{x}$ </p>\n<p>Let  $u=x^{sin-1}$  and  $v=(sinx)^{x}$ </p>\n<p>Now,  $u=x^{sinx},logu=sinxlogx$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\frac{1}{u} \\cdot \\frac{du}{dx}=sinx \\cdot \\frac{1}{x}+logx \\times cosx \\\\ \\\\ &amp; \\frac{du}{dx}=u(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; \\frac{du}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx)\\text{.... (i)} \\end{aligned}$ </p>\n<p>Now,  $v=(sinx)^{x} \\Rightarrow logv=xlog(sinx)$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\frac{1}{vdv}=x\\frac{cosx}{sinx}+log(sinx) \\\\ \\\\ &amp; \\frac{dv}{dx}=v(xcotx+logsinx) \\\\ \\\\ &amp; \\frac{dv}{dx}=(sinx)^{x}(xcotx+logsinx)\\text{.... (ii)} \\end{aligned}$ </p>\n<p>Adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; \\frac{du}{dx}+\\frac{dv}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; +(sinx)^{x}(xcotx+logsinx) \\\\ \\\\ &amp; \\frac{dy}{dx}=x^{sinx}(\\frac{sinx}{x}+cosxlogx) \\\\ \\\\ &amp; +(sinx)^{x}(xcotx+logsinx) \\\\ \\end{aligned}$ </p>\n<p>At  $x=\\frac{\\pi}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}=(\\frac{\\pi}{2})(\\frac{1}{\\pi/2}+0log\\frac{\\pi}{2})+(1)^{\\frac{\\pi}{2}}(\\frac{\\pi}{2} \\cdot 0+log(1)) \\\\ \\\\ &amp; \\frac{dy}{dx}=(\\frac{\\pi}{2})(\\frac{2}{\\pi}+0)+1 \\cdot (0+0)=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x^{sinx}+(sinx)^{x}",
@@ -764,7 +764,7 @@
         "u=x^{sinx},logu=sinxlogx"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.722783"
     },
@@ -919,7 +919,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}y=e^{\\sqrt{x\\sqrt{x\\sqrt{x\\dots\\dots}}}},x&gt;1 \\\\ &amp; y=e^{\\sqrt{x\\sqrt{x\\sqrt{x\\dots}}}} \\\\ &amp; log_{e}y=(\\sqrt{x\\sqrt{x\\sqrt{x}\\dots.}})log_{e}e \\\\ &amp; \\Rightarrow logy=\\sqrt{x\\sqrt{x\\sqrt{x\\dots\\dots}}} \\Rightarrow logy=\\sqrt{x \\cdot logy} \\\\ &amp; \\Rightarrow (logy)^{2}=xlogy \\Rightarrow \\frac{(logy)^{2}}{logy}=x \\\\ &amp; \\Rightarrow logy=x\\text{.... (i)} \\end{aligned}$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{y} \\times \\frac{dy}{dx}=1 \\Rightarrow \\frac{dy}{dx}=y$  .... (ii)</p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\frac{dy}{dx} \\Rightarrow \\frac{d^{2}y}{dx^{2}}=y$  [from Eq. (ii)] ..... (iii)</p>\n<p>At  $x=log_{e}3$ , from Eq (i), we get</p>\n<p> $logy=log3 \\Rightarrow y=3$ </p>\n<p>Putting  $y=3$  into Eq. (iii), we get</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=e^{\\sqrt{x\\sqrt{x}\\sqrt{x}}...,}x>1",
@@ -927,7 +927,7 @@
         "x=log_{e}3"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:23.476932"
     },
@@ -1351,7 +1351,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $2^{x}+2^{y}=2^{x+y}\\text{.... (i)}$ </p>\n<p>On differentiating Eq. (i) w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; 2^{x}log2+2^{y}log2\\frac{dy}{dx} \\\\ &amp; =2^{x+y}log2(1+\\frac{dy}{dx}) \\\\ &amp; \\begin{aligned} \\Rightarrow &amp; 2^{x}+2^{y}\\frac{dy}{dx}=2^{x+y}(1+\\frac{dy}{dx}) \\\\ \\Rightarrow &amp; 2^{x}-2^{x+y}=\\frac{dy}{dx}(2^{x+y}-2^{y}) \\\\ \\Rightarrow &amp; -2^{y}=\\frac{dy}{dx}(2^{x}) \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=-2^{y}/2^{x}=-2^{y-x} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "2^{x}+2^{y}=2^{x+y}",
@@ -1359,7 +1359,7 @@
         "2^{x}+2^{y}=2^{x+y}\\text{.... (i)}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.330577"
     },
@@ -1458,7 +1458,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $(xe)^{y}=e^{x}$ </p>\n<p>Taking  $log$  on both sides at base  $e$ , we get</p>\n<p> $\\begin{aligned} &amp; ylog(xe)=xloge \\\\ &amp; \\Rightarrow y(logx+loge)=x( \\because log_{e}e=1) \\\\ &amp; \\Rightarrow y=\\frac{x}{logx+1} \\end{aligned}$ </p>\n<p>On differentiating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} \\frac{dy}{dx} &amp; =\\frac{(logx+1)-x(\\frac{1}{x}+0)}{(logx+1)^{2}} \\\\ \\Rightarrow \\frac{dy}{dx} &amp; =\\frac{logx}{(logx+1)^{2}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "(xe)^{y}=e^{y}",
@@ -1466,7 +1466,7 @@
         "(xe)^{y}=e^{x}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.368149"
     },
@@ -1512,7 +1512,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $x=asec^{2}\\theta$  and  $y=atan^{2}\\theta$ , then to find  $\\frac{d^{2}y}{dx^{2}}$ :</p>\n<p>First, compute the first derivative:</p>\n<p> $\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}=\\frac{a \\cdot 2tan\\theta sec^{2}\\theta}{a \\cdot 2sec\\theta \\cdot sec\\theta \\cdot tan\\theta}=1$ </p>\n<p>Since the derivative  $\\frac{dy}{dx}$  is a constant (1), the second derivative is zero:</p>\n<p> $\\Rightarrow \\frac{d^{2}y}{dx^{2}}=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "x=asec^{2}\\theta",
@@ -1521,7 +1521,7 @@
         "\\frac{d^{2}y}{dx^{2}}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.757208"
     },
@@ -1675,11 +1675,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We begin with the expression:</p>\n<p> $y=\\sqrt{x+\\sqrt{x+\\sqrt{x+\\dots\\infty}}}$ </p>\n<p>This implies:</p>\n<p> $y=\\sqrt{x+y}$ </p>\n<p>Squaring both sides, we get:</p>\n<p> $y^{2}=x+y$ </p>\n<p>Rearranging terms, we find:</p>\n<p> $y^{2}-y=x$ </p>\n<p>Next, we differentiate both sides with respect to  $x$ :</p>\n<p> $\\frac{d}{dx}(y^{2}-y)=\\frac{d}{dx}(x)$ </p>\n<p>Applying the chain rule, we have:</p>\n<p> $(2y-1)\\frac{dy}{dx}=1$ </p>\n<p>Solving for  $\\frac{dy}{dx}$ , we obtain:</p>\n<p> $\\frac{dy}{dx}=\\frac{1}{2y-1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:24.997741"
     },
@@ -1833,7 +1833,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> Let  $u=cos^{-1}(2x^{2}-1)$  and  $v=cos^{-1}x$  Now,  $u=cos^{-1}(2x^{2}-1)$ </p>\n<p>Put  $x=cos\\theta$ </p>\n<p> $\\begin{aligned} \\therefore u &amp; =cos^{-1}(2cos^{2}\\theta-1) \\\\ &amp; =cos^{-1}(cos2\\theta) \\\\ &amp; =2\\theta=2cos^{-1}x \\end{aligned}$ </p>\n<p> $\\begin{aligned} Again,\\frac{du}{dv} &amp; =\\frac{(\\frac{du}{dx})}{(\\frac{dv}{dx})} \\\\ &amp; =\\frac{\\frac{d}{dx}(2cos^{-1}x)}{\\frac{d}{dx}(cos^{-1}x)} \\\\ &amp; =\\frac{(-\\frac{2}{\\sqrt{1-x^{2}}})}{(\\frac{-1}{\\sqrt{1-x^{2}}})}=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}(2x^{2}-1)",
@@ -1843,7 +1843,7 @@
         "x=cos\\theta"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:25.137885"
     },
@@ -1889,11 +1889,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; \\begin{aligned} &amp; y=|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; \\therefore \\frac{dy}{dx}=|\\begin{aligned} \\frac{d}{dx}f(x) &amp; \\frac{d}{dx}g(x) &amp; \\frac{d}{dx}ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\end{aligned} \\end{aligned}$ </p>\n<p> $+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ \\frac{d}{dx}1 &amp; \\frac{d}{dx}m &amp; \\frac{d}{dx}n \\\\ a &amp; b &amp; c \\end{aligned}|+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ \\frac{1}{d} &amp; m &amp; n \\\\ \\frac{d}{dx}a \\cdot \\frac{d}{dx}b &amp; \\frac{d}{dx}C \\end{aligned}|$ </p>\n $\\begin{aligned} &amp; =|\\begin{aligned} f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\\\ l &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}|+|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 0 &amp; 0 &amp; 0 \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; +|\\begin{aligned} f(x) &amp; g(x) &amp; ℎ(x) \\\\ 1 &amp; m &amp; n \\\\ 0 &amp; 0 &amp; 0 \\end{aligned}|=|\\begin{aligned} f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\\\ 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\end{aligned}| \\\\ &amp; =|\\begin{aligned} 1 &amp; m &amp; n \\\\ a &amp; b &amp; c \\\\ f^{'}(x) &amp; g^{'}(x) &amp; ℎ^{'}(x) \\end{aligned}|=|\\begin{aligned} f^{'}(x) &amp; 1 &amp; a \\\\ g^{'}(x) &amp; m &amp; b \\\\ ℎ^{'}(x) &amp; n &amp; c \\end{aligned}| \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:25.412659"
     },
@@ -1996,7 +1996,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the second derivative of  $y=log(logx)$ , we start by taking the first derivative:</p>\n<p><p><strong>First Derivative:</strong></p>\n<p> $y=log(logx)$ </p>\n<p>Using the chain rule, the derivative is:</p>\n<p> $\\frac{dy}{dx}=\\frac{1}{logx} \\cdot \\frac{d}{dx}(logx)=\\frac{1}{logx} \\cdot \\frac{1}{x}=\\frac{1}{xlogx}$ </p></p>\n<p><p><strong>Second Derivative:</strong></p>\n<p>Differentiate  $\\frac{1}{xlogx}=(xlogx)^{-1}$  with respect to  $x$ :</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\frac{d}{dx}((xlogx)^{-1})$ </p>\n<p>Apply the power rule and the chain rule:</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=-(xlogx)^{-2} \\cdot (logx \\cdot 1+x \\cdot \\frac{1}{x})$ </p>\n<p>Simplify the expression:</p>\n<p> $=-(xlogx)^{-2}(logx+1)$ </p>\n<p> $=\\frac{-(1+logx)}{(xlogx)^{2}}$ </p></p>\n<p>Thus, the second derivative  $\\frac{d^{2}y}{dx^{2}}$  is  $\\frac{-(1+logx)}{(xlogx)^{2}}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Continuity & Differentiability at a Point",
+      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
       "difficulty": "Medium",
       "key_formulas": [
         "y=log(logx)",
@@ -2005,7 +2005,7 @@
         "\\frac{-(1+logx)}{(xlogx)^{2}}"
       ],
       "key_concepts": [
-        "Continuity & Differentiability at a Point"
+        "Evaluation of Limits & L'Hopital's Rule"
       ],
       "crawled_at": "2026-09-20T15:26:25.023461"
     },
@@ -2051,7 +2051,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We begin with the function:</p>\n<p> $y=tan^{-1}(\\frac{sinx+cosx}{cosx-sinx})$ </p>\n<p>This expression can be rewritten by applying the tangent addition formula:</p>\n<p> $y=tan^{-1}(\\frac{1+tanx}{1-tanx})$ </p>\n<p>Recognizing this as the formula for the tangent of the sum of two angles, we have:</p>\n<p> $y=tan^{-1}(\\frac{tan\\frac{\\pi}{4}+tanx}{1-tan\\frac{\\pi}{4}tanx})$ </p>\n<p>This simplifies to:</p>\n<p> $y=tan^{-1}tan(\\frac{\\pi}{4}+x)$ </p>\n<p>Since  $tan^{-1}tan(\\theta)=\\theta$ , assuming  $\\theta$  is in the principal range of the inverse tangent function, we get:</p>\n<p> $y=\\frac{\\pi}{4}+x$ </p>\n<p>Differentiating with respect to  $x$ , we obtain:</p>\n<p> $\\frac{dy}{dx}=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Evaluation of Limits & L'Hopital's Rule",
+      "topic_tag": "Continuity & Differentiability at a Point",
       "difficulty": "Medium",
       "key_formulas": [
         "y=tan^{-1}(\\frac{sinx+cosx}{cosx-sinx})",
@@ -2062,7 +2062,7 @@
         "tan^{-1}tan(\\theta)=\\theta"
       ],
       "key_concepts": [
-        "Evaluation of Limits & L'Hopital's Rule"
+        "Continuity & Differentiability at a Point"
       ],
       "crawled_at": "2026-09-20T15:26:25.036653"
     }

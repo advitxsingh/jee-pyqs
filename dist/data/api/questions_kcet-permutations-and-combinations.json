@@ -144,7 +144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here’s a quick breakdown by cases (last digit must be 0 or 2):</p>\n<p>Last digit = 0  </p>\n<p><p>First digit can be 1, 2 or 3 ⇒ 3 choices  </p></p>\n<p><p>The two middle places are filled by the remaining 2 digits in  $2!=2$  ways  </p>\n<p>⇒  $3 \\times 2=6$  numbers</p></p>\n<p>Last digit = 2  </p>\n<p><p>First digit can be 1 or 3 (can’t be 0 or 2) ⇒ 2 choices  </p></p>\n<p><p>The two middle places are filled by the remaining 2 digits in  $2!=2$  ways  </p>\n<p>⇒  $2 \\times 2=4$  numbers</p></p>\n<p>Total =  $6+4=10$ .  </p>\n<p>Answer: Option B (10).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [
         "2!=2",
@@ -153,7 +153,7 @@
         "6+4=10"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T15:26:54.637443"
     },
@@ -358,11 +358,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Given}, &amp; n(A \\times B)=35,B⊂A \\\\ &amp; n(A \\times B)=35 \\\\ &amp; n(A \\times B)=7 \\times 5 \\\\ &amp; n(A \\times B)=n(A) \\times n(B) \\\\ \\therefore &amp; n(A)=7\\text{and}n(B)=5 \\\\ &amp; ^{n(A)}C_{n(B)}=^{7}C_{5}=^{7}C_{2}=21 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T15:26:54.828767"
     },
@@ -461,13 +461,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; ^{16}C_{9}+^{16}C_{10}-^{16}C_{6}-^{16}C_{7} \\\\ &amp; ^{16}C_{9}+^{16}C_{10}-^{16}C_{10}-^{16}C_{9}[ \\because ^{n}C_{r}=^{n}C_{n-r}]=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "^{16}C_{9}+^{16}C_{10}-^{16}C_{6}-^{16}C_{7}"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T15:26:55.143378"
     },
@@ -567,7 +567,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $P(n)&gt;2^{n}&lt;n$ !</p>\n<p> $P(3):2^{3}&lt;3$ ! which is false</p>\n<p> $P(4):2^{4}&lt;4$ ! which is true</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "P(n):2^{n}<n!",
@@ -576,7 +576,7 @@
         "P(4):2^{4}<4"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T15:26:55.223874"
     },
@@ -622,14 +622,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have, 5 girl and 3 boys</p>\n<p> $\\times G \\times G \\times G \\times G \\times G \\times$ </p>\n<p>Number of ways no two boys are together is</p>\n<p> $^{6}P_{3} \\times 5!=14400$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times G \\times G \\times G \\times G \\times G \\times",
         "^{6}P_{3} \\times 5!=14400"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Fundamental Principles & Permutations (Distinct & Identical)"
       ],
       "crawled_at": "2026-09-20T15:26:55.345839"
     },

@@ -8,66 +8,66 @@
     "total_questions_site": 32,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:44:53.992147"
+    "analyzed_at": "2026-09-20T17:13:43.159937"
   },
   "concepts": [
     {
-      "id": 1763,
+      "id": 2231,
       "chapter_slug": "kcet-semiconductor-devices-and-logic-gates",
       "name": "p-n Junction Diode & Zener Diode Regulation",
       "category": "Semiconductor Diodes",
       "summary": "Forward and reverse characteristics of p-n junctions, rectifiers, ripple frequency, and Zener diode shunt voltage stabilization.",
       "standard_formulas": "\\text{Efficiency}_{\\text{half-wave}} = 40.6\\%, \\quad \\text{Efficiency}_{\\text{full-wave}} = 81.2\\%, \\quad V_L = V_Z = \\text{const}, \\quad I_S = I_Z + I_L",
-      "exam_frequency": 19,
+      "exam_frequency": 25,
       "frequency_tier": "Very High",
       "common_traps": "In full-wave rectifiers, output ripple frequency is TWICE the AC input frequency ($2f_{\\text{in}}$), whereas for half-wave it is $f_{\\text{in}}$.",
       "tips_and_tricks": "In reverse breakdown, Zener diode maintains constant voltage $V_Z$ across its terminals as long as $I_Z \\ge I_{Z,\\text{min}}$.",
       "pyq_ids": [
         10457,
         10458,
+        10459,
         10460,
         10461,
         10462,
+        10463,
         10464,
         10465,
         10466,
         10467,
+        10469,
         10470,
         10473,
         10474,
         10476,
+        10477,
         10478,
         10480,
         10482,
+        10483,
         10484,
+        10485,
         10486,
         10487
       ]
     },
     {
-      "id": 1764,
+      "id": 2232,
       "chapter_slug": "kcet-semiconductor-devices-and-logic-gates",
       "name": "Logic Gates & Truth Tables",
       "category": "Digital Electronics",
       "summary": "Universal logic gates (NAND and NOR), De Morgan's theorems, and Boolean circuit reduction.",
       "standard_formulas": "\\text{NAND: } Y = \\overline{A \\cdot B}, \\quad \\text{NOR: } Y = \\overline{A + B}, \\quad \\overline{A \\cdot B} = \\overline{A} + \\overline{B}, \\quad \\overline{A + B} = \\overline{A} \\cdot \\overline{B}",
-      "exam_frequency": 13,
-      "frequency_tier": "High",
+      "exam_frequency": 7,
+      "frequency_tier": "Moderate",
       "common_traps": "NAND and NOR gates are UNIVERSAL gates: any Boolean function can be constructed using only NAND or only NOR gates.",
       "tips_and_tricks": "Connect inputs of a NAND or NOR gate together to obtain a NOT gate: $\\overline{A \\cdot A} = \\overline{A}$.",
       "pyq_ids": [
-        10459,
-        10463,
         10468,
-        10469,
         10471,
         10472,
         10475,
-        10477,
         10479,
         10481,
-        10483,
-        10485,
         10488
       ]
     }
@@ -75,16 +75,16 @@
   "synthesis": {
     "id": 111,
     "chapter_slug": "kcet-semiconductor-devices-and-logic-gates",
-    "title": "Semiconductor Devices and Logic Gates 2026 3 questions 5% weightage ↑50.15% Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Semiconductor Devices and Logic Gates 2026 3 questions 5% weightage ↑50.15% — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 32 Previous Year Questions Analyzed (32 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **32** authentic KCET problems.\n- **Question Format Breakdown**: **32 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | p-n Junction Diode & Zener Diode Regulation | **19 PYQs** | Semiconductor Diodes |\n| **High** | Logic Gates & Truth Tables | **13 PYQs** | Digital Electronics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 p-n Junction Diode & Zener Diode Regulation (Semiconductor Diodes)\n- **Exam Weightage**: Tested in **19 PYQs** (Very High Yield)\n- **Conceptual Summary**: Forward and reverse characteristics of p-n junctions, rectifiers, ripple frequency, and Zener diode shunt voltage stabilization.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Efficiency}_{\\text{half-wave}} = 40.6\\%, \\quad \\text{Efficiency}_{\\text{full-wave}} = 81.2\\%, \\quad V_L = V_Z = \\text{const}, \\quad I_S = I_Z + I_L\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: In full-wave rectifiers, output ripple frequency is TWICE the AC input frequency ($2f_{\\text{in}}$), whereas for half-wave it is $f_{\\text{in}}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: In reverse breakdown, Zener diode maintains constant voltage $V_Z$ across its terminals as long as $I_Z \\ge I_{Z,\\text{min}}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A wafer of pure germanium crystal has two parts X and Y. The end X is obtained by doping with arsenic and Y with indium. It is connected to ...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"In which of the following figures, diode is reverse biased?...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"The circuit shown in figure contains two ideal diodes $D_{1}$ and $D_{2}$ . If a cell of emf $3V$ and negligible internal resistance is conn...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"Which of the following statements is correct for an n-type semiconductor?...\"* — **Correct Answer: N/A**\n\n### 2.2 Logic Gates & Truth Tables (Digital Electronics)\n- **Exam Weightage**: Tested in **13 PYQs** (High Yield)\n- **Conceptual Summary**: Universal logic gates (NAND and NOR), De Morgan's theorems, and Boolean circuit reduction.\n\n#### Standard Mathematical Formulation\n$$\n\\text{NAND: } Y = \\overline{A \\cdot B}, \\quad \\text{NOR: } Y = \\overline{A + B}, \\quad \\overline{A \\cdot B} = \\overline{A} + \\overline{B}, \\quad \\overline{A + B} = \\overline{A} \\cdot \\overline{B}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: NAND and NOR gates are UNIVERSAL gates: any Boolean function can be constructed using only NAND or only NOR gates.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Connect inputs of a NAND or NOR gate together to obtain a NOT gate: $\\overline{A \\cdot A} = \\overline{A}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#3 (MCQ)**: *\"An n-type and p-type semiconductor can be obtained by respectively doping pure silicon with...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#3 (MCQ)**: *\"The upper level of valence band and lower level of conduction band overlap in the case of...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"A truth table for the given circuit is...\"* — **Correct Answer: C**\n- **[2022 Shift] Q#1 (MCQ)**: *\"The resistivity of a semiconductor at room temperature is in between...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Semiconductor Devices and Logic Gates 2026 3 questions 5% weightage ↑50.15% — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 32 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **p-n Junction Diode & Zener Diode Regulation** | $\\text{Efficiency}_{\\text{half-wave}} = 40.6\\%, \\quad \\text{Efficiency}_{\\text{full-wave}} = 81.2\\%, \\quad V_L = V_Z = \\text{const}, \\quad I_S = I_Z + I_L$ | Standard SI units apply |\n| **Logic Gates & Truth Tables** | $\\text{NAND: } Y = \\overline{A \\cdot B}, \\quad \\text{NOR: } Y = \\overline{A + B}, \\quad \\overline{A \\cdot B} = \\overline{A} + \\overline{B}, \\quad \\overline{A + B} = \\overline{A} \\cdot \\overline{B}$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Semiconductor Devices and Logic Gates 2026 3 questions 5% weightage ↑50.15%\nBased on rigorous analysis of all 32 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Semiconductor Devices and Logic Gates 2026 3 questions 5% weightage ↑50.15%\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Semiconductor Devices and Logic Gates Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Semiconductor Devices and Logic Gates — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 32 Previous Year Questions Analyzed (32 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **32** authentic KCET problems.\n- **Question Format Breakdown**: **32 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | p-n Junction Diode & Zener Diode Regulation | **25 PYQs** | Semiconductor Diodes |\n| **Moderate** | Logic Gates & Truth Tables | **7 PYQs** | Digital Electronics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 p-n Junction Diode & Zener Diode Regulation (Semiconductor Diodes)\n- **Exam Weightage**: Tested in **25 PYQs** (Very High Yield)\n- **Conceptual Summary**: Forward and reverse characteristics of p-n junctions, rectifiers, ripple frequency, and Zener diode shunt voltage stabilization.\n\n#### Standard Mathematical Formulation\n$$\n\\text{Efficiency}_{\\text{half-wave}} = 40.6\\%, \\quad \\text{Efficiency}_{\\text{full-wave}} = 81.2\\%, \\quad V_L = V_Z = \\text{const}, \\quad I_S = I_Z + I_L\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: In full-wave rectifiers, output ripple frequency is TWICE the AC input frequency ($2f_{\\text{in}}$), whereas for half-wave it is $f_{\\text{in}}$.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: In reverse breakdown, Zener diode maintains constant voltage $V_Z$ across its terminals as long as $I_Z \\ge I_{Z,\\text{min}}$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"A wafer of pure germanium crystal has two parts X and Y. The end X is obtained by doping with arsenic and Y with indium. It is connected to ...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"In which of the following figures, diode is reverse biased?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#3 (MCQ)**: *\"An n-type and p-type semiconductor can be obtained by respectively doping pure silicon with...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#1 (MCQ)**: *\"The circuit shown in figure contains two ideal diodes $D_{1}$ and $D_{2}$ . If a cell of emf $3V$ and negligible internal resistance is conn...\"* — **Correct Answer: N/A**\n\n### 2.2 Logic Gates & Truth Tables (Digital Electronics)\n- **Exam Weightage**: Tested in **7 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Universal logic gates (NAND and NOR), De Morgan's theorems, and Boolean circuit reduction.\n\n#### Standard Mathematical Formulation\n$$\n\\text{NAND: } Y = \\overline{A \\cdot B}, \\quad \\text{NOR: } Y = \\overline{A + B}, \\quad \\overline{A \\cdot B} = \\overline{A} + \\overline{B}, \\quad \\overline{A + B} = \\overline{A} \\cdot \\overline{B}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: NAND and NOR gates are UNIVERSAL gates: any Boolean function can be constructed using only NAND or only NOR gates.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Connect inputs of a NAND or NOR gate together to obtain a NOT gate: $\\overline{A \\cdot A} = \\overline{A}$.\n\n#### Linked Representative PYQs:\n- **[2023 Shift] Q#4 (MCQ)**: *\"A truth table for the given circuit is...\"* — **Correct Answer: C**\n- **[2022 Shift] Q#3 (MCQ)**: *\"Which logic gate is represented by the following combination of logic gates?...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#4 (MCQ)**: *\"The circuit given represents which of the logic operations?...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#3 (MCQ)**: *\"In the following circuit what are P and Q...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Semiconductor Devices and Logic Gates — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 32 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **p-n Junction Diode & Zener Diode Regulation** | $\\text{Efficiency}_{\\text{half-wave}} = 40.6\\%, \\quad \\text{Efficiency}_{\\text{full-wave}} = 81.2\\%, \\quad V_L = V_Z = \\text{const}, \\quad I_S = I_Z + I_L$ | Standard SI units apply |\n| **Logic Gates & Truth Tables** | $\\text{NAND: } Y = \\overline{A \\cdot B}, \\quad \\text{NOR: } Y = \\overline{A + B}, \\quad \\overline{A \\cdot B} = \\overline{A} + \\overline{B}, \\quad \\overline{A + B} = \\overline{A} \\cdot \\overline{B}$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Semiconductor Devices and Logic Gates\nBased on rigorous analysis of all 32 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Semiconductor Devices and Logic Gates\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       10457,
-      10459
+      10468
     ],
-    "updated_at": "2026-09-20T16:44:53.982765"
+    "updated_at": "2026-09-20T17:13:43.148135"
   },
   "total_questions": 32,
   "has_docx": true,

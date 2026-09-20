@@ -103,7 +103,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlgixk3m/1f97f29d-25d6-4154-8e0c-9e14605a29b3/867fee20-0674-11f1-9240-6d9343ac6d1d/file-6y3zli1mlgixk3n.webp?format=webp"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "____",
@@ -114,7 +114,7 @@
         "5=0+\\frac{1}{2} \\times 10 \\times T^{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:19.525742"
     },
@@ -281,7 +281,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mod62zjv/9a75b117-0e68-402b-92c9-f6186c3af496/92fda4b0-4000-11f1-a6f4-09f93ba788ba/file-6y3zli1mod62zjw.webp?format=webp"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "A,V_{A}=100km/h",
@@ -292,7 +292,7 @@
         "(V_{s})"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:17.924399"
     },
@@ -545,11 +545,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9gim5a5/c8b6fde8-802f-4f51-bb89-e415e9680abf/b09aeed0-18e0-11f0-a103-9bd1ffe79f48/file-jaoe38c1m9gim5a6.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9gilu9x/d74d412b-a2aa-4123-baa9-b052dc94598b/a81a6b50-18e0-11f0-a103-9bd1ffe79f48/file-jaoe38c1m9gilu9y.png?format=png"
       ],
-      "topic_tag": "Kinematic Equations & Free Fall",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Kinematic Equations & Free Fall"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:56:20.930184"
     },
@@ -824,7 +824,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The distance covered by a body in the  $n^{\\text{th}}$  second can be found using the equation:</p>\n<p> $S_{n}=u+\\frac{1}{2}a(2n-1)$ </p>\n<p>where,</p>\n<ul>\n<li> $S_{n}$  is the distance covered in the  $n^{\\text{th}}$  second,</li>\n<li> $u$  is the initial velocity,</li>\n<li> $a$  is the acceleration, and</li>\n<li> $n$  is the nth second.</li>\n</ul>\n<p>The distance covered in the  $n^{\\text{th}}$  second is given as  $102.5\\text{m}$ , so we have:</p>\n<p> $102.5=u+\\frac{1}{2}a(2n-1)$  ---- (1)</p>\n<p>For the  $(n+2)^{\\text{th}}$  second, the distance covered is:</p>\n<p> $S_{n+2}=u+\\frac{1}{2}a(2(n+2)-1)$ </p>\n<p>Substituting  $n+2$  in place of  $n$ , we get:</p>\n<p> $115.0=u+\\frac{1}{2}a(2n+3)$  ---- (2)</p>\n<p>Subtracting equation (1) from equation (2), we get:</p>\n<p> $115.0-102.5=\\frac{1}{2}a(2n+3-2n+1)$ </p>\n<p> $12.5=\\frac{1}{2}a(4)$ </p>\n<p>So, solving for  $a$  gives:</p>\n<p> $a=\\frac{12.5 \\times 2}{4}=\\frac{25}{4}=6.25\\text{m/s}^{2}$ </p>\n<p>Therefore, the acceleration of the body is:</p>\n<p> $6.25\\text{m/s}^{2}$ </p>\n<p>Which corresponds to Option A:  $6.25\\text{m/s}^{2}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "n^{\\text{th}}",
@@ -834,7 +834,7 @@
         "12.5=\\frac{1}{2}a(4)"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:24.549435"
     },
@@ -880,7 +880,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's denote the constant acceleration with which the body moves as  $a$ . We know that the displacement  $S$  covered by a body starting from rest under a constant acceleration  $a$  in time  $t$  is given by the equation of motion:  $S=\\frac{1}{2}at^{2}$ .</p>\n<p>Considering the displacement  $S_{1}$  in first  $(p-1)$  seconds, we apply the equation of motion:</p>\n $S_{1}=\\frac{1}{2}a(p-1)^{2}$ \n<p>Similarly, for the displacement  $S_{2}$  in first  $p$  seconds:</p>\n $S_{2}=\\frac{1}{2}ap^{2}$ \n<p>To find out the total time it will take to cover the displacement  $S_{1}+S_{2}$ , we first find the sum of these two displacements:</p>\n $S_{1}+S_{2}=\\frac{1}{2}a(p-1)^{2}+\\frac{1}{2}ap^{2}$ \n<p>Let's simplify this:</p>\n $S_{1}+S_{2}=\\frac{1}{2}a((p-1)^{2}+p^{2})$ \n $S_{1}+S_{2}=\\frac{1}{2}a(p^{2}-2p+1+p^{2})$ \n $S_{1}+S_{2}=\\frac{1}{2}a(2p^{2}-2p+1)$ \n $S_{1}+S_{2}=a(\\frac{2p^{2}-2p+1}{2})$ \n<p>If we consider the total displacement  $S_{1}+S_{2}$  is to be covered in a time  $t$  seconds from rest, we should set this equal to the equation of motion:</p>\n $S_{1}+S_{2}=\\frac{1}{2}at^{2}$ \n<p>Equating the two equations:</p>\n $a(\\frac{2p^{2}-2p+1}{2})=\\frac{1}{2}at^{2}$ \n<p>Since  $a \\ne 0$ , we can simplify by dividing both sides by  $\\frac{1}{2}a$ :</p>\n $\\frac{2p^{2}-2p+1}{2}=\\frac{t^{2}}{2}$ \n $2p^{2}-2p+1=t^{2}$ \n<p>To find  $t$ , we take the square root of both sides:</p>\n $t=\\sqrt{2p^{2}-2p+1}$ \n<p>Therefore, the time taken to cover the displacement  $S_{1}+S_{2}$  will be:</p>\n $t=\\sqrt{(2p^{2}-2p+1)}s$ \n<p>Hence, the correct option would be:</p>\nOption D:  $\\sqrt{(2p^{2}-2p+1)}s$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{1}",
@@ -891,7 +891,7 @@
         "S_{1}+S_{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:30.225598"
     },
@@ -1242,7 +1242,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that a body is moving on a frictionless plane and starts from rest, the motion can be assumed to be uniformly accelerated motion. The formula for the distance covered in uniformly accelerated motion from rest is given by  $s=ut+\\frac{1}{2}at^{2}$ , where:\n\n<ul>\n<li> $s$  is the distance covered,</li><br/>\n<li> $u$  is the initial velocity (which is 0 since the body starts from rest),</li><br/>\n<li> $a$  is the acceleration, and</li><br/>\n<li> $t$  is the time.</li>\n</ul>\n<p>Since the body starts from rest ( $u=0$ ), the formula simplifies to  $s=\\frac{1}{2}at^{2}$ .</p>\n<p>The distance moved between  $t=n-1$  and  $t=n$ , denoted as  $S_{n}$ , can be found by calculating the distance covered by the end of time  $n$  and subtracting the distance covered by the end of time  $n-1$ . Let's denote the total distance covered by time  $n$  as  $S(n)$ , which according to the formula is  $S(n)=\\frac{1}{2}an^{2}$ . Thus,  $S_{n}=S(n)-S(n-1)$ .</p>\n<p>Therefore, we have:</p>\n<p> $S_{n}=\\frac{1}{2}an^{2}-\\frac{1}{2}a(n-1)^{2}$ </p>\n<p>Simplifying this, we get:</p>\n<p> $S_{n}=\\frac{1}{2}a(n^{2}-(n^{2}-2n+1))$ </p>\n<p>This simplifies to:</p>\n<p> $S_{n}=\\frac{1}{2}a(2n-1)$ </p>\n<p>Similarly,</p>\n<p> $S_{n-1}=\\frac{1}{2}a((n-1)^{2}-(n-2)^{2})$ </p>\n<p>Simplifying:</p>\n<p> $S_{n-1}=\\frac{1}{2}a((n-1)^{2}-(n^{2}-4n+4))$ </p>\n<p>Which further simplifies to:</p>\n<p> $S_{n-1}=\\frac{1}{2}a(2n-3)$ </p>\n<p>Hence, the ratio  $\\frac{S_{n-1}}{S_{n}}$  can be calculated:</p>\n<p> $\\frac{S_{n-1}}{S_{n}}=\\frac{\\frac{1}{2}a(2n-3)}{\\frac{1}{2}a(2n-1)}=\\frac{2n-3}{2n-1}$ </p>\n<p>For  $n=10$ ,</p>\n<p> $\\frac{S_{n-1}}{S_{n}}=\\frac{2(10)-3}{2(10)-1}=\\frac{20-3}{20-1}=\\frac{17}{19}$ </p>\n<p>Given that the ratio is represented as  $(1-\\frac{2}{x})$ , we have:</p>\n<p> $\\frac{17}{19}=1-\\frac{2}{x}$ </p>\n<p>Solving this equation for  $x$  gives:</p>\n<p> $1-\\frac{17}{19}=\\frac{2}{x}$ </p>\n<p> $\\frac{2}{19}=\\frac{2}{x}$ </p>\n<p>Thus:</p>\n<p> $x=19$ </p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Hard",
       "key_formulas": [
         "S_{n}",
@@ -1253,7 +1253,7 @@
         "\\frac{S_{n-1}}{S_{n}}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:52.056894"
     },
@@ -1278,7 +1278,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The displacement and the increase in the velocity of a moving particle from time  $t$  to  $(t+1)s$  are  $125m$  and  $50m/s$ , respectively. The distance traveled by the particle in  $(t+2)^{th}s$  is calculated as follows:\n\n<p>Given that the acceleration is constant, we start with: </p>\n<p> $v=u+at$ </p>\n<p>When the velocity has increased by  $50m/s$ , the equation becomes:</p>\n<p> $u+50=u+a \\Rightarrow a=50m/s^{2}$ </p>\n<p>Next, we consider the displacement: </p>\n<p> $125=ut+\\frac{1}{2}at^{2}$ </p>\n<p>Since this is given over a unit time interval (from  $t$  to  $(t+1)$ ), we use: </p>\n<p> $125=u+\\frac{a}{2}$ </p>\n<p>Substituting  $a=50m/s^{2}$ : </p>\n<p> $125=u+\\frac{50}{2} \\Rightarrow 125=u+25 \\Rightarrow u=100m/s$ </p>\n<p>To find the distance traveled by the particle in  $(t+2)^{\\text{th}}$  second, we use: </p>\n<p> $S_{n}=u+\\frac{a}{2}[2n-1]$ </p>\n<p>For  $n=t+2$  (i.e., the (t+2)th second): </p>\n<p> $S_{(t+2)}=u+\\frac{a}{2}[2(t+2)-1]$ </p>\n<p>With  $u=100$  and  $a=50$ :\n\n<p>\n<p> $S_{(t+2)}=100+\\frac{50}{2}[2(t+2)-1]=100+25 \\times [2(t+2)-1]=100+25 \\times (2t+4-1)=100+25 \\times (2t+3)=100+25 \\times 5=100+125=225m$ </p></p></p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Hard",
       "key_formulas": [
         "v=u+at",
@@ -1286,7 +1286,7 @@
         "125=ut+\\frac{1}{2}at^{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:53.526160"
     },
@@ -1516,7 +1516,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let's start by converting the velocities of both trains to m/s:<br/><br/>\nTrain A:  $108\\frac{km}{ℎ} \\times \\frac{1000m}{km} \\times \\frac{1ℎ}{3600s}=30\\frac{m}{s}$ <br/><br/>\nTrain B:  $72\\frac{km}{ℎ} \\times \\frac{1000m}{km} \\times \\frac{1ℎ}{3600s}=20\\frac{m}{s}$ \n<br/><br/>\nTo cross the tunnel, Train A has to cover a distance equal to the length of the tunnel plus its own length:  $L+l$ <br/><br/>\nSimilarly, Train B has to cover a distance equal to the length of the tunnel plus its own length:  $L+4l$ \n<br/><br/>\nWe are given that Train A takes 35 seconds less time than Train B to cross the tunnel. Let's denote the time taken by Train A as  $t_{A}$  and the time taken by Train B as  $t_{B}$ . Then, we have:\n<br/><br/>\n $t_{B}=t_{A}+35$ \n<br/><br/>\nUsing the formula distance = velocity × time, we can write the equations for both trains:\n<br/><br/>\nTrain A:  $(L+l)=30t_{A}$ <br/><br/>\nTrain B:  $(L+4l)=20t_{B}$ \n<br/><br/>\nNow, we can substitute  $t_{B}=t_{A}+35$  in the equation for Train B:\n<br/><br/>\n $(L+4l)=20(t_{A}+35)$ \n<br/><br/>\nWe have two equations and two unknowns ( $L$  and  $t_{A}$ ). We can solve this system of equations by eliminating one of the unknowns. Let's eliminate  $t_{A}$  by expressing it from the equation for Train A:\n<br/><br/>\n $t_{A}=\\frac{L+l}{30}$ \n<br/><br/>\nNow, substitute this expression for  $t_{A}$  in the equation for Train B:\n<br/><br/>\n $(L+4l)=20(\\frac{L+l}{30}+35)$ \n<br/><br/>\nMultiplying both sides by 30 to get rid of the fraction:\n<br/><br/>\n $30(L+4l)=20(L+l)+20 \\times 35 \\times 30$ \n<br/><br/>\nExpanding the equation:\n<br/><br/>\n $30L+120l=20L+20l+21,000$ \n<br/><br/>\nSimplify:\n<br/><br/>\n $10L+100l=21,000$ \n<br/><br/>\nSince we are given that  $L=60l$ , substitute this into the equation:\n<br/><br/>\n $10(60l)+100l=21,000$ \n<br/><br/>\nSolve for  $l$ :\n<br/><br/>\n $700l=21,000$ \n<br/><br/>\n $l=30$ \n<br/><br/>\nNow, substitute the value of  $l$  back into the equation for  $L$ :\n<br/><br/>\n $L=60l=60 \\times 30=1800$ \n<br/><br/>\nSo, the length of the tunnel is:\n<br/><br/>\n1800 m<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{A}",
@@ -1527,7 +1527,7 @@
         "(L+4l)=20(t_{A}+35)"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:32.214252"
     },
@@ -1628,7 +1628,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Average speed</p>\n<p> $=\\frac{Totaldistance}{Totaltime}$ </p>\n<p> $=\\frac{8}{\\frac{4}{3}+\\frac{4}{5}}$ </p>\n<p> $=3.75$  km/h</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{Totaldistance}{Totaltime}",
@@ -1636,7 +1636,7 @@
         "=3.75"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:34.203305"
     },
@@ -1719,7 +1719,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->By using  $3^{\\text{rd}}$  equation of motion\n<br/><br/> $\\begin{aligned} &amp; v^{2}=u^{2}+2as \\\\ \\\\ &amp; (0)^{2}=u^{2}+2as \\\\ \\\\ &amp; u^{2}=-2as \\\\ \\\\ &amp; S=\\frac{u^{2}}{2a}-\\frac{(20)^{2}}{2 \\times a}=500 \\\\ \\\\ &amp; \\text{acceleration of the train,}a=-\\frac{400}{1000}=-0.4m/sec \\end{aligned}$ \n<br/><br/>Now, if the brakes are applied at  $S=250m$  i.e. half of the distance\n<br/><br/> $\\begin{aligned} &amp; v^{2}=u^{2}+2as \\\\ \\\\ &amp; v^{2}=(20)^{2}+2(-0.4) \\times 250 \\\\ \\\\ &amp; v^{2}=400-2 \\times \\frac{4}{10} \\times 250 \\\\ \\\\ &amp; v^{2}=200 \\\\ \\\\ &amp; v=\\sqrt{200} \\\\ \\\\ &amp; \\text{Given} \\Rightarrow v=\\sqrt{x} \\\\ \\\\ &amp; \\therefore x=200 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Hard",
       "key_formulas": [
         "20ms^{-1}",
@@ -1727,7 +1727,7 @@
         "is ____________. (Assuming same retardation is produced by brakes) By using"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:54.169962"
     },
@@ -2136,7 +2136,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the time taken by the particle to reach the velocity of  $60.0ms^{-1}$ , we can use the formula:</p>\n<p> $v=u+at$ </p>\n<p>Where:\n $v$  is the final velocity,\n $u$  is the initial velocity,\n $a$  is the acceleration, and\n $t$  is the time taken.</p>\n<p>Plugging in the given values:</p>\n<p> $60.0ms^{-1}=10.0ms^{-1}+2.0ms^{-2} \\cdot t$ </p>\n<p>Solve for  $t$ :</p>\n<p> $50.0ms^{-1}=2.0ms^{-2} \\cdot t$ </p>\n<p> $t=\\frac{50.0ms^{-1}}{2.0ms^{-2}}=25s$ </p>\n<p>So, the time taken by the particle to reach the velocity of  $60.0ms^{-1}$  is 25 seconds.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "10.0ms^{-1}",
@@ -2145,7 +2145,7 @@
         "60.0ms^{-1}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:33.257959"
     },
@@ -2225,14 +2225,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The speed of ball just before collision with ground is<br/><br/>  $u=\\sqrt{2 \\times gH}=\\sqrt{2 \\times 10 \\times 9.8}=\\underset{\\text{(Downwards)}}{14m/sec}$ \n<br/><br/>\nThe speed of ball just after collision is\n<br/><br/>\n $v=\\sqrt{2gℎ}=\\sqrt{2 \\times 10 \\times 5}=\\underset{\\text{(Upwards)}}{10m/sec}$ \n<br/><br/>\nSo,  $\\vec{a}=\\frac{\\Delta\\vec{v}}{\\Delta t}$ \n<br/><br/>\n $=\\frac{10+14}{0.2}=120m/s^{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "^{-2}",
         "=\\frac{10+14}{0.2}=120m/s^{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:54.219746"
     },
@@ -2907,7 +2907,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7e9ofih/3261b804-62c4-4278-80a6-960f468fdcec/f4447790-2753-11ed-a077-1f1e3989e798/file-1l7e9ofii.png?format=png"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{1}",
@@ -2918,7 +2918,7 @@
         "ℎ=\\frac{1}{2}g(t_{1}+t_{2})^{2}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:35.665930"
     },
@@ -2964,7 +2964,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>S = 4 cm</p>\n<p> $v_{4}^{'}=\\frac{v}{3}$ , a = constant</p>\n<p> $v_{4+x}=0$ </p>\n<p> $(v^{2}-\\frac{v^{2}}{a})=2a(4)$ </p>\n<p> $(v^{2}-0)=2a(4+x)$ </p>\n<p> $\\frac{4}{4+x}=\\frac{8}{9}$ </p>\n<p> $\\Rightarrow x=0.5$  m</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Easy",
       "key_formulas": [
         "v_{4}^{'}=\\frac{v}{3}",
@@ -2975,7 +2975,7 @@
         "\\Rightarrow x=0.5"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:36.327455"
     },
@@ -3021,7 +3021,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $X_{P}=\\alpha t+\\beta t^{2}$ </p>\n<p> $X_{Q}=ft-t^{2}$ </p>\n<p> $\\therefore$   $V_{P}=\\alpha+2\\beta t$ </p>\n<p> $V_{Q}=f-2t$ </p>\n<p> $\\because$   $V_{P}=V_{Q}$ </p>\n<p> $\\Rightarrow \\alpha+2\\beta t=f-2t$ </p>\n<p> $\\Rightarrow t=\\frac{f-\\alpha}{2(1+\\beta)}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Easy",
       "key_formulas": [
         "X_{P}(t)=\\alpha t+\\beta t^{2}",
@@ -3032,7 +3032,7 @@
         "V_{Q}=f-2t"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:37.126607"
     },
@@ -3059,7 +3059,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l57dqmyj/4f6e6381-8458-43d9-93ab-1bca18901c31/ead9b8b0-fbf1-11ec-be1c-273f2a364c3f/file-1l57dqmyk.png?format=png"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "1 . If v 3 = 3v 1 , v 2 = 2v 1 and v 1 = 11 ms",
@@ -3068,7 +3068,7 @@
         "=18"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:54.749411"
     },
@@ -3200,7 +3200,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>v = 19.6 m/s</p>\n<p>t = 6s</p>\n<p>Time taken in upward motion above tower = 2s</p>\n<p> $\\Rightarrow$  Time taken from top most point to ground = 4s</p>\n<p> $\\Rightarrow \\sqrt{\\frac{2ℎ}{g}}=4$ </p>\n<p> $ℎ=\\frac{16 \\times 9.8}{2}=8 \\times 9.8$ </p>\n<p> $\\Rightarrow k=8 \\times 9.8 \\times 5=392$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kinematic Equations & Free Fall",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "19.6ms^{-1}",
@@ -3211,7 +3211,7 @@
         "\\Rightarrow k=8 \\times 9.8 \\times 5=392"
       ],
       "key_concepts": [
-        "Kinematic Equations & Free Fall"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:56:54.243539"
     },
@@ -3293,7 +3293,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $u=\\sqrt{2gℎ}$ <br/><br/>Now, <br/><br/> $S=\\frac{ℎ}{3}$ <br/><br/>a =  $-$ g<br/><br/> $S=ut+\\frac{1}{2}at^{2}$ <br/><br/> $\\frac{ℎ}{3}=\\sqrt{2gℎ}t+\\frac{1}{2}(-g)t^{2}$ <br/><br/> $t^{2}(\\frac{g}{2})-\\sqrt{2gℎ}t+\\frac{ℎ}{3}=0$ <br/><br/>From quadratic equation<br/><br/> $t_{1},t_{2}=\\frac{\\sqrt{2gℎ} \\pm \\sqrt{2gℎ-\\frac{4g}{2}\\frac{ℎ}{3}}}{g}$ <br/><br/> $\\frac{t_{1}}{t_{2}}=\\frac{\\sqrt{2gℎ}-\\sqrt{\\frac{4gℎ}{3}}}{\\sqrt{2gℎ}+\\sqrt{\\frac{4gℎ}{3}}}=\\frac{\\sqrt{3}-\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{ℎ}{3}",
@@ -3304,7 +3304,7 @@
         "t_{1},t_{2}=\\frac{\\sqrt{2gℎ} \\pm \\sqrt{2gℎ-\\frac{4g}{2}\\frac{ℎ}{3}}}{g}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:37.891037"
     },
@@ -3350,7 +3350,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->In 4 sec. 1<sup>st</sup> drop will travel<br/><br/> $\\Rightarrow \\frac{1}{2}$   $\\times$  (9.8)  $\\times$  (4)<sup>2</sup> = 78.4 m<br/><br/> $\\therefore$  2<sup>nd</sup> drop would have travelled<br/><br/> $\\Rightarrow$  78.4  $-$  34.3 = 44.1 m.<br/><br/>Time for 2<sup>nd</sup> drop<br/><br/> $\\Rightarrow \\frac{1}{2}$ (9.8)t<sup>2</sup> = 44.1<br/><br/>t = 3 sec<br/><br/> $\\therefore$  each drop have time gap of 1 sec<br/><br/> $\\therefore$  1 drop per sec<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\frac{1}{2}",
@@ -3359,7 +3359,7 @@
         "(9.8)t 2 = 44.1 t = 3 sec"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:38.742886"
     },
@@ -3463,7 +3463,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1klwh0ryn/e15f2aa9-29c8-4311-84e9-abc59025f2bb/04d9f1f0-7dca-11eb-8899-2d60151feb7a/file-1klwh0ryo-332w.png"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{t_{1}}{t_{2}}",
@@ -3472,7 +3472,7 @@
         "\\frac{t_{1}}{t_{2}}=\\frac{a_{2}}{a_{1}}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:42.058469"
     },
@@ -3957,7 +3957,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1klxwjnsg/dda24f48-d0b7-4cb8-81c9-5043a74f5f8b/8396ea10-7e93-11eb-a28b-a1f033072627/file-1klxwjnsh-1220w.jpeg"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{0}^{2}=u^{2}+2as",
@@ -3967,7 +3967,7 @@
         "\\Rightarrow v_{0}=\\sqrt{\\frac{u^{2}+v^{2}}{2}}"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:42.119818"
     },
@@ -4306,7 +4306,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $V=\\sqrt{5000+24x}$ <br/><br/> $\\frac{dV}{dx}=\\frac{1}{2\\sqrt{5000+24x}} \\times 24=\\frac{12}{\\sqrt{5000+24x}}$ <br/><br/>Now,  $a=V\\frac{dV}{dx}$ <br/><br/> $=\\sqrt{5000+24x} \\times \\frac{12}{\\sqrt{5000+24x}}$ <br/><br/>a = 12 m/s<sup>2</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kinematic Equations & Free Fall",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Easy",
       "key_formulas": [
         "\\upsilon=\\sqrt{5000+24x}",
@@ -4316,7 +4316,7 @@
         "=\\sqrt{5000+24x} \\times \\frac{12}{\\sqrt{5000+24x}}"
       ],
       "key_concepts": [
-        "Kinematic Equations & Free Fall"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:56:55.329163"
     },
@@ -4712,7 +4712,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The total distance to be travelled by the train is\n60 + 120 = 180 m.\n<br/><br/>When the trains are moving in the same direction, relative\nvelocity is<br/> v<sub>1</sub>\n – v<sub>2</sub>\n = 80 – 30 = 50 km hr<sup>–1</sup>\n<br/><br/>So time taken to cross each other,\n<br/><br/>t<sub>1</sub> =  $\\frac{180}{50 \\times \\frac{10^{3}}{3600}}$ \n<br/><br/>When the trains are moving in opposite direction, relative\nvelocity is<br/> |v<sub>1</sub>\n – (–v<sub>2</sub>\n)| = 80 + 30 = 110 km hr<sup>–1</sup>\n<br/><br/> $\\therefore$  Time taken to cross each other\n<br/><br/>t<sub>2</sub> =  $\\frac{180}{110 \\times \\frac{10^{3}}{3600}}$ \n<br/><br/> $\\therefore$   $\\frac{t_{1}}{t_{2}}=\\frac{\\frac{180}{50 \\times \\frac{10^{3}}{3600}}}{\\frac{180}{110 \\times \\frac{10^{3}}{3600}}}$  =  $\\frac{11}{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{180}{50 \\times \\frac{10^{3}}{3600}}",
@@ -4720,7 +4720,7 @@
         "="
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:45.713104"
     },
@@ -4822,7 +4822,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{S}=(5\\hat{i}+4)2+\\frac{1}{2}(4\\hat{i}+4\\hat{j})4$ \n<br/><br/> $=10\\hat{i}+8\\hat{j}+8\\hat{i}+8\\hat{j}$ \n<br/><br/> $\\vec{r_{f}}-\\vec{r_{i}}=18\\hat{i}+16\\hat{j}$ \n<br/><br/> $\\vec{r_{f}}=20\\hat{i}+20\\hat{j}$ \n<br/><br/> $|\\vec{r_{f}}|=20\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Kinematic Equations & Free Fall",
+      "topic_tag": "Velocity-Time & Position-Time Graphs",
       "difficulty": "Medium",
       "key_formulas": [
         "=10\\hat{i}+8\\hat{j}+8\\hat{i}+8\\hat{j}",
@@ -4831,7 +4831,7 @@
         "|\\vec{r_{f}}|=20\\sqrt{2}"
       ],
       "key_concepts": [
-        "Kinematic Equations & Free Fall"
+        "Velocity-Time & Position-Time Graphs"
       ],
       "crawled_at": "2026-09-20T15:56:45.747961"
     },
@@ -5884,7 +5884,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/CKCw0BjOojeoZGf9E/SNtPbAVf9jNN3BpW4kIBi3UchrOMz/GcjWmEtlgVbShsKG8jmyQc/image.svg"
       ],
-      "topic_tag": "Velocity-Time & Position-Time Graphs",
+      "topic_tag": "Kinematic Equations & Free Fall",
       "difficulty": "Medium",
       "key_formulas": [
         "u=\\sqrt{2gℎ}=\\sqrt{2 \\times 9.8 \\times 50}=\\sqrt{980}",
@@ -5893,7 +5893,7 @@
         "=243+50=293m"
       ],
       "key_concepts": [
-        "Velocity-Time & Position-Time Graphs"
+        "Kinematic Equations & Free Fall"
       ],
       "crawled_at": "2026-09-20T15:56:49.764982"
     },

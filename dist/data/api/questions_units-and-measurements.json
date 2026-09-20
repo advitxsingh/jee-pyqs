@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the distance between two points when an object moves at a constant speed, we use formula,</p>\n<p>Distance  $=$  Speed × Time</p>\n<p> $\\alpha$  is a new unit of length such that 1 unit  $(\\alpha)=$  speed of light in vacuum (c).</p>\n<p>The speed of light c is the distance light travels per unit of time (usually meters per second).</p>\n<p> $1\\alpha=c \\times (1\\text{second})$ </p>\n<p>The time taken for light to travel from Venus to Earth is 6 minutes and 40 seconds.</p>\n<p>1 minute  $=60$  seconds</p>\n<p>6 minutes  $=6 \\times 60=360$  seconds</p>\n<p>Total time  $t=360s+40s=400$  seconds</p>\n<p>Using distance formula:</p>\n<p>Distance  $=$  Speed of light × Time</p>\n<p>Distance  $=c \\times 400$  seconds</p>\n<p>Since  $1\\alpha$  is the distance light travels in 1 second (  $c \\times 1s$  ), we can substitute c with our new unit,</p>\n<p>Distance  $=400 \\times (c \\times 1s)$ </p>\n<p>Distance  $=400\\alpha$ </p>\n<p>Therefore, the distance between Venus and Earth is  $400\\alpha$ . Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Error Analysis & Significant Figures",
+      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
       "difficulty": "Medium",
       "key_formulas": [
         "1\\alpha=c \\times (1\\text{second})",
@@ -53,7 +53,7 @@
         "t=360s+40s=400"
       ],
       "key_concepts": [
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:58:38.898455"
     },
@@ -265,7 +265,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The formula for the time period of simple harmonic oscillator is \n\n<br/><br/> $T=2\\pi\\sqrt{\\frac{k}{m}}$ .</p>\n<p> $\\Rightarrow$   $T^{2}=(2\\pi)^{2}(\\frac{k}{m})$ </p>\n<p> $\\Rightarrow k=\\frac{T^{2} \\cdot m}{4\\pi^{2}}$ </p>\n<p>Using propagation of error, when quantities are multiplied or divided, their relative errors (percentage errors) are added. The constants have no error.</p>\n<p> $\\frac{\\Delta k}{k} \\times 100=(\\frac{\\Delta m}{m}+2 \\cdot \\frac{\\Delta T}{T}) \\times 100$ </p>\n<p>The measured value of mass is,  $m=10g$ </p>\n<p>Accuracy/Error in measurement of mass is,  $\\Delta m=10mg=0.01g$ </p>\n<p>So, percentage error in measurement of mass  $\\frac{\\Delta m}{m} \\times 100%=\\frac{0.01}{10} \\times 100=0.1%$ </p>\n<p>The percentage error in the time period (  $T$  ) is the same as the percentage error in the total time (  $t$  ) measured for n oscillations.</p>\n<p>Total time measured is,  $t=60s$ </p>\n<p>Resolution/Error in measurement of time is,  $\\Delta t=2s$ </p>\n<p>So, percentage error in measurement of time is,  $\\frac{\\Delta t}{t} \\times 100%=\\frac{2}{60} \\times 100%=3.33%$ </p>\n<p>So, using propagation formula:</p>\n<p>Percentage error in  $k=(%$  error in m $)+2 \\times (%$  error in t $)=0.1%+2 \\times 3.33%=6.76%$ </p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{k}{m}}",
@@ -273,7 +273,6 @@
         "\\Rightarrow k=\\frac{T^{2} \\cdot m}{4\\pi^{2}}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:58:44.830100"
@@ -842,8 +841,7 @@
         "K=\\frac{H \\cdot L}{A \\cdot \\Delta T}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:58:47.362243"
     },
@@ -1185,8 +1183,7 @@
         "P=\\frac{\\text{Force}}{\\text{Area}}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:58:44.870877"
     },
@@ -1517,7 +1514,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Young's modulus  $(Y)$  is defined as the ratio of longitudinal stress to longitudinal strain.</p>\n<p>Let  $F$  be the force,  $L$  the original length,  $A$  the cross-sectional area, and  $\\Delta L$  the extension.</p>\n<p> $Y=\\frac{\\text{Stress}}{\\text{Strain}}=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}$ </p>\n<p>For a wire of diameter  $D$ , the area  $A=\\frac{\\pi D^{2}}{4}$ .</p>\n<p>Substituting this into the formula:</p>\n<p> $Y=\\frac{FL}{(\\frac{\\pi D^{2}}{4})\\Delta L}=\\frac{4FL}{\\pi D^{2}\\Delta L}$ </p>\n<p>To find the absolute error in  $Y$ , we need to find the relative error.</p>\n<p>Since  $F$  and  $\\pi$  are constants, the relative error in  $Y$  is:</p>\n<p> $\\frac{\\Delta Y}{Y}=\\frac{\\Delta L_{\\text{scale}}}{L}+\\frac{2\\Delta D}{D}+\\frac{\\Delta(\\Delta L)}{\\Delta L}$ </p>\n<p>Where  $\\Delta L_{\\text{scale}}$ ,  $\\Delta D$ , and  $\\Delta(\\Delta L)$  are the least counts of the respective measuring instruments.</p>\n<p>The applied tensile force is  $F=100\\text{N}$ ,</p>\n<p>The length of wire is  $L=150\\text{cm}=1.5\\text{m}$ ,</p>\n<p>The diameter of wire is  $D=0.08\\text{cm}=8 \\times 10^{-4}\\text{m}$ ,</p>\n<p>The extension in the length of wire is  $\\Delta L=0.5\\text{cm}=5 \\times 10^{-3}\\text{m}$ .</p>\n<p> $Y=\\frac{4 \\times 100 \\times 1.5}{\\pi \\times (8 \\times 10^{-4})^{2} \\times 5 \\times 10^{-3}}$ </p>\n<p> $Y=\\frac{600}{\\pi \\times 64 \\times 10^{-8} \\times 5 \\times 10^{-3}}=\\frac{600}{\\pi \\times 320 \\times 10^{-11}}=\\frac{6 \\times 10^{11}}{3.2\\pi}$ </p>\n<p> $Y \\approx 5.96 \\times 10^{10}\\text{N/m}^{2}$ </p>\n<p>So, the error in measurement of Young’s modulus is  $(\\Delta Y)$ :</p>\n<p> $\\Delta Y=Y[\\frac{0.1}{150}+2(\\frac{0.001}{0.08})+\\frac{0.001}{0.5}]$ </p>\n<p> $\\Delta Y=Y[0.00066+0.025+0.002]=Y[0.02766]$ </p>\n<p> $\\Delta Y=(5.96 \\times 10^{10}) \\times 0.02766 \\approx 1.65 \\times 10^{9}\\text{N/m}^{2}$ </p>\n<p>Therefore, the value of  $\\alpha$  is  $1.65$ . Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha \\times 10^{9}N/m^{2}",
@@ -1528,7 +1525,6 @@
         "Y \\approx 5.96 \\times 10^{10}\\text{N/m}^{2}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:58:43.841118"
@@ -1993,7 +1989,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $Q=\\frac{ab^{4}}{cd}$ </p>\n<p> $a=(60 \\pm 3)Pa \\Rightarrow a=60Pa,\\Delta a=3Pa$ </p>\n<p> $b=(20 \\pm 0.1)m \\Rightarrow b=20m,\\Delta b=0.1m$ </p>\n<p> $c=(40 \\pm 0.2)Nsm^{-2} \\Rightarrow c=40Nsm^{-2},\\Delta c=0.2Nsm^{-2}$ </p>\n<p> $d=(50 \\pm 0.1)m \\Rightarrow d=50m,\\Delta d=0.1m$ </p>\n<p>As,  $Q=\\frac{ab^{4}}{cd}$ </p>\n<p>by taking ln on both sides,</p>\n<p> $lnQ=lna+ulnb-lnc-lnd$ </p>\n<p>Now, by differentiating,</p>\n<p> $\\frac{dQ}{Q}=\\frac{da}{a}+4\\frac{db}{b}-\\frac{dc}{c}-\\frac{dd}{d}$ </p>\n<p>So, maximum fractional error in Q is given by,</p>\n<p> $\\frac{\\Delta Q}{Q}=\\frac{\\Delta a}{a}+4\\frac{\\Delta b}{b}+\\frac{\\Delta c}{c}+\\frac{\\Delta d}{d}$ </p>\n<p> $\\Rightarrow \\frac{\\Delta Q}{Q}=\\frac{3}{60}+4(\\frac{0.1}{20})+\\frac{0.2}{40}+\\frac{0.1}{40}$ </p>\n<p> $=\\frac{1}{20}+\\frac{1}{50}+\\frac{1}{200}+\\frac{1}{500}$ </p>\n<p> $\\Rightarrow \\frac{\\Delta Q}{Q}=\\frac{50+20+5+2}{1000}=\\frac{77}{1000}$ </p>\n<p>Hence the % error in  $Q=\\frac{\\Delta Q}{Q} \\times 100%$ </p>\n<p> $=\\frac{7700}{1000}%=\\frac{x}{1000}$  (given)</p>\n<p>So,  $x=7700$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Hard",
       "key_formulas": [
         "Q=\\frac{ab^{4}}{cd}",
@@ -2004,7 +2000,6 @@
         "a=(60 \\pm 3)Pa \\Rightarrow a=60Pa,\\Delta a=3Pa"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:26.051615"
@@ -2169,8 +2164,7 @@
         "=[L][M^{1}L^{1}T^{-2}]"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:58:51.329258"
     },
@@ -4007,13 +4001,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In expression  $a \\times 10^{b}$ , If  $a \\le 5;a \\approx 1$  by round off</p>\n<p> $\\Rightarrow$  Order  $B$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Error Analysis & Significant Figures",
+      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
       "difficulty": "Easy",
       "key_formulas": [
         "a \\times 10^{b}"
       ],
       "key_concepts": [
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:58:55.404002"
     },
@@ -4059,7 +4053,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the spring constant  $k$  of a spring experimentally, we can use the formula derived from Hooke's Law and the period of oscillation for a mass-spring system:</p>\n<p> $T=2\\pi\\sqrt{\\frac{m}{k}}$ </p>\n<p>Here,  $T$  is the period of oscillation,  $m$  is the mass, and  $k$  is the spring constant. Rearranging the formula to solve for  $k$ , we get:</p>\n<p> $k=\\frac{4\\pi^{2}m}{T^{2}}$ </p>\n<p>To find the error in  $k$ , we have to consider the errors in both the measurements of  $T$  and  $m$ . Let's denote the percentage errors as follows:</p>\n<p> $\\Delta T/T \\cdot 100%=2%$  (positive error)</p>\n<p> $\\Delta m/m \\cdot 100%=-1%$  (negative error)</p>\n<p>According to the rules of error propagation, the relative error in  $k$  can be found by adding the relative errors in the measurements, each multiplied by the respective powers to which they affect  $k$ . Since  $T$  is squared in the denominator and  $m$  is linear in the numerator, the calculation is as follows:</p>\n<p> $\\frac{\\Delta k}{k}=|-2 \\cdot \\frac{\\Delta T}{T}|+|1 \\cdot \\frac{\\Delta m}{m}|$ </p>\n<p>Substituting the percentage errors:</p>\n<p> $\\frac{\\Delta k}{k}=|-2 \\cdot 0.02|+|1 \\cdot (-0.01)|$ </p>\n<p> $\\frac{\\Delta k}{k}=0.04+0.01$ </p>\n<p> $\\frac{\\Delta k}{k}=0.05$ </p>\n<p>Thus, the percentage error in determining the value of  $k$  is:</p>\n<p> $\\frac{\\Delta k}{k} \\cdot 100%=5%$ </p>\n<p>The correct answer is Option A: 5%</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "T=2\\pi\\sqrt{\\frac{m}{k}}",
@@ -4067,7 +4061,6 @@
         "\\frac{\\Delta k}{k}=0.05"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:58:56.377558"
@@ -4428,7 +4421,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the density of the sphere, we need to calculate its volume using the measured diameter. Then, using the mass of the sphere, we can calculate the density using the formula for density, which is  $\\text{Density}=\\frac{\\text{Mass}}{\\text{Volume}}$ . Let's start by finding the accurate measurement of the diameter using the given vernier calipers readings.</p>\n<p>The least count (LC) of the vernier calipers can be calculated using the formula:\n\n<p> $\\text{LC}=\\frac{\\text{Value of one main scale division (MSD)}}{\\text{Number of vernier scale divisions (VSD) that match with the main scale}}$ </p></p>\n<p>Given that 9 divisions of the main scale are equal to 10 divisions of the vernier scale and the shortest division on the main scale is equal to  $1mm$ , we find:</p>\n<p> $\\text{LC}=\\frac{1mm}{10}=0.1mm=0.01cm$ </p>\n<p>For the main scale reading (MSR) of  $2cm$  and the second division of the vernier scale coinciding with a division on the main scale, the vernier scale reading (VSR) can be expressed as  $\\text{VSR}=2 \\times \\text{LC}$ .</p>\n<p>So,  $\\text{VSR}=2 \\times 0.01cm=0.02cm$ .</p>\n<p>The total measurement of the diameter (D) can be found by adding MSR and VSR:\n\n<p> $D=\\text{MSR}+\\text{VSR}$ </p>\n<p> $D=2cm+0.02cm=2.02cm$ </p></p>\n<p>Now, we can calculate the volume (V) of the sphere using its diameter with the formula  $V=\\frac{4}{3}\\pi r^{3}$ , where  $r$  is the radius of the sphere. Remembering that the radius is half of the diameter,  $r=\\frac{D}{2}=\\frac{2.02cm}{2}=1.01cm$ .</p>\n<p>Therefore,  $V=\\frac{4}{3}\\pi(1.01cm)^{3}$ ,</p>\n<p>Calculating the volume,\n\n<p> $V=\\frac{4}{3}\\pi(1.01)^{3}cm^{3} \\approx \\frac{4}{3} \\times 3.1416 \\times 1.0303cm^{3}=\\frac{4}{3} \\times 3.1416 \\times 1.0303cm^{3} \\approx 4.3434cm^{3}$ </p></p>\n<p>Now to find the density ( $\\rho$ ) using the mass ( $M=8.635g$ ) and volume ( $V=4.3434cm^{3}$ ) calculated,\n\n<p> $\\rho=\\frac{M}{V}=\\frac{8.635g}{4.3434cm^{3}} \\approx 1.988g/cm^{3}$ </p></p>\n<p>Comparing this result to the given options, the closest value is:</p>\n<p>Option B  $2.0g/cm^{3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{Density}=\\frac{\\text{Mass}}{\\text{Volume}}",
@@ -4439,7 +4432,6 @@
         "D=2cm+0.02cm=2.02cm"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:58:55.427335"
@@ -4653,11 +4645,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; T=2\\pi\\sqrt{\\frac{\\ell}{g}} \\\\ &amp; g=\\frac{4\\pi^{2}\\ell}{T^{2}} \\\\ &amp; \\frac{\\Delta g}{g}=\\frac{\\Delta\\ell}{\\ell}+\\frac{2\\Delta T}{T} \\\\ &amp; =\\frac{0.2}{20}+2(\\frac{1}{40}) \\\\ &amp; =\\frac{1.2}{20} \\end{aligned}$ </p>\n<p>Percentage change  $=\\frac{1.2}{20} \\times 100=6%$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:58:59.170468"
@@ -5354,13 +5345,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lq3ejfpx/abd4e452-3758-4b9c-8df1-0cf7b67ceb67/74170d10-9982-11ee-a5bb-83125883f881/file-6y3zli1lq3ejfq9.png?format=png"
       ],
-      "topic_tag": "Error Analysis & Significant Figures",
+      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
       "difficulty": "Medium",
       "key_formulas": [
         "(1Pc=3.26ly)"
       ],
       "key_concepts": [
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:02.320383"
     },
@@ -5525,8 +5516,7 @@
         "[ML^{2}T^{-2}]"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:04.872813"
     },
@@ -6162,8 +6152,7 @@
         "[L]=\\frac{[Q]}{[m]}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:09.181200"
     },
@@ -7021,8 +7010,7 @@
         "=5 \\times 5%=25%"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:06.221575"
     },
@@ -7323,14 +7311,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Unit of  $\\frac{E}{H}$  is  $\\frac{volt/metre}{Ampere/metre}=\\frac{volt}{Ampere}=oℎm$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Error Analysis & Significant Figures",
+      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{E}{H}",
         "\\frac{volt/metre}{Ampere/metre}=\\frac{volt}{Ampere}=oℎm"
       ],
       "key_concepts": [
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:10.919215"
     },
@@ -7665,7 +7653,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y=\\frac{MgL^{3}}{4bd^{3}\\delta}$ <br/><br/> $\\frac{\\Delta y}{y}=\\frac{\\Delta M}{M}+\\frac{3\\Delta L}{L}+\\frac{\\Delta b}{b}+\\frac{3\\Delta d}{d}+\\frac{\\Delta\\delta}{\\delta}$ <br/><br/> $\\frac{\\Delta y}{y}=\\frac{10^{-3}}{2}+\\frac{3 \\times 10^{-3}}{1}+\\frac{10^{-2}}{4}+\\frac{3 \\times 10^{-2}}{4}+\\frac{10^{-2}}{5}$ <br/><br/> $=10^{-3}[0.5+3+2.5+7.5+2]=0.0155$ <br/><br/>Option (b)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "Y=\\frac{MgL^{3}}{4bd^{3}\\delta}",
@@ -7673,7 +7661,6 @@
         "=10^{-3}[0.5+3+2.5+7.5+2]=0.0155"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:09.208008"
@@ -7841,8 +7828,7 @@
         "x=\\frac{16}{3},p= \\pm \\frac{3}{2}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:11.779781"
     },
@@ -8395,7 +8381,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $T=\\frac{t}{n}=2\\pi\\sqrt{\\frac{l}{g}}$ <br/><br/> $\\Rightarrow g=\\frac{4\\pi^{2}l}{T^{2}}$ <br/><br/> $\\Rightarrow \\frac{\\Delta g}{g} \\times 100=\\frac{\\Delta l}{l} \\times 100+2\\frac{\\Delta T}{T} \\times 100$ <br/><br/> $=(\\frac{\\Delta l}{l}+\\frac{2\\Delta T}{T})100%$ <br/><br/> $E_{1}=\\frac{20}{64}%$ <br/><br/> $E_{2}=\\frac{30}{64}%$ <br/><br/> $E_{3}=\\frac{19}{18}%$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "T=\\frac{t}{n}=2\\pi\\sqrt{\\frac{l}{g}}",
@@ -8406,7 +8392,6 @@
         "E_{3}=\\frac{19}{18}%"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:28.329665"
@@ -9068,14 +9053,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->z =  $\\frac{a^{2}b^{\\frac{2}{3}}}{\\sqrt{c}d^{3}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{dz}{z} \\times 100=(2\\frac{da}{a}+\\frac{2}{3}\\frac{db}{b}+\\frac{1}{2}\\frac{dc}{c}+3\\frac{d(d)}{d}) \\times 100$ \n<br/><br/>% error in z\n<br/><br/>=  $(2 \\times 2+\\frac{2}{3} \\times 1.5+\\frac{1}{2} \\times 4+3 \\times 2.5)$  %\n<br/><br/>= ( 4 + 1 + 2 + 7.5 ) %\n<br/><br/>= 14.5 %<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{a^{2}b^{\\frac{2}{3}}}{\\sqrt{c}d^{3}}",
         "% error in z ="
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity"
+        "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:15.156221"
     },
@@ -10129,8 +10114,7 @@
         "\\frac{\\Delta R}{R}=2\\frac{\\Delta l}{l}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:20.600252"
     },
@@ -10233,7 +10217,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Time period of a pendulum (T) =  $2\\pi\\sqrt{\\frac{l}{g}}$ \n<br/><br/> $\\Rightarrow$  T<sup>2</sup> =  $4\\pi^{2}\\frac{l}{g}$ \n<br/><br/> $\\Rightarrow$   $g=\\frac{4\\pi^{2}l}{T^{2}}$ \n<br/><br/>Fractional change \n<br/><br/> $(\\frac{dg}{g}) \\times 100=(\\frac{dl}{l}) \\times 100-(2\\frac{dT}{T}) \\times 100$ \n<br/><br/> $\\therefore$  Maximum possible percentage error,\n<br/><br/> $(\\frac{dg}{g}) \\times 100=(\\frac{dl}{l}) \\times 100+(2\\frac{dT}{T}) \\times 100$ \n<br/><br/>Error in time period(dT) = least count of time = 1 second\n<br/><br/>and T = 30 second\n<br/><br/>Error in length(dl) = least count of length = 1 mm\n<br/><br/>and  $l$  = 55.0 cm\n<br/><br/> $\\therefore$   $(\\frac{dg}{g}) \\times 100=$   $(\\frac{0.1}{55}) \\times 100+2(\\frac{1}{30}) \\times 100$  = 6.8%\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Medium",
       "key_formulas": [
         "2\\pi\\sqrt{\\frac{l}{g}}",
@@ -10244,7 +10228,6 @@
         "= 55.0 cm"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:17.962864"
@@ -10345,7 +10328,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Here given that\n<br/><br/>density of a material in SI units is 128 kg m<sup>–3</sup>\n<br/><br/>And a new unit system is introduced where 1 unit of length = 25 cm and 1 unit of mass = 50 g\n<br/><br/>You should know that, physical quantity is same in any unit system. And to calculate a physical quantity yo should know two things\n<br/><br/>(1) numerical value of the physical quantity (n)\n<br/><br/>(2) unit of the physical quantity (u)\n<br/><br/>And n  $\\times$  u = constant in any unit system.\n<br/><br/>Here in SI unit system,\n<br/><br/> n<sub>1</sub> = 128\n<br/><br/>u<sub>1</sub> = kg/m<sup>3</sup>\n<br/><br/>And in new unit system,\n<br/><br/>n<sub>2</sub> = ?\n<br/><br/>u<sub>2</sub> = 50gm/(25cm)<sup>3</sup>\n<br/><br/>As n<sub>1</sub>u<sub>1</sub> = n<sub>2</sub>u<sub>2</sub>\n<br/><br/> $\\therefore$  128  $\\times$  (kg/m<sup>3</sup>) = n<sub>2</sub>  $\\times$  50gm/(25cm)<sup>3</sup>\n<br/><br/> $\\Rightarrow$  128  $\\times$   $\\frac{1000gm}{(100cm)^{3}}$  = n<sub>2</sub>  $\\times$   $\\frac{50gm}{(25cm)^{3}}$ \n<br/><br/> $\\Rightarrow$  n<sub>2</sub> = 128  $\\times$   $\\frac{20}{4^{3}}$  = 40<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Error Analysis & Significant Figures",
+      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -10354,7 +10337,7 @@
         "\\frac{20}{4^{3}}"
       ],
       "key_concepts": [
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:19.712350"
     },
@@ -10521,8 +10504,7 @@
         "\\frac{[MLT^{-2}]}{[L^{2}]}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:18.677681"
     },
@@ -10633,8 +10615,7 @@
         "\\Rightarrow \\frac{\\Delta d}{d} \\times 100=1.5%+3(1)%"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:21.418106"
     },
@@ -10859,8 +10840,7 @@
         "\\frac{\\Delta r}{r}"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
-        "Error Analysis & Significant Figures"
+        "Dimensional Analysis & Principle of Homogeneity"
       ],
       "crawled_at": "2026-09-20T15:59:20.657535"
     },
@@ -11673,14 +11653,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Least count of screw gauge =  $\\frac{0.5}{50}mm$  = 0.01mm<br/><br/>\nMain scale reading = 3 mm<br/><br/>\nVernier scale reading = 35<br/><br/>\n $\\therefore$  Reading =  [Main scale reading + circular scale reading  $\\times$  L.C] - (zero error)<br/><br/>\n= [3 + 35  $\\times$  0.01] - (-0.03) = 3.38 mm<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dimensional Analysis & Principle of Homogeneity",
+      "topic_tag": "Error Analysis & Significant Figures",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{0.5}{50}mm",
         "\\times"
       ],
       "key_concepts": [
-        "Dimensional Analysis & Principle of Homogeneity",
         "Error Analysis & Significant Figures"
       ],
       "crawled_at": "2026-09-20T15:59:24.137779"

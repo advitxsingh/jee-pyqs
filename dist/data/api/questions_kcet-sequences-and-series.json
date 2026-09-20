@@ -206,14 +206,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; 1+\\frac{3}{7}+\\frac{5}{72}+\\frac{7}{73}+\\dots \\\\ &amp; \\frac{1}{70}+\\frac{3}{7}+\\frac{5}{72}+\\frac{7}{73}+\\dots \\end{aligned}$ </p>\n<p>Numerator are in AP</p>\n<p>So,  $T_{n}$  of  $AP=1+(n-1)^{2}=2n-1$ </p>\n<p>Denominator are in GP</p>\n<p>So,  $T_{n}$  of  $GP=7^{n-1}$ </p>\n<p> $T_{n}$  of given series  $=\\frac{2n-1}{7^{n-1}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AM-GM-HM Inequality & Telescoping Series",
+      "topic_tag": "Arithmetic & Geometric Progressions (AP, GP, AGP)",
       "difficulty": "Medium",
       "key_formulas": [
         "T_{n}",
         "=\\frac{2n-1}{7^{n-1}}"
       ],
       "key_concepts": [
-        "AM-GM-HM Inequality & Telescoping Series"
+        "Arithmetic & Geometric Progressions (AP, GP, AGP)"
       ],
       "crawled_at": "2026-09-20T15:27:03.939270"
     },
@@ -312,14 +312,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $A={1,2,3,\\dots,10}$ </p>\n<p>Set  $A$  containing only odd number  $={1,3,5,7,9}$ \n<br/><br/>Number of subsets  $=2^{5}$  [it contains empty set also]</p>\n<p>The required number of subsets of  $A$  containing only odd number  $=2^{5}-1$ </p>\n<p> $=32-1=31$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arithmetic & Geometric Progressions (AP, GP, AGP)",
+      "topic_tag": "AM-GM-HM Inequality & Telescoping Series",
       "difficulty": "Medium",
       "key_formulas": [
         "A={1,2,3,\\dots,10}",
         "=32-1=31"
       ],
       "key_concepts": [
-        "Arithmetic & Geometric Progressions (AP, GP, AGP)"
+        "AM-GM-HM Inequality & Telescoping Series"
       ],
       "crawled_at": "2026-09-20T15:27:03.953180"
     },
@@ -469,7 +469,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, number of terms,  $n=51$ </p>\n<p> $\\because n$  is odd.</p>\n<p> $\\therefore$  Middle term will be  $(\\frac{n+1}{2})$ th term.</p>\n<p> $\\begin{aligned} &amp; =(\\frac{51+1}{2})\\text{th term}=26\\text{th term} \\\\ \\therefore &amp; T_{26}=300 \\end{aligned}$ </p>\n<p> $a+25d=300[ \\because T_{n}=a+(n-1)d]$ </p>\n<p> $\\Rightarrow T_{1}+25d=300[ \\because T_{1}=a]$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow T_{1}=300-25d \\\\ &amp; \\text{and}T_{51}=a+50d=T_{1}+50d=300-25d+50d \\\\ &amp; =300+25d \\\\ &amp; \\therefore S_{51}=\\frac{51}{2}[300-25d+300+25d] \\\\ &amp; =\\frac{51}{2}[600]=15300 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AM-GM-HM Inequality & Telescoping Series",
+      "topic_tag": "Arithmetic & Geometric Progressions (AP, GP, AGP)",
       "difficulty": "Medium",
       "key_formulas": [
         "n=51",
@@ -478,7 +478,7 @@
         "\\Rightarrow T_{1}+25d=300[ \\because T_{1}=a]"
       ],
       "key_concepts": [
-        "AM-GM-HM Inequality & Telescoping Series"
+        "Arithmetic & Geometric Progressions (AP, GP, AGP)"
       ],
       "crawled_at": "2026-09-20T15:27:04.181996"
     },

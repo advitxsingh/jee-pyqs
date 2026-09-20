@@ -246,11 +246,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(\\theta)=4(sin^{-1}(\\frac{7\\pi}{2}-\\theta)+sin^{4}(11\\pi+\\theta)) \\\\ &amp; -2(sin^{6}(\\frac{3\\pi}{2}-\\theta)+sin^{6}(9\\pi-\\theta)) \\\\ &amp; =4(cos^{4}\\theta+sin^{4}\\theta cos^{2}\\theta)-2(cos^{2}\\theta+sin^{6}\\theta) \\\\ &amp; =4(1-2sin^{2}\\theta cos^{2}\\theta) \\\\ &amp; -2(1)(sin^{4}\\theta+cos^{4}\\theta-sin^{2}\\theta cos^{2}\\theta) \\\\ &amp; =4-8sin^{2}\\theta cos^{2}\\theta-2(1-3sin^{2}\\theta cos^{2}\\theta) \\\\ &amp; =2-2sin^{2}\\theta cos^{2}\\theta \\\\ &amp; =2-\\frac{(sin2\\theta)^{2}}{2} \\\\ &amp; f(\\theta)_{max}=2=\\alpha f(\\theta)_{min}=2-\\frac{1}{2}=\\frac{3}{2}=\\beta \\\\ &amp; \\alpha+2\\beta=2+3=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:29.132758"
     },
@@ -444,7 +444,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><b>Step 1: Write  $f(x)$  without absolute values for different intervals</b></p>\n<p>When  $x \\ge 1$ ,  $lnx$  is positive and  $x-1$  is also positive. So:</p>\n<p>\n $f(x)=|lnx|-|x-1|=lnx-(x-1)=lnx-x+1$ \n\nfor  $x \\ge 1$ .\n\n</p>\n<p>When  $0&lt;x&lt;1$ ,  $lnx$  is negative and  $x-1$  is negative. So:</p>\n<p>\n $f(x)=|lnx|-|x-1|=-lnx-(-(x-1))=-lnx+x-1$ \n\nfor  $0&lt;x&lt;1$ .\n\n</p>\n<p>So we can write:\n\n $f(x)=⎧⎩⎨\\begin{aligned} lnx-x+1 &amp; \\text{for}x \\ge 1 \\\\ \\\\ -lnx+x-1 &amp; \\text{for}0&lt;x&lt;1 \\end{aligned}$ \n</p>\n<p><b>Step 2: Find the derivative  $f^{'}(x)$  in both cases</b></p>\n<p>For  $x \\ge 1,$ </p>\n<p>\n $f^{'}(x)=\\frac{d}{dx}(lnx-x+1)=\\frac{1}{x}-1$ \n</p>\n<p>For  $0&lt;x&lt;1,$ </p>\n<p>\n $f^{'}(x)=\\frac{d}{dx}(-lnx+x-1)=-\\frac{1}{x}+1$ \n</p>\n<p>So,\n\n $f^{'}(x)=⎧⎩⎨⎪⎪\\begin{aligned} \\frac{1}{x}-1 &amp; \\text{for}x \\ge 1 \\\\ \\\\ -\\frac{1}{x}+1 &amp; \\text{for}0&lt;x&lt;1 \\end{aligned}$ \n</p>\n<p><b>Step 3: Check differentiability at  $x=1$ </b></p>\n<p>\n\nFrom the left of  $x=1$ :\n\n $f^{'}(1^{-})=-\\frac{1}{1}+1=0$ \n</p>\n<p>\n\nFrom the right of  $x=1$ :\n\n $f^{'}(1^{+})=\\frac{1}{1}-1=0$ \n</p>\n<p>\n\nBoth one-sided derivatives are equal. So  $f(x)$  is differentiable at  $x=1$ .\n\n</p>\n<p>\n\nSince the formulas for  $f^{'}(x)$  are valid everywhere for  $x&gt;0$ ,  $f(x)$  is differentiable for all  $x&gt;0$ .\n\n</p>\n<p><b>Step 4: Check if  $f(x)$  is increasing or decreasing</b></p>\n<p>\n\nFor  $x&gt;1$ :\n\n $f^{'}(x)=\\frac{1}{x}-1$ \n\nSince  $x&gt;1$ ,  $\\frac{1}{x}&lt;1$ . So  $f^{'}(x)&lt;0$ , which means  $f(x)$  is decreasing for  $x&gt;1$ .\n\n</p>\n<p>\n\nFor  $0&lt;x&lt;1$ :\n\n $f^{'}(x)=-\\frac{1}{x}+1$ \n\nHere,  $\\frac{1}{x}&gt;1$ , so  $-\\frac{1}{x}+1&lt;0$ , so  $f^{'}(x)&lt;0$ . Therefore,  $f(x)$  is decreasing for  $0&lt;x&lt;1$  also.\n\n</p>\n<p><b>Step 5: Check the statements</b></p>\n<p>\n\n(I)  $f$  is differentiable at all  $x&gt;0$ : <b>True</b>\n</p>\n<p>\n\n(II)  $f$  is increasing in  $(0,1)$ : <b>False</b>\n</p>\n<p>\n\n(III)  $f$  is decreasing in  $(1,\\infty)$ : <b>True</b>\n</p>\n<p>\n\nSo only statements (I) and (III) are correct.\n\n</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=|log_{e}x|-|x-1|",
@@ -452,7 +452,7 @@
         "f^{'}(x)=\\frac{d}{dx}(-lnx+x-1)=-\\frac{1}{x}+1"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:28.938420"
     },
@@ -719,14 +719,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\underset{x \\rightarrow 0}{lim}\\frac{f(x)}{x^{2}}=5 \\\\ &amp; \\underset{x \\rightarrow 0}{lim}\\frac{ax^{4}+bx^{3}+cx^{2}+dx+e)}{x^{2}}=5 \\\\ &amp; c=5\\text{and}d=e=0 \\\\ &amp; f(x)=ax^{4}+bx^{3}+5x^{2} \\\\ &amp; f^{'}(x)=4ax^{3}+3bx^{2}+10x \\\\ &amp; =x(4ax^{2}+3bx+10) \\end{aligned}$ </p>\n<p>has extremes at 4 and so  $f^{'}(4)=0&amp;f^{'}(5)=0$ </p>\n<p>so  $a=\\frac{1}{8}&amp;b=\\frac{-3}{2}$ </p>\n<p>so  $f(2)=\\frac{1}{8} \\times 2^{4}-\\frac{3}{2} \\times 2^{3}+5 \\times 2^{2}$ </p>\n<p> $=2-12+20=10$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\underset{x \\rightarrow 0}{lim}\\frac{f(x)}{x^{2}}=5",
         "=2-12+20=10"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:29.298843"
     },
@@ -998,7 +998,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7j743p6/652d23d0-0c0a-44c0-9747-c399ef1abf88/a196a8b0-f2c1-11ef-839d-2d40708f8cbd/file-jaoe38c1m7j743p7.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "81cm^{3}/min",
@@ -1006,7 +1006,7 @@
         "cm^{2}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:29.766549"
     },
@@ -1090,7 +1090,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rtxz4o/b8ef9aff-e668-4ba4-85bb-7cbb173dbabe/9d207980-1f19-11f0-9588-0d31893f02ea/file-jaoe38c1m9rtxz4p.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=6x^{3}-45ax^{2}+108a^{2}x+1",
@@ -1100,7 +1100,7 @@
         "a+x_{1}+x_{2}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:29.315697"
     },
@@ -1148,11 +1148,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m77nx3k2/fcac8f5e-e38f-4f85-9a5a-350b1e5e3b67/f2378220-ec69-11ef-a7f5-ed1df7ab36a3/file-jaoe38c1m77nx3k3.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:29.532444"
     },
@@ -1236,13 +1236,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7egmr6a/27fea4d8-d8ed-4015-8210-15b5a0fb3db3/ef33d630-f026-11ef-921d-0396e8519151/file-jaoe38c1m7egmr6b.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "is equal to _________."
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:38.323314"
     },
@@ -1288,7 +1288,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=6x^{2}-18ax+12a^{2} \\\\ &amp; =6(x^{2}-3a+2a^{2}) \\\\ &amp; =6(x-a)(x-2a)=0 \\\\ &amp; x=a,2a \\end{aligned}$ </p>\n<p> $a=\\alpha,2a=\\alpha^{2} \\Rightarrow \\alpha=0,2$ </p>\n<p> $\\begin{aligned} a&gt;0 &amp; \\therefore &amp; \\alpha=2 \\\\ &amp; &amp; \\alpha^{2}=4 \\end{aligned}$ </p>\n<p> $\\therefore x^{2}-6x+8=0$  is the required quadratic equation.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=2x^{3}-9ax^{2}+12a^{2}x+1,a>0",
@@ -1299,7 +1299,7 @@
         "\\begin{aligned} a>0 & \\therefore & \\alpha=2 \\\\ & & \\alpha^{2}=4 \\end{aligned}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:30.087826"
     },
@@ -1510,14 +1510,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=\\frac{x}{x^{2}-6x-16}$ </p>\n<p>Now,</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=\\frac{-(x^{2}+16)}{(x^{2}-6x-16)^{2}} \\\\ &amp; f^{'}(x)&lt;0 \\end{aligned}$ </p>\n<p>Thus  $f(x)$  is decreasing in</p>\n<p> $(-\\infty,-2)∪(-2,8)∪(8,\\infty)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{x}{x^{2}-6x-16},x \\in ℝ-{-2,8}",
         "f(x)=\\frac{x}{x^{2}-6x-16}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:30.794009"
     },
@@ -1576,7 +1576,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt307bt9/dd10aeba-887c-4185-a5fe-218e2ee9b2bf/09af1ae0-d4af-11ee-8384-811001421c41/file-1lt307bta.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt30872c/dd61fe66-bd37-4697-9d03-3f699eeb03a7/21d35f50-d4af-11ee-8384-811001421c41/file-1lt30872d.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=2^{x}-x^{2},x \\in ℝ",
@@ -1584,7 +1584,7 @@
         "\\begin{aligned} & \\therefore n=2 \\\\ & \\Rightarrow m+n=5 \\end{aligned}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:38.633798"
     },
@@ -1740,7 +1740,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=\\frac{2x^{2}-3x+8}{2x^{2}+3x+8}=y,2x^{2}+3x+8&gt;0∀x \\in ℝ \\\\ &amp; \\Rightarrow x^{2}(2y-2)+x(3y+3)+8y-8=0 \\end{aligned}$ </p>\n<p>Since  $x \\in ℝ$ , the equation has real roots</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow D \\ge 0 \\\\ &amp; \\Rightarrow (3y+3)^{2}-4(2y-2)(8y-8) \\ge 0 \\\\ &amp; \\Rightarrow 9(y+1)^{2}-64y(y-1)^{2} \\ge 0 \\\\ &amp; \\Rightarrow (3y+3)^{2}-(8y-8)^{2} \\ge 0 \\\\ &amp; \\Rightarrow (11y-5)(-5y+11) \\ge 0 \\\\ &amp; \\Rightarrow (y-\\frac{5}{11})(y-\\frac{11}{5}) \\le 0 \\\\ &amp; \\Rightarrow y \\in [\\frac{5}{11},\\frac{11}{5}] \\end{aligned}$ </p>\n<p>Sum of maximum and minimum value</p>\n<p> $\\begin{aligned} &amp; y_{max}+y_{min}=\\frac{5}{11}+\\frac{11}{5}=\\frac{25+121}{55} \\\\ &amp; =\\frac{146}{55}=\\frac{m}{n} \\Rightarrow m+n=201 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{2x^{2}-3x+8}{2x^{2}+3x+8}",
@@ -1748,7 +1748,7 @@
         "gcd(m,n)=1"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:30.475006"
     },
@@ -1794,11 +1794,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(0)=|\\begin{aligned} 0 &amp; 1 &amp; 1 \\\\ 2 &amp; 0 &amp; 6 \\\\ 0 &amp; 4 &amp; -2 \\end{aligned}|=12 \\\\ &amp; f^{'}(x)=|\\begin{aligned} 3x^{2} &amp; 4x &amp; 3 \\\\ 3x^{2}+2 &amp; 2x &amp; x^{3}+6 \\\\ x^{3}-x &amp; 4 &amp; x^{2}-2 \\end{aligned}|+ \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; |\\begin{aligned} x^{3} &amp; 2x^{2}+1 &amp; 1+3x \\\\ 6x &amp; 2 &amp; 3x^{2} \\\\ x^{3}-x &amp; 4 &amp; x^{2}-2 \\end{aligned}|+ \\\\ &amp; |\\begin{aligned} x^{3} &amp; 2x^{2}+1 &amp; 1+3x \\\\ 3x^{2}+2 &amp; 2x &amp; x^{3}+6 \\\\ 3x^{2}-1 &amp; 0 &amp; 2x \\end{aligned}| \\\\ &amp; \\therefore f^{'}(0)=|\\begin{aligned} 0 &amp; 0 &amp; 3 \\\\ 2 &amp; 0 &amp; 6 \\\\ 0 &amp; 4 &amp; -2 \\end{aligned}|+|\\begin{aligned} 0 &amp; 1 &amp; 1 \\\\ 0 &amp; 2 &amp; 0 \\\\ 0 &amp; 4 &amp; -2 \\end{aligned}|+|\\begin{aligned} 0 &amp; 1 &amp; 1 \\\\ 2 &amp; 0 &amp; 6 \\\\ -1 &amp; 0 &amp; 0 \\end{aligned}| \\\\ &amp; =24-6=18 \\\\ &amp; \\therefore 2f(0)+f^{'}(0)=42 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:30.647945"
     },
@@ -1846,14 +1846,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsr8t6nc/4c9643cb-de77-44b7-86fb-da033b7c270c/4abc4680-ce37-11ee-9412-cd4f9c6f2c40/file-6y3zli1lsr8t6nd.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=2x+3(x)^{\\frac{2}{3}},x \\in ℝ",
         "So, maxima (M) at x ="
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:30.803891"
     },
@@ -1881,7 +1881,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw3i47n9/78e3808f-b6b1-4774-ad57-06e016fc0e17/bd7fae50-1059-11ef-abcd-c333ada72a30/file-1lw3i47na.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw3i5n3l/0bfecb58-7297-4604-ad51-f617b9a67d6c/e53eda10-1059-11ef-abcd-c333ada72a30/file-1lw3i5n3m.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Hard",
       "key_formulas": [
         "(1+x(\\lambda^{2}-x^{2}))",
@@ -1890,7 +1890,7 @@
         "-\\frac{\\lambda}{\\sqrt{3}}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:38.464109"
     },
@@ -1915,7 +1915,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)-f(y) \\ge lnx-lny+x-y \\\\ &amp; \\frac{f(x)-f(y)}{x-y} \\ge \\frac{lnx-lny}{x-y}+1 \\end{aligned}$ </p>\n<p>Let  $x&gt;y$ </p>\n<p> $\\underset{y \\rightarrow x}{lim}f^{'}(x^{-}) \\ge \\frac{1}{x}+1\\text{.... (1)}$ </p>\n<p>Let  $x&lt;y$ </p>\n<p> $\\underset{y \\rightarrow x}{lim}f^{'}(x^{+}) \\le \\frac{1}{x}+1\\text{.... (2)}$ </p>\n<p> $\\begin{aligned} &amp; f^{1}(x^{-})=f^{1}(x^{+}) \\\\ &amp; f^{1}(x)=\\frac{1}{x}+1 \\\\ &amp; f^{'}(\\frac{1}{x^{2}})=x^{2}+1 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\sum_{x=1}^{20}(x^{2}+1)=\\sum_{x-1}^{20}x^{2}+20 \\\\ &amp; =\\frac{20 \\times 21 \\times 41}{6}+20 \\\\ &amp; =2890 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ____________.",
@@ -1923,7 +1923,7 @@
         "\\underset{y \\rightarrow x}{lim}f^{'}(x^{+}) \\le \\frac{1}{x}+1\\text{.... (2)}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:38.643536"
     },
@@ -2230,13 +2230,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw4uiqqc/051e5d6a-5dcd-41d3-92ba-260c0a74c2b1/07c4e940-1117-11ef-b9cb-b5e0fe4ba33b/file-1lw4uiqqd.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw4uomxr/b876dfc7-50c6-4c89-9214-81e07c07cec0/abb17af0-1117-11ef-b9cb-b5e0fe4ba33b/file-1lw4uomxs.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "is ________."
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:38.473405"
     },
@@ -2538,14 +2538,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lweqs4gr/cb92f82c-cbcf-4ca2-8ad5-d05029ed7bb2/3ea356b0-1688-11ef-9ee8-13752e98d8d6/file-1lweqs4gs.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\sqrt{8x-x^{2}-12}-4)^{2}+(x-7)^{2},x \\in R",
         "is equal to _________."
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:38.482069"
     },
@@ -2851,7 +2851,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\text{Let}y=(\\frac{\\sqrt{3e}}{2sinx})^{sin^{2}x}$ \n<br/><br/> $lny=sin^{2}x \\cdot ln(\\frac{\\sqrt{3e}}{2sinx})$ \n<br/><br/> $\\frac{1}{y}y^{'}=ln(\\frac{\\sqrt{3e}}{2sinx})2sinxcosx+sin^{2}x\\frac{2sinx}{\\sqrt{3e}}\\frac{\\sqrt{3e}}{2}(-cosecxcotx)$ \n<br/><br/>For maxima or minima,  $\\frac{dy}{dx}=0$ \n<br/><br/> $\\Rightarrow ln(\\frac{\\sqrt{3e}}{2sinx})2sinxcosx-sinxcosx=0$ \n<br/><br/> $\\Rightarrow sinxcosx[2ln(\\frac{\\sqrt{3e}}{2sinx})-1]=0$ \n<br/><br/> $\\Rightarrow ln(\\frac{3e}{4sin^{2}x})=1$ \n<br/><br/> $\\Rightarrow \\frac{3e}{4sin^{2}x}=e$ \n<br/><br/> $\\Rightarrow sin^{2}x=\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow sinx=\\frac{\\sqrt{3}}{2}(\\text{as}x \\in (0,\\frac{\\pi}{2}))$ \n<br/><br/> $\\Rightarrow \\text{Local max value}=(\\frac{\\sqrt{3e}}{\\sqrt{3}})^{3/4}=e^{3/8}=\\frac{k}{e}$ \n<br/><br/> $\\Rightarrow k^{8}=e^{11}$ \n<br/><br/> $\\therefore$   $(\\frac{k}{e})^{8}+\\frac{k^{8}}{e^{5}}+k^{8}=e^{3}+e^{6}+e^{11}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(\\frac{\\sqrt{3e}}{2sinx})^{sin^{2}x},x \\in (0,\\frac{\\pi}{2})",
@@ -2862,7 +2862,7 @@
         "\\Rightarrow ln(\\frac{\\sqrt{3e}}{2sinx})2sinxcosx-sinxcosx=0"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:31.079532"
     },
@@ -3243,7 +3243,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1locy9o68/7ed2dae1-7f5d-4feb-a54d-f2d90c2aabe3/3a30c2f0-772a-11ee-8319-49c6602bc172/file-6y3zli1locy9o69.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Hard",
       "key_formulas": [
         "y=x^{5}-20x^{3}+50x+2",
@@ -3251,7 +3251,7 @@
         "\\because \\text{Required number of points}=5"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:38.843664"
     },
@@ -3588,7 +3588,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5yki2b2/272d4c44-a92f-4bfd-a59e-312affd66d01/85dcc4e0-0ae5-11ed-a51c-73986e88f75f/file-1l5yki2b3.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5ykjlo9/ac69243c-25e4-42c2-af51-acef287e6cb5/b0a1b690-0ae5-11ed-a51c-73986e88f75f/file-1l5ykjloa.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=4x^{3}-11x^{2}+8x-5,x \\in R",
@@ -3599,7 +3599,7 @@
         "=2[2x(3x-4)-1(3x-4)]"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:32.066839"
     },
@@ -3704,7 +3704,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5th5qtk/a97fb8bf-1c8b-4d95-accc-6e78d7642980/88a53880-0818-11ed-98aa-f9038709a939/file-1l5th5qtl.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "V=\\frac{1}{3}\\pi r^{2}ℎ",
@@ -3715,7 +3715,7 @@
         "\\Rightarrow \\frac{dS}{dt_{(ℎ=10)}}=\\frac{\\sqrt{26}}{5}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:32.406871"
     },
@@ -4006,7 +4006,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given,  $f(x)=\\underset{f_{1}(x)}{\\underset{}{(x^{2}-2x+7)}}\\underset{f_{2}(x)}{\\underset{}{e^{(4x^{3}-12x^{2}-180x+31)}}}$ \n<br/><br/>\n $f_{1}(x)=x^{2}-2x+7$ \n<br/><br/>\n $f_{1}^{'}(x)=2x-2$ , so  $f(x)$  is decreasing in  $[-3,0]$  and positive also\n<br/><br/>\n $f_{2}(x)=e^{4x^{3}-12x^{2}-180x+31}$ \n<br/><br/>\n $f_{2}^{'}(x)=e^{4x^{3}-12x^{2}-180x+31} \\cdot 12x^{2}-24x-180$ \n<br/><br/>\n $=12(x-5)(x+3)e^{4x^{3}-12x^{2}-180x+31}$ \n<br/><br/>\nSo,  $f_{2}(x)$  is also decreasing and positive in  ${-3,0}$ \n<br/><br/>\n $\\therefore$  absolute maximum value of  $f(x)$  occurs at  $x=-3$ \n<br/><br/>\n $\\therefore \\alpha=-3$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(x^{2}-2x+7)e^{(4x^{3}-12x^{2}-180x+31)}",
@@ -4017,7 +4017,7 @@
         "=12(x-5)(x+3)e^{4x^{3}-12x^{2}-180x+31}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:31.895984"
     },
@@ -4129,7 +4129,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lc6nga5p/f6bd0c59-facc-4024-b756-658e8619a898/a12a41d0-8620-11ed-ba1b-3b1de775931b/file-1lc6nga5q.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)_{max}=3",
@@ -4137,7 +4137,7 @@
         "=\\frac{\\sqrt{17}-3}{2}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:32.240688"
     },
@@ -4369,7 +4369,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=xe^{x(1-x)},x \\in R$ </p>\n<p> $f^{'}(x)=xe^{x(1-x)}.(1-2x)+e^{x(1-x)}$ </p>\n<p> $=e^{x(1-x)}[x-2x^{2}+1]$ </p>\n<p> $=-e^{x(1-x)}[2x^{2}-x-1]$ </p>\n<p> $=-e^{x(1-x)}(2x+1)(x-1)$ </p>\n<p> $\\therefore$   $f(x)$  is increasing in  $(-\\frac{1}{2},1)$  and decreasing in  $(-\\infty,-\\frac{1}{2})∪(1,\\infty)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=xe^{x(1-x)},x \\in ℝ",
@@ -4380,7 +4380,7 @@
         "=-e^{x(1-x)}(2x+1)(x-1)"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:31.693299"
     },
@@ -4482,7 +4482,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5nil7kj/2ee06cba-de30-46ff-9d0f-1870cf0f243a/6bf44540-04d1-11ed-93b8-936002ac8631/file-1l5nil7kk.png?format=png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "4a+3b=22",
@@ -4493,7 +4493,7 @@
         "\\Rightarrow 4\\sqrt{3}b=66-9b"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:32.087634"
     },
@@ -4787,7 +4787,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7rb2qy2/d1f9b6e9-ed06-4643-80c4-d9d8e53ea216/9bffa4a0-2e7f-11ed-8702-156c00ced081/file-1l7rb2qy3.png?format=png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{5x^{2}}{2}+\\frac{\\alpha}{x^{5}},x>0",
@@ -4798,7 +4798,7 @@
         "\\frac{7}{2}\\alpha^{\\frac{2}{7}}=14"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:31.702841"
     },
@@ -4844,7 +4844,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of line passing through the point (50 +  $\\alpha$ , 0) and (0, 50 +  $\\alpha$ ) is</p>\n<p> $y-0=\\frac{50+\\alpha-0}{0-(50+\\alpha)}(x-(50+\\alpha))$ </p>\n<p> $\\Rightarrow y=-1(x-(50+\\alpha))$ </p>\n<p> $\\Rightarrow y=(50+\\alpha)-x$ </p>\n<p> $\\Rightarrow x+y=50+\\alpha$ </p>\n<p>Let  $p=xy^{4}$ </p>\n<p> $=(50+\\alpha-y)y^{4}$ </p>\n<p> $=(50+\\alpha)y^{4}-y^{5}$ </p>\n<p>For maximum or minimum value of p,</p>\n<p> $\\frac{dp}{dy}=0$ </p>\n<p> $\\Rightarrow 4y^{3}(50+\\alpha)-5y^{4}=0$ </p>\n<p> $\\Rightarrow y^{3}[200+4\\alpha-5y]=0$ </p>\n<p> $\\therefore$   $y=0$ </p>\n<p>or</p>\n<p> $200+4\\alpha-5y=0$ </p>\n<p> $\\Rightarrow y=\\frac{4}{5}(50+\\alpha)$ </p>\n<p> $\\therefore$   $x=50+\\alpha-y$ </p>\n<p> $=50+\\alpha-\\frac{4}{5}(50+\\alpha)$ </p>\n<p> $=50+\\alpha(1-\\frac{4}{5})$ </p>\n<p> $=\\frac{1}{5}(50+\\alpha)$ </p>\n<p> $\\Rightarrow 4x=\\frac{4}{5}(50+\\alpha)=y$ </p>\n<p> $\\Rightarrow y=4x$ </p>\n<p> $\\therefore$  (x, y) lies on the line y = 4x</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "y-0=\\frac{50+\\alpha-0}{0-(50+\\alpha)}(x-(50+\\alpha))",
@@ -4855,7 +4855,7 @@
         "=(50+\\alpha-y)y^{4}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:31.910940"
     },
@@ -5009,7 +5009,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $f_{\\lambda}(x)=4\\lambda x^{3}-36\\lambda x^{2}+36\\lambda+48$ </p>\n<p> $\\therefore$   $f_{\\lambda}^{'}(x)=12(\\lambda x^{2}-6\\lambda x+3)$ </p>\n<p>For  $f_{\\lambda}(x)$  increasing :  $(6\\lambda)^{2}-12\\lambda \\le 0$ </p>\n<p> $\\therefore$   $\\lambda \\in [0,\\frac{1}{3}]$ </p>\n<p> $\\therefore$   $\\lambda^{∗}=\\frac{1}{3}$ </p>\n<p>Now,  $f_{\\lambda}^{∗}(x)=\\frac{4}{3}x^{3}-12x^{2}+36x+48$ </p>\n<p> $\\therefore$   $f_{\\lambda}^{∗}(1)+f_{\\lambda}^{∗}(-1)=73\\frac{1}{2}-1\\frac{1}{2}=72$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "^{∗}",
@@ -5020,7 +5020,7 @@
         "f_{\\lambda}(x)"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:32.431347"
     },
@@ -5066,7 +5066,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=|(2x-1)(x+2)|+\\frac{sin2x}{2}$ \n<br/><br/>\n $0 \\le x&lt;\\frac{1}{2}f(x)=(1-2x)(x+2)+\\frac{sin2x}{2}$ \n<br/><br/>\n $f^{'}(x)=-4x-3+cos2x&lt;0$ \n<br/><br/>\nFor  $x \\ge \\frac{1}{2}:f^{'}(x)=4x+3+cos2x&gt;0$ \n<br/><br/>\nSo, minima occurs at  $x=\\frac{1}{2}$ \n<br/><br/>\n $\\begin{aligned} f(x)|_{min} &amp; =|2(\\frac{1}{2})^{2}+\\frac{3}{2}-2|+sin(\\frac{1}{2}) \\cdot cos(\\frac{1}{2}) \\\\ \\\\ &amp; =\\frac{1}{2}sin1 \\end{aligned}$ \n<br/><br/>\nSo, maxima is possible at  $x=0$  or  $x=1$ \n<br/><br/>\nNow checking for  $x=0$  and  $x=1$ , we can see it attains its maximum value at  $x=1$ \n<br/><br/>\n $\\begin{aligned} f(x)|_{max}= &amp; |2+3-2|+\\frac{sin2}{2} \\\\ \\\\ &amp; =3+\\frac{1}{2}sin2 \\end{aligned}$ \n<br/><br/>\nSum of absolute maximum and minimum value \n<br/><br/> $=3+\\frac{1}{2}(sin1+sin2)$ \n<br/><br/> $=3+\\frac{1}{2}(sin1+2sin1cos1)$ \n<br/><br/>=  $3+\\frac{1}{2}(1+2cos(1))sin(1)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=|2x^{2}+3x-2|+sinxcosx",
@@ -5077,7 +5077,7 @@
         "x=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:32.619179"
     },
@@ -5197,7 +5197,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktqu6l56/7cdaaa8f-f741-4bcf-a676-1230ae684954/8440aea0-1912-11ec-9e1c-4f8f7e7dad5b/file-1ktqu6l57.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "x. Area of square =",
@@ -5208,7 +5208,7 @@
         "=\\frac{1}{6}(20-x)"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.029897"
     },
@@ -5369,7 +5369,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|f(x)-f(y)| \\le |(x-y)^{2}|$ <br/><br/> $\\Rightarrow |\\frac{f(x)-f(y)}{x-y}| \\le |x-y|$ <br/><br/> $\\Rightarrow |\\underset{x \\rightarrow y}{lim}\\frac{f(x)-f(y)}{x-y}| \\le |\\underset{x \\rightarrow y}{lim}(x-y)|$ <br/><br/> $\\Rightarrow |f^{'}(x)| \\le 0$ <br/><br/> $\\Rightarrow f^{'}(x)=0$ <br/><br/> $\\Rightarrow f(x)$  is constant function.<br/><br/> $\\because$   $f(0)$  = 1 then f(x) = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "|f(x)-f(y)| \\le |(x-y)^{2}|,∀(x,y) \\in R",
@@ -5379,7 +5379,7 @@
         "\\Rightarrow f^{'}(x)=0"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.563462"
     },
@@ -5425,13 +5425,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=⎧⎩⎨⎪⎪\\begin{aligned} -55x, &amp; ifx&lt;-5 \\\\ 2x^{3}-3x^{2}-120x, &amp; if-5 \\le x \\le 4 \\\\ 2x^{3}-3x^{2}-36x-336, &amp; ifx&gt;4, \\end{aligned}$ \n<br/><br/>Now,  $f^{'}(x)=⎧⎩⎨⎪⎪\\begin{aligned} -55 &amp; ; &amp; x&lt;-5 \\\\ 6(x^{2}-x-20) &amp; ; &amp; -5&lt;x&lt;4 \\\\ 6(x^{2}-x-6) &amp; ; &amp; x&gt;4 \\end{aligned}$ <br/><br/> $f^{'}(x)=⎧⎩⎨⎪⎪\\begin{aligned} -55 &amp; ; &amp; x&lt;-5 \\\\ 6(x-5)(x+4) &amp; ; &amp; -5&lt;x&lt;4 \\\\ 6(x-3)(x+2) &amp; ; &amp; x&gt;4 \\end{aligned}$ <br/><br/>Hence, f(x) is monotonically increasing in interval  $(-5,-4)∪(4,\\infty)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "Let A = {x"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.739659"
     },
@@ -5528,7 +5528,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=x^{6}+ax^{5}+bx^{4}+x^{3}$ <br/><br/> $\\therefore$   $f^{'}(x)=6x^{5}+5ax^{4}+4bx^{3}+3x^{2}$ <br/><br/>Roots 1 &amp;  $-$ 1<br/><br/> $\\therefore$   $6+5z+4b+3=0$  &amp;  $-6+5a-4b+3=0$  solving<br/><br/> $a=-\\frac{3}{5}$ <br/><br/> $b=-\\frac{3}{2}$ <br/><br/> $\\therefore$   $f(x)=x^{6}-\\frac{3}{5}x^{5}-\\frac{3}{2}x^{4}+x^{3}$ <br/><br/> $\\therefore$   $5.f(2)=5[64-\\frac{96}{5}-24+8]=144$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "1 and x = 1. If",
@@ -5539,7 +5539,7 @@
         "a=-\\frac{3}{5}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:39.710580"
     },
@@ -5646,7 +5646,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktkw6cqv/69037937-ba99-4fde-ac30-0faae63bd69c/9c20b170-15cd-11ec-91e9-c738901c8293/file-1ktkw6cqw.jpeg"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(\\frac{2}{x})^{x^{2}}",
@@ -5657,7 +5657,7 @@
         "LM=\\frac{2}{\\sqrt{e}}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:33.039729"
     },
@@ -5703,7 +5703,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=⎡⎣⎢\\begin{aligned} 1 &amp; -x &amp; 2x+1 \\\\ -x &amp; 1 &amp; -x \\\\ 2x+1 &amp; -x &amp; 1 \\end{aligned}⎤⎦⎥$ <br/><br/> $|A|=4x^{3}-4x^{2}-4x=f(x)$ <br/><br/> $f^{'}(x)=4(3x^{2}-2x-1)=0$ <br/><br/> $\\Rightarrow x=1;x=\\frac{-1}{3}$ <br/><br/> $\\therefore$   $f(1)=-4;f(-\\frac{1}{3})=\\frac{20}{27}$ <br/><br/>Sum  $=-4+\\frac{20}{7}=-\\frac{88}{27}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "A=[a_{ij}]",
@@ -5714,7 +5714,7 @@
         "f(1)=-4;f(-\\frac{1}{3})=\\frac{20}{27}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:33.219051"
     },
@@ -5760,7 +5760,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=|\\begin{aligned} sin^{2}x &amp; 1+cos^{2}x &amp; cos2x \\\\ 1+sin^{2}x &amp; cos^{2}x &amp; cos2x \\\\ sin^{2}x &amp; cos^{2}x &amp; sin2x \\end{aligned}|$ \n<br/><br/> $C_{1} \\rightarrow C_{1}+C_{2}$ <br/><br/>=  $|\\begin{aligned} 2 &amp; 1+cos^{2}x &amp; cos2x \\\\ 2 &amp; cos^{2}x &amp; cos2x \\\\ 1 &amp; cos^{2}x &amp; sin2x \\end{aligned}|$ <br/><br/> $R_{1} \\rightarrow R_{1}-R_{2}$ <br/><br/>=  $|\\begin{aligned} 0 &amp; 1 &amp; 0 \\\\ 2 &amp; cos^{2}x &amp; cos2x \\\\ 1 &amp; cos^{2}x &amp; sin2x \\end{aligned}|$ <br/><br/> $=(-1)[2sin2x-cos2x]=cos2x-2sin2x$ \n<br/><br/>We know, maximum value of acosx  $\\pm$  bsinx\n<br/><br/>=  $\\sqrt{a^{2}+b^{2}}$ \n<br/><br/> $\\therefore$  Here maximum value =  $\\sqrt{1^{2}+(-2)^{2}}$  $=\\sqrt{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1} \\rightarrow C_{1}+C_{2}",
@@ -5771,7 +5771,7 @@
         "=\\sqrt{5}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:33.416671"
     },
@@ -5907,7 +5907,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f(x) = x<sup>2</sup> + ax + 1<br/><br/>f'(x) = 2x + a<br/><br/>when f(x) is increasing on [1, 2]<br/><br/>2x + a  $\\ge$  0  $∀$  x $\\in$ [1, 2]<br/><br/>a  $\\ge$   $-$ 2x  $∀$  x $\\in$ [1, 2]<br/><br/>R =  $-$ 4<br/><br/>when f(x) is decreasing on [1, 2]<br/><br/>2x + a  $\\le$  0  $∀$  x $\\in$ [1, 2]<br/><br/>a  $\\le$   $-$ 2  $∀$  x $\\in$ [1, 2]<br/><br/>S =  $-$ 2<br/><br/>|R  $-$  S| = |  $-$ 4 + 2 | = 2<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "[1, 2] R =",
@@ -5915,7 +5915,7 @@
         "S| = |"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:39.403987"
     },
@@ -5976,7 +5976,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{4}{sinx}+\\frac{1}{1-sinx}$ <br/><br/>Let sinx = t  $\\because$   $x \\in (0,\\frac{\\pi}{2}) \\Rightarrow 0&lt;t&lt;1$ <br/><br/> $f(t)=\\frac{4}{t}+\\frac{1}{1-t}$ <br/><br/> $f^{'}(t)=\\frac{-4}{t^{2}}+\\frac{1}{(1-t)^{2}}$ <br/><br/> $=\\frac{t^{2}-4(1-t)^{2}}{t^{2}(1-t)^{2}}$ <br/><br/> $=\\frac{(t-2(1-t))(t+2(1-t))}{t^{2}(1-t)^{2}}$ <br/><br/> $=\\frac{(3t-2)(2-t)}{t^{2}(1-t)^{2}}$ <br/><br/> $f_{min}$  at  $t=\\frac{2}{3}$ <br/><br/> $\\alpha_{min}=f(\\frac{2}{3})=\\frac{4}{\\frac{2}{3}}+\\frac{1}{1-\\frac{2}{3}}$ <br/><br/> $=6+3$ <br/><br/> $=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{4}{sinx}+\\frac{1}{1-sinx}=\\alpha",
@@ -5987,7 +5987,7 @@
         "f^{'}(t)=\\frac{-4}{t^{2}}+\\frac{1}{(1-t)^{2}}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:39.719572"
     },
@@ -6036,7 +6036,7 @@
         "https://imagex.cdn.examgoal.net/1ku8f97nt/8741f6ee-aa5d-49ba-b4fe-81d27d925fa0/40047f90-22be-11ec-ae4a-1de5bfd9a290/file-1ku8f97nu.png",
         "https://imagex.cdn.examgoal.net/1ku8f9j2w/b31774f0-c2fe-4dec-b30d-bf813bdfadee/48d6a580-22be-11ec-92a0-35c33c2a328d/file-1ku8f9j2x.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "e^{4x}+2e^{3x}-e^{x}-6=0",
@@ -6047,7 +6047,7 @@
         "f(0)=-6,f(1)=-4,f(2)=24"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:32.777841"
     },
@@ -6095,7 +6095,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krwhhd0o/5df23d07-546e-4db6-b7cf-d12cf22423f5/1e560370-f495-11eb-91bb-55532ed5a292/file-1krwhhd0p.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=3sin^{4}x+10sin^{3}x+6sin^{2}x-3",
@@ -6106,7 +6106,7 @@
         "=6sinxcosx(2sinx+1)(sin+2)"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.049300"
     },
@@ -6152,7 +6152,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{-B}{2A}=\\frac{3}{4}$ <br/><br/> $\\Rightarrow \\frac{-(6)}{2a}=\\frac{3}{4}$ <br/><br/> $\\Rightarrow a=\\frac{-6 \\times 4}{6} \\Rightarrow a=-4$ <br/><br/> $\\therefore$   $g(x)=4x^{2}-6x+15$ <br/><br/>Local max. at  $x=\\frac{-B}{2A}=-\\frac{(-6)}{2(-4)}$ <br/><br/> $=\\frac{-3}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         ". Then the function g(x) = ax 2",
@@ -6163,7 +6163,7 @@
         "=\\frac{-3}{4}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.228636"
     },
@@ -6361,7 +6361,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktquhv7s/59316dd6-223c-4470-92e4-17492a10fc8a/bdef1c80-1913-11ec-9e1c-4f8f7e7dad5b/file-1ktquhv7t.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "12x 2 + 4 = 0 is _____________. 3x 4 + 4x 3",
@@ -6370,7 +6370,7 @@
         "2) = 12x (x + 2) (x"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:39.411172"
     },
@@ -7229,7 +7229,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=(1-cos^{2}x)(\\lambda+sinx)$ \n<br/><br/> $\\Rightarrow$  f(x) = sin<sup>2</sup> x( $\\lambda$  + sinx)   ....(1)\n<br/><br/> $\\therefore$  f'(x) = 2sinx cosx ( $\\lambda$  +sinx) + sin<sup>2</sup>x (cosx)\n<br/><br/> $\\Rightarrow$   f'(x) = sin2x( $\\frac{2\\lambda+3sinx}{2}$ )\n<br/><br/>For maixma and minima, f'(x) = 0\n<br/><br/> $\\therefore$  sin2x = 0 or 2 $\\lambda$  + 3sinx = 0\n<br/><br/>when sin2x = 0  $\\Rightarrow$  x = 0\n<br/><br/>or when 2 $\\lambda$  + 3sinx = 0\n<br/><br/> $\\Rightarrow$  sin x =  $-\\frac{2\\lambda}{3}$ \n<br/><br/>As  $x \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2})$ \n<br/><br/> $\\therefore$   -1 &lt; sinx &lt; 1\n<br/><br/> $\\Rightarrow$  -1 &lt;  $-\\frac{2\\lambda}{3}$  &lt; 1\n<br/><br/> $\\Rightarrow$   $-\\frac{3}{2}$  &lt;  $\\lambda$  &lt;  $\\frac{3}{2}$ \n<br/><br/> $\\therefore$   $\\lambda$   $\\in$   $(-\\frac{3}{2},\\frac{3}{2})$  - {0}\n<br/><br/><b>Note :</b> If  $\\lambda$  = 0  $\\Rightarrow$  f(x) = sin<sup>3</sup>x [from (1)]\n<br/><br/>Which is monotonic. so no maxima/minima.\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=(1-cos^{2}x)(\\lambda+sinx),x \\in (-\\frac{\\pi}{2},\\frac{\\pi}{2})",
@@ -7240,7 +7240,7 @@
         "-\\frac{3}{2}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:33.906890"
     },
@@ -7288,7 +7288,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kj7f9iem/b6b0dfee-11b3-4e66-8707-7ded02aff17a/1e8008e0-486b-11eb-98c5-87900a88b42f/file-1kj7f9ien-425w.png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "(3x-7)\\frac{2}{3x^{1/3}}+x^{\\frac{2}{3}}.3",
@@ -7297,7 +7297,7 @@
         "(-\\infty,0)∪(\\frac{14}{15},\\infty)"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:34.202339"
     },
@@ -7457,7 +7457,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Using Lagrange’s Mean Value Theorem in [–7, –1]\n<br/><br/> $\\frac{f(-1)-f(-7)}{-1-(-7)}$  = f'(c<sub>1</sub>)\n<br/><br/>As ƒ'(x)  $\\le$  2 then f'(c<sub>1</sub>)  $\\le$  2\n<br/><br/> $\\therefore$   $\\frac{f(-1)-f(-7)}{-1-(-7)}$   $\\le$  2\n<br/><br/> $\\Rightarrow$   $\\frac{f(-1)+3}{6}$   $\\le$  2\n<br/><br/> $\\Rightarrow$  f(-1)  $\\le$  9\n<br/><br/>Using Lagrange’s Mean Value Theorem in [–7, 0]\n<br/><br/> $\\Rightarrow$   $\\frac{f(0)-f(-7)}{0-(-7)}$   $\\le$  2\n<br/><br/> $\\Rightarrow$  f(0)  $\\le$  11\n<br/><br/> $\\therefore$  ƒ(-1) + ƒ(0)  $\\le$  11 + 9\n<br/><br/> $\\Rightarrow$  ƒ(-1) + ƒ(0)  $\\le$  20<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{f(-1)-f(-7)}{-1-(-7)}",
@@ -7465,7 +7465,7 @@
         "\\frac{f(0)-f(-7)}{0-(-7)}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:34.791317"
     },
@@ -7511,7 +7511,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->V<sub>av</sub> =  $\\frac{f(t_{2})-f(t_{1})}{t_{2}-t_{1}}$  = f'(t)\n<br/><br/> $\\Rightarrow$   $\\frac{a(t_{2}^{2}-t_{1}^{2})-b(t_{2}-t_{1})}{t_{2}-t_{1}}$  = 2 $a$ t + b\n<br/><br/> $\\Rightarrow$  a(t<sub>2</sub> + t<sub>1</sub>) + b = 2at + b\n<br/><br/> $\\Rightarrow$  t =  $\\frac{t_{1}+t_{2}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{f(t_{2})-f(t_{1})}{t_{2}-t_{1}}",
@@ -7520,7 +7520,7 @@
         "t ="
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:33.914594"
     },
@@ -7566,7 +7566,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given ellipse is  $\\frac{x^{2}}{5}+\\frac{y^{2}}{4}=1$ <br/><br/>Let point P is  $(\\sqrt{5}cos\\theta,2sin\\theta)$ <br/><br/> $(PQ)^{2}=5cos^{2}\\theta+(2sin\\theta+4)^{2}$ \n<br/><br/> $\\Rightarrow$  (PQ)<sup>2</sup> =  $5cos^{2}\\theta+4sin^{2}\\theta+16sin\\theta+16$ \n<br/><br/> $\\Rightarrow$  (PQ)<sup>2</sup> =  $cos^{2}\\theta+4cos^{2}\\theta+4sin^{2}\\theta+16sin\\theta+16$ \n<br/><br/> $\\Rightarrow$  (PQ)<sup>2</sup> =  $cos^{2}\\theta+4+16sin\\theta+16$ \n<br/><br/> $\\Rightarrow$   $(PQ)^{2}=cos^{2}\\theta+16sin\\theta+20$ \n<br/><br/> $\\Rightarrow$   $(PQ)^{2}=-sin^{2}\\theta+16sin\\theta+21$ \n<br/><br/>=  $-(sin^{2}\\theta-2.8sin\\theta+64)+64+21$ \n<br/><br/>=  $85-(sin\\theta-8)^{2}$ <br/><br/>will be maximum when sin  $\\theta$  = 1<br/><br/> $\\Rightarrow (PQ)^{2}_{max}=85-49=36$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}}{5}+\\frac{y^{2}}{4}=1",
@@ -7577,7 +7577,7 @@
         "(PQ)^{2}=cos^{2}\\theta+16sin\\theta+20"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:34.039390"
     },
@@ -8147,7 +8147,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf762wkjy2ch6jj/0700e843-b692-486c-9a04-7751433f2a32/c237aef0-a5df-11e9-902e-23ffedc9804e/file-jf762wkjy2ch6jk.jpg"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "V=\\frac{4}{3}\\pi((10+ℎ)^{3}-10^{3})",
@@ -8156,7 +8156,7 @@
         "\\Rightarrow \\frac{dℎ}{dt}=-\\frac{1}{18\\pi}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:34.925023"
     },
@@ -8362,7 +8362,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let points  $(\\frac{3}{2},0),(t^{2},t),t&gt;0$ \n<br/><br/>Distance =  $\\sqrt{t^{2}+(t^{2}-\\frac{3}{2})^{2}}$ \n<br/><br/>=   $\\sqrt{t^{4}-2t^{2}+\\frac{9}{4}}=\\sqrt{(t^{2}-1)^{2}+\\frac{5}{4}}$ \n<br/><br/>So minimum distance is  $\\sqrt{\\frac{5}{4}}=\\frac{\\sqrt{5}}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{3}{2},0)",
@@ -8372,7 +8372,7 @@
         "\\sqrt{\\frac{5}{4}}=\\frac{\\sqrt{5}}{2}"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:35.556954"
     },
@@ -8577,7 +8577,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->S = {x  $\\in$  R, x<sup>2</sup> + 30  $-$  11x  $\\le$  0}\n<br/><br/>= {x  $\\in$  R, 5  $\\le$  x  $\\le$  6}\n<br/><br/>Now f(x) = 3x<sup>3</sup>  $-$  18x<sup>2</sup> + 27x  $-$  40\n<br/><br/> $\\Rightarrow$   f '(x) = 9(x  $-$  1)(x  $-$  3),\n<br/><br/>which is positive in [5, 6]\n<br/><br/> $\\Rightarrow$   f(x) increasing in [5, 6]\n<br/><br/>Hence maximum value = f(6) = 122<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "{x \\in R:x^{2}+30 \\le 11x}",
@@ -8586,7 +8586,7 @@
         "f '(x) = 9(x"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:35.352797"
     },
@@ -8634,7 +8634,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/MAbzGgUMRziPVuIL2/BB4tBWt5hMp2H7JXTe2jbGgxJ2y6M/dGYf14mtu82vsx1M2giVrb/image.png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{3}\\pi r^{2}ℎ",
@@ -8645,7 +8645,7 @@
         "= 2 sin"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:35.566156"
     },
@@ -8750,7 +8750,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kejek1snxyfe/7053b6d2-3c27-487d-8fec-33537b146312/a0257ea0-efbd-11e9-a7bc-b7b08ce8d541/file-7kejek1snxyff-860w.jpg"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "tan^{-1}(\\frac{1}{2})",
@@ -8761,7 +8761,7 @@
         "\\frac{1}{3}\\pi(\\frac{ℎ}{2})^{2}ℎ"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:34.942803"
     },
@@ -9033,7 +9033,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Local extreme points of f(x) is at x = –1, 0, 1.\n<br/><br/> $\\therefore$  f'(x) = 0 has three solutions x = –1, 0, 1.\n<br/><br/> $\\therefore$  f'(x) = k(x + 1)x(x - 1)\n<br/><br/> $\\int f^{'}(x)dx=\\int k(x+1)x(x-1)dx$ \n<br/><br/>f(x) =  $k[\\frac{x^{4}}{4}-\\frac{x^{2}}{2}]+C$ \n<br/><br/>Also given that\n<br/><br/>ƒ(x) = ƒ(0)\n<br/><br/> $\\therefore$   $k[\\frac{x^{4}}{4}-\\frac{x^{2}}{2}]+C$  = C\n<br/><br/> $\\Rightarrow$   $\\frac{x^{2}}{2}(\\frac{x^{2}}{2}-1)$  = 0\n<br/><br/> $\\Rightarrow$  x = 0,  $-\\sqrt{2}$ ,  $\\sqrt{2}$ \n<br/><br/> $\\therefore$  x has two irrational and one rational value.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int f^{'}(x)dx=\\int k(x+1)x(x-1)dx",
@@ -9041,7 +9041,7 @@
         "\\frac{x^{2}}{2}(\\frac{x^{2}}{2}-1)"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:34.953576"
     },
@@ -9144,7 +9144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->f '(x) = 3x<sup>2</sup>  $-$  6(a  $-$  2)x + 3a\n<br/><br/>f '(x)  $\\ge$  0  $∀$  x  $\\in$  (0, 1]\n<br/><br/>f '(x)  $\\le$  0  $∀$  x  $\\in$  [1, 5)\n<br/><br/> $\\Rightarrow$   f '(x) = 0  at  x = 1  $\\Rightarrow$   a = 5\n<br/><br/>f(x)  $-$  14 = (x  $-$  1)<sup>2</sup> (x  $-$  7)\n<br/><br/> $\\frac{f(x)-14}{(x-1)^{2}}=x-7$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{f(x)-14}{(x-1)^{2}}=0(x \\ne 1)",
@@ -9153,7 +9153,7 @@
         "14 = (x"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:35.219020"
     },
@@ -9431,7 +9431,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/VHGEMBIE8bQ9Hvcjo/qRcwZNM1ySPUQKDfIB3jCDH0dwnq9/NQzVfi4HBmwdPq2QZ6OwBX/image.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -9442,7 +9442,7 @@
         "Volume (v) ="
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:35.809916"
     },
@@ -9488,7 +9488,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $f(x)=x^{2}+\\frac{1}{x^{2}}$  and  $g(x)=x-\\frac{1}{x}$ \n<br/><br/>As  $ℎ(x)=\\frac{f(x)}{g(x)}$ \n<br/><br/>=  $\\frac{x^{2}+\\frac{1}{x^{2}}}{x-\\frac{1}{x}}$ \n<br/><br/>=  $\\frac{(x-\\frac{1}{x})^{2}+2.x.\\frac{1}{x}}{x-\\frac{1}{x}}$ \n<br/><br/>=  $\\frac{(x-\\frac{1}{x})^{2}+2}{x-\\frac{1}{x}}$ \n<br/><br/>Let  $x-\\frac{1}{x}=t$ \n<br/><br/>So  $f(t)=\\frac{t^{2}+2}{t}$  =  $t+\\frac{2}{t}$ \n<br/><br/>then  $f^{'}(t)=1-\\frac{2}{t^{2}}$ \n<br/><br/>At maximum or minimum  $f^{'}(t)=0$ .\n<br/><br/> $\\therefore$   $1-\\frac{2}{t^{2}}=0$ \n<br/><br/> $\\Rightarrow t= \\pm \\sqrt{2}$ \n<br/><br/>Now we need to find  $f^{''}(t)$  which will tell at which point among  $+\\sqrt{2}$  and  $-\\sqrt{2}$  will be maximum and minimum.\n<br/><br/> $f^{''}(t)=+\\frac{4}{t^{3}}$ \n<br/><br/>So when  $t=+\\sqrt{2}$ , then  $f^{''}(t)=+\\frac{4}{(\\sqrt{2})^{3}}$  =  $+\\sqrt{2}$ \n<br/><br/>As  $f^{''}(t)&gt;0$  when  $t=+\\sqrt{2}$  then at  $t=+\\sqrt{2}$  the function  $f(t)$  will be minimum.\n<br/><br/>Min of  $f(t)=\\frac{(\\sqrt{2})^{2}+2}{\\sqrt{2}}$  =  $\\frac{4}{\\sqrt{2}}$  =  $2\\sqrt{2}$ \n<br/><br/>So local minimum of  $f(t)$  =  $2\\sqrt{2}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x^{2}+\\frac{1}{x^{2}}",
@@ -9499,7 +9499,7 @@
         "\\frac{(x-\\frac{1}{x})^{2}+2}{x-\\frac{1}{x}}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:35.584081"
     },
@@ -9771,7 +9771,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kejek2z2igf6/74e74784-5ed5-496c-a00d-c266f6493ae4/85500820-070f-11ea-a7bc-b7b08ce8d541/file-7kejek2z2igf7-281w.jpg"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta=\\frac{20-2r}{r}",
@@ -9782,7 +9782,7 @@
         "\\frac{d^{2}A}{dr^{2}}=-2<0"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:36.011379"
     },
@@ -9885,7 +9885,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $4x+2\\pi r=2$    $\\Rightarrow 2x+\\pi r=1$ \n<br/><br/> $S=x^{2}+\\pi r^{2}$ \n<br/><br/> $S=(\\frac{1-\\pi r}{2})^{2}+\\pi r^{2}$ \n<br/><br/> $\\frac{dS}{dr}=2(\\frac{1-\\pi r}{2})(\\frac{-\\pi}{2})+2\\pi r$ \n<br/><br/> $\\Rightarrow \\frac{-\\pi}{2}+\\frac{\\pi^{2}r}{2}+2\\pi r=0$ \n<br/><br/> $\\Rightarrow r=\\frac{1}{\\pi+4}$ \n<br/><br/> $\\Rightarrow x=\\frac{2}{\\pi+4}$ \n<br/><br/> $\\Rightarrow x=2r$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "4x+2\\pi r=2",
@@ -9896,7 +9896,7 @@
         "\\Rightarrow \\frac{-\\pi}{2}+\\frac{\\pi^{2}r}{2}+2\\pi r=0"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:36.495724"
     },
@@ -10055,7 +10055,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let point on the curve \n<br/><br/>y = x<sup>2</sup>  $-$  4 is ( $\\alpha$ <sup>2</sup>,  $\\alpha$ <sup>2</sup>  $-$  4)\n<br/><br/> $\\therefore$    Distance of the point ( $\\alpha$ <sup>2</sup>,  $\\alpha$ <sup>2</sup>  $-$  4) from origin,\n<br/><br/>D =  $\\sqrt{\\alpha^{2}+(\\alpha^{2}-4)^{2}}$ \n<br/><br/> $\\Rightarrow$    D<sup>2</sup> =  $\\alpha$ <sup>2</sup> +  $\\alpha$ <sup>4</sup> + 16  $-$  8 $\\alpha$ <sup>2</sup>\n<br/><br/> $=$   $\\alpha$ <sup>4</sup>  $-$  7 $\\alpha$ <sup>2</sup> + 16\n<br/><br/> $\\therefore$      $\\frac{dD^{2}}{d\\alpha}$  = 4 $\\alpha$ <sup>3</sup>  $-$  14 $\\alpha$ \n<br/><br/>Now,  $\\frac{dD^{2}}{d\\alpha}$  = 0\n<br/><br/> $\\Rightarrow$    4 $\\alpha$ <sup>3</sup>  $-$  14 $\\alpha$  = 0\n<br/><br/> $\\Rightarrow$    2 $\\alpha$  (2 $\\alpha$ <sup>2</sup>  $-$  7) = 0\n<br/><br/> $\\alpha$  = 0    or    $\\alpha$ <sup>2</sup> =  $\\frac{7}{2}$ \n<br/><br/> $\\frac{d^{2}D^{2}}{d\\alpha^{2}}=12\\alpha^{2}-14$ \n<br/><br/> $\\therefore$     $(\\frac{d^{2}D^{2}}{d\\alpha^{2}})_{at\\alpha=0}=-14&lt;0$ \n<br/><br/> $(\\frac{d^{2}D^{2}}{d\\alpha^{2}})_{at\\alpha^{2}=\\frac{7}{2}}=28&gt;0$ \n<br/><br/> $\\therefore$  Distance is minimum at  $\\alpha$ <sup>2</sup> =  $\\frac{7}{2}$ \n<br/><br/> $\\therefore$    Minimum distance \n<br/><br/>D =  $\\sqrt{\\frac{49}{4}-\\frac{49}{4}+16}$ \n<br/><br/>=  $\\frac{\\sqrt{15}}{2}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "4) from origin, D =",
@@ -10066,7 +10066,7 @@
         "2 ="
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:36.304966"
     },
@@ -10501,7 +10501,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/ayHUJZspX3w66bt80/DK3gf9rTu0G140miSo2t1wI64SYD8/p4zIQg9KN2LoBD83bCRyAw/image.png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "f^{'}(x)=\\frac{1}{x}+2bx+a",
@@ -10512,7 +10512,7 @@
         "f^{'}(x)=\\frac{1}{2}+4b+a=0"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:36.903287"
     },
@@ -10735,13 +10735,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/FaWgbomdnKzCuEqWq/XHH7f0JwiPMYdDOOxweMQKJZtV38k/ToIpmRm1GJQmvBLy5N25z6/image.png"
       ],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)={\\begin{aligned} k-2x,if & x \\le -1 \\\\ 2x+3,if & x>-1 \\end{aligned}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:37.036975"
     },
@@ -11124,7 +11124,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that  $p^{2}+q^{2}=1$ \n<br/><br/> $\\therefore$   $p=cos\\theta$  and  $q=sin\\theta$ \n<br/><br/>Then  $p+q$   $=cos\\theta+sin\\theta$ \n<br/><br/>We know that\n<br/><br/> $-\\sqrt{a^{2}+b^{2}} \\le acos\\theta+bsin\\theta \\le \\sqrt{a^{2}+b^{2}}$ \n<br/><br/> $\\therefore$   $-\\sqrt{2} \\le cos\\theta+sin\\theta \\le \\sqrt{2}$ \n<br/><br/>Hence max. value of  $p+q$  is  $\\sqrt{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "p=cos\\theta",
@@ -11133,7 +11133,7 @@
         "-\\sqrt{a^{2}+b^{2}} \\le acos\\theta+bsin\\theta \\le \\sqrt{a^{2}+b^{2}}"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:37.377311"
     },
@@ -11290,7 +11290,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\frac{x}{2}+\\frac{2}{x} \\Rightarrow f^{'}(x)=\\frac{1}{2}-\\frac{2}{x^{2}}=0$ \n<br/><br/> $\\Rightarrow x^{2}=4$  or  $x=2,-2;$   $f^{''}(x)=\\frac{4}{x^{3}}$ \n<br/><br/> $f^{''}(x)]_{x=2}=+ve \\Rightarrow f(x)$ \n<br/><br/>has local min at  $x=2.$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\frac{x}{2}+\\frac{2}{x}",
@@ -11301,7 +11301,7 @@
         "f^{''}(x)]_{x=2}=+ve \\Rightarrow f(x)"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:37.386132"
     },
@@ -11404,7 +11404,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/PGCW3lDwFCxsPE6Hp/P3sclLK43NAq1COgOK9IRuSE8HwoY/VyIzdO9hLWTrsFUOLTPk7l/image.png"
       ],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1",
@@ -11413,7 +11413,7 @@
         "sin2\\theta=1."
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:37.739419"
     },
@@ -11623,7 +11623,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $y^{2}=18x \\Rightarrow 2y\\frac{dy}{dx}=18 \\Rightarrow \\frac{dy}{dx}=\\frac{9}{y}$ \n<br/><br/>Given  $\\frac{dy}{dx}=2 \\Rightarrow \\frac{9}{2}=2 \\Rightarrow y=\\frac{9}{2}$ \n<br/><br/>Puting in  $y^{2}=18x \\Rightarrow x=\\frac{9}{8}$ \n<br/><br/> $\\therefore$  Required point is  $(\\frac{9}{8},\\frac{9}{2})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Monotonicity, Maxima & Minima",
+      "topic_tag": "Tangents, Normals & Rate of Change",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=18x",
@@ -11633,7 +11633,7 @@
         "(\\frac{9}{8},\\frac{9}{2})"
       ],
       "key_concepts": [
-        "Monotonicity, Maxima & Minima"
+        "Tangents, Normals & Rate of Change"
       ],
       "crawled_at": "2026-09-20T15:37:37.911348"
     },
@@ -11793,7 +11793,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=y=x+\\frac{1}{x}$  or  $\\frac{dy}{dx}=1-\\frac{1}{x^{2}}$ \n<br/><br/>For max. or min,  $1-\\frac{1}{x^{2}}=0 \\Rightarrow x= \\pm 1$ \n<br/><br/> $\\frac{d^{2}y}{dx^{2}}=\\frac{2}{x^{3}}$ \n<br/><br/> $(\\frac{d^{2}y}{dx^{2}})_{x=1}=2$   ( $+ve$ ) \n<br/><br/> $\\therefore$  f(x) will be minima at  $x=1$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{d^{2}y}{dx^{2}}=\\frac{2}{x^{3}}",
@@ -11801,7 +11801,7 @@
         "x=1"
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:37.919978"
     },
@@ -11961,7 +11961,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $f(x)=\\frac{ax^{3}}{3}+\\frac{bx^{2}}{2}+cx \\Rightarrow f(0)=0$  and  $f(1)$ \n<br/><br/> $=\\frac{a}{3}+\\frac{b}{2}+c=\\frac{2a+3b+6c}{6}=0$ \n<br/><br/>Also  $f(x)$  is continuous and differentiable in  $[0,1]$  and \n<br/><br/> $[0,1[.$  So by Rolle's theorem  $f^{'}(x)=0.$ \n<br/><br/>i.e  $ax^{2}+bx+c=0$  has at least one root in  $[0,1].$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Tangents, Normals & Rate of Change",
+      "topic_tag": "Monotonicity, Maxima & Minima",
       "difficulty": "Medium",
       "key_formulas": [
         "2a+3b+6c=0,",
@@ -11971,7 +11971,7 @@
         "f^{'}(x)=0."
       ],
       "key_concepts": [
-        "Tangents, Normals & Rate of Change"
+        "Monotonicity, Maxima & Minima"
       ],
       "crawled_at": "2026-09-20T15:37:38.092011"
     }

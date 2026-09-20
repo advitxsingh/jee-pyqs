@@ -273,11 +273,10 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbkzv8h/a5457575-187d-4f99-8bfc-1286f22e9f46/bb521510-518e-11f0-9279-21f1ba4d87a1/file-jaoe38c1mcbkzv8i.png?format=png"
       ],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:22.857527"
@@ -324,11 +323,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Domestic mains use alternating voltage and thus also alternating current. That matches:  </p>\n<p>Option D: AC voltage and AC current.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-20T15:27:22.623602"
     },
@@ -586,12 +585,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In  $L$ - $C$ - $R$  series resonance circuit,</p>\n<p> $\\begin{aligned} X_{L} &amp; =X_{C} \\\\ \\therefore tan\\phi &amp; =\\frac{X_{L}-X_{C}}{R}=\\frac{0}{R}=0 \\\\ \\Rightarrow \\phi &amp; =0^{\\circ} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-20T15:27:23.319877"
@@ -958,13 +955,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For LC-oscillations,</p>\n<p> $L\\frac{di}{dt}+\\frac{q}{C}=0$ </p>\n<p>Differentiating further it w.r.t  $t$ , we get</p>\n<p> $L\\frac{d^{2}i}{dt^{2}}+\\frac{I}{C}=0\\text{.... (i)}$ </p>\n<p>Similarly, for spring-block system,</p>\n<p> $m\\frac{d^{2}x}{dt^{2}}+kx=0\\text{..... (ii)}$ </p>\n<p>Comparing Eqs. (i) and (ii), we get</p>\n<p> $m∝L$  and  $k∝\\frac{1}{C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "LC Oscillations & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "L\\frac{di}{dt}+\\frac{q}{C}=0"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "LC Oscillations & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.970319"
     },
@@ -1066,7 +1063,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, power factor  $=\\frac{1}{\\sqrt{3}}$ </p>\n<p>Inductive reactance,  $X_{L}=2\\Omega$ </p>\n<p>The power factor in a  $R$ - $L$  circuit is given by</p>\n<p>power factor  $=\\frac{\\text{Resistance}}{\\text{Impedance}}=\\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}}$ </p>\n<p> $\\Rightarrow \\frac{1}{\\sqrt{3}}=\\frac{R}{\\sqrt{R^{2}+4}}$ </p>\n<p>Squaring both sides, we get</p>\n<p> $\\begin{aligned} \\frac{1}{3} &amp; =\\frac{R^{2}}{R^{2}+4} \\\\ \\Rightarrow R^{2}+4 &amp; =3R^{2} \\Rightarrow R=\\sqrt{2}\\Omega \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{\\sqrt{3}}",
@@ -1075,10 +1072,7 @@
         "\\Rightarrow \\frac{1}{\\sqrt{3}}=\\frac{R}{\\sqrt{R^{2}+4}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-20T15:27:24.141001"
     },
@@ -1241,8 +1235,7 @@
         "V_{rms}=\\frac{V_{0}}{\\sqrt{2}}=\\frac{100}{\\sqrt{2}}=70.7V"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-20T15:27:23.994906"
     },
@@ -1290,12 +1283,10 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltrbvghc/6c5997d3-5d67-497b-ae1a-c5924da37c3f/7cb75300-e20f-11ee-a976-edfc63bb1fc4/file-1ltrbvghd.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Power in AC Circuits & Power Factor",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-20T15:27:24.408893"
@@ -1502,14 +1493,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the current flowing through the bulb, we use the power formula for resistive loads:</p>\n<p> $P=IV,$ </p>\n<p>where </p>\n<p><p> $P$  is the power (in watts),</p></p>\n<p><p> $I$  is the current (in amperes),</p></p>\n<p><p> $V$  is the voltage (in volts).</p></p>\n<p>Given:</p>\n<p><p> $P=100\\text{W},$ </p></p>\n<p><p> $V=220\\text{V}.$ </p></p>\n<p>We rearrange the equation to solve for  $I$ :</p>\n<p> $I=\\frac{P}{V}.$ </p>\n<p>Substitute the given values:</p>\n<p> $I=\\frac{100}{220}=\\frac{10}{22}=\\frac{5}{11}\\text{A}.$ </p>\n<p>So, the current flowing through the bulb is  $\\frac{5}{11}\\text{A}$ , which corresponds to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "P=IV,",
         "V=220\\text{V}."
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:24.528460"
     },
@@ -1561,8 +1552,7 @@
         "P=I^{2}R"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:24.578060"
     },
@@ -1618,8 +1608,7 @@
         "\\omega t=\\frac{\\pi}{6}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-20T15:27:24.791075"
     },
@@ -1667,11 +1656,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bfy8zs/796676c8-5eb3-4d2b-9e93-9b255b20aa7e/5a8c4880-1616-11f0-90eb-15e4634cfd40/file-jaoe38c1m9bfy8zt.png?format=png"
       ],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-20T15:27:24.805276"
     },
@@ -1717,7 +1706,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Output of the step-down transformer,  $V_{s}=48\\text{V}$ </p></p>\n<p><p>Power associated with the secondary coil,  $P_{s}=12\\text{W}$ </p></p>\n<p>To find the current in the secondary coil, use the formula:</p>\n<p> $I_{s}=\\frac{P_{s}}{V_{s}}=\\frac{12}{48}=\\frac{1}{4}=0.25\\text{A}$ </p>\n<p>The amplitude of the current,  $I_{0}$ , is calculated as follows:</p>\n<p> $I_{0}=I_{s}\\sqrt{2}=0.25 \\times \\sqrt{2}=\\frac{\\sqrt{2}}{4}=\\frac{1}{2\\sqrt{2}}\\text{A}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "LC Oscillations & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{s}=48\\text{V}",
@@ -1726,7 +1715,6 @@
         "I_{0}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "LC Oscillations & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.819456"

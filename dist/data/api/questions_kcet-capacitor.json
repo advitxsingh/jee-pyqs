@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mr7ss99i/6442e211-fd12-4df9-bcc9-0a6ba64ab888/4ccda860-7871-11f1-aaf8-b393c654aad8/file-6y3zli1mr7ss99j.png?format=png"
       ],
-      "topic_tag": "Capacitance & Dielectric Insertion",
+      "topic_tag": "Capacitor Networks & Energy Redistribution",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{p}=9+3=12\\mu\\text{F}",
@@ -55,7 +55,6 @@
         "V_{4}=\\frac{Q}{C_{4}}=\\frac{36\\mu\\text{C}}{4\\mu\\text{F}}=9\\text{V}"
       ],
       "key_concepts": [
-        "Capacitance & Dielectric Insertion",
         "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.123187"
@@ -277,8 +276,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Capacitance & Dielectric Insertion",
-        "Capacitor Networks & Energy Redistribution"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.255476"
     },
@@ -596,8 +594,7 @@
         "C_{1}=C_{2}=C"
       ],
       "key_concepts": [
-        "Capacitance & Dielectric Insertion",
-        "Capacitor Networks & Energy Redistribution"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:25.787901"
     },
@@ -810,7 +807,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's work through the problem step by step.</p>\n<p>Series connection:</p>\n<p><p>The two capacitors are 3 μF and 6 μF. When connected in series, the equivalent capacitance is given by</p>\n<p> $C_{S}=\\frac{C_{1}C_{2}}{C_{1}+C_{2}}=\\frac{3\\mu F \\times 6\\mu F}{3\\mu F+6\\mu F}=\\frac{18}{9}=2\\mu F.$ </p></p>\n<p><p>With a potential difference of 900 V applied across the series combination, the same charge is stored on each capacitor. The charge is:</p>\n<p> $Q=C_{S} \\times V=2\\mu F \\times 900V=1800\\mu C.$ </p></p>\n<p>Voltage across individual capacitors:</p>\n<p><p>Voltage across the 3 μF capacitor:</p>\n<p> $V_{1}=\\frac{Q}{C_{1}}=\\frac{1800\\mu C}{3\\mu F}=600V.$ </p></p>\n<p><p>Voltage across the 6 μF capacitor:</p>\n<p> $V_{2}=\\frac{Q}{C_{2}}=\\frac{1800\\mu C}{6\\mu F}=300V.$ </p></p>\n<p><p>Notice that the sum,  $600V+300V=900V,$  matches the applied voltage.</p></p>\n<p>Reconnection in parallel:</p>\n<p><p>After disconnecting from the supply, the charges on the capacitors remain unchanged.</p></p>\n<p><p>When reconnected in parallel (with like plates connected together), the total charge in the system is the sum of the individual charges:</p>\n<p> $Q_{total}=1800\\mu C+1800\\mu C=3600\\mu C.$ </p></p>\n<p><p>In a parallel combination, the total capacitance is the sum of the individual capacitances:</p>\n<p> $C_{total}=3\\mu F+6\\mu F=9\\mu F.$ </p></p>\n<p><p>The common potential difference across the parallel combination is:</p>\n<p> $V=\\frac{Q_{total}}{C_{total}}=\\frac{3600\\mu C}{9\\mu F}=400V.$ </p></p>\n<p>Thus, the potential difference across the combination when reconnected in parallel is 400 V.</p>\n<p>Answer: Option D (400 V).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Capacitance & Dielectric Insertion",
+      "topic_tag": "Capacitor Networks & Energy Redistribution",
       "difficulty": "Medium",
       "key_formulas": [
         "Q=C_{S} \\times V=2\\mu F \\times 900V=1800\\mu C.",
@@ -821,7 +818,6 @@
         "C_{total}=3\\mu F+6\\mu F=9\\mu F."
       ],
       "key_concepts": [
-        "Capacitance & Dielectric Insertion",
         "Capacitor Networks & Energy Redistribution"
       ],
       "crawled_at": "2026-09-20T15:27:25.951056"
@@ -876,8 +872,7 @@
         "\\Rightarrow C_{eq}=\\frac{4}{3}\\mu F"
       ],
       "key_concepts": [
-        "Capacitance & Dielectric Insertion",
-        "Capacitor Networks & Energy Redistribution"
+        "Capacitance & Dielectric Insertion"
       ],
       "crawled_at": "2026-09-20T15:27:26.097161"
     },

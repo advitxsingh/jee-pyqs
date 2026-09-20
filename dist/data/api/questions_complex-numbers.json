@@ -380,7 +380,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Solve the quadratic equation first:</p>\n<p> $z^{2}+4z+16=0$ </p>\n<p>Using the quadratic formula,</p>\n<p> $z=\\frac{-4 \\pm \\sqrt{16-64}}{2}=\\frac{-4 \\pm \\sqrt{-48}}{2}=\\frac{-4 \\pm 4\\sqrt{3}i}{2}=-2 \\pm 2\\sqrt{3}i$ </p>\n<p>So the set is</p>\n<p> $S={-2+2\\sqrt{3}i,-2-2\\sqrt{3}i}$ </p>\n<p>Now we need to find</p>\n<p> $\\underset{z \\in S}{\\sum}|z+\\sqrt{3}i|^{2}$ </p>\n<p>That is,</p>\n<p> $|-2+2\\sqrt{3}i+\\sqrt{3}i|^{2}+|-2-2\\sqrt{3}i+\\sqrt{3}i|^{2}$ </p>\n<p>Simplify each term:</p>\n<ol>\n<li>For  $z=-2+2\\sqrt{3}i$ ,</li>\n</ol>\n<p> $z+\\sqrt{3}i=-2+3\\sqrt{3}i$ </p>\n<p>Hence,</p>\n<p> $|-2+3\\sqrt{3}i|^{2}=(-2)^{2}+(3\\sqrt{3})^{2}=4+27=31$ </p>\n<ol start=\"2\">\n<li>For  $z=-2-2\\sqrt{3}i$ ,</li>\n</ol>\n<p> $z+\\sqrt{3}i=-2-\\sqrt{3}i$ </p>\n<p>Hence,</p>\n<p> $|-2-\\sqrt{3}i|^{2}=(-2)^{2}+(-\\sqrt{3})^{2}=4+3=7$ </p>\n<p>Therefore,</p>\n<p> $\\underset{z \\in S}{\\sum}|z+\\sqrt{3}i|^{2}=31+7=38$ </p>\n<p>So the correct answer is:</p>\n<p> $38$ </p>\n<p>Option D</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Hard",
       "key_formulas": [
         "S={z \\in C:z^{2}+4z+16=0}",
@@ -388,7 +388,7 @@
         "z^{2}+4z+16=0"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:34.455888"
     },
@@ -436,7 +436,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlatpst0/71944940-31cc-4fb8-98b6-61752854d9fd/ff467d40-0351-11f1-88cb-d1b467e76c7d/file-6y3zli1mlatpst1.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "A={z \\in ℂ:|z-2| \\le 4}",
@@ -447,7 +447,7 @@
         "2a=5"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:35.444904"
     },
@@ -720,7 +720,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $4z^{2}=\\bar{z}=0$ </p>\n<p>Let  $z=x+iy$ </p>\n<p> $\\begin{aligned} &amp; 4(x+iy)^{2}+x-iy=0 \\\\ &amp; 4x^{2}-4y^{2}+8xyi+x-iy=0 \\\\ &amp; 4x^{2}-4y^{2}+x=0&amp;y(8x-1)=0 \\\\ &amp; \\Rightarrow y=0\\text{or}x=\\frac{1}{8} \\end{aligned}$ </p>\n<p>If  $y=0,4x^{2}+x=0$ </p>\n<p> $\\begin{aligned} x=0,\\frac{-1}{4} &amp; \\\\ \\therefore z_{1}=0+0.i &amp; |z_{1}|^{2}=0 \\\\ z_{2}=-\\frac{1}{4}+0i &amp; |z_{2}|^{2}=\\frac{1}{16} \\end{aligned}$ </p>\n<p>If  $x=\\frac{1}{8}$ </p>\n<p> $\\begin{aligned} &amp; 4 \\times \\frac{1}{64}-4y^{2}+\\frac{1}{8}=0 \\Rightarrow 4y^{2}=\\frac{3}{16} \\Rightarrow y= \\pm \\frac{\\sqrt{3}}{8} \\\\ &amp; \\therefore z_{3}=\\frac{1}{8}+\\frac{\\sqrt{3}}{8}i|z_{3}|^{2}=\\frac{1}{64}+\\frac{3}{64}=\\frac{1}{16} \\\\ &amp; z_{4}=\\frac{1}{8}-\\frac{\\sqrt{3}}{8}i|z_{4}|^{2}=\\frac{1}{64}+\\frac{3}{64}=\\frac{1}{16} \\\\ &amp; \\therefore \\sum_{i=1}^{n}|z_{i}|^{2}=0+\\frac{1}{16}+\\frac{1}{16}+\\frac{1}{16}=\\frac{3}{16} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Medium",
       "key_formulas": [
         "S={z \\in ℂ:4z^{2}+\\bar{z}=0}",
@@ -729,7 +729,7 @@
         "z=x+iy"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:36.031091"
     },
@@ -775,7 +775,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the quadratic equation</p>\n<p> $z^{2}+4z-(1+12i)=0$ </p>\n<p>let its roots be  $z_{1}$  and  $z_{2}$ .</p>\n<p>We need to find</p>\n<p> $|z_{1}|^{2}+|z_{2}|^{2}$ </p>\n<p>Using Vieta’s formulas for</p>\n<p> $az^{2}+bz+c=0,$ </p>\n<p>we have</p>\n<p> $z_{1}+z_{2}=-\\frac{b}{a}=-4$ </p>\n<p>and</p>\n<p> $z_{1}z_{2}=\\frac{c}{a}=-(1+12i)=-1-12i$ </p>\n<p>Now solve the equation to identify the roots.</p>\n<p> $z^{2}+4z-(1+12i)=0$ </p>\n<p>Using the quadratic formula,</p>\n<p> $z=\\frac{-4 \\pm \\sqrt{16+4(1+12i)}}{2}$ </p>\n<p> $z=\\frac{-4 \\pm \\sqrt{20+48i}}{2}$ </p>\n<p>Now observe that</p>\n<p> $(6+4i)^{2}=36+48i-16=20+48i$ </p>\n<p>So,</p>\n<p> $\\sqrt{20+48i}=6+4i$ </p>\n<p>Hence the roots are</p>\n<p> $z_{1}=\\frac{-4+(6+4i)}{2}=1+2i$ </p>\n<p>and</p>\n<p> $z_{2}=\\frac{-4-(6+4i)}{2}=-5-2i$ </p>\n<p>Now compute their moduli squared:</p>\n<p> $|z_{1}|^{2}=|1+2i|^{2}=1^{2}+2^{2}=5$ </p>\n<p> $|z_{2}|^{2}=|-5-2i|^{2}=(-5)^{2}+(-2)^{2}=25+4=29$ </p>\n<p>Therefore,</p>\n<p> $|z_{1}|^{2}+|z_{2}|^{2}=5+29=34$ </p>\n<p>So the correct answer is</p>\n<p> $34$ </p>\n<p>Hence, Option D is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Hard",
       "key_formulas": [
         "z_{1},z_{2} \\in ℂ",
@@ -786,7 +786,7 @@
         "az^{2}+bz+c=0,"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:33.951607"
     },
@@ -834,7 +834,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mp01hpf4/b32a83df-e970-4f6e-bdd4-37aa9b25cafd/a5978f00-4c94-11f1-9864-53d65aa0ef81/file-6y3zli1mp01hpf5.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "C_{1}:|z|=r",
@@ -845,7 +845,7 @@
         "z_{2}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:34.551783"
     },
@@ -1218,11 +1218,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mac7rlev/4e2f2a3f-cb84-4d9e-86d8-421dfb73183b/5878f370-2a4f-11f0-9466-cb7a6c2e7e97/file-jaoe38c1mac7rlew.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:37.083436"
     },
@@ -1268,14 +1268,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; x^{2}-(3-2i)x-(2i-2)=0 \\\\ &amp; x=\\frac{(3-2i) \\pm \\sqrt{(3-2i)^{2}-4(1)(-(2i-2))}}{2(1)} \\\\ &amp; ==\\frac{(3-2i) \\pm \\sqrt{9-4-12i+8i-8}}{2} \\\\ &amp; ==\\frac{3-2i \\pm \\sqrt{-3-4i}}{2} \\\\ &amp; =\\frac{3-2i \\pm \\sqrt{(1)^{2}+(2i)^{2}-2(1)(2i)}}{2} \\\\ &amp; =\\frac{3-2i \\pm (1-2i)}{2} \\\\ &amp; \\Rightarrow \\frac{3-2i+1-2i}{2}\\text{or}\\frac{3-2i-1+2i}{2} \\\\ &amp; \\Rightarrow 2-2i\\text{or}1+0i \\\\ &amp; \\text{So}\\alpha\\gamma+\\beta\\delta=2(1)+(-2)(0)=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}-(3-2i)x-(2i-2)=0",
         "i=\\sqrt{-1}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:37.515588"
     },
@@ -1321,13 +1321,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |\\frac{\\bar{z}-i}{2\\bar{z}+i}|=\\frac{1}{3} \\\\ &amp; |\\frac{\\bar{z}-i}{\\bar{z}+\\frac{i}{2}}|=\\frac{2}{3} \\\\ &amp; 3|x-iy-i|=2|x-iy+\\frac{i}{2}| \\\\ &amp; 9(x^{2}+(y+1)^{2})=4(x^{2}+(y-1/3)^{2}) \\\\ &amp; 9x^{2}+9y^{2}+18y+9=4x^{2}+4y^{2}-4y+1 \\\\ &amp; 5x^{2}+5y^{2}+22y+8=0 \\\\ &amp; x^{2}+y^{2}+\\frac{22}{5}y+\\frac{8}{5}=0 \\\\ &amp; \\text{centre} \\Rightarrow (0,-\\frac{11}{5}) \\end{aligned}$ </p>\n<p> $|\\frac{1}{2}|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ 0 &amp; -11/5 &amp; 1 \\\\ \\alpha &amp; 0 &amp; 1 \\end{aligned}||=11$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (-\\frac{11}{5}\\alpha)^{2}=(11 \\times 2)^{2} \\\\ &amp; \\Rightarrow \\alpha^{2}=100 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\frac{\\bar{z}-i}{2\\bar{z}+i}|=\\frac{1}{3},z \\in C"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:38.112819"
     },
@@ -1590,14 +1590,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{z-i}{z+i}=\\frac{\\bar{z}+i}{\\bar{z}-i} \\\\ &amp; =z\\bar{z}-i\\bar{z}-iz-1=z\\bar{z}+zi+i\\bar{z}-1 \\\\ &amp; =z+\\bar{z}=0 \\\\ &amp; =2x=0 \\\\ &amp; =x=0\\text{(y-axis)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; |z|=1 \\\\ &amp; \\therefore z=i(z \\ne -i\\text{is given}) \\end{aligned}$ </p>\n<p>Statement 1 is incorrect</p>\n<p> $\\begin{aligned} &amp; \\frac{z-i}{z+i}+\\frac{\\bar{z}-1}{\\bar{z}+1}=0 \\\\ &amp; =z\\bar{z}-\\bar{z}+z-1+z\\bar{z}-z+\\bar{z}-1=0 \\\\ &amp; =z\\bar{z}=1 \\\\ &amp; =|z|=1 \\end{aligned}$ </p>\n<p>Statement 2 is correct</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "{z \\in ℂ-{-i}:|z|=1",
         "\\frac{z-i}{z+i}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:36.657747"
     },
@@ -1695,14 +1695,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Sol.}2z^{2}-32-2i=0 \\\\ &amp; 2(z-\\frac{i}{z})=3 \\\\ &amp; \\alpha-\\frac{i}{\\alpha}=\\frac{3}{2} \\\\ &amp; \\Rightarrow \\alpha^{2}-\\frac{1}{\\alpha^{2}}-2i=\\frac{9}{4} \\\\ &amp; \\Rightarrow \\alpha^{2}-\\frac{1}{\\alpha^{2}}-2i=\\frac{9}{4} \\\\ &amp; \\Rightarrow \\frac{9}{4}+2i=\\alpha^{2}-\\frac{1}{\\alpha^{2}} \\\\ &amp; \\Rightarrow \\frac{81}{16}-4+9i=\\alpha^{4}+\\frac{1}{\\alpha^{4}}-2 \\\\ &amp; \\Rightarrow \\frac{49}{16}+9i=\\alpha^{4}+\\frac{1}{\\alpha^{4}} \\\\ &amp; \\text{Similarly} \\\\ &amp; \\Rightarrow \\frac{49}{16}+9i=\\beta^{4}+\\frac{1}{\\beta^{4}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{\\alpha^{19}+\\beta^{19}+\\alpha^{11}+\\beta^{11}}{\\alpha^{15}+\\beta^{15}}=\\frac{\\alpha^{15}(\\alpha^{4}+\\frac{1}{\\alpha^{4}})+\\beta^{15}(\\beta^{4}+\\frac{1}{\\beta^{4}})}{\\alpha^{15}+\\beta^{15}} \\\\ &amp; =\\frac{(\\alpha^{15}+\\beta^{15})(\\frac{49}{16}+9i)}{(\\alpha^{15}+\\beta^{15})} \\\\ &amp; \\text{Real}=\\frac{49}{16} \\\\ &amp; \\text{Im}=9 \\\\ &amp; \\text{Ans.}441 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "2z^{2}-3z-2i=0",
         "i=\\sqrt{-1}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:37.594304"
     },
@@ -2069,7 +2069,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{1+icos\\theta}{1-2icos\\theta}$  is purely imaginary</p>\n<p> $n=\\frac{1+icos\\theta}{1-2icos\\theta} \\times \\frac{1+2icos\\theta}{1+2icos\\theta}=\\frac{1+3icos\\theta-2cos^{2}\\theta}{1+4cos^{2}\\theta}$ </p>\n<p> $n=\\frac{1-2cos^{2}\\theta}{1+4cos^{2}\\theta}+i(\\frac{3cos\\theta}{1+4cos^{2}\\theta})$ </p>\n<p> $n$  is purely imaginary</p>\n<p> $\\Rightarrow \\frac{1-2cos^{2}\\theta}{1+4cos^{2}\\theta}=0$ </p>\n<p> $\\Rightarrow cos^{2}\\theta=\\frac{1}{2}$ </p>\n<p> $\\Rightarrow cos\\theta= \\pm \\frac{1}{\\sqrt{2}}$ </p>\n<p> $\\theta$  can be  $\\frac{\\pi}{4},\\frac{-\\pi}{4},\\frac{3\\pi}{4},\\frac{-3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}$ </p>\n<p>Sum of all possible values of  $\\theta=3\\pi$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1+icos\\theta}{1-2icos\\theta}",
@@ -2077,7 +2077,7 @@
         "\\Rightarrow cos\\theta= \\pm \\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:38.606782"
     },
@@ -2126,7 +2126,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwekhn5c/6d7750d9-cc34-4e40-9c38-cefbaf7666fe/a4650700-166f-11ef-8416-25c08f86a011/file-1lwekhn5d.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lweku1ft/5285b6dd-899b-419d-8a11-3e28b70cd80a/fd24cb90-1670-11ef-8416-25c08f86a011/file-1lweku1fu.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{2}=Im(\\frac{z+1-\\sqrt{3}i}{1-\\sqrt{3}i}) \\ge 0",
@@ -2134,7 +2134,7 @@
         "=\\frac{x+iy+1-\\sqrt{3}i}{1-\\sqrt{3}i} \\times \\frac{1+\\sqrt{3}i}{1+\\sqrt{3}i}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:39.460575"
     },
@@ -2237,7 +2237,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; z^{2}=-i\\bar{z} \\\\ &amp; |z^{2}|=|i\\bar{z}| \\\\ &amp; |z^{2}|=|z| \\\\ &amp; |z|^{2}-|z|=0 \\\\ &amp; |z|(|z|-1)=0 \\\\ &amp; |z|=0\\text{(not acceptable)} \\\\ &amp; \\therefore |z|=1 \\\\ &amp; \\therefore |z|^{2}=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Easy",
       "key_formulas": [
         "z=x+iy,xy \\ne 0",
@@ -2245,7 +2245,7 @@
         "|z^{2}|"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:40.491208"
     },
@@ -2394,7 +2394,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $z=x+iy$ \n<br/><br/> $\\begin{aligned} &amp; |z-1|=1 \\Rightarrow |x+iy-1|=1 \\\\ \\\\ &amp; (x-1)^{2}+y^{2}=1.......(1) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; (\\sqrt{2}-1)(z+\\bar{z})-i(z-\\bar{z})=2\\sqrt{2}\\text{(Given)} \\\\ \\\\ &amp; (\\sqrt{2}-1)(2x)-i(2iy)=2\\sqrt{2} \\\\ \\\\ &amp; (\\sqrt{2}-1)x+y=\\sqrt{2}.........(2) \\end{aligned}$ \n<br/><br/>Solving (1) and (2), we get\n<br/><br/> $\\begin{aligned} &amp; (x-1)^{2}+(\\sqrt{2}-(\\sqrt{2}-1)x)^{2}=1 \\\\ \\\\ &amp; (x^{2}-2x+1)+2+(\\sqrt{2}-1)^{2}x^{2}-2\\sqrt{2}(\\sqrt{2}-1)x=0 \\\\ \\\\ &amp; x^{2}(1+(\\sqrt{2}-1)^{2})+x(-2-2\\sqrt{2}(\\sqrt{2}-1))+2=0 \\\\ \\\\ &amp; x^{2}(4-2\\sqrt{2})+x(2\\sqrt{2}-6)+2=0 \\\\ \\\\ &amp; x^{2}(2-\\sqrt{2})+x(\\sqrt{2}-3)+1=0 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow x=1\\text{and}x=\\frac{1}{2-\\sqrt{2}}..........(3) \\\\ \\\\ &amp; \\text{When}x=1,y=1 \\Rightarrow z_{2}=1+i \\\\ \\\\ &amp; \\text{When}x=\\frac{1}{2-\\sqrt{2}},y=\\sqrt{2}-\\frac{1}{\\sqrt{2}} \\\\ \\\\ &amp; \\Rightarrow z_{1}=(1+\\frac{1}{\\sqrt{2}})+\\frac{i}{\\sqrt{2}} \\end{aligned}$ \n<br/><br/>Now,\n<br/><br/> $\\begin{aligned} &amp; |\\sqrt{2}z_{1}-z_{2}|^{2} \\\\ \\\\ &amp; =|(\\frac{1}{\\sqrt{2}}+1)\\sqrt{2}+i-(1+i)|^{2} \\\\ \\\\ &amp; =(\\sqrt{2})^{2} \\\\ \\\\ &amp; =2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Medium",
       "key_formulas": [
         "S=|z \\in C:|z-1|=1",
@@ -2405,7 +2405,7 @@
         "|\\sqrt{2}z_{1}-z_{2}|^{2}"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:40.062591"
     },
@@ -2501,13 +2501,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $R={(a,b):a+5b=42}$ </p>\n<p>Then  $R={(2,8),(7,7),(12,6),(17,5),(22,4),(27,3),(32,2),(37,1)}$ </p>\n<p> $\\begin{aligned} &amp; \\text{and}\\sum_{n=1}^{\\begin{aligned} m=8 \\end{aligned}}(1-i^{n!})=x+iy \\\\ &amp; \\therefore \\sum_{n=1}^{8}(1-i^{n!})=8-(i+i^{2}+i^{6}+1+1+1+1+1) \\\\ &amp; =5-i \\\\ &amp; \\therefore x=5,y=-1 \\\\ &amp; x+y+m=5-1+8=12 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "R={(a,b):a+5b=42,a,b \\in ℕ}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:38.700995"
     },
@@ -2555,14 +2555,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwhf72y5/53205d83-bd1d-474f-a6fc-77a86f42ba34/4b0075d0-1801-11ef-b156-f754785ad3ce/file-1lwhf72y6.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Easy",
       "key_formulas": [
         "S={z \\in ℂ:|z-1| \\le 2;(z+\\bar{z})+i(z-\\bar{z}) \\le 2,lm(z) \\ge 0}",
         "|z-1| \\le 2 \\Rightarrow (x-1)^{2}+y^{2}=4"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:39.549313"
     },
@@ -2940,7 +2940,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $z_{1}=(\\frac{z-\\bar{z}+z\\bar{z}}{2-3z+5\\bar{z}})$ <br/><br/>\nLet  $z=3+iy$ <br/><br/>  $\\bar{z}=3-iy$ <br/><br/>\n $\\begin{aligned} &amp; z_{1}=\\frac{2iy+(9+y^{2})}{2-3(3+iy)+5(3-iy)} \\\\ \\\\ &amp; =\\frac{9+y^{2}+i(2y)}{8-8iy} \\\\ \\\\ &amp; =\\frac{(9+y^{2})+i(2y)}{8(1-iy)} \\\\ \\\\ &amp; Re(z_{1})=\\frac{(9+y^{2})-2y^{2}}{8(1+y^{2})} \\end{aligned}$ <br/><br/>\n $\\begin{aligned} &amp; =\\frac{9-y^{2}}{8(1+y^{2})} \\\\ \\\\ &amp; =\\frac{1}{8}[\\frac{10-(1+y^{2})}{(1+y^{2})}] \\\\ \\\\ &amp; =\\frac{1}{8}[\\frac{10}{1+y^{2}}-1] \\\\ \\\\ &amp; 1+y^{2} \\in [1,\\infty] \\\\ \\\\ &amp; \\frac{1}{1+y^{2}} \\in (0,1] \\\\ \\\\ &amp; \\frac{10}{1+y^{2}} \\in (0,10] \\\\ \\\\ &amp; \\frac{10}{1+y^{2}}-1 \\in (-1,9] \\\\ \\\\ &amp; Re(z_{1}) \\in (\\frac{-1}{8},\\frac{9}{8}] \\\\ \\\\ &amp; \\alpha=\\frac{-1}{8},\\beta=\\frac{9}{8} \\\\ \\\\ &amp; 24(\\beta-\\alpha)=24(\\frac{9}{8}+\\frac{1}{8})=30 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "{Re(\\frac{z-\\bar{z}+z\\bar{z}}{2-3z+5\\bar{z}}):z \\in ℂ,Re(z)=3}",
@@ -2949,7 +2949,7 @@
         "\\bar{z}=3-iy"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:40.980762"
     },
@@ -3052,7 +3052,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given :  $|z+2|=z+4(1+i)$ \n<br/><br/>Also,  $z=\\alpha+i\\beta$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore |z+2|=|\\alpha+i\\beta+2|=(\\alpha+i\\beta)+4+4i \\\\ \\\\ &amp; \\Rightarrow |(\\alpha+2)+i\\beta|=(\\alpha+4)+i(\\beta+4) \\\\ \\\\ &amp; \\Rightarrow \\sqrt{(\\alpha+2)^{2}+\\beta^{2}}=(\\alpha+4)+i(\\beta+4) \\\\ \\\\ &amp; \\Rightarrow \\beta+4=0 \\Rightarrow \\beta=-4 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}(\\alpha+2)^{2}+\\beta^{2}=(\\alpha+4)^{2} \\\\ \\\\ &amp; \\Rightarrow \\alpha^{2}+4+4\\alpha+\\beta^{2}=\\alpha^{2}+16+8\\alpha \\\\ \\\\ &amp; \\Rightarrow 4+4\\alpha+16=16+8\\alpha \\\\ \\\\ &amp; \\Rightarrow 4\\alpha=4 \\Rightarrow \\alpha=1 \\\\ \\\\ &amp; \\text{So,}\\alpha+\\beta=-3\\text{and}\\alpha\\beta=-4 \\\\ \\\\ &amp; \\therefore \\text{Required equation is} \\\\ \\\\ &amp; x^{2}-(-3-4)x+(-3)(-4)=0 \\\\ \\\\ &amp; \\Rightarrow x^{2}+7x+12=0 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "z=\\alpha+i\\beta,|z+2|=z+4(1+i)",
@@ -3060,7 +3060,7 @@
         "z=\\alpha+i\\beta"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:42.579302"
     },
@@ -3161,7 +3161,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|z-z_{1}|^{2}-|z-z_{2}|^{2}=|z_{1}-z_{2}|^{2}$ \n<br/><br/>\n $\\Rightarrow (x-2)^{2}+(y-3)^{2}-(x-3)^{2}-(y-4)^{2}=1+1$ \n<br/><br/>\n $\\Rightarrow -4x+4+9-6y-9+6x-16+8y=2$ \n<br/><br/>\n $\\Rightarrow 2x+2y=14$ \n<br/><br/>\n $\\Rightarrow x+y=7$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Easy",
       "key_formulas": [
         "z_{1}=2+3i",
@@ -3172,7 +3172,7 @@
         "\\Rightarrow -4x+4+9-6y-9+6x-16+8y=2"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:43.953285"
     },
@@ -3218,7 +3218,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $z=x+iy$ \n<br/><br/> $\\begin{aligned} &amp; \\bar{z}=i(z^{2}+Re(\\bar{z})) \\\\ \\\\ &amp; \\Rightarrow x-iy=i(x^{2}-y^{2}+2ixy+x) \\\\ \\\\ &amp; x-iy=i(x^{2}-y^{2}+x)-2xy \\\\ \\\\ &amp; x=-2xy \\Rightarrow x(2y+1)=0 \\\\ \\\\ &amp; \\Rightarrow x=0,y=\\frac{-1}{2}........(i) \\\\ \\\\ &amp; -y=x^{2}-y^{2}+x...........(ii) \\end{aligned}$ \n<br/><br/><b>Case (I)</b>  $x=0$ \n<br/><br/> $\\Rightarrow -y=-y^{2} \\Rightarrow y^{2}-y=0 \\Rightarrow y=0,1$ \n<br/><br/> $\\therefore$   $z=0,i$ \n<br/><br/><b>Case (II)</b>  $y=\\frac{-1}{2}$ \n<br/><br/> $\\Rightarrow \\frac{1}{2}=x^{2}-\\frac{1}{4}+x \\Rightarrow x^{2}+x-\\frac{3}{4}=0$ \n<br/><br/> $\\Rightarrow$   $4x+4x-3=0 \\Rightarrow (2x-1)(2x+3)=0$ \n<br/><br/> $\\Rightarrow$   $x=\\frac{1}{2},\\frac{-3}{2}$ \n<br/><br/> $\\begin{aligned} &amp; z=\\frac{1}{2}-\\frac{1}{2}i,\\frac{-3}{2}-\\frac{1}{2}i \\\\ \\\\ &amp; \\sum |z|^{2}=0+1+\\frac{1}{2}+\\frac{5}{2}=4 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Medium",
       "key_formulas": [
         "S={z \\in ℂ:\\bar{z}=i(z^{2}+Re(\\bar{z}))}",
@@ -3229,7 +3229,7 @@
         "y=\\frac{-1}{2}"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:40.997089"
     },
@@ -3709,7 +3709,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(1-\\sqrt{3}i)^{200}$ </p>\n<p> $=[2(\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i)]^{200}$ </p>\n<p> $=2^{200}(cos\\frac{\\pi}{3}-isin\\frac{\\pi}{3})^{200}$ </p>\n<p> $=2^{200}(cos\\frac{200\\pi}{3}-isin\\frac{200\\pi}{3})$ </p>\n<p> $=2^{200}(cos(66\\pi+\\frac{2\\pi}{3})-isin(66\\theta+\\frac{2\\pi}{3}))$ </p>\n<p> $=2^{200}(cos\\frac{2\\pi}{3}-isin\\frac{2\\pi}{3})$ </p>\n<p> $=2^{200}(-\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i)$ </p>\n<p> $=2^{199}(-1-\\sqrt{3}i)$ </p>\n<p> $=2^{199}(p+iq)$ </p>\n<p> $\\therefore$  p =  $-$ 1 and q =  $-\\sqrt{3}$ </p>\n<p>Now,  $p-q+q^{2}=-1+\\sqrt{3}+3=2+\\sqrt{3}=\\alpha$ </p>\n<p>and  $p+q+q^{2}=-1-\\sqrt{3}+3=2-\\sqrt{3}=\\beta$ </p>\n<p> $\\therefore$   $\\alpha+\\beta=4$ </p>\n<p> $\\alpha\\beta=(2+\\sqrt{3})(2-\\sqrt{3})=4-3=1$ </p>\n<p> $\\therefore$  Quadratic equation is</p>\n<p> $x^{2}-(\\alpha+\\beta)x+\\alpha\\beta=0$ </p>\n<p> $\\Rightarrow x^{2}-4x+1=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Hard",
       "key_formulas": [
         "(1-\\sqrt{3}i)^{200}=2^{199}(p+iq),i=\\sqrt{-1}",
@@ -3720,7 +3720,7 @@
         "=2^{200}(cos\\frac{\\pi}{3}-isin\\frac{\\pi}{3})^{200}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:44.065614"
     },
@@ -4054,7 +4054,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lc8c4zsj/031ee17e-0a26-48dd-a170-9b19fe86b156/f422a830-870d-11ed-9cef-67b5ed764fcf/file-1lc8c4zsk.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lc8c6vi8/11bce565-65c8-4e70-b43c-71f126e96d89/28717710-870e-11ed-9cef-67b5ed764fcf/file-1lc8c6vi9.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "S={z=x+iy:|z-1+i| \\ge |z|,|z|<2,|z+i|=|z-1|}",
@@ -4065,7 +4065,7 @@
         "4x^{2}+4x^{2}<4"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:44.571231"
     },
@@ -4111,7 +4111,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $z=x+iy$ </p>\n<p> $v=x^{2}+y^{2}+(x-3)^{2}+y^{2}+x^{2}+(y-6)^{2}$ </p>\n<p> $=(3x^{2}-6x+9)+(3y^{2}-12y+36)$ </p>\n<p> $=3(x^{2}+y^{2}-2x-4y+15)$ </p>\n<p> $=3[(x-1)^{2}+(y-2)^{2}+10]$ </p>\n<p> $v_{min}$  at  $z=1+2i=z_{0}$  and  $v_{0}=30$ </p>\n<p>so  $|2(1+2i)^{2}-(1-2i)^{3}+3|^{2}+900$ </p>\n<p> $=|2(-3+4i)-(1-8i^{3}-6i(1-2i)+3|^{2}+900$ </p>\n<p> $=|-6+8i-(1+8i-6i-12)+3|^{2}+900$ </p>\n<p> $=|8+6i|^{2}+900$ </p>\n<p> $=1000$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{0}",
@@ -4122,7 +4122,7 @@
         "v=x^{2}+y^{2}+(x-3)^{2}+y^{2}+x^{2}+(y-6)^{2}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:45.121544"
     },
@@ -4168,7 +4168,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $S_{n}={z \\in C:|z-3+2i|=\\frac{n}{4}}$  represents a circle with centre  $C_{1}(3,-2)$  and radius  $r_{1}=\\frac{n}{4}$ \n<br/><br/>\nSimilarly  $T_{n}$  represents circle with centre  $C_{2}(2,-3)$  and radius  $r_{2}=\\frac{1}{n}$ \n<br/><br/>\n $\\text{As}S_{n}∩T_{n}=\\phi$ <br/><br/>\n $\\begin{aligned} C_{1}C_{2}&gt;r_{1}+r_{2} &amp; \\text{OR} &amp; C_{1}C_{2}&lt;|r_{1}-r_{2}| \\\\ \\\\ \\sqrt{2}&gt;\\frac{n}{4}+\\frac{1}{n} &amp; \\text{OR} &amp; \\sqrt{2}&lt;|\\frac{n}{4}-\\frac{1}{n}| \\\\ \\\\ n=1,2,3,4 &amp; &amp; n\\text{may take infinite values} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{n}={z \\in C:|z-3+2i|=\\frac{n}{4}}",
@@ -4179,7 +4179,7 @@
         "T_{n}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:45.600715"
     },
@@ -4227,7 +4227,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5p8atn5/a1f6e8e9-ac22-432a-959c-96b00d255605/c11c6010-05c2-11ed-b1f1-b5d4135a474f/file-1l5p8atn6.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "|z-(4+3i)|=2",
@@ -4236,7 +4236,7 @@
         "C_{2}:|z|+|z-4|=6"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:46.027754"
     },
@@ -4339,7 +4339,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $z=(2+3i)$ </p>\n<p> $\\Rightarrow z^{5}=(2+3i)((2+3i)^{2})^{2}$ </p>\n<p> $=(2+3i)(-5+12i)^{2}$ </p>\n<p> $=(2+3i)(-119-120i)$ </p>\n<p> $=-238-240i-357i+360$ </p>\n<p> $=122-597i$ </p>\n<p> $\\bar{z}^{5}=122+597i$ </p>\n<p> $z^{5}+\\bar{z}^{5}=244$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Easy",
       "key_formulas": [
         "z=2+3i",
@@ -4350,7 +4350,7 @@
         "=(2+3i)(-119-120i)"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:44.610061"
     },
@@ -4396,7 +4396,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $|z-i|=|z+5i|$ </p>\n<p>So,  $z$  lies on  $\\perp^{r}$  bisector of  $(0,1)$  and  $(0,-5)$ </p>\n<p>i.e., line  $y=-2$ </p>\n<p>as  $|z|=2$ </p>\n<p> $\\Rightarrow z=-2i$ </p>\n<p> $x=0$  and  $y=-2$ </p>\n<p>so,  $x+2y+4=0$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Easy",
       "key_formulas": [
         "z=x+iy",
@@ -4407,7 +4407,7 @@
         "x=0"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:45.146472"
     },
@@ -4629,7 +4629,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7rb1odr/f03d7ef3-d4f9-4323-b266-e49dead29829/7e3573f0-2e7f-11ed-8702-156c00ced081/file-1l7rb1ods.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "S_{1}={z_{1} \\in C:|z_{1}-3|=\\frac{1}{2}}",
@@ -4640,7 +4640,7 @@
         "|Z_{2}+|Z_{2}-1||^{2}=|Z_{2}-|Z_{2}+1||^{2}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:44.663244"
     },
@@ -4688,7 +4688,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7nbq29i/e583a584-7e22-4939-89d9-b1f38618bbd4/01c10960-2c4f-11ed-9dc0-a1792fcc650d/file-1l7nbq29j.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "z_{1}=1+2i",
@@ -4699,7 +4699,7 @@
         "z_{2}=(1+2i)(1+i)"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:45.186983"
     },
@@ -4806,14 +4806,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lc6ndrpb/ccdf08bc-7111-4568-85c5-b0eec7b3bc91/5b4a39e0-8620-11ed-91e0-bdec0331da70/file-1lc6ndrpc.png?format=png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Easy",
       "key_formulas": [
         "A={z \\in C:|\\frac{z+1}{z-1}|<1}",
         "B={z \\in C:arg(\\frac{z-1}{z+1})=\\frac{2\\pi}{3}}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:46.110833"
     },
@@ -4861,7 +4861,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktp1p6w0/6e5c96fc-1f6b-4d79-a495-a6241de65a74/58386200-1816-11ec-872b-bb20e4927270/file-1ktp1p6w1.png"
       ],
-      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
+      "topic_tag": "Modulus, Argument & Polar/Euler Form",
       "difficulty": "Easy",
       "key_formulas": [
         "S={z \\in C:\\frac{z-i}{z+2i} \\in R}",
@@ -4869,7 +4869,7 @@
         "arg(\\frac{z-i}{z+2i})"
       ],
       "key_concepts": [
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:46.864402"
     },
@@ -4974,7 +4974,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(2e^{i\\pi/6})^{100}=2^{99}(p+iq)$ <br/><br/> $2^{100}(cos\\frac{50\\pi}{3}+isin\\frac{50\\pi}{3})=2^{99}(p+iq)$ <br/><br/> $p+iq=2(cos\\frac{2\\pi}{3}+isin\\frac{2\\pi}{3})$ <br/><br/>p =  $-$ 1, q =  $\\sqrt{3}$ <br/><br/> $x^{2}-(\\sqrt{3}-1)x-\\sqrt{3}=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\sqrt{3}+i)^{100}=2^{99}(p+iq)",
@@ -4985,7 +4985,7 @@
         "x^{2}-(\\sqrt{3}-1)x-\\sqrt{3}=0"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:46.895998"
     },
@@ -5156,8 +5156,7 @@
         "|\\omega|=\\frac{1}{r}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form",
-        "De Moivre's Theorem & Cube Roots of Unity"
+        "Modulus, Argument & Polar/Euler Form"
       ],
       "crawled_at": "2026-09-20T15:39:47.780335"
     },
@@ -5264,7 +5263,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks29zpcq/530bb07a-dd67-46e9-a211-e9a9a6af836f/874af7a0-f7c4-11eb-bd75-e1c4006282d9/file-1ks29zpcr.png"
       ],
-      "topic_tag": "Modulus, Argument & Polar/Euler Form",
+      "topic_tag": "De Moivre's Theorem & Cube Roots of Unity",
       "difficulty": "Medium",
       "key_formulas": [
         "1} and S 2 = {z",
@@ -5275,7 +5274,7 @@
         "\\theta=-\\frac{3\\pi}{4}"
       ],
       "key_concepts": [
-        "Modulus, Argument & Polar/Euler Form"
+        "De Moivre's Theorem & Cube Roots of Unity"
       ],
       "crawled_at": "2026-09-20T15:39:47.003796"
     },

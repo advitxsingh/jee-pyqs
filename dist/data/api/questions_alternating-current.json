@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo5pbdzj/45f9f175-d023-478e-8fea-32a45a53319c/84df91f0-3be5-11f1-aafb-6f2b8ad54979/file-6y3zli1mo5pbdzk.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{rms}=90V",
@@ -57,10 +57,8 @@
         "____"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:07.025826"
     },
@@ -121,8 +119,7 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:07.063360"
     },
@@ -159,7 +156,6 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:15.614973"
@@ -217,8 +213,7 @@
         "I^{'}=I/3"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:07.036032"
     },
@@ -277,8 +272,7 @@
         "U_{0}=\\frac{Q_{0}^{2}}{2C}"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:07.072933"
     },
@@ -312,8 +306,7 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:15.624319"
     },
@@ -363,7 +356,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mol5yw16/3b615d7c-41cb-4178-bed1-47f08c1d1c4e/663b20a0-4466-11f1-8548-dba52a2c0879/file-6y3zli1mol5yw17.webp?format=webp",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mol62yvp/8152ecc2-0505-4062-9f4a-4cce111cc58a/d7aae450-4466-11f1-8548-dba52a2c0879/file-6y3zli1mol62yvq.webp?format=webp"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "tan\\phi=\\frac{|X_{L}-X_{C}|}{R}",
@@ -374,8 +367,6 @@
         "tan30^{\\circ}=\\frac{X_{L1}-X_{C}}{R}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:07.045286"
@@ -415,8 +406,7 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:15.632678"
     },
@@ -500,7 +490,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8w0m4c/72d31a85-689e-4fd9-86c5-9b0cab8ed787/6cf8a3c0-0241-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8w0m4d.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Hard",
       "key_formulas": [
         "V=5sin(100t)",
@@ -511,10 +501,7 @@
         "V_{0}=5V"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:15.641104"
     },
@@ -617,14 +604,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>At resonance in a series LCR circuit, the reactive components (inductive and capacitive) cancel each other out, leaving only the resistance. Therefore, the amplitude of the current is given by:</p>\n<p> $I_{0}=\\frac{E}{R}$ </p>\n<p>Now, if the resistance is doubled, the new resistance becomes  $2R$ . The current amplitude at resonance then becomes:</p>\n<p> $I=\\frac{E}{2R}=\\frac{1}{2}(\\frac{E}{R})=\\frac{I_{0}}{2}$ </p>\n<p>Thus, the amplitude of current at resonance when the resistance is doubled is  $\\frac{I_{0}}{2}$ .</p>\n<p>The correct option is A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "I_{0}",
         "I_{0}=\\frac{E}{R}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:07.138827"
@@ -650,7 +636,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To calculate the average power dissipated in the circuit, we follow these steps:</p>\n<p><p><strong>Formula for Power</strong>:</p>\n<p> $P=V_{\\text{rms}} \\times I_{\\text{rms}} \\times cos\\phi$ </p></p>\n<p><p><strong>Expressing Power in Terms of Voltage and Impedance</strong>:</p>\n<p> $P=V_{\\text{rms}} \\times \\frac{V_{\\text{rms}}}{Z} \\times \\frac{R}{Z}$ </p></p>\n<p><p><strong>Simplifying the Expression</strong>:</p>\n<p> $P=\\frac{V_{\\text{rms}}^{2} \\times R}{Z^{2}}$ </p></p>\n<p><p><strong>Calculate Impedance (Z)</strong>:</p>\n<p>The impedance of the circuit (Z) is calculated as:</p>\n<p> $Z=\\sqrt{R^{2}+(X_{L}-X_{C})^{2}}$ </p>\n<p>Given:</p>\n<p>-  $X_{L}=100\\Omega$ </p>\n<p>-  $X_{C}=50\\Omega$ </p>\n<p>-  $R=50\\Omega$ </p>\n<p> $X_{L}-X_{C}=100\\Omega-50\\Omega=50\\Omega$ </p>\n<p>Thus:</p>\n<p> $Z=\\sqrt{50^{2}+50^{2}}=50\\sqrt{2}\\Omega$ </p></p>\n<p><p><strong>Substitute Values to Find Power (P)</strong>:</p>\n<p>Given  $V_{\\text{rms}}=10\\text{V}$ , we calculate  $P$  as follows:</p>\n<p> $P=\\frac{10^{2} \\times 50}{(50\\sqrt{2})^{2}}$ </p>\n<p>Simplifying further:</p>\n<p> $P=\\frac{100 \\times 50}{2500 \\times 2}=1\\text{W}$ </p></p>\n<p>Therefore, the average power dissipated by the circuit is  $1\\text{W}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Power in AC Circuits & Power Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "P=V_{\\text{rms}} \\times I_{\\text{rms}} \\times cos\\phi",
@@ -661,9 +647,6 @@
         "X_{C}=50\\Omega"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:15.649224"
@@ -710,7 +693,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Assertion (A):</strong> </p>\n<blockquote>\n<p>A choke coil is simply a coil having large inductance but small resistance.  </p>\n<p>Choke coils are used with fluorescent mercury-tube fittings.  </p>\n<p>If household electric power is directly connected to a mercury tube, the tube will be damaged.</p>\n</blockquote>\n<p><p>A choke (or ballast) <strong>does</strong> have high inductance and low resistance.  </p></p>\n<p><p>In a fluorescent lamp (or mercury‐vapor lamp) circuit, the choke limits the <strong>current</strong> through the tube.  </p></p>\n<p><p>If we connect the tube directly to the full line voltage <strong>without</strong> any current-limiting device, excessive current will flow and damage the tube.</p>\n<p>Therefore, <strong>(A) is true</strong>.</p></p>\n<p><strong>Reason (R):</strong> </p>\n<blockquote>\n<p>By using the choke coil, the voltage across the tube is reduced by a factor  </p>\n<p> $\\frac{R}{\\sqrt{R^{2}+(\\omega L)^{2}}}$ ,  </p>\n<p>where  $\\omega$  is the supply frequency, and  $R$  and  $L$  are the resistance and inductance in series.  </p>\n<p>If the choke coil were not used, the voltage across the resistor (tube) would be the same as the applied voltage.</p>\n</blockquote>\n<p><p>In a simple <strong>series R–L</strong> circuit (where  $R$  represents the lamp’s effective resistance once conducting, and  $L$  is the choke’s inductance), the total impedance is  </p>\n<p> $Z=\\sqrt{R^{2}+(\\omega L)^{2}}.$  </p></p>\n<p><p>The current is the same through  $R$  and  $L$ . The fraction of the <strong>total supply voltage</strong> appearing across  $R$  alone is  </p>\n<p> $\\frac{V_{R}}{V_{\\text{total}}}=\\frac{IR}{IZ}=\\frac{R}{\\sqrt{R^{2}+(\\omega L)^{2}}}.$  </p></p>\n<p><p>This shows that using a large inductance  $L$  (the choke) can substantially reduce (or limit) the voltage—and hence the current—through the lamp.  </p></p>\n<p><p>Without the choke coil, the tube (treated here as a resistor once it starts conducting) would indeed see nearly the <strong>full line voltage</strong>, causing a large current that could destroy it.</p>\n<p>Therefore, <strong>(R) is also true</strong>. </p></p>\n<p><strong>Does (R) correctly explain (A)?</strong> </p>\n<p><p>(A) states <em>why</em> a choke coil is needed (to prevent the lamp from being damaged by excessive current).  </p></p>\n<p><p>(R) shows <em>how</em> the choke coil limits the voltage/current through the lamp—by giving the fraction of the supply voltage that appears across the lamp in a series R–L circuit.  </p></p>\n<p><p>Thus, (R) <strong>does</strong> provide the correct (physics-based) explanation: the choke’s inductive reactance drops a significant portion of the supply voltage, thereby protecting the lamp.</p></p>\n<p>Hence, the correct option is:</p>\n<p> $\\text{Option B: Both (A) and (R) are true and (R) is the correct explanation of (A).}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "(R/\\sqrt{R^{2}+\\omega^{2}L^{2}})",
@@ -718,9 +701,7 @@
         "\\frac{R}{\\sqrt{R^{2}+(\\omega L)^{2}}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:07.109564"
     },
@@ -864,14 +845,14 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6rjd4ep/52e09bff-9fe7-421e-94a9-7e5f60115533/97c8c010-e38b-11ef-9897-61eb62716c5d/file-jaoe38c1m6rjd4eq.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m74olt60/18c6d8ac-15c4-4eb5-b720-4bbd2c6f972c/47788680-eac6-11ef-be87-1347496dd836/file-jaoe38c1m74olt61.png?format=png"
       ],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{AB}",
         "V=V_{0}sin\\omega t"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:07.119062"
     },
@@ -900,9 +881,7 @@
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:15.667502"
     },
@@ -1050,7 +1029,6 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:15.677258"
@@ -1148,16 +1126,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To understand which answer is correct, we must consider the relationship between voltage and current in various types of circuits, namely circuits with pure inductors, pure capacitors, pure resistors, and a combination of inductors and capacitors (LC circuits).</p>\n<p>In a <strong>purely resistive</strong> circuit, the voltage and current are in phase, meaning when the voltage is maximum, the current is also maximum. Therefore, option C (pure resistor) cannot result in the instantaneous current being zero when the instantaneous voltage is maximum.</p>\n<p>In a <strong>purely inductive</strong> circuit, the current lags the voltage by  $90^{\\circ}$ , or in other words, when the voltage is at its maximum, the current is zero. This is because the inductor opposes changes in current, leading to this phase difference.</p>\n<p>In a <strong>purely capacitive</strong> circuit, the current leads the voltage by  $90^{\\circ}$ . This means when the voltage is at its maximum value, the current through the capacitor is zero because the current reaches its maximum or minimum before the voltage does.</p>\n<p>In an <strong>LC circuit</strong> (inductor-capacitor), under certain conditions like at its resonant frequency, the circuit behaves as if it is purely resistive in nature where voltage and current are in phase. However, it's more nuanced because the question likely implies a condition not at resonance but rather at a general characteristic of LC circuits. In LC circuits, aside from the resonance condition, the presence of both inductive and capacitive components can lead to scenarios where the inductive and capacitive reactances cancel each other, particularly in the case where oscillations are involved, and indeed, there can be moments when the voltage is maximum and the current is minimum (zero in the ideal case) due to the energy being alternately stored in the magnetic field of the inductor and the electric field of the capacitor.</p>\n<p>Thus, reflecting on the scenarios:</p>\n<ul>\n<li>Pure inductor - Fits the description: instantaneous current is zero when the instantaneous voltage is maximum.</li>\n<li>Pure capacitor - Also fits the description for the reason described, taking into account ideal conditions.</li>\n<li>Pure resistor - Does not fit as voltage and current are in phase.</li>\n<li>Combination of an inductor and capacitor (LC circuit) - Can fit the description under certain non-resonance conditions where the behavior of energy exchange between L and C at a specific instant can result in the instant current being zero when the voltage is maximum, but this is more complex and dependent on specific conditions unlike the straightforward lag or lead in purely inductive or capacitive circuits.</li>\n</ul>\n<p>Therefore, the correct answer is <strong>Option C: A, B, and D only</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "90^{\\circ}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive",
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:08.071213"
     },
@@ -1295,10 +1271,7 @@
         "Z=\\sqrt{16+48}=\\sqrt{64}=8\\Omega"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:18.102464"
     },
@@ -1335,9 +1308,7 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:18.177076"
     },
@@ -1371,7 +1342,6 @@
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:18.216227"
@@ -1427,8 +1397,7 @@
         "\\omega=2\\pi f"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:07.148013"
     },
@@ -1474,13 +1443,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; V_{L}=I(\\omega L)=31.4 \\\\ &amp; \\begin{aligned} \\Rightarrow I &amp; =\\frac{31.4}{2 \\times 3.14 \\times 50 \\times 10 \\times 10^{-3}} \\\\ &amp; =10A \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "(L=10mH)"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:07.179492"
@@ -1586,13 +1554,12 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lshf5zyi/dbd77c9a-b579-4f70-846a-6dad1c3db4b8/4f5e0aa0-c8d0-11ee-adc8-974b9031006b/file-6y3zli1lshf5zyj.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "LC Oscillations & Transformers",
       "difficulty": "Easy",
       "key_formulas": [
         "(V_{0})"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "LC Oscillations & Transformers"
       ],
       "crawled_at": "2026-09-19T23:07:08.119072"
@@ -1681,8 +1648,7 @@
         "V_{AC}=20V"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:18.151406"
     },
@@ -1828,9 +1794,7 @@
         "I_{max}=\\frac{40}{3.316} \\approx 12.06A"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:07.187802"
     },
@@ -1883,8 +1847,7 @@
         "f_{0}=\\frac{1}{2\\pi\\sqrt{LC}}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:08.096098"
     },
@@ -1940,8 +1903,7 @@
         "E=(20sin2000t)V"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:08.127907"
     },
@@ -1977,8 +1939,7 @@
         "E_{rms}=\\frac{E_{max}}{\\sqrt{2}}=\\frac{110\\sqrt{2}}{\\sqrt{2}}=110\\text{volts}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:18.159096"
     },
@@ -2064,8 +2025,7 @@
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:07.163308"
     },
@@ -2116,11 +2076,10 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv1ro09o/cfca7ff4-6e97-4c24-9b13-f2e6d3bd2860/4d77a9c0-fb99-11ee-aecf-73c37d9c3a58/file-1lv1ro09p.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv1rog56/94584823-e7b6-4a44-8719-620c9ea712ee/59bb01a0-fb99-11ee-aecf-73c37d9c3a58/file-1lv1rog57.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
@@ -2168,14 +2127,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; &lt;P&gt;=IVcos\\phi \\\\ &amp; =\\frac{20}{\\sqrt{2}} \\times \\frac{10}{\\sqrt{2}} \\times cos60^{\\circ} \\\\ &amp; =50W \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "V=20sin200\\pi t",
         "I=10sin(200\\pi t+\\frac{\\pi}{3})"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
@@ -2230,8 +2188,7 @@
         "I=100sin(100t+\\frac{\\pi}{3})mA"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:08.136385"
     },
@@ -2265,9 +2222,7 @@
         "\\omega"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:18.168516"
     },
@@ -2350,8 +2305,7 @@
         ". source R = impedance of pure resistive circuit connected with A.C. source."
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:08.178121"
     },
@@ -2464,8 +2418,7 @@
         "i_{rms}|_{b}<i_{rms}|_{a}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:09.513557"
     },
@@ -2500,8 +2453,7 @@
         "\\omega=\\frac{1}{\\sqrt{LC}}"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:18.261832"
     },
@@ -2567,9 +2519,7 @@
         "\\frac{x}{10}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:20.239273"
     },
@@ -2615,17 +2565,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In a series LCR circuit connected to an AC source, resonance occurs at a particular frequency at which the inductive reactance is equal to the capacitive reactance, resulting in the minimum impedance of the circuit. At this frequency, the circuit draws maximum current from the source, and thus, the maximum power is dissipated in the circuit. Therefore, Statement I is true.</p>\n<p>In a circuit containing only a resistor, the power dissipated is given by P = VI = I $^{2}$ R, where V is the voltage across the resistor, I is the current flowing through the resistor, and R is the resistance of the resistor. The voltage and current are in phase in a purely resistive circuit, which means that the power is maximized. Therefore, Statement II is also true.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "^{2}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:08.188943"
     },
@@ -2728,8 +2675,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:09.525116"
     },
@@ -2865,7 +2811,6 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:20.249430"
@@ -2916,11 +2861,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor",
-        "LC Oscillations & Transformers"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:08.160468"
     },
@@ -3057,7 +2998,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the energy stored in the magnetic field after the current has built up to its equilibrium value, we first need to find the steady-state current in the coil. </p>\n<p>When the current reaches its equilibrium value, the coil behaves like a resistor because the back-emf induced by the changing magnetic field is zero. Ohm's law can be applied:</p>\n<p> $I=\\frac{V}{R}$ </p>\n<p>where</p>\n<ul>\n<li> $I$  is the current</li>\n<li> $V$  is the voltage across the coil (10 V)</li>\n<li> $R$  is the resistance of the coil (4 Ω)</li>\n</ul>\n<p>Plugging in the values:</p>\n<p> $I=\\frac{10}{4}$ \n $I=2.5A$ </p>\n<p>Now that we have the steady-state current, we can find the energy stored in the magnetic field using the formula:</p>\n<p> $W=\\frac{1}{2}LI^{2}$ </p>\n<p>where</p>\n<ul>\n<li> $W$  is the energy stored in the magnetic field</li>\n<li> $L$  is the inductance of the coil (2 H)</li>\n<li> $I$  is the steady-state current (2.5 A)</li>\n</ul>\n<p>Plugging in the values:</p>\n<p> $W=\\frac{1}{2}(2)(2.5)^{2}$ <br/><br/>\n $W=1(6.25)$ <br/><br/>\n $W=6.25J$ </p>\n<p>To express this in terms of  $10^{-2}J$ , divide by  $10^{-2}$ :</p>\n<p> $6.25 \\div 10^{-2}=625$ </p>\n<p>Therefore, the energy stored in the magnetic field after the current has built up to its equilibrium value is 625 $\\times 10^{-2}J$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times 10^{-2}J",
@@ -3068,7 +3009,6 @@
         "W=6.25J"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:18.238593"
@@ -3094,7 +3034,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Area  $(A)=70cm^{2}=70 \\times 10^{-4}m^{2}$ \n<br/><br/> $B=0.4T$ \n<br/><br/> $f=\\frac{500\\text{revolution}}{60\\text{minute}}=\\frac{500}{60}\\frac{\\text{rev.}}{sec.}$ \n<br/><br/>Induced emf in rotating coil is given by\n<br/><br/> $\\begin{aligned} &amp; e=N\\omega BAsin\\theta \\\\ \\\\ &amp; =600 \\times 2 \\times \\frac{22}{7} \\times \\frac{500}{60} \\times 0.4 \\times 70 \\times 10^{-4}sin30^{\\circ} \\\\ \\\\ &amp; =600 \\times 2 \\times \\frac{22}{7} \\times \\frac{500}{6} \\times 0.4 \\times 70 \\times 10^{-4} \\times \\frac{1}{2} \\\\ \\\\ &amp; =44\\text{Volt} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Hard",
       "key_formulas": [
         "70cm^{2}",
@@ -3105,7 +3045,7 @@
         "B=0.4T"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:18.280405"
     },
@@ -3222,14 +3162,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><b>Statement I</b> is true because in a series LCR circuit, the current first increases as the frequency increases, reaching a maximum value when the circuit is at resonance. At resonance, the inductive reactance (XL) and capacitive reactance (XC) cancel each other out, resulting in the lowest impedance (Z) and the highest current. As the frequency continues to increase beyond resonance, the current in the circuit decreases.</p>\n<p><b>Statement II</b> is also true because, at resonance in a series LCR circuit, the inductive reactance (XL) and capacitive reactance (XC) are equal and cancel each other out. This results in the impedance (Z) being purely resistive. The power factor at resonance is given by the cosine of the phase angle (θ), and since the phase angle is 0° at resonance, the power factor is 1.</p>\n<p>Thus, both statements are true, and the correct answer is Both Statement I and Statement II are true.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:08.169856"
     },
@@ -3279,8 +3216,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:08.216251"
     },
@@ -3337,8 +3273,7 @@
         "\\Rightarrow \\frac{P_{1}}{P_{2}}=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:08.259971"
     },
@@ -3363,7 +3298,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The Q factor (quality factor) in a series RLC circuit can be given by the formula: </p>\n<p> $Q=\\frac{X_{L}}{R}=\\frac{\\omega L}{R}$ </p>\n<p>where ( $X_{L}$ ) is the inductive reactance, (R) is the resistance, (L) is the inductance, and ( $\\omega$ ) is the angular frequency. </p>\n<p>In a series RLC circuit at resonance, the resonant frequency (f) is given by</p>\n<p> $f=\\frac{1}{2\\pi\\sqrt{LC}}$ </p>\n<p>or equivalently, the angular frequency ( $\\omega$ ) at resonance is </p>\n<p> $\\omega=\\frac{1}{\\sqrt{LC}}$ </p>\n<p>Substituting (L = 1H) and ( $C=6.25\\mu F=6.25 \\times 10^{-6}F$ ) into the equation for (\\omega) gives</p>\n<p> $\\omega=\\frac{1}{\\sqrt{1H \\times 6.25 \\times 10^{-6}F}}$  = 400 rad/s</p>\n<p>Substituting ( $\\omega=400rad/s$ ), (L = 1H), and ( $R=100\\Omega$ ) into the equation for the Q factor gives</p>\n<p> $Q=\\frac{\\omega L}{R}=\\frac{400rad/s \\times 1H}{100\\Omega}=4$ </p>\n<p>So, the Q factor of the circuit is 4.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Hard",
       "key_formulas": [
         "Q=\\frac{X_{L}}{R}=\\frac{\\omega L}{R}",
@@ -3374,10 +3309,7 @@
         "C=6.25\\mu F=6.25 \\times 10^{-6}F"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:18.250778"
     },
@@ -3410,8 +3342,7 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:18.289009"
     },
@@ -3491,7 +3422,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $i(t)=\\frac{V}{R}(1-e^{-Rt/L})$  ...... (1)</p>\n<p> $\\frac{L}{R}=\\frac{1}{100}s \\Rightarrow \\frac{L}{R}=10ms$  ...... (2)</p>\n<p> $\\frac{V}{2R}=\\frac{V}{R}(1-e^{-Rt/L})$ </p>\n<p> $\\Rightarrow e^{-Rt/L}=\\frac{1}{2} \\Rightarrow t=\\frac{L}{R}ln2=6.93ms$ </p>\n<p> $U=\\frac{1}{2}Li^{2}=\\frac{1}{2}[1-e^{-15/10}]^{2}[\\frac{6}{100}]^{2}$ </p>\n<p> $=\\frac{1}{2}[1-0.25]^{2} \\times 36 \\times 10^{-4}$ </p>\n<p> $=1mJ$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
       "difficulty": "Medium",
       "key_formulas": [
         "ln2=0.693,e^{-3/2}=0.25",
@@ -3502,7 +3433,7 @@
         "U=\\frac{1}{2}Li^{2}=\\frac{1}{2}[1-e^{-15/10}]^{2}[\\frac{6}{100}]^{2}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:09.552610"
     },
@@ -3598,7 +3529,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know,</p>\n<p>Quality factor (Q factor)</p>\n<p> $Q_{1}=\\frac{w_{1}}{\\Delta w}$ </p>\n<p> $=\\frac{1}{\\sqrt{LC}} \\times \\frac{L}{R}$ </p>\n<p> $=\\frac{1}{R}\\sqrt{\\frac{L}{C}}$ </p>\n<p>Now, when  $L^{'}=2L$  and  $C^{'}=2C$  then  $Q_{2}=\\frac{1}{R}\\sqrt{\\frac{2L}{2C}}=\\frac{1}{R}\\sqrt{\\frac{L}{C}}=Q_{1}$ </p>\n<p> $\\therefore$  Q<sub>2</sub> remains same as Q<sub>1</sub>.</p>\n<p>Also, as  $w_{1}=\\frac{1}{\\sqrt{LC}}$ </p>\n<p> $\\Rightarrow 2\\pi f_{1}=\\frac{1}{\\sqrt{LC}}$ </p>\n<p> $\\Rightarrow f_{1}=\\frac{1}{2\\pi\\sqrt{LC}}$ </p>\n<p> $\\therefore$  When  $L^{'}=2L$  and  $C^{'}=2C$  then new resonating frequency</p>\n<p> $f_{2}=\\frac{1}{2\\pi\\sqrt{2L \\times 2C}}=\\frac{1}{2\\pi \\times 2\\sqrt{LC}}=\\frac{1}{2} \\times f_{1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "Q_{1}=\\frac{w_{1}}{\\Delta w}",
@@ -3609,7 +3540,6 @@
         "Q_{2}=\\frac{1}{R}\\sqrt{\\frac{2L}{2C}}=\\frac{1}{R}\\sqrt{\\frac{L}{C}}=Q_{1}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:09.623750"
@@ -3656,7 +3586,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $X_{L}=3000 \\times 10 \\times 10^{-3}=30\\Omega$ </p>\n<p> $X_{C}=\\frac{1}{3000 \\times 25} \\times 10^{6}=\\frac{40}{3}\\Omega$ </p>\n<p>So  $X_{L}-X_{C}=30-\\frac{40}{3}=\\frac{50}{3}\\Omega$ </p>\n<p> $tan\\theta=\\frac{X_{L}-X_{C}}{R}=\\frac{50/3}{100}=\\frac{1}{6}$ </p>\n<p>So  $\\theta=tan^{-1}(0.17)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{L}=3000 \\times 10 \\times 10^{-3}=30\\Omega",
@@ -3666,7 +3596,6 @@
         "\\theta=tan^{-1}(0.17)"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:09.664759"
@@ -3761,7 +3690,6 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:20.275138"
@@ -3796,8 +3724,7 @@
         "\\Rightarrow f=\\frac{1}{2\\pi} \\times \\frac{10^{4}}{\\sqrt{10}}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:20.323373"
     },
@@ -3880,7 +3807,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $V_{1}i_{1}=V_{2}i_{2}=80$  kW</p>\n<p> $\\Rightarrow i_{1}=10A$  and  $i_{2}=\\frac{80 \\times 1000}{160}=500A$ </p>\n<p> $\\Rightarrow R_{1}=\\frac{V_{1}}{i_{1}}=800\\Omega$  and  $R_{2}=\\frac{160}{500}=0.32\\Omega$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "LC Oscillations & Transformers",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{1}i_{1}=V_{2}i_{2}=80",
@@ -3890,7 +3817,6 @@
         "R_{2}=\\frac{160}{500}=0.32\\Omega"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor",
         "LC Oscillations & Transformers"
       ],
       "crawled_at": "2026-09-19T23:07:09.561373"
@@ -3944,9 +3870,7 @@
         "\\frac{P_{1}}{P_{2}}=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:09.595810"
     },
@@ -3994,7 +3918,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l55xsxik/cad58984-dd5d-4d5a-93ef-e33e3e8e385f/cfe875d0-fb26-11ec-a177-3bb3bda6ce3e/file-1l55xsxil.png?format=png"
       ],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -4005,7 +3929,6 @@
         "\\omega=\\omega_{r}:z=\\sqrt{R^{2}+(X_{L}-X_{C})^{2}}=R"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:09.635912"
@@ -4082,7 +4005,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $X_{C}=\\frac{1}{wc}=\\frac{\\pi\\sqrt{x}}{2\\pi \\times 50 \\times 50} \\times 10^{6}$ </p>\n<p> $v_{R}^{2}+v_{C}^{2}=(200)^{2}$ </p>\n<p> $v_{C}^{2}=200^{2}-100^{2}$ </p>\n<p> $v_{C}=100\\sqrt{3}V$ </p>\n<p> $v_{R}=100V$ </p>\n<p> $P=\\frac{V^{2}}{R}$ </p>\n<p> $R=\\frac{100 \\times 100}{50}=200\\Omega$ </p>\n<p> $i_{rm}=\\frac{1}{2}A$ </p>\n<p> $\\frac{1}{2} \\times x_{C}=100\\sqrt{3} \\Rightarrow 10^{-6} \\times \\frac{\\sqrt{x}}{5000} \\times \\frac{1}{2}=100\\sqrt{3}$ </p>\n<p> $\\frac{10^{-6}\\sqrt{x}}{10000 \\times 100}=\\sqrt{3}$ </p>\n<p> $\\sqrt{x}=\\sqrt{3}$ </p>\n<p> $x=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{50}{\\pi\\sqrt{x}}\\mu F",
@@ -4093,7 +4016,7 @@
         "v_{R}=100V"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:20.284937"
     },
@@ -4266,7 +4189,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6z6wn42/89ab94f0-99d2-49fe-acfa-1f6b868af330/5b7bf350-1f09-11ed-8ba4-19601952a51f/file-1l6z6wn45.png?format=png"
       ],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "5sin(49\\pi t-30^{\\circ})",
@@ -4275,7 +4198,6 @@
         "=23.1sin(49\\pi t+60^{\\circ})"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:09.570769"
@@ -4372,14 +4294,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $U=\\frac{1}{2}Li^{2}=\\frac{1}{2}CV^{2}$ </p>\n<p>So,  $[\\frac{L}{C}]=\\frac{V^{2}}{i^{2}}=R^{2}$  is not the dimension of time.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
       "difficulty": "Easy",
       "key_formulas": [
         "U=\\frac{1}{2}Li^{2}=\\frac{1}{2}CV^{2}",
         "[\\frac{L}{C}]=\\frac{V^{2}}{i^{2}}=R^{2}"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:09.647422"
     },
@@ -4457,13 +4379,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6hyrhdj/1b695f4c-f46c-4d8c-9444-e5fb2cac1b21/2fee8c70-1590-11ed-abd2-c5f8c222b719/file-1l6hyrhdk.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6v6qjj9/0f2354a1-d851-4841-9174-f8c431327613/8f441950-1cd5-11ed-843d-81ad9f680592/file-1l6v6qjja.png?format=png"
       ],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "I=\\frac{220}{5}=44A"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:20.297956"
     },
@@ -4501,8 +4423,7 @@
         "\\frac{1}{\\omega C}=\\frac{1}{10^{4} \\times 10^{-6}}=100\\Omega"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:20.340616"
     },
@@ -4593,8 +4514,7 @@
         "\\Rightarrow I_{rms}=\\frac{I}{\\sqrt{2}}=\\frac{44}{20}=2.2A"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:09.545476"
     },
@@ -4650,8 +4570,7 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:09.579505"
     },
@@ -4814,8 +4733,7 @@
         "X_{C}=X_{L}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:09.690002"
     },
@@ -4880,7 +4798,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For maximum power\n\n<br/><br/> $\\begin{aligned} &amp; \\text{power factor}=cos\\theta=1 \\\\ \\\\ &amp; \\therefore \\frac{R}{Z}=1 \\\\ \\\\ &amp; R^{2}=Z^{2} \\\\ \\\\ &amp; R^{2}=(X_{L}-X_{C})^{2}+R^{2} \\\\ \\\\ &amp; X_{L}=X_{C} \\\\ \\\\ &amp; \\frac{70}{11}=\\frac{1}{100\\pi \\times C} \\\\ \\\\ &amp; \\Rightarrow C=\\frac{11}{7000\\pi}=500 \\times 10^{-6}F=500\\mu F \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Power in AC Circuits & Power Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "R=\\frac{250}{11}\\Omega",
@@ -4888,7 +4806,6 @@
         "\\pi=\\frac{22}{7}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:20.311961"
@@ -4922,8 +4839,7 @@
         "\\omega L=\\frac{1}{\\omega C}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:20.349101"
     },
@@ -5015,8 +4931,7 @@
       ],
       "key_concepts": [
         "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:10.816006"
     },
@@ -5117,7 +5032,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given :<br/><br/>X<sub>L</sub> = 10 $\\Omega$ <br/><br/>X<sub>C</sub> = 4 $\\Omega$ <br/><br/>R = 6 $\\Omega$ <br/><br/> $\\therefore$  Power factor = cos $\\theta$  =  $\\frac{R}{Z}$ <br/><br/> $=\\frac{R}{\\sqrt{R^{2}+(X_{L}-X_{C})^{2}}}$ <br/><br/> $=\\frac{6}{\\sqrt{6^{2}+(10-4)^{2}}}$ <br/><br/> $=\\frac{6}{6\\sqrt{2}}=\\frac{1}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{R}{Z}",
@@ -5126,10 +5041,7 @@
         "=\\frac{6}{6\\sqrt{2}}=\\frac{1}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:10.887340"
     },
@@ -5232,7 +5144,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kluwhc5l/84e0cc60-9626-427c-af0e-9a8bb5eec78a/e908db90-7cec-11eb-8f7b-79760a5d8011/file-1kluwhc5m-268w.jpg"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{(x_{L}-x_{C})^{2}+R^{2}}",
@@ -5243,7 +5155,6 @@
         "i_{peak}=\\frac{\\Delta v}{z}=\\frac{30}{150}=\\frac{1}{5}amp=0.2"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive",
         "Resonance, Q-Factor & Bandwidth"
       ],
@@ -5304,8 +5215,7 @@
         "\\frac{1}{4000}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:12.153934"
     },
@@ -5412,10 +5322,7 @@
         "P=\\frac{(250/\\sqrt{2})^{2}}{8}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:22.410217"
     },
@@ -5498,14 +5405,14 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwor2wlu/77e82b37-ad3f-485c-ab27-e4568b9c7c40/77524720-5351-11ec-9cbb-695a838b20fb/file-1kwor2wlv.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kwor41hv/a124b030-6b0c-4284-abff-c52891825158/96e88540-5351-11ec-9cbb-695a838b20fb/file-1kwor41hw.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{R_{eq}}=\\frac{1}{3}+\\frac{1}{3}+\\frac{1}{3}=1",
         "\\Rightarrow i=\\frac{30}{3}=10"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:10.786820"
     },
@@ -5604,7 +5511,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\omega L=\\frac{1}{\\omega C},X_{L}=X_{C}$ <br/><br/>So current in phase with EMF<br/><br/>At resonance, current have maximum value.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega L>\\frac{1}{\\omega C}",
@@ -5613,7 +5520,6 @@
         "\\omega L=\\frac{1}{\\omega C},X_{L}=X_{C}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:10.859652"
@@ -5660,7 +5566,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\omega=\\frac{1}{\\sqrt{LC}}$ \n<br/><br/> $\\Rightarrow$  2 $\\pi$ f =  $\\frac{1}{\\sqrt{LC}}$ \n<br/><br/> $\\Rightarrow$  f =  $\\frac{1}{2\\pi\\sqrt{LC}}$ \n<br/><br/>f does not depends on resistance(R).\n<br/><br/>Quality factor,  $Q=\\frac{\\omega L}{R}$ \n<br/><br/> $\\Rightarrow$   $Q∝\\frac{1}{R}$ \n<br/><br/>So if R increase then Q will decrease.\n<br/><br/>Also,  $Q=\\frac{\\omega L}{R}=\\frac{\\omega}{\\Delta\\beta}$ \n<br/><br/>where  $\\Delta\\beta$  = bandwidth\n<br/><br/> $\\Delta\\beta=\\frac{R}{L}$ \n<br/><br/>So if R increase then  $\\Delta\\beta$  will increase too.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega=\\frac{1}{\\sqrt{LC}}",
@@ -5671,8 +5577,6 @@
         "Q=\\frac{\\omega L}{R}=\\frac{\\omega}{\\Delta\\beta}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:10.904855"
@@ -5837,7 +5741,7 @@
         "https://imagex.cdn.examgoal.net/1krbdfr8g/75004263-a014-4755-b730-739e1fd46ee8/d78bd110-e8f8-11eb-82db-2db925b53542/file-1krbdfr8h.png",
         "https://imagex.cdn.examgoal.net/1krbdhqia/44253ebb-ea20-404d-8a06-3fb4af3be0ec/0e9a3520-e8f9-11eb-82db-2db925b53542/file-1krbdhqib.png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "R_{eq}=\\frac{6 \\times 9}{6+9}=\\frac{54}{15}",
@@ -5848,7 +5752,7 @@
         "I=\\frac{E}{R_{eq}}=\\frac{10E}{33}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.162329"
     },
@@ -5885,8 +5789,7 @@
         "\\frac{cos\\phi^{'}}{cos\\phi}=\\frac{\\sqrt{10}}{\\sqrt{2}}=\\frac{\\sqrt{5}}{1}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:20.400885"
     },
@@ -5945,7 +5848,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Quality factor =  $\\frac{X_{L}}{R}=\\frac{\\omega L}{R}$ <br/><br/> $Q=\\frac{1}{\\sqrt{LC}}\\frac{L}{R}$ <br/><br/> $Q=(\\frac{1}{\\sqrt{C}})\\frac{\\sqrt{L}}{R}$ <br/><br/> $Q=\\frac{XL}{R}=\\frac{\\omega L}{R}=\\frac{1}{\\sqrt{LC}}\\frac{L}{R}=\\frac{1}{R}\\frac{\\sqrt{L}}{\\sqrt{C}}$ <br/><br/> $Q^{'}=\\frac{\\sqrt{2L}}{(\\frac{R}{2})\\sqrt{C}}=2\\sqrt{2}Q$ <br/><br/>Q' = 282.84<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{X_{L}}{R}=\\frac{\\omega L}{R}",
@@ -5954,8 +5857,6 @@
         "Q^{'}=\\frac{\\sqrt{2L}}{(\\frac{R}{2})\\sqrt{C}}=2\\sqrt{2}Q"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
@@ -6090,7 +5991,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\phi=tan^{-1}(\\frac{X_{L}}{R})$ <br/><br/> $X_{L}=\\omega L$ <br/><br/> $X_{L}=2 \\times \\frac{22}{7} \\times 50 \\times 0.07=22\\Omega$ <br/><br/> $\\phi=tan^{-1}(\\frac{22}{12})$ <br/><br/> $R=12\\Omega$ <br/><br/> $\\phi=tan^{-1}(\\frac{11}{6})$ <br/><br/> $Z=\\sqrt{X_{L}^{2}+R^{2}}=25.059$ <br/><br/> $I=\\frac{V}{Z}=\\frac{220}{25.059}=8.77A$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{22}{7}",
@@ -6101,7 +6002,6 @@
         "R=12\\Omega"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:10.833396"
@@ -6148,7 +6048,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->R = 100 $\\Omega$ <br/><br/> $X_{L}=\\omega L=50\\pi \\times 10^{-3}$ <br/><br/> $X_{C}=\\frac{1}{\\omega C}=\\frac{10^{11}}{100\\pi}$ <br/><br/> $X_{C}&gt;&gt;X_{L}$ <br/><br/>&amp;  $|X_{C}-X_{L}|&gt;&gt;R$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "X_{L}=\\omega L=50\\pi \\times 10^{-3}",
@@ -6157,7 +6057,6 @@
         "|X_{C}-X_{L}|>>R"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:10.868775"
@@ -6263,14 +6162,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kmiy3wub/20e91054-7e7e-4409-b3b7-f1e8698b05e3/1587e530-8a26-11eb-91cf-1f26b16dd4dd/file-1kmiy3wuc.jpg"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "LC Oscillations & Transformers",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{Poweracrossload}{Currentpassingtℎrougℎload}",
         "\\Rightarrow V_{2}=\\frac{P}{I_{L}}=\\frac{60}{0.11} \\Rightarrow V_{2}=545.45"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "LC Oscillations & Transformers"
       ],
       "crawled_at": "2026-09-19T23:07:10.946748"
@@ -6327,9 +6225,7 @@
         "I_{rms}=2A"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:12.129165"
     },
@@ -6398,8 +6294,7 @@
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "Power in AC Circuits & Power Factor"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:22.378480"
     },
@@ -6484,7 +6379,7 @@
         "https://imagex.cdn.examgoal.net/1ktembbry/0fb56fbf-4652-4540-b08e-ab88eea42bf1/573c77e0-125a-11ec-a4fb-5347f21481c0/file-1ktembbrz.jpeg",
         "https://imagex.cdn.examgoal.net/1ktjevoq1/de2c8684-26ea-4ca0-a282-96d15732e01c/2fa24d90-14fd-11ec-87b0-2f866bb7de71/file-1ktjevoq2.jpeg"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -6495,7 +6390,6 @@
         "Z_{L}=\\sqrt{(\\omega L)^{2}+R^{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:10.807806"
@@ -6660,14 +6554,13 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kpolruvh/061a4a95-6e02-4324-988a-9e9ff544b536/32c8dbd0-c8a7-11eb-9f04-35c9b3f3a871/file-1kpolruvi.png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\pi}{2}",
         "tan^{-1}(\\frac{X_{C}-X_{L}}{R})"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:10.921871"
@@ -6798,14 +6691,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks0ledil/aa3b1b33-f3a2-48ab-a76b-284593a7f41f/926869d0-f6d7-11eb-b326-31a7780220e7/file-1ks0ledim.jpg"
       ],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "I=\\frac{6}{6}=1A",
         "\\times"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:20.421777"
     },
@@ -6841,8 +6734,7 @@
         "tan45^{\\circ}=\\frac{X_{C}-X_{L}}{R}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:22.392335"
     },
@@ -6867,7 +6759,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, angular frequency at resonance,  $\\omega$ <sub>0</sub> = 10<sup>5</sup> rads<sup> $-$ 1</sup><br/><br/>Power drawn from circuit, P = 16 W<br/><br/>and supply voltage, V = 120 V<br/><br/>Let resistance of circuit = R.<br/><br/>As,  $P=V^{2}/R$ <br/><br/> $\\Rightarrow R=V^{2}/P=\\frac{120 \\times 100}{16}$ <br/><br/> $=30 \\times 30=900\\Omega$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -6876,7 +6768,6 @@
         "=30 \\times 30=900\\Omega"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:22.467080"
@@ -6935,8 +6826,7 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.187149"
     },
@@ -7039,7 +6929,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->L-R circuit :\n<br/><br/>tan 45<sup>o</sup> =  $\\frac{X_{L}}{R}$ \n<br/><br/> $\\Rightarrow$  1 =  $\\frac{X_{L}}{R}$ \n<br/><br/> $\\Rightarrow$  X<sub>L</sub> = R\n<br/><br/>Now Z =  $\\sqrt{R^{2}+X_{L}^{2}}$ \n<br/><br/>or Z =  $\\sqrt{X_{L}^{2}+X_{L}^{2}}=\\sqrt{2X_{L}^{2}}$  =  $\\sqrt{2}X_{L}$ \n<br/><br/> $\\Rightarrow$  100 =  $\\sqrt{2}X_{L}$ \n<br/><br/>X<sub>L</sub> =  $\\frac{100}{\\sqrt{2}}$ \n<br/><br/> $\\Rightarrow$   $\\omega L$  =  $\\frac{100}{\\sqrt{2}}$ \n<br/><br/> $\\Rightarrow$  L =  $\\frac{100}{\\sqrt{2} \\times 2 \\times 3.14 \\times 1000}$ \n<br/><br/>= 1.1  $\\times$  10<sup>–2</sup> H<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{X_{L}}{R}",
@@ -7050,7 +6940,6 @@
         "\\omega L"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.195737"
@@ -7164,8 +7053,7 @@
         "\\frac{\\pi}{2}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "LC Oscillations & Transformers"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.204513"
     },
@@ -7202,7 +7090,6 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Resonance, Q-Factor & Bandwidth",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:22.526940"
@@ -7249,7 +7136,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P.E. in inductor,  $U=\\frac{1}{2}LI^{2}$ <br/><br/> $U∝I^{2}$ <br/><br/> $\\frac{U}{U_{0}}=(\\frac{I}{I_{0}})^{2}$ <br/><br/> $\\frac{1}{n}=(\\frac{I}{I_{0}})^{2}$ <br/><br/> $I=\\frac{I_{0}}{\\sqrt{n}}$ <br/><br/>We know,  $I=I_{0}(1-e^{-\\frac{R}{L}t})$ <br/><br/> $\\frac{I_{0}}{\\sqrt{n}}=I_{0}(1-e^{-\\frac{R}{L}t})$ \n<br/><br/> $\\Rightarrow$   $e^{-\\frac{Rt}{L}}$  = 1 -  $\\frac{1}{\\sqrt{n}}$ \n<br/><br/>taking ln &amp; solving we get,<br/><br/> $t=\\frac{L}{R}ln(\\frac{\\sqrt{n}}{\\sqrt{n}-1})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{1}{n})",
@@ -7260,7 +7147,7 @@
         "I=\\frac{I_{0}}{\\sqrt{n}}"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:12.180174"
     },
@@ -7306,7 +7193,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->i = i<sub>0</sub>(1 -  $e^{-\\frac{Rt}{L}}$ )\n<br/><br/>i<sub> $\\infty$ </sub> = i<sub>0</sub>(1 -  $e^{-\\infty}$ ) = i<sub>0</sub>\n<br/><br/> $\\therefore$   $\\frac{i_{\\infty}}{i_{40s}}$  =  $\\frac{i_{0}}{i_{0}(1-e^{-\\frac{5 \\times 40}{10 \\times 10^{-3}}})}$ \n<br/><br/> =  $\\frac{1}{(1-e^{-2000})}$   $\\approx$  1\n<br/><br/>Then most appropriate option is 1.06<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "e^{-\\frac{Rt}{L}}",
@@ -7316,7 +7203,7 @@
         "\\frac{1}{(1-e^{-2000})}"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.213310"
     },
@@ -7423,11 +7310,11 @@
         "https://imagex.cdn.examgoal.net/mmwtUDhh7Y2XEekRC/JLjCDmuKQdpZj9ZwKM4AmeROEjoa0/XN7I0Fz7zeZznYPKXM0mMA/image.png",
         "https://imagex.cdn.examgoal.net/V0M4i2b3u9nFVDUi7/09MFgnZcHnlOs9KyfNkynK4YDL8uT/nOeqkZQjcV8k124c0Fcvvg/image.png"
       ],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:13.764724"
     },
@@ -7645,7 +7532,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->L = 10 × 10<sup>–3</sup> H, r<sub>1</sub> = 0.1  $\\Omega$ <br/><br/>\n $i=\\epsilon{1-e^{-1/2}}$ <br/><br/>\n $i_{saturation}=\\epsilon$ <br/>\n $80%i_{saturation}=0.8\\epsilon$ <br/><br/>\n0.8 = 1 - e<sup>-t/2</sup> ; e<sup>-t/2</sup> = 0.2<br/><br/>\ne<sup>t/L</sup> = 5<br/>\nt = L ln 5 = 10 × 10<sup>–3</sup> × 1.6 = 16 × 10<sup>–3</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "i=\\epsilon{1-e^{-1/2}}",
@@ -7653,7 +7540,7 @@
         "80%i_{saturation}=0.8\\epsilon"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.244092"
     },
@@ -7770,9 +7657,7 @@
         "\\frac{1}{2\\pi fC}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Power in AC Circuits & Power Factor"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:13.786554"
     },
@@ -7874,14 +7759,14 @@
         "https://imagex.cdn.examgoal.net/T4eQkQDD6RmRDEp9i/5agM0msfKFvVmZaj0KDwSMRqW7hTe/cC3yjpVbtSTTmVzXXV943k/image.png",
         "https://imagex.cdn.examgoal.net/HfN7axZ0Ajxzu1mvJ/C9J8XDt8AO98lfWZMPN3u1K5EQmbb/VKq63tGLjo0N3H5IuutPjb/image.png"
       ],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{2\\epsilon}{R}",
         "\\frac{2 \\times 15}{5}=6A"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:12.283097"
     },
@@ -7983,7 +7868,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Quality factor (Q) =  $\\frac{AngularResonance}{Bandwitℎ}$ \n<br/><br/>=  $\\frac{\\frac{1}{\\sqrt{LC}}}{\\frac{R}{L}}$ \n<br/><br/>=  $\\frac{\\omega_{0}}{\\frac{R}{L}}$ \n<br/><br/>=  $\\frac{\\omega_{0}L}{R}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [
         "\\omega_{0}",
@@ -7994,9 +7879,7 @@
         "\\frac{\\omega_{0}L}{R}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth",
-        "LC Oscillations & Transformers"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:13.811884"
     },
@@ -8042,7 +7925,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Capacitance, C = 0.2  $\\mu$ F = 0.2  $\\times$  10<sup> $-$ 6</sup> F\n<br/><br/>Inductance, L = 0.5 m H = 0.5   $\\times$  10<sup> $-$ 3</sup> H\n<br/><br/>Let, current = I.\n<br/><br/>Using energy conservation,  \n<br/><br/>U<sub>E</sub> + 0 = U<sub>E</sub><sup>'</sup> + U<sub>b</sub><sup>'</sup>\n<br/><br/> $\\Rightarrow$   $\\frac{1}{2}$  cv<sup>2</sup> + 0 =  $\\frac{1}{2}$  c $v_{1}^{2}$  +  $\\frac{1}{2}$ LI<sup>2</sup>\n<br/><br/> $\\Rightarrow$   $\\frac{1}{2}$   $\\times$  0.2  $\\times$   10<sup> $-$ 6</sup>  $\\times$  10<sup>2</sup>\n<br/><br/>=  $\\frac{1}{2} \\times$  0.2  $\\times$  10<sup> $-$ 6</sup>  $\\times$  5<sup>2</sup> +  $\\frac{1}{2}$   $\\times$  0.5  $\\times$  10<sup> $-$ 3</sup>  $\\times$  I<sup>2</sup>\n<br/><br/>By solving this, \n<br/><br/>I =  $\\sqrt{3} \\times$  10<sup> $-$ 1</sup> A \n<br/><br/>= 0.17 A. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "is : Capacitance, C = 0.2",
@@ -8053,7 +7936,7 @@
         "v_{1}^{2}"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:13.821340"
     },
@@ -8153,7 +8036,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>It is given that e<sub>0</sub> = 283 V;  $\\omega$  = 320.</p>\n<p>The inductor reactance is X<sub>L</sub> = 320  $\\times$  25  $\\times$  10<sup> $-$ 3</sup> = 8  $\\Omega$ </p>\n<p>The capacitor reactance is</p>\n<p> $X_{C}=\\frac{1}{\\omega C}=\\frac{1}{320 \\times 1000 \\times 10^{-6}}=\\frac{1000}{320}=3.1\\Omega$ </p>\n<p>It is given that R = 5  $\\Omega$ . Therefore, the total impedance is</p>\n<p> $Z=\\sqrt{R^{2}+(X_{L}-X_{C})^{2}}=\\sqrt{50}=7\\Omega$ </p>\n<p>and the phase difference between the voltage across the source and the current is</p>\n<p> $tan\\phi=\\frac{X_{L}-X_{C}}{R}=\\frac{8-3.1}{5} \\approx 1 \\Rightarrow \\theta=45^{\\circ}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -8162,8 +8045,6 @@
         "It is given that R = 5"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:13.828025"
@@ -8210,14 +8091,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Current in LR circuit, \n<br/><br/> $I=\\frac{V_{0}}{\\sqrt{R^{2}+w^{2}L^{2}}}sin(\\omega t-\\frac{\\pi}{2})$ \n<br/><br/>it will be a sinusoidal wave. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{L}{R}",
         "I=\\frac{V_{0}}{\\sqrt{R^{2}+w^{2}L^{2}}}sin(\\omega t-\\frac{\\pi}{2})"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:13.836686"
     },
@@ -8385,7 +8266,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l91fio1b/db2b9d6b-3c48-4bab-9abf-9d2ffbf87838/09163bf0-47dd-11ed-8284-6d7e98c66709/file-1l91fio1c.png?format=png"
       ],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "(L=0.03",
@@ -8396,7 +8277,7 @@
         "(e^{5}≅150)"
       ],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:13.866795"
     },
@@ -8559,7 +8440,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,  $V=V_{0}(1-e^{-t/RC})$ \n<br/><br/> $\\Rightarrow 120-200(1-e^{-t/RC})$ \n<br/><br/> $\\Rightarrow t=RCin(2.5)$ \n<br/><br/> $\\Rightarrow R=2.71 \\times 10^{6}\\Omega$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Easy",
       "key_formulas": [
         "^{'}R^{'}",
@@ -8568,7 +8449,7 @@
         "\\Rightarrow R=2.71 \\times 10^{6}\\Omega"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:13.902670"
     },
@@ -8683,9 +8564,7 @@
       ],
       "key_concepts": [
         "AC Fundamentals: Peak, RMS & Phase",
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:13.917686"
     },
@@ -8790,7 +8669,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/IGJGcmXziV76bLghV/xPkVZPoV2xVpMy6p6SBshm5IZf3Zf/KdVUUEjhjCjDJi4MF012hn/image.png"
       ],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Reactance: Inductive & Capacitive",
       "difficulty": "Medium",
       "key_formulas": [
         "L=400",
@@ -8800,7 +8679,7 @@
         "=12e^{-\\frac{2t}{400 \\times 10^{-3}}}=12e^{-5t}V"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Reactance: Inductive & Capacitive"
       ],
       "crawled_at": "2026-09-19T23:07:13.934247"
     },
@@ -8903,14 +8782,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $e=-\\frac{d\\phi}{dt}=-\\frac{d(N\\vec{B}.\\vec{A})}{dt}$ \n<br/><br/> $=-N\\frac{d}{dt}(BAcos\\omega t)=NBA\\omega sin\\omega t$ \n<br/><br/> $\\Rightarrow e_{max}=NBA\\omega$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [
         "=-N\\frac{d}{dt}(BAcos\\omega t)=NBA\\omega sin\\omega t",
         "\\Rightarrow e_{max}=NBA\\omega"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:15.480272"
     },
@@ -8956,13 +8835,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Across resistor,  $I=\\frac{V}{R}=\\frac{100}{1000}=0.1A$ \n<br/><br/>At resonance, \n<br/><br/> $X_{L}=X_{C}=\\frac{1}{\\omega C}$ \n<br/><br/> $=\\frac{1}{200 \\times 2 \\times 10^{-6}}=2500$ \n<br/><br/>Voltage across  $L$  is \n<br/><br/> $IX_{L}=0.1 \\times 2500=250V$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{1}{200 \\times 2 \\times 10^{-6}}=2500"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
         "Series LCR Circuit & Impedance",
         "Resonance, Q-Factor & Bandwidth"
       ],
@@ -9010,13 +8888,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For maximum power,  $X_{L}=X_{C},$  which yields \n<br/><br/> $C=\\frac{1}{(2\\pi n)^{2}L}=\\frac{1}{4\\pi^{2} \\times 50 \\times 50 \\times 10}$ \n<br/><br/> $\\therefore$   $C=0.1 \\times 10^{-5}F=1\\mu F$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Resonance, Q-Factor & Bandwidth",
       "difficulty": "Easy",
       "key_formulas": [
         "C=0.1 \\times 10^{-5}F=1\\mu F"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Resonance, Q-Factor & Bandwidth"
       ],
       "crawled_at": "2026-09-19T23:07:15.491467"
     },
@@ -9062,13 +8940,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Power factor  $=cos\\phi=\\frac{R}{Z}=\\frac{12}{15}=\\frac{4}{5}=0.8$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Power in AC Circuits & Power Factor",
       "difficulty": "Easy",
       "key_formulas": [
         "=cos\\phi=\\frac{R}{Z}=\\frac{12}{15}=\\frac{4}{5}=0.8"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
         "Power in AC Circuits & Power Factor"
       ],
       "crawled_at": "2026-09-19T23:07:15.502007"
@@ -9168,11 +9045,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $D.C.$  ammeter measure average current in  $AC$  current, average current is zero for complete cycle. Hence reading will be zero.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "AC Fundamentals: Peak, RMS & Phase"
       ],
       "crawled_at": "2026-09-19T23:07:15.528218"
     },
@@ -9218,13 +9095,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since the phase difference between  $L$  &amp;  $C$  is  $\\pi,$ \n<br/><br/> $\\therefore$  net voltage difference across  $LC=50-50=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Circuit & Impedance",
       "difficulty": "Easy",
       "key_formulas": [
         "LC=50-50=0"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase",
         "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:15.545906"
@@ -9434,8 +9310,7 @@
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Circuit & Impedance"
       ],
       "crawled_at": "2026-09-19T23:07:15.582426"
     },

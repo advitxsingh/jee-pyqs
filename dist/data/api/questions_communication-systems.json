@@ -304,14 +304,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\rightarrow 10km$  over Earth's surface - Troposphere\n<br/><br/>\n $\\rightarrow 100km$  over Earth's surface - E-part of stratosphere\n<br/><br/>\n $\\rightarrow 300km$  over Earth's surface  $-F_{2}$ -part of thermosphere\n<br/><br/>\n $\\rightarrow$  65-75 km over Earth's surface - D-part of stratosphere<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "EM Wave Propagation & Space Communication",
+      "topic_tag": "Amplitude Modulation & Sideband Analysis",
       "difficulty": "Medium",
       "key_formulas": [
         "_{2}",
         "-F_{2}"
       ],
       "key_concepts": [
-        "EM Wave Propagation & Space Communication"
+        "Amplitude Modulation & Sideband Analysis"
       ],
       "crawled_at": "2026-09-20T15:50:45.116094"
     },
@@ -357,13 +357,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The minimum length of an antenna to efficiently radiate an electromagnetic wave is one quarter of the wavelength of the signal, which is commonly known as a quarter-wave antenna. \n<br/><br/>\nThis is because when the length of the antenna is equal to a quarter of the wavelength of the signal, the voltage and current at the feed point of the antenna are in phase, resulting in efficient radiation of the signal. An antenna that is shorter than a quarter wavelength will not efficiently couple with the signal, while an antenna that is longer than a quarter wavelength may have complex radiation patterns.\n<br/><br/>\nTherefore, the minimum length of an antenna to efficiently radiate an electromagnetic wave is  $\\frac{\\lambda}{4}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\lambda}{4}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:40.246536"
     },
@@ -462,14 +462,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The range (or distance to the horizon) for line-of-sight communication is given by the formula:</p>\n<p> $d=\\sqrt{2ℎR}$ ,</p>\n<p>where:</p>\n<ul>\n<li> $d$  is the range,</li>\n<li> $ℎ$  is the height of the antenna, and</li>\n<li> $R$  is the radius of the Earth.</li>\n</ul>\n<p>Given that  $ℎ=98\\text{m}=98 \\times 10^{-3}\\text{km}$  and  $R=6400\\text{km}$ , we can substitute these values into the formula to find  $d$ :</p>\n<p> $d=\\sqrt{2 \\times 98 \\times 10^{-3} \\times 6400} \\approx 35.42\\text{km}$ .</p>\n<p>The surface area  $A$  covered by the transmitting antenna is approximately a circle with radius equal to the range  $d$ . The area of a circle is given by the formula  $A=\\pi r^{2}$ , where  $r$  is the radius. Therefore, we can substitute  $d$  into this formula to find  $A$ :</p>\n<p> $A=\\pi d^{2}=\\pi(35.42)^{2} \\approx 3940\\text{km}^{2}$ .</p>\n<p>Therefore, the surface area covered by the transmitting antenna is approximately  $3940\\text{km}^{2}$ .</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Medium",
       "key_formulas": [
         "d=\\sqrt{2ℎR}",
         "3940\\text{km}^{2}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:42.172113"
     },
@@ -515,11 +515,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->FM broadcast range is 88MHz to 108MHz.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:43.232982"
     },
@@ -1096,7 +1096,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The range of transmission (R) of a TV tower (or any radio tower) depends on the height of the tower (h). This relationship is given by the formula:</p>\n<p> $R=\\sqrt{2ℎR_{E}}$ </p>\n<p>where  $R_{E}$  is the radius of the Earth. This formula comes from the geometry of the situation, considering the curvature of the Earth.</p>\n<p>Now, if the height of the tower is increased, this will increase the range of transmission. Specifically, because the height appears under the square root in the formula, the range of transmission is proportional to the square root of the height. So, if the height is multiplied by some factor, the range will be multiplied by the square root of that factor.</p>\n<p>In this case, the height of the tower is increased by 21%, which means the new height is  $ℎ_{2}=1.21ℎ_{1}$ . If we substitute this into the formula for the range, we get:</p>\n<p> $R_{2}=\\sqrt{2ℎ_{2}R_{E}}=\\sqrt{2(1.21ℎ_{1})R_{E}}=\\sqrt{1.21}\\sqrt{2ℎ_{1}R_{E}}=1.1R_{1}$ </p>\n<p>This shows that the new range is 1.1 times the original range, or in other words, the range has increased by 10%.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Medium",
       "key_formulas": [
         "R=\\sqrt{2ℎR_{E}}",
@@ -1104,7 +1104,7 @@
         "ℎ_{2}=1.21ℎ_{1}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:42.558405"
     },
@@ -1478,11 +1478,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Television signal  $\\Rightarrow$  6 MHz</p>\n<p>Radio signal  $\\Rightarrow$  2 MHz</p>\n<p>High Quality music  $\\Rightarrow$  20 kHz</p>\n<p>Human speech  $\\Rightarrow$  3 kHz</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "EM Wave Propagation & Space Communication",
+      "topic_tag": "Amplitude Modulation & Sideband Analysis",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "EM Wave Propagation & Space Communication"
+        "Amplitude Modulation & Sideband Analysis"
       ],
       "crawled_at": "2026-09-20T15:50:48.242486"
     },
@@ -1723,14 +1723,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Range  $R=\\sqrt{2ℎRe}$ </p>\n<p>Let the height be h' to double the range so</p>\n<p> $2R=\\sqrt{2ℎ^{'}Re}$ </p>\n<p>On solving h' = 4h</p>\n<p>h' = 500 m</p>\n<p>So  $\\Delta$ h = 375 m</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [
         "R=\\sqrt{2ℎRe}",
         "2R=\\sqrt{2ℎ^{'}Re}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:47.587326"
     },
@@ -1826,11 +1826,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Optical fibres supports frequency of electromagnetic waves in the range 10<sup>14</sup> Hz to 10<sup>15</sup> Hz.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:48.998205"
     },
@@ -1855,14 +1855,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that v = f $\\lambda$ </p>\n<p>Putting the values,</p>\n<p> $\\frac{3 \\times 10^{8}}{\\sqrt{6.25}}=f \\times 20 \\times 10^{-3}$ </p>\n<p> $\\Rightarrow f=6 \\times 10^{9}$  Hz</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{3 \\times 10^{8}}{\\sqrt{6.25}}=f \\times 20 \\times 10^{-3}",
         "\\Rightarrow f=6 \\times 10^{9}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:55.860392"
     },
@@ -2573,7 +2573,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks1wabo1/96d21ec6-1086-41d3-a919-cc6924970b6a/eed03010-f78e-11eb-92c1-6d24961c245f/file-1ks1wabo2.png"
       ],
-      "topic_tag": "EM Wave Propagation & Space Communication",
+      "topic_tag": "Amplitude Modulation & Sideband Analysis",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{a}{10}V",
@@ -2583,7 +2583,7 @@
         "\\Rightarrow \\frac{a}{b}=1"
       ],
       "key_concepts": [
-        "EM Wave Propagation & Space Communication"
+        "Amplitude Modulation & Sideband Analysis"
       ],
       "crawled_at": "2026-09-20T15:50:56.975714"
     },
@@ -3135,11 +3135,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->h : height of antenna<br/><br/> $\\lambda$  : wavelength of signal<br/><br/>h &lt;  $\\lambda$ <br/><br/> $\\lambda$  &gt; h<br/><br/> $\\lambda$  &gt; 400 m<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:49.095285"
     },
@@ -3331,7 +3331,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For calculation of Range from tower.<br/><br/> $d=\\sqrt{2Rℎ_{T}}+\\sqrt{2Rℎ_{R}}$ <br/><br/> $\\therefore$  h<sub>T</sub> = height of tower<br/><br/>&amp; h<sub>R</sub> = height of receiver<br/><br/> <b>For 1<sup>st</sup> case :</b> h<sub>T</sub> = 20m, h<sub>R</sub> = 0<br/><br/> $\\because$   $d_{1}=\\sqrt{2 \\times 6400 \\times 10^{3} \\times 20}$  = 16 km<br/><br/><b>For 2<sup>nd</sup> case :</b> h<sub>T</sub> = 20m, h<sub>R</sub> = 5m<br/><br/> $\\because$   $d_{2}=\\sqrt{2 \\times 6400 \\times 10^{3} \\times 20}+\\sqrt{2 \\times 6400 \\times 10^{3} \\times 5}$ <br/><br/>= 16 + 8 = 24 km<br/><br/> $\\therefore$  % change in range <br/><br/> $=\\frac{d_{2}-d_{1}}{d_{1}} \\times 100$ <br/><br/> $=\\frac{24-16}{16} \\times 100$ <br/><br/> $=\\frac{8}{16} \\times 100$  = 50%<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Hard",
       "key_formulas": [
         "d=\\sqrt{2Rℎ_{T}}+\\sqrt{2Rℎ_{R}}",
@@ -3341,7 +3341,7 @@
         "=\\frac{8}{16} \\times 100"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:57.041798"
     },
@@ -3525,11 +3525,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Wavelength of carrier waves in modern optical\nfiber communication is most widely used near\nabout 1500 nm.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:51.846608"
     },
@@ -3634,14 +3634,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Range of TV transmitting tower  $d=\\sqrt{2ℎR}$  where, h is the height of the transmission tower. When range is doubled,</p>\n<p> $\\therefore$   $2d=2\\sqrt{2ℎR}=\\sqrt{2(4ℎ)R}$ </p>\n<p>So, height must be multiplied with 4.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [
         "d=\\sqrt{2ℎR}",
         "2d=2\\sqrt{2ℎR}=\\sqrt{2(4ℎ)R}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:51.872924"
     },
@@ -3949,11 +3949,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Optical Fibre Communication – Infrared Light<br/><br/>\nRadar – Radio Waves<br/><br/>\nSonar – Ultrasound<br/><br/>\nMobile Phones – Microwaves<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:50.756747"
     },
@@ -4107,7 +4107,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, \n<br/><br/> $\\lambda$   =  800 nm\n<br/><br/> $\\therefore$   f =  $\\frac{3 \\times 10^{8}}{800 \\times 10^{-9}}$ \n<br/><br/>= 3.75  $\\times$  10<sup>14</sup>  Hz\n<br/><br/>Available  frequency for signal bandwith \n<br/><br/>= 1% of F\n<br/><br/>= 3.75  $\\times$  10<sup>14</sup>  $\\times$   $\\frac{1}{100}$ \n<br/><br/>= 3.75  $\\times$  10<sup>12</sup> Hz\n<br/><br/>One TV signal needs = 6 MHz band width\n<br/><br/> $\\therefore$   Total number of channel possible\n<br/><br/>=   $\\frac{3.75 \\times 10^{12}}{6 \\times 10^{6}}$ \n<br/><br/>= 6.25  $\\times$  10<sup>5</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -4118,7 +4118,7 @@
         "\\frac{1}{100}"
       ],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:52.538702"
     },
@@ -4856,11 +4856,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Optical fibres form a dielectric wave guide and are free from electromagnetic interference or radio frequency interference.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Amplitude Modulation & Sideband Analysis",
+      "topic_tag": "EM Wave Propagation & Space Communication",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Amplitude Modulation & Sideband Analysis"
+        "EM Wave Propagation & Space Communication"
       ],
       "crawled_at": "2026-09-20T15:50:55.331712"
     }

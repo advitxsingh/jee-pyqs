@@ -151,14 +151,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\int \\frac{dx}{(x+1)(x+2)} &amp; =\\int \\frac{(x+2)-(x+1)}{(x+1)(x+2)}dx \\\\ &amp; =\\int \\frac{1}{x+1}dx-\\int \\frac{1}{x+2}dx \\end{aligned}$ </p>\n<p> $=log|\\frac{x+1}{x+2}|+c$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\frac{dx}{(x+1)(x+2)}",
         "=log|\\frac{x+1}{x+2}|+c"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.148434"
     },
@@ -257,13 +257,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\because I &amp; =\\int \\frac{sinx}{3+4cos^{2}x}dx \\\\ &amp; =\\frac{sinx}{3[1+(\\frac{2cosx}{\\sqrt{3}})^{2}]^{2}}dx \\end{aligned}$ </p>\n<p>put  $t=\\frac{2cosx}{\\sqrt{3}}$ </p>\n<p> $\\begin{aligned} dt &amp; =\\frac{-2sinx}{\\sqrt{3}}dx \\\\ I &amp; =\\int -\\frac{\\sqrt{3}}{2(3t^{2}+3)}dt \\\\ &amp; =-\\frac{1}{2\\sqrt{3}}\\int \\frac{1}{1+t^{2}}dt \\\\ &amp; =-\\frac{1}{2\\sqrt{3}}tan^{-1}(t)+C \\\\ &amp; =\\frac{-1}{2\\sqrt{3}}tan^{-1}(\\frac{2cosx}{\\sqrt{3}})+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{sinx}{3+4cos^{2}x}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.416780"
     },
@@ -361,14 +361,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $I=\\int \\frac{sin(\\frac{5x}{2})}{sin(\\frac{x}{2})}dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int \\frac{2sin(\\frac{5x}{2})cos(\\frac{x}{2})}{sinx}dx=\\int \\frac{sin3x+sin2x}{sinx}dx \\\\ &amp; =\\int \\frac{(3sinx-4sin^{3}x)+2sinxcosx}{sinx}dx \\\\ &amp; =\\int (3-4sin^{2}x+2cosx)dx \\\\ &amp; =\\int (3-2(1-cos2x)+2cosx)dx \\\\ &amp; =\\int (3-2+2cos2x+2cosx)dx \\\\ &amp; =\\int (1+2cos2x+2cosx)dx \\\\ &amp; =x+sin2x+2sinx+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\frac{sin\\frac{3x}{2}}{sin\\frac{x}{2}}dx",
         "I=\\int \\frac{sin(\\frac{5x}{2})}{sin(\\frac{x}{2})}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.443197"
     },
@@ -414,13 +414,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int \\sqrt{5-2x+x^{2}}dx \\\\ I &amp; =\\int \\sqrt{(x-1)^{2}+(2)^{2}} \\end{aligned}$ </p>\n<p>We know that</p>\n<p> $\\begin{aligned} [ \\because \\int \\sqrt{x^{2}+a^{2}}= &amp; \\frac{x}{2}\\sqrt{x^{2}+a^{2}} \\\\ &amp; +\\frac{a^{2}}{2}log|x+\\sqrt{x^{2}+a^{2}}|] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{x-1}{2}\\sqrt{5-2x+x^{2}} \\\\ &amp; +2log|(x-1)+\\sqrt{5-2x+x^{2}}|+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\sqrt{5-2x+x^{2}}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.708151"
     },
@@ -572,13 +572,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx \\\\ &amp; I=\\int \\frac{(2cos^{2}x-1)-(2cos^{2}\\alpha-1)}{cosx-cos\\alpha}dx \\\\ &amp; I=2\\int \\frac{cos^{2}x-cos^{2}\\alpha}{cosx-cos\\alpha}dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =2\\int \\frac{(cosx-cos\\alpha)(cosx+cos\\alpha)}{(cosx-cos\\alpha)}dx \\\\ &amp; =2\\int (cosx+cos\\alpha)dx=2(sinx+xcos\\alpha)+c \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.736901"
     },
@@ -677,7 +677,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{x^{3}sin[tan^{-1}(x^{4})]}{1+x^{8}}$ </p>\n<p>Let  $tan^{-1}(x^{4})=t$ .</p>\n<p>On differentiating w.r.t.  $t$ , we get</p>\n<p> $\\begin{aligned} \\frac{1}{1+x^{8}} \\times 4x^{3}dx=dt \\\\ \\Rightarrow \\frac{x^{3}}{1+x^{8}}dx=\\frac{1}{4}dt \\\\ I=\\frac{1}{4}\\int sintdt \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =-\\frac{1}{4}cost+C \\\\ &amp; =-\\frac{1}{4}cos(tan^{-1}(x^{4}))+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{x^{3}sin(tan^{-1}(x^{4}))}{1+x^{8}}dx",
@@ -685,7 +685,7 @@
         "tan^{-1}(x^{4})=t"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:38.948360"
     },
@@ -839,13 +839,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int e^{x}(\\frac{1+sinx}{1+cosx})dx \\\\ &amp; =\\int e^{x}(\\frac{1+2sin\\frac{x}{2}cos\\frac{x}{2}}{2cos^{2}\\frac{x}{2}})dx \\\\ &amp; =\\int e^{x}[\\frac{sec^{2}\\frac{x}{2}}{2}+tan\\frac{x}{2}]dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Let}f(x)=tan\\frac{x}{2} \\\\ &amp; \\therefore f^{'}(x)=\\frac{sec^{2}\\frac{x}{2}}{2} \\end{aligned}$ </p>\n<p>Using the formula,  $\\int e^{x}[f(x)+f^{'}(x)]dx$ </p>\n<p> $\\begin{aligned} &amp; =e^{x}f(x)+C \\\\ \\Rightarrow I &amp; =e^{x} \\times tan\\frac{x}{2}+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Standard Integrals, Substitution & By Parts",
+      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int e^{x}[\\frac{1+sinx}{1+cosx}]dx"
       ],
       "key_concepts": [
-        "Standard Integrals, Substitution & By Parts"
+        "Partial Fractions & Special Algebraic Integrals"
       ],
       "crawled_at": "2026-09-20T15:26:38.974228"
     },
@@ -891,13 +891,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\int \\frac{1+x^{4}}{1+x^{6}}dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int \\frac{1+x^{4}}{1+x^{6}} \\times \\frac{1+x^{2}}{1+x^{2}}dx \\\\ &amp; =\\int \\frac{1+x^{2}+x^{4}+x^{6}}{(1+x^{6})}dx \\\\ &amp; =\\int \\frac{1+x^{6}}{(1+x^{6})1+x^{2}}dx+\\int \\frac{x^{2}(1+x^{2})}{(1+x^{6})(1+x^{2})}dx \\\\ &amp; =\\int \\frac{dx}{1+x^{2}}+\\int \\frac{x^{2}}{1+x^{6}}dx \\\\ &amp; =tan^{-1}x+\\int \\frac{x^{2}}{1+(x^{3})^{2}}dx \\\\ &amp; =tan^{-1}x+\\int \\frac{dt/3}{1+t^{2}} \\end{aligned}$ </p>\n<p>Put  $x^{3}=t$ </p>\n<p> $\\begin{aligned} \\Rightarrow 3x^{2}dx &amp; =dt \\\\ \\Rightarrow x^{2}dx &amp; =\\frac{dt}{3} \\\\ &amp; =tan^{-1}x+\\frac{1}{3}tan^{-1}(t)+C \\\\ &amp; =tan^{-1}x+\\frac{1}{3}tan^{-1}(x^{3})+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{1+x^{4}}{1+x^{6}}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:39.202563"
     },
@@ -995,13 +995,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx$ </p>\n<p> $\\begin{aligned} &amp; \\text{Let}\\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{A}{x-1}+\\frac{B}{x-2}+\\frac{C}{x-3} \\\\ &amp; \\Rightarrow (3x+1)=A(x-2)(x-3)+B(x-1)(x-3)+C(x-1)(x-2) \\\\ &amp; \\text{put}x-1=0 \\\\ &amp; \\Rightarrow x=1 \\\\ &amp; \\text{Then,}3 \\times 1+1=A(-1)(-2) \\\\ &amp; \\Rightarrow 4=2A \\\\ &amp; \\Rightarrow A=2 \\\\ &amp; \\text{Put}x-2=0 \\\\ &amp; \\Rightarrow x=2 \\\\ &amp; \\text{Then,}7=B(2-1)(2-3) \\\\ &amp; \\Rightarrow 7=B(1)(-1) \\\\ &amp; \\Rightarrow B=-7 \\\\ &amp; \\text{And put}x-3=0 \\\\ &amp; \\Rightarrow x=3 \\\\ &amp; \\text{Then,}10=C(3-1)(3-2) \\\\ &amp; \\Rightarrow 10=C(2)(1) \\\\ &amp; \\Rightarrow C=5 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{2}{x-1}-\\frac{7}{x-2}+\\frac{5}{x-3} \\\\ &amp; \\therefore \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ &amp; =\\int \\frac{2}{x-1}dx-\\int \\frac{7}{x-2}dx+\\int \\frac{5}{x-3}dx \\\\ &amp; \\Rightarrow \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ &amp; =2log|x-1|-7log|x-2|+5log|x-3|+C \\\\ &amp; =Alog|x-1|+Blog|x-2|+Clog|x-3|+C\\text{(Given)} \\\\ &amp; \\Rightarrow A=2,B=-7,C=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Medium",
       "key_formulas": [
         "\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dxAlog|x-1|Blog|x-2|+Clog|x-3|+C"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:39.223182"
     },
@@ -1047,7 +1047,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{dx}{\\sqrt{x}(x+1)}$ </p>\n<p>put  $\\sqrt{x}=t \\Rightarrow x=t^{2} \\Rightarrow dx=2tdt$ </p>\n<p> $\\begin{aligned} \\therefore I &amp; =\\int \\frac{2tdt}{t(t^{2}+1)}=2\\int \\frac{dt}{t^{2}+1}=2tan^{-1}t+c \\\\ &amp; =2tan^{-1}\\sqrt{x}+c(\\text{since,}t=\\sqrt{x}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\frac{1}{\\sqrt{x}+x\\sqrt{x}}dx=",
@@ -1055,7 +1055,7 @@
         "\\sqrt{x}=t \\Rightarrow x=t^{2} \\Rightarrow dx=2tdt"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:39.732450"
     },
@@ -1209,7 +1209,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the integral  $\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ , let's start with the given function:</p>\n<p> $I=\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ </p>\n<p>This can be rewritten as:</p>\n<p> $I=\\int e^{sinx} \\cdot (sinx+1)cosxdx$ </p>\n<p>To simplify, we perform a substitution. Let  $sinx=t$ . Then, the derivative is:</p>\n<p> $cosxdx=dt$ </p>\n<p>Substituting these into the integral, we get:</p>\n<p> $I=\\int e^{t}(t+1)dt$ </p>\n<p>We recognize that this integral can be solved using the formula:</p>\n<p> $\\int e^{x}{f(x)+f^{'}(x)}dx=e^{x}f(x)+C$ </p>\n<p>Applying this formula with  $f(x)=t$  and  $f^{'}(x)=1$ , we have:</p>\n<p> $I=te^{t}+C$ </p>\n<p>Substituting back  $t=sinx$ , we arrive at the solution:</p>\n<p> $I=sinx \\cdot e^{sinx}+C$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         "\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx",
@@ -1220,7 +1220,7 @@
         "I=\\int e^{t}(t+1)dt"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:40.202204"
     },
@@ -1266,7 +1266,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's evaluate the integral:</p>\n<p> $I=\\int \\frac{1}{1+e^{x}}dx$ </p>\n<p>First, rewrite the integrand:</p>\n<p> $I=\\int \\frac{e^{-x}}{e^{-x}+1}dx$ </p>\n<p>Now, use the substitution method. Let:</p>\n<p> $u=e^{-x}+1$ </p>\n<p>Differentiating both sides with respect to  $x$ , we get:</p>\n<p> $\\frac{du}{dx}=-e^{-x} \\Rightarrow -e^{-x}dx=du$ </p>\n<p>Substituting, the integral becomes:</p>\n<p> $I=-\\int \\frac{1}{u}du$ </p>\n<p>This integral simplifies to:</p>\n<p> $I=-log|u|+C$ </p>\n<p>Substitute back  $u=e^{-x}+1$ :</p>\n<p> $I=-log(e^{-x}+1)+C$ </p>\n<p>Using the properties of logarithms:</p>\n<p> $I=log(\\frac{1}{e^{-x}+1})+C$ </p>\n<p>Rewriting  $\\frac{1}{e^{-x}+1}$  in terms of  $e^{x}$ :</p>\n<p> $I=log(\\frac{e^{x}}{e^{x}+1})+C$ </p>\n<p>So, the final answer is:</p>\n<p> $I=log(\\frac{e^{x}}{e^{x}+1})+C$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Hard",
       "key_formulas": [
         "\\int \\frac{1}{1+e^{x}}dx",
@@ -1275,7 +1275,7 @@
         "u=e^{-x}+1"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:39.765778"
     },
@@ -1430,13 +1430,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int \\frac{x+3}{(x+4)^{2}}e^{x}dx \\\\ &amp; =\\int e^{x}[\\frac{x+4-1}{(x+4)^{2}}]dx \\\\ &amp; =\\int e^{x}[\\frac{1}{x+4}+\\frac{-1}{(x+4)^{2}}]dx \\\\ &amp; =\\int e^{x}\\frac{1}{x+4}dx+\\int e^{x}(\\frac{-1}{(x+4)^{2}})dx \\\\ &amp; =\\frac{1}{X+4}e^{x}-\\int e^{x} \\cdot (\\frac{-1}{(x+4)^{2}})dx+\\int e^{x}(-\\frac{1}{(x+4)^{2}})dx \\\\ &amp; =\\frac{e^{x}}{x+4}+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Partial Fractions & Special Algebraic Integrals",
+      "topic_tag": "Standard Integrals, Substitution & By Parts",
       "difficulty": "Easy",
       "key_formulas": [
         "\\int \\frac{(x+3)e^{x}}{(x+4)^{2}}dx"
       ],
       "key_concepts": [
-        "Partial Fractions & Special Algebraic Integrals"
+        "Standard Integrals, Substitution & By Parts"
       ],
       "crawled_at": "2026-09-20T15:26:40.229485"
     },

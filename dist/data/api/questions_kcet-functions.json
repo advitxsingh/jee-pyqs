@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the function</p>\n<p> $\\sqrt{\\frac{x-7}{9-x}}$ </p>\n<p>to be defined, the expression inside the square root must be greater than or equal to  $0$ .</p>\n<p>So,</p>\n<p> $\\frac{x-7}{9-x} \\ge 0$ </p>\n<p>Also, the denominator cannot be  $0$ , so</p>\n<p> $9-x \\ne 0$ </p>\n<p> $x \\ne 9$ </p>\n<p>Now check the sign of</p>\n<p> $\\frac{x-7}{9-x}$ </p>\n<p>The critical points are  $x=7$  and  $x=9$ .</p>\n<p>For  $x=7$ ,</p>\n<p> $\\frac{7-7}{9-7}=0$ </p>\n<p>This is allowed because  $\\sqrt{0}$  is defined.</p>\n<p>For values between  $7$  and  $9$ , take  $x=8$ :</p>\n<p> $\\frac{8-7}{9-8}=\\frac{1}{1}=1$ </p>\n<p>This is positive, so allowed.</p>\n<p>At  $x=9$ , the denominator becomes  $0$ , so it is not allowed.</p>\n<p>Hence the domain is</p>\n<p> $[7,9)$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option B}[7,9)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "\\sqrt{\\frac{x-7}{9-x}}",
@@ -111,7 +111,7 @@
         "\\frac{7-7}{9-7}=0"
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:26:32.211078"
     },
@@ -212,11 +212,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=\\frac{1}{\\sqrt{(x-2)(x-5)}} \\\\ &amp; \\Rightarrow (x-2)(x-5)&gt;0 \\\\ &amp; \\Rightarrow x \\in (-\\infty,2)∪(5,\\infty) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:26:32.225463"
     },
@@ -806,13 +806,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, function</p>\n<p> $f(x)=\\frac{1}{log_{10}(1-x)}+\\sqrt{x+2}$ </p>\n<p> $f(x)$  will be defined if,</p>\n<p> $\\begin{aligned} &amp; 1-x&gt;0, \\ne 1\\text{and}x+2 \\ge 0 \\\\ \\text{or} &amp; 1&gt;x,1-x \\ne 1\\text{and}x \\ge -2 \\\\ \\text{or} &amp; x&lt;1,x \\ne 0\\text{and}x \\ge -2 \\\\ \\Rightarrow &amp; x \\in [-2,0)∪(0,1) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{1}{log_{10}(1-x)}+\\sqrt{x+2}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:26:33.339428"
     },
@@ -911,13 +911,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given function,</p>\n<p> $f(x)=\\frac{x}{1-|x|}$ </p>\n<p> $\\because$  Denominator can't be zero.</p>\n<p> $\\begin{aligned} \\therefore &amp; 1-|x| \\ne 0 \\\\ \\Rightarrow &amp; |x| \\ne 1 \\\\ \\Rightarrow &amp; x \\ne \\pm 1 \\end{aligned}$ </p>\n<p>Hence, domain is  $R-{-1,1}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=\\frac{x}{1-|x|}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:26:33.469978"
     },
@@ -1226,13 +1226,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider,  $f(x)=x^{1/2} \\Rightarrow f^{'}(x)=\\frac{1}{2\\sqrt{x}}$ </p>\n<p> $\\begin{aligned} &amp; \\text{let}x=25,\\Delta x=-0.01 \\\\ &amp; \\text{Now,}f(x+\\Delta x)≅f(x)+\\Delta xf^{'}(x) \\\\ &amp; =x^{1/2}+\\Delta x \\cdot \\frac{1}{2\\sqrt{x}}=(25)^{1/2}+(-0.01) \\times \\frac{1}{2\\sqrt{25}} \\\\ &amp; =5-0.01 \\times \\frac{1}{10}=5-0.001=4.999 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
+      "topic_tag": "Domain, Range & Composite Functions",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=x^{1/2} \\Rightarrow f^{'}(x)=\\frac{1}{2\\sqrt{x}}"
       ],
       "key_concepts": [
-        "Injective (One-One), Surjective (Onto) & Inverse"
+        "Domain, Range & Composite Functions"
       ],
       "crawled_at": "2026-09-20T15:26:33.842948"
     },
@@ -1644,7 +1644,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We are given the function</p>\n<p> $f(x)=x-\\frac{1}{x}.$ </p>\n<p>To find  $f(-1),$  follow these steps:</p>\n<p><p>Substitute  $x=-1$  into the function:</p>\n<p> $f(-1)=(-1)-\\frac{1}{-1}.$ </p></p>\n<p><p>Simplify the fraction:</p>\n<p> $\\frac{1}{-1}=-1.$ </p></p>\n<p><p>Substitute back into the equation:</p>\n<p> $f(-1)=(-1)-(-1)=-1+1=0.$ </p></p>\n<p>Thus,  $f(-1)=0.$ </p>\n<p>The correct answer is Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Domain, Range & Composite Functions",
+      "topic_tag": "Injective (One-One), Surjective (Onto) & Inverse",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x-\\frac{1}{x}",
@@ -1655,7 +1655,7 @@
         "f(-1)=(-1)-(-1)=-1+1=0."
       ],
       "key_concepts": [
-        "Domain, Range & Composite Functions"
+        "Injective (One-One), Surjective (Onto) & Inverse"
       ],
       "crawled_at": "2026-09-20T15:26:33.878283"
     },

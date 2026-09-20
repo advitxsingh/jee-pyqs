@@ -8,89 +8,87 @@
     "total_questions_site": 22,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:42:55.709936"
+    "analyzed_at": "2026-09-20T17:11:45.057207"
   },
   "concepts": [
     {
-      "id": 1565,
-      "chapter_slug": "kcet-inverse-trigonometric-functions",
-      "name": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
-      "category": "Quantitative Analysis",
-      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Inverse Trigonometric Functions.",
-      "standard_formulas": "cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k",
-      "exam_frequency": 15,
-      "frequency_tier": "Very High",
-      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
-      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
-      "pyq_ids": [
-        8782,
-        8789,
-        8793,
-        8798,
-        8803,
-        8805,
-        8812,
-        8814,
-        8819,
-        8821,
-        8825,
-        8827,
-        8828,
-        8829,
-        8830
-      ]
-    },
-    {
-      "id": 1566,
+      "id": 2033,
       "chapter_slug": "kcet-inverse-trigonometric-functions",
       "name": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
       "category": "Core Principle",
       "summary": "Fundamental definitions, core postulates, and governing physical/chemical relations in Inverse Trigonometric Functions.",
-      "standard_formulas": "cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}], \\quad cos^{-1}x+sin^{-1}y, \\quad 2sin^{-1}x+3cos^{-1}x",
-      "exam_frequency": 4,
-      "frequency_tier": "Moderate",
+      "standard_formulas": "f(x)=cos^{-1}\\sqrt{x-1}, \\quad f^{'}(\\sqrt{3}), \\quad sec^{-1}x",
+      "exam_frequency": 15,
+      "frequency_tier": "Very High",
       "common_traps": "Carefully verify units, standard reference states, and sign conventions in Inverse Trigonometric Functions.",
       "tips_and_tricks": "Focus on high-yield formulas and standard limiting approximations tested in Inverse Trigonometric Functions PYQs.",
       "pyq_ids": [
+        8782,
+        8784,
         8786,
+        8793,
         8801,
+        8808,
         8810,
-        8827
+        8812,
+        8814,
+        8817,
+        8821,
+        8825,
+        8826,
+        8827,
+        8829
       ]
     },
     {
-      "id": 1567,
+      "id": 2034,
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "name": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "category": "Quantitative Analysis",
+      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Inverse Trigonometric Functions.",
+      "standard_formulas": "sin^{-1}x, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]",
+      "exam_frequency": 8,
+      "frequency_tier": "High",
+      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
+      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
+      "pyq_ids": [
+        8789,
+        8798,
+        8803,
+        8805,
+        8819,
+        8827,
+        8828,
+        8830
+      ]
+    },
+    {
+      "id": 2035,
       "chapter_slug": "kcet-inverse-trigonometric-functions",
       "name": "Inverse Trigonometric Functions — Applied Cases, Reactions & Traps",
       "category": "Applied Topics",
       "summary": "Special cases, experimental observations, and conceptual traps designed to test deep understanding of Inverse Trigonometric Functions.",
-      "standard_formulas": "a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b, \\quad cos^{-1}[x], \\quad y=cos^{-1}[x]",
-      "exam_frequency": 4,
-      "frequency_tier": "Moderate",
+      "standard_formulas": "",
+      "exam_frequency": 0,
+      "frequency_tier": "Standard",
       "common_traps": "Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.",
       "tips_and_tricks": "Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.",
-      "pyq_ids": [
-        8784,
-        8808,
-        8817,
-        8826
-      ]
+      "pyq_ids": []
     }
   ],
   "synthesis": {
     "id": 72,
     "chapter_slug": "kcet-inverse-trigonometric-functions",
-    "title": "Inverse Trigonometric Functions 2026 2 questions 3.33% weightage Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Inverse Trigonometric Functions 2026 2 questions 3.33% weightage — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 22 Previous Year Questions Analyzed (22 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **22** authentic KCET problems.\n- **Question Format Breakdown**: **22 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes | **15 PYQs** | Quantitative Analysis |\n| **Moderate** | Inverse Trigonometric Functions — Core Principles & Governing Laws | **4 PYQs** | Core Principle |\n| **Moderate** | Inverse Trigonometric Functions — Applied Cases, Reactions & Traps | **4 PYQs** | Applied Topics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **15 PYQs** (Very High Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\ncos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\dots+tan^{-1}(\\frac{1}{1+n(n+1)})=$...\"* — **Correct Answer: A**\n- **[2025 Shift] Q#4 (MCQ)**: *\"$2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ is valid for all values of ' $x$ ' satisfying...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#1 (MCQ)**: *\"Let $f:R \\rightarrow R$ be given $f(x)=tanx$ . Then, $f^{-1}(1)$ is...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"If $cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi$ , then $x(y+z)+y(z+x)+z(x+y)$ equals to...\"* — **Correct Answer: N/A**\n\n### 2.2 Inverse Trigonometric Functions — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\ncos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}], \\quad cos^{-1}x+sin^{-1}y, \\quad 2sin^{-1}x+3cos^{-1}x\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Inverse Trigonometric Functions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Inverse Trigonometric Functions PYQs.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#3 (MCQ)**: *\"$sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)=$...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#3 (MCQ)**: *\"If $2sin^{-1}x-3cos^{-1}x=4,x \\in [-1,1]$ , then $2sin^{-1}x+3cos^{-1}x$ is equal to...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#3 (MCQ)**: *\"$cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}]$ is equal to...\"* — **Correct Answer: N/A**\n- **[2018 Shift] Q#3 (MCQ)**: *\"If $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ , then $cos^{-1}x+sin^{-1}y$ is...\"* — **Correct Answer: N/A**\n\n### 2.3 Inverse Trigonometric Functions — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\na+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b, \\quad cos^{-1}[x], \\quad y=cos^{-1}[x]\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#2 (MCQ)**: *\"If $sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}$ , then $x^{2}$ is equal to...\"* — **Correct Answer: A**\n- **[2022 Shift] Q#2 (MCQ)**: *\"Domain $cos^{-1}[x]$ is, where [ ] denotes a greatest integer function...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#2 (MCQ)**: *\"The domain of the function defined by $f(x)=cos^{-1}\\sqrt{x-1}$ is...\"* — **Correct Answer: N/A**\n- **[2019 Shift] Q#2 (MCQ)**: *\"If $a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b$ then ' $a$ ' and ' $b$ ' are respectively....\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Inverse Trigonometric Functions 2026 2 questions 3.33% weightage — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 22 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes** | $cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k$ | Standard SI units apply |\n| **Inverse Trigonometric Functions — Core Principles & Governing Laws** | $cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}], \\quad cos^{-1}x+sin^{-1}y, \\quad 2sin^{-1}x+3cos^{-1}x$ | Standard SI units apply |\n| **Inverse Trigonometric Functions — Applied Cases, Reactions & Traps** | $a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b, \\quad cos^{-1}[x], \\quad y=cos^{-1}[x]$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Inverse Trigonometric Functions 2026 2 questions 3.33% weightage\nBased on rigorous analysis of all 22 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Inverse Trigonometric Functions 2026 2 questions 3.33% weightage\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Inverse Trigonometric Functions Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Inverse Trigonometric Functions — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: KCET (2017 – 2026)  \n**Empirical Dataset**: 22 Previous Year Questions Analyzed (22 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **22** authentic KCET problems.\n- **Question Format Breakdown**: **22 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Inverse Trigonometric Functions — Core Principles & Governing Laws | **15 PYQs** | Core Principle |\n| **High** | Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes | **8 PYQs** | Quantitative Analysis |\n| **Standard** | Inverse Trigonometric Functions — Applied Cases, Reactions & Traps | **0 PYQs** | Applied Topics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Inverse Trigonometric Functions — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **15 PYQs** (Very High Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\nf(x)=cos^{-1}\\sqrt{x-1}, \\quad f^{'}(\\sqrt{3}), \\quad sec^{-1}x\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Inverse Trigonometric Functions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Inverse Trigonometric Functions PYQs.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\dots+tan^{-1}(\\frac{1}{1+n(n+1)})=$...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"If $sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}$ , then $x^{2}$ is equal to...\"* — **Correct Answer: A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"$sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)=$...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#1 (MCQ)**: *\"Let $f:R \\rightarrow R$ be given $f(x)=tanx$ . Then, $f^{-1}(1)$ is...\"* — **Correct Answer: N/A**\n\n### 2.2 Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\nsin^{-1}x, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#4 (MCQ)**: *\"$2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ is valid for all values of ' $x$ ' satisfying...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"If $cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi$ , then $x(y+z)+y(z+x)+z(x+y)$ equals to...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#1 (MCQ)**: *\"The value of $cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]$ , where $x \\in (0,\\frac{\\pi}{4})$ is...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#4 (MCQ)**: *\"If $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$ where $a,x \\in (0,1)$ , then the value of $...\"* — **Correct Answer: N/A**\n\n### 2.3 Inverse Trigonometric Functions — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **0 PYQs** (Standard Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Inverse Trigonometric Functions.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"$tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\dots+tan^{-1}(\\frac{1}{1+n(n+1)})=$...\"* — **Correct Answer: A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"If $sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}$ , then $x^{2}$ is equal to...\"* — **Correct Answer: A**\n",
+    "formula_sheet_markdown": "# Inverse Trigonometric Functions — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 22 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Inverse Trigonometric Functions — Core Principles & Governing Laws** | $f(x)=cos^{-1}\\sqrt{x-1}, \\quad f^{'}(\\sqrt{3}), \\quad sec^{-1}x$ | Standard SI units apply |\n| **Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes** | $sin^{-1}x, \\quad cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3}), \\quad cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Inverse Trigonometric Functions\nBased on rigorous analysis of all 22 questions from 2017 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Inverse Trigonometric Functions\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       8782,
-      8784,
-      8801
+      8789
     ],
-    "updated_at": "2026-09-20T16:42:55.696034"
+    "updated_at": "2026-09-20T17:11:45.042921"
   },
   "total_questions": 22,
   "has_docx": true,

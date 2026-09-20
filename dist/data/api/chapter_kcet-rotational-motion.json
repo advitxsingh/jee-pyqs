@@ -8,68 +8,65 @@
     "total_questions_site": 13,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:44:53.262329"
+    "analyzed_at": "2026-09-20T17:13:42.367394"
   },
   "concepts": [
     {
-      "id": 1761,
-      "chapter_slug": "kcet-rotational-motion",
-      "name": "Moment of Inertia & Parallel/Perpendicular Axes Theorems",
-      "category": "Inertia",
-      "summary": "Calculation of rotational inertia, radius of gyration $k = \\sqrt{I/M}$, and axes shift theorems.",
-      "standard_formulas": "I = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})",
-      "exam_frequency": 12,
-      "frequency_tier": "High",
-      "common_traps": "Perpendicular axis theorem $I_z = I_x + I_y$ is strictly valid ONLY for 2D laminar (flat) objects lying in the xy-plane.",
-      "tips_and_tricks": "Solid sphere $I_{\\text{cm}} = \\frac{2}{5}MR^2$; hollow spherical shell $I_{\\text{cm}} = \\frac{2}{3}MR^2$; circular disc $I_{\\text{cm}} = \\frac{1}{2}MR^2$.",
-      "pyq_ids": [
-        10491,
-        10495,
-        10497,
-        10501,
-        10505,
-        10508,
-        10510,
-        10512,
-        10515,
-        10517,
-        10519,
-        10522
-      ]
-    },
-    {
-      "id": 1762,
+      "id": 2229,
       "chapter_slug": "kcet-rotational-motion",
       "name": "Torque, Angular Momentum & Pure Rolling",
       "category": "Dynamics & Rolling",
       "summary": "Rotational analogue of Newton's second law, conservation of angular momentum, and rolling down an incline.",
       "standard_formulas": "\\vec{\\tau} = I\\vec{\\alpha} = \\frac{d\\vec{L}}{dt}, \\quad K_{\\text{roll}} = \\frac{1}{2}Mv_{\\text{cm}}^2\\left(1 + \\frac{k^2}{R^2}\\right), \\quad a = \\frac{g\\sin\\theta}{1 + k^2/R^2}",
-      "exam_frequency": 5,
-      "frequency_tier": "Moderate",
+      "exam_frequency": 8,
+      "frequency_tier": "High",
       "common_traps": "On an incline, the body with the smallest $k^2/R^2$ reaches the bottom first (Solid Sphere > Solid Cylinder > Hollow Sphere > Ring).",
       "tips_and_tricks": "In pure rolling on a flat surface, the instantaneous axis of rotation passes through the contact point ($v_{\\text{contact}} = 0$).",
       "pyq_ids": [
         10491,
         10493,
         10495,
-        10512,
+        10497,
+        10501,
+        10510,
+        10515,
         10519
+      ]
+    },
+    {
+      "id": 2230,
+      "chapter_slug": "kcet-rotational-motion",
+      "name": "Moment of Inertia & Parallel/Perpendicular Axes Theorems",
+      "category": "Inertia",
+      "summary": "Calculation of rotational inertia, radius of gyration $k = \\sqrt{I/M}$, and axes shift theorems.",
+      "standard_formulas": "I = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})",
+      "exam_frequency": 6,
+      "frequency_tier": "Moderate",
+      "common_traps": "Perpendicular axis theorem $I_z = I_x + I_y$ is strictly valid ONLY for 2D laminar (flat) objects lying in the xy-plane.",
+      "tips_and_tricks": "Solid sphere $I_{\\text{cm}} = \\frac{2}{5}MR^2$; hollow spherical shell $I_{\\text{cm}} = \\frac{2}{3}MR^2$; circular disc $I_{\\text{cm}} = \\frac{1}{2}MR^2$.",
+      "pyq_ids": [
+        10495,
+        10505,
+        10508,
+        10512,
+        10517,
+        10522
       ]
     }
   ],
   "synthesis": {
     "id": 112,
     "chapter_slug": "kcet-rotational-motion",
-    "title": "Rotational Motion 2026 2 questions 3.33% weightage ↑99.4% Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Rotational Motion 2026 2 questions 3.33% weightage ↑99.4% — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2018 – 2026)  \n**Empirical Dataset**: 13 Previous Year Questions Analyzed (13 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **13** authentic KCET problems.\n- **Question Format Breakdown**: **13 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2018 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Moment of Inertia & Parallel/Perpendicular Axes Theorems | **12 PYQs** | Inertia |\n| **Moderate** | Torque, Angular Momentum & Pure Rolling | **5 PYQs** | Dynamics & Rolling |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Moment of Inertia & Parallel/Perpendicular Axes Theorems (Inertia)\n- **Exam Weightage**: Tested in **12 PYQs** (High Yield)\n- **Conceptual Summary**: Calculation of rotational inertia, radius of gyration $k = \\sqrt{I/M}$, and axes shift theorems.\n\n#### Standard Mathematical Formulation\n$$\nI = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Perpendicular axis theorem $I_z = I_x + I_y$ is strictly valid ONLY for 2D laminar (flat) objects lying in the xy-plane.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Solid sphere $I_{\\text{cm}} = \\frac{2}{5}MR^2$; hollow spherical shell $I_{\\text{cm}} = \\frac{2}{3}MR^2$; circular disc $I_{\\text{cm}} = \\frac{1}{2}MR^2$.\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"If the earth were to suddenly contract to half of its present radius, what would be the duration of the day?...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_{1}=4kgm^{2},r_{1}=20cm$ , $I_{2}=20kgm^{2}$ and $r_{2}=30cm$...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#1 (MCQ)**: *\"A body of mass 1 kg is suspended by a weightless string which passes over a frictionless pulley of mass 2 kg as shown in the figure. The mas...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#4 (MCQ)**: *\"A ceiling fan is rotating around a fixed axle as shown. The direction of angular velocity is along .......... ....\"* — **Correct Answer: N/A**\n\n### 2.2 Torque, Angular Momentum & Pure Rolling (Dynamics & Rolling)\n- **Exam Weightage**: Tested in **5 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Rotational analogue of Newton's second law, conservation of angular momentum, and rolling down an incline.\n\n#### Standard Mathematical Formulation\n$$\n\\vec{\\tau} = I\\vec{\\alpha} = \\frac{d\\vec{L}}{dt}, \\quad K_{\\text{roll}} = \\frac{1}{2}Mv_{\\text{cm}}^2\\left(1 + \\frac{k^2}{R^2}\\right), \\quad a = \\frac{g\\sin\\theta}{1 + k^2/R^2}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: On an incline, the body with the smallest $k^2/R^2$ reaches the bottom first (Solid Sphere > Solid Cylinder > Hollow Sphere > Ring).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: In pure rolling on a flat surface, the instantaneous axis of rotation passes through the contact point ($v_{\\text{contact}} = 0$).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"If the earth were to suddenly contract to half of its present radius, what would be the duration of the day?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"The angular momentum of a moving body remains constant, if...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_{1}=4kgm^{2},r_{1}=20cm$ , $I_{2}=20kgm^{2}$ and $r_{2}=30cm$...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"In figure $E$ and $v_{cm}$ represent the total energy and speed of centre of mass of an object of mass $1kg$ in pure rolling. The object is...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Rotational Motion 2026 2 questions 3.33% weightage ↑99.4% — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 13 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Moment of Inertia & Parallel/Perpendicular Axes Theorems** | $I = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})$ | Standard SI units apply |\n| **Torque, Angular Momentum & Pure Rolling** | $\\vec{\\tau} = I\\vec{\\alpha} = \\frac{d\\vec{L}}{dt}, \\quad K_{\\text{roll}} = \\frac{1}{2}Mv_{\\text{cm}}^2\\left(1 + \\frac{k^2}{R^2}\\right), \\quad a = \\frac{g\\sin\\theta}{1 + k^2/R^2}$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Rotational Motion 2026 2 questions 3.33% weightage ↑99.4%\nBased on rigorous analysis of all 13 questions from 2018 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Rotational Motion 2026 2 questions 3.33% weightage ↑99.4%\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "title": "Rotational Motion Concept & PYQ Master Synthesis",
+    "summary_markdown": "# Rotational Motion — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2018 – 2026)  \n**Empirical Dataset**: 13 Previous Year Questions Analyzed (13 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **13** authentic KCET problems.\n- **Question Format Breakdown**: **13 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2018 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Torque, Angular Momentum & Pure Rolling | **8 PYQs** | Dynamics & Rolling |\n| **Moderate** | Moment of Inertia & Parallel/Perpendicular Axes Theorems | **6 PYQs** | Inertia |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Torque, Angular Momentum & Pure Rolling (Dynamics & Rolling)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: Rotational analogue of Newton's second law, conservation of angular momentum, and rolling down an incline.\n\n#### Standard Mathematical Formulation\n$$\n\\vec{\\tau} = I\\vec{\\alpha} = \\frac{d\\vec{L}}{dt}, \\quad K_{\\text{roll}} = \\frac{1}{2}Mv_{\\text{cm}}^2\\left(1 + \\frac{k^2}{R^2}\\right), \\quad a = \\frac{g\\sin\\theta}{1 + k^2/R^2}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: On an incline, the body with the smallest $k^2/R^2$ reaches the bottom first (Solid Sphere > Solid Cylinder > Hollow Sphere > Ring).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: In pure rolling on a flat surface, the instantaneous axis of rotation passes through the contact point ($v_{\\text{contact}} = 0$).\n\n#### Linked Representative PYQs:\n- **[2026 Shift] Q#1 (MCQ)**: *\"If the earth were to suddenly contract to half of its present radius, what would be the duration of the day?...\"* — **Correct Answer: N/A**\n- **[2026 Shift] Q#2 (MCQ)**: *\"The angular momentum of a moving body remains constant, if...\"* — **Correct Answer: N/A**\n- **[2025 Shift] Q#3 (MCQ)**: *\"Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_{1}=4kgm^{2},r_{1}=20cm$ , $I_{2}=20kgm^{2}$ and $r_{2}=30cm$...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#1 (MCQ)**: *\"A body of mass 1 kg is suspended by a weightless string which passes over a frictionless pulley of mass 2 kg as shown in the figure. The mas...\"* — **Correct Answer: N/A**\n\n### 2.2 Moment of Inertia & Parallel/Perpendicular Axes Theorems (Inertia)\n- **Exam Weightage**: Tested in **6 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Calculation of rotational inertia, radius of gyration $k = \\sqrt{I/M}$, and axes shift theorems.\n\n#### Standard Mathematical Formulation\n$$\nI = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Perpendicular axis theorem $I_z = I_x + I_y$ is strictly valid ONLY for 2D laminar (flat) objects lying in the xy-plane.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Solid sphere $I_{\\text{cm}} = \\frac{2}{5}MR^2$; hollow spherical shell $I_{\\text{cm}} = \\frac{2}{3}MR^2$; circular disc $I_{\\text{cm}} = \\frac{1}{2}MR^2$.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#3 (MCQ)**: *\"Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_{1}=4kgm^{2},r_{1}=20cm$ , $I_{2}=20kgm^{2}$ and $r_{2}=30cm$...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#2 (MCQ)**: *\"The moment of inertia of a rigid body about an axis...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"Seven identical discs are arranged in a planar pattern, so as to touch each other as shown in the figure. Each disc has mass $m$ radius $R$ ...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"In figure $E$ and $v_{cm}$ represent the total energy and speed of centre of mass of an object of mass $1kg$ in pure rolling. The object is...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Rotational Motion — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 13 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Torque, Angular Momentum & Pure Rolling** | $\\vec{\\tau} = I\\vec{\\alpha} = \\frac{d\\vec{L}}{dt}, \\quad K_{\\text{roll}} = \\frac{1}{2}Mv_{\\text{cm}}^2\\left(1 + \\frac{k^2}{R^2}\\right), \\quad a = \\frac{g\\sin\\theta}{1 + k^2/R^2}$ | Standard SI units apply |\n| **Moment of Inertia & Parallel/Perpendicular Axes Theorems** | $I = \\int r^2 dm, \\quad I = I_{\\text{cm}} + Md^2, \\quad I_z = I_x + I_y \\quad (\\text{laminar planar bodies})$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Rotational Motion\nBased on rigorous analysis of all 13 questions from 2018 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Rotational Motion\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       10491,
-      10493
+      10495
     ],
-    "updated_at": "2026-09-20T16:44:53.248767"
+    "updated_at": "2026-09-20T17:13:42.354907"
   },
   "total_questions": 13,
   "has_docx": true,

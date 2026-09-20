@@ -156,13 +156,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbv3jwl/82e4755c-41e3-4292-a7b7-d8d807e8271e/3d18d260-51b6-11f0-a812-7314eec6f461/file-jaoe38c1mcbv3jwm.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "x+6y=5"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:27:10.564579"
     },
@@ -373,11 +373,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given vertices of triangle are  $(-2,6),(3,-6)$  and  $(1,5)$ .</p>\n<p>Area of triangle  $=\\frac{1}{2}|\\begin{aligned} x_{1} &amp; y_{1} &amp; 1 \\\\ x_{2} &amp; y_{2} &amp; 1 \\\\ x_{3} &amp; y_{3} &amp; 1 \\end{aligned}|$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{1}{2}|\\begin{aligned} -2 &amp; 6 &amp; 1 \\\\ 3 &amp; -6 &amp; 1 \\\\ 1 &amp; 5 &amp; 1 \\end{aligned}|=\\frac{1}{2}|\\begin{aligned} -5 &amp; 12 &amp; 0 \\\\ 2 &amp; -11 &amp; 0 \\\\ 1 &amp; 5 &amp; 1 \\end{aligned}| \\\\ &amp; [R_{1}↔R_{1}-R_{2},R_{2}↔R_{2}-R_{3}] \\\\ &amp; =\\frac{1}{2}[1(55-24)]=\\frac{31}{2}=15.5\\text{sq. units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:27:10.923776"
     },
@@ -533,11 +533,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of line which cuts off equal intercepts on co-ordinate axes,</p>\n<p> $\\begin{aligned} x+y=a \\Rightarrow y=-x+a \\\\ \\text{Here,}tan\\theta=-1=tan135^{\\circ} \\Rightarrow \\theta=135^{\\circ} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:27:11.071726"
     },
@@ -583,14 +583,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the equation of a line parallel to the given line  $3x-4y+2=0$  that passes through the point  $(-2,3)$ , follow these steps:</p>\n<p><p><strong>Identify the form of the parallel line:</strong></p>\n<p>A line parallel to  $3x-4y+2=0$  will have the same coefficients for  $x$  and  $y$ . Thus, the equation of the line we are looking for can be written as:</p>\n<p> $3x-4y=\\lambda$ </p></p>\n<p><p><strong>Determine  $\\lambda$  using the given point:</strong></p>\n<p>Since the line passes through the point  $(-2,3)$ , substitute these coordinates into the equation:</p>\n<p> $3(-2)-4(3)=\\lambda$ </p>\n<p>Calculate  $\\lambda$ :</p>\n<p> $-6-12=\\lambda⟹\\lambda=-18$ </p></p>\n<p><p><strong>Write the equation of the line:</strong></p>\n<p>Substitute  $\\lambda=-18$  back into the equation of the line:</p>\n<p> $3x-4y=-18$ </p></p>\n<p><p><strong>Express the equation in standard form:</strong></p>\n<p>Rewrite the equation as:</p>\n<p> $3x-4y+18=0$ </p></p>\n<p>Therefore, the equation of the line parallel to the given line and passing through the point  $(-2,3)$  is  $3x-4y+18=0$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "3x-4y+2=0",
         "3x-4y+18=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:27:11.086243"
     },
@@ -636,7 +636,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the line equation:</p>\n<p> $y=3x-1$ </p>\n<p>The slope of this line is  $3$ .</p>\n<p>To find the equation of a line perpendicular to this, we need the negative reciprocal of the given line's slope. Thus, the slope of the perpendicular line is:</p>\n<p> $-\\frac{1}{3}$ </p>\n<p>The equation of a line with this slope that passes through the point  $(1,2)$  can be set up using the point-slope form:</p>\n<p> $y-2=-\\frac{1}{3}(x-1)$ </p>\n<p>Expanding this equation, we get:</p>\n<p> $3(y-2)=-(x-1)$ </p>\n<p>Which simplifies to:</p>\n<p> $3y-6=-x+1$ </p>\n<p>Rearranging terms, we arrive at:</p>\n<p> $x+3y-7=0$ </p>\n<p>This is the equation of the line that passes through the point  $(1,2)$  and is perpendicular to  $y=3x-1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "y=3x-1",
@@ -647,7 +647,7 @@
         "x+3y-7=0"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:27:11.115826"
     }

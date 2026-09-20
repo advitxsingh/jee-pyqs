@@ -397,7 +397,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the final length of the composite rod, we need to calculate the expansion of both the aluminium and steel sections individually and then add them to the original length.</p>\n<p>Total Initial Length  $(L_{1})$  is 120 cm at  $30^{\\circ}C$ .</p>\n<p>Since both rods have the same length, the initial length of each rod is,  $L_{Al}=\\frac{120}{2}=60cm$  and  $L_{St}=\\frac{120}{2}=$  60 cm .</p>\n<p>The change in temperature is,</p>\n<p> $\\Delta T=T_{\\text{final}}-T_{\\text{initial}}=100^{\\circ}C-30^{\\circ}C=70^{\\circ}C$ </p>\n<p>Coefficients of linear expansion (  $\\alpha$  ) for aluminium is  $\\alpha_{Al}=24 \\times 10^{-6}/^{\\circ}C$  and that for steel is  $\\alpha_{St}=1.2 \\times 10^{-5}/^{\\circ}C=12 \\times 10^{-6}/^{\\circ}C$ .</p>\n<p>The linear expansion is  $\\Delta L=L_{\\text{initial}} \\cdot \\alpha \\cdot \\Delta T$ </p>\n<p>For Aluminium :</p>\n<p> $\\Delta L_{Al}=60 \\times (24 \\times 10^{-6}) \\times 70$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{Al}=60 \\times 70 \\times 24 \\times 10^{-6}$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{Al}=4200 \\times 24 \\times 10^{-6}=100800 \\times 10^{-6}=0.1008cm$ </p>\n<p>For Steel :</p>\n<p> $\\Delta L_{St}=60 \\times (12 \\times 10^{-6}) \\times 70$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{St}=4200 \\times 12 \\times 10^{-6}=50400 \\times 10^{-6}=0.0504cm$ </p>\n<p>The total change in length (  $\\Delta L_{\\text{total}}$  ) is :</p>\n<p> $\\Delta L_{\\text{total}}=\\Delta L_{Al}+\\Delta L_{St}$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{\\text{total}}=0.1008+0.0504=0.1512cm$ </p>\n<p>So, the final length of the rod is :</p>\n<p> $L_{final}=120+0.1512=120.1512cm$ </p>\n<p> $\\Rightarrow$   $L_{final} \\approx 120.15cm$ </p>\n<p>Therefore, the final length of the combination is 120.15 cm . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "30^{\\circ}C",
@@ -408,7 +408,7 @@
         "(L_{1})"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:13.493734"
     },
@@ -471,7 +471,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlncuisv/cc2290da-2825-4eca-97f9-69f7a39285ce/37d713f0-0a36-11f1-bd6f-a77e3b4a8273/file-6y3zli1mlncuisw.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Hard",
       "key_formulas": [
         "____",
@@ -482,7 +482,6 @@
         "F_{v}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
         "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:58.398513"
@@ -531,7 +530,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo2p4gfz/3e345f22-2fce-4603-9aae-09f88cf38c85/6a28d400-3a3e-11f1-9578-51f4f7636b79/file-6y3zli1mo2p4gg0.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{2}",
@@ -542,7 +541,6 @@
         "F_{b}=\\frac{4}{3}\\pi r^{3}\\sigma g"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
         "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:06.531624"
@@ -1127,7 +1125,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For an incompressible fluid, the volume of fluid entering a pipe per unit time must equal the volume of fluid leaving the pipe per unit time.</p>\n<p>Volume Flow Rate (In) = Volume Flow Rate (Out)</p>\n<p> $A_{1}v_{1}=A_{2}v_{2}$ </p>\n<p>Where A is the area and v is the velocity of the fluid.</p>\n<p>The area of hose is  $A_{1}=30cm^{2}=30 \\times 10^{-4}m^{2}$ .</p>\n<p>The speed in hose is  $v_{1}=50cm/s=0.5m/s$ .</p>\n<p>Number of perforations is  $n=10$ .</p>\n<p>The area of one perforation is  $a=15mm^{2}=15 \\times (10^{-3}m)^{2}=15 \\times 10^{-6}m^{2}$ </p>\n<p>So, total area of exit is,  $A_{2}=n \\times a=10 \\times 15 \\times 10^{-6}=150 \\times 10^{-6}m^{2}$ </p>\n<p>Using the equation of continuity:</p>\n<p> $A_{1}v_{1}=A_{2}v_{2}$ </p>\n<p> $\\Rightarrow$   $v_{2}=\\frac{A_{1}v_{1}}{A_{2}}$ </p>\n<p>Substituting the values :</p>\n<p> $v_{2}=\\frac{(30 \\times 10^{-4}) \\times 0.5}{150 \\times 10^{-6}}$ </p>\n<p> $\\Rightarrow$   $v_{2}=\\frac{15 \\times 10^{-4}}{150 \\times 10^{-6}}$ </p>\n<p> $\\Rightarrow$   $v_{2}=10m/s$ </p>\n<p>Therefore, the speed at which the water flows out from each perforation is  $10m/s$ . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Medium",
       "key_formulas": [
         "30cm^{2}",
@@ -1138,7 +1136,7 @@
         "n=10"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:57:08.850867"
     },
@@ -1976,7 +1974,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the problem, we need to compare the increase in surface area when the big drop is split into small drops.</p>\n<p><strong>Step 1: Determine the radius of the small drops</strong></p>\n<p><p>For 27 small drops:</p></p>\n<p><p>Total volume is conserved:  </p>\n<p> $27 \\times \\frac{4}{3}\\pi r^{3}=\\frac{4}{3}\\pi R^{3}⟹r^{3}=\\frac{R^{3}}{27}⟹r=\\frac{R}{3}.$ </p></p>\n<p><p>For 64 small drops:</p></p>\n<p><p>Similarly,  </p>\n<p> $64 \\times \\frac{4}{3}\\pi r^{'3}=\\frac{4}{3}\\pi R^{3}⟹r^{'3}=\\frac{R^{3}}{64}⟹r^{'}=\\frac{R}{4}.$ </p></p>\n<p><strong>Step 2: Calculate the surface area before and after the break-up</strong></p>\n<p><p><strong>Initial surface area of the big drop:</strong></p>\n<p> $A_{\\text{initial}}=4\\pi R^{2}.$ </p></p>\n<p><p><strong>For 27 drops:</strong></p></p>\n<p><p>Surface area of one small drop:</p>\n<p> $4\\pi(\\frac{R}{3})^{2}=\\frac{4\\pi R^{2}}{9}.$ </p></p>\n<p><p>Total surface area:</p>\n<p> $A_{27}=27 \\times \\frac{4\\pi R^{2}}{9}=3 \\times 4\\pi R^{2}=12\\pi R^{2}.$ </p></p>\n<p><p>Increase in surface area:</p>\n<p> $\\Delta A_{27}=12\\pi R^{2}-4\\pi R^{2}=8\\pi R^{2}.$ </p></p>\n<p><p><strong>For 64 drops:</strong></p></p>\n<p><p>Surface area of one small drop:</p>\n<p> $4\\pi(\\frac{R}{4})^{2}=4\\pi\\frac{R^{2}}{16}=\\frac{\\pi R^{2}}{4}.$ </p></p>\n<p><p>Total surface area:</p>\n<p> $A_{64}=64 \\times \\frac{\\pi R^{2}}{4}=16\\pi R^{2}.$ </p></p>\n<p><p>Increase in surface area:</p>\n<p> $\\Delta A_{64}=16\\pi R^{2}-4\\pi R^{2}=12\\pi R^{2}.$ </p></p>\n<p><strong>Step 3: Relate work done to the change in surface area</strong></p>\n<p>Since the work done is proportional to the increase in surface area:</p>\n<p> $\\text{Work}∝\\Delta A.$ </p>\n<p>We know that breaking into 27 drops requires 10 J corresponding to an increase of  $8\\pi R^{2}$ .</p>\n<p>Thus, if  $W$  is the work done,</p>\n<p> $W_{27}=k \\cdot 8\\pi R^{2}=10\\text{J},$ </p>\n<p>where  $k$  is the proportionality constant.</p>\n<p>For 64 drops:</p>\n<p> $W_{64}=k \\cdot 12\\pi R^{2}.$ </p>\n<p>Dividing the two equations:</p>\n<p> $\\frac{W_{64}}{10}=\\frac{12\\pi R^{2}}{8\\pi R^{2}}=\\frac{12}{8}=\\frac{3}{2}.$ </p>\n<p>Thus,</p>\n<p> $W_{64}=10 \\times \\frac{3}{2}=15\\text{J}.$ </p>\n<p><strong>Final Answer: 15 J (Option D)</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "A_{\\text{initial}}=4\\pi R^{2}.",
@@ -1987,7 +1985,7 @@
         "A_{64}=64 \\times \\frac{\\pi R^{2}}{4}=16\\pi R^{2}."
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:17.475979"
     },
@@ -2035,11 +2033,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7fy60sx/518978c1-a6b3-4419-9fb0-2edc3dc73040/4adbd010-f0f8-11ef-b2b3-ebf21cc94d34/file-jaoe38c1m7fy60sy.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:18.674517"
     },
@@ -2197,14 +2195,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9rr9wyi/6f4264e2-f205-4a8e-ad18-3776c635f066/2dc597a0-1f0f-11f0-9588-0d31893f02ea/file-jaoe38c1m9rr9wyj.png?format=png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "10^{5}N",
         "G=10^{10}N/m^{2}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:14.463342"
     },
@@ -2396,7 +2394,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9uw1elq/9aaed725-a67c-40e6-a530-8baf7d5b2233/28b6c4e0-20c8-11f0-8e41-d1a13c0c5e77/file-jaoe38c1m9uw1elr.png?format=png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "d_{1}",
@@ -2407,7 +2405,7 @@
         "4 \\times 10^{9}N/m^{2}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:59.106635"
     },
@@ -2952,7 +2950,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>First, when the two vessels are connected, the water levels equalize at  </p>\n<p> $H=\\frac{H_{1}+H_{2}}{2}=\\frac{10+6}{2}=8\\text{m}.$  </p>\n<p>We can get the work done by gravity from the loss of gravitational potential energy:  </p>\n<p><p>Initial potential energy (taking the bottom as zero)  </p>\n<p>For a column of height  $H$  and cross-section  $A$ ,  </p>\n<p> $U=\\rho gA\\int_{0}^{H}zdz=\\frac{\\rho gAH^{2}}{2}.$  </p>\n<p>So  </p>\n<p> $U_{i}=\\frac{\\rho gA}{2}(H_{1}^{2}+H_{2}^{2})=\\frac{10^{3} \\cdot 10 \\cdot 2}{2}(10^{2}+6^{2})=10^{4}(100+36)=1.36 \\times 10^{6}\\text{J}.$ </p></p>\n<p><p>Final potential energy (both at height 8 m)  </p>\n<p> $U_{f}=2\\frac{\\rho gAH^{2}}{2}|_{H=8}=\\rho gA(8^{2})=10^{3} \\cdot 10 \\cdot 2 \\cdot 64=1.28 \\times 10^{6}\\text{J}.$ </p></p>\n<p><p>Work done by gravity = drop in potential energy  </p>\n<p> $W=U_{i}-U_{f}=1.36 \\times 10^{6}-1.28 \\times 10^{6}=0.08 \\times 10^{6}=8 \\times 10^{4}\\text{J}.$ </p></p>\n<p>Answer: 8×10^4 J (Option C).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "2m^{2}",
@@ -2962,7 +2960,7 @@
         "Work done by gravity = drop in potential energy"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:14.503369"
     },
@@ -3125,11 +3123,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6reye0m/24b77499-7eff-42c5-9ad0-8dc504ed6223/598d9160-e37a-11ef-ab94-bb713ae2a9d6/file-jaoe38c1m6reye0n.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7g14jzu/461976b2-8623-483c-8897-0ea8c8554940/dd7409a0-f103-11ef-afc4-279cdb88492c/file-jaoe38c1m7g14jzv.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:17.549308"
     },
@@ -3190,11 +3188,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the original length of the string, we use the relationship between tension, elasticity constant ( $K$ ), and the change in length of the string.</p>\n<p><p>Given the equation for tension:</p>\n<p> $T=K(\\ell-\\ell_{0})$ </p>\n<p>where  $\\ell$  is the length of the string under tension and  $\\ell_{0}$  is the original length.</p></p>\n<p><p>When the tension is 5 N, the equation becomes:</p>\n<p> $5=K(1.4-\\ell_{0})$ </p></p>\n<p><p>When the tension increases to 7 N, the equation is:</p>\n<p> $7=K(1.56-\\ell_{0})$ </p></p>\n<p><p>By setting up a ratio from the two equations, we have:</p>\n<p> $\\frac{5}{1.4-\\ell_{0}}=\\frac{7}{1.56-\\ell_{0}}$ </p></p>\n<p><p>Solving this proportion gives us the original length  $\\ell_{0}$ :</p>\n<p> $\\ell_{0}=1m$ </p></p>\n<p>Thus, the original length of the string is 1 meter.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:59.152886"
     },
@@ -3278,11 +3276,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lv3t7nap/6e9d1ad1-046a-4454-ba3e-eb0b2b6f85e5/ea0f0920-fcb8-11ee-82a9-4bd4585cebcd/file-1lv3t7naq.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:19.527814"
     },
@@ -3328,11 +3326,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; F_{V}=(mg-F_{B})\\frac{mg}{mg}=(\\frac{\\rho V_{g}-\\rho_{0}V_{g}}{\\rho V_{g}})mg \\\\ &amp; F_{v}=mg(1-\\frac{\\rho_{0}}{\\rho}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:20.160164"
     },
@@ -3435,13 +3433,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lslua86l/cc70e2fa-7aa3-4caf-91b3-a69911e05e09/907dd2c0-cb3e-11ee-ad47-a16d1086e690/file-6y3zli1lslua86m.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dv}{dt}=K_{1}-K_{2}V"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:21.671102"
     },
@@ -3970,11 +3968,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The statement given as Assertion (A) is indeed true. Elasticity is a physical property of a material whereby it can restore it to its original shape or size after deformation (stretching, compressing, or twisting) provided the deformation is within the material's elastic limit. Once the external force is removed, an elastic material will return to its initial state due to its intrinsic property. So, we can affirm the validity of Assertion (A).</p>\n<p>The statement labelled as Reason (R) is also true. When a material is deformed due to an applied external force, the molecules within the material are displaced from their equilibrium positions. The intermolecular and interatomic forces create a restoring force that attempts to bring the molecules back to their original, or equilibrium, positions. This restoring force is what allows the material to regain its shape when the external force is removed, assuming the material has not been deformed beyond its elastic limit. Hence, the restoring force indeed depends on the bonded interatomic and intermolecular forces within a solid.</p>\n<p>Furthermore, Reason (R) is not just a true statement in isolation, but it is the correct explanation for Assertion (A). The reason that a material exhibits elasticity (Assertion A) is directly tied to the nature of the restoring force (Reason R), which is a result of the bonded interatomic and intermolecular forces within the material. Without these restoring forces, the material would not be able to return to its original shape, and thus would not exhibit elasticity.</p>\n<p>Therefore, the correct answer to the given question is:</p>\nOption C\nBoth (A) and (R) are true and (R) is the correct explanation of (A)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:22.280772"
     },
@@ -4197,7 +4195,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we can use the concepts of terminal velocity and the forces acting on the spherical ball. First, let's analyze the situation step-by-step.</p>\n<p>When the ball falls freely under gravity, it achieves a terminal velocity  $v_{t}$  in water. This terminal velocity is reached when the gravitational force is balanced by the drag force and the buoyant force in the water.</p>\n<p>The forces acting on the ball are:</p>\n<p>1. Gravitational Force:  $F_{g}=mg$ </p>\n<p>2. Buoyant Force:  $F_{b}=\\rho_{\\text{water}}Vg$ </p>\n<p>3. Drag Force:  $F_{d}=6\\pi\\eta rv_{t}$ </p>\n<p>Where,</p>\n<p> $m$  is the mass of the ball.</p>\n<p> $g$  is the acceleration due to gravity ( $9.8m/s^{2}$ ).</p>\n<p> $\\rho_{\\text{water}}$  is the density of water ( $1000kg/m^{3}$ ).</p>\n<p> $V$  is the volume of the ball ( $\\frac{4}{3}\\pi r^{3}$ ).</p>\n<p> $\\eta$  is the coefficient of viscosity of water ( $9.8 \\times 10^{-6}Ns/m^{2}$ ).</p>\n<p> $r$  is the radius of the ball ( $1 \\times 10^{-4}m$ ).</p>\n<p> $v_{t}$  is the terminal velocity.</p>\n<p>Using the equilibrium condition at terminal velocity:</p>\n<p> $F_{g}=F_{b}+F_{d}$ </p>\n<p> $mg=\\rho_{\\text{water}}Vg+6\\pi\\eta rv_{t}$ </p>\n<p>First, compute the mass of the ball:</p>\n<p> $m=\\rho_{\\text{ball}} \\times V=\\rho_{\\text{ball}} \\times \\frac{4}{3}\\pi r^{3}$ </p>\n<p> $m=10^{5}kg/m^{3} \\times \\frac{4}{3}\\pi(1 \\times 10^{-4}m)^{3}$ </p>\n<p> $m=10^{5}kg/m^{3} \\times \\frac{4}{3}\\pi \\times 10^{-12}m^{3}$ </p>\n<p> $m=\\frac{4}{3}\\pi \\times 10^{-7}kg$ </p>\n<p>Next, solve for the terminal velocity  $v_{t}$  using the equilibrium equation:</p>\n<p> $mg=\\rho_{\\text{water}}\\frac{4}{3}\\pi r^{3}g+6\\pi\\eta rv_{t}$ </p>\n<p> $v_{t}=\\frac{mg-\\rho_{\\text{water}}\\frac{4}{3}\\pi r^{3}g}{6\\pi\\eta r}$ </p>\n<p> $v_{t}=\\frac{\\frac{4}{3}\\pi \\times 10^{-7} \\times 9.8-1000 \\times \\frac{4}{3}\\pi(1 \\times 10^{-4})^{3} \\times 9.8}{6\\pi \\times 9.8 \\times 10^{-6} \\times 10^{-4}}$ </p>\n<p> $v_{t}=\\frac{\\frac{4}{3}\\pi \\times 10^{-7} \\times 9.8-1000 \\times \\frac{4}{3}\\pi \\times 10^{-12} \\times 9.8}{6\\pi \\times 9.8 \\times 10^{-10}}$ </p>\n<p> $v_{t}=\\frac{\\frac{4}{3}\\pi \\times 9.8 \\times 10^{-7}(1-10^{-5})}{6\\pi \\times 9.8 \\times 10^{-10}}$ </p>\n<p> $v_{t}=\\frac{\\frac{4}{3} \\times 10^{-7}}{6 \\times 10^{-10}}$ </p>\n<p> $v_{t}=\\frac{4}{18} \\times 10^{3}m/s$ </p>\n<p> $v_{t} \\approx 222.22m/s$ </p>\n<p>The height  $ℎ$  required to reach this terminal velocity while the ball falls freely under gravity can be found using the kinematic equation:</p>\n<p> $v_{t}=\\sqrt{2gℎ}$ </p>\n<p> $ℎ=\\frac{v_{t}^{2}}{2g}$ </p>\n<p> $ℎ=\\frac{(222.22)^{2}}{2 \\times 9.8}$ </p>\n<p> $ℎ=\\frac{49328.88}{19.6}$ </p>\n<p> $ℎ \\approx 2517.8m$ </p>\n<p>So, the closest value of  $ℎ$  is approximately:</p>\n<p><b>Option A: 2518 m</b>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "1 \\times 10^{-4}m",
@@ -4208,7 +4206,6 @@
         "F_{d}=6\\pi\\eta rv_{t}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
         "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:18.724742"
@@ -4528,14 +4525,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} F &amp; =(p_{0}+\\rho gℎ)A \\\\ &amp; =(10^{5}+1.36 \\times 10^{4} \\times 10 \\times \\frac{3}{10})\\frac{22}{7}(\\frac{2}{100})^{2} \\\\ &amp; =177N \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [
         "=10^{5}Nm^{-2}",
         "=1.36 \\times 10^{4}kgm^{-3},g=10ms^{-2},\\pi=\\frac{22}{7})"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:03.050648"
     },
@@ -4974,14 +4971,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $R_{\\text{big}}=10R_{\\text{small}}$ </p>\n<p> $\\Rightarrow \\frac{E_{1000}}{E_{big}}=\\frac{1000 \\times T \\times 4\\pi[\\frac{R_{big}}{10}]^{2}}{T \\times 4\\pi R_{big}^{2}}=\\frac{10}{1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{10}{x}",
         "is ________."
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:02.333578"
     },
@@ -5240,7 +5237,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The volume of the air bubble changes due to the change in pressure as it rises from the bottom of the lake to the surface. We can use Boyle's Law to calculate the change in volume, which states that the product of pressure and volume is constant for a given mass of confined gas held at a constant temperature:</p>\n<p> $P_{1}V_{1}=P_{2}V_{2}$ </p>\n<p>where  $P_{1}$  and  $V_{1}$  are the pressure and volume at the bottom of the lake and  $P_{2}$  and  $V_{2}$  are the pressure and volume at the surface of the lake.</p>\n<p>At the bottom of the lake, the pressure is the atmospheric pressure plus the pressure due to the water column above the bubble:</p>\n<p> $P_{1}=P_{\\text{atm}}+\\rho gℎ$ </p>\n<p>where  $\\rho$  is the density of water,  $g$  is the acceleration due to gravity, and  $ℎ$  is the height of the water column. Substituting the given values, we get:</p>\n<p> $P_{1}=1 \\times 10^{5}\\text{Pa}+1000\\text{kg/m}^{3} \\times 10\\text{m/s}^{2} \\times 40\\text{m}=5 \\times 10^{5}\\text{Pa}$ </p>\n<p>At the surface of the lake, the pressure is the atmospheric pressure:</p>\n<p> $P_{2}=P_{\\text{atm}}=1 \\times 10^{5}\\text{Pa}$ </p>\n<p>The initial volume of the bubble is:</p>\n<p> $V_{1}=1\\text{cm}^{3}=1 \\times 10^{-6}\\text{m}^{3}$ </p>\n<p>Substituting these values into Boyle's Law and solving for  $V_{2}$ , we get:</p>\n<p> $V_{2}=\\frac{P_{1}V_{1}}{P_{2}}=\\frac{5 \\times 10^{5}\\text{Pa} \\times 1 \\times 10^{-6}\\text{m}^{3}}{1 \\times 10^{5}\\text{Pa}}=5 \\times 10^{-6}\\text{m}^{3}=5\\text{cm}^{3}$ </p>\n<p>So, the volume of the air bubble when it reaches the surface is 5 cm³.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "1cm^{3}",
@@ -5251,7 +5248,7 @@
         "P_{1}V_{1}=P_{2}V_{2}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:25.569644"
     },
@@ -5467,7 +5464,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->From Newton's law of cooling.\n<br/><br/>\n $\\frac{dT}{dt}=-k(T-T_{s})$ \n<br/><br/>\nCase  $I:dT=12^{\\circ}C,dt=2min$ \n<br/><br/>\n $\\frac{12}{2}=-k[92-22^{\\circ}]=-k70$ \n<br/><br/>\nCase II :  $dT=6^{\\circ}C$ \n<br/><br/>\n $\\frac{6}{dt}=-k[72-22]=-k50$ \n<br/><br/>\nFrom (1) and (2)\n<br/><br/>\n $dt=1.4min$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -5478,7 +5475,7 @@
         "\\frac{6}{dt}=-k[72-22]=-k50"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:29.286285"
     },
@@ -6098,7 +6095,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgx322ll/7c075f5e-6c18-4d08-8dd5-05a123fc864b/e6770990-e3da-11ed-baaf-253646c1f54e/file-1lgx322lm.png?format=png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Easy",
       "key_formulas": [
         "2.0cm^{2}",
@@ -6107,7 +6104,7 @@
         "cms^{-1}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:58:07.718181"
     },
@@ -6524,7 +6521,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $P_{\\text{in}}=270kPa,T_{\\text{in}}=27^{\\circ}C$ \n<br/><br/>\n $=300K$ \n<br/><br/>\n $T_{\\text{final}}=36^{\\circ}C=309K$ \n<br/><br/>\nHence we can consider process to be isochoric volume constant\n<br/><br/>\n $\\therefore P∝T$ \n<br/><br/>\n $\\frac{P_{\\text{in}}}{P_{f}}=\\frac{T_{\\text{in}}}{T_{f}} \\Rightarrow P_{f}=278kPa$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "27^{\\circ}C",
@@ -6535,7 +6532,7 @@
         "\\frac{P_{\\text{in}}}{P_{f}}=\\frac{T_{\\text{in}}}{T_{f}} \\Rightarrow P_{f}=278kPa"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:28.530831"
     },
@@ -6683,7 +6680,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; AV=av \\\\ \\\\ &amp; 750 \\times 10^{-4} \\times (\\frac{dℎ}{dt})=(500 \\times 10^{-6})(30 \\times 10^{-2}) \\\\ \\\\ &amp; \\frac{dℎ}{dt}=\\frac{15 \\times 10^{-5}}{75 \\times 10^{-3}} \\\\ \\\\ &amp; =\\frac{1}{5} \\times 10^{-2} \\\\ \\\\ &amp; =2 \\times 10^{-3}m/s \\\\ \\\\ &amp; \\therefore x=2 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "750cm^{2}",
@@ -6693,7 +6690,7 @@
         "will be ____________."
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:08.975273"
     },
@@ -7389,11 +7386,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Due to obtuse angle of contact the water doesn't wet the oiled surface properly and cannot wash it also.</p>\n<p> $\\Rightarrow$  Assertion is correct and Reason given is a correct explanation.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:30.021257"
     },
@@ -7439,13 +7436,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $F_{avg}=\\mu \\times v_{rel}$ </p>\n<p> $=\\frac{10}{5} \\times 4.5=9$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{10}{5} \\times 4.5=9"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:30.828364"
     },
@@ -7548,7 +7545,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>$$y = {{FL} \\over {A\\Delta L}}$$</p>\n<p>$$ \\Rightarrow \\Delta L = {{FL} \\over {Ay}}$$</p>\n<p>$$ \\Rightarrow {L_1} = L + {{(1g)L} \\over {Ay}}$$ ..... (i)</p>\n<p>and $${L_2} = L + {{(2g)L} \\over {Ay}}$$ ..... (ii)</p>\n<p>$$ \\Rightarrow L = 2{L_1} - {L_2}$$</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "y = {{FL} \\over {A\\Delta L}}",
@@ -7558,7 +7555,7 @@
         "\\Rightarrow L = 2{L_1} - {L_2}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:32.556828"
     },
@@ -7694,7 +7691,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $F_{V}+F_{B}=mg(v=$  constant  $)$ \n<br/><br/> $F_{V}=mg-F_{B}$ \n<br/><br/> $=\\rho_{B}Vg-\\rho_{L}Vg$ \n<br/><br/> $=(\\rho_{B}-\\rho_{L})Vg$ \n<br/><br/> $=(8-1.3) \\times 10^{+3} \\times \\frac{0.3 \\times 10^{-3}}{8 \\times 10^{3}} \\times 10$ \n<br/><br/> $=\\frac{6.7 \\times 0.3}{8} \\times 10^{-2}(g=10)$ \n<br/><br/> $=\\frac{67 \\times 3}{8} \\times 10^{-4}=25.125 \\times 10^{-4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "x \\times 10^{-4}N",
@@ -7705,7 +7702,7 @@
         "=(\\rho_{B}-\\rho_{L})Vg"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:11.159310"
     },
@@ -7951,7 +7948,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A=1$  cm<sup>2</sup></p>\n<p> $Y=\\frac{Fl}{A\\Delta l}$ </p>\n<p> $F=\\frac{YA\\Delta l}{l}=\\frac{2 \\times 10^{11} \\times 10^{-4} \\times l}{l}$ </p>\n<p> $=2 \\times 10^{7}$  N</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "1cm^{2}",
@@ -7962,7 +7959,7 @@
         "=2 \\times 10^{7}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:30.851751"
     },
@@ -8066,7 +8063,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l55xvxa3/40c48e40-98f9-4147-9166-0e58767cad70/232730b0-fb27-11ec-bd88-e328dfea0871/file-1l55xvxa4.png?format=png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "2 , will be : F =",
@@ -8074,7 +8071,7 @@
         "1 = 2"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:32.582945"
     },
@@ -8176,7 +8173,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For equilibrium</p>\n<p> $-\\frac{dU}{dr}=0=\\frac{10A}{r^{11}}-\\frac{5B}{r^{6}}$ </p>\n<p> $\\Rightarrow r^{5}=\\frac{2A}{B}$ </p>\n<p>And  $r=(\\frac{2A}{B})^{1/5}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "U=\\frac{A}{r^{10}}-\\frac{B}{r^{5}}",
@@ -8185,7 +8182,7 @@
         "r=(\\frac{2A}{B})^{1/5}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:34.445754"
     },
@@ -8278,7 +8275,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{F/A}{\\Delta L/L}=Y$ </p>\n<p> $\\Rightarrow \\Delta L=\\frac{FL}{AY}$ </p>\n<p> $\\frac{\\Delta L_{2}}{\\Delta L_{1}}=(\\frac{F_{2}}{F_{1}}) \\times (\\frac{L_{2}}{L_{1}}) \\times (\\frac{A_{1}}{A_{2}})$ </p>\n<p> $=4 \\times 4 \\times \\frac{1}{16}=1$ </p>\n<p> $\\Delta L_{2}=\\Delta L_{1}=5$  cm.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\Delta L=\\frac{FL}{AY}",
@@ -8286,7 +8283,7 @@
         "\\Delta L_{2}=\\Delta L_{1}=5"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:58:12.616087"
     },
@@ -8396,7 +8393,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $F_{w}=\\rho Av^{2}$ </p>\n<p> $=10^{3} \\times 10 \\times 10^{-4} \\times 20 \\times 20$ </p>\n<p> $=400N$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [
         "10cm^{2}",
@@ -8406,7 +8403,7 @@
         "=400N"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:30.071655"
     },
@@ -8564,7 +8561,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>$$6\\pi \\eta rv = mg$$</p>\n<p>$$6\\pi \\eta rv = {4 \\over 3}\\pi {r^3}\\rho g$$</p>\n<p>or $$v = {2 \\over 9}{{\\rho {r^2}g} \\over \\eta } = {2 \\over 9} \\times {{{{10}^3} \\times {{({{10}^{ - 6}})}^2} \\times 10} \\over {1.8 \\times {{10}^{ - 5}}}}$$</p>\n<p>$$ = 123.4 \\times {10^{ - 6}}$$ m/s</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -8573,7 +8570,6 @@
         "= 123.4 \\times {10^{ - 6}}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
         "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:32.611890"
@@ -8710,7 +8706,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7m5yjym/ab1f3706-45d7-46a4-8ed9-32ad86f41926/ae7923d0-2bab-11ed-bad3-59534b1d6f8c/file-1l7m5yjyn.png?format=png"
       ],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "x\\sqrt{F}rads^{-1}",
@@ -8721,7 +8717,7 @@
         "\\omega=\\sqrt{\\frac{2}{mL}}\\sqrt{F}"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:10.521827"
     },
@@ -9003,7 +8999,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l6xtieam/d201f0d2-be5e-46cd-9d09-4eab63f03c0c/3003afe0-1e48-11ed-9c61-4529b721806b/file-1l6xtiean.png?format=png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "16cm^{2}",
@@ -9014,7 +9010,7 @@
         "=\\rho g\\frac{A}{2}(H_{1}^{2}+H_{2}^{2})=\\rho g\\frac{A}{2}(1^{2}+1.5^{2})"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:30.914427"
     },
@@ -9726,7 +9722,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->4t<sub>T</sub> = 100  $\\times$   $\\frac{4}{3}\\pi r^{3}$ \n<br/><br/>=  $100 \\times \\frac{4}{3}\\pi \\times \\frac{3}{40\\pi} \\times 10^{-9}$ \n<br/><br/>= 10<sup>-8</sup> cm<sup>3</sup>\n<br/><br/> $\\Rightarrow$  t<sub>T</sub> = 25  $\\times$  10<sup>-10</sup> cm\n<br/><br/>= 25  $\\times$  10<sup>-12</sup> m\n<br/><br/>t<sub>0</sub> = 0.01 t<sub>T</sub> = 25  $\\times$  10<sup>-14</sup> m\n<br/><br/> $\\therefore$  x = 25<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{3}{40\\pi})^{\\frac{1}{3}} \\times 10^{-3}",
@@ -9736,7 +9732,7 @@
         "100 \\times \\frac{4}{3}\\pi \\times \\frac{3}{40\\pi} \\times 10^{-9}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:58:16.253525"
     },
@@ -10073,7 +10069,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{75-65}{5}=k(\\frac{75+65}{2}-25)$ <br/><br/> $\\Rightarrow k=\\frac{2}{45}$ <br/><br/> $\\frac{65-T}{5}=k(\\frac{65+T}{2}-25)$ <br/><br/> $\\Rightarrow T=57^{\\circ}$  C<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -10083,7 +10079,7 @@
         "\\Rightarrow T=57^{\\circ}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:58:15.570577"
     },
@@ -10281,7 +10277,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The volume of a sphere is given by  $\\frac{4}{3}\\pi R^{3}$ .</p>\n<p>So the volume of the two small mercury drops each of radius  $R$  is  $2 \\times \\frac{4}{3}\\pi R^{3}$ .</p>\n<p>When they coalesce to form a larger drop, the volume is conserved. So, the volume of the larger drop is also  $2 \\times \\frac{4}{3}\\pi R^{3}$ .</p>\n<p>Let's denote the radius of this large drop as  $R^{'}$ .</p>\n<p>Therefore,  $2 \\times \\frac{4}{3}\\pi R^{3}=\\frac{4}{3}\\pi R^{'}^{3}$ .</p>\n<p>Solving for  $R^{'}$ , we get  $R^{'}=2^{1/3}R$ .</p>\n<p>Now, the surface energy of a sphere is proportional to its surface area, and the surface area of a sphere is given by  $4\\pi R^{2}$ .</p>\n<p>So, the ratio of total surface energy before and after the change is:</p>\n<p> $\\frac{2 \\times 4\\pi R^{2}}{4\\pi(2^{1/3}R)^{2}}=\\frac{2}{2^{2/3}}=2^{1/3}:1$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{3}\\pi R^{3}",
@@ -10292,7 +10288,7 @@
         "4\\pi R^{2}"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:37.067021"
     },
@@ -10780,7 +10776,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P = P<sub>0</sub> + h $\\rho$ g = 3  $\\times$  10<sup>5</sup> Pa<br/><br/> $\\Rightarrow$  h $\\rho$ g = 3  $\\times$  10<sup>5</sup>  $-$  1  $\\times$  10<sup>5</sup><br/><br/> $\\Rightarrow$  h $\\rho$ g = 2  $\\times$  10<sup>5</sup><br/><br/> $\\therefore$  2h $\\rho$ g = 4  $\\times$  10<sup>5</sup><br/><br/> $\\therefore$  P' = P<sub>0</sub> + 4  $\\times$  10<sup>5</sup><br/><br/> $\\therefore$  P' = 5  $\\times$  10<sup>5</sup> Pa<br/><br/> $\\therefore$  % increase in pressure =  $\\frac{P^{'}-P}{P} \\times 100$ <br/><br/> $=\\frac{(5-3) \\times 10^{5}}{3 \\times 10^{5}} \\times 100$ <br/><br/> $=\\frac{200}{3}$ %<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -10791,7 +10787,7 @@
         "g = 4"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:37.996767"
     },
@@ -10911,7 +10907,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks45ab5l/874558f2-b0b6-4bcf-8863-d3885af27194/b1e0ee90-f8cb-11eb-a1d4-495922108aa7/file-1ks45ab5m.png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "R=\\sqrt{2gℎ} \\times \\sqrt{\\frac{(12-ℎ) \\times 2}{g}}",
@@ -10919,7 +10915,7 @@
         "\\frac{dR}{dℎ}=0"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:58:14.852421"
     },
@@ -11056,7 +11052,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $u_{i}=[dSx_{1}.\\frac{x_{1}}{2}+dSx_{2}.\\frac{x_{2}}{2}]g{dSx_{1} \\rightarrow m,\\frac{x_{1}}{2} \\rightarrow ℎ(C.O.M)}$ \n<br/><br/>Here total volume remains same.\n<br/><br/> $\\therefore$  V<sub>i</sub> = V<sub>f</sub>\n<br/><br/> $\\Rightarrow$  S(x<sub>1</sub> + x<sub>2</sub>) = S(h + h)\n<br/><br/> $\\Rightarrow$  h =  $\\frac{x_{1}+x_{2}}{2}$ \n<br/><br/>u<sub>f</sub> = (dSh)g $\\frac{ℎ}{2} \\times 2$ \n<br/><br/> $\\Rightarrow$   $u_{f}=[dS(\\frac{x_{1}+x_{2}}{2}) \\times (\\frac{x_{1}+x_{2}}{4}) \\times 2]g$ <br/><br/> $\\therefore$   $u_{i}-u_{f}=dsg[\\frac{x_{1}^{2}}{2}+\\frac{x_{2}^{2}}{2}-\\frac{(x_{1}+x_{2})^{2}}{4}]$ <br/><br/> $=dsg\\frac{(x_{1}-x_{2})^{2}}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "V i = V f",
@@ -11067,7 +11063,7 @@
         "=dsg\\frac{(x_{1}-x_{2})^{2}}{4}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:40.458020"
     },
@@ -11264,7 +11260,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->An elastic wire can be treated as a spring with\n<br/><br/>k =  $\\frac{YA}{l}$ \n<br/><br/>T =  $2\\pi\\sqrt{\\frac{m}{k}}$ \n<br/><br/> $\\Rightarrow$  f =  $\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$  =  $\\frac{1}{2\\pi}\\sqrt{\\frac{YA}{ml}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{YA}{l}",
@@ -11273,7 +11269,7 @@
         "\\frac{1}{2\\pi}\\sqrt{\\frac{YA}{ml}}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:39.649522"
     },
@@ -11487,7 +11483,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Using equation of continuity\n<br/><br/>A<sub>1</sub>V<sub>1</sub>\n = A<sub>2</sub>V<sub>2</sub>\n<br/><br/> $\\Rightarrow$   $\\frac{V_{1}}{V_{2}}=\\frac{A_{2}}{A_{1}}$  =  $(\\frac{4.8}{6.4})^{2}$  =  $\\frac{9}{16}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{V_{1}}{V_{2}}=\\frac{A_{2}}{A_{1}}",
@@ -11495,7 +11491,7 @@
         "\\frac{9}{16}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:57:43.425622"
     },
@@ -11656,7 +11652,7 @@
         "https://imagex.cdn.examgoal.net/jgy2xukeuzyo9n/a2a65770-17dc-477a-86df-34b72a9eb8fe/02e1c2b0-f265-11ea-8293-3b6cc591631c/file-jgy2xukeuzyo9o-184w.png",
         "https://imagex.cdn.examgoal.net/1ki1l0lf3/fdd0b193-b660-4bde-a78f-a2695d5a11fd/b20b7ff0-3168-11eb-84ca-af07f68080f1/file-1ki1l0lf4-320w.png"
       ],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\omega",
@@ -11667,7 +11663,7 @@
         "\\frac{25}{2}\\frac{\\omega^{2}}{g}"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:57:41.314078"
     },
@@ -11771,7 +11767,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kjtn896b/6a46d57a-3cd7-40b3-aedd-810d94ca1169/82e17c30-54a3-11eb-bc03-4b67b2efa0ee/file-1kjtn896c-303w.png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{27}{8}",
@@ -11781,7 +11777,7 @@
         "=0.88≃\\frac{8}{9}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:39.705483"
     },
@@ -11827,7 +11823,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{\\Delta T}{\\Delta t}=k(\\frac{T_{f}+T_{i}}{2}-T_{0})$ <br/><br/> $\\Rightarrow$   $\\frac{50-40}{300}=k(\\frac{90}{2}-20)$ <br/><br/> $\\Rightarrow$   $\\frac{40-T}{300}=k(\\frac{40+T}{2}-20)$ <br/><br/> $\\Rightarrow$   $\\frac{10}{40-T}=\\frac{25 \\times 2}{40+T-40}$ <br/><br/> $\\Rightarrow$   $\\frac{1}{40-T}=\\frac{5}{T}$ <br/><br/> $\\Rightarrow$   $T=200-5T$ <br/><br/> $\\Rightarrow$   $6T=200$ <br/><br/> $\\Rightarrow$   $T=33^{\\circ}C$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\Delta T}{\\Delta t}=k(\\frac{T_{f}+T_{i}}{2}-T_{0})",
@@ -11838,7 +11834,7 @@
         "T=200-5T"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:40.548812"
     },
@@ -11942,7 +11938,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7k9k2k5hgwxq1/afabb229-3bb7-4329-b9a6-a979d46de7a9/6242da90-38c6-11ea-92dd-4b9c3519996f/file-7k9k2k5hgwxq2-279w.jpg"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\rho_{1}",
@@ -11952,7 +11948,7 @@
         "\\frac{F_{1}}{F_{2}}=\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:42.427979"
     },
@@ -12089,7 +12085,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For a simple pendulum T =  $2\\pi\\sqrt{\\frac{L}{g_{err}}}$ <br/><br/>\nSituation 1: when pendulum is in air  $\\rightarrow$  g<sub>eff</sub> = g<br/>\nSituation 2:when pendulum is in liquid<br/>\n $\\rightarrow$  g<sub>eff</sub> =  $(1-\\frac{\\rho_{liquid}}{\\rho_{body}})=g(1-\\frac{1}{16})=\\frac{15g}{16}$ <br/><br/>\nSo,  $\\frac{T^{^{'}}}{T}=\\frac{2\\pi\\sqrt{\\frac{L}{15g/16}}}{2\\pi\\sqrt{\\frac{L}{g}}}$ <br/><br/>\n $\\Rightarrow T^{^{'}}=\\frac{4T}{\\sqrt{15}}$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "2\\pi\\sqrt{\\frac{L}{g_{err}}}",
@@ -12098,7 +12094,7 @@
         "\\Rightarrow T^{^{'}}=\\frac{4T}{\\sqrt{15}}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:45.839166"
     },
@@ -12197,14 +12193,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{400}{\\frac{\\pi}{4}d^{2}}=379 \\times 10^{6}$ <br/><br/>\n $d^{2}=\\frac{4 \\times 400 \\times 10^{-6}}{\\pi \\times 379}=0.336 \\times 10^{-6} \\times 4$ <br/><br/>\n $d=2\\sqrt{0.336} \\times 10^{-3}M≃1.16mm$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{400}{\\frac{\\pi}{4}d^{2}}=379 \\times 10^{6}",
         "d=2\\sqrt{0.336} \\times 10^{-3}M≃1.16mm"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:44.161748"
     },
@@ -12306,7 +12302,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/yxY78dwlocJdIqZGZ/ruJEn9NgIKqosnQ1KlSjrzBrY8KSQ/4v1Ovc9jZRPsl6Q9vkd5xl/image.png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{F}{A}=y.\\frac{\\Delta\\ell}{\\ell}",
@@ -12317,7 +12313,7 @@
         "\\frac{\\Delta\\ell^{'}}{\\Delta\\ell}=\\frac{T^{'}}{T}=\\frac{3}{4}"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:46.826484"
     },
@@ -12476,14 +12472,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $(50)^{3} \\times \\frac{30}{100} \\times (1) \\times g=M_{cube}g$     ...(i)<br/><br/>\nLet m mass should be placed<br/><br/>\nHence (50)<sup>3</sup> $\\times$  (1)  $\\times$  g =  (M<sub>cube</sub> + m)g   …(ii)<br/><br/>\nequation (ii) – equation (i)<br/><br/>\n $\\Rightarrow$  mg = (50)<sup>3</sup> × g(1 – 0.3) = 125 × 0.7 × 10<sup>3</sup> g<br/><br/>\n $\\Rightarrow$  m = 87.5 kg<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Easy",
       "key_formulas": [
         "(50)^{3} \\times \\frac{30}{100} \\times (1) \\times g=M_{cube}g",
         "\\times"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:57:44.194412"
     },
@@ -12529,7 +12525,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The pressure experienced by a submarine at a certain depth in the sea is given by the formula:</p>\n<p> $P=\\rho gℎ$ </p>\n<p>where:</p>\n<ul>\n<li> $P$  is the pressure</li>\n<li> $\\rho$  is the density of the fluid (sea water in this case)</li>\n<li> $g$  is the acceleration due to gravity</li>\n<li> $ℎ$  is the height (or depth in this case)</li>\n</ul>\n<p>Given:</p>\n<ul>\n<li> $\\rho=10^{3}kg/m^{3}$ </li>\n<li> $g=10m/s^{2}$ </li>\n</ul>\n<p>We are looking for the difference in depth,  $d_{2}-d_{1}$ , which corresponds to the difference in pressure  $\\Delta P$ :</p>\n<p> $\\Delta P=P_{2}-P_{1}=\\rho g(d_{2}-d_{1})$ </p>\n<p>Rearranging the above equation, we get:</p>\n<p> $d_{2}-d_{1}=\\frac{\\Delta P}{\\rho g}$ </p>\n<p>Given:</p>\n<ul>\n<li> $P_{2}=8.08 \\times 10^{6}Pa$ </li>\n<li> $P_{1}=5.05 \\times 10^{6}Pa$ </li>\n</ul>\n<p> $\\Delta P=P_{2}-P_{1}=8.08 \\times 10^{6}Pa-5.05 \\times 10^{6}Pa=3.03 \\times 10^{6}Pa$ </p>\n<p>So, </p>\n<p> $d_{2}-d_{1}=\\frac{3.03 \\times 10^{6}Pa}{10^{3}kg/m^{3} \\times 10m/s^{2}}=303m$ </p>\n<p>The closest answer among the options provided is Option C, 300 m.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Elasticity & Hooke's Law",
+      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
       "difficulty": "Medium",
       "key_formulas": [
         "P=\\rho gℎ",
@@ -12540,7 +12536,7 @@
         "P_{2}=8.08 \\times 10^{6}Pa"
       ],
       "key_concepts": [
-        "Elasticity & Hooke's Law"
+        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
       ],
       "crawled_at": "2026-09-20T15:57:44.980978"
     },
@@ -12979,14 +12975,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/DDEEAqjrpwcJcCiZV/xUyETKC5w6dVjJRNHM8tFqVMdPqrA/HmIVGhRFfIU36XSMvGpa1c/image.png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{\\omega^{2}x^{2}}{2g}",
         "\\frac{(2 \\times 2\\pi)^{2} \\times (0.05)^{2}}{20}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:46.886903"
     },
@@ -13034,7 +13030,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/sQAxNmCeyIn7Ta2Rz/aUki7Qf5VBirvf2kDLWu5GfAtiNzY/d0M31GxDBCaxIKakwDcRSa/image.png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{0.74}{60}=Av",
@@ -13044,7 +13040,7 @@
         "\\frac{740 \\times 740}{24 \\times 24 \\times \\pi^{2}}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:47.672696"
     },
@@ -13326,7 +13322,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Time taken to cool from 60 $^{\\circ}$ C to 50 $^{\\circ}$ C = 10 minutes</p>\n<p>Temperature of surroundings = 25 $^{\\circ}$ C</p>\n<p>Temperature of body in next 10 minutes = T</p>\n<p>Therefore,  $\\frac{60-50}{10min}=k_{B}[\\frac{60+50}{2}-25] \\Rightarrow k_{B}30=1$  ...... (1)</p>\n<p>and  $\\frac{60-T}{20min}=k_{B}[\\frac{60+T}{2}-25]=k_{B}[\\frac{60+T-50}{2}]$  ..... (2)</p>\n<p>Taking ratio of Eqs. (1) and (2), we get</p>\n<p> $\\frac{20}{60-T}=\\frac{30k_{B}}{k_{B}(\\frac{10+T}{2})} \\Rightarrow \\frac{20}{60-T}=\\frac{30}{5+T/2}$ </p>\n<p> $\\Rightarrow 20(5+\\frac{T}{2})=30(60-T) \\Rightarrow 100+T10=1800-30T$ </p>\n<p> $\\Rightarrow 1800-100=30T+10T$ </p>\n<p> $\\Rightarrow 1700=40T \\Rightarrow T=\\frac{1700}{40}=42.5^{\\circ}C∼43^{\\circ}C$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "^{\\circ}",
@@ -13337,7 +13333,7 @@
         "\\Rightarrow 1700=40T \\Rightarrow T=\\frac{1700}{40}=42.5^{\\circ}C∼43^{\\circ}C"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:48.671267"
     },
@@ -13385,7 +13381,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/coxU5p35wXnmPZS5p/KRPybqW1K9kbzPRfSCL6bHQjARtpt/rwXwu7Mpwy8nm13SaCinOQ/image.png"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "\\rho_{1}",
@@ -13394,7 +13390,7 @@
         "\\frac{\\rho_{1}-\\rho_{2}}{\\rho_{1}+\\rho_{2}}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:49.788441"
     },
@@ -13670,7 +13666,7 @@
         "https://imagex.cdn.examgoal.net/vwZNOV8k4zVlxQ3qR/tVXlzHM7Oyk1utiiWbOAyKPFlzovs/k87u4y08VLYArlvsWq4tAi/image.png",
         "https://imagex.cdn.examgoal.net/VQHrqGARCO0pXbT0b/dbADRNPX3jg2vhM7pGtLy9D2Z6ck0/VDPkg4C7bYwqG7KFXtOce7/image.svg"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "d_{1}",
@@ -13680,7 +13676,7 @@
         "(Rcos\\alpha+Rsin\\alpha)d_{2}g=(Rcos\\alpha-Rsin\\alpha)d_{1}g"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:52.834094"
     },
@@ -13843,7 +13839,7 @@
         "https://imagex.cdn.examgoal.net/N1zIkQaXtjHRkHohx/eg9tvXTZ3VBbAw2akKXcbp4ktNtAr/9kPdF4iFlDnaf4fbJEoO4M/image.png",
         "https://imagex.cdn.examgoal.net/4opxg7CIM1cnXllBE/PScFKI5eBj7YljehjKHkERwF9abNK/rSO7r9I8VzLo9cmM42UBcV/image.svg"
       ],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2T}{R}(\\pi r^{2})=\\frac{4\\pi R^{3}}{3T}\\rho_{w}g",
@@ -13851,7 +13847,6 @@
         "\\Rightarrow r=R^{2}\\sqrt{\\frac{2\\rho_{w}g}{3T}}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
         "Surface Tension & Viscosity (Stokes' Law)"
       ],
       "crawled_at": "2026-09-20T15:57:52.136222"
@@ -13900,7 +13895,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/loyUXsgp3yYUOj1Jo/onBkpZXoyut5cOcjGri0m1KbsEisO/O8eRAGVTDYe5RVwZNrwrhr/image.png"
       ],
-      "topic_tag": "Surface Tension & Viscosity (Stokes' Law)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "x_{0}",
@@ -13910,7 +13905,7 @@
         "=\\frac{Mg}{k}(1-\\frac{LA\\sigma}{2M})"
       ],
       "key_concepts": [
-        "Surface Tension & Viscosity (Stokes' Law)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:52.854771"
     },
@@ -14008,7 +14003,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Newton's law of cooling\n<br/><br/> $\\frac{d\\theta}{dt}=-k(\\theta-\\theta_{0})$ \n<br/><br/> $\\Rightarrow \\frac{d\\theta}{(\\theta-\\theta_{0})}=-kdt$ \n<p>Intergrating\n<br/><br/> $\\Rightarrow log(\\theta-\\theta_{0})=-kt+c$ \n<br/><br/>Which represents an equation of straight line. \n<br/><br/>Thus the option  $(a)$  is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Medium",
       "key_formulas": [
         "log_{e}(\\theta-\\theta_{0})",
@@ -14016,7 +14011,7 @@
         "\\Rightarrow log(\\theta-\\theta_{0})=-kt+c"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:53.559253"
     },
@@ -14231,7 +14226,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Oil will float on water so,  $(2)$  or  $(4)$  is the correct option, But density of ball is more than that of oil, hence it will sinkin oil. <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fluid Statics & Dynamics (Bernoulli & Torricelli)",
+      "topic_tag": "Elasticity & Hooke's Law",
       "difficulty": "Easy",
       "key_formulas": [
         "\\rho_{oil}<\\rho<\\rho_{water}",
@@ -14239,7 +14234,7 @@
         "\\rho_{water}"
       ],
       "key_concepts": [
-        "Fluid Statics & Dynamics (Bernoulli & Torricelli)"
+        "Elasticity & Hooke's Law"
       ],
       "crawled_at": "2026-09-20T15:57:53.637606"
     },

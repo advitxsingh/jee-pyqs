@@ -153,11 +153,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An  $n$ -type semiconductor is obtained by doping pure silicon with a pentavalent impurity, such as Phosphorus or Arsenic.</p>\n<p>A  $p$ -type semiconductor is obtained by doping pure silicon with a trivalent impurity, such as Boron, Aluminium, or Indium.</p>\n<p>So, for silicon:</p>\n<p> $n\\text{-type} \\rightarrow \\text{Phosphorus}$ </p>\n<p> $p\\text{-type} \\rightarrow \\text{Indium}$ </p>\n<p>Hence, the correct option is:</p>\n<p> $\\text{Option C: Phosphorous and Indium respectively}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:05.754703"
     },
@@ -416,11 +416,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>There is no forbidden energy gap between conduction bond and valence band for a conductor (copper). Hence, in copper, valence band and conduction band are overlapped.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:05.962508"
     },
@@ -684,7 +684,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The resistivity of a material is a measure of how strongly the material resists the flow of electric current. Semiconductors have resistivity values that are between those of good conductors (like metals) and good insulators (like ceramics).\n\n<p>Option A states that the resistivity range is from  $10^{-3}$  to  $10^{6}\\Omega-cm$ .</p>\n<p>Option B suggests a range from  $10^{6}$  to  $10^{8}\\Omega-cm$ .</p>\n<p>Option C offers a range from  $10^{10}$  to  $10^{12}\\Omega-cm$ .</p>\n<p>Option D proposes a range from  $10^{-2}$  to  $10^{-5}\\Omega-cm$ .</p>\n<p>The correct resistivity range for semiconductors at room temperature is typically closer to Option A:  $10^{-3}$  to  $10^{6}\\Omega-cm$ . This range is wide because it can be affected by several factors, including the type of semiconductor material, the presence of impurities (doping), and the temperature of the material.</p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Medium",
       "key_formulas": [
         "10^{-3}",
@@ -695,7 +695,7 @@
         "10^{12}\\Omega-cm"
       ],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:06.387581"
     },
@@ -1116,11 +1116,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When temperature of semiconductor material increases, then more number of charge carriers increases due to breaking of covalent bonds. Hence conductivity of semiconductor material increases with increases in temperature due to increase in number density.</p>\n<p>When temperature of semiconductor material increases, then relaxation time also decreases but decrease in relaxation time is much less than increase in number density.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:06.739318"
     },
@@ -1386,7 +1386,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's analyze the problem step by step.</p>\n<p><p>We are given the DC current gain of the common emitter (CE) configuration:</p>\n<p> $\\beta=\\frac{I_{C}}{I_{B}}=50.$ </p>\n<p>This means that the collector current is 50 times the base current:</p>\n<p> $I_{C}=50I_{B}.$ </p></p>\n<p><p>The circuit has a collector resistor:</p>\n<p> $R_{C}=4k\\Omega,$ </p>\n<p>and the voltage applied across the collector and emitter is:</p>\n<p> $V_{CE}=2V.$ </p></p>\n<p><p>In a common emitter configuration, the supply voltage (say,  $V_{CC}$ ) is shared between the collector resistor and the transistor. That is,</p>\n<p> $V_{CC}=I_{C}R_{C}+V_{CE}.$ </p>\n<p>Although  $V_{CC}$  is not given explicitly, we can use the available values to find a consistent solution.</p></p>\n<p><p>Suppose the voltage drop across  $R_{C}$  is equal to:</p>\n<p> $V_{R_{C}}=I_{C}R_{C}.$ </p>\n<p>For a consistent operating point, one possible scenario is that:</p>\n<p> $V_{R_{C}}=2V.$ </p>\n<p>Then,</p>\n<p> $I_{C}R_{C}=2V⟹I_{C}=\\frac{2V}{4k\\Omega}=0.5mA.$ </p></p>\n<p><p>Now, using the relation</p>\n<p> $I_{B}=\\frac{I_{C}}{\\beta},$ </p>\n<p>we get:</p>\n<p> $I_{B}=\\frac{0.5mA}{50}=0.01mA=10\\mu A.$ </p></p>\n<p>Thus, we have:</p>\n<p><p>Base Current,  $I_{B}=10\\mu A$ </p></p>\n<p><p>Collector Current,  $I_{C}=0.5mA$ </p></p>\n<p>These results correspond to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{CE}=2V",
@@ -1397,7 +1397,7 @@
         "I_{C}=50I_{B}."
       ],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:07.044965"
     },
@@ -1495,11 +1495,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><p>The energy gap (or band gap) is the energy difference between the valence band and the conduction band in a material.</p></p>\n<p><p>Semiconductors have a finite band gap that allows electrons to jump from the valence band to the conduction band with the absorption of energy. Typically, the band gap in semiconductors is less than 3 eV. For example, Germanium has a band gap of around  $0.66\\text{eV}$ .</p></p>\n<p><p>Metals, on the other hand, have overlapping conduction and valence bands, meaning they do not have a meaningful band gap (effectively, the gap is 0 eV).</p></p>\n<p>Given the options:  </p>\n<p><p>Option A: Germanium (a semiconductor with  $∼0.66\\text{eV}$  band gap, which is less than 3 eV)  </p></p>\n<p><p>Options B (Iron), C (Copper), and D (Aluminium) are metals and do not exhibit a band gap in the context of semiconductor physics.</p></p>\n<p>Thus, the correct answer is:</p>\n<p>Option A  </p>\n<p>Germanium</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Logic Gates & Truth Tables",
+      "topic_tag": "p-n Junction Diode & Zener Diode Regulation",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Logic Gates & Truth Tables"
+        "p-n Junction Diode & Zener Diode Regulation"
       ],
       "crawled_at": "2026-09-20T15:28:07.243906"
     },

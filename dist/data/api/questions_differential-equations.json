@@ -305,7 +305,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We are given</p>\n<p> $f(xy)=f(x)f(y)\\text{for all}x,y \\in ℝ,$ </p>\n<p>and</p>\n<p> $f(0) \\ne 0.$ </p>\n<p>Also,</p>\n<p> $x^{2}g(x)=\\int_{1}^{x}(t^{2}f(t)-tg(t))dt,x \\ge 1.$ </p>\n<p>We have to find  $g(2)$ .</p>\n<h3>Step 1: Use the condition on  $f$ </h3>\n<p>Given</p>\n<p> $f(xy)=f(x)f(y)$ </p>\n<p>for all real  $x,y$ .</p>\n<p>Now put  $x=0$  and any real  $y$ . Then</p>\n<p> $f(0 \\cdot y)=f(0)f(y)$ </p>\n<p>that is,</p>\n<p> $f(0)=f(0)f(y).$ </p>\n<p>Since  $f(0) \\ne 0$ , we can divide by  $f(0)$ :</p>\n<p> $f(y)=1\\text{for all}y \\in ℝ.$ </p>\n<p>So,</p>\n<p> $f(t)=1\\text{for all}t.$ </p>\n<h3>Step 2: Substitute into the given integral equation</h3>\n<p>The equation becomes</p>\n<p> $x^{2}g(x)=\\int_{1}^{x}(t^{2}-tg(t))dt.$ </p>\n<h3>Step 3: Differentiate both sides</h3>\n<p>Differentiate with respect to  $x$ .</p>\n<p>Left side:</p>\n<p> $\\frac{d}{dx}[x^{2}g(x)]=x^{2}g^{'}(x)+2xg(x).$ </p>\n<p>Right side, by the Fundamental Theorem of Calculus:</p>\n<p> $\\frac{d}{dx}\\int_{1}^{x}(t^{2}-tg(t))dt=x^{2}-xg(x).$ </p>\n<p>Hence,</p>\n<p> $x^{2}g^{'}(x)+2xg(x)=x^{2}-xg(x).$ </p>\n<p>So,</p>\n<p> $x^{2}g^{'}(x)+3xg(x)=x^{2}.$ </p>\n<p>Divide by  $x$  (since  $x \\ge 1$ ):</p>\n<p> $xg^{'}(x)+3g(x)=x.$ </p>\n<p>Or,</p>\n<p> $g^{'}(x)+\\frac{3}{x}g(x)=1.$ </p>\n<h3>Step 4: Solve the differential equation</h3>\n<p>This is a linear differential equation:</p>\n<p> $g^{'}(x)+\\frac{3}{x}g(x)=1.$ </p>\n<p>Its integrating factor is</p>\n<p> $I.F.=e^{\\int \\frac{3}{x}dx}=e^{3lnx}=x^{3}.$ </p>\n<p>Multiply both sides by  $x^{3}$ :</p>\n<p> $x^{3}g^{'}(x)+3x^{2}g(x)=x^{3}.$ </p>\n<p>The left side is</p>\n<p> $\\frac{d}{dx}(x^{3}g(x)).$ </p>\n<p>So,</p>\n<p> $\\frac{d}{dx}(x^{3}g(x))=x^{3}.$ </p>\n<p>Integrate:</p>\n<p> $x^{3}g(x)=\\frac{x^{4}}{4}+C.$ </p>\n<p>Thus,</p>\n<p> $g(x)=\\frac{x}{4}+\\frac{C}{x^{3}}.$ </p>\n<h3>Step 5: Find the constant using the original equation</h3>\n<p>Put  $x=1$  in</p>\n<p> $x^{2}g(x)=\\int_{1}^{x}(t^{2}-tg(t))dt.$ </p>\n<p>Then</p>\n<p> $1^{2}g(1)=\\int_{1}^{1}(t^{2}-tg(t))dt=0.$ </p>\n<p>So,</p>\n<p> $g(1)=0.$ </p>\n<p>Now use</p>\n<p> $g(1)=\\frac{1}{4}+C=0.$ </p>\n<p>Hence,</p>\n<p> $C=-\\frac{1}{4}.$ </p>\n<p>Therefore,</p>\n<p> $g(x)=\\frac{x}{4}-\\frac{1}{4x^{3}}.$ </p>\n<h3>Step 6: Find  $g(2)$ </h3>\n<p> $g(2)=\\frac{2}{4}-\\frac{1}{4(2^{3})}=\\frac{1}{2}-\\frac{1}{32}=\\frac{16-1}{32}=\\frac{15}{32}.$ </p>\n<p>So the correct answer is</p>\n<p> $\\frac{15}{32}.$ </p>\n<p>Hence, <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "f(xy)=f(x)f(y)",
@@ -316,7 +316,6 @@
         "I.F.=e^{\\int \\frac{3}{x}dx}=e^{3lnx}=x^{3}."
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:01.764823"
@@ -420,7 +419,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given equation is :</p>\n<p> $x\\frac{dy}{dx}-sin2y=x^{3}(2-x^{3})cos^{2}y,x \\ne 0$ </p>\n<p>Divide by  $xcos^{2}y$ </p>\n<p> $sec^{2}y\\frac{dy}{dx}-\\frac{sin2y}{xcos^{2}y}=x^{2}(2-x^{3})$ </p>\n<p> $sec^{2}y\\frac{dy}{dx}-\\frac{2tany}{x}=2x^{2}-x^{5}$ </p>\n<p>Substitute  $tany=t$  and differentiate w.r.t  $x$ </p>\n<p> $sec^{2}y\\frac{dy}{dx}=\\frac{dt}{dx}$ </p>\n<p>Equation (1) becomes linear differential equation.</p>\n<p> $\\frac{dt}{dx}-\\frac{2}{x}t=2x^{2}-x^{5}$ </p>\n<p>Integrating factor  $IF=e^{\\int (-\\frac{2}{x})dx}=e^{-2lnx}=e^{ln(\\frac{1}{x^{2}})}=\\frac{1}{x^{2}}$ </p>\n<p>Solution of linear differential equation :</p>\n<p> $t \\cdot IF=\\int (IF)(2x^{2}-x^{5})dx$ </p>\n<p> $\\Rightarrow$   $t \\cdot \\frac{1}{x^{2}}=\\int \\frac{1}{x^{2}}(2x^{2}-x^{5})dx$ </p>\n<p> $\\Rightarrow$   $\\frac{t}{x^{2}}=\\int (2-x^{3})dx=2x-\\frac{x^{4}}{4}+C$ </p>\n<p>put value of  $t=tany$ </p>\n<p> $\\frac{tany}{x^{2}}=2x-\\frac{x^{4}}{4}+C$ </p>\n<p>using condition  $y(2)=0$  to find  $C$ .</p>\n<p> $\\frac{tan(0)}{2^{2}}=2 \\times 2-\\frac{2^{4}}{4}+C⟹C=0$ </p>\n<p>So, solution of differential equation is</p>\n<p> $tany=2x^{3}-\\frac{x^{6}}{4}$ </p>\n<p>to calculate  $tan(y(1))$ , put  $x=1$  in the solution.</p>\n<p> $tan(y(1))=2(1)^{3}-\\frac{(1)^{6}}{4}$ </p>\n<p> $=2-\\frac{1}{4}=\\frac{7}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=y(x)",
@@ -431,7 +430,6 @@
         "sec^{2}y\\frac{dy}{dx}-\\frac{sin2y}{xcos^{2}y}=x^{2}(2-x^{3})"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:03.288359"
@@ -571,7 +569,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $f(x)=\\int_{1}^{x}f(t)dt+(1-x)(lnx-1)+e,x \\in [1,\\infty)$ </p>\n<p>We have to find  $f(f(1))$ .</p>\n<p>First, put  $x=1$  in the given equation:</p>\n<p> $f(1)=\\int_{1}^{1}f(t)dt+(1-1)(ln1-1)+e$ </p>\n<p>Now,</p>\n<p> $\\int_{1}^{1}f(t)dt=0,(1-1)(ln1-1)=0$ </p>\n<p>So,</p>\n<p> $f(1)=e$ </p>\n<p>Hence,</p>\n<p> $f(f(1))=f(e)$ </p>\n<p>Now we find  $f(x)$ .</p>\n<p>Differentiate both sides of</p>\n<p> $f(x)=\\int_{1}^{x}f(t)dt+(1-x)(lnx-1)+e$ </p>\n<p>Using the Fundamental Theorem of Calculus,</p>\n<p> $\\frac{d}{dx}(\\int_{1}^{x}f(t)dt)=f(x)$ </p>\n<p>So,</p>\n<p> $f^{'}(x)=f(x)+\\frac{d}{dx}[(1-x)(lnx-1)]$ </p>\n<p>Now differentiate the second term carefully:</p>\n<p> $\\frac{d}{dx}[(1-x)(lnx-1)]=-(lnx-1)+(1-x) \\cdot \\frac{1}{x}$ </p>\n<p>Simplifying,</p>\n<p> $=-lnx+1+\\frac{1-x}{x}$ </p>\n<p> $=-lnx+1+\\frac{1}{x}-1$ </p>\n<p> $=\\frac{1}{x}-lnx$ </p>\n<p>Therefore,</p>\n<p> $f^{'}(x)=f(x)+\\frac{1}{x}-lnx$ </p>\n<p>So,</p>\n<p> $f^{'}(x)-f(x)=\\frac{1}{x}-lnx$ </p>\n<p>Now let us check whether</p>\n<p> $f(x)=lnx+1$ </p>\n<p>satisfies this equation.</p>\n<p>Then</p>\n<p> $f^{'}(x)=\\frac{1}{x}$ </p>\n<p>So,</p>\n<p> $f^{'}(x)-f(x)=\\frac{1}{x}-(lnx+1)$ </p>\n<p>This does not match directly. So instead, let us use the original equation to test  $f(x)=lnx+1$ .</p>\n<p>Right-hand side:</p>\n<p> $\\int_{1}^{x}(lnt+1)dt+(1-x)(lnx-1)+e$ </p>\n<p>Now,</p>\n<p> $\\int (lnt+1)dt=tlnt$ </p>\n<p>Therefore,</p>\n<p> $\\int_{1}^{x}(lnt+1)dt=xlnx-1 \\cdot ln1=xlnx$ </p>\n<p>since  $ln1=0$ .</p>\n<p>Thus RHS becomes</p>\n<p> $xlnx+(1-x)(lnx-1)+e$ </p>\n<p>Expand:</p>\n<p> $=xlnx+(1-x)lnx-(1-x)+e$ </p>\n<p> $=lnx-1+x+e$ </p>\n<p>This is not equal to  $lnx+1$ , so this trial is not correct.</p>\n<p>Now solve the differential equation properly:</p>\n<p> $f^{'}(x)-f(x)=\\frac{1}{x}-lnx$ </p>\n<p>This is a linear differential equation.</p>\n<p>Its integrating factor is</p>\n<p> $I.F.=e^{-x}$ </p>\n<p>Multiplying both sides by  $e^{-x}$ ,</p>\n<p> $e^{-x}f^{'}(x)-e^{-x}f(x)=e^{-x}(\\frac{1}{x}-lnx)$ </p>\n<p>So,</p>\n<p> $\\frac{d}{dx}(f(x)e^{-x})=e^{-x}(\\frac{1}{x}-lnx)$ </p>\n<p>This looks difficult, so let us instead use the original functional equation more intelligently.</p>\n<p>Write</p>\n<p> $g(x)=f(x)-(lnx+1)$ </p>\n<p>Then</p>\n<p> $f(x)=g(x)+lnx+1$ </p>\n<p>Substitute into the original equation:</p>\n<p> $g(x)+lnx+1=\\int_{1}^{x}(g(t)+lnt+1)dt+(1-x)(lnx-1)+e$ </p>\n<p>Now,</p>\n<p> $\\int_{1}^{x}(lnt+1)dt=xlnx$ </p>\n<p>Hence,</p>\n<p> $g(x)+lnx+1=\\int_{1}^{x}g(t)dt+xlnx+(1-x)(lnx-1)+e$ </p>\n<p>Simplify the terms:</p>\n<p> $xlnx+(1-x)(lnx-1)=xlnx+(1-x)lnx-(1-x)$ </p>\n<p> $=lnx-1+x$ </p>\n<p>So,</p>\n<p> $g(x)+lnx+1=\\int_{1}^{x}g(t)dt+lnx-1+x+e$ </p>\n<p>Thus,</p>\n<p> $g(x)+1=\\int_{1}^{x}g(t)dt-1+x+e$ </p>\n<p>This is not simplifying nicely. Let us now directly guess from options.</p>\n<p>Since</p>\n<p> $f(1)=e$ </p>\n<p>we need  $f(e)$ .</p>\n<p>Use the original equation at  $x=e$ :</p>\n<p> $f(e)=\\int_{1}^{e}f(t)dt+(1-e)(lne-1)+e$ </p>\n<p>But</p>\n<p> $lne=1$ </p>\n<p>so</p>\n<p> $(1-e)(lne-1)=0$ </p>\n<p>Hence</p>\n<p> $f(e)=\\int_{1}^{e}f(t)dt+e$ </p>\n<p>Now from the given equation,</p>\n<p> $f^{'}(x)=f(x)+\\frac{1}{x}-lnx$ </p>\n<p>Try</p>\n<p> $f(x)=lnx+1+Ce^{x}$ </p>\n<p>Then</p>\n<p> $f^{'}(x)=\\frac{1}{x}+Ce^{x}$ </p>\n<p>So,</p>\n<p> $f^{'}(x)-f(x)=\\frac{1}{x}+Ce^{x}-(lnx+1+Ce^{x})=\\frac{1}{x}-lnx-1$ </p>\n<p>We are short by  $-1$ . So modify the trial.</p>\n<p>Try</p>\n<p> $f(x)=lnx+A+Ce^{x}$ </p>\n<p>Then</p>\n<p> $f^{'}(x)=\\frac{1}{x}+Ce^{x}$ </p>\n<p>Hence</p>\n<p> $f^{'}(x)-f(x)=\\frac{1}{x}+Ce^{x}-(lnx+A+Ce^{x})=\\frac{1}{x}-lnx-A$ </p>\n<p>Comparing with</p>\n<p> $\\frac{1}{x}-lnx$ </p>\n<p>we get</p>\n<p> $A=0$ </p>\n<p>So,</p>\n<p> $f(x)=lnx+Ce^{x}$ </p>\n<p>Now use  $f(1)=e$ :</p>\n<p> $f(1)=ln1+Ce=e$ </p>\n<p> $0+Ce=e$ </p>\n<p>So,</p>\n<p> $C=1$ </p>\n<p>Therefore,</p>\n<p> $f(x)=lnx+e^{x}$ </p>\n<p>Now,</p>\n<p> $f(e)=lne+e^{e}=1+e^{e}$ </p>\n<p>Hence,</p>\n<p> $f(f(1))=1+e^{e}$ </p>\n<p>So the correct answer is:</p>\n<p> $1+e^{e}$ </p>\n<p>Therefore, Option A is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "f(x)=\\int_{1}^{x}f(t)dt+(1-x)(log_{e}x-1)+e",
@@ -582,7 +580,6 @@
         "f(1)=e"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:01.785029"
@@ -774,7 +771,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(x^{2}-4)y^{'}-2xy+2x(4-x^{2})^{2}=0,x&gt;2$ </p>\n<p>rearranging terms.</p>\n<p> $\\begin{aligned} &amp; (x^{2}-4)\\frac{dy}{dx}-2xy=-2x(x^{2}-4)^{2} \\\\ &amp; \\frac{dy}{dx}-\\frac{2x}{x^{2}-4}y=-2x(x^{2}-4) \\end{aligned}$ </p>\n<p>this is a linear differential equation of the form  $\\frac{dy}{dx}+Py=Q$ </p>\n<p> $P=-\\frac{2x}{x^{2}-4},Q=-2x(x^{2}-4)$ </p>\n<p>finding integrating factor (I.F.).</p>\n<p> $\\begin{aligned} \\text{I.F.} &amp; =e^{\\int Pdx}=e^{\\int -\\frac{2x}{x^{2}-4}dx} \\\\ \\text{I.F.} &amp; =e^{-ln(x^{2}-4)}=\\frac{1}{x^{2}-4} \\end{aligned}$ </p>\n<p>the solution is  $y \\cdot (I.F)=.\\int Q \\cdot (I.F)dx+$ .</p>\n<p> $\\begin{aligned} &amp; y \\cdot \\frac{1}{x^{2}-4}=\\int -2x(x^{2}-4) \\cdot \\frac{1}{x^{2}-4}dx+C \\\\ &amp; \\frac{y}{x^{2}-4}=\\int -2xdx+C \\\\ &amp; \\frac{y}{x^{2}-4}=-x^{2}+C \\Rightarrow y=(x^{2}-4)(C-x^{2}) \\end{aligned}$ </p>\n<p>substitute point  $(3,15)$ </p>\n<p> $15=(3^{2}-4)(C-3^{2})$ </p>\n<p> $\\begin{aligned} &amp; 15=5(C-9) \\Rightarrow 3=C-9 \\Rightarrow C=12 \\\\ &amp; f(x)=(x^{2}-4)(12-x^{2}) \\\\ &amp; f(x)=-x^{4}+16x^{2}-48 \\end{aligned}$ </p>\n<p>finding critical points for local maximum.</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=-4x^{3}+32x \\\\ &amp; f^{'}(x)=0 \\Rightarrow -4x(x^{2}-8)=0 \\\\ &amp; \\text{since}x&gt;2,x^{2}=8 \\Rightarrow x=\\sqrt{8}=2\\sqrt{2} \\end{aligned}$ </p>\n<p> $f^{'}((2\\sqrt{2})^{-})=$ positive,  $f^{'}((2\\sqrt{2})^{+})=$ negative</p>\n<p>so sign of  $f^{'}(x)$  changing positive to negative about  $x=2\\sqrt{2}$  so  $x=2\\sqrt{2}$  is point of local maxima</p>\n<p>calculating local maximum value.</p>\n<p> $\\begin{aligned} &amp; f(2\\sqrt{2})=((2\\sqrt{2})^{2}-4)(12-(2\\sqrt{2})^{2}) \\\\ &amp; =(8-4)(12-8) \\\\ &amp; =4 \\times 4=16 \\end{aligned}$ </p>\n<p>the local maximum value is 16 .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=f(x)",
@@ -785,7 +782,6 @@
         "f^{'}((2\\sqrt{2})^{-})="
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:29.911174"
@@ -832,7 +828,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given differential equation is</p>\n<p> $\\frac{dy}{dx}+(\\frac{6x^{2}+(3x^{2}+2x^{3}+4)e^{-2x}}{(x^{3}+2)(2+e^{-2x})})y=2+e^{-2x}$ </p>\n<p>with initial condition</p>\n<p> $y(0)=\\frac{3}{2}.$ </p>\n<p>We have to find  $y(1)=\\alpha(2+e^{-2})$ .</p>\n<h3>Step 1: Compare with linear differential equation</h3>\n<p>This is of the form</p>\n<p> $\\frac{dy}{dx}+P(x)y=Q(x),$ </p>\n<p>where</p>\n<p> $P(x)=\\frac{6x^{2}+(3x^{2}+2x^{3}+4)e^{-2x}}{(x^{3}+2)(2+e^{-2x})},Q(x)=2+e^{-2x}.$ </p>\n<p>To solve, we find the integrating factor:</p>\n<p> $\\text{I.F.}=e^{\\int P(x)dx}.$ </p>\n<h3>Step 2: Simplify  $P(x)$ </h3>\n<p>Notice that</p>\n<p> $\\frac{d}{dx}(x^{3}+2)=3x^{2},$ </p>\n<p>and</p>\n<p> $\\frac{d}{dx}(2+e^{-2x})=-2e^{-2x}.$ </p>\n<p>Now consider</p>\n<p> $\\frac{d}{dx}[(x^{3}+2)(2+e^{-2x})].$ </p>\n<p>Using product rule,</p>\n<p> $=(3x^{2})(2+e^{-2x})+(x^{3}+2)(-2e^{-2x})$ </p>\n<p> $=6x^{2}+3x^{2}e^{-2x}-2x^{3}e^{-2x}-4e^{-2x}.$ </p>\n<p>This does not match directly. So let us try another observation.</p>\n<p>Write numerator as</p>\n<p> $6x^{2}+(3x^{2}+2x^{3}+4)e^{-2x}.$ </p>\n<p>Now check</p>\n<p> $\\frac{d}{dx}[(x^{3}+2)(2+e^{-2x})]=6x^{2}+(3x^{2}-2x^{3}-4)e^{-2x}.$ </p>\n<p>Hence if we take</p>\n<p> $\\frac{d}{dx}[(x^{3}+2)(2+e^{-2x})^{-1}]$ </p>\n<p>it becomes complicated. So instead, let us look for a useful factorization.</p>\n<p>Observe that</p>\n<p> $6x^{2}+(3x^{2}+2x^{3}+4)e^{-2x}=3x^{2}(2+e^{-2x})+(x^{3}+2) \\cdot 2e^{-2x}.$ </p>\n<p>Therefore</p>\n<p> $P(x)=\\frac{3x^{2}(2+e^{-2x})+(x^{3}+2) \\cdot 2e^{-2x}}{(x^{3}+2)(2+e^{-2x})}$ </p>\n<p> $=\\frac{3x^{2}}{x^{3}+2}+\\frac{2e^{-2x}}{2+e^{-2x}}.$ </p>\n<p>So,</p>\n<p> $P(x)=\\frac{3x^{2}}{x^{3}+2}+\\frac{2e^{-2x}}{2+e^{-2x}}.$ </p>\n<h3>Step 3: Find integrating factor</h3>\n<p>Now</p>\n<p> $\\int P(x)dx=\\int \\frac{3x^{2}}{x^{3}+2}dx+\\int \\frac{2e^{-2x}}{2+e^{-2x}}dx.$ </p>\n<p>For the first integral:</p>\n<p>Let  $u=x^{3}+2$ , then  $du=3x^{2}dx$ .</p>\n<p>So,</p>\n<p> $\\int \\frac{3x^{2}}{x^{3}+2}dx=ln(x^{3}+2).$ </p>\n<p>For the second integral, note that</p>\n<p> $\\frac{d}{dx}(2+e^{-2x})=-2e^{-2x}.$ </p>\n<p>Hence</p>\n<p> $\\int \\frac{2e^{-2x}}{2+e^{-2x}}dx=-ln(2+e^{-2x}).$ </p>\n<p>Therefore,</p>\n<p> $\\int P(x)dx=ln(x^{3}+2)-ln(2+e^{-2x})=ln(\\frac{x^{3}+2}{2+e^{-2x}}).$ </p>\n<p>So the integrating factor is</p>\n<p> $\\text{I.F.}=e^{\\int P(x)dx}=\\frac{x^{3}+2}{2+e^{-2x}}.$ </p>\n<h3>Step 4: Multiply the equation by the integrating factor</h3>\n<p>Multiplying throughout by</p>\n<p> $\\frac{x^{3}+2}{2+e^{-2x}},$ </p>\n<p>we get</p>\n<p> $\\frac{x^{3}+2}{2+e^{-2x}}\\frac{dy}{dx}+\\frac{x^{3}+2}{2+e^{-2x}}P(x)y=(x^{3}+2).$ </p>\n<p>So the left side becomes</p>\n<p> $\\frac{d}{dx}[y \\cdot \\frac{x^{3}+2}{2+e^{-2x}}].$ </p>\n<p>Hence</p>\n<p> $\\frac{d}{dx}[y \\cdot \\frac{x^{3}+2}{2+e^{-2x}}]=x^{3}+2.$ </p>\n<p>Integrating both sides,</p>\n<p> $y \\cdot \\frac{x^{3}+2}{2+e^{-2x}}=\\int (x^{3}+2)dx=\\frac{x^{4}}{4}+2x+C.$ </p>\n<p>Thus,</p>\n<p> $y=\\frac{2+e^{-2x}}{x^{3}+2}(\\frac{x^{4}}{4}+2x+C).$ </p>\n<h3>Step 5: Use initial condition</h3>\n<p>Given</p>\n<p> $y(0)=\\frac{3}{2}.$ </p>\n<p>Substitute  $x=0$ :</p>\n<p> $\\frac{3}{2}=\\frac{2+e^{0}}{0^{3}+2}(0+0+C)=\\frac{3}{2}C.$ </p>\n<p>So,</p>\n<p> $C=1.$ </p>\n<p>Hence solution is</p>\n<p> $y=\\frac{2+e^{-2x}}{x^{3}+2}(\\frac{x^{4}}{4}+2x+1).$ </p>\n<h3>Step 6: Find  $y(1)$ </h3>\n<p>Substitute  $x=1$ :</p>\n<p> $y(1)=\\frac{2+e^{-2}}{1^{3}+2}(\\frac{1}{4}+2+1).$ </p>\n<p> $y(1)=\\frac{2+e^{-2}}{3}(\\frac{1}{4}+3)=\\frac{2+e^{-2}}{3} \\cdot \\frac{13}{4}$ </p>\n<p> $y(1)=\\frac{13}{12}(2+e^{-2}).$ </p>\n<p>Given that</p>\n<p> $y(1)=\\alpha(2+e^{-2}),$ </p>\n<p>so</p>\n<p> $\\alpha=\\frac{13}{12}.$ </p>\n<h3>Final Answer</h3>\n<p> $\\frac{13}{12}$ </p>\n<p>So, the correct option is <strong>D</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=y(x)",
@@ -843,7 +839,6 @@
         "\\frac{d}{dx}[(x^{3}+2)(2+e^{-2x})]=6x^{2}+(3x^{2}-2x^{3}-4)e^{-2x}."
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:01.856740"
@@ -1482,7 +1477,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x+y)=f(x)f^{'}(y)+f^{'}(x)f(x) \\\\ &amp; \\text{Put}=x=y=0 \\\\ &amp; f(0)=f(0)f^{'}(0)+f^{'}(0)f(0) \\\\ &amp; f^{'}(0)=\\frac{1}{2} \\\\ &amp; \\text{Put}y=0 \\\\ &amp; f(x)=f(x)f^{'}(0)+f^{'}(x)f(0) \\\\ &amp; f(x)=\\frac{1}{2}f(x)+f^{'}(x) \\\\ &amp; f^{'}(x)=\\frac{f(x)}{2} \\end{aligned}$ </p>\n<p> $\\frac{dy}{dx}=\\frac{y}{2} \\Rightarrow \\int \\frac{dy}{y}=\\int \\frac{dx}{2}$ </p>\n<p> $\\Rightarrow lny=\\frac{x}{2}+c$ </p>\n<p> $\\begin{aligned} &amp; \\because f(0)=1 \\Rightarrow C=0 \\\\ &amp; \\ell ny=\\frac{\\pi}{2} \\Rightarrow f(x)=e^{x/2} \\\\ &amp; lnf(n)=\\frac{n}{2} \\\\ &amp; \\sum_{n=1}^{100}\\ell f(n)=\\frac{1}{2}\\sum_{n=1}^{100}n=\\frac{5050}{2} \\\\ &amp; =2525 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "f(0)=1",
@@ -1492,7 +1487,7 @@
         "\\Rightarrow lny=\\frac{x}{2}+c"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:06.527586"
     },
@@ -1824,7 +1819,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=x-1 \\\\ &amp; f(f(x))=f(x)-1=x-1-1=x-2 \\\\ &amp; g(f(f(x)))=e^{x-2} \\\\ &amp; \\therefore \\frac{dy}{dx}=e^{-2\\sqrt{x}} \\times e^{x-2}-\\frac{1}{\\sqrt{x}}y \\\\ &amp; \\frac{dy}{dx}+\\frac{1}{\\sqrt{x}}y=e^{x-2\\sqrt{x}-2}\\text{which is L.D.E} \\\\ &amp; \\text{I.F.}=e^{\\int \\frac{dy}{\\sqrt{x}}}=e^{2\\sqrt{x}} \\end{aligned}$ </p>\n<p>Its solution is</p>\n<p> $\\begin{aligned} &amp; y \\times e^{2\\sqrt{x}}=\\int e^{2\\sqrt{x}} \\times e^{x-2\\sqrt{x}-2}dx+c \\\\ &amp; y \\times e^{2\\sqrt{x}}=\\int e^{x-2}dx+c \\\\ &amp; y \\times e^{2\\sqrt{x}}=e^{x-2}+c \\end{aligned}$ </p>\n<p>Given  $x=0,y=0 \\Rightarrow 0=e^{-2}+c;c=-e^{-2}$ </p>\n<p> $\\therefore y \\times e^{2\\sqrt{x}}=e^{x-2}-e^{-2}$ </p>\n<p>when  $x=1,y \\times e^{2}=e^{-1}-e^{-2}$ </p>\n<p> $y=\\frac{e^{-1}-e^{-2}}{e^{2}}=\\frac{\\frac{1}{e}-\\frac{1}{e^{2}}}{e^{2}}=\\frac{e^{2}-e}{e^{5}}=\\frac{e-1}{e^{4}}$ </p>\n<p>Option (1) is correct</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=x-1",
@@ -1835,7 +1830,7 @@
         "x=1,y \\times e^{2}=e^{-1}-e^{-2}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:04.016787"
     },
@@ -1936,14 +1931,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{0}^{x}tf(t)dt=x^{2}+(x),x&gt;0 \\\\ &amp; \\text{Diff. both side w.r. to}x \\\\ &amp; \\begin{aligned} &amp; xf(x)=x^{2}f^{'}(x)+2xf(x) \\\\ &amp; -xf(x)=x^{2}f^{'}(x) \\\\ &amp; \\int \\frac{f^{'}(x)}{f(x)}dx=\\int \\frac{-1}{x}dx \\\\ &amp; logdf(x)=-logx+logc \\\\ &amp; f(x)=\\frac{c}{x} \\end{aligned} \\\\ &amp; f(2)=3 \\Rightarrow 3=\\frac{c}{2} \\Rightarrow c=6 \\\\ &amp; f(x)=\\frac{6}{x} \\\\ &amp; f(6)=1 \\therefore (1) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Easy",
       "key_formulas": [
         "y=f(x),\\int_{0}^{x}tf(t)dt=x^{2}f(x),x>0",
         "f(2)=3"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:05.491831"
     },
@@ -2772,7 +2767,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{dx}{dt}+ax=0 \\\\ &amp; \\frac{dx}{x}=-adt \\\\ &amp; \\int \\frac{dx}{x}=-a\\int dt \\\\ &amp; ln|x|=-at+c \\\\ &amp; att=0,x=2 \\\\ &amp; ln2=0+c \\\\ &amp; lnx=-at+ln2 \\\\ &amp; \\frac{x}{2}=e^{-at} \\\\ &amp; x=2e^{-at}\\text{.... (i)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dt}+by=0 \\\\ &amp; \\frac{dy}{y}=-bdt \\\\ &amp; ln|y|=-bt+\\lambda \\\\ &amp; t=0,y=1 \\\\ &amp; 0=0+\\lambda \\\\ &amp; y=e^{-bt}\\text{..... (ii)} \\end{aligned}$ </p>\n<p>According to question</p>\n<p> $\\begin{aligned} &amp; 3y(1)=2x(1) \\\\ &amp; 3e^{-b}=2(2e^{-a}) \\\\ &amp; e^{a-b}=\\frac{4}{3} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{For}x(t)=y(t) \\\\ &amp; \\begin{aligned} 2e^{-at}=e^{-bt} \\\\ 2=e^{(a-b)t} \\\\ 2=(\\frac{4}{3})^{t} \\\\ log_{\\frac{4}{3}}2=t \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "x=x(t)",
@@ -2783,7 +2778,7 @@
         "3y(1)=2x(1)"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:10.167778"
     },
@@ -2808,7 +2803,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f^{'}(x)=3f(x)+\\alpha \\\\ &amp; \\Rightarrow \\frac{dy}{3y+\\alpha}=dx \\\\ &amp; \\Rightarrow \\frac{1}{3}ln(3y+\\alpha)=x+C \\\\ &amp; y(0)=1 \\Rightarrow C=\\frac{1}{3}ln(3+\\alpha) \\\\ &amp; \\frac{1}{3}ln(\\frac{3y+\\alpha}{3+\\alpha})=x \\\\ &amp; \\Rightarrow y=\\frac{1}{3}((3+\\alpha)e^{3x}-\\alpha)=f(x) \\\\ &amp; \\underset{x \\rightarrow -\\infty}{lim}f(x)=7 \\Rightarrow \\alpha=-21 \\\\ &amp; \\Rightarrow f(x)=7-6e^{3x} \\\\ &amp; 9f(-ln3)=61 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "f^{'}(x)=3f(x)+\\alpha",
@@ -2817,7 +2812,7 @@
         "9f(-log_{e}3)"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:30.806412"
     },
@@ -3491,7 +3486,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine  $y(0)$ , we start by solving the differential equation given:</p>\n<p> $(1+x^{2})\\frac{dy}{dx}+y=e^{tan^{-1}x}$ </p>\n<p>First, we rewrite it in the standard form for a linear differential equation:</p>\n<p> $\\frac{dy}{dx}+\\frac{y}{1+x^{2}}=\\frac{e^{tan^{-1}x}}{1+x^{2}}$ </p>\n<p>Next, we find the integrating factor (I.F.):</p>\n<p> $\\text{I.F.}=e^{\\int \\frac{1}{1+x^{2}}dx}=e^{tan^{-1}x}$ </p>\n<p>Multiply through by the integrating factor:</p>\n<p> $y \\cdot e^{tan^{-1}x}=\\int e^{tan^{-1}x} \\cdot \\frac{e^{tan^{-1}x}}{1+x^{2}}dx$ </p>\n<p>This simplifies to:</p>\n<p> $y \\cdot e^{tan^{-1}x}=\\int \\frac{e^{2tan^{-1}x}}{1+x^{2}}dx$ </p>\n<p>Make the substitution  $tan^{-1}x=t$ , then  $\\frac{1}{1+x^{2}}dx=dt$ :</p>\n<p> $\\int e^{2t}dt=\\frac{e^{2t}}{2}+\\frac{C}{2}$ </p>\n<p>Rewrite in terms of  $x$ :</p>\n<p> $y \\cdot e^{tan^{-1}x}=\\frac{e^{2tan^{-1}x}}{2}+\\frac{C}{2}$ </p>\n<p>Use the initial condition  $y(1)=0$ :</p>\n<p> $0=\\frac{e^{2 \\cdot tan^{-1}1}}{2}+\\frac{C}{2}$ </p>\n<p>Since  $tan^{-1}1=\\frac{\\pi}{4}$ :</p>\n<p> $0=\\frac{e^{\\pi/2}}{2}+\\frac{C}{2}⟹C=-e^{\\pi/2}$ </p>\n<p>Thus, the solution is:</p>\n<p> $y \\cdot e^{tan^{-1}x}=\\frac{e^{2tan^{-1}x}-e^{\\pi/2}}{2}$ </p>\n<p>Evaluating  $y(0)$ :</p>\n<p> $y(0)=y \\cdot 1=\\frac{1-e^{\\pi/2}}{2}$ </p>\n<p>Therefore,</p>\n<p> $y(0)=\\frac{1}{2}(1-e^{\\pi/2})$ </p>\n<p>Hence, the correct answer is:</p>\n<p>Option B</p>\n<p> $\\frac{1}{2}(1-e^{\\pi/2})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=y(x)",
@@ -3502,7 +3497,6 @@
         "y \\cdot e^{tan^{-1}x}=\\int e^{tan^{-1}x} \\cdot \\frac{e^{tan^{-1}x}}{1+x^{2}}dx"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:07.851200"
@@ -4764,7 +4758,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $\\frac{dy}{dx}=y+7$ </p>\n<p>This is a first order linear differential equation and can be solved using an integrating factor. </p>\n<p>Rearrange the equation to the standard form of a linear differential equation :</p>\n<p> $\\frac{dy}{dx}-y=7$ </p>\n<p>The integrating factor is  $e^{-\\int dx}=e^{-x}$ .</p>\n<p>Multiplying each side of the equation by the integrating factor gives :</p>\n<p> $e^{-x}\\frac{dy}{dx}-e^{-x}y=7e^{-x}$ </p>\n<p>The left-hand side of the equation is the derivative of  $(e^{-x}y)$  with respect to  $x$ . So we can write the equation as :</p>\n<p> $\\frac{d}{dx}(e^{-x}y)=7e^{-x}$ </p>\n<p>Integrate both sides with respect to  $x$  :</p>\n<p> $e^{-x}y=-7e^{-x}+C$ </p>\n<p>Multiply both sides by  $e^{x}$  to isolate  $y$  :</p>\n<p> $y=-7+Ce^{x}$ </p>\n<p>So, the general solution to the differential equation is  $y=-7+Ce^{x}$ .</p>\n<p>Now, let's apply the initial conditions to find the particular solutions :</p>\n<p>For  $y_{1}(0)=0$ , we substitute into the general solution and solve for  $C$  :</p>\n<p> $0=-7+C$ </p>\n<p>So,  $C=7$ , and the solution for  $y_{1}$  is  $y_{1}(x)=7e^{x}-7$ .</p>\n<p>For  $y_{2}(0)=1$ , again substitute into the general solution:</p>\n<p> $1=-7+C$ </p>\n<p>So,  $C=8$ , and the solution for  $y_{2}$  is  $y_{2}(x)=8e^{x}-7$ .</p>\n<p>The two curves intersect when  $y_{1}(x)=y_{2}(x)$ . Setting these equal and solving for  $x$  gives :</p>\n<p> $7e^{x}-7=8e^{x}-7$ </p>\n<p> $e^{x}=0$ </p>\n<p>But  $e^{x}=0$  has no solution, because the exponential function never equals zero.</p>\n<p>So, the curves  $y=y_{1}(x)$  and  $y=y_{2}(x)$  do not intersect at any point.</p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=y_{1}(x)",
@@ -4775,7 +4769,6 @@
         "\\frac{dy}{dx}-y=7"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:10.184380"
@@ -5229,7 +5222,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}∝\\frac{-y}{x}$ </p>\n<p> $\\frac{dy}{dx}=\\frac{-ky}{x} \\Rightarrow \\int \\frac{dy}{y}=-K\\int \\frac{dx}{x}$ </p>\n<p> $ln|y|=-Kln|x|+C$ </p>\n<p>If the above equation satisfy (1, 2) and (8, 1)</p>\n<p> $ln2=-K \\times 0+C \\Rightarrow C=ln2$ </p>\n<p> $ln1=-Kln8+ln2 \\Rightarrow K=\\frac{1}{3}$ </p>\n<p>So, at  $x=\\frac{1}{8}$ </p>\n<p> $ln|y|=-\\frac{1}{3}ln(\\frac{1}{8})+ln2=2ln2$ </p>\n<p> $|y|=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "y=f(x)",
@@ -5240,7 +5233,7 @@
         "ln|y|=-Kln|x|+C"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:14.908507"
     },
@@ -6205,7 +6198,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}+\\frac{xy}{x^{2}-1}=\\frac{x^{4}+2x}{\\sqrt{1-x^{2}}}$ </p>\n<p>which is first order linear differential equation.</p>\n<p>Integrating factor  $(I.F.)=e^{\\int \\frac{x}{x^{2}-1}dx}$ </p>\n<p> $=e^{\\frac{1}{2}ln|x^{2}-1|}=\\sqrt{|x^{2}-1|}$ </p>\n<p> $=\\sqrt{1-x^{2}}$ </p>\n<p> $\\because$   $x \\in (-1,1)$ </p>\n<p>Solution of differential equation</p>\n<p> $y\\sqrt{1-x^{2}}=\\int (x^{4}+2x)dx=\\frac{x^{5}}{5}+x^{2}+c$ </p>\n<p>Curve is passing through origin,  $c=0$ </p>\n<p> $y=\\frac{x^{5}+5x^{2}}{5\\sqrt{1-x^{2}}}$ </p>\n<p> $\\int_{\\frac{-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}}\\frac{x^{5}+5x^{2}}{5\\sqrt{1-x^{2}}}dx=0+2\\int_{0}^{\\frac{\\sqrt{3}}{2}}\\frac{x^{2}}{\\sqrt{1-x^{2}}}dx$ </p>\n<p>put  $x=sin\\theta$ </p>\n<p> $dx=cos\\theta d\\theta$ </p>\n<p> $I=2\\int_{0}^{\\frac{\\pi}{3}}\\frac{sin^{2}\\theta.cos\\theta d\\theta}{cos\\theta}$ </p>\n<p> $=\\int_{0}^{\\frac{\\pi}{3}}(1-cos2\\theta)d\\theta$ </p>\n<p> $=(\\theta-\\frac{sin2\\theta}{2})|_{0}^{\\frac{\\pi}{3}}$ </p>\n<p> $=\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{4}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "y=f(x)",
@@ -6216,7 +6209,6 @@
         "=\\sqrt{1-x^{2}}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:14.279213"
@@ -6731,7 +6723,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}+2ytanx=sinx$ </p>\n<p>which is a first order linear differential equation.</p>\n<p>Integrating factor (I. F.)  $=e^{\\int 2tanxdx}$ </p>\n<p> $=e^{2ln|secx|}=sec^{2}x$ </p>\n<p>Solution of differential equation can be written as</p>\n<p> $y.sec^{2}x=\\int sinx.sec^{2}xdx=\\int secx.tanxdx$ </p>\n<p> $ysec^{2}x=secx+C$ </p>\n<p> $y(\\frac{\\pi}{3})=0,0=sec\\frac{\\pi}{3}+C \\Rightarrow C=-2$ </p>\n<p> $y=\\frac{secx-2}{sec^{2}x}=cosx-2cos^{2}x$ </p>\n<p> $=\\frac{1}{8}-2(cosx-\\frac{1}{4})^{2}$ </p>\n<p> $y_{max}=\\frac{1}{8}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{dy}{dx}+2ytanx=sinx,0<x<\\frac{\\pi}{2}",
@@ -6742,7 +6734,6 @@
         "y.sec^{2}x=\\int sinx.sec^{2}xdx=\\int secx.tanxdx"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:14.294672"
@@ -6789,7 +6780,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\frac{dy}{dx}=\\frac{ax-by+a}{bx+cy+a}$ </p>\n<p> $\\Rightarrow bxdy+cydy+ady=axdx-bydx+adx$ </p>\n<p> $\\Rightarrow bxdy+bydx+(cy+a)dy=(ax+a)dx$ </p>\n<p> $\\Rightarrow b(xdy+ydx)+(cy+a)dy=(ax+a)dx$ </p>\n<p> $\\Rightarrow bd(xy)+(cy+a)dy=(ax+a)dx$ </p>\n<p>Integrating both sides, we get</p>\n<p> $\\Rightarrow b\\int d(xy)+\\int (cy+a)dy=\\int (ax+a)dx$ </p>\n<p> $\\Rightarrow b.xy+c.\\frac{y^{2}}{2}+ay=\\frac{ax^{2}}{2}+ax+k$ </p>\n<p> $\\Rightarrow \\frac{ax^{2}}{2}-\\frac{cy^{2}}{2}-bxy+ax-ay+k=0$ </p>\n<p>For equation of circle,</p>\n<p>Coefficient of x<sup>2</sup> = Coefficient of y<sup>2</sup></p>\n<p> $\\therefore$   $\\frac{a}{2}=-\\frac{c}{2}$ </p>\n<p> $\\Rightarrow a=-c$ </p>\n<p>And coefficient of  $xy=0$ </p>\n<p> $\\therefore$   $-b=0$ </p>\n<p> $\\Rightarrow b=0$ </p>\n<p> $\\therefore$  Circle equation becomes,</p>\n<p> $\\frac{ax^{2}}{2}+\\frac{ay^{2}}{2}+ax-ay+k=0$ </p>\n<p> $\\Rightarrow x^{2}+y^{2}+2x-2y+\\frac{2k}{a}=0$ </p>\n<p> $\\therefore$  Center  $=(-g,-f)=(-1,1)=(\\alpha,\\beta)$ </p>\n<p> $\\therefore$   $\\alpha=-1$  and  $\\beta=1$ </p>\n<p> $\\therefore$   $\\alpha+2\\beta=-1+2 \\times (1)=1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{ax-by+a}{bx+cy+a},a,b,c \\in R",
@@ -6800,7 +6791,7 @@
         "\\Rightarrow bd(xy)+(cy+a)dy=(ax+a)dx"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:14.959823"
     },
@@ -7709,7 +7700,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dy}{dx}=\\frac{2^{x}(y+2^{y})}{2^{x}(1+2^{y}ln2)}$ <br/><br/> $\\Rightarrow \\int \\frac{(1+2^{y})ln2}{(y+2^{y})}dy=\\int dx$ <br/><br/> $\\Rightarrow ln|y+2^{y}|=x+c$ <br/><br/>x = 0; y = 0  $\\Rightarrow$  c = 0<br/><br/> $\\Rightarrow x=ln|y+2^{y}|$ <br/><br/> $\\Rightarrow$  at y = 1, x = ln3<br/><br/> $\\because$   $3 \\in (e,e^{2}) \\Rightarrow x \\in (1,2)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{2^{x}y+2^{y}.2^{x}}{2^{x}+2^{x+y}log_{e}2}",
@@ -7720,7 +7711,7 @@
         "3 \\in (e,e^{2}) \\Rightarrow x \\in (1,2)"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:17.876779"
     },
@@ -8277,7 +8268,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let,  $y=tx$ <br/><br/> $\\frac{dy}{dx}=t+x\\frac{dt}{dx}$ <br/><br/> $\\therefore$   $tx(t+x\\frac{dt}{dx})=x(t^{2}+\\frac{\\phi(t^{2})}{\\phi^{'}(t^{2})})$ <br/><br/> $t^{2}+xt\\frac{dt}{dx}=t^{2}+\\frac{\\phi(t^{2})}{\\phi^{'}(t^{2})}$ <br/><br/> $\\int \\frac{t\\phi^{'}(t^{2})}{\\phi(t^{2})}dt=\\int \\frac{dx}{x}$ <br/><br/>Let  $\\phi(t^{2})=p$ <br/><br/> $\\therefore$   $\\phi^{'}(t^{2})2tdt=dp$ <br/><br/> $\\Rightarrow \\int \\frac{dy}{2p}=\\int \\frac{dx}{x}$ <br/><br/> $\\frac{1}{2}ln\\phi(t^{2})=lnx+lnc$ <br/><br/> $\\phi(t^{2})=x^{2}k$ <br/><br/> $\\phi(\\frac{y^{2}}{x^{2}})=kx^{2},\\phi(1)=k$ <br/><br/> $\\phi(\\frac{y^{2}}{4})=4\\phi(1)$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "> 0, and y(1) =",
@@ -8288,7 +8279,7 @@
         "\\phi(t^{2})=p"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:17.892104"
     },
@@ -8619,7 +8610,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dx}{dt}∝x$ <br/><br/> $\\frac{dx}{dt}=\\lambda x$ <br/><br/> $\\int_{1000}^{x}\\frac{dx}{x}=\\int_{0}^{t}\\lambda dt$ <br/><br/> $lnx-ln1000=\\lambda t$ <br/><br/> $ln(\\frac{x}{1000})=\\lambda t$ <br/><br/>Put t = 2, x = 1200<br/><br/> $ln(\\frac{12}{10})=2\\lambda \\Rightarrow \\lambda=\\frac{1}{2}ln\\frac{6}{5}$ <br/><br/>Now,  $ln(\\frac{x}{1000})=\\frac{t}{2}ln(\\frac{6}{5})$ <br/><br/> $x=1000e^{\\frac{t}{2}ln(\\frac{6}{5})}$ <br/><br/> $x=2000$  at  $t=\\frac{k}{ln(\\frac{6}{5})}$ <br/><br/> $\\Rightarrow 2000=1000e^{\\frac{k}{2ln(6/5)} \\times ln(6/5)}$ <br/><br/> $\\Rightarrow 2=e^{k/2}$ <br/><br/> $\\Rightarrow ln2=\\frac{k}{2}$ <br/><br/> $\\Rightarrow \\frac{k}{ln2}=2$ <br/><br/> $\\Rightarrow (\\frac{k}{ln2})^{2}=4$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{k}{log_{e}(\\frac{6}{5})}",
@@ -8630,7 +8621,7 @@
         "lnx-ln1000=\\lambda t"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:21.193636"
     },
@@ -8953,7 +8944,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|A|=-\\frac{y}{x}+2sinx+2$ <br/><br/> $\\frac{dy}{dx}=|A|$ <br/><br/> $\\frac{dy}{dx}=-\\frac{y}{x}+2sinx+2$ <br/><br/> $\\frac{dy}{dx}+\\frac{y}{x}=2sinx+2$ <br/><br/> $I.F.=e^{\\int \\frac{1}{x}dx}=x$ <br/><br/> $\\Rightarrow yx=\\int x(2sinx+2)dx$ <br/><br/> $xy=x^{2}-2xcosx+2sinx+c$  ..... (i)<br/><br/>Now, x =  $\\pi$ , y =  $\\pi$  + 2<br/><br/>Use in (i)<br/><br/>c = 0<br/><br/>Now, (i) becomes<br/><br/> $xy=x^{2}-2xcosx+2sinx$ <br/><br/>put  $x=\\pi/2$ <br/><br/> $\\frac{\\pi}{2}y=(\\frac{\\pi}{2})^{2}-2.\\frac{\\pi}{2}cos\\frac{\\pi}{2}+2sin\\frac{\\pi}{2}$ <br/><br/> $y(\\frac{\\pi}{2})=\\frac{\\pi^{2}}{4}+2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}-|A|=0",
@@ -8964,7 +8955,7 @@
         "\\Rightarrow yx=\\int x(2sinx+2)dx"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:19.290577"
     },
@@ -9347,7 +9338,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x^{3}dy+xydx=x^{2}dy+2ydx$ <br/><br/> $\\Rightarrow dy(x^{3}-x^{2})=dx(2y-xy)$ <br/><br/> $\\Rightarrow$   $-\\int \\frac{1}{y}dx$  =  $\\int \\frac{x-2}{x^{2}(x-1)}dx$ <br/><br/> $\\Rightarrow$   $-lny=\\int (\\frac{A}{x}+\\frac{B}{x^{2}}+\\frac{C}{(x-1)})dx$ <br/><br/>Where A = 1, B = +2, C =  $-$ 1<br/><br/> $\\Rightarrow -lny=lnx-\\frac{2}{x}-ln(x-1)+\\lambda$ <br/><br/>As  $y(2)=e$ <br/><br/> $\\Rightarrow -1=ln2-1-0+\\lambda$ <br/><br/> $\\therefore$   $\\lambda=-ln2$ <br/><br/> $\\Rightarrow lny=-lnx+\\frac{2}{x}+ln(x-1)+ln2$ <br/><br/>Now put x = 4 in equation<br/><br/> $\\Rightarrow lny=-ln4+\\frac{1}{2}+ln3+ln2$ <br/><br/> $\\Rightarrow lny=ln(\\frac{3}{2})+\\frac{1}{2}lne$ <br/><br/> $\\Rightarrow y=\\frac{3}{2}\\sqrt{e}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{3}dy+xydx=x^{2}dy+2ydx",
@@ -9358,7 +9349,7 @@
         "\\Rightarrow -1=ln2-1-0+\\lambda"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:22.592535"
     },
@@ -9404,7 +9395,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dy}{dx}=\\frac{xy}{x^{2}+y^{2}}$ \n<br/><br/>Let y = vx\n<br/><br/> $\\therefore$   $\\frac{dy}{dx}$  = v + x. $\\frac{dv}{dx}$ \n<br/><br/> $\\Rightarrow$   v + x. $\\frac{dv}{dx}$  =  $\\frac{x(vx)}{x^{2}+v^{2}x^{2}}$  =  $\\frac{v}{1+v^{2}}$ \n<br/><br/> $\\Rightarrow$  x. $\\frac{dv}{dx}$  =  $\\frac{v}{1+v^{2}}$  - v =  $\\frac{v-v-v^{3}}{1+v^{2}}$  =  $-\\frac{v^{3}}{1+v^{2}}$ \n<br/><br/> $\\Rightarrow$   $\\int \\frac{1+v^{2}}{v^{3}}dv=-\\int \\frac{dx}{x}$ \n<br/><br/> $\\Rightarrow$   $-\\frac{1}{2v^{2}}+logv$  =  $-logx+C$ \n<br/><br/> $\\Rightarrow$   $-\\frac{1}{2}\\frac{x^{2}}{y^{2}}+log(\\frac{y}{x})$  =  $-logx+C$  ......(1)\n<br/><br/>putting x = 1, y = 1 we get\n<br/><br/> $\\Rightarrow$  C =  $-\\frac{1}{2}$ \n<br/><br/>From eq. (1)\n<br/><br/> $-\\frac{1}{2}\\frac{x^{2}}{y^{2}}+log(\\frac{y}{x})$  =  $-logx-\\frac{1}{2}$ \n<br/><br/>Put y = e\n<br/><br/> $-\\frac{1}{2}\\frac{x^{2}}{e^{2}}+log(\\frac{e}{x})$  =  $-logx-\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   x<sup>2</sup> = 3e<sup>2</sup>\n<br/><br/> $\\Rightarrow$   x =  $\\pm$ 3 $\\sqrt{e}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=\\frac{xy}{x^{2}+y^{2}}",
@@ -9415,7 +9406,7 @@
         "\\frac{v-v-v^{3}}{1+v^{2}}"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:23.048772"
     },
@@ -10066,7 +10057,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{2+sinx}{y+1}.\\frac{dy}{dx}=-cosx$ \n<br/><br/> $\\Rightarrow$   $\\int \\frac{dy}{y+1}=\\int \\frac{(-cosx)dx}{2+sinx}$ \n<br/><br/> $\\Rightarrow$   $ln|y+1|=-ln|2+sinx|+lnc$ \n<br/><br/> $\\Rightarrow$   $ln|(y+1)(2+sinx)|=lnc$ \n<br/><br/>As y(0) = 1\n<br/><br/> $\\therefore$   $ln|(1+1)(2+0)|=lnc$ \n<br/><br/> $\\Rightarrow$   $\\therefore$  c = 4\n<br/><br/> $\\therefore$   $(y+1)(2+sinx)$  = 4\n<br/><br/> $\\Rightarrow$  y =  $\\frac{2-sinx}{2+sinx}$ \n<br/><br/>Given y( $\\pi$ ) = a\n<br/><br/> $\\therefore$  y( $\\pi$ ) =  $\\frac{2-sin\\pi}{2+sin\\pi}$  = 1 = a\n<br/><br/> $\\frac{dy}{dx}=\\frac{(2+sinx)(-cosx)-(2-sinx).(cosx)}{(2+sinx)^{2}}$ \n<br/><br/> $\\Rightarrow$   $\\frac{dy}{dx}|_{x=\\pi}=$  1 = b\n<br/><br/>So, (a, b) = (1, 1) <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{2+sinx}{y+1}.\\frac{dy}{dx}=-cosx",
@@ -10077,7 +10068,7 @@
         "ln|(1+1)(2+0)|=lnc"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:22.630536"
     },
@@ -10235,7 +10226,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dy}{dx}=\\frac{x^{2}-2y}{x}$                     (Given)\n<br/><br/> $\\frac{dy}{dx}+2\\frac{y}{x}=x$ \n<br/><br/>I.F =  $e^{\\int \\frac{2}{x}dx}=x^{2}$ \n<br/><br/> $\\therefore$   y.x<sup>2</sup> =  $\\int x.x^{2}dx+C$ \n<br/><br/>=  $\\frac{x^{4}}{y}+C$ \n<br/><br/>This curve passes through (1,  $-$  2)  $\\Rightarrow$   C=  $-$   $\\frac{9}{4}$ \n<br/><br/> $\\therefore$   yx<sup>2</sup> =  $\\frac{x^{4}}{4}-\\frac{9}{4}$ \n<br/><br/>Now check option(s), Which is satisly by option (ii)<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x^{2}-2y}{x}",
@@ -10246,7 +10237,7 @@
         "\\frac{x^{4}}{y}+C"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:24.698139"
     },
@@ -10292,7 +10283,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f^{'}(x)=7-\\frac{3}{4}\\frac{f(x)}{x}(x&gt;0)$ \n<br/><br/>Given f(1)  $\\ne$  4     $\\underset{x \\rightarrow 0^{+}}{lim}xf(\\frac{1}{x})=?$ \n<br/><br/> $\\frac{dy}{dx}+\\frac{3}{4}\\frac{y}{x}=7$   (This is LDE)\n<br/><br/>IF  $=e^{\\int \\frac{3}{4x}dx}=e^{\\frac{3}{4}ln|x|}=x^{\\frac{3}{4}}$ \n<br/><br/> $y.x^{\\frac{3}{4}}=\\int 7.x^{\\frac{3}{4}}dx$ \n<br/><br/> $y.x^{\\frac{3}{4}}=7.\\frac{x^{\\frac{7}{4}}}{\\frac{7}{4}}+C$ \n<br/><br/> $f(x)=4x+C.x^{-\\frac{3}{4}}$ \n<br/><br/> $f(\\frac{1}{4})=\\frac{4}{x}+C.x^{\\frac{3}{4}}$ \n<br/><br/> $\\underset{x \\rightarrow 0^{+}}{lim}xf(\\frac{1}{x})=\\underset{x \\rightarrow 0^{+}}{lim}(4+C.x^{\\frac{7}{4}})=4$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{4}\\frac{f(x)}{x},",
@@ -10303,7 +10294,7 @@
         "\\frac{dy}{dx}+\\frac{3}{4}\\frac{y}{x}=7"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:25.090855"
     },
@@ -10805,14 +10796,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dy}{dx}+3sec^{2}x.y=sec^{2}x$ \n<br/><br/>I.F. =  $e^{3\\int sec^{2}xdx}=e^{3tanx}$ \n<br/><br/>or    $y.e^{3tanx}=\\int sec^{2}x.e^{3tanx}$ \n<br/><br/>or    $y.e^{3tanx}=\\frac{1}{3}e^{3tanx}+C$ \n<br/><br/>Given\n<br/><br/> $y(\\frac{\\pi}{4})=\\frac{4}{3}$ \n<br/><br/> $\\therefore$     $\\frac{4}{3}.e^{3}=\\frac{1}{3}e^{3}+C$ \n<br/><br/> $\\therefore$    C = e<sup>3</sup><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "I.F. =",
         "\\frac{4}{3}.e^{3}=\\frac{1}{3}e^{3}+C"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:25.121895"
     },
@@ -11200,7 +11191,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given, \n<br/><br/> sin x  $\\frac{dy}{dx}+ycosy=4x$ \n<br/><br/> $\\Rightarrow \\frac{dy}{dx}$  +  y cot x = 4x cosec x\n<br/><br/>This is a linear differential equation of form, \n<br/><br/>  $\\frac{dy}{dx}$  + py = Q\n<br/><br/>Where p = cot x and Q = 4x cosec x\n<br/><br/>So, Integrating factor (I. F)\n<br/><br/> =  $e^{\\int pdx}$ \n<br/><br/>=  $e^{\\int cotdx}$ \n<br/><br/>=  $e^{ln|sinx|}$ \n<br/>&lt;br=  $|=''''sin=''''x=''''|$ =\"\" &lt;br=\"\"&gt;<br/>= sin x as  $x \\in (0,\\pi)$ \n<br/><br/>Solution of the differential equation is \n<br/><br/>y sin x =  $\\int$  4x cosecx sinx dx + c\n<br/><br/> $\\Rightarrow$  y sinx =  $\\int 4xdx+c$ \n<br/><br/> $\\Rightarrow$  y sinx = 4. $\\frac{x^{2}}{2}+c$ \n<br/><br/> $\\Rightarrow$  y sinx = 2x<sup>2</sup> + c . . . . . (1)\n<br/><br/>Given that,   $y(\\frac{\\pi}{2})=0$ \n<br/><br/> $\\therefore$   x =  $y(\\frac{\\pi}{2})=0$  and y = 0\n<br/><br/>Put this x =  $\\frac{\\pi}{2}$   and y = 0 at equation (1)\n<br/><br/>0.1 = 2.  $(\\frac{\\pi}{2})$ <sup>2</sup> + c\n<br/><br/> $\\Rightarrow$  c = $-\\frac{\\pi^{2}}{2}$ \n<br/><br/>So, differential equation is \n<br/><br/>y sin x = 2x<sup>2</sup>  $-$   $\\frac{\\pi^{2}}{2}.....(2)$ \n<br/><br/>Now we have to find y  $(\\frac{\\pi}{6}).$ \n<br/><br/>So, put x =  $\\frac{\\pi}{6}$   at equation (2) \n<br/><br/>y . sin  $\\frac{\\pi}{6}$  = 2  $(\\frac{\\pi}{6})^{2}-\\frac{\\pi^{2}}{2}$ \n<br/><br/> $\\Rightarrow y.\\frac{1}{2}$  = 2.  $\\frac{\\pi^{2}}{36}-\\frac{\\pi^{2}}{2}$ \n<br/><br/> $\\Rightarrow \\frac{y}{2}=\\frac{\\pi^{2}}{18}-\\frac{\\pi^{2}}{2}$ \n<br/><br/> $\\Rightarrow \\frac{y}{2}=\\frac{\\pi^{2}-9\\pi^{2}}{18}$ \n<br/><br/> $\\Rightarrow y=-\\frac{8\\pi^{2}}{9}$   &lt;/br=&gt;<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Hard",
       "key_formulas": [
         "sinx\\frac{dy}{dx}+ycosx=4x",
@@ -11211,7 +11202,6 @@
         "\\frac{dy}{dx}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE",
         "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:25.627100"
@@ -11429,7 +11419,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(2+sinx)\\frac{dy}{dx}+(y+1)cosx=0$ \n<br/><br/> $\\Rightarrow$   $\\frac{d}{dx}(2+sinx)(y+1)=0$ \n<br/><br/>On integrating, we get\n<br/><br/>(2 + sin x) (y + 1) = C\n<br/><br/>At x = 0, y = 1 we have\n<br/><br/>(2 + sin 0) (1 + 1) = C\n<br/><br/> $\\Rightarrow$  C = 4\n<br/><br/> $\\Rightarrow$   $(y+1)=\\frac{4}{2+sinx}$ \n<br/><br/> $\\Rightarrow$  y =  $\\frac{4}{2+sinx}-1$ \n<br/><br/>Now  $y(\\frac{\\pi}{2})=\\frac{4}{2+sin\\frac{\\pi}{2}}-1$ \n<br/><br/>=  $\\frac{4}{3}-1$  =  $\\frac{1}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "(2+sinx)\\frac{dy}{dx}+(y+1)cosx=0",
@@ -11440,7 +11430,7 @@
         "y(\\frac{\\pi}{2})=\\frac{4}{2+sin\\frac{\\pi}{2}}-1"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:26.083721"
     },
@@ -11543,7 +11533,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\underset{t \\rightarrow x}{lim}\\frac{t^{2}f(x)-x^{2}f(t)}{t-x}=1$ \n<br/><br/>It is in  $\\frac{0}{0}$  form\n<br/><br/>So, applying L' Hospital rule,\n<br/><br/> $\\underset{t \\rightarrow x}{lim}\\frac{2tf(x)-x^{2}f^{'}(x)}{1}=1$ \n<br/><br/> $\\Rightarrow$    2xf(x)  $-$  x<sup>2</sup>f '(x) = 1\n<br/><br/> $\\Rightarrow$    f '(x)  $-$   $\\frac{2}{x}$ f(x)  $=$   $\\frac{1}{x^{2}}$ \n<br/><br/> $\\therefore$    I.F =   $e^{\\int \\frac{-2}{x}dx}=e^{-2logx}=\\frac{1}{x^{2}}$ \n<br/><br/> $\\therefore$    Solution of equation,\n<br/><br/>f(x) $\\frac{1}{x^{2}}$  =  $\\int \\frac{1}{x}(-\\frac{1}{x^{2}})dx$ \n<br/><br/> $\\Rightarrow$     $\\frac{f(x)}{x^{2}}=\\frac{1}{3x^{3}}+C$ \n<br/><br/>Given that,\n<br/><br/>f(1) = 1\n<br/><br/> $\\therefore$     $\\frac{1}{1}$  =  $\\frac{1}{3}$  + C\n<br/><br/> $\\Rightarrow$    C  $=$   $\\frac{2}{3}$ \n<br/><br/> $\\therefore$    f(x)  $=$   $\\frac{2}{3}$  x<sup>2</sup> +  $\\frac{1}{3x}$ \n<br/><br/> $\\therefore$    f $(\\frac{3}{2})=\\frac{2}{3} \\times (\\frac{3}{2})^{2}+\\frac{1}{3} \\times \\frac{2}{3}=\\frac{31}{18}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Variable Separable & Homogeneous DE",
+      "topic_tag": "Linear Differential Equations & Integrating Factor",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{t^{2}f(x)-x^{2}f(t)}{t-x}=1,",
@@ -11554,7 +11544,7 @@
         "\\frac{2}{x}"
       ],
       "key_concepts": [
-        "Variable Separable & Homogeneous DE"
+        "Linear Differential Equations & Integrating Factor"
       ],
       "crawled_at": "2026-09-20T16:03:26.540031"
     },
@@ -11885,7 +11875,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\frac{dy}{dx}=y+3 \\Rightarrow \\int \\frac{dy}{y+3}=\\int dx$ \n<br/><br/> $\\Rightarrow \\ell n|y+3|=x+c$ \n<br/><br/>Since  $y(0)=2,$    $\\therefore$    $\\ell n5=c$ \n<br/><br/> $\\Rightarrow \\ell n|y+3=x+\\ell n5|$ \n<br/><br/>When  $x=\\ell n2,$  then \n<br/><br/> $\\ell n|y+3|=\\ell n2+\\ell n5$ \n<br/><br/> $\\Rightarrow ln|y+3|=\\ell n10$ \n<br/><br/> $\\therefore$    $y+3= \\pm 10 \\Rightarrow y=7,-13$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Differential Equations & Integrating Factor",
+      "topic_tag": "Variable Separable & Homogeneous DE",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{dy}{dx}=y+3>0",
@@ -11896,7 +11886,7 @@
         "\\Rightarrow \\ell n|y+3=x+\\ell n5|"
       ],
       "key_concepts": [
-        "Linear Differential Equations & Integrating Factor"
+        "Variable Separable & Homogeneous DE"
       ],
       "crawled_at": "2026-09-20T16:03:27.520593"
     },

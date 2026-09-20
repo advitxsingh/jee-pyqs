@@ -457,11 +457,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ksz7ax/54e24759-077b-4d37-b859-846c996a9d84/59932a90-1b3c-11f0-8234-eff1154e7d32/file-jaoe38c1m9ksz7ay.png?format=png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:55:57.287433"
     },
@@ -568,13 +568,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7g0so00/6dd43a20-a14b-402c-adef-807ce6fd498e/92d64800-f102-11ef-afc4-279cdb88492c/file-jaoe38c1m7g0so01.png?format=png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Easy",
       "key_formulas": [
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:55:59.001887"
     },
@@ -1044,7 +1044,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The position of an ant, denoted as  $S$  in meters, moving in the  $Y$ - $Z$  plane is given by  $S=2t^{2}\\hat{j}+5\\hat{k}$ , where  $t$  is in seconds. To determine the magnitude and direction of the ant's velocity at  $t=1$  second, we need to differentiate the position function with respect to time.</p>\n<p>The velocity  $\\vec{v}$  is given by:</p>\n<p> $\\vec{v}=\\frac{dS}{dt}=\\frac{d}{dt}(2t^{2}\\hat{j}+5\\hat{k})$ </p>\n<p>On differentiating, we get:</p>\n<p> $\\vec{v}=4t\\hat{j}$ </p>\n<p>At  $t=1$  second:</p>\n<p> $\\vec{v}=4 \\cdot 1\\hat{j}=4\\hat{j}$ </p>\n<p>Therefore, the magnitude of the velocity is  $4m/s$  and it is directed along the  $y$ -axis.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "t=1",
@@ -1054,7 +1054,7 @@
         "\\vec{v}=4 \\cdot 1\\hat{j}=4\\hat{j}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:55:59.849378"
     },
@@ -1079,7 +1079,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for the value of  $\\alpha$ , which represents the square of the speed of the particle at the time its  $x$ -coordinate is  $84m$ , we need to first determine the time at which the particle reaches this  $x$ -coordinate, and then use this time to calculate its final velocity in both the  $x$  and  $y$  directions.\n\n<p>The motion of the particle in the  $x$ -direction can be described by the kinematic equation for uniformly accelerated motion:</p>\n<p> $x=x_{0}+v_{0x}t+\\frac{1}{2}a_{x}t^{2}$ </p>\n<p>Given:</p>\n<p> $x_{0}=0m$ </p>\n<p> $v_{0x}=5m/s$ </p>\n<p> $a_{x}=3m/s^{2}$ </p>\n<p> $x=84m$  (at which we need to find the speed)</p>\n<p>Substituting these values into the kinematic equation:</p>\n<p> $84m=0m+(5m/s)t+\\frac{1}{2}(3m/s^{2})t^{2}$ </p>\n<p>Simplifying this equation, we get:</p>\n<p> $0=\\frac{3}{2}t^{2}+5t-84$ </p>\n<p>Using the quadratic formula to solve for  $t$ :</p>\n<p> $t=\\frac{-b \\pm \\sqrt{b^{2}-4ac}}{2a}$ </p>\n<p>where  $a=\\frac{3}{2},b=5,$  and  $c=-84$ .</p>\n<p> $t=\\frac{-5 \\pm \\sqrt{(5)^{2}-4(\\frac{3}{2})(-84)}}{2(\\frac{3}{2})}$ </p>\n<p> $t=\\frac{-5 \\pm \\sqrt{25+504}}{3}$ </p>\n<p> $t=\\frac{-5 \\pm \\sqrt{529}}{3}$ </p>\n<p> $t=\\frac{-5 \\pm 23}{3}$ </p>\n<p>In this scenario, since we're looking for a time when the particle reaches  $84m$ , we only consider the positive root because time cannot be negative.</p>\n<p> $t=\\frac{18}{3}$ </p>\n<p> $t=6s$ </p>\n<p>Now we have the time at which the particle's  $x$ -coordinate is  $84m$ . Next, we find final velocities in  $x$  and  $y$  directions at  $t=6s$ .</p>\n<p>The final velocity in the  $x$ -direction can be found using the formula for velocity with constant acceleration:</p>\n<p> $v_{x}=v_{0x}+a_{x}t$ </p>\n<p> $v_{x}=5m/s+(3m/s^{2})(6s)$ </p>\n<p> $v_{x}=5m/s+18m/s$ </p>\n<p> $v_{x}=23m/s$ </p>\n<p>Similarly, for the  $y$ -direction:</p>\n<p> $v_{y}=v_{0y}+a_{y}t$ </p>\n<p>Since the particle starts from the origin and is only subject to a force after  $t=0$ , its initial velocity in the  $y$ -direction is  $0$ .</p>\n<p> $v_{y}=0+(2m/s^{2})(6s)$ </p>\n<p> $v_{y}=12m/s$ </p>\n<p>Now we can compute the speed of the particle, which is the magnitude of the velocity vector:</p>\n<p> $v=\\sqrt{v_{x}^{2}+v_{y}^{2}}$ </p>\n<p> $v=\\sqrt{(23m/s)^{2}+(12m/s)^{2}}$ </p>\n<p> $v=\\sqrt{529+144}$ </p>\n<p> $v=\\sqrt{673}$ </p>\n<p>Therefore, the speed of the particle at the time its  $x$ -coordinate is  $84m$  is  $\\sqrt{673}m/s$ .</p>\n<p>So,  $\\alpha=673$ .</p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Hard",
       "key_formulas": [
         "t=0",
@@ -1090,7 +1090,7 @@
         "v_{0x}=5m/s"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:13.723475"
     },
@@ -1217,7 +1217,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the nature of the motion of the particle given by its coordinates in the  $x$ - $y$  plane, we analyze the given equations for  $x$  and  $y$  in terms of time  $t$ :</p>\n<ul>\n<li> $x=2+4t$ </li>\n<li> $y=3t+8t^{2}$ </li>\n</ul>\n<p>Firstly, the equation for  $x$  is of the form  $x=x_{0}+vt$ , where  $x_{0}=2$  is the initial position and  $v=4$  is the constant velocity along the  $x$ -axis. This suggests a uniform motion along the  $x$ -axis because the velocity remains constant with time.</p>\n<p>Secondly, the equation for  $y$  is a second-degree polynomial in  $t$ , which indicates a parabolic path. The presence of the  $t^{2}$  term ( $8t^{2}$ ) signifies acceleration since the position along the  $y$ -axis is changing at a rate that itself changes over time.</p>\n<p>The equation for  $y$  can show two types of motion depending on the terms:\n\n<ol>\n<li>If it was of the form  $y=y_{0}+vt$ , it would indicate uniform motion.</li>\n<li>If it was of the form  $y=y_{0}+vt+\\frac{1}{2}at^{2}$ , where  $a$  would represent acceleration, it would indicate uniformly accelerated motion. The presence of the  $8t^{2}$  term here plays a similar role, indicating that the motion is uniformly accelerated in the  $y$ -direction due to the constant acceleration implied by this term.</li>\n</ol>\n</p>\n<p>Since the motion in the  $y$  direction is determined by a quadratic equation, and the path of the particle depends on both the  $x$  and  $y$  coordinates, the motion of the particle is not along a straight line but rather follows a parabolic path due to the quadratic (second-degree) dependence on time in the  $y$ -coordinate.</p>\n<p>Additionally, the acceleration is not changing with time, as deduced from the constant coefficient of the  $t^{2}$  term in the  $y$  equation, indicating uniform acceleration. Therefore, the motion is uniformly accelerated and follows a parabolic path.</p>\n<p>Hence, the correct answer is:</p>\n<p>Option D: uniformly accelerated having motion along a parabolic path.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Hard",
       "key_formulas": [
         "y=3t+8t^{2}",
@@ -1225,7 +1225,7 @@
         "t^{2}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:55:59.122587"
     },
@@ -1770,8 +1770,7 @@
         "R=(v^{2}/g) \\cdot sin(2\\theta)"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory",
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:00.937970"
     },
@@ -1817,13 +1816,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For vertical throw,\n<br/><br/>\n $\\begin{aligned} &amp; ℎ=\\frac{v^{2}}{2g} \\\\ \\\\ &amp; v=\\sqrt{2gℎ}=\\sqrt{2g \\times 136}...(1) \\end{aligned}$ \n<br/><br/>\nFor max range,  $\\theta=45^{\\circ}$ \n<br/><br/>\n $R_{max}=\\frac{v^{2}}{g}...(2)$ \n<br/><br/>\nFrom (1) and (2)\n<br/><br/>\n $\\begin{aligned} R_{max} &amp; =\\frac{v^{2}}{g}=\\frac{2g \\times 136}{g} \\\\ \\\\ &amp; =272m \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Easy",
       "key_formulas": [
         "R_{max}=\\frac{v^{2}}{g}...(2)"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:01.607033"
     },
@@ -3092,7 +3091,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxujviik/355fde85-a369-4675-acbc-a7ab4aec0fc5/3524cbc0-6a4e-11ec-8561-951bc0cc527f/file-1kxujviil.png?format=png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "v_{21}=4\\sqrt{2}cos45^{\\circ}\\hat{i}+4\\sqrt{2}sin45^{\\circ}\\hat{j}",
@@ -3102,7 +3101,7 @@
         "|D|=\\sqrt{12^{2}+9^{2}}=15"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:05.321774"
     },
@@ -3185,7 +3184,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ku8e3cij/f0fd591e-f73f-43ac-b9e0-7ba40708c740/b3c85eb0-22b9-11ec-92a0-35c33c2a328d/file-1ku8e3cik.png"
       ],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
       "difficulty": "Easy",
       "key_formulas": [
         "R=\\sqrt{\\frac{2ℎ}{g}}.v",
@@ -3194,7 +3193,7 @@
         "D=\\sqrt{\\frac{2ℎv^{2}}{g}+ℎ^{2}}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
       ],
       "crawled_at": "2026-09-20T15:56:04.788049"
     },
@@ -3240,7 +3239,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{v}=(0.5t^{2}\\hat{i}+3t\\hat{j}+9\\hat{k})$  m/s<br/><br/>At t = 2 s<br/><br/> $\\vec{v}=(2\\hat{i}+6\\hat{j}+9\\hat{k})$ \n<br/><br/>Direction cosine along y-axis,\n<br/><br/> $cos\\theta=\\frac{(v.\\hat{j})}{\\sqrt{9^{2}+6^{2}+2^{2}}}=\\frac{6}{\\sqrt{121}}=\\frac{6}{11}$ <br/><br/> $\\therefore$   $sin\\theta=\\frac{\\sqrt{85}}{11}$ <br/><br/>and  $tan\\theta=\\frac{\\sqrt{85}}{6}$ \n<br/><br/> $\\therefore$  Mosquito make angle  $tan^{-1}(\\frac{\\sqrt{85}}{6})$  from y-axis.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{v}=0.5t^{2}\\hat{i}+3t\\hat{j}+9\\hat{k}",
@@ -3251,7 +3250,7 @@
         "tan^{-1}(\\frac{\\sqrt{85}}{6})"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
       ],
       "crawled_at": "2026-09-20T15:56:05.336949"
     },
@@ -3335,7 +3334,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{u}$  = 3.0  $\\hat{i}$ \n<br/><br/> $\\vec{a}$  =  $(6\\hat{i}+4\\hat{j})$ \n<br/><br/> $\\vec{S}=\\vec{u}t+\\frac{1}{2}\\vec{a}t^{2}$ \n<br/><br/>x = 3t +  $\\frac{1}{2}6t^{2}$ \n<br/><br/>= 3t + 3t<sup>2</sup> .....(1)\n<br/><br/>y =  $\\frac{1}{2} \\times 4 \\times t^{2}$  = 32\n<br/><br/> $\\Rightarrow$  t = 4 s .... (2)\n<br/><br/>x = 3 × 4 + 3 × 4<sup>2</sup>\n = 12 + 48 = 60 m<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{u}",
@@ -3345,7 +3344,7 @@
         "\\frac{1}{2} \\times 4 \\times t^{2}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:06.613203"
     },
@@ -3481,7 +3480,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{r}(t)=cos\\omega t\\hat{i}+sin\\omega t\\hat{j}$ \n<br/><br/> $\\vec{v}=\\frac{d\\vec{r}}{dt}$  =  $-\\omega sin\\omega t\\hat{i}+\\omega cos\\omega t\\hat{j}$ \n<br/><br/> $\\vec{a}=\\frac{d\\vec{v}}{dt}$  =  $-\\omega^{2}cos\\omega t\\hat{i}-\\omega^{2}sin\\omega t\\hat{j}$ \n<br/><br/>=  $-\\omega^{2}(cos\\omega t\\hat{i}+sin\\omega t\\hat{j})$ \n<br/><br/>=  $-\\omega^{2}\\vec{r}$ \n<br/><br/> $\\therefore$   $\\vec{a}$ \n is antiparallel to  $\\vec{r}$  and it's direction towards the origin.\n<br/><br/> $\\vec{v}.\\vec{r}=$   $\\omega(-sin\\omega tcos\\omega t+cos\\omega tsin\\omega t)$  = 0\n<br/><br/>So  $\\vec{v}\\perp\\vec{r}$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}(t)=cos\\omega t\\hat{i}+sin\\omega t\\hat{j}",
@@ -3492,7 +3491,7 @@
         "-\\omega sin\\omega t\\hat{i}+\\omega cos\\omega t\\hat{j}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
       ],
       "crawled_at": "2026-09-20T15:56:06.627423"
     },
@@ -3541,7 +3540,7 @@
         "https://imagex.cdn.examgoal.net/jgy2xukfga30if/452ea3e9-38ad-435d-8d50-b1a9c810b3ec/0c819d80-fe19-11ea-8293-3b6cc591631c/file-jgy2xukfga30ig-320w.png",
         "https://imagex.cdn.examgoal.net/1kju91l5r/1f8c3c70-32be-4c2e-b201-0f5f0ad9c05d/d2510600-54f8-11eb-bb0e-bdf37f98ae86/file-1kju91l5s-421w.png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "tan45=\\frac{ℎ_{1}}{d}",
@@ -3552,7 +3551,7 @@
         "d+ℎ_{2}=0.5774 \\times 3.464 \\times d"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:05.987242"
     },
@@ -3713,7 +3712,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/wkj2kZD7A2Ftv74k6/DXRW80CY5Mz7oD2cCMZRKAkM3LlQO/zZmLmwYMaGJAc3ZQ2AQFgp/image.png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
@@ -3722,7 +3721,7 @@
         "\\frac{V}{2}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:07.834290"
     },
@@ -3885,7 +3884,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kejek19o8u0w/7ffb6326-f355-4ed0-a19c-0f3135275135/ea4ea000-e54b-11e9-a7bc-b7b08ce8d541/file-7kejek19o8u0x-336w.jpg"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "T=\\frac{2usin\\theta}{gcos\\alpha}",
@@ -3895,7 +3894,7 @@
         "=\\frac{8(\\sqrt{3}-1)}{30}=20cm"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:07.294618"
     },
@@ -4167,7 +4166,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7wzcrfs/645a1a17-a626-4f0a-ab60-25196c6e0f44/78d0ff70-319e-11ed-b3ea-45214d807530/file-1l7wzcrft.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l32mmrc9/5e9e96d5-49f4-4512-90ce-8da49570fd86/5727dd90-d1bc-11ec-9218-efb2cf12c71b/file-1l32mmrca.png?format=png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "t_{1}=\\frac{l-x}{v}",
@@ -4178,7 +4177,7 @@
         "\\frac{dt}{dx}=0"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:08.466683"
     },
@@ -4391,7 +4390,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{v}=k(y\\hat{i}+x\\hat{j})$   ........(1)\n<br/><br/>Also  $\\vec{v}=v_{x}\\hat{i}+v_{y}\\hat{j}$ \n<br/><br/> $\\vec{v}=\\frac{dx}{dt}\\hat{i}+\\frac{dy}{dt}\\hat{j}$  ........(2)\n<br/><br/>Equating (1) and (2), we get\n<br/><br/>  $\\frac{dx}{dt}=ky$  .......(3)\n <br/><br/>and  $\\frac{dy}{dt}=kx$  ......(4)\n<br/><br/>Dividing (3) and (4), we get\n<br/><br/> $\\frac{dy}{dx}=\\frac{x}{y}$ \n<br/><br/> $\\Rightarrow ydy=xdx$ \n<br/><br/>Integrating both sides of above equation, we get\n<br/><br/> $\\int ydy=\\int xdx$ \n<br/><br/> $\\Rightarrow y^{2}=x^{2}+$  constant<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{v}=k(y\\hat{i}+x\\hat{j})",
@@ -4402,7 +4401,7 @@
         "\\frac{dy}{dx}=\\frac{x}{y}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:09.436495"
     },
@@ -4448,7 +4447,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $\\vec{u}=3\\hat{i}+4\\hat{j},\\vec{a}=0.4\\hat{i}+0.3\\hat{j},t=10s$ \n<br/><br/> $\\vec{v}=\\vec{u}+\\vec{a}t$ \n<br/><br/> $=3\\hat{i}+4\\hat{j}+(0.4\\hat{i}+0.3\\hat{j}) \\times 10$ \n<br/><br/> $=7\\hat{i}+7\\hat{j}$ \n<br/><br/>We know speed is equal to magnitude of velocity.\n<br/><br/> $\\therefore$   $|\\vec{v}|=\\sqrt{7^{2}+7^{2}}=7\\sqrt{2}$   units<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{u}=3\\hat{i}+4\\hat{j},\\vec{a}=0.4\\hat{i}+0.3\\hat{j},t=10s",
@@ -4458,7 +4457,7 @@
         "|\\vec{v}|=\\sqrt{7^{2}+7^{2}}=7\\sqrt{2}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
       ],
       "crawled_at": "2026-09-20T15:56:09.479233"
     },
@@ -4506,7 +4505,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/w5S5g3DJ002dJReuS/STPbAa3EhLLlvO5m7zOmWukphAtvO/MXED43dYujnj0L0LFJbgrf/image.png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Projectile Motion & Trajectory",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{cℎangeinvelocioty}{timeinterval}",
@@ -4517,7 +4516,7 @@
         "\\vec{a}=\\frac{5\\hat{j}-5\\hat{i}}{10}=\\frac{\\hat{j}-\\hat{i}}{2}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Projectile Motion & Trajectory"
       ],
       "crawled_at": "2026-09-20T15:56:09.510523"
     },

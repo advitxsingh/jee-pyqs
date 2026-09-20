@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Conveyance} &amp; \\text{Bus} &amp; \\text{Scooter} &amp; \\text{Car} &amp; \\text{Arrive late} &amp; \\text{Bus} &amp; \\text{Scooter} &amp; \\text{Car} \\\\ \\text{Probability} &amp; \\frac{2}{5} &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\text{Probability} &amp; \\frac{1}{5} &amp; \\frac{1}{3} &amp; \\frac{1}{4} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{We label the events in the chart below :} \\\\ &amp; \\begin{aligned} \\text{Conveyance} &amp; \\text{Bus} &amp; \\text{Scooter} &amp; \\text{Car} &amp; \\text{Arrive late by} &amp; \\text{Bus} &amp; \\text{Scooter} &amp; \\text{Car} \\\\ \\text{Event} &amp; B &amp; S &amp; C &amp; \\text{Event} &amp; L_{b} &amp; L_{s} &amp; L_{c} \\end{aligned} \\end{aligned}$ </p>\n<p>We label the event that the candidate arrives late be  $L$ </p>\n<p> $\\begin{aligned} \\text{Event} &amp; B &amp; S &amp; C &amp; L_{b} &amp; L_{s} &amp; L_{c} \\\\ \\text{Probability} &amp; \\frac{2}{5} &amp; \\frac{1}{5} &amp; \\frac{2}{5} &amp; \\frac{1}{5} &amp; \\frac{1}{3} &amp; \\frac{1}{4} \\end{aligned}$ </p>\n<p> $\\Rightarrow P(L∩B)=P(L) \\cdot P(B/L)=P(B∩L)$ </p>\n<p> $\\Rightarrow$   $P(B/L)=\\frac{P(B∩L)}{P(L)}$ </p>\n<p> $=\\frac{P(B) \\cdot P(L/B)}{P(B∩L)+P(S∩L)+P(C∩L)}$ </p>\n<p> $=\\frac{P(B) \\cdot P(L/B)}{P(B) \\cdot P(L/B)+P(S) \\cdot P(L/S)+P(C) \\cdot P(C/B)}$ </p>\n<p> $P(B/L)=\\frac{P(B) \\cdot P(L_{b})}{P(B) \\cdot P(L_{b})+P(S) \\cdot P(L_{s})+P(C) \\cdot P(L_{c})}$ </p>\n<p> $=\\frac{(\\frac{2}{5}) \\cdot (\\frac{1}{5})}{(\\frac{2}{5}) \\cdot (\\frac{1}{5})+(\\frac{1}{5}) \\cdot (\\frac{1}{3})+(\\frac{2}{5}) \\cdot (\\frac{1}{4})}$ </p>\n<p> $=(\\frac{2}{25}) \\cdot (\\frac{300}{24+20+30})=\\frac{12}{37}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{2}{5},\\frac{1}{5}",
@@ -55,7 +55,7 @@
         "P(B/L)=\\frac{P(B∩L)}{P(L)}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:01.891948"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<ul>\n<li><p> $A$  = event that the letter came from <strong>ANANTPUR</strong></p></li>\n<li><p> $K$  = event that the letter came from <strong>KANPUR</strong></p></li>\n<li><p> $B$  = event that on the envelope, the two visible consecutive letters are <strong>AN</strong></p></li>\n</ul>\n<p>We have to find:</p>\n<p> $P(A|B)$ </p>\n<p>Using Bayes’ theorem,</p>\n<p> $P(A|B)=\\frac{P(A)P(B|A)}{P(A)P(B|A)+P(K)P(B|K)}$ </p>\n<p>Since the letter is known to have come either from ANANTPUR or KANPUR, and no other information is given, we take</p>\n<p> $P(A)=P(K)=\\frac{1}{2}$ </p>\n<p>So,</p>\n<p> $P(A|B)=\\frac{P(B|A)}{P(B|A)+P(B|K)}$ </p>\n<p>Now we find these probabilities.</p>\n<h3>1. Probability of seeing AN in ANANTPUR</h3>\n<p>Word: <strong>ANANTPUR</strong></p>\n<p>Its consecutive pairs are:</p>\n<p> $AN,NA,AN,NT,TP,PU,UR$ </p>\n<p>There are  $7$  consecutive pairs in all, and <strong>AN</strong> occurs  $2$  times.</p>\n<p>Therefore,</p>\n<p> $P(B|A)=\\frac{2}{7}$ </p>\n<h3>2. Probability of seeing AN in KANPUR</h3>\n<p>Word: <strong>KANPUR</strong></p>\n<p>Its consecutive pairs are:</p>\n<p> $KA,AN,NP,PU,UR$ </p>\n<p>There are  $5$  consecutive pairs in all, and <strong>AN</strong> occurs  $1$  time.</p>\n<p>Therefore,</p>\n<p> $P(B|K)=\\frac{1}{5}$ </p>\n<h3>3. Apply Bayes’ theorem</h3>\n<p> $P(A|B)=\\frac{\\frac{2}{7}}{\\frac{2}{7}+\\frac{1}{5}}$ </p>\n<p>Take LCM:</p>\n<p> $\\frac{2}{7}+\\frac{1}{5}=\\frac{10+7}{35}=\\frac{17}{35}$ </p>\n<p>So,</p>\n<p> $P(A|B)=\\frac{\\frac{2}{7}}{\\frac{17}{35}}=\\frac{2}{7} \\cdot \\frac{35}{17}=\\frac{10}{17}$ </p>\n<p>Therefore, the required probability is</p>\n<p> $\\frac{10}{17}$ </p>\n<p>So, the correct option is <strong>B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "= event that the letter came from ANANTPUR",
@@ -111,7 +111,7 @@
         "P(A|B)=\\frac{P(B|A)}{P(B|A)+P(B|K)}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:02.526886"
     },
@@ -157,7 +157,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>total number of defective bulbs  $n(D)=10$ </p>\n<p>total number of non defective bulbs  $n(\\bar{D})=90$ </p>\n<p>total bulbs  $=n(D)+n(\\bar{D})=100$ </p>\n<p>probability of picking a defective bulbs:  $p=\\frac{10}{100}=\\frac{1}{10}$ </p>\n<p>probability of picking a non-defective bulbs  $q=\\frac{90}{100}=\\frac{9}{10}$ </p>\n<p>number of trials  $n=8$  bulbs are selected</p>\n<p>let  $X$  be the event of getting atleast 7 defective bulbs</p>\n<p> $\\begin{aligned} &amp; P(X)=P(X=7)+P(X=8) \\\\ &amp; =^{8}C_{7}p^{7} \\cdot q^{1}+^{8}C_{8}p^{8}q^{0} \\\\ &amp; =8 \\cdot (\\frac{1}{10})^{7} \\cdot \\frac{9}{10}+1 \\cdot (\\frac{1}{10})^{8} \\end{aligned}$ </p>\n<p> $P(X)=(\\frac{1}{10})^{8}[72+1]=\\frac{73}{10^{8}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "n(D)=10",
@@ -168,7 +168,7 @@
         "n=8"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:03.071700"
     },
@@ -243,14 +243,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}S={a_{1},a_{2},a_{3},a_{4},a_{5}} \\\\ &amp; n(S)=5 \\\\ &amp; P(S)=\\text{power set of}S \\\\ &amp; nP(S)=2^{n(S)}=2^{5}=32 \\\\ &amp; n(T)=n[P(S) \\times P(S)]=32 \\times 32\\text{(Total outcomes)} \\end{aligned}$ </p>\n<p> $E=$  event that choosing ordered pair (  $A,B$  ) from  $P(S) \\times P(S)$  such that  $A∩B=\\phi$ </p>\n<p>for each element  $x \\in S,n(S)=5$ </p>\n<p>there are 4 possibilities such that  $A∩B=\\phi$ </p>\n<ol>\n<li><p>1. $x \\in A$  and  $x∉B$ </p></li>\n<li><p>2. $x∉A$  and  $x \\in B$ </p></li>\n<li><p>3. $x∉A$  and  $x∉B$ </p></li>\n<li><p>4. $x \\in A$  and  $x \\in B$ </p></li>\n</ol>\n<p>for  $A∩B=\\phi$ , exclude the fourth.</p>\n<p>so, for each of 5 elements of  $S$  there are 3 choices.</p>\n<p>The number of favourable outcome  $n(E)=3 \\times 3 \\times 3 \\times 3 \\times 3$ </p>\n<p> $P(E)=\\frac{\\text{favourable outcome}}{\\text{Total outcome}}=\\frac{3^{5}}{32 \\times 32}=\\frac{3^{5}}{2^{10}}$ </p>\n<p>It is given that  $P(E)=\\frac{3^{p}}{2^{q}}$ </p>\n<p>compare  $p=5,q=10⟹p+q=15$  Ans</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "P(S) \\times P(S)",
         "A∩B=∅"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:24.688123"
     },
@@ -438,7 +438,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $b=1$ </p>\n<p> $\\Rightarrow a&gt;11 \\Rightarrow$  a can take 90 values from  ${11,12,\\dots100}$ </p>\n<p>Let  $b=2 \\Rightarrow a&gt;12 \\Rightarrow 8&gt;$  values and so on till  $b=99 \\Rightarrow$  a can only take  $a=100$ , only 1 value ⇒ favourable cases  $=1+2+3+\\dots.+90$ </p>\n<p> $=\\frac{\\frac{90 \\times 91}{2}}{100 \\times 99}=\\frac{91}{220} \\Rightarrow m+n=311$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "b=2 \\Rightarrow a>12 \\Rightarrow 8>",
@@ -448,7 +448,7 @@
         "=\\frac{\\frac{90 \\times 91}{2}}{100 \\times 99}=\\frac{91}{220} \\Rightarrow m+n=311"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:24.702635"
     },
@@ -608,11 +608,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Total ways to choose two distinct numbers from  $1,2,\\dots,50$  is</p>\n<p> $(\\frac{50}{2})=1225.$ </p>\n<p>The product  $ab$  is <strong>not</strong> divisible by  $3$  only if <strong>neither</strong>  $a$  nor  $b$  is divisible by  $3$ .</p>\n<p>Multiples of  $3$  in  $1$  to  $50$ :  $⌊\\frac{50}{3}⌋=16$ .  </p>\n<p>So numbers <strong>not</strong> divisible by  $3$ :  $50-16=34$ .</p>\n<p>Unfavorable pairs:</p>\n<p> $(\\frac{34}{2})=\\frac{34 \\cdot 33}{2}=561.$ </p>\n<p>Therefore favorable pairs:</p>\n<p> $1225-561=664,$ </p>\n<p>and the required probability is</p>\n<p> $\\frac{664}{1225}.$ </p>\n<p><strong>Answer:  $\\frac{664}{1225}$  (Option C).</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:03.150459"
     },
@@ -819,11 +819,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} 3E, &amp; 1D, &amp; 8P \\\\ 3E, &amp; 2D, &amp; 7P \\\\ 4E, &amp; 1D, &amp; 7P \\\\ 4E, &amp; 2D, &amp; 6P \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; P=\\frac{^{4}C_{3} \\cdot ^{2}C_{1} \\cdot ^{10}C_{8}+^{4}C_{3} \\cdot ^{2}C_{2} \\cdot ^{10}C_{7}+^{4}C_{4} \\cdot ^{2}C_{1} \\cdot ^{10}C_{7}+^{4}C_{4} \\cdot ^{2}C_{2} \\cdot ^{10}C_{6}}{^{10}C_{12}} \\\\ &amp; =\\frac{129}{182} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:04.598101"
     },
@@ -869,14 +869,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Bag}1={4W,5B} \\\\ &amp; \\text{Bag}𝟐={nW,𝟑B} \\\\ &amp; P(\\frac{W}{Bag2})=\\frac{29}{45} \\\\ &amp; \\Rightarrow P(\\frac{W}{B_{1}}) \\times P(\\frac{W}{B_{2}})+P(\\frac{B}{B_{1}}) \\times P(\\frac{W}{B_{2}})=\\frac{29}{45} \\\\ &amp; \\frac{4}{9} \\times \\frac{n+1}{n+4}+\\frac{5}{9} \\times \\frac{n}{n+4}=\\frac{29}{45} \\end{aligned}$ </p>\n<p> $n=6$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{29}{45}",
         "n=6"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:05.058378"
     },
@@ -974,11 +974,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $a=$  number or dice 1</p>\n<p> $b=$  number on dice 2</p>\n<p> $(a,b)=(1,3),(3,1),(2,2),(2,3),(3,2),(1,4),(4,1)$ </p>\n<p>Required probability</p>\n<p> $\\begin{aligned} &amp; =\\frac{2}{6} \\times \\frac{2}{6}+\\frac{1}{6} \\times \\frac{1}{6}+\\frac{2}{6} \\times \\frac{2}{6}+\\frac{2}{6} \\times \\frac{2}{6}+\\frac{1}{6} \\times \\frac{2}{6}+\\frac{2}{6} \\times \\frac{1}{6}+\\frac{1}{6} \\times \\frac{2}{6} \\\\ &amp; =\\frac{18}{36}=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:06.001798"
     },
@@ -1413,13 +1413,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A, E,G R D N</p>\n<p> $\\text{Probabllity}(P)=\\frac{\\text{favourable case}}{\\text{Total case}}$ </p>\n<p>(when A &amp; E are in order)</p>\n<p>Total case  $=6$  !</p>\n<p>Favourable case  $=^{6}C_{2}.4$  !</p>\n<p> $P=\\frac{(15)4!}{(30)4!}$ </p>\n<p>Probablity when not in order  $=1-\\frac{1}{2}=\\frac{1}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\text{Probabllity}(P)=\\frac{\\text{favourable case}}{\\text{Total case}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:05.136270"
     },
@@ -1465,11 +1465,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; p(S_{5})=\\frac{1}{9} \\\\ &amp; p(S_{5})=\\frac{5}{36} \\\\ &amp; \\text{required prob}=\\frac{1}{9}+\\frac{8}{9} \\cdot \\frac{31}{36} \\cdot \\frac{1}{9}+(\\frac{8}{9} \\cdot \\frac{31}{36})^{2} \\cdot \\frac{1}{9}+\\dots\\infty \\\\ &amp; =\\frac{\\frac{1}{9}}{1-\\frac{62}{81}}=\\frac{9}{19} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:05.559552"
     },
@@ -1547,14 +1547,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P(\\frac{\\text{Lost}_{\\text{(spade})}}{n\\text{cards are spade}})$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{P(\\frac{n_{s}}{L_{s}})P(L_{s})}{P(\\frac{n_{s}}{L_{s}})P(L_{s})+P(\\frac{n_{s}}{\\bar{L}_{s}})P(\\bar{L}_{s})} \\\\ &amp; =\\frac{\\frac{^{12}C_{n}}{^{51}C_{n}} \\times \\frac{1}{4}}{\\frac{^{12}C_{n}}{^{51}C_{n}} \\times \\frac{1}{4}+\\frac{3}{4} \\times \\frac{^{13}C_{n}}{^{51}C_{n}}}=\\frac{1}{1+3 \\cdot \\frac{^{13}C_{n}}{^{12}C_{n}}}=\\frac{13-n}{52-n} \\\\ &amp; \\Rightarrow \\frac{13-n}{52-n}=\\frac{11}{50} \\\\ &amp; \\Rightarrow n=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{11}{50}",
         "P(\\frac{\\text{Lost}_{\\text{(spade})}}{n\\text{cards are spade}})"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:24.713503"
     },
@@ -1650,11 +1650,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Probability that a Red ball comes from Bag I ( $p$ )</strong>:</p>\n<p> $p(B_{1}/R)=\\frac{p(B_{1}) \\cdot p(R/B_{1})}{p(R)}$ </p>\n<p>Substituting the values,</p>\n<p> $p(B_{1}/R)=\\frac{\\frac{1}{3} \\times \\frac{3}{10}}{\\frac{1}{3} \\times \\frac{3}{10}+\\frac{1}{3} \\times \\frac{4}{10}+\\frac{1}{3} \\times \\frac{5}{10}}$ </p>\n<p>Simplify to find  $p$ :</p>\n<p> $=\\frac{\\frac{1}{10}}{\\frac{1}{3}(1.2)}=\\frac{1}{4}$ </p>\n<p>So,  $p=\\frac{1}{4}$ .</p>\n<p><p><strong>Probability that a Green ball comes from Bag III ( $q$ )</strong>:</p>\n<p> $p(B_{3}/G)=\\frac{p(B_{3}) \\cdot p(G/B_{3})}{p(G)}$ </p>\n<p>Substitute the values,</p>\n<p> $p(B_{3}/G)=\\frac{\\frac{1}{3} \\times \\frac{4}{10}}{\\frac{1}{3} \\times \\frac{5}{10}+\\frac{1}{3} \\times \\frac{3}{10}+\\frac{1}{3} \\times \\frac{4}{10}}$ </p>\n<p>Simplify to find  $q$ :</p>\n<p> $=\\frac{\\frac{2}{15}}{\\frac{1}{3} \\times 1.2}=\\frac{1}{3}$ </p>\n<p>So,  $q=\\frac{1}{3}$ .</p></p>\n<p><p><strong>Calculation of  $(\\frac{1}{p}+\\frac{1}{q})$ :</strong></p>\n<p> $\\frac{1}{p}=4,\\frac{1}{q}=3$ </p>\n<p>Therefore,</p>\n<p> $(\\frac{1}{p}+\\frac{1}{q})=4+3=7$ </p></p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:04.744474"
     },
@@ -1905,7 +1905,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's denote the outcomes of the three rolls as  $X_{1}$ ,  $X_{2}$ , and  $X_{3}$ , where  $X_{i}$  represents the number obtained in the  $i^{\\text{th}}$  roll. We are looking for the probability that:</p>\n<p> $X_{2}&gt;X_{1}\\text{and}X_{3}&gt;X_{2}$ </p>\n<p>The total number of outcomes when rolling a dice three times is: </p>\n<p> $6^{3}=216$ </p>\n<p>Let's count the favorable outcomes. For each satisfying outcome, we must ensure that both inequalities are adhered to. Consider the possible sequences where every subsequent roll's number is higher than the previous roll's number. These sequences are:</p>\n<ul>\n<li>(1, 2, 3)</li>\n<li>(1, 2, 4)</li>\n<li>(1, 2, 5)</li>\n<li>(1, 2, 6)</li>\n<li>(1, 3, 4)</li>\n<li>(1, 3, 5)</li>\n<li>(1, 3, 6)</li>\n<li>(1, 4, 5)</li>\n<li>(1, 4, 6)</li>\n<li>(1, 5, 6)</li>\n<li>(2, 3, 4)</li>\n<li>(2, 3, 5)</li>\n<li>(2, 3, 6)</li>\n<li>(2, 4, 5)</li>\n<li>(2, 4, 6)</li>\n<li>(2, 5, 6)</li>\n<li>(3, 4, 5)</li>\n<li>(3, 4, 6)</li>\n<li>(3, 5, 6)</li>\n<li>(4, 5, 6)</li>\n</ul>\n<p>Clearly, there are 20 such favorable outcomes. Hence, the probability is given by:</p>\n<p> $\\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}}=\\frac{20}{216}=\\frac{5}{54}$ </p>\n<p>Therefore, the correct option is:</p>\n<p>Option A:  $\\frac{5}{54}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "i^{\\text{th}}",
@@ -1916,7 +1916,7 @@
         "X_{3}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:06.489935"
     },
@@ -1962,11 +1962,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; P(\\text{standard automobile from}A)=\\frac{6}{10} \\times \\frac{8}{10}=\\frac{12}{25} \\\\ &amp; P(\\text{standard automobile from}B)=\\frac{4}{10} \\times \\frac{9}{10}=\\frac{9}{25} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Required Probability}\\frac{\\frac{9}{25}}{\\frac{12}{25}+\\frac{9}{25}} \\\\ &amp; P=\\frac{9}{21}=\\frac{3}{7} \\end{aligned}$ </p>\n<p>So,  $126P=126 \\times \\frac{3}{7}=54$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:07.160946"
     },
@@ -2119,7 +2119,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given set  $={1,2,3,\\dots\\dots..50}$ </p>\n<p> $P(A)=$  Probability that number is multiple of 4</p>\n<p> $P(B)=$  Probability that number is multiple of 6</p>\n<p> $P(C)=$  Probability that number is multiple of 7</p>\n<p>Now,</p>\n<p> $P(A)=\\frac{12}{50},P(B)=\\frac{8}{50},P(C)=\\frac{7}{50}$ </p>\n<p>again</p>\n<p> $\\begin{aligned} &amp; P(A∩B)=\\frac{4}{50},P(B∩C)=\\frac{1}{50},P(A∩C)=\\frac{1}{50} \\\\ &amp; P(A∩B∩C)=0 \\end{aligned}$ </p>\n<p>Thus</p>\n<p> $\\begin{aligned} P(A &amp; ∪B∪C)=\\frac{12}{50}+\\frac{8}{50}+\\frac{7}{50}-\\frac{4}{50}-\\frac{1}{50}-\\frac{1}{50}+0 \\\\ &amp; =\\frac{21}{50} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "={1,2,3,\\dots\\dots..50}",
@@ -2129,7 +2129,7 @@
         "P(A)=\\frac{12}{50},P(B)=\\frac{8}{50},P(C)=\\frac{7}{50}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:08.610956"
     },
@@ -2154,7 +2154,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A quadratic equation  $ax^{2}+bx+c=0$  has real roots if and only if its discriminant is non-negative. The discriminant  $\\Delta$  of the quadratic equation is given by:</p>\n<p> $\\Delta=b^{2}-4ac$ </p>\n<p>For the quadratic equation to have all real roots, the discriminant must be non-negative:</p>\n<p> $\\Delta \\ge 0$ </p>\n<p>That means:</p>\n<p> $b^{2}-4ac \\ge 0$ </p>\n<p>Given that  $a,b,c$  are the outcomes of rolling a fair tetrahedral die, they can each be one of the numbers 1, 2, 3, or 4. Our task is to determine the probability that this condition holds.</p>\n<p>We need to analyze the cases where  $b^{2} \\ge 4ac$ .</p>\n<p>Let’s consider all possible values for  $a$ ,  $b$ , and  $c$ , and count how many of them satisfy the condition. Since there are 4 choices for each of the variables, there are a total of  $4 \\times 4 \\times 4=64$  possible combinations.</p>\n<p>Now, we count the valid combinations where  $b^{2} \\ge 4ac$ :</p>\n<ul>\n<li>For  $a=1$ :  $b^{2} \\ge 4c$ </li>\n<ul>\n<li> $b=1:1 \\ge 4c \\rightarrow \\text{(Not possible since}c\\text{must be} \\ge 1\\text{and not zero)}$ </li>\n<li> $b=2:4 \\ge 4c \\rightarrow c \\le 1 \\rightarrow c=1$  (1 case)</li>\n<li> $b=3:9 \\ge 4c \\rightarrow c \\le 2 \\rightarrow c=1\\text{or}2$  (2 cases)</li>\n<li> $b=4:16 \\ge 4c \\rightarrow c \\le 4 \\rightarrow c=1,2,3,4$  (4 cases)</li>\n</ul>\n<p>Total for  $a=1=1+2+4=7$ </p>\n<li>For  $a=2$ :  $b^{2} \\ge 8c$ </li>\n<ul>\n<li> $b=1:1 \\ge 8c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=2:4 \\ge 8c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=3:9 \\ge 8c \\rightarrow c \\le 1$  (1 case)</li>\n<li> $b=4:16 \\ge 8c \\rightarrow c \\le 2$  (2 cases)</li>\n</ul>\n<p>Total for  $a=2=1+2=3$ </p>\n<li>For  $a=3$ :  $b^{2} \\ge 12c$ </li>\n<ul>\n<li> $b=1:1 \\ge 12c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=2:4 \\ge 12c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=3:9 \\ge 12c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=4:16 \\ge 12c \\rightarrow c \\le 1$  (1 case)</li>\n</ul>\n<p>Total for  $a=3=1$ </p>\n<li>For  $a=4$ :  $b^{2} \\ge 16c$ </li>\n<ul>\n<li> $b=1:1 \\ge 16c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=2:4 \\ge 16c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=3:9 \\ge 16c \\rightarrow \\text{(Not possible)}$ </li>\n<li> $b=4:16 \\ge 16c \\rightarrow c \\le 1$  (1 case)</li>\n</ul>\n<p>Total for  $a=4=1$ </p>\n</ul>\n<p>Adding up all the valid cases:</p>\n<p> $7+3+1+1=12$ </p>\n<p>The total number of valid combinations is 12 out of 64. Thus, the probability is:</p>\n<p> $\\frac{12}{64}=\\frac{3}{16}$ </p>\n<p>The value of  $m=3$  and  $n=16$ . The sum  $m+n=3+16=19$ .</p>\n<p>Hence, the answer is 19.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "ax^{2}+bx+c=0",
@@ -2165,7 +2165,7 @@
         "4 \\times 4 \\times 4=64"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:25.182503"
     },
@@ -2491,13 +2491,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 232px\">\n<colgroup>\n<col style=\"width: 46px\"/>\n<col style=\"width: 49px\"/>\n<col style=\"width: 47px\"/>\n<col style=\"width: 44px\"/>\n<col style=\"width: 46px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $X$ </th>\n<th class=\"tg-baqh\">3</th>\n<th class=\"tg-baqh\">2</th>\n<th class=\"tg-baqh\">1</th>\n<th class=\"tg-baqh\">0</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $Y$ </td>\n<td class=\"tg-baqh\">0</td>\n<td class=\"tg-baqh\">1</td>\n<td class=\"tg-baqh\">2</td>\n<td class=\"tg-baqh\">3</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; \\bar{X}=\\sum Xp(X) \\\\ &amp; \\bar{Y}=\\sum Yp(Y) \\\\ &amp; P(X=3)=P(Y=0)=\\frac{^{5}C_{3} \\cdot C_{0}}{^{9}C_{3}}=\\frac{^{5}C_{2}}{^{9}C_{3}}=\\frac{5}{42} \\\\ &amp; P(X=2)=P(Y=1)=\\frac{^{5}C_{2} \\cdot C_{1}}{^{9}C_{3}}=\\frac{10}{21} \\\\ &amp; P(X=1)=P(Y=2)=\\frac{^{5}C_{1} \\cdot C_{2}}{^{9}C_{3}}=\\frac{5}{14} \\\\ &amp; P(X=0)=P(Y=3)=\\frac{^{5}C_{0} \\cdot C_{3}}{^{9}C_{3}}=\\frac{4}{84}=\\frac{1}{21} \\\\ &amp; \\bar{X}=3 \\times \\frac{5}{42}+2 \\times \\frac{10}{21}+\\frac{5}{14}+0 \\times \\frac{1}{21}=\\frac{15+40+15}{42}=\\frac{70}{42} \\\\ &amp; \\bar{Y}=0 \\times \\frac{5}{42}+1 \\times \\frac{10}{21}+2 \\times \\frac{5}{14}+3 \\times \\frac{1}{21}=\\frac{20+30+6}{42}=\\frac{56}{42} \\\\ &amp; 7\\bar{X}+4\\bar{Y}=17 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ___________."
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:25.197380"
     },
@@ -2576,7 +2576,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw8pero8/601e15c3-bb4a-487e-b3ff-b7b116b4f031/2e363180-1336-11ef-9f8d-838c388c326d/file-1lw8pero9.png?format=png"
       ],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{4}",
@@ -2587,7 +2587,7 @@
         "ab \\ge \\frac{3}{4} \\cdot 144=108"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:06.576878"
     },
@@ -2633,7 +2633,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given quadratic equation is</p>\n<p> $ax^{2}+bx+c=0\\text{where}a,b,c \\in {1,2,3,\\dots,8}$ </p>\n<p>For repeated roots,</p>\n<p> $\\begin{aligned} &amp; b^{2}-4ac=0 \\\\ &amp; \\Rightarrow b^{2}=4ac \\end{aligned}$ </p>\n<p> $\\Rightarrow ac$  must be a perfect square</p>\n<p> $(a,c) \\in {(1,1),(1,4),(2,2),(2,8),(3,3),(4,1),(4,4),(5,5),(6,6),(7,7),(8,2),(8,8)}$ </p>\n<p>Corresponding  $b$  must lie in set  ${1,2,3,\\dots8}$ </p>\n<p> $\\begin{aligned} &amp; (a,b,c) \\in {(1,2,1),(1,2,4),(2,4,2),(2,8,8) \\\\ &amp; (3,6,3),(4,4,1),(4,8,4),(8,8,2)} \\\\ &amp; \\therefore \\text{probability}=\\frac{8}{8^{3}} \\\\ &amp; =\\frac{1}{64} \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "ax^{2}+bx+c=0",
@@ -2641,7 +2641,7 @@
         "\\begin{aligned} & b^{2}-4ac=0 \\\\ & \\Rightarrow b^{2}=4ac \\end{aligned}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:07.209190"
     },
@@ -2739,14 +2739,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsoxmoxg/bddbd042-adc7-47f2-8492-6edfb8c4f19c/00793740-ccf2-11ee-a330-494dca5e9a63/file-6y3zli1lsoxmoxh.png?format=png"
       ],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "E_{1}:A",
         "E_{2}:B"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:08.209475"
     },
@@ -2859,7 +2859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we need to compute the probabilities  $a$ ,  $b$ , and  $c$ , and then plug those values into the expression  $\\frac{b+c}{a}$ .</p>\n<p>Let's begin by defining each of the variables:</p>\n<ul>\n<li> $a=P(X=3)$ : This is the probability that the first six appears on the third toss.</li>\n<li> $b=P(X⩾3)$ : This is the probability that the first six appears on the third toss or later.</li>\n<li> $c=P(X⩾6|X&gt;3)$ : This is the probability that the first six appears on the sixth toss or later, given that it has not appeared in the first three tosses.</li>\n</ul>\n<p>Since we're dealing with a fair die, each side has an equal probability of  $\\frac{1}{6}$  of landing face up. Let's find the probabilities step by step:</p>\n<p><strong>Calculating  $a$ :</strong></p>\n<p>\n<p>The probability of rolling anything other than a six is  $\\frac{5}{6}$ . So for the first six to show up exactly on the third roll, the sequence of rolls must be NN6, where N is anything but a six (i.e., the results of the first two rolls). Thus,</p>\n<p> $a=P(X=3)=(\\frac{5}{6}) \\cdot (\\frac{5}{6}) \\cdot (\\frac{1}{6})$ </p>\n</p>\n<p><strong>Calculating  $b$ :</strong></p>\n<p>\n<p>For the first six to appear on the third roll or later, we can think of two cases: when the first six appears on the third roll (which we've already calculated,  $a$ ), and when it appears after the third roll. To combine these probabilities, we can use the fact that  $P(X⩾3)=1-P(X&lt;3)$ , where  $P(X&lt;3)$  is the probability that the first six appears on either the first or the second roll. So we calculate the latter first:</p>\n<p> $P(X&lt;3)=P(X=1)+P(X=2)$ </p>\n<p> $P(X&lt;3)=(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})$ </p>\n<p>Thus,</p>\n<p> $b=P(X⩾3)=1-P(X&lt;3)=1-[(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})]$ </p>\n</p>\n<p><strong>Calculating  $c$ :</strong></p>\n<p>\n<p>This is the probability that the first six appears on or after the sixth roll, given that it hasn't appeared in the first three rolls. Since  $X&gt;3$ , the first three outcomes must not be a six, which occurs with probability  $(\\frac{5}{6})^{3}$ . The subsequent outcomes until (and including) the fifth roll also must not be a six. So,</p>\n<p> $c=P(X⩾6|X&gt;3)=(\\frac{5}{6})^{2}$ </p>\n<p>Notice here, we did not include the probability of rolling a six, because we are looking for the probability that we have not yet rolled a six after the fifth roll.</p>\n</p>\n<p>Now we can calculate  $a$ ,  $b$ , and  $c$ :</p>\n<p>\n<p> $a=(\\frac{5}{6})^{2} \\cdot \\frac{1}{6}$ </p>\n<p> $b=1-[(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})]$ </p>\n<p> $c=(\\frac{5}{6})^{2}$ </p>\n<p>Now we'll substitute to find  $\\frac{b+c}{a}$ :</p>\n<p> $\\frac{b+c}{a}=\\frac{1-[(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})]+(\\frac{5}{6})^{2}}{(\\frac{5}{6})^{2} \\cdot \\frac{1}{6}}$ </p>\n</p>\n<p>Simplifying the numerator:</p>\n<p>\n<p> $1-[(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})]+(\\frac{5}{6})^{2}$ </p>\n<p> $=1-[\\frac{1}{6}+\\frac{5}{36}]+\\frac{25}{36}$ </p>\n<p> $=1-[\\frac{6}{36}+\\frac{5}{36}]+\\frac{25}{36}$ </p>\n<p> $=1-\\frac{11}{36}+\\frac{25}{36}$ </p>\n<p> $=\\frac{36}{36}-\\frac{11}{36}+\\frac{25}{36}$ </p>\n<p> $=\\frac{50}{36}$ </p>\n<p>Now, substitute this back into the expression and solve:</p>\n<p> $\\frac{b+c}{a}=\\frac{\\frac{50}{36}}{(\\frac{5}{6})^{2} \\cdot \\frac{1}{6}}$ </p>\n<p> $\\frac{b+c}{a}=\\frac{50}{36} \\cdot \\frac{6}{(\\frac{5}{6})^{2}}$ </p>\n<p> $\\frac{b+c}{a}=\\frac{50 \\cdot 6}{25}$ </p>\n<p> $\\frac{b+c}{a}=\\frac{300}{25}$ </p>\n<p> $\\frac{b+c}{a}=12$ </p>\n<p>Therefore,  $\\frac{b+c}{a}=12$ .</p></p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "c=P(X⩾6|X>3)",
@@ -2870,7 +2870,7 @@
         "P(X<3)=(\\frac{1}{6})+(\\frac{5}{6}) \\cdot (\\frac{1}{6})"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:25.706218"
     },
@@ -3214,13 +3214,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that,\n<br/><br/> $P($  odd number seven times  $)=P($  Odd number nine times)\n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow ^{n}C_{7}(\\frac{1}{2})^{7}(\\frac{1}{2})^{n-7}=^{n}C_{9}(\\frac{1}{2})^{9}(\\frac{1}{2})^{n-9} \\\\ \\\\ &amp; \\Rightarrow ^{n}C_{7}=^{n}C_{9} \\\\ \\\\ &amp; \\Rightarrow n=7+9=16 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Hence,}P(\\text{Even number twice})=\\frac{k}{2^{15}} \\\\ \\\\ &amp; \\Rightarrow ^{16}C_{2}(\\frac{1}{2})^{2}(\\frac{1}{2})^{16-2}=\\frac{k}{2^{15}} \\\\ \\\\ &amp; \\Rightarrow \\frac{16 \\times 15}{2} \\times \\frac{1}{2^{16}}=\\frac{k}{2^{15}} \\Rightarrow k=60 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{k}{2^{15}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:10.039140"
     },
@@ -3266,7 +3266,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total number of outcomes  $=6 \\times 6 \\times 6=216$ \n<br/><br/>Number of outcomes getting different numbers on the three dice are  $^{6}P_{3}=\\frac{6!}{3!}=120$ \n<br/><br/> $\\therefore$  Required probability  $=\\frac{120}{216}=\\frac{5}{9}$ \n<br/><br/> $\\therefore p=5$  and  $q=9$ \n<br/><br/> $\\therefore q-p=9-5=4$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{p}{q}",
@@ -3276,7 +3276,7 @@
         "\\therefore q-p=9-5=4"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:10.494297"
     },
@@ -3410,7 +3410,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have the quadratic equation  $64x^{2}+5Nx+1=0$ . For it to have no real roots, the discriminant ( $b^{2}-4ac$ ) should be less than 0. Here,  $a=64$ ,  $b=5N$ , and  $c=1$ . \n\n<br/><br/>This gives us :\n\n<br/><br/> $(5N)^{2}-4 \\times 64 \\times 1&lt;0$ \n<br/><br/> $\\Rightarrow 25N^{2}&lt;256$ \n<br/><br/> $\\Rightarrow N^{2}&lt;\\frac{256}{25}$ \n<br/><br/> $\\Rightarrow N&lt;\\sqrt{\\frac{256}{25}}=\\frac{16}{5}$ \n<br/><br/>Since  $N$  must be an integer (as it represents the number of tosses), the possible values of  $N$  are 1, 2, or 3. \n\n<br/><br/>The probability of getting the first head on the  $n$ -th toss (given the probability of getting a head is  $1/4$ ) is given by the geometric distribution formula,  $(1-p)^{n-1} \\times p$ .\n\n<br/><br/>So, the probability for our specific values of  $N$  is:\n\n<br/><br/> $P(N=1)=(1-1/4)^{1-1} \\times (1/4)=1/4$ \n<br/><br/> $P(N=2)=(1-1/4)^{2-1} \\times (1/4)=3/4 \\times 1/4=3/16$ \n<br/><br/> $P(N=3)=(1-1/4)^{3-1} \\times (1/4)=(3/4)^{2} \\times 1/4=9/64$ \n<br/><br/>Therefore, the total probability (p/q) is :\n\n<br/><br/> $p/q=P(N=1)+P(N=2)+P(N=3)$ \n<br/><br/> $=1/4+3/16+9/64$ \n<br/><br/> $=16/64+12/64+9/64$ \n<br/><br/> $=37/64$ \n<br/><br/>So,  $p=37$ ,  $q=64$  and  $q-p=64-37=27$ . \n\n<br/><br/>Therefore,  $q-p$  is equal to  $27$ .\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{1}{4}",
@@ -3421,7 +3421,7 @@
         "P(N=2)=(1-1/4)^{2-1} \\times (1/4)=3/4 \\times 1/4=3/16"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:26.027025"
     },
@@ -3721,7 +3721,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $x+y=66$ \n<br/><br/>\n $\\begin{aligned} &amp; \\frac{x+y}{2} \\ge \\sqrt{xy} \\\\ \\\\ \\Rightarrow &amp; 33 \\ge \\sqrt{xy} \\\\ \\\\ \\Rightarrow &amp; xy \\le 1089 \\\\ \\\\ \\therefore &amp; M=1089 \\\\ \\\\ S: &amp; x(66-x) \\ge \\frac{5}{9} \\cdot 1089 \\\\ \\\\ &amp; 66x-x^{2} \\ge 605 \\\\ \\\\ \\Rightarrow &amp; x^{2}-66x+605 \\le 0 \\end{aligned}$ \n<br/><br/> $\\Rightarrow (x-55)(x-11) \\le 0;11 \\le x \\le 55$ \n<br/><br/>Therefore  $S={11,12,13\\dots55}$ \n<br/><br/> $\\Rightarrow n(S)=45$ \n<br/><br/>Elements of  $S$  which are multiple of 3 are\n<br/><br/> $\\begin{aligned} &amp; 12+(n-1)3=54 \\Rightarrow 3(n-1)=42 \\Rightarrow n=15 \\\\ \\\\ &amp; n(A)=15 \\end{aligned}$ \n<br/><br/> $\\Rightarrow P(A)=\\frac{15}{45}=\\frac{1}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "S={x \\in ℤ:x(66-x) \\ge \\frac{5}{9}M}",
@@ -3732,7 +3732,7 @@
         "\\Rightarrow P(A)=\\frac{15}{45}=\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:11.289313"
     },
@@ -3919,11 +3919,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; A={(1,2),(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),(3,4),(3,5),(3,6),(4,5),(4,6),(5,6)} \\\\ \\\\ &amp; n(A)=15 \\\\ \\\\ &amp; B={(2,1),(2,3),(2,5),(4,1),(4,3),(4,5),(6,1),(6,3),(6,5)} \\\\ \\\\ &amp; n(B)=9 \\\\ \\\\ &amp; C={(1,2),(1,4),(1,6),(3,2),(3,4),(3,6),(5,2),(5,4),(5,6)} \\\\ \\\\ &amp; n(C)=9 \\end{aligned}$ \n<br/><br/> $(4,5) \\in A\\text{and}(4,5) \\in B$ \n<br/><br/> $\\therefore A$  and  $B$  are not exclusive events\n<br/><br/> $\\begin{aligned} &amp; n((A∪B)∩C)=n(A∩C)+n(B∩C)-n(A∩B∩C) \\\\ \\\\ = &amp; 3+3-0 \\\\ \\\\ = &amp; 6 \\end{aligned}$ \n<br/><br/>Option (D) is correct.\n<br/><br/> $\\begin{aligned} &amp; n(B)=\\frac{9}{36},n(C)=\\frac{9}{36},n(B∩C)=0 \\\\ \\\\ &amp; \\Rightarrow n(B) \\cdot n(C) \\ne n(B∩C) \\\\ \\\\ &amp; \\therefore B\\text{and}C\\text{are not independent.} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:10.518846"
     },
@@ -3969,7 +3969,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P(w_{1})+\\frac{P(w_{1})}{2}+\\frac{P(w_{1})}{2^{2}}+.....=1$ </p>\n<p> $\\therefore$   $P(w_{1})=\\frac{1}{2}$ </p>\n<p>Hence,  $P(w_{n})=\\frac{1}{2^{n}}$ </p>\n<p>Every number except 1, 2, 3, 4, 6 is representable in the form</p>\n<p> $2k+3l$  where  $k,l \\in N$ .</p>\n<p> $\\therefore$   $P(B)=1-P(w_{1})-P(w_{2})-P(w_{3})-P(w_{4})-P(w_{6})$ </p>\n<p> $=\\frac{3}{64}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "S={w_{1},w_{2},......}",
@@ -3980,7 +3980,7 @@
         "P(w_{1})=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:10.908321"
     },
@@ -4456,7 +4456,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Probability of a person being smoker  $=\\frac{1}{4}$ \n<br/><br/>\nProbability of a person being non-smoker  $=\\frac{3}{4}$ \n<br/><br/>\n $P(\\frac{\\text{Person is smoker}}{\\text{Person diagonsed with cancer}})=\\frac{\\frac{1}{4} \\cdot 27P}{\\frac{1}{4} \\cdot 27P+\\frac{3P}{4}}$ \n<br/><br/>\n $=\\frac{9}{10}=\\frac{k}{10}$ \n<br/><br/>\n $\\Rightarrow k=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{k}{10}",
@@ -4466,7 +4466,7 @@
         "\\Rightarrow k=9"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:26.063120"
     },
@@ -4512,7 +4512,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $E \\rightarrow$  Ball drawn from Bag II is black.\n<br/><br/>\n $E_{R} \\rightarrow$  Bag I to Bag II red ball transferred.\n<br/><br/>\n $E_{B} \\rightarrow$  Bag I to Bag II black ball transferred.\n<br/><br/>\n $E_{w} \\rightarrow$  Bag I to Bag II white ball transferred.\n<br/><br/>\n $P(E_{R}/E)=\\frac{P(E/E_{R}) \\cdot P(E_{R})}{P(E/E_{R})P(E_{R})+P(E/E_{B})P(E_{B})+P(E/E_{W})P(E_{W})}$ \n<br/><br/>\nHere,\n<br/><br/>\n $P(E_{R})=3/10,P(E_{B})=4/10,P(E_{W})=3/10$ \n<br/><br/>\nand\n<br/><br/>\n $\\begin{aligned} &amp; P(E/E_{R})=5/10,P(E/E_{B})=6/10,P(E/E_{W})=5/10 \\\\ \\\\ &amp; \\therefore P(E_{R}/E)=\\frac{15/100}{15/100+24/100+15/100} \\\\ \\\\ &amp; =\\frac{15}{54}=\\frac{5}{18} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "E_{R} \\rightarrow",
@@ -4520,7 +4520,7 @@
         "E_{w} \\rightarrow"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:11.659618"
     },
@@ -4680,7 +4680,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For  $x^{2}+\\alpha x+\\beta&gt;0∀x \\in R$  to hold, we should have  $\\alpha^{2}-4\\beta&lt;0$ \n<br/><br/>\nIf  $\\alpha=1,\\beta$  can be 1, 2, 3, 4, 5, 6 i.e., 6 choices\n<br/><br/>\nIf  $\\alpha=2,\\beta$  can be 2, 3, 4, 5, 6 i.e., 5 choices\n<br/><br/>\nIf  $\\alpha=3,\\beta$  can be  $3,4,5,6$  i.e., 4 choices\n<br/><br/>\nIf  $\\alpha=4,\\beta$  can be 5 or 6 i.e., 2 choices\n<br/><br/>\nIf  $\\alpha=6$ , No possible value for  $\\beta$  i.e., 0 choices<br/><br/>\nHence total favourable outcomes\n<br/><br/>\n $\\begin{aligned} &amp; =6+5+4+2+0+0 \\\\ \\\\ &amp; =17 \\end{aligned}$ \n<br/><br/>\nTotal possible choices for  $\\alpha$  and  $\\beta=6 \\times 6=36$ \n<br/><br/>\nRequired probability  $=\\frac{17}{36}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "x^{2}+\\alpha x+\\beta>0",
@@ -4691,7 +4691,7 @@
         "\\alpha=3,\\beta"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:13.101904"
     },
@@ -4881,7 +4881,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here  $P(E_{n})=\\frac{n}{36}$  for n = 1, 2, 3, ......, 8</p>\n<p>Here  $P(A)=\\frac{Anypossiblesumof(1,2,3,...,8)(=asay)}{36}$ </p>\n<p> $\\because$   $\\frac{a}{36} \\ge \\frac{4}{5}$ </p>\n<p> $\\therefore$   $a \\ge 29$ </p>\n<p>If one of the number from {1, 2, ......, 8} is left then total  $a \\ge 29$  by 3 ways.</p>\n<p>Similarly by leaving terms more 2 or 3 we get 16 more combinations.</p>\n<p> $\\therefore$  Total number of different set A possible is 16 + 3 = 19</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "P(E_{n})=\\frac{n}{36}",
@@ -4890,7 +4890,7 @@
         "\\frac{a}{36} \\ge \\frac{4}{5}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:26.811202"
     },
@@ -5220,7 +5220,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Coin is tossed 5 times, so n = 5</p>\n<p>Let, p = probability of getting heads</p>\n<p>q = probability of getting tails.</p>\n<p> $\\therefore$  p + q = 1 ...... (1)</p>\n<p> $\\therefore$  Probability of getting 4 heads</p>\n<p>= <sup>5</sup>C<sub>4</sub> . p<sup>4</sup> . q</p>\n<p>And probability of getting 5 heads</p>\n<p>= <sup>5</sup>C<sub>5</sub> . p<sup>5</sup></p>\n<p>Given, <sup>5</sup>C<sub>4</sub> . p<sup>4</sup> . q = <sup>5</sup>C<sub>5</sub> . p<sup>5</sup></p>\n<p> $\\Rightarrow$  5q = p ....... (2)</p>\n<p>From equation (1) and (2), we get,</p>\n<p>5q + q = 1</p>\n<p> $\\Rightarrow$  6q = 1</p>\n<p> $\\Rightarrow$  q =  $\\frac{1}{6}$ </p>\n<p> $\\therefore$  p = 1  $-$   $\\frac{1}{6}$  =  $\\frac{5}{6}$ </p>\n<p>Now, probability of getting atmost two heads</p>\n<p>= p (x = 0) + p (x = 1) + p (x = 2)</p>\n<p>p (x = 0) = Getting zero head in 5 trials</p>\n<p>= <sup>5</sup>C<sub>0</sub> . p<sup>0</sup> . q<sup>5</sup></p>\n<p>p (x = 1) = Getting one head in 5 trials</p>\n<p>= <sup>5</sup>C<sub>1</sub> . p<sup>1</sup> . q<sup>4</sup></p>\n<p>p (x = 2) = Getting two heads in 5 trials</p>\n<p>= <sup>5</sup>C<sub>2</sub> . p<sup>2</sup> . q<sup>3</sup></p>\n<p>= <sup>5</sup>C<sub>0</sub> . q<sup>5</sup> + <sup>5</sup>C<sub>1</sub> . pq<sup>4</sup> + <sup>5</sup>C<sub>2</sub> . p<sup>2</sup>q<sup>3</sup></p>\n<p> $=(\\frac{1}{6})^{5}+5.\\frac{5}{6}.(\\frac{1}{6})^{4}+10.(\\frac{5}{6})^{2}.(\\frac{1}{6})^{3}$ </p>\n<p> $=\\frac{1+25+250}{6^{5}}=\\frac{276}{6^{5}}$  =  $\\frac{46}{6^{4}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{6}",
@@ -5229,7 +5229,7 @@
         "\\frac{46}{6^{4}}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:13.935523"
     },
@@ -5277,13 +5277,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l8la6rik/8b350f4d-948a-4095-a004-5c8116776062/a60740c0-3efb-11ed-8e30-11b9f1cb84fb/file-1l8la6ril.png?format=png"
       ],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{6}{11}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:14.330704"
     },
@@ -5398,7 +5398,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P(A/B)=\\frac{1}{7} \\Rightarrow \\frac{P(A∩B)}{P(B)}=\\frac{1}{7}$ </p>\n<p> $\\Rightarrow P(B)=\\frac{7}{9}$ </p>\n<p> $P(B/A)=\\frac{2}{5} \\Rightarrow \\frac{P(A∩B)}{P(A)}=\\frac{2}{5}$ </p>\n<p> $P(A)=\\frac{5}{2}.\\frac{1}{9}=\\frac{5}{18}$ </p>\n<p> $S2:P(A^{'}∩B^{'})=\\frac{1}{18}$ </p>\n<p> $S1:$  and  $P(A^{'}∪B)=\\frac{1}{9}+\\frac{6}{9}+\\frac{1}{18}=\\frac{5}{6}.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow P(B)=\\frac{7}{9}",
@@ -5408,7 +5408,7 @@
         "P(A^{'}∪B)=\\frac{1}{9}+\\frac{6}{9}+\\frac{1}{18}=\\frac{5}{6}."
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:11.682005"
     },
@@ -5454,7 +5454,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Among the 5 digit numbers,</p>\n<p>First number divisible by 7 is 10003 and last is 99995.</p>\n<p> $\\Rightarrow$  Number of numbers divisible by 7.</p>\n<p> $=\\frac{99995-10003}{7}+1$ </p>\n<p> $=12857$ </p>\n<p>First number divisible by 35 is 10010 and last is 99995.</p>\n<p> $\\Rightarrow$  Number of numbers divisible by 35</p>\n<p> $=\\frac{99995-10010}{35}+1$ </p>\n<p> $=2572$ </p>\n<p>Hence number of number divisible by 7 but not by 5</p>\n<p> $=12857-2572$ </p>\n<p> $=10285$ </p>\n<p> $9P.=\\frac{10285}{90000} \\times 9$ </p>\n<p> $=1.0285$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{99995-10003}{7}+1",
@@ -5465,7 +5465,7 @@
         "=10285"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:12.076703"
     },
@@ -5513,7 +5513,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7buiqub/55e764a3-4414-4eff-841a-7ce0120a8c5f/1bed5420-25ff-11ed-9c74-c5a04899a045/file-1l7buiquc.png?format=png"
       ],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A∩B)=\\frac{1}{3}+\\frac{1}{5}-\\frac{1}{2}=\\frac{1}{30}",
@@ -5521,7 +5521,7 @@
         "=\\frac{\\frac{9}{30}}{\\frac{4}{5}}+\\frac{\\frac{5}{30}}{\\frac{2}{3}}=\\frac{5}{8}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:12.501707"
     },
@@ -5567,14 +5567,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total number of relations  $=2^{2^{2}}=2^{4}=16$ \n<br/><br/>\nRelations that are symmetric as well as transitive are\n<br/><br/>\n $\\phi,{(x,x)},{(y,y)},{(x,x),(x,y),(y,y),(y,x)},{(x,x),(y,y)}$ \n<br/><br/>\n $\\therefore$  favourable cases  $=5$ \n<br/><br/>\n $\\therefore P_{r}=\\frac{5}{16}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "=2^{2^{2}}=2^{4}=16",
         "\\therefore P_{r}=\\frac{5}{16}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:13.127419"
     },
@@ -5622,14 +5622,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5p7g5yy/9381a58a-1f21-4b26-abca-dc94a3e72b11/6c8ce9a0-05bf-11ed-8617-d71e6444d1a0/file-1l5p7g5yz.png?format=png"
       ],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "6y = 30, then the probability that y < 1 is : The required probability",
         "=\\frac{5}{6}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:13.475460"
     },
@@ -5675,7 +5675,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>There are only two ways to get sum 48, which are (32, 8, 8) and (16, 16, 16)</p>\n<p>So, required probability</p>\n<p> $=3(\\frac{2}{32}.\\frac{1}{8}.\\frac{1}{8})+(\\frac{1}{16}.\\frac{1}{16}.\\frac{1}{16})$ </p>\n<p> $=\\frac{3}{2^{10}}+\\frac{1}{2^{12}}$ </p>\n<p> $=\\frac{13}{2^{12}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{n}",
@@ -5683,7 +5683,7 @@
         "=\\frac{13}{2^{12}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:13.947819"
     },
@@ -5798,7 +5798,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Student guesses only two wrong. So there are three possibilities.</p>\n<p>(i) Student guesses both wrong from 1<sup>st</sup> section</p>\n<p>(ii) Student guesses both wrong from 2<sup>nd</sup> section</p>\n<p>(iii) Student guesses two wrong one from each section</p>\n<p>Required probabilities</p>\n<p> $=^{4}C_{2}(\\frac{3}{4})^{2}(\\frac{1}{4})^{2}(\\frac{1}{6})^{6}+^{6}C_{2}(\\frac{3}{4})^{2}(\\frac{1}{4})^{4}(\\frac{3}{4})^{4}+^{4}C_{1}.^{6}C_{1}(\\frac{3}{4})(\\frac{1}{4})(\\frac{3}{4})^{3}(\\frac{1}{4})^{5}$ </p>\n<p> $=\\frac{1}{4^{10}}[6 \\times 9+15 \\times 9^{4}+24 \\times 9^{2}]$ </p>\n<p> $=\\frac{27}{4^{10}}[2+27 \\times 15+72]$ </p>\n<p> $=\\frac{27 \\times 479}{4^{10}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{3}{4}",
@@ -5809,7 +5809,7 @@
         "=\\frac{27 \\times 479}{4^{10}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:26.836100"
     },
@@ -6224,14 +6224,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->g(3) = 2g(1) can be defined in 3 ways<br/><br/>number of onto functions in this condition = 3  $\\times$  4!<br/><br/>Total number of onto functions = 6!<br/><br/>Required probability =  $\\frac{3 \\times 4!}{6!}=\\frac{1}{10}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
         "\\frac{3 \\times 4!}{6!}=\\frac{1}{10}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:14.674612"
     },
@@ -6277,7 +6277,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $D \\ne 0 \\Rightarrow |\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 3 &amp; \\lambda \\end{aligned}| \\ne 0 \\Rightarrow \\lambda \\ne 5$ <br/><br/>For no solution D = 0  $\\Rightarrow$   $\\lambda$  = 5<br/><br/> $D_{1}=|\\begin{aligned} 1 &amp; 1 &amp; 5 \\\\ 1 &amp; 2 &amp; \\mu \\\\ 1 &amp; 3 &amp; 1 \\end{aligned}| \\ne 0 \\Rightarrow \\mu \\ne 3$ <br/><br/> $p=\\frac{5}{6}$ <br/><br/> $q=\\frac{1}{6} \\times \\frac{5}{6}=\\frac{5}{36}$ <br/><br/>Option (b).<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "For no solution D = 0",
@@ -6285,7 +6285,7 @@
         "q=\\frac{1}{6} \\times \\frac{5}{6}=\\frac{5}{36}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:15.055520"
     },
@@ -6386,7 +6386,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->AAEIIMNNOTX<br/><br/>----------------M----------------<br/><br/>Total words with M at fourth Place =  $\\frac{10!}{2!2!2!}$ <br/><br/>Total words =  $\\frac{11!}{2!2!2!}$ <br/><br/>Required probability =  $\\frac{10!}{11!}$  =  $\\frac{1}{11}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{10!}{2!2!2!}",
@@ -6395,7 +6395,7 @@
         "\\frac{1}{11}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:15.777660"
     },
@@ -6441,13 +6441,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->n(S) = 36<br/><br/>possible ordered pair :\n<br/><br/> (1, 1), (1, 2), (1, 3), (1, 5), (1, 7), <br/>(2, 1), (2, 2), (2, 3), (2, 5), <br/>(3, 1), (3, 2), (3, 3), (3, 5), <br/>(5, 1), (5, 2), (5, 3), <br/>(7, 1)<br/><br/>Number of favourable outcomes = 17<br/><br/>Probability =  $\\frac{17}{36}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{17}{36}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:16.104817"
     },
@@ -6493,7 +6493,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the coin be tossed n-times<br/><br/> $P(H)=P(T)=\\frac{1}{2}$ <br/><br/>P(7 heads) =  $^{n}C_{7}(\\frac{1}{2})^{n-7}(\\frac{1}{2})^{7}=\\frac{^{n}C_{7}}{2^{n}}$ <br/><br/>P(9 heads) =  $^{n}C_{9}(\\frac{1}{2})^{n-9}(\\frac{1}{2})^{9}=\\frac{^{n}C_{9}}{2^{n}}$ <br/><br/>P(7 heads) = P(9 heads)<br/><br/> $^{n}C_{7}=^{n}C_{9} \\Rightarrow n=16$ <br/><br/>P(2 heads) =  $^{16}C_{2}(\\frac{1}{2})^{14}(\\frac{1}{2})^{2}=\\frac{15 \\times 8}{2^{16}}$ <br/><br/>P(2 heads)  $=\\frac{15}{2^{13}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(H)=P(T)=\\frac{1}{2}",
@@ -6504,7 +6504,7 @@
         "=\\frac{15}{2^{13}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:16.744898"
     },
@@ -6550,14 +6550,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->ax<sup>2</sup> + bx + c = 0\n<br/><br/>a, b, c  $\\in$  {1,2,3,4,5,6}\n<br/><br/>n(s) = 6 × 6 × 6 = 216\n<br/><br/>For equal roots, D = 0  $\\Rightarrow$  b<sup>2</sup> = 4ac\n<br/><br/> $\\Rightarrow$  ac =  $\\frac{b^{2}}{4}$ \n<br/><br/>Favourable case :\n<br/><br/>If b = 2, ac = 1  $\\Rightarrow$  a = 1, c = 1\n<br/><br/>If b = 4, ac = 4 :\n<br/>a = 1, c = 4\n<br/>a = 4, c = 1\n<br/>a = 2, c = 2\n<br/><br/>If b = 6, ac = 9  $\\Rightarrow$  a = 3, c = 3\n<br/><br/> $\\therefore$  Favorable cases = 5\n<br/><br/> $\\therefore$  Required probability =  $\\frac{5}{216}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{b^{2}}{4}",
         "\\frac{5}{216}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:17.077663"
     },
@@ -6582,7 +6582,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->I<sub>1</sub> = first unit is functioning<br/><br/>I<sub>2</sub> = second unit is functioning<br/><br/>P(I<sub>1</sub>) = 0.9, P(I<sub>2</sub>) = 0.8<br/><br/>P( $\\bar{I_{1}}$ ) = 0.1, P( $\\bar{I_{2}}$ ) = 0.2<br/><br/> $P=\\frac{0.8 \\times 0.1}{0.1 \\times 0.2+0.9 \\times 0.2+0.1 \\times 0.8}=\\frac{8}{28}$ <br/><br/> $98P=\\frac{8}{28} \\times 98=28$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\bar{I_{1}}",
@@ -6590,7 +6590,7 @@
         "98P=\\frac{8}{28} \\times 98=28"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:27.147622"
     },
@@ -6672,7 +6672,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let x be the number of heads obtained by A, and y be the number of heads obtained by B.</p>\n<p>Note that x and y are binomial variable with parameters n = 3 and p =  $\\frac{1}{2}$ </p>\n<p> $\\therefore$  Probability that both A and B obtained the same number of heads is</p>\n<p> $=P(x=0).P(y=0)+P(x=1).P(y=1)+P(x=2).P(y=2)+P(x=3).P(y=3)$ </p>\n<p> $=[3_{C_{0}}(\\frac{1}{2})^{3}]^{2}+[3_{C_{1}}(\\frac{1}{2})^{3}]^{2}+[3_{C_{2}}(\\frac{1}{2})^{3}]^{2}+[3_{C_{3}}(\\frac{1}{2})^{3}]^{2}$ </p>\n<p> $=(\\frac{1}{2})^{6}[1+9+9+1]$ </p>\n<p> $=\\frac{20}{64}$ </p>\n<p> $=\\frac{5}{16}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -6682,7 +6682,7 @@
         "=\\frac{5}{16}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:14.686302"
     },
@@ -7087,7 +7087,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Probability of obtaining total sum 7 = probability of getting opposite faces.<br/><br/>Probability of getting opposite faces<br/><br/> $=2[(\\frac{1}{6}-x)(\\frac{1}{6}+x)+\\frac{1}{6} \\times \\frac{1}{6}+\\frac{1}{6} \\times \\frac{1}{6}]$ <br/><br/> $\\Rightarrow 2[(\\frac{1}{6}-x)(\\frac{1}{6}+x)+\\frac{1}{6} \\times \\frac{1}{6}+\\frac{1}{6} \\times \\frac{1}{6}]=\\frac{13}{96}$  (given)<br/><br/> $\\Rightarrow$   $x=\\frac{1}{8}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{6}-x",
@@ -7097,7 +7097,7 @@
         "x=\\frac{1}{8}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:14.699095"
     },
@@ -7200,7 +7200,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $A=|\\begin{aligned} a &amp; b \\\\ c &amp; d \\end{aligned}|$ <br/><br/>| A | = ad  $-$  bc<br/><br/>Total case = 6<sup>4</sup><br/><br/>For non-singular matrix | A |  $\\ne$  0  $\\Rightarrow$  ad  $-$  bc  $\\ne$  0<br/><br/> $\\Rightarrow$  ad  $\\ne$  bc<br/><br/>And a, b, c, d are all different numbers in the set {1, 2, 3, 4, 5, 6}<br/><br/>Now for ad = bc<br/><br/>(i) 6  $\\times$  1 = 2  $\\times$  3<br/><br/> $\\Rightarrow$   $\\begin{aligned} a=6,b=2,c=3,d=1 \\\\ ora=1,b=2,c=3,d=6 \\\\ : \\\\ : \\end{aligned}⎫⎭⎬⎪⎪$  8 each cases<br/><br/>(ii) 6  $\\times$  2 = 3  $\\times$  4<br/><br/> $\\Rightarrow$   $\\begin{aligned} a=6,b=3,c=4,d=2 \\\\ ora=2,b=3,c=4,d=6 \\\\ : \\\\ : \\end{aligned}⎫⎭⎬⎪⎪$  8 such cases<br/><br/>favourable cases<br/><br/>=  $^{6}C_{4} \\times 4!-16$ <br/><br/>required probability <br/><br/> $=\\frac{^{6}C_{4} \\times 4!-16}{6^{4}}=\\frac{43}{162}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "\\times",
@@ -7210,7 +7210,7 @@
         "8 such cases favourable cases ="
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:15.473573"
     },
@@ -7313,7 +7313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Consider the events,\n<br/><br/>E<sub>1</sub> = missing card is spade\n<br/><br/>E<sub>2</sub> = missing card is not a spade\n<br/><br/>A = Two spade cards are drawn\n<br/><br/> $P(E_{1})=\\frac{1}{4}$ \n<br/> $P(E_{2})=\\frac{3}{4}$ \n<br/><br/> $P(\\frac{A}{E_{1}})=\\frac{^{12}C_{2}}{^{51}C_{2}}$ \n<br/><br/> $P(\\frac{A}{E_{2}})=\\frac{^{13}C_{2}}{^{51}C_{2}}$ \n<br/><br/> $P(\\frac{E_{2}}{A})=\\frac{P(\\frac{A}{E_{2}}).P(E_{2})}{P(\\frac{A}{E_{1}}).P(E_{1})+P(\\frac{A}{E_{2}}).P(E_{2})}$ \n<br/><br/> $=\\frac{\\frac{^{13}C_{2}}{^{51}C_{2}}.\\frac{3}{4}}{\\frac{^{12}C_{2}}{^{51}C_{2}}.\\frac{1}{4}+\\frac{^{13}C_{2}}{^{51}C_{2}}.\\frac{3}{4}}$ \n<br/><br/>=  $\\frac{39}{50}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(E_{1})=\\frac{1}{4}",
@@ -7323,7 +7323,7 @@
         "="
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:16.131024"
     },
@@ -7369,7 +7369,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Consider following events<br/><br/>A : Person chosen is a smoker and non vegetarian.<br/><br/>B : Person chosen in a smoker and vegetarian.<br/><br/>C : Person chosen is a non-smoker and vegetarian.<br/><br/>E : Person chosen has a chest disorder<br/><br/>Given <br/><br/> $P(A)=\\frac{160}{400}$ \n<br/><br/> $P(B)=\\frac{100}{400}$ \n<br/><br/> $P(C)=\\frac{140}{400}$ <br/><br/> $P(\\frac{E}{A})=\\frac{35}{100}$ \n<br/><br/> $P(\\frac{E}{B})=\\frac{20}{100}$ \n<br/><br/> $P(\\frac{E}{C})=\\frac{10}{100}$ <br/><br/>To find<br/><br/> $P(\\frac{A}{E})=\\frac{P(A)P(\\frac{E}{A})}{P(A).P(\\frac{E}{A})+P(B).P(\\frac{E}{B})+P(C).P(\\frac{E}{C})}$ <br/><br/> $=\\frac{\\frac{160}{400} \\times \\frac{35}{100}}{\\frac{160}{400} \\times \\frac{35}{100} \\times \\frac{100}{400} \\times \\frac{20}{200}+\\frac{140}{400} \\times \\frac{10}{100}}$ <br/><br/> $=\\frac{28}{45}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A)=\\frac{160}{400}",
@@ -7380,7 +7380,7 @@
         "P(\\frac{E}{C})=\\frac{10}{100}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:16.777048"
     },
@@ -7426,14 +7426,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P(odd no. twice) = P(even no. thrice)<br/><br/> $\\Rightarrow ^{n}C_{2}(\\frac{1}{2})^{n}=^{n}C_{3}(\\frac{1}{2})^{n} \\Rightarrow n=5$ <br/><br/>Success is getting an odd number then P(odd successes) = P(1) + P(3) + P(5)<br/><br/> $=^{5}C_{1}(\\frac{1}{2})^{5}+^{5}C_{3}(\\frac{1}{2})^{5}+^{5}C_{5}(\\frac{1}{2})^{5}$ <br/><br/> $=\\frac{16}{2^{5}}=\\frac{1}{2}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "Success is getting an odd number then P(odd successes) = P(1) + P(3) + P(5)",
         "=\\frac{16}{2^{5}}=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:17.100830"
     },
@@ -7973,7 +7973,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Out of 11 consecutive natural numbers either\n6 even and 5 odd numbers or 5 even and 6\nodd numbers.\n<br/><br/>Let, E = Even\n<br/>O = Odd\n<br/><br/><b>Case-1 :</b>\n<br/><br/>E, O, E, O, E, O, E, O, E, O, E\n<br/><br/>2b = a + c  $\\Rightarrow$  Even\n<br/><br/> $\\Rightarrow$  Both a and c should be either even or odd.\n<br/><br/>P =  $\\frac{^{6}C_{2}+^{5}C_{2}}{^{11}C_{3}}$  =  $\\frac{5}{33}$ \n<br/><br/><b>Case -2 :</b>\n<br/><br/>O, E, O, E, O, E, O, E, O, E, O\n<br/><br/>P =  $\\frac{^{5}C_{2}+^{6}C_{2}}{^{11}C_{3}}$  =  $\\frac{5}{33}$ \n<br/><br/>Total probability =  $\\frac{1}{2} \\times \\frac{5}{33}$  +  $\\frac{1}{2} \\times \\frac{5}{33}$  =  $\\frac{5}{33}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{^{6}C_{2}+^{5}C_{2}}{^{11}C_{3}}",
@@ -7982,7 +7982,7 @@
         "\\frac{1}{2} \\times \\frac{5}{33}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:17.383928"
     },
@@ -8028,7 +8028,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given E<sub>1</sub> , E<sub>2</sub> , E<sub>3</sub> are pairwise indepedent events\n\n<br/><br/>so P(E<sub>1</sub>  $∩$  E<sub>2</sub> ) = P(E<sub>1</sub> ).P(E<sub>2</sub> )\n\n<br/><br/>and P(E<sub>2</sub>  $∩$   E<sub>3</sub> ) = P(E<sub>2</sub> ).P(E<sub>3</sub> )\n\n<br/><br/>and P(E<sub>3</sub>  $∩$  E<sub>1</sub> ) = P(E<sub>3</sub> ).P(E<sub>1</sub> )\n<br/><br/>and P(E<sub>1</sub>  $∩$  E<sub>2</sub>  $∩$  E<sub>3</sub>) = 0\n<br/><br/>Now  $P(\\frac{E_{2}^{C}∩E_{3}^{C}}{E_{1}})$ <br/><br/>\n $=\\frac{P[E_{1}∩(E_{2}^{C}∩E_{3}^{C})]}{P(E_{1})}$ <br/><br/>\n $=\\frac{P(E_{1})-[P(E_{1}∩E_{2})+P(E_{1}∩E_{3})-P(E_{1}∩E_{2}∩E_{3})]}{P(E_{1})}$ <br/><br/>\n $=\\frac{P(E_{1})-P(E_{1}).P(E_{2})-P(E_{1}).P(E_{3})-0}{P(E_{1})}$ <br/><br/>\n $=1-P(E_{2})-P(E_{3})$ <br/><br/>\n $=1-P(E_{3})-P(E_{2})$ <br/><br/>\n $=P(E_{3}^{C})-P(E_{2})$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "E 3 ) = 0. Then P(",
@@ -8039,7 +8039,7 @@
         "=\\frac{P[E_{1}∩(E_{2}^{C}∩E_{3}^{C})]}{P(E_{1})}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:17.769197"
     },
@@ -8085,7 +8085,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Possibilities that the second A card appears before the third B card are \n<br/>=AA + ABA + BAA + ABBA + BBAA + BABA\n<br/><br/>=  $(\\frac{1}{2})^{2}$  +  $(\\frac{1}{2})^{3}$  +  $(\\frac{1}{2})^{3}$  +  $(\\frac{1}{2})^{4}$  +  $(\\frac{1}{2})^{4}$  +  $(\\frac{1}{2})^{4}$ \n<br/><br/>=  $\\frac{1}{4}$  +  $\\frac{1}{8}$  +  $\\frac{1}{8}$  +  $\\frac{1}{16}$  +  $\\frac{1}{16}$  +  $\\frac{1}{16}$ \n<br/><br/>=  $\\frac{11}{16}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{1}{2})^{2}",
@@ -8096,7 +8096,7 @@
         "\\frac{1}{16}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:18.110116"
     },
@@ -8403,7 +8403,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Sample space = 9  $\\times$  10<sup>4</sup><br/><br/>Case - I<br/><br/>Out of exactly two digits selected one is zero then favourable cases =  $^{9}C_{1}(2^{4}-1)$ <br/><br/>Case - II<br/><br/>Both selected digits are non-zero then favourable cases =  $^{9}C_{2}(2^{5}-2)$ <br/><br/>Probability =  $\\frac{9(2^{4}-1)+\\frac{9.8}{2}(2^{5}-2)}{9 \\times 10^{4}}$ <br/><br/> $=\\frac{15+120}{10^{4}}=\\frac{135}{10^{4}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times",
@@ -8413,7 +8413,7 @@
         "=\\frac{15+120}{10^{4}}=\\frac{135}{10^{4}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:17.411500"
     },
@@ -8934,11 +8934,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\underset{-}{}\\underset{-}{}\\underset{-}{}\\underset{-}{4}\\underset{-}{4}$ \n<br/><br/> $\\frac{1}{6^{2}}(\\frac{5^{3}}{6^{3}}+\\frac{2C_{1}.5^{2}}{6^{3}})=\\frac{175}{6^{5}}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:19.338076"
     },
@@ -8984,7 +8984,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $1-^{n}C_{0}(\\frac{1}{3})^{0}(\\frac{2}{3})^{n}&gt;\\frac{5}{6}$ \n<br/><br/> $\\frac{1}{6}&gt;(\\frac{2}{3})^{n} \\Rightarrow 0.1666&gt;(\\frac{2}{3})^{n}$ \n<br/><br/> $n_{min}=5$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{1}{3}",
@@ -8994,7 +8994,7 @@
         "n_{min}=5"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:19.635570"
     },
@@ -9308,7 +9308,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->There are 50 questions in an exam.<br/><br/>\nSo Probability of each question to be correct is p =  $\\frac{4}{5}$ <br/><br/>\nand also probability of each question to be incorrect is q =  $\\frac{1}{5}$ <br/><br/>\nLet Y is the number of correct question in 50 questions, hence required probability is <br/><br/>\n $(\\frac{4}{5})^{50}+^{50}C_{1}(\\frac{1}{5})(\\frac{4}{5})^{49}$ <br/><br/>\n=  $(\\frac{4}{5})^{49}+(\\frac{4}{5}+10)(\\frac{4}{5})$ <br/><br/>\n=  $\\frac{54}{5}(\\frac{4}{5})^{49}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{5}",
@@ -9318,7 +9318,7 @@
         "\\frac{54}{5}(\\frac{4}{5})^{49}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:18.473601"
     },
@@ -9417,7 +9417,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Expected Gain/Loss = \n<br/><br/>= w  $\\times$  100 + Lw( $-$  50 + 100) \n<br/><br/>       + L<sup>2</sup>w ( $-$  50  $-$  50 + 100) + L<sup>3</sup>( $-$  150)\n<br/><br/>=  $\\frac{1}{3} \\times 100+\\frac{2}{3}.\\frac{1}{3}(50)+(\\frac{2}{3})^{2}(\\frac{1}{3})(0)$ \n<br/><br/>         $+(\\frac{2}{3})^{3}(-150)=0$ \n<br/><br/>here w denotes probability that outcome 5 or 6 (w =  $\\frac{2}{6}=\\frac{1}{3}$ )\n<br/><br/>here L denotes probability that outcome\n<br/><br/>1,2,3,4  (L =  $\\frac{4}{6}$  =  $\\frac{2}{3}$ )<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\times",
@@ -9428,7 +9428,7 @@
         "\\frac{2}{3}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:19.065608"
     },
@@ -9863,7 +9863,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the number of children in each  family  be x. \n<br/><br/>Thus the total number of children in both  the families are 2x \n<br/><br/>Now, it is given that 3 tickets are distributed amongst  the children of these two families. \n<br/><br/>Thus, the probability  that all the three tickets go to the children in family B\n<br/><br/>=  $\\frac{^{x}C_{3}}{^{2x}C_{3}}$  =  $\\frac{1}{12}$ \n<br/><br/> $\\Rightarrow$    $\\frac{x(x-1)(x-2)}{2x(2x-1)(2x-2)}$  =  $\\frac{1}{12}$ \n<br/><br/> $\\Rightarrow$    $\\frac{(x-2)}{(2x-1)}$  =  $\\frac{1}{6}$ \n<br/><br/>Thus,  the number of children in each family is 5.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{12},",
@@ -9874,7 +9874,7 @@
         "\\frac{1}{6}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:20.017927"
     },
@@ -10093,7 +10093,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->P(X getting head) = p\n<br/><br/> $\\therefore$  P(X getting tail) = 1 - p\n<br/><br/>P(Y getting head) = P(Y getting tail) =  $\\frac{1}{2}$ \n<br/><br/>P(X wins) = p + (1 - p) $\\frac{1}{2}$ p + (1 - p) $\\frac{1}{2}$ (1 - p) $\\frac{1}{2}$ p + ...\n<br/><br/>=  $\\frac{p}{1-(\\frac{1-p}{2})}$ \n<br/><br/>=  $\\frac{2p}{1+p}$ \n<br/><br/>P(Y win) = (1 - p) $\\frac{1}{2}$  + (1 - p) $\\frac{1}{2}$ (1 - p) $\\frac{1}{2}$  + ...\n<br/><br/>=  $(\\frac{1-p}{2}).\\frac{p}{1-(\\frac{1-p}{2})}=\\frac{1-p}{1+p}$ \n<br/><br/>According to question,\n<br/><br/>P(X wins) = P(Y wins)\n<br/><br/> $\\therefore$   $\\frac{2p}{1+p}$  =  $\\frac{1-p}{1+p}$ \n<br/><br/> $\\Rightarrow$  3p = 1\n<br/><br/> $\\Rightarrow$  p =  $\\frac{1}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}",
@@ -10104,7 +10104,7 @@
         "\\frac{1}{3}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:20.055375"
     },
@@ -10150,7 +10150,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have the following probabilities:</p>\n<p> $∙$  The probability that the target is hit by the person P is  $\\frac{3}{4}$ .</p>\n<p> $∙$  The probability that the target is not hit by the person P is  $1-\\frac{3}{4}=\\frac{1}{4}$ .</p>\n<p> $∙$  The probability that the target is hit by the person Q is  $\\frac{1}{2}$ .</p>\n<p> $∙$  The probability that the target is not hit by the person Q is  $1-\\frac{1}{2}=\\frac{1}{2}$ .</p>\n<p> $∙$  The probability that the target is hit by the person R is  $\\frac{5}{8}$ .</p>\n<p> $∙$  The probability that the target is not hit by the person R is  $1-\\frac{5}{8}=\\frac{3}{8}$ .</p>\n<p>Here, we have used the fact that if the probability of occurrence of an event is p, then the probability of non-occurrence of an event is  $q=1-p$ .</p>\n<p>Therefore, the probability that the target is hit by P or Q and not by R is</p>\n<p>(Probability that the target is hit by P and not by Q and R) + (Probability that the target is hit by Q and not by P and R) + (Probability that the target is hit by both P and Q and not by R)</p>\n<p> $=(\\frac{3}{4})(\\frac{1}{2})(\\frac{3}{8})+(\\frac{1}{4})(\\frac{1}{2})(\\frac{3}{8})+(\\frac{3}{4})(\\frac{1}{2})(\\frac{3}{8})$ </p>\n<p> $=\\frac{9}{64}+\\frac{3}{64}+\\frac{9}{64}=\\frac{9+3+9}{64}=\\frac{21}{64}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{3}{4},\\frac{1}{2}",
@@ -10159,7 +10159,7 @@
         "=\\frac{9}{64}+\\frac{3}{64}+\\frac{9}{64}=\\frac{9+3+9}{64}=\\frac{21}{64}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:21.024691"
     },
@@ -10319,7 +10319,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of ways to form a committee having at least one woman is</p>\n<p> $=^{5}C_{1} \\times ^{10}C_{3}+^{5}C_{2} \\times ^{10}C_{2}+^{5}C_{3} \\times ^{10}C_{1}+^{5}C_{4}$ </p>\n<p> $=\\frac{5!}{4!} \\times \\frac{10!}{7! \\times 3!}+\\frac{5!}{2!3!} \\times \\frac{10!}{8!2!}+\\frac{5!}{3!2!} \\times \\frac{10!}{9!1!}+\\frac{5!}{4!}$ </p>\n<p> $=5 \\times \\frac{10 \\times 9 \\times 8}{3 \\times 2}+\\frac{5 \\times 4}{2 \\times 1} \\times \\frac{10 \\times 9}{2}+\\frac{5 \\times 4}{2 \\times 1} \\times 10+5$ </p>\n<p> $=600+450+100+5=1155$ </p>\n<p>The number of ways to form a committee having more women than men is</p>\n<p> $^{5}C_{2} \\times ^{10}C_{2}+^{5}C_{4}=\\frac{5!}{6!2!} \\times \\frac{10!}{9!}+\\frac{5!}{4!}$ </p>\n<p> $=10 \\times 10+5=105$ </p>\n<p>Therefore, the probability for the committees to have more women than men is</p>\n<p> $\\frac{105}{1155}=\\frac{1}{11}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "=600+450+100+5=1155",
@@ -10327,7 +10327,7 @@
         "\\frac{105}{1155}=\\frac{1}{11}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:20.711141"
     },
@@ -10651,7 +10651,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Total possible outcome with two six faced dice = 6<sup>2</sup> = 36\n<br/><br/>When dice A shows up 4, the possible cases are\n<br/>E<sub>1</sub> = { (4, 1) (4, 2) (4, 3) (4, 4) (4, 5) (4, 6) } = 6 cases\n<br/> $\\therefore$   $P(E_{1})=\\frac{6}{36}=\\frac{1}{6}$ \n<br/><br/> When dice B shows up 2, the possible cases are\n<br/>E<sub>2</sub> = { (1, 2) (2, 2) (3, 2) (4, 2) (5, 2) (6, 2) } = 6 cases\n<br/><br/> $P(E_{2})=\\frac{6}{36}=\\frac{1}{6}$ \n<br/><br/> $E_{1}∩E_{2}$  = Common in both in E<sub>1</sub> and E<sub>2</sub> = { (4, 2) }\n<br/><br/> $P(E_{1}∩E_{2})=\\frac{1}{36}$ \n<br/><br/>And  $P(E_{1})$ . $P(E_{2})$  =  $\\frac{1}{6}$ . $\\frac{1}{6}$  =  $\\frac{1}{36}$ \n<br/><br/> $\\therefore$  $P(E_{1}∩E_{2})$  =  $P(E_{1})$ . $P(E_{2})$ \n<br/><br/> $\\therefore$  E<sub>1</sub> and E<sub>2</sub> are independent.\n<br/><br/> $E_{3}$  = [ (1, 2), (1, 4), (1, 6),\n\n<br/>           (2, 1), (2, 3), (2, 5),\n\n<br/>           (3, 2), (3, 4),  (3, 6),\n\n<br/>           (4, 1), (4, 3), (4, 5),\n\n<br/>           (5, 2), (5, 4), (5, 6),\n\n<br/>           (6, 1),  (6, 3), (6, 5) ] = 18 cases\n<br/><br/> $E_{1}∩E_{3}$  = { (4, 1) (4, 3) (4, 5) } = 3 cases\n<br/><br/> $\\therefore$   $P(E_{1}∩E_{3})=\\frac{3}{36}=\\frac{1}{12}$  =  $\\frac{1}{6} \\times \\frac{1}{2}$  =  $P(E_{1})$   $\\times$   $P(E_{3})$ \n<br/><br/> $\\therefore$  E<sub>1</sub> and E<sub>3</sub> are independent.\n<br/><br/> $E_{2}∩E_{3}$  = { (1, 2) (3, 2) (5, 2) } = 3 cases\n<br/><br/> $\\therefore$   $P(E_{2}∩E_{3})=\\frac{3}{36}=\\frac{1}{12}$  =  $\\frac{1}{6} \\times \\frac{1}{2}$  =  $P(E_{2})$   $\\times$   $P(E_{3})$ \n<br/><br/> $\\therefore$  E<sub>2</sub> and E<sub>3</sub> are independent.\n<br/><br/> $E_{1}∩E_{2}∩E_{3}$  = 0\n<br/><br/> $\\therefore$   $P(E_{1}∩E_{2}∩E_{3})$  = 0\n<br/><br/> $P(E_{1}) \\times$   $P(E_{2}) \\times$  $P(E_{3})$  =  $\\frac{1}{6}$   $\\times$   $\\frac{1}{6}$   $\\times$   $\\frac{1}{2}$  =  $\\frac{1}{72}$ \n<br/><br/> $\\therefore$   $E_{1},$   $E_{2}$  and  $E_{3}$  are not independent.\n<br/><br/> $\\therefore$  Option (D) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Hard",
       "key_formulas": [
         "P(E_{1})=\\frac{6}{36}=\\frac{1}{6}",
@@ -10662,7 +10662,7 @@
         "P(E_{2})"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:21.532602"
     },
@@ -10765,7 +10765,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $P(\\bar{A∪B})=\\frac{1}{6}$ </p>\n<p>or,  $1-P(A∪B)=\\frac{1}{6}$ </p>\n<p> $\\therefore$   $P(A∪B)=1-\\frac{1}{6}=\\frac{5}{6};$   $P(A∩B)=\\frac{1}{4}$ ; and  $P(\\bar{A})=\\frac{1}{4};$ </p>\n<p> $\\therefore$   $P(A)=1-P(\\bar{A})=1-\\frac{1}{4}=\\frac{3}{4}$ </p>\n<p>We know,  $P(A∪B)=P(A)+P(B)-P(A∩B)$ </p>\n<p>or,  $\\frac{5}{6}=\\frac{3}{4}+P(B)-\\frac{1}{4}$ </p>\n<p>or,  $P(B)=\\frac{5}{6}-\\frac{1}{2}=\\frac{1}{3}$ </p>\n<p>Now,  $P(A).P(B)=\\frac{3}{4}.\\frac{1}{3}=\\frac{1}{4}=P(A∩B)$ </p>\n<p>i.e., events A and B are mutually independent.</p>\n<p>Since the probability of A and B are different, so they are not equally likely events.</p>\n<p>Therefore, (A) is the correct option.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A∪B)=1-\\frac{1}{6}=\\frac{5}{6};",
@@ -10776,7 +10776,7 @@
         "\\frac{5}{6}=\\frac{3}{4}+P(B)-\\frac{1}{4}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:21.923332"
     },
@@ -10878,7 +10878,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given set S =  ${1,2,3,..8}$ \n<br/><br/>Choosing 3 numbers from 8 numbers can be done  $^{8}C_{3}$  ways.\n<br/><br/>Choosing 3 numbers from 8 numbers while minimum no is 3 can be done  $1 \\times ^{5}C_{2}$  ways.\n<br/><br/> $\\therefore$  Probablity P(min = 3) =  $\\frac{1 \\times ^{5}C_{2}}{^{8}C_{3}}$ \n<br/><br/>Choosing 3 numbers from 8 numbers while maximum no is 6 can be done  $1 \\times ^{5}C_{2}$  ways.\n<br/><br/> $\\therefore$  Probablity P(max = 6) =  $\\frac{1 \\times ^{5}C_{2}}{^{8}C_{3}}$ \n<br/><br/>Choosing 3 numbers from 8 numbers while minimum number 3 and maximum no is 6 can be done  $1 \\times ^{2}C_{1} \\times 1$  ways.\n<br/><br/> $\\therefore$   $P(min=3∩max=6)$  =  $\\frac{1 \\times ^{2}C_{1} \\times 1}{^{8}C_{3}}$ \n<br/><br/>The probability that their minimum is  $3,$  given that their maximum is  $6,$  is :\n<br/> $P(\\frac{min=3}{max=6})$ \n<br/> <br/>=  $\\frac{P(min=3∩max=6)}{P(max=6)}$ \n<br/><br/>=  $\\frac{\\frac{^{2}C_{1}}{^{8}C_{3}}}{\\frac{^{5}C_{2}}{^{8}C_{3}}}$ \n<br/><br/> =  $\\frac{^{2}C_{1}}{^{5}C_{2}}$ \n<br/><br/>=  $\\frac{1}{5}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "is : Given set S =",
@@ -10889,7 +10889,7 @@
         "\\frac{1 \\times ^{2}C_{1} \\times 1}{^{8}C_{3}}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:21.952344"
     },
@@ -11105,7 +11105,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Four numbers can be chosen  $^{20}C_{4}$  ways.\n<br/><br/>When common difference  d = 1 then the possible sets are (1, 2, 3, 4) (2, 3, 4, 5) (3, 4, 5, 6) ................. (17, 18, 19, 20) = 17 sets\n<br/>So when d = 1 then 17 different AP's are possible with 4 numbers.\n<br/><br/>Now let's create a table of all possible sets -\n\n<table class=\"tg\">\n<tbody><tr>\n<th class=\"tg-wyy1\">Common <br/>Difference<br/>(d)</th>\n<th class=\"tg-wyy1\">Possible Sets </th>\n<th class=\"tg-wyy1\">No of AP</th>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">d = 1</td>\n<td class=\"tg-s6z2\">(1, 2, 3, 4) (2, 3, 4, 5) (3, 4, 5, 6) ................. (17, 18, 19, 20)</td>\n<td class=\"tg-s6z2\">17</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">d = 2</td>\n<td class=\"tg-s6z2\">(1, 3, 5, 7) (2, 4, 6, 8) (3, 5, 7, 9) ................. (14, 16, 18, 20)</td>\n<td class=\"tg-s6z2\">14</td>\n</tr>\n<tr>\n<td class=\"tg-s6z2\">d = 3</td>\n<td class=\"tg-s6z2\">(1, 4, 7, 10) (2, 5, 8, 11) (3, 6, 9, 12) ................. (11, 14, 17, 20)</td>\n<td class=\"tg-s6z2\">11</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">d = 4</td>\n<td class=\"tg-baqh\">(1, 5, 9, 13) (2, 6, 10, 14) (3, 7, 11, 15) ................. (8, 12, 16, 20)</td>\n<td class=\"tg-baqh\">8</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">d = 5</td>\n<td class=\"tg-baqh\">(1, 6, 11, 16) (2, 7, 12, 17) (3, 8, 13, 18) (4, 9, 14, 19) (5, 10, 15, 20)</td>\n<td class=\"tg-baqh\">5</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">d = 6</td>\n<td class=\"tg-baqh\">(1, 7, 13, 19) (2, 8, 14, 20)</td>\n<td class=\"tg-baqh\">2</td>\n</tr>\n</tbody></table>\n<br/><br/> $\\therefore$  Total no of AP = 17 + 14 + 11 + 8 + 5 + 2 = 57\n<br/><br/> $\\therefore$  Required probability =  $\\frac{57}{^{20}C_{4}}$  =  $\\frac{1}{85}$ \n<br/><br/> $\\therefore$  <b>Statement - 1:</b> is true.\n<br/><br/> $\\therefore$  <b>Statement - 2:</b> is false as common difference can also be  $\\pm 6$ .<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{85}.",
@@ -11114,7 +11114,7 @@
         "\\frac{1}{85}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:22.354336"
     },
@@ -11160,7 +11160,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Sample space = {00, 01, 02, 03, ..........49} = 50 tickets\n<br/><br/>n(S) = 50\n<br/><br/>n(Sum = 8) = { 08, 17, 26, 35, 44 } = 5\n<br/><br/>n(Product = 0) = { 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 20, 30, 40 } = 14\n<br/><br/> $\\therefore$  Probability when product is 0 = P(Product = 0) =  $\\frac{14}{50}$ \n<br/><br/>n(Sum = 8  $∩$  Product = 0) = { 08 } = 1\n<br/><br/> $\\therefore$  Probability when sum is 8 and product is 0 = P(Sum = 8  $∩$  Product = 0) =  $\\frac{1}{50}$ \n<br/><br/>Required probability,<br/>  $P(\\frac{Sum=8}{Product=0})$  <br/><br/>=  $\\frac{P(Sum=8∩Product=0)}{P(Product=0)}$ <br/>\n<br/>=  $\\frac{\\frac{1}{50}}{\\frac{14}{50}}$ \n<br/><br/>= $\\frac{1}{14}$ \n<br/><br/> $\\therefore$  Option (D) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{14}{50}",
@@ -11170,7 +11170,7 @@
         "="
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:22.676845"
     },
@@ -11330,7 +11330,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that,\n<br/><br/> $P(\\frac{A}{B})=\\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\frac{P(A∩B)}{P(B)}$  =  $\\frac{1}{2}$ .............. equation (1)\n<br/><br/> $P(\\frac{B}{A})=\\frac{2}{3}$ \n<br/><br/> $\\Rightarrow$   $\\frac{P(A∩B)}{P(A)}$  =  $\\frac{2}{3}$ .............. equation (2)\n<br/><br/>Dividing equation (1) by equation (2) we get,\n<br/><br/> $\\frac{P(A)}{P(B)}$  =  $\\frac{3}{4}$ \n<br/><br/> $\\Rightarrow$   $P(B)$  =  $\\frac{4}{3}$   $\\times$   $P(A)$ \n<br/>                   =  $\\frac{4}{3}$   $\\times$   $\\frac{1}{4}$ \n<br/>                   =  $\\frac{1}{3}$ \n<br/><br/> $\\therefore$  Option (B) is correct.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{P(A∩B)}{P(B)}",
@@ -11341,7 +11341,7 @@
         "\\frac{P(A)}{P(B)}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:22.704237"
     },
@@ -11387,11 +11387,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Probability of getting score 9 in a single throw</p>\n<p> $=\\frac{4}{36}=\\frac{1}{9}.$ </p>\n<p>Probability of getting score 9 exactly twice</p>\n<p> $=^{3}C_{2} \\times (\\frac{1}{9})^{2} \\times \\frac{8}{9}=\\frac{8}{243}.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:23.003909"
     },
@@ -11489,7 +11489,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Required probability</p>\n<p> $=P(X=0)+P(X=1)$ </p>\n<p> $=\\frac{e^{-5}}{0!}5^{0}+\\frac{e^{-5}}{1!}5^{1}$ </p>\n<p> $=e^{-5}+5e^{-5}$ </p>\n<p> $=\\frac{6}{e^{5}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Conditional Probability & Bayes' Theorem",
+      "topic_tag": "Probability Distribution & Binomial Distribution",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{e^{-5}}{0!}5^{0}+\\frac{e^{-5}}{1!}5^{1}",
@@ -11497,7 +11497,7 @@
         "=\\frac{6}{e^{5}}"
       ],
       "key_concepts": [
-        "Conditional Probability & Bayes' Theorem"
+        "Probability Distribution & Binomial Distribution"
       ],
       "crawled_at": "2026-09-20T16:04:23.016236"
     },
@@ -11597,13 +11597,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Person 1st has three options to apply.</p>\n<p>Similarly, person 2nd has three options t apply</p>\n<p>and person 3rd has three options to apply.</p>\n<p>Total cases = 3<sup>3</sup></p>\n<p>Now, favourable cases = 3 (An either all has applied for house 1 or 2 or 3)</p>\n<p>So, probability  $=\\frac{3}{3^{3}}=\\frac{1}{9}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Easy",
       "key_formulas": [
         "=\\frac{3}{3^{3}}=\\frac{1}{9}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:23.029223"
     },
@@ -11819,7 +11819,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $P(A)=\\frac{3x+1}{3},$   $P(B)=\\frac{1-x}{4}$  and  $P(C)=\\frac{1-2x}{2}$ \n<br/><br/>We know for any event X,  $0 \\le P(X) \\le 1$ \n<br/><br/> $\\therefore$   $0 \\le \\frac{3x+1}{3} \\le 1$ \n<br/> $\\Rightarrow -1 \\le 3x \\le 2$ \n<br/> $\\Rightarrow -\\frac{1}{3} \\le x \\le \\frac{2}{3}$ \n<br/><br/>  $0 \\le \\frac{1-x}{4} \\le 1$ \n<br/> $\\Rightarrow -3 \\le x \\le 1$ \n<br/><br/>  $0 \\le \\frac{1-2x}{2} \\le 1$ \n<br/> $\\Rightarrow -1 \\le 2x \\le 1$ \n<br/> $\\Rightarrow -\\frac{1}{2} \\le x \\le \\frac{1}{2}$ \n<br/><br/>In the question given that A, B and C are mutually exclusive\n<br/>So  $P(A∪B∪C)$  =  $P(A)$  +  $P(B)$  +  $P(C)$ \n<br/> <br/> $\\Rightarrow P(A∪B∪C)$  =  $\\frac{3x+1}{3}$  +  $\\frac{1-x}{4}$  +  $\\frac{1-2x}{2}$ \n<br/><br/> $\\therefore$  0  $\\le$   $\\frac{3x+1}{3}$  +  $\\frac{1-x}{4}$  +  $\\frac{1-2x}{2}$   $\\le$  1\n<br/><br/>0  $\\le$  13 - 3 $x$   $\\le$  12\n<br/><br/> $\\Rightarrow \\frac{1}{3} \\le x \\le \\frac{13}{3}$ \n<br/><br/>From all those relations, we get\n<br/><br/> $max{-\\frac{1}{3},-3,-\\frac{1}{2},\\frac{1}{3}}$   $\\le$   $x$   $\\le$   $min{\\frac{2}{3},1,\\frac{1}{2},\\frac{13}{3}}$ \n<br/><br/>So,  $\\frac{1}{3} \\le x \\le \\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\Rightarrow x \\in [\\frac{1}{3},\\frac{1}{2}]$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "P(A)=\\frac{3x+1}{3},",
@@ -11830,7 +11830,7 @@
         "0 \\le \\frac{1-x}{4} \\le 1"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:24.050002"
     },
@@ -12045,7 +12045,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $P(A)=\\frac{1}{2}$ ,  $P(B)=\\frac{1}{3}$ ,  $P(C)=\\frac{1}{4}$ \n<br/><br/>So,  $P(\\bar{A})=\\frac{1}{2}$  (Probablity that the problem can't be solve by A)\n<br/> $P(\\bar{B})=\\frac{2}{3}$  (Probablity that the problem can't be solve by B)\n<br/>and  $P(\\bar{C})=\\frac{3}{4}$  (Probablity that the problem can't be solve by C)\n<br/><br/>Now the probablity that the problem is solved by any one student of A, B and C = 1 - the probablity that the problem is solved by none of the students of A, B and C\n<br/><br/> $P(A∪B∪C)$  = 1 -  $P(\\bar{A})P(\\bar{B})P(\\bar{C})$ \n<br/><br/> $=1-\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{3}{4}$ \n<br/> $=$   $\\frac{3}{4}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Probability Distribution & Binomial Distribution",
+      "topic_tag": "Conditional Probability & Bayes' Theorem",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2},\\frac{1}{3}",
@@ -12056,7 +12056,7 @@
         "P(\\bar{A})=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Probability Distribution & Binomial Distribution"
+        "Conditional Probability & Bayes' Theorem"
       ],
       "crawled_at": "2026-09-20T16:04:24.082266"
     },

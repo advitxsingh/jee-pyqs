@@ -8,67 +8,67 @@
     "total_questions_site": 309,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:43:26.501976"
+    "analyzed_at": "2026-09-20T17:12:14.457104"
   },
   "concepts": [
     {
-      "id": 1618,
+      "id": 2086,
       "chapter_slug": "sequences-and-series",
       "name": "Arithmetic & Geometric Progressions (AP, GP, AGP)",
       "category": "Progressions",
       "summary": "nth term and sum formulas for AP and GP, infinite geometric series convergence, and Arithmetico-Geometric series summation.",
       "standard_formulas": "S_n = \\frac{n}{2}[2a + (n-1)d], \\quad S_n = \\frac{a(1 - r^n)}{1 - r}, \\quad S_\\infty = \\frac{a}{1 - r} \\; (|r| < 1), \\quad T_n = S_n - S_{n-1}",
-      "exam_frequency": 24,
+      "exam_frequency": 26,
       "frequency_tier": "Very High",
       "common_traps": "The formula $S_\\infty = \\frac{a}{1 - r}$ is valid ONLY when $|r| < 1$. If $|r| \\ge 1$, the infinite series diverges.",
       "tips_and_tricks": "To choose 3 terms in AP: $a - d, a, a + d$ (sum eliminates $d$). In GP: $a/r, a, ar$ (product eliminates $r$).",
       "pyq_ids": [
+        25425,
         25427,
-        25431,
         25442,
         25444,
         25448,
+        25459,
         25461,
         25463,
         25465,
+        25474,
         25476,
         25478,
         25480,
+        25491,
         25493,
         25495,
         25497,
         25505,
         25507,
         25510,
-        25511,
+        25519,
         25521,
         25525,
         25533,
         25535,
-        25537,
-        25539
+        25537
       ]
     },
     {
-      "id": 1619,
+      "id": 2087,
       "chapter_slug": "sequences-and-series",
       "name": "AM-GM-HM Inequality & Telescoping Series",
       "category": "Inequalities & Sigma",
       "summary": "Arithmetic, geometric, and harmonic mean inequalities for positive numbers, sum of first $n$ natural powers, and partial fraction telescoping.",
       "standard_formulas": "\\frac{a + b}{2} \\ge \\sqrt{ab} \\ge \\frac{2ab}{a+b}, \\quad \\Sigma n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\Sigma n^3 = [\\Sigma n]^2, \\quad \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}",
-      "exam_frequency": 8,
-      "frequency_tier": "High",
+      "exam_frequency": 6,
+      "frequency_tier": "Moderate",
       "common_traps": "AM $\\ge$ GM equality holds IF AND ONLY IF all participating positive numbers are equal ($a_1 = a_2 = \\dots = a_n$).",
       "tips_and_tricks": "Whenever asked for the minimum value of a sum of positive terms whose product is constant (e.g. $x + \\frac{1}{x}$), use $\\text{AM} \\ge \\text{GM}$.",
       "pyq_ids": [
-        25425,
         25429,
+        25431,
         25446,
-        25459,
-        25474,
-        25491,
-        25519,
-        25523
+        25511,
+        25523,
+        25539
       ]
     }
   ],
@@ -76,15 +76,15 @@
     "id": 168,
     "chapter_slug": "sequences-and-series",
     "title": "Sequences and Series Syllabus reduced Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Sequences and Series Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2025 – 2026)  \n**Empirical Dataset**: 32 Previous Year Questions Analyzed (32 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **32** authentic JEE Main problems.\n- **Question Format Breakdown**: **32 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2025 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Arithmetic & Geometric Progressions (AP, GP, AGP) | **24 PYQs** | Progressions |\n| **High** | AM-GM-HM Inequality & Telescoping Series | **8 PYQs** | Inequalities & Sigma |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Arithmetic & Geometric Progressions (AP, GP, AGP) (Progressions)\n- **Exam Weightage**: Tested in **24 PYQs** (Very High Yield)\n- **Conceptual Summary**: nth term and sum formulas for AP and GP, infinite geometric series convergence, and Arithmetico-Geometric series summation.\n\n#### Standard Mathematical Formulation\n$$\nS_n = \\frac{n}{2}[2a + (n-1)d], \\quad S_n = \\frac{a(1 - r^n)}{1 - r}, \\quad S_\\infty = \\frac{a}{1 - r} \\; (|r| < 1), \\quad T_n = S_n - S_{n-1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The formula $S_\\infty = \\frac{a}{1 - r}$ is valid ONLY when $|r| < 1$. If $|r| \\ge 1$, the infinite series diverges.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: To choose 3 terms in AP: $a - d, a, a + d$ (sum eliminates $d$). In GP: $a/r, a, ar$ (product eliminates $r$).\n\n#### Linked Representative PYQs:\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8 . If the first term of the A.P. is equal ...\"* — **Correct Answer: A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let $729,81,9,1,\\dots$ be a sequence and $P_{n}$ denote the product of the first $n$ terms of this sequence. If $2\\sum_{n=1}^{40}(P_{n})^{\\f...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#2 (MCQ)**: *\"Consider the quadratic equation $(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,n \\in R$ . Let $\\alpha$ be the minimum value of the product of its ...\"* — **Correct Answer: C**\n- **[2026 Evening Shift] Q#2 (MCQ)**: *\"Let $\\alpha,\\beta$ be the roots of the equation $x^{2}-x+p=0$ and $\\gamma,\\delta$ be the roots the equation $x^{2}-4x+q=0$ ; $p,q \\in Z$ . I...\"* — **Correct Answer: N/A**\n\n### 2.2 AM-GM-HM Inequality & Telescoping Series (Inequalities & Sigma)\n- **Exam Weightage**: Tested in **8 PYQs** (High Yield)\n- **Conceptual Summary**: Arithmetic, geometric, and harmonic mean inequalities for positive numbers, sum of first $n$ natural powers, and partial fraction telescoping.\n\n#### Standard Mathematical Formulation\n$$\n\\frac{a + b}{2} \\ge \\sqrt{ab} \\ge \\frac{2ab}{a+b}, \\quad \\Sigma n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\Sigma n^3 = [\\Sigma n]^2, \\quad \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: AM $\\ge$ GM equality holds IF AND ONLY IF all participating positive numbers are equal ($a_1 = a_2 = \\dots = a_n$).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Whenever asked for the minimum value of a sum of positive terms whose product is constant (e.g. $x + \\frac{1}{x}$), use $\\text{AM} \\ge \\text{GM}$.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\alpha=3+4+8+9+13+14+\\dots$ upto 40 terms. If $(tan\\beta)^{\\frac{\\alpha}{1020}}$ is a root of the equation $x^{2}+x-2=0,\\beta \\in (0,\\f...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let the sum of the first $n$ terms of an A.P. be $3n^{2}+5n$ . Then the sum of squares of the first 10 terms of the A.P. is:...\"* — **Correct Answer: C**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"The sum $\\frac{1^{3}}{1}+\\frac{1^{3}+2^{3}}{1+3}+\\frac{1^{3}+2^{3}+3^{3}}{1+3+5}+\\dots$ up to 8 terms, is :...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"The value of $\\sum_{k=1}^{\\infty}(-1)^{k+1}(\\frac{k(k+1)}{k!})$ is...\"* — **Correct Answer: N/A**\n",
+    "summary_markdown": "# Sequences and Series Syllabus reduced — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2025 – 2026)  \n**Empirical Dataset**: 32 Previous Year Questions Analyzed (32 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **32** authentic JEE Main problems.\n- **Question Format Breakdown**: **32 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2025 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Arithmetic & Geometric Progressions (AP, GP, AGP) | **26 PYQs** | Progressions |\n| **Moderate** | AM-GM-HM Inequality & Telescoping Series | **6 PYQs** | Inequalities & Sigma |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Arithmetic & Geometric Progressions (AP, GP, AGP) (Progressions)\n- **Exam Weightage**: Tested in **26 PYQs** (Very High Yield)\n- **Conceptual Summary**: nth term and sum formulas for AP and GP, infinite geometric series convergence, and Arithmetico-Geometric series summation.\n\n#### Standard Mathematical Formulation\n$$\nS_n = \\frac{n}{2}[2a + (n-1)d], \\quad S_n = \\frac{a(1 - r^n)}{1 - r}, \\quad S_\\infty = \\frac{a}{1 - r} \\; (|r| < 1), \\quad T_n = S_n - S_{n-1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: The formula $S_\\infty = \\frac{a}{1 - r}$ is valid ONLY when $|r| < 1$. If $|r| \\ge 1$, the infinite series diverges.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: To choose 3 terms in AP: $a - d, a, a + d$ (sum eliminates $d$). In GP: $a/r, a, ar$ (product eliminates $r$).\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"Let $\\alpha=3+4+8+9+13+14+\\dots$ upto 40 terms. If $(tan\\beta)^{\\frac{\\alpha}{1020}}$ is a root of the equation $x^{2}+x-2=0,\\beta \\in (0,\\f...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8 . If the first term of the A.P. is equal ...\"* — **Correct Answer: A**\n- **[2026 Morning Shift] Q#1 (MCQ)**: *\"Let the sum of the first $n$ terms of an A.P. be $3n^{2}+5n$ . Then the sum of squares of the first 10 terms of the A.P. is:...\"* — **Correct Answer: C**\n- **[2026 Evening Shift] Q#1 (MCQ)**: *\"The sum $\\frac{1^{3}}{1}+\\frac{1^{3}+2^{3}}{1+3}+\\frac{1^{3}+2^{3}+3^{3}}{1+3+5}+\\dots$ up to 8 terms, is :...\"* — **Correct Answer: N/A**\n\n### 2.2 AM-GM-HM Inequality & Telescoping Series (Inequalities & Sigma)\n- **Exam Weightage**: Tested in **6 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Arithmetic, geometric, and harmonic mean inequalities for positive numbers, sum of first $n$ natural powers, and partial fraction telescoping.\n\n#### Standard Mathematical Formulation\n$$\n\\frac{a + b}{2} \\ge \\sqrt{ab} \\ge \\frac{2ab}{a+b}, \\quad \\Sigma n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\Sigma n^3 = [\\Sigma n]^2, \\quad \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: AM $\\ge$ GM equality holds IF AND ONLY IF all participating positive numbers are equal ($a_1 = a_2 = \\dots = a_n$).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Whenever asked for the minimum value of a sum of positive terms whose product is constant (e.g. $x + \\frac{1}{x}$), use $\\text{AM} \\ge \\text{GM}$.\n\n#### Linked Representative PYQs:\n- **[2026 Evening Shift] Q#3 (MCQ)**: *\"The sum $1+\\frac{1}{2}(1^{2}+2^{2})+\\frac{1}{3}(1^{2}+2^{2}+3^{2})+\\dots$ upto 10 terms is equal to :...\"* — **Correct Answer: N/A**\n- **[2026 Evening Shift] Q#3 (MCQ)**: *\"If the sum of the first 10 terms of the series $\\frac{1}{1+1^{4} \\times 4}+\\frac{2}{1+2^{4} \\times 4}+\\frac{3}{1+3^{4} \\times 4}+\\frac{4}{1+...\"* — **Correct Answer: C**\n- **[2026 Morning Shift] Q#3 (MCQ)**: *\"Let $a_{1},a_{2},a_{3},\\dots$ be a G.P. of increasing positive terms such that $a_{2} \\cdot a_{3} \\cdot a_{4}=64$ and $a_{1}+a_{3}+a_{5}=\\fr...\"* — **Correct Answer: N/A**\n- **[2026 Morning Shift] Q#4 (MCQ)**: *\"The value of $1^{3}-2^{3}+3^{3}-\\dots+15^{3}$ is:...\"* — **Correct Answer: B**\n",
     "formula_sheet_markdown": "# Sequences and Series Syllabus reduced — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 32 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Arithmetic & Geometric Progressions (AP, GP, AGP)** | $S_n = \\frac{n}{2}[2a + (n-1)d], \\quad S_n = \\frac{a(1 - r^n)}{1 - r}, \\quad S_\\infty = \\frac{a}{1 - r} \\; (|r| < 1), \\quad T_n = S_n - S_{n-1}$ | Standard SI units apply |\n| **AM-GM-HM Inequality & Telescoping Series** | $\\frac{a + b}{2} \\ge \\sqrt{ab} \\ge \\frac{2ab}{a+b}, \\quad \\Sigma n^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\Sigma n^3 = [\\Sigma n]^2, \\quad \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Sequences and Series Syllabus reduced\nBased on rigorous analysis of all 32 questions from 2025 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Sequences and Series Syllabus reduced\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
     "benchmark_pyq_ids": [
       25442,
-      25459
+      25446
     ],
-    "updated_at": "2026-09-20T16:43:26.492516"
+    "updated_at": "2026-09-20T17:12:14.446762"
   },
   "total_questions": 32,
   "has_docx": true,

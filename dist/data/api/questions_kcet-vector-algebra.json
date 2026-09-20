@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ </p>\n<p>Given,</p>\n<p> $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}$ </p>\n<p>Now,</p>\n<p> $\\vec{a} \\times \\vec{c}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 1 &amp; 1 \\\\ x &amp; y &amp; z \\end{aligned}|$ </p>\n<p>Expanding,</p>\n<p> $\\vec{a} \\times \\vec{c}=(z-y)\\hat{i}+(x-z)\\hat{j}+(y-x)\\hat{k}$ </p>\n<p>But it is given that</p>\n<p> $\\vec{a} \\times \\vec{c}=\\vec{b}$ </p>\n<p>and</p>\n<p> $\\vec{b}=\\hat{j}-\\hat{k}$ </p>\n<p>So,</p>\n<p> $(z-y)\\hat{i}+(x-z)\\hat{j}+(y-x)\\hat{k}=0\\hat{i}+1\\hat{j}-1\\hat{k}$ </p>\n<p>Comparing coefficients,</p>\n<p> $z-y=0$ </p>\n<p> $x-z=1$ </p>\n<p> $y-x=-1$ </p>\n<p>From  $z-y=0$ ,</p>\n<p> $z=y$ </p>\n<p>Also, using  $x-z=1$  and  $z=y$ ,</p>\n<p> $x-y=1$ </p>\n<p>Now given,</p>\n<p> $\\vec{a} \\cdot \\vec{c}=3$ </p>\n<p>So,</p>\n<p> $(\\hat{i}+\\hat{j}+\\hat{k}) \\cdot (x\\hat{i}+y\\hat{j}+z\\hat{k})=3$ </p>\n<p>Hence,</p>\n<p> $x+y+z=3$ </p>\n<p>Since  $z=y$ ,</p>\n<p> $x+2y=3$ </p>\n<p>Also,</p>\n<p> $x-y=1$ </p>\n<p>So,</p>\n<p> $x=y+1$ </p>\n<p>Substitute in  $x+2y=3$ :</p>\n<p> $y+1+2y=3$ </p>\n<p> $3y=2$ </p>\n<p> $y=\\frac{2}{3}$ </p>\n<p>Thus,</p>\n<p> $z=\\frac{2}{3}$ </p>\n<p>and</p>\n<p> $x=y+1=\\frac{2}{3}+1=\\frac{5}{3}$ </p>\n<p>So,</p>\n<p> $\\vec{c}=\\frac{5}{3}\\hat{i}+\\frac{2}{3}\\hat{j}+\\frac{2}{3}\\hat{k}$ </p>\n<p>Hence, the correct option is Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=\\hat{j}-\\hat{k}",
@@ -112,8 +112,7 @@
         "x-z=1"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:23.360140"
     },
@@ -227,8 +226,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:24.141861"
     },
@@ -285,8 +283,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:24.169756"
     },
@@ -393,8 +390,7 @@
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:25.027827"
     },
@@ -440,14 +436,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $p=\\frac{b \\times c}{[abc]},q=\\frac{c \\times a}{[abc]},r=\\frac{a \\times b}{[abc]}$ </p>\n<p>Now,  $(a+b) \\cdot p+(b+c) \\cdot q+(c+a) \\cdot r$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{a \\cdot (b \\times a)}{[abc]}+\\frac{b \\cdot (b \\times c)}{[abc]}+\\frac{b \\cdot (c \\times a)}{[abc]} \\\\ &amp; +\\frac{c \\cdot (c \\times a)}{[abc]}+\\frac{c \\cdot (a \\times b)}{[abc]}+\\frac{a \\cdot (a \\times b)}{[abc]} \\\\ &amp; =\\frac{[abc]}{[abc]}+0+\\frac{[bca]}{[abc]}+0+\\frac{[cab]}{[abc]}+0 \\end{aligned}$ </p>\n<p> $[ \\because$  scalar triple product is zero if two vectors are same]</p>\n<p> $=\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}=3"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:25.056512"
@@ -494,7 +488,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $A=$  origin</p>\n<p> $\\therefore AB=$  Position vector of  $B$ </p>\n<p> $AC=$  Position vector of  $C$ </p>\n<p> $\\therefore$  Position vector of mid-point of  $B$  and  $C$ </p>\n<p> $\\begin{aligned} &amp; =P=\\frac{AB+AC}{2} \\\\ &amp; =(\\frac{3+5}{2})\\hat{i}+(\\frac{0-2}{2})\\hat{j}+(\\frac{4+4}{2})\\hat{k} \\\\ &amp; =4\\hat{i}-\\hat{j}+4\\hat{k} \\end{aligned}$ </p>\n<p> $\\text{Median}=AP=4\\hat{i}-\\hat{j}+4\\hat{k}$ </p>\n<p>Hence, length of median  $=|AP|=\\sqrt{16+1+16}$ </p>\n<p> $=\\sqrt{33}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "AB=3\\hat{i}+4\\hat{k}",
@@ -505,7 +499,7 @@
         "=\\sqrt{33}"
       ],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:24.197639"
     },
@@ -551,11 +545,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The volume of the parallelopiped whose coterminous edges are  $\\hat{j}+\\hat{k},\\hat{i}+\\hat{k}$  and</p>\n<p> $\\begin{aligned} \\hat{i}+\\hat{j} &amp; =|\\begin{aligned} 0 &amp; 1 &amp; 1 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}| \\\\ &amp; =0-1(0-1)+1(1-0) \\\\ &amp; =-1(-1)+1 \\\\ &amp; =2\\text{cu units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Combination & Vector Equations",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Linear Combination & Vector Equations"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:24.223810"
     },
@@ -657,11 +651,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that component of a in the direction of  $b$  is</p>\n<p> $\\frac{|a \\cdot b|}{|b|^{2}}$ </p>\n<p>Let  $b=\\hat{i}+\\hat{j}+2\\hat{k}$  and  $a=\\hat{i}$ </p>\n<p>Then, we have  $|a \\cdot b|=l$ \nand  $|b|=\\sqrt{6}$ </p>\n<p>Now, the component of  $i$  in the direction  $\\hat{i}+\\hat{j}+2\\hat{k}$  is  $\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{6}}{6}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-20T15:21:25.930685"
     },
@@ -714,8 +708,7 @@
         "|a|=4"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:25.087211"
     },
@@ -761,14 +754,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a+2b+3c=0$ </p>\n<p> $\\begin{aligned} &amp; (a+2b+3c) \\times c=0 \\Rightarrow c \\times a=2(b \\times c) \\\\ &amp; (a+2b+3c) \\times b=0 \\\\ \\Rightarrow &amp; a \\times b=3(b \\times c) \\\\ \\text{So,} &amp; (b \\times c)+(c \\times a)+(a \\times b)=\\lambda(b \\times c) \\\\ &amp; (b \\times c)+2(b \\times c)+3(b \\times c)=\\lambda(b \\times c) \\\\ &amp; 6(b+c)=\\lambda(b \\times c) \\end{aligned}$ </p>\n<p>On comparing with coefficient of  $(b \\times c)$ , we get  $\\lambda=6$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "a+2b+3c=0",
         "(a \\times b)+(b \\times c)+(c \\times a)=\\lambda(b \\times c)"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:25.111183"
     },
@@ -877,8 +870,7 @@
         "|b|=3"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:25.947822"
     },
@@ -924,7 +916,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $|a \\times b|+|a \\cdot b|^{2}=36$  and  $|a|=3$ </p>\n<p>Correct one is  $|a \\times b|^{2}+|a \\cdot b|^{2}=36$  and  $|a|=3$ </p>\n<p>We know,  $|a \\times b|^{2}+|a \\cdot b|^{2}=|a|^{2}|b|^{2}$ </p>\n<p> $\\therefore |a|^{2}|b|^{2}=36 \\Rightarrow (3)^{2}|b|^{2}=36$ </p>\n<p> $\\Rightarrow |b|^{2}=4 \\Rightarrow |b|=2$ </p>\n<p>Hence, the correct option is (d).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "|a \\times b|^{2}+|a \\cdot b|^{2}=36",
@@ -935,8 +927,7 @@
         "\\Rightarrow |b|^{2}=4 \\Rightarrow |b|=2"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-20T15:21:25.969727"
     },
@@ -1138,14 +1129,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a \\cdot b=0$  and  $(a+b)$  makes  $60^{\\circ}$  angle with a.</p>\n<p> $\\begin{aligned} &amp; &amp; cos60^{\\circ}=\\frac{(a+b) \\cdot a}{|a+b||a|} \\\\ \\Rightarrow &amp; &amp; \\frac{1}{2}=\\frac{|a|^{2}+a \\cdot b}{|a+b||a|} \\\\ \\Rightarrow &amp; &amp; |a+b|=2|a| \\\\ \\Rightarrow &amp; &amp; |a+b|^{2}=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; (a+b)(a+b)=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; |a|^{2}+|b|^{2}+2a \\cdot b=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; b^{2}=3|a|^{2} \\\\ \\Rightarrow &amp; &amp; |b|=\\sqrt{3}|a| \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "a \\cdot b=0",
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:26.810938"
     },
@@ -1243,13 +1234,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltij4zs9/7027c6fc-5aa3-4577-9d16-172bae6390dd/d7f838a0-dd38-11ee-8d62-b5d946d24cb7/file-1ltij4zsa.png?format=png"
       ],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow BM=\\frac{AC-AB}{2}(\\text{since,}M\\text{is a mid-point of}BC)"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-20T15:21:27.504483"
     },
@@ -1345,14 +1336,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $|a+b|^{2}+|a \\cdot b|^{2}=144\\text{, and}|a|=6$ </p>\n<p>We kniow that,</p>\n<p> $\\begin{aligned} &amp; |a+b|^{2}+|a \\cdot b|^{2}=(|a||b|)^{2} \\\\ \\Rightarrow &amp; |a|^{2}|b|^{2}=144 \\\\ \\Rightarrow &amp; (6)^{2}|b|^{2}=144 \\\\ \\Rightarrow &amp; |b|^{2}=4 \\\\ \\Rightarrow &amp; |b|=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Easy",
       "key_formulas": [
         "|a+b|^{2}+|a \\cdot b|^{2}=144|a|=6",
         "|a+b|^{2}+|a \\cdot b|^{2}=144\\text{, and}|a|=6"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:27.571780"
     },
@@ -1398,13 +1389,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Key Idea: If}a=a_{1}l+a_{2}m+a_{3}n\\text{;} \\\\ &amp; b=b_{1}l+b_{2}m+b_{3}n \\\\ &amp; \\text{and}c=c_{1}l+c_{2}m+c_{3}n \\\\ &amp; \\text{then}[abc]=⎡⎣⎢\\begin{aligned} a_{1} &amp; a_{2} &amp; a_{3} \\\\ b_{1} &amp; b_{2} &amp; b_{3} \\\\ c_{1} &amp; c_{2} &amp; c_{3} \\end{aligned}⎤⎦⎥[l,m,n] \\\\ &amp; \\therefore [a+2b-c,a-b,a-b-c] \\\\ &amp; =⎡⎣⎢\\begin{aligned} 1 &amp; 2 &amp; -1 \\\\ 1 &amp; -1 &amp; 0 \\\\ 1 &amp; -1 &amp; -1 \\end{aligned}⎤⎦⎥[a,b,c]=3[a,b,c] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Easy",
       "key_formulas": [
         "[a+2b-c,a-b,a-b-c]="
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:29.090048"
     },
@@ -1450,7 +1441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea use  $(a \\times b)^{2}+(a \\cdot b)^{2}=|a|^{2}|b|^{2}$ </p>\n<p>We have,  $|a|=16,|b|=4$ </p>\n<p> $\\begin{aligned} \\therefore \\sqrt{|a \\times b|^{2}+|a \\times b|^{2}} &amp; =\\sqrt{|a|^{2}|b|^{2}} \\\\ &amp; =|a||b|=16 \\times 4=64 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Easy",
       "key_formulas": [
         "|a|=16,|b|=4",
@@ -1458,8 +1449,7 @@
         "(a \\times b)^{2}+(a \\cdot b)^{2}=|a|^{2}|b|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:28.318113"
     },
@@ -1555,7 +1545,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let,  $a=\\hat{i}+2\\hat{j}+\\hat{k}$  and  $b=-2\\hat{i}+\\hat{j}+3\\hat{k}$ </p>\n<p>Now,  $a \\times b=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 𝟏 &amp; 2 &amp; 1 \\\\ -2 &amp; 1 &amp; 3 \\end{aligned}|$ </p>\n<p> $=\\hat{i}(6-1)-\\hat{j}(3+2+\\hat{k}(1+4)=5\\hat{i}-5\\hat{j}+5\\hat{k}$ </p>\n<p>and  $|a \\times b|=\\sqrt{(-5)^{2}+(-5)^{2}+(5)^{2}}=5\\sqrt{3}$ </p>\n<p>We know that, the unit vectors perpendicular to both  $a$  and  $b$  is given by  $\\pm \\frac{a \\times b}{|a \\times b|}$ </p>\n<p> $\\therefore$  required unit vector perpendicular to the plane containing the given vectors</p>\n<p> $=\\frac{5\\hat{i}-5\\hat{j}+5\\hat{k}}{5\\sqrt{3}}=\\frac{\\hat{i}-\\hat{j}+\\hat{k}}{\\sqrt{3}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "a=\\hat{i}+2\\hat{j}+\\hat{k}",
@@ -1564,8 +1554,7 @@
         "|a \\times b|=\\sqrt{(-5)^{2}+(-5)^{2}+(5)^{2}}=5\\sqrt{3}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-20T15:21:28.372802"
     },
@@ -1676,8 +1665,7 @@
         "|\\vec{b}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-20T15:21:29.116609"
     },
@@ -1935,7 +1923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have, a, b, c are unit vectors.</p>\n<p> $\\therefore |a|=|b=|c|=1$ </p>\n<p>Also, we have</p>\n<p> $\\begin{aligned} a+b+c=0 \\\\ \\therefore a \\cdot (a+b+c)=a \\cdot 0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow a \\cdot a+a \\cdot b+a \\cdot c=0 \\\\ &amp; \\Rightarrow |a|^{2}+a \\cdot b+a \\cdot c=0[ \\because |a|=1] \\\\ &amp; \\Rightarrow a \\cdot b+a \\cdot c=-|a|^{2}=-1...(i) \\end{aligned}$ </p>\n<p>Similarly,</p>\n<p> $\\begin{aligned} &amp; b \\cdot a+b \\cdot c=-1...(ii) \\\\ &amp; andc \\cdot a+c \\cdot b=-1...(iii) \\end{aligned}$ </p>\n<p>On adding Eqs. (i), (ii) and (iii), we get</p>\n<p> $\\begin{aligned} &amp; 2(a \\cdot b+b \\cdot c+c \\cdot a)=-3 \\\\ &amp; \\Rightarrow a \\cdot b+b \\cdot c+c \\cdot a=\\frac{-3}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "a+b+c=0",
@@ -1944,7 +1932,7 @@
         "\\begin{aligned} a+b+c=0 \\\\ \\therefore a \\cdot (a+b+c)=a \\cdot 0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-20T15:21:30.412445"
     }

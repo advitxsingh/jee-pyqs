@@ -54,8 +54,7 @@
         "x+y-14xy=0"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line",
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:19.233645"
     },
@@ -101,7 +100,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the midpoints of the sides of triangle  $ABC$  be</p>\n<p> $D(\\frac{5}{2},7),E(\\frac{5}{2},3),F(4,5)$ </p>\n<p>We have to find the incentre  $(ℎ,k)$  of triangle  $ABC$ .</p>\n<h2>Step 1: Use the fact about the medial triangle</h2>\n<p>The triangle formed by joining the midpoints of the sides of a triangle is called the medial triangle.</p>\n<p>If the midpoints are known, then the original triangle can be reconstructed using:</p>\n<p> $A=E+F-D,B=F+D-E,C=D+E-F$ </p>\n<p>Now calculate each vertex.</p>\n<h3>Vertex  $A$ </h3>\n<p> $A=(\\frac{5}{2},3)+(4,5)-(\\frac{5}{2},7)$ </p>\n<p> $A=(4,1)$ </p>\n<h3>Vertex  $B$ </h3>\n<p> $B=(4,5)+(\\frac{5}{2},7)-(\\frac{5}{2},3)$ </p>\n<p> $B=(4,9)$ </p>\n<h3>Vertex  $C$ </h3>\n<p> $C=(\\frac{5}{2},7)+(\\frac{5}{2},3)-(4,5)$ </p>\n<p> $C=(1,5)$ </p>\n<p>So the triangle has vertices</p>\n<p> $A(4,1),B(4,9),C(1,5)$ </p>\n<h2>Step 2: Find the side lengths</h2>\n<p>Using distance formula:</p>\n<h3>Side opposite  $A$ , i.e.  $BC$ </h3>\n<p> $BC=\\sqrt{(4-1)^{2}+(9-5)^{2}}=\\sqrt{3^{2}+4^{2}}=5$ </p>\n<h3>Side opposite  $B$ , i.e.  $CA$ </h3>\n<p> $CA=\\sqrt{(4-1)^{2}+(1-5)^{2}}=\\sqrt{3^{2}+(-4)^{2}}=5$ </p>\n<h3>Side opposite  $C$ , i.e.  $AB$ </h3>\n<p> $AB=\\sqrt{(4-4)^{2}+(9-1)^{2}}=8$ </p>\n<p>Thus,</p>\n<p> $a=5,b=5,c=8$ </p>\n<h2>Step 3: Use incentre formula</h2>\n<p>The incentre of triangle with vertices  $A(x_{1},y_{1})$ ,  $B(x_{2},y_{2})$ ,  $C(x_{3},y_{3})$  is</p>\n<p> $(\\frac{ax_{1}+bx_{2}+cx_{3}}{a+b+c},\\frac{ay_{1}+by_{2}+cy_{3}}{a+b+c})$ </p>\n<p>where</p>\n<ul>\n<li><p> $a=BC$ </p></li>\n<li><p> $b=CA$ </p></li>\n<li><p> $c=AB$ </p></li>\n</ul>\n<p>Substitute the values:</p>\n<p> $ℎ=\\frac{5 \\cdot 4+5 \\cdot 4+8 \\cdot 1}{5+5+8}=\\frac{20+20+8}{18}=\\frac{48}{18}=\\frac{8}{3}$ </p>\n<p> $k=\\frac{5 \\cdot 1+5 \\cdot 9+8 \\cdot 5}{18}=\\frac{5+45+40}{18}=\\frac{90}{18}=5$ </p>\n<p>So the incentre is</p>\n<p> $(\\frac{8}{3},5)$ </p>\n<h2>Step 4: Find  $3ℎ+k$ </h2>\n<p> $3ℎ+k=3 \\cdot \\frac{8}{3}+5=8+5=13$ </p>\n<p>Therefore, the answer is</p>\n<p> $13$ </p>\n<p>So, the correct option is <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{5}{2},7)",
@@ -112,7 +111,7 @@
         "A=(4,1)"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:20.988815"
     },
@@ -160,7 +159,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mm5346zg/f99c0cce-2709-4fad-a617-4a5881c4e6a8/453379c0-13f6-11f1-af23-954c2300070c/file-6y3zli1mm5346zh.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "7x-y=14",
@@ -168,7 +167,7 @@
         "C=(-3,-6)"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:22.083482"
     },
@@ -306,7 +305,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlccz8s3/3807265d-6e5f-4a2f-ba6a-6efd7c13e1d5/1c003830-042a-11f1-b905-e3cf04b12e1d/file-6y3zli1mlccz8s4.webp?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "x+2\\sqrt{2}y=4",
@@ -316,7 +315,7 @@
         "|\\alpha+\\sqrt{2}\\beta|=[4.44]=4"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:21.015043"
     },
@@ -564,13 +563,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm50nezs/a3e34480-1fae-45ea-9d43-4ad34cf38560/a05fd280-13ec-11f1-a2a6-97d36b991243/file-jaoe38c1mm50nezt.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "ax+by+c=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:22.136895"
     },
@@ -675,7 +674,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mm58pi9l/b48e9cd7-6e5d-43f1-9ebc-3ab798453930/238dba90-140c-11f1-b9e4-7bedd447303c/file-jaoe38c1mm58pi9m.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "C(\\frac{7}{3},\\frac{4}{3})",
@@ -686,7 +685,7 @@
         "\\alpha=3"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:21.065707"
     },
@@ -846,7 +845,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9tzunf7/ce496f08-7873-481e-a031-3c307c8c923e/48bab630-204a-11f0-be7b-f5fd66d532bf/file-jaoe38c1m9tzunf8.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9tzvcan/524776f7-d0c8-4a43-a3e8-566bc8368339/5bf188f0-204a-11f0-be7b-f5fd66d532bf/file-jaoe38c1m9tzvcao.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "4x-7y+10=0,x+y=5",
@@ -855,7 +854,7 @@
         "x+y=1"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:23.956681"
     },
@@ -903,7 +902,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m70mynzi/ea4441ba-f75f-4434-a73d-d087f6885b19/b821c0e0-e88c-11ef-8e20-719b16a10be7/file-jaoe38c1m70mynzj.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{9}",
@@ -912,7 +911,7 @@
         "x+y=1"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:24.983245"
     },
@@ -960,7 +959,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7c1pbwk/68294a0f-4e59-4679-9ba3-04179918c294/fc98f440-eed2-11ef-81d9-610d814056f7/file-jaoe38c1m7c1pbwl.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "(\\frac{11}{2},\\alpha)",
@@ -971,7 +970,7 @@
         "\\alpha_{min}=\\frac{11}{2}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:26.257577"
     },
@@ -1019,7 +1018,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9h0gfzd/668f1acb-3dcb-4308-b64f-43fa2f966db2/765774a0-1926-11f0-aa66-05ee025e30bb/file-jaoe38c1m9h0gfze.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{\\alpha}{2}",
@@ -1029,7 +1028,7 @@
         "\\begin{aligned} & y=tan15^{\\circ}(x-a) \\\\ & y=(2-\\sqrt{3})(x-a) \\end{aligned}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:23.057418"
     },
@@ -1351,14 +1350,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m74yf38q/941347a8-2b50-4835-9613-995bd5a044f5/a7e1a8a0-eaec-11ef-b903-374a4031b0cb/file-jaoe38c1m74yf38r.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "-x+2y=4",
         "x+y=4"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:25.032993"
     },
@@ -1406,11 +1405,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7j63l3b/1c6f307a-029d-4767-b840-3ca3c6ec8e5e/aa15c970-f2bd-11ef-839d-2d40708f8cbd/file-jaoe38c1m7j63l3c.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:26.313311"
     },
@@ -1435,14 +1434,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We set up a coordinate system so that the two parallel lines are given by</p>\n<p> $y=0\\text{and}y=5,$ </p>\n<p>since their distance is 5 units. Choose point</p>\n<p> $P=(0,1)$ </p>\n<p>so that the distance from  $P$  to the line  $y=0$  is 1 unit (and its distance to the line  $y=5$  is 4 units).</p>\n<p>Let point</p>\n<p> $Q=(a,0)$ </p>\n<p>be on the line  $y=0$ , and let point</p>\n<p> $R=(b,5)$ </p>\n<p>be on the line  $y=5$ . Since triangle  $PQR$  is equilateral with side length  $s$ , we require:</p>\n<p> $PQ=PR=QR=s.$ </p>\n<p>A convenient method is to “rotate”  $Q$  about  $P$  by an angle of  $60^{\\circ}$  to obtain  $R$ . In complex-number (or vector) terms, if we translate so that  $P$  is at the origin, then the rotation is given by</p>\n<p> $e^{i60^{\\circ}}=cos60^{\\circ}+isin60^{\\circ}=\\frac{1}{2}+i\\frac{\\sqrt{3}}{2}.$ </p>\n<p>Thus, writing  $Q$  in vector form relative to  $P$ , we have</p>\n<p> $Q-P=(a,-1).$ </p>\n<p>Rotating this by  $60^{\\circ}$  gives</p>\n<p> $R-P=(acos60^{\\circ}-(-1)sin60^{\\circ},asin60^{\\circ}+(-1)cos60^{\\circ}).$ </p>\n<p>Substituting the values  $cos60^{\\circ}=\\frac{1}{2}$  and  $sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$ , we obtain</p>\n<p> $\\begin{aligned} R-P &amp; =(\\frac{a}{2}+\\frac{\\sqrt{3}}{2},\\frac{a\\sqrt{3}}{2}-\\frac{1}{2}), \\\\ \\text{so}R &amp; =(\\frac{a+\\sqrt{3}}{2},1+\\frac{a\\sqrt{3}}{2}-\\frac{1}{2})=(\\frac{a+\\sqrt{3}}{2},\\frac{a\\sqrt{3}+1}{2}). \\end{aligned}$ </p>\n<p>Since  $R$  lies on  $y=5$ , its  $y$ -coordinate must equal 5:</p>\n<p> $\\frac{a\\sqrt{3}+1}{2}=5.$ </p>\n<p>Solve for  $a$ :</p>\n<p> $\\begin{aligned} a\\sqrt{3}+1 &amp; =10, \\\\ a\\sqrt{3} &amp; =9, \\\\ a &amp; =\\frac{9}{\\sqrt{3}}=3\\sqrt{3}. \\end{aligned}$ </p>\n<p>Now, the side length  $s$  (which is the distance  $PQ$ ) is given by</p>\n<p> $\\begin{aligned} s^{2} &amp; =PQ^{2}=(3\\sqrt{3}-0)^{2}+(0-1)^{2} \\\\ &amp; =(3\\sqrt{3})^{2}+1^{2} \\\\ &amp; =27+1 \\\\ &amp; =28. \\end{aligned}$ </p>\n<p>Thus, the square of side  $QR$  is</p>\n<p> $(QR)^{2}=s^{2}=28.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "y=0\\text{and}y=5,",
         "P=(0,1)"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:58.749749"
     },
@@ -1759,14 +1758,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwagdtgz/adc2b178-39c7-4610-ae95-7cf96da59f71/72edac30-142c-11ef-983f-65b4bd1ca415/file-1lwagdth0.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "ax^{2}+by^{2}+cxy+dx+ey+170=0",
         "a^{2}+2b+3c+4d+e"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:28.347540"
     },
@@ -1960,7 +1959,7 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw8vj8jo/f80a9888-77a1-4003-a6a8-8ff4c790fc36/21421350-134e-11ef-8bbe-1b4949638519/file-1lw8vj8jp.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw8vkatq/d9a6291d-037a-470f-95f4-e32e235ad67c/3ed3cee0-134e-11ef-8bbe-1b4949638519/file-1lw8vkatr.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "2x+3y-1=0,x+2y-1=0",
@@ -1970,7 +1969,7 @@
         "\\Rightarrow G_{1} \\equiv (0,0)"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:59.640298"
     },
@@ -1995,7 +1994,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2x-y+3=0 \\\\ &amp; 6x+3y+1=0 \\\\ &amp; \\alpha x+2y-2=0 \\end{aligned}$ </p>\n<p>Will not form a  $\\Delta$  if  $\\alpha x+2y-2=0$  is concurrent with  $2x-y+3=0$  and  $6x+3y+1=0$  or parallel to either of them so</p>\n<p>Case-1: Concurrent lines</p>\n<p> $|\\begin{aligned} 2 &amp; -1 &amp; 3 \\\\ 6 &amp; 3 &amp; 1 \\\\ \\alpha &amp; 2 &amp; -2 \\end{aligned}|=0 \\Rightarrow \\alpha=\\frac{4}{5}$ </p>\n<p>Case-2 : Parallel lines</p>\n<p> $\\begin{aligned} &amp; -\\frac{\\alpha}{2}=\\frac{-6}{3}\\text{or}-\\frac{\\alpha}{2}=2 \\\\ &amp; \\Rightarrow \\alpha=4\\text{or}\\alpha=-4 \\\\ &amp; P=16+16+\\frac{16}{25} \\\\ &amp; [P]=[32+\\frac{16}{25}]=32 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "2x-y+3=0,6x+3y+1=0",
@@ -2003,7 +2002,7 @@
         "is _________."
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:46:00.714899"
     },
@@ -2051,11 +2050,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw37w9ht/b3e9aa4d-c4a4-4387-bd7f-990e7790d425/c5298810-1031-11ef-b980-477f779c8c59/file-1lw37w9hu.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:27.348349"
     },
@@ -2103,11 +2102,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwd2p5t3/fdf80bf0-c51d-4c22-865c-bd4b3e3d59be/487f8460-159d-11ef-aabb-5de744d2ad81/file-1lwd2p5t4.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:28.374462"
     },
@@ -2262,7 +2261,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1e6sji/400a79ad-eefc-44fe-9456-362749aed957/294e71e0-d3cc-11ee-a50b-bb659a2e1d74/file-1lt1e6sjj.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "4x+5y=20",
@@ -2273,7 +2272,7 @@
         "OA=m_{1}=\\frac{8}{5}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:31.313179"
     },
@@ -2413,13 +2412,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lvnxhk5n/61340bd7-15c2-4d49-8787-6b1d30c56e5c/4f3a81b0-07c9-11ef-afdb-fb69ed1077de/file-6y3zli1lvnxhk5o.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "-\\frac{12}{5}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:28.401114"
     },
@@ -2467,7 +2466,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsnjikpx/f32556f0-5b8e-46de-b6e9-9f078c18e4de/05872950-cc2e-11ee-b20d-39b621d226e3/file-6y3zli1lsnjikpy.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "AB=\\sqrt{10}",
@@ -2477,7 +2476,7 @@
         "2(\\alpha+\\beta+\\gamma+\\delta)=2(2+2)=8"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:29.368413"
     },
@@ -2525,14 +2524,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsr8s48w/7106c58a-521f-4564-b530-e2a9d2152dfd/2d124800-ce37-11ee-9412-cd4f9c6f2c40/file-6y3zli1lsr8s48x.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "2x-3y+28=0",
         "\\sqrt{3}x-y+1=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:30.219251"
     },
@@ -2616,11 +2615,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw8pr3ta/992548a6-ea30-4544-b8d1-c7f041deb6d3/854cb2e0-1337-11ef-9f8d-838c388c326d/file-1lw8pr3tb.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:27.403965"
     },
@@ -2777,13 +2776,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt2yegk8/aaaae12e-3775-4328-9765-0804dbc280e4/fdc1fd80-d4a7-11ee-bdd1-01c80c3e2d9a/file-1lt2yegk9.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Easy",
       "key_formulas": [
         "y=x"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:30.251722"
     },
@@ -2810,7 +2809,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lw4q8kfi/88bdaca2-4aca-49af-a105-f44c4a414e43/484b38e0-1106-11ef-9d25-fd88fb6fcd30/file-1lw4q8kfj.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Hard",
       "key_formulas": [
         "2x+y=6",
@@ -2820,7 +2819,7 @@
         "^{∗}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:58.776456"
     },
@@ -2904,14 +2903,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lhu7fnjs/31373c2a-3f37-47d1-bed5-e74cffaeb86b/e21d2070-f611-11ed-8eab-4b3832376002/file-1lhu7fnjt.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\alpha,\\frac{7\\sqrt{3}}{3})",
         "xcos\\theta+ysin\\theta=7,\\theta \\in (0,\\frac{\\pi}{2})"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:32.419708"
     },
@@ -3158,11 +3157,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lgxuayzx/c68e4c1e-f2ed-4189-96d3-77fa5b78bc40/7473b5d0-e445-11ed-97cc-4f9b4bf32610/file-1lgxuayzy.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:31.335701"
     },
@@ -3303,7 +3302,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lnkfs1i7/86b3f2b6-ecef-40f3-8533-8213186f85af/f96ad2f0-677b-11ee-aeb9-a1910acfd49b/file-6y3zli1lnkfs1i8.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "2x-3y=-23",
@@ -3313,7 +3312,7 @@
         "50d^{2}=(23)^{2}=529"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:46:00.768150"
     },
@@ -3416,7 +3415,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->For pair of straight lines in this form \n<br/><br/> $ax^{2}+by^{2}+2ℎxy+2gx+2fy+c=0$ \n<br/><br/>Equation of angle bisector is\n<br/><br/> $\\frac{x^{2}-y^{2}}{a-b}=\\frac{xy}{ℎ}$ \n<br/><br/>for  $2x^{2}+xy-3y^{2}=0$ \n<br/><br/> $a=2,b=-3,ℎ=\\frac{1}{2}$ \n<br/><br/>Equation of angle bisector is\n<br/><br/> $\\begin{aligned} &amp; \\frac{x^{2}-y^{2}}{5}=\\frac{xy}{1/2} \\\\ \\\\ &amp; \\Rightarrow x^{2}-y^{2}-10xy=0 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "ax+by+c=0",
@@ -3427,7 +3426,6 @@
         "\\frac{x^{2}-y^{2}}{a-b}=\\frac{xy}{ℎ}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line",
         "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:32.493963"
@@ -3455,7 +3453,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1le5hxc6e/38f5f2ee-c758-49c2-a1e2-99e79ae87394/aad05860-ad16-11ed-8a8c-4d67f5492755/file-1le5hxc6f.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Hard",
       "key_formulas": [
         "2x+y=0,x+py=21a,(a \\pm 0)",
@@ -3466,7 +3464,7 @@
         "\\frac{-42a}{1-2p}-2+\\frac{21a-3}{p+1}=3a"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:46:00.792316"
     },
@@ -3514,7 +3512,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7xrag3x/1171f510-f750-4a4d-8bf7-c934d96c9030/b8102bd0-320b-11ed-b25b-a342e8d3e498/file-1l7xrag3y.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "C(\\frac{\\alpha}{4},-2)",
@@ -3522,7 +3520,7 @@
         "area(△ABC)=\\frac{1}{2} \\cdot \\frac{3\\alpha}{4} \\times 8=24"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:34.930169"
     },
@@ -3568,7 +3566,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let point  $P:(ℎ,k)$ </p>\n<p> $(ℎ-1)^{2}+(k-2)^{2}+(ℎ+2)^{2}+(k-1)^{2}=14$ </p>\n<p> $2ℎ^{2}+2k^{2}+2ℎ-6k-4=0$ </p>\n<p>Locus of  $P:x^{2}+y^{2}+x-3y-2=0$ </p>\n<p>Intersection with x-axis,</p>\n<p> $x^{2}+x-2=0$ </p>\n<p> $\\Rightarrow x=-2,1$ </p>\n<p>Intersection with y-axis,</p>\n<p> $y^{2}-3y-2=0$ </p>\n<p> $\\Rightarrow y=\\frac{3 \\pm \\sqrt{17}}{2}$ </p>\n<p>Area of the quadrilateral ACBD is</p>\n<p> $=\\frac{1}{2}(|x_{1}|+|x_{2}|)(|y_{1}|+|y_{2}|)$ </p>\n<p> $=\\frac{1}{2} \\times 3 \\times \\sqrt{17}=\\frac{3\\sqrt{17}}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "(ℎ-1)^{2}+(k-2)^{2}+(ℎ+2)^{2}+(k-1)^{2}=14",
@@ -3579,7 +3577,7 @@
         "y^{2}-3y-2=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:35.980957"
     },
@@ -3627,7 +3625,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5gmnar6/e2444175-9dd2-4655-a827-d624ec162bae/ce00a120-0107-11ed-a5c5-a7461ac77783/file-1l5gmnar7.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "x-2y+1=0",
@@ -3638,7 +3636,7 @@
         "Point A = (1, 1) Altitude from B to line AC is perpendicular to line AC."
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:37.148598"
     },
@@ -3686,7 +3684,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l59j3d6d/8a4b3248-26d5-486b-9475-fbc8a7d508b1/6bc27690-fd20-11ec-8035-4341fba75e09/file-1l59j3d6h.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "ℎ=\\frac{|3+7-5|}{\\sqrt{1^{2}+1^{2}}}",
@@ -3697,7 +3695,7 @@
         "=\\frac{10}{\\sqrt{6}}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:38.132673"
     },
@@ -3724,7 +3722,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7nbzt6e/130dc0b4-c7c5-40cb-813c-5bded9b079b4/10d39160-2c50-11ed-9dc0-a1792fcc650d/file-1l7nbzt6f.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to ______________. Slope of",
@@ -3735,7 +3733,7 @@
         "p^{2}-8p+15=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:46:02.087915"
     },
@@ -3842,7 +3840,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7bukhhd/39a595d1-0f44-4de9-a640-89709cea02f6/4c50df10-25ff-11ed-9c74-c5a04899a045/file-1l7bukhhe.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}:3x-4y+12=0",
@@ -3853,7 +3851,7 @@
         "\\Rightarrow 3\\alpha-4\\beta+7=0"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:36.005254"
     },
@@ -3989,7 +3987,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5oc3byi/c98d69fd-398a-42cd-a87f-3ee77ee795a4/cca73aa0-0544-11ed-987f-3938cfc0f7f1/file-1l5oc3byj.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{4}{5-\\alpha}=\\frac{3}{\\alpha-2} \\Rightarrow 4\\alpha-8=15-3\\alpha",
@@ -4000,7 +3998,7 @@
         "X=\\frac{23}{7}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:46:02.117213"
     },
@@ -4048,7 +4046,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l7qa6xtq/139436a6-31d3-4607-a05c-66e2b0bc9d4d/5ec55de0-2def-11ed-a744-1fb8f3709cfa/file-1l7qa6xtr.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+y=0,x+py=39",
@@ -4059,7 +4057,7 @@
         "x+y=5"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:34.976619"
     },
@@ -4107,7 +4105,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l97rw5km/2f99cd4f-8200-402b-aaa3-f8d0d73a633d/21992d60-4b5a-11ed-bfde-e1cb3fafe700/file-1l97rw5kn.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "x-y-2=0",
@@ -4118,7 +4116,7 @@
         "sin\\theta=\\frac{5}{\\sqrt{29}},cos\\theta=\\frac{2}{\\sqrt{29}}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:36.029721"
     },
@@ -4166,7 +4164,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l99tn43d/ebd74024-c280-415b-bc94-0859668a0f7c/89bb0690-4c7a-11ed-b94d-45a8040c2a81/file-1l99tn43e.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}:2x+5y=10",
@@ -4177,7 +4175,7 @@
         "A(x_{1},\\frac{1}{3}(12+4x_{1}))"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:37.197104"
     },
@@ -4202,13 +4200,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Clearly  $B$  is  $(-\\frac{3}{\\sqrt{a}},+\\sqrt{a})$  and  $C$  is  $(-\\frac{3}{\\sqrt{a}},-\\sqrt{a})$ \n<br/><br/>\n $\\begin{aligned} &amp; \\text{Area of}△ACD=\\frac{1}{2}|\\begin{aligned} \\frac{3}{\\sqrt{a}} &amp; \\sqrt{a} &amp; 1 \\\\ \\\\ -\\frac{3}{\\sqrt{a}} &amp; -\\sqrt{a} &amp; 1 \\\\ \\\\ 3cos\\theta &amp; asin\\theta &amp; 1 \\end{aligned}| \\\\ \\\\ &amp; \\Rightarrow \\Delta=|\\begin{aligned} 0 &amp; 0 &amp; 1 \\\\ \\\\ -\\frac{3}{\\sqrt{a}} &amp; -\\sqrt{a} &amp; 1 \\\\ \\\\ 3cos\\theta &amp; asin\\theta &amp; 1 \\end{aligned}| \\\\ \\\\ &amp; \\Rightarrow \\Delta=|3\\sqrt{a}sin\\theta+3\\sqrt{a}cos\\theta|=3\\sqrt{a}|sin\\theta+cos\\theta| \\\\ \\\\ &amp; \\Rightarrow \\Delta_{max}=3\\sqrt{a} \\cdot \\sqrt{2}=12 \\Rightarrow a=(2\\sqrt{2})^{2}=8 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Hard",
       "key_formulas": [
         "A(\\frac{3}{\\sqrt{a}},\\sqrt{a}),a>0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:46:02.147479"
     },
@@ -4372,7 +4370,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1l5yktc03/7dba7f27-1a1c-4810-bc97-87e79ff18cdf/bf409530-0ae6-11ed-a51c-73986e88f75f/file-1l5yktc04.png?format=png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "Slope of AB = Slope of BC",
@@ -4383,7 +4381,7 @@
         "\\Rightarrow \\alpha(\\alpha-3)+1(\\alpha-3)=0"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:36.059448"
     },
@@ -4490,7 +4488,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktp1e22w/7b0f39fd-1e20-42bc-be4b-add1eb0d3f67/229ae880-1815-11ec-872b-bb20e4927270/file-1ktp1e22x.png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "(y-3)=\\frac{t}{3}(x-t)",
@@ -4499,7 +4497,7 @@
         "\\Rightarrow k=3-\\frac{4ℎ^{2}}{6} \\Rightarrow 2x^{2}+3y-9=0"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:39.085909"
     },
@@ -4787,7 +4785,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ktcx1yov/4dcac57e-ad6d-47dc-b562-5a95ad1b1220/c5f77fe0-116a-11ec-bae2-11c4e14cc3fe/file-1ktcx1yow.jpeg"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "ACB =",
@@ -4798,7 +4796,7 @@
         "2a + b = 11 ...........(i)"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:39.114709"
     },
@@ -5110,7 +5108,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->3x + 4(mx + 1) = 9<br/><br/> $\\Rightarrow$  x(3 + 4m) = 5<br/><br/> $\\Rightarrow$   $x=\\frac{5}{(3+4m)}$ <br/><br/> $\\Rightarrow$  (3 + 4m) =  $\\pm$ 1,  $\\pm$ 5<br/><br/> $\\Rightarrow$  4m =  $-$ 3  $\\pm$  1,  $-$ 3  $\\pm$  5 <br/><br/> $\\Rightarrow$  4m =  $-$ 4,  $-$ 2,  $-$ 8, 2<br/><br/> $\\Rightarrow$  m =  $-$ 1,  $-$  $\\frac{1}{2}$ ,  $-$ 2,  $\\frac{1}{2}$ <br/><br/> $\\therefore$  Two integral value of m.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "x=\\frac{5}{(3+4m)}",
@@ -5119,7 +5117,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:40.035773"
     },
@@ -5165,7 +5163,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given three lines are x  $-$  y = 0, x + 2y = 3 and 2x + y = 6 then point of intersection,<br/><br/>lines x  $-$  y = 0 and x + 2y = 3 is (1, 1)<br/><br/>lines x  $-$  y = 0 and 2x + y = 6 is (2, 2)<br/><br/>and lines x + 2y = 3 and 2x + y = 0 is (3, 0)<br/><br/>The triangle ABC has vertices A(1, 1), B(2, 2) and C(3, 0)<br/><br/> $\\therefore$  AB =  $\\sqrt{2}$ , BC =  $\\sqrt{5}$  and AC =  $\\sqrt{5}$ <br/><br/> $\\therefore$   $\\Delta$ ABC is isosceles<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "y = 0, x + 2y = 3 and 2x + y = 6 is a : The given three lines are x",
@@ -5173,7 +5171,7 @@
         "y = 0 and x + 2y = 3 is (1, 1) lines x"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:40.878538"
     },
@@ -5316,7 +5314,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1ks2qcmkb/468b48b5-f0f8-46b1-a5b5-562812fc0e77/80b930b0-f804-11eb-8b50-1b12e43245be/file-1ks2qcmkc.png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "D=(\\frac{5}{3},-\\frac{4}{3})",
@@ -5324,7 +5322,7 @@
         "y=x"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:39.168116"
     },
@@ -5554,7 +5552,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kk9xmuja/e83e6110-1199-4809-8cfd-b208ab966ed1/be645270-5d98-11eb-bbdb-d170d450c6c5/file-1kk9xmujb-500w.jpeg"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "y=\\frac{10}{a}x",
@@ -5564,7 +5562,7 @@
         "\\Rightarrow y=6"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:42.470995"
     },
@@ -5610,7 +5608,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Point P(x', y') lies on the line 3x + y – 4 $\\lambda$  = 0\n<br/><br/> $\\therefore$  3x' + y' – 4 $\\lambda$  = 0\n<br/><br/>Area of  $\\Delta$ PAB = 5\n<br/><br/> $\\Rightarrow$   $\\frac{1}{2}|\\begin{aligned} 1 &amp; 1 &amp; -1 \\\\ 1 &amp; 0 &amp; 2 \\\\ 1 &amp; x^{'} &amp; y^{'} \\end{aligned}|$  =  $\\pm$  5\n<br/><br/> $\\Rightarrow$  [(–2x') – (y' – 2) – (x')] =  $\\pm$  10\n<br/><br/> $\\Rightarrow$  – 3x' – y' + 2 =  $\\pm$  10\n<br/><br/> $\\Rightarrow$  2 - 4 $\\lambda$  =  $\\pm$  10\n<br/><br/> $\\Rightarrow$   $\\lambda$  = -2 or  $\\lambda$  = 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "=",
@@ -5618,7 +5616,7 @@
         "– 3x' – y' + 2 ="
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:43.219582"
     },
@@ -5919,7 +5917,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let f(x, y) = x + y - 1<br/><br/>\n $\\because f(1,2).f(sin\\theta,cos\\theta)&gt;0$ <br/><br/>\n $\\Rightarrow 2[sin\\theta+cos\\theta-1]&gt;0$ <br/><br/>\n $\\Rightarrow sin\\theta+cos\\theta&gt;1$ <br/><br/>\n $\\Rightarrow sin(\\theta+\\frac{\\pi}{4})&gt;\\frac{1}{\\sqrt{2}}$ <br/><br/>\n $\\Rightarrow \\theta+\\frac{\\pi}{4} \\in (\\frac{\\pi}{4},\\frac{3\\pi}{4})$ <br/><br/>\n $\\Rightarrow \\theta \\in (0,\\frac{\\pi}{2})$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow sin(\\theta+\\frac{\\pi}{4})>\\frac{1}{\\sqrt{2}}",
@@ -5927,7 +5925,7 @@
         "\\Rightarrow \\theta \\in (0,\\frac{\\pi}{2})"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:42.524472"
     },
@@ -5954,7 +5952,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/7kd4dk6s4nub8/a205f016-9c5a-49f5-8f7d-471d8b5f42bf/4e50ff40-526f-11ea-b62d-51ccc5d4afb6/file-7kd4dk6s4nub9-426w.jpg"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{3}{2},6)",
@@ -5964,7 +5962,7 @@
         "\\sqrt{(\\frac{24}{6})^{2}+(\\frac{9}{3})^{2}}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:46:03.855719"
     },
@@ -6067,14 +6065,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Centroid C  $(\\frac{3+1+2}{3},\\frac{-1+3+4}{3})$  = (2, 2)\n<br/><br/>Point of intersection of lines x + 3y – 1 = 0 <br/><br/>and 3x – y + 1 = 0 is P  $(-\\frac{1}{5},\\frac{2}{5})$ \n<br/><br/>So, equation of line CP is 8x – 11y + 6 = 0\n<br/><br/>Point (–9, –6) satisfy this equation.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Easy",
       "key_formulas": [
         "(\\frac{3+1+2}{3},\\frac{-1+3+4}{3})",
         "(-\\frac{1}{5},\\frac{2}{5})"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:42.554705"
     },
@@ -6122,14 +6120,14 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf7697gjy6gx9pn/b2d0b5b2-0f95-4228-b6ef-6a558716f491/48ba03b0-a824-11e9-a277-6507805b1ccf/file-jf7697gjy6gx9po-1580w.jpg"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "C_{1}:|y-x| \\le 2",
         "C_{2}:|y+x| \\le 2"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:44.509510"
     },
@@ -6229,7 +6227,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/caZLQtnF2VKqfgFP9/F2ue0uu9QrNiencyRODKimzvvaivy/AhuKkfDf1cc61rhCBUsEqD/image.png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "|\\frac{3r+4r-24}{5}|=r",
@@ -6238,7 +6236,7 @@
         "r=14,r=2"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:46.634236"
     },
@@ -6448,7 +6446,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/T5P1cFWt49pYA7ix4/yaasVlgLSOG2mln53avREmbdKCISy/J9QDuRWEAWir8mssuhXgoJ/image.png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "2y + 6 = 0 and 4x + 5y",
@@ -6459,7 +6457,7 @@
         "4y = 1       . . .(3) and line"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:46.657806"
     },
@@ -6952,7 +6950,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/TACJvBoevNk0oJ1MP/tHUdHcSucUTpjDqZdFKmi7z45vem5/91Nmre55csM7fbWdrQ8VYk/image.png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "\\begin{aligned} x+y=3 \\\\ x-y=-3 \\end{aligned}>A(0,3)",
@@ -6961,7 +6959,7 @@
         "1 and equation of CD is x + y = 9 Solving x + y = 9 and x"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:45.907125"
     },
@@ -7009,7 +7007,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/MV5etT1CVk5o2rBCP/H7Xstr3JPFT7dJid4vlqhIkyzjYMm/QoGyibZTE9qiLxuyLoP40k/image.png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\frac{1+4}{2},\\frac{2+y}{2})",
@@ -7018,7 +7016,7 @@
         "\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:48.312693"
     },
@@ -7180,7 +7178,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the coordinate A be (0, c)\n<br/><br/>Equations of the given lines are \n<br/><br/>x  $-$  y + 2 = 0 and 7x  $-$  y + 3 = 0\n<br/><br/>We know that the diagonals of the rhombus will be parallel to the angle bisectors of the two given lines; y = x + 2 and y = 7x + 3\n<br/><br/> $\\therefore$  equation of angle bisectors is given as : \n<br/><br/> $\\frac{x-y+2}{\\sqrt{2}}= \\pm \\frac{7x-y+3}{5\\sqrt{2}}$ \n<br/><br/>5x  $-$  5y + 10 =  $\\pm$  (7x  $-$  y + 3)\n<br/><br/> $\\therefore$  Parallel equations of the diagonals are 2x + 4y  $-$  7 = 0\n<br/><br/>and 12x  $-$  6y + 13 = 0\n<br/><br/> $\\therefore$  slopes of diagonals are  $\\frac{-1}{2}$  and 2.\n<br/><br/>Now, slope of the diagonal from A(0, c) and passing through  P(1, 2) is (2  $-$  c)\n<br/><br/> $\\therefore$  2  $-$  c = 2  $\\Rightarrow$  c = 0 (not possible)\n<br/><br/> $\\therefore$  2  $-$  c =  $\\frac{-1}{2}$   $\\Rightarrow$  c =  $\\frac{5}{2}$ \n<br/><br/> $\\therefore$  Coordinate of A is  $\\frac{5}{2}$ . <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "y + 2 = 0 and 7x",
@@ -7191,7 +7189,7 @@
         "c = 2"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:47.558804"
     },
@@ -7239,7 +7237,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/hjvdsWA2FMTXOKFEp/xctkVvUz5ff35egNjh50zAOO9fSwp/eZZ2EDLsLXo1u6gpq43qyb/image.png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{cos30^{\\circ}}",
@@ -7250,7 +7248,7 @@
         "\\frac{y}{sin120^{\\circ}}"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:48.337911"
     },
@@ -7473,7 +7471,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->L<sub>1</sub> : 4x + 3y  $-$  12 = 0\n<br/><br/>L<sub>2</sub> : 3x + 4y  $-$  12 = 0\n<br/><br/>Equation of line passing through  the intersection of these two lines L<sub>1</sub> and L<sub>2</sub> is \n<br/><br/>L<sub>1</sub> +  $\\lambda$ L<sub>2</sub> = 0\n<br/><br/> $\\Rightarrow$ (4x + 3y  $-$  12) +  $\\lambda$ (3x + 4y  $-$  12) = 0\n<br/><br/> $\\Rightarrow$  x(4 + 3 $\\lambda$ ) + y(3 + 4 $\\lambda$ )  $-$  12(1 +  $\\lambda$ ) = 0\n<br/><br/>this line meets x coordinate at point A and y coordinate at point B.\n<br/><br/> $\\therefore$  Point A =  $(\\frac{12(1+\\lambda)}{4+3\\lambda},0)$ \n<br/><br/>and Point B =  $(0,\\frac{12(1+\\lambda)}{3+4\\lambda})$ \n<br/><br/>Let coordinate of midpoint of line AB is  (h, k).\n<br/><br/> $\\therefore$  h =  $\\frac{6(1+\\lambda)}{4+3\\lambda}$  . . . . . (1)\n<br/><br/>and k =  $\\frac{6(1+\\lambda)}{3+4\\lambda}$  . . . . (2)\n<br/><br/>Eliminate  $\\lambda$  from (1) and (2), then  we get \n<br/><br/>6(h + k) = 7 hk\n<br/><br/> $\\therefore$  Locus of midpoint of line AB is , \n<br/><br/>6(x + y) = 7xy<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{3}+\\frac{y}{4}=1",
@@ -7484,7 +7482,7 @@
         "Point A ="
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:49.311243"
     },
@@ -7647,13 +7645,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1kxw9pbpa/316e0bc4-d33f-4ef5-89c3-8879b661f4ca/ff0879e0-6b3f-11ec-8608-9b519146e1b7/file-1kxw9pbpb.png?format=png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "1+2+3+....+39=\\frac{39 \\times 40}{2}=780"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:50.110775"
     },
@@ -8096,7 +8094,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $(a^{2},a)$  be the point of shortest distance on  $x=y^{2}$ \n<br/><br/>Then distance between  $(a^{2},a)$  and line  $x-y+1=0$ \n<br/><br/>is given by\n<br/><br/> $D=\\frac{a^{2}-a+1}{\\sqrt{2}}=\\frac{1}{\\sqrt{2}}[(a-\\frac{1}{2})^{2}+\\frac{3}{4}]$ \n<br/><br/>It is min when  $a=\\frac{1}{2}$  and  $D_{min}=\\frac{3}{4\\sqrt{2}}=\\frac{3\\sqrt{2}}{8}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "y-x=1",
@@ -8107,7 +8105,7 @@
         "a=\\frac{1}{2}"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:51.991512"
     },
@@ -8271,7 +8269,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/cy59zm03z1FyLTTRR/bgo1QHBRjWkHvaluWHVIdaPBOvxN8/RrEsBDExxtALrpLwrEdrBo/image.png"
       ],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Delta ABC=1",
@@ -8279,7 +8277,7 @@
         "\\Rightarrow \\pm (k-1)=2 \\Rightarrow k=-1,3"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:52.041558"
     },
@@ -8327,7 +8325,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/n5v7a49fdBNmzkCxo/scwQ3xOqKzzAceQVrqXXMo2qR5nWM/N2lHIwrEsLXr0vqvrUX5GL/image.png"
       ],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "my^{2}+(1-m^{2})xy-mx^{2}=0",
@@ -8337,7 +8335,7 @@
         "\\Rightarrow 1-m^{2}=0 \\Rightarrow m= \\pm 1"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:52.064557"
     },
@@ -8664,14 +8662,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the lines be  $y=m_{1}x$  and  $y=m_{2}x$  then\n<br/><br/> $m_{1}+m_{2}=-\\frac{2c}{7}$  and  $m_{1}m_{2}=-\\frac{1}{7}$ \n<br/><br/>Given  $m_{1}+m_{2}=4m_{1}m_{2}$ \n<br/><br/> $\\Rightarrow \\frac{2c}{7}=-\\frac{4}{7} \\Rightarrow c=2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Easy",
       "key_formulas": [
         "x^{2}-2cxy-7y^{2}=0",
         "\\Rightarrow \\frac{2c}{7}=-\\frac{4}{7} \\Rightarrow c=2"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:54.132146"
     },
@@ -8717,7 +8715,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let the vertex  $C$  be  $(ℎ,k),$   then the \n<br/><br/>centroid of  $\\Delta ABC$  is  $(\\frac{2+(-2)+ℎ}{3},\\frac{-3+1+k}{3})$ \n<br/><br/>or  $(\\frac{ℎ}{3},\\frac{-2+k}{3}).$  It lies on  $2x+3y=1$ \n<br/><br/> $\\Rightarrow \\frac{2ℎ}{3}-2+k=1$ \n<br/><br/> $\\Rightarrow 2ℎ+3k=9$ \n<br/><br/> $\\therefore$  Locus of  $C$  is  $2x+3y=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
+      "topic_tag": "Distance, Slopes & Forms of Straight Line",
       "difficulty": "Medium",
       "key_formulas": [
         "2x+3y=1",
@@ -8725,7 +8723,7 @@
         "\\Rightarrow 2ℎ+3k=9"
       ],
       "key_concepts": [
-        "Pair of Straight Lines & Angle Bisectors"
+        "Distance, Slopes & Forms of Straight Line"
       ],
       "crawled_at": "2026-09-20T15:45:55.086571"
     },
@@ -8771,7 +8769,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $3x+4y=0$  is one of the lines of the pair\n<br/><br/> $6x^{2}-xy+4cy^{2}=0,$  \n<br/><br/>Put   $y=-\\frac{3}{4}x,$ \n<br/><br/>we get  $6x^{2}+\\frac{3}{4}x^{2}+4c(-\\frac{3}{4}x)^{2}=0$ \n<br/><br/> $\\Rightarrow 6+\\frac{3}{4}+\\frac{9c}{4}=0 \\Rightarrow c=-3$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "6x^{2}-xy+4cy^{2}=0",
@@ -8779,7 +8777,7 @@
         "\\Rightarrow 6+\\frac{3}{4}+\\frac{9c}{4}=0 \\Rightarrow c=-3"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:54.155383"
     },
@@ -8938,7 +8936,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Put  $x=0$  in the given equation\n<br/><br/> $\\Rightarrow by^{2}+2fy+c=0.$ \n<br/><br/>For unique point of intersection  $f^{2}-bc=0$ \n<br/><br/> $\\Rightarrow af^{2}-abc=0.$ \n<br/><br/>Since  $abc+2fgℎ-af^{2}-bg^{2}-cℎ^{2}=0$ \n<br/><br/> $\\Rightarrow 2fgℎ-bg^{2}-cℎ^{2}=0$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Distance, Slopes & Forms of Straight Line",
+      "topic_tag": "Pair of Straight Lines & Angle Bisectors",
       "difficulty": "Medium",
       "key_formulas": [
         "ax^{2}+2ℎxy+by^{2}+2gx+2fy+c=0",
@@ -8947,7 +8945,7 @@
         "\\Rightarrow 2fgℎ-bg^{2}-cℎ^{2}=0"
       ],
       "key_concepts": [
-        "Distance, Slopes & Forms of Straight Line"
+        "Pair of Straight Lines & Angle Bisectors"
       ],
       "crawled_at": "2026-09-20T15:45:56.374769"
     },

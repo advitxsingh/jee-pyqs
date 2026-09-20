@@ -8,53 +8,53 @@
     "total_questions_site": 90,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T16:42:53.534554"
+    "analyzed_at": "2026-09-20T17:11:42.810379"
   },
   "concepts": [
     {
-      "id": 1558,
+      "id": 2026,
       "chapter_slug": "indefinite-integrals",
       "name": "Standard Integrals, Substitution & By Parts",
       "category": "Integration Techniques",
       "summary": "Fundamental integrals, substitution methods, ILATE integration by parts, and linear/quadratic partial fractions.",
       "standard_formulas": "\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C, \\quad \\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C, \\quad \\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C",
-      "exam_frequency": 9,
-      "frequency_tier": "High",
+      "exam_frequency": 17,
+      "frequency_tier": "Very High",
       "common_traps": "In integration by parts, follow the ILATE priority strictly for choosing the first function $u$ (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential).",
       "tips_and_tricks": "The pattern $\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C$ appears with high frequency in both JEE Main and KCET.",
       "pyq_ids": [
+        22931,
         22933,
+        22935,
         22937,
-        22943,
+        22941,
+        22945,
         22947,
+        22953,
         22955,
+        22957,
         22959,
+        22963,
         22966,
+        22968,
         22971,
+        22975,
         22976
       ]
     },
     {
-      "id": 1559,
+      "id": 2027,
       "chapter_slug": "indefinite-integrals",
       "name": "Partial Fractions & Special Algebraic Integrals",
       "category": "Algebraic Integrals",
       "summary": "Integration using partial fraction decompositions, linear over quadratic forms, and standard quadratic root substitutions.",
       "standard_formulas": "\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right) + C, \\quad \\int \\frac{dx}{\\sqrt{x^2 \\pm a^2}} = \\ln|x + \\sqrt{x^2 \\pm a^2}| + C",
-      "exam_frequency": 9,
-      "frequency_tier": "High",
+      "exam_frequency": 1,
+      "frequency_tier": "Standard",
       "common_traps": "Check if degree of numerator $\\ge$ degree of denominator; if so, polynomial long division MUST be performed first.",
       "tips_and_tricks": "For integrals of type $\\int \\frac{dx}{a + b\\cos^2 x}$, divide numerator and denominator by $\\cos^2 x$ and substitute $\\tan x = t$.",
       "pyq_ids": [
-        22931,
-        22935,
-        22941,
-        22945,
-        22953,
-        22957,
-        22963,
-        22968,
-        22975
+        22943
       ]
     }
   ],
@@ -62,7 +62,7 @@
     "id": 157,
     "chapter_slug": "indefinite-integrals",
     "title": "Indefinite Integrals Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Indefinite Integrals — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2004 – 2026)  \n**Empirical Dataset**: 18 Previous Year Questions Analyzed (4 MCQs, 14 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **18** authentic JEE Main problems.\n- **Question Format Breakdown**: **4 MCQs** (22%) and **14 Numerical Value Questions** (77%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2004 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **High** | Standard Integrals, Substitution & By Parts | **9 PYQs** | Integration Techniques |\n| **High** | Partial Fractions & Special Algebraic Integrals | **9 PYQs** | Algebraic Integrals |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Standard Integrals, Substitution & By Parts (Integration Techniques)\n- **Exam Weightage**: Tested in **9 PYQs** (High Yield)\n- **Conceptual Summary**: Fundamental integrals, substitution methods, ILATE integration by parts, and linear/quadratic partial fractions.\n\n#### Standard Mathematical Formulation\n$$\n\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C, \\quad \\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C, \\quad \\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: In integration by parts, follow the ILATE priority strictly for choosing the first function $u$ (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The pattern $\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C$ appears with high frequency in both JEE Main and KCET.\n\n#### Linked Representative PYQs:\n- **[2025 Evening Shift] Q#2 (Numerical)**: *\"If $\\int (\\frac{1}{x}+\\frac{1}{x^{3}})(\\sqrt[23]{})dx=-\\frac{\\alpha}{3(\\alpha+1)}(3x^{\\beta}+x^{\\gamma})^{\\frac{\\alpha+1}{\\alpha}}+C,x>0,(\\a...\"* — **Correct Answer: 19**\n- **[2025 Evening Shift] Q#4 (Numerical)**: *\"If $\\int \\frac{2x^{2}+5x+9}{\\sqrt{x^{2}+x+1}}dx=x\\sqrt{x^{2}+x+1}+\\alpha\\sqrt{x^{2}+x+1}+\\beta log_{e}|x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}|+C$ , ...\"* — **Correct Answer: 16**\n- **[2024 Evening Shift] Q#2 (Numerical)**: *\"If $\\int cosec^{5}xdx=\\alpha cotxcosecx(cosec^{2}x+\\frac{3}{2})+\\beta log_{x}|tan\\frac{x}{2}|+C$ where $\\alpha,\\beta \\in ℝ$ and $C$ is the c...\"* — **Correct Answer: 1**\n- **[2023 Morning Shift] Q#4 (Numerical)**: *\"Let $I(x)=\\int \\sqrt{\\frac{x+7}{x}}dx$ and $I(9)=12+7log_{e}7$ . If $I(1)=\\alpha+7log_{e}(1+2\\sqrt{2})$ , then $\\alpha^{4}$ is equal to ____...\"* — **Correct Answer: 64**\n\n### 2.2 Partial Fractions & Special Algebraic Integrals (Algebraic Integrals)\n- **Exam Weightage**: Tested in **9 PYQs** (High Yield)\n- **Conceptual Summary**: Integration using partial fraction decompositions, linear over quadratic forms, and standard quadratic root substitutions.\n\n#### Standard Mathematical Formulation\n$$\n\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right) + C, \\quad \\int \\frac{dx}{\\sqrt{x^2 \\pm a^2}} = \\ln|x + \\sqrt{x^2 \\pm a^2}| + C\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Check if degree of numerator $\\ge$ degree of denominator; if so, polynomial long division MUST be performed first.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: For integrals of type $\\int \\frac{dx}{a + b\\cos^2 x}$, divide numerator and denominator by $\\cos^2 x$ and substitute $\\tan x = t$.\n\n#### Linked Representative PYQs:\n- **[2026 Morning Shift] Q#1 (Numerical)**: *\"If $\\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=-\\frac{p_{1}}{q_{1}}(cotx)^{\\frac{9}{2}}-\\frac{p_{2}}{q_{2}}(cotx)^{\\frac{5}{2}}-\\fra...\"* — **Correct Answer: 16**\n- **[2025 Evening Shift] Q#3 (Numerical)**: *\"If $\\int \\frac{(\\sqrt{1+x^{2}}+x)^{10}}{(\\sqrt{1+x^{2}}-x)^{9}}dx=\\frac{1}{m}((\\sqrt{1+x^{2}}+x)^{n}(n\\sqrt{1+x^{2}}-x))+C$ where C is the c...\"* — **Correct Answer: 379**\n- **[2024 Evening Shift] Q#1 (Numerical)**: *\"If $\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C$ , where $C$ is the constant of integration, then the value of $\\alpha...\"* — **Correct Answer: 7**\n- **[2023 Evening Shift] Q#1 (Numerical)**: *\"If $\\int \\sqrt{sec2x-1}dx=\\alpha log_{e}|cos2x+\\beta+\\sqrt{cos2x(1+cos\\frac{1}{\\beta}x)}|+$ constant, then $\\beta-\\alpha$ is equal to ______...\"* — **Correct Answer: 1**\n",
+    "summary_markdown": "# Indefinite Integrals — JEE Main PYQ Concept Sheet & Revision Notes\n**Subject**: Mathematics | **Exam Scope**: JEE Main (2004 – 2026)  \n**Empirical Dataset**: 18 Previous Year Questions Analyzed (4 MCQs, 14 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **18** authentic JEE Main problems.\n- **Question Format Breakdown**: **4 MCQs** (22%) and **14 Numerical Value Questions** (77%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in JEE Main papers from 2004 to 2026.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Very High** | Standard Integrals, Substitution & By Parts | **17 PYQs** | Integration Techniques |\n| **Standard** | Partial Fractions & Special Algebraic Integrals | **1 PYQs** | Algebraic Integrals |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Standard Integrals, Substitution & By Parts (Integration Techniques)\n- **Exam Weightage**: Tested in **17 PYQs** (Very High Yield)\n- **Conceptual Summary**: Fundamental integrals, substitution methods, ILATE integration by parts, and linear/quadratic partial fractions.\n\n#### Standard Mathematical Formulation\n$$\n\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C, \\quad \\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C, \\quad \\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: In integration by parts, follow the ILATE priority strictly for choosing the first function $u$ (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential).\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: The pattern $\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C$ appears with high frequency in both JEE Main and KCET.\n\n#### Linked Representative PYQs:\n- **[2026 Morning Shift] Q#1 (Numerical)**: *\"If $\\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=-\\frac{p_{1}}{q_{1}}(cotx)^{\\frac{9}{2}}-\\frac{p_{2}}{q_{2}}(cotx)^{\\frac{5}{2}}-\\fra...\"* — **Correct Answer: 16**\n- **[2025 Evening Shift] Q#3 (Numerical)**: *\"If $\\int \\frac{(\\sqrt{1+x^{2}}+x)^{10}}{(\\sqrt{1+x^{2}}-x)^{9}}dx=\\frac{1}{m}((\\sqrt{1+x^{2}}+x)^{n}(n\\sqrt{1+x^{2}}-x))+C$ where C is the c...\"* — **Correct Answer: 379**\n- **[2025 Evening Shift] Q#4 (Numerical)**: *\"If $\\int \\frac{2x^{2}+5x+9}{\\sqrt{x^{2}+x+1}}dx=x\\sqrt{x^{2}+x+1}+\\alpha\\sqrt{x^{2}+x+1}+\\beta log_{e}|x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}|+C$ , ...\"* — **Correct Answer: 16**\n- **[2024 Evening Shift] Q#1 (Numerical)**: *\"If $\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C$ , where $C$ is the constant of integration, then the value of $\\alpha...\"* — **Correct Answer: 7**\n\n### 2.2 Partial Fractions & Special Algebraic Integrals (Algebraic Integrals)\n- **Exam Weightage**: Tested in **1 PYQs** (Standard Yield)\n- **Conceptual Summary**: Integration using partial fraction decompositions, linear over quadratic forms, and standard quadratic root substitutions.\n\n#### Standard Mathematical Formulation\n$$\n\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right) + C, \\quad \\int \\frac{dx}{\\sqrt{x^2 \\pm a^2}} = \\ln|x + \\sqrt{x^2 \\pm a^2}| + C\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Check if degree of numerator $\\ge$ degree of denominator; if so, polynomial long division MUST be performed first.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: For integrals of type $\\int \\frac{dx}{a + b\\cos^2 x}$, divide numerator and denominator by $\\cos^2 x$ and substitute $\\tan x = t$.\n\n#### Linked Representative PYQs:\n- **[2025 Evening Shift] Q#2 (Numerical)**: *\"If $\\int (\\frac{1}{x}+\\frac{1}{x^{3}})(\\sqrt[23]{})dx=-\\frac{\\alpha}{3(\\alpha+1)}(3x^{\\beta}+x^{\\gamma})^{\\frac{\\alpha+1}{\\alpha}}+C,x>0,(\\a...\"* — **Correct Answer: 19**\n",
     "formula_sheet_markdown": "# Indefinite Integrals — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 18 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Standard Integrals, Substitution & By Parts** | $\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C, \\quad \\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C, \\quad \\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C$ | Standard SI units apply |\n| **Partial Fractions & Special Algebraic Integrals** | $\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right) + C, \\quad \\int \\frac{dx}{\\sqrt{x^2 \\pm a^2}} = \\ln|x + \\sqrt{x^2 \\pm a^2}| + C$ | Standard SI units apply |\n",
     "high_yield_patterns": "## High-Yield Problem Archetypes in Indefinite Integrals\nBased on rigorous analysis of all 18 questions from 2004 to 2026:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
     "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Indefinite Integrals\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
@@ -70,7 +70,7 @@
       22941,
       22943
     ],
-    "updated_at": "2026-09-20T16:42:53.522785"
+    "updated_at": "2026-09-20T17:11:42.795685"
   },
   "total_questions": 18,
   "has_docx": true,

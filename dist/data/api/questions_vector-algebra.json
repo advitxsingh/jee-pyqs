@@ -46,7 +46,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mou3cndl/5ce820e5-7ef0-44fb-8ab1-91085b10339c/37549490-494f-11f1-abae-354422ebc5ce/file-6y3zli1mou3cndm.png?format=png"
       ],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=4\\hat{i}-\\hat{j}+3\\hat{k},\\vec{b}=10\\hat{i}+2\\hat{j}-\\hat{k}",
@@ -57,8 +57,6 @@
         "\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:35.512609"
@@ -117,7 +115,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:35.604399"
@@ -230,8 +227,7 @@
         "\\frac{\\pi}{4}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.779038"
     },
@@ -277,14 +273,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; (\\vec{a}-\\vec{b}) \\cdot \\vec{d}=\\vec{a} \\cdot \\vec{d}-\\vec{b} \\cdot \\vec{d} \\\\ &amp; \\because \\vec{d}=\\vec{c} \\times \\vec{a} \\Rightarrow \\vec{a} \\cdot \\vec{d}=[\\vec{a}\\vec{c}\\vec{a}]=0 \\\\ &amp; \\text{And}\\vec{b} \\cdot \\vec{d}=\\vec{b} \\cdot (\\vec{c} \\times \\vec{a}) \\\\ &amp; =\\vec{b} \\cdot ((\\vec{a} \\times \\vec{b}) \\times \\vec{a}) \\\\ &amp; \\Rightarrow (\\vec{a}-\\vec{b}) \\cdot \\vec{d}=\\vec{b} \\cdot (\\vec{a} \\times (\\vec{a} \\times \\vec{b})) \\\\ &amp; =\\vec{b} \\cdot [\\vec{a} \\cdot \\vec{b}\\vec{a}-\\vec{a} \\cdot \\vec{a}\\vec{b}] \\\\ &amp; =(\\vec{a} \\cdot \\vec{b})^{2}-(\\vec{a} \\cdot \\vec{a})(\\vec{b} \\cdot \\vec{b}) \\\\ &amp; =(-8)^{2}-6 \\times 11=64-66=-2 \\end{aligned} \\\\ &amp; \\text{Option (2) is correct.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
-        "Vector Triple Product & Lagrange Identity"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:35.870461"
     },
@@ -330,7 +323,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k} \\\\ &amp; \\begin{aligned} &amp; \\vec{a} \\times \\vec{c}=\\vec{b}|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; k \\\\ -1 &amp; 2 &amp; 2 \\\\ x &amp; y &amp; z \\end{aligned}| \\\\ &amp; =(2z-2y)\\hat{i}+(z+2x)\\hat{j}+(-y-2x)\\hat{k} \\\\ &amp; \\equiv 8\\hat{i}+7\\hat{j}-3\\hat{k} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 2z-2y=8 \\\\ &amp; \\begin{aligned} z+2x=7 \\\\ -y-2x=3 \\end{aligned}}y=3-2x,z=7-2x \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\vec{c} \\cdot (\\hat{i}+\\hat{j}+\\hat{k})=4 \\\\ &amp; x+y+z=4 \\\\ &amp; \\text{Now}x+3-2x+7-2x=4 \\\\ &amp; \\Rightarrow x=2 \\\\ &amp; y=-1 \\\\ &amp; z=3 \\\\ &amp; \\Rightarrow \\vec{c}=2\\hat{i}-\\hat{j}+3\\hat{k} \\\\ &amp; |\\vec{a}+\\vec{c}|^{2}=|\\hat{i}+\\hat{j}+5\\hat{k}|^{2} \\\\ &amp; =27 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=-\\hat{i}+2\\hat{j}+2\\hat{k},\\vec{b}=8\\hat{i}+7\\hat{j}-3\\hat{k}",
@@ -340,8 +333,7 @@
         "|\\vec{a}+\\vec{c}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:42.179015"
     },
@@ -366,7 +358,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  </p>\n<p> $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=\\hat{j}-\\hat{k}$ </p>\n<p>We have to find  </p>\n<p> $\\vec{c} \\cdot (\\vec{a}-2\\vec{b})$ </p>\n<p>given that  </p>\n<p> $\\vec{a} \\times \\vec{c}=\\vec{b}\\text{and}\\vec{a} \\cdot \\vec{c}=3$ </p>\n<p>Let  </p>\n<p> $\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ </p>\n<p>Then  </p>\n<p> $\\vec{a}=(1,1,1),\\vec{b}=(0,1,-1)$ </p>\n<p>Now compute  $\\vec{a} \\times \\vec{c}$ :</p>\n<p> $\\vec{a} \\times \\vec{c}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 1 &amp; 1 \\\\ x &amp; y &amp; z \\end{aligned}|$ </p>\n<p>Expanding,</p>\n<p> $\\vec{a} \\times \\vec{c}=\\hat{i}(z-y)-\\hat{j}(z-x)+\\hat{k}(y-x)$ </p>\n<p>Since this is equal to  $\\vec{b}=\\hat{j}-\\hat{k}$ , we compare components:</p>\n<p> $z-y=0$ </p>\n<p> $-(z-x)=1 \\Rightarrow x-z=1$ </p>\n<p> $y-x=-1$ </p>\n<p>Also, from  $\\vec{a} \\cdot \\vec{c}=3$ ,</p>\n<p> $x+y+z=3$ </p>\n<p>Now solve the equations.</p>\n<p>From  $z-y=0$ ,</p>\n<p> $z=y$ </p>\n<p>From  $x-z=1$ ,</p>\n<p> $x=y+1$ </p>\n<p>Substitute into  $x+y+z=3$ :</p>\n<p> $(y+1)+y+y=3$ </p>\n<p> $3y+1=3$ </p>\n<p> $3y=2 \\Rightarrow y=\\frac{2}{3}$ </p>\n<p>So,</p>\n<p> $z=\\frac{2}{3},x=\\frac{5}{3}$ </p>\n<p>Hence,</p>\n<p> $\\vec{c}=\\frac{5}{3}\\hat{i}+\\frac{2}{3}\\hat{j}+\\frac{2}{3}\\hat{k}$ </p>\n<p>Now find  $\\vec{a}-2\\vec{b}$ :</p>\n<p> $\\vec{a}-2\\vec{b}=(\\hat{i}+\\hat{j}+\\hat{k})-2(\\hat{j}-\\hat{k})$ </p>\n<p> $=\\hat{i}-\\hat{j}+3\\hat{k}$ </p>\n<p>Therefore,</p>\n<p> $\\vec{c} \\cdot (\\vec{a}-2\\vec{b})=(\\frac{5}{3},\\frac{2}{3},\\frac{2}{3}) \\cdot (1,-1,3)$ </p>\n<p> $=\\frac{5}{3}-\\frac{2}{3}+2$ </p>\n<p> $=\\frac{3}{3}+2=1+2=3$ </p>\n<p>So, the required value is</p>\n<p> $3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=\\hat{j}-\\hat{k}",
@@ -377,8 +369,7 @@
         "____"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:46.648049"
     },
@@ -424,7 +415,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $\\vec{a}=2\\hat{i}+3\\hat{j}+3\\hat{k},\\vec{b}=6\\hat{i}+3\\hat{j}+3\\hat{k}$ </p>\n<p>We need the square of the area of the triangle whose adjacent sides are</p>\n<p> $2\\vec{a}+3\\vec{b}\\text{and}\\vec{a}-\\vec{b}$ </p>\n<p>For two adjacent sides  $\\vec{u}$  and  $\\vec{v}$ , area of triangle is</p>\n<p> $\\frac{1}{2}|\\vec{u} \\times \\vec{v}|$ </p>\n<p>So, square of the area is</p>\n<p> $(\\frac{1}{2}|\\vec{u} \\times \\vec{v}|)^{2}=\\frac{1}{4}|\\vec{u} \\times \\vec{v}|^{2}$ </p>\n<p>Let</p>\n<p> $\\vec{u}=2\\vec{a}+3\\vec{b},\\vec{v}=\\vec{a}-\\vec{b}$ </p>\n<p>First find  $\\vec{u}$ :</p>\n<p> $2\\vec{a}=2(2\\hat{i}+3\\hat{j}+3\\hat{k})=4\\hat{i}+6\\hat{j}+6\\hat{k}$ </p>\n<p> $3\\vec{b}=3(6\\hat{i}+3\\hat{j}+3\\hat{k})=18\\hat{i}+9\\hat{j}+9\\hat{k}$ </p>\n<p>Therefore,</p>\n<p> $\\vec{u}=2\\vec{a}+3\\vec{b}=22\\hat{i}+15\\hat{j}+15\\hat{k}$ </p>\n<p>Now find  $\\vec{v}$ :</p>\n<p> $\\vec{v}=\\vec{a}-\\vec{b}=(2-6)\\hat{i}+(3-3)\\hat{j}+(3-3)\\hat{k}=-4\\hat{i}$ </p>\n<p>Now compute  $\\vec{u} \\times \\vec{v}$ :</p>\n<p> $\\vec{u} \\times \\vec{v}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 22 &amp; 15 &amp; 15 \\\\ -4 &amp; 0 &amp; 0 \\end{aligned}|$ </p>\n<p>Expanding,</p>\n<p> $\\vec{u} \\times \\vec{v}=\\hat{i}(15 \\cdot 0-15 \\cdot 0)-\\hat{j}(22 \\cdot 0-15 \\cdot (-4))+\\hat{k}(22 \\cdot 0-15 \\cdot (-4))$ </p>\n<p> $=0\\hat{i}-60\\hat{j}+60\\hat{k}$ </p>\n<p>So,</p>\n<p> $|\\vec{u} \\times \\vec{v}|^{2}=0^{2}+(-60)^{2}+60^{2}=3600+3600=7200$ </p>\n<p>Hence square of the area of the triangle is</p>\n<p> $\\frac{1}{4} \\times 7200=1800$ </p>\n<p>Therefore, the correct answer is</p>\n<p> $1800$ </p>\n<p>So, Option C is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+3\\hat{j}+3\\hat{k}",
@@ -435,7 +426,6 @@
         "2\\vec{a}+3\\vec{b}\\text{and}\\vec{a}-\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:35.538638"
@@ -482,7 +472,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\vec{c}=\\lambda\\vec{a}+\\mu\\vec{b}$ </p>\n<p> $\\vec{c}=(\\mu-\\lambda)\\hat{i}+(\\lambda+3\\mu)\\hat{j}+(3\\lambda+\\mu)\\hat{k}$ </p>\n<p> $\\vec{c} \\cdot (3\\hat{i}-6\\hat{j}+2\\hat{k})=10$ </p>\n<p> $3(\\mu-\\lambda)-6(\\lambda+3\\mu)+2(3\\lambda+\\mu)=10$ </p>\n<p> $-3\\lambda-13\\mu=10\\dots(1)$ </p>\n<p> $\\vec{c} \\cdot (\\hat{i}+\\hat{j}+\\hat{k})=-2$ </p>\n<p> $5\\mu+3\\lambda=-2\\dots(2)$ </p>\n<p>Solving (1) &amp; (2)</p>\n<p> $\\lambda=1,\\mu=-1$ </p>\n<p> $\\vec{c}=-2\\hat{i}-2\\hat{j}+2\\hat{k}$ </p>\n<p> $|\\vec{c}|^{2}=12$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=-\\hat{i}+\\hat{j}+3\\hat{k}",
@@ -493,7 +483,6 @@
         "|\\vec{c}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:35.627052"
@@ -597,14 +586,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} L_{1} &amp; :\\vec{r}=\\hat{i}+\\hat{j}+3\\hat{k}+\\lambda(2\\hat{i}+3\\hat{j}+4\\hat{k}) \\\\ L_{2} &amp; :\\vec{r}=(4\\hat{i}+\\hat{j})+\\mu(5\\hat{i}+2\\hat{j}+\\hat{k}) \\end{aligned}$ </p>\n<p>at the intersection point R , position vectors are equal.</p>\n<p> $(\\hat{i}+2\\hat{j}+3\\hat{k})+\\lambda(2\\hat{i}+3\\hat{j}+4\\hat{k})=(4\\hat{i}+\\hat{j})+\\mu(5\\hat{i}+2\\hat{j}+\\hat{k})$ </p>\n<p>equating components of  $\\hat{i},\\hat{j}$  and  $\\hat{k}$ .</p>\n<p> $\\begin{aligned} &amp; 1+2\\lambda=4+5\\mu⟹2\\lambda-5\\mu=3\\text{...... (1)} \\\\ &amp; 2+3\\lambda=1+2\\mu⟹3\\lambda-2\\mu=-1\\text{.....(2)} \\\\ &amp; 3+4\\lambda=\\mu⟹\\mu-4\\lambda=3......(3) \\\\ &amp; \\text{eqn (1)} \\times 3\\text{- eqn (2)} \\times 2 \\\\ &amp; -15\\mu+4\\mu=9+2⟹-11\\mu=11⟹\\mu=-1 \\end{aligned}$ </p>\n<p>substitute in equation (1)</p>\n<p> $2\\lambda-5(-1)=3⟹\\lambda=\\frac{3-5}{2}=-1$ </p>\n<p>Now, checking equation (3)  $(-1)-4(-1)=3=$  R.H.S consistent.</p>\n<p>Now finding point R using  $\\lambda=-1$  in  $L_{1}$ </p>\n<p> $\\begin{aligned} \\vec{OR}=(\\hat{i}+2\\hat{j}+3\\hat{k})-(2\\hat{i}+3\\hat{j}+4\\hat{k}) \\\\ \\vec{OR}=-\\hat{i}-\\hat{i}-\\hat{k} \\end{aligned}$ </p>\n<p>Point P lies on  $L_{1}$  so its position vector is  $\\vec{OP}=(1+2\\lambda)\\hat{i}+(2+3\\lambda)\\hat{j}+(3+4\\lambda)\\hat{k}$  It is given that</p>\n<p> $\\begin{aligned} |\\vec{PR}|=\\sqrt{29} \\Rightarrow |\\vec{PR}|^{2}=29 \\\\ \\vec{PR}=\\vec{OR}-\\vec{OP} \\\\ \\vec{PR}=(-2-2\\lambda)\\hat{i}+(-3-3\\lambda)\\hat{j}+(-4-4\\lambda)\\hat{k} \\\\ |\\vec{PR}|^{2}=4(1+\\lambda)^{2}+9(1+\\lambda)^{2}+16(1+\\lambda)^{2}=29 \\\\ 29(1+\\lambda)^{2}=29 \\Rightarrow (1+\\lambda)^{2}=1 \\Rightarrow \\lambda=0,-2 \\end{aligned}$ </p>\n<p>point  $P$  lies in first octant, means position vector of  $P$  must be positive, so  $\\lambda=0$ </p>\n<p> $\\vec{OP}=\\hat{i}+2\\hat{j}+3\\hat{k}$ </p>\n<p>similarly Q lies on  $L_{2}$ , so position vector of Q is</p>\n<p> $\\begin{aligned} \\vec{OQ}=(4+5\\mu)\\hat{i}+(1+2\\mu)\\hat{j}+\\mu\\hat{k} \\\\ |\\vec{PQ}|=\\sqrt{\\frac{47}{3}} \\Rightarrow |\\vec{PQ}|^{2}=\\frac{47}{3}\\text{(given)} \\\\ \\vec{PQ}=\\vec{OQ}-\\vec{OP} \\\\ \\vec{PQ}=(3+5\\mu)\\hat{i}+(-1+2\\mu)\\hat{j}+(\\mu-3)\\hat{k} \\\\ (3+5\\mu)^{2}+(-1+2\\mu)^{2}+(\\mu-3)^{2}=\\frac{47}{3} \\\\ 30\\mu^{2}+20\\mu+19=\\frac{47}{3} \\\\ 90\\mu^{2}+60\\mu+57=47 \\\\ 90\\mu^{2}+60\\mu+10=0 \\\\ 9\\mu^{2}+6\\mu+1=0 \\\\ (3\\mu+1)^{2}=0 \\Rightarrow \\mu=-\\frac{1}{3} \\end{aligned}$ </p>\n<p>finding position vector of Q using  $\\mu=-1/3$ </p>\n<p> $\\begin{aligned} \\vec{OQ}=(4-\\frac{5}{3})\\hat{i}+(1-\\frac{2}{3})\\hat{j}-\\frac{1}{3}\\hat{k} \\\\ \\vec{OQ}=\\frac{7}{3}\\hat{i}+\\frac{1}{3}\\hat{j}-\\frac{1}{3}\\hat{k} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{calculate}27|QR|^{2} \\\\ &amp; \\vec{QR}=\\vec{OR}-\\vec{OQ} \\\\ &amp; \\vec{QR}=-\\frac{10}{3}\\hat{i}-\\frac{4}{3}\\hat{j}-\\frac{2}{3}\\hat{k} \\\\ &amp; |\\vec{QR}|^{2}=\\frac{9}{100}+\\frac{9}{16}+\\frac{9}{4}=\\frac{9}{120} \\\\ &amp; 27|\\vec{QR}|^{2}=\\frac{9}{120} \\times 27=360 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{OP}=\\hat{i}+2\\hat{j}+3\\hat{k}",
         "L_{2}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:07:35.801783"
@@ -651,7 +639,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\bar{c}=\\bar{a} \\times \\bar{b}=|\\begin{aligned} \\bar{i} &amp; \\bar{j} &amp; \\bar{k} \\\\ 2 &amp; 1 &amp; 1 \\\\ 0 &amp; \\lambda &amp; 2 \\end{aligned}|=(2-\\lambda)\\bar{i}-\\bar{j}(4)+(2\\lambda)\\bar{k} \\\\ &amp; |\\bar{c}|^{2}=53 \\Rightarrow (2-\\lambda)^{2}+16+(2\\lambda)^{2}=53=5\\lambda^{2}-4\\lambda-33=0 \\\\ &amp; \\Rightarrow 5\\lambda^{2}-15\\lambda+11\\lambda-33=0 \\\\ &amp; \\Rightarrow 5\\lambda(\\lambda-3)+11(\\lambda-3)=0 \\\\ &amp; \\Rightarrow (\\lambda-3)(5\\lambda+11)=0 \\\\ &amp; \\Rightarrow \\lambda=3,\\lambda \\ne -\\frac{11}{5}( \\because \\lambda \\in Z) \\\\ &amp; \\therefore \\bar{c}=(-1,-4,6) \\end{aligned}$ </p>\n<p>Let  $\\therefore \\bar{d}=(0,y,z)$ </p>\n<p>Given  $|\\bar{d}|=2 \\Rightarrow y^{2}+z^{2}=4$ </p>\n<p> $\\begin{aligned} &amp; \\bar{c}.\\bar{d}=0-4y+6z \\\\ &amp; (\\bar{c}.\\bar{d})^{2}=(-4y+6z)^{2} \\\\ &amp; =16y^{2}+36z^{2}-48yz \\\\ &amp; =16y^{2}+36(4-y^{2})-48y \\cdot \\sqrt{4-y^{2}} \\end{aligned}$ </p>\n<p>Let  $f(y)=-20y^{2}+144-48y\\sqrt{4-y^{2}}$ </p>\n<p> $\\begin{aligned} &amp; f^{1}(y)=-40y-48(\\sqrt{4-y^{2}})-48y(\\frac{1}{2\\sqrt{4-y^{2}}})(-2y) \\\\ &amp; =-40y-48(\\frac{4-y^{2}-y^{2}}{\\sqrt{4-y^{2}}}) \\\\ &amp; f^{1}(y)=0⇐40y=96(\\frac{y^{2}-2}{\\sqrt{4-y^{2}}}) \\\\ &amp; \\Rightarrow 5y\\sqrt{4-y^{2}}=12(y^{2}-2) \\\\ &amp; \\Rightarrow 25y^{2}(4-y^{2})=144(y^{4}+4-4y^{2}) \\\\ &amp; =169y^{4}-676y^{2}+576=0 \\\\ &amp; =169y^{4}-208y^{2}-468y^{2}+576=0 \\\\ &amp; \\Rightarrow 13y^{2}(13y^{2}-16)-36(13y^{2}-16)=0 \\\\ &amp; \\Rightarrow y^{2}=\\frac{16}{13}(\\text{or})\\frac{36}{13} \\\\ &amp; \\Rightarrow y= \\pm \\frac{4}{\\sqrt{13}}(\\text{or}) \\pm \\frac{6}{\\sqrt{13}} \\\\ &amp; \\therefore \\text{Maximum of}(\\bar{c}.\\bar{d})^{2}=208 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-\\hat{j}+\\hat{k}",
@@ -660,8 +648,7 @@
         "\\vec{d}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:35.894884"
     },
@@ -740,7 +727,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlat84jx/571d0e44-ba85-4f43-bf96-4a2ff139d478/13c91bd0-0350-11f1-88cb-d1b467e76c7d/file-6y3zli1mlat84jy.png?format=png"
       ],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{r}=4\\hat{i}-\\hat{k}+\\mu(2\\hat{i}+3\\hat{k}),\\mu \\in ℝ",
@@ -751,7 +738,7 @@
         "2\\mu-39=3(13)=39⟹2\\mu=78⟹\\mu=39"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:46.666447"
     },
@@ -858,8 +845,7 @@
         "cos\\theta=\\frac{\\vec{PQ}.\\vec{PS}}{|\\vec{PQ}||\\vec{PS}|}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.645464"
     },
@@ -916,8 +902,7 @@
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.728938"
     },
@@ -974,8 +959,7 @@
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.825384"
     },
@@ -1077,7 +1061,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |\\vec{c}+\\vec{d}|=\\sqrt{29} \\\\ &amp; \\vec{c} \\times (2\\hat{i}+3\\hat{j}+4\\hat{k})-(2\\hat{i}+3\\hat{j}+4\\hat{k}) \\times \\vec{d}=0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; (\\vec{c}+\\vec{d}) \\times (2\\hat{i}+3\\hat{j}+4\\hat{k})=0 \\\\ &amp; \\Rightarrow \\vec{c}+\\vec{d}=\\lambda(2\\hat{i}+3\\hat{j}+4\\hat{k}) \\\\ &amp; \\Rightarrow \\sqrt{29}=|\\lambda|\\sqrt{29} \\\\ &amp; \\Rightarrow \\lambda= \\pm 1 \\Rightarrow \\vec{c}+\\vec{d}= \\pm (2\\hat{i}+3\\hat{j}+4\\hat{k}) \\\\ &amp; \\Rightarrow (\\vec{c}+\\vec{d}) \\cdot (-7\\hat{i}+2\\hat{j}+3\\hat{k})= \\pm (-14+6+12)= \\pm 4 \\\\ &amp; \\Rightarrow \\lambda_{1}=4,\\lambda_{2}=-4 \\end{aligned}$ </p>\n<p>Given equation represents a circle</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow K^{2}=3K+\\frac{\\lambda_{2}}{2}\\text{and}K^{2}-5K+\\lambda_{1}=0 \\\\ &amp; \\Rightarrow K^{2}=3K-2\\text{and}K^{2}-5K+4=0 \\\\ &amp; \\Rightarrow K=1,2\\text{and}K=4,1 \\\\ &amp; \\Rightarrow K=1 \\end{aligned}$ </p>\n<p>⇒ option (4) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{c}",
@@ -1085,8 +1069,7 @@
         "|\\vec{c}+\\vec{d}|=\\sqrt{29}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:42.219489"
     },
@@ -1183,7 +1166,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:35.585548"
@@ -1240,8 +1222,7 @@
         "3|(3\\vec{a}+2\\vec{b})|+4|(3\\vec{a}-2\\vec{b})|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.661622"
     },
@@ -1287,7 +1268,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $\\begin{aligned} \\vec{a}=2\\hat{i}-5\\hat{j}+5\\hat{k},\\vec{b}=\\hat{i}-\\hat{j}+3\\hat{k} \\\\ a(\\vec{a} \\times \\vec{c})+3(\\vec{b} \\times \\vec{c})=0 \\\\ 2\\vec{a} \\times \\vec{c}+3\\vec{b} \\times \\vec{c}=0 \\\\ (2\\vec{a}+3\\vec{b}) \\times \\vec{c}=0 \\end{aligned}$ </p>\n<p>This means  $2\\vec{a}+3\\vec{b}$  and  $\\vec{c}$  are parallel.</p>\n<p> $\\Rightarrow \\vec{c}=\\lambda(2\\vec{a}+3\\vec{b})$ </p>\n<p> $\\vec{c}=\\lambda[2(2\\hat{i}-5\\hat{j}+5\\hat{k})+3(\\hat{i}-\\hat{j}+3\\hat{k})]$ </p>\n<p> $\\vec{c}=\\lambda(7\\hat{i}-13\\hat{j}+19\\hat{k})$ </p>\n<p>Given</p>\n<p> $(\\vec{a}-\\vec{b}) \\cdot \\vec{c}=-97$ </p>\n<p> $\\begin{aligned} \\vec{a}-\\vec{b}=(2\\hat{i}-5\\hat{j}+5\\hat{k})-(\\hat{i}-\\hat{j}+3\\hat{k}) \\\\ =\\hat{i}-4\\hat{j}+2\\hat{k} \\end{aligned}$ </p>\n<p>Put in equation:</p>\n<p> $\\begin{aligned} (\\hat{i}-4\\hat{j}+2\\hat{k}) \\cdot \\lambda(7\\hat{i}-13\\hat{j}+19\\hat{k})=-97 \\\\ \\lambda(7+52+38)=-97 \\\\ \\lambda(97)=-97 \\Rightarrow \\lambda=-1 \\\\ \\vec{c}=-1(7\\hat{i}-13\\hat{j}+19\\hat{k}) \\\\ \\vec{c}=-7\\hat{i}+13\\hat{j}-19\\hat{k} \\\\ \\vec{c} \\times \\hat{k}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ -7 &amp; 13 &amp; -19 \\\\ 0 &amp; 0 &amp; 1 \\end{aligned}| \\\\ =\\hat{i}(13)-\\hat{j}(-7)+\\hat{k}(0) \\\\ =13\\hat{i}+7\\hat{j} \\\\ |\\vec{c} \\times \\hat{k}|^{2}=13^{2}+7^{2}=169+49=218 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-5\\hat{j}+5\\hat{k}",
@@ -1298,7 +1279,6 @@
         "|\\vec{c} \\times \\hat{k}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:35.759708"
@@ -1349,8 +1329,7 @@
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.850435"
     },
@@ -1409,8 +1388,7 @@
         "\\vec{q}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:35.953463"
     },
@@ -1435,7 +1413,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a}^{\\wedge}\\hat{k} \\in (\\frac{\\pi}{6},\\frac{\\pi}{2}) \\\\ &amp; \\frac{\\lambda}{\\sqrt{(2+1+\\lambda^{2})}} \\in (0,\\frac{\\sqrt{3}}{2}) \\Rightarrow 0&lt;\\frac{\\lambda}{\\sqrt{3+\\lambda^{2}}}&lt;\\frac{\\sqrt{3}}{2} \\\\ &amp; \\lambda&gt;0&amp;\\lambda \\in (-3,3) \\Rightarrow \\lambda \\in (0,3)\\dots\\dots\\dots.(1) \\end{aligned}$ </p>\n<p> $\\vec{a}^{\\wedge}\\vec{b}$  is obtuse</p>\n<p> $\\begin{aligned} &amp; \\vec{a} \\cdot \\vec{b}&lt;0 \\Rightarrow -\\sqrt{2}\\lambda^{2}-4\\sqrt{2}+4\\sqrt{2}\\lambda&lt;0 \\\\ &amp; \\Rightarrow \\lambda^{2}-4\\lambda+4&gt;0 \\Rightarrow (\\lambda-2)^{2}&gt;0 \\\\ &amp; \\Rightarrow \\lambda \\in R-{2}\\dots\\dots.(2) \\end{aligned}$ </p>\n<p>(1) \\&amp; (2) ⇒  $\\lambda \\in (0,3)-{2} \\Rightarrow \\alpha+\\beta+\\gamma=5$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=\\sqrt{2}\\hat{i}-\\hat{j}+\\lambda\\hat{k},\\lambda>0",
@@ -1444,7 +1422,7 @@
         "\\vec{a}^{\\wedge}\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:46.698020"
     },
@@ -1550,8 +1528,7 @@
         "\\vec{v}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:42.347866"
     },
@@ -1597,7 +1574,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{let} \\\\ &amp; \\vec{a}_{11}=\\text{component of}\\vec{a}\\text{along}\\vec{b} \\\\ &amp; \\vec{a}_{1}=\\text{component of}\\vec{a}\\text{perpendicular to}\\vec{b} \\\\ &amp; \\vec{a}_{11}=\\frac{16}{11}(3\\hat{i}+\\hat{j}-\\hat{k}) \\\\ &amp; \\vec{a}_{1}=\\frac{1}{11}(-4\\hat{i}-5\\hat{j}-17\\hat{k}) \\\\ &amp; \\because \\vec{a}=\\vec{a}_{11}+\\vec{a}_{1} \\\\ &amp; \\therefore \\vec{a}=\\frac{16}{11}(3\\hat{i}+\\hat{j}-\\hat{k})+\\frac{1}{11}(-4\\hat{i}-5\\hat{j}-17\\hat{k}) \\\\ &amp; =\\frac{44}{11}\\hat{i}+\\frac{11}{11}\\hat{j}-\\frac{33}{11}\\hat{k} \\\\ &amp; \\vec{a}=4\\hat{i}+\\hat{j}-3\\hat{k} \\\\ &amp; \\begin{aligned} \\alpha=4\\beta=1\\gamma=-3 \\\\ \\alpha^{2}+\\beta^{2}+\\gamma^{2}=16+1+9=26 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\alpha\\hat{i}+\\beta\\hat{j}+\\gamma\\hat{k}",
@@ -1607,7 +1584,7 @@
         "\\alpha^{2}+\\beta^{2}+\\gamma^{2}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:42.434766"
     },
@@ -1653,7 +1630,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{c}=\\lambda(\\vec{b} \\times (\\vec{a} \\times \\vec{b})) \\\\ &amp; =\\lambda((\\vec{b} \\cdot \\vec{b})\\vec{a}-(\\vec{a} \\cdot \\vec{b})\\vec{b}) \\\\ &amp; =\\lambda(11\\vec{a}-2\\vec{b})=\\lambda(11i+22j+33k-6i-2j+2k) \\\\ &amp; =\\lambda(5i+20j+35k) \\\\ &amp; =5\\lambda(5i+4j+7k) \\\\ &amp; =\\text{Given}\\vec{c} \\cdot \\vec{a}=5 \\\\ &amp; =5\\lambda(1+8+21)=5=\\lambda=\\frac{1}{30} \\\\ &amp; \\Rightarrow \\vec{c}=\\frac{1}{6}(i+4j+7k) \\\\ &amp; |\\vec{c}|=\\frac{\\sqrt{1+16+49}}{6}=\\sqrt{\\frac{11}{6}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+3\\hat{k},\\vec{b}=3\\hat{i}+\\hat{j}-\\hat{k}",
@@ -1664,9 +1641,6 @@
         "\\vec{a} \\cdot \\vec{c}=5"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:07:42.526124"
@@ -1749,13 +1723,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Assuming Vertex}A\\text{to be origin} \\\\ &amp; \\begin{aligned} &amp; \\vec{A}=\\vec{a}_{1}=\\vec{0} \\\\ &amp; \\vec{B}=\\vec{a}_{1}+\\vec{u}=\\vec{u}=2\\hat{i}-\\hat{j}+\\hat{k} \\\\ &amp; \\vec{C}=\\vec{a}_{1}+\\vec{v}=\\vec{v}=3\\hat{i}-4\\hat{j}-4\\hat{k} \\end{aligned} \\end{aligned}$ </p>\n<p>One solving</p>\n<p> $\\vec{A}=\\vec{0},\\vec{B}=2\\hat{i}-\\hat{j}+\\hat{k}$  and  $\\vec{C}=3\\hat{i}-4\\hat{j}-4\\hat{k}$ , are the position vector of vertices  $AB$  and  $C$  respectively.</p>\n<p> $\\begin{aligned} &amp; \\vec{G}=\\frac{1}{3}(\\vec{A}+\\vec{B}+\\vec{C})=\\frac{1}{3}(\\vec{0}+\\vec{B}+\\vec{C})=\\frac{1}{3}(\\vec{B}+\\vec{C}) \\\\ &amp; \\Rightarrow \\vec{G}=\\frac{5}{3}\\hat{i}-\\frac{5}{3}\\hat{j}-\\hat{k} \\\\ &amp; \\vec{AG}=\\vec{G}-\\vec{A}=\\vec{G} \\\\ &amp; |\\vec{AG}|^{2}=(\\frac{5}{3})^{2}+(\\frac{5}{3})^{2}+(1)^{2}=\\frac{25}{9}+\\frac{25}{9}+1=\\frac{50}{9}+1=\\frac{59}{9} \\\\ &amp; \\vec{BC}=\\vec{G}-\\vec{B} \\\\ &amp; \\vec{B}=2\\hat{i}-\\hat{j}+\\hat{k} \\\\ &amp; |\\vec{BG}|^{2}=(\\frac{1}{3})^{3}+(\\frac{2}{3})^{2}+4=\\frac{1}{9}+\\frac{4}{9}+4=\\frac{5}{9}+4=\\frac{41}{9} \\\\ &amp; \\vec{CG}=\\vec{G}-\\vec{C} \\\\ &amp; \\vec{C}=3\\hat{i}-4\\hat{j}-4\\hat{k} \\\\ &amp; \\vec{CG}|^{2}=(\\frac{4}{3})^{2}+(\\frac{7}{3})^{2}+9=\\frac{16}{9}+\\frac{49}{9}+9=\\frac{65}{9}+9=\\frac{65}{9}+\\frac{81}{9}=\\frac{146}{9} \\end{aligned}$ </p>\n<p> $6(|\\vec{AG}|^{2}+|\\vec{BG}|^{2}+|\\vec{CG}|^{2})=6 \\cdot (\\frac{59}{9}+\\frac{41}{9}+\\frac{146}{9})=6 \\cdot \\frac{246}{9}=164$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to __________."
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:46.713623"
@@ -1792,8 +1765,7 @@
         "\\vec{b}=\\lambda\\hat{i}+4\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:46.795813"
     },
@@ -1839,7 +1811,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the problem, we begin by examining the vector  $\\vec{c}=3\\hat{a}+6\\hat{b}+9(\\hat{a} \\times \\hat{b})$ .</p>\n<p>Let's calculate:</p>\n<p><p> $\\vec{c} \\cdot \\hat{a}=3+6(\\hat{a} \\cdot \\hat{b})$ .  </p></p>\n<p><p> $\\vec{c} \\cdot \\hat{b}=3(\\hat{a} \\cdot \\hat{b})+6$ .</p></p>\n<p>We need to find the value of  $9(\\vec{c} \\cdot \\hat{a})-3(\\vec{c} \\cdot \\hat{b})$ .</p>\n<p>Substituting the expressions, we get:</p>\n<p> $9(\\vec{c} \\cdot \\hat{a})=9(3+6\\hat{a} \\cdot \\hat{b})=27+54(\\hat{a} \\cdot \\hat{b})$ </p>\n<p> $3(\\vec{c} \\cdot \\hat{b})=3(3\\hat{a} \\cdot \\hat{b}+6)=9\\hat{a} \\cdot \\hat{b}+18$ </p>\n<p>Therefore, </p>\n<p> $9(\\vec{c} \\cdot \\hat{a})-3(\\vec{c} \\cdot \\hat{b})=(27+54(\\hat{a} \\cdot \\hat{b}))-(9\\hat{a} \\cdot \\hat{b}+18)$ </p>\n<p>Simplifying,</p>\n<p> $=27-18+54(\\hat{a} \\cdot \\hat{b})-9(\\hat{a} \\cdot \\hat{b})$ </p>\n<p> $=9+45(\\hat{a} \\cdot \\hat{b})$ </p>\n<p>Given  $sin\\theta=\\frac{\\sqrt{65}}{9}$ , and knowing that for unit vectors  $cos\\theta=\\hat{a} \\cdot \\hat{b}$ , we use the identity  $(cos\\theta)^{2}=1-(sin\\theta)^{2}$ :</p>\n<p> $(\\hat{a} \\cdot \\hat{b})^{2}=1-(\\frac{\\sqrt{65}}{9})^{2}$ </p>\n<p> $=1-\\frac{65}{81}$ </p>\n<p> $=\\frac{16}{81}$ </p>\n<p>Thus,  $\\hat{a} \\cdot \\hat{b}=\\frac{4}{9}$ .</p>\n<p>Substitute back into the equation:</p>\n<p> $9+45 \\times \\frac{4}{9}=9+20=29$ </p>\n<p>Therefore, the value is 29.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta,0<\\theta<\\frac{\\pi}{2}",
@@ -1850,7 +1822,6 @@
         "\\vec{c} \\cdot \\hat{b}=3(\\hat{a} \\cdot \\hat{b})+6"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:42.285978"
@@ -1897,7 +1868,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let} &amp; \\vec{v}=\\hat{i}+\\hat{j}+\\hat{k} \\\\ &amp; \\begin{aligned} \\vec{b} &amp; \\times \\vec{c}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; -2 &amp; 3 \\\\ 2 &amp; 3 &amp; -1 \\end{aligned}| \\\\ &amp; =-7\\hat{i}+7\\hat{j}+7\\hat{k} \\\\ &amp; =-7(\\hat{i}-\\hat{j}-\\hat{k}) \\end{aligned} \\end{aligned}$ </p>\n<p>Now  $\\hat{a}=\\frac{\\hat{i}-\\hat{j}-\\hat{k}}{\\sqrt{3}}$  or  $\\frac{-\\hat{i}+\\hat{j}+\\hat{k}}{\\sqrt{3}}$ </p>\n<p> $↓↓$ </p>\n<p> $\\begin{aligned} cos\\theta= &amp; \\frac{\\hat{a} \\cdot \\vec{v}}{|\\vec{v}|}=\\frac{1-1-1}{\\sqrt{3}\\sqrt{3}}=\\frac{-1}{3}cos\\theta=\\frac{\\hat{a} \\cdot \\vec{v}}{|\\vec{v}|}=\\frac{-1+1+1}{3}=\\frac{1}{3}\\text{(rejected)} \\\\ &amp; \\Rightarrow \\hat{a}=\\frac{\\hat{i}-\\hat{j}-\\hat{k}}{\\sqrt{3}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now}cos\\frac{\\pi}{3}=\\frac{\\hat{a} \\cdot (\\hat{i}+\\alpha\\hat{j}+\\hat{k})}{\\sqrt{1+\\alpha^{2}+1}} \\\\ &amp; \\Rightarrow \\frac{1}{2}=\\frac{1-\\alpha-1}{\\sqrt{3}\\sqrt{\\alpha^{2}+2}} \\\\ &amp; \\Rightarrow \\frac{\\sqrt{3}}{2}\\sqrt{\\alpha^{2}+2}=-\\alpha( \\therefore \\alpha&lt;0) \\\\ &amp; 3\\alpha^{2}+6=4\\alpha^{2} \\\\ &amp; \\Rightarrow \\alpha=-\\sqrt{6} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{b}=\\hat{i}-2\\hat{j}+3\\hat{k}",
@@ -1906,7 +1877,6 @@
         "\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:42.370461"
@@ -2007,14 +1977,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; A \\equiv (\\frac{5r-1}{r+1},\\frac{5r-1}{r+1},\\frac{10r+2}{r+1}) \\\\ &amp; (\\vec{OQ} \\cdot \\vec{OA})-\\frac{|\\vec{OP} \\times \\vec{OA}|^{2}}{5}=10\\text{.... (1)} \\\\ &amp; \\vec{OQ} \\cdot \\vec{OA}=\\frac{10}{r+1}(15r+1) \\\\ &amp; |\\vec{OP} \\times \\vec{OA}|^{2}=\\frac{r^{2}}{(r+1)^{2}}(800) \\end{aligned} \\\\ &amp; \\text{so by equation (1)} \\\\ &amp; \\begin{aligned} &amp; \\frac{10}{r+1}(15r+1)-\\frac{1}{5}\\frac{r^{2}(800)}{(r+1)^{2}}=10 \\\\ &amp; 2r^{2}-14r=0 \\\\ &amp; r=7,r \\ne 0 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\vec{OQ} \\cdot \\vec{OA})-\\frac{1}{5}|\\vec{OP} \\times \\vec{OA}|^{2}=10"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:07:42.547801"
     },
@@ -2039,13 +2008,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Given Conditions :</strong></p>\n<p><p>The condition  $\\vec{b} \\times \\vec{d}=\\vec{c} \\times \\vec{d}$  implies that  $(\\vec{b}-\\vec{c}) \\times \\vec{d}=0$ . </p></p>\n<p><p>This indicates that  $\\vec{d}$  is parallel to  $\\vec{b}-\\vec{c}$ .</p></p>\n<p><strong>Expressing  $\\vec{b}-\\vec{c}$ :</strong></p>\n<p>Calculate  $\\vec{b}-\\vec{c}=(3\\hat{i}-3\\hat{j}+3\\hat{k})-(2\\hat{i}-\\hat{j}+2\\hat{k})=\\hat{i}-2\\hat{j}+\\hat{k}$ .</p>\n<p><strong>Express  $\\vec{d}$ :</strong></p>\n<p>Since  $\\vec{d}$  is parallel to  $\\vec{b}-\\vec{c}$ , let  $\\vec{d}=\\lambda(\\hat{i}-2\\hat{j}+\\hat{k})$ .</p>\n<p><strong>Using the condition  $\\vec{a} \\cdot \\vec{d}=4$ :</strong></p>\n<p><p>Compute  $\\vec{a} \\cdot \\vec{d}=(\\hat{i}+2\\hat{j}+\\hat{k}) \\cdot (\\lambda(\\hat{i}-2\\hat{j}+\\hat{k}))$ .</p></p>\n<p><p>This simplifies to  $\\lambda(1 \\cdot 1+2 \\cdot (-2)+1 \\cdot 1)=\\lambda(1-4+1)=-2\\lambda$ .</p></p>\n<p><p>Set  $-2\\lambda=4$ ,  which gives  $\\lambda=-2$ .</p></p>\n<p><strong>Determine  $\\vec{d}$  using  $\\lambda$ :</strong></p>\n<p>Therefore,  $\\vec{d}=-2(\\hat{i}-2\\hat{j}+\\hat{k})=-2\\hat{i}+4\\hat{j}-2\\hat{k}$ .</p>\n<p><strong>Calculate  $\\vec{a} \\times \\vec{d}$ :</strong></p>\n<p><p>Use the determinant form for the cross product: </p>\n<p> $\\vec{a} \\times \\vec{d}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; 1 \\\\ -2 &amp; 4 &amp; -2 \\end{aligned}|$ </p></p>\n<p><p>Calculate the determinant:</p>\n<p><p>For  $\\hat{i}$ :  $(2 \\times -2)-(1 \\times 4)=-4-4=-8$ </p></p>\n<p><p>For  $\\hat{j}$ :  $(-(1 \\times -2)-(1 \\times -2))=2-2=0$ </p></p>\n<p><p>For  $\\hat{k}$ :  $(1 \\times 4)-(2 \\times -2)=4+4=8$ </p></p></p>\n<p><p>Thus,  $\\vec{a} \\times \\vec{d}=-8\\hat{i}+0\\hat{j}+8\\hat{k}$ .</p></p>\n<p><strong>Calculate the magnitude squared:</strong></p>\n<p>Find  $|\\vec{a} \\times \\vec{d}|^{2}=(-8)^{2}+0^{2}+8^{2}=64+0+64=128$ .</p>\n<p>Therefore,  $|(\\vec{a} \\times \\vec{d})|^{2}=128$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to___________. Given Conditions : The condition"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:46.731626"
@@ -2149,7 +2117,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; L_{1}:\\vec{r}=(-\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}+\\hat{k}) \\\\ &amp; \\Rightarrow \\vec{r}=(\\lambda-1)\\hat{i}+2(\\lambda+1)\\hat{j}+(\\lambda+1)\\hat{k} \\\\ &amp; L_{2}:\\vec{r}=(\\hat{j}+\\hat{k})+\\mu(2\\hat{i}+7\\hat{j}+3\\hat{k}) \\\\ &amp; \\Rightarrow \\vec{r}=2\\mu\\hat{i}+(1+7\\mu)\\hat{j}+(1+3\\mu)\\hat{k} \\end{aligned}$ </p>\n<p>For point of intersection equating respective components</p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\Rightarrow \\lambda-1=2\\mu\\text{....... (1)} \\\\ &amp; 2(\\lambda+1)=1+7\\mu\\text{...... (2)} \\\\ &amp; \\lambda+1=1+3\\mu\\text{..... (3)} \\end{aligned} \\\\ &amp; \\text{We get} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\lambda=3\\text{and}\\mu=1 \\\\ &amp; \\Rightarrow \\vec{a}+\\vec{b}=3\\hat{i}+9\\hat{j}+4\\hat{k} \\\\ &amp; L_{3}:\\vec{r}=2\\hat{i}+8\\hat{j}+4\\hat{k}+\\alpha(3\\hat{i}+9\\hat{j}+4\\hat{k}) \\\\ &amp; \\text{For}\\alpha=2,\\vec{r}=8\\hat{i}+26\\hat{j}+12\\hat{k} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+\\hat{k}",
@@ -2160,7 +2128,7 @@
         "L_{1}"
       ],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:07:42.392410"
     },
@@ -2265,15 +2233,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ee9s2v/074c1631-b916-4330-ae49-84e59f47ad4b/b41fb770-f01d-11ef-8bab-8f0dfe24a41b/file-jaoe38c1m7ee9s2w.png?format=png"
       ],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{1}{2}|5\\hat{i}+3\\hat{j}+\\hat{k}|=\\frac{1}{2}\\sqrt{35}",
         "AE^{2}=AD^{2}-DE^{2}=\\frac{13}{18} \\therefore AE=\\sqrt{\\frac{13}{18}}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:42.567071"
@@ -2299,14 +2265,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the vectors  $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}$  and  $\\vec{b}=3\\hat{i}+2\\hat{j}-\\hat{k}$ , along with  $\\vec{c}=\\lambda\\hat{j}+\\mu\\hat{k}$ , and  $\\hat{d}$  being a unit vector such that  $\\vec{a} \\times \\hat{d}=\\vec{b} \\times \\hat{d}$  and  $\\vec{c} \\cdot \\hat{d}=1$ , we proceed as follows:</p>\n<p><p><strong>Determine  $\\hat{d}$ :</strong></p>\n<p>Since  $\\vec{a} \\times \\hat{d}=\\vec{b} \\times \\hat{d}$ , we have:</p>\n<p> $(\\vec{a}-\\vec{b}) \\times \\hat{d}=0$ </p>\n<p>Thus,  $\\hat{d}$  is parallel to  $\\vec{a}-\\vec{b}$ . Calculate:</p>\n<p> $\\vec{a}-\\vec{b}=(-2\\hat{i}+\\hat{j}+2\\hat{k})$ </p>\n<p>Therefore, we can express  $\\hat{d}$  as:</p>\n<p> $\\hat{d}=\\frac{-2}{3}\\hat{i}-\\frac{1}{3}\\hat{j}+\\frac{2}{3}\\hat{k}$ </p></p>\n<p><p><strong>Solve for  $\\lambda$  and  $\\mu$ :</strong></p>\n<p>Using the condition  $\\vec{c} \\cdot \\hat{d}=1$ :</p>\n<p> $\\frac{-\\lambda}{3}+\\frac{2\\mu}{3}=1$ </p>\n<p>Simplify to:</p>\n<p> $-\\lambda+2\\mu=3\\text{...(i)}$ </p>\n<p>Since  $\\vec{c}$  is perpendicular to  $\\vec{a}$ :</p>\n<p> $\\vec{c} \\cdot \\vec{a}=0$ </p>\n<p>Which gives:</p>\n<p> $\\lambda+\\mu=0 \\Rightarrow \\lambda=-\\mu$ </p>\n<p>Substitute  $\\lambda=-\\mu$  into equation (i):</p>\n<p> $\\mu+2\\mu=3 \\Rightarrow 3\\mu=3 \\Rightarrow \\mu=1$ </p>\n<p>Therefore,  $\\lambda=-1$ .</p></p>\n<p><p><strong>Find  $|3\\lambda\\hat{d}+\\mu\\vec{c}|^{2}$ :</strong></p>\n<p>Calculate:</p>\n<p> $|3\\lambda\\hat{d}+\\mu\\vec{c}|^{2}=9\\lambda^{2}|\\hat{d}|^{2}+\\mu^{2}|\\vec{c}|^{2}+2 \\cdot 3 \\cdot \\lambda \\cdot \\mu \\cdot \\vec{c} \\cdot \\vec{d}$ </p>\n<p>Substituting the determined values:</p></p>\n<p><p> $|\\hat{d}|^{2}=1$  (since  $\\hat{d}$  is a unit vector)</p></p>\n<p><p> $\\vec{c} \\cdot \\vec{d}=1$ </p>\n<p>Thus:</p>\n<p> $=9(-1)^{2} \\cdot 1+1^{2} \\cdot (1^{2}+1^{2})+2 \\cdot 3 \\cdot (-1) \\cdot 1 \\cdot 1$ </p>\n<p> $=9+2-6$ </p>\n<p> $=5$ </p></p>\n<p>Hence,  $|3\\lambda\\hat{d}+\\mu\\vec{c}|^{2}=5$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Hard",
       "key_formulas": [
         "is equal to________ Given the vectors",
         "=9+2-6"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:46.753454"
@@ -2353,7 +2318,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let vector  $\\vec{p}$  in plane of  $\\vec{a}&amp;\\vec{b}=K(\\vec{a}+\\lambda\\vec{b})$ </p>\n<p> $\\begin{aligned} &amp; \\vec{p}⟂\\vec{a}=\\vec{p} \\cdot \\vec{a}=0 \\\\ &amp; \\Rightarrow K(\\vec{a}+\\lambda\\vec{b}) \\cdot \\vec{a}=0 \\\\ &amp; \\Rightarrow \\vec{a} \\cdot \\vec{a}+\\lambda\\vec{b} \\cdot \\vec{a}=0 \\\\ &amp; \\Rightarrow 6+\\lambda(3)=0 \\\\ &amp; \\Rightarrow \\lambda=-2 \\\\ &amp; \\Rightarrow \\vec{p}=(-3\\hat{i}+3\\hat{k}) \\end{aligned}$ </p>\n<p>Unit vector  $\\rightarrow \\pm \\frac{(-\\hat{i}+\\hat{k})}{\\sqrt{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+\\hat{k}",
@@ -2364,7 +2329,7 @@
         "\\vec{a}&\\vec{b}=K(\\vec{a}+\\lambda\\vec{b})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:07:42.239462"
     },
@@ -2410,7 +2375,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the problem, we start with the given equation:</p>\n<p> $(\\vec{a}-\\vec{c}) \\times \\vec{b}=-18\\hat{i}-3\\hat{j}+12\\hat{k}.$ </p>\n<p>Expanding this, we have:</p>\n<p> $\\vec{a} \\times \\vec{b}-\\vec{c} \\times \\vec{b}=-18\\hat{i}-3\\hat{j}+12\\hat{k}.$ </p>\n<p>Let  $\\vec{d}=\\vec{c} \\times \\vec{b}$ . Substituting this into the equation, we get:</p>\n<p> $\\vec{a} \\times \\vec{b}+\\vec{d}=-18\\hat{i}-3\\hat{j}+12\\hat{k}.$ </p>\n<p>Now, we take the dot product of both sides with  $\\vec{a}$ :</p>\n<p> $\\vec{a} \\cdot (\\vec{a} \\times \\vec{b})+\\vec{a} \\cdot \\vec{d}=\\vec{a} \\cdot (-18\\hat{i}-3\\hat{j}+12\\hat{k}).$ </p>\n<p>Since the dot product  $\\vec{a} \\cdot (\\vec{a} \\times \\vec{b})$  is zero (the dot product of any vector with the cross product of itself with another vector is zero), we have:</p>\n<p> $\\vec{a} \\cdot \\vec{d}=-36+9+12=-15.$ </p>\n<p>Thus, the magnitude of  $\\vec{a} \\cdot \\vec{d}$  is:</p>\n<p> $|\\vec{a} \\cdot \\vec{d}|=15.$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-3\\hat{j}+\\hat{k},\\vec{b}=3\\hat{i}+2\\hat{j}+5\\hat{k}",
@@ -2421,8 +2386,6 @@
         "|\\vec{a} \\cdot \\vec{d}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:42.329076"
@@ -2469,7 +2432,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a}=2\\hat{i}-\\hat{j}+3\\hat{k} \\\\ &amp; \\vec{b}=3\\hat{i}-5\\hat{j}+\\hat{k} \\\\ &amp; \\vec{a} \\times \\vec{c}=\\vec{c} \\times \\vec{b} \\\\ &amp; \\vec{a} \\times \\vec{c}+\\vec{b} \\times \\vec{c}=0 \\\\ &amp; (\\vec{a}+\\vec{b}) \\times \\vec{c}=0 \\\\ &amp; \\Rightarrow \\vec{c}=\\lambda(\\vec{a}+\\vec{b}) \\\\ &amp; \\vec{c}=\\lambda(5\\hat{i}-6\\hat{j}+4\\hat{k})\\dots..(1) \\\\ &amp; |\\vec{c}|^{2}=\\lambda^{2}(25+36+16) \\\\ &amp; |\\vec{c}|^{2}=77\\lambda^{2} \\\\ &amp; (\\vec{a}+\\vec{c}) \\cdot (\\vec{b}+\\vec{c})=168 \\\\ &amp; \\vec{a} \\cdot \\vec{b}+\\vec{a} \\cdot \\vec{c}+\\vec{c} \\cdot \\vec{b}+|\\vec{c}|^{2}=168 \\\\ &amp; 14+\\vec{c} \\cdot (\\vec{a}+\\vec{b})+77\\lambda^{2}=168 \\end{aligned}$ </p>\n<p>using equation (1)</p>\n<p> $\\begin{aligned} &amp; \\lambda|5\\hat{i}-6\\hat{j}+4\\hat{k}|^{2}+77\\lambda^{2}=154 \\\\ &amp; 77\\lambda+77\\lambda^{2}-154=0 \\\\ &amp; \\lambda^{2}+\\lambda-2=0 \\\\ &amp; \\lambda=-2,1 \\end{aligned}$ </p>\n<p> $\\therefore$  Maximum value of  $|\\vec{c}|^{2}$  occurs when  $\\lambda=-2$ </p>\n<p> $\\begin{aligned} &amp; |\\vec{c}|^{2}=77\\lambda^{2} \\\\ &amp; =77 \\times 4 \\\\ &amp; =308 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-\\hat{j}+3\\hat{k},\\vec{b}=3\\hat{i}-5\\hat{j}+\\hat{k}",
@@ -2480,8 +2443,7 @@
         "\\lambda=-2"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:07:42.412714"
     },
@@ -2536,8 +2498,7 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:42.508185"
     },
@@ -2625,8 +2586,7 @@
         "\\vec{d}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:46.775033"
     },
@@ -2734,8 +2694,7 @@
         "=\\frac{2}{\\sqrt{2}}=\\sqrt{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:48.958494"
     },
@@ -2783,7 +2742,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lwgfpgex/f708b26f-9a53-4063-a888-8e61f5ee5884/8151b490-1776-11ef-bded-616e4abb66b9/file-1lwgfpgey.png?format=png"
       ],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "ABCD=",
@@ -2794,7 +2753,7 @@
         "ABCD=6\\sqrt{29}+6\\sqrt{29}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:49.038559"
     },
@@ -2840,14 +2799,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\vec{a}=-5 \\cdot \\hat{i}+\\hat{j}-3\\hat{k},\\vec{b}=\\hat{i}+2\\hat{j}-4\\hat{k} \\\\ \\\\ &amp; \\vec{c}=(((\\vec{a} \\times \\vec{b}) \\times \\hat{i}) \\times \\hat{i}) \\times \\hat{i} \\\\ \\\\ &amp; =(((\\vec{a} \\cdot \\hat{i})\\vec{b}-(\\vec{b} \\cdot \\hat{i})\\vec{a}) \\times \\hat{i}) \\times \\hat{i} \\\\ \\\\ &amp; =((-5\\vec{b}-\\vec{a}) \\times \\hat{i}) \\times \\hat{i} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; =((-11\\hat{j}+23\\hat{k}) \\times \\hat{i}) \\times \\hat{i} \\\\ \\\\ &amp; =(11\\hat{k}+23\\hat{j}) \\times \\hat{i} \\\\ \\\\ &amp; =(11\\hat{j}-23\\hat{k}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\vec{c} \\cdot (-\\hat{i}+\\hat{j}+\\hat{k})=0+11-23 \\\\ \\\\ &amp; =-12 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=-5\\hat{i}+\\hat{j}-3\\hat{k},\\vec{b}=\\hat{i}+2\\hat{j}-4\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:07:49.120746"
@@ -2905,8 +2862,7 @@
         "\\vec{b} \\times \\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:54.285801"
     },
@@ -3142,8 +3098,7 @@
         "|\\vec{c}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:48.893666"
     },
@@ -3189,7 +3144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; |(\\vec{a} \\times \\vec{b}) \\times \\vec{c}|=|\\vec{a} \\times \\vec{b}||\\vec{c}|sin60^{\\circ} \\\\ &amp; |\\begin{aligned} i &amp; j &amp; k \\\\ 6 &amp; 1 &amp; -1 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}|=i(1)-j(1)+k(5) \\\\ &amp; =i-j+5k \\\\ &amp; |\\vec{a} \\times \\vec{b}|=\\sqrt{1+1+25}=\\sqrt{27} \\\\ &amp; |\\vec{c}-\\vec{a}|=2\\sqrt{2} \\\\ &amp; c^{2}+a^{2}-2ac=8 \\\\ &amp; c^{2}-12c+30=0 \\\\ &amp; c=\\frac{12+\\sqrt{24}}{2}=6+\\sqrt{6} \\\\ &amp; \\Rightarrow |(\\vec{a} \\times \\vec{b}) \\times \\vec{c}|=\\sqrt{27} \\times (6+\\sqrt{6}) \\times \\frac{\\sqrt{3}}{2} \\\\ &amp; =\\frac{a}{2}(6+\\sqrt{6}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=6\\hat{i}+\\hat{j}-\\hat{k}",
@@ -3200,7 +3155,6 @@
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
@@ -3305,7 +3259,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{p} \\times \\vec{b}-\\vec{c} \\times \\vec{b}=\\vec{0} \\\\ &amp; (\\vec{p}-\\vec{c}) \\times \\vec{b}=\\vec{0} \\\\ &amp; \\vec{p}-\\vec{c}=\\lambda\\vec{b} \\Rightarrow \\vec{p}=\\vec{c}+\\lambda\\vec{b} \\end{aligned}$ </p>\n<p>Now,  $\\vec{p} \\cdot \\vec{a}=0$  (given)</p>\n<p> $\\begin{aligned} &amp; \\text{So,}\\vec{c} \\cdot \\vec{a}+\\lambda\\vec{a} \\cdot \\vec{b}=0 \\\\ &amp; (3-3-8)+\\lambda(12+1-14)=0 \\\\ &amp; \\lambda=-8 \\\\ &amp; \\vec{p}=\\vec{c}-8\\vec{b} \\\\ &amp; \\vec{p}=-31\\hat{i}-11\\hat{j}-52\\hat{k} \\\\ &amp; \\text{So,}\\vec{p} \\cdot (\\hat{i}-\\hat{j}-\\hat{k}) \\\\ &amp; =-31+11+52 \\\\ &amp; =32 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=3\\hat{i}+\\hat{j}-2\\hat{k},\\vec{b}=4\\hat{i}+\\hat{j}+7\\hat{k}",
@@ -3316,8 +3270,7 @@
         "\\vec{p} \\cdot (\\hat{i}-\\hat{j}-\\hat{k})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:49.137448"
     },
@@ -3374,9 +3327,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Linear Combination & Vector Equations"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:54.304189"
     },
@@ -3453,7 +3404,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a}=9\\hat{i}-13\\hat{j}+25\\hat{k} \\\\ &amp; \\vec{b}=3\\hat{i}+7\\hat{j}-13\\hat{k} \\\\ &amp; \\vec{c}=17\\hat{i}-2\\hat{j}+\\hat{k} \\\\ &amp; \\vec{r} \\times \\vec{a}=(\\vec{b}+\\vec{c}) \\times \\vec{a} \\\\ &amp; (\\vec{r}-(\\vec{b}+\\vec{c})) \\times \\vec{a}=0 \\\\ &amp; \\Rightarrow \\vec{r}=(\\vec{b}+\\vec{c})+\\lambda\\vec{a} \\\\ &amp; \\vec{r}=(20\\hat{i}+5\\hat{j}-12\\hat{k})+\\lambda(9\\hat{i}-13\\hat{j}+25\\hat{k}) \\\\ &amp; =(20+9\\lambda)\\hat{i}+(5-13\\lambda)\\hat{j}+(25\\lambda-12)\\hat{k} \\end{aligned}$ </p>\n<p>Now  $\\vec{r} \\cdot (\\vec{b}-\\vec{c})=0$ </p>\n<p> $\\vec{r} \\cdot (-14\\hat{i}+9\\hat{j}-14\\hat{k})=0$ </p>\n<p>Now</p>\n<p> $\\begin{aligned} &amp; -14(20+9\\lambda)+9(5-13\\lambda)-14(25\\lambda-12)=0 \\\\ &amp; -593\\lambda-67=0 \\\\ &amp; \\lambda=-\\frac{67}{593} \\\\ &amp; \\therefore \\vec{r}=(\\vec{b}+\\vec{c})-\\frac{67}{593}\\vec{a} \\\\ &amp; \\frac{|593\\vec{r}+67\\vec{a}|^{2}}{|593|^{2}}=|\\vec{b}+\\vec{c}|^{2}=|20\\hat{i}+5\\hat{j}-12\\hat{k}|^{2} \\\\ &amp; =569 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=9\\hat{i}-13\\hat{j}+25\\hat{k},\\vec{b}=3\\hat{i}+7\\hat{j}-13\\hat{k}",
@@ -3464,8 +3415,6 @@
         "\\frac{|593\\vec{r}+67\\vec{a}|^{2}}{(593)^{2}}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:46.820918"
@@ -3501,8 +3450,7 @@
         "tan^{2}\\theta"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.620195"
     },
@@ -3601,7 +3549,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a}=\\hat{i}+2\\hat{j}+3\\hat{k} \\\\ &amp; \\vec{b}=2\\hat{i}+3\\hat{j}-5\\hat{k} \\\\ &amp; \\vec{c}=3\\hat{i}-\\hat{j}+\\lambda\\hat{k} \\\\ &amp; \\vec{b}+\\vec{c}=5\\hat{i}+2\\hat{j}+(\\lambda-5)\\hat{k} \\end{aligned}$ </p>\n<p> $\\vec{r}$  is a unit vector along  $\\vec{b}+\\vec{c}$ </p>\n<p> $\\therefore \\vec{r}=\\frac{5\\hat{i}+2\\hat{j}+(\\lambda-5)\\hat{k}}{\\sqrt{25+4+(\\lambda-5)^{2}}}$ </p>\n<p>Now,  $\\vec{r} \\cdot \\vec{a}=3$ </p>\n<p> $\\frac{1}{\\sqrt{29+(\\lambda-5)^{2}}}[5+4+3(\\lambda-5)]=3$ </p>\n<p>Squaring both sides</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{1}{29+(\\lambda-5)^{2}}[9+3(\\lambda-5)^{2}]=9 \\\\ &amp; \\Rightarrow [3+(\\lambda-5)]^{2}=29+(\\lambda-5)^{2} \\\\ &amp; \\Rightarrow 9+(\\lambda-5)^{2}+6(\\lambda-5)=29+(\\lambda-5)^{2} \\\\ &amp; \\Rightarrow 9+6(\\lambda-5)=29 \\\\ &amp; \\Rightarrow \\lambda=\\frac{20}{6}+5=\\frac{25}{3} \\\\ &amp; \\therefore 3\\lambda=3 \\times \\frac{25}{3}=25 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+3\\hat{k},\\vec{b}=2\\hat{i}+3\\hat{j}-5\\hat{k}",
@@ -3612,8 +3560,6 @@
         "\\frac{1}{\\sqrt{29+(\\lambda-5)^{2}}}[5+4+3(\\lambda-5)]=3"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:48.916423"
@@ -3660,15 +3606,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} (\\vec{c}+\\hat{i}) \\times (\\vec{a}+\\vec{b}+\\hat{i}+\\vec{a})=0 \\\\ \\Rightarrow \\vec{c}+\\hat{i}=\\lambda(\\vec{a}+\\vec{b}+\\hat{i}+\\vec{a}) \\\\ =\\lambda(2\\vec{a}+\\vec{b}+\\hat{i}) \\\\ =\\lambda(7\\hat{i}+8\\hat{j}) \\\\ \\Rightarrow \\vec{c}=(7\\lambda-1)\\hat{i}+8\\lambda\\hat{j} \\\\ \\vec{c} \\cdot \\vec{a}=-29 \\\\ \\Rightarrow 14\\lambda-2+40\\lambda=-29 \\\\ \\Rightarrow 54\\lambda=-27 \\\\ \\Rightarrow \\lambda=-\\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\vec{c}=(\\frac{-7}{2}-1)\\hat{i}-4\\hat{j}=\\frac{-9}{2}\\hat{i}-4\\hat{j} \\\\ &amp; \\vec{c} \\cdot (-2\\hat{i}+\\hat{j}+\\hat{k})=9-4=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+5\\hat{j}-\\hat{k},\\vec{b}=2\\hat{i}-2\\hat{j}+2\\hat{k}",
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:49.000027"
     },
@@ -3714,7 +3659,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=2\\hat{i}+4\\hat{j}-5\\hat{k},\\vec{c}=x\\hat{i}+2\\hat{j}+3\\hat{k},x \\in R$ &lt;?p&gt;\n<p> $\\text{also,}\\vec{b}+\\vec{c}=(x+2)\\hat{i}+6\\hat{j}-2\\hat{k}$ </p>\n<p> $\\vec{d}\\text{is the unit vector in the direction of}\\vec{b}+\\vec{c}$ </p>\n<p> $\\begin{aligned} &amp; |\\vec{b}+\\vec{c}|=\\sqrt{(x+2)^{2}+6^{2}+2^{2}} \\\\ &amp; =\\sqrt{40+(x+2)^{2}} \\\\ &amp; \\vec{d}=\\frac{x+2}{\\sqrt{40+(x+2)^{2}}}\\hat{i}+\\frac{6}{\\sqrt{40+(x+2)^{2}}}\\hat{j}-\\frac{2}{\\sqrt{40+(x+2)^{2}}}\\hat{k} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\vec{a} \\cdot \\vec{d}=1 \\\\ &amp; \\frac{x+2+6-2}{\\sqrt{40+(x+2)^{2}}}=1 \\\\ &amp; x+6=\\sqrt{40+(x+2)^{2}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; (x+6)^{2}=40+(x+2)^{2} \\\\ &amp; x^{2}+36+12x=40+x^{2}+4+4x \\\\ &amp; 8x=8 \\\\ &amp; \\Rightarrow x=1 \\\\ &amp; (\\vec{a} \\times \\vec{b}) \\cdot \\vec{c}=[\\vec{a}\\vec{b}\\vec{c}] \\\\ &amp; =⎡⎣⎢\\begin{aligned} 1 &amp; 1 &amp; 1 \\\\ 2 &amp; 4 &amp; -5 \\\\ 1 &amp; 2 &amp; 3 \\end{aligned}⎤⎦⎥ \\\\ &amp; =1(12+10)-1(6+5)+1(4-4) \\\\ &amp; =22-11=11 \\end{aligned}$ </p></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=2\\hat{i}+4\\hat{j}-5\\hat{k}",
@@ -3725,8 +3670,6 @@
         "(\\vec{a} \\times \\vec{b}) \\cdot \\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:49.076828"
@@ -3775,14 +3718,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lsnjezh5/8e16ffb2-7d5b-416d-bc65-2de0bc58b08c/a1b0b090-cc2d-11ee-b20d-39b621d226e3/file-6y3zli1lsnjezh6.png?format=png"
       ],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}=(-3\\hat{i}+2\\hat{k})+\\lambda(2\\hat{i}+3\\hat{j}+5\\hat{k}),\\lambda \\in ℝ",
         "\\vec{r}=(\\hat{i}-2\\hat{j}+\\hat{k})+\\mu(-\\hat{i}+3\\hat{j}+2\\hat{k}),\\mu \\in ℝ"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:49.154972"
@@ -3888,11 +3830,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt1v5c9e/0c2c210a-ab17-46c0-813d-6d826d2adf6f/7c1dc320-d40e-11ee-b9d5-0585032231f0/file-1lt1v5c9f.png?format=png"
       ],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:07:54.399177"
     },
@@ -3917,7 +3859,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\hat{i}+8\\hat{j}+13\\hat{k}=\\vec{u}$ </p>\n<p>Given  $\\vec{a} \\times (\\vec{b}+\\vec{c})+\\vec{b} \\times \\vec{c}=\\vec{u}$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\vec{a} \\times \\vec{b}+\\vec{a} \\times \\vec{c}+\\vec{b} \\times \\vec{c}=\\vec{u} \\\\ (\\vec{a}+\\vec{b}) \\times c=\\vec{u}-\\vec{a} \\times \\vec{b} \\end{aligned}$ </p>\n<p>Taking cross product with  $\\vec{a}$  on both sides</p>\n<p> $\\vec{a} \\times ((\\vec{a}+\\vec{b}) \\times \\vec{c})=\\vec{a} \\times (\\vec{u}-\\vec{a} \\times \\vec{b})$ </p>\n<p> $\\Rightarrow \\vec{c} \\cdot (\\vec{a}^{2}+\\vec{a} \\cdot \\vec{b})=13(\\vec{a}+\\vec{b})-\\vec{a} \\times \\vec{u}+(\\vec{a} \\cdot \\vec{b}) \\cdot \\vec{a}-\\vec{a}^{2}\\vec{b}$   ${ \\because \\vec{a}.\\vec{c}=13}$ </p>\n<p>Putting the values,  $\\vec{c}=(-1,-1,3)$ </p>\n<p> $\\vec{b}.\\vec{c}=-22$ </p>\n<p> $\\Rightarrow 24-\\vec{b} \\cdot \\vec{c}=46$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-3\\hat{j}+4\\hat{k},\\vec{b}=3\\hat{i}+4\\hat{j}-5\\hat{k}",
@@ -3928,7 +3870,6 @@
         "\\vec{b}.\\vec{c}=-22"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:46.838310"
@@ -3954,7 +3895,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; (\\vec{a}+\\vec{b}) \\times \\vec{c}=2(\\vec{a} \\times \\vec{b})+24\\hat{j}-6\\hat{k} \\\\ &amp; (5\\hat{i}+\\hat{j}+4\\hat{k}) \\times \\vec{c}=2(7\\hat{i}-7\\hat{j}-7\\hat{k})+24\\hat{j}-6\\hat{k} \\\\ &amp; |\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 5 &amp; 1 &amp; 4 \\\\ x &amp; y &amp; z \\end{aligned}|=14\\hat{i}+10\\hat{j}-20\\hat{k} \\\\ &amp; \\Rightarrow \\hat{i}(z-4y)-\\hat{j}(5z-4x)+\\hat{k}(5y-x)=14\\hat{i}+10\\hat{j}-20\\hat{k} \\\\ &amp; z-4y=14,4x-5z=10,5y-x=-20 \\\\ &amp; (a-b+i) \\cdot \\vec{c}=-3 \\\\ &amp; (2\\hat{i}+3\\hat{j}-2\\hat{k}) \\cdot \\vec{c}=-3 \\\\ &amp; 2x+3y-2z=-3 \\\\ &amp; \\therefore x=5,y=-3,z=2 \\\\ &amp; |\\vec{c}|^{2}=25+9+4=38 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=3\\hat{i}+2\\hat{j}+\\hat{k},\\vec{b}=2\\hat{i}-\\hat{j}+3\\hat{k}",
@@ -3964,8 +3905,6 @@
         "|\\vec{c}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:52.640355"
@@ -4012,7 +3951,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this, let's start with the given vector equation:</p>\n<p> $\\vec{c}=\\vec{a}-\\vec{b}$ </p>\n<p>Given vectors are:</p>\n<p> $\\vec{a}=\\alpha\\hat{i}+4\\hat{j}+2\\hat{k}$ </p>\n<p> $\\vec{b}=5\\hat{i}+3\\hat{j}+4\\hat{k}$ </p>\n<p>Then, the vector  $\\vec{c}$  is:</p>\n<p> $\\vec{c}=(\\alpha\\hat{i}+4\\hat{j}+2\\hat{k})-(5\\hat{i}+3\\hat{j}+4\\hat{k})$ </p>\n<p> $\\vec{c}=(\\alpha-5)\\hat{i}+(4-3)\\hat{j}+(2-4)\\hat{k}$ </p>\n<p> $\\vec{c}=(\\alpha-5)\\hat{i}+1\\hat{j}-2\\hat{k}$ </p>\n<p>The area of the triangle formed by vectors  $\\vec{a}$  and  $\\vec{b}$  is given by the magnitude of the cross product of  $\\vec{a}$  and  $\\vec{b}$ , divided by 2:</p>\n<p> $\\text{Area}=\\frac{1}{2}|\\vec{a} \\times \\vec{b}|=5\\sqrt{6}$ </p>\n<p>This implies:</p>\n<p> $|\\vec{a} \\times \\vec{b}|=10\\sqrt{6}$ </p>\n<p>Let's find  $\\vec{a} \\times \\vec{b}$ :</p>\n<p> $\\vec{a} \\times \\vec{b}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ \\alpha &amp; 4 &amp; 2 \\\\ 5 &amp; 3 &amp; 4 \\end{aligned}|=\\hat{i}(4 \\cdot 4-2 \\cdot 3)-\\hat{j}(\\alpha \\cdot 4-2 \\cdot 5)+\\hat{k}(\\alpha \\cdot 3-4 \\cdot 5)$ </p>\n<p> $\\vec{a} \\times \\vec{b}=\\hat{i}(16-6)-\\hat{j}(4\\alpha-10)+\\hat{k}(3\\alpha-20)$ </p>\n<p> $\\vec{a} \\times \\vec{b}=\\hat{i}(10)-\\hat{j}(4\\alpha-10)+\\hat{k}(3\\alpha-20)$ </p>\n<p>Magnitude of  $\\vec{a} \\times \\vec{b}$ :</p>\n<p> $|\\vec{a} \\times \\vec{b}|=\\sqrt{10^{2}+(4\\alpha-10)^{2}+(3\\alpha-20)^{2}}$ </p>\n<p>We know:</p>\n<p> $\\sqrt{10^{2}+(4\\alpha-10)^{2}+(3\\alpha-20)^{2}}=10\\sqrt{6}$ </p>\n<p>Squaring both sides:</p>\n<p> $100+(4\\alpha-10)^{2}+(3\\alpha-20)^{2}=600$ </p>\n<p> $100+16\\alpha^{2}-80\\alpha+100+9\\alpha^{2}-120\\alpha+400=600$ </p>\n<p> $25\\alpha^{2}-200\\alpha+600=600$ </p>\n<p> $25\\alpha^{2}-200\\alpha=0$ </p>\n<p> $\\alpha^{2}-8\\alpha=0$ </p>\n<p> $\\alpha(\\alpha-8)=0$ </p>\n<p>Since  $\\alpha$  is a positive real number:</p>\n<p> $\\alpha=8$ </p>\n<p>Then, the vector  $\\vec{c}$  is:</p>\n<p> $\\vec{c}=(8-5)\\hat{i}+1\\hat{j}-2\\hat{k}$ </p>\n<p> $\\vec{c}=3\\hat{i}+1\\hat{j}-2\\hat{k}$ </p>\n<p>Magnitude squared of  $\\vec{c}$  is:</p>\n<p> $|\\vec{c}|^{2}=3^{2}+1^{2}+(-2)^{2}$ </p>\n<p> $|\\vec{c}|^{2}=9+1+4$ </p>\n<p> $|\\vec{c}|^{2}=14$ </p>\n<p>Therefore, the correct option is:</p>\n<p>Option A: 14</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{b}=5\\hat{i}+3\\hat{j}+4\\hat{k}",
@@ -4023,9 +3962,7 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Linear Combination & Vector Equations"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:48.789995"
     },
@@ -4138,8 +4075,7 @@
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:49.016392"
     },
@@ -4185,7 +4121,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}\\vec{C}=a\\hat{i}+b\\hat{j}+c\\hat{k} \\\\ &amp; (a\\hat{i}+b\\hat{j}+c\\hat{k}) \\cdot (2\\hat{i}+2\\hat{j}-\\hat{k})=1 \\times 3 \\times \\frac{1}{2} \\\\ &amp; 2a+2b-c=\\frac{3}{2}\\text{... (1)} \\\\ &amp; (a\\hat{i}+b\\hat{j}+c\\hat{k}) \\cdot (\\hat{i}-\\hat{k})=1 \\times \\sqrt{2} \\times \\frac{1}{\\sqrt{2}} \\\\ &amp; a-c=1\\text{... (2)} \\\\ &amp; a^{2}+b^{2}+c^{2}=1\\text{... (3)} \\end{aligned}$ </p>\n<p>Solving (1), (2) and (3)</p>\n<p> $\\begin{aligned} &amp; a+2b=\\frac{1}{2} \\\\ &amp; a^{2}+b^{2}+(a-1)^{2}=1 \\\\ &amp; 2a^{2}-2a+b^{2}=0 \\\\ &amp; 2a^{2}-2a+(\\frac{2a-1}{4})^{2}=0 \\\\ &amp; 32a^{2}-32a+4a^{2}-4a+1=0 \\\\ &amp; 36a^{2}-36a+1=0 \\\\ &amp; a=\\frac{36 \\pm \\sqrt{(36)^{2}-4(36)}}{2 \\times 36} \\\\ &amp; =\\frac{1}{2} \\pm \\frac{\\sqrt{2}}{3} \\\\ &amp; b=\\frac{1-2a}{4} \\Rightarrow b=\\frac{1 \\pm \\frac{2\\sqrt{2}}{3}-1}{4} \\\\ &amp; = \\mp \\frac{1}{3\\sqrt{2}} \\\\ &amp; C=-\\frac{1}{2} \\pm \\frac{\\sqrt{2}}{3} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; C+(\\frac{-1}{2}\\hat{i}+\\frac{1}{3\\sqrt{2}}\\hat{j}-\\frac{\\sqrt{2}}{3}\\hat{k}) \\\\ &amp; =\\frac{\\sqrt{2}}{3}\\hat{i}-\\frac{1}{2}\\hat{k} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "60^{\\circ}",
@@ -4193,8 +4129,7 @@
         "\\vec{C}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:49.094719"
     },
@@ -4251,8 +4186,7 @@
         "\\vec{a} \\cdot \\vec{b}=3\\sqrt{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:49.179918"
     },
@@ -4356,7 +4290,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\vec{a} \\cdot [(\\vec{c} \\times \\vec{b})-\\vec{b}-\\vec{c}] \\\\ &amp; \\vec{a} \\cdot (\\vec{c} \\times \\vec{b})-\\vec{a} \\cdot \\vec{b}-\\vec{a} \\cdot \\vec{c}\\text{..... (i)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{given}\\vec{a} \\times \\vec{c}=\\vec{b} \\\\ &amp; \\Rightarrow (\\vec{a} \\times \\vec{c}) \\cdot \\vec{b}=\\vec{b} \\cdot \\vec{b}=|\\vec{b}|^{2}=27 \\\\ &amp; \\Rightarrow \\vec{a} \\cdot (\\vec{c} \\times \\vec{b})=[\\vec{a}\\vec{c}\\vec{b}]=(\\vec{a} \\times \\vec{c}) \\cdot \\vec{b}=27\\text{.... (ii)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now}\\vec{a} \\cdot \\vec{b}=3-6+3=0\\text{.... (iii)} \\\\ &amp; \\vec{a} \\cdot \\vec{c}=3\\text{.... (iv) (given)} \\end{aligned}$ </p>\n<p> $\\text{\\begin{gathered} \\text { By (i), (ii), (iii) &amp; (iv) } \\\\ 27-0-3=24 \\end{gathered}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+\\hat{k},",
@@ -4367,8 +4301,6 @@
         "\\vec{a} \\cdot ((\\vec{c} \\times \\vec{b})-\\vec{b}-\\vec{c})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:54.414252"
@@ -4394,7 +4326,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(\\vec{a}+2\\vec{b}) \\times \\vec{c}=3(\\vec{c} \\times \\vec{a})$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; \\vec{b} \\times \\vec{c}+2(\\vec{a} \\times \\vec{c})=0 \\\\ &amp; (\\vec{b}+2\\vec{a}) \\times \\vec{c}=0 \\\\ &amp; \\vec{c}=\\lambda(\\vec{b}+2\\vec{a}) \\\\ &amp; \\vec{c} \\cdot \\vec{a}=130 \\Rightarrow \\lambda=1 \\\\ &amp; \\vec{c}=4\\hat{i}-7\\hat{j}+15\\hat{k} \\\\ &amp; \\vec{b}.\\vec{c}=30 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}-3\\hat{j}+7\\hat{k},\\vec{b}=2\\hat{i}-\\hat{j}+\\hat{k}",
@@ -4404,8 +4336,7 @@
         "\\vec{b} \\cdot \\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:46.854247"
     },
@@ -4441,8 +4372,7 @@
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.663845"
     },
@@ -4488,7 +4418,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Step 1: Given condition for coplanarity\n<br/><br/>For three vectors to be coplanar, their scalar triple product must be zero. We have the vectors A, B, and C, and we know the given relation between λ and μ:\n\n<br/><br/> $A=\\lambda\\hat{i}-\\hat{j}+\\hat{k}$ \n<br/><br/> $B=\\hat{i}+2\\hat{j}+\\mu\\hat{k}$ \n<br/><br/> $C=3\\hat{i}-4\\hat{j}+5\\hat{k}$ \n<br/><br/>Scalar triple product condition:\n<br/><br/> $[A,B,C]=A \\cdot (B \\times C)=0$ \n<br/><br/>Step 2: Calculate the cross product of B and C\n<br/><br/> $B \\times C=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; \\mu \\\\ 3 &amp; -4 &amp; 5 \\end{aligned}|$ \n<br/><br/> $B \\times C=(10+4\\mu)\\hat{i}-(5-3\\mu)\\hat{j}-10\\hat{k}$ \n<br/><br/>Step 3: Calculate the scalar triple product and apply the coplanarity condition\n<br/><br/> $[A,B,C]=A \\cdot (B \\times C)=\\lambda(10+4\\mu)-1(5-3\\mu)+1(-10)=0$ \n<br/><br/>Step 4: Substitute the given relation between λ and μ\nGiven that:\n<br/><br/> $\\lambda-\\mu=5$ \n<br/><br/>From the coplanarity condition, we have:\n<br/><br/> $4\\lambda\\mu+10\\lambda-3\\mu=5$ \n<br/><br/>Now, substitute λ in terms of μ:\n<br/><br/> $4(5+\\mu)\\mu+10(5+\\mu)-3\\mu=5$ \n<br/><br/>Step 5: Solve for μ and λ\n<br/><br/>Simplify the equation and solve for μ:\n<br/><br/> $4\\mu^{2}+27\\mu+45=0$ \n<br/><br/>Factor the equation:\n<br/><br/> $(4\\mu+15)(\\mu+3)=0$ \n<br/><br/>So, the two possible values for μ are:\n<br/><br/> $\\mu=-3,\\frac{-15}{4}$ \n<br/><br/>For each value of μ, find the corresponding value of λ using the given relation:\n<br/><br/> $\\lambda=\\mu+5$ \n<br/><br/>So, we get the values for λ:\n<br/><br/> $\\lambda=2,\\frac{5}{4}$ \n<br/><br/>Step 6: Calculate the sum\n<br/><br/>Now, we need to find the sum:\n<br/><br/> $\\underset{(\\lambda,\\mu) \\in S}{\\sum}80(\\lambda^{2}+\\mu^{2})$ \n<br/><br/>Substitute the values of λ and μ, and simplify:\n<br/><br/> $80[(2^{2}+(-3)^{2})+(\\frac{5}{4})^{2}+(\\frac{-15}{4})^{2}]=80[13+\\frac{25}{16}+\\frac{225}{16}]$ \n<br/><br/> $=80[13+\\frac{250}{16}]=10 \\times 229$ \n<br/><br/> $=2290$ \n<br/><br/>So, the correct answer is 2290 (Option D).<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "A=\\lambda\\hat{i}-\\hat{j}+\\hat{k}",
@@ -4499,8 +4429,6 @@
         "[A,B,C]=A \\cdot (B \\times C)=\\lambda(10+4\\mu)-1(5-3\\mu)+1(-10)=0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:54.430279"
@@ -4547,7 +4475,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given that  $\\vec{d} \\times \\vec{b}=\\vec{c} \\times \\vec{b}$ , we can rewrite this as:\n\n<br/><br/> $(\\vec{d}-\\vec{c}) \\times \\vec{b}=\\vec{0}$ \n<br/><br/>This implies that the vector  $\\vec{d}-\\vec{c}$  is a scalar multiple of  $\\vec{b}$ :\n\n<br/><br/> $\\vec{d}=\\vec{c}+\\lambda\\vec{b}$ \n<br/><br/>Also, we are given that  $\\vec{d} \\cdot \\vec{a}=24$ :\n\n<br/><br/> $(\\vec{c}+\\lambda\\vec{b}) \\cdot \\vec{a}=24$ \n<br/><br/>Now, we can find the value of  $\\lambda$  :\n\n<br/><br/> $\\lambda=\\frac{24-\\vec{a} \\cdot \\vec{c}}{\\vec{b} \\cdot \\vec{a}}=\\frac{24-6}{9}=2$ \n<br/><br/>Therefore, we have :\n\n<br/><br/> $\\vec{d}=\\vec{c}+2(\\vec{b})=8\\hat{i}-5\\hat{j}+18\\hat{k}$ \n<br/><br/>Now, we can find the squared magnitude of  $\\vec{d}$  :\n\n<br/><br/> $|\\vec{d}|^{2}=64+25+324=413$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+4\\hat{j}+2\\hat{k},\\vec{b}=3\\hat{i}-2\\hat{j}+7\\hat{k}",
@@ -4558,8 +4486,7 @@
         "|\\vec{d}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:54.536387"
     },
@@ -4671,9 +4598,7 @@
         "\\vec{OB}=2\\hat{i}+4\\hat{j}-2\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Section Formula, Collinearity & Centroids"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:00.038891"
     },
@@ -4719,11 +4644,10 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given : Points with position vectors\n<br/><br/> $\\alpha\\hat{i}+10\\hat{j}+13\\hat{k},6\\hat{i}+11\\hat{j}+11\\hat{k}$ \n<br/><br/>and  $\\frac{9}{2}\\hat{i}+\\beta\\hat{j}-8\\hat{k}$  are collinear.\n<br/><br/>So,  $\\frac{\\alpha-6}{6-\\frac{9}{2}}=\\frac{10-11}{11-\\beta}=\\frac{13-11}{11+8}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow \\frac{2(\\alpha-6)}{3}=\\frac{-1}{11-\\beta}=\\frac{2}{19} \\\\ \\\\ &amp; \\Rightarrow \\frac{2}{3}(\\alpha-6)=\\frac{2}{19} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow 19\\alpha-114=3 \\Rightarrow 19\\alpha=117 \\\\ \\\\ &amp; \\Rightarrow \\alpha=\\frac{117}{19} \\end{aligned}$ \n<br/><br/>And,  $\\frac{-1}{11-\\beta}=\\frac{2}{19}$ \n<br/><br/> $\\begin{aligned} &amp; \\Rightarrow -19=22-2\\beta \\\\ \\\\ &amp; \\Rightarrow 2\\beta=41 \\\\ \\\\ &amp; \\Rightarrow \\beta=\\frac{41}{2} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\therefore (19\\alpha-6\\beta)^{2}=(19 \\times \\frac{117}{19}-\\frac{6 \\times 41}{2})^{2} \\\\ \\\\ &amp; =(117-123)^{2}=36 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:00.205747"
@@ -4781,8 +4705,7 @@
         "\\vec{a} \\cdot \\vec{d}=18"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:00.372101"
     },
@@ -4885,7 +4808,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $A \\equiv (1,2,3),B \\equiv (2,3,4),C \\equiv (1,5,7)$ </p>\n<p> $\\vec{n}=\\vec{AB} \\times \\vec{AC}=|\\begin{aligned} i &amp; j &amp; k \\\\ 1 &amp; 1 &amp; 1 \\\\ 0 &amp; 3 &amp; 4 \\end{aligned}|$ </p>\n<p> $=\\hat{i}-4\\hat{j}+3\\hat{k}$ </p>\n<p> $\\hat{OP}=\\frac{\\pm (\\hat{i}-4\\hat{j}+3\\hat{k})}{\\sqrt{26}}$ </p>\n<p>Since  $cos\\beta&gt;0$ , take  $-$  sign</p>\n<p> $\\hat{OP}=\\frac{\\hat{i}-4\\hat{j}+3\\hat{k}}{\\sqrt{26}}$ </p>\n<p> $\\Rightarrow cos\\alpha&lt;0,cos\\gamma&lt;0$ </p>\n<p> $\\alpha,\\gamma \\in (\\frac{\\pi}{2},\\pi)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\hat{i}-4\\hat{j}+3\\hat{k}",
@@ -4893,8 +4816,7 @@
         "\\alpha,\\gamma \\in (\\frac{\\pi}{2},\\pi)"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:00.909580"
     },
@@ -4940,7 +4862,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a} \\times \\vec{b}=(\\hat{i}-\\hat{j})$ <br/><br/>\nTaking cross product with  $\\vec{a}$ <br/><br/>\n $\\begin{aligned} &amp; \\Rightarrow \\vec{a} \\times (\\vec{a} \\times \\vec{b})=\\vec{a} \\times (\\hat{i}-\\hat{j}) \\\\ \\\\ &amp; \\Rightarrow (\\vec{a} \\cdot \\vec{b})\\vec{a}-(\\vec{a} \\cdot \\vec{a})\\vec{b}=\\hat{i}+\\hat{j}+2\\hat{k} \\\\ \\\\ &amp; \\Rightarrow \\vec{a}-3\\vec{b}=\\hat{i}+\\hat{j}+2\\hat{k} \\\\ \\\\ &amp; \\Rightarrow 2\\vec{a}-6\\vec{b}=2\\hat{i}+2\\hat{j}+4\\hat{k} \\\\ \\\\ &amp; \\Rightarrow \\vec{a}-6\\vec{b}=3\\hat{i}+3\\hat{j}+3\\hat{k} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=-\\hat{i}-\\hat{j}+\\hat{k},\\vec{a}.\\vec{b}=1",
@@ -4950,8 +4872,6 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:08.014181"
@@ -4998,7 +4918,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\vec{\\beta}_{1}=\\lambda\\vec{\\alpha}$ <br/><br/>\nNow  $\\vec{\\beta}_{2}=\\vec{\\beta}-\\vec{\\beta}_{1}$ <br/><br/>\n $\\begin{aligned} &amp; =(\\hat{i}+2\\hat{j}-4\\hat{k})-\\lambda(4\\hat{i}+3\\hat{j}+5\\hat{k}) \\\\ \\\\ &amp; =(1-4\\lambda)\\hat{i}+(2-3\\lambda)\\hat{j}-(5\\lambda+4)\\hat{k} \\\\ \\\\ &amp; \\vec{\\beta}_{2} \\cdot \\vec{\\alpha}=0 \\\\ \\\\ &amp; \\Rightarrow 4(1-4\\lambda)+3(2-3\\lambda)-5(5\\lambda+4)=0 \\\\ \\\\ &amp; \\Rightarrow 4-16\\alpha+6-9\\lambda-25\\lambda-20=0 \\\\ \\\\ &amp; \\Rightarrow 50\\lambda=-10 \\\\ \\\\ &amp; \\Rightarrow \\lambda=\\frac{-1}{5} \\\\ \\\\ &amp; \\vec{\\beta}_{2}=(1+\\frac{4}{5})\\hat{i}+(2+\\frac{3}{5})\\hat{j}-(-1+4)\\hat{k} \\\\ \\\\ &amp; \\vec{\\beta}_{2}=\\frac{9}{5}\\hat{i}+\\frac{13}{5}\\hat{j}-3\\hat{k} \\\\ \\\\ &amp; 5\\vec{\\beta}_{2}=9\\hat{i}+13\\hat{j}-15\\hat{k} \\\\ \\\\ &amp; 5\\vec{\\beta}_{2} \\cdot (\\hat{i}+\\hat{j}+\\hat{k})=9+13-15=7 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{\\alpha}=4\\hat{i}+3\\hat{j}+5\\hat{k}",
@@ -5009,7 +4929,7 @@
         "\\vec{\\beta}=\\vec{\\beta}_{1}+\\vec{\\beta}_{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:08.116207"
     },
@@ -5034,7 +4954,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{v} \\times \\vec{w}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ \\alpha &amp; 2 &amp; -3 \\\\ 2\\alpha &amp; 1 &amp; -1 \\end{aligned}|=\\hat{i}-5\\alpha\\hat{j}-3\\alpha\\hat{k}$ \n<br/><br/> $[\\begin{aligned} \\vec{u} &amp; \\vec{v} &amp; \\vec{w} \\end{aligned}]=\\vec{u}.(\\vec{v} \\times \\vec{w})$ \n<br/><br/> $=|\\vec{u}||\\vec{v} \\times \\vec{w}| \\times cos\\theta$ \n<br/><br/> $=\\alpha\\sqrt{34\\alpha^{2}+1}cos\\theta$ \n<br/><br/> $[\\vec{u}\\vec{v}\\vec{w}]_{min}=-\\alpha\\sqrt{3401}$ \n<br/><br/> $\\alpha\\sqrt{34\\alpha^{2}+1} \\times (-1)=-\\alpha\\sqrt{3401}$ \n<br/><br/>(taking  $cos\\theta=1$  )\n\n<br/><br/> $\\Rightarrow \\alpha=10$ \n<br/><br/> $\\vec{v} \\times \\vec{w}=\\hat{i}-50\\hat{j}-30\\hat{k}$ \n<br/><br/> $cos\\theta=-1 \\Rightarrow \\vec{u}$  is antiparallel to  $\\vec{v} \\times \\vec{w}$ \n<br/><br/> $\\vec{u}=-|\\vec{u}| \\cdot \\frac{\\vec{v} \\times \\vec{w}}{|\\vec{v} \\times \\vec{w}|}=\\frac{-10(\\hat{i}-50\\hat{j}-30\\hat{k})}{\\sqrt{3401}}$ \n<br/><br/> $|\\vec{u} \\cdot \\hat{i}|^{2}=|\\frac{-10}{\\sqrt{3401}}|^{2}=\\frac{100}{3401}=\\frac{m}{n}$ \n<br/><br/> $m+n=3501$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{v}=\\alpha\\hat{i}+2\\hat{j}-3\\hat{k},\\vec{w}=2\\alpha\\hat{i}+\\hat{j}-\\hat{k}",
@@ -5045,8 +4965,6 @@
         "is equal to ____________."
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.763399"
@@ -5129,11 +5047,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the position vectors of  $A,B,C,$  and  $D$  be  $\\vec{a},\\vec{b},\\vec{c},$  and  $\\vec{d}$ , respectively.</p>\n<p>Then the position vector of  $E$  is:</p>\n<p> $\\vec{E}=\\frac{\\vec{a}+\\vec{c}}{2}$ </p>\n<p>And the position vector of  $F$  is:</p>\n<p> $\\vec{F}=\\frac{\\vec{b}+\\vec{d}}{2}$ </p>\n<p>Now, we are given the equation:</p>\n<p> $(\\vec{AB}-\\vec{BC})+(\\vec{AD}-\\vec{DC})=k\\vec{FE}$ </p>\n<p>We can rewrite this equation using the position vectors:</p>\n<p> $(\\vec{b}-\\vec{a}-(\\vec{c}-\\vec{b}))+(\\vec{d}-\\vec{a}-(\\vec{c}-\\vec{d}))=k(\\vec{E}-\\vec{F})$ </p>\n<p>Simplifying the equation, we get:</p>\n<p> $(2\\vec{b}-2\\vec{a}-2\\vec{c}+2\\vec{d})=\\frac{k}{2}(2\\vec{E}-2\\vec{F})$ </p>\n<p>Now substitute  $\\vec{E}$  and  $\\vec{F}$  expressions we found earlier:</p>\n<p> $(2\\vec{b}-2\\vec{a}-2\\vec{c}+2\\vec{d})=\\frac{k}{2}(2(\\frac{\\vec{a}+\\vec{c}}{2})-2(\\frac{\\vec{b}+\\vec{d}}{2}))$ </p>\n<p>Simplifying the equation:</p>\n<p> $(2\\vec{b}-2\\vec{a}-2\\vec{c}+2\\vec{d})=-\\frac{k}{2}(\\vec{b}+\\vec{d}-\\vec{a}-\\vec{c})$ </p>\n<p>Since both sides of the equation are equal:</p>\n<p> $k=-4$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:07:54.447309"
     },
@@ -5244,8 +5162,7 @@
         "n_{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:54.622160"
     },
@@ -5459,7 +5376,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(\\vec{a} \\times (\\vec{a} \\times \\vec{b})+\\vec{b} \\times (\\vec{a} \\times \\vec{b})) \\times (\\vec{a}-\\vec{b})$ </p>\n<p> $=(\\vec{a}(\\vec{a}.\\vec{b})-\\vec{b}(\\vec{a}.\\vec{a})+\\vec{a}(\\vec{b}.\\vec{b})-\\vec{b}(\\vec{a}.\\vec{b})) \\times (\\vec{a}-\\vec{b})$ </p>\n<p> $=(\\vec{a}.\\vec{b})(\\vec{a} \\times \\vec{a}-\\vec{a} \\times \\vec{b})-(\\vec{a}.\\vec{a})(\\vec{b} \\times \\vec{a}-\\vec{b} \\times \\vec{b})+(\\vec{b}.\\vec{b})(\\vec{a} \\times \\vec{a}-\\vec{a} \\times \\vec{b})-(\\vec{a}.\\vec{b})(\\vec{b} \\times \\vec{a}-\\vec{b} \\times \\vec{b})$ </p>\n<p> $=(\\vec{a}.\\vec{b})(\\vec{b} \\times \\vec{a})-(\\vec{a}.\\vec{a})(\\vec{b} \\times \\vec{a})+(\\vec{b}.\\vec{b})(\\vec{b} \\times \\vec{a})-(\\vec{a}.\\vec{b})(\\vec{b} \\times \\vec{a})$ </p>\n<p> $=(\\vec{b} \\times \\vec{a})(\\vec{b}.\\vec{b}-\\vec{a}.\\vec{a})$ </p>\n<p> $=(5\\vec{b} \\times \\vec{a})(5+\\lambda^{2}-13-\\lambda^{2})$ </p>\n<p> $=8(\\vec{a} \\times \\vec{b})$ </p>\n<p> $\\vec{a} \\times \\vec{b}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ \\lambda &amp; 2 &amp; -3 \\\\ 1 &amp; -\\lambda &amp; 2 \\end{aligned}|$ </p>\n<p> $=\\hat{i}(4-3\\lambda)-\\hat{j}(2\\lambda+3)+\\hat{k}(-\\lambda^{2}-2)$ </p>\n<p> $\\Rightarrow \\lambda=1$ </p>\n<p> $|\\vec{a} \\times (\\vec{a}-\\vec{b})+\\vec{b} \\times (\\vec{a}-\\vec{b})|^{2}$ </p>\n<p> $=|2(\\vec{a} \\times \\vec{b})|^{2}=4.35=140$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "=(\\vec{b} \\times \\vec{a})(\\vec{b}.\\vec{b}-\\vec{a}.\\vec{a})",
@@ -5470,7 +5387,6 @@
         "|\\vec{a} \\times (\\vec{a}-\\vec{b})+\\vec{b} \\times (\\vec{a}-\\vec{b})|^{2}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity",
         "Linear Combination & Vector Equations"
       ],
@@ -5518,7 +5434,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(\\vec{r}-\\vec{c}) \\times \\vec{b}=0$ </p>\n<p> $\\vec{r}=\\lambda\\vec{b}+\\vec{c}$ </p>\n<p> $\\Rightarrow \\lambda\\vec{b}.\\vec{a}+\\vec{c}.\\vec{a}=0$ </p>\n<p> $\\Rightarrow \\lambda(3)+(7+8)=0$ </p>\n<p> $\\Rightarrow \\lambda=-5$ </p>\n<p> $\\vec{r}=5\\vec{b}+\\vec{c}$ </p>\n<p> $=-5\\hat{i}-5\\hat{j}-5\\hat{k}+(7\\hat{i}+3\\hat{j}+4\\hat{k})$ </p>\n<p> $=2\\hat{i}-8\\hat{j}-\\hat{k}$ </p>\n<p> $\\therefore$   $\\vec{r}.\\vec{c}=17+24-4=34$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{r}=\\lambda\\vec{b}+\\vec{c}",
@@ -5529,7 +5445,6 @@
         "=-5\\hat{i}-5\\hat{j}-5\\hat{k}+(7\\hat{i}+3\\hat{j}+4\\hat{k})"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:00.980135"
@@ -5675,8 +5590,7 @@
         "|72-|\\vec{b}+\\vec{c}|^{2}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.701620"
     },
@@ -5701,11 +5615,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; A(2,6,2)B(-4,0,\\lambda),C(2,3,-1)D(4,5,0) \\\\ \\\\ &amp; \\text{Area}=\\frac{1}{2}|\\vec{BD} \\times \\vec{AC}|=18 \\\\ \\\\ &amp; \\vec{AC} \\times \\vec{BD}=|\\begin{aligned} \\hat{i} &amp; j &amp; k \\\\ \\\\ 0 &amp; -3 &amp; -3 \\\\ \\\\ 8 &amp; 5 &amp; -\\lambda \\end{aligned}| \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; =(3\\lambda+15)\\hat{i}-\\hat{j}(-24)+\\hat{k}(-24) \\\\ \\\\ &amp; \\vec{AC} \\times \\vec{BD}=(3\\lambda+15)\\hat{i}+24\\hat{j}-24\\hat{k} \\\\ \\\\ &amp; =\\sqrt{(3\\lambda+15)^{2}+(24)^{2}+(24)^{2}}=36 \\\\ \\\\ &amp; =\\lambda^{2}+10\\lambda+9=0 \\\\ \\\\ &amp; =\\lambda=-1,-9 \\\\ \\\\ &amp; |\\lambda| \\le 5 \\Rightarrow \\lambda=-1 \\\\ \\\\ &amp; 5-6\\lambda=5-6(-1)=11 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.780671"
     },
@@ -5730,7 +5644,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\vec{a}=\\hat{i}+2\\hat{j}+\\lambda\\hat{k},\\vec{b}=3\\hat{i}-5\\hat{j}-\\lambda\\hat{k},\\vec{a} \\cdot \\vec{c}=7 \\\\ \\\\ &amp; \\vec{a} \\times \\vec{c}-\\vec{b} \\times \\vec{c}=\\vec{0} \\\\ \\\\ &amp; (\\vec{a}-\\vec{b}) \\times \\vec{c}=0 \\Rightarrow (\\vec{a}-\\vec{b})\\text{is paralleled to}\\vec{c} \\\\ \\\\ &amp; \\vec{a}-\\vec{b}=\\mu\\vec{c},\\text{where}\\mu\\text{is a scalar} \\\\ \\\\ &amp; -2\\hat{i}+7\\hat{j}+2\\lambda\\hat{k}=\\mu \\cdot \\vec{c} \\end{aligned}$ <br/><br/>\nNow  $\\vec{a} \\cdot \\vec{c}=7$  gives  $2\\lambda^{2}+12=7\\mu$ <br/><br/>\nAnd  $\\vec{b} \\cdot \\vec{c}=-\\frac{43}{2}$  gives  $4\\lambda^{2}+82=43\\mu$ <br/><br/>  $\\mu=2$  and  $\\lambda^{2}=1$ <br/><br/>\n $|\\vec{a} \\cdot \\vec{b}|=8$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\mu=2",
@@ -5738,8 +5652,7 @@
         "|\\vec{a} \\cdot \\vec{b}|=8"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.855901"
     },
@@ -5796,8 +5709,7 @@
         "="
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:07:54.470286"
     },
@@ -5843,7 +5755,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->The given vectors are :\n\n<br/><br/> $\\vec{a}=\\lambda\\hat{i}+\\hat{j}-\\hat{k}$ \n<br/><br/> $\\vec{b}=3\\hat{i}-\\hat{j}+2\\hat{k}$ \n<br/><br/>We are given that  $(\\vec{a}+\\vec{b}+\\vec{c}) \\times \\vec{c}=0$  which implies  $(\\vec{a}+\\vec{b}) \\times \\vec{c}=0$ . So,  $\\vec{c}$  is in the direction of  $\\vec{a}+\\vec{b}$ .\n\n<br/><br/>Let's denote  $\\vec{c}=\\alpha(\\vec{a}+\\vec{b})$ .\n\n<br/><br/>Substituting values for  $\\vec{a}$  and  $\\vec{b}$ , we get :\n\n<br/><br/> $\\vec{c}=\\alpha((\\lambda+3)\\hat{i}+\\hat{k})$ \n<br/><br/>From the conditions  $\\vec{a} \\cdot \\vec{c}=-17$  and  $\\vec{b} \\cdot \\vec{c}=-20$ , we can form two equations :\n\n<br/><br/> $\\alpha\\lambda(\\lambda+3)-\\alpha=-17\\text{and}\\alpha(3\\lambda+9+2)=-20.$ \n<br/><br/>By solving the above equations, we find  $\\alpha=-1$  and  $\\lambda=3$ .\n\n<br/><br/>Substituting these values back into  $\\vec{c}$  gives  $\\vec{c}=-6\\hat{i}-\\hat{k}$ .\n\n<br/><br/>Next, we need to find  $|\\vec{c} \\times (\\lambda\\hat{i}+\\hat{j}+\\hat{k})|^{2}$ .\n\n<br/><br/>This simplifies to :\n\n<br/><br/> $|\\vec{c} \\times (3\\hat{i}+\\hat{j}+\\hat{k})|^{2}$ \n<br/><br/>Calculate the cross product  $\\vec{c} \\times (3\\hat{i}+\\hat{j}+\\hat{k})$  which gives :\n\n<br/><br/> $=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ -6 &amp; 0 &amp; -1 \\\\ 3 &amp; 1 &amp; 1 \\end{aligned}|=\\hat{i}+3\\hat{j}-6\\hat{k}$ \n<br/><br/>Finally, the square of the magnitude of this vector is:\n\n<br/><br/> $|\\vec{c} \\times (3\\hat{i}+\\hat{j}+\\hat{k})|^{2}=(1)^{2}+3^{2}+(-6)^{2}=1+9+36=46.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\lambda \\in ℤ,\\vec{a}=\\lambda\\hat{i}+\\hat{j}-\\hat{k}",
@@ -5854,7 +5766,6 @@
         "|\\vec{c} \\times (\\lambda\\hat{i}+\\hat{j}+\\hat{k})|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:54.572898"
@@ -5901,7 +5812,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\vec{d}$  is  $⟂$  to both  $\\vec{a}$  and  $\\vec{b}$  then\n<br/><br/> $\\vec{d}=\\lambda(\\vec{a} \\times \\vec{b})=\\lambda|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 2 &amp; 7 &amp; -1 \\\\ 3 &amp; 0 &amp; 5 \\end{aligned}|=(35\\hat{i}-13\\hat{j}-21\\hat{k})\\lambda$ \n<br/><br/> $\\begin{aligned} &amp; \\text{but}\\vec{c} \\cdot \\vec{d}=12 \\Rightarrow \\lambda(35 \\times 1+13 \\times 1-21 \\times 2)=12 \\\\ \\\\ &amp; \\Rightarrow \\lambda(6)=12 \\Rightarrow \\lambda=2 \\\\ \\\\ &amp; \\vec{\\lambda}=2(35\\hat{i}-13\\hat{j}-21\\hat{k}) \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}(-\\hat{i}+\\hat{j}-\\hat{k}) \\cdot (\\vec{c} \\times \\vec{d}) \\\\ \\\\ &amp; =|\\begin{aligned} -1 &amp; 1 &amp; -1 \\\\ 1 &amp; -1 &amp; 2 \\\\ 70 &amp; -26 &amp; -42 \\end{aligned}| \\\\ \\\\ &amp; =-94+182-44=44 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+7\\hat{j}-\\hat{k},\\vec{b}=3\\hat{i}+5\\hat{k}",
@@ -5912,8 +5823,6 @@
         "\\vec{c} \\cdot \\vec{d}=12"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:54.642944"
@@ -6065,7 +5974,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\vec{r} \\times \\vec{a}=\\vec{c} \\times \\vec{a} \\\\ \\\\ &amp; \\Rightarrow (\\vec{r}-\\vec{c}) \\times \\vec{a}=0 \\Rightarrow \\vec{r}-\\vec{c}=\\lambda\\vec{a}((\\vec{r}-\\vec{c})\\text{and}\\vec{a}\\text{are parallel}) \\\\ \\\\ &amp; \\Rightarrow \\vec{r}=\\vec{c}+\\lambda\\vec{a} \\\\ \\\\ &amp; \\Rightarrow \\vec{r} \\cdot \\vec{b}=\\vec{c} \\cdot \\vec{b}+\\lambda\\vec{a} \\cdot \\vec{b} \\\\ \\\\ &amp; 0=(1-3)+\\lambda(2+5) \\Rightarrow \\lambda=\\frac{2}{7} \\\\ \\\\ &amp; \\text{Hence,}\\vec{r}=\\vec{c}+\\frac{2\\vec{a}}{7} \\\\ \\\\ &amp; \\vec{r} \\Rightarrow \\frac{11}{7}\\hat{i}-\\frac{11}{7}\\hat{k} \\\\ \\\\ &amp; |\\vec{r}|=\\sqrt{(\\frac{11}{7})^{2}+(-\\frac{11}{7})^{2}} \\Rightarrow r=\\frac{11\\sqrt{2}}{7} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-7\\hat{j}+5\\hat{k},\\vec{b}=\\hat{i}+\\hat{k}",
@@ -6076,8 +5985,6 @@
         "|\\vec{r}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:00.515065"
@@ -6135,8 +6042,7 @@
         "\\vec{b} \\cdot \\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:00.759542"
     },
@@ -6193,8 +6099,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:01.044746"
     },
@@ -6251,8 +6156,7 @@
         "\\vec{j}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Linear Combination & Vector Equations"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.060582"
     },
@@ -6298,12 +6202,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\vec{v} \\times \\vec{w}=(\\vec{u}+\\lambda\\vec{v})=\\hat{i}-\\hat{j}-2\\hat{k}+\\lambda(2\\hat{i}+\\hat{j}-\\hat{k}) \\\\ \\\\ &amp; =(2\\lambda+1)\\hat{i}+(\\lambda-1)\\hat{j}-(2+\\lambda)\\hat{k} \\\\ &amp; \\end{aligned} \\\\ &amp; \\begin{aligned} &amp; \\text{Now,}\\vec{v} \\cdot (\\vec{v} \\times \\vec{w})=0 \\\\ \\\\ &amp; \\Rightarrow (2\\hat{i}+\\hat{j}-\\hat{k}) \\cdot ((2\\lambda+1)\\hat{i}+(\\lambda-1)\\hat{j}-(\\lambda+2)\\hat{k})=0 \\\\ \\\\ &amp; \\Rightarrow 2(2\\lambda+1)+\\lambda-1+\\lambda+2=0 \\Rightarrow 6\\lambda+3=0 \\\\ \\\\ &amp; \\Rightarrow \\lambda=-\\frac{1}{2} \\\\ \\\\ &amp; \\vec{w} \\cdot (\\vec{v} \\times \\vec{w})=\\vec{w} \\cdot (\\vec{u}+\\lambda\\vec{v})=\\vec{u} \\cdot \\vec{w}+\\lambda\\vec{v} \\cdot \\vec{w}=0 \\\\ \\\\ &amp; \\vec{u} \\cdot \\vec{w}=-\\lambda\\vec{v} \\cdot \\vec{w} \\\\ \\\\ &amp; \\vec{u} \\cdot \\vec{w}=\\frac{1}{2} \\times 2=1 \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:08.166292"
     },
@@ -6340,7 +6243,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.722234"
@@ -6377,9 +6279,7 @@
         "\\frac{2\\pi}{3}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Linear Combination & Vector Equations"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.796678"
     },
@@ -6427,7 +6327,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lh1phdby/e74db975-74e1-4987-80c4-b8ae4380dc69/bb54dde0-e665-11ed-9cfb-9bcc868d407f/file-1lh1phdbz.png?format=png"
       ],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{AB}=-2\\hat{i}+\\hat{j}+3\\hat{k}",
@@ -6436,7 +6336,6 @@
         "\\vec{CB} \\cdot \\vec{CA}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:07:54.517657"
@@ -6483,7 +6382,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; [\\vec{b}-\\vec{a}\\vec{c}-\\vec{a}\\vec{d}-\\vec{a}]=0 \\\\ \\\\ &amp; (\\vec{b}-\\vec{a}) \\cdot [(\\vec{c}-\\vec{a}) \\times (\\vec{d}-\\vec{a})]=0 \\\\ \\\\ &amp; (\\vec{b}-\\vec{a}) \\cdot (\\vec{c} \\times \\vec{d}-\\vec{c} \\times \\vec{a}-\\vec{a} \\times \\vec{d})=0 \\\\ \\\\ &amp; [\\vec{b}\\vec{c}\\vec{d}]-[\\vec{b}\\vec{c}\\vec{a}]-[\\vec{b}\\vec{a}\\vec{d}]-[\\vec{a}\\vec{c}\\vec{d}]=0 \\\\ \\\\ &amp; \\therefore [\\vec{a}\\vec{b}\\vec{c}]=[\\vec{b}\\vec{c}\\vec{d}]+[\\vec{a}\\vec{b}\\vec{d}]+[\\vec{a}\\vec{d}\\vec{c}] \\\\ \\\\ &amp; =[\\vec{d}\\vec{c}\\vec{a}]+[\\vec{b}\\vec{d}\\vec{a}]+[\\vec{c}\\vec{d}\\vec{b}] \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b},\\vec{c}",
@@ -6491,8 +6390,6 @@
         "[\\vec{a}\\vec{b}\\vec{c}]"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:07:54.588427"
@@ -6694,7 +6591,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=\\hat{i}+2\\hat{j}+3\\hat{k}$ \n<br/><br/> $\\vec{b}=\\hat{i}-\\hat{j}+2\\hat{k}$ \n<br/><br/> $\\vec{c}=\\hat{5i}-3\\hat{j}+3\\hat{k}$ \n<br/><br/> $(\\vec{r}-\\vec{c}) \\times \\vec{b}=0,\\vec{r} \\cdot \\vec{a}=0$ \n<br/><br/> $\\Rightarrow \\vec{r}-\\vec{c}=\\lambda\\vec{b}$ \n<br/><br/>Also,  $(\\vec{c}+\\lambda\\vec{b}) \\cdot \\vec{a}=0$ \n<br/><br/> $\\Rightarrow \\vec{a} \\cdot \\vec{c}+\\lambda(\\vec{a} \\cdot \\vec{b})=0$ \n<br/><br/> $\\therefore \\lambda=\\frac{\\vec{a} \\cdot \\vec{c}}{\\vec{a} \\cdot \\vec{b}}=\\frac{-8}{5}$ \n<br/><br/> $\\vec{r}=\\frac{5(5\\hat{i}-3\\hat{i}+3\\hat{k})-8(\\hat{i}-\\hat{j}+2\\hat{k})}{5}$ \n<br/><br/> $\\Rightarrow$   $\\vec{r}=\\frac{17\\hat{i}-7\\hat{j}+\\hat{k}}{5}$ \n<br/><br/> $\\Rightarrow$   $|\\vec{r}|^{2}=\\frac{1}{25}(289+50)$ \n<br/><br/> $\\Rightarrow$   $25|\\vec{r}|^{2}=339$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+3\\hat{k},\\vec{b}=\\hat{i}-\\hat{j}+2\\hat{k}",
@@ -6705,8 +6602,6 @@
         "25|\\vec{r}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:00.586133"
@@ -6753,7 +6648,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\hat{n}=\\alpha\\vec{b}-\\vec{a}$ </p>\n<p> $\\vec{c} \\times (\\vec{a} \\times \\vec{b})=(\\vec{c}.\\vec{b})\\vec{a}-(\\vec{c}.\\vec{a})\\vec{b}$ </p>\n<p> $=12\\vec{a}-(\\vec{c}.(\\alpha\\vec{b}-\\hat{n}))\\vec{b}$ </p>\n<p> $=12\\vec{a}-(12\\alpha-0)\\vec{b}$ </p>\n<p> $=12(\\vec{a}-\\alpha\\vec{b})$ </p>\n<p> $\\therefore$   $|\\vec{c} \\times (\\vec{a} \\times \\vec{b})|=12$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b},\\vec{c}",
@@ -6764,8 +6659,6 @@
         "\\hat{n}=\\alpha\\vec{b}-\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:00.825693"
@@ -6870,7 +6763,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{b}(\\vec{a} \\cdot \\vec{c})-\\vec{c}(\\vec{a} \\cdot \\vec{b})=\\frac{\\vec{b}-\\vec{c}}{2}$   $\\vec{a} \\cdot \\vec{c}=\\frac{1}{2},\\vec{a} \\cdot \\vec{b}=\\frac{1}{2}$ \n<br/><br/>\n $\\begin{aligned} (\\vec{a} \\times \\vec{b}) \\cdot (\\vec{c} \\times \\vec{d}) &amp; =(\\vec{b} \\cdot \\vec{d})(\\vec{a} \\cdot \\vec{c})-(\\vec{a} \\cdot \\vec{d})(\\vec{b} \\cdot \\vec{c}) \\\\ \\\\ &amp; =(\\vec{a} \\cdot \\vec{b})(\\vec{a} \\cdot \\vec{c}) \\\\ \\\\ &amp; =\\frac{1}{4} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -6881,8 +6774,6 @@
         "\\vec{b}.\\vec{d}=\\vec{a}.\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
@@ -6909,7 +6800,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\vec{c}=c_{1}\\hat{i}+c_{2}\\hat{j}+c_{3}\\hat{k}$ \n<br/><br/>Now,  $\\vec{a} \\cdot \\vec{c}=-12$ \n<br/><br/> $\\Rightarrow 6c_{1}+9c_{2}+12c_{3}=-12$  ..............(i)\n<br/><br/>Also,  $\\vec{c} \\cdot (\\hat{i}-2\\hat{j}+\\hat{k})=5$ \n<br/><br/> $\\Rightarrow c_{1}-2c_{2}+c_{3}=5$  ................(ii)\n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}\\vec{a} \\times \\vec{c}=\\vec{a} \\times \\vec{b} \\\\ \\\\ &amp; \\Rightarrow \\vec{a} \\times (\\vec{c}-\\vec{b})=0 \\\\ \\\\ &amp; \\Rightarrow \\vec{a}\\text{is parallel to}(\\vec{c}-\\vec{b}) \\\\ \\\\ &amp; \\Rightarrow \\vec{a}=\\lambda(\\vec{c}-\\vec{b}) \\\\ \\\\ &amp; \\Rightarrow 6\\hat{i}+9\\hat{j}+12\\hat{k}=\\lambda(c_{1}-\\alpha)\\hat{i}+\\lambda(c_{2}-11)\\hat{j}+\\lambda(c_{3}+2)\\hat{k} \\end{aligned}$ \n<br/><br/>On comparing, we get\n<br/><br/> $c_{1}=\\frac{6}{\\lambda}+\\alpha,c_{2}=\\frac{9}{\\lambda}+11,c_{3}=\\frac{12}{\\lambda}-2$ \n<br/><br/>Put there values in (ii), we get\n<br/><br/> $\\begin{aligned} &amp; \\frac{6}{\\lambda}+\\alpha-\\frac{18}{\\lambda}-22+\\frac{12}{\\lambda}-2=5 \\\\ \\\\ &amp; \\Rightarrow \\alpha=29 \\end{aligned}$ \n<br/><br/>From (i) and values of  $c_{1},c_{2},c_{3}$ , and  $\\alpha$  we have\n<br/><br/> $\\begin{aligned} &amp; 6(\\frac{6}{\\lambda}+29)+9(\\frac{9}{\\lambda}+11)+12(\\frac{12}{\\lambda}-2)=-12 \\\\ \\\\ &amp; \\Rightarrow \\frac{261}{\\lambda}=-261 \\Rightarrow \\lambda=-1 \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{So,}c_{1}=23,c_{2}=2,c_{3}=-14 \\\\ \\\\ &amp; \\therefore \\vec{c} \\cdot (\\hat{i}+\\hat{j}+\\hat{k})=(23\\hat{i}+2\\hat{j}+-14\\hat{k}) \\cdot (\\hat{i}+\\hat{j}+\\hat{k}) \\\\ \\\\ &amp; =23+2-14=11 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=6\\hat{i}+9\\hat{j}+12\\hat{k},\\vec{b}=\\alpha\\hat{i}+11\\hat{j}-2\\hat{k}",
@@ -6920,8 +6811,7 @@
         "\\vec{c}=c_{1}\\hat{i}+c_{2}\\hat{j}+c_{3}\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.745011"
     },
@@ -6956,8 +6846,7 @@
         "(\\vec{a} \\cdot \\vec{b})^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.818797"
     },
@@ -7003,7 +6892,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\vec{a}=3\\hat{i}+\\hat{j}$  &amp;  $\\vec{b}=\\hat{i}+2\\hat{j}+\\hat{k}$ </p>\n<p> $\\vec{a} \\times (\\vec{b} \\times \\vec{c})=(\\vec{a}.\\vec{c})\\vec{b}-(\\vec{a}.\\vec{b})\\vec{c}=\\vec{b}+\\lambda\\vec{c}$ </p>\n<p>If  $\\vec{b}$  &amp;  $\\vec{c}$  are non-parallel</p>\n<p>then  $\\vec{a}.\\vec{c}=1$  &amp;  $\\vec{a}.\\vec{b}=-\\lambda$ </p>\n<p>but  $\\vec{a}.\\vec{b}=5 \\Rightarrow \\lambda=-5$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=3\\hat{i}+\\hat{j}",
@@ -7013,7 +6902,6 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:08.212752"
@@ -7071,8 +6959,7 @@
         "|\\vec{a} \\times \\vec{b}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.293847"
     },
@@ -7129,8 +7016,7 @@
         "\\vec{a}.\\vec{b}=3"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.381448"
     },
@@ -7187,8 +7073,7 @@
         "\\frac{10}{3}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:14.912474"
     },
@@ -7245,8 +7130,7 @@
         "\\vec{c}.(\\vec{b} \\times \\vec{c})=\\vec{c}.\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:14.991303"
     },
@@ -7302,8 +7186,7 @@
         "\\because \\hat{b}=\\vec{c}+2(\\vec{c} \\times \\hat{a})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.079652"
     },
@@ -7328,7 +7211,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a} \\cdot \\vec{b}=(\\hat{i}-2\\hat{j}+3\\hat{k}) \\cdot (\\hat{i}+\\hat{j}+\\hat{k})=2$  ........(i)\n<br/><br/>Given:  $\\vec{a}+(\\vec{b} \\times \\vec{c})=0$ \n<br/><br/> $\\Rightarrow \\vec{a} \\cdot \\vec{b}=0$  ........(ii)\n<br/><br/>Equation (i) and equation (ii) are contradicting.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}-2\\hat{j}+3\\hat{k}",
@@ -7339,8 +7222,7 @@
         "3(\\vec{c}.\\vec{a})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:52.910764"
     },
@@ -7397,8 +7279,7 @@
         "|\\hat{a}+\\hat{b}|^{2}=2+\\sqrt{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.231492"
     },
@@ -7455,8 +7336,7 @@
         "4+5\\beta=-1 \\Rightarrow \\beta=-1"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.312995"
     },
@@ -7515,8 +7395,7 @@
         "(S1):|\\vec{a} \\times \\vec{b}+\\vec{c} \\times \\vec{b}|-|\\vec{c}|=6(2\\sqrt{2}-1)"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.401799"
     },
@@ -7620,7 +7499,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$   $\\vec{a} \\times (\\vec{b} \\times \\vec{c})=3\\vec{b}-\\vec{c}=\\vec{u}$ </p>\n<p> $\\vec{b} \\times (\\vec{c} \\times \\vec{a})=\\vec{c}-2\\vec{a}=\\vec{v}$ </p>\n<p> $\\vec{c} \\times (\\vec{b} \\times \\vec{a})=3\\vec{b}-2\\vec{a}=\\vec{w}$ </p>\n<p> $\\therefore$   $\\vec{u}+\\vec{v}=\\vec{w}$ </p>\n<p>So, vectors  $\\vec{u}$ ,  $\\vec{v}$  and  $\\vec{w}$  are coplanar, hence their Scalar triple product will be zero.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}.\\vec{b}=1,\\vec{b}.\\vec{c}=2",
@@ -7631,7 +7510,6 @@
         "\\vec{u}+\\vec{v}=\\vec{w}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
@@ -7658,7 +7536,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2C_{1}+C_{2}+3C_{3}=5$  ...... (i)</p>\n<p> $3C_{1}+3C_{2}+C_{3}=0$  ...... (ii)</p>\n<p> $[\\vec{a}\\vec{b}\\vec{c}]=|\\begin{aligned} 2 &amp; 1 &amp; 3 \\\\ 3 &amp; 3 &amp; 1 \\\\ C_{1} &amp; C_{2} &amp; C_{3} \\end{aligned}|$ </p>\n<p> $=2(3C_{3}-C_{2})-1(3C_{3}-C_{1})+3(3C_{2}-3C_{1})$ </p>\n<p> $=3C_{3}+7C_{2}-8C_{1}$ </p>\n<p> $\\Rightarrow 8C_{1}-7C_{2}-3C_{3}=0$  ...... (iii)</p>\n<p> $C_{1}=\\frac{10}{122},C_{2}=\\frac{-85}{122},C_{3}=\\frac{225}{122}$ </p>\n<p>So  $122(C_{1}+C_{2}+C_{3})=150$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+\\hat{j}+3\\hat{k}",
@@ -7669,7 +7547,6 @@
         "122(c_{1}+c_{2}+c_{3})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:52.928510"
@@ -7773,7 +7650,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $\\vec{a}=2\\hat{i}-\\hat{j}+5\\hat{k}$  and  $\\vec{b}=\\alpha\\hat{i}+\\beta\\hat{j}+2\\hat{k}$ </p>\n<p>Also,  $((\\vec{a} \\times \\vec{b}) \\times i).\\hat{k}=\\frac{23}{2}$ </p>\n<p> $\\Rightarrow ((\\vec{a}.\\hat{i})\\vec{b}-(\\vec{b}.\\hat{i}).\\bar{a}).\\hat{k}=\\frac{23}{2}$ </p>\n<p> $\\Rightarrow (2.\\vec{b}-\\alpha.\\vec{a}).\\hat{k}=\\frac{23}{2}$ </p>\n<p> $\\Rightarrow 2.2-5\\alpha=\\frac{23}{2} \\Rightarrow \\alpha=\\frac{-3}{2}$ </p>\n<p>Now,  $|\\vec{b} \\times 2j|=|(\\alpha\\hat{i}+\\beta\\hat{j}+2\\hat{k}) \\times 2\\hat{j}|$ </p>\n<p> $=|2\\alpha\\hat{k}+0-4\\hat{i}|$ </p>\n<p> $=\\sqrt{4\\alpha^{2}+16}$ </p>\n<p> $=\\sqrt{4(\\frac{-3}{2})^{2}+16}=5$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow (2.\\vec{b}-\\alpha.\\vec{a}).\\hat{k}=\\frac{23}{2}",
@@ -7784,8 +7661,6 @@
         "=\\sqrt{4(\\frac{-3}{2})^{2}+16}=5"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:08.333330"
@@ -7832,7 +7707,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\vec{a}=-\\hat{i}+\\hat{j}+\\hat{k}$ </p>\n<p> $\\vec{b}=2\\hat{i}+\\hat{j}-\\hat{k}$ </p>\n<p>and let  $\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ </p>\n<p>Now,  $\\vec{a}+\\vec{b}=\\hat{i}+2\\hat{j}$ </p>\n<p>and  $\\vec{a} \\times \\vec{b}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ -1 &amp; 1 &amp; 1 \\\\ 2 &amp; 1 &amp; -1 \\end{aligned}|=-2\\hat{i}+\\hat{j}-3\\hat{k}$ </p>\n<p> $\\vec{c}$  is coplanar with  $\\vec{a}$  and  $\\vec{b}$ </p>\n<p> $\\therefore$   $[\\vec{c}\\vec{a}\\vec{b}]=0$ </p>\n<p> $\\Rightarrow |\\begin{aligned} x &amp; y &amp; z \\\\ -1 &amp; 1 &amp; 1 \\\\ 2 &amp; 1 &amp; -1 \\end{aligned}|=0$ </p>\n<p> $\\Rightarrow x(-2)-y(-1)+z(-3)=0$ </p>\n<p> $\\Rightarrow -2x+y-3z=0$  ..... (1)</p>\n<p>Now,  $(\\vec{a}+\\vec{b}) \\times (\\vec{a} \\times \\vec{b})$ </p>\n<p> $=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; 0 \\\\ -2 &amp; 1 &amp; -3 \\end{aligned}|$ </p>\n<p> $=-6\\hat{i}+3\\hat{j}+5\\hat{k}$ </p>\n<p>Given,  $\\vec{c}.[(\\vec{a}+\\vec{b}) \\times (\\vec{a} \\times \\vec{b})]=-42$ </p>\n<p> $\\Rightarrow (x\\hat{i}+y\\hat{j}+z\\hat{k}).(-6\\hat{i}+3\\hat{j}+5\\hat{k})=-42$ </p>\n<p> $\\Rightarrow -6x+3y+5z=-42$  ...... (2)</p>\n<p>Now,  $\\vec{a}-\\vec{b}=(-\\hat{i}+\\hat{j}+\\hat{k})-(2\\hat{i}+\\hat{j}-\\hat{k})$ </p>\n<p> $=-3\\hat{i}+0\\hat{j}+2\\hat{k}$ </p>\n<p> $\\therefore$   $\\vec{c} \\times (\\vec{a}-\\vec{b})$ </p>\n<p> $=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ x &amp; y &amp; z \\\\ -3 &amp; 0 &amp; 2 \\end{aligned}|$ </p>\n<p> $=2y\\hat{i}-\\hat{j}(2x+3z)+3y\\hat{k}$ </p>\n<p>Given,</p>\n<p> $(\\vec{c} \\times (\\vec{a}-\\vec{b})).\\hat{k}=3$ </p>\n<p> $\\Rightarrow (2y\\hat{i}-\\hat{j}(2x+3z)+3y\\hat{k}).\\hat{k}=3$ </p>\n<p> $\\Rightarrow 3y=3$ </p>\n<p> $\\Rightarrow y=1$ </p>\n<p>Putting value of  $y=1$  in equation (1) and (2) we get,</p>\n<p> $-2x+1-3z=0$  ..... (3)</p>\n<p>and  $-6x+3+5z=-42$ </p>\n<p> $\\Rightarrow -6x+5z=-45$  ..... (4)</p>\n<p>Solving (3) and (4), we get</p>\n<p> $x=5$  and  $z=-3$ </p>\n<p> $\\therefore$   $\\vec{c}=5\\hat{i}+\\hat{j}-3\\hat{k}$ </p>\n<p> $\\Rightarrow |\\vec{c}|^{2}=5^{2}+1^{2}+(-3)^{2}=35$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{c}",
@@ -7843,8 +7718,6 @@
         "|\\vec{c}|^{2}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:08.428423"
@@ -7902,8 +7775,7 @@
         "a_{1}-2a_{3}=13"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:14.951823"
     },
@@ -7960,9 +7832,7 @@
         "^{\\circ}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.034141"
     },
@@ -7998,8 +7868,7 @@
         "\\because |\\vec{a}+\\overset{˙}{b}|^{2}=|\\vec{a}|^{2}+2|b|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.872241"
     },
@@ -8081,7 +7950,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|\\vec{a}||\\vec{b}||\\vec{c}|=14$ \n<br/><br/>\n $\\begin{aligned} &amp; \\vec{a} \\wedge \\vec{b}=\\vec{b} \\wedge \\vec{c}=\\vec{c} \\wedge \\vec{a}=\\theta=\\frac{2\\pi}{3} \\\\ \\\\ &amp; \\vec{a} \\cdot \\vec{b}=-\\frac{1}{2}|\\vec{a}||\\vec{b}| \\\\ \\\\ &amp; \\vec{b} \\cdot \\vec{c}=-\\frac{1}{2}|\\vec{b}||\\vec{c}| \\\\ \\\\ &amp; \\vec{c} \\cdot \\vec{a}=-\\frac{1}{2}|\\vec{c}||\\vec{a}| \\end{aligned}$ \n<br/><br/>\nNow,\n<br/><br/>\n $\\begin{aligned} &amp; \\begin{aligned} &amp; (\\vec{a} \\times \\vec{b}) \\cdot (\\vec{b} \\times \\vec{c})+(\\vec{b} \\times \\vec{c}) \\cdot (\\vec{c} \\times \\vec{a})+(\\vec{c} \\times \\vec{a}) \\cdot (\\vec{a} \\times \\vec{b}) \\\\ \\\\ &amp; =168...(i) \\\\ \\\\ &amp; (\\vec{a} \\times \\vec{b}) \\cdot (\\vec{b} \\times \\vec{c})=(\\vec{a} \\cdot \\vec{b})(\\vec{b} \\cdot \\vec{c})-(\\vec{a} \\cdot \\vec{c})|\\vec{b}|^{2} \\\\ \\\\ &amp; =\\frac{1}{4}|\\vec{b}|^{2}|\\vec{a}||\\vec{c}|+\\frac{1}{2}|\\vec{a}||\\vec{b}|^{2}|\\vec{c}| \\\\ \\\\ &amp; =\\frac{3}{4}|\\vec{a}||\\vec{b}|^{2}|\\vec{c}|...(ii) \\end{aligned} \\end{aligned}$ \n<br/><br/>\nSimilarly  $(\\vec{b} \\times \\vec{c}) \\cdot (\\vec{c} \\times \\vec{a})=\\frac{3}{4}|\\vec{a}||\\vec{b}||\\vec{c}|^{2}...(iii)$ \n<br/><br/>\n $(\\vec{c} \\times \\vec{a}) \\cdot (\\vec{a} \\times \\vec{b})=\\frac{3}{4}|\\vec{a}|^{2}|\\vec{b}||\\vec{c}|...(iv)$ \n<br/><br/>\nSubstitute (ii), (iii), (iv) in (i)\n<br/><br/>\n $\\frac{3}{4}|\\vec{a}||\\vec{b}||\\vec{c}|[|\\vec{a}|+|\\vec{b}|+|\\vec{c}|]=168$ \n<br/><br/>\n $\\frac{3}{4} \\times 14[|\\vec{a}|+|\\vec{b}|+|\\vec{c}|]=168$ \n<br/><br/>\n $|\\vec{a}|+|\\vec{b}|+|\\vec{c}|=16$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b},\\vec{c}",
@@ -8089,8 +7958,6 @@
         "|\\vec{a}|+|\\vec{b}|+|\\vec{c}|=16"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:08.190080"
@@ -8202,8 +8069,7 @@
         "=(-\\alpha+1)\\hat{i}+(\\alpha^{2}-2)\\hat{j}+(\\alpha-2)\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:08.356909"
     },
@@ -8317,8 +8183,7 @@
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:14.972159"
     },
@@ -8375,8 +8240,7 @@
         "cos\\theta=cos2\\theta"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.057042"
     },
@@ -8412,9 +8276,7 @@
         "\\vec{a} \\times \\vec{b}=4.\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.893085"
     },
@@ -8450,9 +8312,7 @@
         "|(\\vec{a}-\\vec{b}) \\times (\\vec{a}+\\vec{b})|^{2}+4(\\vec{a}.\\vec{b})^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Linear Combination & Vector Equations"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:52.966097"
     },
@@ -8510,7 +8370,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:15.161180"
@@ -8568,8 +8427,7 @@
         "\\vec{a}.\\vec{b}=|\\vec{a}||\\vec{b}|cos\\theta"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.229617"
     },
@@ -8628,8 +8486,7 @@
         "=|\\vec{BA}|cos\\angleABC"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.085070"
     },
@@ -8766,7 +8623,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=2\\hat{i}-\\hat{j}+2\\hat{k}$ <br/><br/> $\\vec{b}=\\hat{i}+2\\hat{j}-\\hat{k}$ <br/><br/> $\\vec{c}=3\\hat{i}+2\\hat{j}-\\hat{k}$ <br/><br/> $\\vec{v}=x\\vec{a}+y\\vec{b}$ <br/><br/> $\\vec{v}(3\\hat{i}+2\\hat{j}-\\hat{k})=0$ <br/><br/> $\\vec{v}.\\hat{a}=19$ <br/><br/> $\\vec{v}=\\lambda\\vec{c} \\times (\\vec{a} \\times \\vec{b})$ <br/><br/> $\\vec{v}=\\lambda[(\\vec{c}.\\vec{b})\\vec{a}-(\\vec{c}.\\vec{a})\\vec{b}]$ <br/><br/> $=\\lambda[(3+4+1)(2\\hat{i}-\\hat{j}+2\\hat{k})-(\\frac{6-2-2}{2})(\\hat{i}+2\\hat{j}+\\hat{k})$ <br/><br/> $=\\lambda[16\\hat{i}-8\\hat{j}+16\\hat{k}-2\\hat{i}-4\\hat{j}+2\\hat{k}]$ <br/><br/> $\\vec{v}=\\lambda[14\\hat{i}-12\\hat{j}+18\\hat{k}]$ <br/><br/> $\\lambda[14\\hat{i}-12\\hat{j}+18\\hat{k}].\\frac{(2\\hat{i}-\\hat{j}+2\\hat{k})}{\\sqrt{4+1+4}}=19$ <br/><br/> $\\lambda\\frac{[28+12+36]}{3}=19$ <br/><br/> $\\lambda(\\frac{76}{3})=19$ <br/><br/> $4\\lambda=3 \\Rightarrow \\lambda=\\frac{3}{4}$ <br/><br/> $|2v^{2}|=|2 \\times \\frac{3}{4}(14\\hat{i}-12\\hat{j}+18\\hat{k})|^{2}$ <br/><br/> $\\frac{9}{4} \\times 4(7\\hat{i}-6\\hat{j}+9\\hat{k})^{2}$ <br/><br/> $=9(49+36+81)$ <br/><br/> $=9(166)$ <br/><br/> $=1494$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}-\\hat{j}+2\\hat{k}",
@@ -8777,8 +8634,6 @@
         "|2\\vec{v}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:59.700499"
@@ -8815,8 +8670,7 @@
         "\\vec{a} \\times \\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:59.778229"
     },
@@ -8877,7 +8731,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a} \\times \\vec{b}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 1 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{aligned}|=(3,-2,1)$ <br/><br/> $\\vec{c}\\perp\\vec{a},\\vec{c}\\perp\\vec{b} \\Rightarrow C||\\vec{a} \\times \\vec{b}$ <br/><br/> $\\vec{c}=\\lambda(\\vec{a} \\times \\vec{b})$ <br/><br/> $\\Rightarrow \\vec{c}=\\lambda(3\\hat{i}-2\\hat{j}+\\hat{k})$ <br/><br/>Given,  $\\vec{c}.(\\hat{i}+\\hat{j}+3\\hat{k})=8$ <br/><br/> $\\Rightarrow 3\\lambda-2\\lambda+3\\lambda=8$ <br/><br/> $\\Rightarrow 4\\lambda=8 \\Rightarrow \\lambda=2$ <br/><br/> $\\therefore$   $\\vec{c}=6\\hat{i}-4\\hat{j}+2\\hat{k}$ <br/><br/> $\\vec{c}.(\\vec{a} \\times \\vec{b})=[\\vec{c}\\vec{a}\\vec{b}]=|\\begin{aligned} 6 &amp; -4 &amp; 2 \\\\ 1 &amp; 1 &amp; -1 \\\\ 1 &amp; 2 &amp; 1 \\end{aligned}|$ <br/><br/> $\\Rightarrow$  18 + 8 + 2 = 28<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{c}",
@@ -8888,8 +8742,7 @@
         "\\vec{c}\\perp\\vec{a},\\vec{c}\\perp\\vec{b} \\Rightarrow C||\\vec{a} \\times \\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:59.946425"
     },
@@ -8944,8 +8797,7 @@
         "\\Rightarrow \\vec{r}=\\frac{\\vec{a}+\\vec{b}+\\vec{c}}{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.104117"
     },
@@ -9002,8 +8854,7 @@
         "\\vec{a}=(\\vec{b}.\\vec{c})\\vec{b}-(\\vec{b}.\\vec{b})\\vec{c}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.177854"
     },
@@ -9114,9 +8965,7 @@
         "\\frac{\\pi}{6}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Vector Triple Product & Lagrange Identity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.107321"
     },
@@ -9162,7 +9011,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{OP}=x\\hat{i}+y\\hat{j}-\\hat{k}$ \n<br/><br/> $\\vec{OP}\\perp\\vec{OQ}$ <br/><br/> $\\vec{OQ}=-\\hat{i}+2\\hat{j}+3x\\hat{k}$ <br/><br/> $\\vec{PQ}=(-1-x)\\hat{i}+(2-y)\\hat{j}+(3x+1)\\hat{k}$ <br/><br/> $|\\vec{PQ}|=\\sqrt{(-1-x)^{2}+(2-y)^{2}+(3x+1)^{2}}$  <br/><br/> $\\sqrt{20}=\\sqrt{(-1-x)^{2}+(2-y)^{2}+(3x+1)^{2}}$ <br/><br/>20 = 1 + x<sup>2</sup> + 2x + 4 + y<sup>2</sup>  $-$  4y + 9x<sup>2</sup> + 1 + 6x<br/><br/>20 = 10x<sup>2</sup> + y<sup>2</sup> + 8x + 6  $-$  4y<br/><br/>20 = 10x<sup>2</sup> + 4x<sup>2</sup> + 8x + 6  $-$  8x<br/><br/>14 = 14x<sup>2</sup>  $\\Rightarrow$  x<sup>2</sup> = 1\n<br/><br/>Also,  $\\vec{OP}.\\vec{OQ}=0$ <br/><br/> $-x+2y-3x=0$ <br/><br/> $4x=2y$ <br/><br/>y = 2x\n<br/><br/> $\\therefore$  y<sup>2</sup> = 4x<sup>2</sup>  $\\Rightarrow$  y<sup>2</sup> = 4<br/><br/>x = 1 as x &gt; 0 and y = 2<br/><br/> $\\therefore$   $|\\begin{aligned} x &amp; y &amp; -1 \\\\ -1 &amp; 2 &amp; 3x \\\\ 3 &amp; z &amp; -7 \\end{aligned}|=0$ <br/><br/> $\\Rightarrow$   $|\\begin{aligned} 1 &amp; 2 &amp; -1 \\\\ -1 &amp; 2 &amp; 3 \\\\ 3 &amp; z &amp; -7 \\end{aligned}|$  = 0<br/><br/> $\\Rightarrow$  1( $-$ 14  $-$ 3z)  $-$  2(7  $-$  9)  $-$  1( $-$ z  $-$ 6) = 0<br/><br/> $\\Rightarrow$   $-$ 14  $-$ 3z + 4 + z + 6 = 0<br/><br/> $\\Rightarrow$  2z =  $-$ 4  $\\Rightarrow$  z =  $-$ 2<br/><br/> $\\therefore$  x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 9<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{OP}=x\\hat{i}+y\\hat{j}-\\hat{k}",
@@ -9173,8 +9022,6 @@
         "\\vec{OR}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:21.194410"
@@ -9268,8 +9115,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:59.718220"
     },
@@ -9480,7 +9326,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=\\hat{i}+\\hat{j}+2\\hat{k}$ <br/><br/> $\\vec{b}=-\\hat{i}+2\\hat{j}+3\\hat{k}$ <br/><br/> $\\vec{a}+\\vec{b}=3\\hat{j}+5\\hat{k};\\vec{a}.\\vec{b}=-1+2+6=7$ <br/><br/> $((\\vec{a} \\times ((\\vec{a}-\\vec{b}) \\times \\vec{b})) \\times \\vec{b})$ <br/><br/> $((\\vec{a} \\times (\\vec{a} \\times \\vec{b}-\\vec{b} \\times \\vec{b})) \\times \\vec{b})$ <br/><br/> $(\\vec{a} \\times (\\vec{a} \\times \\vec{b}-0)) \\times \\vec{b}$ <br/><br/> $(\\vec{a} \\times (\\vec{a} \\times \\vec{b})) \\times \\vec{b}$ <br/><br/> $((\\vec{a}.\\vec{b})\\vec{a}-(\\vec{a}.\\vec{a})\\vec{b}) \\times \\vec{b}$ <br/><br/> $(\\vec{a}.\\vec{b})\\vec{a} \\times \\vec{b}-(\\vec{a}.\\vec{a})(\\vec{b} \\times \\vec{b})$ <br/><br/> $(\\vec{a}.\\vec{b})(\\vec{a} \\times \\vec{b})$ <br/><br/> $\\vec{a} \\times \\vec{b}=|\\begin{aligned} i &amp; j &amp; k \\\\ 1 &amp; 1 &amp; 2 \\\\ -1 &amp; 2 &amp; 3 \\end{aligned}|=-\\hat{i}-5\\hat{j}+3\\hat{k}$ <br/><br/> $\\therefore$   $7(-\\hat{i}-5\\hat{j}+3\\hat{k})$ <br/><br/> $(\\vec{a}+\\vec{b}) \\times (7(-\\hat{i}-5\\hat{j}+3\\hat{k}))$ <br/><br/> $7(0\\hat{i}+3\\hat{j}+5\\hat{k}) \\times (-\\hat{i}-5\\hat{j}+3\\hat{k})$ <br/><br/> $|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 0 &amp; 3 &amp; 5 \\\\ -1 &amp; -5 &amp; 3 \\end{aligned}|$ <br/><br/> $\\Rightarrow 34\\hat{i}-(5)\\hat{j}+(3\\hat{k})$ <br/><br/> $\\Rightarrow 34\\hat{i}-5\\hat{j}+3\\hat{k}$ <br/><br/> $\\therefore$ \n $7(0\\hat{i}+3\\hat{j}+5\\hat{k}) \\times (-\\hat{i}-5\\hat{j}+3\\hat{k})$ \n<br/><br/>=  $7(34\\hat{i}-5\\hat{j}+3\\hat{k})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+2\\hat{k}",
@@ -9491,7 +9337,6 @@
         "(\\vec{a} \\times (\\vec{a} \\times \\vec{b})) \\times \\vec{b}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:15.191667"
@@ -9538,7 +9383,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=\\lambda\\vec{b}+\\mu\\vec{c}=\\hat{i}(2\\lambda+\\mu)+\\hat{j}(\\lambda-\\mu)+\\hat{k}(\\lambda+\\mu)$ <br/><br/> $\\vec{a}.\\vec{d}=0=3(2\\lambda+\\mu)+2(\\lambda-\\mu)+6(\\lambda+\\mu)$ <br/><br/> $\\Rightarrow 14\\lambda+7\\mu=0 \\Rightarrow \\mu=-2\\lambda$ <br/><br/> $\\Rightarrow \\vec{a}=(0)\\hat{i}-3\\lambda\\hat{j}+(-\\lambda)\\hat{k}$ <br/><br/> $\\Rightarrow |\\vec{a}|=\\sqrt{10}|\\lambda|=\\sqrt{10} \\Rightarrow |\\lambda|=1$ <br/><br/> $\\lambda=1$  or  $-1$ <br/><br/> $[\\vec{a}\\vec{b}\\vec{c}]$  = 0<br/><br/> $[\\vec{a}\\vec{b}\\vec{c}]+[\\vec{a}\\vec{b}\\vec{d}]+[\\vec{a}\\vec{c}\\vec{d}]=[\\vec{a}\\vec{b}+\\vec{c}\\vec{d}]$ <br/><br/> $=|\\begin{aligned} 0 &amp; -3\\lambda &amp; \\lambda \\\\ 3 &amp; 0 &amp; 2 \\\\ 3 &amp; 2 &amp; 6 \\end{aligned}|$ <br/><br/> $=3\\lambda(12)+\\lambda(6)=42\\lambda=-42$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -9549,7 +9394,6 @@
         "\\vec{a}.\\vec{d}=0=3(2\\lambda+\\mu)+2(\\lambda-\\mu)+6(\\lambda+\\mu)"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:15.265713"
@@ -9607,9 +9451,7 @@
         "\\times"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.128358"
     },
@@ -9655,7 +9497,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=(2,-3,4)$ ,  $\\vec{b}=(7,1,-6)$ <br/><br/> $\\vec{r} \\times \\vec{a}-\\vec{r} \\times \\vec{b}=0$ <br/><br/> $\\vec{r} \\times (\\vec{a}-\\vec{b})=0$ <br/><br/> $\\vec{r}=\\lambda(\\vec{a}-\\vec{b})$ <br/><br/> $\\vec{r}=\\lambda(-5\\hat{i}-4\\hat{j}+10\\hat{k})$ <br/><br/> $\\vec{r}.(2,-3,1)=?$ <br/><br/>Given  $\\vec{r}.(1,2,1)=-3$ <br/><br/> $\\lambda(-5-8+10)=-3 \\Rightarrow \\lambda=1$ <br/><br/> $\\therefore$   $(-5,-4,10).(2,-3,1)$ <br/><br/>=  - 10 + 12 + 10 = 12<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -9666,7 +9508,6 @@
         "\\vec{r} \\times \\vec{a}-\\vec{r} \\times \\vec{b}=0"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:21.210084"
@@ -9725,7 +9566,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:21.297572"
@@ -9787,7 +9627,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{p}=2\\hat{i}+3\\hat{j}+\\hat{k}$  (Given )<br/><br/> $\\vec{q}=\\hat{i}+2\\hat{j}+\\hat{k}$ <br/><br/>Now,  $(\\vec{p}+\\vec{q}) \\times (\\vec{p}-\\vec{q})=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 3 &amp; 5 &amp; 2 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}|$ <br/><br/> $=-2\\hat{i}-2\\hat{j}-2\\hat{k}$ <br/><br/> $\\Rightarrow \\vec{r}= \\pm \\sqrt{3}\\frac{((\\vec{p}+\\vec{q}) \\times (\\vec{p}-\\vec{q}))}{|(\\vec{p}+\\vec{q}) \\times (\\vec{p}-\\vec{q})|}= \\pm \\frac{\\sqrt{3}(-2\\hat{i}-2\\hat{j}-2\\hat{k})}{\\sqrt{2^{2}+2^{2}+2^{2}}}$ <br/><br/> $\\vec{r}= \\pm (-\\hat{i}-\\hat{j}-\\hat{k})$ <br/><br/>According to question <br/><br/> $\\vec{r}=\\alpha\\hat{i}+\\beta\\hat{j}+\\gamma\\hat{k}$ <br/><br/>So, | $\\alpha$ | = 1, | $\\beta$ | = 1, | $\\gamma$ | = 1<br/><br/> $\\Rightarrow$   $|\\alpha|+|\\beta|+|\\gamma|$  = 3<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{p}=2\\hat{i}+3\\hat{j}+\\hat{k}",
@@ -9798,7 +9638,7 @@
         "|\\vec{r}|=\\sqrt{3}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:59.826178"
     },
@@ -9834,8 +9674,7 @@
         "|\\vec{x}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:59.903990"
     },
@@ -9872,7 +9711,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:59.980480"
@@ -10042,10 +9880,7 @@
         "|\\vec{a}|=2"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
-        "Vector Triple Product & Lagrange Identity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:15.287711"
     },
@@ -10150,7 +9985,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given   $\\vec{r}$   $\\times$   $\\vec{a}$  =  $\\vec{b}$   $\\times$   $\\vec{r}$ \n<br/><br/> $\\Rightarrow$   $\\vec{r} \\times \\vec{a}=-\\vec{r} \\times \\vec{b}$ <br/><br/> $\\vec{r} \\times (\\vec{a}+\\vec{b})=0$ <br/><br/> $\\vec{r}||(\\vec{a}+\\vec{b})$ <br/><br/> $\\vec{r}=\\lambda(\\vec{a}+\\vec{b})$ <br/><br/> $(\\vec{a}+\\vec{b}=3\\hat{i}-\\hat{j}+2\\hat{k})$ <br/><br/> $\\because$   $\\vec{r}.(2\\hat{i}+5\\hat{j}-\\alpha\\hat{k})=-1$ <br/><br/> $\\lambda[3\\hat{i}-\\hat{j}+2\\hat{k}].[2\\hat{i}+5\\hat{j}-\\alpha\\hat{k}]=-1$ <br/><br/> $\\Rightarrow \\lambda(6-5-2\\alpha)=-1$ <br/><br/> $\\lambda(1-2\\alpha)=-1$  .... (1)<br/><br/> $\\vec{r}.(\\alpha\\hat{i}+2\\hat{j}+\\hat{k})=3$ <br/><br/> $\\lambda(3\\hat{i}-\\hat{j}+2\\hat{k}).(\\alpha\\hat{i}+2\\hat{j}+\\hat{k})=3$ <br/><br/> $\\Rightarrow \\lambda[3\\alpha-2+2]=3 \\Rightarrow \\lambda\\alpha=1$  .... (2)<br/><br/>From (1) &amp; (2)<br/><br/> $\\lambda[1-\\frac{2}{\\lambda}]=-1$ <br/><br/> $\\lambda-2=-1 \\Rightarrow \\lambda=1\\alpha=1$ <br/><br/> $\\vec{r}=3\\hat{i}-\\hat{j}+2\\hat{k}$ <br/><br/> $\\alpha+|\\vec{r}|^{2}=1+14=15$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -10161,7 +9996,6 @@
         "|\\vec{r}|^{2}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:21.234013"
@@ -10187,7 +10021,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=(1,-\\alpha,\\beta)$ <br/><br/> $\\vec{b}=(3,\\beta,-\\alpha)$ <br/><br/> $\\vec{c}=(-\\alpha,-2,1);\\alpha,\\beta \\in I$ <br/><br/> $\\vec{a}.\\vec{b}=-1 \\Rightarrow 3-\\alpha\\beta-\\alpha\\beta=-1$ <br/><br/> $\\Rightarrow \\alpha\\beta=2$ \n<br/><br/>Possible value of <br/> $\\alpha$  and  $\\beta$ \n<br/><br/> $\\begin{aligned} 1 &amp; 2 \\\\ 2 &amp; 1 \\\\ -1 &amp; -2 \\\\ -2 &amp; -1 \\end{aligned}$ <br/><br/> $\\vec{b}.\\vec{c}=10$ <br/><br/> $\\Rightarrow -3\\alpha-2\\beta-\\alpha=10$ <br/><br/> $\\Rightarrow 2\\alpha+\\beta+5=0$ <br/><br/> $\\therefore$   $\\alpha$  =  $-$ 2;  $\\beta$  =  $-$ 1<br/><br/> $[\\vec{a}\\vec{b}\\vec{c}]=|\\begin{aligned} 1 &amp; 2 &amp; -1 \\\\ 3 &amp; -1 &amp; 2 \\\\ 2 &amp; -2 &amp; 1 \\end{aligned}|$ <br/><br/> $=1(-1+4)-2(3-4)-1(-6+2)$ <br/><br/> $=3+2+4=9$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=\\hat{i}-\\alpha\\hat{j}+\\beta\\hat{k}",
@@ -10198,7 +10032,6 @@
         "(\\vec{a} \\times \\vec{b}).\\vec{c}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:59.762936"
@@ -10226,7 +10059,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1krsxutxo/89c50a9a-1298-47d8-a4a0-04bf9dbedb19/04647bd0-f2a2-11eb-acf8-3bc8cc707b2f/file-1krsxutxp.jpeg"
       ],
-      "topic_tag": "Linear Combination & Vector Equations",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{v}_{2}=2\\hat{i}+(p+1)\\hat{j}",
@@ -10237,7 +10070,7 @@
         "2P^{2}-2P-4=0 \\Rightarrow P^{2}-P-2=0"
       ],
       "key_concepts": [
-        "Linear Combination & Vector Equations"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:59.851566"
     },
@@ -10298,7 +10131,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{c}=\\lambda(\\vec{b} \\times (\\vec{a} \\times \\vec{b}))$ <br/><br/> $=\\lambda((\\vec{b}.\\vec{b})\\vec{a}-(\\vec{b}.\\vec{a})\\vec{b})$ <br/><br/> $=\\lambda(5(-\\hat{i}+\\hat{j}+\\hat{k})+2\\hat{i}+\\hat{k})$ <br/><br/> $=\\lambda(-3\\hat{i}+5\\hat{j}+6\\hat{k})$ <br/><br/> $\\vec{c}.\\vec{a}=7$ \n<br/><br/> $\\Rightarrow 3\\lambda+5\\lambda+6\\lambda=7$ <br/><br/> $\\Rightarrow$   $\\lambda=\\frac{1}{2}$ <br/><br/> $\\therefore$   $2|(\\frac{-3}{2}-1+2)\\hat{i}+(\\frac{5}{2}+1)\\hat{j}+(3+1+1)\\hat{k}|^{2}$ <br/><br/> $=2(\\frac{1}{4}+\\frac{49}{4}+25)=25+50=75$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a},\\vec{b}",
@@ -10309,8 +10142,6 @@
         "\\vec{a}=-\\hat{i}+\\hat{j}+\\hat{k}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:09:00.000887"
@@ -10357,7 +10188,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=\\vec{a}.(\\vec{b} \\times \\vec{c})$ <br/><br/> $=[\\vec{a}\\vec{b}\\vec{c}]$ <br/><br/> $=|\\begin{aligned} x &amp; -2 &amp; 3 \\\\ -2 &amp; x &amp; -1 \\\\ 7 &amp; -2 &amp; x \\end{aligned}|$ <br/><br/> $=x(x^{2}+2)+2(-2a+7)+3(4-7x)$ <br/><br/> $\\Rightarrow f(x)=x^{3}-27x+26$ <br/><br/> $f^{'}(x)=3x^{2}-27$ <br/><br/>For maxima or minima  $f^{'}(x)=0$ <br/><br/> $\\therefore$   $3x^{2}-27=0$ <br/><br/> $\\Rightarrow x= \\pm 3$ <br/><br/>Now,  $f^{''}(x)=6x$ <br/><br/>f''(x) at x =  $-$ 3 is 6( $-$ 3) =  $-$ 18 &lt; 0<br/><br/> $\\therefore$  At x =  $-$ 3 f(x) is maximum.<br/><br/>So, x<sub>0</sub> =  $-$ 3<br/><br/> $\\therefore$   $\\vec{a}=-3\\hat{i}-2\\hat{j}+3\\hat{k}$ <br/><br/> $\\vec{b}=-2\\hat{i}-3\\hat{j}-\\hat{k}$ <br/><br/> $\\vec{c}=7\\hat{i}-2\\hat{j}-3\\hat{k}$ <br/><br/>Now,  $\\vec{a}.\\vec{b}+\\vec{b}.\\vec{c}+\\vec{c}.\\vec{a}$ <br/><br/> $=(6+6-3)+(-14+6+3)+(-21+4-9)$ <br/><br/> $=9-5-26$ <br/><br/> $=-22$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=\\vec{a}.(\\vec{b} \\times \\vec{c})",
@@ -10368,7 +10199,6 @@
         "=[\\vec{a}\\vec{b}\\vec{c}]"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:21.348336"
@@ -10451,7 +10281,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $|\\vec{x}+\\vec{y}|=|\\vec{x}|$ \n<br/>Squaring both sides we get\n<br/><br/> $|\\vec{x}|^{2}+2\\vec{x}.\\vec{y}+|\\vec{y}|^{2}=|\\vec{x}|^{2}$ \n<br/><br/> $\\Rightarrow$   $2\\vec{x}.\\vec{y}+\\vec{y}.\\vec{y}$  = 0 ....(1)\n<br/><br/>Given  $2\\vec{x}+\\lambda\\vec{y}$  is perpendicular to  $\\vec{y}$ \n<br/><br/> $\\therefore$   $(2\\vec{x}+\\lambda\\vec{y}).\\vec{y}$  = 0\n<br/><br/> $\\Rightarrow$   $2\\vec{x}.\\vec{y}+\\lambda\\vec{y}.\\vec{y}$  = 0 ....(2)\n<br/><br/>Comparing (1) &amp; (2) we get,  $\\lambda$  = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{x}",
@@ -10462,7 +10292,7 @@
         "2\\vec{x}.\\vec{y}+\\vec{y}.\\vec{y}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:09:00.025985"
     },
@@ -10489,7 +10319,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/1kieyiayy/7317ad14-de38-4a7d-89d9-416e2ac5c709/a5a8e6a0-38c3-11eb-9f00-31ef2c482215/file-1kieyiayz-1940w.jpeg"
       ],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{OB}.\\vec{OP}-3|\\vec{OA} \\times \\vec{OP}|^{2}=6",
@@ -10500,7 +10330,6 @@
         "\\vec{OA}=\\vec{a}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:09:02.606128"
@@ -10558,8 +10387,7 @@
         "=\\frac{ab+bc+ac}{\\sqrt{a^{2}+b^{2}+c^{2}}.\\sqrt{a^{2}+b^{2}+c^{2}}}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.370055"
     },
@@ -10616,8 +10444,7 @@
         "\\vec{d}=\\vec{a} \\times \\vec{b}+\\vec{b} \\times \\vec{c}+\\vec{c} \\times \\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.466507"
     },
@@ -10872,9 +10699,7 @@
         "\\frac{\\pi}{3}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Vector Triple Product & Lagrange Identity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:09:02.641933"
     },
@@ -10988,8 +10813,7 @@
         "\\vec{c}.\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:21.415427"
     },
@@ -11014,7 +10838,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\vec{a}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ <br/><br/>Now  $\\hat{i} \\times (\\vec{a} \\times \\hat{i})=(\\hat{i}.\\hat{i})\\vec{a}-(\\hat{i}.\\vec{a})\\hat{i}$ <br/><br/>=  $y\\hat{j}+z\\hat{k}$ <br/><br/>Similarly  $\\hat{j} \\times (\\vec{a} \\times \\hat{j})=x\\hat{i}+z\\hat{k}$ <br/><br/> $\\hat{k} \\times (\\vec{a} \\times \\hat{k})=x\\hat{i}+y\\hat{j}$ <br/><br/>Now  $|y\\hat{j}+z\\hat{k}|^{2}+|x\\hat{i}+z\\hat{k}|^{2}+|x\\hat{i}+y\\hat{j}|^{2}$ <br/><br/>=  $2(x^{2}+y^{2}+z^{2})$ \n<br/><br/>Given  $\\vec{a}=2\\hat{i}+\\hat{j}+2\\hat{k}$ \n<br/><br/> $\\therefore$  x = 2, y = 1, z = 2\n<br/><br/>= 2(4 + 1 + 4) = 18<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+\\hat{j}+2\\hat{k}",
@@ -11025,7 +10849,6 @@
         "2(x^{2}+y^{2}+z^{2})"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:09:00.083475"
@@ -11051,7 +10874,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\because$   $\\vec{p}$ ,  $\\vec{q}$ ,  $\\vec{r}$  are coplanar\n<br/><br/> $\\therefore$   $[\\begin{aligned} \\vec{p} &amp; \\vec{q} &amp; \\vec{r} \\end{aligned}]$  = 0\n<br/><br/> $\\Rightarrow$   $|\\begin{aligned} a+1 &amp; a &amp; a \\\\ a &amp; a+1 &amp; a \\\\ a &amp; a &amp; a+1 \\end{aligned}|$  = 0\n<br/><br/> $\\Rightarrow$  (a + 1) + a + a = 0\n<br/><br/> $\\Rightarrow$  a =  $-\\frac{1}{3}$ \n<br/><br/> $\\vec{p}.\\vec{q}$  =  $\\frac{1}{9}(-2-2+1)$  =  $-\\frac{1}{3}$ \n<br/><br/> $\\vec{r} \\times \\vec{q}$  =  $\\frac{1}{9}|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ -1 &amp; 2 &amp; -1 \\\\ -1 &amp; -1 &amp; 2 \\end{aligned}|$ \n<br/><br/>=  $\\frac{1}{9}(3\\hat{i}+3\\hat{j}+3\\hat{k})$ \n<br/><br/>=  $\\frac{\\hat{i}+\\hat{j}+\\hat{k}}{3}$ \n<br/><br/> $\\Rightarrow$   $|\\vec{r} \\times \\vec{q}|^{2}=\\frac{1}{3}$ \n<br/><br/>Also  $3(\\vec{p}.\\vec{q})^{2}-\\lambda|\\vec{r} \\times \\vec{q}|^{2}=0$ \n<br/><br/> $\\Rightarrow$   $3(\\frac{1}{9})-\\lambda(\\frac{1}{3})$  = 0\n<br/><br/>  $\\Rightarrow$   $\\lambda$  = 1<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{p}=(a+1)\\hat{i}+a\\hat{j}+a\\hat{k}",
@@ -11062,8 +10885,6 @@
         "\\vec{q}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:09:02.659858"
@@ -11220,7 +11041,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $\\vec{b}=2\\vec{a}$ \n<br/><br/> $\\therefore$   $4\\hat{i}+(3-\\lambda_{2})\\hat{j}+6\\hat{k}=4\\hat{i}+2\\lambda_{1}\\hat{j}+6\\hat{k}$ \n<br/><br/> $\\Rightarrow 3-\\lambda_{2}=2\\lambda_{1} \\Rightarrow 2\\lambda_{1}+\\lambda_{2}=3...(1)$ \n<br/><br/>Given  $\\vec{a}$  is   perpendicular to  $\\vec{c}$  <br/><br/> $\\therefore$   $\\vec{a}.\\vec{c}=0$ \n<br/><br/> $\\Rightarrow 6+6\\lambda_{1}+3(\\lambda_{3}-1)=0$ \n<br/><br/> $\\Rightarrow 2\\lambda_{1}+\\lambda_{3}=-1...(2)$ \n<br/><br/>Now  $(\\lambda_{1},\\lambda_{2},\\lambda_{3})=(\\lambda_{1},3-2\\lambda_{1},-1-2\\lambda_{1})$ \n<br/><br/>By checking each option you can see,\n<br/><br/>when  $\\lambda_{1}$  =  $-\\frac{1}{2}$ \n<br/><br/>then  $\\lambda_{2}$  =  $3-2\\lambda_{1}$  = 3 + 1 = 4\n<br/><br/>and  $\\lambda_{3}$  =  $-1-2\\lambda_{1}$  = - 1 + 1 = 0<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+\\lambda_{1}\\hat{j}+3\\hat{k},",
@@ -11231,7 +11052,7 @@
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:29.760886"
     },
@@ -11277,7 +11098,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Required vector is  $\\vec{r}$  =  $\\lambda((\\bar{a}+\\bar{b}) \\times (\\bar{a}-\\bar{b}))$ <br/><br/>\n $\\Rightarrow |\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; 4 &amp; 0 \\\\ 2 &amp; 0 &amp; 4 \\end{aligned}|=\\lambda(16\\hat{i}-16\\hat{j}-8\\hat{k})$ <br/><br/>\n $\\Rightarrow \\vec{r}=8\\lambda(2\\hat{i}-2\\hat{j}-\\hat{k})=|\\vec{r}|$ <br/><br/>\n $\\Rightarrow |8\\lambda|.3 \\Rightarrow 8\\lambda= \\pm 4$ <br/><br/>\n $\\Rightarrow \\vec{r}= \\pm 4(2\\hat{i}-2\\hat{j}-\\hat{k})$ \n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=3\\hat{i}+2\\hat{j}+2\\hat{k}",
@@ -11288,8 +11109,7 @@
         "\\lambda((\\bar{a}+\\bar{b}) \\times (\\bar{a}-\\bar{b}))"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:27:48.688355"
     },
@@ -11337,7 +11157,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf7697gjy6exnnu/54fac0ab-c1ab-4de8-97ed-5fc06bb770a2/813e86a0-a81c-11e9-a277-6507805b1ccf/file-jf7697gjy6exnnv-1580w.jpg"
       ],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Easy",
       "key_formulas": [
         "AD=|\\frac{\\vec{AP}.\\vec{n}}{|\\vec{n}|}|=\\sqrt{61}",
@@ -11345,7 +11165,7 @@
         "=\\sqrt{110-61}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:29.527962"
     },
@@ -11562,7 +11382,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/jf7697gjy9ucc7s/b38ce222-ab20-40d0-831b-6bbedd18c935/1c6cd580-a9ff-11e9-a277-6507805b1ccf/file-jf7697gjy9ucc7t-1580w.jpg"
       ],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "OG=\\sqrt{4+16+4}",
@@ -11572,7 +11392,6 @@
         "\\Rightarrow \\frac{4}{4\\sqrt{15}}=\\frac{1}{\\sqrt{15}}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:29.551459"
@@ -11676,7 +11495,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $[\\vec{a}\\vec{b}\\vec{c}]=0$ \n<br/><br/> $\\Rightarrow |\\begin{aligned} 1 &amp; 2 &amp; 4 \\\\ 1 &amp; \\lambda &amp; 4 \\\\ 2 &amp; 4 &amp; \\lambda^{2}-1 \\end{aligned}|=0$ \n<br/><br/> $\\Rightarrow \\lambda^{3}-2\\lambda^{2}-9\\lambda+18=0$ \n<br/><br/> $\\Rightarrow \\lambda^{2}(\\lambda-2)-9(\\lambda-2)=0$ \n<br/><br/> $\\Rightarrow (\\lambda-3)(\\lambda+3)(\\lambda-2)=0$ \n<br/><br/> $\\Rightarrow \\lambda=2,3,-3$ \n<br/><br/>So,    $\\lambda$  = 2 (as    $\\vec{a}$  is parallel to  $\\vec{c}$   for  $\\lambda$  =  $\\pm$ 3)\n<br/><br/>Hence    $\\vec{a} \\times \\vec{c}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 2 &amp; 4 \\\\ 2 &amp; 4 &amp; 3 \\end{aligned}|$ \n<br/><br/> $=-10\\hat{i}+5\\hat{j}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+4\\hat{k},",
@@ -11687,7 +11506,6 @@
         "\\Rightarrow \\lambda^{3}-2\\lambda^{2}-9\\lambda+18=0"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:29.713365"
@@ -11746,7 +11564,6 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:29.806985"
@@ -11850,7 +11667,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->A unit vector  $\\vec{a}$  makes angles  $\\pi$ /3 with  $\\hat{i}$ \n<br/><br/> $\\therefore$   $\\alpha$  =  $\\pi$ /3\n<br/><br/> and  $\\pi$ / 4\nwith  $\\hat{j}$ \n<br/><br/> $\\therefore$   $\\beta$  =  $\\pi$ / 4\n<br/><br/>and  $\\theta$  $\\in$ (0,  $\\pi$ ) with  $\\hat{k}$ \n<br/><br/> $\\therefore$   $\\gamma$  =  $\\theta$ \n<br/><br/>We also know,\n<br/><br/> $cos^{2}\\alpha+cos^{2}\\beta+cos^{2}\\gamma$  = 1\n<br/><br/> $\\Rightarrow$   $cos^{2}\\frac{\\pi}{3}+cos^{2}\\frac{\\pi}{4}+cos^{2}\\theta$  = 1\n<br/><br/> $\\Rightarrow$   $\\frac{1}{4}+\\frac{1}{2}+cos^{2}\\theta$  = 1\n<br/><br/> $\\Rightarrow$   $cos^{2}\\theta$  =  $\\pm \\frac{1}{2}$ \n<br/><br/> $\\Rightarrow$   $\\theta$  =  $\\frac{\\pi}{3}$  or  $\\frac{2\\pi}{3}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Combination & Vector Equations",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -11861,7 +11678,7 @@
         "\\pm \\frac{1}{2}"
       ],
       "key_concepts": [
-        "Linear Combination & Vector Equations"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:29.582815"
     },
@@ -11907,7 +11724,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(\\vec{a}.\\vec{c})\\vec{b}-(\\vec{a}.\\vec{b}).\\vec{c}=\\frac{1}{2}\\vec{b}$ \n<br/><br/> $\\because$    $\\vec{b}$  &amp;   $\\vec{c}$   are linearly independent\n<br/><br/> $\\therefore$    $\\vec{a}$ . $\\vec{c}$  =  $\\frac{1}{2}$   &amp;   $\\vec{a}.\\vec{b}$  = 0\n<br/><br/>(All given vectors are unit vectors)\n<br/><br/> $\\therefore$    $\\vec{a}$ ^ $\\vec{c}$  = 60<sup>o</sup>   &amp;    $\\vec{a}$ ^ $\\vec{b}$  = 90<sup>o</sup>\n<br/><br/> $\\therefore$    $|\\alpha-\\beta|=30^{o}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Linear Combination & Vector Equations",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -11918,7 +11735,6 @@
         "(\\vec{a}.\\vec{c})\\vec{b}-(\\vec{a}.\\vec{b}).\\vec{c}=\\frac{1}{2}\\vec{b}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Linear Combination & Vector Equations"
       ],
       "crawled_at": "2026-09-19T23:08:29.645882"
@@ -12033,9 +11849,7 @@
         "|\\vec{u}|^{2}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:29.850402"
     },
@@ -12151,8 +11965,7 @@
         "\\vec{a}+2\\vec{c}=-2\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:29.892676"
     },
@@ -12209,8 +12022,7 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:29.828833"
     },
@@ -12324,9 +12136,7 @@
         "\\vec{a} \\times \\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Vector Triple Product & Lagrange Identity"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:35.383253"
     },
@@ -12372,7 +12182,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{b_{1}}=\\frac{(\\vec{b_{1}}.\\vec{a})\\hat{a}}{1}$ \n<br/><br/>=    ${\\frac{(3\\hat{j}+4\\hat{k}).(\\hat{i}+\\hat{j})}{\\sqrt{2}}}(\\frac{\\hat{i}+\\hat{j}}{\\sqrt{2}})$ \n<br/><br/>=    $\\frac{3(\\hat{i}+\\hat{j})}{\\sqrt{2} \\times \\sqrt{2}}=\\frac{3(\\hat{i}+\\hat{j})}{2}$ \n<br/><br/> $\\vec{b_{1}}+\\vec{b_{2}}=\\vec{b}$ \n<br/><br/> $\\Rightarrow$     $\\vec{b_{2}}=\\vec{b}-\\vec{b_{1}}$ \n<br/><br/>=    $(3\\hat{j}+4\\hat{k})-\\frac{3}{2}(\\hat{i}+\\hat{j})$ \n<br/><br/> $\\Rightarrow$     $\\vec{b_{2}}$  =  $-\\frac{3}{2}\\hat{i}+\\frac{3}{2}\\hat{j}+4\\hat{k}$ \n<br/><br/>&amp;   $\\vec{b_{1}} \\times \\vec{b_{2}}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ \\frac{3}{2} &amp; \\frac{3}{2} &amp; 0 \\\\ -\\frac{3}{2} &amp; \\frac{3}{2} &amp; 4 \\end{aligned}|$ \n<br/><br/> $\\Rightarrow$     $\\vec{b_{1}} \\times \\vec{b_{2}}=\\hat{i}(6)-\\hat{j}(6)+\\hat{k}(-\\frac{9}{4}+\\frac{9}{4})$ \n<br/><br/> $\\Rightarrow$     $6\\hat{i}-6\\hat{j}+\\frac{9}{2}\\hat{k}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{b}=3\\hat{j}+4\\hat{k}",
@@ -12383,7 +12193,7 @@
         "\\vec{b_{1}} \\times \\vec{b_{2}}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:29.918835"
     },
@@ -12429,7 +12239,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a} \\times (\\vec{b} \\times \\vec{c})=\\frac{\\sqrt{3}}{2}(\\vec{b}+\\vec{c})$ \n<br/><br/> $\\Rightarrow (\\vec{a}.\\vec{c})\\vec{b}-(\\vec{a}.\\vec{b})\\vec{c}=\\frac{\\sqrt{3}}{2}\\vec{b}+\\frac{\\sqrt{3}}{2}\\vec{c}$ \n<br/><br/>On comparing both sides\n<br/><br/> $\\vec{a}.\\vec{b}=-\\frac{\\sqrt{3}}{2} \\Rightarrow cos\\theta=-\\frac{\\sqrt{3}}{2}$ \n<br/><br/> $[$  As  $\\vec{a}$  and  $\\vec{b}$  are unit vectors  $]$ \n<br/><br/>where  $\\theta$  is the angle between  $\\vec{a}$  and  $\\vec{b}$ \n<br/><br/> $\\theta=\\frac{5\\pi}{6}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b}",
@@ -12440,8 +12250,6 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:35.552303"
@@ -12549,7 +12357,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/68r53Hl7xOa1Yx7fW/cISEj47uGuoYytox6jcTXcPWZB6Vk/GXHR0fbJYEfqg9ljFEX3RC/image.png"
       ],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{B}=-\\hat{i}+3\\hat{j}-p\\hat{k}",
@@ -12560,7 +12368,7 @@
         "\\vec{AC}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:35.512394"
     },
@@ -12618,9 +12426,7 @@
       ],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Vector Triple Product & Lagrange Identity",
-        "Section Formula, Collinearity & Centroids"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:35.582594"
     },
@@ -12666,13 +12472,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $L.H.S$   $=(\\vec{a} \\times \\vec{b}).[(\\vec{b} \\times \\vec{c}) \\times (\\vec{c} \\times \\vec{a})]$ \n<br/><br/> $=(\\vec{a} \\times \\vec{b}).[(\\vec{b} \\times \\vec{c}.\\vec{a})]\\vec{c}-(\\vec{b} \\times \\vec{c}.\\vec{c})\\vec{a}]$ \n<br/><br/> $=(\\vec{a} \\times \\vec{b}).[[\\vec{b}\\vec{c}\\vec{a}]\\vec{c}]$   $[$ As  $\\vec{b} \\times \\vec{c}.\\vec{c}=0$   $]$ \n<br/><br/> $=[\\vec{a}\\vec{b}\\vec{c}].(\\vec{a} \\times \\vec{b}.\\vec{c})=[\\vec{a}\\vec{b}\\vec{c}]^{2}$ \n<br/><br/> $[\\vec{a} \\times \\vec{b}\\vec{b} \\times \\vec{c}\\vec{c} \\times \\vec{a}]=[\\vec{a}\\vec{b}\\vec{c}]^{2}$ \n<br/><br/>So  $\\lambda=1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "=(\\vec{a} \\times \\vec{b}).[[\\vec{b}\\vec{c}\\vec{a}]\\vec{c}]"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
@@ -12720,7 +12525,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->As  $M$  is mid point of  $BC$ \n<br/><br/> $\\therefore$   $\\vec{AM}=\\frac{1}{2}(\\vec{AB}+\\vec{AC})$ \n<br/><br/> $=4\\vec{i}+\\vec{j}+4\\vec{k}$ \n<br/><br/>Length of median  $AM$ \n<br/><br/> $=\\sqrt{16+1+16}=\\sqrt{33}$  <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Combination & Vector Equations",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{AB}=3\\hat{i}+4\\hat{k}",
@@ -12730,7 +12535,7 @@
         "=\\sqrt{16+1+16}=\\sqrt{33}"
       ],
       "key_concepts": [
-        "Linear Combination & Vector Equations"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:35.670196"
     },
@@ -12835,7 +12640,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/HQyISYFmYdNcFXRxj/PSXf46CDW5hJPimG8bHQvV2NNupQp/sbecjpuDficxlbbZv7RGbG/image.png"
       ],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{AB}=\\vec{q},\\vec{AD}=\\vec{p}",
@@ -12843,7 +12648,7 @@
         "=-\\vec{q}+\\frac{\\vec{p}.\\vec{q}}{|\\vec{p}|^{2}}\\vec{p}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:08:35.800477"
     },
@@ -12946,7 +12751,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}.\\vec{b} \\ne 0,\\vec{a}.\\vec{d}=0$ \n<br/><br/>Now,  $\\vec{b} \\times \\vec{c}=\\vec{b} \\times \\vec{d}$ \n<br/><br/> $\\Rightarrow \\vec{a} \\times (\\vec{b} \\times \\vec{c})=\\vec{a} \\times (\\vec{b} \\times \\vec{d})$ \n<br/><br/> $\\Rightarrow (\\vec{a}.\\vec{c})\\vec{b}-(\\vec{a}.\\vec{b})\\vec{c}=(\\vec{a}.\\vec{d})\\vec{b}-(\\vec{a}.\\vec{b})\\vec{d}$ \n<br/><br/> $\\Rightarrow (\\vec{a}.\\vec{b})\\vec{d}=-(\\vec{a}.\\vec{c})\\vec{b}+(\\vec{a}.\\vec{b})\\vec{c}$ \n<br/><br/> $\\vec{d}=\\vec{c}-(\\frac{\\vec{a}.\\vec{c}}{\\vec{a}.\\vec{b}})\\vec{b}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -12957,7 +12762,6 @@
         "\\vec{a}.\\vec{d}=0."
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:35.844933"
@@ -13004,7 +12808,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have  $\\vec{a}.\\vec{b}=0,\\vec{a}.\\vec{a}=1,\\vec{b}.\\vec{b}=1$ \n<br/><br/> $(2\\vec{a}-\\vec{b}).[(\\vec{a} \\times \\vec{b}) \\times (\\vec{a}+2\\vec{b})]$ \n<br/><br/> $=(2\\vec{a}-\\vec{b}).[{\\vec{a}.(\\vec{a}+2\\vec{b})}\\vec{b}-{\\vec{b}.(\\vec{a}+2\\vec{b})\\vec{a}}]$ \n<br/><br/> $=(2\\vec{a}-\\vec{b}).[(\\vec{a}.\\vec{a}+2\\vec{a}.\\vec{b})\\vec{b}-(\\vec{a}.\\vec{b}+2\\vec{b}.\\vec{b})\\vec{a}]$ \n<br/><br/> $=(2\\vec{a}-\\vec{b}).[\\vec{b}-2\\vec{a}]$ \n<br/><br/> $=4\\vec{a}.\\vec{b}-\\vec{b}.\\vec{b}-4\\vec{a}.\\vec{a}$ \n<br/><br/> $=-5$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\frac{1}{\\sqrt{10}}(3\\hat{i}+\\hat{k})",
@@ -13015,7 +12819,6 @@
         "=(2\\vec{a}-\\vec{b}).[\\vec{b}-2\\vec{a}]"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
@@ -13120,7 +12923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{c}=\\vec{b} \\times \\vec{a}$ \n<br/><br/> $\\Rightarrow \\vec{b}.\\vec{c}=\\vec{b}.(\\vec{b} \\times \\vec{a}) \\Rightarrow \\vec{b}.\\vec{c}=0$ \n<br/><br/> $\\Rightarrow (b_{1}\\hat{i}+b_{2}\\hat{j}+b_{3}\\hat{k}).(\\hat{i}-\\hat{j}-\\hat{k})=0,$ \n<br/><br/>where  $\\vec{b}=b_{1}\\hat{i}+b_{2}\\hat{j}+b_{3}\\hat{k}$ \n<br/><br/> $b_{1}-b_{2}-b_{3}=0....(i)$ \n<br/><br/>and  $\\vec{a}.\\vec{b}=3$ \n<br/><br/> $\\Rightarrow (\\hat{j}-\\hat{k}).(b_{1}\\hat{i}+b_{2}\\hat{j}+b_{3}\\hat{k})=3$ \n<br/><br/> $\\Rightarrow b_{2}-b_{3}=3$ \n<br/><br/>From equation  $(i)$ \n<br/><br/> $b_{1}=b_{2}+b_{3}=(3+b_{3})+b_{3}=3+2b_{3}$ \n<br/><br/> $\\vec{b}=(3+2b_{3})\\hat{i}+(3+b_{3})\\hat{j}+b_{3}\\hat{k}$ \n<br/><br/>From the option given, it is clear that  $b_{3}$  equal to either  $2$  or  $-2.$ \n<br/><br/> $b_{3}=2$ \n<br/><br/>then  $\\vec{b}=7\\hat{i}+5\\hat{j}+2\\hat{k}$  which is not possible\n<br/><br/>If  $b_{3}=-2,$  then  $\\vec{b}=-\\hat{i}+\\hat{j}-2\\hat{k}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{j}-\\hat{k}",
@@ -13131,7 +12934,7 @@
         "\\vec{c}=\\vec{b} \\times \\vec{a}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:36.155528"
     },
@@ -13358,8 +13161,7 @@
         "\\Rightarrow 6|sin\\theta|=1 \\Rightarrow sin\\theta=\\frac{1}{6}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:36.464255"
     },
@@ -13462,7 +13264,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(\\vec{a} \\times \\vec{b}) \\times \\vec{c}$ \n<br/><br/> $=\\vec{a} \\times (\\vec{b} \\times \\vec{c}),\\vec{a}.\\vec{b} \\ne 0,\\vec{b}.\\vec{c} \\ne 0$ \n<br/><br/> $\\Rightarrow (\\vec{a}.\\vec{c}).\\vec{b}-(\\vec{b}.\\vec{c})\\vec{a}$ \n<br/><br/> $=(\\vec{a}.\\vec{c}).\\vec{b}-(\\vec{a}.\\vec{b}).\\vec{c}$ \n<br/><br/> $\\Rightarrow (\\vec{a}.\\vec{b}).\\vec{c}=(\\vec{b}.\\vec{c})\\vec{a}$ \n<br/><br/> $\\Rightarrow \\vec{a}||\\vec{c}.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "(\\vec{a} \\times \\vec{b}) \\times \\vec{c}=\\vec{a} \\times (\\vec{b} \\times \\vec{c})",
@@ -13473,7 +13275,6 @@
         "(\\vec{a} \\times \\vec{b}) \\times \\vec{c}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:40.950914"
@@ -13520,7 +13321,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{CA}=(2-a)\\hat{i}+2\\hat{j};$ \n<br/><br/> $\\vec{CB}=(1-a)\\hat{i}-6\\hat{k}$ \n<br/><br/> $\\vec{CA}.\\vec{CB}=0$ \n<br/><br/> $\\Rightarrow (2-a)(1-a)=0$ \n<br/><br/> $\\Rightarrow a=2,1$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Section Formula, Collinearity & Centroids",
       "difficulty": "Easy",
       "key_formulas": [
         "C=\\frac{\\pi}{2}",
@@ -13531,7 +13332,7 @@
         "\\Rightarrow a=2,1"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Section Formula, Collinearity & Centroids"
       ],
       "crawled_at": "2026-09-19T23:08:40.968890"
     },
@@ -13633,7 +13434,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/y2ftkcbazvpvJgIwI/hX5rZvNqCVKH3zV4v9JvMufrvm9T8/uimAbSVRQfRevppnlI630v/image.png"
       ],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow \\vec{PA}+\\vec{AC}+\\vec{CP}=0",
@@ -13644,7 +13445,7 @@
         "\\Rightarrow \\vec{PA}+\\vec{PB}-2\\vec{PC}=0."
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:41.044441"
     },
@@ -13742,7 +13543,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\vec{a}=x\\vec{i}+y\\vec{j}+z\\vec{k}$ \n<br/><br/> $\\vec{a} \\times \\vec{i}=z\\vec{j}-y\\vec{k}$ \n<br/><br/> $\\Rightarrow (\\vec{a} \\times \\vec{i})^{2}=y^{2}+z^{2}$ \n<br/><br/>Similarly,  $(\\vec{a} \\times \\vec{j})^{2}=x^{2}+z^{2}$ \n<br/><br/>and  $(\\vec{a} \\times \\vec{k})^{2}=x^{2}+y^{2}$ \n<br/><br/> $\\Rightarrow (\\vec{a} \\times \\vec{i})^{2}+(\\vec{a} \\times \\vec{j})^{2}+(\\vec{a} \\times \\vec{k})^{2}$ \n<br/><br/> $=2(x^{2}+y^{2}+z^{2})=2\\vec{a}2$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -13753,7 +13554,7 @@
         "=2(x^{2}+y^{2}+z^{2})=2\\vec{a}2"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:41.063736"
     },
@@ -13799,7 +13600,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\vec{a}=\\hat{j}-\\hat{k},\\vec{b}=x\\hat{i}+\\vec{j}+(1-x)\\hat{k}$ \n<br/><br/>and  $\\vec{c}=y\\hat{i}+x\\hat{j}+(1+x-y)\\hat{k}$ \n<br/><br/> $[\\vec{a}\\vec{b}\\vec{c}]=\\vec{a}.\\vec{b} \\times \\vec{c}=|\\begin{aligned} 1 &amp; 0 &amp; -1 \\\\ x &amp; 1 &amp; 1-x \\\\ y &amp; x &amp; 1+x-y \\end{aligned}|$ \n<br/><br/> $=1[1+x-y-x+x^{2}]-[-x^{2}-y]$ \n<br/><br/> $=1-y+x^{2}-x^{2}+y=1$ \n<br/><br/>Hence  $[\\vec{a}\\vec{b}\\vec{c}]$  is independent of  $x$  and  $y$  both.<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}-\\hat{k},\\vec{b}=x\\hat{i}+\\hat{j}+(1-x)\\hat{k}",
@@ -13810,7 +13611,6 @@
         "=1[1+x-y-x+x^{2}]-[-x^{2}-y]"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.010460"
@@ -13975,10 +13775,7 @@
         "(\\vec{a} \\times \\vec{b}) \\times \\vec{c}=\\frac{1}{3}|\\vec{b}||\\vec{c}|\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
-        "Vector Triple Product & Lagrange Identity",
-        "Section Formula, Collinearity & Centroids"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:41.081744"
     },
@@ -14138,7 +13935,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{r}.$  Then\n<br/><br/> $\\vec{a} \\times (\\vec{a}+\\vec{b}+\\vec{c})=\\vec{a} \\times \\vec{r}$ \n<br/><br/> $\\Rightarrow 0+\\vec{a} \\times \\vec{b}+\\vec{a} \\times \\vec{c}=\\vec{a} \\times \\vec{r}$ \n<br/><br/> $\\Rightarrow \\vec{a} \\times \\vec{b}-\\vec{c} \\times \\vec{a}=\\vec{a} \\times \\vec{r}$ \n<br/><br/> $\\Rightarrow \\vec{a} \\times \\vec{r}=\\vec{0}$ \n<br/><br/>Similarly  $\\vec{b} \\times \\vec{r}=\\vec{0}&amp;\\vec{c} \\times \\vec{r}=\\vec{0}$ \n<br/><br/>Above three conditions will be satisfied for non-zero vectors if and only if  $\\vec{r}=\\vec{0}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a}",
@@ -14149,7 +13946,7 @@
         "\\Rightarrow \\vec{a} \\times \\vec{r}=\\vec{0}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.159595"
     },
@@ -14200,7 +13997,6 @@
       "key_formulas": [],
       "key_concepts": [
         "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.227292"
@@ -14302,7 +14098,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $(\\vec{u}+\\vec{v}-\\vec{w}).(\\vec{u} \\times \\vec{v}-\\vec{u} \\times \\vec{w}-\\vec{v} \\times \\vec{v}+\\vec{v} \\times \\vec{w})$ \n<br/><br/> $=(\\vec{u}+\\vec{v}-\\vec{w}).(\\vec{u} \\times \\vec{v}-\\vec{u} \\times \\vec{w}+\\vec{v} \\times \\vec{w})=\\vec{u}.(\\vec{u} \\times \\vec{v})$ \n<br/><br/> $-\\vec{u}.(\\vec{u} \\times \\vec{w})+\\vec{u}.(\\vec{v} \\times \\vec{w})+\\vec{v}.(\\vec{u} \\times \\vec{v})-\\vec{v}.(\\vec{u} \\times \\vec{w})$ \n<br/><br/> $+\\vec{v}.(\\vec{v} \\times \\vec{w})-\\vec{w}.(\\vec{u} \\times \\vec{v})+\\vec{w}.(\\vec{u} \\times \\vec{w})-\\vec{w}.(\\vec{u} \\times \\vec{w})$ \n<br/><br/> $=\\vec{u}.(\\vec{v} \\times \\vec{w})-\\vec{v}.(\\vec{u} \\times \\vec{w})-\\vec{w}.(\\vec{u} \\times \\vec{v})$ \n<br/><br/> $=[\\vec{u}\\vec{v}\\vec{w})]+[\\vec{v}\\vec{w}\\vec{u})]-[\\vec{w}\\vec{u}\\vec{v}]$ \n<br/><br/> $=\\vec{u}.(\\vec{v} \\times \\vec{w})$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{u},\\vec{v}",
@@ -14312,7 +14108,6 @@
         "=\\vec{u}.(\\vec{v} \\times \\vec{w})"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
         "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.249839"
@@ -14359,7 +14154,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since,  $\\hat{n}⟂\\vec{u}$  and  $\\hat{n}⟂\\vec{v}$ \n<br/><br/> $\\begin{aligned} \\Rightarrow \\hat{n} &amp; =\\frac{\\vec{u} \\times \\vec{v}}{|\\vec{u} \\times \\vec{v}|} \\\\ \\\\ \\therefore |\\vec{w} \\cdot \\hat{n}| &amp; =|\\frac{\\vec{w} \\cdot (\\vec{u} \\times \\vec{v})}{|\\vec{u} \\times \\vec{v}|}| \\\\ \\\\ &amp; =\\frac{|\\vec{w} \\cdot (\\vec{u} \\times \\vec{v})|}{|\\vec{u} \\times \\vec{v}|} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} &amp; \\text{Now,}\\vec{w} \\cdot (\\vec{u} \\times \\vec{v})=|\\begin{aligned} 1 &amp; 2 &amp; 3 \\\\ 1 &amp; 1 &amp; 0 \\\\ 1 &amp; -1 &amp; 0 \\end{aligned}|=-6 \\\\ \\\\ &amp; \\begin{aligned} \\Rightarrow |\\vec{w} \\cdot (\\vec{u} \\times \\vec{v})|=6 \\\\ \\\\ \\text{and}\\vec{u} \\times \\vec{v}=(\\hat{i}+\\hat{j}) \\times (\\hat{i}-\\hat{j})-2\\hat{k} \\\\ \\\\ \\Rightarrow |\\vec{u} \\times \\vec{v}|=2 \\\\ \\\\ \\therefore |\\vec{w} \\cdot \\hat{n}|=\\frac{6}{2}=3 \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{u}=\\hat{i}+\\hat{j},\\vec{v}=\\hat{i}-\\hat{j}",
@@ -14370,7 +14165,6 @@
         "\\hat{n}⟂\\vec{u}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
         "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:27:53.326131"
@@ -14473,7 +14267,7 @@
       "image_urls": [
         "https://imagex.cdn.examgoal.net/nlN8TOHdMaAyDG829/NavHIZJHjqeOtZPOBdZnSmBtua9FJ/bkAy9DXynVLetNttFTpO45/image.png"
       ],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Cross Product & Geometric Areas",
       "difficulty": "Easy",
       "key_formulas": [
         "\\vec{AB}=3\\hat{i}+4\\hat{k}&\\vec{AC}=5\\hat{i}-2\\hat{j}+4\\hat{k}",
@@ -14482,7 +14276,7 @@
         "|\\vec{AD}|=\\sqrt{16+16+1}=\\sqrt{33}"
       ],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Cross Product & Geometric Areas"
       ],
       "crawled_at": "2026-09-19T23:27:53.333974"
     },
@@ -14584,7 +14378,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->We have,  $[\\vec{a} \\times \\vec{b}\\vec{b} \\times \\vec{c}\\vec{c} \\times \\vec{a}]$ \n<br/><br/> $=(\\vec{a} \\times \\vec{b}).{(\\vec{b} \\times \\vec{c}) \\times (\\vec{c} \\times \\vec{a})}$ \n<br/><br/> $=(\\vec{a} \\times \\vec{b}).{(\\vec{m}.\\vec{a})\\vec{c}-(\\vec{m}.\\vec{c})\\vec{a}}$ \n<br/><br/>( where  $\\vec{m}=\\vec{b} \\times \\vec{c}$  )\n<br/><br/> $={(\\vec{a} \\times \\vec{b}).\\vec{c}}.{\\vec{a}.(\\vec{b} \\times \\vec{c})}$ \n<br/><br/> $=[\\vec{a}\\vec{b}\\vec{c}]^{2}=4^{2}=16.$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Triple Product & Lagrange Identity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b},\\vec{c}",
@@ -14595,8 +14389,6 @@
         "\\vec{m}=\\vec{b} \\times \\vec{c}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas",
-        "Scalar Triple Product (Box Product) & Coplanarity",
         "Vector Triple Product & Lagrange Identity"
       ],
       "crawled_at": "2026-09-19T23:08:41.177924"
@@ -14700,7 +14492,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Since  $\\vec{a},\\vec{c},\\vec{b}$  form a right handed system,\n<br/><br/> $\\therefore$   $\\vec{c}=\\vec{b} \\times \\vec{a}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 0 &amp; 1 &amp; 0 \\\\ x &amp; y &amp; z \\end{aligned}|$ \n<br/><br/> $=z\\hat{i}-x\\hat{k}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{c},\\vec{a}=x\\hat{i}+y\\hat{j}+z\\hat{k}",
@@ -14711,7 +14503,7 @@
         "\\vec{a},\\vec{c},\\vec{b}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.194060"
     },
@@ -14757,14 +14549,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\vec{a},\\vec{b}$  and  $\\vec{c}$  are the sides of  $a$  triangle, then <br/><br/> $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{𝟎}$ \n<br/><br/>Since,\n<br/><br/> $\\begin{aligned} \\vec{a}+\\vec{b}+\\vec{c} &amp; =\\vec{0} \\\\ \\\\ \\vec{a}+\\vec{b} &amp; =-\\vec{c} \\end{aligned}$ \n<br/><br/> $\\begin{aligned} \\Rightarrow &amp; (\\vec{a}+\\vec{b}) \\times \\vec{c}=-\\vec{c} \\times \\vec{c} \\\\ \\\\ \\Rightarrow &amp; \\vec{a} \\times \\vec{c}+\\vec{b} \\times \\vec{c}=\\vec{0} \\\\ \\\\ \\Rightarrow &amp; \\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a} \\\\ \\\\ \\text{Similarly,} &amp; \\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c} \\\\ \\\\ \\text{Hence,} &amp; \\vec{a} \\times \\vec{b}=\\vec{b} \\times \\vec{c}=\\vec{c} \\times \\vec{a} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a},\\vec{b}",
         "\\vec{c}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Scalar Triple Product (Box Product) & Coplanarity"
       ],
       "crawled_at": "2026-09-19T23:08:41.209780"
     },
@@ -14821,8 +14613,7 @@
         "=16 \\times 4 \\times \\frac{1}{4}=16"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:46.609763"
     },
@@ -14879,8 +14670,7 @@
         "\\vec{a}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Cross Product & Geometric Areas"
+        "Dot Product, Projections & Orthogonality"
       ],
       "crawled_at": "2026-09-19T23:08:46.625203"
     }

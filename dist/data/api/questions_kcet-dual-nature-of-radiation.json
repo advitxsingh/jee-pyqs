@@ -357,7 +357,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the momentum of the emitted photons from an LED with an energy gap of  $2.4eV$ , we need to use the relationship between energy and momentum for photons. The energy of a photon is given by:</p>\n<p> $E=pc$ </p>\n<p>where:</p>\n<ul>\n<li> $E$  is the energy of the photon</li>\n<li> $p$  is the momentum of the photon</li>\n<li> $c$  is the speed of light in a vacuum  $\\approx 3 \\times 10^{8}m/s$ </li>\n</ul>\n<p>First, let's convert the energy from electron volts (eV) to joules (J). The conversion factor is:</p>\n<p> $1eV=1.6 \\times 10^{-19}J$ </p>\n<p>Thus, the energy in joules is:</p>\n<p> $E=2.4eV \\times 1.6 \\times 10^{-19}J/eV=3.84 \\times 10^{-19}J$ </p>\n<p>Now we can use the relationship  $E=pc$  to find the momentum:</p>\n<p> $p=\\frac{E}{c}$ </p>\n<p>Substituting the known values:</p>\n<p> $p=\\frac{3.84 \\times 10^{-19}J}{3 \\times 10^{8}m/s}=1.28 \\times 10^{-27}kgm/s$ </p>\n<p>Therefore, the momentum of the emitted photons is:</p>\n<p><strong>Option A:  $1.28 \\times 10^{-27}kgms^{-1}$ </strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Broglie Hypothesis & Matter Waves",
+      "topic_tag": "Photoelectric Effect & Einstein's Equation",
       "difficulty": "Medium",
       "key_formulas": [
         "E=pc",
@@ -368,7 +368,7 @@
         "1.28 \\times 10^{-27}kgms^{-1}"
       ],
       "key_concepts": [
-        "De Broglie Hypothesis & Matter Waves"
+        "Photoelectric Effect & Einstein's Equation"
       ],
       "crawled_at": "2026-09-20T15:27:39.983557"
     },
@@ -414,7 +414,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P=60W$ </p>\n<p> $\\lambda=662.5nm=6.625 \\times 10^{-7}m$ </p>\n<p>Energy of 1 photon  $=ℎv=ℎ\\frac{c}{\\lambda}$ </p>\n<p> $=\\frac{6.625 \\times 10^{-34} \\times 3 \\times 10^{8}}{6.625 \\times 10^{-7}}=3 \\times 10^{-19}J$ </p>\n<p> $\\therefore$  Number of photons emitted per second</p>\n<p> $\\begin{aligned} &amp; =\\frac{\\text{Power of source}}{\\text{Energy of one photon}} \\\\ &amp; =\\frac{60}{3 \\times 10^{-19}} \\\\ &amp; =20 \\times 10^{19} \\\\ &amp; =2 \\times 10^{20} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Broglie Hypothesis & Matter Waves",
+      "topic_tag": "Photoelectric Effect & Einstein's Equation",
       "difficulty": "Medium",
       "key_formulas": [
         "P=60W",
@@ -422,7 +422,7 @@
         "=ℎv=ℎ\\frac{c}{\\lambda}"
       ],
       "key_concepts": [
-        "De Broglie Hypothesis & Matter Waves"
+        "Photoelectric Effect & Einstein's Equation"
       ],
       "crawled_at": "2026-09-20T15:27:39.748664"
     },
@@ -680,14 +680,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, work-function,  $\\phi_{0}=1eV=1.6 \\times 10^{-19}J$ </p>\n<p>Wavelength,  $\\lambda=3000\\overset{o}{A}=3000 \\times 10^{-10}m$ </p>\n<p>As, we know that,</p>\n<p> $\\begin{aligned} E &amp; =ℎv=\\frac{ℎc}{\\lambda}=\\frac{6.6 \\times 10^{-34} \\times 3 \\times 10^{8}}{3000 \\times 10^{-10}} \\\\ &amp; =6.6 \\times 10^{-19}J \\end{aligned}$ </p>\n<p>Also,  $E=\\phi_{0}+KE$ </p>\n<p> $\\begin{aligned} \\Rightarrow KE &amp; =E-\\phi_{0} \\Rightarrow \\frac{1}{2}mv^{2}=E-\\phi_{0} \\\\ v^{2} &amp; =\\frac{(6.6 \\times 10^{-19}-1.6 \\times 10^{-19}) \\times 2}{9.1 \\times 10^{-31}} \\\\ &amp; =\\frac{5 \\times 10^{-19} \\times 2}{9.1 \\times 10^{-31}}=1.1 \\times 10^{12} \\\\ v &amp; =1.01 \\times 10^{6} \\\\ &amp; \\approx 1 \\times 10^{6}m/s \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Broglie Hypothesis & Matter Waves",
+      "topic_tag": "Photoelectric Effect & Einstein's Equation",
       "difficulty": "Medium",
       "key_formulas": [
         "\\phi_{0}=1eV=1.6 \\times 10^{-19}J",
         "\\lambda=3000\\overset{o}{A}=3000 \\times 10^{-10}m"
       ],
       "key_concepts": [
-        "De Broglie Hypothesis & Matter Waves"
+        "Photoelectric Effect & Einstein's Equation"
       ],
       "crawled_at": "2026-09-20T15:27:40.217636"
     },
@@ -1109,7 +1109,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We can determine the number of photons striking the plate per second by equating the force (which is the rate of momentum transfer) to the product of the number of photons per second and the momentum lost by each photon.</p>\n<p>Here’s a step-by-step explanation:</p>\n<p><p>Each photon of wavelength  $\\lambda$  has an energy:</p>\n<p> $E=\\frac{ℎc}{\\lambda},$ </p>\n<p>where</p></p>\n<p><p> $ℎ=6.62 \\times 10^{-34}\\text{J·s}$  (Planck's constant),</p></p>\n<p><p> $c \\approx 3 \\times 10^{8}\\text{m/s}$  (speed of light).</p></p>\n<p><p>The momentum of a photon is given by:</p>\n<p> $p=\\frac{E}{c}=\\frac{ℎc}{\\lambda c}=\\frac{ℎ}{\\lambda}.$ </p>\n<p>For a completely dark (absorbing) plate, the photon transfers all its momentum upon absorption, so the momentum transfer per photon is  $\\frac{ℎ}{\\lambda}.$  </p></p>\n<p><p>If  $n$  photons hit the plate per second, the total momentum transferred per second (which is the force  $F$ ) is:</p>\n<p> $F=n \\times \\frac{ℎ}{\\lambda}.$ </p></p>\n<p><p>Solving for  $n$ , we have:</p>\n<p> $n=\\frac{F\\lambda}{ℎ}.$ </p></p>\n<p><p>Now, plugging in the values:</p></p>\n<p><p> $F=6.62 \\times 10^{-5}\\text{N},$ </p></p>\n<p><p> $\\lambda=5 \\times 10^{-7}\\text{m},$ </p></p>\n<p><p> $ℎ=6.62 \\times 10^{-34}\\text{J·s},$ </p>\n<p>we get:</p>\n<p> $n=\\frac{(6.62 \\times 10^{-5}) \\times (5 \\times 10^{-7})}{6.62 \\times 10^{-34}}.$ </p></p>\n<p><p>Notice that the  $6.62$  in the numerator and denominator cancel:</p>\n<p> $n=\\frac{5 \\times 10^{-5-7}}{10^{-34}}=\\frac{5 \\times 10^{-12}}{10^{-34}}.$ </p></p>\n<p><p>Dividing the exponents:</p>\n<p> $n=5 \\times 10^{-12+34}=5 \\times 10^{22}.$ </p></p>\n<p>Therefore, the number of photons per second  $n$  is  $5 \\times 10^{22}.$  </p>\n<p>This corresponds to Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "De Broglie Hypothesis & Matter Waves",
+      "topic_tag": "Photoelectric Effect & Einstein's Equation",
       "difficulty": "Medium",
       "key_formulas": [
         "6.62 \\times 10^{-5}N",
@@ -1120,7 +1120,7 @@
         "c \\approx 3 \\times 10^{8}\\text{m/s}"
       ],
       "key_concepts": [
-        "De Broglie Hypothesis & Matter Waves"
+        "Photoelectric Effect & Einstein's Equation"
       ],
       "crawled_at": "2026-09-20T15:27:40.595849"
     },
