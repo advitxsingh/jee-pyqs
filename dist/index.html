@@ -72,6 +72,116 @@
     .dark { color-scheme: dark; }
     .dark .katex { color: #f4f4f5 !important; }
     .dark .katex-display { color: #f4f4f5 !important; }
+
+    /* Light Mode Theme Overrides when .dark is absent */
+    html:not(.dark) {
+      color-scheme: light;
+    }
+    html:not(.dark) body {
+      background-color: #f8fafc !important;
+      color: #0f172a !important;
+    }
+    html:not(.dark) header {
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      border-color: #e2e8f0 !important;
+    }
+    html:not(.dark) .bg-zinc-950,
+    html:not(.dark) .bg-zinc-950\/90,
+    html:not(.dark) .bg-zinc-950\/80,
+    html:not(.dark) .bg-zinc-950\/60 {
+      background-color: #f8fafc !important;
+    }
+    html:not(.dark) .bg-zinc-900,
+    html:not(.dark) .bg-zinc-900\/40,
+    html:not(.dark) .bg-zinc-900\/60 {
+      background-color: #ffffff !important;
+    }
+    html:not(.dark) .bg-zinc-850 {
+      background-color: #f1f5f9 !important;
+    }
+    html:not(.dark) .bg-zinc-800,
+    html:not(.dark) .bg-zinc-800\/60,
+    html:not(.dark) .bg-zinc-800\/80 {
+      background-color: #f1f5f9 !important;
+    }
+    html:not(.dark) .border-zinc-800,
+    html:not(.dark) .border-zinc-800\/80,
+    html:not(.dark) .border-zinc-700\/60 {
+      border-color: #e2e8f0 !important;
+    }
+    html:not(.dark) .text-zinc-100 {
+      color: #0f172a !important;
+    }
+    html:not(.dark) .text-zinc-200 {
+      color: #1e293b !important;
+    }
+    html:not(.dark) .text-zinc-300 {
+      color: #334155 !important;
+    }
+    html:not(.dark) .text-zinc-400 {
+      color: #64748b !important;
+    }
+    html:not(.dark) .text-zinc-500 {
+      color: #94a3b8 !important;
+    }
+    html:not(.dark) input,
+    html:not(.dark) select {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+      border-color: #cbd5e1 !important;
+    }
+    html:not(.dark) .katex {
+      color: #0f172a !important;
+    }
+    html:not(.dark) .katex-display {
+      color: #0f172a !important;
+    }
+    html:not(.dark) .prose th {
+      background-color: #f1f5f9 !important;
+      color: #0f172a !important;
+      border-color: #e2e8f0 !important;
+    }
+    html:not(.dark) .prose td {
+      color: #334155 !important;
+      border-color: #e2e8f0 !important;
+    }
+    html:not(.dark) .prose p,
+    html:not(.dark) .prose li {
+      color: #334155 !important;
+    }
+    html:not(.dark) .prose strong {
+      color: #0f172a !important;
+    }
+    html:not(.dark) .prose h1,
+    html:not(.dark) .prose h2,
+    html:not(.dark) .prose h3,
+    html:not(.dark) .prose h4 {
+      color: #0f172a !important;
+    }
+    html:not(.dark) .prose code {
+      background-color: #f1f5f9 !important;
+      color: #0f172a !important;
+      border-color: #e2e8f0 !important;
+    }
+    html:not(.dark) kbd {
+      background-color: #f1f5f9 !important;
+      color: #64748b !important;
+      border-color: #cbd5e1 !important;
+    }
+    html:not(.dark) #chapter-finder-modal .bg-zinc-950\/80 {
+      background-color: rgba(15, 23, 42, 0.4) !important;
+    }
+    html:not(.dark) #chapter-finder-modal .bg-zinc-900 {
+      background-color: #ffffff !important;
+    }
+    html:not(.dark) #chapter-finder-modal input {
+      background-color: #f8fafc !important;
+      color: #0f172a !important;
+    }
+    html:not(.dark) #active-concept-banner {
+      background-color: #ffffff !important;
+      border-color: #e2e8f0 !important;
+    }
     
     /* Clean Prose styling for synthesized notes */
     .prose table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; }
@@ -179,13 +289,6 @@
           <span id="active-chapter-indicator" class="text-zinc-200 font-medium truncate">Select Chapter</span>
           <span id="chapter-stats-badge" class="hidden sm:inline text-zinc-500 font-mono"></span>
         </div>
-        
-        <!-- Finder Trigger Button -->
-        <button onclick="openChapterFinder()" class="flex items-center space-x-1.5 text-xs text-zinc-300 hover:text-zinc-100 bg-zinc-900 hover:bg-zinc-850 px-2.5 py-1 rounded border border-zinc-800 transition flex-shrink-0 cursor-pointer shadow-sm group">
-          <svg class="w-3.5 h-3.5 text-zinc-400 group-hover:text-zinc-200 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-          <span class="font-medium">Finder</span>
-          <kbd class="hidden sm:inline font-mono text-[10px] bg-zinc-950 text-zinc-400 px-1 py-0.5 rounded border border-zinc-800">⌘K</kbd>
-        </button>
       </div>
       <div id="chapter-pills-container" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
         <!-- Dynamically rendered chapter items -->
@@ -290,16 +393,9 @@
             <svg class="w-3.5 h-3.5 text-zinc-500 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </div>
 
-          <!-- Year Filter -->
+          <!-- Year Filter (Dynamically populated for KCET 2017-2026 vs JEE 2002-2026) -->
           <select id="filter-year" onchange="applyFilters()" class="w-full lg:w-auto text-xs bg-zinc-950 border border-zinc-800 text-zinc-300 rounded-md px-2.5 py-1.5 focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 font-mono">
-            <option value="">All Years (2002-2026)</option>
-            <option value="2026">2026</option>
-            <option value="2025">2025</option>
-            <option value="2024">2024</option>
-            <option value="2023">2023</option>
-            <option value="2022">2022</option>
-            <option value="2021">2021</option>
-            <option value="2020">2020</option>
+            <option value="">All Years</option>
           </select>
 
           <!-- Type Filter -->
@@ -608,6 +704,7 @@
       renderConceptsView();
       renderNotesView();
       populateConceptFilter();
+      populateYearFilter();
       loadQuestions();
     }
 
@@ -774,6 +871,34 @@
       }
     }
 
+    function populateYearFilter() {
+      const select = document.getElementById('filter-year');
+      if (!select) return;
+      const prevVal = select.value;
+      const isKcet = currentChapterSlug.startsWith('kcet-') || currentExam === 'kcet';
+      
+      select.innerHTML = '';
+      const allOpt = document.createElement('option');
+      allOpt.value = '';
+      allOpt.innerText = isKcet ? 'All Years (2017–2026)' : 'All Years (2002–2026)';
+      select.appendChild(allOpt);
+
+      const minYear = isKcet ? 2017 : 2002;
+      const maxYear = 2026;
+      for (let y = maxYear; y >= minYear; y--) {
+        const opt = document.createElement('option');
+        opt.value = String(y);
+        opt.innerText = String(y);
+        select.appendChild(opt);
+      }
+
+      if (prevVal && parseInt(prevVal, 10) >= minYear && parseInt(prevVal, 10) <= maxYear) {
+        select.value = prevVal;
+      } else {
+        select.value = '';
+      }
+    }
+
     async function loadQuestions() {
       const year = document.getElementById('filter-year').value;
       const qtype = document.getElementById('filter-type').value;
@@ -876,7 +1001,7 @@
         card.innerHTML = `
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div class="flex items-center space-x-2">
-              <span class="text-[11px] font-mono text-zinc-400">Q#${q.question_index || (idx+1)}</span>
+              <span class="text-[11px] font-mono font-semibold text-zinc-400">#${idx + 1}</span>
               <span class="text-xs font-medium text-zinc-300">${q.paper_name}</span>
             </div>
             <div class="flex flex-wrap items-center gap-1.5">

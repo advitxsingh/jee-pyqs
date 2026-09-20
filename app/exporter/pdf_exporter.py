@@ -87,6 +87,7 @@ def format_math_for_print(text: str) -> str:
         s = re.sub(r'\\sqrt\{([^}]+)\}', r'√(\1)', s)
         s = re.sub(r'\\sqrt\s*([a-zA-Z0-9])', r'√\1', s)
 
+        s = re.sub(r'(\\(?:alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|nu|xi|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Xi|Pi|Sigma|Upsilon|Phi|Psi|Omega))([a-zA-Z0-9\\])', r'\1 \2', s)
         s = re.sub(r'\\vec\{([^}]+)\}', r'vec(\1)', s)
         s = re.sub(r'\\hat\{([^}]+)\}', r'\1̂', s)
         s = re.sub(r'\\bar\{([^}]+)\}', r'bar(\1)', s)

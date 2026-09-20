@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The curve is</p>\n<p> $y^{2}=x^{3}$ </p>\n<p>Since the region is between the lines  $y=1$  and  $y=8$ , it is easier to write  $x$  in terms of  $y$ .</p>\n<p>From</p>\n<p> $y^{2}=x^{3}$ </p>\n<p>we get</p>\n<p> $x=y^{2/3}$ </p>\n<p>The  $y$ -axis is  $x=0$ .  </p>\n<p>So, for each value of  $y$  from  $1$  to  $8$ , the horizontal width of the region is</p>\n<p> $x_{\\text{right}}-x_{\\text{left}}=y^{2/3}-0=y^{2/3}$ </p>\n<p>Hence, the required area is</p>\n<p> $\\int_{1}^{8}y^{2/3}dy$ </p>\n<p>Now,</p>\n<p> $\\int y^{2/3}dy=\\frac{y^{5/3}}{5/3}=\\frac{3}{5}y^{5/3}$ </p>\n<p>So,</p>\n<p> $\\text{Area}=[\\frac{3}{5}y^{5/3}]_{1}^{8}$ </p>\n<p> $=\\frac{3}{5}(8^{5/3}-1^{5/3})$ </p>\n<p>Since</p>\n<p> $8^{1/3}=2$ </p>\n<p>we have</p>\n<p> $8^{5/3}=2^{5}=32$ </p>\n<p>Thus,</p>\n<p> $\\text{Area}=\\frac{3}{5}(32-1)$ </p>\n<p> $=\\frac{3}{5} \\times 31$ </p>\n<p> $=\\frac{93}{5}$ </p>\n<p>So, the area is</p>\n<p> $\\frac{93}{5}\\text{sq. units}$ </p>\n<p>Correct option: <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Area Under The Curves — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=x^{3}",
@@ -55,7 +55,7 @@
         "=\\frac{3}{5} \\times 31"
       ],
       "key_concepts": [
-        "Area Under The Curves — Standard Calculations & Problem Archetypes"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.387334"
     },
@@ -103,13 +103,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Hard",
       "key_formulas": [
         "y=sin(\\frac{x}{3})"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.436303"
     },
@@ -157,14 +157,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Easy",
       "key_formulas": [
         "y=x^{2}",
         "y=16"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.447954"
     },
@@ -212,7 +212,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x",
@@ -222,7 +222,7 @@
         "x=1,y=1"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.700960"
     },
@@ -270,7 +270,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=3x",
@@ -280,7 +280,7 @@
         "x=0"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.494567"
     },
@@ -328,7 +328,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=tanx",
@@ -336,7 +336,7 @@
         "\\therefore \\text{Required Area}=2\\int_{0}^{\\pi/4}tanxdy"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.746446"
     },
@@ -384,7 +384,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Easy",
       "key_formulas": [
         "y=x+1",
@@ -392,7 +392,7 @@
         "x=5"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.791939"
     },
@@ -440,13 +440,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Easy",
       "key_formulas": [
         "y=tanx"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:16.840341"
     },
@@ -494,13 +494,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=-\\sqrt{16-x^{2}}"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.062863"
     },
@@ -548,7 +548,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y^{2}=8x",
@@ -556,7 +556,7 @@
         "y^{2}=8x\\text{and line}y=2x"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.071700"
     },
@@ -604,7 +604,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=2x+1,X",
@@ -614,7 +614,7 @@
         "(\\frac{-1}{2},0)"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.079009"
     },
@@ -662,14 +662,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow tanx=1 \\Rightarrow x=\\frac{\\pi}{4}",
         "=\\int_{0}^{\\pi/4}(cosx-sinx)dx"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.225166"
     },
@@ -717,7 +717,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow x^{2}+x=2x \\Rightarrow x(x-1)=0 \\Rightarrow x=0,1",
@@ -725,7 +725,7 @@
         "x=1,y= \\pm 1"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.087004"
     },
@@ -773,7 +773,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=cosx",
@@ -781,7 +781,7 @@
         "x=\\pi"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.236616"
     },
@@ -829,7 +829,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x,X",
@@ -837,7 +837,7 @@
         "x=2"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.244265"
     },
@@ -883,14 +883,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} RequiredArea &amp; =\\int_{0}^{\\pi}|cosx|dx \\\\ &amp; =2\\int_{0}^{\\pi/2}|cosx|dx \\\\ &amp; =2\\int_{0}^{\\pi/2}cosxdx \\\\ &amp; =2[sinx]_{0}^{\\pi/2} \\\\ &amp; =2[sin\\frac{\\pi}{2}-sin0] \\\\ &amp; =2(1-0) \\\\ &amp; =2\\text{sq units.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Area Under The Curves — Core Principles & Governing Laws",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Easy",
       "key_formulas": [
         "y=cosx,x=0",
         "x=\\pi"
       ],
       "key_concepts": [
-        "Area Under The Curves — Core Principles & Governing Laws"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.312790"
     },
@@ -938,14 +938,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png"
       ],
-      "topic_tag": "Area Under The Curves — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Area Under Curves & Between Intersecting Parabolas",
       "difficulty": "Easy",
       "key_formulas": [
         "y=x^{2}",
         "y=16"
       ],
       "key_concepts": [
-        "Area Under The Curves — Standard Calculations & Problem Archetypes"
+        "Area Under Curves & Between Intersecting Parabolas"
       ],
       "crawled_at": "2026-09-20T15:26:17.253062"
     }

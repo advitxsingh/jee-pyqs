@@ -44,11 +44,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The characters in <strong>“KCET 2025”</strong> are:</p>\n<p> $K,C,E,T,2,0,2,5$ </p>\n<p>There are  $8$  characters in total, and the digit  $2$  is repeated twice.</p>\n<p>We need arrangements that <strong>start with  $K$ </strong> and <strong>end with  $5$ </strong>.</p>\n<p>So fix  $K$  in the first position and  $5$  in the last position:</p>\n<p> $K______5$ </p>\n<p>Now we have to arrange the remaining  $6$  characters:</p>\n<p> $C,E,T,2,0,2$ </p>\n<p>If all were different, the number of arrangements would be:</p>\n<p> $6!$ </p>\n<p>But the digit  $2$  appears twice, so we divide by  $2!$ :</p>\n<p> $\\frac{6!}{2!}=\\frac{720}{2}=360$ </p>\n<p>So the number of ways is:</p>\n<p> $360$ </p>\n<p>Correct option: <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.582233"
     },
@@ -94,11 +94,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a triangle, we need to choose  $3$  points from the  $10$  distinct points on the circle.</p>\n<p>Since all points lie on a circle, no three points are collinear. So every selection of  $3$  points forms a triangle.</p>\n<p>Number of triangles:</p>\n<p> $^{10}C_{3}=\\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1}=120$ </p>\n<p>So Statement I is false, because the number of triangles is not  $100$ .</p>\n<p>For a chord, we need to choose  $2$  points on the circle. Every pair of points gives one chord.</p>\n<p>Number of chords:</p>\n<p> $^{10}C_{2}=\\frac{10 \\times 9}{2 \\times 1}=45$ </p>\n<p>So Statement II is true.</p>\n<p>Hence, the correct option is:</p>\n<p> $\\text{Option D}$ </p>\n<p>Statement I is false and Statement II is true.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.608003"
     },
@@ -144,7 +144,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here’s a quick breakdown by cases (last digit must be 0 or 2):</p>\n<p>Last digit = 0  </p>\n<p><p>First digit can be 1, 2 or 3 ⇒ 3 choices  </p></p>\n<p><p>The two middle places are filled by the remaining 2 digits in  $2!=2$  ways  </p>\n<p>⇒  $3 \\times 2=6$  numbers</p></p>\n<p>Last digit = 2  </p>\n<p><p>First digit can be 1 or 3 (can’t be 0 or 2) ⇒ 2 choices  </p></p>\n<p><p>The two middle places are filled by the remaining 2 digits in  $2!=2$  ways  </p>\n<p>⇒  $2 \\times 2=4$  numbers</p></p>\n<p>Total =  $6+4=10$ .  </p>\n<p>Answer: Option B (10).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [
         "2!=2",
@@ -153,7 +153,7 @@
         "6+4=10"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.637443"
     },
@@ -199,13 +199,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the number of diagonals in an octagon (a polygon with 8 sides), use the formula for the number of diagonals in a polygon, which is:</p>\n<p> $\\frac{n(n-3)}{2}$ </p>\n<p>where  $n$  is the number of sides of the polygon.</p>\n<p>For an octagon,  $n=8$ . Plug this value into the formula:</p>\n<p> $\\frac{8(8-3)}{2}=\\frac{8 \\times 5}{2}=\\frac{40}{2}=20$ </p>\n<p>Therefore, an octagon has 20 diagonals.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "\\frac{n(n-3)}{2}"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.661640"
     },
@@ -251,7 +251,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since the three women choose their chairs first and their choices are limited to the chairs numbered 1 to 6, we must calculate the number of possible ways they can select these chairs. Order matters in this selection because each woman will sit in a unique chair; therefore, permutations should be used.</p>\n<p>The number of different ways that the first woman can choose a chair is 6. After she has chosen, there are 5 chairs left for the second woman. The third woman can then choose from the remaining 4 chairs. So, the number of ways the three women can select the chairs is a permutation of 6 items taken 3 at a time, which is denoted by  $^{6}P_{3}$ .</p>\n<p>After the three women have taken their seats, there are 10 - 3 = 7 chairs left, but the men can only choose from the remaining chairs numbered 7 to 10, so they have 4 chairs to choose from. The number of different ways the first man can choose a chair is 4. After he has chosen, there are 3 chairs left for the second man. So, the number of ways the two men can select from the 4 chairs is a permutation of 4 items taken 2 at a time, which is denoted by  $^{4}P_{2}$ .</p>\n<p>Now we need to multiply the number of ways the women can sit by the number of ways the men can sit, as these are independent events:</p>\n<p>Number of ways women can choose =  $^{6}P_{3}$ </p>\n<p>Number of ways men can choose =  $^{4}P_{2}$ </p>\n<p>Total number of ways =  $^{6}P_{3} \\times ^{4}P_{2}$ </p>\n<p>So the correct answer is Option A:</p>\n<p> $^{6}P_{3} \\times ^{4}P_{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [
         "^{6}P_{3}",
@@ -259,8 +259,7 @@
         "^{6}P_{3} \\times ^{4}P_{2}"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)",
-        "Combinations, Selection & Multinomial Partitioning"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.800594"
     },
@@ -306,13 +305,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the 19th word in the dictionary order of permutations of the letters in the word \"MASK,\" it is helpful first to determine the total number of permutations for the word. Since \"MASK\" consists of 4 unique letters, the number of different permutations can be calculated using the factorial of 4:</p>\n<p> $4!=4 \\times 3 \\times 2 \\times 1=24$ </p>\n<p>So, there are 24 possible permutations. Arranging these permutations in dictionary order means starting with the permutations beginning with 'A', followed by those starting with 'K', 'M', and 'S'. Now let's list them out to find the 19th word:</p>\n<p>We will list the permutations in blocks based on their starting letter. With each letter in the first position, the remaining three letters can be arranged in  $3!$  or 6 different ways.</p>\n<p>Starting with 'A':</p>\n<ul>\n<li>1. A-K-M-S</li>\n<li>2. A-K-S-M</li>\n<li>3. A-M-K-S</li>\n<li>4. A-M-S-K</li>\n<li>5. A-S-K-M</li>\n<li>6. A-S-M-K</li>\n</ul>\n<p>Starting with 'K': (Since the dictionary order will have all permutations starting with 'A' first, we continue from the count of 6.)</p>\n<ul>\n<li>7. K-A-M-S</li>\n<li>8. K-A-S-M</li>\n<li>9. K-M-A-S</li>\n<li>10. K-M-S-A</li>\n<li>11. K-S-A-M</li>\n<li>12. K-S-M-A</li>\n</ul>\n<p>Starting with 'M':</p>\n<ul>\n<li>13. M-A-K-S</li>\n<li>14. M-A-S-K</li>\n<li>15. M-K-A-S</li>\n<li>16. M-K-S-A</li>\n<li>17. M-S-A-K</li>\n<li>18. M-S-K-A</li>\n</ul>\n<p>At this point, we've reached the 18th permutation, which implies the next one will be the 19th. Since we are looking for the 19th word and we have finished with all permutations starting with 'M', we know the 19th word will begin with 'S', as it is the next letter in alphabetical order. The 19th permutation will be:</p>\n<ol>\n<li>S – A – K – M</li>\n</ol>\n<p>Hence, the 19th word formed from the permutation of the letters in \"MASK\" in dictionary order is \"SAKM\".</p>\n<p>Therefore, the correct answer is:</p>\n<p>Option B: SAKM</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "4!=4 \\times 3 \\times 2 \\times 1=24"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.815327"
     },
@@ -358,11 +357,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Given}, &amp; n(A \\times B)=35,B⊂A \\\\ &amp; n(A \\times B)=35 \\\\ &amp; n(A \\times B)=7 \\times 5 \\\\ &amp; n(A \\times B)=n(A) \\times n(B) \\\\ \\therefore &amp; n(A)=7\\text{and}n(B)=5 \\\\ &amp; ^{n(A)}C_{n(B)}=^{7}C_{5}=^{7}C_{2}=21 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.828767"
     },
@@ -408,14 +407,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p>Total number of questions in part  $A=6$ </p>\n<p>Total number of questions in part  $B=7$ </p>\n<p>Pattern to choose 10 questions from 13 questions is</p>\n<p>4 from part  $A$  and 6 from part  $B$  or</p>\n<p>5 from part  $A$  and 5 from part  $B$  or</p>\n<p>6 from part  $A$  and 4 from part  $B$ .</p>\n<p> $\\therefore$  Total required number of ways</p>\n<p> $\\begin{aligned} &amp; =(^{6}C_{4} \\times ^{7}C_{6})+(^{6}C_{5} \\times ^{7}C_{5})+(^{6}C_{6} \\times ^{7}C_{4}) \\\\ \\\\ &amp; =(15 \\times 7)+(6 \\times 21)+(1 \\times 35) \\\\ \\\\ &amp; =105+126+35=266 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [
         "A=6",
         "B=7"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:54.856089"
     },
@@ -461,13 +460,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; ^{16}C_{9}+^{16}C_{10}-^{16}C_{6}-^{16}C_{7} \\\\ &amp; ^{16}C_{9}+^{16}C_{10}-^{16}C_{10}-^{16}C_{9}[ \\because ^{n}C_{r}=^{n}C_{n-r}]=0 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "^{16}C_{9}+^{16}C_{10}-^{16}C_{6}-^{16}C_{7}"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.143378"
     },
@@ -513,7 +512,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Number of ways of selecting 2 even digits out of 3 digits  $=^{3}C_{2}$ </p>\n<p>Number of ways of selecting 2 odd digit out of 4 digits  $=^{4}C_{2}$ </p>\n<p> $\\therefore$  required Number of 4 digits number without repetition formed by given digits</p>\n<p> $=^{3}C_{2} \\times ^{4}C_{2} \\times 4!=3 \\times 6 \\times 24=432$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "=^{3}C_{2}",
@@ -521,7 +520,7 @@
         "=^{3}C_{2} \\times ^{4}C_{2} \\times 4!=3 \\times 6 \\times 24=432"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.177536"
     },
@@ -567,7 +566,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $P(n)&gt;2^{n}&lt;n$ !</p>\n<p> $P(3):2^{3}&lt;3$ ! which is false</p>\n<p> $P(4):2^{4}&lt;4$ ! which is true</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "P(n):2^{n}<n!",
@@ -576,7 +575,7 @@
         "P(4):2^{4}<4"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.223874"
     },
@@ -622,14 +621,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have, 5 girl and 3 boys</p>\n<p> $\\times G \\times G \\times G \\times G \\times G \\times$ </p>\n<p>Number of ways no two boys are together is</p>\n<p> $^{6}P_{3} \\times 5!=14400$ </p></ol><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Fundamental Principles & Permutations (Distinct & Identical)",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Easy",
       "key_formulas": [
         "\\times G \\times G \\times G \\times G \\times G \\times",
         "^{6}P_{3} \\times 5!=14400"
       ],
       "key_concepts": [
-        "Fundamental Principles & Permutations (Distinct & Identical)"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.345839"
     },
@@ -675,7 +674,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the total number of people in a room where each person shakes hands with every other person, given that the total number of handshakes is 45, we use the combination formula for choosing 2 people out of  $n$ , denoted as  $(\\frac{n}{2})$ .</p>\n<p><p>The formula for the number of handshakes is:</p>\n<p> $(\\frac{n}{2})=\\frac{n(n-1)}{2}$ </p></p>\n<p><p>We set this expression equal to 45, because the problem states that there are 45 handshakes:</p>\n<p> $\\frac{n(n-1)}{2}=45$ </p></p>\n<p><p>Solving the equation:</p>\n<p> $n(n-1)=90$ </p>\n<p> $n^{2}-n-90=0$ </p></p>\n<p><p>Factoring the quadratic equation:</p>\n<p> $(n-10)(n+9)=0$ </p></p>\n<p><p>Solving for  $n$ , we get:</p>\n<p> $n=10\\text{(since n cannot be negative, i.e.,}n \\ne -9)$ </p></p>\n<p>Therefore, the total number of people in the room is 10.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Hard",
       "key_formulas": [
         "\\frac{n(n-1)}{2}=45",
@@ -684,7 +683,7 @@
         "(n-10)(n+9)=0"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.238187"
     },
@@ -730,7 +729,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for  $n$  given that  $^{n}C_{12}=^{n}C_{8}$ , we can use the property of combinations: </p>\n<p>If  $^{n}C_{x}=^{n}C_{y}$ , then one of two conditions must be true:</p>\n<p><p> $x=y$ </p></p>\n<p><p> $x+y=n$ </p></p>\n<p>Given the equation  $^{n}C_{12}=^{n}C_{8}$ , it's clear that the second condition applies:</p>\n<p> $12+8=n$ </p>\n<p>Therefore,  $n=20$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Combinations, Selection & Multinomial Partitioning",
+      "topic_tag": "Permutations, Combinations & Combinatorial Geometry",
       "difficulty": "Medium",
       "key_formulas": [
         "^{n}C_{12}=^{n}C_{8}",
@@ -739,7 +738,7 @@
         "n=20"
       ],
       "key_concepts": [
-        "Combinations, Selection & Multinomial Partitioning"
+        "Permutations, Combinations & Combinatorial Geometry"
       ],
       "crawled_at": "2026-09-20T15:26:55.385884"
     }

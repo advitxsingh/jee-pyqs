@@ -340,10 +340,10 @@ def decode_mathjax_container(container: Tag) -> str:
     tex = re.sub(r'\^\{\^\{\\circ\}\}', r'^{\\circ}', tex)
     tex = re.sub(r'\_\{\}', '', tex)
     tex = re.sub(r'\^\{\}', '', tex)
-    # Fix missing spaces after LaTeX command names when followed by Latin letters or digits:
-    # e.g. \omegat -> \omega t, \DeltaG -> \Delta G, \piL -> \pi L, \muF -> \mu F, \sqrtR -> \sqrt R
+    # Fix missing spaces after LaTeX command names when followed by Latin letters, digits, or backslash:
+    # e.g. \omegat -> \omega t, \lambda\hat -> \lambda \hat, \DeltaG -> \Delta G, \piL -> \pi L, \muF -> \mu F, \sqrtR -> \sqrt R
     tex = re.sub(
-        r'(\\(?:alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|nu|xi|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Xi|Pi|Sigma|Upsilon|Phi|Psi|Omega|cdot|times|pm|mp|le|ge|ne|approx|equiv|partial|nabla|ell|sqrt))([a-zA-Z0-9])',
+        r'(\\(?:alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|nu|xi|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Xi|Pi|Sigma|Upsilon|Phi|Psi|Omega|cdot|times|pm|mp|le|ge|ne|approx|equiv|partial|nabla|ell|sqrt))([a-zA-Z0-9\\])',
         r'\1 \2',
         tex
     )

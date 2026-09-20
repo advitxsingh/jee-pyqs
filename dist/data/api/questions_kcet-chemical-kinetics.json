@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the reaction</p>\n<p> $X \\rightarrow Y$ </p>\n<p>activation energy is</p>\n<p> $E_{a}(\\text{forward})=150\\text{kJ mol}^{-1}$ </p>\n<p>and enthalpy change is</p>\n<p> $\\Delta H=-135\\text{kJ mol}^{-1}$ </p>\n<p>Since  $\\Delta H$  is negative, the reaction is exothermic. This means product  $Y$  has lower energy than reactant  $X$  by  $135\\text{kJ mol}^{-1}$ .</p>\n<p>For the reverse reaction,</p>\n<p> $Y \\rightarrow X$ </p>\n<p>the activation energy will be the energy needed to go from  $Y$  up to the activated complex.</p>\n<p>Using the relation:</p>\n<p> $E_{a}(\\text{reverse})=E_{a}(\\text{forward})-\\Delta H$ </p>\n<p>Substitute the values:</p>\n<p> $E_{a}(\\text{reverse})=150-(-135)$ </p>\n<p> $E_{a}(\\text{reverse})=150+135$ </p>\n<p> $E_{a}(\\text{reverse})=285\\text{kJ mol}^{-1}$ </p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option B}285\\text{kJ mol}^{-1}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "150\\text{kJ mol}^{-1}",
@@ -55,7 +55,7 @@
         "E_{a}(\\text{reverse})=285\\text{kJ mol}^{-1}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.020488"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For each elementary step, the rate constant follows Arrhenius equation:</p>\n<p> $k_{i}=A_{i}e^{-E_{a_{i}}/RT}$ </p>\n<p>Given overall rate constant is</p>\n<p> $k=\\frac{k_{1}k_{2}}{k_{3}}$ </p>\n<p>Substitute Arrhenius form for each rate constant:</p>\n<p> $k=\\frac{A_{1}e^{-E_{a_{1}}/RT} \\times A_{2}e^{-E_{a_{2}}/RT}}{A_{3}e^{-E_{a_{3}}/RT}}$ </p>\n<p>Now combine the exponential terms:</p>\n<p> $k=\\frac{A_{1}A_{2}}{A_{3}}e^{-(E_{a_{1}}+E_{a_{2}}-E_{a_{3}})/RT}$ </p>\n<p>So the overall activation energy is</p>\n<p> $E_{a}=E_{a_{1}}+E_{a_{2}}-E_{a_{3}}$ </p>\n<p>Substitute the given values:</p>\n<p> $E_{a}=40+50-60$ </p>\n<p> $E_{a}=30\\text{kJ mol}^{-1}$ </p>\n<p>So the correct answer is:</p>\n<p> $30\\text{kJ mol}^{-1}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "k=\\frac{k_{1}k_{2}}{k_{3}}",
@@ -169,7 +169,7 @@
         "30\\text{kJ mol}^{-1}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.035317"
     },
@@ -215,7 +215,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a first-order reaction  $R \\rightarrow P$ , the integrated rate law is:<br/><br/> $[R]=[R]_{0}e^{-kt}$ </p>\n<p>This means the concentration of reactant  $[R]$  decreases with time. It does not remain constant. So, the graph of  $[R]$  versus  $t$  should be a decreasing curve. Graph (A) shows  $[R]$  as a constant horizontal line, so it is not correct for a first-order reaction.</p>\n<p>Now, taking natural logarithm on both sides:<br/><br/> $ln[R]=ln[R]_{0}-kt$ </p>\n<p>This is in the form of a straight-line equation  $y=mx+c$ . The slope is negative, equal to  $-k$ . So, the graph of  $ln[R]$  versus  $t$  is a straight line with negative slope. Graph (B) is correct.</p>\n<p>Using common logarithm, we get:<br/><br/> $log_{10}[R]=log_{10}[R]_{0}-\\frac{k}{2.303}t$ </p>\n<p>This is also a straight-line equation. Its slope is negative, equal to  $-\\frac{k}{2.303}$ . So, graph (C) is also correct.</p>\n<p>Rearranging the same equation:<br/><br/> $log_{10}\\frac{[R]_{0}}{[R]}=\\frac{k}{2.303}t$ </p>\n<p>This gives a straight line passing through the origin with positive slope  $\\frac{k}{2.303}$ . So, graph (D) is correct.</p>\n<p>Thus, the graph in option (A) is not applicable for a first-order reaction.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "[R]=[R]_{0}e^{-kt}",
@@ -226,7 +226,7 @@
         "log_{10}\\frac{[R]_{0}}{[R]}=\\frac{k}{2.303}t"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.042812"
     },
@@ -272,11 +272,12 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{Positive catalyst decreases the activation energy to increase rate of reaction.}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations",
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.163337"
     },
@@ -378,7 +379,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcd1jmmr/f0c09763-8a06-423a-96d4-7912198b7d3a/3b92ca30-525c-11f0-ba27-818b38ff28e4/file-jaoe38c1mcd1jmms.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "\\text{In the given graph,}E_{a}\\text{for the reverse reaction will be}",
@@ -389,7 +390,7 @@
         "90=215-(E_{a})_{\\text{backward}}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.183804"
     },
@@ -492,7 +493,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the reaction  $A \\rightleftharpoons B$ , the activation energy ( $E_{a}$ ) for the forward reaction is initially  $50\\text{kJ/mol}$  and the enthalpy change ( $\\Delta H$ ) is  $-20\\text{kJ/mol}$ . Thus, the activation energy for the backward reaction ( $E_{a,\\text{backward}}$ ) is calculated as:</p>\n<p> $E_{a,\\text{backward}}=E_{a}+|\\Delta H|$ </p>\n<p>Substituting the given values:</p>\n<p> $E_{a,\\text{backward}}=50\\text{kJ/mol}+20\\text{kJ/mol}=70\\text{kJ/mol}$ </p>\n<p>When a catalyst is added, the activation energy for the forward reaction decreases by  $10\\text{kJ/mol}$ :</p>\n<p> $E_{a,\\text{forward, catalyst}}=50\\text{kJ/mol}-10\\text{kJ/mol}=40\\text{kJ/mol}$ </p>\n<p>A catalyst equally reduces the activation energy for both the forward and backward reactions. Therefore, the new activation energy for the backward reaction in the presence of the catalyst is:</p>\n<p> $E_{a,\\text{backward, catalyst}}=70\\text{kJ/mol}-10\\text{kJ/mol}=60\\text{kJ/mol}$ </p>\n<p>Thus, the correct option is </p>\n<p><strong>Option A</strong> </p>\n<p> $60\\text{kJ/mol}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "A \\rightleftharpoons B,E_{a}=50kJmol^{-1}",
@@ -503,7 +504,7 @@
         "E_{a,\\text{backward}}=E_{a}+|\\Delta H|"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.378840"
     },
@@ -606,13 +607,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Among the given options, option (d) i.e.  $K=Ae^{\\frac{E_{a}}{RT}}$  does not represent Arrhenius equation.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Easy",
       "key_formulas": [
         "K=Ae^{\\frac{E_{a}}{RT}}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.395909"
     },
@@ -658,13 +659,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $k=6 \\times 10^{5}s^{-1}$ </p>\n<p>Using the formula of Arrhenius equation,</p>\n<p> $k=e^{E_{a}/RT}$ </p>\n<p>At  $T=\\alpha,\\frac{-E_{a}}{RT}$  will become zero,</p>\n<p>So,  $k=Ae^{0} \\Rightarrow k=A$ </p>\n<p>Thus,  $k=A=6 \\times 10^{5}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Easy",
       "key_formulas": [
         "6.0 \\times 10^{5}s^{-1}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.510115"
     },
@@ -710,7 +711,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; K_{1}=10^{16} \\times e^{-\\frac{2000}{T}} \\\\ &amp; K_{2}=10^{15} \\times e^{-\\frac{1000}{T}} \\end{aligned}$ </p>\n<p>Now,  $K_{1}=K_{2}$ </p>\n<p> $\\begin{aligned} 10^{16} \\times e^{\\frac{-2000}{T}} &amp; =10^{15} \\times e^{\\frac{-1000}{T}} \\\\ 10 &amp; =e^{\\frac{1000}{T}} \\end{aligned}$ </p>\n<p>Taking  $ln$  on both sides,</p>\n<p> $ln10=\\frac{1000}{T}lne$ </p>\n<p> $2.303log10=\\frac{1000}{T} \\Rightarrow T=\\frac{1000}{2.303}K$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "k_{1}",
@@ -721,7 +722,7 @@
         "2.303log10=\\frac{1000}{T} \\Rightarrow T=\\frac{1000}{2.303}K"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.518298"
     },
@@ -1084,11 +1085,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The rarity of higher order reactions (those involving more than three reacting species simultaneously) is primarily due to Option C: low probability of simultaneous collision of all reacting species.</p>\n<p>In a chemical reaction, reactant molecules must collide with the proper orientation and sufficient energy for a reaction to occur. As the number of reactant molecules involved increases, the likelihood of all these molecules meeting at the same time and place with the correct orientation and enough energy decreases dramatically. This is why higher order reactions (those of order greater than three) are rare. The complexity and improbability of such a simultaneous occurrence make these reactions almost nonexistent under normal conditions.</p>\n<p>Option A talks about shifting of equilibrium towards reactants due to elastic collisions. This does not directly explain why higher order reactions are rare but rather describes a possible dynamic in reactions where the collisions do not lead to reaction but rather to the dispersal of energy.</p>\n<p>Option B involves the loss of active species on collision, which could in principle apply to any reaction order and does not specifically address the rarity of high order reactions.</p>\n<p>Option D suggests an increase in entropy as more molecules are involved, which may contribute to the favorability of the overall reaction but does not explain why the reactions of higher order are rare. Entropy increases with more molecules involved, but this does not inherently prevent high order reactions; it is the collision probability that is the key issue.</p>\n<p>Therefore, the best explanation for the rarity of higher order reactions is the low probability of a simultaneous collision involving all the reactants, as described in Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.829983"
     },
@@ -1349,13 +1350,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2A+3B \\rightarrow 4C+D \\\\ &amp; \\frac{d(C)}{dt}=2.8 \\times 10^{-3}molL^{-1}s^{-1}(\\text{at time}t) \\\\ &amp; -\\frac{d(B)}{dt}=? \\\\ &amp; -\\frac{1}{3}\\frac{d(B)}{\\Delta t}=+\\frac{1}{4}\\frac{d[C]}{\\Delta t} \\end{aligned}$ </p>\n<p>Rate of disappearance of  $B=\\frac{3}{4} \\times$  rate of appearance of  $C$ </p>\n<p> $=\\frac{3}{4} \\times 2.8 \\times 10^{-3}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{3}{4} \\times 2.8 \\times 10^{-3}"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:25.844725"
     },
@@ -1458,11 +1459,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltu5yqg1/952a7843-2254-469f-9a32-ddebfc7e9de2/bb037d10-e39e-11ee-ac55-07f5af8b2da2/file-1ltu5yqg2.png?format=png"
       ],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:26.039566"
     },
@@ -1620,7 +1621,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The temperature coefficient tells us that for every 10°C increase in temperature, the reaction rate doubles (i.e., increases by a factor of 2). Here's how we calculate the overall increase when the temperature is raised from 30°C to 90°C:</p>\n<p><p>Determine the temperature difference:</p>\n<p> $\\Delta T=90^{\\circ}C-30^{\\circ}C=60^{\\circ}C$ </p></p>\n<p><p>Calculate the number of 10°C increments:</p>\n<p> $\\text{Number of increments}=\\frac{60}{10}=6$ </p></p>\n<p><p>Since the rate doubles with each 10°C increase, the overall factor is:</p>\n<p> $\\text{Overall increase}=2^{6}=64$ </p></p>\n<p>Therefore, the reaction rate increases by 64 times, which corresponds to Option D.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "30^{\\circ}C",
@@ -1630,7 +1631,7 @@
         "\\text{Overall increase}=2^{6}=64"
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:26.197041"
     },
@@ -1780,13 +1781,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(c,d)$  The rate of reaction increases with temperature. It becomes double with every  $10^{\\circ}$  change. It increases with decreases in activation energy.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Arrhenius Equation & Activation Energy",
+      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
       "difficulty": "Easy",
       "key_formulas": [
         "10^{\\circ}"
       ],
       "key_concepts": [
-        "Arrhenius Equation & Activation Energy"
+        "Rate Law, Order & Integrated Rate Equations",
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:26.302551"
     },
@@ -1832,7 +1834,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's analyze the reaction step by step.</p>\n<p>Consider the reaction:  </p>\n<p> $\\frac{1}{2}A \\rightarrow 2B$ </p>\n<p>For any reaction represented as  </p>\n<p> $\\nu_{A}A \\rightarrow \\nu_{B}B,$  </p>\n<p>the reaction rate is defined as:  </p>\n<p> $r=-\\frac{1}{\\nu_{A}}\\frac{d[A]}{dt}=\\frac{1}{\\nu_{B}}\\frac{d[B]}{dt}.$ </p>\n<p>Here, for our reaction:</p>\n<p><p>The stoichiometric coefficient for A is  $\\nu_{A}=\\frac{1}{2}.$  </p></p>\n<p><p>The stoichiometric coefficient for B is  $\\nu_{B}=2.$ </p></p>\n<p>Step 1: Write the rate expressions for A and B.  </p>\n<p>For species A:  </p>\n<p> $r=-\\frac{1}{\\frac{1}{2}}\\frac{d[A]}{dt}=-2\\frac{d[A]}{dt}.$  </p>\n<p>For species B:  </p>\n<p> $r=\\frac{1}{2}\\frac{d[B]}{dt}.$ </p>\n<p>Step 2: Equate the two expressions for  $r$  since they represent the same reaction rate:  </p>\n<p> $-2\\frac{d[A]}{dt}=\\frac{1}{2}\\frac{d[B]}{dt}.$ </p>\n<p>Step 3: Solve for  $\\frac{-d[A]}{dt}$  in terms of  $\\frac{d[B]}{dt}.$  </p>\n<p>Multiply both sides of the equation by  $\\frac{1}{2}$  to isolate  $-\\frac{d[A]}{dt}$ :  </p>\n<p> $-\\frac{d[A]}{dt}=\\frac{1}{4}\\frac{d[B]}{dt}.$ </p>\n<p>Thus, the rate of disappearance of A is related to the rate of appearance of B by:  </p>\n<p> $\\frac{-d[A]}{dt}=\\frac{1}{4}\\frac{d[B]}{dt}.$ </p>\n<p>Reviewing the options, we see that this corresponds to Option C.</p>\n<p>So, the correct answer is Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Rate Law, Order & Integrated Rate Equations",
+      "topic_tag": "Arrhenius Equation, Activation Energy & Catalysis",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{2}A \\rightarrow 2B",
@@ -1843,7 +1845,7 @@
         "r=-\\frac{1}{\\frac{1}{2}}\\frac{d[A]}{dt}=-2\\frac{d[A]}{dt}."
       ],
       "key_concepts": [
-        "Rate Law, Order & Integrated Rate Equations"
+        "Arrhenius Equation, Activation Energy & Catalysis"
       ],
       "crawled_at": "2026-09-20T15:25:26.213235"
     }

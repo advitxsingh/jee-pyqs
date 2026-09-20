@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given sum is</p>\n<p> $tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\cdot s+tan^{-1}(\\frac{1}{1+n(n+1)})$ </p>\n<p>The general term is</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>Using the identity</p>\n<p> $tan^{-1}x-tan^{-1}y=tan^{-1}(\\frac{x-y}{1+xy})$ </p>\n<p>take  $x=k+1$  and  $y=k$ .</p>\n<p>Then,</p>\n<p> $tan^{-1}(k+1)-tan^{-1}k=tan^{-1}(\\frac{(k+1)-k}{1+k(k+1)})$ </p>\n<p> $=tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>So each term can be written as</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k$ </p>\n<p>Now the sum becomes</p>\n<p> $[tan^{-1}2-tan^{-1}1]+[tan^{-1}3-tan^{-1}2]+\\cdot s+[tan^{-1}(n+1)-tan^{-1}n]$ </p>\n<p>All middle terms cancel, leaving</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1$ </p>\n<p>Again using the same identity,</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1=tan^{-1}(\\frac{(n+1)-1}{1+(n+1) \\cdot 1})$ </p>\n<p> $=tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>So the value is</p>\n<p> $tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>Correct option: <strong>A</strong></p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "=tan^{-1}(\\frac{1}{1+k(k+1)})",
@@ -55,7 +55,7 @@
         "=tan^{-1}(\\frac{n}{n+2})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.042296"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $sin^{-1}x=A\\text{and}sin^{-1}y=B$ </p>\n<p>So,</p>\n<p> $A+B=\\frac{\\pi}{2}$ </p>\n<p>This gives</p>\n<p> $A=\\frac{\\pi}{2}-B$ </p>\n<p>Now,</p>\n<p> $x=sinA$ </p>\n<p>So,</p>\n<p> $x=sin(\\frac{\\pi}{2}-B)$ </p>\n<p>Using the identity</p>\n<p> $sin(\\frac{\\pi}{2}-\\theta)=cos\\theta$ </p>\n<p>we get</p>\n<p> $x=cosB$ </p>\n<p>But</p>\n<p> $sinB=y$ </p>\n<p>So,</p>\n<p> $cos^{2}B=1-sin^{2}B$ </p>\n<p>Hence,</p>\n<p> $x^{2}=cos^{2}B=1-y^{2}$ </p>\n<p>So the correct option is</p>\n<p> $1-y^{2}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}",
@@ -112,7 +112,7 @@
         "x=sinA"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.138395"
     },
@@ -158,13 +158,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; =1+tan^{2}(tan^{-1}2)+1+cot^{2}(cot^{-1}3) \\\\ &amp; =1+4+1+9=15 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)="
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.196118"
     },
@@ -210,13 +210,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the values of 'x' that satisfy the equation  $2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ , let's analyze the components:</p>\n<p><p>Let  $x=cos\\theta$ . This implies  $\\theta=cos^{-1}x$ .</p></p>\n<p><p>The equation can be expressed as  $sin^{-1}(2cos\\theta sin\\theta)$ , which simplifies to  $sin^{-1}(sin2\\theta)$ . Hence,  $2\\theta=sin^{-1}(sin2\\theta)$ .</p></p>\n<p><p>For  $sin^{-1}(sin2\\theta)$  to equal  $2cos^{-1}x$ , i.e.,  $2\\theta$ ,  $2\\theta$  must lie within the range  $[0,\\pi]$ .</p></p>\n<p>Given:</p>\n<p><p> $\\theta=cos^{-1}x$ , the valid range for  $\\theta$  is  $[0,\\pi/4]$ . </p></p>\n<p><p>Therefore,  $cos^{-1}x \\in [0,\\pi/4]$ .</p></p>\n<p>This implies:</p>\n<p> $x$  lies within  $[\\frac{1}{\\sqrt{2}},1]$  because  $cos(\\pi/4)=\\frac{1}{\\sqrt{2}}$ .</p>\n<p>Thus, the equation is satisfied for values of  $x$  in the interval  $[\\frac{1}{\\sqrt{2}},1]$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.273053"
     },
@@ -262,7 +262,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because f(x)=tanx$ </p>\n<p>Since,  $f^{-1}$  is inverse of  $f$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; f(f^{-1}(1))=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=1 \\\\ \\text{But} &amp; tan(\\frac{\\pi}{4})=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=tan(\\frac{\\pi}{4}) \\\\ \\therefore &amp; f^{-1}(l)=\\frac{\\pi}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=tanx",
@@ -271,7 +271,7 @@
         "f^{-1}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.626383"
     },
@@ -317,7 +317,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi$ </p>\n<p>As, we know that  $0 \\le cos^{-1}(x) \\le \\pi$ </p>\n<p>Thus, the maximum value of  $cos^{-1}(x)=\\pi$ </p>\n<p>satisfies the given equation.</p>\n<p> $\\begin{aligned} x &amp; =y=z=cos\\pi=-1 \\\\ \\text{Now,}x(y+z) &amp; +y(z+x)+z(x+y) \\\\ &amp; =xy+zx+yz+xy+zx+yz \\\\ &amp; =2(xy+yz+zx) \\\\ &amp; =2(1+1+1)=6 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi",
@@ -326,7 +326,7 @@
         "cos^{-1}(x)=\\pi"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.638737"
     },
@@ -372,14 +372,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because 2sin^{-1}x-3cos^{-1}x=4 \\\\ &amp; \\Rightarrow 2sin^{-1}x-3(\\frac{\\pi}{2}-sin^{-1}x)=4 \\\\ &amp; [ \\because cos^{-1}x=\\frac{\\pi}{2}-sin^{-1}x] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\Rightarrow 5sin^{-1}x=4+\\frac{3\\pi}{2} \\\\ &amp; \\therefore sin^{-1}x=\\frac{4+\\frac{3\\pi}{2}}{5}=\\frac{8+3\\pi}{10}\\text{... (i)} \\end{aligned} \\\\ &amp; \\text{So,}2sin^{-1}x+3cos^{-1}x \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =2sin^{-1}x+3(\\frac{\\pi}{2}-sin^{-1}x) \\\\ &amp; =-sin^{-1}x+\\frac{3\\pi}{2} \\\\ &amp; =\\frac{-8-3\\pi}{10}+\\frac{3\\pi}{2}=\\frac{-8-3\\pi+15\\pi}{10} \\\\ &amp; =\\frac{12\\pi-8}{10}=\\frac{6\\pi-4}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "2sin^{-1}x-3cos^{-1}x=4,x \\in [-1,1]",
         "2sin^{-1}x+3cos^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.707117"
     },
@@ -425,14 +425,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1-sinx}}] \\\\ &amp; =cot^{-1}[\\frac{(\\sqrt{1-sinx}+\\sqrt{1+sinx})^{2}}{(1-sinx)-(1+sinx)}] \\\\ &amp; =cot^{-1}(\\frac{1-sinx+1+sinx+2\\sqrt{1-sin^{2}x}}{1-sinx-1-sinx}) \\\\ &amp; \\Rightarrow cot^{-1}(\\frac{2+2\\sqrt{cos^{2}x}}{-2sinx}) \\\\ &amp; \\Rightarrow cot^{1}(\\frac{1+cosx}{-sinx}) \\\\ &amp; \\Rightarrow cot^{-1}(\\frac{1+2cos^{2}\\frac{x}{2}-1}{-2sin\\frac{x}{2}cos\\frac{x}{2}}) \\\\ &amp; \\Rightarrow cot^{1}(\\frac{-cos\\frac{x}{2}}{sin\\frac{x}{2}}) \\\\ &amp; \\Rightarrow cot^{-1}(-cot\\frac{x}{2})=cot^{-1}(cot(\\pi-\\frac{x}{2})) \\\\ &amp; =\\pi-\\frac{x}{2} \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]",
         "x \\in (0,\\frac{\\pi}{4})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.105370"
     },
@@ -478,11 +478,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here,</p>\n<p> $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$ </p>\n<p>We know that</p>\n<p> $\\begin{aligned} &amp; 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ &amp; \\text{and}2tan^{-1}x=cos^{-1}(\\frac{1-x^{2}}{1+x^{2}}) \\\\ &amp; \\because 2tan^{-1}a+2tan^{-1}a=tan^{-1}(\\frac{2x}{1-x^{2}}) \\\\ &amp; 2[tan^{-1}(\\frac{a+a}{1-a \\times a})]=2tan^{-1}x \\\\ &amp; \\Rightarrow \\frac{2a}{1-a^{2}}=x \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:35.743876"
     },
@@ -528,7 +528,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=cos^{-1}[x]$ </p>\n<p>We know, for  $cos^{-1}x$ </p>\n<p> $\\Rightarrow -1 \\le x \\le 1$ </p>\n<p>Therefore, for  $cos^{-1}[x]$ </p>\n<p> $\\Rightarrow -1 \\le [x] \\le 1 \\Rightarrow -1 \\le x&lt;2 \\Rightarrow x \\in [-1,2)$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "cos^{-1}[x]",
@@ -536,7 +536,7 @@
         "cos^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.166393"
     },
@@ -582,13 +582,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} &amp; cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}] \\\\ &amp; =cos[\\pi-cot^{-1}(\\sqrt{3})+\\frac{\\pi}{6}] \\\\ &amp; [ \\because cot^{-1}-x=\\pi-cot^{-1}x] \\\\ &amp; =cos[\\pi-\\frac{\\pi}{6}+\\frac{\\pi}{6}] \\\\ &amp; =cos[\\pi]=-1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}]"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.189393"
     },
@@ -634,11 +634,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-1}(\\frac{\\sqrt{3}}{2}))] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin(2\\pi+\\frac{\\pi}{2})]sin^{-1}[cos(\\frac{\\pi}{3})] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{\\pi}{2}] \\cdot sin^{-1}[cos\\frac{\\pi}{3}] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}} \\times 1] \\cdot sin^{-1}[\\frac{1}{2}] \\\\ \\\\ &amp; =\\frac{\\pi}{6} \\times \\frac{\\pi}{6}=(\\frac{\\pi}{6})^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.227731"
     },
@@ -684,7 +684,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ </p>\n<p>On putting</p>\n<p> $\\begin{aligned} &amp; x=tan\\theta \\\\ &amp; \\theta=tan^{-1}x \\end{aligned}$ </p>\n<p>Then we get,  $f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})$ </p>\n<p> $\\begin{aligned} &amp; =sin^{-1}(sin2\\theta) \\\\ &amp; =2\\theta=2tan^{-1}x\\text{.... (i)} \\end{aligned}$ </p>\n<p>On differentiating Eq. (i) both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =\\frac{2}{1+x^{2}} \\\\ \\therefore f^{'}(\\sqrt{3}) &amp; =\\frac{2}{1+(\\sqrt{3})^{2}}=\\frac{2}{1+3}=\\frac{2}{4}=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})",
@@ -693,7 +693,7 @@
         "f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.403148"
     },
@@ -739,13 +739,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=cos^{-1}\\sqrt{x-1}$ </p>\n<p> $f(x)$  is defined when  $\\sqrt{x-1} \\in [0,1]$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 0 \\le \\sqrt{x-1} \\le 1 \\\\ &amp; 0 \\le x-1 \\le 1 \\\\ &amp; 1 \\le x \\le 2 \\end{aligned}$ </p>\n<p> $\\therefore$  Domain of  $f(x)$  is  $[1,2]$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "f(x)=cos^{-1}\\sqrt{x-1}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.445247"
     },
@@ -791,7 +791,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})$ </p>\n<p> $sin^{-1}x$  is defined  $x \\in [-1,1]$  but  $\\frac{\\pi}{3}∉[-1,1]$ </p>\n<p> $\\therefore cos(sin^{-1}(\\frac{\\pi}{3})+cos^{-1}(\\frac{\\pi}{3}))$  does not exists.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})",
@@ -800,7 +800,7 @@
         "\\therefore cos(sin^{-1}(\\frac{\\pi}{3})+cos^{-1}(\\frac{\\pi}{3}))"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.490547"
     },
@@ -846,13 +846,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}] \\\\ &amp; \\Rightarrow cos[sin^{-1}\\frac{3}{4}+\\frac{\\pi}{2}]( \\because sin^{-1}x+cos^{-1}y=\\frac{\\pi}{2}) \\\\ &amp; \\Rightarrow -sin(sin^{-1}\\frac{3}{4}) \\Rightarrow -\\frac{3}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}]="
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.722202"
     },
@@ -898,13 +898,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,}a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3cot^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3(\\frac{\\pi}{2}-tan^{-1}x)&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;\\frac{3\\pi}{2}-tan^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}-\\frac{3\\pi}{2}&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow a-\\pi&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow \\pi-a&gt;tan^{-1}x&gt;\\frac{3\\pi}{2}-b \\\\ &amp; \\text{Since,}-\\frac{\\pi}{2}&lt;tan^{-1}x&lt;\\frac{\\pi}{2} \\therefore a=\\frac{\\pi}{2},b=2\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.749458"
     },
@@ -950,7 +950,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})$ </p>\n<p> $\\Rightarrow f(x)=sin^{-1}(\\frac{2^{x} \\cdot 2}{1+(2^{x})^{2}}) \\Rightarrow f(x)=2tan^{-1}(2^{x})$ </p>\n<p>On differentiating both sides, we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=2 \\cdot \\frac{1}{1+(2^{x})^{2}} \\cdot 2^{x}log2( \\because \\frac{d}{dx}(a^{x})=a^{x}loga) \\\\ &amp; \\therefore f^{'}(0)=\\frac{2}{1+(1)^{2}} \\cdot log2=log2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4^{x}})",
@@ -958,7 +958,7 @@
         "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.540913"
     },
@@ -1004,7 +1004,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the given problem, we use the properties of inverse trigonometric functions. The problem states:</p>\n<p> $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ </p>\n<p>We know a useful identity in trigonometry:  $sin^{-1}a+cos^{-1}a=\\frac{\\pi}{2}$  for any sine or cosine value  $a$ .</p>\n<p>Rewriting the given equation, we can express  $sin^{-1}x$  and  $cos^{-1}y$  in terms of  $\\frac{\\pi}{2}$ :</p>\n<p> $sin^{-1}x=\\frac{\\pi}{2}-cos^{-1}x$ </p>\n<p> $cos^{-1}y=\\frac{\\pi}{2}-sin^{-1}y$ </p>\n<p>Substitute these into the original equation:</p>\n<p> $(\\frac{\\pi}{2}-cos^{-1}x)+(\\frac{\\pi}{2}-sin^{-1}y)=\\frac{2\\pi}{5}$ </p>\n<p>Simplifying:</p>\n<p> $\\pi-(cos^{-1}x+sin^{-1}y)=\\frac{2\\pi}{5}$ </p>\n<p>Solving for  $cos^{-1}x+sin^{-1}y$ :</p>\n<p> $cos^{-1}x+sin^{-1}y=\\pi-\\frac{2\\pi}{5}$ </p>\n<p>Which simplifies to:</p>\n<p> $cos^{-1}x+sin^{-1}y=\\frac{3\\pi}{5}$  </p>\n<p>Thus, the value of  $cos^{-1}x+sin^{-1}y$  is  $\\frac{3\\pi}{5}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}",
@@ -1015,8 +1015,7 @@
         "\\pi-(cos^{-1}x+sin^{-1}y)=\\frac{2\\pi}{5}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws",
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.784198"
     },
@@ -1062,14 +1061,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})$ , we can use the half-angle identity for tangent, which is:</p>\n<p> $tan(\\frac{x}{2})=\\frac{1-cosx}{sinx}$ </p>\n<p>Applying this identity, we get:</p>\n<p> $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))}{sin(cos^{-1}(\\frac{2}{\\sqrt{5}}))}$ </p>\n<p>Since  $cos(cos^{-1}(z))=z$ , we have:</p>\n<p> $cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))=\\frac{2}{\\sqrt{5}}$ </p>\n<p>Now, to find the sine value, note that if  $cos\\theta=\\frac{2}{\\sqrt{5}}$ , then:</p>\n<p> $sin\\theta=\\sqrt{1-(\\frac{2}{\\sqrt{5}})^{2}}=\\sqrt{1-\\frac{4}{5}}=\\sqrt{\\frac{1}{5}}=\\frac{1}{\\sqrt{5}}$ </p>\n<p>Substituting these values back into the formula for the half-angle tangent:</p>\n<p> $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-\\frac{2}{\\sqrt{5}}}{\\frac{1}{\\sqrt{5}}}$ </p>\n<p>Simplifying the expression:</p>\n<p> $=\\frac{\\sqrt{5}-2}{1}=\\sqrt{5}-2$ </p>\n<p>Thus, the value is  $\\sqrt{5}-2$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})",
         "tan(\\frac{x}{2})=\\frac{1-cosx}{sinx}"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.813160"
     },
@@ -1117,14 +1116,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png"
       ],
-      "topic_tag": "Inverse Trigonometric Functions — Core Principles & Governing Laws",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Easy",
       "key_formulas": [
         "sec^{-1}x",
         "y=sec^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Core Principles & Governing Laws"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.955195"
     },
@@ -1170,7 +1169,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the given problem, we'll use the following relationships:</p>\n<p><p> $tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}$ </p></p>\n<p><p>We know that  $tan^{-1}z+cot^{-1}z=\\frac{\\pi}{2}$ .</p></p>\n<p>By expressing  $tan^{-1}x$  and  $tan^{-1}y$  in terms of their cotangent inverses, we have:</p>\n<p> $tan^{-1}x=\\frac{\\pi}{2}-cot^{-1}x$ </p>\n<p> $tan^{-1}y=\\frac{\\pi}{2}-cot^{-1}y$ </p>\n<p>Substituting these into the original equation:</p>\n<p> $(\\frac{\\pi}{2}-cot^{-1}x)+(\\frac{\\pi}{2}-cot^{-1}y)=\\frac{4\\pi}{5}$ </p>\n<p>Simplifying the left-hand side:</p>\n<p> $\\pi-(cot^{-1}x+cot^{-1}y)=\\frac{4\\pi}{5}$ </p>\n<p>To find  $cot^{-1}x+cot^{-1}y$ , solve as follows:</p>\n<p> $cot^{-1}x+cot^{-1}y=\\pi-\\frac{4\\pi}{5}$ </p>\n<p>This simplifies to:</p>\n<p> $cot^{-1}x+cot^{-1}y=\\frac{\\pi}{5}$ </p>\n<p>Therefore, the value of  $cot^{-1}x+cot^{-1}y$  is  $\\frac{\\pi}{5}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Principal Value Branches, Domains & Standard Identities",
       "difficulty": "Medium",
       "key_formulas": [
         "tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}",
@@ -1181,7 +1180,7 @@
         "tan^{-1}x=\\frac{\\pi}{2}-cot^{-1}x"
       ],
       "key_concepts": [
-        "Inverse Trigonometric Functions — Standard Calculations & Problem Archetypes"
+        "Principal Value Branches, Domains & Standard Identities"
       ],
       "crawled_at": "2026-09-20T15:26:36.969668"
     }

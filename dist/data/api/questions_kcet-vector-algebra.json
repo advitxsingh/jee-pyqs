@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For two vectors to be orthogonal, their dot product must be zero.</p>\n<p>Given,</p>\n<p> $\\vec{a}=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}$ </p>\n<p>and</p>\n<p> $\\vec{b}=\\hat{i}+2\\hat{j}+3\\hat{k}$ </p>\n<p>Now,</p>\n<p> $\\vec{a} \\cdot \\vec{b}=2(1)+\\lambda(2)+1(3)$ </p>\n<p> $=2+2\\lambda+3$ </p>\n<p> $=5+2\\lambda$ </p>\n<p>Since the vectors are orthogonal,</p>\n<p> $5+2\\lambda=0$ </p>\n<p> $2\\lambda=-5$ </p>\n<p> $\\lambda=\\frac{-5}{2}$ </p>\n<p>So, the correct option is</p>\n<p> $\\text{Option B}\\frac{-5}{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}",
@@ -55,7 +55,7 @@
         "5+2\\lambda=0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:23.331367"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $\\vec{c}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ </p>\n<p>Given,</p>\n<p> $\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k}$ </p>\n<p>Now,</p>\n<p> $\\vec{a} \\times \\vec{c}=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 1 &amp; 1 &amp; 1 \\\\ x &amp; y &amp; z \\end{aligned}|$ </p>\n<p>Expanding,</p>\n<p> $\\vec{a} \\times \\vec{c}=(z-y)\\hat{i}+(x-z)\\hat{j}+(y-x)\\hat{k}$ </p>\n<p>But it is given that</p>\n<p> $\\vec{a} \\times \\vec{c}=\\vec{b}$ </p>\n<p>and</p>\n<p> $\\vec{b}=\\hat{j}-\\hat{k}$ </p>\n<p>So,</p>\n<p> $(z-y)\\hat{i}+(x-z)\\hat{j}+(y-x)\\hat{k}=0\\hat{i}+1\\hat{j}-1\\hat{k}$ </p>\n<p>Comparing coefficients,</p>\n<p> $z-y=0$ </p>\n<p> $x-z=1$ </p>\n<p> $y-x=-1$ </p>\n<p>From  $z-y=0$ ,</p>\n<p> $z=y$ </p>\n<p>Also, using  $x-z=1$  and  $z=y$ ,</p>\n<p> $x-y=1$ </p>\n<p>Now given,</p>\n<p> $\\vec{a} \\cdot \\vec{c}=3$ </p>\n<p>So,</p>\n<p> $(\\hat{i}+\\hat{j}+\\hat{k}) \\cdot (x\\hat{i}+y\\hat{j}+z\\hat{k})=3$ </p>\n<p>Hence,</p>\n<p> $x+y+z=3$ </p>\n<p>Since  $z=y$ ,</p>\n<p> $x+2y=3$ </p>\n<p>Also,</p>\n<p> $x-y=1$ </p>\n<p>So,</p>\n<p> $x=y+1$ </p>\n<p>Substitute in  $x+2y=3$ :</p>\n<p> $y+1+2y=3$ </p>\n<p> $3y=2$ </p>\n<p> $y=\\frac{2}{3}$ </p>\n<p>Thus,</p>\n<p> $z=\\frac{2}{3}$ </p>\n<p>and</p>\n<p> $x=y+1=\\frac{2}{3}+1=\\frac{5}{3}$ </p>\n<p>So,</p>\n<p> $\\vec{c}=\\frac{5}{3}\\hat{i}+\\frac{2}{3}\\hat{j}+\\frac{2}{3}\\hat{k}$ </p>\n<p>Hence, the correct option is Option C.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\hat{j}+\\hat{k},\\vec{b}=\\hat{j}-\\hat{k}",
@@ -112,7 +112,7 @@
         "x-z=1"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:23.360140"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given</p>\n<p> $\\vec{a}=2\\hat{i}+2\\hat{j}-\\hat{k}$ </p>\n<p>and</p>\n<p> $\\vec{b}=\\alpha\\hat{i}+\\beta\\hat{j}+2\\hat{k}$ </p>\n<p>Also,</p>\n<p> $|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|$ </p>\n<p>Square both sides:</p>\n<p> $|\\vec{a}+\\vec{b}|^{2}=|\\vec{a}-\\vec{b}|^{2}$ </p>\n<p>Using the identity,</p>\n<p> $|\\vec{x}|^{2}=\\vec{x} \\cdot \\vec{x}$ </p>\n<p>we get</p>\n<p> $(\\vec{a}+\\vec{b}) \\cdot (\\vec{a}+\\vec{b})=(\\vec{a}-\\vec{b}) \\cdot (\\vec{a}-\\vec{b})$ </p>\n<p>Expanding both sides:</p>\n<p> $|\\vec{a}|^{2}+2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}=|\\vec{a}|^{2}-2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}$ </p>\n<p>Cancel common terms:</p>\n<p> $2\\vec{a} \\cdot \\vec{b}=-2\\vec{a} \\cdot \\vec{b}$ </p>\n<p>So,</p>\n<p> $4\\vec{a} \\cdot \\vec{b}=0$ </p>\n<p>Hence,</p>\n<p> $\\vec{a} \\cdot \\vec{b}=0$ </p>\n<p>Now find the dot product:</p>\n<p> $\\vec{a} \\cdot \\vec{b}=(2)(\\alpha)+(2)(\\beta)+(-1)(2)$ </p>\n<p> $=2\\alpha+2\\beta-2$ </p>\n<p>Since  $\\vec{a} \\cdot \\vec{b}=0$ ,</p>\n<p> $2\\alpha+2\\beta-2=0$ </p>\n<p> $2\\alpha+2\\beta=2$ </p>\n<p> $\\alpha+\\beta=1$ </p>\n<p>So the correct option is</p>\n<p> $1$ </p>\n<p>Option D.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=2\\hat{i}+2\\hat{j}-\\hat{k},\\vec{b}=\\alpha\\hat{i}+\\beta\\hat{j}+2\\hat{k}",
@@ -169,7 +169,7 @@
         "|\\vec{x}|^{2}=\\vec{x} \\cdot \\vec{x}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:23.386497"
     },
@@ -215,7 +215,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $|\\vec{a} \\times \\vec{b}|$ , remember that the relationship with the dot product and magnitudes is given by:</p>\n<p> $|\\vec{a} \\times \\vec{b}|=|\\vec{a}||\\vec{b}|sin\\theta$ </p>\n<p>where  $\\theta$  is the angle between the vectors  $\\vec{a}$  and  $\\vec{b}$ .</p>\n<p>We use the formula for the dot product to calculate  $cos\\theta$ :</p>\n<p> $\\vec{a} \\cdot \\vec{b}=|\\vec{a}||\\vec{b}|cos\\theta$ </p>\n<p>Given:</p>\n<p><p> $|\\vec{a}|=10$ </p></p>\n<p><p> $|\\vec{b}|=2$ </p></p>\n<p><p> $\\vec{a} \\cdot \\vec{b}=12$ </p></p>\n<p>Substitute these values into the dot product formula:</p>\n<p> $12=10 \\times 2 \\times cos\\theta$ </p>\n<p>Thus,</p>\n<p> $12=20cos\\theta⟹cos\\theta=\\frac{12}{20}=\\frac{3}{5}$ </p>\n<p>Since  $sin^{2}\\theta+cos^{2}\\theta=1$ , we find  $sin\\theta$ :</p>\n<p> $sin^{2}\\theta=1-(\\frac{3}{5})^{2}=1-\\frac{9}{25}=\\frac{16}{25}$ </p>\n<p> $sin\\theta=\\frac{4}{5}$ </p>\n<p>Now, substitute back to find the magnitude of the cross product:</p>\n<p> $|\\vec{a} \\times \\vec{b}|=10 \\times 2 \\times \\frac{4}{5}=20 \\times \\frac{4}{5}=16$ </p>\n<p>Therefore, the value of  $|\\vec{a} \\times \\vec{b}|$  is 16.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\vec{a}|=10,|\\vec{b}|=2",
@@ -226,7 +226,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:24.141861"
     },
@@ -272,7 +272,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let’s check each statement in turn:</p>\n<p><p>Statement (I): “If either  $|\\vec{a}|=0$  or  $|\\vec{b}|=0$ , then  $\\vec{a} \\cdot \\vec{b}=0$ .”  </p>\n<p>– If one of the vectors is the zero vector, say  $\\vec{a}=\\vec{0}$ , then for any  $\\vec{b}$  </p>\n<p> $\\vec{0} \\cdot \\vec{b}=0.$  </p>\n<p>– Hence (I) is <strong>true</strong>.</p></p>\n<p><p>Statement (II): “If  $\\vec{a} \\times \\vec{b}=\\vec{0}$ , then  $\\vec{a}$  is perpendicular to  $\\vec{b}$ .”  </p>\n<p>– Recall  $‖\\vec{a} \\times \\vec{b}‖=|\\vec{a}||\\vec{b}|sin\\theta$ , where  $\\theta$  is the angle between them.  </p>\n<p>–  $\\vec{a} \\times \\vec{b}=\\vec{0}$  means  $sin\\theta=0$ , so  $\\theta=0$  or  $\\pi$ : the vectors are <strong>parallel</strong> (or one is zero), not perpendicular.  </p>\n<p>– Hence (II) is <strong>false</strong>.</p></p>\n<p>Conclusion:  </p>\n<p> Statement (I) is true, Statement (II) is false.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\vec{a}|=0",
@@ -283,7 +283,7 @@
         "\\vec{b}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:24.169756"
     },
@@ -329,7 +329,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p> $\\vec{a}=\\hat{i}+2\\hat{j}+\\hat{k}\\text{and}\\vec{b}=\\hat{i}-\\hat{j}+4\\hat{k}$ </p>\n<p> $\\vec{c}=\\hat{i}+\\hat{j}+\\hat{k}$ </p>\n<p>We need the expression  $\\vec{a}+\\lambda\\vec{b}$  to be perpendicular to  $\\vec{c}$ :</p>\n<p> $(\\vec{a}+\\lambda\\vec{b}) \\cdot \\vec{c}=0$ </p>\n<p>First, calculate  $\\vec{a}+\\lambda\\vec{b}$ :</p>\n<p> $\\vec{a}+\\lambda\\vec{b}=(\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(\\hat{i}-\\hat{j}+4\\hat{k})$ </p>\n<p>Expanding this, we get:</p>\n<p> $=\\hat{i}+2\\hat{j}+\\hat{k}+\\lambda\\hat{i}-\\lambda\\hat{j}+4\\lambda\\hat{k}$ </p>\n<p> $=(1+\\lambda)\\hat{i}+(2-\\lambda)\\hat{j}+(1+4\\lambda)\\hat{k}$ </p>\n<p>Next, calculate the dot product with  $\\vec{c}$ :</p>\n<p> $((1+\\lambda)\\hat{i}+(2-\\lambda)\\hat{j}+(1+4\\lambda)\\hat{k}) \\cdot (\\hat{i}+\\hat{j}+\\hat{k})$ </p>\n<p>Performing the dot product:</p>\n<p> $=(1+\\lambda) \\cdot 1+(2-\\lambda) \\cdot 1+(1+4\\lambda) \\cdot 1$ </p>\n<p> $=(1+\\lambda)+(2-\\lambda)+(1+4\\lambda)$ </p>\n<p> $=1+\\lambda+2-\\lambda+1+4\\lambda$ </p>\n<p> $=4+4\\lambda$ </p>\n<p>Set the expression to zero for perpendicularity:</p>\n<p> $4+4\\lambda=0$ </p>\n<p>Solving for  $\\lambda$ :</p>\n<p> $4\\lambda=-4$ </p>\n<p> $\\lambda=-1$ </p>\n<p>Thus, the correct value of  $\\lambda$  is  $-1$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+2\\hat{j}+\\hat{k},\\vec{b}=\\hat{i}-\\hat{j}+4\\hat{k}",
@@ -340,7 +340,7 @@
         "(\\vec{a}+\\lambda\\vec{b}) \\cdot \\vec{c}=0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:23.415937"
     },
@@ -386,11 +386,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because a+b\\text{is a unit vector if}|a+b|=1 \\\\ &amp; \\begin{aligned} \\Rightarrow &amp; |a+b|^{2}=1 \\\\ \\Rightarrow &amp; (a+b) \\cdot (a+b)=1 \\\\ \\Rightarrow &amp; |a|^{2}+|b|^{2}+2(a \\cdot b)=1 \\\\ \\Rightarrow &amp; 1+1+2(a \\cdot b)=1 \\\\ \\therefore &amp; 2(a \\cdot b)=-1 \\\\ \\Rightarrow &amp; a \\cdot b=-\\frac{1}{2} \\\\ \\Rightarrow &amp; |a||b|cos\\theta=-\\frac{1}{2} \\\\ \\Rightarrow &amp; 1 \\times 1 \\times cos\\theta=-\\frac{1}{2} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow cos\\theta=-\\frac{1}{2} \\\\ &amp; \\text{Hence,}\\theta=\\frac{2\\pi}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.027827"
     },
@@ -436,13 +436,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $p=\\frac{b \\times c}{[abc]},q=\\frac{c \\times a}{[abc]},r=\\frac{a \\times b}{[abc]}$ </p>\n<p>Now,  $(a+b) \\cdot p+(b+c) \\cdot q+(c+a) \\cdot r$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{a \\cdot (b \\times a)}{[abc]}+\\frac{b \\cdot (b \\times c)}{[abc]}+\\frac{b \\cdot (c \\times a)}{[abc]} \\\\ &amp; +\\frac{c \\cdot (c \\times a)}{[abc]}+\\frac{c \\cdot (a \\times b)}{[abc]}+\\frac{a \\cdot (a \\times b)}{[abc]} \\\\ &amp; =\\frac{[abc]}{[abc]}+0+\\frac{[bca]}{[abc]}+0+\\frac{[cab]}{[abc]}+0 \\end{aligned}$ </p>\n<p> $[ \\because$  scalar triple product is zero if two vectors are same]</p>\n<p> $=\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}=3$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "=\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}+\\frac{[abc]}{[abc]}=3"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.056512"
     },
@@ -488,7 +488,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $A=$  origin</p>\n<p> $\\therefore AB=$  Position vector of  $B$ </p>\n<p> $AC=$  Position vector of  $C$ </p>\n<p> $\\therefore$  Position vector of mid-point of  $B$  and  $C$ </p>\n<p> $\\begin{aligned} &amp; =P=\\frac{AB+AC}{2} \\\\ &amp; =(\\frac{3+5}{2})\\hat{i}+(\\frac{0-2}{2})\\hat{j}+(\\frac{4+4}{2})\\hat{k} \\\\ &amp; =4\\hat{i}-\\hat{j}+4\\hat{k} \\end{aligned}$ </p>\n<p> $\\text{Median}=AP=4\\hat{i}-\\hat{j}+4\\hat{k}$ </p>\n<p>Hence, length of median  $=|AP|=\\sqrt{16+1+16}$ </p>\n<p> $=\\sqrt{33}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "AB=3\\hat{i}+4\\hat{k}",
@@ -499,7 +499,7 @@
         "=\\sqrt{33}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:24.197639"
     },
@@ -545,11 +545,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The volume of the parallelopiped whose coterminous edges are  $\\hat{j}+\\hat{k},\\hat{i}+\\hat{k}$  and</p>\n<p> $\\begin{aligned} \\hat{i}+\\hat{j} &amp; =|\\begin{aligned} 0 &amp; 1 &amp; 1 \\\\ 1 &amp; 0 &amp; 1 \\\\ 1 &amp; 1 &amp; 0 \\end{aligned}| \\\\ &amp; =0-1(0-1)+1(1-0) \\\\ &amp; =-1(-1)+1 \\\\ &amp; =2\\text{cu units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:24.223810"
     },
@@ -595,7 +595,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine which option is correct, we can analyze the given equation using the properties of vector norms. The condition  $|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|$  implies that the vector sum and difference of vectors  $\\vec{a}$  and  $\\vec{b}$  have the same magnitude. Let's expand both sides using the formula for the magnitude of a vector sum and difference:</p>\n<p> $|\\vec{a}+\\vec{b}|^{2}=(\\vec{a}+\\vec{b}) \\cdot (\\vec{a}+\\vec{b})=|\\vec{a}|^{2}+2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}$ </p>\n<p>And for the difference, we have:</p>\n<p> $|\\vec{a}-\\vec{b}|^{2}=(\\vec{a}-\\vec{b}) \\cdot (\\vec{a}-\\vec{b})=|\\vec{a}|^{2}-2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}$ </p>\n<p>Given that  $|\\vec{a}+\\vec{b}|^{2}=|\\vec{a}-\\vec{b}|^{2}$ , we can equate the right-hand sides of the above equations:</p>\n<p> $|\\vec{a}|^{2}+2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}=|\\vec{a}|^{2}-2\\vec{a} \\cdot \\vec{b}+|\\vec{b}|^{2}$ </p>\n<p>By simplifying this equation, we can solve for the dot product  $\\vec{a} \\cdot \\vec{b}$ :</p>\n<p> $2\\vec{a} \\cdot \\vec{b}=-2\\vec{a} \\cdot \\vec{b}$ </p>\n<p> $4\\vec{a} \\cdot \\vec{b}=0$ </p>\n<p> $\\vec{a} \\cdot \\vec{b}=0$ </p>\n<p>The dot product of two vectors is zero if and only if the vectors are orthogonal (perpendicular) to each other. Therefore, we can conclude that vectors  $\\vec{a}$  and  $\\vec{b}$  are perpendicular:</p>\n<p>Hence, the correct answer is:</p>\n<p>Option D</p>\n<p> $\\vec{a}$  and  $\\vec{b}$  are perpendicular.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|",
@@ -605,7 +605,7 @@
         "\\vec{a} \\cdot \\vec{b}=0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.909928"
     },
@@ -651,11 +651,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that component of a in the direction of  $b$  is</p>\n<p> $\\frac{|a \\cdot b|}{|b|^{2}}$ </p>\n<p>Let  $b=\\hat{i}+\\hat{j}+2\\hat{k}$  and  $a=\\hat{i}$ </p>\n<p>Then, we have  $|a \\cdot b|=l$ \nand  $|b|=\\sqrt{6}$ </p>\n<p>Now, the component of  $i$  in the direction  $\\hat{i}+\\hat{j}+2\\hat{k}$  is  $\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{6}}{6}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.930685"
     },
@@ -701,14 +701,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}|a \\times b|^{2}+|a \\cdot b|^{2}=144\\text{and}|a|=4 \\\\ &amp; \\Rightarrow |a|^{2}|b|^{2}sin^{2}\\theta+|a||b|^{2}cos^{2}\\theta=144 \\\\ &amp; \\Rightarrow |a|^{2}|b|^{2}[sin^{2}\\theta+cos^{2}\\theta]=144 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; (4)^{2} \\times |b|^{2}=144 \\\\ \\Rightarrow &amp; |b|^{2}=\\frac{144}{16}=9 \\\\ &amp; |b|=3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Easy",
       "key_formulas": [
         "|a \\times b|^{2}+|a \\cdot b|^{2}=144",
         "|a|=4"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.087211"
     },
@@ -754,14 +754,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a+2b+3c=0$ </p>\n<p> $\\begin{aligned} &amp; (a+2b+3c) \\times c=0 \\Rightarrow c \\times a=2(b \\times c) \\\\ &amp; (a+2b+3c) \\times b=0 \\\\ \\Rightarrow &amp; a \\times b=3(b \\times c) \\\\ \\text{So,} &amp; (b \\times c)+(c \\times a)+(a \\times b)=\\lambda(b \\times c) \\\\ &amp; (b \\times c)+2(b \\times c)+3(b \\times c)=\\lambda(b \\times c) \\\\ &amp; 6(b+c)=\\lambda(b \\times c) \\end{aligned}$ </p>\n<p>On comparing with coefficient of  $(b \\times c)$ , we get  $\\lambda=6$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "a+2b+3c=0",
         "(a \\times b)+(b \\times c)+(c \\times a)=\\lambda(b \\times c)"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.111183"
     },
@@ -807,7 +807,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $\\alpha=\\hat{i}-3\\hat{j},𝜷=\\hat{i}+2\\hat{j}-\\hat{k}$ </p>\n<p> $\\beta=\\beta_{1}+\\beta_{2}$ </p>\n<p> $\\beta_{1}$  is parallel to  $\\alpha$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\beta_{1} &amp; =\\lambda\\alpha \\Rightarrow \\beta_{1}=\\lambda\\hat{i}-3\\lambda\\hat{j} \\\\ \\Rightarrow \\text{Also,}\\beta &amp; =\\beta_{1}+\\beta_{2} \\\\ \\beta_{2} &amp; =\\beta-\\beta_{1}=(\\hat{i}+2\\hat{j}-\\hat{k})-(\\lambda\\hat{i}-3\\lambda\\hat{j}) \\\\ \\beta_{2} &amp; =(1-\\lambda)\\hat{i}+(2-3\\lambda)\\hat{j}-\\hat{k} \\end{aligned}$ </p>\n<p>It is given  $\\beta_{2}$  is perpendicular to  $\\alpha$ .</p>\n<p> $\\text{\\begin{array}{left} \\therefore(1-\\lambda)(1)+(2+3 \\lambda)(-3)+(-1)(0)=0 \\\\ \\Rightarrow \\quad 1-\\lambda-6-9 \\lambda+0=0 \\\\ \\Rightarrow \\quad -5-10 \\lambda=0 \\\\ \\Rightarrow \\quad \\lambda=-\\frac{1}{2} \\\\ \\beta_1=\\frac{-1}{2} \\hat{\\mathbf{i}}+\\frac{3}{2} \\hat{\\mathbf{j}} \\end{array}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\alpha=\\hat{i}-3\\hat{j},\\beta=\\hat{i}+2\\hat{j}-\\hat{k}",
@@ -817,7 +817,7 @@
         "\\alpha=\\hat{i}-3\\hat{j},𝜷=\\hat{i}+2\\hat{j}-\\hat{k}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:26.739368"
     },
@@ -863,14 +863,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that,</p>\n<p> $a \\cdot b=|a| \\cdot |b|cos\\theta$ </p>\n<p> $\\begin{aligned} \\text{So,}a \\cdot b=(2)(3)cos120^{\\circ}[ \\because \\theta=120^{\\circ}] \\\\ =6cos(90^{\\circ}+30^{\\circ})=6(-sin30^{\\circ})=-6 \\times \\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; a \\cdot b=-3 \\\\ &amp; \\text{Now,}|\\frac{1}{2}a-\\frac{1}{3}b|^{2}=(\\frac{1}{2}a-\\frac{1}{3}b)(\\frac{1}{2}a-\\frac{1}{3}b) \\\\ &amp; =\\frac{1}{4}|a|^{2}-\\frac{1}{6}a \\cdot b-\\frac{1}{6}a \\cdot b+\\frac{1}{9}|b|^{2} \\\\ &amp; =\\frac{1}{4} \\times 4-\\frac{1}{6} \\times (-3)-\\frac{1}{6}(-3)+\\frac{1}{9} \\times 9 \\\\ &amp; =1+\\frac{1}{2}+\\frac{1}{2}+1=2+1=3 \\end{aligned}$ </p>\n<p>Hence, option (b) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|a|=2",
         "|b|=3"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.947822"
     },
@@ -916,7 +916,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $|a \\times b|+|a \\cdot b|^{2}=36$  and  $|a|=3$ </p>\n<p>Correct one is  $|a \\times b|^{2}+|a \\cdot b|^{2}=36$  and  $|a|=3$ </p>\n<p>We know,  $|a \\times b|^{2}+|a \\cdot b|^{2}=|a|^{2}|b|^{2}$ </p>\n<p> $\\therefore |a|^{2}|b|^{2}=36 \\Rightarrow (3)^{2}|b|^{2}=36$ </p>\n<p> $\\Rightarrow |b|^{2}=4 \\Rightarrow |b|=2$ </p>\n<p>Hence, the correct option is (d).</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|a \\times b|^{2}+|a \\cdot b|^{2}=36",
@@ -927,7 +927,7 @@
         "\\Rightarrow |b|^{2}=4 \\Rightarrow |b|=2"
       ],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:25.969727"
     },
@@ -973,13 +973,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Area of parallelogram having  $a$  and  $b$  as its adjacent sides is 15 sq units.</p>\n<p> $\\Rightarrow |a \\times b|=15$ </p>\n<p>Area of parallelogram having  $(3a+2b)$  and  $(a+3b)$  as two adjacent side</p>\n<p> $\\begin{aligned} &amp; =|(3a+2b) \\times (a+3b)| \\\\ &amp; =|3a \\times a+2b \\times a+9a \\times b+6b \\times b| \\\\ &amp; =|2b \\times a+9a \\times b| \\end{aligned}$ </p>\n<p> $\\begin{aligned} [ \\therefore a \\times a=b \\times b=0] \\\\ [ \\therefore b \\times a=-a \\times b] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =7|a \\times b| \\\\ &amp; =7 \\times 15 \\\\ &amp; =105 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\begin{aligned} & =7|a \\times b| \\\\ & =7 \\times 15 \\\\ & =105 \\end{aligned}"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:27.481343"
     },
@@ -1025,13 +1025,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the equal angles of a with the coordinate axis be  $\\alpha$ .</p>\n<p> $\\begin{aligned} &amp; l=cos\\alpha,m=cos\\alpha,n=cos\\alpha \\\\ &amp; \\because l^{2}+m^{2}+n^{2}=1 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 3cos^{2}\\alpha=1 \\\\ \\Rightarrow &amp; cos\\alpha=\\frac{1}{\\sqrt{3}} \\end{aligned}$ </p>\n<p>Direction ratios are  $1,1,1$ .</p>\n<p> $\\therefore a=\\hat{i}+\\hat{j}+\\hat{k}$ </p>\n<p>Projection of  $b$  on  $a=\\frac{b \\cdot a}{|a|}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{(5\\hat{i}+7\\hat{j}-\\hat{k}) \\cdot (\\hat{i}+\\hat{j}+\\hat{k})}{\\sqrt{1^{2}+1^{2}+1^{2}}} \\\\ &amp; =\\frac{5+7-1}{\\sqrt{3}} \\\\ &amp; =\\frac{11}{\\sqrt{3}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "b=5\\hat{i}+7\\hat{j}+\\hat{k}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:26.765869"
     },
@@ -1079,11 +1079,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltct70wt/27b83c51-b7d5-4416-b467-41177acfaec7/77da40d0-da13-11ee-aa30-990a62f87888/file-1ltct70wu.png?format=png"
       ],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:26.789245"
     },
@@ -1129,14 +1129,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a \\cdot b=0$  and  $(a+b)$  makes  $60^{\\circ}$  angle with a.</p>\n<p> $\\begin{aligned} &amp; &amp; cos60^{\\circ}=\\frac{(a+b) \\cdot a}{|a+b||a|} \\\\ \\Rightarrow &amp; &amp; \\frac{1}{2}=\\frac{|a|^{2}+a \\cdot b}{|a+b||a|} \\\\ \\Rightarrow &amp; &amp; |a+b|=2|a| \\\\ \\Rightarrow &amp; &amp; |a+b|^{2}=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; (a+b)(a+b)=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; |a|^{2}+|b|^{2}+2a \\cdot b=4|a|^{2} \\\\ \\Rightarrow &amp; &amp; b^{2}=3|a|^{2} \\\\ \\Rightarrow &amp; &amp; |b|=\\sqrt{3}|a| \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "a \\cdot b=0",
         "60^{\\circ}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:26.810938"
     },
@@ -1182,11 +1182,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given vectors  $2\\hat{i}-3\\hat{j}+4\\hat{k},2\\hat{i}+\\hat{j}-\\hat{k}$  and  $\\lambda\\hat{i}-\\hat{j}+2\\hat{k}$  are coplanar</p>\n<p> $\\begin{aligned} \\therefore &amp; |\\begin{aligned} 2 &amp; -3 &amp; 4 \\\\ 2 &amp; 1 &amp; -1 \\\\ \\lambda &amp; -1 &amp; 2 \\end{aligned}|=0 \\\\ \\Rightarrow &amp; 2(2-1)+3(4+\\lambda)+4(-2-\\lambda)=0 \\\\ \\Rightarrow &amp; 2+12+3\\lambda-8+4\\lambda=0 \\\\ \\Rightarrow &amp; 6-\\lambda=0 \\\\ \\Rightarrow &amp; \\lambda=6 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:28.293445"
     },
@@ -1234,13 +1234,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltij4zs9/7027c6fc-5aa3-4577-9d16-172bae6390dd/d7f838a0-dd38-11ee-8d62-b5d946d24cb7/file-1ltij4zsa.png?format=png"
       ],
-      "topic_tag": "Cross Product & Geometric Areas",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\Rightarrow BM=\\frac{AC-AB}{2}(\\text{since,}M\\text{is a mid-point of}BC)"
       ],
       "key_concepts": [
-        "Cross Product & Geometric Areas"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:27.504483"
     },
@@ -1286,11 +1286,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $a$  and  $b$  are unit vectors</p>\n<p> $\\begin{aligned} &amp; \\therefore |a|=1\\text{and}|b|=1 \\\\ &amp; \\text{We know that,}|a-b|^{2}=(a-b) \\cdot (a-b) \\\\ &amp; =|a|^{2}-2a \\cdot b+|b|^{2} \\\\ &amp; =|a|^{2}-2|a||b|cos\\theta+|b|^{2} \\\\ &amp; =1-2 \\cdot 1 \\cdot 1 \\cdot cos\\theta+1 \\\\ &amp; =2-2cos\\theta \\\\ &amp; \\Rightarrow |a-b|^{2}=2(1-cos\\theta) \\\\ &amp; =2(2sin^{2}\\theta/2) \\\\ &amp; =4sin^{2}\\theta/2 \\\\ &amp; \\Rightarrow sin^{2}\\frac{\\theta}{2}=\\frac{1}{4}|a-b| \\\\ &amp; \\Rightarrow sin\\frac{\\theta}{2}=\\frac{1}{2}|a-b| \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:27.540189"
     },
@@ -1336,14 +1336,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $|a+b|^{2}+|a \\cdot b|^{2}=144\\text{, and}|a|=6$ </p>\n<p>We kniow that,</p>\n<p> $\\begin{aligned} &amp; |a+b|^{2}+|a \\cdot b|^{2}=(|a||b|)^{2} \\\\ \\Rightarrow &amp; |a|^{2}|b|^{2}=144 \\\\ \\Rightarrow &amp; (6)^{2}|b|^{2}=144 \\\\ \\Rightarrow &amp; |b|^{2}=4 \\\\ \\Rightarrow &amp; |b|=2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Easy",
       "key_formulas": [
         "|a+b|^{2}+|a \\cdot b|^{2}=144|a|=6",
         "|a+b|^{2}+|a \\cdot b|^{2}=144\\text{, and}|a|=6"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:27.571780"
     },
@@ -1389,13 +1389,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Key Idea: If}a=a_{1}l+a_{2}m+a_{3}n\\text{;} \\\\ &amp; b=b_{1}l+b_{2}m+b_{3}n \\\\ &amp; \\text{and}c=c_{1}l+c_{2}m+c_{3}n \\\\ &amp; \\text{then}[abc]=⎡⎣⎢\\begin{aligned} a_{1} &amp; a_{2} &amp; a_{3} \\\\ b_{1} &amp; b_{2} &amp; b_{3} \\\\ c_{1} &amp; c_{2} &amp; c_{3} \\end{aligned}⎤⎦⎥[l,m,n] \\\\ &amp; \\therefore [a+2b-c,a-b,a-b-c] \\\\ &amp; =⎡⎣⎢\\begin{aligned} 1 &amp; 2 &amp; -1 \\\\ 1 &amp; -1 &amp; 0 \\\\ 1 &amp; -1 &amp; -1 \\end{aligned}⎤⎦⎥[a,b,c]=3[a,b,c] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Easy",
       "key_formulas": [
         "[a+2b-c,a-b,a-b-c]="
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:29.090048"
     },
@@ -1441,7 +1441,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea use  $(a \\times b)^{2}+(a \\cdot b)^{2}=|a|^{2}|b|^{2}$ </p>\n<p>We have,  $|a|=16,|b|=4$ </p>\n<p> $\\begin{aligned} \\therefore \\sqrt{|a \\times b|^{2}+|a \\times b|^{2}} &amp; =\\sqrt{|a|^{2}|b|^{2}} \\\\ &amp; =|a||b|=16 \\times 4=64 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Easy",
       "key_formulas": [
         "|a|=16,|b|=4",
@@ -1449,7 +1449,7 @@
         "(a \\times b)^{2}+(a \\cdot b)^{2}=|a|^{2}|b|^{2}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:28.318113"
     },
@@ -1495,11 +1495,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to question, we have  $\\frac{a \\cdot b}{|b|}=-2$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{|a||b|cos\\theta}{|b|}=-2; \\\\ &amp; |a|cos\\theta=-2 \\\\ &amp; \\Rightarrow |a|cos(\\frac{2\\pi}{3})=2 \\Rightarrow |a|(-\\frac{1}{2})=-2 \\Rightarrow |a|=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:28.348776"
     },
@@ -1545,7 +1545,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let,  $a=\\hat{i}+2\\hat{j}+\\hat{k}$  and  $b=-2\\hat{i}+\\hat{j}+3\\hat{k}$ </p>\n<p>Now,  $a \\times b=|\\begin{aligned} \\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 𝟏 &amp; 2 &amp; 1 \\\\ -2 &amp; 1 &amp; 3 \\end{aligned}|$ </p>\n<p> $=\\hat{i}(6-1)-\\hat{j}(3+2+\\hat{k}(1+4)=5\\hat{i}-5\\hat{j}+5\\hat{k}$ </p>\n<p>and  $|a \\times b|=\\sqrt{(-5)^{2}+(-5)^{2}+(5)^{2}}=5\\sqrt{3}$ </p>\n<p>We know that, the unit vectors perpendicular to both  $a$  and  $b$  is given by  $\\pm \\frac{a \\times b}{|a \\times b|}$ </p>\n<p> $\\therefore$  required unit vector perpendicular to the plane containing the given vectors</p>\n<p> $=\\frac{5\\hat{i}-5\\hat{j}+5\\hat{k}}{5\\sqrt{3}}=\\frac{\\hat{i}-\\hat{j}+\\hat{k}}{\\sqrt{3}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Vector Triple Product & Lagrange Identity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "a=\\hat{i}+2\\hat{j}+\\hat{k}",
@@ -1554,7 +1554,7 @@
         "|a \\times b|=\\sqrt{(-5)^{2}+(-5)^{2}+(5)^{2}}=5\\sqrt{3}"
       ],
       "key_concepts": [
-        "Vector Triple Product & Lagrange Identity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:28.372802"
     },
@@ -1600,7 +1600,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We are given the vectors  $\\vec{a}=\\hat{i}+\\lambda\\hat{j}+2\\hat{k}$  and  $\\vec{b}=\\mu\\hat{i}+\\hat{j}-\\hat{k}$ , which are orthogonal, and we know that  $|\\vec{a}|=|\\vec{b}|$ .</p>\n<h3>Step 1: Orthogonal Vectors</h3>\n<p>When two vectors are orthogonal, their dot product is zero:</p>\n<p> $\\vec{a} \\cdot \\vec{b}=0$ </p>\n<p>Substituting the given vectors into the dot product:</p>\n<p> $(\\hat{i}+\\lambda\\hat{j}+2\\hat{k}) \\cdot (\\mu\\hat{i}+\\hat{j}-\\hat{k})=0$ </p>\n<p>Calculating the dot product:</p>\n<p> $\\mu+\\lambda-2=0 \\Rightarrow \\mu+\\lambda=2\\dots\\text{(i)}$ </p>\n<h3>Step 2: Magnitude Equality</h3>\n<p>The magnitudes of the vectors are equal:</p>\n<p> $|\\vec{a}|=|\\vec{b}|$ </p>\n<p>Therefore:</p>\n<p> $\\sqrt{1+\\lambda^{2}+4}=\\sqrt{\\mu^{2}+1+1}$ </p>\n<p>Squaring both sides:</p>\n<p> $1+\\lambda^{2}+4=\\mu^{2}+2$ </p>\n<p>This simplifies to:</p>\n<p> $\\mu^{2}-\\lambda^{2}=3$ </p>\n<p>Using the identity for the difference of squares:</p>\n<p> $(\\mu+\\lambda)(\\mu-\\lambda)=3$ </p>\n<p>From equation (i), we have:</p>\n<p> $2(\\mu-\\lambda)=3 \\Rightarrow \\mu-\\lambda=\\frac{3}{2}\\dots\\text{(ii)}$ </p>\n<h3>Step 3: Solve Equations</h3>\n<p>Now, solve the simultaneous equations (i) and (ii):</p>\n<p><p> $\\mu+\\lambda=2$ </p></p>\n<p><p> $\\mu-\\lambda=\\frac{3}{2}$ </p></p>\n<p>Adding these equations gives:</p>\n<p> $2\\mu=2+\\frac{3}{2}=\\frac{7}{2} \\Rightarrow \\mu=\\frac{7}{4}$ </p>\n<p>Subtracting equation (ii) from equation (i):</p>\n<p> $2\\lambda=2-\\frac{3}{2}=\\frac{1}{2} \\Rightarrow \\lambda=\\frac{1}{4}$ </p>\n<p>Thus, the values of  $(\\lambda,\\mu)$  are:</p>\n<p> $(\\lambda,\\mu)=(\\frac{1}{4},\\frac{7}{4})$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Hard",
       "key_formulas": [
         "\\vec{a}=\\hat{i}+\\lambda\\hat{j}+2\\hat{k};\\vec{b}=\\mu\\hat{i}+\\hat{j}-\\hat{k}",
@@ -1611,7 +1611,7 @@
         "(\\hat{i}+\\lambda\\hat{j}+2\\hat{k}) \\cdot (\\mu\\hat{i}+\\hat{j}-\\hat{k})=0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:30.319369"
     },
@@ -1657,7 +1657,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to find the value of  $|\\vec{b}|$ . </p>\n<p>We have the identity: </p>\n<p> $|\\vec{a} \\times \\vec{b}|^{2}+|\\vec{a} \\cdot \\vec{b}|^{2}=|\\vec{a}|^{2}|\\vec{b}|^{2}$ </p>\n<p>Given that this is equal to 144, and  $|\\vec{a}|=4$ , we can substitute and rearrange:</p>\n<p> $144=(4)^{2}|\\vec{b}|^{2}$ </p>\n<p>So, we calculate:</p>\n<p> $144=16|\\vec{b}|^{2}$ </p>\n<p>Solving for  $|\\vec{b}|^{2}$ , we get:</p>\n<p> $|\\vec{b}|^{2}=\\frac{144}{16}=9$ </p>\n<p>Thus,  $|\\vec{b}|=\\sqrt{9}=3$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "|\\vec{a} \\times \\vec{b}|^{2}+|\\vec{a} \\cdot \\vec{b}|^{2}=144",
@@ -1665,7 +1665,7 @@
         "|\\vec{b}|"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:29.116609"
     },
@@ -1711,7 +1711,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a\\hat{i}+\\hat{j}+\\hat{k},\\hat{i}+b\\hat{j}+\\hat{k}$  and  $\\hat{i}+\\hat{j}+c\\hat{k}$  are coplanar vector</p>\n<p> $\\begin{aligned} \\therefore &amp; |\\begin{aligned} a &amp; 1 &amp; 1 \\\\ 1 &amp; b &amp; 1 \\\\ 1 &amp; 1 &amp; c \\end{aligned}|=0 \\\\ \\Rightarrow &amp; a(bc-1)-1(c-1)+1(1-b)=0 \\\\ \\Rightarrow &amp; abc-a-c+1+1-b=0 \\\\ \\Rightarrow &amp; abc-(a+b+c)=-2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "\\vec{a}",
@@ -1719,8 +1719,7 @@
         "(3\\vec{a}+2\\vec{b}) \\cdot (5\\vec{a}-6\\vec{b})"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality",
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:29.141401"
     },
@@ -1766,11 +1765,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $a\\hat{i}+\\hat{j}+\\hat{k},\\hat{i}+b\\hat{j}+\\hat{k}$  and  $\\hat{i}+\\hat{j}+c\\hat{k}$  are coplanar vector</p>\n<p> $\\begin{aligned} &amp; \\therefore |\\begin{aligned} a &amp; 1 &amp; 1 \\\\ 1 &amp; b &amp; 1 \\\\ 1 &amp; 1 &amp; c \\end{aligned}|=0 \\\\ &amp; \\Rightarrow a(bc-1)-1(c-1)+1(1-b)=0 \\\\ &amp; \\Rightarrow abc-a-c+1+1-b=0 \\\\ &amp; \\Rightarrow abc-(a+b+c)=-2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:29.166216"
     },
@@ -1816,7 +1815,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the angle between the unit vectors  $a$  and  $b$ , given that  $\\sqrt{3}a-b$  is also a unit vector, we proceed as follows:</p>\n<p>Since  $a$ ,  $b$ , and  $\\sqrt{3}a-b$  are unit vectors, we have:</p>\n<p> $|a|=|b|=|\\sqrt{3}a-b|=1$ </p>\n<p>Considering the condition:</p>\n<p> $|\\sqrt{3}a-b|=1$ </p>\n<p>Squaring the magnitude gives:</p>\n<p> $|\\sqrt{3}a-b|^{2}=1$ </p>\n<p>Expanding this expression:</p>\n<p> $(\\sqrt{3}a-b) \\cdot (\\sqrt{3}a-b)=1$ </p>\n<p>This simplifies to:</p>\n<p> $3|a|^{2}+|b|^{2}-2\\sqrt{3}(a \\cdot b)=1$ </p>\n<p>Substituting the known magnitudes  $|a|=1$  and  $|b|=1$ :</p>\n<p> $3(1)^{2}+(1)^{2}-2\\sqrt{3}cos\\theta=1$ </p>\n<p>This results in:</p>\n<p> $3+1-2\\sqrt{3}cos\\theta=1$ </p>\n<p>Solving for  $cos\\theta$ :</p>\n<p> $4-2\\sqrt{3}cos\\theta=1$ </p>\n<p> $2\\sqrt{3}cos\\theta=3$ </p>\n<p> $cos\\theta=\\frac{\\sqrt{3}}{2}$ </p>\n<p>Thus, the angle  $\\theta$  is:</p>\n<p> $\\theta=\\frac{\\pi}{6}\\text{or}30^{\\circ}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "2\\sqrt{3}cos\\theta=3",
@@ -1824,7 +1823,7 @@
         "\\theta=\\frac{\\pi}{6}\\text{or}30^{\\circ}"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:30.351484"
     },
@@ -1841,7 +1840,7 @@
       "shift": null,
       "question_index": 3,
       "question_type": "MCQ",
-      "question_text": "If $a=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}$ and $b=\\hat{i}+2\\hat{j}+3\\hat{k}$ are orthogonal, then value of $\\lambda$ is",
+      "question_text": "If $\\vec{a}=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}$ and $\\vec{b}=\\hat{i}+2\\hat{j}+3\\hat{k}$ are orthogonal, then value of $\\lambda$ is",
       "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $a=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}$  and  $b=\\hat{i}+2\\hat{j}+3\\hat{k}$  are orthogonal, then value of  $\\lambda$  is\n<!-- HTML_TAG_END --></div></div>",
       "options": [
         {
@@ -1865,19 +1864,20 @@
           "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-5/2$ <!-- HTML_TAG_END --></div>"
         }
       ],
-      "correct_answer": null,
-      "explanation_text": "$\\begin{aligned} & \\text{We have,} \\\\ & \\begin{aligned} a & =2\\hat{i}+\\lambda\\hat{j}+\\hat{k} \\\\ \\text{and}b & =\\hat{i}+2\\hat{j}+3\\hat{k} \\end{aligned} \\end{aligned}$ Since, $a$ and $b$ are orthogonal $\\therefore a \\cdot b=0$ $\\begin{aligned} \\Rightarrow & (2\\hat{i}+\\lambda\\hat{j}+k) \\cdot (i+2j+3k)=0 \\\\ \\Rightarrow & 2+2\\lambda+3=0 \\\\ \\Rightarrow & 2\\lambda+5=0 \\\\ \\Rightarrow & \\lambda=-\\frac{5}{2} \\end{aligned}$",
+      "correct_answer": "D",
+      "explanation_text": "$\\begin{aligned} & \\text{We have,} \\\\ & \\begin{aligned} \\vec{a} & =2\\hat{i}+\\lambda\\hat{j}+\\hat{k} \\\\ \\text{and} \\; \\vec{b} & =\\hat{i}+2\\hat{j}+3\\hat{k} \\end{aligned} \\end{aligned}$ Since $\\vec{a}$ and $\\vec{b}$ are orthogonal, $\\vec{a} \\cdot \\vec{b} = 0$: $\\begin{aligned} \\Rightarrow & (2\\hat{i}+\\lambda\\hat{j}+\\hat{k}) \\cdot (\\hat{i}+2\\hat{j}+3\\hat{k})=0 \\\\ \\Rightarrow & 2(1) + \\lambda(2) + 1(3) = 0 \\\\ \\Rightarrow & 2\\lambda+5=0 \\\\ \\Rightarrow & \\lambda=-\\frac{5}{2} \\end{aligned}$",
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,} \\\\ &amp; \\begin{aligned} a &amp; =2\\hat{i}+\\lambda\\hat{j}+\\hat{k} \\\\ \\text{and}b &amp; =\\hat{i}+2\\hat{j}+3\\hat{k} \\end{aligned} \\end{aligned}$ </p>\n<p>Since,  $a$  and  $b$  are orthogonal</p>\n<p> $\\therefore a \\cdot b=0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; (2\\hat{i}+\\lambda\\hat{j}+k) \\cdot (i+2j+3k)=0 \\\\ \\Rightarrow &amp; 2+2\\lambda+3=0 \\\\ \\Rightarrow &amp; 2\\lambda+5=0 \\\\ \\Rightarrow &amp; \\lambda=-\\frac{5}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Dot Product, Projections & Orthogonality",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
-        "a=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}",
-        "b=\\hat{i}+2\\hat{j}+3\\hat{k}"
+        "\\vec{a}=2\\hat{i}+\\lambda\\hat{j}+\\hat{k}",
+        "\\vec{b}=\\hat{i}+2\\hat{j}+3\\hat{k}",
+        "\\vec{a} \\cdot \\vec{b} = 0"
       ],
       "key_concepts": [
-        "Dot Product, Projections & Orthogonality"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:30.379354"
     },
@@ -1923,7 +1923,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have, a, b, c are unit vectors.</p>\n<p> $\\therefore |a|=|b=|c|=1$ </p>\n<p>Also, we have</p>\n<p> $\\begin{aligned} a+b+c=0 \\\\ \\therefore a \\cdot (a+b+c)=a \\cdot 0 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow a \\cdot a+a \\cdot b+a \\cdot c=0 \\\\ &amp; \\Rightarrow |a|^{2}+a \\cdot b+a \\cdot c=0[ \\because |a|=1] \\\\ &amp; \\Rightarrow a \\cdot b+a \\cdot c=-|a|^{2}=-1...(i) \\end{aligned}$ </p>\n<p>Similarly,</p>\n<p> $\\begin{aligned} &amp; b \\cdot a+b \\cdot c=-1...(ii) \\\\ &amp; andc \\cdot a+c \\cdot b=-1...(iii) \\end{aligned}$ </p>\n<p>On adding Eqs. (i), (ii) and (iii), we get</p>\n<p> $\\begin{aligned} &amp; 2(a \\cdot b+b \\cdot c+c \\cdot a)=-3 \\\\ &amp; \\Rightarrow a \\cdot b+b \\cdot c+c \\cdot a=\\frac{-3}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Scalar Triple Product (Box Product) & Coplanarity",
+      "topic_tag": "Vector Operations: Dot Product & Cross Product",
       "difficulty": "Medium",
       "key_formulas": [
         "a+b+c=0",
@@ -1932,7 +1932,7 @@
         "\\begin{aligned} a+b+c=0 \\\\ \\therefore a \\cdot (a+b+c)=a \\cdot 0 \\end{aligned}"
       ],
       "key_concepts": [
-        "Scalar Triple Product (Box Product) & Coplanarity"
+        "Vector Operations: Dot Product & Cross Product"
       ],
       "crawled_at": "2026-09-20T15:21:30.412445"
     }

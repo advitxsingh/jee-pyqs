@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a projectile, the maximum height is given by</p>\n<p> $H=\\frac{u^{2}sin^{2}\\theta}{2g}$ </p>\n<p>Here both bodies are projected with the same velocity, so  $u$  is the same for both. Also,  $g$  is the same.</p>\n<p>So maximum height depends only on  $sin^{2}\\theta$ .</p>\n<p>For the first body,</p>\n<p> $\\theta=30^{\\circ}$ </p>\n<p> $H_{1}=\\frac{u^{2}sin^{2}30^{\\circ}}{2g}$ </p>\n<p>For the second body,</p>\n<p> $\\theta=45^{\\circ}$ </p>\n<p> $H_{2}=\\frac{u^{2}sin^{2}45^{\\circ}}{2g}$ </p>\n<p>So,</p>\n<p> $\\frac{H_{1}}{H_{2}}=\\frac{sin^{2}30^{\\circ}}{sin^{2}45^{\\circ}}$ </p>\n<p>We know,</p>\n<p> $sin30^{\\circ}=\\frac{1}{2}$ </p>\n<p>and</p>\n<p> $sin45^{\\circ}=\\frac{1}{\\sqrt{2}}$ </p>\n<p>So,</p>\n<p> $\\frac{H_{1}}{H_{2}}=\\frac{(\\frac{1}{2})^{2}}{(\\frac{1}{\\sqrt{2}})^{2}}$ </p>\n<p> $=\\frac{\\frac{1}{4}}{\\frac{1}{2}}=\\frac{1}{2}$ </p>\n<p>Hence,</p>\n<p> $H_{1}:H_{2}=1:2$ </p>\n<p>The correct option is Option B,  $1:2$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Medium",
       "key_formulas": [
         "30^{\\circ}",
@@ -55,7 +55,7 @@
         "H_{2}=\\frac{u^{2}sin^{2}45^{\\circ}}{2g}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.619868"
     },
@@ -101,11 +101,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The only quantity that stays unchanged (no acceleration in that direction) is the horizontal component of the velocity. In symbols:  </p>\n<p>• If the launch speed is  $u$  at an angle  $\\theta$  above horizontal,  </p>\n<p> $v_{x}=ucos\\theta$  </p>\n<p>and since there’s no horizontal acceleration,  $v_{x}$  remains the same at all times and positions.  </p>\n<p>So the correct choice is:  </p>\n<p>Option B: Horizontal component of velocity.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.633256"
     },
@@ -151,7 +151,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that, maximum vertical height in projectile motion,</p>\n<p> $H=\\frac{u^{2}sin^{2}\\phi}{2g}$ \n[where,  $\\phi$  is angle of projection.]</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; H∝sin^{2}\\phi \\\\ \\Rightarrow &amp; \\frac{H_{1}}{H_{2}}=\\frac{sin^{2}\\phi}{sin^{2}\\phi_{2}}=\\frac{sin^{2}\\theta}{sin^{2}(90-\\theta)} \\end{aligned}$ </p>\n<p>[Given,  $\\phi_{1}=\\theta$  and  $\\phi_{2}=90^{\\circ}-\\theta$ ]</p>\n<p> $=\\frac{sin^{2}\\theta}{cos^{2}\\theta}=tan^{2}\\theta$ </p>\n<p> $\\therefore H_{1}:H_{2}=tan^{2}\\theta:1$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Medium",
       "key_formulas": [
         "\\theta^{\\circ}",
@@ -160,7 +160,7 @@
         "\\therefore H_{1}:H_{2}=tan^{2}\\theta:1"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.646290"
     },
@@ -206,11 +206,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The trajectory of a projectile is a parabola in the absence of air resistance.\nIn the presence of air resistance, range and maximum height of projectile, both will decrease, hence path of projectile will not remain parabolic.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.815316"
     },
@@ -256,13 +256,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In projectile motion, centre of acceleration is directed towards the centre of earth and at peak point, the angle between velocity and acceleration is  $90^{\\circ}$ . because at peak point the vertical component of velocity is zero. Thus, it is minimum and acute at only one point (i.e. at highest point)</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Easy",
       "key_formulas": [
         "90^{\\circ}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.825803"
     },
@@ -308,7 +308,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $u=10\\hat{j}ms^{-1},a=8\\hat{i}+2\\hat{j}ms^{-2}$ </p>\n<p> $x=16m$ </p>\n<p>Using equation of motion,</p>\n<p> $\\begin{aligned} s=ut+\\frac{1}{2}at^{2} \\\\ x\\hat{i}+y\\hat{j}=10\\hat{j} \\times t+\\frac{1}{2}(8\\hat{i}+2\\hat{j})t^{2} \\end{aligned}$ </p>\n<p> $\\Rightarrow 16\\hat{i}+y\\hat{j}=10\\hat{j}+4t^{2}\\hat{i}+t^{2}\\hat{j}$ </p>\n<p>Comparing both sides, we get</p>\n<p> $\\begin{aligned} &amp; 4t^{2}=16 \\\\ \\Rightarrow &amp; t=2s \\\\ \\text{and} &amp; y=10t+t^{2} \\\\ &amp; =10 \\times 2+(2)^{2} \\\\ &amp; =24m \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Medium",
       "key_formulas": [
         "t=0",
@@ -317,7 +317,7 @@
         "\\Rightarrow 16\\hat{i}+y\\hat{j}=10\\hat{j}+4t^{2}\\hat{i}+t^{2}\\hat{j}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.837967"
     },
@@ -363,7 +363,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The maximum range  $R$  of a projectile on a horizontal plane is given by the formula:</p>\n<p> $R=\\frac{v^{2}sin2\\theta}{g}$ </p>\n<p>For the maximum range,  $\\theta$  is  $45^{\\circ}$ , and  $sin2\\theta=sin90^{\\circ}=1$ . Hence, the formula simplifies to:</p>\n<p> $R=\\frac{v^{2}}{g}$ </p>\n<p>We can rearrange this equation to solve for the initial muzzle velocity  $v$ :</p>\n<p> $v^{2}=R \\cdot g$ </p>\n<p> $v=\\sqrt{R \\cdot g}$ </p>\n<p>Given:</p>\n<p><p> $R=16\\text{km}=16000\\text{m}$ </p></p>\n<p><p> $g=10\\text{m/s}^{2}$ </p></p>\n<p>Substitute these values into the equation:</p>\n<p> $v=\\sqrt{16000 \\cdot 10}$ </p>\n<p> $v=\\sqrt{160000}$ </p>\n<p> $v=400\\text{m/s}$ </p>\n<p>Therefore, the muzzle velocity of a shell is <strong>Option C:</strong>  $400\\text{m/s}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Medium",
       "key_formulas": [
         "g=10ms^{-2}",
@@ -374,7 +374,7 @@
         "v=\\sqrt{160000}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.665597"
     },
@@ -422,7 +422,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lth0gqqc/f5096c56-f164-47d0-97f6-3f779ea697e9/08952850-dc63-11ee-9f99-f3a00dbfa5f2/file-1lth0gqqd.png?format=png"
       ],
-      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Swimmer)",
+      "topic_tag": "Relative Velocity in 2D (Rain-Man & River-Boat)",
       "difficulty": "Medium",
       "key_formulas": [
         "12ms^{-1}",
@@ -430,7 +430,7 @@
         "v_{w}=12ms^{-1}"
       ],
       "key_concepts": [
-        "Relative Velocity in 2D (Rain-Man & River-Swimmer)"
+        "Relative Velocity in 2D (Rain-Man & River-Boat)"
       ],
       "crawled_at": "2026-09-20T15:27:53.851090"
     },
@@ -476,7 +476,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The trajectory of a projectile launched from the origin is represented by the equation: </p>\n<p> $y=x-\\frac{2x^{2}}{5}$ </p>\n<p>We'll compare this equation with the standard trajectory equation for a projectile:</p>\n<p> $y=xtan\\theta-\\frac{g}{2u^{2}cos^{2}\\theta}x^{2}$ </p>\n<p>From this comparison, we find:</p>\n<p> $tan\\theta=1 \\Rightarrow \\theta=45^{\\circ}$ </p>\n<p>This indicates that the angle of projection is  $45^{\\circ}$ .</p>\n<p>At the range ( $R$ ), the height ( $y=0$ ) because the projectile returns to the horizontal axis:</p>\n<p>From the given equation:</p>\n<p> $0=R-\\frac{2R^{2}}{5}0=R(1-\\frac{2R}{5}) \\Rightarrow R \\ne 0 \\therefore 1-\\frac{2R}{5}=0 \\Rightarrow R=\\frac{5}{2}$ </p>\n<p>Here,  $R$  is the range of the projectile.</p>\n<p>Using the range formula for projectiles:</p>\n<p> $R=\\frac{u^{2}sin(2 \\times 45^{\\circ})}{g}$ </p>\n<p>Substitute the known values:</p>\n<p> $\\frac{u^{2}}{10}=\\frac{5}{2}[g=10\\text{m/s}^{2}]u^{2}=\\frac{5}{2} \\times 10 \\Rightarrow u=5\\text{m/s}$ </p>\n<p>Therefore, the initial velocity  $u$  of the projectile is  $5\\text{m/s}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Projectile Motion & Trajectory",
+      "topic_tag": "Projectile Motion: Range, Maximum Height & Flight Time",
       "difficulty": "Medium",
       "key_formulas": [
         "y=x-\\frac{2x^{2}}{5}",
@@ -485,7 +485,7 @@
         "45^{\\circ}"
       ],
       "key_concepts": [
-        "Projectile Motion & Trajectory"
+        "Projectile Motion: Range, Maximum Height & Flight Time"
       ],
       "crawled_at": "2026-09-20T15:27:53.926257"
     }

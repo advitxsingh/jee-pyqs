@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The town receives power through a step-down transformer whose primary voltage is  $45000\\text{V}$ .</p>\n<p>The power demand of the town is</p>\n<p> $P=900\\text{kW}=900000\\text{W}$ </p>\n<p>So the current in the transmission line is</p>\n<p> $I=\\frac{P}{V}$ </p>\n<p> $I=\\frac{900000}{45000}=20\\text{A}$ </p>\n<p>Now, each wire is  $20\\text{km}$  long.</p>\n<p> $20\\text{km}=20000\\text{m}$ </p>\n<p>Resistance per unit length of each wire is</p>\n<p> $5 \\times 10^{-4}\\Omega\\text{m}^{-1}$ </p>\n<p>So resistance of one wire is</p>\n<p> $R=5 \\times 10^{-4} \\times 20000$ </p>\n<p> $R=10\\Omega$ </p>\n<p>Since it is a two-wire transmission line, total resistance is</p>\n<p> $R_{\\text{total}}=10+10=20\\Omega$ </p>\n<p>Power loss in the line as heat is</p>\n<p> $P_{\\text{loss}}=I^{2}R$ </p>\n<p> $P_{\\text{loss}}=(20)^{2} \\times 20$ </p>\n<p> $P_{\\text{loss}}=400 \\times 20=8000\\text{W}$ </p>\n<p> $P_{\\text{loss}}=8\\text{kW}$ </p>\n<p>So the line power loss is</p>\n<p> $8\\text{kW}$ </p>\n<p>Correct option: <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "LC Oscillations & Transformers",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "5 \\times 10^{-4}\\Omega\\text{m}^{-1}",
@@ -55,7 +55,7 @@
         "R=5 \\times 10^{-4} \\times 20000"
       ],
       "key_concepts": [
-        "LC Oscillations & Transformers"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:22.565168"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a light bulb, the given power rating is</p>\n<p> $P=100\\text{W}$ </p>\n<p>and the AC voltage given is the rms voltage,</p>\n<p> $V_{\\text{rms}}=220\\text{V}$ </p>\n<p>For a bulb, which behaves like a resistor, the power is</p>\n<p> $P=V_{\\text{rms}}I_{\\text{rms}}$ </p>\n<p>So,</p>\n<p> $I_{\\text{rms}}=\\frac{P}{V_{\\text{rms}}}$ </p>\n<p>Substitute the values:</p>\n<p> $I_{\\text{rms}}=\\frac{100}{220}$ </p>\n<p> $I_{\\text{rms}}=0.454\\text{A}$ </p>\n<p>So, the rms current through the bulb is</p>\n<p> $0.454\\text{A}$ </p>\n<p>Correct option: Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "P=100\\text{W}",
@@ -112,7 +112,7 @@
         "I_{\\text{rms}}=0.454\\text{A}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:22.582147"
     },
@@ -158,7 +158,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In a circuit containing a pure resistor connected to an AC source, the voltage and current remain in the same phase.</p>\n<p>For a pure resistor, Ohm’s law applies at every instant:</p>\n<p> $V=IR$ </p>\n<p>If the applied AC voltage is</p>\n<p> $V=V_{0}sin\\omega t$ </p>\n<p>then the current is</p>\n<p> $I=\\frac{V}{R}=\\frac{V_{0}}{R}sin\\omega t$ </p>\n<p>So,</p>\n<p> $I=I_{0}sin\\omega t$ </p>\n<p>Both voltage and current vary as  $sin\\omega t$ . This means they reach zero, maximum, and minimum values at the same time.</p>\n<p>So, the phase difference between voltage and current is</p>\n<p> $0^{\\circ}$ </p>\n<p>Hence, the correct option is:</p>\n<p> $\\text{Option C: Voltage and current are in same phase with each other}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "V=IR",
@@ -169,7 +169,7 @@
         "0^{\\circ}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:22.604586"
     },
@@ -215,7 +215,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sinusoidal voltage from an AC generator at any instant is represented by the equation  $V=311sin314t$ .</p>\n<p>To determine the root mean square (rms) value of the voltage, we use the formula for the rms value of a sinusoidal voltage:</p>\n<p> $V_{\\text{rms}}=\\frac{V_{0}}{\\sqrt{2}}=\\frac{311}{\\sqrt{2}}=220\\text{V}$ </p>\n<p>Here,  $V_{0}=311\\text{V}$  is the peak voltage.</p>\n<p>To find the frequency, we use the relationship between angular frequency ( $\\omega$ ) and frequency ( $f$ ):</p>\n<p> $\\omega=2\\pi f$ </p>\n<p>Given  $\\omega=314$ , we set:</p>\n<p> $314=2\\pi f$ </p>\n<p>Solving for  $f$ , we find:</p>\n<p> $f=\\frac{314}{2\\pi} \\approx 50\\text{Hz}$ </p>\n<p>Thus, the rms value of the voltage is 220 V, and the frequency is 50 Hz.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "V=311sin314",
@@ -225,7 +225,7 @@
         "\\omega"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:22.826823"
     },
@@ -273,11 +273,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbkzv8h/a5457575-187d-4f99-8bfc-1286f22e9f46/bb521510-518e-11f0-9279-21f1ba4d87a1/file-jaoe38c1mcbkzv8i.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:22.857527"
     },
@@ -323,11 +323,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Domestic mains use alternating voltage and thus also alternating current. That matches:  </p>\n<p>Option D: AC voltage and AC current.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:22.623602"
     },
@@ -375,7 +375,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5uljvi6/37d3bed6-3366-4319-9cf3-b3b478392f34/4865e5e0-d16e-11ef-8978-cdd90f8714b3/file-jaoe38c1m5uljvi7.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [
         "R,X_{L}",
@@ -383,7 +383,7 @@
         "X_{C}>X_{L}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.197165"
     },
@@ -429,12 +429,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For better tunning of an  $L-C-R$  circuit used in for communication, quality factor  $Q$  must be high.</p>\n<p> $\\therefore Q=\\frac{1}{R}\\sqrt{fracLC}$ </p>\n<p>In option (d),  $R$  and  $C$  is minimum and  $L$  is maximum.\nThus, the value of  $R,L$  and  $C$  given in option (d) suitable for better communication.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:22.877335"
     },
@@ -480,12 +479,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Resonance frequency in  $L-C-R$  series circuit,</p>\n<p> $f_{0}=\\frac{1}{2\\pi\\sqrt{LC}} \\Rightarrow f_{0}∝\\frac{1}{\\sqrt{C}}$ </p>\n<p>i.e.  $f_{0}$  decreases with  $C$ , hence graph shown in option (c) is correct.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:22.900426"
     },
@@ -534,12 +532,11 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt09ms9t/d187c378-f6bd-482e-802b-2ec5fb232885/8fbfe110-d32d-11ee-b5c1-b784a9022d45/file-6y3zli1lt09ms9u.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0al26o/cbd86be4-555b-4f0a-b9fa-55d93f71094d/48eaf500-d331-11ee-b5c1-b784a9022d45/file-6y3zli1lt0al26p.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance",
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.260608"
     },
@@ -585,11 +582,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In  $L$ - $C$ - $R$  series resonance circuit,</p>\n<p> $\\begin{aligned} X_{L} &amp; =X_{C} \\\\ \\therefore tan\\phi &amp; =\\frac{X_{L}-X_{C}}{R}=\\frac{0}{R}=0 \\\\ \\Rightarrow \\phi &amp; =0^{\\circ} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.319877"
     },
@@ -635,11 +632,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For ideal transformer, input power is equal to output power.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "LC Oscillations & Transformers",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "LC Oscillations & Transformers"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.356287"
     },
@@ -685,7 +682,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $R=300\\Omega,L=0.9H,\\omega=1000rad/s$ </p>\n<p> $C=2.0\\mu F=2 \\times 10^{-6}F$ </p>\n<p>Impedance of given  $R$ - $L$ - $C$  circuit,</p>\n<p> $\\begin{aligned} Z &amp; =\\sqrt{R^{2}+(X_{L}-X_{C})^{2}} \\\\ &amp; =\\sqrt{R^{2}+(\\omega L-\\frac{1}{\\omega C})^{2}}[ \\therefore X_{L}=\\omega L\\text{and}X_{C}=\\frac{1}{\\omega C}] \\\\ &amp; =\\sqrt{(300)^{2}+(1000 \\times 0.9-\\frac{1}{1000 \\times 2 \\times 10^{-6}})^{2}} \\\\ &amp; =\\sqrt{90000+(900-500)^{2}} \\\\ &amp; =\\sqrt{90000+160000}=\\sqrt{250000}=500\\Omega \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "R=300\\Omega,L=0.9H,C=2.0\\mu F",
@@ -694,8 +691,7 @@
         "C=2.0\\mu F=2 \\times 10^{-6}F"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive",
-        "Series LCR Circuit & Impedance"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.706672"
     },
@@ -741,11 +737,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, capacitancè,  $C=10^{-6}F$ </p>\n<p>Inductance,  $L=10^{-4}H$ </p>\n<p>Frequency of oscillation of  $L$ - $C$  series resonant circuit,</p>\n<p> $\\begin{aligned} f &amp; =\\frac{1}{2\\pi\\sqrt{LC}}=\\frac{1}{2\\pi\\sqrt{10^{-4} \\times 10^{-6}}} \\\\ &amp; =\\frac{1}{2\\pi \\times 10^{-5}}=\\frac{10^{5}}{2\\pi}Hz \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.720001"
     },
@@ -791,11 +787,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In  $LC$ -oscillation, maximum stored energy in inductor coil  $L$  is  $\\frac{1}{2}LI_{0}^{2}$  and maximum stored energy in capacitor  $(C)$  is  $\\frac{q_{0}^{2}}{2C}$ .</p>\n<p>Since, energy is equally divided in  $L$  and  $C$ . Hence, total stored energy  $E=\\frac{1}{2} \\times$  maximum stored energy in either  $L$  or  $C$ </p>\n<p> $\\Rightarrow \\frac{1}{2}LI^{2}=\\frac{1}{2} \\times \\frac{1}{2}LI_{0}^{2} \\Rightarrow I^{2}=(\\frac{I_{0}}{\\sqrt{2}})^{2} \\Rightarrow I=\\frac{I_{0}}{\\sqrt{2}}$ </p>\n<p>We know that,  $I=I_{0}sin\\omega t$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{I_{0}}{\\sqrt{2}}=I_{0}sin\\omega t \\Rightarrow sin\\frac{\\pi}{4}=sin\\frac{2\\pi}{T} \\cdot t \\\\ &amp; \\Rightarrow \\frac{\\pi}{4}=\\frac{2\\pi}{T} \\cdot t \\Rightarrow t=\\frac{T}{8}=\\frac{2\\pi\\sqrt{LC}}{8}=\\frac{\\pi\\sqrt{LC}}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.753927"
     },
@@ -841,7 +837,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Equation of alternating current,</p>\n<p> $i=i_{1}sin\\omega t+i_{2}cos\\omega t$ </p>\n<p> $\\begin{aligned} \\text{Let}i_{1} &amp; =Icos\\phi\\text{.... (i)} \\\\ \\text{and}i &amp; =Isin\\phi\\text{.... (ii)} \\\\ &amp; i=Icos\\phi sin\\omega t+Isin\\phi cos\\omega t \\\\ \\Rightarrow i &amp; =Isin(\\omega t+\\phi) \\end{aligned}$ </p>\n<p> $\\therefore$  rms value of  $i_{1}$ ,</p>\n<p> $i_{rms}=\\frac{I}{\\sqrt{2}}$  .... (iii)</p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} i_{1}^{2}+i_{2}^{2}=I^{2}cos^{2}\\phi+I^{2}sin^{2}\\phi=I^{2}(cos^{2}\\phi+sin^{2}\\phi)=I^{2} \\end{aligned}$ </p>\n<p> $\\Rightarrow \\sqrt{i_{1}^{2}+i_{2}^{2}}=I$  .... (iv)</p>\n<p>From Eqs. (iii) and (iv), we get</p>\n<p> $i_{rms}=\\sqrt{\\frac{i_{1}^{2}+i_{2}^{2}}{2}}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "i=i_{1}sin\\omega t+i_{2}cos\\omega t",
@@ -851,7 +847,7 @@
         "i_{rms}=\\sqrt{\\frac{i_{1}^{2}+i_{2}^{2}}{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:23.772008"
     },
@@ -899,7 +895,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lt9k07xv/6ef9b423-6e2a-4ee0-a311-5c4f54f2e3c8/2e822f40-d849-11ee-9836-257a34f89bec/file-1lt9k07xw.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{L}=X_{C}=4\\Omega",
@@ -909,7 +905,7 @@
         "V_{\\text{net}}"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:23.931931"
     },
@@ -955,13 +951,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For LC-oscillations,</p>\n<p> $L\\frac{di}{dt}+\\frac{q}{C}=0$ </p>\n<p>Differentiating further it w.r.t  $t$ , we get</p>\n<p> $L\\frac{d^{2}i}{dt^{2}}+\\frac{I}{C}=0\\text{.... (i)}$ </p>\n<p>Similarly, for spring-block system,</p>\n<p> $m\\frac{d^{2}x}{dt^{2}}+kx=0\\text{..... (ii)}$ </p>\n<p>Comparing Eqs. (i) and (ii), we get</p>\n<p> $m∝L$  and  $k∝\\frac{1}{C}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "LC Oscillations & Transformers",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "L\\frac{di}{dt}+\\frac{q}{C}=0"
       ],
       "key_concepts": [
-        "LC Oscillations & Transformers"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:23.970319"
     },
@@ -1007,7 +1003,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The charge is a function of time  $(t)$ , is given by</p>\n<p> $q=q_{0}sin\\omega t\\text{.... (i)}$ </p>\n<p>where,  $q_{0}=$  maximum charge,</p>\n<p>and  $\\omega=$  angular frequency.</p>\n<p>Differentiating Eq. (i), we get</p>\n<p> $I=\\frac{dq}{dt}=\\frac{d}{dt}(q_{0}sin\\omega t)=\\omega q_{0}cos\\omega t$ </p>\n<p>At,  $t=0$ ,</p>\n<p> $\\begin{aligned} I &amp; =\\omega q_{0}cos(0)=\\omega q_{0} \\\\ \\therefore I &amp; =\\frac{1}{\\sqrt{LC}}q_{0}\\text{or}q_{0}=I\\sqrt{LC}[ \\because \\omega=\\frac{1}{\\sqrt{LC}}] \\\\ &amp; =2\\sqrt{3 \\times 2.7 \\times 10^{-6}} \\\\ &amp; =18 \\times 10^{-5}C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "q=q_{0}sin\\omega t\\text{.... (i)}",
@@ -1017,7 +1013,7 @@
         "t=0"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:23.978010"
     },
@@ -1063,7 +1059,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, power factor  $=\\frac{1}{\\sqrt{3}}$ </p>\n<p>Inductive reactance,  $X_{L}=2\\Omega$ </p>\n<p>The power factor in a  $R$ - $L$  circuit is given by</p>\n<p>power factor  $=\\frac{\\text{Resistance}}{\\text{Impedance}}=\\frac{R}{\\sqrt{R^{2}+X_{L}^{2}}}$ </p>\n<p> $\\Rightarrow \\frac{1}{\\sqrt{3}}=\\frac{R}{\\sqrt{R^{2}+4}}$ </p>\n<p>Squaring both sides, we get</p>\n<p> $\\begin{aligned} \\frac{1}{3} &amp; =\\frac{R^{2}}{R^{2}+4} \\\\ \\Rightarrow R^{2}+4 &amp; =3R^{2} \\Rightarrow R=\\sqrt{2}\\Omega \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{1}{\\sqrt{3}}",
@@ -1072,7 +1068,7 @@
         "\\Rightarrow \\frac{1}{\\sqrt{3}}=\\frac{R}{\\sqrt{R^{2}+4}}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.141001"
     },
@@ -1120,14 +1116,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltgsnnbj/8c587b0c-3d27-4409-8b1c-e734b7e88f6e/7f93e5f0-dc44-11ee-bf75-854fa57f0d50/file-1ltgsnnbk.png?format=png"
       ],
-      "topic_tag": "Resonance, Q-Factor & Bandwidth",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Easy",
       "key_formulas": [
         "L=0.5mH=0.5 \\times 10^{-3}H",
         "C=20\\mu F=20 \\times 10^{-6}F"
       ],
       "key_concepts": [
-        "Resonance, Q-Factor & Bandwidth"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.177122"
     },
@@ -1175,13 +1171,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltgww3n1/ec14774b-f8ab-423f-90b5-dde32b5384a1/0f2c81d0-dc55-11ee-9e19-abcc552ffb82/file-1ltgww3n2.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "\\therefore V=220\\sqrt{2}V"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.207228"
     },
@@ -1229,13 +1225,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltgs85rd/ac7134a4-a166-403f-98d7-b9dce560296a/d0e03190-dc42-11ee-bf75-854fa57f0d50/file-1ltgs85re.png?format=png"
       ],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{rms}=\\frac{V_{0}}{\\sqrt{2}}=\\frac{100}{\\sqrt{2}}=70.7V"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:23.994906"
     },
@@ -1283,11 +1279,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltrbvghc/6c5997d3-5d67-497b-ae1a-c5924da37c3f/7cb75300-e20f-11ee-a976-edfc63bb1fc4/file-1ltrbvghd.png?format=png"
       ],
-      "topic_tag": "Power in AC Circuits & Power Factor",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Power in AC Circuits & Power Factor"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.408893"
     },
@@ -1333,14 +1329,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, Frequency of an alternating current,  $f=50Hz$ </p>\n<p>If  $t_{1}$  be the time at rms value of alternating current, then</p>\n<p> $\\begin{aligned} &amp; I_{rms}=I_{0}sin\\omega t_{1}\\text{or}\\frac{I_{0}}{\\sqrt{2}}=I_{0}sin\\omega t_{1} \\\\ &amp; \\Rightarrow \\frac{1}{\\sqrt{2}}=sin\\omega t_{1} \\Rightarrow sin\\frac{\\pi}{4}=sin\\omega t_{1} \\Rightarrow t_{1}=\\frac{\\pi}{4\\omega}\\text{.... (i)} \\end{aligned}$ </p>\n<p>Similarly, If  $t_{2}$  be time at peak value of alternating current, then  $I_{0}=I_{0}sin\\omega t_{2}$ </p>\n<p> $\\begin{aligned} 1 &amp; =sin\\omega t_{2} \\\\ sin\\frac{\\pi}{2} &amp; =sin\\omega t_{2} \\Rightarrow \\omega t_{2}=\\frac{\\pi}{2} \\\\ t_{2} &amp; =\\frac{\\pi}{2\\omega} \\end{aligned}$ </p>\n<p> $\\therefore$  Minimum time taken by current to reach its peak value from rms value</p>\n<p> $\\begin{aligned} &amp; =t_{2}-t_{1}=\\frac{\\pi}{2\\omega}-\\frac{\\pi}{4\\omega}=\\frac{\\pi}{4\\omega} \\\\ &amp; =\\frac{\\pi}{4 \\times 2 \\times \\pi \\times 50}=\\frac{1}{400}=2.5 \\times 10^{-3}s \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "f=50Hz",
         "t_{1}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.277792"
     },
@@ -1386,13 +1382,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In domestic AC supplies like in Karnataka, the 220 V is not the peak voltage but the effective (or RMS: root mean square) value of the voltage. Meanwhile, 50 Hz indicates that the AC voltage completes 50 cycles every second. Let’s break it down:</p>\n<p>Effective (RMS) Voltage:</p>\n<p><p>For a sinusoidal voltage, the effective value is calculated from the peak value using the formula:  </p>\n<p> $V_{\\text{rms}}=\\frac{V_{\\text{peak}}}{\\sqrt{2}}$  </p></p>\n<p><p>Thus, a 220 V RMS value corresponds to a peak voltage of approximately 311 V.</p></p>\n<p><p>The RMS value is used because it reflects the equivalent DC voltage in terms of the power delivered.</p></p>\n<p>Frequency:</p>\n<p><p>The 50 Hz means the AC voltage cycles 50 times per second.</p></p>\n<p><p>It is simply the standard frequency of the alternating current and is not an angular frequency (which would be measured in radians per second).</p></p>\n<p>Considering the options:</p>\n<p><p>Option A: Incorrect because 220 V is not the peak value.</p></p>\n<p><p>Option B: Indicates \"ms value of voltage and frequency\". Here, \"ms\" is intended to represent the effective (RMS) value. This is the correct interpretation.</p></p>\n<p><p>Option C: Incorrect because the mean (or average) value of a pure AC sinusoid over a complete cycle is zero.</p></p>\n<p><p>Option D: Incorrect because 220 V is not a peak value and 50 Hz is not an angular frequency.</p></p>\n<p>Therefore, the correct choice is Option B.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "AC Fundamentals: Peak, RMS & Phase",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Easy",
       "key_formulas": [
         "V_{\\text{rms}}=\\frac{V_{\\text{peak}}}{\\sqrt{2}}"
       ],
       "key_concepts": [
-        "AC Fundamentals: Peak, RMS & Phase"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.775640"
     },
@@ -1438,7 +1434,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><h3>Explanation</h3>\n<p>Inductive reactance, denoted as  $X_{L}$ , is given by the formula:</p>\n<p> $X_{L}=\\omega L=2\\pi vL$ </p>\n<p>where:</p>\n<p><p> $\\omega$  is the angular frequency,</p></p>\n<p><p> $L$  is the inductance,</p></p>\n<p><p> $v$  is the frequency of the voltage source.</p></p>\n<p>This equation shows that the inductive reactance is directly proportional to the frequency ( $v$ ) of the voltage source. Therefore, as the frequency increases, the inductive reactance  $X_{L}$  also increases linearly. </p>\n<p>Thus, the relationship between  $X_{L}$  and  $v$  is linear, implying that when plotted on a graph, it should form a straight line with a positive slope.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "(X_{L})",
@@ -1447,7 +1443,7 @@
         "\\omega"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.461277"
     },
@@ -1493,14 +1489,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the current flowing through the bulb, we use the power formula for resistive loads:</p>\n<p> $P=IV,$ </p>\n<p>where </p>\n<p><p> $P$  is the power (in watts),</p></p>\n<p><p> $I$  is the current (in amperes),</p></p>\n<p><p> $V$  is the voltage (in volts).</p></p>\n<p>Given:</p>\n<p><p> $P=100\\text{W},$ </p></p>\n<p><p> $V=220\\text{V}.$ </p></p>\n<p>We rearrange the equation to solve for  $I$ :</p>\n<p> $I=\\frac{P}{V}.$ </p>\n<p>Substitute the given values:</p>\n<p> $I=\\frac{100}{220}=\\frac{10}{22}=\\frac{5}{11}\\text{A}.$ </p>\n<p>So, the current flowing through the bulb is  $\\frac{5}{11}\\text{A}$ , which corresponds to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "P=IV,",
         "V=220\\text{V}."
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.528460"
     },
@@ -1546,13 +1542,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In an ideal series L–C–R circuit, only the resistor dissipates power as heat. The inductor (L) and capacitor (C) store energy in their magnetic and electric fields, respectively, but do not dissipate it.</p>\n<p>Here's a brief explanation:</p>\n<p><p>The resistor (R) converts electrical energy into heat, and the power dissipated by it is given by</p>\n<p> $P=I^{2}R$ </p>\n<p>where  $I$  is the current through the resistor.</p></p>\n<p><p>The inductor (L) and capacitor (C) temporarily store energy (in their magnetic and electric fields) and then return it to the circuit. They do not cause any net loss of energy.</p></p>\n<p>Thus, the power loss in the circuit is solely due to the resistor.</p>\n<p>If the options are interpreted as follows:</p>\n<p><p>Option A: R (power dissipated here)</p></p>\n<p><p>Option B: L</p></p>\n<p><p>Option C: C</p></p>\n<p><p>Option D: Both L and C</p></p>\n<p>Then the correct answer is Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "P=I^{2}R"
       ],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.578060"
     },
@@ -1598,7 +1594,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The coil has an inductive reactance  $X_{L}=\\frac{1}{\\sqrt{3}}\\Omega$  and resistance  $R=1\\Omega$ . We need to determine the time lag between the maximum voltage and current when connected to a  $200V,50Hz$  AC supply.</p>\n<p>To find this, we start by calculating the phase angle  $\\phi$  using the tangent of the phase angle:</p>\n<p> $tan\\phi=\\frac{X_{L}}{R}=\\frac{1/\\sqrt{3}}{1}=\\frac{1}{\\sqrt{3}}$ </p>\n<p>Then, the phase angle  $\\phi$  is:</p>\n<p> $\\phi=tan^{-1}(\\frac{1}{\\sqrt{3}})=30^{\\circ}$ </p>\n<p>Now, we convert the phase angle to radians to find the time lag:</p>\n<p> $\\omega t=\\frac{\\pi}{6}$ </p>\n<p>Solving for  $t$ :</p>\n<p> $t=\\frac{\\pi}{6\\omega}=\\frac{\\pi}{6 \\times 2\\pi f}$ </p>\n<p>Simplifying further:</p>\n<p> $t=\\frac{1}{12f}$ </p>\n<p>Given the frequency  $f=50Hz$ :</p>\n<p> $t=\\frac{1}{12 \\times 50}=\\frac{1}{600}s$ </p>\n<p>Therefore, the time lag between maximum voltage and current is  $\\frac{1}{600}s$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Reactance: Inductive & Capacitive",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Medium",
       "key_formulas": [
         "X_{L}=\\frac{1}{\\sqrt{3}}\\Omega",
@@ -1608,7 +1604,7 @@
         "\\omega t=\\frac{\\pi}{6}"
       ],
       "key_concepts": [
-        "Reactance: Inductive & Capacitive"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.791075"
     },
@@ -1656,11 +1652,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bfy8zs/796676c8-5eb3-4d2b-9e93-9b255b20aa7e/5a8c4880-1616-11f0-90eb-15e4634cfd40/file-jaoe38c1m9bfy8zt.png?format=png"
       ],
-      "topic_tag": "Series LCR Circuit & Impedance",
+      "topic_tag": "Peak, RMS Values & AC Through R, L, C",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Series LCR Circuit & Impedance"
+        "Peak, RMS Values & AC Through R, L, C"
       ],
       "crawled_at": "2026-09-20T15:27:24.805276"
     },
@@ -1706,7 +1702,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p><p>Output of the step-down transformer,  $V_{s}=48\\text{V}$ </p></p>\n<p><p>Power associated with the secondary coil,  $P_{s}=12\\text{W}$ </p></p>\n<p>To find the current in the secondary coil, use the formula:</p>\n<p> $I_{s}=\\frac{P_{s}}{V_{s}}=\\frac{12}{48}=\\frac{1}{4}=0.25\\text{A}$ </p>\n<p>The amplitude of the current,  $I_{0}$ , is calculated as follows:</p>\n<p> $I_{0}=I_{s}\\sqrt{2}=0.25 \\times \\sqrt{2}=\\frac{\\sqrt{2}}{4}=\\frac{1}{2\\sqrt{2}}\\text{A}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "LC Oscillations & Transformers",
+      "topic_tag": "Series LCR Resonance, Power Factor & Transformers",
       "difficulty": "Medium",
       "key_formulas": [
         "V_{s}=48\\text{V}",
@@ -1715,7 +1711,7 @@
         "I_{0}"
       ],
       "key_concepts": [
-        "LC Oscillations & Transformers"
+        "Series LCR Resonance, Power Factor & Transformers"
       ],
       "crawled_at": "2026-09-20T15:27:24.819456"
     }

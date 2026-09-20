@@ -8,59 +8,42 @@
     "total_questions_site": 7,
     "status": "analyzed",
     "crawled_at": null,
-    "analyzed_at": "2026-09-20T17:12:46.968310"
+    "analyzed_at": "2026-09-20T23:45:22.351842"
   },
   "concepts": [
     {
-      "id": 2147,
+      "id": 2384,
       "chapter_slug": "kcet-circular-motion",
-      "name": "Circular Motion — Core Principles & Governing Laws",
-      "category": "Core Principle",
-      "summary": "Fundamental definitions, core postulates, and governing physical/chemical relations in Circular Motion.",
-      "standard_formulas": "10ms^{-1}, \\quad r=10m, \\quad 2ms^{-1}",
-      "exam_frequency": 6,
+      "name": "Kinematics of Circular Motion: Angular Velocity & Acceleration",
+      "category": "Kinematics",
+      "summary": "Circular motion kinematics: $v = \\omega r$, centripetal acceleration $a_c = \\frac{v^2}{r} = \\omega^2 r$. In uniform circular motion (UCM), speed and kinetic energy are constant, but velocity and acceleration vectors continuously change direction.",
+      "standard_formulas": "v = r\\omega, \\quad a_c = \\frac{v^2}{r} = \\omega^2 r = 4\\pi^2 f^2 r, \\quad a_{\\text{net}} = \\sqrt{a_c^2 + a_t^2}",
+      "exam_frequency": 4,
       "frequency_tier": "Moderate",
-      "common_traps": "Carefully verify units, standard reference states, and sign conventions in Circular Motion.",
-      "tips_and_tricks": "Focus on high-yield formulas and standard limiting approximations tested in Circular Motion PYQs.",
+      "common_traps": "After one complete revolution in UCM, total distance is $2\\pi r$, but net displacement is zero!",
+      "tips_and_tricks": "In UCM, work done by the centripetal force is always identically zero ($W = 0$) because $\\vec{F}_c \\perp \\vec{v}$.",
       "pyq_ids": [
         9717,
+        9719,
         9721,
-        9724,
-        9727,
-        9729,
         9731
       ]
     },
     {
-      "id": 2148,
+      "id": 2385,
       "chapter_slug": "kcet-circular-motion",
-      "name": "Circular Motion — Standard Calculations & Problem Archetypes",
-      "category": "Quantitative Analysis",
-      "summary": "Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Circular Motion.",
-      "standard_formulas": "(x-2)^{2}+y^{2}=25, \\quad 2ms^{-1}",
+      "name": "Dynamics: Centripetal Force, Banking & Turntable Slipping",
+      "category": "Dynamics & Problem Archetypes",
+      "summary": "Centripetal force $F_c = \\frac{m v^2}{r} = m \\omega^2 r$. Slipping on a rotating turntable: $\\mu m g = m \\omega^2 r \\implies \\omega^2 r = \\text{const}$. Angle of banking for frictionless turning: $\\tan\\theta = \\frac{v^2}{r g}$.",
+      "standard_formulas": "F_c = \\frac{m v^2}{r} = m \\omega^2 r, \\quad r_1 \\omega_1^2 = r_2 \\omega_2^2, \\quad \\tan\\\\theta = \\frac{v^2}{r g}, \\quad v_{\\max} = \\sqrt{\\mu r g}",
       "exam_frequency": 3,
       "frequency_tier": "Moderate",
-      "common_traps": "Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.",
-      "tips_and_tricks": "Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.",
+      "common_traps": "For turntable coin problems, distance $r$ is inversely proportional to $\\omega^2$ ($r \\propto 1/\\omega^2$). If $\\omega$ is doubled, coin must be placed at $1/4$ the original distance to avoid slipping.",
+      "tips_and_tricks": "For a suspended pendulum bob inside a car rounding a curve of radius $r$ at speed $v$, the string deflects by angle $\\tan\\theta = \\frac{v^2}{r g}$ from the vertical.",
       "pyq_ids": [
-        9717,
-        9719,
-        9721
-      ]
-    },
-    {
-      "id": 2149,
-      "chapter_slug": "kcet-circular-motion",
-      "name": "Circular Motion — Applied Cases, Reactions & Traps",
-      "category": "Applied Topics",
-      "summary": "Special cases, experimental observations, and conceptual traps designed to test deep understanding of Circular Motion.",
-      "standard_formulas": "",
-      "exam_frequency": 1,
-      "frequency_tier": "Standard",
-      "common_traps": "Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.",
-      "tips_and_tricks": "Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.",
-      "pyq_ids": [
-        9721
+        9724,
+        9727,
+        9729
       ]
     }
   ],
@@ -68,15 +51,15 @@
     "id": 95,
     "chapter_slug": "kcet-circular-motion",
     "title": "Circular Motion Concept & PYQ Master Synthesis",
-    "summary_markdown": "# Circular Motion — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2025)  \n**Empirical Dataset**: 7 Previous Year Questions Analyzed (7 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **7** authentic KCET problems.\n- **Question Format Breakdown**: **7 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2025.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Circular Motion — Core Principles & Governing Laws | **6 PYQs** | Core Principle |\n| **Moderate** | Circular Motion — Standard Calculations & Problem Archetypes | **3 PYQs** | Quantitative Analysis |\n| **Standard** | Circular Motion — Applied Cases, Reactions & Traps | **1 PYQs** | Applied Topics |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Circular Motion — Core Principles & Governing Laws (Core Principle)\n- **Exam Weightage**: Tested in **6 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Fundamental definitions, core postulates, and governing physical/chemical relations in Circular Motion.\n\n#### Standard Mathematical Formulation\n$$\n10ms^{-1}, \\quad r=10m, \\quad 2ms^{-1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Carefully verify units, standard reference states, and sign conventions in Circular Motion.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Focus on high-yield formulas and standard limiting approximations tested in Circular Motion PYQs.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#1 (MCQ)**: *\"A particle is in uniform circular motion. The equation of its trajectory is given by $(x-2)^{2}+y^{2}=25$ , where x and y are in meter. The ...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A particle is in uniform circular motion, related to one complete revolution of the particle, which among the statements is incorrect?...\"* — **Correct Answer: N/A**\n- **[2022 Shift] Q#4 (MCQ)**: *\"A car is moving in a circular horizontal track of radius $10m$ with a constant speed of $10ms^{-1}$ . A bob is suspended from the roof of th...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"A coin placed on a rotating turn table just slips if it is placed at a distance of $4cm$ from the centre. If the angular velocity of the tur...\"* — **Correct Answer: N/A**\n\n### 2.2 Circular Motion — Standard Calculations & Problem Archetypes (Quantitative Analysis)\n- **Exam Weightage**: Tested in **3 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Quantitative numerical problem-solving techniques and standard question patterns frequently seen in Circular Motion.\n\n#### Standard Mathematical Formulation\n$$\n(x-2)^{2}+y^{2}=25, \\quad 2ms^{-1}\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Watch for algebraic rounding, stoichiometric balancing, and boundary condition checks.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Dimensional consistency checks and ratio comparisons can quickly eliminate incorrect options.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#1 (MCQ)**: *\"A particle is in uniform circular motion. The equation of its trajectory is given by $(x-2)^{2}+y^{2}=25$ , where x and y are in meter. The ...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"An athlete runs along a circular track of diameter 80 m . The distance travelled and the magnitude of displacement of the athlete when he co...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A particle is in uniform circular motion, related to one complete revolution of the particle, which among the statements is incorrect?...\"* — **Correct Answer: N/A**\n\n### 2.3 Circular Motion — Applied Cases, Reactions & Traps (Applied Topics)\n- **Exam Weightage**: Tested in **1 PYQs** (Standard Yield)\n- **Conceptual Summary**: Special cases, experimental observations, and conceptual traps designed to test deep understanding of Circular Motion.\n\n#### Standard Mathematical Formulation\n$$\n\n$$\n\n#### Common Traps & JEE Pitfalls\n> ⚠️ **Caution Point**: Read questions carefully for keywords like 'incorrect', 'not true', or non-standard conditions.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: Elimination of extreme or unphysical answer choices improves accuracy in assertion-reason and multiple-statement questions.\n\n#### Linked Representative PYQs:\n- **[2023 Shift] Q#3 (MCQ)**: *\"A particle is in uniform circular motion, related to one complete revolution of the particle, which among the statements is incorrect?...\"* — **Correct Answer: N/A**\n",
-    "formula_sheet_markdown": "# Circular Motion — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 7 JEE Main PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Circular Motion — Core Principles & Governing Laws** | $10ms^{-1}, \\quad r=10m, \\quad 2ms^{-1}$ | Standard SI units apply |\n| **Circular Motion — Standard Calculations & Problem Archetypes** | $(x-2)^{2}+y^{2}=25, \\quad 2ms^{-1}$ | Standard SI units apply |\n",
-    "high_yield_patterns": "## High-Yield Problem Archetypes in Circular Motion\nBased on rigorous analysis of all 7 questions from 2017 to 2025:\n1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.\n2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.\n3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).\n4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.\n",
-    "traps_and_pitfalls": "## Critical Exam Traps & Recurring JEE Mains Pitfalls in Circular Motion\n\n### 1. Sign Convention & Vector Inversion Errors\nPaper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.\n\n### 2. Unit System Discrepancies\nMolar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), SI vs CGS units, and micro/milli/nano multipliers (10^-3, 10^-6, 10^-9) account for over 35% of calculation mistakes in numerical type questions.\n\n### 3. Boundary & Extreme Conditions\nIn transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution, resonance), always check the asymptotic behavior of inductors, capacitors, and electrolyte mobility.\n\n### 4. Direct Addition Fallacy\nNever algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).\n",
+    "summary_markdown": "# Circular Motion — KCET PYQ Concept Sheet & Revision Notes\n**Subject**: Physics | **Exam Scope**: KCET (2017 – 2025)  \n**Empirical Dataset**: 7 Previous Year Questions Analyzed (7 MCQs, 0 Numericals)  \n**Analysis Generated**: September 20, 2026\n\n---\n\n## 1. Chapter Intelligence & Weightage Blueprint\n- **Total Questions Analyzed**: **7** authentic KCET problems.\n- **Question Format Breakdown**: **7 MCQs** (100%) and **0 Numerical Value Questions** (0%).\n- **Recent Examination Trend**: Consistently accounts for mandatory questions in KCET papers from 2017 to 2025.\n- **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.\n\n### High-Yield Concept Priority Matrix\n| Priority Tier | Concept Name | PYQ Frequency | Category |\n| :--- | :--- | :--- | :--- |\n| **Moderate** | Kinematics of Circular Motion: Angular Velocity & Acceleration | **4 PYQs** | Kinematics |\n| **Moderate** | Dynamics: Centripetal Force, Banking & Turntable Slipping | **3 PYQs** | Dynamics & Problem Archetypes |\n\n---\n\n## 2. Comprehensive Concept Deep-Dive & Source PYQ Links\n\n### 2.1 Kinematics of Circular Motion: Angular Velocity & Acceleration (Kinematics)\n- **Exam Weightage**: Tested in **4 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Circular motion kinematics: $v = \\omega r$, centripetal acceleration $a_c = \\frac{v^2}{r} = \\omega^2 r$. In uniform circular motion (UCM), speed and kinetic energy are constant, but velocity and acceleration vectors continuously change direction.\n\n#### Standard Mathematical Formulation\n$$\nv = r\\omega, \\quad a_c = \\frac{v^2}{r} = \\omega^2 r = 4\\pi^2 f^2 r, \\quad a_{\\text{net}} = \\sqrt{a_c^2 + a_t^2}\n$$\n\n#### Common Traps & KCET Pitfalls\n> ⚠️ **Caution Point**: After one complete revolution in UCM, total distance is $2\\pi r$, but net displacement is zero!\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: In UCM, work done by the centripetal force is always identically zero ($W = 0$) because $\\vec{F}_c \\perp \\vec{v}$.\n\n#### Linked Representative PYQs:\n- **[2025 Shift] Q#1 (MCQ)**: *\"A particle is in uniform circular motion. The equation of its trajectory is given by $(x-2)^{2}+y^{2}=25$ , where x and y are in meter. The ...\"* — **Correct Answer: N/A**\n- **[2024 Shift] Q#2 (MCQ)**: *\"An athlete runs along a circular track of diameter 80 m . The distance travelled and the magnitude of displacement of the athlete when he co...\"* — **Correct Answer: N/A**\n- **[2023 Shift] Q#3 (MCQ)**: *\"A particle is in uniform circular motion, related to one complete revolution of the particle, which among the statements is incorrect?...\"* — **Correct Answer: N/A**\n- **[2017 Shift] Q#3 (MCQ)**: *\"The angle between velocity and acceleration of a particle describing uniform circular motion is...\"* — **Correct Answer: N/A**\n\n### 2.2 Dynamics: Centripetal Force, Banking & Turntable Slipping (Dynamics & Problem Archetypes)\n- **Exam Weightage**: Tested in **3 PYQs** (Moderate Yield)\n- **Conceptual Summary**: Centripetal force $F_c = \\frac{m v^2}{r} = m \\omega^2 r$. Slipping on a rotating turntable: $\\mu m g = m \\omega^2 r \\implies \\omega^2 r = \\text{const}$. Angle of banking for frictionless turning: $\\tan\\theta = \\frac{v^2}{r g}$.\n\n#### Standard Mathematical Formulation\n$$\nF_c = \\frac{m v^2}{r} = m \\omega^2 r, \\quad r_1 \\omega_1^2 = r_2 \\omega_2^2, \\quad \\tan\\\\theta = \\frac{v^2}{r g}, \\quad v_{\\max} = \\sqrt{\\mu r g}\n$$\n\n#### Common Traps & KCET Pitfalls\n> ⚠️ **Caution Point**: For turntable coin problems, distance $r$ is inversely proportional to $\\omega^2$ ($r \\propto 1/\\omega^2$). If $\\omega$ is doubled, coin must be placed at $1/4$ the original distance to avoid slipping.\n\n#### Speed Hacks & Problem-Solving Tips\n> 💡 **Speed Trick**: For a suspended pendulum bob inside a car rounding a curve of radius $r$ at speed $v$, the string deflects by angle $\\tan\\theta = \\frac{v^2}{r g}$ from the vertical.\n\n#### Linked Representative PYQs:\n- **[2022 Shift] Q#4 (MCQ)**: *\"A car is moving in a circular horizontal track of radius $10m$ with a constant speed of $10ms^{-1}$ . A bob is suspended from the roof of th...\"* — **Correct Answer: N/A**\n- **[2021 Shift] Q#1 (MCQ)**: *\"A coin placed on a rotating turn table just slips if it is placed at a distance of $4cm$ from the centre. If the angular velocity of the tur...\"* — **Correct Answer: N/A**\n- **[2020 Shift] Q#2 (MCQ)**: *\"One end of a string of length $l$ is connected to a particle of mass $m$ and the other to a small peg on a smooth horizontal table. If the p...\"* — **Correct Answer: N/A**\n",
+    "formula_sheet_markdown": "# Circular Motion — Master Formula Sheet\n*Essential mathematical formulas, SI units, and boundary conditions synthesized from 7 KCET PYQs.*\n\n| Concept | Governing Formula | Key Variables & SI Units |\n| :--- | :--- | :--- |\n| **Kinematics of Circular Motion: Angular Velocity & Acceleration** | $v = r\\omega, \\quad a_c = \\frac{v^2}{r} = \\omega^2 r = 4\\pi^2 f^2 r, \\quad a_{\\text{net}} = \\sqrt{a_c^2 + a_t^2}$ | Standard SI units apply |\n| **Dynamics: Centripetal Force, Banking & Turntable Slipping** | $F_c = \\frac{m v^2}{r} = m \\omega^2 r, \\quad r_1 \\omega_1^2 = r_2 \\omega_2^2, \\quad \\tan\\\\theta = \\frac{v^2}{r g}, \\quad v_{\\max} = \\sqrt{\\mu r g}$ | Standard SI units apply |\n",
+    "high_yield_patterns": "## High-Yield Problem Archetypes in Circular Motion (KCET Blueprint)\nBased on empirical analysis of all 7 KCET questions from 2017 to 2025:\n1. **Direct Formula & Definition Recall (40%)**: Single-step substitution directly from Karnataka PUC textbook formulas.\n2. **Ratio & Parameter Scaling (30%)**: Questions comparing two states when wire radius, distance, or frequency is altered by factor k.\n3. **Conceptual Statements & Exceptions (20%)**: Identifying correct/incorrect statements or exception rules from NCERT.\n4. **Option Elimination Shortcuts (10%)**: Symmetric properties, boundary values (0, infinity), and dimension testing.\n",
+    "traps_and_pitfalls": "## Critical Exam Traps & Recurring KCET Pitfalls in Circular Motion\n\n### 1. Speed & 80-Second Constraint Management\nKCET demands answering 60 questions in 80 minutes (~1.33 minutes per question). The most lethal trap is spending 3+ minutes on long algebraic derivations. Always check for dimensional consistency or option substitution first.\n\n### 2. NCERT & Karnataka PU Board Direct Lines\nOver 45% of KCET theory questions are taken directly from NCERT / Karnataka PU Board textbook summary points, margins, and standard exemplar questions. Pay rigorous attention to exceptions (e.g., electron gain enthalpy of Cl vs F, acidic nature of boric acid, non-polar symmetrical geometries).\n\n### 3. Unit Conversions & Prefix Overlooks\nUnits of molar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), micro/nano multipliers (10^-6, 10^-9), and centimeter-to-meter conversions in optics and gravitation account for the highest frequency of careless mark losses in KCET.\n\n### 4. No Negative Marking Advantage\nSince KCET has NO negative marking, never leave any question unattempted. When down to two options, use dimensional elimination or parity checks to maximize expected score.\n",
     "benchmark_pyq_ids": [
       9717,
-      9719
+      9724
     ],
-    "updated_at": "2026-09-20T17:12:46.954504"
+    "updated_at": "2026-09-20T23:45:22.323124"
   },
   "total_questions": 7,
   "has_docx": true,

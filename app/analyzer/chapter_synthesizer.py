@@ -84,7 +84,7 @@ def synthesize_chapter_notes(
 #### Standard Mathematical Formulation
 $$\n{c.standard_formulas}\n$$
 
-#### Common Traps & JEE Pitfalls
+#### Common Traps & {exam_name} Pitfalls
 > ⚠️ **Caution Point**: {c.common_traps}
 
 #### Speed Hacks & Problem-Solving Tips
@@ -102,7 +102,7 @@ $$\n{c.standard_formulas}\n$$
 
     # --- Section 3: Master Formula Sheet ---
     formula_md = f"""# {chapter_title} — Master Formula Sheet
-*Essential mathematical formulas, SI units, and boundary conditions synthesized from {total_q} JEE Main PYQs.*
+*Essential mathematical formulas, SI units, and boundary conditions synthesized from {total_q} {exam_name} PYQs.*
 
 | Concept | Governing Formula | Key Variables & SI Units |
 | :--- | :--- | :--- |
@@ -113,7 +113,30 @@ $$\n{c.standard_formulas}\n$$
             formula_md += f"| **{c.name}** | ${clean_formula}$ | Standard SI units apply |\n"
 
     # --- Section 4: Traps & High Yield Patterns ---
-    traps_md = """## Critical Exam Traps & Recurring JEE Mains Pitfalls in {title}
+    if exam_name == "KCET":
+        traps_md = f"""## Critical Exam Traps & Recurring KCET Pitfalls in {chapter_title}
+
+### 1. Speed & 80-Second Constraint Management
+KCET demands answering 60 questions in 80 minutes (~1.33 minutes per question). The most lethal trap is spending 3+ minutes on long algebraic derivations. Always check for dimensional consistency or option substitution first.
+
+### 2. NCERT & Karnataka PU Board Direct Lines
+Over 45% of KCET theory questions are taken directly from NCERT / Karnataka PU Board textbook summary points, margins, and standard exemplar questions. Pay rigorous attention to exceptions (e.g., electron gain enthalpy of Cl vs F, acidic nature of boric acid, non-polar symmetrical geometries).
+
+### 3. Unit Conversions & Prefix Overlooks
+Units of molar conductivity (S cm^2 mol^-1 vs S m^2 mol^-1), micro/nano multipliers (10^-6, 10^-9), and centimeter-to-meter conversions in optics and gravitation account for the highest frequency of careless mark losses in KCET.
+
+### 4. No Negative Marking Advantage
+Since KCET has NO negative marking, never leave any question unattempted. When down to two options, use dimensional elimination or parity checks to maximize expected score.
+"""
+        patterns_md = f"""## High-Yield Problem Archetypes in {chapter_title} (KCET Blueprint)
+Based on empirical analysis of all {total_q} KCET questions from {min_year} to {max_year}:
+1. **Direct Formula & Definition Recall (40%)**: Single-step substitution directly from Karnataka PUC textbook formulas.
+2. **Ratio & Parameter Scaling (30%)**: Questions comparing two states when wire radius, distance, or frequency is altered by factor k.
+3. **Conceptual Statements & Exceptions (20%)**: Identifying correct/incorrect statements or exception rules from NCERT.
+4. **Option Elimination Shortcuts (10%)**: Symmetric properties, boundary values (0, infinity), and dimension testing.
+"""
+    else:
+        traps_md = f"""## Critical Exam Traps & Recurring JEE Mains Pitfalls in {chapter_title}
 
 ### 1. Sign Convention & Vector Inversion Errors
 Paper-setters frequently exploit sign confusion in energy and potential differences. Always write the fundamental thermodynamic / vector definition before substituting numerical values.
@@ -126,13 +149,12 @@ In transient circuits or limiting conditions (t=0+, t -> inf, infinite dilution,
 
 ### 4. Direct Addition Fallacy
 Never algebraically add intensive quantities (such as electrode potentials or AC component voltages) without accounting for electron weighting (n1*E1 + n2*E2 = n3*E3) or phasor vector geometry (V_total = sqrt(V_R^2 + (V_L - V_C)^2)).
-""".format(title=chapter_title)
-
-    patterns_md = f"""## High-Yield Problem Archetypes in {chapter_title}
+"""
+        patterns_md = f"""## High-Yield Problem Archetypes in {chapter_title} (JEE Main Blueprint)
 Based on rigorous analysis of all {total_q} questions from {min_year} to {max_year}:
 1. **Direct Formula Verification (30%)**: Single-step formula application requiring clean unit conversions.
-2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters (frequency, concentration, distance, turns) are scaled by factor $k$.
-3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics (e.g. Nernst equation + solubility product, or Motional EMF + Newton's second law dynamics).
+2. **Ratio & Scaling Problems (25%)**: Comparing two states when parameters are scaled by factor $k$.
+3. **Multi-Step Syntheses (30%)**: Coupling two distinct subtopics.
 4. **Graphical & Experimental Questions (15%)**: Interpreting slopes, intercepts, and resonance curve bandwidths.
 """
 

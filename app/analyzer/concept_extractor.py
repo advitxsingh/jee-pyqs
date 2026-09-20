@@ -385,11 +385,14 @@ def match_concepts_for_question(
 
     content = f"{q.question_text} {q.explanation_text}".lower()
 
-    # Retrieve taxonomy (supports kcet- prefix and aliases)
-    norm_slug = normalize_slug(chapter_slug)
-    taxonomy = CURATED_TAXONOMY.get(norm_slug, get_taxonomy_for_chapter(chapter_slug))
-    if not taxonomy:
+    # Retrieve taxonomy (supports dedicated KCET taxonomy and JEE Curated taxonomy)
+    if chapter_slug.startswith("kcet-"):
         taxonomy = get_taxonomy_for_chapter(chapter_slug)
+    else:
+        norm_slug = normalize_slug(chapter_slug)
+        taxonomy = CURATED_TAXONOMY.get(norm_slug, get_taxonomy_for_chapter(chapter_slug))
+        if not taxonomy:
+            taxonomy = get_taxonomy_for_chapter(chapter_slug)
 
     scores: Dict[str, int] = {}
     for c_def in taxonomy:
@@ -455,10 +458,13 @@ def analyze_chapter_questions(
     Run comprehensive concept extraction on all questions of a chapter.
     Guarantees that EVERY chapter has multiple rich concept cards.
     """
-    norm_slug = normalize_slug(chapter_slug)
-    taxonomy = CURATED_TAXONOMY.get(norm_slug, get_taxonomy_for_chapter(chapter_slug))
-    if not taxonomy:
+    if chapter_slug.startswith("kcet-"):
         taxonomy = get_taxonomy_for_chapter(chapter_slug)
+    else:
+        norm_slug = normalize_slug(chapter_slug)
+        taxonomy = CURATED_TAXONOMY.get(norm_slug, get_taxonomy_for_chapter(chapter_slug))
+        if not taxonomy:
+            taxonomy = get_taxonomy_for_chapter(chapter_slug)
 
     # Concept frequency counter and PYQ collector
     concept_stats: Dict[str, Dict[str, Any]] = {}

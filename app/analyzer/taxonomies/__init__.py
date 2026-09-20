@@ -8,6 +8,7 @@ from typing import Dict, List, Any
 from .physics_taxonomy import PHYSICS_TAXONOMY
 from .chemistry_taxonomy import CHEMISTRY_TAXONOMY
 from .math_taxonomy import MATH_TAXONOMY
+from .kcet_taxonomy import KCET_TAXONOMY, get_kcet_taxonomy
 
 # Merge all three subjects
 MASTER_TAXONOMY: Dict[str, List[Dict[str, Any]]] = {}
@@ -64,8 +65,15 @@ def normalize_slug(slug: str) -> str:
 def get_taxonomy_for_chapter(slug: str) -> List[Dict[str, Any]]:
     """
     Retrieve or dynamically synthesize a multi-concept taxonomy for any chapter.
-    Guarantees at least 2-4 authentic concepts for every syllabus chapter.
+    Guarantees tailored KCET concept taxonomy for all KCET chapters,
+    and rich multi-concept generation for JEE Main chapters.
     """
+    # 1. Dedicated KCET taxonomy priority
+    if slug.startswith("kcet-") or slug in KCET_TAXONOMY:
+        kcet_list = get_kcet_taxonomy(slug)
+        if kcet_list:
+            return kcet_list
+
     norm = normalize_slug(slug)
     if norm in MASTER_TAXONOMY:
         return MASTER_TAXONOMY[norm]

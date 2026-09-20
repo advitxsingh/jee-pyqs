@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Moles of pyridine present initially:</p>\n<p> $0.2 \\times \\frac{500}{1000}=0.1\\text{mol}$ </p>\n<p>Moles of pyridinium chloride added:</p>\n<p> $0.15\\text{mol}$ </p>\n<p>Pyridine is a weak base, and pyridinium chloride gives its conjugate acid, pyridinium ion. So the mixture acts as a basic buffer.</p>\n<p>For a basic buffer,</p>\n<p> $\\text{pOH}=pK_{b}+log\\frac{[\\text{salt}]}{[\\text{base}]}$ </p>\n<p>Since volume is the same for both, we can directly use moles:</p>\n<p> $\\text{pOH}=8.82+log\\frac{0.15}{0.10}$ </p>\n<p> $\\text{pOH}=8.82+log(1.5)$ </p>\n<p> $log(1.5) \\approx 0.18$ </p>\n<p>So,</p>\n<p> $\\text{pOH}=8.82+0.18=9.00$ </p>\n<p>Now,</p>\n<p> $\\text{pH}=14-\\text{pOH}$ </p>\n<p> $\\text{pH}=14-9=5$ </p>\n<p>So the pH of the resulting solution is</p>\n<p> $5$ </p>\n<p>Correct option: Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "pH Scale, Ostwald's Law & Buffer Solutions",
       "difficulty": "Medium",
       "key_formulas": [
         "500\\text{cm}^{3}",
@@ -55,7 +55,7 @@
         "\\text{pOH}=8.82+log(1.5)"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "pH Scale, Ostwald's Law & Buffer Solutions"
       ],
       "crawled_at": "2026-09-20T15:25:43.208702"
     },
@@ -101,7 +101,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} K_{sp} &amp; =4 \\times 10^{-9}(molL^{-1})^{2} \\\\ S &amp; =? \\end{aligned}$ </p>\n<p> $CaC_{2}O_{4}\\longrightarrowCa_{S}^{2+}+\\underset{S}{C_{2}O_{4}^{2-}}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} 4 \\times 10^{-9} &amp; =S^{2} \\\\ \\Rightarrow S &amp; =\\sqrt{4 \\times 10^{-9}} \\\\ &amp; =6.3 \\times 10^{-5}mol/L \\end{aligned} \\\\ &amp; \\text{Thus, the solubility of}CaC_{2}O_{4}\\text{is}6.3 \\times 10^{-5}mol/L\\text{.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "Solubility Product (Ksp) & Salt Hydrolysis",
       "difficulty": "Medium",
       "key_formulas": [
         "CaC_{2}O_{4}",
@@ -109,7 +109,7 @@
         "CaC_{2}O_{4}\\longrightarrowCa_{S}^{2+}+\\underset{S}{C_{2}O_{4}^{2-}}"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "Solubility Product (Ksp) & Salt Hydrolysis"
       ],
       "crawled_at": "2026-09-20T15:25:43.223249"
     },
@@ -155,14 +155,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $pH$  of the resultant solution is given by,</p>\n<p> $\\begin{aligned} &amp; pH=7+\\frac{1}{2}(pK_{a}-pK_{b})=7+\\frac{1}{2}(5.9-5.8) \\\\ &amp; pH=7.05 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "Solubility Product (Ksp) & Salt Hydrolysis",
       "difficulty": "Easy",
       "key_formulas": [
         "pK_{a}5.9",
         "pK_{b}5.8"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "Solubility Product (Ksp) & Salt Hydrolysis"
       ],
       "crawled_at": "2026-09-20T15:25:43.238030"
     },
@@ -208,11 +208,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For acidic medium, we know that  $pH$  values range is between  $0-6,9$ , for neutral it is 7 and for bases it is  $7.1-14$ . So,  $HCl$  is acidic and  $NaOH$  is basic. Thus, we can straight forward infer that  $NaOH$  has a higher  $pH$  value.</p>\n<p>Now, 1 mole of sodium hydroxide produces 1 mole of  $Na^{+}$  and 1 mole of  $OH^{-}$  ions. This means that the concentration of the hydroxide ions will be equal to  $[OH^{-}]=[NaOH]=1M$ </p>\n<p>For case A,</p>\n<p> $\\begin{aligned} pOH &amp; =-log[OH^{-}]=-log[1]=0 \\\\ \\therefore pH &amp; =14-pOH=14-0=14 \\end{aligned}$ </p>\n<p>For case B,</p>\n<p> $\\begin{aligned} [OH^{-}]=[NaOH]=0.1M \\\\ pOH=-log[0.1]=1 \\\\ \\therefore pH=14-1=13 \\end{aligned}$ </p>\n<p>So,  $pH$  of  $1MNaOH$  is highest among the given solution.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "pH Scale, Ostwald's Law & Buffer Solutions",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "pH Scale, Ostwald's Law & Buffer Solutions"
       ],
       "crawled_at": "2026-09-20T15:25:43.290645"
     },
@@ -258,7 +258,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Lower the value of  $K_{a}$ , lower will be the acidic strength and stronger will be the conjugate.base. Therefore, among the given acids, HCN has the lowest  $K_{a}$  value (i.e.  $4 \\times 10^{-10}$  ).</p>\n<p>Hence, it is the strongest conjugate base.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "pH Scale, Ostwald's Law & Buffer Solutions",
       "difficulty": "Medium",
       "key_formulas": [
         "K_{a}",
@@ -267,7 +267,7 @@
         "4 \\times 10^{-10}"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "pH Scale, Ostwald's Law & Buffer Solutions"
       ],
       "crawled_at": "2026-09-20T15:25:43.590114"
     },
@@ -313,7 +313,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The conjugate base of  $NH_{3}$  can be obtained after removal of one hydrogen ion.</p>\n<p> $NH_{3} \\longrightarrow H^{+}+NH_{2}^{-}$ </p>\n<p>So,  $NH_{2}^{-}$  is the conjugate base of  $NH_{3}$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "pH Scale, Ostwald's Law & Buffer Solutions",
       "difficulty": "Easy",
       "key_formulas": [
         "NH_{3}",
@@ -321,7 +321,7 @@
         "NH_{2}^{-}"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "pH Scale, Ostwald's Law & Buffer Solutions"
       ],
       "crawled_at": "2026-09-20T15:25:43.602157"
     },
@@ -369,7 +369,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltsny6w6/0ca6c363-ccde-4b76-a209-bfc97a927e04/7eefb060-e2cb-11ee-b28f-e16455d50713/file-1ltsny6w7.png?format=png"
       ],
-      "topic_tag": "pH Calculation of Acids, Bases & Salts",
+      "topic_tag": "pH Scale, Ostwald's Law & Buffer Solutions",
       "difficulty": "Medium",
       "key_formulas": [
         "B(OH)_{3}+2H_{2}O \\rightarrow [B(OH)_{4}]^{-}+H_{2}\\overset{+}{O},B(OH)_{3}",
@@ -380,7 +380,7 @@
         "[B(OH)_{4}]"
       ],
       "key_concepts": [
-        "pH Calculation of Acids, Bases & Salts"
+        "pH Scale, Ostwald's Law & Buffer Solutions"
       ],
       "crawled_at": "2026-09-20T15:25:43.612957"
     },
@@ -428,7 +428,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lttkf24t/b95e27ee-df0b-4c13-8c98-cc72305efdde/7825c3d0-e34a-11ee-b491-5545dc1893b7/file-1lttkf24u.png?format=png"
       ],
-      "topic_tag": "Solubility Product (Ksp) & Common Ion Effect",
+      "topic_tag": "Solubility Product (Ksp) & Salt Hydrolysis",
       "difficulty": "Easy",
       "key_formulas": [
         "_{3}",
@@ -436,7 +436,7 @@
         "Cl^{-}"
       ],
       "key_concepts": [
-        "Solubility Product (Ksp) & Common Ion Effect"
+        "Solubility Product (Ksp) & Salt Hydrolysis"
       ],
       "crawled_at": "2026-09-20T15:25:43.623715"
     }

@@ -44,11 +44,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given inequality:</p>\n<p> $3(x-1) \\le 2(x-3)$ </p>\n<p>Open the brackets:</p>\n<p> $3x-3 \\le 2x-6$ </p>\n<p>Now subtract  $2x$  from both sides:</p>\n<p> $x-3 \\le -6$ </p>\n<p>Add  $3$  to both sides:</p>\n<p> $x \\le -3$ </p>\n<p>So, the solution is:</p>\n<p> $x \\le -3$ </p>\n<p>Hence, the correct option is <strong>Option A</strong>.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:43.856190"
     },
@@ -94,13 +94,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The negation of statement \"For every real number  $x;x^{2}+5$  is positive\" is there exists at least one real number  $x$  such that  $x^{2}+5$  is not positive.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Easy",
       "key_formulas": [
         "x;x^{2}+5"
       ],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:43.899508"
     },
@@ -146,11 +146,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, statement</p>\n<p>\"If two lines do not intersect in the same plane, then they are parallel.</p>\n<p>Contrapositive It two lines intersect in the same plane, then they are not parallel.</p>\n<p>Converse If two lines do not intersect in the same plane, then they are parallel.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:43.951043"
     },
@@ -196,11 +196,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The negation of the statement \"For all real  $x$  and  $y,x+y=y+x$ \" is</p>\n<p>For some real number</p>\n<p> $x\\text{and}y,x+y=y+x$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:44.145808"
     },
@@ -246,14 +246,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; P(n)=2^{n}&lt;n! \\\\ &amp; P(1)=2&lt;1!\\text{False} \\\\ &amp; \\begin{aligned} &amp; P(2)=2^{2}&lt;2\\text{! False} \\\\ &amp; P(3)=2^{3}&lt;3\\text{! False} \\\\ &amp; P(4)=2^{4}&lt;4\\text{! True} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\therefore$  The smallest position integer for which  $P(n)$  is true for  $n=4$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Medium",
       "key_formulas": [
         "P(n):2^{n}<n!",
         "n=4"
       ],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:43.997827"
     },
@@ -299,11 +299,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Some continuous function are not differentiable.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:44.193347"
     },
@@ -349,13 +349,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the value of  $k$  such that  $P(n)=2^{2n}-1$  is divisible by  $k$  for all  $n \\in ℕ$ , we start by examining a specific case:</p>\n<p><p>Consider  $n=1$ :</p>\n<p> $P(1)=2^{2 \\times 1}-1=2^{2}-1=4-1=3$ </p></p>\n<p><p>Since  $P(1)=3$ , it follows that  $P(n)$  is divisible by  $3$ .</p></p>\n<p>Therefore, the value of  $k$  is  $3$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Medium",
       "key_formulas": [
         "P(n):2^{2n}-1"
       ],
       "key_concepts": [
-        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:44.261681"
     },
@@ -401,14 +401,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the negation of the statement \"72 is divisible by 2 and 72 is divisible by 3,\" we can use De Morgan's law, which states:</p>\n<p> $¬(P \\wedge Q) \\equiv ¬P∨¬Q$ </p>\n<p>Here, let:</p>\n<p><p> $P$  be \"72 is divisible by 2\"</p></p>\n<p><p> $Q$  be \"72 is divisible by 3\"</p></p>\n<p>The negation becomes:</p>\n<p>\"72 is not divisible by 2 or 72 is not divisible by 3\"</p>\n<p>Thus, the negation is correctly expressed in Option A.</p>\n<p>Key Points:</p>\n<p><p>The original statement is a conjunction (using \"and\").</p></p>\n<p><p>Its negation is a disjunction (using \"or\") of the individual negations.</p></p>\n<p>So, the correct answer is:</p>\n<p>Option A:</p>\n<p>72 is not divisible by 2 or 72 is not divisible by 3.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Medium",
       "key_formulas": [
         "3^{''}"
       ],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws",
-        "Mathematical Reasoning — Standard Calculations & Problem Archetypes"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:44.301738"
     },
@@ -454,11 +453,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The original statement is:  </p>\n<p> $\\text{\"If}x\\text{is a prime number, then}x\\text{is odd.\"}$ </p>\n<p>Let's denote:  </p>\n<p><p> $P:x\\text{is a prime number}$  </p></p>\n<p><p> $Q:x\\text{is odd}$ </p></p>\n<p>The contrapositive of an \"if-then\" statement \"if  $P$ , then  $Q$ \" is:  </p>\n<p> $\\text{\"if not}Q\\text{, then not}P\\text{.\"}$ </p>\n<p>So, for our case:  </p>\n<p><p>\"Not  $Q$ \" means:  $x$  is not odd (i.e., even).  </p></p>\n<p><p>\"Not  $P$ \" means:  $x$  is not a prime number.</p></p>\n<p>Thus, the contrapositive becomes:  </p>\n<p> $\\text{\"If}x\\text{is not odd, then}x\\text{is not a prime number.\"}$ </p>\n<p>This corresponds to Option A.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Mathematical Reasoning — Core Principles & Governing Laws",
+      "topic_tag": "Logical Statements, Connectives, Contrapositive & Tautology",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Mathematical Reasoning — Core Principles & Governing Laws"
+        "Logical Statements, Connectives, Contrapositive & Tautology"
       ],
       "crawled_at": "2026-09-20T15:26:44.470358"
     }

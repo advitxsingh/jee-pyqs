@@ -44,14 +44,15 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the objective function  $Z=ax+by$  has the same maximum value at two corner points of the feasible region, then  $Z$  will have the same value at every point on the line segment joining those two corner points.</p>\n<p>This happens because  $Z=ax+by$  is a linear function. So, if it is maximum at two endpoints of an edge of the feasible region, then it remains maximum at all points on that edge.</p>\n<p>Hence,  $Z_{max}$  occurs at infinitely many points.</p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option D: Infinity}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "Z=ax+by",
         "Z_{max}"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region",
+        "Corner Point Theorem & Optimal Solutions"
       ],
       "crawled_at": "2026-09-20T15:26:42.288631"
     },
@@ -97,7 +98,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the maximum value of  $z=px+qy$  to occur at both points  $(15,15)$  and  $(0,20)$ , the value of  $z$  at these two points must be equal.</p>\n<p>At  $(15,15)$ ,</p>\n<p> $z=15p+15q$ </p>\n<p>At  $(0,20)$ ,</p>\n<p> $z=0p+20q=20q$ </p>\n<p>Since maximum occurs at both points,</p>\n<p> $15p+15q=20q$ </p>\n<p> $15p=5q$ </p>\n<p> $q=3p$ </p>\n<p>So, the required relation is</p>\n<p> $q=3p$ </p>\n<p>Hence, the correct option is Option D.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "z=px+qy",
@@ -105,7 +106,7 @@
         "q=3p"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.299314"
     },
@@ -151,14 +152,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Option A. Both statements are true.</p>\n<p>Reasoning:</p>\n<p><p>By definition, a Linear Programming Problem (LPP) has a linear objective function, for example  </p>\n<p> $maxz=c_{1}x_{1}+c_{2}x_{2}+\\cdot s+c_{n}x_{n}.$ </p></p>\n<p><p>The restrictions on the variables take the form of linear inequalities (or equalities), such as  </p>\n<p> $a_{i1}x_{1}+a_{i2}x_{2}+\\cdot s+a_{in}x_{n} \\le b_{i},$  </p>\n<p>and these are called constraints.</p></p>\n<!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Easy",
       "key_formulas": [
         "maxz=c_{1}x_{1}+c_{2}x_{2}+\\cdot s+c_{n}x_{n}.",
         "a_{i1}x_{1}+a_{i2}x_{2}+\\cdot s+a_{in}x_{n} \\le b_{i},"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.311041"
     },
@@ -206,13 +207,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Easy",
       "key_formulas": [
         "z=3x+4y"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.323612"
     },
@@ -258,13 +259,14 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 518px\"><colgroup>\n<col style=\"width: 95px\"/>\n<col style=\"width: 141px\"/>\n<col style=\"width: 282px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">S. No.</th>\n<th class=\"tg-amwm\">Corner points</th>\n<th class=\"tg-amwm\">Value of  $Z=4x+6y$ </th>\n</tr></thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">(i)</td>\n<td class=\"tg-baqh\">(0, 2)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 0+6 \\times 2=12$  <br/>(minimum)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(ii)</td>\n<td class=\"tg-baqh\">(3, 0)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 3+6 \\times 0=12$ <br/>(minimum)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(iii)</td>\n<td class=\"tg-baqh\">(6, 0)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 6+6 \\times 0=24$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(iv)</td>\n<td class=\"tg-baqh\">(6, 8)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 6+6 \\times 8=72$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(v)</td>\n<td class=\"tg-baqh\">(0, 5)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 0+6 \\times 5=30$ <br/></td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  Minimum of  $Z$  occur at  $(0,2)$  and  $(3,0)$ .</p>\n<p> $\\therefore$  Minimum value of  $Z$  occur at any point on the line segment  $(0,2)$  and  $(3,0)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "Z=4x+6y"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Objective Function, Constraints & Feasible Region",
+        "Corner Point Theorem & Optimal Solutions"
       ],
       "crawled_at": "2026-09-20T15:26:42.528024"
     },
@@ -312,14 +314,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "x+y=7",
         "\\begin{aligned} 2x-3y+6=0 \\\\ x,y \\ge 0\\text{.... (ii)} \\end{aligned}"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.538831"
     },
@@ -365,7 +367,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, the corner points of the feasible region of an LPP are  $(0,2),(3,0),(6,0),(6,8)$  and  $(0,5)$ </p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 442px\">\n<colgroup>\n<col style=\"width: 183px\"/>\n<col style=\"width: 259px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">Corner points</th>\n<th class=\"tg-amwm\"> $Z=4x+6y$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">(0, 2)</td>\n<td class=\"tg-0lax\"> $4 \\times 0+6 \\times =0+12=12$  (min)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(3, 0)</td>\n<td class=\"tg-0lax\"> $4 \\times 3+6 \\times 10=12$  (min)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(6, 0)</td>\n<td class=\"tg-0lax\"> $4 \\times 6+6 \\times 0=24$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(6, 8)</td>\n<td class=\"tg-0lax\"> $4 \\times 6+6 \\times 8=72$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(0, 5)</td>\n<td class=\"tg-0lax\"> $4 \\times 0+6 \\times 5=30$ </td>\n</tr>\n</tbody>\n</table></p>\n<p>Minimum value of  $z$  occurs at  $(0,2)$  and  $(3,0)$ .</p>\n<p>Hence, minimum value of  $z$  lies at any point on the line joining two points  $(0,2)$  and  $(3,0)$ .</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "z=4x+6y",
@@ -376,7 +378,8 @@
         "4 \\times 6+6 \\times 8=72"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Objective Function, Constraints & Feasible Region",
+        "Corner Point Theorem & Optimal Solutions"
       ],
       "crawled_at": "2026-09-20T15:26:42.550123"
     },
@@ -424,11 +427,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Applied Cases, Reactions & Traps",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Linear Programming — Applied Cases, Reactions & Traps"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.558243"
     },
@@ -477,13 +480,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "l_{1} \\Rightarrow \\frac{x}{4}+\\frac{y}{5}=1"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.694035"
     },
@@ -529,14 +532,13 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The minimum value of  $z$  is unique.</p>\n<p>It is given that the minimum value of  $z$  occurs at two points  $(3,0)$  and  $(1,1)$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; p(3)+q(0)=p(1)+q(l) \\\\ \\Rightarrow &amp; 3p=p+q \\\\ \\Rightarrow &amp; 2p=q \\\\ \\Rightarrow &amp; p=q/2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "z=px=qy"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes",
-        "Linear Programming — Applied Cases, Reactions & Traps"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.704615"
     },
@@ -584,7 +586,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Corner Point Theorem & Optimal Solutions",
       "difficulty": "Medium",
       "key_formulas": [
         "z=11x+7y",
@@ -595,7 +597,7 @@
         "11 \\times 3+7 \\times 2=47"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Corner Point Theorem & Optimal Solutions"
       ],
       "crawled_at": "2026-09-20T15:26:42.715529"
     },
@@ -643,14 +645,14 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "\\frac{x}{10}+\\frac{y}{3}=1 \\Rightarrow 3x+10y=30\\text{..... (i)}",
         "\\frac{x}{5}+\\frac{y}{4}=1 \\Rightarrow 4x+5y=20\\text{.... (ii)}"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.726816"
     },
@@ -699,13 +701,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Easy",
       "key_formulas": [
         "z=3x+9y"
       ],
       "key_concepts": [
-        "Linear Programming — Standard Calculations & Problem Archetypes"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.903186"
     },
@@ -753,13 +755,13 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Easy",
       "key_formulas": [
         "z=x+4y"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.915392"
     },
@@ -807,11 +809,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Corner Point Theorem & Optimal Solutions",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Corner Point Theorem & Optimal Solutions"
       ],
       "crawled_at": "2026-09-20T15:26:42.930991"
     },
@@ -860,13 +862,13 @@
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png",
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png"
       ],
-      "topic_tag": "Linear Programming — Core Principles & Governing Laws",
+      "topic_tag": "Objective Function, Constraints & Feasible Region",
       "difficulty": "Medium",
       "key_formulas": [
         "L_{1}"
       ],
       "key_concepts": [
-        "Linear Programming — Core Principles & Governing Laws"
+        "Objective Function, Constraints & Feasible Region"
       ],
       "crawled_at": "2026-09-20T15:26:42.947166"
     }

@@ -21,10 +21,15 @@ from app.exporter.pdf_exporter import generate_chapter_pdf
 from export_static import export_static_site
 
 
-def run_full_reanalysis():
+def run_full_reanalysis(exam_filter: str = None):
     chapters = get_all_chapters(db_path=DB_PATH)
+    if exam_filter == "kcet":
+        chapters = [ch for ch in chapters if ch.slug.startswith("kcet-")]
+    elif exam_filter == "jee":
+        chapters = [ch for ch in chapters if not ch.slug.startswith("kcet-")]
+    
     total = len(chapters)
-    print(f"🚀 Starting comprehensive concept re-analysis for all {total} chapters...")
+    print(f"🚀 Starting concept re-analysis for {total} chapters (filter={exam_filter or 'ALL'})...")
 
     t0 = time.time()
     success_count = 0
@@ -54,7 +59,7 @@ def run_full_reanalysis():
             except Exception as exp_err:
                 print(f"  [Warning] Export error for {slug}: {exp_err}")
 
-            if i % 15 == 0 or i == total:
+            if i % 10 == 0 or i == total:
                 elapsed = time.time() - t0
                 print(f"  [{i}/{total}] Processed '{ch.title}' -> {concept_count} concepts ({elapsed:.1f}s)")
 
@@ -64,8 +69,8 @@ def run_full_reanalysis():
     print("\n" + "="*70)
     print(f"🎉 All {success_count}/{total} chapters successfully analyzed!")
     print(f"  • Total Core Concepts Extracted: {total_concepts}")
-    print(f"  • KCET Multi-Concept Chapters: {kcet_chapters_with_multi_concepts}/95")
-    print(f"  • JEE Multi-Concept Chapters:  {jee_chapters_with_multi_concepts}/91")
+    print(f"  • KCET Multi-Concept Chapters: {kcet_chapters_with_multi_concepts}")
+    print(f"  • JEE Multi-Concept Chapters:  {jee_chapters_with_multi_concepts}")
     print("="*70)
 
     print("\n📦 Regenerating static site bundle...")
@@ -74,4 +79,10 @@ def run_full_reanalysis():
 
 
 if __name__ == "__main__":
-    run_full_reanalysis()
+    filter_arg = None
+    for arg in sys.argv[1:]:
+        if "kcet" in arg.lower():
+            filter_arg = "kcet"
+        elif "jee" in arg.lower():
+            filter_arg = "jee"
+    run_full_reanalysis(filter_arg)

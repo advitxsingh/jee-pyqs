@@ -44,7 +44,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the acceleration of a particle in uniform circular motion, we start with the equation of the circle:</p>\n<p> $(x-2)^{2}+y^{2}=25$ </p>\n<p>This equation represents a circle with its center at  $(2,0)$  and a radius  $r$  of 5 meters, derived from:</p>\n<p> $r^{2}=25 \\Rightarrow r=5$ </p>\n<p>In uniform circular motion, the centripetal acceleration  $a_{c}$  is given by the formula:</p>\n<p> $a_{c}=\\frac{v^{2}}{r}$ </p>\n<p>Substituting the given speed  $v=2\\text{m/s}$  and the radius  $r=5\\text{m}$ :</p>\n<p> $a_{c}=\\frac{2^{2}}{5}=\\frac{4}{5}=0.8\\text{m/s}^{2}$ </p>\n<p>When the particle is at the lowest  $y$ -coordinate, it is at the point  $(2,-5)$ , assuming downward is along the negative  $y$ -axis. At this point, the acceleration vector, which is directed towards the center of the circle, points horizontally to the right towards the center  $(2,0)$ . Therefore, the acceleration is entirely in the  $\\hat{i}$  direction:</p>\n<p> $\\vec{a_{e}}=0.8\\hat{i}\\text{m/s}^{2}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Kinematics of Circular Motion: Angular Velocity & Acceleration",
       "difficulty": "Medium",
       "key_formulas": [
         "(x-2)^{2}+y^{2}=25",
@@ -53,8 +53,7 @@
         "\\vec{a_{e}}=0.8\\hat{i}\\text{m/s}^{2}"
       ],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws",
-        "Circular Motion — Standard Calculations & Problem Archetypes"
+        "Kinematics of Circular Motion: Angular Velocity & Acceleration"
       ],
       "crawled_at": "2026-09-20T15:27:28.370601"
     },
@@ -102,11 +101,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5w0balz/e39f66f0-aceb-4d21-a9f5-f385b876aef8/cb5f0870-d234-11ef-85d3-298011ab386a/file-jaoe38c1m5w0bam0.png?format=png"
       ],
-      "topic_tag": "Circular Motion — Standard Calculations & Problem Archetypes",
+      "topic_tag": "Kinematics of Circular Motion: Angular Velocity & Acceleration",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Circular Motion — Standard Calculations & Problem Archetypes"
+        "Kinematics of Circular Motion: Angular Velocity & Acceleration"
       ],
       "crawled_at": "2026-09-20T15:27:28.403349"
     },
@@ -152,13 +151,11 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since, distance travelled by the body is not zero in one complete revolution, hence average speed is not zero.</p>\n<p>In a circular motion, the displacement of the particle is zero, if it completes one revolution.</p>\n<p>Therefore average velocity which is ratio of total displacement to the total time taken is also zero.</p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Kinematics of Circular Motion: Angular Velocity & Acceleration",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws",
-        "Circular Motion — Standard Calculations & Problem Archetypes",
-        "Circular Motion — Applied Cases, Reactions & Traps"
+        "Kinematics of Circular Motion: Angular Velocity & Acceleration"
       ],
       "crawled_at": "2026-09-20T15:27:28.452037"
     },
@@ -206,7 +203,7 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltassovr/1532dd3b-57d8-484a-a86e-e857c5b7f7cc/57eef070-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltassovs.png?format=png"
       ],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Dynamics: Centripetal Force, Banking & Turntable Slipping",
       "difficulty": "Medium",
       "key_formulas": [
         "10ms^{-1}",
@@ -214,7 +211,7 @@
         "v=10m/s"
       ],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws"
+        "Dynamics: Centripetal Force, Banking & Turntable Slipping"
       ],
       "crawled_at": "2026-09-20T15:27:28.513663"
     },
@@ -260,7 +257,7 @@
       "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a coin is placed on a rotating turntable and is about to slip, the necessary centripetal force for maintaining its rotation is provided by friction. This relationship can be expressed as:</p>\n<p> $mr\\omega^{2}=\\mu mg$ </p>\n<p>where:</p>\n<p><p> $m$  is the mass of the coin,</p></p>\n<p><p> $r$  is the distance of the coin from the center of the turntable,</p></p>\n<p><p> $\\omega$  is the angular velocity of the turntable,</p></p>\n<p><p> $\\mu$  is the coefficient of friction, and</p></p>\n<p><p> $g$  is the acceleration due to gravity.</p></p>\n<p>Since  $m$ ,  $\\mu$ , and  $g$  are constant, the equation can be simplified to:</p>\n<p> $r\\omega^{2}=\\text{constant}$ </p>\n<p>From this, it follows that:</p>\n<p> $r∝\\frac{1}{\\omega^{2}}$ </p>\n<p>Thus, the relationship between the initial and the final conditions can be expressed as:</p>\n<p> $\\frac{r_{2}}{r_{1}}=(\\frac{\\omega_{1}}{\\omega_{2}})^{2}$ </p>\n<p>Given that  $\\omega_{2}=2\\omega_{1}$  and  $r_{1}=4\\text{cm}$ , we compute:</p>\n<p> $\\frac{r_{2}}{r_{1}}=(\\frac{\\omega_{1}}{2\\omega_{1}})^{2}$ </p>\n<p>Therefore,</p>\n<p> $r_{2}=\\frac{r_{1}}{4}=\\frac{4}{4}=1\\text{cm}$ </p><!-- HTML_TAG_END --></div>",
       "has_image": false,
       "image_urls": [],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Dynamics: Centripetal Force, Banking & Turntable Slipping",
       "difficulty": "Medium",
       "key_formulas": [
         "mr\\omega^{2}=\\mu mg",
@@ -271,7 +268,7 @@
         "r_{2}=\\frac{r_{1}}{4}=\\frac{4}{4}=1\\text{cm}"
       ],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws"
+        "Dynamics: Centripetal Force, Banking & Turntable Slipping"
       ],
       "crawled_at": "2026-09-20T15:27:28.652330"
     },
@@ -319,11 +316,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/1lth0lha8/cda78542-6d91-4130-9eb8-4fe2c6dd3813/8c546c00-dc63-11ee-9f99-f3a00dbfa5f2/file-1lth0lha9.png?format=png"
       ],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Dynamics: Centripetal Force, Banking & Turntable Slipping",
       "difficulty": "Medium",
       "key_formulas": [],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws"
+        "Dynamics: Centripetal Force, Banking & Turntable Slipping"
       ],
       "crawled_at": "2026-09-20T15:27:28.744162"
     },
@@ -371,11 +368,11 @@
       "image_urls": [
         "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9bit9vt/fef8becf-edc0-4eac-9b6e-837abddcb570/8b9401b0-1621-11f0-80c9-11bf760ae05d/file-jaoe38c1m9bit9vv.png?format=png"
       ],
-      "topic_tag": "Circular Motion — Core Principles & Governing Laws",
+      "topic_tag": "Kinematics of Circular Motion: Angular Velocity & Acceleration",
       "difficulty": "Easy",
       "key_formulas": [],
       "key_concepts": [
-        "Circular Motion — Core Principles & Governing Laws"
+        "Kinematics of Circular Motion: Angular Velocity & Acceleration"
       ],
       "crawled_at": "2026-09-20T15:27:28.775468"
     }
