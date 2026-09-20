@@ -28,6 +28,15 @@ from app.db.database import (
 )
 
 
+import re
+
+def clean_chapter_title(title: str) -> str:
+    t = re.sub(r'^KCET\s*[:-]?\s*', '', title, flags=re.IGNORECASE)
+    t = re.sub(r'\s*\d{4}\s+\d+\s+questions?.*$', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\s*[\d\.]+% weightage.*$', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\s*[\u2191\u2193\?].*$', '', t)
+    return t.strip()
+
 def export_static_site(output_dir: str = "dist"):
     out_path = BASE_DIR / output_dir
     api_dir = out_path / "data" / "api"
@@ -44,7 +53,9 @@ def export_static_site(output_dir: str = "dist"):
     chapters_data = []
     for ch in chapters:
         d = ch.model_dump()
+        d["title"] = clean_chapter_title(ch.title)
         d["stored_questions"] = get_question_count_by_chapter(ch.slug)
+        d["concept_count"] = len(get_concepts_by_chapter(ch.slug))
         d["exam"] = "kcet" if ch.slug.startswith("kcet-") else "jee-main"
         chapters_data.append(d)
 
@@ -67,8 +78,10 @@ def export_static_site(output_dir: str = "dist"):
         has_pdf = (BASE_DIR / "data" / "exports" / f"{slug}_revision_notes.pdf").exists()
 
         # Chapter details JSON
+        ch_dict = ch.model_dump()
+        ch_dict["title"] = clean_chapter_title(ch.title)
         chapter_payload = {
-            "chapter": ch.model_dump(),
+            "chapter": ch_dict,
             "concepts": [c.model_dump() for c in concepts],
             "synthesis": synthesis.model_dump() if synthesis else None,
             "total_questions": len(questions),

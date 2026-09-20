@@ -112,6 +112,10 @@
 
         <!-- Mobile Quick Actions -->
         <div class="flex items-center space-x-1.5 md:hidden">
+          <button onclick="openChapterFinder()" class="bg-zinc-900 hover:bg-zinc-850 px-2 py-1.5 rounded-md border border-zinc-800 text-zinc-300 hover:text-zinc-100 transition text-xs font-mono flex items-center gap-1 cursor-pointer" title="Find Chapter (⌘K)">
+            <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <span>Find</span>
+          </button>
           <button onclick="toggleDarkMode()" class="bg-zinc-900 hover:bg-zinc-800 p-1.5 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition" title="Toggle Theme">
             <span id="theme-toggle-icon-mobile">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
@@ -142,6 +146,13 @@
 
       <!-- Desktop Controls -->
       <div class="hidden md:flex items-center space-x-2 text-xs flex-shrink-0">
+        <!-- Chapter Finder Quick Trigger -->
+        <button onclick="openChapterFinder()" class="bg-zinc-900 hover:bg-zinc-850 px-2.5 py-1.5 rounded-md border border-zinc-800 text-zinc-300 hover:text-zinc-100 transition flex items-center space-x-1.5 text-xs font-medium cursor-pointer group" title="Open Chapter Finder (⌘K)">
+          <svg class="w-3.5 h-3.5 text-zinc-400 group-hover:text-zinc-200 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <span>Finder</span>
+          <kbd class="font-mono text-[10px] bg-zinc-950 text-zinc-400 px-1 py-0.5 rounded border border-zinc-800">⌘K</kbd>
+        </button>
+
         <div id="live-task-indicator" class="hidden lg:flex items-center space-x-1.5 text-zinc-400 font-mono text-[11px] mr-1">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
           <span id="task-status-text">Database Ready</span>
@@ -158,12 +169,23 @@
     </div>
   </header>
 
-  <!-- CHAPTER SELECTOR (Minimal Horizontal Segmented List) -->
+  <!-- CHAPTER SELECTOR & QUICK FINDER BAR -->
   <div class="bg-zinc-950 border-b border-zinc-800/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-      <div class="flex items-center justify-between text-[11px] font-mono text-zinc-500 mb-1.5">
-        <span class="uppercase tracking-wider">Chapter Selection</span>
-        <span id="chapter-stats-badge">Loading...</span>
+      <div class="flex items-center justify-between text-[11px] font-mono text-zinc-500 mb-1.5 gap-2">
+        <div class="flex items-center space-x-2 truncate">
+          <span class="uppercase tracking-wider">Chapter</span>
+          <span class="text-zinc-700">/</span>
+          <span id="active-chapter-indicator" class="text-zinc-200 font-medium truncate">Select Chapter</span>
+          <span id="chapter-stats-badge" class="hidden sm:inline text-zinc-500 font-mono"></span>
+        </div>
+        
+        <!-- Finder Trigger Button -->
+        <button onclick="openChapterFinder()" class="flex items-center space-x-1.5 text-xs text-zinc-300 hover:text-zinc-100 bg-zinc-900 hover:bg-zinc-850 px-2.5 py-1 rounded border border-zinc-800 transition flex-shrink-0 cursor-pointer shadow-sm group">
+          <svg class="w-3.5 h-3.5 text-zinc-400 group-hover:text-zinc-200 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <span class="font-medium">Finder</span>
+          <kbd class="hidden sm:inline font-mono text-[10px] bg-zinc-950 text-zinc-400 px-1 py-0.5 rounded border border-zinc-800">⌘K</kbd>
+        </button>
       </div>
       <div id="chapter-pills-container" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
         <!-- Dynamically rendered chapter items -->
@@ -458,6 +480,16 @@
       renderCrawlerTable();
     }
 
+    function cleanChapterTitle(t) {
+      if (!t) return '';
+      return t
+        .replace(/^KCET\s*[:-]?\s*/i, '')
+        .replace(/\s*\d{4}\s+\d+\s+questions?.*$/i, '')
+        .replace(/\s*[\d\.]+% weightage.*$/i, '')
+        .replace(/[\u2191\u2193\?].*$/, '')
+        .trim();
+    }
+
     function renderChapterPills() {
       const container = document.getElementById('chapter-pills-container');
       container.innerHTML = '';
@@ -481,24 +513,40 @@
 
       filtered.forEach(ch => {
         const isSelected = ch.slug === currentChapterSlug;
+        const isKcet = ch.slug.startsWith('kcet-') || currentExam === 'kcet';
+        const cleanTitle = cleanChapterTitle(ch.title);
+
         const btn = document.createElement('button');
+        btn.id = `pill-${ch.slug}`;
         btn.onclick = () => selectChapter(ch.slug);
 
-        btn.className = `flex-shrink-0 px-3 py-1.5 rounded-md text-xs font-medium flex items-center gap-2 border transition ${
+        btn.className = `flex-shrink-0 px-3 py-1.5 rounded-md text-xs font-medium flex items-center gap-2 border transition cursor-pointer ${
           isSelected 
             ? 'bg-zinc-800 text-zinc-100 border-zinc-700/80 shadow-sm' 
             : 'bg-transparent text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900 border-transparent'
         }`;
 
-        const cleanTitle = ch.title.replace(/^KCET\s*[:-]?\s*/i, '');
-        btn.innerHTML = `
-          <span>${cleanTitle}</span>
+        // Strictly NO weightage or question count number beside KCET chapters!
+        const countBadge = isKcet ? '' : `
           <span class="text-[11px] font-mono text-zinc-500">
             ${ch.stored_questions || 0}
           </span>
         `;
+
+        btn.innerHTML = `
+          <span>${cleanTitle}</span>
+          ${countBadge}
+        `;
         container.appendChild(btn);
       });
+
+      // Smoothly scroll active pill into center view
+      setTimeout(() => {
+        const activePill = document.getElementById(`pill-${currentChapterSlug}`);
+        if (activePill) {
+          activePill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+      }, 50);
     }
 
     async function selectChapter(slug) {
@@ -521,9 +569,20 @@
         }
       }
 
-      // Update stats badge
-      document.getElementById('chapter-stats-badge').innerText = 
-        `${currentChapterData.total_questions} PYQs · ${currentChapterData.concepts.length} Concepts`;
+      // Update active indicator and stats badge
+      const isKcet = slug.startsWith('kcet-') || currentExam === 'kcet';
+      const cleanName = cleanChapterTitle(currentChapterData.chapter.title);
+      const indicator = document.getElementById('active-chapter-indicator');
+      if (indicator) indicator.innerText = cleanName;
+
+      const statsBadge = document.getElementById('chapter-stats-badge');
+      if (statsBadge) {
+        if (isKcet) {
+          statsBadge.innerText = `· ${currentChapterData.concepts.length} Core Concepts`;
+        } else {
+          statsBadge.innerText = `· ${currentChapterData.total_questions} PYQs · ${currentChapterData.concepts.length} Concepts`;
+        }
+      }
 
       // Update download links
       if (isStaticMode) {
@@ -546,7 +605,7 @@
       const isKcet = ch.slug.startsWith('kcet-');
       const examName = isKcet ? 'KCET' : 'JEE MAIN';
       document.getElementById('concept-chapter-sub').innerText = `${examName} · ${ch.subject.toUpperCase()}`;
-      const cleanTitle = ch.title.replace(/^KCET\s*[:-]?\s*/i, '');
+      const cleanTitle = cleanChapterTitle(ch.title);
       document.getElementById('concept-chapter-title').innerText = `${cleanTitle} — Concept Matrix`;
       document.getElementById('concept-count-badge').innerText = currentChapterData.concepts.length;
 
@@ -907,7 +966,7 @@
         tr.className = isCurrent ? 'bg-zinc-800/30' : 'hover:bg-zinc-900/40 transition';
         tr.innerHTML = `
           <td class="px-4 py-2.5 font-mono text-[11px] uppercase text-zinc-500">${ch.subject}</td>
-          <td class="px-4 py-2.5 font-medium text-zinc-200">${ch.title}</td>
+          <td class="px-4 py-2.5 font-medium text-zinc-200">${cleanChapterTitle(ch.title)}</td>
           <td class="px-4 py-2.5">${statusBadge}</td>
           <td class="px-4 py-2.5 text-right font-mono text-zinc-400">${ch.stored_questions || 0}</td>
           <td class="px-4 py-2.5 text-center">
@@ -1000,8 +1059,320 @@
       setTimeout(executeRender, 30);
     }
 
+    // ==========================================
+    // CHAPTER FINDER / SPOTLIGHT (⌘K / Ctrl+K)
+    // ==========================================
+    let finderQuery = '';
+    let finderSubjectFilter = 'all';
+    let finderSelectedIndex = 0;
+    let finderFilteredList = [];
+
+    function openChapterFinder() {
+      const modal = document.getElementById('chapter-finder-modal');
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+
+      syncFinderExamControls();
+
+      const input = document.getElementById('finder-search-input');
+      input.placeholder = `Search ${currentExam === 'kcet' ? '95 KCET' : '91 JEE'} chapters... (e.g. Optics, Circle, Kinetics)`;
+      input.value = '';
+      finderQuery = '';
+      finderSubjectFilter = currentSubject; // Synchronize with current subject
+      updateFinderFilterButtons();
+      finderSelectedIndex = 0;
+      renderFinderResults();
+
+      setTimeout(() => input.focus(), 50);
+    }
+
+    function closeChapterFinder() {
+      const modal = document.getElementById('chapter-finder-modal');
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    function handleFinderBackdropClick(e) {
+      if (e.target.id === 'chapter-finder-modal') {
+        closeChapterFinder();
+      }
+    }
+
+    function syncFinderExamControls() {
+      const isKcet = currentExam === 'kcet';
+      const examLabel = isKcet ? 'KCET' : 'JEE Main';
+      document.getElementById('finder-exam-label').innerText = examLabel;
+      document.getElementById('finder-active-exam-tag').innerText = `${examLabel} Scope`;
+
+      const btnJee = document.getElementById('finder-exam-jee');
+      const btnKcet = document.getElementById('finder-exam-kcet');
+      if (btnJee && btnKcet) {
+        if (isKcet) {
+          btnKcet.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm';
+          btnJee.className = 'px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200';
+        } else {
+          btnJee.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm';
+          btnKcet.className = 'px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200';
+        }
+      }
+    }
+
+    function switchFinderExam(exam) {
+      setExamFilter(exam);
+      syncFinderExamControls();
+      const input = document.getElementById('finder-search-input');
+      input.placeholder = `Search ${currentExam === 'kcet' ? '95 KCET' : '91 JEE'} chapters... (e.g. Optics, Circle, Kinetics)`;
+      finderSelectedIndex = 0;
+      renderFinderResults();
+      input.focus();
+    }
+
+    function setFinderSubjectFilter(sub) {
+      finderSubjectFilter = sub;
+      updateFinderFilterButtons();
+      finderSelectedIndex = 0;
+      renderFinderResults();
+    }
+
+    function updateFinderFilterButtons() {
+      ['all', 'physics', 'chemistry', 'mathematics'].forEach(s => {
+        const btn = document.getElementById(`finder-filter-${s}`);
+        if (!btn) return;
+        if (s === finderSubjectFilter) {
+          btn.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-zinc-800 text-zinc-100 border border-zinc-700/60 transition';
+        } else {
+          btn.className = 'px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200 transition border border-transparent';
+        }
+      });
+    }
+
+    function onFinderSearchInput(val) {
+      finderQuery = val.trim().toLowerCase();
+      finderSelectedIndex = 0;
+      renderFinderResults();
+    }
+
+    function onFinderKeyDown(e) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (finderFilteredList.length > 0) {
+          finderSelectedIndex = (finderSelectedIndex + 1) % finderFilteredList.length;
+          updateFinderSelectionHighlight();
+        }
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (finderFilteredList.length > 0) {
+          finderSelectedIndex = (finderSelectedIndex - 1 + finderFilteredList.length) % finderFilteredList.length;
+          updateFinderSelectionHighlight();
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (finderFilteredList[finderSelectedIndex]) {
+          selectChapterFromFinder(finderFilteredList[finderSelectedIndex].slug);
+        }
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        closeChapterFinder();
+      }
+    }
+
+    function updateFinderSelectionHighlight() {
+      const items = document.querySelectorAll('.finder-item');
+      items.forEach((el, idx) => {
+        if (idx === finderSelectedIndex) {
+          el.className = 'finder-item flex items-center justify-between p-2.5 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 cursor-pointer transition';
+          el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          el.className = 'finder-item flex items-center justify-between p-2.5 rounded-lg hover:bg-zinc-850 border border-transparent text-zinc-300 cursor-pointer transition';
+        }
+      });
+    }
+
+    function renderFinderResults() {
+      const listContainer = document.getElementById('finder-results-list');
+      listContainer.innerHTML = '';
+
+      const isKcetMode = currentExam === 'kcet';
+      finderFilteredList = allChapters.filter(c => {
+        const isKcet = c.slug.startsWith('kcet-');
+        if (isKcetMode && !isKcet) return false;
+        if (!isKcetMode && isKcet) return false;
+        if (finderSubjectFilter !== 'all' && c.subject.toLowerCase() !== finderSubjectFilter.toLowerCase()) return false;
+        
+        if (finderQuery) {
+          const cleanName = cleanChapterTitle(c.title).toLowerCase();
+          const sub = (c.subject || '').toLowerCase();
+          const slug = (c.slug || '').toLowerCase();
+          return cleanName.includes(finderQuery) || sub.includes(finderQuery) || slug.includes(finderQuery);
+        }
+        return true;
+      });
+
+      // Prioritize prefix match when searching; otherwise pilot then alphabetical
+      if (finderQuery) {
+        finderFilteredList.sort((a, b) => {
+          const aTitle = cleanChapterTitle(a.title).toLowerCase();
+          const bTitle = cleanChapterTitle(b.title).toLowerCase();
+          const aStarts = aTitle.startsWith(finderQuery);
+          const bStarts = bTitle.startsWith(finderQuery);
+          if (aStarts && !bStarts) return -1;
+          if (!aStarts && bStarts) return 1;
+          return aTitle.localeCompare(bTitle);
+        });
+      } else {
+        finderFilteredList.sort((a, b) => {
+          const aPilot = PILOT_SLUGS.includes(a.slug);
+          const bPilot = PILOT_SLUGS.includes(b.slug);
+          if (aPilot && !bPilot) return -1;
+          if (!aPilot && bPilot) return 1;
+          return cleanChapterTitle(a.title).localeCompare(cleanChapterTitle(b.title));
+        });
+      }
+
+      document.getElementById('finder-match-count').innerText = `${finderFilteredList.length} chapters`;
+
+      if (finderFilteredList.length === 0) {
+        listContainer.innerHTML = `
+          <div class="p-8 text-center text-zinc-500 text-xs">
+            No chapters found matching "<span class="text-zinc-300 font-medium">${finderQuery}</span>".
+          </div>
+        `;
+        return;
+      }
+
+      finderFilteredList.forEach((ch, idx) => {
+        const isSelected = idx === finderSelectedIndex;
+        const isActiveCurrent = ch.slug === currentChapterSlug;
+        const cleanName = cleanChapterTitle(ch.title);
+
+        const subAbbr = ch.subject.toLowerCase() === 'chemistry' ? 'CHEM' : (ch.subject.toLowerCase() === 'physics' ? 'PHYS' : 'MATH');
+        const subColor = ch.subject.toLowerCase() === 'chemistry' 
+          ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' 
+          : (ch.subject.toLowerCase() === 'physics' 
+              ? 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20' 
+              : 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20');
+
+        let highlightedTitle = cleanName;
+        if (finderQuery) {
+          const regex = new RegExp(`(${finderQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+          highlightedTitle = cleanName.replace(regex, '<span class="text-white font-semibold underline decoration-zinc-500 decoration-1 underline-offset-2">$1</span>');
+        }
+
+        // KCET: strictly no weightage or question count numbers beside chapter!
+        const metaText = isKcetMode
+          ? `${ch.concept_count || 2} Concepts`
+          : `${ch.stored_questions || 0} PYQs · ${ch.concept_count || 2} Concepts`;
+
+        const row = document.createElement('div');
+        row.className = `finder-item flex items-center justify-between p-2.5 rounded-lg transition cursor-pointer ${
+          isSelected 
+            ? 'bg-zinc-800 border border-zinc-700 text-zinc-100' 
+            : 'hover:bg-zinc-850 border border-transparent text-zinc-300'
+        }`;
+        row.onclick = () => selectChapterFromFinder(ch.slug);
+
+        row.innerHTML = `
+          <div class="flex items-center space-x-2.5 truncate">
+            <span class="font-mono text-[10px] px-1.5 py-0.5 rounded border ${subColor} flex-shrink-0 font-semibold">${subAbbr}</span>
+            <span class="text-xs font-medium truncate">${highlightedTitle}</span>
+            ${isActiveCurrent ? '<span class="text-[10px] font-mono text-zinc-400 bg-zinc-800 px-1.5 py-0.2 rounded border border-zinc-700">Active</span>' : ''}
+          </div>
+          <div class="flex items-center space-x-2 flex-shrink-0 ml-2 font-mono text-[11px] text-zinc-500">
+            <span>${metaText}</span>
+            <span class="text-zinc-600">&rarr;</span>
+          </div>
+        `;
+
+        listContainer.appendChild(row);
+      });
+    }
+
+    function selectChapterFromFinder(slug) {
+      closeChapterFinder();
+      selectChapter(slug);
+    }
+
+    // Keyboard shortcut listeners (⌘K, Ctrl+K, /)
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        const modal = document.getElementById('chapter-finder-modal');
+        if (modal.classList.contains('hidden')) {
+          openChapterFinder();
+        } else {
+          closeChapterFinder();
+        }
+      } else if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        openChapterFinder();
+      }
+    });
+
     // Initialize on window load
     window.addEventListener('DOMContentLoaded', initDashboard);
   </script>
+
+  <!-- MACOS / RAYCAST STYLE CHAPTER FINDER MODAL -->
+  <div id="chapter-finder-modal" class="fixed inset-0 z-[100] hidden flex items-start justify-center pt-8 sm:pt-16 px-3 sm:px-4 bg-black/75 backdrop-blur-sm" onclick="handleFinderBackdropClick(event)">
+    <div class="bg-zinc-900 border border-zinc-700/80 rounded-xl shadow-2xl max-w-2xl w-full overflow-hidden flex flex-col max-h-[82vh]" onclick="event.stopPropagation()">
+      
+      <!-- Finder Search Input Header -->
+      <div class="px-4 py-3 border-b border-zinc-800 flex items-center gap-3 bg-zinc-950/80">
+        <svg class="w-4 h-4 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input 
+          id="finder-search-input" 
+          type="text" 
+          placeholder="Search chapters... (e.g. Ray Optics, Circle, Kinetics)" 
+          class="bg-transparent border-0 outline-none text-zinc-100 placeholder-zinc-500 text-sm sm:text-base w-full font-medium"
+          autocomplete="off"
+          spellcheck="false"
+          oninput="onFinderSearchInput(this.value)"
+          onkeydown="onFinderKeyDown(event)"
+        />
+        <div class="flex items-center gap-1.5 flex-shrink-0">
+          <span class="text-[11px] font-mono text-zinc-400 bg-zinc-800/80 border border-zinc-700/60 px-2 py-0.5 rounded" id="finder-exam-label">KCET</span>
+          <button onclick="closeChapterFinder()" class="text-[10px] font-mono bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200 border border-zinc-700 px-1.5 py-0.5 rounded cursor-pointer transition">ESC</button>
+        </div>
+      </div>
+
+      <!-- Quick Subject & Exam Filter Bar inside Finder -->
+      <div class="px-4 py-2 border-b border-zinc-800/80 flex flex-wrap items-center justify-between gap-2 bg-zinc-900/90 text-xs">
+        <div class="flex items-center gap-1">
+          <button id="finder-filter-all" onclick="setFinderSubjectFilter('all')" class="px-2 py-0.5 rounded text-[11px] font-medium bg-zinc-800 text-zinc-100 border border-zinc-700/60 transition cursor-pointer">All</button>
+          <button id="finder-filter-physics" onclick="setFinderSubjectFilter('physics')" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200 transition cursor-pointer">Physics</button>
+          <button id="finder-filter-chemistry" onclick="setFinderSubjectFilter('chemistry')" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200 transition cursor-pointer">Chemistry</button>
+          <button id="finder-filter-mathematics" onclick="setFinderSubjectFilter('mathematics')" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-400 hover:text-zinc-200 transition cursor-pointer">Maths</button>
+        </div>
+        
+        <div class="flex items-center gap-2">
+          <!-- Quick Exam Toggle inside Finder -->
+          <div class="inline-flex p-0.5 bg-zinc-950 border border-zinc-800 rounded text-[11px]">
+            <button id="finder-exam-jee" onclick="switchFinderExam('jee-main')" class="px-2 py-0.5 rounded font-medium text-zinc-400 transition cursor-pointer">JEE</button>
+            <button id="finder-exam-kcet" onclick="switchFinderExam('kcet')" class="px-2 py-0.5 rounded font-medium bg-zinc-800 text-zinc-100 transition cursor-pointer">KCET</button>
+          </div>
+          <div class="text-[11px] font-mono text-zinc-500" id="finder-match-count">0 chapters</div>
+        </div>
+      </div>
+
+      <!-- Finder Results List (Scrollable) -->
+      <div id="finder-results-list" class="overflow-y-auto flex-1 p-2 space-y-1 divide-y divide-zinc-800/30 divide-dashed max-h-[55vh]">
+        <!-- Dynamically rendered list items -->
+      </div>
+
+      <!-- Finder Footer -->
+      <div class="px-4 py-2 bg-zinc-950/80 border-t border-zinc-800/80 flex items-center justify-between text-[11px] font-mono text-zinc-500">
+        <div class="flex items-center gap-3">
+          <span class="flex items-center gap-1"><kbd class="bg-zinc-800 px-1 rounded border border-zinc-700 text-zinc-400">↑</kbd><kbd class="bg-zinc-800 px-1 rounded border border-zinc-700 text-zinc-400">↓</kbd> Navigate</span>
+          <span class="flex items-center gap-1"><kbd class="bg-zinc-800 px-1 rounded border border-zinc-700 text-zinc-400">↵</kbd> Select</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span id="finder-active-exam-tag" class="text-zinc-400">KCET Scope</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
