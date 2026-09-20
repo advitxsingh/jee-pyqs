@@ -74,13 +74,14 @@ app.mount("/static", StaticFiles(directory="app/web/static"), name="static")
 # --- API Endpoints ---
 
 @app.get("/api/chapters")
-async def list_chapters(subject: Optional[str] = None):
+async def list_chapters(subject: Optional[str] = None, exam: Optional[str] = None):
     """List all chapters with their question counts and status."""
-    chapters = get_all_chapters(subject=subject, db_path=DB_PATH)
+    chapters = get_all_chapters(subject=subject, exam=exam, db_path=DB_PATH)
     res = []
     for ch in chapters:
         d = ch.model_dump()
         d["stored_questions"] = get_question_count_by_chapter(ch.slug, db_path=DB_PATH)
+        d["exam"] = "kcet" if ch.slug.startswith("kcet-") else "jee-main"
         res.append(d)
     return res
 

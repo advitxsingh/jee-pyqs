@@ -172,13 +172,21 @@ def get_chapter(slug: str, db_path: str = DB_PATH) -> Optional[ChapterModel]:
     return ChapterModel(**dict(row))
 
 
-def get_all_chapters(subject: Optional[str] = None, db_path: str = DB_PATH) -> List[ChapterModel]:
-    """Retrieve all chapters, optionally filtered by subject."""
+def get_all_chapters(subject: Optional[str] = None, exam: Optional[str] = None, db_path: str = DB_PATH) -> List[ChapterModel]:
+    """Retrieve all chapters, optionally filtered by subject and/or exam."""
     conn = get_db_connection(db_path)
+    query = "SELECT * FROM chapters WHERE 1=1"
+    params = []
     if subject:
-        rows = conn.execute("SELECT * FROM chapters WHERE subject = ? ORDER BY title", (subject,)).fetchall()
-    else:
-        rows = conn.execute("SELECT * FROM chapters ORDER BY subject, title").fetchall()
+        query += " AND subject = ?"
+        params.append(subject)
+    if exam:
+        if exam.lower() == "kcet":
+            query += " AND slug LIKE 'kcet-%'"
+        elif exam.lower() in ["jee", "jee-main"]:
+            query += " AND slug NOT LIKE 'kcet-%'"
+    query += " ORDER BY subject, title"
+    rows = conn.execute(query, params).fetchall()
     conn.close()
     return [ChapterModel(**dict(r)) for r in rows]
 

@@ -1,5 +1,173 @@
 {
   "chapter_slug": "mathematical-induction",
-  "total": 0,
-  "questions": []
+  "total": 3,
+  "questions": [
+    {
+      "id": 23683,
+      "qid": "9WbUqXiIlcooNReg",
+      "chapter_slug": "mathematical-induction",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-left-matrix-1-0-cr-1-1-cr-right-and-i-left-matrix-1-0-c-jee-main-2005-marks-4-9wbuqxiilcoonreg.htm",
+      "exam": "JEE Main",
+      "year": 2005,
+      "paper_name": "AIEEE 2005",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $A=[\\begin{aligned} 1 & 0 \\\\ 1 & 1 \\end{aligned}]$ and $I=[\\begin{aligned} 1 & 0 \\\\ 0 & 1 \\end{aligned}],$ then which one of the following holds for all $n \\ge 1,$ by the principle of mathematical induction?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $A=[\\begin{aligned} 1 &amp; 0 \\\\ 1 &amp; 1 \\end{aligned}]$  and  $I=[\\begin{aligned} 1 &amp; 0 \\\\ 0 &amp; 1 \\end{aligned}],$  then which one of the following holds for all  $n \\ge 1,$  by the principle of mathematical induction? <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$A^{n}=nA-(n-1)I$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A^{n}=nA-(n-1)I$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$A^{n}=2^{n-1}A-(n-1)I$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A^{n}=2^{n-1}A-(n-1)I$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$A^{n}=nA+(n-1)I$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A^{n}=nA+(n-1)I$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$A^{n}=2^{n-1}A+(n-1)I$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A^{n}=2^{n-1}A+(n-1)I$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given $A=[\\begin{aligned} 1 & 0 \\\\ 1 & 1 \\end{aligned}]$ $\\therefore$ $A \\times A$ = $A^{2}$ = $[\\begin{aligned} 1 & 0 \\\\ 2 & 1 \\end{aligned}]$ and $A^{3}$ = $A^{2} \\times A$ = $[\\begin{aligned} 1 & 0 \\\\ 3 & 1 \\end{aligned}]$ So we can say $A^{n}$ = $[\\begin{aligned} 1 & 0 \\\\ n & 1 \\end{aligned}]$ Now $nA-(n-1)I$ = $[\\begin{aligned} n & 0 \\\\ n & n \\end{aligned}]$ - $[\\begin{aligned} n-1 & 0 \\\\ 0 & n-1 \\end{aligned}]$ = $[\\begin{aligned} 1 & 0 \\\\ n & 1 \\end{aligned}]$ = $A^{n}$ $\\therefore$ $A^{n}=nA-(n-1)I$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $A=[\\begin{aligned} 1 &amp; 0 \\\\ 1 &amp; 1 \\end{aligned}]$ \n<br/><br/> $\\therefore$   $A \\times A$  =  $A^{2}$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ 2 &amp; 1 \\end{aligned}]$ \n<br/><br/>and  $A^{3}$  =  $A^{2} \\times A$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ 3 &amp; 1 \\end{aligned}]$ \n<br/><br/>So we can say  $A^{n}$  =  $[\\begin{aligned} 1 &amp; 0 \\\\ n &amp; 1 \\end{aligned}]$ \n<br/><br/>Now  $nA-(n-1)I$ \n<br/><br/>=  $[\\begin{aligned} n &amp; 0 \\\\ n &amp; n \\end{aligned}]$  -  $[\\begin{aligned} n-1 &amp; 0 \\\\ 0 &amp; n-1 \\end{aligned}]$ \n<br/><br/>=  $[\\begin{aligned} 1 &amp; 0 \\\\ n &amp; 1 \\end{aligned}]$  =  $A^{n}$ \n<br/><br/> $\\therefore$   $A^{n}=nA-(n-1)I$  <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Mathematical Induction - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "A=[\\begin{aligned} 1 & 0 \\\\ 1 & 1 \\end{aligned}]",
+        "I=[\\begin{aligned} 1 & 0 \\\\ 0 & 1 \\end{aligned}],",
+        "A \\times A",
+        "A^{2}",
+        "A^{3}",
+        "A^{2} \\times A"
+      ],
+      "key_concepts": [
+        "Mathematical Induction - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:54.416940"
+    },
+    {
+      "id": 23684,
+      "qid": "hj54pq327GNyXr3n",
+      "chapter_slug": "mathematical-induction",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-left-matrix-1-0-cr-1-1-cr-right-and-i-left-matrix-1-0-c-jee-main-2005-marks-4-9wbuqxiilcoonreg.htm",
+      "exam": "JEE Main",
+      "year": 2004,
+      "paper_name": "AIEEE 2004",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Let $S(K)$ $=1+3+5...+(2K-1)=3+K^{2}.$ Then which of the following is true",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $S(K)$   $=1+3+5...+(2K-1)=3+K^{2}.$   Then which of the following is true <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Principle of mathematical induction can be used to prove the formula",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Principle of mathematical induction can be used to prove the formula<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$S(K) \\Rightarrow S(K+1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $S(K) \\Rightarrow S(K+1)$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$S(K) \\ne S(K+1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $S(K) \\ne S(K+1)$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$S(1)$ is correct",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $S(1)$  is correct <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given $S(K)$ $=1+3+5...+(2K-1)=3+K^{2}$ When k = 1, S(1): 1 = 3 + 1, L.H.S of S(k) $\\ne$ R.H.S of S(k) So S(1) is not true. As S(1) is not true so principle of mathematical induction can not be used. S(K+1) = 1 + 3 + 5... + (2K - 1) + (2K + 1) = 3 + (k + 1) 2 Now let S(k) is true $\\therefore$ 1 + 3 + 5 +........(2k - 1) = 3 + k 2 $\\Rightarrow$ 1 + 3 + 5 +........(2k - 1) + (2k + 1) = 3 + k 2 + 2k +1 = 3 + (k + 1) 2 $\\Rightarrow$ S(k + 1) is true. $\\therefore$ S(k) $\\Rightarrow$ S(k + 1)",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $S(K)$   $=1+3+5...+(2K-1)=3+K^{2}$ \n<br/><br/>When k = 1, S(1): 1 = 3 + 1, \n<br/><br/>L.H.S of S(k)  $\\ne$  R.H.S of S(k)\n<br/><br/>So S(1) is not true.\n<br/><br/>As S(1) is not true so principle of mathematical induction can not be used.\n<br/><br/>S(K+1) = 1 + 3 + 5... + (2K - 1) + (2K + 1) = 3 + (k + 1)<sup>2</sup>\n<br/><br/>Now let S(k) is true\n<br/><br/> $\\therefore$  1 + 3 + 5 +........(2k - 1) = 3 + k<sup>2</sup>\n<br/><br/> $\\Rightarrow$  1 + 3 + 5 +........(2k - 1) + (2k + 1) = 3 + k<sup>2</sup> + 2k +1\n<br/><br/>= 3 + (k + 1)<sup>2</sup>\n<br/><br/> $\\Rightarrow$  S(k + 1) is true.\n<br/><br/> $\\therefore$  S(k)  $\\Rightarrow$  S(k + 1)<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Mathematical Induction - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=1+3+5...+(2K-1)=3+K^{2}.",
+        "=1+3+5...+(2K-1)=3+K^{2}"
+      ],
+      "key_concepts": [
+        "Mathematical Induction - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:54.433275"
+    },
+    {
+      "id": 23685,
+      "qid": "3YLjdLeFsjhnI2wc",
+      "chapter_slug": "mathematical-induction",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-left-matrix-1-0-cr-1-1-cr-right-and-i-left-matrix-1-0-c-jee-main-2005-marks-4-9wbuqxiilcoonreg.htm",
+      "exam": "JEE Main",
+      "year": 2002,
+      "paper_name": "AIEEE 2002",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}$ having $n$ radical signs then by methods of mathematical induction which is true",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}$   having  $n$  radical signs then by methods of mathematical induction which is true <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a_{n}>7∀n \\ge 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a_{n}&gt;7∀n \\ge 1$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$a_{n}<7∀n \\ge 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a_{n}&lt;7∀n \\ge 1$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$a_{n}<4∀n \\ge 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a_{n}&lt;4∀n \\ge 1$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$a_{n}>3∀n \\ge 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a_{n}&gt;3∀n \\ge 1$  <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given $a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}$ $\\therefore$ $a_{n}=\\sqrt{7+a_{n}}$ $\\Rightarrow$ $a_{n}^{2}=7+a_{n}$ $\\Rightarrow$ $a_{n}^{2}-a_{n}-7=0$ $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{1-4 \\times 1 \\times -7}}{2}$ $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{29}}{2}$ As $a_{n}$ > 0, $\\therefore$ $a_{n}=\\frac{1+\\sqrt{29}}{2}$ = 3.19 So $a_{n}>3∀n \\ge 1$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given  $a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}$ \n<br/><br/> $\\therefore$   $a_{n}=\\sqrt{7+a_{n}}$ \n<br/><br/> $\\Rightarrow$   $a_{n}^{2}=7+a_{n}$ \n<br/><br/> $\\Rightarrow$   $a_{n}^{2}-a_{n}-7=0$ \n<br/><br/> $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{1-4 \\times 1 \\times -7}}{2}$ \n<br/><br/> $\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{29}}{2}$ \n<br/><br/>As  $a_{n}$  &gt; 0, \n<br/><br/> $\\therefore$   $a_{n}=\\frac{1+\\sqrt{29}}{2}$  = 3.19\n<br/><br/>So  $a_{n}&gt;3∀n \\ge 1$  <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Mathematical Induction - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "a_{n}=\\sqrt{7+\\sqrt{7+\\sqrt{7+.......}}}",
+        "a_{n}=\\sqrt{7+a_{n}}",
+        "a_{n}^{2}=7+a_{n}",
+        "a_{n}^{2}-a_{n}-7=0",
+        "\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{1-4 \\times 1 \\times -7}}{2}",
+        "\\Rightarrow a_{n}=\\frac{1 \\pm \\sqrt{29}}{2}"
+      ],
+      "key_concepts": [
+        "Mathematical Induction - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:54.446594"
+    }
+  ]
 }

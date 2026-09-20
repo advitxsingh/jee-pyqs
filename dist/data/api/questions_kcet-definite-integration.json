@@ -1,0 +1,1647 @@
+{
+  "chapter_slug": "kcet-definite-integration",
+  "total": 31,
+  "questions": [
+    {
+      "id": 8640,
+      "qid": "jt-mr7eh8yw",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/intlimitsa-6b-6-fx--6dx-is-equal-to-kcet-mathematics-siv8b8v4buovc7km",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{a-6}^{b-6}f(x+6)dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{a-6}^{b-6}f(x+6)dx$  is equal to<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\int_{a}^{b}f(x+6)dx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\int_{a}^{b}f(x+6)dx$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\int_{a}^{b}f(x-6)dx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\int_{a}^{b}f(x-6)dx$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\int_{a}^{b}f(x)dx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\int_{a}^{b}f(x)dx$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\int_{a}^{b}f(x)dx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\int_{a}^{b}f(x)dx$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "Put $t=x+6$ Then $dt=dx$ Now change the limits. When $x=a-6,$ we get $t=(a-6)+6=a$ When $x=b-6,$ we get $t=(b-6)+6=b$ So, $\\int_{a-6}^{b-6}f(x+6)dx=\\int_{a}^{b}f(t)dt$ The letter used for the variable does not matter in a definite integral. So, $\\int_{a}^{b}f(t)dt=\\int_{a}^{b}f(x)dx$ Hence, $\\int_{a-6}^{b-6}f(x+6)dx=\\int_{a}^{b}f(x)dx$ So the correct option is $\\text{Option C}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Put</p>\n<p> $t=x+6$ </p>\n<p>Then</p>\n<p> $dt=dx$ </p>\n<p>Now change the limits.</p>\n<p>When</p>\n<p> $x=a-6,$ </p>\n<p>we get</p>\n<p> $t=(a-6)+6=a$ </p>\n<p>When</p>\n<p> $x=b-6,$ </p>\n<p>we get</p>\n<p> $t=(b-6)+6=b$ </p>\n<p>So,</p>\n<p> $\\int_{a-6}^{b-6}f(x+6)dx=\\int_{a}^{b}f(t)dt$ </p>\n<p>The letter used for the variable does not matter in a definite integral. So,</p>\n<p> $\\int_{a}^{b}f(t)dt=\\int_{a}^{b}f(x)dx$ </p>\n<p>Hence,</p>\n<p> $\\int_{a-6}^{b-6}f(x+6)dx=\\int_{a}^{b}f(x)dx$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option C}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{a-6}^{b-6}f(x+6)dx",
+        "t=x+6",
+        "dt=dx",
+        "x=a-6,",
+        "t=(a-6)+6=a",
+        "x=b-6,"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.647609"
+    },
+    {
+      "id": 8642,
+      "qid": "jt-mr7eh8yx",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/intlimitsa-6b-6-fx--6dx-is-equal-to-kcet-mathematics-siv8b8v4buovc7km",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "One of the possible functions $f(x)$ which satisfies $\\int_{-2}^{2}f(x)dx=0$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->One of the possible functions  $f(x)$  which satisfies  $\\int_{-2}^{2}f(x)dx=0$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log(\\frac{2-x}{2+x})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log(\\frac{2-x}{2+x})$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$sin(2-x)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $sin(2-x)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$3x^{2}-2x+1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3x^{2}-2x+1$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2xtanx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2xtanx$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "$f(x)=log(\\frac{2-x}{2+x})$ For an integral over symmetric limits $[-2,2]$ , a useful NCERT result is: If $f(x)$ is an odd function, then $\\int_{-a}^{a}f(x)dx=0$ So we check whether the given function is odd. For Option A, $f(x)=log(\\frac{2-x}{2+x})$ Now, $f(-x)=log(\\frac{2-(-x)}{2+(-x)})$ $f(-x)=log(\\frac{2+x}{2-x})$ Using the property $log(\\frac{1}{A})=-logA$ we get $f(-x)=-log(\\frac{2-x}{2+x})$ So, $f(-x)=-f(x)$ Hence the function is odd. Since the limits are from $-2$ to $2$ , the integral becomes zero. Thus, $\\int_{-2}^{2}log(\\frac{2-x}{2+x})dx=0$ So the correct answer is $\\text{Option A}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=log(\\frac{2-x}{2+x})$ </p>\n<p>For an integral over symmetric limits  $[-2,2]$ , a useful NCERT result is:</p>\n<p>If  $f(x)$  is an odd function, then</p>\n<p> $\\int_{-a}^{a}f(x)dx=0$ </p>\n<p>So we check whether the given function is odd.</p>\n<p>For Option A,</p>\n<p> $f(x)=log(\\frac{2-x}{2+x})$ </p>\n<p>Now,</p>\n<p> $f(-x)=log(\\frac{2-(-x)}{2+(-x)})$ </p>\n<p> $f(-x)=log(\\frac{2+x}{2-x})$ </p>\n<p>Using the property</p>\n<p> $log(\\frac{1}{A})=-logA$ </p>\n<p>we get</p>\n<p> $f(-x)=-log(\\frac{2-x}{2+x})$ </p>\n<p>So,</p>\n<p> $f(-x)=-f(x)$ </p>\n<p>Hence the function is odd. Since the limits are from  $-2$  to  $2$ , the integral becomes zero.</p>\n<p>Thus,</p>\n<p> $\\int_{-2}^{2}log(\\frac{2-x}{2+x})dx=0$ </p>\n<p>So the correct answer is</p>\n<p> $\\text{Option A}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\int_{-2}^{2}f(x)dx=0",
+        "f(x)=log(\\frac{2-x}{2+x})",
+        "\\int_{-a}^{a}f(x)dx=0",
+        "f(-x)=log(\\frac{2-(-x)}{2+(-x)})",
+        "f(-x)=log(\\frac{2+x}{2-x})",
+        "log(\\frac{1}{A})=-logA"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.659667"
+    },
+    {
+      "id": 8648,
+      "qid": "mcf6zx28",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-log-leftfrac1x-1right-d-x-isp-kcet-mathematics-complex-numbers-jhmmr2gzlqwhzvdk",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{1}log(\\frac{1}{x}-1)dx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{1}log(\\frac{1}{x}-1)dx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log_{e}2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log_{e}2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$log_{e}(\\frac{1}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log_{e}(\\frac{1}{2})$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int_{0}^{1}log(\\frac{1}{x}-1)dx=\\int_{0}^{1}log(\\frac{1-x}{x})dx \\\\ & I=\\int_{0}^{1}log(\\frac{1}{1+0-x}-1)=\\int_{0}^{1}log(\\frac{1}{1-x}-1)dx \\\\ & I=\\int_{0}^{1}log(\\frac{1-1+x}{1-x})dx=\\int_{0}^{1}log(\\frac{x}{1-x})dx \\\\ & 2I=\\int_{0}^{1}(log(\\frac{1-x}{x})+log(\\frac{x}{1-x}))dx \\\\ & 2I=0 \\Rightarrow I=0. \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{0}^{1}log(\\frac{1}{x}-1)dx=\\int_{0}^{1}log(\\frac{1-x}{x})dx \\\\ &amp; I=\\int_{0}^{1}log(\\frac{1}{1+0-x}-1)=\\int_{0}^{1}log(\\frac{1}{1-x}-1)dx \\\\ &amp; I=\\int_{0}^{1}log(\\frac{1-1+x}{1-x})dx=\\int_{0}^{1}log(\\frac{x}{1-x})dx \\\\ &amp; 2I=\\int_{0}^{1}(log(\\frac{1-x}{x})+log(\\frac{x}{1-x}))dx \\\\ &amp; 2I=0 \\Rightarrow I=0. \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{0}^{1}log(\\frac{1}{x}-1)dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.953784"
+    },
+    {
+      "id": 8644,
+      "qid": "mcf6zwy0",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/intlimitsa-6b-6-fx--6dx-is-equal-to-kcet-mathematics-siv8b8v4buovc7km",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int_{-1}^{1}sin^{5}xcos^{4}xdx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int_{-1}^{1}sin^{5}xcos^{4}xdx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\pi/2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\pi/2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi/2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\pi/2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int_{-1}^{1}sin^{5}xcos^{4}xdx=0 \\\\ & \\text{Since it is odd function.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{-1}^{1}sin^{5}xcos^{4}xdx=0 \\\\ &amp; \\text{Since it is odd function.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{-1}^{1}sin^{5}xcos^{4}xdx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.674312"
+    },
+    {
+      "id": 8646,
+      "qid": "mcf6zwz4",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/intlimitsa-6b-6-fx--6dx-is-equal-to-kcet-mathematics-siv8b8v4buovc7km",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\text{The value of}\\int_{0}^{2\\pi}\\sqrt{1+sin(\\frac{x}{2})}dx\\text{is}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{The value of}\\int_{0}^{2\\pi}\\sqrt{1+sin(\\frac{x}{2})}dx\\text{is}$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->8<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int_{0}^{2\\pi}\\sqrt{1+sin\\frac{x}{2}} \\\\ & \\begin{aligned} \\int_{0}^{2\\pi}|cos\\frac{x}{4}+sin\\frac{x}{4}| & =[4sin\\frac{x}{4}-4cos\\frac{x}{4}]_{0}^{2\\pi} \\\\ & =(4(1)-0(0-4) \\\\ & =8 \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{0}^{2\\pi}\\sqrt{1+sin\\frac{x}{2}} \\\\ &amp; \\begin{aligned} \\int_{0}^{2\\pi}|cos\\frac{x}{4}+sin\\frac{x}{4}| &amp; =[4sin\\frac{x}{4}-4cos\\frac{x}{4}]_{0}^{2\\pi} \\\\ &amp; =(4(1)-0(0-4) \\\\ &amp; =8 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\text{The value of}\\int_{0}^{2\\pi}\\sqrt{1+sin(\\frac{x}{2})}dx\\text{is}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.699324"
+    },
+    {
+      "id": 8650,
+      "qid": "m5yu98ly",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-log-leftfrac1x-1right-d-x-isp-kcet-mathematics-complex-numbers-jhmmr2gzlqwhzvdk",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-\\pi}^{\\pi}(1-x^{2})sinx \\cdot cos^{2}xdx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{-\\pi}^{\\pi}(1-x^{2})sinx \\cdot cos^{2}xdx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi-\\frac{\\pi^{2}}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi-\\frac{\\pi^{2}}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2\\pi-\\pi^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2\\pi-\\pi^{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi-\\frac{\\pi^{3}}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi-\\frac{\\pi^{3}}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\because \\text{Let}f(x) & =(1-x^{2})sinx \\cdot cos^{2}x \\\\ f(-x) & =(1-(-x)^{2})sin(-x) \\cdot cos^{2}(-x) \\\\ & =(1-x^{2})(-sinx)(cos^{2}x) \\\\ & =-(1-x^{2})(sinx)(cos^{2}x) \\end{aligned}$ So, $f(x)=-f(-x)$ So, $f(x)$ is an odd function. Hence, $\\int_{-\\pi}^{\\pi}(1-x^{2})sinx \\cdot cos^{2}xdx=0$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\because \\text{Let}f(x) &amp; =(1-x^{2})sinx \\cdot cos^{2}x \\\\ f(-x) &amp; =(1-(-x)^{2})sin(-x) \\cdot cos^{2}(-x) \\\\ &amp; =(1-x^{2})(-sinx)(cos^{2}x) \\\\ &amp; =-(1-x^{2})(sinx)(cos^{2}x) \\end{aligned}$ </p>\n<p>So,  $f(x)=-f(-x)$ </p>\n<p>So,  $f(x)$  is an odd function.</p>\n<p>Hence,  $\\int_{-\\pi}^{\\pi}(1-x^{2})sinx \\cdot cos^{2}xdx=0$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{-\\pi}^{\\pi}(1-x^{2})sinx \\cdot cos^{2}xdx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.978503"
+    },
+    {
+      "id": 8651,
+      "qid": "m5yu7le7",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-log-leftfrac1x-1right-d-x-isp-kcet-mathematics-complex-numbers-jhmmr2gzlqwhzvdk",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{1}^{5}(|x-3|+|1-x|)dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{1}^{5}(|x-3|+|1-x|)dx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "12",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->12<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5/6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5/6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "21",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->21<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\int_{1}^{5}[|x & -3|+|1-x|]dx \\\\ & =\\int_{1}^{5}|x-3|dx+\\int_{1}^{5}|1-x|dx \\\\ & =\\int_{1}^{3}|x-3|dx+\\int_{3}^{5}|x-3|dx+\\int_{1}^{5}|1-x|dx \\\\ & =\\int_{1}^{3}(3-x)dx+\\int_{3}^{5}(x-3)dx+\\int_{1}^{5}(x-1)dx \\end{aligned}$ $\\begin{aligned} & =[3x-\\frac{x^{2}}{2}]_{1}^{3}+[\\frac{x^{2}}{2}-3x]_{3}^{5}+[\\frac{x^{2}}{2}-x]_{1}^{5} \\\\ & =(3 \\times 3-\\frac{9}{2})^{-}-(3 \\times 1-\\frac{1}{2})+(\\frac{5 \\times 5}{2}-3 \\times 5) \\\\ & -(\\frac{3 \\times 3}{2}-3 \\times 3)+(\\frac{5 \\times 5}{2}-5)-(\\frac{1}{2}-1) \\\\ & =\\frac{9}{2}-\\frac{5}{2}-\\frac{5}{2}+\\frac{9}{2}+\\frac{15}{2}+\\frac{1}{2} \\\\ & =\\frac{9-5-5+9+15+1}{2}=\\frac{24}{2}=12 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\int_{1}^{5}[|x &amp; -3|+|1-x|]dx \\\\ &amp; =\\int_{1}^{5}|x-3|dx+\\int_{1}^{5}|1-x|dx \\\\ &amp; =\\int_{1}^{3}|x-3|dx+\\int_{3}^{5}|x-3|dx+\\int_{1}^{5}|1-x|dx \\\\ &amp; =\\int_{1}^{3}(3-x)dx+\\int_{3}^{5}(x-3)dx+\\int_{1}^{5}(x-1)dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =[3x-\\frac{x^{2}}{2}]_{1}^{3}+[\\frac{x^{2}}{2}-3x]_{3}^{5}+[\\frac{x^{2}}{2}-x]_{1}^{5} \\\\ &amp; =(3 \\times 3-\\frac{9}{2})^{-}-(3 \\times 1-\\frac{1}{2})+(\\frac{5 \\times 5}{2}-3 \\times 5) \\\\ &amp; -(\\frac{3 \\times 3}{2}-3 \\times 3)+(\\frac{5 \\times 5}{2}-5)-(\\frac{1}{2}-1) \\\\ &amp; =\\frac{9}{2}-\\frac{5}{2}-\\frac{5}{2}+\\frac{9}{2}+\\frac{15}{2}+\\frac{1}{2} \\\\ &amp; =\\frac{9-5-5+9+15+1}{2}=\\frac{24}{2}=12 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{1}^{5}(|x-3|+|1-x|)dx="
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.010182"
+    },
+    {
+      "id": 8656,
+      "qid": "jaoe38c1locq0mbl",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-20leftx33-x23-x3x1-cos-x1right-kcet-mathematics-complex-numbers-dvspslbembo2fcsa",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-2}^{0}(x^{3}+3x^{2}+3x+3+(x+1)cos(x+1))dx$ is equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{-2}^{0}(x^{3}+3x^{2}+3x+3+(x+1)cos(x+1))dx$  is equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $\\begin{aligned} & I=\\int_{-2}^{0}x^{3}+3x^{2}+3x+3+(x+1)cos(x+1)dx \\\\ & I=\\int_{-2}^{0}[(x+1)^{3}+2+(x+1)cos(x+1)dx \\end{aligned}$ Putting, $x+1=t$ . Then $dx=dt$ , we get $\\begin{aligned} & I=\\int_{-1}^{1}[t^{3}+2+tcost]dt \\\\ & I=\\int_{-1}^{1}(2)u_{.}=[2t]_{-1}^{1}=2[1-(-1)]=4 \\end{aligned}$ As $t^{3}+tcost$ is an odd function.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $\\begin{aligned} &amp; I=\\int_{-2}^{0}x^{3}+3x^{2}+3x+3+(x+1)cos(x+1)dx \\\\ &amp; I=\\int_{-2}^{0}[(x+1)^{3}+2+(x+1)cos(x+1)dx \\end{aligned}$ </p>\n<p>Putting,  $x+1=t$ .</p>\n<p>Then  $dx=dt$ , we get</p>\n<p> $\\begin{aligned} &amp; I=\\int_{-1}^{1}[t^{3}+2+tcost]dt \\\\ &amp; I=\\int_{-1}^{1}(2)u_{.}=[2t]_{-1}^{1}=2[1-(-1)]=4 \\end{aligned}$ </p>\n<p>As  $t^{3}+tcost$  is an odd function.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{-2}^{0}(x^{3}+3x^{2}+3x+3+(x+1)cos(x+1))dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.363304"
+    },
+    {
+      "id": 8658,
+      "qid": "jaoe38c1locq509c",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-20leftx33-x23-x3x1-cos-x1right-kcet-mathematics-complex-numbers-dvspslbembo2fcsa",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx$ is equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx$  is equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi^{2}/4$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi^{2}/4$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi/2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi/2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi^{2}/2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi^{2}/2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi/4$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi/4$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx$ .... (i) Using property $I=\\int_{0}^{\\pi}f(x)dx$ $=\\int_{0}^{\\pi}f(0+\\pi-x)dx\\text{.}$ Then, $I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tan(\\pi-x)}{sec(\\pi-x)cosec(\\pi-x)}dx$ $I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tanx}{secxcosecx}dx$ ..... (ii) On adding Eqs. (i) and (ii), we get $\\begin{aligned} & 2I=\\int_{0}^{\\pi}\\frac{tanx(x+\\pi-x)}{secx \\cdot cosecx}dx \\\\ & 2I=\\int_{0}^{\\pi}\\frac{\\pi tanx}{secxcosecx}dx \\\\ & 2I=\\pi\\int_{0}^{\\pi}sin^{2}xdx \\\\ & 2I=\\pi\\int_{0}^{\\pi}\\frac{1-cos2x}{2}dx \\\\ & 2I=\\pi[\\frac{x}{2}-\\frac{sin2x}{4}]_{0}^{\\pi} \\\\ & 2I=\\pi[\\frac{\\pi}{2}-0] \\\\ & I=\\frac{\\pi^{2}}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx$  .... (i)</p>\n<p>Using property  $I=\\int_{0}^{\\pi}f(x)dx$ </p>\n<p> $=\\int_{0}^{\\pi}f(0+\\pi-x)dx\\text{.}$ </p>\n<p>Then,  $I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tan(\\pi-x)}{sec(\\pi-x)cosec(\\pi-x)}dx$ </p>\n<p> $I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tanx}{secxcosecx}dx$  ..... (ii)</p>\n<p>On adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; 2I=\\int_{0}^{\\pi}\\frac{tanx(x+\\pi-x)}{secx \\cdot cosecx}dx \\\\ &amp; 2I=\\int_{0}^{\\pi}\\frac{\\pi tanx}{secxcosecx}dx \\\\ &amp; 2I=\\pi\\int_{0}^{\\pi}sin^{2}xdx \\\\ &amp; 2I=\\pi\\int_{0}^{\\pi}\\frac{1-cos2x}{2}dx \\\\ &amp; 2I=\\pi[\\frac{x}{2}-\\frac{sin2x}{4}]_{0}^{\\pi} \\\\ &amp; 2I=\\pi[\\frac{\\pi}{2}-0] \\\\ &amp; I=\\frac{\\pi^{2}}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx",
+        "I=\\int_{0}^{\\pi}\\frac{xtanx}{secx \\cdot cosecx}dx",
+        "I=\\int_{0}^{\\pi}f(x)dx",
+        "=\\int_{0}^{\\pi}f(0+\\pi-x)dx\\text{.}",
+        "I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tan(\\pi-x)}{sec(\\pi-x)cosec(\\pi-x)}dx",
+        "I=\\int_{0}^{\\pi}\\frac{(\\pi-x)tanx}{secxcosecx}dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.395652"
+    },
+    {
+      "id": 8653,
+      "qid": "jaoe38c1locpnlmf",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-log-leftfrac1x-1right-d-x-isp-kcet-mathematics-complex-numbers-jhmmr2gzlqwhzvdk",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx\\text{is equals to :}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx\\text{is equals to :}$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx$ ..... (i) Using property $\\int_{0}^{a}f(x)dx=\\int_{0}^{a}f(0+a-x)dx$ $\\begin{aligned} & I=\\int_{2}^{8}5^{\\sqrt{10-(2+8-x)}} \\\\ & I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-10+x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{10-10+x}}} \\\\ & I=\\int_{2}^{8}\\frac{5^{\\sqrt{x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}}\\text{.... (ii)} \\end{aligned}$ Adding Eqs. (i) and (ii), we get $\\begin{aligned} & 2I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx \\\\ & 2I=\\int_{2}^{8}dx \\\\ & I=\\frac{1}{2}[x]_{2}^{8}=\\frac{1}{2} \\times 6=3 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx$  ..... (i)</p>\n<p>Using property  $\\int_{0}^{a}f(x)dx=\\int_{0}^{a}f(0+a-x)dx$ </p>\n<p> $\\begin{aligned} &amp; I=\\int_{2}^{8}5^{\\sqrt{10-(2+8-x)}} \\\\ &amp; I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-10+x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{10-10+x}}} \\\\ &amp; I=\\int_{2}^{8}\\frac{5^{\\sqrt{x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}}\\text{.... (ii)} \\end{aligned}$ </p>\n<p>Adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} &amp; 2I=\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx \\\\ &amp; 2I=\\int_{2}^{8}dx \\\\ &amp; I=\\frac{1}{2}[x]_{2}^{8}=\\frac{1}{2} \\times 6=3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.031199"
+    },
+    {
+      "id": 8666,
+      "qid": "jaoe38c1ls1twka4",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-fracx-ex2x3-d-x-is-equal-top-kcet-mathematics-complex-numbers-5w7rwzuzfac4skap",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{1}\\frac{xe^{x}}{(2+x)^{3}}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{1}\\frac{xe^{x}}{(2+x)^{3}}dx$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{27} \\cdot e-\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{27} \\cdot e-\\frac{1}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{27} \\cdot e+\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{27} \\cdot e+\\frac{1}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{9} \\cdot e+\\frac{1}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{9} \\cdot e+\\frac{1}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{9} \\cdot e-\\frac{1}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{9} \\cdot e-\\frac{1}{4}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I=\\int_{0}^{1}\\frac{xe^{x}}{(2+x)^{3}}dx=\\int_{0}^{1}e^{x}[\\frac{(2+x)-2}{(2+x)^{3}}]dx \\\\ =\\int_{0}^{1}e^{x}[\\frac{1}{(2+x)^{2}}-\\frac{2}{(2+x)^{3}}]dx \\end{aligned}$ Here, $\\frac{1}{(2+x)^{2}}=f(x)$ and $\\frac{-2}{(2+x)^{3}}=f^{'}(x)$ We know, $\\int e^{x}[f(x)+f^{'}(x)]dx=e^{x}f(x)+c$ $I=[e^{x} \\cdot \\frac{1}{(2+x)^{2}}]_{0}^{1}=\\frac{e^{x}}{(2+1)^{2}}-\\frac{e^{0}}{(2+0)^{2}}=\\frac{e}{9}-\\frac{1}{4}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I=\\int_{0}^{1}\\frac{xe^{x}}{(2+x)^{3}}dx=\\int_{0}^{1}e^{x}[\\frac{(2+x)-2}{(2+x)^{3}}]dx \\\\ =\\int_{0}^{1}e^{x}[\\frac{1}{(2+x)^{2}}-\\frac{2}{(2+x)^{3}}]dx \\end{aligned}$ </p>\n<p>Here,  $\\frac{1}{(2+x)^{2}}=f(x)$  and  $\\frac{-2}{(2+x)^{3}}=f^{'}(x)$ </p>\n<p>We know,  $\\int e^{x}[f(x)+f^{'}(x)]dx=e^{x}f(x)+c$ </p>\n<p> $I=[e^{x} \\cdot \\frac{1}{(2+x)^{2}}]_{0}^{1}=\\frac{e^{x}}{(2+1)^{2}}-\\frac{e^{0}}{(2+0)^{2}}=\\frac{e}{9}-\\frac{1}{4}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{1}\\frac{xe^{x}}{(2+x)^{3}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.836236"
+    },
+    {
+      "id": 8669,
+      "qid": "jaoe38c1ls1v9plt",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-fracx-ex2x3-d-x-is-equal-top-kcet-mathematics-complex-numbers-5w7rwzuzfac4skap",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Evaluate $\\int_{2}^{3}x^{2}dx$ as the limit of a sum",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Evaluate  $\\int_{2}^{3}x^{2}dx$  as the limit of a sum</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{72}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{72}{6}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{53}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{53}{9}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{25}{7}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{25}{7}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{19}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{19}{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int_{2}^{3}x^{2}dx$ $I=\\int_{2}^{3}x^{2}dx=\\int_{2}^{3}f(x)dx$ , where $f(x)=x^{2}$ $\\begin{aligned} & \\text{Also,}a=2,b=3 \\\\ & \\begin{aligned} \\underset{ℎ \\rightarrow 0}{lim}ℎ[f(2)+f(2+ℎ)+f(2+2ℎ) \\\\ +\\dots+f(2+(n-1)ℎ)] \\end{aligned} \\\\ & \\text{where,}nℎ=b-a=3-2=1 \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}+(2+ℎ)^{2}+(2+2ℎ)^{2}+\\dots.+(2+(n-1)ℎ)^{2}] \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}+(2^{2}+ℎ^{2}+4ℎ)+(2^{2}+2^{2}ℎ^{2}+8ℎ) \\\\ & +\\dots+(2^{2}+(n-1)^{2}ℎ^{2}+4(n-1)ℎ)] \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}ℎ+ℎ^{2}(1^{2}+2^{2}+\\dots..+(n-1)^{2}) \\\\ & +4ℎ(1+2+\\dots+(n-1))] \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}[4nℎ+\\frac{ℎ^{3}(n-1)n(2(n-1)+1)}{6}+4ℎ^{2}\\frac{(n-1)ℎ}{2}] \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}[4nℎ+\\frac{(nℎ-ℎ)(nℎ)(2nℎ-ℎ)}{6}+2(nℎ-ℎ)(nℎ)] \\\\ & =\\underset{ℎ \\rightarrow 0}{lim}[4 \\times 1+\\frac{(1-ℎ) \\cdot 1(2-ℎ)}{6}+2(1-ℎ) \\cdot 1] \\\\ & =4+\\frac{2}{6}+2=6+\\frac{1}{3}=\\frac{19}{3} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int_{2}^{3}x^{2}dx$ </p>\n<p> $I=\\int_{2}^{3}x^{2}dx=\\int_{2}^{3}f(x)dx$ , where  $f(x)=x^{2}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Also,}a=2,b=3 \\\\ &amp; \\begin{aligned} \\underset{ℎ \\rightarrow 0}{lim}ℎ[f(2)+f(2+ℎ)+f(2+2ℎ) \\\\ +\\dots+f(2+(n-1)ℎ)] \\end{aligned} \\\\ &amp; \\text{where,}nℎ=b-a=3-2=1 \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}+(2+ℎ)^{2}+(2+2ℎ)^{2}+\\dots.+(2+(n-1)ℎ)^{2}] \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}+(2^{2}+ℎ^{2}+4ℎ)+(2^{2}+2^{2}ℎ^{2}+8ℎ) \\\\ &amp; +\\dots+(2^{2}+(n-1)^{2}ℎ^{2}+4(n-1)ℎ)] \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}ℎ[2^{2}ℎ+ℎ^{2}(1^{2}+2^{2}+\\dots..+(n-1)^{2}) \\\\ &amp; +4ℎ(1+2+\\dots+(n-1))] \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}[4nℎ+\\frac{ℎ^{3}(n-1)n(2(n-1)+1)}{6}+4ℎ^{2}\\frac{(n-1)ℎ}{2}] \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}[4nℎ+\\frac{(nℎ-ℎ)(nℎ)(2nℎ-ℎ)}{6}+2(nℎ-ℎ)(nℎ)] \\\\ &amp; =\\underset{ℎ \\rightarrow 0}{lim}[4 \\times 1+\\frac{(1-ℎ) \\cdot 1(2-ℎ)}{6}+2(1-ℎ) \\cdot 1] \\\\ &amp; =4+\\frac{2}{6}+2=6+\\frac{1}{3}=\\frac{19}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{2}^{3}x^{2}dx",
+        "I=\\int_{2}^{3}x^{2}dx",
+        "I=\\int_{2}^{3}x^{2}dx=\\int_{2}^{3}f(x)dx",
+        "f(x)=x^{2}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.884731"
+    },
+    {
+      "id": 8661,
+      "qid": "jaoe38c1ls1t7ya0",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-20leftx33-x23-x3x1-cos-x1right-kcet-mathematics-complex-numbers-dvspslbembo2fcsa",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $[x]$ is the greatest integer function not greater than $x$ , then $\\int_{0}^{8}[x]dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $[x]$  is the greatest integer function not greater than  $x$ , then  $\\int_{0}^{8}[x]dx$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "28",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->28<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "30",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->30<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "29",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->29<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "20",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->20<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Let}I=\\int_{0}^{8}[x]dx \\\\ & I=\\int_{0}^{1}[x]dx+\\int_{1}^{2}[x]dx+\\int_{2}^{3}[x]dx+\\int_{3}^{4}[x]dx+\\int_{4}^{5}[x]dx+\\int_{5}^{6}[x]dx+\\int_{6}^{7}[x]dx+\\int_{7}^{8}[x]dx \\\\ & =\\int_{0}^{1}0dx+\\int_{1}^{2}1dx+\\int_{2}^{3}2dx+\\int_{3}^{4}3dx+\\int_{4}^{5}4dx+\\int_{5}^{6}5dx+\\int_{6}^{7}6dx+\\int_{7}^{8}7dx \\\\ & =0+1[x]_{1}^{2}+2[x]_{2}^{3}+3[x]_{3}^{4}+4[x]_{4}^{5}+5[x]_{5}^{6}+6[x]_{6}^{7}+7[x]_{7}^{8} \\\\ & =0+1(2-1)+2(3-2)+3(4-3)+4(5-4)+5(6-5)+6(7-6)+7(8-7) \\\\ & =1+2+3+4+5+6+7 \\\\ & =\\frac{7 \\cdot (7+1)}{2}=\\frac{7 \\cdot 8}{2}=7 \\cdot 4=28 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int_{0}^{8}[x]dx \\\\ &amp; I=\\int_{0}^{1}[x]dx+\\int_{1}^{2}[x]dx+\\int_{2}^{3}[x]dx+\\int_{3}^{4}[x]dx+\\int_{4}^{5}[x]dx+\\int_{5}^{6}[x]dx+\\int_{6}^{7}[x]dx+\\int_{7}^{8}[x]dx \\\\ &amp; =\\int_{0}^{1}0dx+\\int_{1}^{2}1dx+\\int_{2}^{3}2dx+\\int_{3}^{4}3dx+\\int_{4}^{5}4dx+\\int_{5}^{6}5dx+\\int_{6}^{7}6dx+\\int_{7}^{8}7dx \\\\ &amp; =0+1[x]_{1}^{2}+2[x]_{2}^{3}+3[x]_{3}^{4}+4[x]_{4}^{5}+5[x]_{5}^{6}+6[x]_{6}^{7}+7[x]_{7}^{8} \\\\ &amp; =0+1(2-1)+2(3-2)+3(4-3)+4(5-4)+5(6-5)+6(7-6)+7(8-7) \\\\ &amp; =1+2+3+4+5+6+7 \\\\ &amp; =\\frac{7 \\cdot (7+1)}{2}=\\frac{7 \\cdot 8}{2}=7 \\cdot 4=28 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.439873"
+    },
+    {
+      "id": 8671,
+      "qid": "jaoe38c1ls1vjo3f",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-fracx-ex2x3-d-x-is-equal-top-kcet-mathematics-complex-numbers-5w7rwzuzfac4skap",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{\\pi/2}\\frac{cosxsinx}{1+sinx}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{\\pi/2}\\frac{cosxsinx}{1+sinx}dx$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log2-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log2-1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$1-log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1-log2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I & =\\int_{0}^{\\pi/2}\\frac{cosxsinx}{1+sinx}dx \\\\ & =\\int_{0}^{\\pi/2}\\frac{cosx(1+sinx-1)}{1+sinx}dx \\\\ I & =\\int_{0}^{\\pi/2}(\\frac{cosx(1+sinx)}{1+sinx}-\\frac{cosx}{1+sinx})dx \\end{aligned}$ $=\\int_{0}^{\\pi/2}cosxdx-\\int_{0}^{\\pi/2}\\frac{cosx}{1+sinx}dx=[sinx]_{0}^{\\pi/2}-I_{1}\\text{.... (i)}$ $I_{1}=\\int_{0}^{\\pi/2}\\frac{cosx}{1+sinx}dx$ Let $1+sinx=t$ $\\begin{aligned} \\Rightarrow cosxdx & =dt \\\\ I_{1}=\\int_{0}^{\\pi/2}\\frac{dt}{t}=[logt]_{0}^{\\pi/2}=[log(1+sinx)]_{0}^{\\pi/2} \\\\ =log(1+1)-log(1+0)=log2 \\end{aligned}$ Now, from Eq. (i), we have $I=[1-0]-log2=1-log2$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int_{0}^{\\pi/2}\\frac{cosxsinx}{1+sinx}dx \\\\ &amp; =\\int_{0}^{\\pi/2}\\frac{cosx(1+sinx-1)}{1+sinx}dx \\\\ I &amp; =\\int_{0}^{\\pi/2}(\\frac{cosx(1+sinx)}{1+sinx}-\\frac{cosx}{1+sinx})dx \\end{aligned}$ </p>\n<p> $=\\int_{0}^{\\pi/2}cosxdx-\\int_{0}^{\\pi/2}\\frac{cosx}{1+sinx}dx=[sinx]_{0}^{\\pi/2}-I_{1}\\text{.... (i)}$ </p>\n<p> $I_{1}=\\int_{0}^{\\pi/2}\\frac{cosx}{1+sinx}dx$ </p>\n<p>Let  $1+sinx=t$ </p>\n<p> $\\begin{aligned} \\Rightarrow cosxdx &amp; =dt \\\\ I_{1}=\\int_{0}^{\\pi/2}\\frac{dt}{t}=[logt]_{0}^{\\pi/2}=[log(1+sinx)]_{0}^{\\pi/2} \\\\ =log(1+1)-log(1+0)=log2 \\end{aligned}$ </p>\n<p>Now, from Eq. (i), we have</p>\n<p> $I=[1-0]-log2=1-log2$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{\\pi/2}\\frac{cosxsinx}{1+sinx}dx",
+        "I_{1}=\\int_{0}^{\\pi/2}\\frac{cosx}{1+sinx}dx",
+        "1+sinx=t"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.917169"
+    },
+    {
+      "id": 8663,
+      "qid": "jaoe38c1ls1th4vu",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-20leftx33-x23-x3x1-cos-x1right-kcet-mathematics-complex-numbers-dvspslbembo2fcsa",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{\\pi/2}\\sqrt{sin\\theta}cos^{3}\\theta d\\theta$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{\\pi/2}\\sqrt{sin\\theta}cos^{3}\\theta d\\theta$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{8}{23}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{23}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{23}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{23}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{8}{21}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{21}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{21}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{21}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int_{0}^{\\pi/2}\\sqrt{sin\\theta} \\cdot cos^{3}\\theta d\\theta$ Let $sin\\theta=t \\Rightarrow cos\\theta d\\theta=dt$ When $\\theta=0 \\Rightarrow t=0$ $\\begin{aligned} \\text{When}\\theta & =\\frac{\\pi}{2} \\Rightarrow t=1 \\\\ I & =\\int_{0}^{1}\\sqrt{t}(1-t^{2})dt=\\int_{0}^{1}(t^{1/2}-t^{5/2}) \\cdot dt \\\\ & =[\\frac{t^{\\frac{3}{2}}}{\\frac{3}{2}}]_{0}^{1}-[\\frac{\\frac{7}{2}}{\\frac{7}{2}}]_{0}^{1}=\\frac{2}{3}[1-0]-\\frac{2}{7}[1-0] \\\\ & =\\frac{2}{3}-\\frac{2}{7}=\\frac{14-6}{21}=\\frac{8}{21} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int_{0}^{\\pi/2}\\sqrt{sin\\theta} \\cdot cos^{3}\\theta d\\theta$ </p>\n<p>Let  $sin\\theta=t \\Rightarrow cos\\theta d\\theta=dt$ </p>\n<p>When  $\\theta=0 \\Rightarrow t=0$ </p>\n<p> $\\begin{aligned} \\text{When}\\theta &amp; =\\frac{\\pi}{2} \\Rightarrow t=1 \\\\ I &amp; =\\int_{0}^{1}\\sqrt{t}(1-t^{2})dt=\\int_{0}^{1}(t^{1/2}-t^{5/2}) \\cdot dt \\\\ &amp; =[\\frac{t^{\\frac{3}{2}}}{\\frac{3}{2}}]_{0}^{1}-[\\frac{\\frac{7}{2}}{\\frac{7}{2}}]_{0}^{1}=\\frac{2}{3}[1-0]-\\frac{2}{7}[1-0] \\\\ &amp; =\\frac{2}{3}-\\frac{2}{7}=\\frac{14-6}{21}=\\frac{8}{21} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{\\pi/2}\\sqrt{sin\\theta}cos^{3}\\theta d\\theta",
+        "I=\\int_{0}^{\\pi/2}\\sqrt{sin\\theta} \\cdot cos^{3}\\theta d\\theta",
+        "sin\\theta=t \\Rightarrow cos\\theta d\\theta=dt",
+        "\\theta=0 \\Rightarrow t=0"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.487911"
+    },
+    {
+      "id": 8676,
+      "qid": "ltd1aa8p",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int04042-fracsqrtx-d-xsqrtx-kcet-mathematics-complex-numbers-t0bllsce1225asmt",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int_{0}^{4042}\\frac{\\sqrt{x}dx}{\\sqrt{x}+\\sqrt{4042-x}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int_{0}^{4042}\\frac{\\sqrt{x}dx}{\\sqrt{x}+\\sqrt{4042-x}}$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4042",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4042<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2021",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2021<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "8084",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->8084<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "1010",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1010<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int_{0}^{4042}\\frac{\\sqrt{x}}{\\sqrt{x}+\\sqrt{4042-x}}dx\\text{.... (i)}$ Using the property, $\\int_{0}^{a}f(x)dx=\\int_{0}^{a}f(a-x)dx$ $I=\\int_{0}^{4042}\\frac{\\sqrt{4042-x}}{\\sqrt{4042-x}+\\sqrt{x}}\\text{..... (ii)}$ Adding Eqs. (i) and (ii), $\\begin{aligned} & 2I=\\int_{0}^{4042}\\frac{\\sqrt{x}+\\sqrt{4042-x}}{\\sqrt{4042-x}+\\sqrt{x}}dx \\\\ \\Rightarrow & 2I=\\int_{0}^{4042}Idx \\\\ \\Rightarrow & 2I=4042 \\\\ \\Rightarrow & I=2021 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int_{0}^{4042}\\frac{\\sqrt{x}}{\\sqrt{x}+\\sqrt{4042-x}}dx\\text{.... (i)}$ </p>\n<p>Using the property,  $\\int_{0}^{a}f(x)dx=\\int_{0}^{a}f(a-x)dx$ </p>\n<p> $I=\\int_{0}^{4042}\\frac{\\sqrt{4042-x}}{\\sqrt{4042-x}+\\sqrt{x}}\\text{..... (ii)}$ </p>\n<p>Adding Eqs. (i) and (ii),</p>\n<p> $\\begin{aligned} &amp; 2I=\\int_{0}^{4042}\\frac{\\sqrt{x}+\\sqrt{4042-x}}{\\sqrt{4042-x}+\\sqrt{x}}dx \\\\ \\Rightarrow &amp; 2I=\\int_{0}^{4042}Idx \\\\ \\Rightarrow &amp; 2I=4042 \\\\ \\Rightarrow &amp; I=2021 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{4042}\\frac{\\sqrt{x}dx}{\\sqrt{x}+\\sqrt{4042-x}}",
+        "I=\\int_{0}^{4042}\\frac{\\sqrt{x}}{\\sqrt{x}+\\sqrt{4042-x}}dx\\text{.... (i)}",
+        "\\int_{0}^{a}f(x)dx=\\int_{0}^{a}f(a-x)dx",
+        "I=\\int_{0}^{4042}\\frac{\\sqrt{4042-x}}{\\sqrt{4042-x}+\\sqrt{x}}\\text{..... (ii)}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.216790"
+    },
+    {
+      "id": 8673,
+      "qid": "ltd1cmls",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint01-fracx-ex2x3-d-x-is-equal-top-kcet-mathematics-complex-numbers-5w7rwzuzfac4skap",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $I_{n}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx$ , where $n$ is positive integer, then $I_{10}+I_{8}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $I_{n}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx$ , where  $n$  is positive integer, then  $I_{10}+I_{8}$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->9<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{7}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{7}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{9}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$I_{n}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx\\text{.... (i)}$ $I_{n+2}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n+2}xdx\\text{.... (ii)}$ Adding Eqs. (i) and (ii), $\\begin{aligned} I_{n}+I_{n+2} & =\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx+\\int_{0}^{\\frac{\\pi}{4}}tan^{n+2}xdx \\\\ & =\\int_{0}^{\\frac{\\pi}{4}}tan^{n}x \\cdot sec^{2}xdx \\\\ & =[\\frac{tan^{n+1}x}{n+1}]_{0}^{\\frac{\\pi}{4}}=\\frac{1}{n+1} \\end{aligned}$ Thus, $I_{n}+I_{n+2}=\\frac{1}{(n+1)}$ Substitute 8 for $x$ . $I_{8}+I_{10}=\\frac{1}{9}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $I_{n}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx\\text{.... (i)}$ </p>\n<p> $I_{n+2}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n+2}xdx\\text{.... (ii)}$ </p>\n<p>Adding Eqs. (i) and (ii),</p>\n<p> $\\begin{aligned} I_{n}+I_{n+2} &amp; =\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx+\\int_{0}^{\\frac{\\pi}{4}}tan^{n+2}xdx \\\\ &amp; =\\int_{0}^{\\frac{\\pi}{4}}tan^{n}x \\cdot sec^{2}xdx \\\\ &amp; =[\\frac{tan^{n+1}x}{n+1}]_{0}^{\\frac{\\pi}{4}}=\\frac{1}{n+1} \\end{aligned}$ </p>\n<p>Thus,  $I_{n}+I_{n+2}=\\frac{1}{(n+1)}$ </p>\n<p>Substitute 8 for  $x$ .</p>\n<p> $I_{8}+I_{10}=\\frac{1}{9}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "I_{n}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n}xdx",
+        "I_{n+2}=\\int_{0}^{\\frac{\\pi}{4}}tan^{n+2}xdx\\text{.... (ii)}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:28.950967"
+    },
+    {
+      "id": 8678,
+      "qid": "ltj8xnei",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int04042-fracsqrtx-d-xsqrtx-kcet-mathematics-complex-numbers-t0bllsce1225asmt",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int_{-1/2}^{1/2}cos^{-1}xdx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int_{-1/2}^{1/2}cos^{-1}xdx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi^{2}}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi^{2}}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\int_{-1/2}^{1/2}cos^{-1}xdx$ $=\\int_{-1/2}^{1/2}(\\pi/2-sin^{-1}x)dx$ $\\begin{aligned} & =\\int_{-1/2}^{1/2}\\pi/2dx-\\int_{-1/2}^{1/2}sin^{-1}xdx \\\\ & =\\frac{\\pi}{2}\\int_{-1/2}^{1/2}dx-0( \\because sin^{-1}x\\text{is odd function}) \\\\ & =\\frac{\\pi}{2}[x]_{-1/2}^{1/2}=\\frac{\\pi}{2}[\\frac{1}{2}-(-1/2)]=\\frac{\\pi}{2}(1)=\\frac{\\pi}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\int_{-1/2}^{1/2}cos^{-1}xdx$ </p>\n<p> $=\\int_{-1/2}^{1/2}(\\pi/2-sin^{-1}x)dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int_{-1/2}^{1/2}\\pi/2dx-\\int_{-1/2}^{1/2}sin^{-1}xdx \\\\ &amp; =\\frac{\\pi}{2}\\int_{-1/2}^{1/2}dx-0( \\because sin^{-1}x\\text{is odd function}) \\\\ &amp; =\\frac{\\pi}{2}[x]_{-1/2}^{1/2}=\\frac{\\pi}{2}[\\frac{1}{2}-(-1/2)]=\\frac{\\pi}{2}(1)=\\frac{\\pi}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{-1/2}^{1/2}cos^{-1}xdx",
+        "=\\int_{-1/2}^{1/2}(\\pi/2-sin^{-1}x)dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.241708"
+    },
+    {
+      "id": 8680,
+      "qid": "ltj8wntp",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int04042-fracsqrtx-d-xsqrtx-kcet-mathematics-complex-numbers-t0bllsce1225asmt",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Find the value of $\\int_{0}^{1}\\frac{log(1+x)}{1+x^{2}}dx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Find the value of  $\\int_{0}^{1}\\frac{log(1+x)}{1+x^{2}}dx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{2}log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{4}log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{4}log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{8}log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{8}log2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Let}I=\\int_{0}^{1}\\frac{log(1+x)}{1+x^{2}}dx \\\\ & \\text{Put}x=tan\\theta \\\\ & \\Rightarrow dx=sec^{2}\\theta d\\theta \\\\ & \\text{When}x=0,\\theta=0 \\\\ & \\text{and when}x=1,\\theta=\\pi/4 \\end{aligned}$ $\\begin{aligned} & \\therefore \\int_{0}^{\\pi/4}\\frac{log(1+tan\\theta)}{1+tan^{2}\\theta}(sec^{2}\\theta)d\\theta \\\\ & I=\\int_{0}^{\\pi/4}log(1+tan\\theta)d\\theta\\text{.... (i)} \\\\ & =\\int_{0}^{\\pi/4}log[1+tan(\\frac{\\pi}{4}-\\theta)]d\\theta \\\\ & =\\int_{0}^{\\pi/4}log[1+\\frac{tan\\pi/4-tan\\theta}{1+tan\\pi/4tan\\theta}]d\\theta \\\\ & =\\int_{0}^{\\pi/4}log(1+\\frac{1-tan\\theta}{1+tan\\theta})d\\theta \\\\ & =\\int_{0}^{\\pi/4}log(\\frac{2}{1+tan\\theta})d\\theta \\end{aligned}$ $\\int_{0}^{\\pi/4}[log2-log1+tan\\theta)]d\\theta\\text{.... (ii)}$ On adding Eqs. (i) and (ii), we get $\\begin{aligned} 2I & =\\int_{0}^{\\pi/4}log2d\\theta \\\\ & =log2\\int_{0}^{\\pi/4}1d\\theta=log(\\theta)_{0}^{\\pi/4} \\\\ & =log(\\pi/4-0)=\\frac{\\pi}{4}log2 \\\\ \\Rightarrow I & =\\frac{\\pi}{8}log2 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int_{0}^{1}\\frac{log(1+x)}{1+x^{2}}dx \\\\ &amp; \\text{Put}x=tan\\theta \\\\ &amp; \\Rightarrow dx=sec^{2}\\theta d\\theta \\\\ &amp; \\text{When}x=0,\\theta=0 \\\\ &amp; \\text{and when}x=1,\\theta=\\pi/4 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\int_{0}^{\\pi/4}\\frac{log(1+tan\\theta)}{1+tan^{2}\\theta}(sec^{2}\\theta)d\\theta \\\\ &amp; I=\\int_{0}^{\\pi/4}log(1+tan\\theta)d\\theta\\text{.... (i)} \\\\ &amp; =\\int_{0}^{\\pi/4}log[1+tan(\\frac{\\pi}{4}-\\theta)]d\\theta \\\\ &amp; =\\int_{0}^{\\pi/4}log[1+\\frac{tan\\pi/4-tan\\theta}{1+tan\\pi/4tan\\theta}]d\\theta \\\\ &amp; =\\int_{0}^{\\pi/4}log(1+\\frac{1-tan\\theta}{1+tan\\theta})d\\theta \\\\ &amp; =\\int_{0}^{\\pi/4}log(\\frac{2}{1+tan\\theta})d\\theta \\end{aligned}$ </p>\n<p> $\\int_{0}^{\\pi/4}[log2-log1+tan\\theta)]d\\theta\\text{.... (ii)}$ </p>\n<p>On adding Eqs. (i) and (ii), we get</p>\n<p> $\\begin{aligned} 2I &amp; =\\int_{0}^{\\pi/4}log2d\\theta \\\\ &amp; =log2\\int_{0}^{\\pi/4}1d\\theta=log(\\theta)_{0}^{\\pi/4} \\\\ &amp; =log(\\pi/4-0)=\\frac{\\pi}{4}log2 \\\\ \\Rightarrow I &amp; =\\frac{\\pi}{8}log2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{1}\\frac{log(1+x)}{1+x^{2}}dx",
+        "\\int_{0}^{\\pi/4}[log2-log1+tan\\theta)]d\\theta\\text{.... (ii)}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.257555"
+    },
+    {
+      "id": 8681,
+      "qid": "ltj8xyuz",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int04042-fracsqrtx-d-xsqrtx-kcet-mathematics-complex-numbers-t0bllsce1225asmt",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int_{-\\pi/2}^{\\pi/2}\\frac{cosx}{1+e^{x}}dx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int_{-\\pi/2}^{\\pi/2}\\frac{cosx}{1+e^{x}}dx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-$ 2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-$ 2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\int_{-\\pi/2}^{\\pi/2}\\frac{cosx}{1+e^{x}}dx$ $\\begin{aligned} & =\\int_{0}^{\\pi/2}(\\frac{cosx}{1+e^{x}}+\\frac{cos(-x)}{(1+e^{-x})})dx \\\\ & [ \\because \\int_{-a}^{a}f(x)dx=\\int_{0}^{a}(f(x)+f(-x))dx] \\\\ & =\\int_{0}^{\\pi/2}(\\frac{cosx}{1+e^{x}}+\\frac{e^{x}cosx}{1+e^{x}})dx \\\\ & =\\int_{0}^{\\pi/2}cosx(\\frac{1+e^{x}}{1+e^{x}})dx \\\\ & =\\int_{0}^{\\pi/2}cosxdx=(sinx)_{0}^{\\pi/2} \\\\ & =(sin\\frac{\\pi}{2}-sin0)=1 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\int_{-\\pi/2}^{\\pi/2}\\frac{cosx}{1+e^{x}}dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int_{0}^{\\pi/2}(\\frac{cosx}{1+e^{x}}+\\frac{cos(-x)}{(1+e^{-x})})dx \\\\ &amp; [ \\because \\int_{-a}^{a}f(x)dx=\\int_{0}^{a}(f(x)+f(-x))dx] \\\\ &amp; =\\int_{0}^{\\pi/2}(\\frac{cosx}{1+e^{x}}+\\frac{e^{x}cosx}{1+e^{x}})dx \\\\ &amp; =\\int_{0}^{\\pi/2}cosx(\\frac{1+e^{x}}{1+e^{x}})dx \\\\ &amp; =\\int_{0}^{\\pi/2}cosxdx=(sinx)_{0}^{\\pi/2} \\\\ &amp; =(sin\\frac{\\pi}{2}-sin0)=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{-\\pi/2}^{\\pi/2}\\frac{cosx}{1+e^{x}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.314571"
+    },
+    {
+      "id": 8684,
+      "qid": "ltw4ptgw",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pintlimits-33-cot--1-x-d-xp-kcet-mathematics-complex-numbers-ijf4bnl5rtshobjx",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-3}^{3}cot^{-1}xdx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{-3}^{3}cot^{-1}xdx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$6\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $6\\pi$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$3\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3\\pi$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int_{-3}^{3}cot^{-1}xdx=\\int_{-3}^{3}(\\frac{\\pi}{2}-tan^{-1}x)dx \\\\ & =\\int_{-3}^{3}\\frac{\\pi}{2}dx-\\int_{-3}^{3}tan^{-1}xdx=\\frac{\\pi}{2}[x]_{-3}^{3}-0 \\\\ & ( \\because \\int_{-a}^{a}f(x)dx=0,\\text{if}f\\text{is odd functions)} \\\\ & =\\frac{\\pi}{2}[3+3]=\\frac{\\pi}{2} \\times 6=3\\pi \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{-3}^{3}cot^{-1}xdx=\\int_{-3}^{3}(\\frac{\\pi}{2}-tan^{-1}x)dx \\\\ &amp; =\\int_{-3}^{3}\\frac{\\pi}{2}dx-\\int_{-3}^{3}tan^{-1}xdx=\\frac{\\pi}{2}[x]_{-3}^{3}-0 \\\\ &amp; ( \\because \\int_{-a}^{a}f(x)dx=0,\\text{if}f\\text{is odd functions)} \\\\ &amp; =\\frac{\\pi}{2}[3+3]=\\frac{\\pi}{2} \\times 6=3\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{-3}^{3}cot^{-1}xdx="
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.540581"
+    },
+    {
+      "id": 8686,
+      "qid": "ltw4ptk5",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pintlimits-33-cot--1-x-d-xp-kcet-mathematics-complex-numbers-ijf4bnl5rtshobjx",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{2}[x^{2}]dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{2}[x^{2}]dx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5-\\sqrt{2}+\\sqrt{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5-\\sqrt{2}+\\sqrt{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$5-\\sqrt{2}-\\sqrt{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5-\\sqrt{2}-\\sqrt{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-5-\\sqrt{2}-\\sqrt{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-5-\\sqrt{2}-\\sqrt{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$5+\\sqrt{2}-\\sqrt{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5+\\sqrt{2}-\\sqrt{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\int_{0}^{2}[x^{2}]dx=\\int_{0}^{1}[x^{2}]dx+\\int_{1}^{\\sqrt{2}}[x^{2}]dx+\\int_{\\sqrt{2}}^{\\sqrt{3}}[x^{2}]dx+\\int_{\\sqrt{3}}^{2}[x^{2}]dx$ $\\begin{aligned} & =\\int_{0}^{1}0dx+\\int_{1}^{\\sqrt{2}}1dx+\\int_{\\sqrt{2}}^{\\sqrt{3}}2dx+\\int_{\\sqrt{3}}^{2}3dx \\\\ & =[x]_{1}^{\\sqrt{2}}+[2x]_{\\sqrt{2}}^{\\sqrt{3}}+[3x]_{\\sqrt{3}}^{2} \\\\ & =(\\sqrt{2}-1)+(2\\sqrt{3}-2\\sqrt{2})+(6-3\\sqrt{3}) \\\\ & =5-\\sqrt{2}-\\sqrt{3} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{2}[x^{2}]dx=\\int_{0}^{1}[x^{2}]dx+\\int_{1}^{\\sqrt{2}}[x^{2}]dx+\\int_{\\sqrt{2}}^{\\sqrt{3}}[x^{2}]dx+\\int_{\\sqrt{3}}^{2}[x^{2}]dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int_{0}^{1}0dx+\\int_{1}^{\\sqrt{2}}1dx+\\int_{\\sqrt{2}}^{\\sqrt{3}}2dx+\\int_{\\sqrt{3}}^{2}3dx \\\\ &amp; =[x]_{1}^{\\sqrt{2}}+[2x]_{\\sqrt{2}}^{\\sqrt{3}}+[3x]_{\\sqrt{3}}^{2} \\\\ &amp; =(\\sqrt{2}-1)+(2\\sqrt{3}-2\\sqrt{2})+(6-3\\sqrt{3}) \\\\ &amp; =5-\\sqrt{2}-\\sqrt{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{2}[x^{2}]dx="
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.588627"
+    },
+    {
+      "id": 8688,
+      "qid": "ltw4ptl4",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pintlimits-33-cot--1-x-d-xp-kcet-mathematics-complex-numbers-ijf4bnl5rtshobjx",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{1}\\sqrt{\\frac{1+x}{1-x}}dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{1}\\sqrt{\\frac{1+x}{1-x}}dx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{2}-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}-1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{2}+1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}+1$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int_{0}^{1}\\sqrt{\\frac{1+x}{1-x}}dx=\\int_{0}^{1}\\frac{1+x}{\\sqrt{1-x^{2}}}dx \\\\ & =\\int_{0}^{1}\\frac{1}{\\sqrt{1-x^{2}}}dx+\\int_{0}^{1}\\frac{x}{\\sqrt{1-x^{2}}}dx \\\\ & =[sin^{-1}x]_{0}^{1}-\\frac{1}{2}\\int_{0}^{1}\\frac{-2x}{\\sqrt{1-x^{2}}}dx \\\\ & =(\\frac{\\pi}{2}-0)-\\frac{1}{2}\\int_{1}^{0}\\frac{dt}{\\sqrt{t}} \\end{aligned}$ $\\begin{aligned} & \\text{put}1-x^{2}=t \\Rightarrow -2xdx=dt\\text{at}x=0,t=1 \\\\ & \\text{and}x=1,t=0 \\\\ & =\\frac{\\pi}{2}+\\frac{1}{2}\\int_{0}^{1}t^{-1/2}dt \\\\ & =\\frac{\\pi}{2}+\\frac{1}{2}(\\frac{t^{1/2}}{1/2})_{0}^{1}=\\frac{\\pi}{2}+1 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int_{0}^{1}\\sqrt{\\frac{1+x}{1-x}}dx=\\int_{0}^{1}\\frac{1+x}{\\sqrt{1-x^{2}}}dx \\\\ &amp; =\\int_{0}^{1}\\frac{1}{\\sqrt{1-x^{2}}}dx+\\int_{0}^{1}\\frac{x}{\\sqrt{1-x^{2}}}dx \\\\ &amp; =[sin^{-1}x]_{0}^{1}-\\frac{1}{2}\\int_{0}^{1}\\frac{-2x}{\\sqrt{1-x^{2}}}dx \\\\ &amp; =(\\frac{\\pi}{2}-0)-\\frac{1}{2}\\int_{1}^{0}\\frac{dt}{\\sqrt{t}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{put}1-x^{2}=t \\Rightarrow -2xdx=dt\\text{at}x=0,t=1 \\\\ &amp; \\text{and}x=1,t=0 \\\\ &amp; =\\frac{\\pi}{2}+\\frac{1}{2}\\int_{0}^{1}t^{-1/2}dt \\\\ &amp; =\\frac{\\pi}{2}+\\frac{1}{2}(\\frac{t^{1/2}}{1/2})_{0}^{1}=\\frac{\\pi}{2}+1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{1}\\sqrt{\\frac{1+x}{1-x}}dx="
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.645343"
+    },
+    {
+      "id": 8693,
+      "qid": "m7isfr6q",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/-int01--2-fracd-xleft1x2right-sqrt1-x2-kcet-mathematics-complex-numbers-b24pvtgnacc0umm2",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{1/2}\\frac{dx}{(1+x^{2})\\sqrt{1-x^{2}}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{0}^{1/2}\\frac{dx}{(1+x^{2})\\sqrt{1-x^{2}}}$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{\\sqrt{2}}tan^{-1}\\sqrt{\\frac{2}{3}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}tan^{-1}\\sqrt{\\frac{2}{3}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{\\sqrt{2}}tan^{-1}(\\frac{3}{\\sqrt{2}})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{\\sqrt{2}}tan^{-1}(\\frac{3}{\\sqrt{2}})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{2}}{2}tan^{-1}(\\frac{3}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{2}}{2}tan^{-1}(\\frac{3}{2})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\sqrt{2}}{2}tan^{-1}(\\frac{\\sqrt{3}}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{2}}{2}tan^{-1}(\\frac{\\sqrt{3}}{2})$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{We have,}I=\\int_{0}^{1/2}\\frac{dx}{(1+x^{2})\\sqrt{1-x^{2}}} \\\\ & \\text{Put}x=sin\\theta \\Rightarrow dx=cos\\theta d\\theta \\\\ & x=0,\\theta=0,x=\\frac{1}{2},\\theta=\\frac{\\pi}{6} \\\\ & \\therefore I=\\int_{0}^{\\pi/6}\\frac{cos\\theta d\\theta}{(1+sin^{2}\\theta)cos\\theta} \\\\ & \\therefore I=\\int_{0}^{\\pi/6}\\frac{d\\theta}{1+sin^{2}\\theta} \\\\ & \\begin{aligned} \\because & I=\\frac{1}{2}\\int_{0}^{1/\\sqrt{3}}\\frac{dt}{(\\frac{1}{\\sqrt{2}})^{2}(+t^{2})} \\\\ \\Rightarrow & I=\\frac{1}{2}(\\sqrt{2}tan^{-1}\\sqrt{2}t)_{0}^{1/\\sqrt{3}} \\\\ \\Rightarrow & I=\\frac{1}{\\sqrt{2}}[tan^{-1}(\\frac{\\sqrt{2}}{\\sqrt{3}})-0] \\\\ \\Rightarrow & I=\\frac{1}{\\sqrt{2}}tan^{-1}(\\sqrt{\\frac{2}{3}}) \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; \\text{We have,}I=\\int_{0}^{1/2}\\frac{dx}{(1+x^{2})\\sqrt{1-x^{2}}} \\\\ &amp; \\text{Put}x=sin\\theta \\Rightarrow dx=cos\\theta d\\theta \\\\ &amp; x=0,\\theta=0,x=\\frac{1}{2},\\theta=\\frac{\\pi}{6} \\\\ &amp; \\therefore I=\\int_{0}^{\\pi/6}\\frac{cos\\theta d\\theta}{(1+sin^{2}\\theta)cos\\theta} \\\\ &amp; \\therefore I=\\int_{0}^{\\pi/6}\\frac{d\\theta}{1+sin^{2}\\theta} \\\\ &amp; \\begin{aligned} \\because &amp; I=\\frac{1}{2}\\int_{0}^{1/\\sqrt{3}}\\frac{dt}{(\\frac{1}{\\sqrt{2}})^{2}(+t^{2})} \\\\ \\Rightarrow &amp; I=\\frac{1}{2}(\\sqrt{2}tan^{-1}\\sqrt{2}t)_{0}^{1/\\sqrt{3}} \\\\ \\Rightarrow &amp; I=\\frac{1}{\\sqrt{2}}[tan^{-1}(\\frac{\\sqrt{2}}{\\sqrt{3}})-0] \\\\ \\Rightarrow &amp; I=\\frac{1}{\\sqrt{2}}tan^{-1}(\\sqrt{\\frac{2}{3}}) \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{0}^{1/2}\\frac{dx}{(1+x^{2})\\sqrt{1-x^{2}}}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.962657"
+    },
+    {
+      "id": 8694,
+      "qid": "m7isfjad",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/-int01--2-fracd-xleft1x2right-sqrt1-x2-kcet-mathematics-complex-numbers-b24pvtgnacc0umm2",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-2}^{2}|xcos\\pi x|dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{-2}^{2}|xcos\\pi x|dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{8}{\\pi}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{\\pi}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{\\pi}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{\\pi}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{\\pi}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{\\pi}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{\\pi}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\pi}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & . \\\\ & \\begin{aligned} & \\text{Let}I=\\int_{-2}^{2}|xcos\\pi x|dx \\\\ & \\begin{aligned} \\Rightarrow & I=2\\int_{0}^{2}|xcos\\pi x|dx \\end{aligned} \\\\ & \\begin{aligned} \\Rightarrow I=2[\\int_{0}^{1/2}xcos\\pi xdx-\\int_{1/2}^{3/2}xcos\\pi xdx \\\\ \\\\ +\\int_{3/2}^{2}xcos\\pi xdx \\end{aligned} \\\\ & \\begin{aligned} & \\Rightarrow I=2[[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{0}^{1/2}-[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{1/2}^{3/2} \\\\ & \\Rightarrow +[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{3/2}^{2}] \\\\ & I=2[(\\frac{1}{2\\pi}+0)-(0+\\frac{1}{\\pi^{2}})-{(\\frac{-3}{2\\pi}+0)-(\\frac{1}{2\\pi}+0)} \\\\ & \\Rightarrow I=2[\\frac{1}{2\\pi}-\\frac{1}{\\pi^{2}}+\\frac{3}{2\\pi}+\\frac{1}{2\\pi}+\\frac{1}{\\pi^{2}}+\\frac{3}{2\\pi}] \\\\ & \\Rightarrow I=\\frac{8}{\\pi} \\end{aligned} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; . \\\\ &amp; \\begin{aligned} &amp; \\text{Let}I=\\int_{-2}^{2}|xcos\\pi x|dx \\\\ &amp; \\begin{aligned} \\Rightarrow &amp; I=2\\int_{0}^{2}|xcos\\pi x|dx \\end{aligned} \\\\ &amp; \\begin{aligned} \\Rightarrow I=2[\\int_{0}^{1/2}xcos\\pi xdx-\\int_{1/2}^{3/2}xcos\\pi xdx \\\\ \\\\ +\\int_{3/2}^{2}xcos\\pi xdx \\end{aligned} \\\\ &amp; \\begin{aligned} &amp; \\Rightarrow I=2[[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{0}^{1/2}-[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{1/2}^{3/2} \\\\ &amp; \\Rightarrow +[\\frac{xsin\\pi x}{\\pi}+\\frac{cos\\pi x}{\\pi^{2}}]_{3/2}^{2}] \\\\ &amp; I=2[(\\frac{1}{2\\pi}+0)-(0+\\frac{1}{\\pi^{2}})-{(\\frac{-3}{2\\pi}+0)-(\\frac{1}{2\\pi}+0)} \\\\ &amp; \\Rightarrow I=2[\\frac{1}{2\\pi}-\\frac{1}{\\pi^{2}}+\\frac{3}{2\\pi}+\\frac{1}{2\\pi}+\\frac{1}{\\pi^{2}}+\\frac{3}{2\\pi}] \\\\ &amp; \\Rightarrow I=\\frac{8}{\\pi} \\end{aligned} \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{-2}^{2}|xcos\\pi x|dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.986063"
+    },
+    {
+      "id": 8690,
+      "qid": "m7isgzc7",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pintlimits-33-cot--1-x-d-xp-kcet-mathematics-complex-numbers-ijf4bnl5rtshobjx",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}}$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{4}-tan^{-1}(e)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{4}-tan^{-1}(e)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$tan^{-1}(e)-\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(e)-\\frac{\\pi}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$tan^{-1}(e)+\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(e)+\\frac{\\pi}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$tan^{-1}(e)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(e)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{We have,}I=\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}} \\\\ & \\Rightarrow I=\\int_{0}^{1}\\frac{e^{x}}{1+e^{2x}}dx \\\\ & \\text{put}e^{x}=t\\text{and}e^{x}dx=dt\\text{, where if} \\\\ & x=0,t=1\\text{and if}x=1,t=e \\\\ & \\therefore \\\\ & \\Rightarrow I=\\int_{1}^{e}\\frac{dt}{1+t^{2}} \\\\ & \\Rightarrow I=[tan^{-1}t]_{1}^{e} \\\\ & \\Rightarrow I=tan^{-1}e-tan^{-1}1 \\\\ & \\Rightarrow \\\\ & I=tan^{-1}e-\\frac{\\pi}{4} \\end{aligned}$ Divide by $cos^{2}\\theta$ , we get $\\begin{aligned} & I=\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{sec^{2}\\theta+tan^{2}\\theta} \\\\ & \\Rightarrow I=\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{1+2tan^{2}\\theta} \\\\ & \\Rightarrow I=\\frac{1}{2}\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{(\\frac{1}{\\sqrt{2}})^{2}+tan^{2}\\theta} \\\\ & \\text{Put}tan\\theta=t,sec^{2}\\theta d\\theta=dt \\\\ & \\theta=0,t=0\\theta=\\frac{\\pi}{6},t=\\frac{1}{\\sqrt{3}} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->\n<p> $\\begin{aligned} &amp; \\text{We have,}I=\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}} \\\\ &amp; \\Rightarrow I=\\int_{0}^{1}\\frac{e^{x}}{1+e^{2x}}dx \\\\ &amp; \\text{put}e^{x}=t\\text{and}e^{x}dx=dt\\text{, where if} \\\\ &amp; x=0,t=1\\text{and if}x=1,t=e \\\\ &amp; \\therefore \\\\ &amp; \\Rightarrow I=\\int_{1}^{e}\\frac{dt}{1+t^{2}} \\\\ &amp; \\Rightarrow I=[tan^{-1}t]_{1}^{e} \\\\ &amp; \\Rightarrow I=tan^{-1}e-tan^{-1}1 \\\\ &amp; \\Rightarrow \\\\ &amp; I=tan^{-1}e-\\frac{\\pi}{4} \\end{aligned}$ </p>\n<p>Divide by  $cos^{2}\\theta$ , we get</p>\n<p> $\\begin{aligned} &amp; I=\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{sec^{2}\\theta+tan^{2}\\theta} \\\\ &amp; \\Rightarrow I=\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{1+2tan^{2}\\theta} \\\\ &amp; \\Rightarrow I=\\frac{1}{2}\\int_{0}^{\\pi/6}\\frac{sec^{2}\\theta d\\theta}{(\\frac{1}{\\sqrt{2}})^{2}+tan^{2}\\theta} \\\\ &amp; \\text{Put}tan\\theta=t,sec^{2}\\theta d\\theta=dt \\\\ &amp; \\theta=0,t=0\\theta=\\frac{\\pi}{6},t=\\frac{1}{\\sqrt{3}} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}}"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:29.693070"
+    },
+    {
+      "id": 8697,
+      "qid": "m9durikk",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/p-int0pi--2-frac1a2-cdot-sin-2-xb2-cdo-kcet-mathematics-complex-numbers-ymwqvrihoha906gq",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{\\pi/2}\\frac{1}{a^{2} \\cdot sin^{2}x+b^{2} \\cdot cos^{2}x}dx$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{0}^{\\pi/2}\\frac{1}{a^{2} \\cdot sin^{2}x+b^{2} \\cdot cos^{2}x}dx$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{2ab}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2ab}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi b}{4a}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi b}{4a}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi a}{2b}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi a}{2b}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi a}{4b}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi a}{4b}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} I & =\\int_{0}^{\\pi/2}\\frac{1}{a^{2}sin^{2}x+b^{2}cos^{2}x}dx \\\\ & =\\int_{0}^{\\pi/2}\\frac{sec^{2}x}{a^{2}tan^{2}x+b^{2}}dx \\end{aligned}$ Put $tanx=t$ $\\Rightarrow sec^{2}xdx=dt$ When $x=0,t=tan0=0$ and $x=\\frac{\\pi}{2},t=tan\\frac{\\pi}{2}=\\infty$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} I &amp; =\\int_{0}^{\\pi/2}\\frac{1}{a^{2}sin^{2}x+b^{2}cos^{2}x}dx \\\\ &amp; =\\int_{0}^{\\pi/2}\\frac{sec^{2}x}{a^{2}tan^{2}x+b^{2}}dx \\end{aligned}$ </p>\n<p>Put  $tanx=t$ </p>\n<p> $\\Rightarrow sec^{2}xdx=dt$ </p>\n<p>When  $x=0,t=tan0=0$ </p>\n<p>and  $x=\\frac{\\pi}{2},t=tan\\frac{\\pi}{2}=\\infty$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{0}^{\\pi/2}\\frac{1}{a^{2} \\cdot sin^{2}x+b^{2} \\cdot cos^{2}x}dx",
+        "\\Rightarrow sec^{2}xdx=dt",
+        "x=0,t=tan0=0",
+        "x=\\frac{\\pi}{2},t=tan\\frac{\\pi}{2}=\\infty"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:30.238833"
+    },
+    {
+      "id": 8698,
+      "qid": "m9dur836",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/p-int0pi--2-frac1a2-cdot-sin-2-xb2-cdo-kcet-mathematics-complex-numbers-ymwqvrihoha906gq",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0.2}^{3.5}[x]dx$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{0.2}^{3.5}[x]dx$  is equal to :\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3.5\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 4\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "4.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 4.5\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 3<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Let}I=\\int_{0.2}^{3.5}[x]dx \\\\ & =\\int_{0.2}^{1}[x]dx+\\int_{1}^{2}[x]dx+\\int_{2}^{3}[x]dx+\\int_{3}^{3.5}[x]dx \\\\ & =\\int_{0.2}^{1}0dx+\\int_{1}^{2}1 \\cdot dx+\\int_{2}^{3}2 \\cdot dx+\\int_{3}^{3.5}3dx \\\\ & =0+[x]_{1}^{2}+[2x]_{2}^{3}+[3x]_{3}^{3.5} \\\\ & =(2-1)+(6-4)+(10.5-9) \\\\ & =1+2+1.5 \\\\ & =4.5 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int_{0.2}^{3.5}[x]dx \\\\ &amp; =\\int_{0.2}^{1}[x]dx+\\int_{1}^{2}[x]dx+\\int_{2}^{3}[x]dx+\\int_{3}^{3.5}[x]dx \\\\ &amp; =\\int_{0.2}^{1}0dx+\\int_{1}^{2}1 \\cdot dx+\\int_{2}^{3}2 \\cdot dx+\\int_{3}^{3.5}3dx \\\\ &amp; =0+[x]_{1}^{2}+[2x]_{2}^{3}+[3x]_{3}^{3.5} \\\\ &amp; =(2-1)+(6-4)+(10.5-9) \\\\ &amp; =1+2+1.5 \\\\ &amp; =4.5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{0.2}^{3.5}[x]dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:30.248709"
+    },
+    {
+      "id": 8695,
+      "qid": "m9duqdjq",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/-int01--2-fracd-xleft1x2right-sqrt1-x2-kcet-mathematics-complex-numbers-b24pvtgnacc0umm2",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-\\frac{\\pi}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\text{Let}I=\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}...(i)$ $\\begin{aligned} & \\Rightarrow I=\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{-sinx}+1} \\\\ & [ \\because \\int_{a}^{b}f(a+b-x)dx=\\int_{a}^{b}f(x)dx] \\end{aligned}$ $\\begin{aligned} & =\\int_{-\\pi/2}^{\\pi/2}\\frac{e^{sinx}}{e^{sinx}+1}dx...(ii) \\\\ & \\text{On adding Eqs. (i) and (ii), we get} \\\\ & \\begin{aligned} & & 2I & =\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}1dx \\\\ \\Rightarrow & & 2I & =[x]_{-\\pi/2}^{\\pi/2} \\\\ \\Rightarrow & 2I & =\\pi \\\\ \\therefore & & I & =\\frac{\\pi}{2} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{Let}I=\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}...(i)$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow I=\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{-sinx}+1} \\\\ &amp; [ \\because \\int_{a}^{b}f(a+b-x)dx=\\int_{a}^{b}f(x)dx] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\int_{-\\pi/2}^{\\pi/2}\\frac{e^{sinx}}{e^{sinx}+1}dx...(ii) \\\\ &amp; \\text{On adding Eqs. (i) and (ii), we get} \\\\ &amp; \\begin{aligned} &amp; &amp; 2I &amp; =\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}1dx \\\\ \\Rightarrow &amp; &amp; 2I &amp; =[x]_{-\\pi/2}^{\\pi/2} \\\\ \\Rightarrow &amp; 2I &amp; =\\pi \\\\ \\therefore &amp; &amp; I &amp; =\\frac{\\pi}{2} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}",
+        "\\text{Let}I=\\int_{-\\pi/2}^{\\pi/2}\\frac{dx}{e^{sinx}+1}...(i)"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:30.017057"
+    },
+    {
+      "id": 8699,
+      "qid": "m9dur5rc",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/p-int0pi--2-frac1a2-cdot-sin-2-xb2-cdo-kcet-mathematics-complex-numbers-ymwqvrihoha906gq",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{0}^{\\pi/2}\\frac{tan^{7}x}{cot^{7}x+tan^{7}x}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{0}^{\\pi/2}\\frac{tan^{7}x}{cot^{7}x+tan^{7}x}dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{6}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\begin{aligned} & \\text{Let}I=\\int_{0}^{\\pi/2}\\frac{tan^{7}x}{cot^{7}x+tan^{7}x}dx...(i) \\\\ & \\Rightarrow I=\\int_{0}^{\\pi/2}\\frac{tan^{7}(\\pi/2-x)}{cot^{7}(\\pi/2-x)+tan^{7}(\\pi/2-x)}dx \\\\ & \\Rightarrow I=\\int_{0}^{\\pi/2}\\frac{cot^{7}x}{tan^{7}x+cot^{7}x}dx...(ii) \\end{aligned} \\\\ & \\text{On adding Eqs. (i) and (ii), we get} \\\\ & \\begin{aligned} 2I & =\\int_{0}^{\\pi/2}\\frac{tan^{7}x+cot^{7}x}{tan^{7}x+cot^{7}x}dx \\\\ & =\\int_{0}^{\\pi/2}1dx=[x]_{0}^{\\pi/2}=\\frac{\\pi}{2} \\\\ \\therefore I & =\\frac{\\pi}{4} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\text{Let}I=\\int_{0}^{\\pi/2}\\frac{tan^{7}x}{cot^{7}x+tan^{7}x}dx...(i) \\\\ &amp; \\Rightarrow I=\\int_{0}^{\\pi/2}\\frac{tan^{7}(\\pi/2-x)}{cot^{7}(\\pi/2-x)+tan^{7}(\\pi/2-x)}dx \\\\ &amp; \\Rightarrow I=\\int_{0}^{\\pi/2}\\frac{cot^{7}x}{tan^{7}x+cot^{7}x}dx...(ii) \\end{aligned} \\\\ &amp; \\text{On adding Eqs. (i) and (ii), we get} \\\\ &amp; \\begin{aligned} 2I &amp; =\\int_{0}^{\\pi/2}\\frac{tan^{7}x+cot^{7}x}{tan^{7}x+cot^{7}x}dx \\\\ &amp; =\\int_{0}^{\\pi/2}1dx=[x]_{0}^{\\pi/2}=\\frac{\\pi}{2} \\\\ \\therefore I &amp; =\\frac{\\pi}{4} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int_{0}^{\\pi/2}\\frac{tan^{7}x}{cot^{7}x+tan^{7}x}dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:30.259095"
+    },
+    {
+      "id": 8696,
+      "qid": "m9duqdmn",
+      "chapter_slug": "kcet-definite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/-int01--2-fracd-xleft1x2right-sqrt1-x2-kcet-mathematics-complex-numbers-b24pvtgnacc0umm2",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int_{-5}^{5}|x+2|dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int_{-5}^{5}|x+2|dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "28",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->28\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "30",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 30\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "29",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->29\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "27",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 27<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\\\ & \\begin{aligned} \\text{Let}I & =\\int_{-5}^{5}|x+2|dx \\\\ & =\\int_{-5}^{-2}|x+2|dx+\\int_{-2}^{5}|x+2|dx \\\\ & =-\\int_{-5}^{-2}(x+2)dx+\\int_{-2}^{5}(x+2)dx \\\\ & =-[\\frac{x^{2}}{2}+2x]_{-5}^{-2}+[\\frac{x^{2}}{2}+2x]_{-2}^{5} \\\\ & =-[(\\frac{4}{2}-4)-(\\frac{25}{2}-10)]+[(\\frac{25}{2}+10)-(\\frac{4}{2}-4)] \\end{aligned} \\end{aligned}$ $\\begin{aligned} & =-[-2-\\frac{5}{2}]+[\\frac{45}{2}+2] \\\\ & =2+\\frac{5}{2}+\\frac{45}{2}+2 \\\\ & =29 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\\\ &amp; \\begin{aligned} \\text{Let}I &amp; =\\int_{-5}^{5}|x+2|dx \\\\ &amp; =\\int_{-5}^{-2}|x+2|dx+\\int_{-2}^{5}|x+2|dx \\\\ &amp; =-\\int_{-5}^{-2}(x+2)dx+\\int_{-2}^{5}(x+2)dx \\\\ &amp; =-[\\frac{x^{2}}{2}+2x]_{-5}^{-2}+[\\frac{x^{2}}{2}+2x]_{-2}^{5} \\\\ &amp; =-[(\\frac{4}{2}-4)-(\\frac{25}{2}-10)]+[(\\frac{25}{2}+10)-(\\frac{4}{2}-4)] \\end{aligned} \\end{aligned}$ </p>\n $\\begin{aligned} &amp; =-[-2-\\frac{5}{2}]+[\\frac{45}{2}+2] \\\\ &amp; =2+\\frac{5}{2}+\\frac{45}{2}+2 \\\\ &amp; =29 \\end{aligned}$ \n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Definite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int_{-5}^{5}|x+2|dx"
+      ],
+      "key_concepts": [
+        "Kcet Definite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:30.060119"
+    }
+  ]
+}

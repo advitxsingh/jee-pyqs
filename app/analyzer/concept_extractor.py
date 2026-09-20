@@ -365,8 +365,9 @@ def match_concepts_for_question(
 
     content = f"{q.question_text} {q.explanation_text}".lower()
 
-    # Check curated taxonomy
-    taxonomy = CURATED_TAXONOMY.get(chapter_slug, [])
+    # Check curated taxonomy (strip kcet- prefix if present to share rich taxonomy)
+    norm_slug = chapter_slug.replace("kcet-", "")
+    taxonomy = CURATED_TAXONOMY.get(norm_slug, CURATED_TAXONOMY.get(chapter_slug, []))
     
     for c_def in taxonomy:
         is_match = False
@@ -409,8 +410,9 @@ def analyze_chapter_questions(
     # Concept frequency counter and PYQ collector
     concept_stats: Dict[str, Dict[str, Any]] = {}
 
-    # Initialize taxonomy concepts
-    taxonomy = CURATED_TAXONOMY.get(chapter_slug, [])
+    # Initialize taxonomy concepts (support kcet- prefix)
+    norm_slug = chapter_slug.replace("kcet-", "")
+    taxonomy = CURATED_TAXONOMY.get(norm_slug, CURATED_TAXONOMY.get(chapter_slug, []))
     for c_def in taxonomy:
         concept_stats[c_def["name"]] = {
             "def": c_def,

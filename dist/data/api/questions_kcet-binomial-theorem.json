@@ -1,0 +1,494 @@
+{
+  "chapter_slug": "kcet-binomial-theorem",
+  "total": 9,
+  "questions": [
+    {
+      "id": 8455,
+      "qid": "jt-mr7eh8y0",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-value-at-x--2-for-dfracx3--3x2--3x--1x4--kcet-mathematics-wlcr8ie7o16jcopi",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value at $x=2$ for $\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The value at  $x=2$  for  $\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{25}{61}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{25}{61}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{19}{73}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{19}{73}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "The given expression is $\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}$ We can recognize both numerator and denominator using identities. $x^{3}+3x^{2}+3x+1=(x+1)^{3}$ and $x^{4}+4x^{3}+6x^{2}+4x+1=(x+1)^{4}$ So the expression becomes $\\frac{(x+1)^{3}}{(x+1)^{4}}$ Cancel the common factor $(x+1)^{3}$ : $\\frac{(x+1)^{3}}{(x+1)^{4}}=\\frac{1}{x+1}$ Now put $x=2$ : $\\frac{1}{2+1}=\\frac{1}{3}$ So the correct option is $\\frac{1}{3}$ Option C.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given expression is</p>\n<p> $\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}$ </p>\n<p>We can recognize both numerator and denominator using identities.</p>\n<p> $x^{3}+3x^{2}+3x+1=(x+1)^{3}$ </p>\n<p>and</p>\n<p> $x^{4}+4x^{3}+6x^{2}+4x+1=(x+1)^{4}$ </p>\n<p>So the expression becomes</p>\n<p> $\\frac{(x+1)^{3}}{(x+1)^{4}}$ </p>\n<p>Cancel the common factor  $(x+1)^{3}$ :</p>\n<p> $\\frac{(x+1)^{3}}{(x+1)^{4}}=\\frac{1}{x+1}$ </p>\n<p>Now put  $x=2$ :</p>\n<p> $\\frac{1}{2+1}=\\frac{1}{3}$ </p>\n<p>So the correct option is</p>\n<p> $\\frac{1}{3}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "x=2",
+        "\\frac{x^{3}+3x^{2}+3x+1}{x^{4}+4x^{3}+6x^{2}+4x+1}",
+        "x^{3}+3x^{2}+3x+1=(x+1)^{3}",
+        "x^{4}+4x^{3}+6x^{2}+4x+1=(x+1)^{4}",
+        "\\frac{(x+1)^{3}}{(x+1)^{4}}",
+        "(x+1)^{3}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:13.856063"
+    },
+    {
+      "id": 8456,
+      "qid": "mcf6ztu6",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-value-at-x--2-for-dfracx3--3x2--3x--1x4--kcet-mathematics-wlcr8ie7o16jcopi",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If the number of terms in the binomial expansion of $(2x+3)^{3n}$ is 22 , then the value of n is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the number of terms in the binomial expansion of  $(2x+3)^{3n}$  is 22 , then the value of n is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 8\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 6\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->7\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 9<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "A binomial expansion $(ax+b)^{k}$ has $k+1$ distinct terms. Here $k=3n$ , so: Number of terms $=3n+1$ . Set $3n+1=22$ : $3n+1=22$ $3n=21$ $n=7$ Answer: 7 (Option C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A binomial expansion  $(ax+b)^{k}$  has  $k+1$  distinct terms. Here  $k=3n$ , so:</p>\n<p><p>Number of terms  $=3n+1$ .  </p></p>\n<p><p>Set  $3n+1=22$ :  </p>\n<p> $3n+1=22$  </p>\n<p> $3n=21$  </p>\n<p> $n=7$  </p></p>\n<p>Answer: 7 (Option C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "(2x+3)^{3n}",
+        "(ax+b)^{k}",
+        "k=3n",
+        "=3n+1",
+        "3n+1=22",
+        "3n=21"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:13.865057"
+    },
+    {
+      "id": 8457,
+      "qid": "m5yu78ot",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-value-at-x--2-for-dfracx3--3x2--3x--1x4--kcet-mathematics-wlcr8ie7o16jcopi",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The value of $^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$^{50}C_{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $^{50}C_{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$^{50}C_{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $^{50}C_{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$^{50}C_{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $^{50}C_{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$^{50}C_{1}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $^{50}C_{1}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\because ^{n}C_{r}+^{n}C_{r+1}=^{n+1}C_{r+1} \\\\ & \\text{Given,}^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4} \\\\ & \\\\ & =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{46}C_{4} \\end{aligned}$ $\\begin{aligned} & =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{47}C_{4} \\\\ & =^{49}C_{3}+^{48}C_{3}+^{48}C_{4} \\\\ & =^{49}C_{3}+^{49}C_{4}=^{50}C_{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because ^{n}C_{r}+^{n}C_{r+1}=^{n+1}C_{r+1} \\\\ &amp; \\text{Given,}^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4} \\\\ &amp; \\\\ &amp; =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{46}C_{4} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{47}C_{4} \\\\ &amp; =^{49}C_{3}+^{48}C_{3}+^{48}C_{4} \\\\ &amp; =^{49}C_{3}+^{49}C_{4}=^{50}C_{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "^{49}C_{3}+^{48}C_{3}+^{47}C_{3}+^{46}C_{3}+^{45}C_{3}+^{45}C_{4}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:13.872212"
+    },
+    {
+      "id": 8458,
+      "qid": "m5yu78qa",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-value-at-x--2-for-dfracx3--3x2--3x--1x4--kcet-mathematics-wlcr8ie7o16jcopi",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "In the expansion of $(1+x)^{n}$ $\\frac{C_{1}}{C_{0}}+2\\frac{C_{2}}{C_{1}}+3\\frac{C_{3}}{2}+\\dots+n\\frac{C_{n}}{C_{n-1}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In the expansion of  $(1+x)^{n}$   $\\frac{C_{1}}{C_{0}}+2\\frac{C_{2}}{C_{1}}+3\\frac{C_{3}}{2}+\\dots+n\\frac{C_{n}}{C_{n-1}}$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{n(n+1)}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{n(n+1)}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{n}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{n}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{n+1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{n+1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$3n(n+1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $3n(n+1)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\because \\frac{C_{1}}{C_{0}}+2 \\cdot \\frac{C_{2}}{C_{1}}+3 \\cdot \\frac{C_{3}}{C_{2}}+\\dotsn\\frac{C_{n}}{C_{n-1}}$ $=\\frac{n}{1}+2 \\cdot \\frac{\\frac{n(n-1)}{1 \\cdot 2}}{n}+3 \\cdot \\frac{\\frac{n(n-1)(n-2)}{3 \\cdot 2 \\cdot 1}}{\\frac{n(n-1)}{1 \\cdot 2}}+\\dots+n \\cdot \\frac{1}{n}$ $=n+(n-1)+(n-2)\\dots+1=\\Sigma n=\\frac{n(n+1)}{2}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because \\frac{C_{1}}{C_{0}}+2 \\cdot \\frac{C_{2}}{C_{1}}+3 \\cdot \\frac{C_{3}}{C_{2}}+\\dotsn\\frac{C_{n}}{C_{n-1}}$ </p>\n<p> $=\\frac{n}{1}+2 \\cdot \\frac{\\frac{n(n-1)}{1 \\cdot 2}}{n}+3 \\cdot \\frac{\\frac{n(n-1)(n-2)}{3 \\cdot 2 \\cdot 1}}{\\frac{n(n-1)}{1 \\cdot 2}}+\\dots+n \\cdot \\frac{1}{n}$ </p>\n<p> $=n+(n-1)+(n-2)\\dots+1=\\Sigma n=\\frac{n(n+1)}{2}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "(1+x)^{n}",
+        "=n+(n-1)+(n-2)\\dots+1=\\Sigma n=\\frac{n(n+1)}{2}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:13.882628"
+    },
+    {
+      "id": 8459,
+      "qid": "jaoe38c1locmh1uy",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-n-is-even-and-the-middle-term-in-the-expansion-of-kcet-mathematics-complex-numbers-jootk9mektn9af7v",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $n$ is even and the middle term in the expansion of $(x^{2}+\\frac{1}{x})^{n}$ is $924x^{6}$ , then $n$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $n$  is even and the middle term in the expansion of  $(x^{2}+\\frac{1}{x})^{n}$  is  $924x^{6}$ , then  $n$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "14",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->14<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "12",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->12<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->8<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "For $(x^{2}+\\frac{1}{x})^{n}$ have middle term $n$ is even $\\Rightarrow n=2a;a \\in N$ Middle term $^{2a}C_{a}(x^{2})^{a} \\cdot \\frac{1}{x^{a}}=^{2a}C_{a}x^{a}=924x^{6}$ $\\Rightarrow a=6$ Also, for $a=6,^{2a}C_{a}=^{12}C_{6}=924$ So, $n=2a=12$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For  $(x^{2}+\\frac{1}{x})^{n}$  have middle term  $n$  is even</p>\n<p> $\\Rightarrow n=2a;a \\in N$ </p>\n<p>Middle term  $^{2a}C_{a}(x^{2})^{a} \\cdot \\frac{1}{x^{a}}=^{2a}C_{a}x^{a}=924x^{6}$ </p>\n<p> $\\Rightarrow a=6$ </p>\n<p>Also, for  $a=6,^{2a}C_{a}=^{12}C_{6}=924$ </p>\n<p>So,  $n=2a=12$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Rightarrow a=6",
+        "a=6,^{2a}C_{a}=^{12}C_{6}=924",
+        "n=2a=12"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.047153"
+    },
+    {
+      "id": 8460,
+      "qid": "ltj8yj0q",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-n-is-even-and-the-middle-term-in-the-expansion-of-kcet-mathematics-complex-numbers-jootk9mektn9af7v",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The number of terms in the expansion of $(x+y+z)^{10}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of terms in the expansion of  $(x+y+z)^{10}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "66",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->66<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "142",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->142<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "11",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->11<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "110",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->110<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $(x+y+z)^{10}$ Total number of terms in the expansion of $(x+y+z)^{10}=^{10+3-1}C_{3-1}=^{12}C_{2}=66$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $(x+y+z)^{10}$ </p>\n<p>Total number of terms in the expansion of</p>\n<p> $(x+y+z)^{10}=^{10+3-1}C_{3-1}=^{12}C_{2}=66$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "(x+y+z)^{10}",
+        "(x+y+z)^{10}=^{10+3-1}C_{3-1}=^{12}C_{2}=66"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.057020"
+    },
+    {
+      "id": 8461,
+      "qid": "ltw4prx9",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-n-is-even-and-the-middle-term-in-the-expansion-of-kcet-mathematics-complex-numbers-jootk9mektn9af7v",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The number of terms in the expansion of $(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}$ after simplification is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of terms in the expansion of  $(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}$  after simplification is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "26",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->26<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "50",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->50<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "13",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->13<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Key Idea. To use, if $n$ is odd then $(x+a)^{n}-(x-a)^{n}$ has $(\\frac{n+1}{2})$ terms Given, expansion $(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}$ Here, $n=25$ (odd) $\\therefore$ required number of terms $=\\frac{25+1}{2}=\\frac{26}{2}=13$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Key Idea. To use, if  $n$  is odd then  $(x+a)^{n}-(x-a)^{n}$  has  $(\\frac{n+1}{2})$  terms</p>\n<p>Given, expansion  $(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}$ </p>\n<p>Here,  $n=25$  (odd)</p>\n<p> $\\therefore$  required number of terms  $=\\frac{25+1}{2}=\\frac{26}{2}=13$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(x^{2}+y^{2})^{25}-(x^{2}-y^{2})^{25}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.065716"
+    },
+    {
+      "id": 8462,
+      "qid": "m7isfrh2",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-n-is-even-and-the-middle-term-in-the-expansion-of-kcet-mathematics-complex-numbers-jootk9mektn9af7v",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The constant term in the expansion of $(x^{2}-\\frac{1}{x^{2}})^{16}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The constant term in the expansion of  $(x^{2}-\\frac{1}{x^{2}})^{16}$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$^{16}C_{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $^{16}C_{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$^{16}C_{7}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $^{16}C_{7}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$^{18}C_{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $^{18}C_{9}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$^{16}C_{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $^{16}C_{10}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $(x^{2}-\\frac{1}{x^{2}})^{16}$ Now, $T_{r+1}=^{16}C_{r}(x^{2})^{16-r}(x^{-2})^{r}$ $\\Rightarrow T_{r+1}=^{16}C_{r}x^{32-2r-2r}$ $T_{r+1}$ is constant if $32-2r-2r=0$ $\\begin{aligned} & \\Rightarrow \\text{Constant term}=^{16}C_{8} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have,  $(x^{2}-\\frac{1}{x^{2}})^{16}$ </p>\n<p>Now,  $T_{r+1}=^{16}C_{r}(x^{2})^{16-r}(x^{-2})^{r}$ </p>\n<p> $\\Rightarrow T_{r+1}=^{16}C_{r}x^{32-2r-2r}$ </p>\n<p> $T_{r+1}$  is constant if  $32-2r-2r=0$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\text{Constant term}=^{16}C_{8} \\end{aligned}$ </p></ol><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(x^{2}-\\frac{1}{x^{2}})^{16}",
+        "T_{r+1}=^{16}C_{r}(x^{2})^{16-r}(x^{-2})^{r}",
+        "\\Rightarrow T_{r+1}=^{16}C_{r}x^{32-2r-2r}",
+        "T_{r+1}",
+        "32-2r-2r=0",
+        "\\begin{aligned} & \\Rightarrow \\text{Constant term}=^{16}C_{8} \\end{aligned}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.077750"
+    },
+    {
+      "id": 8463,
+      "qid": "m9dur3u2",
+      "chapter_slug": "kcet-binomial-theorem",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-total-number-of-terms-in-the-expansion-of-xa47-x-kcet-mathematics-complex-numbers-4xazecoh33q1py2k",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The total number of terms in the expansion of $(x+a)^{47}-(x-a)^{47}$ after simplification is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The total number of terms in the expansion of  $(x+a)^{47}-(x-a)^{47}$  after simplification is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "96",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->96\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "48",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 48\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "47",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 47\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "24",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 24<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The total number of terms in the expansion of $(x+a)^{n}-(x-a)^{n}$ is determined based on whether the exponent $n$ is odd or even. If $n$ is odd: $\\text{Total number of terms}=\\frac{n+1}{2}$ If $n$ is even: $\\text{Total number of terms}=\\frac{n}{2}$ In this specific case, we're looking at the expansion of $(x+a)^{47}-(x-a)^{47}$ . Since 47 is an odd number: $\\text{Total number of terms}=\\frac{47+1}{2}=\\frac{48}{2}=24$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The total number of terms in the expansion of  $(x+a)^{n}-(x-a)^{n}$  is determined based on whether the exponent  $n$  is odd or even.</p>\n<p><p><strong>If  $n$  is odd:</strong></p>\n<p> $\\text{Total number of terms}=\\frac{n+1}{2}$ </p></p>\n<p><p><strong>If  $n$  is even:</strong></p>\n<p> $\\text{Total number of terms}=\\frac{n}{2}$ </p></p>\n<p>In this specific case, we're looking at the expansion of  $(x+a)^{47}-(x-a)^{47}$ . Since 47 is an odd number:</p>\n<p> $\\text{Total number of terms}=\\frac{47+1}{2}=\\frac{48}{2}=24$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Binomial Theorem - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(x+a)^{47}-(x-a)^{47}",
+        "(x+a)^{n}-(x-a)^{n}"
+      ],
+      "key_concepts": [
+        "Kcet Binomial Theorem - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.143246"
+    }
+  ]
+}

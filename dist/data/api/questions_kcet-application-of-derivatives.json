@@ -1,0 +1,1781 @@
+{
+  "chapter_slug": "kcet-application-of-derivatives",
+  "total": 33,
+  "questions": [
+    {
+      "id": 8365,
+      "qid": "jt-mr7eh8ys",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-youtube-short-video-is-getting-viral-according-to-ft--kcet-mathematics-6pimdse5i0iudeau",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A YouTube short video is getting viral according to $f(t)=-2t^{3}+3t^{2}+5$ . At what time does the video get maximum number of shares? ( $t$ is in hours)",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->A YouTube short video is getting viral according to  $f(t)=-2t^{3}+3t^{2}+5$ . At what time does the video get maximum number of shares? ( $t$  is in hours)<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$4$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The number of shares is given by $f(t)=-2t^{3}+3t^{2}+5$ To find when the video gets the maximum number of shares, we differentiate $f(t)$ with respect to $t$ . $f^{'}(t)=\\frac{d}{dt}(-2t^{3}+3t^{2}+5)$ $f^{'}(t)=-6t^{2}+6t$ For maximum or minimum value, put $f^{'}(t)=0$ $-6t^{2}+6t=0$ $6t(1-t)=0$ So, $t=0\\text{or}t=1$ Now check the nature using the second derivative. $f^{''}(t)=-12t+6$ At $t=1$ , $f^{''}(1)=-12(1)+6=-6$ Since this is negative, $f(t)$ has a maximum at $t=1$ So, the video gets the maximum number of shares after $1\\text{hour}$ Correct option: Option A.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of shares is given by</p>\n<p> $f(t)=-2t^{3}+3t^{2}+5$ </p>\n<p>To find when the video gets the maximum number of shares, we differentiate  $f(t)$  with respect to  $t$ .</p>\n<p> $f^{'}(t)=\\frac{d}{dt}(-2t^{3}+3t^{2}+5)$ </p>\n<p> $f^{'}(t)=-6t^{2}+6t$ </p>\n<p>For maximum or minimum value, put</p>\n<p> $f^{'}(t)=0$ </p>\n<p> $-6t^{2}+6t=0$ </p>\n<p> $6t(1-t)=0$ </p>\n<p>So,</p>\n<p> $t=0\\text{or}t=1$ </p>\n<p>Now check the nature using the second derivative.</p>\n<p> $f^{''}(t)=-12t+6$ </p>\n<p>At  $t=1$ ,</p>\n<p> $f^{''}(1)=-12(1)+6=-6$ </p>\n<p>Since this is negative,  $f(t)$  has a maximum at</p>\n<p> $t=1$ </p>\n<p>So, the video gets the maximum number of shares after</p>\n<p> $1\\text{hour}$ </p>\n<p>Correct option: Option A.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(t)=-2t^{3}+3t^{2}+5",
+        "f^{'}(t)=-6t^{2}+6t",
+        "f^{'}(t)=0",
+        "-6t^{2}+6t=0",
+        "6t(1-t)=0",
+        "t=0\\text{or}t=1"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:09.954165"
+    },
+    {
+      "id": 8367,
+      "qid": "jt-mr7eh8yt",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-youtube-short-video-is-getting-viral-according-to-ft--kcet-mathematics-6pimdse5i0iudeau",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "In a Mahakumbh, a drone camera is moving along $3y=x^{3}-3$ . When $y$ -coordinate changes $9$ times as fast as $x$ -coordinate, it captures good quality pictures. Then one of the precise positions of the drone at that instant is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->In a Mahakumbh, a drone camera is moving along  $3y=x^{3}-3$ . When  $y$ -coordinate changes  $9$  times as fast as  $x$ -coordinate, it captures good quality pictures. Then one of the precise positions of the drone at that instant is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-3,-8)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-3,-8)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(3,-8)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(3,-8)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(3,8)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(3,8)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(-3,8)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-3,8)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "The path of the drone is given by $3y=x^{3}-3$ The statement says that the $y$ -coordinate changes $9$ times as fast as the $x$ -coordinate. This means $\\frac{dy}{dx}=9$ Now differentiate the given equation with respect to $x$ : $3y=x^{3}-3$ $3\\frac{dy}{dx}=3x^{2}$ So, $\\frac{dy}{dx}=x^{2}$ At the required instant, $x^{2}=9$ $x= \\pm 3$ Now check the points on the curve. For $x=3$ : $3y=3^{3}-3$ $3y=27-3=24$ $y=8$ So one position is $(3,8)$ Hence the correct option is $\\text{Option C}(3,8)$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The path of the drone is given by</p>\n<p> $3y=x^{3}-3$ </p>\n<p>The statement says that the  $y$ -coordinate changes  $9$  times as fast as the  $x$ -coordinate.</p>\n<p>This means</p>\n<p> $\\frac{dy}{dx}=9$ </p>\n<p>Now differentiate the given equation with respect to  $x$ :</p>\n<p> $3y=x^{3}-3$ </p>\n<p> $3\\frac{dy}{dx}=3x^{2}$ </p>\n<p>So,</p>\n<p> $\\frac{dy}{dx}=x^{2}$ </p>\n<p>At the required instant,</p>\n<p> $x^{2}=9$ </p>\n<p> $x= \\pm 3$ </p>\n<p>Now check the points on the curve.</p>\n<p>For  $x=3$ :</p>\n<p> $3y=3^{3}-3$ </p>\n<p> $3y=27-3=24$ </p>\n<p> $y=8$ </p>\n<p>So one position is</p>\n<p> $(3,8)$ </p>\n<p>Hence the correct option is</p>\n<p> $\\text{Option C}(3,8)$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "3y=x^{3}-3",
+        "3\\frac{dy}{dx}=3x^{2}",
+        "\\frac{dy}{dx}=x^{2}",
+        "x^{2}=9",
+        "x= \\pm 3",
+        "x=3"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.002881"
+    },
+    {
+      "id": 8369,
+      "qid": "mcf6zwvq",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-youtube-short-video-is-getting-viral-according-to-ft--kcet-mathematics-6pimdse5i0iudeau",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The function $f(x)=tanx-x$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function  $f(x)=tanx-x$ </p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "always increases",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> always increases</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "always decreases",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> always decreases</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "never increases",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> never increases</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "neither increases nor decreases",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>neither increases nor decreases</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The function given is $f(x)=tanx-x$ . To determine whether this function is increasing, decreasing, or neither, we need to analyze its derivative: $f^{'}(x)=sec^{2}x-1=tan^{2}x$ Since $tan^{2}x$ is always greater than or equal to zero ( $tan^{2}x \\ge 0$ ), the derivative $f^{'}(x)$ is non-negative across its domain. This implies that the function $f(x)$ is always increasing or at the very least, non-decreasing. Thus, the function $f(x)=tanx-x$ consistently increases.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function given is  $f(x)=tanx-x$ .</p>\n<p>To determine whether this function is increasing, decreasing, or neither, we need to analyze its derivative:</p>\n<p> $f^{'}(x)=sec^{2}x-1=tan^{2}x$ </p>\n<p>Since  $tan^{2}x$  is always greater than or equal to zero ( $tan^{2}x \\ge 0$ ), the derivative  $f^{'}(x)$  is non-negative across its domain. This implies that the function  $f(x)$  is always increasing or at the very least, non-decreasing. </p>\n<p>Thus, the function  $f(x)=tanx-x$  consistently increases.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=tanx-x",
+        "f^{'}(x)=sec^{2}x-1=tan^{2}x",
+        "tan^{2}x",
+        "tan^{2}x \\ge 0",
+        "f^{'}(x)"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.030021"
+    },
+    {
+      "id": 8374,
+      "qid": "m5yu98ii",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-c-in-02-satisfying-the-mean-value-the-kcet-mathematics-complex-numbers-y8pdcpzyix8w19ey",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $C$ in $(0,2)$ satisfying the mean value theorem for the function $f(x)=x(x-1)^{2},x \\in [0,2]$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $C$  in  $(0,2)$  satisfying the mean value theorem for the function  $f(x)=x(x-1)^{2},x \\in [0,2]$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3/4$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $3/4$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$4/3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $4/3$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$1/3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $1/3$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2/3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $2/3$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$f(x)=x(x-1)^{2};x \\in [0,2]$ $\\begin{aligned} f^{'}(c) & =\\frac{f(b)-f(a)}{b-a};f(2)=2,f(0)=0 \\\\ \\therefore f^{'}(x) & =(x-1)^{2}+2x(x-1) \\\\ & =x^{2}+1-2x+2x^{2}-2x \\\\ & =3x^{2}-4x+1 \\end{aligned}$ So, $f^{'}(c)=3c^{2}-4c+1$ Thus, $3c^{2}-4c+1=\\frac{f(2)-(0)}{2-0}=\\frac{2-0}{2-0}=1$ $\\Rightarrow c(3c-4)=0$ Hence, $c=\\frac{4}{3}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $f(x)=x(x-1)^{2};x \\in [0,2]$ </p>\n<p> $\\begin{aligned} f^{'}(c) &amp; =\\frac{f(b)-f(a)}{b-a};f(2)=2,f(0)=0 \\\\ \\therefore f^{'}(x) &amp; =(x-1)^{2}+2x(x-1) \\\\ &amp; =x^{2}+1-2x+2x^{2}-2x \\\\ &amp; =3x^{2}-4x+1 \\end{aligned}$ </p>\n<p>So,  $f^{'}(c)=3c^{2}-4c+1$ </p>\n<p>Thus,  $3c^{2}-4c+1=\\frac{f(2)-(0)}{2-0}=\\frac{2-0}{2-0}=1$ </p>\n<p> $\\Rightarrow c(3c-4)=0$ </p>\n<p>Hence,  $c=\\frac{4}{3}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Rightarrow c(3c-4)=0",
+        "c=\\frac{4}{3}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.261905"
+    },
+    {
+      "id": 8381,
+      "qid": "m5yu99lv",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxx-ex1-x-then-fx-isp-kcet-mathematics-complex-numbers-gmijmfspyzgyma7j",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $f(x)=xe^{x(1-x)}$ , then $f(x)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $f(x)=xe^{x(1-x)}$ , then  $f(x)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "increasing in $R$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> increasing in  $R$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "decreasing in $R$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> decreasing in  $R$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "decreasing in $[-\\frac{1}{2},1]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> decreasing in  $[-\\frac{1}{2},1]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "increasing in $[-\\frac{1}{2},1]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> increasing in  $[-\\frac{1}{2},1]$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Given,} \\\\ & \\begin{aligned} f(x) & =xe^{x(1-x)} \\\\ f^{'}(x) & =e^{x(1-x)}+xe^{x(1-x)}(1-2x) \\\\ & =e^{x(1-x)}(1+x(1-2x)) \\\\ & =-e^{x(1-x)}(2x^{2}-x-1) \\\\ & =-e^{x(1-x)}(2x^{2}-2x+x-1) \\\\ & =-e^{x(1-x)}(x-1)(2x+1) \\end{aligned} \\end{aligned}$ So, $f(x)$ is increasing when $f^{'}(x) \\ge 0$ and decreasing when $f^{'}(x) \\le 0$ . Hence, $f$ is increasing in $[\\frac{-1}{2},1]$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,} \\\\ &amp; \\begin{aligned} f(x) &amp; =xe^{x(1-x)} \\\\ f^{'}(x) &amp; =e^{x(1-x)}+xe^{x(1-x)}(1-2x) \\\\ &amp; =e^{x(1-x)}(1+x(1-2x)) \\\\ &amp; =-e^{x(1-x)}(2x^{2}-x-1) \\\\ &amp; =-e^{x(1-x)}(2x^{2}-2x+x-1) \\\\ &amp; =-e^{x(1-x)}(x-1)(2x+1) \\end{aligned} \\end{aligned}$ </p>\n<p><img alt=\"KCET 2024 Mathematics - Application of Derivatives Question 11 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>So,  $f(x)$  is increasing when  $f^{'}(x) \\ge 0$  and decreasing when  $f^{'}(x) \\le 0$ .</p>\n<p>Hence,  $f$  is increasing in  $[\\frac{-1}{2},1]$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5xyl3jp/59ed55d8-7e6a-4fde-97df-ccf53328c064/9b0c2d60-d347-11ef-9e21-e3745fffb48e/file-jaoe38c1m5xyl3jq.png?format=png"
+      ],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=xe^{x(1-x)}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.472909"
+    },
+    {
+      "id": 8376,
+      "qid": "m5yu8cq3",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-c-in-02-satisfying-the-mean-value-the-kcet-mathematics-complex-numbers-y8pdcpzyix8w19ey",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "For the function $f(x)=x^{3}-6x^{2}+12x-3$ ; $x=2$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the function  $f(x)=x^{3}-6x^{2}+12x-3$ ;  $x=2$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "point of minimum",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> A point of minimum\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "point of inflexion",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> A point of inflexion\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Not a critical point",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Not a critical point\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "point of maximum",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> A point of maximum<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\begin{aligned} & \\because f(x)=x^{3}-6x^{2}+12x-3 \\\\ & \\Rightarrow f^{'}(x)=3x^{2}-12x+12 \\\\ & \\Rightarrow f^{''}(x)=6x-12=6(x-2) \\\\ & \\Rightarrow f^{''}(2)=0 \\end{aligned} \\\\ & \\text{Hence,}x=2\\text{is a point of inflexion.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\because f(x)=x^{3}-6x^{2}+12x-3 \\\\ &amp; \\Rightarrow f^{'}(x)=3x^{2}-12x+12 \\\\ &amp; \\Rightarrow f^{''}(x)=6x-12=6(x-2) \\\\ &amp; \\Rightarrow f^{''}(2)=0 \\end{aligned} \\\\ &amp; \\text{Hence,}x=2\\text{is a point of inflexion.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "f(x)=x^{3}-6x^{2}+12x-3",
+        "x=2"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.280206"
+    },
+    {
+      "id": 8378,
+      "qid": "m5yu98k7",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-c-in-02-satisfying-the-mean-value-the-kcet-mathematics-complex-numbers-y8pdcpzyix8w19ey",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The function $x^{x};x>0$ is strictly increasing at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function  $x^{x};x&gt;0$  is strictly increasing at</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$∀x \\in R$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $∀x \\in R$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x<\\frac{1}{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x&lt;\\frac{1}{e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x>\\frac{1}{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x&gt;\\frac{1}{e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$x<0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x&lt;0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $y=x^{x}$ $\\frac{dy}{dx}=x^{x}(1+logx)$ For increasing function, $\\frac{dy}{dx}>0$ $\\begin{aligned} \\Rightarrow & x^{x}(1+logx)>0 \\\\ \\Rightarrow & 1+logx>0 \\\\ \\Rightarrow & log_{e}x>log_{e}\\frac{1}{e} \\\\ \\text{Hence,} & x>\\frac{1}{e} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=x^{x}$ </p>\n<p> $\\frac{dy}{dx}=x^{x}(1+logx)$ </p>\n<p>For increasing function,  $\\frac{dy}{dx}&gt;0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; x^{x}(1+logx)&gt;0 \\\\ \\Rightarrow &amp; 1+logx&gt;0 \\\\ \\Rightarrow &amp; log_{e}x&gt;log_{e}\\frac{1}{e} \\\\ \\text{Hence,} &amp; x&gt;\\frac{1}{e} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "x^{x};x>0",
+        "y=x^{x}",
+        "\\frac{dy}{dx}=x^{x}(1+logx)",
+        "\\frac{dy}{dx}>0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.298812"
+    },
+    {
+      "id": 8371,
+      "qid": "m5yu78n9",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-youtube-short-video-is-getting-viral-according-to-ft--kcet-mathematics-6pimdse5i0iudeau",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm , then",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm , then</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Breadth $\\le 15cm$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Breadth  $\\le 15cm$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Breadth $\\ge 15cm$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Breadth  $\\ge 15cm$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Length $\\le 15cm$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Length  $\\le 15cm$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Length $=15cm$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Length  $=15cm$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Since, perimeter} \\ge 180 \\\\ & \\Rightarrow 2\\text{(length}+\\text{breadth} \\ge 180 \\\\ & \\Rightarrow 5\\text{breadth}+\\text{breadth} \\ge 90 \\\\ & [ \\because \\text{length}=5\\text{breadth}] \\\\ & \\Rightarrow 6\\text{breadth} \\ge 90 \\\\ & \\text{Hence, breadth} \\ge 15 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Since, perimeter} \\ge 180 \\\\ &amp; \\Rightarrow 2\\text{(length}+\\text{breadth} \\ge 180 \\\\ &amp; \\Rightarrow 5\\text{breadth}+\\text{breadth} \\ge 90 \\\\ &amp; [ \\because \\text{length}=5\\text{breadth}] \\\\ &amp; \\Rightarrow 6\\text{breadth} \\ge 90 \\\\ &amp; \\text{Hence, breadth} \\ge 15 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.080609"
+    },
+    {
+      "id": 8379,
+      "qid": "m5yu85bx",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-c-in-02-satisfying-the-mean-value-the-kcet-mathematics-complex-numbers-y8pdcpzyix8w19ey",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The maximum volume of the right circular cone with slant height 6 units is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The maximum volume of the right circular cone with slant height 6 units is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4\\sqrt{3}\\pi$ cu units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $4\\sqrt{3}\\pi$  cu units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$16\\sqrt{3}\\pi cu$ units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $16\\sqrt{3}\\pi cu$  units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$3\\sqrt{3}\\pi$ cu units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $3\\sqrt{3}\\pi$  cu units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$6\\sqrt{3}\\pi$ cu units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $6\\sqrt{3}\\pi$  cu units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\because$ Slant height of the cone, $L=6$ units. Let the radius be $r$ and height be $ℎ$ . $\\begin{aligned} \\text{and volume}(V) & =\\frac{1}{3}\\pi r^{2}ℎ \\\\ & =\\frac{1}{3}\\pi(L^{2}-ℎ^{2})ℎ[ \\because L^{2}=r^{2}+ℎ^{2}] \\\\ & =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\end{aligned}$ So, $\\frac{dV}{dℎ}=\\frac{1}{3}\\pi(36-3ℎ^{2})=0 \\Rightarrow ℎ=2\\sqrt{3}$ units Now, $\\frac{d^{2}V}{dℎ^{2}}=-2\\piℎ<0$ at $ℎ=2\\sqrt{3}$ units Hence, the maximum volume of the cone $\\begin{aligned} V & =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\\\ & =\\frac{1}{3}\\pi(36-(2\\sqrt{3})^{2})2\\sqrt{3} \\\\ & =16\\sqrt{3}\\pi\\text{cu units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because$  Slant height of the cone,  $L=6$  units.</p>\n<p>Let the radius be  $r$  and height be  $ℎ$ .</p>\n<p> $\\begin{aligned} \\text{and volume}(V) &amp; =\\frac{1}{3}\\pi r^{2}ℎ \\\\ &amp; =\\frac{1}{3}\\pi(L^{2}-ℎ^{2})ℎ[ \\because L^{2}=r^{2}+ℎ^{2}] \\\\ &amp; =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\end{aligned}$ </p>\n<p>So,  $\\frac{dV}{dℎ}=\\frac{1}{3}\\pi(36-3ℎ^{2})=0 \\Rightarrow ℎ=2\\sqrt{3}$  units</p>\n<p>Now,  $\\frac{d^{2}V}{dℎ^{2}}=-2\\piℎ&lt;0$  at  $ℎ=2\\sqrt{3}$  units</p>\n<p>Hence, the maximum volume of the cone</p>\n<p> $\\begin{aligned} V &amp; =\\frac{1}{3}\\pi(36-ℎ^{2})ℎ \\\\ &amp; =\\frac{1}{3}\\pi(36-(2\\sqrt{3})^{2})2\\sqrt{3} \\\\ &amp; =16\\sqrt{3}\\pi\\text{cu units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "L=6"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.310653"
+    },
+    {
+      "id": 8393,
+      "qid": "jaoe38c1locpfqs7",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pan-enemy-fighter-jet-is-flying-along-the-curve-given-by-kcet-mathematics-complex-numbers-3kugxxmgbnha8ja7",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "An enemy fighter jet is flying along the curve, given by $y=x^{2}+2$ . A soldier is placed at $(3,2)$ wants to shoot down the jet when it is nearest to him. Then, the nearest distance is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An enemy fighter jet is flying along the curve, given by  $y=x^{2}+2$ . A soldier is placed at  $(3,2)$  wants to shoot down the jet when it is nearest to him. Then, the nearest distance is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{6}$ units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{6}$  units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2 units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2 units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{5}$ units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{5}$  units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{3}$ units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{3}$  units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $P(x,y)$ be the position of the jet and the solider is placed at $A(3,2)$ . $\\Rightarrow AP=\\sqrt{(x-3)^{2}+(y-2)^{2}}$ .... (i) As, $y=(x^{2}+2) \\Rightarrow x^{2}=y-2$ .... (ii) $\\begin{aligned} & \\Rightarrow (AP)^{2}=(x-3)^{2}+x^{4}=z\\text{(say)} \\\\ & \\Rightarrow \\frac{dz}{dx}=2(x-3)+4x^{3}\\text{and}\\frac{d^{2}z}{dx^{2}}=2+12x^{2} \\end{aligned}$ For local points of maxima and minima $\\begin{aligned} \\frac{dz}{dx} & =0 \\Rightarrow 2(x-3)+4x^{3}=0 \\\\ x & =1\\text{and}\\frac{d^{2}z}{dx^{2}}(\\text{at}x=1)=14>0 \\end{aligned}$ $\\therefore$ z is minimum, where $x=1,y=1+2=3$ Also, minimum distance $=\\sqrt{(1-3)^{2}+(3-2)^{2}}=\\sqrt{5}\\text{units}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $P(x,y)$  be the position of the jet and the solider is placed at  $A(3,2)$ .</p>\n<p> $\\Rightarrow AP=\\sqrt{(x-3)^{2}+(y-2)^{2}}$  .... (i)</p>\n<p>As,  $y=(x^{2}+2) \\Rightarrow x^{2}=y-2$  .... (ii)</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow (AP)^{2}=(x-3)^{2}+x^{4}=z\\text{(say)} \\\\ &amp; \\Rightarrow \\frac{dz}{dx}=2(x-3)+4x^{3}\\text{and}\\frac{d^{2}z}{dx^{2}}=2+12x^{2} \\end{aligned}$ </p>\n<p>For local points of maxima and minima</p>\n<p> $\\begin{aligned} \\frac{dz}{dx} &amp; =0 \\Rightarrow 2(x-3)+4x^{3}=0 \\\\ x &amp; =1\\text{and}\\frac{d^{2}z}{dx^{2}}(\\text{at}x=1)=14&gt;0 \\end{aligned}$ </p>\n<p> $\\therefore$  z is minimum, where  $x=1,y=1+2=3$ </p>\n<p>Also, minimum distance</p>\n<p> $=\\sqrt{(1-3)^{2}+(3-2)^{2}}=\\sqrt{5}\\text{units}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=x^{2}+2",
+        "\\Rightarrow AP=\\sqrt{(x-3)^{2}+(y-2)^{2}}",
+        "y=(x^{2}+2) \\Rightarrow x^{2}=y-2",
+        "x=1,y=1+2=3",
+        "=\\sqrt{(1-3)^{2}+(3-2)^{2}}=\\sqrt{5}\\text{units}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.760606"
+    },
+    {
+      "id": 8384,
+      "qid": "jaoe38c1locp1yvu",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxx-ex1-x-then-fx-isp-kcet-mathematics-complex-numbers-gmijmfspyzgyma7j",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $u=sin^{-1}(\\frac{2x}{1+x^{2}})$ and $v=tan^{-1}(\\frac{2x}{1-x^{2}})$ , then $\\frac{du}{dv}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $u=sin^{-1}(\\frac{2x}{1+x^{2}})$  and  $v=tan^{-1}(\\frac{2x}{1-x^{2}})$ , then  $\\frac{du}{dv}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1-x^{2}}{1+x^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1-x^{2}}{1+x^{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Here,}u=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ & u=2tan^{-1}x[ \\because 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}})] \\\\ & \\Rightarrow \\frac{du}{dx}=2 \\times \\frac{1}{1+x^{2}}\\text{.... (i)} \\\\ & \\text{and}v=tan^{-1}(\\frac{2x}{1-x^{2}}) \\end{aligned}$ $y=2tan^{-1}x[ \\because 2tan^{-1}x=tan^{-1}(\\frac{2x}{1-x^{2}})]$ $\\Rightarrow \\frac{dv}{dx}=\\frac{2}{1+x^{2}}\\text{.... (ii)}$ From Eqs. (i) and (ii), we get $\\frac{dv}{dx}=1$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}u=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ &amp; u=2tan^{-1}x[ \\because 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}})] \\\\ &amp; \\Rightarrow \\frac{du}{dx}=2 \\times \\frac{1}{1+x^{2}}\\text{.... (i)} \\\\ &amp; \\text{and}v=tan^{-1}(\\frac{2x}{1-x^{2}}) \\end{aligned}$ </p>\n<p> $y=2tan^{-1}x[ \\because 2tan^{-1}x=tan^{-1}(\\frac{2x}{1-x^{2}})]$ </p>\n<p> $\\Rightarrow \\frac{dv}{dx}=\\frac{2}{1+x^{2}}\\text{.... (ii)}$ </p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p> $\\frac{dv}{dx}=1$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "u=sin^{-1}(\\frac{2x}{1+x^{2}})",
+        "v=tan^{-1}(\\frac{2x}{1-x^{2}})",
+        "\\frac{du}{dv}",
+        "y=2tan^{-1}x[ \\because 2tan^{-1}x=tan^{-1}(\\frac{2x}{1-x^{2}})]",
+        "\\Rightarrow \\frac{dv}{dx}=\\frac{2}{1+x^{2}}\\text{.... (ii)}",
+        "\\frac{dv}{dx}=1"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.513764"
+    },
+    {
+      "id": 8395,
+      "qid": "jaoe38c1locpxe23",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pan-enemy-fighter-jet-is-flying-along-the-curve-given-by-kcet-mathematics-complex-numbers-3kugxxmgbnha8ja7",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "A circular plate of radius $5cm$ is heated. Due to expansion, its radius increase at the rate of $0.05cm/s$ . The rate at which its area is increasing when the radius is $5.2cm$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A circular plate of radius  $5cm$  is heated. Due to expansion, its radius increase at the rate of  $0.05cm/s$ . The rate at which its area is increasing when the radius is  $5.2cm$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$27.4\\pi cm^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $27.4\\pi cm^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$5.05\\pi cm^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5.05\\pi cm^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0.52\\pi cm^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.52\\pi cm^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$5.2\\pi cm^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5.2\\pi cm^{2}/s$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $r$ be the radius of the circular disc and $A$ be the area of the circular disc at any instant of time. we know that $\\begin{aligned} A & =\\pi r^{2} \\\\ \\frac{dA}{dt} & =2\\pi r\\frac{dr}{dt} \\end{aligned}$ According to the question, the circular disc expands on heating with the rate of change of radius is $0.05cm/s$ $\\begin{aligned} \\frac{dr}{dt} & =0.05cm/s \\\\ \\frac{dA}{dt} & =2 \\times \\pi \\times 5.2 \\times 0.05 \\\\ \\Rightarrow \\frac{dA}{dt} & =0.52\\pi cm^{2}/s \\end{aligned}$ So, the rate at which its area is increasing, when radius is $5.2cm$ is $0.52\\pi cm^{2}/s$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $r$  be the radius of the circular disc and  $A$  be the area of the circular disc at any instant of time. we know that</p>\n<p> $\\begin{aligned} A &amp; =\\pi r^{2} \\\\ \\frac{dA}{dt} &amp; =2\\pi r\\frac{dr}{dt} \\end{aligned}$ </p>\n<p>According to the question, the circular disc expands on heating with the rate of change of radius is  $0.05cm/s$ </p>\n<p> $\\begin{aligned} \\frac{dr}{dt} &amp; =0.05cm/s \\\\ \\frac{dA}{dt} &amp; =2 \\times \\pi \\times 5.2 \\times 0.05 \\\\ \\Rightarrow \\frac{dA}{dt} &amp; =0.52\\pi cm^{2}/s \\end{aligned}$ </p>\n<p>So, the rate at which its area is increasing, when radius is  $5.2cm$  is  $0.52\\pi cm^{2}/s$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.792255"
+    },
+    {
+      "id": 8387,
+      "qid": "jaoe38c1locp6pg4",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxx-ex1-x-then-fx-isp-kcet-mathematics-complex-numbers-gmijmfspyzgyma7j",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The distance ' $s$ ' in meters travelled by a particle in ' $t$ ' seconds is given by $s=\\frac{2t^{3}}{3}-18t+\\frac{5}{3}$ . The acceleration when the particle comes to rest is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The distance ' $s$ ' in meters travelled by a particle in ' $t$ ' seconds is given by  $s=\\frac{2t^{3}}{3}-18t+\\frac{5}{3}$ . The acceleration when the particle comes to rest is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10m^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $10m^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$12m^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $12m^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$18m^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $18m^{2}/s$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$3m^{2}/s$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3m^{2}/s$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the acceleration when the particle comes to rest, we first have to determine at what time ' $t$ ' the particle comes to rest. A particle comes to rest when its velocity is zero. The velocity ' $v$ ' of a particle is given by the derivative of the position function with respect to time, which in this case is $v(t)=\\frac{ds}{dt}$ Let us find the velocity function by differentiating the given position function: $v(t)=\\frac{d}{dt}(\\frac{2t^{3}}{3}-18t+\\frac{5}{3})=\\frac{d}{dt}(\\frac{2t^{3}}{3})-\\frac{d}{dt}(18t)+\\frac{d}{dt}(\\frac{5}{3})$ Applying the differentiation rules, we get: $v(t)=\\frac{2}{3} \\cdot 3t^{2}-18=2t^{2}-18$ Now, we will set the velocity to zero to find the time ' $t$ ' when the particle comes to rest: $0=v(t)=2t^{2}-18$ Solving for ' $t$ ' gives: $2t^{2}=18$ $t^{2}=\\frac{18}{2}$ $t^{2}=9$ $t= \\pm 3$ Since time cannot be negative, we consider ' $t=3$ ' seconds. Now we need to find the acceleration at t=3 seconds. Acceleration ' $a$ ' is the derivative of the velocity function, i.e., $a(t)=\\frac{dv}{dt}$ Let us differentiate the velocity function to find the acceleration function: $a(t)=\\frac{d}{dt}(2t^{2}-18)=\\frac{d}{dt}(2t^{2})-\\frac{d}{dt}(18)$ Applying the differentiation rules, we get: $a(t)=2 \\cdot 2t-0=4t$ Finally, we find the acceleration when the particle comes to rest, i.e. at $t=3$ seconds: $a(3)=4 \\cdot 3=12m/s^{2}$ Therefore, the acceleration when the particle comes to rest is $12m/s^{2}$ , which corresponds to Option B.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the acceleration when the particle comes to rest, we first have to determine at what time ' $t$ ' the particle comes to rest. A particle comes to rest when its velocity is zero. The velocity ' $v$ ' of a particle is given by the derivative of the position function with respect to time, which in this case is </p>\n<p> $v(t)=\\frac{ds}{dt}$ </p>\n<p>Let us find the velocity function by differentiating the given position function:</p>\n<p> $v(t)=\\frac{d}{dt}(\\frac{2t^{3}}{3}-18t+\\frac{5}{3})=\\frac{d}{dt}(\\frac{2t^{3}}{3})-\\frac{d}{dt}(18t)+\\frac{d}{dt}(\\frac{5}{3})$ </p>\n<p>Applying the differentiation rules, we get:</p>\n<p> $v(t)=\\frac{2}{3} \\cdot 3t^{2}-18=2t^{2}-18$ </p>\n<p>Now, we will set the velocity to zero to find the time ' $t$ ' when the particle comes to rest:</p>\n<p> $0=v(t)=2t^{2}-18$ </p>\n<p>Solving for ' $t$ ' gives:</p>\n<p> $2t^{2}=18$ </p>\n<p> $t^{2}=\\frac{18}{2}$ </p>\n<p> $t^{2}=9$ </p>\n<p> $t= \\pm 3$ </p>\n<p>Since time cannot be negative, we consider ' $t=3$ ' seconds.</p>\n<p>Now we need to find the acceleration at t=3 seconds. Acceleration ' $a$ ' is the derivative of the velocity function, i.e., </p>\n<p> $a(t)=\\frac{dv}{dt}$ </p>\n<p>Let us differentiate the velocity function to find the acceleration function:</p>\n<p> $a(t)=\\frac{d}{dt}(2t^{2}-18)=\\frac{d}{dt}(2t^{2})-\\frac{d}{dt}(18)$ </p>\n<p>Applying the differentiation rules, we get:</p>\n<p> $a(t)=2 \\cdot 2t-0=4t$ </p>\n<p>Finally, we find the acceleration when the particle comes to rest, i.e. at  $t=3$  seconds:</p>\n<p> $a(3)=4 \\cdot 3=12m/s^{2}$ </p>\n<p>Therefore, the acceleration when the particle comes to rest is  $12m/s^{2}$ , which corresponds to Option B.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "v(t)=\\frac{ds}{dt}",
+        "t^{2}=\\frac{18}{2}",
+        "t^{2}=9",
+        "t= \\pm 3",
+        "t=3"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.528921"
+    },
+    {
+      "id": 8389,
+      "qid": "jaoe38c1locpayfr",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxx-ex1-x-then-fx-isp-kcet-mathematics-complex-numbers-gmijmfspyzgyma7j",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A particle moves along the curve $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ . When the rate of change of abscissa is 4 times that of its ordinate, then the quadrant in which the particle lies is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A particle moves along the curve  $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ . When the rate of change of abscissa is 4 times that of its ordinate, then the quadrant in which the particle lies is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "II or IV",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->II or IV\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "III or IV",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->III or IV\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "II or III",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->II or III\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "I or III",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->I or III<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, particles moves along the curve $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ $\\begin{aligned} & \\Rightarrow \\frac{2x}{16}+\\frac{2y}{4}\\frac{dy}{dx}=0 \\\\ & \\therefore \\frac{dy}{dx}=\\frac{-2x}{16} \\times \\frac{4}{2y}=\\frac{-x}{4y}\\text{.... (i)} \\end{aligned}$ According to the question, $x=4y$ From Eq. (i), we get $\\frac{dy}{dx}=-1$ When slope is negative, then the particle lies in Ist and IIIrd quadrant.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, particles moves along the curve</p>\n<p> $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{2x}{16}+\\frac{2y}{4}\\frac{dy}{dx}=0 \\\\ &amp; \\therefore \\frac{dy}{dx}=\\frac{-2x}{16} \\times \\frac{4}{2y}=\\frac{-x}{4y}\\text{.... (i)} \\end{aligned}$ </p>\n<p>According to the question,  $x=4y$ </p>\n<p>From Eq. (i), we get</p>\n<p> $\\frac{dy}{dx}=-1$ </p>\n<p>When slope is negative, then the particle lies in Ist and IIIrd quadrant.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.582387"
+    },
+    {
+      "id": 8401,
+      "qid": "jaoe38c1ls1t2gay",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-function-fx4-sin-3-x-6-sin-2-x-12-sin-x10-kcet-mathematics-complex-numbers-26xusupph6ilztui",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The function $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$ is strictly",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function  $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$  is strictly</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "decreasing in $[\\frac{-\\pi}{2},\\frac{\\pi}{2}]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->decreasing in  $[\\frac{-\\pi}{2},\\frac{\\pi}{2}]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "decreasing in $[0,\\frac{\\pi}{2}]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->decreasing in  $[0,\\frac{\\pi}{2}]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "increasing in $(\\pi,\\frac{3\\pi}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->increasing in  $(\\pi,\\frac{3\\pi}{2})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "decreasing in $(\\frac{\\pi}{2},\\pi)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->decreasing in  $(\\frac{\\pi}{2},\\pi)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$ $\\begin{aligned} f^{'}(x) & =12sin^{2}x \\cdot cosx-12sinxcosx+12cosx \\\\ & =12cosx[sin^{2}x-sinx+1] \\\\ & =12cosx[sin^{2}x+(1-sinx)] \\end{aligned}$ We know, $1-sinx \\ge 0$ and $sin^{2}x \\ge 0$ $\\therefore sin^{2}x+1-sinx>0$ Therefore, $f^{'}(x)>0$ , when $cosx>0 \\Rightarrow x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$ So, $f(x)$ is increasing when $x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$ and $f^{'}(x)<0$ , when $cosx<0 \\Rightarrow x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ So, $f(x)$ is decreasing when $x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ Hence, $f(x)$ is decreasing in $(\\frac{\\pi}{2},\\pi)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=4sin^{3}x-6sin^{2}x+12sinx+100$ </p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =12sin^{2}x \\cdot cosx-12sinxcosx+12cosx \\\\ &amp; =12cosx[sin^{2}x-sinx+1] \\\\ &amp; =12cosx[sin^{2}x+(1-sinx)] \\end{aligned}$ </p>\n<p>We know,  $1-sinx \\ge 0$  and  $sin^{2}x \\ge 0$ </p>\n<p> $\\therefore sin^{2}x+1-sinx&gt;0$ </p>\n<p>Therefore,  $f^{'}(x)&gt;0$ , when  $cosx&gt;0 \\Rightarrow x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$ </p>\n<p>So,  $f(x)$  is increasing when  $x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})$  and  $f^{'}(x)&lt;0$ , when  $cosx&lt;0 \\Rightarrow x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>So,  $f(x)$  is decreasing when  $x \\in (\\frac{\\pi}{2},\\frac{3\\pi}{2})$ </p>\n<p>Hence,  $f(x)$  is decreasing in  $(\\frac{\\pi}{2},\\pi)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=4sin^{3}x-6sin^{2}x+12sinx+100",
+        "\\therefore sin^{2}x+1-sinx>0",
+        "f^{'}(x)>0",
+        "cosx>0 \\Rightarrow x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})",
+        "x \\in (\\frac{-\\pi}{2},\\frac{\\pi}{2})",
+        "f^{'}(x)<0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.079992"
+    },
+    {
+      "id": 8397,
+      "qid": "jaoe38c1ls1stwiu",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pan-enemy-fighter-jet-is-flying-along-the-curve-given-by-kcet-mathematics-complex-numbers-3kugxxmgbnha8ja7",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The function $f(x)=log(1+x)-\\frac{2x}{2+x}$ is increasing on",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function  $f(x)=log(1+x)-\\frac{2x}{2+x}$  is increasing on</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-\\infty,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,\\infty)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(\\infty,-1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(\\infty,-1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(-1,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-1,\\infty)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(-\\infty,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,0)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $f(x)=log(1+x)-\\frac{2x}{2+x}$ Differentiating the function w.r.t. $x$ , we get $\\begin{aligned} & f^{'}(x)=\\frac{1}{(1+x)}(0+1)-2[\\frac{(2+x) \\times 1-x(0+1)}{(2+x)^{2}}] \\\\ & =\\frac{1}{1+x}-2[\\frac{2+x-x}{(2+x)^{2}}]=\\frac{1}{1+x}-\\frac{4}{(2+x)^{2}} \\\\ & =\\frac{(2+x)^{2}-4(1+x)}{(1+x)(2+x)^{2}}=\\frac{4+x^{2}+4x-4-4x}{(x+1)(x+2)^{2}} \\\\ & =\\frac{x^{2}}{(x+1)(x+2)^{2}}=(\\frac{x}{x+2})^{2} \\cdot \\frac{1}{(x+1)} \\end{aligned}$ Sign of $f^{'}(x)$ depends on the sign of $\\frac{1}{(x+1)}$ $f^{'}(x)>0$ when $x>-1 \\Rightarrow$ increasing $f^{'}(x)<0$ when $x<-1 \\Rightarrow$ decreasing Hence, $f(x)$ is increasing on $(-1,\\infty)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $f(x)=log(1+x)-\\frac{2x}{2+x}$ </p>\n<p>Differentiating the function w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=\\frac{1}{(1+x)}(0+1)-2[\\frac{(2+x) \\times 1-x(0+1)}{(2+x)^{2}}] \\\\ &amp; =\\frac{1}{1+x}-2[\\frac{2+x-x}{(2+x)^{2}}]=\\frac{1}{1+x}-\\frac{4}{(2+x)^{2}} \\\\ &amp; =\\frac{(2+x)^{2}-4(1+x)}{(1+x)(2+x)^{2}}=\\frac{4+x^{2}+4x-4-4x}{(x+1)(x+2)^{2}} \\\\ &amp; =\\frac{x^{2}}{(x+1)(x+2)^{2}}=(\\frac{x}{x+2})^{2} \\cdot \\frac{1}{(x+1)} \\end{aligned}$ </p>\n<p>Sign of  $f^{'}(x)$  depends on the sign of  $\\frac{1}{(x+1)}$ </p>\n<p> $f^{'}(x)&gt;0$  when  $x&gt;-1 \\Rightarrow$  increasing</p>\n<p> $f^{'}(x)&lt;0$  when  $x&lt;-1 \\Rightarrow$  decreasing</p>\n<p>Hence,  $f(x)$  is increasing on  $(-1,\\infty)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=log(1+x)-\\frac{2x}{2+x}",
+        "f^{'}(x)>0",
+        "f^{'}(x)<0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.804936"
+    },
+    {
+      "id": 8399,
+      "qid": "jaoe38c1ls1sx2p0",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pan-enemy-fighter-jet-is-flying-along-the-curve-given-by-kcet-mathematics-complex-numbers-3kugxxmgbnha8ja7",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The coordinates of the point on the $\\sqrt{x}+\\sqrt{y}=6$ at which the tangent is equally inclined to the axes is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The coordinates of the point on the  $\\sqrt{x}+\\sqrt{y}=6$  at which the tangent is equally inclined to the axes is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(4,4)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(4,4)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(1,1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(1,1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(9,9)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(9,9)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(6,6)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(6,6)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\sqrt{x}+\\sqrt{y}=6$ $\\sqrt{x}+\\sqrt{y}=6$ Differentiating w.r.t. $x$ , we get $\\frac{1}{2\\sqrt{x}}+\\frac{1}{2\\sqrt{y}}\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=-\\frac{\\sqrt{y}}{\\sqrt{x}}$ Since, the tangent is equally inclined to the axes. $\\begin{aligned} & \\frac{dy}{dx}= \\pm 1 \\Rightarrow -\\frac{\\sqrt{y}}{\\sqrt{x}}= \\pm 1 \\\\ \\Rightarrow & \\sqrt{y}= \\pm \\sqrt{x} \\Rightarrow y=x \\end{aligned}$ Therefore, $\\sqrt{x}+\\sqrt{y}=6 \\Rightarrow \\sqrt{x}+\\sqrt{x}=6 \\Rightarrow 2\\sqrt{x}=6$ $\\begin{aligned} & \\Rightarrow \\sqrt{x}=3 \\Rightarrow x=9 \\\\ & \\therefore x=9\\text{and}y=9 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $\\sqrt{x}+\\sqrt{y}=6$ </p>\n<p> $\\sqrt{x}+\\sqrt{y}=6$ </p>\n<p>Differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{2\\sqrt{x}}+\\frac{1}{2\\sqrt{y}}\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=-\\frac{\\sqrt{y}}{\\sqrt{x}}$ </p>\n<p>Since, the tangent is equally inclined to the axes.</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}= \\pm 1 \\Rightarrow -\\frac{\\sqrt{y}}{\\sqrt{x}}= \\pm 1 \\\\ \\Rightarrow &amp; \\sqrt{y}= \\pm \\sqrt{x} \\Rightarrow y=x \\end{aligned}$ </p>\n<p>Therefore,  $\\sqrt{x}+\\sqrt{y}=6 \\Rightarrow \\sqrt{x}+\\sqrt{x}=6 \\Rightarrow 2\\sqrt{x}=6$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\sqrt{x}=3 \\Rightarrow x=9 \\\\ &amp; \\therefore x=9\\text{and}y=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\sqrt{x}+\\sqrt{y}=6"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:10.823281"
+    },
+    {
+      "id": 8409,
+      "qid": "ltd1agyu",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-maximum-slope-of-the-curve-y-x33-x22-x-27-is-kcet-mathematics-complex-numbers-lybyxiuqrcdoh1gl",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The maximum slope of the curve $y=-x^{3}+3x^{2}+2x-27$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The maximum slope of the curve  $y=-x^{3}+3x^{2}+2x-27$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "23",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->23<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-$ 23",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-$ 23<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$y=-x^{3}+3x^{2}+2x-27$ On differentiating w.r.t. $x$ , we get $\\frac{dy}{dx}=-3x^{2}+6x+2$ Slope of the curve $=-3x^{2}+6x+2$ Let $m=-3x^{2}+6x+2$ $\\therefore \\frac{dm}{dx}=-6x+6$ Put $\\frac{dm}{dx}=0$ to find the critical points, $\\begin{aligned} \\Rightarrow & -6x+6=0 \\\\ \\Rightarrow & x=1 \\\\ & (\\frac{d^{2}m}{dx^{2}})_{x=1}=-6<0 \\end{aligned}$ Slope is maximum at $x=1$ The maximum slope, $\\begin{aligned} m_{max} & =-3(1)^{2}+6(l)+2 \\\\ & =-3+6+2=5 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $y=-x^{3}+3x^{2}+2x-27$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{dy}{dx}=-3x^{2}+6x+2$ </p>\n<p>Slope of the curve  $=-3x^{2}+6x+2$ </p>\n<p>Let  $m=-3x^{2}+6x+2$ </p>\n<p> $\\therefore \\frac{dm}{dx}=-6x+6$ </p>\n<p>Put  $\\frac{dm}{dx}=0$  to find the critical points,</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; -6x+6=0 \\\\ \\Rightarrow &amp; x=1 \\\\ &amp; (\\frac{d^{2}m}{dx^{2}})_{x=1}=-6&lt;0 \\end{aligned}$ </p>\n<p>Slope is maximum at  $x=1$ </p>\n<p>The maximum slope,</p>\n<p> $\\begin{aligned} m_{max} &amp; =-3(1)^{2}+6(l)+2 \\\\ &amp; =-3+6+2=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=-x^{3}+3x^{2}+2x-27",
+        "\\therefore \\frac{dm}{dx}=-6x+6",
+        "\\frac{dm}{dx}=0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.360847"
+    },
+    {
+      "id": 8404,
+      "qid": "ltd1cmro",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-function-fx4-sin-3-x-6-sin-2-x-12-sin-x10-kcet-mathematics-complex-numbers-26xusupph6ilztui",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The cost and revenue functions of a product are given by $c(x)=20x+4000$ and $R(x)=60x+2000$ respectively, where $x$ is the number of items produced and sold. The value of $x$ to earn profit is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The cost and revenue functions of a product are given by  $c(x)=20x+4000$  and  $R(x)=60x+2000$  respectively, where  $x$  is the number of items produced and sold. The value of  $x$  to earn profit is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "> 50",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->&gt; 50<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "> 60",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->&gt; 60<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "> 80",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->&gt; 80<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "> 40",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->&gt; 40<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $C(x)=20x+4000$ $R(x)=60x+2000$ $x=$ number of items produced and sold To earn profit, $R(x)-C(x)>0$ $\\begin{aligned} \\Rightarrow & 60x+2000-20x-4000>0 \\\\ \\Rightarrow & 40x-2000>0 \\\\ \\Rightarrow & 40x>2000 \\\\ \\Rightarrow & x>50 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $C(x)=20x+4000$ </p>\n<p> $R(x)=60x+2000$ </p>\n<p> $x=$  number of items produced and sold</p>\n<p>To earn profit,  $R(x)-C(x)&gt;0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 60x+2000-20x-4000&gt;0 \\\\ \\Rightarrow &amp; 40x-2000&gt;0 \\\\ \\Rightarrow &amp; 40x&gt;2000 \\\\ \\Rightarrow &amp; x&gt;50 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "c(x)=20x+4000",
+        "R(x)=60x+2000"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.112747"
+    },
+    {
+      "id": 8406,
+      "qid": "ltd1c0hh",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-function-fx4-sin-3-x-6-sin-2-x-12-sin-x10-kcet-mathematics-complex-numbers-26xusupph6ilztui",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "A particle starts form rest and its angular displacement (in radians) is given by $\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}$ . If the angular velocity at the end of $t=4$ is $k$ , then the value of $5k$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A particle starts form rest and its angular displacement (in radians) is given by  $\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}$ . If the angular velocity at the end of  $t=4$  is  $k$ , then the value of  $5k$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "5k",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5k<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}$ On differentiating $\\theta$ w.r.t. $t$ , $\\begin{aligned} \\frac{d\\theta}{dt} & =\\frac{t}{10}+\\frac{1}{5} \\\\ (\\frac{d\\theta}{dt})_{t=4} & =\\frac{4}{10}+\\frac{1}{5} \\\\ \\Rightarrow k & =\\frac{3}{5} \\\\ \\therefore 5k & =3 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}$ </p>\n<p>On differentiating  $\\theta$  w.r.t.  $t$ ,</p>\n<p> $\\begin{aligned} \\frac{d\\theta}{dt} &amp; =\\frac{t}{10}+\\frac{1}{5} \\\\ (\\frac{d\\theta}{dt})_{t=4} &amp; =\\frac{4}{10}+\\frac{1}{5} \\\\ \\Rightarrow k &amp; =\\frac{3}{5} \\\\ \\therefore 5k &amp; =3 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\theta=\\frac{t^{2}}{20}+\\frac{t}{5}",
+        "t=4"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.158578"
+    },
+    {
+      "id": 8408,
+      "qid": "ltd1d9ry",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-function-fx4-sin-3-x-6-sin-2-x-12-sin-x10-kcet-mathematics-complex-numbers-26xusupph6ilztui",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The function $f(x)=x^{2}-2x$ is strictly decreasing in the interval",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The function  $f(x)=x^{2}-2x$  is strictly decreasing in the interval</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-\\infty,1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(1,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(1,\\infty)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$R$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $R$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(-\\infty,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,\\infty)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & f(x)=x^{2}-2x \\\\ & \\therefore f^{'}(x)=2x-2 \\end{aligned}$ $f(x)$ is strictly decreasing, when $f^{'}(x)<0$ $\\begin{aligned} & f^{'}(x)<0 \\\\ \\Rightarrow & 2(x-1)<0 \\\\ \\Rightarrow & x<1 \\end{aligned}$ Hence, $f(x)$ is strictly decreasing in the interval $(-\\infty,1)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; f(x)=x^{2}-2x \\\\ &amp; \\therefore f^{'}(x)=2x-2 \\end{aligned}$ </p>\n<p> $f(x)$  is strictly decreasing, when  $f^{'}(x)&lt;0$ </p>\n<p> $\\begin{aligned} &amp; f^{'}(x)&lt;0 \\\\ \\Rightarrow &amp; 2(x-1)&lt;0 \\\\ \\Rightarrow &amp; x&lt;1 \\end{aligned}$ </p>\n<p>Hence,  $f(x)$  is strictly decreasing in the interval  $(-\\infty,1)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=x^{2}-2x",
+        "\\begin{aligned} & f(x)=x^{2}-2x \\\\ & \\therefore f^{'}(x)=2x-2 \\end{aligned}",
+        "f^{'}(x)<0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.205161"
+    },
+    {
+      "id": 8410,
+      "qid": "ltj8xys8",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-maximum-slope-of-the-curve-y-x33-x22-x-27-is-kcet-mathematics-complex-numbers-lybyxiuqrcdoh1gl",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If the curves $2x=y^{2}$ and $2xy=K$ intersect perpendicularly, then the value of $K^{2}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the curves  $2x=y^{2}$  and  $2xy=K$  intersect perpendicularly, then the value of  $K^{2}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2 $\\sqrt{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2 $\\sqrt{2}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->8<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given curves are $2x=y^{2}\\text{.... (i)}$ and $2xy=K\\text{.... (ii)}$ On solving both Eqs. (i) and (ii), we get $x=\\frac{K^{2/3}}{2}\\text{and}=K^{1/3}$ $\\therefore \\text{Intersecting point of both curves is}(\\frac{K^{2/3}}{2},K^{1/3})$ Now differentiate Eq. (i) w.r.t. $x$ , we get $\\begin{aligned} & 2=2y\\frac{dy}{dx} \\\\ & \\Rightarrow \\frac{dy}{dx}=\\frac{1}{y} \\end{aligned}$ $\\therefore$ Slope of tangent at $(\\frac{K^{2/3}}{2},K^{1/3})=\\frac{1}{K^{1/3}}$ And differentiate Eq. (ii) w.r.t. $x$ , we get $2(x\\frac{dy}{dx}+y)=0 \\Rightarrow \\frac{dy}{dx}=\\frac{-y}{x}$ $\\therefore$ Slope of tangent at $(\\frac{K^{2/3}}{2},K^{1/3})$ $=\\frac{-K^{1/3}}{K^{2/3}/2}=-2K^{-1/3}$ Since, both curves intersect perpendicularly $\\begin{aligned} & \\therefore \\frac{1}{K^{1/3}} \\times (-2K^{-1/3})=-1 \\\\ & \\Rightarrow -2K^{-2/3}=-1 \\Rightarrow K^{2/3}=2 \\Rightarrow K^{2}=8 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given curves are</p>\n<p> $2x=y^{2}\\text{.... (i)}$ </p>\n<p>and  $2xy=K\\text{.... (ii)}$ </p>\n<p>On solving both Eqs. (i) and (ii), we get</p>\n<p> $x=\\frac{K^{2/3}}{2}\\text{and}=K^{1/3}$ </p>\n<p> $\\therefore \\text{Intersecting point of both curves is}(\\frac{K^{2/3}}{2},K^{1/3})$ </p>\n<p>Now differentiate Eq. (i) w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} &amp; 2=2y\\frac{dy}{dx} \\\\ &amp; \\Rightarrow \\frac{dy}{dx}=\\frac{1}{y} \\end{aligned}$ </p>\n<p> $\\therefore$  Slope of tangent at  $(\\frac{K^{2/3}}{2},K^{1/3})=\\frac{1}{K^{1/3}}$ </p>\n<p>And differentiate Eq. (ii) w.r.t.  $x$ , we get</p>\n<p> $2(x\\frac{dy}{dx}+y)=0 \\Rightarrow \\frac{dy}{dx}=\\frac{-y}{x}$ </p>\n<p> $\\therefore$  Slope of tangent at  $(\\frac{K^{2/3}}{2},K^{1/3})$ </p>\n<p> $=\\frac{-K^{1/3}}{K^{2/3}/2}=-2K^{-1/3}$ </p>\n<p>Since, both curves intersect perpendicularly</p>\n<p> $\\begin{aligned} &amp; \\therefore \\frac{1}{K^{1/3}} \\times (-2K^{-1/3})=-1 \\\\ &amp; \\Rightarrow -2K^{-2/3}=-1 \\Rightarrow K^{2/3}=2 \\Rightarrow K^{2}=8 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "2x=y^{2}",
+        "2xy=K",
+        "K^{2}",
+        "2x=y^{2}\\text{.... (i)}",
+        "2xy=K\\text{.... (ii)}",
+        "x=\\frac{K^{2/3}}{2}\\text{and}=K^{1/3}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.388899"
+    },
+    {
+      "id": 8411,
+      "qid": "ltj8xa7a",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-maximum-slope-of-the-curve-y-x33-x22-x-27-is-kcet-mathematics-complex-numbers-lybyxiuqrcdoh1gl",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If the side of a cube is increased by $5%$ , then the surface area of a cube is increased by",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the side of a cube is increased by  $5%$ , then the surface area of a cube is increased by</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "10%",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10%<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "60%",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->60%<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "6%",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6%<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "20%",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->20%<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We know that the surface area of cube is given by $S=6x^{2}$ $\\begin{aligned} \\therefore \\frac{dS}{dx} & =12x^{2} \\\\ \\Delta x & =5%\\text{of}x=0.05x \\end{aligned}$ The surface area of a cube is increased by $=\\frac{\\Delta S}{S} \\times 100%$ $\\begin{aligned} & =\\frac{(\\frac{dS}{dx})\\Delta x}{S} \\times 100% \\\\ & =\\frac{12x \\times (0.05x)}{6x^{2}} \\times 100% \\\\ & =0.10 \\times 100%=10% \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that the surface area of cube is given by  $S=6x^{2}$ </p>\n<p> $\\begin{aligned} \\therefore \\frac{dS}{dx} &amp; =12x^{2} \\\\ \\Delta x &amp; =5%\\text{of}x=0.05x \\end{aligned}$ </p>\n<p>The surface area of a cube is increased by  $=\\frac{\\Delta S}{S} \\times 100%$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{(\\frac{dS}{dx})\\Delta x}{S} \\times 100% \\\\ &amp; =\\frac{12x \\times (0.05x)}{6x^{2}} \\times 100% \\\\ &amp; =0.10 \\times 100%=10% \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "S=6x^{2}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.419804"
+    },
+    {
+      "id": 8412,
+      "qid": "ltj8xnbv",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-maximum-slope-of-the-curve-y-x33-x22-x-27-is-kcet-mathematics-complex-numbers-lybyxiuqrcdoh1gl",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The maximum value of $\\frac{log_{e}x}{x}$ , if $x>0$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The maximum value of  $\\frac{log_{e}x}{x}$ , if  $x&gt;0$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{1}{e}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $y=\\frac{log_{e}x}{x}$ $\\Rightarrow \\frac{dy}{dx}=\\frac{x \\cdot \\frac{1}{x}-log_{e}x \\cdot 1}{x^{2}}=\\frac{1-log_{e}x}{x^{2}}$ For maximum, put $\\frac{dy}{dx}=0$ $\\begin{aligned} \\Rightarrow & 1-log_{e}x=0 \\\\ \\Rightarrow & log_{e}x=1 \\\\ \\Rightarrow & x=e \\end{aligned}$ $\\begin{aligned} & \\text{Now,}\\frac{d^{2}y}{dx^{2}}=\\frac{x^{2}(0-\\frac{1}{x})-(1-log_{e}x)(2x)}{x^{4}} \\\\ & =\\frac{-x-2x(1-log_{e}x)}{x^{4}} \\\\ & \\therefore (\\frac{d^{2}y}{dx^{2}})_{\\text{at}x=e}<0 \\\\ & \\therefore y(e)=\\frac{log_{e}e}{e}=\\frac{1}{e} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=\\frac{log_{e}x}{x}$ </p>\n<p> $\\Rightarrow \\frac{dy}{dx}=\\frac{x \\cdot \\frac{1}{x}-log_{e}x \\cdot 1}{x^{2}}=\\frac{1-log_{e}x}{x^{2}}$ </p>\n<p>For maximum, put  $\\frac{dy}{dx}=0$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; 1-log_{e}x=0 \\\\ \\Rightarrow &amp; log_{e}x=1 \\\\ \\Rightarrow &amp; x=e \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}\\frac{d^{2}y}{dx^{2}}=\\frac{x^{2}(0-\\frac{1}{x})-(1-log_{e}x)(2x)}{x^{4}} \\\\ &amp; =\\frac{-x-2x(1-log_{e}x)}{x^{4}} \\\\ &amp; \\therefore (\\frac{d^{2}y}{dx^{2}})_{\\text{at}x=e}&lt;0 \\\\ &amp; \\therefore y(e)=\\frac{log_{e}e}{e}=\\frac{1}{e} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{log_{e}x}{x}",
+        "y=\\frac{log_{e}x}{x}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.457306"
+    },
+    {
+      "id": 8413,
+      "qid": "ltw4punc",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-interval-in-which-the-function-fxx3-6-x29-x1-kcet-mathematics-complex-numbers-rj8l8xlhxksyxajm",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The interval in which the function $f(x)=x^{3}-6x^{2}+9x+10$ is increasing in",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The interval in which the function  $f(x)=x^{3}-6x^{2}+9x+10$  is increasing in</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$[1,3]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[1,3]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(-\\infty,1)∪(3,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,1)∪(3,\\infty)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(-\\infty,-1]∪[3,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,-1]∪[3,\\infty)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(-\\infty,1]∪[3,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-\\infty,1]∪[3,\\infty)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{We have,}f(x)=x^{3}-6x^{2}+9x+10 \\\\ & \\begin{aligned} \\Rightarrow f^{'}(x) & =3x^{2}-12x+9=3(x^{2}-4x+3) \\\\ & =3(x-1)(x-3) \\end{aligned} \\end{aligned}$ Here, $f^{'}(x) \\ge 0$ if $x \\in (-\\infty,1)∪(3,\\infty)$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,}f(x)=x^{3}-6x^{2}+9x+10 \\\\ &amp; \\begin{aligned} \\Rightarrow f^{'}(x) &amp; =3x^{2}-12x+9=3(x^{2}-4x+3) \\\\ &amp; =3(x-1)(x-3) \\end{aligned} \\end{aligned}$ </p>\n<p><img alt=\"KCET 2019 Mathematics - Application of Derivatives Question 17 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>Here,  $f^{'}(x) \\ge 0$  if  $x \\in (-\\infty,1)∪(3,\\infty)$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltv34hgn/9f92b16e-0b4d-4f1b-8bb0-7c997c59fa3a/68311e80-e420-11ee-8cb6-ff9048f17d4f/file-1ltv34hgo.png?format=png"
+      ],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "f(x)=x^{3}-6x^{2}+9x+10"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.665296"
+    },
+    {
+      "id": 8414,
+      "qid": "ltw4ptev",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-interval-in-which-the-function-fxx3-6-x29-x1-kcet-mathematics-complex-numbers-rj8l8xlhxksyxajm",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The sides of an equilateral triangle are increasing at the rate of $4cm/sec$ . The rate at which its area is increasing, when the side is $14cm$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sides of an equilateral triangle are increasing at the rate of  $4cm/sec$ . The rate at which its area is increasing, when the side is  $14cm$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$42cm^{2}/sec$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $42cm^{2}/sec$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$10\\sqrt{3}cm^{2}/sec$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $10\\sqrt{3}cm^{2}/sec$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$14cm^{2}/sec$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $14cm^{2}/sec$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$14\\sqrt{3}cm^{2}/sec$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $14\\sqrt{3}cm^{2}/sec$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\frac{dx}{dt}=4cm/sec$ Area of equilateral triangle, $A=\\frac{\\sqrt{3}}{4}x^{2}$ $\\Rightarrow \\frac{dA}{dt}=\\frac{\\sqrt{3}}{4}(2x)\\frac{dx}{dt}=\\frac{\\sqrt{3}}{2}x(4) \\Rightarrow \\frac{dA}{dt}=2\\sqrt{3}x$ when $x=14cm$ , then $\\frac{dA}{dt}=2\\sqrt{3}(14)=28\\sqrt{3}cm^{2}$ Any option is not matching",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\frac{dx}{dt}=4cm/sec$ </p>\n<p>Area of equilateral triangle,  $A=\\frac{\\sqrt{3}}{4}x^{2}$ </p>\n<p> $\\Rightarrow \\frac{dA}{dt}=\\frac{\\sqrt{3}}{4}(2x)\\frac{dx}{dt}=\\frac{\\sqrt{3}}{2}x(4) \\Rightarrow \\frac{dA}{dt}=2\\sqrt{3}x$ </p>\n<p>when  $x=14cm$ , then  $\\frac{dA}{dt}=2\\sqrt{3}(14)=28\\sqrt{3}cm^{2}$ </p>\n<p>Any option is not matching</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{dx}{dt}=4cm/sec",
+        "A=\\frac{\\sqrt{3}}{4}x^{2}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.674911"
+    },
+    {
+      "id": 8417,
+      "qid": "m7ish1h9",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/fxxx-has-stationary-point-at-kcet-mathematics-complex-numbers-tkmtnplygloyj4mo",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$f(x)=x^{x}$ has stationary point at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $f(x)=x^{x}$  has stationary point at\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x=e$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=e$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x=\\frac{1}{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=\\frac{1}{e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x=1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$x=\\sqrt{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=\\sqrt{e}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the stationary point of the function $f(x)=x^{x}$ , we begin by expressing it in terms of the exponential function: $f(x)=x^{x}=e^{xlogx}$ Next, we calculate the derivative of $f(x)$ : $f^{'}(x)=\\frac{d}{dx}(e^{xlogx})=e^{xlogx} \\cdot (1+logx)$ For a stationary point, the derivative $f^{'}(x)$ must be equal to zero: $e^{xlogx} \\cdot (1+logx)=0$ Since $e^{xlogx}$ is always positive and can never be zero, this implies: $1+logx=0$ Solving for $x$ , we find: $logx=-1 \\Rightarrow x=\\frac{1}{e}$ Therefore, the function $f(x)=x^{x}$ has a stationary point at $x=\\frac{1}{e}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the stationary point of the function  $f(x)=x^{x}$ , we begin by expressing it in terms of the exponential function:</p>\n<p> $f(x)=x^{x}=e^{xlogx}$ </p>\n<p>Next, we calculate the derivative of  $f(x)$ :</p>\n<p> $f^{'}(x)=\\frac{d}{dx}(e^{xlogx})=e^{xlogx} \\cdot (1+logx)$ </p>\n<p>For a stationary point, the derivative  $f^{'}(x)$  must be equal to zero:</p>\n<p> $e^{xlogx} \\cdot (1+logx)=0$ </p>\n<p>Since  $e^{xlogx}$  is always positive and can never be zero, this implies:</p>\n<p> $1+logx=0$ </p>\n<p>Solving for  $x$ , we find:</p>\n<p> $logx=-1 \\Rightarrow x=\\frac{1}{e}$ </p>\n<p>Therefore, the function  $f(x)=x^{x}$  has a stationary point at  $x=\\frac{1}{e}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=x^{x}",
+        "f(x)=x^{x}=e^{xlogx}",
+        "f^{'}(x)=\\frac{d}{dx}(e^{xlogx})=e^{xlogx} \\cdot (1+logx)",
+        "f^{'}(x)",
+        "e^{xlogx} \\cdot (1+logx)=0",
+        "e^{xlogx}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.849464"
+    },
+    {
+      "id": 8415,
+      "qid": "m7isgy7i",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-interval-in-which-the-function-fxx3-6-x29-x1-kcet-mathematics-complex-numbers-rj8l8xlhxksyxajm",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Approximate change in the volume $V$ of a cube of side $x$ metres caused by increasing the side by $3%$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Approximate change in the volume  $V$  of a cube of side  $x$  metres caused by increasing the side by  $3%$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.09x^{3}m^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.09x^{3}m^{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$0.03x^{3}m^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.03x^{3}m^{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0.06x^{3}m^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.06x^{3}m^{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$0.04x^{3}m^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.04x^{3}m^{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The explanation calculates the approximate change in the volume of a cube when its side length is increased by 3%. Volume of a Cube : The volume $V$ of a cube with side length $x$ is given by the formula: $V=x^{3}$ Derivative of the Volume : The rate of change of the volume with respect to the side length $x$ is: $\\frac{dV}{dx}=3x^{2}$ Change in Side Length : Since the side length is increased by 3%, the change in $x$ is: $dx=3%\\text{of}x=0.03x$ Approximate Change in Volume : The approximate change in the volume, $dV$ , is calculated using the derivative: $dV=(\\frac{dV}{dx}) \\cdot dx=3x^{2} \\cdot 0.03x$ This simplifies to: $dV=0.09x^{3}\\text{m}^{3}$ Therefore, the approximate change in the volume of the cube is $0.09x^{3}\\text{m}^{3}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The explanation calculates the approximate change in the volume of a cube when its side length is increased by 3%.</p>\n<p><p><strong>Volume of a Cube</strong>: The volume  $V$  of a cube with side length  $x$  is given by the formula:</p>\n<p> $V=x^{3}$ </p></p>\n<p><p><strong>Derivative of the Volume</strong>: The rate of change of the volume with respect to the side length  $x$  is:</p>\n<p> $\\frac{dV}{dx}=3x^{2}$ </p></p>\n<p><p><strong>Change in Side Length</strong>: Since the side length is increased by 3%, the change in  $x$  is:</p>\n<p> $dx=3%\\text{of}x=0.03x$ </p></p>\n<p><p><strong>Approximate Change in Volume</strong>: The approximate change in the volume,  $dV$ , is calculated using the derivative:</p>\n<p> $dV=(\\frac{dV}{dx}) \\cdot dx=3x^{2} \\cdot 0.03x$ </p>\n<p>This simplifies to:</p>\n<p> $dV=0.09x^{3}\\text{m}^{3}$ </p></p>\n<p>Therefore, the approximate change in the volume of the cube is  $0.09x^{3}\\text{m}^{3}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.686334"
+    },
+    {
+      "id": 8416,
+      "qid": "m7isgyao",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-interval-in-which-the-function-fxx3-6-x29-x1-kcet-mathematics-complex-numbers-rj8l8xlhxksyxajm",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The maximum value of $(\\frac{1}{x})^{x}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The maximum value of  $(\\frac{1}{x})^{x}$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "e",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->e\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$e^{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$e^{1/e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{1/e}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(\\frac{1}{e})^{1/e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(\\frac{1}{e})^{1/e}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the maximum value of the function $f(x)=(\\frac{1}{x})^{x}$ , we start by rewriting it in a form that is easier to differentiate: $f(x)=x^{-x}=e^{-xlogx}$ Next, we differentiate $f(x)$ with respect to $x$ : $f^{'}(x)=e^{-xlogx}(-1-logx)$ Simplifying the expression, we have: $f^{'}(x)=-x^{-x}(1+logx)$ To find the critical points for potential maxima or minima, we set $f^{'}(x)=0$ : $-x^{-x}(1+logx)=0$ This implies: $1+logx=0$ Solving for $x$ , we get: $logx=-1 \\Rightarrow x=e^{-1}=\\frac{1}{e}$ The function $f(x)$ attains a maximum value at this point. Substituting back to find the maximum value: $f(\\frac{1}{e})=(\\frac{1}{1/e})^{1/e}=e^{1/e}$ Thus, the maximum value of $(\\frac{1}{x})^{x}$ is $e^{1/e}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the maximum value of the function  $f(x)=(\\frac{1}{x})^{x}$ , we start by rewriting it in a form that is easier to differentiate:</p>\n<p> $f(x)=x^{-x}=e^{-xlogx}$ </p>\n<p>Next, we differentiate  $f(x)$  with respect to  $x$ :</p>\n<p> $f^{'}(x)=e^{-xlogx}(-1-logx)$ </p>\n<p>Simplifying the expression, we have:</p>\n<p> $f^{'}(x)=-x^{-x}(1+logx)$ </p>\n<p>To find the critical points for potential maxima or minima, we set  $f^{'}(x)=0$ :</p>\n<p> $-x^{-x}(1+logx)=0$ </p>\n<p>This implies:</p>\n<p> $1+logx=0$ </p>\n<p>Solving for  $x$ , we get:</p>\n<p> $logx=-1 \\Rightarrow x=e^{-1}=\\frac{1}{e}$ </p>\n<p>The function  $f(x)$  attains a maximum value at this point. Substituting back to find the maximum value:</p>\n<p> $f(\\frac{1}{e})=(\\frac{1}{1/e})^{1/e}=e^{1/e}$ </p>\n<p>Thus, the maximum value of  $(\\frac{1}{x})^{x}$  is  $e^{1/e}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(\\frac{1}{x})^{x}",
+        "f(x)=(\\frac{1}{x})^{x}",
+        "f(x)=x^{-x}=e^{-xlogx}",
+        "f(\\frac{1}{e})=(\\frac{1}{1/e})^{1/e}=e^{1/e}",
+        "e^{1/e}"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.693757"
+    },
+    {
+      "id": 8421,
+      "qid": "m9duq345",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-value-of-c-in-mean-value-theorem-for-the-function-fx-kcet-mathematics-complex-numbers-vrttiejcfsgo13qw",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $c$ in mean value theorem for the function $f(x)=x^{2}$ in $[2,4]$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The value of  $c$  in mean value theorem for the function  $f(x)=x^{2}$  in  $[2,4]$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 3\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$7/2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $7/2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{For mean value theorem} \\\\ & \\begin{aligned} & f^{'}(c)=\\frac{f(b)-f(a)}{b-a} \\\\ \\therefore & f(x)=x^{2} \\\\ \\Rightarrow & f^{'}(x)=2x \\\\ \\therefore & 2c=\\frac{f(4)-f(2)}{4-2} \\\\ \\Rightarrow & 2c=\\frac{4^{2}-2^{2}}{4-2} \\\\ \\Rightarrow & 2c=4+2 \\\\ \\Rightarrow & 2c=6 \\\\ \\Rightarrow & c=3 \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{For mean value theorem} \\\\ &amp; \\begin{aligned} &amp; f^{'}(c)=\\frac{f(b)-f(a)}{b-a} \\\\ \\therefore &amp; f(x)=x^{2} \\\\ \\Rightarrow &amp; f^{'}(x)=2x \\\\ \\therefore &amp; 2c=\\frac{f(4)-f(2)}{4-2} \\\\ \\Rightarrow &amp; 2c=\\frac{4^{2}-2^{2}}{4-2} \\\\ \\Rightarrow &amp; 2c=4+2 \\\\ \\Rightarrow &amp; 2c=6 \\\\ \\Rightarrow &amp; c=3 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.995894"
+    },
+    {
+      "id": 8418,
+      "qid": "m9dur3wx",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/fxxx-has-stationary-point-at-kcet-mathematics-complex-numbers-tkmtnplygloyj4mo",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The function $f(x)=x^{2}+2x-5$ is strictly increasing in the interval",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The function  $f(x)=x^{2}+2x-5$  is strictly increasing in the interval\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-\\infty,-1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(-\\infty,-1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$[-1,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $[-1,\\infty)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(-\\infty,-1]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(-\\infty,-1]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(-1,\\infty)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(-1,\\infty)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To determine where the function $f(x)=x^{2}+2x-5$ is strictly increasing, we first calculate the derivative of the function: $f^{'}(x)=\\frac{d}{dx}(x^{2}+2x-5)=2x+2=2(x+1)$ A function is increasing where its derivative is greater than or equal to zero. Thus, we analyze the inequality: $f^{'}(x) \\ge 0 \\Rightarrow 2(x+1) \\ge 0$ Simplifying this inequality, we find: $x+1 \\ge 0 \\Rightarrow x \\ge -1$ Therefore, the function $f(x)=x^{2}+2x-5$ is strictly increasing on the interval $[-1,\\infty)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine where the function  $f(x)=x^{2}+2x-5$  is strictly increasing, we first calculate the derivative of the function:</p>\n<p> $f^{'}(x)=\\frac{d}{dx}(x^{2}+2x-5)=2x+2=2(x+1)$ </p>\n<p>A function is increasing where its derivative is greater than or equal to zero. Thus, we analyze the inequality:</p>\n<p> $f^{'}(x) \\ge 0 \\Rightarrow 2(x+1) \\ge 0$ </p>\n<p>Simplifying this inequality, we find:</p>\n<p> $x+1 \\ge 0 \\Rightarrow x \\ge -1$ </p>\n<p>Therefore, the function  $f(x)=x^{2}+2x-5$  is strictly increasing on the interval  $[-1,\\infty)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=x^{2}+2x-5",
+        "f^{'}(x)=\\frac{d}{dx}(x^{2}+2x-5)=2x+2=2(x+1)",
+        "f^{'}(x) \\ge 0 \\Rightarrow 2(x+1) \\ge 0"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.858679"
+    },
+    {
+      "id": 8419,
+      "qid": "m9dur7ra",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/fxxx-has-stationary-point-at-kcet-mathematics-complex-numbers-tkmtnplygloyj4mo",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The point on the curve $y^{2}=x$ where the tangent makes an angle of $\\pi/4$ with $X$ -axis is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The point on the curve  $y^{2}=x$  where the tangent makes an angle of  $\\pi/4$  with  $X$ -axis is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(4,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(4,2)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(\\frac{1}{2},\\frac{1}{4})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(\\frac{1}{2},\\frac{1}{4})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(\\frac{1}{4},\\frac{1}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(\\frac{1}{4},\\frac{1}{2})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(1,1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(1,1)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $y^{2}=x...(i)$ $\\begin{aligned} \\therefore & 2y\\frac{dy}{dx}=1 \\\\ \\Rightarrow & \\frac{dy}{dx}=\\frac{1}{2y} \\end{aligned}$ $\\therefore$ Slope of tangent $=\\frac{1}{2y}...(ii)$ Now, tangent makes an angle of $\\pi/4$ with $X$ -axis $\\therefore$ Slope of tangent $=tan\\frac{\\pi}{4}=1...(iii)$ From Eqs. (ii) and (iii), we get $\\frac{1}{2y}=1 \\Rightarrow y=\\frac{1}{2}$ Putting, $y=\\frac{1}{2}$ in Eq. (i), we get $\\begin{aligned} & & (\\frac{1}{2})^{2} & =x \\\\ \\Rightarrow & x & =\\frac{1}{4} \\end{aligned}$ $\\therefore$ Required point is $(\\frac{1}{4},\\frac{1}{2})$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have,  $y^{2}=x...(i)$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 2y\\frac{dy}{dx}=1 \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=\\frac{1}{2y} \\end{aligned}$ </p>\n<p> $\\therefore$  Slope of tangent  $=\\frac{1}{2y}...(ii)$ </p>\n<p>Now, tangent makes an angle of  $\\pi/4$  with  $X$ -axis</p>\n<p> $\\therefore$  Slope of tangent  $=tan\\frac{\\pi}{4}=1...(iii)$ </p>\n<p>From Eqs. (ii) and (iii), we get</p>\n<p> $\\frac{1}{2y}=1 \\Rightarrow y=\\frac{1}{2}$ </p>\n<p>Putting,  $y=\\frac{1}{2}$  in Eq. (i), we get</p>\n<p> $\\begin{aligned} &amp; &amp; (\\frac{1}{2})^{2} &amp; =x \\\\ \\Rightarrow &amp; x &amp; =\\frac{1}{4} \\end{aligned}$ </p>\n<p> $\\therefore$  Required point is  $(\\frac{1}{4},\\frac{1}{2})$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y^{2}=x",
+        "=\\frac{1}{2y}...(ii)",
+        "(\\frac{1}{4},\\frac{1}{2})"
+      ],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.868100"
+    },
+    {
+      "id": 8420,
+      "qid": "m9duq7ox",
+      "chapter_slug": "kcet-application-of-derivatives",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/fxxx-has-stationary-point-at-kcet-mathematics-complex-numbers-tkmtnplygloyj4mo",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The rate of change of volume of a sphere with respect to its surface area when the radius is 4 cm is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The rate of change of volume of a sphere with respect to its surface area when the radius is 4 cm is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4cm^{3}/cm^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $4cm^{3}/cm^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$6cm^{3}/cm^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $6cm^{3}/cm^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2cm^{3}/cm^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2cm^{3}/cm^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$8cm^{3}/cm^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $8cm^{3}/cm^{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let the radius of the sphere be a $\\begin{aligned} & \\therefore \\text{Volume,}V=\\frac{4}{3}\\pi a^{3} \\\\ & \\Rightarrow \\frac{dV}{da}=\\frac{4}{3}\\pi(3a^{2})=4\\pi a^{2} \\end{aligned}$ Again, surface area, $s=4\\pi a^{2}$ $\\begin{aligned} \\Rightarrow \\frac{ds}{da} & =4\\pi(2a)=8\\pi a \\\\ \\therefore \\frac{dV}{ds} & =\\frac{(dV/da)}{(ds/da)} \\\\ & =\\frac{4\\pi a^{2}}{8\\pi a}=\\frac{a}{2}[ \\because a=4cm] \\\\ & =\\frac{4}{2} \\\\ & =2cm^{3}/cm^{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> Let the radius of the sphere be a</p>\n<p> $\\begin{aligned} &amp; \\therefore \\text{Volume,}V=\\frac{4}{3}\\pi a^{3} \\\\ &amp; \\Rightarrow \\frac{dV}{da}=\\frac{4}{3}\\pi(3a^{2})=4\\pi a^{2} \\end{aligned}$ </p>\n<p>Again, surface area,  $s=4\\pi a^{2}$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\frac{ds}{da} &amp; =4\\pi(2a)=8\\pi a \\\\ \\therefore \\frac{dV}{ds} &amp; =\\frac{(dV/da)}{(ds/da)} \\\\ &amp; =\\frac{4\\pi a^{2}}{8\\pi a}=\\frac{a}{2}[ \\because a=4cm] \\\\ &amp; =\\frac{4}{2} \\\\ &amp; =2cm^{3}/cm^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Application Of Derivatives - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Application Of Derivatives - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:11.879871"
+    }
+  ]
+}

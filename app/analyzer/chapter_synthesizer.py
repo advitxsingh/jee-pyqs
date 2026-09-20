@@ -49,18 +49,20 @@ def synthesize_chapter_notes(
 
     benchmark_pyq_ids = [b.id or b.question_index for b in selected_benchmarks if b.id is not None]
 
+    exam_name = "KCET" if chapter_slug.startswith("kcet-") else "JEE Main"
+
     # --- Section 1: Executive Summary & Statistics ---
-    summary_md = f"""# {chapter_title} — JEE Main PYQ Concept Sheet & Revision Notes
-**Subject**: {subject.title()} | **Exam Scope**: JEE Main ({min_year} – {max_year})  
+    summary_md = f"""# {chapter_title} — {exam_name} PYQ Concept Sheet & Revision Notes
+**Subject**: {subject.title()} | **Exam Scope**: {exam_name} ({min_year} – {max_year})  
 **Empirical Dataset**: {total_q} Previous Year Questions Analyzed ({mcq_count} MCQs, {num_count} Numericals)  
 **Analysis Generated**: {datetime.now().strftime('%B %d, %Y')}
 
 ---
 
 ## 1. Chapter Intelligence & Weightage Blueprint
-- **Total Questions Analyzed**: **{total_q}** authentic JEE Main problems.
+- **Total Questions Analyzed**: **{total_q}** authentic {exam_name} problems.
 - **Question Format Breakdown**: **{mcq_count} MCQs** ({mcq_count*100//max(total_q,1)}%) and **{num_count} Numerical Value Questions** ({num_count*100//max(total_q,1)}%).
-- **Recent Examination Trend**: Consistently accounts for 1 to 2 mandatory questions in almost every JEE Main shift from 2019 to {max_year}.
+- **Recent Examination Trend**: Consistently accounts for mandatory questions in {exam_name} papers from {min_year} to {max_year}.
 - **Core Focus Areas**: Problems heavily emphasize numerical calculations, correct sign conventions, and multi-concept synthesis.
 
 ### High-Yield Concept Priority Matrix

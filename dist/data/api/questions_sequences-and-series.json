@@ -1,5 +1,1789 @@
 {
   "chapter_slug": "sequences-and-series",
-  "total": 0,
-  "questions": []
+  "total": 32,
+  "questions": [
+    {
+      "id": 25425,
+      "qid": "mnsik5p5",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-alpha34891314ldots-upto-40-terms-if-ta-jee-main-mathematics-trigonometric-functions-and-equations-asv3s4se66mf7ucs",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 8th April Evening Shift",
+      "exam_date": "8th April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Let $\\alpha=3+4+8+9+13+14+\\dots$ upto 40 terms. If $(tan\\beta)^{\\frac{\\alpha}{1020}}$ is a root of the equation $x^{2}+x-2=0,\\beta \\in (0,\\frac{\\pi}{2})$ , then $sin^{2}\\beta+3cos^{2}\\beta$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\alpha=3+4+8+9+13+14+\\dots$  upto 40 terms. If  $(tan\\beta)^{\\frac{\\alpha}{1020}}$  is a root of the equation  $x^{2}+x-2=0,\\beta \\in (0,\\frac{\\pi}{2})$ , then  $sin^{2}\\beta+3cos^{2}\\beta$  is equal to :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{7}{4}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{2}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{3}{2}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "1. A series sum is defined : $𝜶=3+4+8+9+13+14+\\dots..t_{40}$ 2. $(tan𝜷)^{\\frac{\\alpha}{1020}}$ is a root of the quadratic equation $x^{2}+x-2=0$ where $𝜷 \\in (0,\\frac{𝝅}{2})$ 3. To evaluate the expression $sin^{2}\\beta+3cos^{2}\\beta$ $\\therefore$ $𝜶=3+4+8+9+13+14+\\dots..t_{40}$ $=7+17+27+\\dots..+T_{20}$ $=\\frac{20}{2}{(2) \\cdot (7)+(20-1) \\cdot (10)}$ $=(10) \\cdot (14+190)=2,040\\dots\\dots(i)$ Equation (i) gives the value of $\\alpha=2,040$ : $(tan\\beta)^{\\frac{\\alpha}{1020}}=(tan\\beta)^{\\frac{2040}{1020}}=tan^{2}\\beta\\dots\\dots(ii)$ Now let us solve the quadratic equation $x^{2}+x-2=0$ : $x^{2}+x-2=0 \\Rightarrow x^{2}+2x-x-2=0 \\Rightarrow (x+2)(x-1)=0$ $\\Rightarrow \\begin{aligned} p & q \\\\ -2 & 1 \\end{aligned}$ where $p$ and $q$ are the roots We have derived in equation $(ii)(tan\\beta)^{\\frac{\\alpha}{1020}}=tan^{2}\\beta$ which is also a root of the equation $x^{2}+x-2=0$ : From the pair of roots we get $tan^{2}\\beta$ =1 $\\Rightarrow tan\\beta= \\pm 1$ As $tan^{2}\\beta⩾0$ always $𝜷 \\in (0,\\frac{\\pi}{2}) \\Rightarrow tan𝜷=1 \\Rightarrow 𝜷=\\frac{\\pi}{4}$ $\\Rightarrow sin^{2}\\beta+3cos^{2}\\beta=sin^{2}\\frac{\\pi}{4}+3cos^{2}\\frac{\\pi}{4}=(\\frac{1}{2})+(\\frac{3}{2})=2$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol>\n<li><p>1. A series sum is defined :  $𝜶=3+4+8+9+13+14+\\dots..t_{40}$ </p></li>\n<li><p>2.  $(tan𝜷)^{\\frac{\\alpha}{1020}}$  is a root of the quadratic equation  $x^{2}+x-2=0$  where  $𝜷 \\in (0,\\frac{𝝅}{2})$ </p></li>\n<li><p>3. To evaluate the expression  $sin^{2}\\beta+3cos^{2}\\beta$ </p></li></ol>\n<p> $\\therefore$   $𝜶=3+4+8+9+13+14+\\dots..t_{40}$ </p>\n<p> $=7+17+27+\\dots..+T_{20}$ </p>\n<p> $=\\frac{20}{2}{(2) \\cdot (7)+(20-1) \\cdot (10)}$ </p>\n<p> $=(10) \\cdot (14+190)=2,040\\dots\\dots(i)$ </p>\n<p>Equation (i) gives the value of  $\\alpha=2,040$  :</p>\n<p> $(tan\\beta)^{\\frac{\\alpha}{1020}}=(tan\\beta)^{\\frac{2040}{1020}}=tan^{2}\\beta\\dots\\dots(ii)$ </p>\n<p>Now let us solve the quadratic equation  $x^{2}+x-2=0$  :</p>\n<p> $x^{2}+x-2=0 \\Rightarrow x^{2}+2x-x-2=0 \\Rightarrow (x+2)(x-1)=0$ </p>\n<p> $\\Rightarrow \\begin{aligned} p &amp; q \\\\ -2 &amp; 1 \\end{aligned}$ </p>\n<p>where  $p$  and  $q$  are the roots</p>\n<p>We have derived in equation  $(ii)(tan\\beta)^{\\frac{\\alpha}{1020}}=tan^{2}\\beta$  which is also a root of the equation  $x^{2}+x-2=0$  :</p>\n<p>From the pair of roots we get   $tan^{2}\\beta$  =1 $\\Rightarrow tan\\beta= \\pm 1$  As  $tan^{2}\\beta⩾0$  always</p>\n<p> $𝜷 \\in (0,\\frac{\\pi}{2}) \\Rightarrow tan𝜷=1 \\Rightarrow 𝜷=\\frac{\\pi}{4}$ </p>\n<p> $\\Rightarrow sin^{2}\\beta+3cos^{2}\\beta=sin^{2}\\frac{\\pi}{4}+3cos^{2}\\frac{\\pi}{4}=(\\frac{1}{2})+(\\frac{3}{2})=2$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\alpha=3+4+8+9+13+14+\\dots",
+        "(tan\\beta)^{\\frac{\\alpha}{1020}}",
+        "x^{2}+x-2=0,\\beta \\in (0,\\frac{\\pi}{2})",
+        "sin^{2}\\beta+3cos^{2}\\beta",
+        "𝜶=3+4+8+9+13+14+\\dots..t_{40}",
+        "(tan𝜷)^{\\frac{\\alpha}{1020}}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:06.418978"
+    },
+    {
+      "id": 25442,
+      "qid": "mnswhwp2",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-first-ten-terms-of-an-ap-is-160-and-the-jee-main-mathematics-trigonometric-functions-and-equations-y7nzngtxbiwxqpmb",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Morning Shift",
+      "exam_date": "6th April",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8 . If the first term of the A.P. is equal to the common ratio of the G.P. and the first term of the G.P. is equal to common difference of the A.P., then the sum of all possible values of the first term of the G.P. is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8 . If the first term of the A.P. is equal to the common ratio of the G.P. and the first term of the G.P. is equal to common difference of the A.P., then the sum of all possible values of the first term of the G.P. is:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{34}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{34}{9}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{34}{13}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{34}{13}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{32}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{32}{9}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{32}{13}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{32}{13}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Let the first term of the A.P. be $a$ and common difference be $d$ . Then, from the question: first term of the G.P. $=d$ common ratio of the G.P. $=a$ Now use the given conditions one by one. 1. Sum of first 10 terms of the A.P. We know, $S_{10}=\\frac{10}{2}[2a+(10-1)d]$ So, $160=5(2a+9d)$ $2a+9d=32...(1)$ 2. Sum of first 2 terms of the G.P. The G.P. has first term $d$ and common ratio $a$ . So its first two terms are: $d,da$ Their sum is $8$ : $d+da=8$ $d(1+a)=8...(2)$ 3. Express $d$ from equation (1) From $2a+9d=32$ we get $9d=32-2a$ $d=\\frac{32-2a}{9}$ Substitute this in equation (2): $\\frac{32-2a}{9}(1+a)=8$ Multiply by $9$ : $(32-2a)(1+a)=72$ Expand: $32+32a-2a-2a^{2}=72$ $32+30a-2a^{2}=72$ $-2a^{2}+30a-40=0$ Divide by $-2$ : $a^{2}-15a+20=0$ 4. Find values of $a$ Using quadratic formula: $a=\\frac{15 \\pm \\sqrt{225-80}}{2}$ $a=\\frac{15 \\pm \\sqrt{145}}{2}$ Now we need the possible values of the first term of the G.P., which is $d$ . 5. Find corresponding values of $d$ From equation (1): $d=\\frac{32-2a}{9}$ For the two values of $a$ , the two values of $d$ are obtained. But the question asks for the sum of all possible values of the first term of the G.P. , i.e. sum of both possible values of $d$ . Let the two roots of the quadratic in $a$ be $a_{1}$ and $a_{2}$ . Then corresponding values of $d$ are $d_{1}=\\frac{32-2a_{1}}{9},d_{2}=\\frac{32-2a_{2}}{9}$ So, $d_{1}+d_{2}=\\frac{32-2a_{1}}{9}+\\frac{32-2a_{2}}{9}$ $d_{1}+d_{2}=\\frac{64-2(a_{1}+a_{2})}{9}$ For the quadratic $a^{2}-15a+20=0$ sum of roots is $a_{1}+a_{2}=15$ Hence, $d_{1}+d_{2}=\\frac{64-2(15)}{9}$ $d_{1}+d_{2}=\\frac{64-30}{9}=\\frac{34}{9}$ Therefore, the required sum is $\\frac{34}{9}$ So the correct option is A .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the first term of the A.P. be  $a$  and common difference be  $d$ .</p>\n<p>Then, from the question:</p>\n<ul>\n<li><p>first term of the G.P.  $=d$ </p></li>\n<li><p>common ratio of the G.P.  $=a$ </p></li>\n</ul>\n<p>Now use the given conditions one by one.</p>\n<h2>1. Sum of first 10 terms of the A.P.</h2>\n<p>We know,</p>\n<p> $S_{10}=\\frac{10}{2}[2a+(10-1)d]$ </p>\n<p>So,</p>\n<p> $160=5(2a+9d)$ </p>\n<p> $2a+9d=32...(1)$ </p>\n<h2>2. Sum of first 2 terms of the G.P.</h2>\n<p>The G.P. has first term  $d$  and common ratio  $a$ .</p>\n<p>So its first two terms are:</p>\n<p> $d,da$ </p>\n<p>Their sum is  $8$ :</p>\n<p> $d+da=8$ </p>\n<p> $d(1+a)=8...(2)$ </p>\n<h2>3. Express  $d$  from equation (1)</h2>\n<p>From</p>\n<p> $2a+9d=32$ </p>\n<p>we get</p>\n<p> $9d=32-2a$ </p>\n<p> $d=\\frac{32-2a}{9}$ </p>\n<p>Substitute this in equation (2):</p>\n<p> $\\frac{32-2a}{9}(1+a)=8$ </p>\n<p>Multiply by  $9$ :</p>\n<p> $(32-2a)(1+a)=72$ </p>\n<p>Expand:</p>\n<p> $32+32a-2a-2a^{2}=72$ </p>\n<p> $32+30a-2a^{2}=72$ </p>\n<p> $-2a^{2}+30a-40=0$ </p>\n<p>Divide by  $-2$ :</p>\n<p> $a^{2}-15a+20=0$ </p>\n<h2>4. Find values of  $a$ </h2>\n<p>Using quadratic formula:</p>\n<p> $a=\\frac{15 \\pm \\sqrt{225-80}}{2}$ </p>\n<p> $a=\\frac{15 \\pm \\sqrt{145}}{2}$ </p>\n<p>Now we need the possible values of the first term of the G.P., which is  $d$ .</p>\n<h2>5. Find corresponding values of  $d$ </h2>\n<p>From equation (1):</p>\n<p> $d=\\frac{32-2a}{9}$ </p>\n<p>For the two values of  $a$ , the two values of  $d$  are obtained. But the question asks for the <strong>sum of all possible values of the first term of the G.P.</strong>, i.e. sum of both possible values of  $d$ .</p>\n<p>Let the two roots of the quadratic in  $a$  be  $a_{1}$  and  $a_{2}$ .</p>\n<p>Then corresponding values of  $d$  are</p>\n<p> $d_{1}=\\frac{32-2a_{1}}{9},d_{2}=\\frac{32-2a_{2}}{9}$ </p>\n<p>So,</p>\n<p> $d_{1}+d_{2}=\\frac{32-2a_{1}}{9}+\\frac{32-2a_{2}}{9}$ </p>\n<p> $d_{1}+d_{2}=\\frac{64-2(a_{1}+a_{2})}{9}$ </p>\n<p>For the quadratic</p>\n<p> $a^{2}-15a+20=0$ </p>\n<p>sum of roots is</p>\n<p> $a_{1}+a_{2}=15$ </p>\n<p>Hence,</p>\n<p> $d_{1}+d_{2}=\\frac{64-2(15)}{9}$ </p>\n<p> $d_{1}+d_{2}=\\frac{64-30}{9}=\\frac{34}{9}$ </p>\n<p>Therefore, the required sum is</p>\n<p> $\\frac{34}{9}$ </p>\n<p>So the correct option is <strong>A</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "S_{10}=\\frac{10}{2}[2a+(10-1)d]",
+        "160=5(2a+9d)",
+        "2a+9d=32...(1)",
+        "d(1+a)=8...(2)",
+        "d=\\frac{32-2a}{9}",
+        "\\frac{32-2a}{9}(1+a)=8"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:08.499072"
+    },
+    {
+      "id": 25459,
+      "qid": "mnswhpsf",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-the-sum-of-the-first-n-terms-of-an-ap-be-3-n25-jee-main-mathematics-trigonometric-functions-and-equations-ywdvzxutgqrrf7y5",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Morning Shift",
+      "exam_date": "5th April",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Let the sum of the first $n$ terms of an A.P. be $3n^{2}+5n$ . Then the sum of squares of the first 10 terms of the A.P. is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the sum of the first  $n$  terms of an A.P. be  $3n^{2}+5n$ . Then the sum of squares of the first 10 terms of the A.P. is:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "10220",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>10220</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "12860",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>12860</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "15220",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15220</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "19780",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>19780</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "Given, $S_{n}=3n^{2}+5n$ where $S_{n}$ is the sum of the first $n$ terms of the A.P. To get the $n$ th term, we use $a_{n}=S_{n}-S_{n-1}$ So, $S_{n-1}=3(n-1)^{2}+5(n-1)$ $=3(n^{2}-2n+1)+5n-5$ $=3n^{2}-6n+3+5n-5$ $=3n^{2}-n-2$ Now, $a_{n}=(3n^{2}+5n)-(3n^{2}-n-2)$ $a_{n}=6n+2$ So the terms of the A.P. are: $8,14,20,\\dots$ Now we need the sum of squares of the first $10$ terms: $\\sum_{10}^{n=1}(6n+2)^{2}$ Expand: $(6n+2)^{2}=36n^{2}+24n+4$ So, $\\sum_{10}^{n=1}(6n+2)^{2}=36\\sum_{10}^{n=1}n^{2}+24\\sum_{10}^{n=1}n+4\\sum_{10}^{n=1}1$ Now use the standard sums: $\\sum_{10}^{n=1}n^{2}=\\frac{10 \\cdot 11 \\cdot 21}{6}=385$ $\\sum_{10}^{n=1}n=\\frac{10 \\cdot 11}{2}=55$ $\\sum_{10}^{n=1}1=10$ Substitute: $36(385)+24(55)+4(10)$ $=13860+1320+40$ $=15220$ So the correct answer is $15220$ Option C",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $S_{n}=3n^{2}+5n$ </p>\n<p>where  $S_{n}$  is the sum of the first  $n$  terms of the A.P.</p>\n<p>To get the  $n$ th term, we use</p>\n<p> $a_{n}=S_{n}-S_{n-1}$ </p>\n<p>So,</p>\n<p> $S_{n-1}=3(n-1)^{2}+5(n-1)$ </p>\n<p> $=3(n^{2}-2n+1)+5n-5$ </p>\n<p> $=3n^{2}-6n+3+5n-5$ </p>\n<p> $=3n^{2}-n-2$ </p>\n<p>Now,</p>\n<p> $a_{n}=(3n^{2}+5n)-(3n^{2}-n-2)$ </p>\n<p> $a_{n}=6n+2$ </p>\n<p>So the terms of the A.P. are:</p>\n<p> $8,14,20,\\dots$ </p>\n<p>Now we need the sum of squares of the first  $10$  terms:</p>\n<p> $\\sum_{10}^{n=1}(6n+2)^{2}$ </p>\n<p>Expand:</p>\n<p> $(6n+2)^{2}=36n^{2}+24n+4$ </p>\n<p>So,</p>\n<p> $\\sum_{10}^{n=1}(6n+2)^{2}=36\\sum_{10}^{n=1}n^{2}+24\\sum_{10}^{n=1}n+4\\sum_{10}^{n=1}1$ </p>\n<p>Now use the standard sums:</p>\n<p> $\\sum_{10}^{n=1}n^{2}=\\frac{10 \\cdot 11 \\cdot 21}{6}=385$ </p>\n<p> $\\sum_{10}^{n=1}n=\\frac{10 \\cdot 11}{2}=55$ </p>\n<p> $\\sum_{10}^{n=1}1=10$ </p>\n<p>Substitute:</p>\n<p> $36(385)+24(55)+4(10)$ </p>\n<p> $=13860+1320+40$ </p>\n<p> $=15220$ </p>\n<p>So the correct answer is</p>\n<p> $15220$ </p>\n<p>Option C</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=3(n^{2}-2n+1)+5n-5",
+        "=3n^{2}-6n+3+5n-5",
+        "=3n^{2}-n-2",
+        "a_{n}=(3n^{2}+5n)-(3n^{2}-n-2)",
+        "a_{n}=6n+2",
+        "\\sum_{10}^{n=1}n=\\frac{10 \\cdot 11}{2}=55"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:10.387436"
+    },
+    {
+      "id": 25474,
+      "qid": "mnrpmt57",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-frac131--frac13--231--3--frac-jee-main-mathematics-wl114rluhvauhlla",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 2nd April Evening Shift",
+      "exam_date": "2nd April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The sum $\\frac{1^{3}}{1}+\\frac{1^{3}+2^{3}}{1+3}+\\frac{1^{3}+2^{3}+3^{3}}{1+3+5}+\\dots$ up to 8 terms, is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sum  $\\frac{1^{3}}{1}+\\frac{1^{3}+2^{3}}{1+3}+\\frac{1^{3}+2^{3}+3^{3}}{1+3+5}+\\dots$  up to 8 terms, is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "70",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>70</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "71",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>71</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "72",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>72</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "73",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>73</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & T_{r}=\\frac{1^{3}+2^{3}+3^{3}+\\dots\\dotsr^{3}}{1+3+5+\\dots..+(2r-1)}=\\frac{(\\frac{r(r+1)}{2})^{2}}{r^{2}} \\\\ & =\\frac{r^{2}+2r+1}{4} \\end{aligned}$ $\\begin{aligned} & S_{n}=\\sum_{r=1}^{n}T_{r} \\\\ & S_{n}=\\frac{1}{4}\\sum (r^{2}+2r+1) \\\\ & =\\frac{1}{4}[\\frac{n(n+1)(2n+1)}{6}+2\\frac{n(n+1)}{2}+n] \\\\ & S_{8}=\\frac{1}{4}[\\frac{8 \\times 9 \\times 17}{6}+8 \\times 9+8] \\\\ & =\\frac{1}{4}[204+72+8]=71 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; T_{r}=\\frac{1^{3}+2^{3}+3^{3}+\\dots\\dotsr^{3}}{1+3+5+\\dots..+(2r-1)}=\\frac{(\\frac{r(r+1)}{2})^{2}}{r^{2}} \\\\ &amp; =\\frac{r^{2}+2r+1}{4} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; S_{n}=\\sum_{r=1}^{n}T_{r} \\\\ &amp; S_{n}=\\frac{1}{4}\\sum (r^{2}+2r+1) \\\\ &amp; =\\frac{1}{4}[\\frac{n(n+1)(2n+1)}{6}+2\\frac{n(n+1)}{2}+n] \\\\ &amp; S_{8}=\\frac{1}{4}[\\frac{8 \\times 9 \\times 17}{6}+8 \\times 9+8] \\\\ &amp; =\\frac{1}{4}[204+72+8]=71 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{1^{3}}{1}+\\frac{1^{3}+2^{3}}{1+3}+\\frac{1^{3}+2^{3}+3^{3}}{1+3+5}+\\dots"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:12.266775"
+    },
+    {
+      "id": 25491,
+      "qid": "ml81k4v9",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-sumk1infty-1k1leftfrack-jee-main-mathematics-trigonometric-functions-and-equations-2aqhuitckpwjanx9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Morning Shift",
+      "exam_date": "28th January",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\sum_{k=1}^{\\infty}(-1)^{k+1}(\\frac{k(k+1)}{k!})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\sum_{k=1}^{\\infty}(-1)^{k+1}(\\frac{k(k+1)}{k!})$  is</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "e/2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>e/2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{e}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\sqrt{e}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2/e",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2/e</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "1/e",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1/e</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$S=\\sum_{k=1}^{\\infty}(-1)^{k+1}\\frac{k(k+1)}{k!}$ First, let's simplify the expression inside the summation. We can cancel out the $k$ in the numerator with the $k$ in $k!$ : $\\frac{k(k+1)}{k!}=\\frac{k(k+1)}{k \\cdot (k-1)!}=\\frac{k+1}{(k-1)!}$ Now, we rewrite the numerator $(k+1)$ in terms of $(k-1)$ to further simplify the fraction: $k+1=(k-1)+2$ Substituting this back into the expression: $\\frac{k+1}{(k-1)!}=\\frac{(k-1)+2}{(k-1)!}=\\frac{k-1}{(k-1)!}+\\frac{2}{(k-1)!}$ For the first part, $\\frac{k-1}{(k-1)!}=\\frac{1}{(k-2)!}$ (valid for $k \\ge 2$ ). So, the general term $a_{k}$ becomes: $a_{k}=(-1)^{k+1}[\\frac{1}{(k-2)!}+\\frac{2}{(k-1)!}]$ Expand the Series Let's apply the summation $\\sum_{k=1}^{\\infty}$ to both parts. Note that for $k=1$ , the term $1/(k-2)$ ! is effectively 0 because the factorial of a negative integer is infinite in the denominator. $S=\\sum_{k=2}^{\\infty}\\frac{(-1)^{k+1}}{(k-2)!}+\\sum_{k=1}^{\\infty}\\frac{2(-1)^{k+1}}{(k-1)!}$ Using exponential expansion(Taylor series expansion for $e^{x}$ :) $e^{x}=\\sum_{n=0}^{\\infty}\\frac{x^{n}}{n!}=1+\\frac{x}{1!}+\\frac{x^{2}}{2!}+\\dots$ for $x=-1$ : $e^{-1}=\\frac{1}{e}=\\sum_{n=0}^{\\infty}\\frac{(-1)^{n}}{n!}=1-\\frac{1}{1!}+\\frac{1}{2!}-\\frac{1}{3!}+\\dots$ Evaluate the Summations $\\sum_{k=2}^{\\infty}\\frac{(-1)^{k+1}}{(k-2)!}$ Let $n=k-2$ . When $k=2,n=0$ . When $k \\rightarrow \\infty,n \\rightarrow \\infty$ . The exponent becomes $k+1=(n+2)+1=n+3$ . = $\\sum_{n=0}^{\\infty}\\frac{(-1)^{n+3}}{n!}=(-1)^{3}\\sum_{n=0}^{\\infty}\\frac{(-1)^{n}}{n!}=-1 \\cdot (\\frac{1}{e})=-\\frac{1}{e}$ $\\sum_{k=1}^{\\infty}\\frac{2(-1)^{k+1}}{(k-1)!}$ Let $m=k-1$ . When $k=1,m=0$ . When $k \\rightarrow \\infty,m \\rightarrow \\infty$ . The exponent becomes $k+1=(m+1)+1=m+2$ . = $2\\sum_{m=0}^{\\infty}\\frac{(-1)^{m+2}}{m!}=2(-1)^{2}\\sum_{m=0}^{\\infty}\\frac{(-1)^{m}}{m!}=2 \\cdot (\\frac{1}{e})=\\frac{2}{e}$ Required S $S=-\\frac{1}{e}+\\frac{2}{e}=\\frac{1}{e}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S=\\sum_{k=1}^{\\infty}(-1)^{k+1}\\frac{k(k+1)}{k!}$ </p>\n<p>First, let's simplify the expression inside the summation. We can cancel out the  $k$  in the numerator with the  $k$  in  $k!$  :</p>\n<p> $\\frac{k(k+1)}{k!}=\\frac{k(k+1)}{k \\cdot (k-1)!}=\\frac{k+1}{(k-1)!}$ </p>\n<p>Now, we rewrite the numerator  $(k+1)$  in terms of  $(k-1)$  to further simplify the fraction:</p>\n<p> $k+1=(k-1)+2$ </p>\n<p>Substituting this back into the expression:</p>\n<p> $\\frac{k+1}{(k-1)!}=\\frac{(k-1)+2}{(k-1)!}=\\frac{k-1}{(k-1)!}+\\frac{2}{(k-1)!}$ </p>\n<p>For the first part,  $\\frac{k-1}{(k-1)!}=\\frac{1}{(k-2)!}$  (valid for  $k \\ge 2$  ). So, the general term  $a_{k}$  becomes:</p>\n<p> $a_{k}=(-1)^{k+1}[\\frac{1}{(k-2)!}+\\frac{2}{(k-1)!}]$ </p>\n<p><b>Expand the Series</b></p>\n<p>Let's apply the summation  $\\sum_{k=1}^{\\infty}$  to both parts. Note that for  $k=1$ , the term  $1/(k-2)$  ! is effectively 0 because the factorial of a negative integer is infinite in the denominator.</p>\n<p> $S=\\sum_{k=2}^{\\infty}\\frac{(-1)^{k+1}}{(k-2)!}+\\sum_{k=1}^{\\infty}\\frac{2(-1)^{k+1}}{(k-1)!}$ </p>\n<p>Using exponential expansion(Taylor series expansion for  $e^{x}$  :)</p>\n<p> $e^{x}=\\sum_{n=0}^{\\infty}\\frac{x^{n}}{n!}=1+\\frac{x}{1!}+\\frac{x^{2}}{2!}+\\dots$ </p>\n<p>for  $x=-1$  :</p>\n<p> $e^{-1}=\\frac{1}{e}=\\sum_{n=0}^{\\infty}\\frac{(-1)^{n}}{n!}=1-\\frac{1}{1!}+\\frac{1}{2!}-\\frac{1}{3!}+\\dots$ </p>\n<p><b>Evaluate the Summations</b></p>\n<p> $\\sum_{k=2}^{\\infty}\\frac{(-1)^{k+1}}{(k-2)!}$ \n<br/><br/>Let  $n=k-2$ . When  $k=2,n=0$ . When  $k \\rightarrow \\infty,n \\rightarrow \\infty$ . The exponent becomes  $k+1=(n+2)+1=n+3$ .</p>\n<p>=  $\\sum_{n=0}^{\\infty}\\frac{(-1)^{n+3}}{n!}=(-1)^{3}\\sum_{n=0}^{\\infty}\\frac{(-1)^{n}}{n!}=-1 \\cdot (\\frac{1}{e})=-\\frac{1}{e}$ </p>\n<p> $\\sum_{k=1}^{\\infty}\\frac{2(-1)^{k+1}}{(k-1)!}$ \n<br/><br/>Let  $m=k-1$ . When  $k=1,m=0$ . When  $k \\rightarrow \\infty,m \\rightarrow \\infty$ . The exponent becomes  $k+1=(m+1)+1=m+2$ .</p>\n<p>=  $2\\sum_{m=0}^{\\infty}\\frac{(-1)^{m+2}}{m!}=2(-1)^{2}\\sum_{m=0}^{\\infty}\\frac{(-1)^{m}}{m!}=2 \\cdot (\\frac{1}{e})=\\frac{2}{e}$ </p>\n<p><b>Required S</b></p>\n<p> $S=-\\frac{1}{e}+\\frac{2}{e}=\\frac{1}{e}$ </p>\n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\sum_{k=1}^{\\infty}(-1)^{k+1}(\\frac{k(k+1)}{k!})",
+        "S=\\sum_{k=1}^{\\infty}(-1)^{k+1}\\frac{k(k+1)}{k!}",
+        ". =",
+        "\\sum_{k=1}^{\\infty}\\frac{2(-1)^{k+1}}{(k-1)!}",
+        "m=k-1",
+        "k=1,m=0"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:14.631184"
+    },
+    {
+      "id": 25505,
+      "qid": "ml98p65j",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-7298191-ldots-be-a-sequence-and-mathrmpn-jee-main-mathematics-trigonometric-functions-and-equations-vucwovlpq9qxwli3",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Morning Shift",
+      "exam_date": "24th January",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Let $729,81,9,1,\\dots$ be a sequence and $P_{n}$ denote the product of the first $n$ terms of this sequence. If $2\\sum_{n=1}^{40}(P_{n})^{\\frac{1}{n}}=\\frac{3^{\\alpha}-1}{3^{\\beta}}$ and $gcd(\\alpha,\\beta)=1$ , then $\\alpha+\\beta$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $729,81,9,1,\\dots$  be a sequence and  $P_{n}$  denote the product of the first  $n$  terms of this sequence.</p>\n<p>If  $2\\sum_{n=1}^{40}(P_{n})^{\\frac{1}{n}}=\\frac{3^{\\alpha}-1}{3^{\\beta}}$  and  $gcd(\\alpha,\\beta)=1$ , then</p>\n<p> $\\alpha+\\beta$  is equal to</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "73",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>73</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "74",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>74</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "75",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>75</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "76",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>76</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$729,81,9,1,\\dots$ is a sequence in G.P. Can be written as $9^{3},9^{2},9^{1},9^{0},\\frac{1}{9},(\\frac{1}{9})^{2},\\dots$ $P_{n}$ is product of first $n$ term $\\begin{aligned} & P_{n}=(9^{3})(9^{2})(9^{1})\\dots \\\\ & P_{n}=9^{3+2+1+0+(-1)+(-2)\\dots} \\end{aligned}$ Clearly power of 9 are in A.P. with first term $=3$ common difference $=-1$ So, sum of first $n$ terms of this A.P. $=\\frac{n}{2}[2 \\times 3+(n-1)(-1)]$ $=\\frac{n}{2}[6-n+1]=\\frac{n}{2}(7-n)$ So, $P_{n}=(9)^{\\frac{n}{2}(7-n)}$ It is given that $\\begin{aligned} & 2\\sum_{n=1}^{40}(P_{n})^{1/n}=\\frac{3^{\\alpha}-1}{3^{\\beta}} \\\\ & \\text{Solving} \\\\ & \\begin{aligned} & \\sum_{n=1}^{40}(P_{n})^{1/n}=\\sum_{n=1}^{40}(9)^{\\frac{n}{2}(7-n) \\times \\frac{1}{n}}=\\sum_{n=1}^{40}9^{\\frac{7-n}{2}} \\\\ & \\sum_{n=1}^{40}(9^{1/2})^{7-n}=\\sum_{n=1}^{40}(3)^{7-n}=3^{7}\\sum_{n=1}^{40}(\\frac{1}{3})^{n} \\\\ & =3^{7}[\\frac{1}{3}+(\\frac{1}{3})^{2}+(\\frac{1}{3})^{3}\\cdot s(\\frac{1}{3})^{40}] \\\\ & =3^{7}[\\text{G.P. with first term}=\\frac{1}{3}\\text{common ratio}=\\frac{1}{3}] \\end{aligned} \\\\ & =3^{7} \\times \\frac{1}{3}[\\frac{1-(\\frac{1}{3})^{40}}{1-\\frac{1}{3}}] \\end{aligned}$ $\\begin{aligned} & \\sum_{n=1}^{40}(P_{n})^{1/n}=3^{6}(\\frac{\\frac{3^{40}-1}{3^{40}}}{\\frac{2}{3}})=\\frac{3^{40}-1}{2 \\cdot 3^{33}} \\\\ & 2\\sum_{n=1}^{40}(P_{n})^{1/n}=\\frac{3^{40}-1}{3^{33}}=\\frac{3^{\\alpha}-1}{3^{\\beta}} \\\\ & \\text{Comparing}\\alpha=40,\\beta=33 \\\\ & \\text{g.c.d}(40,33)=1 \\\\ & \\text{So}\\alpha+\\beta=40+33=73 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $729,81,9,1,\\dots$  is a sequence in G.P. Can be written as  $9^{3},9^{2},9^{1},9^{0},\\frac{1}{9},(\\frac{1}{9})^{2},\\dots$ </p>\n<p> $P_{n}$  is product of first  $n$  term</p>\n<p> $\\begin{aligned} &amp; P_{n}=(9^{3})(9^{2})(9^{1})\\dots \\\\ &amp; P_{n}=9^{3+2+1+0+(-1)+(-2)\\dots} \\end{aligned}$ </p>\n<p>Clearly power of 9 are in A.P. with first term  $=3$ </p>\n<p>common difference  $=-1$ </p>\n<p>So, sum of first  $n$  terms of this A.P.  $=\\frac{n}{2}[2 \\times 3+(n-1)(-1)]$ </p>\n<p> $=\\frac{n}{2}[6-n+1]=\\frac{n}{2}(7-n)$ </p>\n<p>So,  $P_{n}=(9)^{\\frac{n}{2}(7-n)}$ </p>\n<p>It is given that</p>\n<p> $\\begin{aligned} &amp; 2\\sum_{n=1}^{40}(P_{n})^{1/n}=\\frac{3^{\\alpha}-1}{3^{\\beta}} \\\\ &amp; \\text{Solving} \\\\ &amp; \\begin{aligned} &amp; \\sum_{n=1}^{40}(P_{n})^{1/n}=\\sum_{n=1}^{40}(9)^{\\frac{n}{2}(7-n) \\times \\frac{1}{n}}=\\sum_{n=1}^{40}9^{\\frac{7-n}{2}} \\\\ &amp; \\sum_{n=1}^{40}(9^{1/2})^{7-n}=\\sum_{n=1}^{40}(3)^{7-n}=3^{7}\\sum_{n=1}^{40}(\\frac{1}{3})^{n} \\\\ &amp; =3^{7}[\\frac{1}{3}+(\\frac{1}{3})^{2}+(\\frac{1}{3})^{3}\\cdot s(\\frac{1}{3})^{40}] \\\\ &amp; =3^{7}[\\text{G.P. with first term}=\\frac{1}{3}\\text{common ratio}=\\frac{1}{3}] \\end{aligned} \\\\ &amp; =3^{7} \\times \\frac{1}{3}[\\frac{1-(\\frac{1}{3})^{40}}{1-\\frac{1}{3}}] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\sum_{n=1}^{40}(P_{n})^{1/n}=3^{6}(\\frac{\\frac{3^{40}-1}{3^{40}}}{\\frac{2}{3}})=\\frac{3^{40}-1}{2 \\cdot 3^{33}} \\\\ &amp; 2\\sum_{n=1}^{40}(P_{n})^{1/n}=\\frac{3^{40}-1}{3^{33}}=\\frac{3^{\\alpha}-1}{3^{\\beta}} \\\\ &amp; \\text{Comparing}\\alpha=40,\\beta=33 \\\\ &amp; \\text{g.c.d}(40,33)=1 \\\\ &amp; \\text{So}\\alpha+\\beta=40+33=73 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P_{n}",
+        "=\\frac{n}{2}[6-n+1]=\\frac{n}{2}(7-n)",
+        "P_{n}=(9)^{\\frac{n}{2}(7-n)}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:15.993078"
+    },
+    {
+      "id": 25519,
+      "qid": "ml7pz7em",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-positive-integer-bnb-for-which-the-solutions-of-jee-main-mathematics-dav6gjbg6fm2di2n",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 21st January Evening Shift",
+      "exam_date": "21st January",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The positive integer n , for which the solutions of the equation $x(x+2)+(x+2)(x+4)+\\cdot s+(x+2n-2)(x+2n)=\\frac{8n}{3}$ are two consecutive even integers, is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The positive integer <b>n</b>, for which the solutions of the equation </p><p> $x(x+2)+(x+2)(x+4)+\\cdot s+(x+2n-2)(x+2n)=\\frac{8n}{3}$  are two consecutive even integers, is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>6</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>9</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "12",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>12</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "The left-hand side contains $n$ terms: $\\sum_{k=0}^{n-1}(x+2k)(x+2k+2)$ Expanding one term, $(x+2k)(x+2k+2)=x^{2}+(4k+2)x+4k(k+1)$ Using the standard sums, the equation becomes $nx^{2}+2n^{2}x+\\frac{4n(n^{2}-1)}{3}=\\frac{8n}{3}$ Since $n$ is positive, divide by $n$ : $x^{2}+2nx+\\frac{4n^{2}-12}{3}=0$ The two roots are consecutive even integers, so their difference is $2$ . For a quadratic $ax^{2}+bx+c=0$ , the difference between its roots is $\\frac{\\sqrt{D}}{|a|}$ Here $a=1$ , so $\\sqrt{D}=2$ , giving $D=4$ . Now, $D=(2n)^{2}-4(\\frac{4n^{2}-12}{3})$ $4=4n^{2}-\\frac{16n^{2}-48}{3}$ $4=16-\\frac{4n^{2}}{3}$ $\\frac{4n^{2}}{3}=12$ $n^{2}=9$ As $n$ is positive, $n=3$ For $n=3$ , the roots are $-4$ and $-2$ , which are consecutive even integers. Hence, the correct option is Option A: $3$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The left-hand side contains  $n$  terms:</p>\n<p> $\\sum_{k=0}^{n-1}(x+2k)(x+2k+2)$ </p>\n<p>Expanding one term,</p>\n<p> $(x+2k)(x+2k+2)=x^{2}+(4k+2)x+4k(k+1)$ </p>\n<p>Using the standard sums, the equation becomes</p>\n<p> $nx^{2}+2n^{2}x+\\frac{4n(n^{2}-1)}{3}=\\frac{8n}{3}$ </p>\n<p>Since  $n$  is positive, divide by  $n$ :</p>\n<p> $x^{2}+2nx+\\frac{4n^{2}-12}{3}=0$ </p>\n<p>The two roots are consecutive even integers, so their difference is  $2$ . For a quadratic  $ax^{2}+bx+c=0$ , the difference between its roots is</p>\n<p> $\\frac{\\sqrt{D}}{|a|}$ </p>\n<p>Here  $a=1$ , so  $\\sqrt{D}=2$ , giving  $D=4$ .</p>\n<p>Now,</p>\n<p> $D=(2n)^{2}-4(\\frac{4n^{2}-12}{3})$ </p>\n<p> $4=4n^{2}-\\frac{16n^{2}-48}{3}$ </p>\n<p> $4=16-\\frac{4n^{2}}{3}$ </p>\n<p> $\\frac{4n^{2}}{3}=12$ </p>\n<p> $n^{2}=9$ </p>\n<p>As  $n$  is positive,</p>\n<p> $n=3$ </p>\n<p>For  $n=3$ , the roots are  $-4$  and  $-2$ , which are consecutive even integers.</p>\n<p>Hence, the correct option is <strong>Option A:  $3$ </strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "x(x+2)+(x+2)(x+4)+\\cdot s+(x+2n-2)(x+2n)=\\frac{8n}{3}",
+        "4=4n^{2}-\\frac{16n^{2}-48}{3}",
+        "4=16-\\frac{4n^{2}}{3}",
+        "\\frac{4n^{2}}{3}=12",
+        "n^{2}=9"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:17.411721"
+    },
+    {
+      "id": 25427,
+      "qid": "mnsik7j4",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-alpha34891314ldots-upto-40-terms-if-ta-jee-main-mathematics-trigonometric-functions-and-equations-asv3s4se66mf7ucs",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Evening Shift",
+      "exam_date": "6th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Consider the quadratic equation $(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,n \\in R$ . Let $\\alpha$ be the minimum value of the product of its roots and $\\beta$ be the maximum value of the sum of its roots. Then the sum of the first six terms of the G.P., whose first term is $\\alpha$ and the common ratio is $\\frac{\\alpha}{\\beta}$ , is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider the quadratic equation  $(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,n \\in R$ . Let  $\\alpha$  be the minimum value of the product of its roots and  $\\beta$  be the maximum value of the sum of its roots. Then the sum of the first six terms of the G.P., whose first term is  $\\alpha$  and the common ratio is  $\\frac{\\alpha}{\\beta}$ , is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{61}{37}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{61}{37}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{121}{81}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{121}{81}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{364}{243}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{364}{243}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1093}{729}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{1093}{729}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "For the quadratic equation $(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,$ let us first compare it with the standard quadratic form $ax^{2}+bx+c=0.$ So, $a=n^{2}-2n+2,b=-3,c=(n^{2}-2n+2)^{2}.$ Now rewrite $a$ in a simpler form: $n^{2}-2n+2=(n-1)^{2}+1.$ Hence, $a=(n-1)^{2}+1.$ Since $(n-1)^{2} \\ge 0$ , we get $a \\ge 1.$ Now, for a quadratic equation, by Vieta’s formulas: Sum of roots $=-\\frac{b}{a}$ Product of roots $=\\frac{c}{a}$ So here, $\\text{Sum of roots}=\\frac{3}{a}$ and $\\text{Product of roots}=\\frac{a^{2}}{a}=a.$ Therefore, $\\text{Product of roots}=(n-1)^{2}+1.$ So the minimum value of the product is clearly $\\alpha=1,$ attained when $n=1$ . Now the sum of roots is $\\frac{3}{(n-1)^{2}+1}.$ Since the denominator is minimum when $(n-1)^{2}=0$ , the maximum value of the sum is $\\beta=\\frac{3}{1}=3.$ So we have $\\alpha=1,\\beta=3.$ Now the G.P. has first term $a=\\alpha=1$ common ratio $r=\\frac{\\alpha}{\\beta}=\\frac{1}{3}$ We need the sum of first six terms: $S_{6}=a \\cdot \\frac{1-r^{6}}{1-r}.$ Substitute the values: $S_{6}=1 \\cdot \\frac{1-(\\frac{1}{3})^{6}}{1-\\frac{1}{3}}.$ Now, $(\\frac{1}{3})^{6}=\\frac{1}{729}$ and $1-\\frac{1}{3}=\\frac{2}{3}.$ Hence, $S_{6}=\\frac{1-\\frac{1}{729}}{\\frac{2}{3}}=\\frac{\\frac{728}{729}}{\\frac{2}{3}}=\\frac{728}{729} \\cdot \\frac{3}{2}.$ So, $S_{6}=\\frac{1092}{729}=\\frac{364}{243}.$ Therefore, the required sum is $\\frac{364}{243}.$ So the correct option is $\\text{Option C}.$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the quadratic equation</p>\n<p> $(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,$ </p>\n<p>let us first compare it with the standard quadratic form</p>\n<p> $ax^{2}+bx+c=0.$ </p>\n<p>So,</p>\n<p> $a=n^{2}-2n+2,b=-3,c=(n^{2}-2n+2)^{2}.$ </p>\n<p>Now rewrite  $a$  in a simpler form:</p>\n<p> $n^{2}-2n+2=(n-1)^{2}+1.$ </p>\n<p>Hence,</p>\n<p> $a=(n-1)^{2}+1.$ </p>\n<p>Since  $(n-1)^{2} \\ge 0$ , we get</p>\n<p> $a \\ge 1.$ </p>\n<p>Now, for a quadratic equation, by Vieta’s formulas:</p>\n<ul>\n<li><p>Sum of roots  $=-\\frac{b}{a}$ </p></li>\n<li><p>Product of roots  $=\\frac{c}{a}$ </p></li>\n</ul>\n<p>So here,</p>\n<p> $\\text{Sum of roots}=\\frac{3}{a}$ </p>\n<p>and</p>\n<p> $\\text{Product of roots}=\\frac{a^{2}}{a}=a.$ </p>\n<p>Therefore,</p>\n<p> $\\text{Product of roots}=(n-1)^{2}+1.$ </p>\n<p>So the minimum value of the product is clearly</p>\n<p> $\\alpha=1,$ </p>\n<p>attained when  $n=1$ .</p>\n<p>Now the sum of roots is</p>\n<p> $\\frac{3}{(n-1)^{2}+1}.$ </p>\n<p>Since the denominator is minimum when  $(n-1)^{2}=0$ , the maximum value of the sum is</p>\n<p> $\\beta=\\frac{3}{1}=3.$ </p>\n<p>So we have</p>\n<p> $\\alpha=1,\\beta=3.$ </p>\n<p>Now the G.P. has</p>\n<ul>\n<li><p>first term  $a=\\alpha=1$ </p></li>\n<li><p>common ratio  $r=\\frac{\\alpha}{\\beta}=\\frac{1}{3}$ </p></li>\n</ul>\n<p>We need the sum of first six terms:</p>\n<p> $S_{6}=a \\cdot \\frac{1-r^{6}}{1-r}.$ </p>\n<p>Substitute the values:</p>\n<p> $S_{6}=1 \\cdot \\frac{1-(\\frac{1}{3})^{6}}{1-\\frac{1}{3}}.$ </p>\n<p>Now,</p>\n<p> $(\\frac{1}{3})^{6}=\\frac{1}{729}$ </p>\n<p>and</p>\n<p> $1-\\frac{1}{3}=\\frac{2}{3}.$ </p>\n<p>Hence,</p>\n<p> $S_{6}=\\frac{1-\\frac{1}{729}}{\\frac{2}{3}}=\\frac{\\frac{728}{729}}{\\frac{2}{3}}=\\frac{728}{729} \\cdot \\frac{3}{2}.$ </p>\n<p>So,</p>\n<p> $S_{6}=\\frac{1092}{729}=\\frac{364}{243}.$ </p>\n<p>Therefore, the required sum is</p>\n<p> $\\frac{364}{243}.$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option C}.$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,n \\in R",
+        "\\frac{\\alpha}{\\beta}",
+        "(n^{2}-2n+2)x^{2}-3x+(n^{2}-2n+2)^{2}=0,",
+        "ax^{2}+bx+c=0.",
+        "a=n^{2}-2n+2,b=-3,c=(n^{2}-2n+2)^{2}."
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:06.487326"
+    },
+    {
+      "id": 25444,
+      "qid": "mnswhshn",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-first-ten-terms-of-an-ap-is-160-and-the-jee-main-mathematics-trigonometric-functions-and-equations-y7nzngtxbiwxqpmb",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Evening Shift",
+      "exam_date": "5th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Let $\\alpha,\\beta$ be the roots of the equation $x^{2}-x+p=0$ and $\\gamma,\\delta$ be the roots the equation $x^{2}-4x+q=0$ ; $p,q \\in Z$ . If $\\alpha,\\beta,\\gamma,\\delta$ are in G.P., then $|p+q|$ equals :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\alpha,\\beta$  be the roots of the equation  $x^{2}-x+p=0$  and  $\\gamma,\\delta$  be the roots the equation  $x^{2}-4x+q=0$ ;  $p,q \\in Z$ . If  $\\alpha,\\beta,\\gamma,\\delta$  are in G.P., then  $|p+q|$  equals :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "16",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>16</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "32",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>32</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "34",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>34</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "38",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>38</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let the four roots $\\alpha,\\beta,\\gamma,\\delta$ , which are in G.P., be represented as $a,ar,ar^{2}$ , and $ar^{3}$ respectively. Here, $a$ is the first term and $r$ is the common ratio. For the first quadratic equation $x^{2}-x+p=0$ , the roots are $\\alpha$ and $\\beta$ . Using the sum and product of the roots, we get: Sum of roots: $\\alpha+\\beta=-\\frac{\\text{Coefficient of}x}{\\text{Coefficient of}x^{2}}$ $a+ar=1⟹a(1+r)=1\\text{--- (Equation 1)}$ Product of roots: $\\alpha\\beta=\\frac{\\text{Constant term}}{\\text{Coefficient of}x^{2}}$ $a(ar)=p⟹a^{2}r=p\\text{--- (Equation 2)}$ For the second quadratic equation $x^{2}-4x+q=0$ , the roots are $\\gamma$ and $\\delta$ . Similarly: Sum of roots: $\\gamma+\\delta=-\\frac{-4}{1}$ $ar^{2}+ar^{3}=4⟹ar^{2}(1+r)=4\\text{--- (Equation 3)}$ Product of roots: $\\gamma\\delta=\\frac{q}{1}$ $(ar^{2})(ar^{3})=q⟹a^{2}r^{5}=q\\text{--- (Equation 4)}$ Now, we can solve for $a$ and $r$ by dividing Equation 3 by Equation 1: $\\frac{ar^{2}(1+r)}{a(1+r)}=\\frac{4}{1}$ $r^{2}=4$ $r=2\\text{or}r=-2$ Let us check both cases using the condition given in the problem that $p,q \\in Z$ (they are integers). Case 1: When $r=2$ Substitute $r=2$ into Equation 1: $a(1+2)=1⟹3a=1⟹a=\\frac{1}{3}$ Now, finding the value of $p$ using Equation 2: $p=a^{2}r=(\\frac{1}{3})^{2}(2)=\\frac{2}{9}$ Since $p$ must be an integer ( $p \\in Z$ ), $\\frac{2}{9}$ is not valid. Thus, we reject $r=2$ . Case 2: When $r=-2$ Substitute $r=-2$ into Equation 1: $a(1-2)=1⟹-a=1⟹a=-1$ Now, finding the value of $p$ using Equation 2: $p=a^{2}r=(-1)^{2}(-2)=1 \\times (-2)=-2$ Since $-2$ is an integer, this is a valid value for $p$ . Next, we find the value of $q$ using Equation 4: $q=a^{2}r^{5}$ $q=(-1)^{2}(-2)^{5}$ $q=1 \\times (-32)=-32$ Both $p$ and $q$ are integers, which satisfies the given condition. Finally, we need to calculate the value of $|p+q|$ : $|p+q|=|-2+(-32)|$ $|p+q|=|-34|=34$ Correct Answer: Option C",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the four roots  $\\alpha,\\beta,\\gamma,\\delta$ , which are in G.P., be represented as  $a,ar,ar^{2}$ , and  $ar^{3}$  respectively. Here,  $a$  is the first term and  $r$  is the common ratio.</p>\n<p>For the first quadratic equation  $x^{2}-x+p=0$ , the roots are  $\\alpha$  and  $\\beta$ . </p>\n<p>Using the sum and product of the roots, we get:</p>\n<ol>\n<li>Sum of roots:  $\\alpha+\\beta=-\\frac{\\text{Coefficient of}x}{\\text{Coefficient of}x^{2}}$ </li>\n</ol>\n<p> $a+ar=1⟹a(1+r)=1\\text{--- (Equation 1)}$ </p>\n<ol start=\"2\">\n<li>Product of roots:  $\\alpha\\beta=\\frac{\\text{Constant term}}{\\text{Coefficient of}x^{2}}$ </li>\n</ol>\n<p> $a(ar)=p⟹a^{2}r=p\\text{--- (Equation 2)}$ </p>\n<p>For the second quadratic equation  $x^{2}-4x+q=0$ , the roots are  $\\gamma$  and  $\\delta$ . </p>\n<p>Similarly:</p>\n<ol start=\"3\">\n<li>Sum of roots:  $\\gamma+\\delta=-\\frac{-4}{1}$ </li>\n</ol>\n<p> $ar^{2}+ar^{3}=4⟹ar^{2}(1+r)=4\\text{--- (Equation 3)}$ </p>\n<ol start=\"4\">\n<li>Product of roots:  $\\gamma\\delta=\\frac{q}{1}$ </li>\n</ol>\n<p> $(ar^{2})(ar^{3})=q⟹a^{2}r^{5}=q\\text{--- (Equation 4)}$ </p>\n<p>Now, we can solve for  $a$  and  $r$  by dividing Equation 3 by Equation 1:</p>\n<p> $\\frac{ar^{2}(1+r)}{a(1+r)}=\\frac{4}{1}$ </p>\n<p> $r^{2}=4$ </p>\n<p> $r=2\\text{or}r=-2$ </p>\n<p>Let us check both cases using the condition given in the problem that  $p,q \\in Z$  (they are integers).</p>\n<p><strong>Case 1: When  $r=2$ </strong></p>\n<p>Substitute  $r=2$  into Equation 1:</p>\n<p> $a(1+2)=1⟹3a=1⟹a=\\frac{1}{3}$ </p>\n<p>Now, finding the value of  $p$  using Equation 2:</p>\n<p> $p=a^{2}r=(\\frac{1}{3})^{2}(2)=\\frac{2}{9}$ </p>\n<p>Since  $p$  must be an integer ( $p \\in Z$ ),  $\\frac{2}{9}$  is not valid. Thus, we reject  $r=2$ .</p>\n<p><strong>Case 2: When  $r=-2$ </strong></p>\n<p>Substitute  $r=-2$  into Equation 1:</p>\n<p> $a(1-2)=1⟹-a=1⟹a=-1$ </p>\n<p>Now, finding the value of  $p$  using Equation 2:</p>\n<p> $p=a^{2}r=(-1)^{2}(-2)=1 \\times (-2)=-2$ </p>\n<p>Since  $-2$  is an integer, this is a valid value for  $p$ .</p>\n<p>Next, we find the value of  $q$  using Equation 4:</p>\n<p> $q=a^{2}r^{5}$ </p>\n<p> $q=(-1)^{2}(-2)^{5}$ </p>\n<p> $q=1 \\times (-32)=-32$ </p>\n<p>Both  $p$  and  $q$  are integers, which satisfies the given condition. </p>\n<p>Finally, we need to calculate the value of  $|p+q|$ :</p>\n<p> $|p+q|=|-2+(-32)|$ </p>\n<p> $|p+q|=|-34|=34$ </p>\n<p><strong>Correct Answer:</strong></p>\n<p>Option C</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "x^{2}-x+p=0",
+        "x^{2}-4x+q=0",
+        "a,ar,ar^{2}",
+        "ar^{3}",
+        "a+ar=1⟹a(1+r)=1\\text{--- (Equation 1)}",
+        "\\alpha\\beta=\\frac{\\text{Constant term}}{\\text{Coefficient of}x^{2}}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:08.561771"
+    },
+    {
+      "id": 25461,
+      "qid": "mnswhvv2",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-the-sum-of-the-first-n-terms-of-an-ap-be-3-n25-jee-main-mathematics-trigonometric-functions-and-equations-ywdvzxutgqrrf7y5",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Morning Shift",
+      "exam_date": "5th April",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\sum_{10}^{n=1}(\\frac{528}{n(n+1)(n+2)})$ is equal to:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\sum_{10}^{n=1}(\\frac{528}{n(n+1)(n+2)})$  is equal to:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "65",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>65</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "130",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>130</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "220",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>220</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "440",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>440</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "$S=\\sum_{10}^{n=1}\\frac{528}{n(n+1)(n+2)}$ We will simplify the general term using partial fractions. Step 1: Use the standard identity $\\frac{1}{n(n+1)(n+2)}=\\frac{1}{2}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ So, $\\frac{528}{n(n+1)(n+2)}=528 \\cdot \\frac{1}{2}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ $=264(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ Hence, $S=264\\sum_{10}^{n=1}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ Step 2: Write a few terms $S=264[(\\frac{1}{1 \\cdot 2}-\\frac{1}{2 \\cdot 3})+(\\frac{1}{2 \\cdot 3}-\\frac{1}{3 \\cdot 4})+(\\frac{1}{3 \\cdot 4}-\\frac{1}{4 \\cdot 5})+\\cdot s+(\\frac{1}{10 \\cdot 11}-\\frac{1}{11 \\cdot 12})]$ Now the middle terms cancel out telescopically. So we get $S=264(\\frac{1}{1 \\cdot 2}-\\frac{1}{11 \\cdot 12})$ $S=264(\\frac{1}{2}-\\frac{1}{132})$ Take LCM: $\\frac{1}{2}=\\frac{66}{132}$ So, $\\frac{1}{2}-\\frac{1}{132}=\\frac{66-1}{132}=\\frac{65}{132}$ Therefore, $S=264 \\cdot \\frac{65}{132}$ $S=2 \\cdot 65=130$ $130$ So, the correct option is Option B .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $S=\\sum_{10}^{n=1}\\frac{528}{n(n+1)(n+2)}$ </p>\n<p>We will simplify the general term using partial fractions.</p>\n<h2>Step 1: Use the standard identity</h2>\n<p> $\\frac{1}{n(n+1)(n+2)}=\\frac{1}{2}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ </p>\n<p>So,</p>\n<p> $\\frac{528}{n(n+1)(n+2)}=528 \\cdot \\frac{1}{2}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ </p>\n<p> $=264(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ </p>\n<p>Hence,</p>\n<p> $S=264\\sum_{10}^{n=1}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})$ </p>\n<h2>Step 2: Write a few terms</h2>\n<p> $S=264[(\\frac{1}{1 \\cdot 2}-\\frac{1}{2 \\cdot 3})+(\\frac{1}{2 \\cdot 3}-\\frac{1}{3 \\cdot 4})+(\\frac{1}{3 \\cdot 4}-\\frac{1}{4 \\cdot 5})+\\cdot s+(\\frac{1}{10 \\cdot 11}-\\frac{1}{11 \\cdot 12})]$ </p>\n<p>Now the middle terms cancel out telescopically.</p>\n<p>So we get</p>\n<p> $S=264(\\frac{1}{1 \\cdot 2}-\\frac{1}{11 \\cdot 12})$ </p>\n<p> $S=264(\\frac{1}{2}-\\frac{1}{132})$ </p>\n<p>Take LCM:</p>\n<p> $\\frac{1}{2}=\\frac{66}{132}$ </p>\n<p>So,</p>\n<p> $\\frac{1}{2}-\\frac{1}{132}=\\frac{66-1}{132}=\\frac{65}{132}$ </p>\n<p>Therefore,</p>\n<p> $S=264 \\cdot \\frac{65}{132}$ </p>\n<p> $S=2 \\cdot 65=130$ </p>\n<p> $130$ </p>\n<p>So, the correct option is <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\sum_{10}^{n=1}(\\frac{528}{n(n+1)(n+2)})",
+        "S=\\sum_{10}^{n=1}\\frac{528}{n(n+1)(n+2)}",
+        "\\frac{1}{n(n+1)(n+2)}=\\frac{1}{2}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})",
+        "=264(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})",
+        "S=264\\sum_{10}^{n=1}(\\frac{1}{n(n+1)}-\\frac{1}{(n+1)(n+2)})",
+        "S=264(\\frac{1}{2}-\\frac{1}{132})"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:10.475211"
+    },
+    {
+      "id": 25476,
+      "qid": "mnrilo4n",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-frac131--frac13--231--3--frac-jee-main-mathematics-wl114rluhvauhlla",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 2nd April Morning Shift",
+      "exam_date": "2nd April",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Let A be the set of first 101 terms of an A.P., whose first term is 1 and the common difference is 5 and let B be the set of first 71 terms of an A.P., whose first term is 9 and the common difference is 7. Then the number of elements in $A∩B$ , which are divisible by 3, is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let A be the set of first 101 terms of an A.P., whose first term is 1 and the common difference is 5 and let B be the set of first 71 terms of an A.P., whose first term is 9 and the common difference is 7. Then the number of elements in  $A∩B$ , which are divisible by 3, is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>4</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>5</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>6</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>7</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Understand Set A Set $A$ consists of the first 101 terms of an A.P. with the first term $a=1$ and common difference $d_{1}=5$ . The $n$ -th term of this A.P. is given by the formula: $a_{n}=a+(n-1)d_{1}$ Therefore, the last term (101st term) of Set A is: $a_{101}=1+(101-1) \\times 5=1+100 \\times 5=501$ So, $A={1,6,11,16,21,\\dots,501}$ . Understand Set B Set $B$ consists of the first 71 terms of an A.P. with the first term $b=9$ and common difference $d_{2}=7$ . The $m$ -th term of this A.P. is: $b_{m}=b+(m-1)d_{2}$ Therefore, the last term (71st term) of Set B is: $b_{71}=9+(71-1) \\times 7=9+70 \\times 7=499$ So, $B={9,16,23,30,\\dots,499}$ . Find the elements in $A∩B$ The elements common to both sets $A$ and $B$ will themselves form an A.P. From the initial terms listed above, we can easily see that the first common term is $16$ . The common difference of this new A.P. will be the Least Common Multiple (LCM) of the common differences of the two original sets: $\\text{Common difference of}A∩B=\\text{LCM}(5,7)=35$ The $k$ -th term of the common sequence is given by: $C_{k}=16+(k-1)35$ Since a common term must exist in both sets, it cannot be greater than the smallest of their last terms. Thus, $C_{k} \\le \\text{min}(501,499)$ . $16+(k-1)35 \\le 499$ $35(k-1) \\le 483$ $k-1 \\le \\frac{483}{35}$ $k-1 \\le 13.8$ Since $k$ must be a positive integer, the maximum possible value for $(k-1)$ is $13$ . Thus, $k \\le 14$ . There are altogether 14 common terms in $A∩B$ . Find elements in $A∩B$ divisible by 3 We want to find terms $C_{k}$ that are divisible by $3$ , which means: $C_{k} \\equiv 0(mod3)$ $16+35(k-1) \\equiv 0(mod3)$ Since $16=3 \\times 5+1⟹16 \\equiv 1(mod3)$ and $35=3 \\times 11+2⟹35 \\equiv 2(mod3)$ , we can simplify: $1+2(k-1) \\equiv 0(mod3)$ Checking the first few integer values for $k$ : If $k=1$ : $1+2(0)=1$ (Not divisible by 3) If $k=2$ : $1+2(1)=3 \\equiv 0(mod3)$ (Divisible by 3) If $k=3$ : $1+2(2)=5 \\equiv 2(mod3)$ (Not divisible by 3) The condition holds true when $k=2$ . Because we are operating in modulo $3$ , the values of $k$ that satisfy this condition will form an A.P. with a common difference of $3$ . Thus, the valid values of $k$ within the range $1 \\le k \\le 14$ are: $k \\in {2,5,8,11,14}$ Counting these, there are exactly $5$ valid values of $k$ . For confirmation, the terms are: For $k=2 \\rightarrow 51$ For $k=5 \\rightarrow 156$ For $k=8 \\rightarrow 261$ For $k=11 \\rightarrow 366$ For $k=14 \\rightarrow 471$ All 5 of these terms are common elements between the sets and are completely divisible by 3. Correct Answer: Option B",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><strong>Understand Set A</strong></p>\n<p>Set  $A$  consists of the first 101 terms of an A.P. with the first term  $a=1$  and common difference  $d_{1}=5$ . </p>\n<p>The  $n$ -th term of this A.P. is given by the formula:</p>\n<p> $a_{n}=a+(n-1)d_{1}$ </p>\n<p>Therefore, the last term (101st term) of Set A is:</p>\n<p> $a_{101}=1+(101-1) \\times 5=1+100 \\times 5=501$ </p>\n<p>So,  $A={1,6,11,16,21,\\dots,501}$ .</p>\n<p><strong>Understand Set B</strong></p>\n<p>Set  $B$  consists of the first 71 terms of an A.P. with the first term  $b=9$  and common difference  $d_{2}=7$ .</p>\n<p>The  $m$ -th term of this A.P. is:</p>\n<p> $b_{m}=b+(m-1)d_{2}$ </p>\n<p>Therefore, the last term (71st term) of Set B is:</p>\n<p> $b_{71}=9+(71-1) \\times 7=9+70 \\times 7=499$ </p>\n<p>So,  $B={9,16,23,30,\\dots,499}$ .</p>\n<p><strong>Find the elements in  $A∩B$ </strong></p>\n<p>The elements common to both sets  $A$  and  $B$  will themselves form an A.P. </p>\n<p>From the initial terms listed above, we can easily see that the first common term is  $16$ .</p>\n<p>The common difference of this new A.P. will be the Least Common Multiple (LCM) of the common differences of the two original sets:</p>\n<p> $\\text{Common difference of}A∩B=\\text{LCM}(5,7)=35$ </p>\n<p>The  $k$ -th term of the common sequence is given by:</p>\n<p> $C_{k}=16+(k-1)35$ </p>\n<p>Since a common term must exist in both sets, it cannot be greater than the smallest of their last terms. Thus,  $C_{k} \\le \\text{min}(501,499)$ .</p>\n<p> $16+(k-1)35 \\le 499$ </p>\n<p> $35(k-1) \\le 483$ </p>\n<p> $k-1 \\le \\frac{483}{35}$ </p>\n<p> $k-1 \\le 13.8$ </p>\n<p>Since  $k$  must be a positive integer, the maximum possible value for  $(k-1)$  is  $13$ . Thus,  $k \\le 14$ . </p>\n<p>There are altogether 14 common terms in  $A∩B$ . </p>\n<p><strong>Find elements in  $A∩B$  divisible by 3</strong></p>\n<p>We want to find terms  $C_{k}$  that are divisible by  $3$ , which means:</p>\n<p> $C_{k} \\equiv 0(mod3)$ </p>\n<p> $16+35(k-1) \\equiv 0(mod3)$ </p>\n<p>Since  $16=3 \\times 5+1⟹16 \\equiv 1(mod3)$  and  $35=3 \\times 11+2⟹35 \\equiv 2(mod3)$ , we can simplify:</p>\n<p> $1+2(k-1) \\equiv 0(mod3)$ </p>\n<p>Checking the first few integer values for  $k$ :</p>\n<ul>\n<li><p>If  $k=1$ :  $1+2(0)=1$  (Not divisible by 3)</p></li>\n<li><p>If  $k=2$ :  $1+2(1)=3 \\equiv 0(mod3)$  (Divisible by 3)</p></li>\n<li><p>If  $k=3$ :  $1+2(2)=5 \\equiv 2(mod3)$  (Not divisible by 3)</p></li>\n</ul>\n<p>The condition holds true when  $k=2$ . Because we are operating in modulo  $3$ , the values of  $k$  that satisfy this condition will form an A.P. with a common difference of  $3$ . </p>\n<p>Thus, the valid values of  $k$  within the range  $1 \\le k \\le 14$  are:</p>\n<p> $k \\in {2,5,8,11,14}$ </p>\n<p>Counting these, there are exactly  $5$  valid values of  $k$ .</p>\n<p>For confirmation, the terms are: </p>\n<ul>\n<li><p>For  $k=2 \\rightarrow 51$ </p></li>\n<li><p>For  $k=5 \\rightarrow 156$ </p></li>\n<li><p>For  $k=8 \\rightarrow 261$ </p></li>\n<li><p>For  $k=11 \\rightarrow 366$ </p></li>\n<li><p>For  $k=14 \\rightarrow 471$ </p></li>\n</ul>\n<p>All 5 of these terms are common elements between the sets and are completely divisible by 3.</p>\n<p><strong>Correct Answer:</strong></p>\n<p>Option B</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\text{Common difference of}A∩B=\\text{LCM}(5,7)=35",
+        "C_{k} \\le \\text{min}(501,499)",
+        "k-1 \\le \\frac{483}{35}",
+        "16=3 \\times 5+1⟹16 \\equiv 1(mod3)",
+        "35=3 \\times 11+2⟹35 \\equiv 2(mod3)"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:12.321240"
+    },
+    {
+      "id": 25493,
+      "qid": "ml81k4h0",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-sumk1infty-1k1leftfrack-jee-main-mathematics-trigonometric-functions-and-equations-2aqhuitckpwjanx9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Morning Shift",
+      "exam_date": "28th January",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The common difference of the A.P.: $a_{1},a_{2},\\dots,a_{m}$ is 13 more than the common difference of the A.P.: $b_{1},b_{2},\\dots,b_{n}$ . If $b_{31}=-277,b_{43}=-385$ and $a_{78}=327$ , then $a_{1}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The common difference of the A.P.:  $a_{1},a_{2},\\dots,a_{m}$  is 13 more than the common difference of the A.P.:  $b_{1},b_{2},\\dots,b_{n}$ . If  $b_{31}=-277,b_{43}=-385$  and  $a_{78}=327$ , then  $a_{1}$  is equal to</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "21",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>21</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "19",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>19</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "24",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>24</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "16",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>16</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Find common difference of second A.P. It is given that $b_{31}=-277$ , $b_{43}=-385$ Let $d_{b}$ is common difference of second A.P. $\\begin{aligned} & b_{31}=b_{1}+30d_{b}---(1) \\\\ & b_{43}=b_{1}+42d_{b}---(2) \\end{aligned}$ Subtract (1) from (2) $\\begin{aligned} & b_{43}-b_{31}=(42-30)d_{b} \\\\ & -385-(-277)=12d_{b} \\\\ & d_{b}=\\frac{-108}{12}=-9 \\end{aligned}$ Find the common difference ( $d_{a}$ ) of the first A.P. The problem states that $d_{a}$ is 13 more than $d_{b}$ : $\\begin{aligned} d_{a}=d_{b}+13 \\\\ d_{a}=-9+13=4 \\end{aligned}$ Calculate $a_{1}$ We are given $a_{78}=327$ . Using the formula $a_{n}=a_{1}+(n-1)d_{a}$ : $\\begin{aligned} 327=a_{1}+(78-1)(4) \\\\ 327=a_{1}+(77)(4) \\\\ 327=a_{1}+308 \\\\ a_{1}=327-308=19 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Find common difference of second A.P.</p>\n<p>It is given that  $b_{31}=-277$ ,  $b_{43}=-385$ </p>\n<p>Let  $d_{b}$  is common difference of second A.P.</p>\n<p> $\\begin{aligned} &amp; b_{31}=b_{1}+30d_{b}---(1) \\\\ &amp; b_{43}=b_{1}+42d_{b}---(2) \\end{aligned}$ </p>\n<p>Subtract (1) from (2)</p>\n<p> $\\begin{aligned} &amp; b_{43}-b_{31}=(42-30)d_{b} \\\\ &amp; -385-(-277)=12d_{b} \\\\ &amp; d_{b}=\\frac{-108}{12}=-9 \\end{aligned}$ </p>\n<p>Find the common difference (  $d_{a}$  ) of the first A.P.</p>\n<p>The problem states that  $d_{a}$  is 13 more than  $d_{b}$  :</p>\n<p> $\\begin{aligned} d_{a}=d_{b}+13 \\\\ d_{a}=-9+13=4 \\end{aligned}$ </p>\n<p>Calculate  $a_{1}$ </p>\n<p>We are given  $a_{78}=327$ . Using the formula  $a_{n}=a_{1}+(n-1)d_{a}$  :</p>\n<p> $\\begin{aligned} 327=a_{1}+(78-1)(4) \\\\ 327=a_{1}+(77)(4) \\\\ 327=a_{1}+308 \\\\ a_{1}=327-308=19 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "a_{1},a_{2},\\dots,a_{m}",
+        "b_{1},b_{2},\\dots,b_{n}",
+        "b_{31}=-277,b_{43}=-385",
+        "a_{78}=327",
+        "a_{1}",
+        "b_{31}=-277"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:14.671410"
+    },
+    {
+      "id": 25507,
+      "qid": "ml98p53z",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-7298191-ldots-be-a-sequence-and-mathrmpn-jee-main-mathematics-trigonometric-functions-and-equations-vucwovlpq9qxwli3",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Morning Shift",
+      "exam_date": "24th January",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Consider an A.P.: $a_{1},a_{2},\\dots,a_{n};a_{1}>0$ . If $a_{2}-a_{1}=\\frac{-3}{4},a_{n}=\\frac{1}{4}a_{1}$ , and $\\sum_{i=1}^{n}a_{i}=\\frac{525}{2}$ , then $\\sum_{i=1}^{17}a_{i}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider an A.P.:  $a_{1},a_{2},\\dots,a_{n};a_{1}&gt;0$ . If  $a_{2}-a_{1}=\\frac{-3}{4},a_{n}=\\frac{1}{4}a_{1}$ , and  $\\sum_{i=1}^{n}a_{i}=\\frac{525}{2}$ , then  $\\sum_{i=1}^{17}a_{i}$  is equal to</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "238",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>238</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "136",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>136</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "476",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>476</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "952",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>952</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given $a_{1},a_{2},\\dots,a_{n}$ are in A.P; $a_{1}>0$ Let $d$ be the common difference of this A.P. So $d=a_{2}-a_{1}=-\\frac{3}{4}$ (given) It is given that $\\sum_{i=1}^{n}a_{i}=\\frac{525}{2}$ and $a_{n}=\\frac{1}{4}a_{1}$ $\\therefore$ $a_{1}+a_{2}+a_{3}+\\dotsa_{n}=\\frac{525}{2}$ Using sum of $n$ terms of A.P $S_{n}=\\frac{n}{2}(a_{1}+a_{n})$ $\\Rightarrow$ $\\frac{n}{2}(a_{1}+\\frac{1}{4}a_{1})=\\frac{525}{2}$ $\\Rightarrow$ $5a_{1}n=525 \\times 4$ $a_{1}n=420-(1)$ Also using formula for general term $a_{n}=a_{1}+(n-1)d$ $\\Rightarrow$ $\\frac{1}{4}a_{1}=a_{1}+(n-1)(-\\frac{3}{4})$ $\\Rightarrow$ $(n-1)\\frac{3}{4}=a_{1}-\\frac{1}{4}a_{1}=\\frac{3a_{1}}{4}$ $n=a_{1}+1-(2)$ Substitute in equation (1) $a_{1}(a_{1}+1)=420$ $\\Rightarrow$ $a_{1}^{2}+a_{1}-420=0$ $\\Rightarrow$ $a_{1}^{2}+21a_{1}-20a_{1}-420=0$ $\\Rightarrow$ $a_{1}(a_{1}+21)-20(a_{1}+21)=0$ $\\Rightarrow$ $(a_{1}+21)(a_{1}-20)=0$ Since $a_{1}>0$ so $a_{1}=20$ To find $\\sum_{i=1}^{17}a_{i}=a_{1}+a_{2}+\\dotsa_{17}$ Sum of 17 terms $=\\frac{17}{2}[2a_{1}+(17-1)d]$ $\\begin{aligned} & =\\frac{17}{2}[2 \\times 20+16 \\times -\\frac{3}{4}] \\\\ & =\\frac{17}{2}[40-12]=\\frac{17}{2} \\times 28 \\\\ & =17 \\times 14=238 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given  $a_{1},a_{2},\\dots,a_{n}$  are in A.P;  $a_{1}&gt;0$ </p>\n<p>Let  $d$  be the common difference of this A.P. </p>\n<p>So  $d=a_{2}-a_{1}=-\\frac{3}{4}$  (given)</p>\n<p>It is given that  $\\sum_{i=1}^{n}a_{i}=\\frac{525}{2}$  and  $a_{n}=\\frac{1}{4}a_{1}$ </p>\n<p> $\\therefore$   $a_{1}+a_{2}+a_{3}+\\dotsa_{n}=\\frac{525}{2}$ </p>\n<p>Using sum of  $n$  terms of A.P  $S_{n}=\\frac{n}{2}(a_{1}+a_{n})$ </p>\n<p> $\\Rightarrow$   $\\frac{n}{2}(a_{1}+\\frac{1}{4}a_{1})=\\frac{525}{2}$ </p>\n<p> $\\Rightarrow$   $5a_{1}n=525 \\times 4$ </p>\n<p> $a_{1}n=420-(1)$ </p>\n<p>Also using formula for general term</p>\n<p> $a_{n}=a_{1}+(n-1)d$ </p>\n<p> $\\Rightarrow$  $\\frac{1}{4}a_{1}=a_{1}+(n-1)(-\\frac{3}{4})$ </p>\n<p> $\\Rightarrow$   $(n-1)\\frac{3}{4}=a_{1}-\\frac{1}{4}a_{1}=\\frac{3a_{1}}{4}$ </p>\n<p> $n=a_{1}+1-(2)$ </p>\n<p>Substitute in equation (1)</p>\n<p> $a_{1}(a_{1}+1)=420$ </p>\n<p> $\\Rightarrow$   $a_{1}^{2}+a_{1}-420=0$ </p>\n<p> $\\Rightarrow$   $a_{1}^{2}+21a_{1}-20a_{1}-420=0$ </p>\n<p> $\\Rightarrow$   $a_{1}(a_{1}+21)-20(a_{1}+21)=0$ </p>\n<p> $\\Rightarrow$   $(a_{1}+21)(a_{1}-20)=0$ </p>\n<p>Since  $a_{1}&gt;0$  so  $a_{1}=20$ </p>\n<p>To find  $\\sum_{i=1}^{17}a_{i}=a_{1}+a_{2}+\\dotsa_{17}$ </p>\n<p>Sum of 17 terms  $=\\frac{17}{2}[2a_{1}+(17-1)d]$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{17}{2}[2 \\times 20+16 \\times -\\frac{3}{4}] \\\\ &amp; =\\frac{17}{2}[40-12]=\\frac{17}{2} \\times 28 \\\\ &amp; =17 \\times 14=238 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "a_{1},a_{2},\\dots,a_{n};a_{1}>0",
+        "a_{2}-a_{1}=\\frac{-3}{4},a_{n}=\\frac{1}{4}a_{1}",
+        "\\sum_{i=1}^{n}a_{i}=\\frac{525}{2}",
+        "\\sum_{i=1}^{17}a_{i}",
+        "a_{1},a_{2},\\dots,a_{n}",
+        "a_{1}>0"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:16.039087"
+    },
+    {
+      "id": 25521,
+      "qid": "ml7ra6c3",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-positive-integer-bnb-for-which-the-solutions-of-jee-main-mathematics-dav6gjbg6fm2di2n",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 21st January Evening Shift",
+      "exam_date": "21st January",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Let $a_{1},\\frac{a_{2}}{2},\\frac{a_{3}}{2^{2}},\\dots,\\frac{a_{10}}{2^{9}}$ be a G.P. of common ratio $\\frac{1}{\\sqrt{2}}$ . If $a_{1}+a_{2}+\\dots+a_{10}=62$ , then $a_{1}$ is equal to:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{1},\\frac{a_{2}}{2},\\frac{a_{3}}{2^{2}},\\dots,\\frac{a_{10}}{2^{9}}$  be a G.P. of common ratio  $\\frac{1}{\\sqrt{2}}$ . If  $a_{1}+a_{2}+\\dots+a_{10}=62$ , then  $a_{1}$  is equal to:</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\sqrt{2}-1$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2(\\sqrt{2}-1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2(\\sqrt{2}-1)$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2-\\sqrt{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2-\\sqrt{2}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2(2-\\sqrt{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2(2-\\sqrt{2})$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\frac{a_{2}}{2a_{1}}=\\frac{a_{3}}{2a_{2}}=\\frac{a_{4}}{2a_{3}}=\\dots=\\frac{a_{10}}{2a_{9}}=\\frac{1}{\\sqrt{2}} \\\\ & \\therefore a_{1},a_{2},a_{2},\\dots.a_{10}\\text{are in G.P. With common ratio}\\sqrt{2} \\\\ & \\therefore \\sum_{i=1}^{10}a_{i}=\\frac{a_{1}((\\sqrt{2})^{10}-1)}{\\sqrt{2}-1}=62 \\Rightarrow a_{1}=2(\\sqrt{2}-1) \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{a_{2}}{2a_{1}}=\\frac{a_{3}}{2a_{2}}=\\frac{a_{4}}{2a_{3}}=\\dots=\\frac{a_{10}}{2a_{9}}=\\frac{1}{\\sqrt{2}} \\\\ &amp; \\therefore a_{1},a_{2},a_{2},\\dots.a_{10}\\text{are in G.P. With common ratio}\\sqrt{2} \\\\ &amp; \\therefore \\sum_{i=1}^{10}a_{i}=\\frac{a_{1}((\\sqrt{2})^{10}-1)}{\\sqrt{2}-1}=62 \\Rightarrow a_{1}=2(\\sqrt{2}-1) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "a_{1},\\frac{a_{2}}{2},\\frac{a_{3}}{2^{2}},\\dots,\\frac{a_{10}}{2^{9}}",
+        "\\frac{1}{\\sqrt{2}}",
+        "a_{1}+a_{2}+\\dots+a_{10}=62",
+        "a_{1}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:17.478632"
+    },
+    {
+      "id": 25429,
+      "qid": "mnsik7n2",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-alpha34891314ldots-upto-40-terms-if-ta-jee-main-mathematics-trigonometric-functions-and-equations-asv3s4se66mf7ucs",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Evening Shift",
+      "exam_date": "6th April",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The sum $1+\\frac{1}{2}(1^{2}+2^{2})+\\frac{1}{3}(1^{2}+2^{2}+3^{2})+\\dots$ upto 10 terms is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sum  $1+\\frac{1}{2}(1^{2}+2^{2})+\\frac{1}{3}(1^{2}+2^{2}+3^{2})+\\dots$  upto 10 terms is equal to :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "130",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>130</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "155",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>155</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{315}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{315}{2}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{325}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{325}{2}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & T_{n}=\\frac{1}{n}(1^{2}+2^{2}+\\dots+n^{2}) \\\\ & T_{n}=\\frac{n(n+1)(2n+1)}{6n} \\\\ & T_{n}=\\frac{1}{6}[2n^{2}+3n+1] \\\\ & S_{n}=\\Sigma T_{n}=\\frac{1}{6}[2\\Sigma n^{2}+3\\Sigma n+\\Sigma 1] \\\\ & \\Sigma T_{n}=\\frac{1}{6}[2 \\cdot \\frac{n(n+1)(2n+1)}{6}+\\frac{3n(n+1)}{2}+n] \\\\ & S_{10}=\\frac{1}{6}[\\frac{2 \\times 10 \\times 11 \\times 21}{6}+\\frac{3}{2} \\times 10 \\times 11+10] \\\\ & =\\frac{10}{6}[77+\\frac{33}{2}+1]=\\frac{315}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; T_{n}=\\frac{1}{n}(1^{2}+2^{2}+\\dots+n^{2}) \\\\ &amp; T_{n}=\\frac{n(n+1)(2n+1)}{6n} \\\\ &amp; T_{n}=\\frac{1}{6}[2n^{2}+3n+1] \\\\ &amp; S_{n}=\\Sigma T_{n}=\\frac{1}{6}[2\\Sigma n^{2}+3\\Sigma n+\\Sigma 1] \\\\ &amp; \\Sigma T_{n}=\\frac{1}{6}[2 \\cdot \\frac{n(n+1)(2n+1)}{6}+\\frac{3n(n+1)}{2}+n] \\\\ &amp; S_{10}=\\frac{1}{6}[\\frac{2 \\times 10 \\times 11 \\times 21}{6}+\\frac{3}{2} \\times 10 \\times 11+10] \\\\ &amp; =\\frac{10}{6}[77+\\frac{33}{2}+1]=\\frac{315}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "1+\\frac{1}{2}(1^{2}+2^{2})+\\frac{1}{3}(1^{2}+2^{2}+3^{2})+\\dots"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:06.555109"
+    },
+    {
+      "id": 25446,
+      "qid": "mnswhufq",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-first-ten-terms-of-an-ap-is-160-and-the-jee-main-mathematics-trigonometric-functions-and-equations-y7nzngtxbiwxqpmb",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Evening Shift",
+      "exam_date": "5th April",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If the sum of the first 10 terms of the series $\\frac{1}{1+1^{4} \\times 4}+\\frac{2}{1+2^{4} \\times 4}+\\frac{3}{1+3^{4} \\times 4}+\\frac{4}{1+4^{4} \\times 4}+\\dots\\dots$ . is $\\frac{m}{n},gcd(m,n)=1$ , then $m+n$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the sum of the first 10 terms of the series  $\\frac{1}{1+1^{4} \\times 4}+\\frac{2}{1+2^{4} \\times 4}+\\frac{3}{1+3^{4} \\times 4}+\\frac{4}{1+4^{4} \\times 4}+\\dots\\dots$ . is  $\\frac{m}{n},gcd(m,n)=1$ , then  $m+n$  is equal to :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "256",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>256</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "264",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>264</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "276",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>276</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "284",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>284</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "The given series is $\\frac{1}{1+4 \\cdot 1^{4}}+\\frac{2}{1+4 \\cdot 2^{4}}+\\frac{3}{1+4 \\cdot 3^{4}}+\\cdot s$ So the general term is $\\frac{r}{1+4r^{4}}$ We need the sum of the first $10$ terms: $S_{10}=\\sum_{10}^{r=1}\\frac{r}{1+4r^{4}}$ Now factor the denominator: $1+4r^{4}=(2r^{2}-2r+1)(2r^{2}+2r+1)$ So, $\\frac{r}{1+4r^{4}}=\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ We now try to split it: $\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}=\\frac{1}{4}(\\frac{1}{2r^{2}-2r+1}-\\frac{1}{2r^{2}+2r+1})$ Check: $\\frac{1}{4}(\\frac{1}{2r^{2}-2r+1}-\\frac{1}{2r^{2}+2r+1})$ Taking LCM, $=\\frac{1}{4} \\cdot \\frac{(2r^{2}+2r+1)-(2r^{2}-2r+1)}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ $=\\frac{1}{4} \\cdot \\frac{4r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ $=\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ Correct. Also note that $2r^{2}+2r+1=2(r+1)^{2}-2(r+1)+1$ So if we define $a_{r}=2r^{2}-2r+1$ then $2r^{2}+2r+1=a_{r+1}$ Hence, $\\frac{r}{1+4r^{4}}=\\frac{1}{4}(\\frac{1}{a_{r}}-\\frac{1}{a_{r+1}})$ Therefore, $S_{10}=\\frac{1}{4}\\sum_{10}^{r=1}(\\frac{1}{a_{r}}-\\frac{1}{a_{r+1}})$ This is a telescoping series: $S_{10}=\\frac{1}{4}(\\frac{1}{a_{1}}-\\frac{1}{a_{11}})$ Now compute: $a_{1}=2(1)^{2}-2(1)+1=1$ and $a_{11}=2(11)^{2}-2(11)+1=242-22+1=221$ So, $S_{10}=\\frac{1}{4}(1-\\frac{1}{221})$ $=\\frac{1}{4} \\cdot \\frac{220}{221}$ $=\\frac{55}{221}$ Thus, $m=55,n=221$ So, $m+n=55+221=276$ Hence, the correct answer is: $276$ So, Option C is correct.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given series is</p>\n<p> $\\frac{1}{1+4 \\cdot 1^{4}}+\\frac{2}{1+4 \\cdot 2^{4}}+\\frac{3}{1+4 \\cdot 3^{4}}+\\cdot s$ </p>\n<p>So the general term is</p>\n<p> $\\frac{r}{1+4r^{4}}$ </p>\n<p>We need the sum of the first  $10$  terms:</p>\n<p> $S_{10}=\\sum_{10}^{r=1}\\frac{r}{1+4r^{4}}$ </p>\n<p>Now factor the denominator:</p>\n<p> $1+4r^{4}=(2r^{2}-2r+1)(2r^{2}+2r+1)$ </p>\n<p>So,</p>\n<p> $\\frac{r}{1+4r^{4}}=\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ </p>\n<p>We now try to split it:</p>\n<p> $\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}=\\frac{1}{4}(\\frac{1}{2r^{2}-2r+1}-\\frac{1}{2r^{2}+2r+1})$ </p>\n<p>Check:</p>\n<p> $\\frac{1}{4}(\\frac{1}{2r^{2}-2r+1}-\\frac{1}{2r^{2}+2r+1})$ </p>\n<p>Taking LCM,</p>\n<p> $=\\frac{1}{4} \\cdot \\frac{(2r^{2}+2r+1)-(2r^{2}-2r+1)}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ </p>\n<p> $=\\frac{1}{4} \\cdot \\frac{4r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ </p>\n<p> $=\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}$ </p>\n<p>Correct.</p>\n<p>Also note that</p>\n<p> $2r^{2}+2r+1=2(r+1)^{2}-2(r+1)+1$ </p>\n<p>So if we define</p>\n<p> $a_{r}=2r^{2}-2r+1$ </p>\n<p>then</p>\n<p> $2r^{2}+2r+1=a_{r+1}$ </p>\n<p>Hence,</p>\n<p> $\\frac{r}{1+4r^{4}}=\\frac{1}{4}(\\frac{1}{a_{r}}-\\frac{1}{a_{r+1}})$ </p>\n<p>Therefore,</p>\n<p> $S_{10}=\\frac{1}{4}\\sum_{10}^{r=1}(\\frac{1}{a_{r}}-\\frac{1}{a_{r+1}})$ </p>\n<p>This is a telescoping series:</p>\n<p> $S_{10}=\\frac{1}{4}(\\frac{1}{a_{1}}-\\frac{1}{a_{11}})$ </p>\n<p>Now compute:</p>\n<p> $a_{1}=2(1)^{2}-2(1)+1=1$ </p>\n<p>and</p>\n<p> $a_{11}=2(11)^{2}-2(11)+1=242-22+1=221$ </p>\n<p>So,</p>\n<p> $S_{10}=\\frac{1}{4}(1-\\frac{1}{221})$ </p>\n<p> $=\\frac{1}{4} \\cdot \\frac{220}{221}$ </p>\n<p> $=\\frac{55}{221}$ </p>\n<p>Thus,</p>\n<p> $m=55,n=221$ </p>\n<p>So,</p>\n<p> $m+n=55+221=276$ </p>\n<p>Hence, the correct answer is:</p>\n<p> $276$ </p>\n<p>So, <strong>Option C</strong> is correct.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=\\frac{1}{4} \\cdot \\frac{4r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}",
+        "=\\frac{r}{(2r^{2}-2r+1)(2r^{2}+2r+1)}",
+        "2r^{2}+2r+1=2(r+1)^{2}-2(r+1)+1",
+        "a_{r}=2r^{2}-2r+1",
+        "2r^{2}+2r+1=a_{r+1}",
+        "\\frac{r}{1+4r^{4}}=\\frac{1}{4}(\\frac{1}{a_{r}}-\\frac{1}{a_{r+1}})"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:08.629865"
+    },
+    {
+      "id": 25463,
+      "qid": "mnswhuqy",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-the-sum-of-the-first-n-terms-of-an-ap-be-3-n25-jee-main-mathematics-trigonometric-functions-and-equations-ywdvzxutgqrrf7y5",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 4th April Morning Shift",
+      "exam_date": "4th April",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The first term of an A.P. of 30 non-negative terms is $\\frac{10}{3}$ . If the sum of this A.P. is the cube of its last term, then its common difference is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The first term of an A.P. of 30 non-negative terms is  $\\frac{10}{3}$ . If the sum of this A.P. is the cube of its last term, then its common difference is:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{87}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{87}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{25}{83}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{25}{83}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{15}{29}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{15}{29}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{29}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{29}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "To solve this problem, we will use the standard formulas for an Arithmetic Progression (A.P.) as taught in the NCERT syllabus. Let us break down the information given in the question step by step. Given: The number of terms in the A.P. is $n=30$ . The first term is $a=\\frac{10}{3}$ . All the terms in the A.P. are non-negative. The sum of the A.P. is equal to the cube of its last term. Let the common difference of the A.P. be $d$ and the last term (which is the 30th term) be $l$ . The formula for the $n$ -th term of an A.P. is: $l=a+(n-1)d$ $l=\\frac{10}{3}+(30-1)d$ $l=\\frac{10}{3}+29d\\text{--- (Equation 1)}$ The formula for the sum of $n$ terms of an A.P. when the first and last terms are known is: $S_{n}=\\frac{n}{2}(a+l)$ For $n=30$ , we substitute our known values: $S_{30}=\\frac{30}{2}(\\frac{10}{3}+l)$ $S_{30}=15(\\frac{10}{3}+l)$ $S_{30}=50+15l$ According to the problem, the sum of this A.P. is equal to the cube of its last term. So, we can write: $S_{30}=l^{3}$ Now, substitute the value of $S_{30}$ into this equation: $50+15l=l^{3}$ Rearranging the terms to form a standard cubic equation, we get: $l^{3}-15l-50=0$ To find the roots of this cubic equation, we can use the trial and error method for integer values. Let us check $l=5$ : $(5)^{3}-15(5)-50=125-75-50=0$ Since $l=5$ satisfies the equation, $(l-5)$ is a factor. Now, we can factorise the cubic polynomial completely: $l^{3}-5l^{2}+5l^{2}-25l+10l-50=0$ $l^{2}(l-5)+5l(l-5)+10(l-5)=0$ $(l-5)(l^{2}+5l+10)=0$ This gives us two parts: $l-5=0⟹l=5$ $l^{2}+5l+10=0$ For the quadratic equation $l^{2}+5l+10=0$ , the discriminant is: $D=(5)^{2}-4(1)(10)=25-40=-15$ Since the discriminant is negative ( $D<0$ ), this part has no real roots. Therefore, the only real solution for the last term is: $l=5$ Now, substitute $l=5$ back into Equation 1 to find the common difference $d$ : $5=\\frac{10}{3}+29d$ Subtract $\\frac{10}{3}$ from both sides: $29d=5-\\frac{10}{3}$ $29d=\\frac{15-10}{3}$ $29d=\\frac{5}{3}$ Now, divide both sides by 29: $d=\\frac{5}{3 \\times 29}$ $d=\\frac{5}{87}$ Thus, the common difference of the given A.P. is $\\frac{5}{87}$ . Since the first term and the common difference are positive, all terms are indeed non-negative, satisfying all conditions. Option A is the correct answer.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we will use the standard formulas for an Arithmetic Progression (A.P.) as taught in the NCERT syllabus. Let us break down the information given in the question step by step.</p>\n<p>Given:</p>\n<ol>\n<li><p>The number of terms in the A.P. is  $n=30$ .</p></li>\n<li><p>The first term is  $a=\\frac{10}{3}$ .</p></li>\n<li><p>All the terms in the A.P. are non-negative.</p></li>\n<li><p>The sum of the A.P. is equal to the cube of its last term.</p></li>\n</ol>\n<p>Let the common difference of the A.P. be  $d$  and the last term (which is the 30th term) be  $l$ .</p>\n<p>The formula for the  $n$ -th term of an A.P. is:</p>\n<p> $l=a+(n-1)d$ </p>\n<p> $l=\\frac{10}{3}+(30-1)d$ </p>\n<p> $l=\\frac{10}{3}+29d\\text{--- (Equation 1)}$ </p>\n<p>The formula for the sum of  $n$  terms of an A.P. when the first and last terms are known is:</p>\n<p> $S_{n}=\\frac{n}{2}(a+l)$ </p>\n<p>For  $n=30$ , we substitute our known values:</p>\n<p> $S_{30}=\\frac{30}{2}(\\frac{10}{3}+l)$ </p>\n<p> $S_{30}=15(\\frac{10}{3}+l)$ </p>\n<p> $S_{30}=50+15l$ </p>\n<p>According to the problem, the sum of this A.P. is equal to the cube of its last term. So, we can write:</p>\n<p> $S_{30}=l^{3}$ </p>\n<p>Now, substitute the value of  $S_{30}$  into this equation:</p>\n<p> $50+15l=l^{3}$ </p>\n<p>Rearranging the terms to form a standard cubic equation, we get:</p>\n<p> $l^{3}-15l-50=0$ </p>\n<p>To find the roots of this cubic equation, we can use the trial and error method for integer values. </p>\n<p>Let us check  $l=5$ :</p>\n<p> $(5)^{3}-15(5)-50=125-75-50=0$ </p>\n<p>Since  $l=5$  satisfies the equation,  $(l-5)$  is a factor.</p>\n<p>Now, we can factorise the cubic polynomial completely:</p>\n<p> $l^{3}-5l^{2}+5l^{2}-25l+10l-50=0$ </p>\n<p> $l^{2}(l-5)+5l(l-5)+10(l-5)=0$ </p>\n<p> $(l-5)(l^{2}+5l+10)=0$ </p>\n<p>This gives us two parts:</p>\n<ol>\n<li><p> $l-5=0⟹l=5$ </p></li>\n<li><p> $l^{2}+5l+10=0$ </p></li>\n</ol>\n<p>For the quadratic equation  $l^{2}+5l+10=0$ , the discriminant is:</p>\n<p> $D=(5)^{2}-4(1)(10)=25-40=-15$ </p>\n<p>Since the discriminant is negative ( $D&lt;0$ ), this part has no real roots. Therefore, the only real solution for the last term is:</p>\n<p> $l=5$ </p>\n<p>Now, substitute  $l=5$  back into Equation 1 to find the common difference  $d$ :</p>\n<p> $5=\\frac{10}{3}+29d$ </p>\n<p>Subtract  $\\frac{10}{3}$  from both sides:</p>\n<p> $29d=5-\\frac{10}{3}$ </p>\n<p> $29d=\\frac{15-10}{3}$ </p>\n<p> $29d=\\frac{5}{3}$ </p>\n<p>Now, divide both sides by 29:</p>\n<p> $d=\\frac{5}{3 \\times 29}$ </p>\n<p> $d=\\frac{5}{87}$ </p>\n<p>Thus, the common difference of the given A.P. is  $\\frac{5}{87}$ . Since the first term and the common difference are positive, all terms are indeed non-negative, satisfying all conditions.</p>\n<p>Option A is the correct answer.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\frac{10}{3}",
+        "n=30",
+        "a=\\frac{10}{3}",
+        "l=\\frac{10}{3}+(30-1)d",
+        "l=\\frac{10}{3}+29d\\text{--- (Equation 1)}",
+        "S_{30}=15(\\frac{10}{3}+l)"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:10.555923"
+    },
+    {
+      "id": 25478,
+      "qid": "ml7uofdr",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-frac131--frac13--231--3--frac-jee-main-mathematics-wl114rluhvauhlla",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Evening Shift",
+      "exam_date": "28th January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Let the arithmetic mean of $\\frac{1}{a}$ and $\\frac{1}{b}$ be $\\frac{5}{16}$ , $a>2$ . If $\\alpha$ is such that $a$ , $4$ , $\\alpha$ , $b$ are in A.P., then the equation $\\alpha x^{2}-ax+2(\\alpha-2b)=0$ has :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the arithmetic mean of  $\\frac{1}{a}$  and  $\\frac{1}{b}$  be  $\\frac{5}{16}$ ,  $a&gt;2$ . If  $\\alpha$  is such that  $a$ ,  $4$ ,  $\\alpha$ ,  $b$  are in A.P., then the equation  $\\alpha x^{2}-ax+2(\\alpha-2b)=0$  has :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "one root in $(1,4)$ and another in $(-2,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>one root in  $(1,4)$  and another in  $(-2,0)$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "one root in $(0,2)$ and another in $(-4,-2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>one root in  $(0,2)$  and another in  $(-4,-2)$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "both roots in the interval $(-2,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>both roots in the interval  $(-2,0)$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "complex roots of magnitude less than $2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>complex roots of magnitude less than  $2$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The arithmetic mean of $\\frac{1}{a}$ and $\\frac{1}{b}$ is $\\frac{5}{16}$ . $\\frac{\\frac{1}{a}+\\frac{1}{b}}{2}=\\frac{5}{16}$ $\\Rightarrow \\frac{1}{a}+\\frac{1}{b}=\\frac{5}{8}$ $\\Rightarrow$ $\\frac{a+b}{ab}=\\frac{5}{8}$ $\\Rightarrow 8(a+b)=5ab...(i)$ $a,4,\\alpha,b$ are in A.P. Let the common difference be $d$ . (A). $4=a+d⟹d=4-a$ (B). $\\alpha=a+2d=a+2(4-a)=8-a$ (C). $b=a+3d=a+3(4-a)=12-2a$ Solve for $a,b$ , and $\\alpha$ Substitute $b=12-2a$ into equation (1) : $\\begin{aligned} 8(a+12-2a)=5a(12-2a) \\\\ 8(12-a)=60a-10a^{2} \\\\ 96-8a=60a-10a^{2} \\\\ 10a^{2}-68a+96=0 \\\\ 5a^{2}-34a+48=0 \\end{aligned}$ Using the quadratic formula: $a=\\frac{34 \\pm \\sqrt{34^{2}-4(5)(48)}}{2(5)}=\\frac{34 \\pm \\sqrt{1156-960}}{10}=\\frac{34 \\pm 14}{10}$ $a=\\frac{48}{10}=4.8,a=\\frac{20}{10}=2\\text{(Discarded because the problem states}a>2\\text{)}$ With $a=4.8:\\alpha=8-4.8=𝟑.𝟐,b=12-2(4.8)=12-9.6=𝟐.𝟒$ Analyze the Quadratic Equation The given equation is $\\alpha x^{2}-ax+2(\\alpha-2b)=0$ . Substitute the values: $\\begin{aligned} 3.2x^{2}-4.8x+2(3.2-2(2.4))=0 \\\\ 3.2x^{2}-4.8x+2(3.2-4.8)=0 \\\\ 3.2x^{2}-4.8x-3.2=0 \\\\ 2x^{2}-3x-2=0 \\end{aligned}$ Factorise $(2x+1)(x-2)=0$ The roots are $x=2$ and $x=-0.5$ . Looking at the options: Root $x=2$ lies in the interval $(1,4)$ . Root $x=-0.5$ lies in the interval $(-2,0)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The arithmetic mean of  $\\frac{1}{a}$  and  $\\frac{1}{b}$  is  $\\frac{5}{16}$ .</p>\n<p> $\\frac{\\frac{1}{a}+\\frac{1}{b}}{2}=\\frac{5}{16}$ \n<br/><br/> $\\Rightarrow \\frac{1}{a}+\\frac{1}{b}=\\frac{5}{8}$ \n<br/><br/> $\\Rightarrow$   $\\frac{a+b}{ab}=\\frac{5}{8}$ \n<br/><br/> $\\Rightarrow 8(a+b)=5ab...(i)$ </p>\n<p> $a,4,\\alpha,b$  are in A.P. Let the common difference be  $d$ .</p>\n<ul>\n<li><p>(A).  $4=a+d⟹d=4-a$ </p></li>\n<li><p>(B).  $\\alpha=a+2d=a+2(4-a)=8-a$ </p></li>\n<li><p>(C).  $b=a+3d=a+3(4-a)=12-2a$ </p></li>\n</ul>\n<p>Solve for  $a,b$ , and  $\\alpha$ </p>\n<p>Substitute  $b=12-2a$  into equation (1) :</p>\n<p> $\\begin{aligned} 8(a+12-2a)=5a(12-2a) \\\\ 8(12-a)=60a-10a^{2} \\\\ 96-8a=60a-10a^{2} \\\\ 10a^{2}-68a+96=0 \\\\ 5a^{2}-34a+48=0 \\end{aligned}$ </p>\n<p>Using the quadratic formula:  $a=\\frac{34 \\pm \\sqrt{34^{2}-4(5)(48)}}{2(5)}=\\frac{34 \\pm \\sqrt{1156-960}}{10}=\\frac{34 \\pm 14}{10}$ </p>\n<p> $a=\\frac{48}{10}=4.8,a=\\frac{20}{10}=2\\text{(Discarded because the problem states}a&gt;2\\text{)}$ </p>\n<p>With  $a=4.8:\\alpha=8-4.8=𝟑.𝟐,b=12-2(4.8)=12-9.6=𝟐.𝟒$ </p>\n<p>Analyze the Quadratic Equation</p>\n<p>The given equation is  $\\alpha x^{2}-ax+2(\\alpha-2b)=0$ . Substitute the values:</p>\n<p> $\\begin{aligned} 3.2x^{2}-4.8x+2(3.2-2(2.4))=0 \\\\ 3.2x^{2}-4.8x+2(3.2-4.8)=0 \\\\ 3.2x^{2}-4.8x-3.2=0 \\\\ 2x^{2}-3x-2=0 \\end{aligned}$ </p>\n\n<p>Factorise  $(2x+1)(x-2)=0$ </p>\n<p>The roots are  $x=2$  and  $x=-0.5$ .</p>\n<p>Looking at the options: Root  $x=2$  lies in the interval  $(1,4)$ . Root  $x=-0.5$  lies in the interval  $(-2,0)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\frac{1}{a}",
+        "\\frac{1}{b}",
+        "\\frac{5}{16}",
+        "\\Rightarrow \\frac{1}{a}+\\frac{1}{b}=\\frac{5}{8}",
+        "\\frac{a+b}{ab}=\\frac{5}{8}",
+        "\\Rightarrow 8(a+b)=5ab...(i)"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:12.377517"
+    },
+    {
+      "id": 25495,
+      "qid": "ml98p5p5",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-sumk1infty-1k1leftfrack-jee-main-mathematics-trigonometric-functions-and-equations-2aqhuitckpwjanx9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Evening Shift",
+      "exam_date": "24th January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Let $a_{1},a_{2},a_{3},a_{4}$ be an A.P. of four terms such that each term of the A.P. and its common difference $l$ are integers. If $a_{1}+a_{2}+a_{3}+a_{4}=48$ and $a_{1}a_{2}a_{3}a_{4}+l^{4}=361$ , then the largest term of the A.P. is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{1},a_{2},a_{3},a_{4}$  be an A.P. of four terms such that each term of the A.P. and its common difference  $l$  are integers. If  $a_{1}+a_{2}+a_{3}+a_{4}=48$  and  $a_{1}a_{2}a_{3}a_{4}+l^{4}=361$ , then the largest term of the A.P. is equal to</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "27",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>27</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "24",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>24</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "23",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>23</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "21",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>21</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "It is given that $a_{1},a_{2},a_{3},a_{4}$ are in A.P with common difference $l$ . four terms in A.P are $(a-3d),(a-d),(a+d),(a+3d)$ common difference $l=2d \\Rightarrow d=\\frac{l}{2}$ $\\begin{aligned} & \\text{so}a_{1}=a-\\frac{3l}{2},a_{2}=(a-\\frac{l}{2}) \\\\ & a_{3}=a+\\frac{l}{2},a_{4}=(a+\\frac{3l}{2}) \\end{aligned}$ It is given that $a_{1}+a_{2}+a_{3}+a_{4}=48$ $\\begin{aligned} & a-\\frac{3l}{2}+a-\\frac{l}{2}+a+\\frac{l}{2}+a+\\frac{3l}{2}=48 \\\\ & \\Rightarrow 4a=48 \\Rightarrow a=12 \\\\ & \\text{also,}a_{1}a_{2}a_{3}a_{4}+l^{4}=361 \\\\ & \\Rightarrow (12-\\frac{3l}{2})(12-\\frac{l}{2})(12+\\frac{l}{2})(12+\\frac{3l}{2})+l^{4}=361 \\\\ & \\Rightarrow (144-\\frac{l^{2}}{4})(144-\\frac{9l^{2}}{4})+l^{4}=361 \\\\ & \\Rightarrow 20736-324l^{2}-36l^{2}+\\frac{9}{16}l^{4}+l^{4}=361 \\end{aligned}$ $\\Rightarrow$ $\\frac{25}{16}l^{4}-360l^{2}+20375=0$ multiply both side by $\\frac{16}{5}$ . $5l^{4}-1152l^{2}+65200=0$ using quadratic formula $l^{2}=\\frac{1152 \\pm \\sqrt{(1152)^{2}-4 \\times 5 \\times 65200}}{2 \\times 5}$ $\\begin{aligned} & \\Rightarrow l^{2}=\\frac{1152 \\pm \\sqrt{23104}}{10}=\\frac{1152 \\pm 152}{10} \\\\ & \\Rightarrow l^{2}=\\frac{1152+152}{10},\\frac{1152-152}{10} \\\\ & \\Rightarrow l^{2}=\\frac{1304}{10},\\frac{1000}{10} \\\\ & \\Rightarrow l^{2}=\\frac{1304}{10},100 \\end{aligned}$ Since $l$ is integer so $l= \\pm 10$ $\\begin{aligned} & \\text{If}l=10 \\\\ & \\begin{aligned} a_{1}=12-\\frac{3}{2} \\times 10=-3 \\\\ a_{2}=12-\\frac{10}{2}=7 \\\\ a_{3}=12+\\frac{10}{2}=17 \\\\ a_{4}=12+\\frac{3}{2} \\times 10=27 \\end{aligned} \\end{aligned}$ $\\begin{aligned} & \\text{If}l=-10 \\\\ & \\begin{aligned} a_{1}=12+\\frac{3}{2} \\times 10=27 \\\\ a_{2}=12+\\frac{10}{2}=17 \\\\ a_{3}=12-\\frac{10}{2}=7 \\\\ a_{4}=12-\\frac{3}{2} \\times 10=-3 \\end{aligned} \\end{aligned}$ So, numbers are same but in reverse order therefore, largest term of A.P is 27.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>It is given that  $a_{1},a_{2},a_{3},a_{4}$  are in A.P with common difference  $l$ .</p>\n<p>four terms in A.P are  $(a-3d),(a-d),(a+d),(a+3d)$  common difference  $l=2d \\Rightarrow d=\\frac{l}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\text{so}a_{1}=a-\\frac{3l}{2},a_{2}=(a-\\frac{l}{2}) \\\\ &amp; a_{3}=a+\\frac{l}{2},a_{4}=(a+\\frac{3l}{2}) \\end{aligned}$ </p>\n<p>It is given that  $a_{1}+a_{2}+a_{3}+a_{4}=48$ </p>\n<p> $\\begin{aligned} &amp; a-\\frac{3l}{2}+a-\\frac{l}{2}+a+\\frac{l}{2}+a+\\frac{3l}{2}=48 \\\\ &amp; \\Rightarrow 4a=48 \\Rightarrow a=12 \\\\ &amp; \\text{also,}a_{1}a_{2}a_{3}a_{4}+l^{4}=361 \\\\ &amp; \\Rightarrow (12-\\frac{3l}{2})(12-\\frac{l}{2})(12+\\frac{l}{2})(12+\\frac{3l}{2})+l^{4}=361 \\\\ &amp; \\Rightarrow (144-\\frac{l^{2}}{4})(144-\\frac{9l^{2}}{4})+l^{4}=361 \\\\ &amp; \\Rightarrow 20736-324l^{2}-36l^{2}+\\frac{9}{16}l^{4}+l^{4}=361 \\end{aligned}$ </p>\n<p> $\\Rightarrow$   $\\frac{25}{16}l^{4}-360l^{2}+20375=0$ </p>\n<p>multiply both side by  $\\frac{16}{5}$ .</p>\n<p> $5l^{4}-1152l^{2}+65200=0$ </p>\n<p>using quadratic formula</p>\n<p> $l^{2}=\\frac{1152 \\pm \\sqrt{(1152)^{2}-4 \\times 5 \\times 65200}}{2 \\times 5}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow l^{2}=\\frac{1152 \\pm \\sqrt{23104}}{10}=\\frac{1152 \\pm 152}{10} \\\\ &amp; \\Rightarrow l^{2}=\\frac{1152+152}{10},\\frac{1152-152}{10} \\\\ &amp; \\Rightarrow l^{2}=\\frac{1304}{10},\\frac{1000}{10} \\\\ &amp; \\Rightarrow l^{2}=\\frac{1304}{10},100 \\end{aligned}$ </p>\n<p>Since  $l$  is integer so  $l= \\pm 10$ </p>\n<p> $\\begin{aligned} &amp; \\text{If}l=10 \\\\ &amp; \\begin{aligned} a_{1}=12-\\frac{3}{2} \\times 10=-3 \\\\ a_{2}=12-\\frac{10}{2}=7 \\\\ a_{3}=12+\\frac{10}{2}=17 \\\\ a_{4}=12+\\frac{3}{2} \\times 10=27 \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{If}l=-10 \\\\ &amp; \\begin{aligned} a_{1}=12+\\frac{3}{2} \\times 10=27 \\\\ a_{2}=12+\\frac{10}{2}=17 \\\\ a_{3}=12-\\frac{10}{2}=7 \\\\ a_{4}=12-\\frac{3}{2} \\times 10=-3 \\end{aligned} \\end{aligned}$ </p>\n<p>So, numbers are same but in reverse order therefore, largest term of A.P is 27.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "a_{1},a_{2},a_{3},a_{4}",
+        "\\frac{25}{16}l^{4}-360l^{2}+20375=0",
+        "\\frac{16}{5}",
+        "5l^{4}-1152l^{2}+65200=0",
+        "l^{2}=\\frac{1152 \\pm \\sqrt{(1152)^{2}-4 \\times 5 \\times 65200}}{2 \\times 5}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:14.738805"
+    },
+    {
+      "id": 25510,
+      "qid": "ml8t8ol0",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-7298191-ldots-be-a-sequence-and-mathrmpn-jee-main-mathematics-trigonometric-functions-and-equations-vucwovlpq9qxwli3",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 23rd January Evening Shift",
+      "exam_date": "23rd January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Let $\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n$ . If $a_{10}=59$ and $a_{6}=7a_{1}$ , then $\\alpha+\\beta$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n$ . If  $a_{10}=59$  and  $a_{6}=7a_{1}$ , then  $\\alpha+\\beta$  is equal to :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>5</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>7</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "12",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>12</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $S_{n}=\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n$ $a_{1}+a_{2}+a_{3}+a_{4}+\\dotsa_{n}=\\alpha n^{2}+\\beta n$ Since the sum $S_{n}$ is a quadratic expression in $n$ with no constant term then the sequence $a_{k}$ is in A.P (arithmetic progression). Then $n$ th term of the sequence can be found using the formula $a_{n}=S_{n}-S_{n-1}$ $\\begin{aligned} & a_{n}=\\alpha n^{2}+\\beta n-[\\alpha(n-1)^{2}+\\beta(n-1)] \\\\ & =\\alpha n^{2}+\\beta n-[\\alpha(n^{2}-2n+1)+\\beta n-\\beta] \\\\ & =\\alpha n^{2}+\\beta n-\\alpha n^{2}+2\\alpha n-\\alpha-\\beta n+\\beta \\end{aligned}$ $\\Rightarrow$ $a_{n}=\\beta-\\alpha+2\\alpha n-(1)$ It is given that $a_{10}=59$ , substitute $n=10$ in equation (1). $a_{10}=\\beta-\\alpha+2\\alpha(10)=59$ $\\Rightarrow$ $19\\alpha+\\beta=59-(2)$ also, $a_{6}=7a_{1}$ (given) substitute $n=6$ and $n=1$ in equation (1). $\\beta-\\alpha+2\\alpha(6)=7(\\beta-\\alpha+2\\alpha(1))$ $\\Rightarrow$ $11\\alpha+\\beta=7\\alpha+7\\beta$ $\\Rightarrow$ $4\\alpha=6\\beta$ $\\Rightarrow$ $2\\alpha=3\\beta \\Rightarrow \\alpha=\\frac{3\\beta}{2}$ Substitute $\\alpha=\\frac{3\\beta}{2}$ in equation (2) $19(\\frac{3\\beta}{2})+\\beta=59$ $\\Rightarrow$ $57\\beta+2\\beta=118$ $\\Rightarrow$ $59\\beta=118$ $\\Rightarrow$ $\\beta=\\frac{118}{59}=2$ And $\\alpha=\\frac{3\\beta}{2}=\\frac{3 \\times 2}{2}=3$ So, value of $\\alpha+\\beta=3+2=5$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $S_{n}=\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n$ </p>\n<p> $a_{1}+a_{2}+a_{3}+a_{4}+\\dotsa_{n}=\\alpha n^{2}+\\beta n$ </p>\n<p>Since the sum  $S_{n}$  is a quadratic expression in  $n$  with no constant term then the sequence  $a_{k}$  is in A.P (arithmetic progression).</p>\n<p>Then  $n$ th term of the sequence can be found using the formula</p>\n<p> $a_{n}=S_{n}-S_{n-1}$ </p>\n<p> $\\begin{aligned} &amp; a_{n}=\\alpha n^{2}+\\beta n-[\\alpha(n-1)^{2}+\\beta(n-1)] \\\\ &amp; =\\alpha n^{2}+\\beta n-[\\alpha(n^{2}-2n+1)+\\beta n-\\beta] \\\\ &amp; =\\alpha n^{2}+\\beta n-\\alpha n^{2}+2\\alpha n-\\alpha-\\beta n+\\beta \\end{aligned}$ </p>\n<p> $\\Rightarrow$   $a_{n}=\\beta-\\alpha+2\\alpha n-(1)$ </p>\n<p>It is given that  $a_{10}=59$ , substitute  $n=10$  in equation (1).</p>\n<p> $a_{10}=\\beta-\\alpha+2\\alpha(10)=59$ </p>\n<p> $\\Rightarrow$   $19\\alpha+\\beta=59-(2)$ </p>\n<p>also,  $a_{6}=7a_{1}$  (given)</p>\n<p>substitute  $n=6$  and  $n=1$  in equation (1).</p>\n<p> $\\beta-\\alpha+2\\alpha(6)=7(\\beta-\\alpha+2\\alpha(1))$ </p>\n<p> $\\Rightarrow$   $11\\alpha+\\beta=7\\alpha+7\\beta$ </p>\n<p> $\\Rightarrow$   $4\\alpha=6\\beta$ </p>\n<p> $\\Rightarrow$   $2\\alpha=3\\beta \\Rightarrow \\alpha=\\frac{3\\beta}{2}$ </p>\n<p>Substitute  $\\alpha=\\frac{3\\beta}{2}$  in equation (2)</p>\n<p> $19(\\frac{3\\beta}{2})+\\beta=59$ </p>\n<p> $\\Rightarrow$   $57\\beta+2\\beta=118$ </p>\n<p> $\\Rightarrow$   $59\\beta=118$ \n<br/><br/> $\\Rightarrow$  $\\beta=\\frac{118}{59}=2$ </p>\n<p>And  $\\alpha=\\frac{3\\beta}{2}=\\frac{3 \\times 2}{2}=3$ </p>\n<p>So, value of  $\\alpha+\\beta=3+2=5$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n",
+        "a_{10}=59",
+        "a_{6}=7a_{1}",
+        "S_{n}=\\sum_{k=1}^{n}a_{k}=\\alpha n^{2}+\\beta n",
+        "a_{1}+a_{2}+a_{3}+a_{4}+\\dotsa_{n}=\\alpha n^{2}+\\beta n",
+        "S_{n}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:16.162544"
+    },
+    {
+      "id": 25523,
+      "qid": "ml89h7jh",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-positive-integer-bnb-for-which-the-solutions-of-jee-main-mathematics-dav6gjbg6fm2di2n",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 21st January Morning Shift",
+      "exam_date": "21st January",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Let $a_{1},a_{2},a_{3},\\dots$ be a G.P. of increasing positive terms such that $a_{2} \\cdot a_{3} \\cdot a_{4}=64$ and $a_{1}+a_{3}+a_{5}=\\frac{813}{7}$ . Then $a_{3}+a_{5}+a_{7}$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{1},a_{2},a_{3},\\dots$  be a G.P. of increasing positive terms such that  $a_{2} \\cdot a_{3} \\cdot a_{4}=64$  and  $a_{1}+a_{3}+a_{5}=\\frac{813}{7}$ . Then  $a_{3}+a_{5}+a_{7}$  is equal to :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3256",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3256</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "3252",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3252</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3248",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3248</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3244",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3244</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & a_{2} \\cdot a_{3} \\cdot a_{4}=64 \\\\ & \\frac{a}{r} \\cdot a \\cdot ar=64 \\\\ & \\Rightarrow a=4 \\\\ & a_{1}+a_{3}+a_{5}=\\frac{813}{7} \\\\ & =\\frac{4}{r^{2}}+4+4r^{2}=\\frac{813}{7} \\\\ & \\text{Let}r^{2}=t \\\\ & 28t^{2}-785t+28=0 \\\\ & (28t-1)(t-28)=0 \\\\ & \\Rightarrow t=28,\\frac{1}{28} \\end{aligned}$ $\\begin{aligned} & r^{2}=28( \\because \\text{G.P. is increasing}) \\\\ & a_{3}+a_{5}+a_{7} \\\\ & =a+ar^{2}+ar^{4}=r^{2}(a+\\frac{a}{r^{2}}+r^{2}) \\\\ & =28 \\times \\frac{813}{7} \\\\ & =3252 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; a_{2} \\cdot a_{3} \\cdot a_{4}=64 \\\\ &amp; \\frac{a}{r} \\cdot a \\cdot ar=64 \\\\ &amp; \\Rightarrow a=4 \\\\ &amp; a_{1}+a_{3}+a_{5}=\\frac{813}{7} \\\\ &amp; =\\frac{4}{r^{2}}+4+4r^{2}=\\frac{813}{7} \\\\ &amp; \\text{Let}r^{2}=t \\\\ &amp; 28t^{2}-785t+28=0 \\\\ &amp; (28t-1)(t-28)=0 \\\\ &amp; \\Rightarrow t=28,\\frac{1}{28} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; r^{2}=28( \\because \\text{G.P. is increasing}) \\\\ &amp; a_{3}+a_{5}+a_{7} \\\\ &amp; =a+ar^{2}+ar^{4}=r^{2}(a+\\frac{a}{r^{2}}+r^{2}) \\\\ &amp; =28 \\times \\frac{813}{7} \\\\ &amp; =3252 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "a_{1},a_{2},a_{3},\\dots",
+        "a_{2} \\cdot a_{3} \\cdot a_{4}=64",
+        "a_{1}+a_{3}+a_{5}=\\frac{813}{7}",
+        "a_{3}+a_{5}+a_{7}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:17.544055"
+    },
+    {
+      "id": 25431,
+      "qid": "mnswhsde",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-alpha34891314ldots-upto-40-terms-if-ta-jee-main-mathematics-trigonometric-functions-and-equations-asv3s4se66mf7ucs",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Morning Shift",
+      "exam_date": "6th April",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The value of $1^{3}-2^{3}+3^{3}-\\dots+15^{3}$ is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $1^{3}-2^{3}+3^{3}-\\dots+15^{3}$  is:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1706",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1706</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1856",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1856</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1982",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1982</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2403",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2403</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "We need to find $1^{3}-2^{3}+3^{3}-4^{3}+\\cdot s+15^{3}$ This is an alternating sum of cubes. Let us group the terms in pairs: $(1^{3}-2^{3})+(3^{3}-4^{3})+(5^{3}-6^{3})+\\cdot s+(13^{3}-14^{3})+15^{3}$ Now calculate each pair: $1^{3}-2^{3}=1-8=-7$ $3^{3}-4^{3}=27-64=-37$ $5^{3}-6^{3}=125-216=-91$ $7^{3}-8^{3}=343-512=-169$ $9^{3}-10^{3}=729-1000=-271$ $11^{3}-12^{3}=1331-1728=-397$ $13^{3}-14^{3}=2197-2744=-547$ Also, $15^{3}=3375$ Now add all these: $-7-37-91-169-271-397-547+3375$ First add the negative terms: $7+37+91+169+271+397+547=1519$ So, $3375-1519=1856$ Hence, the value is $1856$ So, the correct option is B .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to find</p>\n<p> $1^{3}-2^{3}+3^{3}-4^{3}+\\cdot s+15^{3}$ </p>\n<p>This is an alternating sum of cubes.</p>\n<p>Let us group the terms in pairs:</p>\n<p> $(1^{3}-2^{3})+(3^{3}-4^{3})+(5^{3}-6^{3})+\\cdot s+(13^{3}-14^{3})+15^{3}$ </p>\n<p>Now calculate each pair:</p>\n<p> $1^{3}-2^{3}=1-8=-7$ </p>\n<p> $3^{3}-4^{3}=27-64=-37$ </p>\n<p> $5^{3}-6^{3}=125-216=-91$ </p>\n<p> $7^{3}-8^{3}=343-512=-169$ </p>\n<p> $9^{3}-10^{3}=729-1000=-271$ </p>\n<p> $11^{3}-12^{3}=1331-1728=-397$ </p>\n<p> $13^{3}-14^{3}=2197-2744=-547$ </p>\n<p>Also,</p>\n<p> $15^{3}=3375$ </p>\n<p>Now add all these:</p>\n<p> $-7-37-91-169-271-397-547+3375$ </p>\n<p>First add the negative terms:</p>\n<p> $7+37+91+169+271+397+547=1519$ </p>\n<p>So,</p>\n<p> $3375-1519=1856$ </p>\n<p>Hence, the value is</p>\n<p> $1856$ </p>\n<p>So, the correct option is <strong>B</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "1^{3}-2^{3}+3^{3}-\\dots+15^{3}",
+        "1^{3}-2^{3}+3^{3}-4^{3}+\\cdot s+15^{3}",
+        "(1^{3}-2^{3})+(3^{3}-4^{3})+(5^{3}-6^{3})+\\cdot s+(13^{3}-14^{3})+15^{3}",
+        "1^{3}-2^{3}=1-8=-7",
+        "3^{3}-4^{3}=27-64=-37",
+        "5^{3}-6^{3}=125-216=-91"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:06.634686"
+    },
+    {
+      "id": 25448,
+      "qid": "mnswhr19",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-first-ten-terms-of-an-ap-is-160-and-the-jee-main-mathematics-trigonometric-functions-and-equations-y7nzngtxbiwxqpmb",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Evening Shift",
+      "exam_date": "5th April",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Let $A_{1},A_{2},A_{3},\\dots\\dots..,A_{39}$ be 39 arithmetic means between the numbers 59 and 159. Then the mean of $A_{25},A_{28},A_{31}$ and $A_{36}$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $A_{1},A_{2},A_{3},\\dots\\dots..,A_{39}$  be 39 arithmetic means between the numbers 59 and 159. Then the mean of  $A_{25},A_{28},A_{31}$  and  $A_{36}$  is equal to :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "129",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>129</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "136",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>136</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "131.50",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>131.50</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "134",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>134</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "Since there are $39$ arithmetic means between $59$ and $159$ , the full arithmetic progression has $59,A_{1},A_{2},A_{3},\\dots,A_{39},159$ So total number of terms is $39+2=41$ Hence, the number of intervals is $41-1=40$ Therefore, the common difference is $d=\\frac{159-59}{40}=\\frac{100}{40}=2.5$ Now the terms are: $A_{1}=59+2.5=61.5$ In general, $A_{n}=59+n(2.5)$ Now find the required terms: $A_{25}=59+25(2.5)=59+62.5=121.5$ $A_{28}=59+28(2.5)=59+70=129$ $A_{31}=59+31(2.5)=59+77.5=136.5$ $A_{36}=59+36(2.5)=59+90=149$ Now their mean is $\\frac{A_{25}+A_{28}+A_{31}+A_{36}}{4}=\\frac{121.5+129+136.5+149}{4}$ $=\\frac{536}{4}=134$ So the correct answer is: $134$ Hence, Option D is correct.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since there are  $39$  arithmetic means between  $59$  and  $159$ , the full arithmetic progression has</p>\n<p> $59,A_{1},A_{2},A_{3},\\dots,A_{39},159$ </p>\n<p>So total number of terms is</p>\n<p> $39+2=41$ </p>\n<p>Hence, the number of intervals is</p>\n<p> $41-1=40$ </p>\n<p>Therefore, the common difference is</p>\n<p> $d=\\frac{159-59}{40}=\\frac{100}{40}=2.5$ </p>\n<p>Now the terms are:</p>\n<p> $A_{1}=59+2.5=61.5$ </p>\n<p>In general,</p>\n<p> $A_{n}=59+n(2.5)$ </p>\n<p>Now find the required terms:</p>\n<p> $A_{25}=59+25(2.5)=59+62.5=121.5$ </p>\n<p> $A_{28}=59+28(2.5)=59+70=129$ </p>\n<p> $A_{31}=59+31(2.5)=59+77.5=136.5$ </p>\n<p> $A_{36}=59+36(2.5)=59+90=149$ </p>\n<p>Now their mean is</p>\n<p> $\\frac{A_{25}+A_{28}+A_{31}+A_{36}}{4}=\\frac{121.5+129+136.5+149}{4}$ </p>\n<p> $=\\frac{536}{4}=134$ </p>\n<p>So the correct answer is:</p>\n<p> $134$ </p>\n<p>Hence, Option D is correct.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "A_{1},A_{2},A_{3},\\dots\\dots..,A_{39}",
+        "A_{25},A_{28},A_{31}",
+        "A_{36}",
+        "A_{28}=59+28(2.5)=59+70=129",
+        "A_{31}=59+31(2.5)=59+77.5=136.5",
+        "A_{36}=59+36(2.5)=59+90=149"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:08.695638"
+    },
+    {
+      "id": 25465,
+      "qid": "mnrpm6su",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-the-sum-of-the-first-n-terms-of-an-ap-be-3-n25-jee-main-mathematics-trigonometric-functions-and-equations-ywdvzxutgqrrf7y5",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 2nd April Evening Shift",
+      "exam_date": "2nd April",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Let $a_{1},a_{2},a_{3},\\dots$ be an A.P. and $g_{1}=a_{1},g_{2},g_{3},\\dots$ be an increasing G.P. If $a_{1}=a_{2}+g_{2}=1$ and $a_{3}+g_{3}=4$ , then $a_{10}+g_{5}$ is equal to:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{1},a_{2},a_{3},\\dots$  be an A.P. and  $g_{1}=a_{1},g_{2},g_{3},\\dots$  be an increasing G.P. If  $a_{1}=a_{2}+g_{2}=1$  and  $a_{3}+g_{3}=4$ , then  $a_{10}+g_{5}$  is equal to:</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "81",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>81</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "76",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>76</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "62",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>62</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "55",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>55</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let the common difference of the given A.P. be $d$ and the common ratio of the given G.P. be $r$ . From the general formulas for the $n$ -th term of an A.P. and a G.P., we know: $a_{n}=a_{1}+(n-1)d$ $g_{n}=g_{1}r^{n-1}$ We are given that $g_{1}=a_{1}$ and $a_{1}=1$ . Thus, the first term of both the A.P. and the G.P. is $1$ . So, $g_{1}=1$ . Next, we are given the first relationship: $a_{2}+g_{2}=1$ Using our formulas, we can write the second terms as $a_{2}=1+d$ and $g_{2}=1 \\cdot r=r$ . Let us substitute these values into the given equation: $(1+d)+r=1$ Subtracting $1$ from both sides, we establish a relationship between $d$ and $r$ : $d+r=0⟹d=-r$ We are also given a second relationship: $a_{3}+g_{3}=4$ Again, applying the $n$ -th term formulas, we have the third terms as $a_{3}=1+2d$ and $g_{3}=1 \\cdot r^{2}=r^{2}$ . Substituting these in the equation gives: $(1+2d)+r^{2}=4$ Now, let us substitute $d=-r$ into this equation to form a quadratic equation in terms of $r$ : $1+2(-r)+r^{2}=4$ $r^{2}-2r+1-4=0$ $r^{2}-2r-3=0$ Let us factorize this quadratic equation by splitting the middle term: $r^{2}-3r+r-3=0$ $r(r-3)+1(r-3)=0$ $(r-3)(r+1)=0$ This gives us two possible values for $r$ : $r=3$ or $r=-1$ . The problem clearly states that the G.P. is an increasing sequence. Since the first term $g_{1}=1$ is positive, an increasing sequence requires the common ratio to be strictly greater than $1$ . Therefore, we reject $r=-1$ and take the valid value: $r=3$ Since $d=-r$ , we find the common difference of the A.P.: $d=-3$ Now, we are asked to find the value of $a_{10}+g_{5}$ . Let us find $a_{10}$ and $g_{5}$ individually. For the 10th term of the A.P.: $a_{10}=a_{1}+(10-1)d$ $a_{10}=a_{1}+9d$ $a_{10}=1+9(-3)$ $a_{10}=1-27=-26$ For the 5th term of the G.P.: $g_{5}=g_{1}r^{5-1}$ $g_{5}=g_{1}r^{4}$ $g_{5}=1 \\cdot (3)^{4}$ $g_{5}=81$ Finally, adding these two values together: $a_{10}+g_{5}=-26+81=55$ Therefore, the value of $a_{10}+g_{5}$ is $55$ . Correct Answer: Option D: $55$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the common difference of the given A.P. be  $d$  and the common ratio of the given G.P. be  $r$ . </p>\n<p>From the general formulas for the  $n$ -th term of an A.P. and a G.P., we know:</p>\n<p> $a_{n}=a_{1}+(n-1)d$ </p>\n<p> $g_{n}=g_{1}r^{n-1}$ </p>\n<p>We are given that  $g_{1}=a_{1}$  and  $a_{1}=1$ .</p>\n<p>Thus, the first term of both the A.P. and the G.P. is  $1$ . So,  $g_{1}=1$ .</p>\n<p>Next, we are given the first relationship:</p>\n<p> $a_{2}+g_{2}=1$ </p>\n<p>Using our formulas, we can write the second terms as  $a_{2}=1+d$  and  $g_{2}=1 \\cdot r=r$ . Let us substitute these values into the given equation:</p>\n<p> $(1+d)+r=1$ </p>\n<p>Subtracting  $1$  from both sides, we establish a relationship between  $d$  and  $r$ :</p>\n<p> $d+r=0⟹d=-r$ </p>\n<p>We are also given a second relationship:</p>\n<p> $a_{3}+g_{3}=4$ </p>\n<p>Again, applying the  $n$ -th term formulas, we have the third terms as  $a_{3}=1+2d$  and  $g_{3}=1 \\cdot r^{2}=r^{2}$ . Substituting these in the equation gives:</p>\n<p> $(1+2d)+r^{2}=4$ </p>\n<p>Now, let us substitute  $d=-r$  into this equation to form a quadratic equation in terms of  $r$ :</p>\n<p> $1+2(-r)+r^{2}=4$ </p>\n<p> $r^{2}-2r+1-4=0$ </p>\n<p> $r^{2}-2r-3=0$ </p>\n<p>Let us factorize this quadratic equation by splitting the middle term:</p>\n<p> $r^{2}-3r+r-3=0$ </p>\n<p> $r(r-3)+1(r-3)=0$ </p>\n<p> $(r-3)(r+1)=0$ </p>\n<p>This gives us two possible values for  $r$ :  $r=3$  or  $r=-1$ .</p>\n<p>The problem clearly states that the G.P. is an <strong>increasing</strong> sequence. Since the first term  $g_{1}=1$  is positive, an increasing sequence requires the common ratio to be strictly greater than  $1$ . Therefore, we reject  $r=-1$  and take the valid value:</p>\n<p> $r=3$ </p>\n<p>Since  $d=-r$ , we find the common difference of the A.P.:</p>\n<p> $d=-3$ </p>\n<p>Now, we are asked to find the value of  $a_{10}+g_{5}$ . Let us find  $a_{10}$  and  $g_{5}$  individually.</p>\n<p>For the 10th term of the A.P.:</p>\n<p> $a_{10}=a_{1}+(10-1)d$ </p>\n<p> $a_{10}=a_{1}+9d$ </p>\n<p> $a_{10}=1+9(-3)$ </p>\n<p> $a_{10}=1-27=-26$ </p>\n<p>For the 5th term of the G.P.:</p>\n<p> $g_{5}=g_{1}r^{5-1}$ </p>\n<p> $g_{5}=g_{1}r^{4}$ </p>\n<p> $g_{5}=1 \\cdot (3)^{4}$ </p>\n<p> $g_{5}=81$ </p>\n<p>Finally, adding these two values together:</p>\n<p> $a_{10}+g_{5}=-26+81=55$ </p>\n<p>Therefore, the value of  $a_{10}+g_{5}$  is  $55$ .</p>\n<p><strong>Correct Answer:</strong></p>\n<p>Option D:  $55$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "a_{1},a_{2},a_{3},\\dots",
+        "g_{1}=a_{1},g_{2},g_{3},\\dots",
+        "a_{1}=a_{2}+g_{2}=1",
+        "a_{3}+g_{3}=4",
+        "a_{10}+g_{5}",
+        "g_{n}=g_{1}r^{n-1}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:10.628447"
+    },
+    {
+      "id": 25480,
+      "qid": "ml7v4798",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-frac131--frac13--231--3--frac-jee-main-mathematics-wl114rluhvauhlla",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Evening Shift",
+      "exam_date": "28th January",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\frac{6}{3^{26}}+\\frac{10 \\cdot 1}{3^{25}}+\\frac{10 \\cdot 2}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\dots+\\frac{10 \\cdot 2^{24}}{3}$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{6}{3^{26}}+\\frac{10 \\cdot 1}{3^{25}}+\\frac{10 \\cdot 2}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\dots+\\frac{10 \\cdot 2^{24}}{3}$  is equal to :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^{26}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2^{26}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$3^{25}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $3^{25}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$3^{26}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $3^{26}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2^{25}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2^{25}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $S=\\frac{6}{3^{26}}+\\frac{10 \\cdot 1}{3^{25}}+\\frac{10 \\cdot 2}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\cdot s+\\frac{10 \\cdot 2^{24}}{3}$ Notice that from the second term onwards, the terms follow a pattern. Let $S^{'}$ be the sum of these terms: $S^{'}=\\frac{10 \\cdot 2^{0}}{3^{25}}+\\frac{10 \\cdot 2^{1}}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\cdot s+\\frac{10 \\cdot 2^{24}}{3^{1}}$ We can factor out $\\frac{10}{3^{25}}$ : $\\begin{aligned} S^{'}=\\frac{10}{3^{25}}(1+\\frac{2^{1}}{3^{-1}}+\\frac{2^{2}}{3^{-2}}+\\cdot s+\\frac{2^{24}}{3^{-24}}) \\\\ S^{'}=\\frac{10}{3^{25}}(2^{0} \\cdot 3^{0}+2^{1} \\cdot 3^{1}+2^{2} \\cdot 3^{2}+\\cdot s+2^{24} \\cdot 3^{24}) \\end{aligned}$ $S^{'}=\\frac{10}{3^{25}}\\sum_{k=0}^{24}(2 \\cdot 3)^{k}=\\frac{10}{3^{25}}\\sum_{k=0}^{24}6^{k}$ Calculate the sum of the GP The series $\\sum_{k=0}^{24}6^{k}$ is a geometric progression with first term $a=1$ , common ratio $r=6$ , and $n=25$ terms. The sum formula is $S_{n}=a\\frac{r^{n}-1}{r-1}$ : $\\sum_{k=0}^{24}6^{k}=\\frac{6^{25}-1}{6-1}=\\frac{6^{25}-1}{5}$ Substituting this back into $S^{'}$ : $S^{'}=\\frac{10}{3^{25}}(\\frac{6^{25}-1}{5})=\\frac{2}{3^{25}}(6^{25}-1)=\\frac{2 \\cdot 6^{25}}{3^{25}}-\\frac{2}{3^{25}}$ Since $6^{25}=(2 \\cdot 3)^{25}=2^{25} \\cdot 3^{25}$ : $S^{'}=\\frac{2 \\cdot 2^{25} \\cdot 3^{25}}{3^{25}}-\\frac{2}{3^{25}}=2 \\cdot 2^{25}-\\frac{2}{3^{25}}=2^{26}-\\frac{2}{3^{25}}$ Find the total sum $S$ : Now, add the first term $\\frac{6}{3^{26}}$ back to $S^{'}$ : $S=\\frac{6}{3^{26}}+2^{26}-\\frac{2}{3^{25}}$ [ $\\text{Note that,}\\frac{6}{3^{26}}=\\frac{2 \\cdot 3}{3^{26}}=\\frac{2}{3^{25}}$ ] $\\Rightarrow$ $S=\\frac{2}{3^{25}}+2^{26}-\\frac{2}{3^{25}}=2^{26}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $S=\\frac{6}{3^{26}}+\\frac{10 \\cdot 1}{3^{25}}+\\frac{10 \\cdot 2}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\cdot s+\\frac{10 \\cdot 2^{24}}{3}$ </p>\n<p>Notice that from the second term onwards, the terms follow a pattern. Let  $S^{'}$  be the sum of these terms:</p>\n<p> $S^{'}=\\frac{10 \\cdot 2^{0}}{3^{25}}+\\frac{10 \\cdot 2^{1}}{3^{24}}+\\frac{10 \\cdot 2^{2}}{3^{23}}+\\cdot s+\\frac{10 \\cdot 2^{24}}{3^{1}}$ </p>\n<p>We can factor out  $\\frac{10}{3^{25}}$  :</p>\n<p> $\\begin{aligned} S^{'}=\\frac{10}{3^{25}}(1+\\frac{2^{1}}{3^{-1}}+\\frac{2^{2}}{3^{-2}}+\\cdot s+\\frac{2^{24}}{3^{-24}}) \\\\ S^{'}=\\frac{10}{3^{25}}(2^{0} \\cdot 3^{0}+2^{1} \\cdot 3^{1}+2^{2} \\cdot 3^{2}+\\cdot s+2^{24} \\cdot 3^{24}) \\end{aligned}$ </p>\n<p> $S^{'}=\\frac{10}{3^{25}}\\sum_{k=0}^{24}(2 \\cdot 3)^{k}=\\frac{10}{3^{25}}\\sum_{k=0}^{24}6^{k}$ </p>\n<p>Calculate the sum of the GP</p>\n<p>The series  $\\sum_{k=0}^{24}6^{k}$  is a geometric progression with first term  $a=1$ , common ratio  $r=6$ , and  $n=25$  terms. \n<br/><br/>The sum formula is  $S_{n}=a\\frac{r^{n}-1}{r-1}$  :</p>\n<p> $\\sum_{k=0}^{24}6^{k}=\\frac{6^{25}-1}{6-1}=\\frac{6^{25}-1}{5}$ </p>\n<p>Substituting this back into  $S^{'}$  :</p>\n<p> $S^{'}=\\frac{10}{3^{25}}(\\frac{6^{25}-1}{5})=\\frac{2}{3^{25}}(6^{25}-1)=\\frac{2 \\cdot 6^{25}}{3^{25}}-\\frac{2}{3^{25}}$ </p>\n<p>Since  $6^{25}=(2 \\cdot 3)^{25}=2^{25} \\cdot 3^{25}$  :</p>\n<p> $S^{'}=\\frac{2 \\cdot 2^{25} \\cdot 3^{25}}{3^{25}}-\\frac{2}{3^{25}}=2 \\cdot 2^{25}-\\frac{2}{3^{25}}=2^{26}-\\frac{2}{3^{25}}$ </p>\n<p><b>Find the total sum  $S$  :</b></p>\n<p>Now, add the first term  $\\frac{6}{3^{26}}$  back to  $S^{'}$  :</p>\n<p> $S=\\frac{6}{3^{26}}+2^{26}-\\frac{2}{3^{25}}$ \n<br/><br/>[ $\\text{Note that,}\\frac{6}{3^{26}}=\\frac{2 \\cdot 3}{3^{26}}=\\frac{2}{3^{25}}$ ]\n<br/><br/> $\\Rightarrow$   $S=\\frac{2}{3^{25}}+2^{26}-\\frac{2}{3^{25}}=2^{26}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "S=\\frac{2}{3^{25}}+2^{26}-\\frac{2}{3^{25}}=2^{26}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:12.430603"
+    },
+    {
+      "id": 25497,
+      "qid": "ml98p5tf",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-sumk1infty-1k1leftfrack-jee-main-mathematics-trigonometric-functions-and-equations-2aqhuitckpwjanx9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Evening Shift",
+      "exam_date": "24th January",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$(\\frac{1}{3}+\\frac{4}{7})+(\\frac{1}{3^{2}}+\\frac{1}{3} \\times \\frac{4}{7}+\\frac{4^{2}}{7^{2}})+(\\frac{1}{3^{3}}+\\frac{1}{3^{2}} \\times \\frac{4}{7}+\\frac{1}{3} \\times \\frac{4^{2}}{7^{2}}+\\frac{4^{3}}{7^{3}})+\\dots$ upto infinite terms, is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(\\frac{1}{3}+\\frac{4}{7})+(\\frac{1}{3^{2}}+\\frac{1}{3} \\times \\frac{4}{7}+\\frac{4^{2}}{7^{2}})+(\\frac{1}{3^{3}}+\\frac{1}{3^{2}} \\times \\frac{4}{7}+\\frac{1}{3} \\times \\frac{4^{2}}{7^{2}}+\\frac{4^{3}}{7^{3}})+\\dots$  upto infinite terms, is equal to</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{7}{4}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{4}{3}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{6}{5}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{2}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $a=\\frac{1}{3}$ and $b=\\frac{4}{7}$ So Question is $S_{\\infty}=(a+b)+(a^{2}+ab+b^{2})+(a^{3}+a^{2}b+ab^{2}+b^{3})+\\dots\\infty\\text{terms}$ So clearly each bracket is in G.P. having ( $n+1$ ) terms. So general term is $T_{n}=(a^{n}+a^{n-1}b+a^{n-2}b^{2}\\cdot s+b^{n})$ $T_{n}$ is G.P. first term $a^{n}$ , common ratio $=\\frac{b}{a},(n+1)$ terms $T_{n}=a^{n}[\\frac{(\\frac{b}{a})^{n+1}-1}{\\frac{b}{a}-1}]$ Now substitute $a=\\frac{1}{3}$ and $b=\\frac{4}{7}$ $\\begin{aligned} & T_{n}=(\\frac{1}{3})^{n}[\\frac{(\\frac{12}{7})^{n+1}-1}{\\frac{12}{7}-1}] \\\\ & T_{n}=(\\frac{1}{3})^{n}\\frac{[(\\frac{12}{7})^{n} \\cdot \\frac{12}{7}-1] \\cdot 7}{5} \\\\ & T_{n}=(\\frac{1}{3})^{n}(\\frac{12}{7})^{n} \\cdot \\frac{12}{7} \\times \\frac{7}{5}-1 \\times \\frac{7}{5} \\times (\\frac{1}{3})^{n} \\\\ & T_{n}=\\frac{12}{5}(\\frac{4}{7})^{n}-\\frac{7}{5}(\\frac{1}{3})^{n} \\end{aligned}$ Now Required sum $(S_{\\infty})=\\sum_{\\infty}^{n=1}T_{n}$ $\\begin{aligned} S_{\\infty} & =\\sum_{n=1}^{\\infty}\\frac{12}{5}(\\frac{4}{7})^{n}-\\frac{7}{5}(\\frac{1}{3})^{n} \\\\ S_{\\infty} & =\\frac{12}{5}\\sum_{n=1}^{\\infty}(\\frac{4}{7})^{n}-\\frac{7}{5}\\sum_{n=1}^{\\infty}(\\frac{1}{3})^{n} \\\\ S_{\\infty} & =\\frac{12}{5}[\\frac{4}{7}+(\\frac{4}{7})^{2}+(\\frac{4}{7})^{3}\\dots]-\\frac{7}{5}[\\frac{1}{3}+(\\frac{1}{3})^{2}+(\\frac{1}{3})^{3}\\dots] \\end{aligned}$ Both series are infinite G.P. $\\begin{aligned} & S_{\\infty}=\\frac{12}{5}[\\frac{4/7}{1-4/7}]-\\frac{7}{5}[\\frac{1/3}{1-1/3}] \\\\ & =\\frac{12}{5}[\\frac{4}{3}]-\\frac{7}{5}[\\frac{1}{2}] \\\\ & =\\frac{16}{5}-\\frac{7}{10}=\\frac{32-7}{10}=\\frac{25}{10}=\\frac{5}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a=\\frac{1}{3}$  and  $b=\\frac{4}{7}$ </p>\n<p>So Question is</p>\n<p> $S_{\\infty}=(a+b)+(a^{2}+ab+b^{2})+(a^{3}+a^{2}b+ab^{2}+b^{3})+\\dots\\infty\\text{terms}$ </p>\n<p>So clearly each bracket is in G.P. having (  $n+1$  ) terms.</p>\n<p>So general term is</p>\n<p> $T_{n}=(a^{n}+a^{n-1}b+a^{n-2}b^{2}\\cdot s+b^{n})$ </p>\n<p> $T_{n}$  is G.P. first term  $a^{n}$ , common ratio  $=\\frac{b}{a},(n+1)$  terms</p>\n<p> $T_{n}=a^{n}[\\frac{(\\frac{b}{a})^{n+1}-1}{\\frac{b}{a}-1}]$ </p>\n<p>Now substitute  $a=\\frac{1}{3}$  and  $b=\\frac{4}{7}$ </p>\n<p> $\\begin{aligned} &amp; T_{n}=(\\frac{1}{3})^{n}[\\frac{(\\frac{12}{7})^{n+1}-1}{\\frac{12}{7}-1}] \\\\ &amp; T_{n}=(\\frac{1}{3})^{n}\\frac{[(\\frac{12}{7})^{n} \\cdot \\frac{12}{7}-1] \\cdot 7}{5} \\\\ &amp; T_{n}=(\\frac{1}{3})^{n}(\\frac{12}{7})^{n} \\cdot \\frac{12}{7} \\times \\frac{7}{5}-1 \\times \\frac{7}{5} \\times (\\frac{1}{3})^{n} \\\\ &amp; T_{n}=\\frac{12}{5}(\\frac{4}{7})^{n}-\\frac{7}{5}(\\frac{1}{3})^{n} \\end{aligned}$ </p>\n<p>Now Required sum  $(S_{\\infty})=\\sum_{\\infty}^{n=1}T_{n}$ </p>\n<p> $\\begin{aligned} S_{\\infty} &amp; =\\sum_{n=1}^{\\infty}\\frac{12}{5}(\\frac{4}{7})^{n}-\\frac{7}{5}(\\frac{1}{3})^{n} \\\\ S_{\\infty} &amp; =\\frac{12}{5}\\sum_{n=1}^{\\infty}(\\frac{4}{7})^{n}-\\frac{7}{5}\\sum_{n=1}^{\\infty}(\\frac{1}{3})^{n} \\\\ S_{\\infty} &amp; =\\frac{12}{5}[\\frac{4}{7}+(\\frac{4}{7})^{2}+(\\frac{4}{7})^{3}\\dots]-\\frac{7}{5}[\\frac{1}{3}+(\\frac{1}{3})^{2}+(\\frac{1}{3})^{3}\\dots] \\end{aligned}$ </p>\n<p>Both series are infinite G.P.</p>\n<p> $\\begin{aligned} &amp; S_{\\infty}=\\frac{12}{5}[\\frac{4/7}{1-4/7}]-\\frac{7}{5}[\\frac{1/3}{1-1/3}] \\\\ &amp; =\\frac{12}{5}[\\frac{4}{3}]-\\frac{7}{5}[\\frac{1}{2}] \\\\ &amp; =\\frac{16}{5}-\\frac{7}{10}=\\frac{32-7}{10}=\\frac{25}{10}=\\frac{5}{2} \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "T_{n}",
+        "a^{n}",
+        "=\\frac{b}{a},(n+1)",
+        "T_{n}=a^{n}[\\frac{(\\frac{b}{a})^{n+1}-1}{\\frac{b}{a}-1}]",
+        "a=\\frac{1}{3}",
+        "b=\\frac{4}{7}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:14.780816"
+    },
+    {
+      "id": 25511,
+      "qid": "ml89h7qf",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-7298191-ldots-be-a-sequence-and-mathrmpn-jee-main-mathematics-trigonometric-functions-and-equations-vucwovlpq9qxwli3",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 22nd January Morning Shift",
+      "exam_date": "22nd January",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If the sum of the first four terms of an A.P. is 6 and the sum of its first six terms is 4 , then the sum of its first twelve terms is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the sum of the first four terms of an A.P. is 6 and the sum of its first six terms is 4 , then the sum of its first twelve terms is</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "-26",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-26</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "-20",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-20</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "-24",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-24</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "-22",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-22</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & a+(a+d)+(a+2d)+(a+3d)=6 \\\\ & 2a+3d=3 \\\\ & 6a+15d=4 \\\\ & d=-5/6 \\\\ & a=11/4 \\\\ & S_{12}=\\frac{12}{2}[2(\\frac{11}{4})+11 \\times (-5/6)]=-22 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; a+(a+d)+(a+2d)+(a+3d)=6 \\\\ &amp; 2a+3d=3 \\\\ &amp; 6a+15d=4 \\\\ &amp; d=-5/6 \\\\ &amp; a=11/4 \\\\ &amp; S_{12}=\\frac{12}{2}[2(\\frac{11}{4})+11 \\times (-5/6)]=-22 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:16.216306"
+    },
+    {
+      "id": 25533,
+      "qid": "m9dowfw9",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-an-be-the-nth-term-of-an-ap-if-sn--a1--jee-main-mathematics-qibsqxt44djy8kot",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 7th April Evening Shift",
+      "exam_date": "7th April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Let $a_{n}$ be the $n^{tℎ}$ term of an A.P. If $S_{n}=a_{1}+a_{2}+a_{3}+\\dots+a_{n}=700$ , $a_{6}=7$ and $S_{7}=7$ , then $a_{n}$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $a_{n}$  be the  $n^{tℎ}$  term of an A.P. If  $S_{n}=a_{1}+a_{2}+a_{3}+\\dots+a_{n}=700$ ,  $a_{6}=7$  and  $S_{7}=7$ , then  $a_{n}$  is equal to :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "65",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>65</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "56",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>56</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "70",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>70</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "64",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>64</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "Sum of n terms of an AP ( $S_{n}$ ): $S_{n}=\\frac{n}{2}[2a+(n-1)d]$ where 'a' is the first term and 'd' is the common difference. nth term of an AP ( $a_{n}$ ): $a_{n}=a+(n-1)d$ Given Information: $S_{n}=700$ (The sum of the first n terms is 700) $a_{6}=7$ (The 6th term is 7) $S_{7}=7$ (The sum of the first 7 terms is 7) Steps to Solve: Use $S_{7}$ to find a relationship between 'a' and 'd': $S_{7}=\\frac{7}{2}[2a+(7-1)d]=7$ $\\frac{7}{2}[2a+6d]=7$ $2a+6d=2$ $a+3d=1$ (Equation 1) Use $a_{6}$ to find another relationship between 'a' and 'd': $a_{6}=a+(6-1)d=7$ $a+5d=7$ (Equation 2) Solve the system of equations (Equation 1 and Equation 2) to find 'a' and 'd': Subtract Equation 1 from Equation 2: $(a+5d)-(a+3d)=7-1$ $2d=6$ $d=3$ Substitute d = 3 into Equation 1: $a+3(3)=1$ $a+9=1$ $a=-8$ Find 'n' using $S_{n}=700$ : $S_{n}=\\frac{n}{2}[2a+(n-1)d]=700$ $\\frac{n}{2}[2(-8)+(n-1)(3)]=700$ $n[-16+3n-3]=1400$ $n[3n-19]=1400$ $3n^{2}-19n-1400=0$ Solve the quadratic equation for 'n': We can use the quadratic formula: $n=\\frac{-b \\pm \\sqrt{b^{2}-4ac}}{2a}$ $n=\\frac{19 \\pm \\sqrt{(-19)^{2}-4(3)(-1400)}}{2(3)}$ $n=\\frac{19 \\pm \\sqrt{361+16800}}{6}$ $n=\\frac{19 \\pm \\sqrt{17161}}{6}$ $n=\\frac{19 \\pm 131}{6}$ We have two possible values for n: $n=\\frac{19+131}{6}=\\frac{150}{6}=25$ $n=\\frac{19-131}{6}=\\frac{-112}{6}=-\\frac{56}{3}$ (Since 'n' must be a positive integer, we discard this solution) So, $n=25$ Find $a_{n}$ (which is $a_{25}$ ): $a_{25}=a+(25-1)d$ $a_{25}=-8+(24)(3)$ $a_{25}=-8+72$ $a_{25}=64$ Therefore, $a_{n}=64$ . The correct answer is Option D.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><p><strong>Sum of n terms of an AP ( $S_{n}$ ):</strong>  $S_{n}=\\frac{n}{2}[2a+(n-1)d]$  where 'a' is the first term and 'd' is the common difference.</p></p>\n<p><p><strong>nth term of an AP ( $a_{n}$ ):</strong>  $a_{n}=a+(n-1)d$ </p></p>\n<p><strong>Given Information:</strong></p>\n<p><p> $S_{n}=700$  (The sum of the first n terms is 700)</p></p>\n<p><p> $a_{6}=7$  (The 6th term is 7)</p></p>\n<p><p> $S_{7}=7$  (The sum of the first 7 terms is 7)</p></p>\n<p><strong>Steps to Solve:</strong></p>\n<p><p><strong>Use  $S_{7}$  to find a relationship between 'a' and 'd':</strong></p>\n<p><p> $S_{7}=\\frac{7}{2}[2a+(7-1)d]=7$ </p></p>\n<p><p> $\\frac{7}{2}[2a+6d]=7$ </p></p>\n<p><p> $2a+6d=2$ </p></p>\n<p><p> $a+3d=1$  <strong>(Equation 1)</strong></p></p></p>\n<p><p><strong>Use  $a_{6}$  to find another relationship between 'a' and 'd':</strong></p>\n<p><p> $a_{6}=a+(6-1)d=7$ </p></p>\n<p><p> $a+5d=7$  <strong>(Equation 2)</strong></p></p></p>\n<p><p><strong>Solve the system of equations (Equation 1 and Equation 2) to find 'a' and 'd':</strong></p>\n<p><p>Subtract Equation 1 from Equation 2:</p>\n<p><p> $(a+5d)-(a+3d)=7-1$ </p></p>\n<p><p> $2d=6$ </p></p>\n<p><p> $d=3$ </p></p></p>\n<p><p>Substitute d = 3 into Equation 1:</p>\n<p><p> $a+3(3)=1$ </p></p>\n<p><p> $a+9=1$ </p></p>\n<p><p> $a=-8$ </p></p></p></p>\n<p><p><strong>Find 'n' using  $S_{n}=700$ :</strong></p>\n<p><p> $S_{n}=\\frac{n}{2}[2a+(n-1)d]=700$ </p></p>\n<p><p> $\\frac{n}{2}[2(-8)+(n-1)(3)]=700$ </p></p>\n<p><p> $n[-16+3n-3]=1400$ </p></p>\n<p><p> $n[3n-19]=1400$ </p></p>\n<p><p> $3n^{2}-19n-1400=0$ </p></p></p>\n<p><p><strong>Solve the quadratic equation for 'n':</strong></p>\n<p><p>We can use the quadratic formula:  $n=\\frac{-b \\pm \\sqrt{b^{2}-4ac}}{2a}$ </p></p>\n<p><p> $n=\\frac{19 \\pm \\sqrt{(-19)^{2}-4(3)(-1400)}}{2(3)}$ </p></p>\n<p><p> $n=\\frac{19 \\pm \\sqrt{361+16800}}{6}$ </p></p>\n<p><p> $n=\\frac{19 \\pm \\sqrt{17161}}{6}$ </p></p>\n<p><p> $n=\\frac{19 \\pm 131}{6}$ </p></p>\n<p><p>We have two possible values for n:</p>\n<p><p> $n=\\frac{19+131}{6}=\\frac{150}{6}=25$ </p></p>\n<p><p> $n=\\frac{19-131}{6}=\\frac{-112}{6}=-\\frac{56}{3}$  (Since 'n' must be a positive integer, we discard this solution)</p></p></p>\n<p><p>So,  $n=25$ </p></p></p>\n<p><p><strong>Find  $a_{n}$  (which is  $a_{25}$ ):</strong></p>\n<p><p> $a_{25}=a+(25-1)d$ </p></p>\n<p><p> $a_{25}=-8+(24)(3)$ </p></p>\n<p><p> $a_{25}=-8+72$ </p></p>\n<p><p> $a_{25}=64$ </p></p></p>\n<p>Therefore,  $a_{n}=64$ .  The correct answer is Option D.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "a_{n}",
+        "n^{tℎ}",
+        "S_{n}=a_{1}+a_{2}+a_{3}+\\dots+a_{n}=700",
+        "a_{6}=7",
+        "S_{7}=7",
+        "S_{n}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:19.009730"
+    },
+    {
+      "id": 25535,
+      "qid": "m9dqr6zu",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-an-be-the-nth-term-of-an-ap-if-sn--a1--jee-main-mathematics-qibsqxt44djy8kot",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 7th April Evening Shift",
+      "exam_date": "7th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309, then the sum of its first nine terms is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309, then the sum of its first nine terms is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "757",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>757</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "755",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>755</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "750",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>750</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "760",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>760</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve this problem, we have to work with two equations derived from the geometric progression (G.P.): $ar+ar^{3}+ar^{5}=21$ $ar^{7}+ar^{9}+ar^{11}=15309$ From these equations, we can extract the terms: Equation (1): $ar(1+r^{2}+r^{4})=21$ Equation (2): $ar^{7}(1+r^{2}+r^{4})=15309$ Now, divide equation (2) by equation (1): $\\frac{ar^{7}}{ar}=\\frac{15309}{21}$ From this division, we get: $r^{6}=729$ Which implies: $r=3\\text{(since both terms and ratios are positive)}$ Using this value of $r$ , calculate the sum of the first nine terms of the G.P. using the formula for the sum of a G.P.: $S_{n}=\\frac{a(r^{9}-1)}{r-1}$ Substitute known values: $\\Rightarrow \\frac{a(3^{9}-1)}{3-1}=\\frac{a \\cdot (19683-1)}{2}$ Given that $\\frac{7}{91} \\times (19683-1)/2=\\frac{7 \\times 19682}{91 \\times 2}$ : $=\\frac{7 \\times 19682}{91 \\times 2}=\\frac{9841}{13}=757$ Therefore, the sum of the first nine terms of the G.P. is 757 .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve this problem, we have to work with two equations derived from the geometric progression (G.P.):</p>\n<p><p> $ar+ar^{3}+ar^{5}=21$ </p></p>\n<p><p> $ar^{7}+ar^{9}+ar^{11}=15309$ </p></p>\n<p>From these equations, we can extract the terms:</p>\n<p><p>Equation (1):  $ar(1+r^{2}+r^{4})=21$ </p></p>\n<p><p>Equation (2):  $ar^{7}(1+r^{2}+r^{4})=15309$ </p></p>\n<p>Now, divide equation (2) by equation (1):</p>\n<p> $\\frac{ar^{7}}{ar}=\\frac{15309}{21}$ </p>\n<p>From this division, we get:</p>\n<p> $r^{6}=729$ </p>\n<p>Which implies:</p>\n<p> $r=3\\text{(since both terms and ratios are positive)}$ </p>\n<p>Using this value of  $r$ , calculate the sum of the first nine terms of the G.P. using the formula for the sum of a G.P.:</p>\n<p> $S_{n}=\\frac{a(r^{9}-1)}{r-1}$ </p>\n<p>Substitute known values:</p>\n<p> $\\Rightarrow \\frac{a(3^{9}-1)}{3-1}=\\frac{a \\cdot (19683-1)}{2}$ </p>\n<p>Given that  $\\frac{7}{91} \\times (19683-1)/2=\\frac{7 \\times 19682}{91 \\times 2}$ :</p>\n<p> $=\\frac{7 \\times 19682}{91 \\times 2}=\\frac{9841}{13}=757$ </p>\n<p>Therefore, the sum of the first nine terms of the G.P. is <strong>757</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "ar+ar^{3}+ar^{5}=21",
+        "ar^{7}+ar^{9}+ar^{11}=15309",
+        "ar(1+r^{2}+r^{4})=21",
+        "ar^{7}(1+r^{2}+r^{4})=15309",
+        "\\frac{ar^{7}}{ar}=\\frac{15309}{21}",
+        "r^{6}=729"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:19.087754"
+    },
+    {
+      "id": 25537,
+      "qid": "m9e5j78z",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-an-be-the-nth-term-of-an-ap-if-sn--a1--jee-main-mathematics-qibsqxt44djy8kot",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 7th April Morning Shift",
+      "exam_date": "7th April",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Let $x_{1},x_{2},x_{3},x_{4}$ be in a geometric progression. If $2,7,9,5$ are subtracted respectively from $x_{1},x_{2},x_{3},x_{4}$ , then the resulting numbers are in an arithmetic progression. Then the value of $\\frac{1}{24}(x_{1}x_{2}x_{3}x_{4})$ is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $x_{1},x_{2},x_{3},x_{4}$  be in a geometric progression. If  $2,7,9,5$  are subtracted respectively from  $x_{1},x_{2},x_{3},x_{4}$ , then the resulting numbers are in an arithmetic progression. Then the value of  $\\frac{1}{24}(x_{1}x_{2}x_{3}x_{4})$  is:</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "18",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->18<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "216",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->216<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "36",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->36<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "72",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->72<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given the sequence $x_{1},x_{2},x_{3},x_{4}$ in geometric progression: $x_{1}=a$ $x_{2}=ar$ $x_{3}=ar^{2}$ $x_{4}=ar^{3}$ When you subtract 2, 7, 9, and 5 from $x_{1},x_{2},x_{3},x_{4}$ respectively, the sequence becomes an arithmetic progression. Thus, the new sequence is: $a-2$ $ar-7$ $ar^{2}-9$ $ar^{3}-5$ For these to form an arithmetic progression, the common differences must be equal, so: $(ar-7)-(a-2)=(ar^{2}-9)-(ar-7)$ Simplifying gives: $a(r-1)-5=ar(r-1)-2$ $a(r-1)(r-1)=-3(i)$ $(ar-7)-(a-2)=(ar^{3}-5)-(ar^{2}-9)$ Simplifying gives: $a(r-1)-5=ar^{2}(r-1)+4$ $a(r-1)(r^{2}-1)=-9(ii)$ Using the ratio of equations (ii) and (i): $\\frac{a(r-1)(r^{2}-1)}{a(r-1)(r-1)}=\\frac{-9}{-3}$ $r+1=3⟹r=2$ Plugging back into equation (i): $a(1)(1)=-3⟹a=-3$ So, the sequence $x_{1},x_{2},x_{3},x_{4}$ is: $x_{1}=-3$ $x_{2}=-6$ $x_{3}=-12$ $x_{4}=-24$ The expression for $\\frac{1}{24}(x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4})$ is: $\\frac{1}{24}((-3) \\cdot (-6) \\cdot (-12) \\cdot (-24))=216$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given the sequence  $x_{1},x_{2},x_{3},x_{4}$  in geometric progression:</p>\n<p><p> $x_{1}=a$ </p></p>\n<p><p> $x_{2}=ar$ </p></p>\n<p><p> $x_{3}=ar^{2}$ </p></p>\n<p><p> $x_{4}=ar^{3}$ </p></p>\n<p>When you subtract 2, 7, 9, and 5 from  $x_{1},x_{2},x_{3},x_{4}$  respectively, the sequence becomes an arithmetic progression. Thus, the new sequence is:</p>\n<p><p> $a-2$ </p></p>\n<p><p> $ar-7$ </p></p>\n<p><p> $ar^{2}-9$ </p></p>\n<p><p> $ar^{3}-5$ </p></p>\n<p>For these to form an arithmetic progression, the common differences must be equal, so:</p>\n<p><p> $(ar-7)-(a-2)=(ar^{2}-9)-(ar-7)$ </p>\n<p>Simplifying gives:</p>\n<p> $a(r-1)-5=ar(r-1)-2$ </p>\n<p> $a(r-1)(r-1)=-3(i)$ </p></p>\n<p><p> $(ar-7)-(a-2)=(ar^{3}-5)-(ar^{2}-9)$ </p>\n<p>Simplifying gives:</p>\n<p> $a(r-1)-5=ar^{2}(r-1)+4$ </p>\n<p> $a(r-1)(r^{2}-1)=-9(ii)$ </p></p>\n<p>Using the ratio of equations (ii) and (i):</p>\n<p> $\\frac{a(r-1)(r^{2}-1)}{a(r-1)(r-1)}=\\frac{-9}{-3}$ </p>\n<p> $r+1=3⟹r=2$ </p>\n<p>Plugging back into equation (i):</p>\n<p> $a(1)(1)=-3⟹a=-3$ </p>\n<p>So, the sequence  $x_{1},x_{2},x_{3},x_{4}$  is:</p>\n<p><p> $x_{1}=-3$ </p></p>\n<p><p> $x_{2}=-6$ </p></p>\n<p><p> $x_{3}=-12$ </p></p>\n<p><p> $x_{4}=-24$ </p></p>\n<p>The expression for  $\\frac{1}{24}(x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4})$  is:</p>\n<p> $\\frac{1}{24}((-3) \\cdot (-6) \\cdot (-12) \\cdot (-24))=216$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "x_{1},x_{2},x_{3},x_{4}",
+        "\\frac{1}{24}(x_{1}x_{2}x_{3}x_{4})",
+        "x_{1}=a",
+        "x_{2}=ar",
+        "x_{3}=ar^{2}",
+        "x_{4}=ar^{3}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:19.226435"
+    },
+    {
+      "id": 25525,
+      "qid": "m9d9bl5d",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-positive-integer-bnb-for-which-the-solutions-of-jee-main-mathematics-dav6gjbg6fm2di2n",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 8th April Evening Shift",
+      "exam_date": "8th April",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots\\infty=\\frac{\\pi^{4}}{90}$ , $\\frac{1}{1^{4}}+\\frac{1}{3^{4}}+\\frac{1}{5^{4}}+\\dots\\infty=\\alpha$ , $\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots\\infty=\\beta$ , then $\\frac{\\alpha}{\\beta}$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots\\infty=\\frac{\\pi^{4}}{90}$ ,</p> <p> $\\frac{1}{1^{4}}+\\frac{1}{3^{4}}+\\frac{1}{5^{4}}+\\dots\\infty=\\alpha$ ,</p> <p> $\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots\\infty=\\beta$ ,</p> <p>then  $\\frac{\\alpha}{\\beta}$  is equal to :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "23",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>23</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "14",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>14</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "18",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>18</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "15",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{If}\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots.\\infty=\\frac{\\pi^{4}}{90}\\text{....... (i)} \\\\ & \\beta=\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots, \\\\ & =\\frac{1}{16}[\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots..], \\end{aligned}$ $=\\frac{1}{16} \\times \\frac{\\pi^{4}}{90}$ using (ii) ............ (ii) $\\begin{aligned} & \\alpha=\\frac{1}{1^{4}}+\\frac{1}{3^{4}}+\\frac{1}{5^{4}}+\\dots..\\infty \\\\ & (\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\frac{1}{4^{4}}+\\frac{1}{5^{4}}+\\dots..) \\\\ & -(\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots..) \\\\ & \\alpha=\\frac{\\pi^{4}}{90}-\\frac{1}{16} \\times \\frac{\\pi^{4}}{90}\\text{[using (i) and (ii)]} \\\\ & \\alpha=\\frac{16-1}{16 \\times 90} \\times \\pi^{4}=\\frac{15}{16 \\times 90}\\pi^{4}=\\frac{\\pi^{4}}{96} \\\\ & \\therefore \\frac{\\alpha}{\\beta}=\\frac{\\frac{\\pi^{4}}{96}}{\\frac{\\pi^{4}}{16 \\times 90}}=\\frac{16 \\times 90}{96}=15 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{If}\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots.\\infty=\\frac{\\pi^{4}}{90}\\text{....... (i)} \\\\ &amp; \\beta=\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots, \\\\ &amp; =\\frac{1}{16}[\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots..], \\end{aligned}$ </p>\n<p> $=\\frac{1}{16} \\times \\frac{\\pi^{4}}{90}$  using (ii) ............ (ii)</p>\n<p> $\\begin{aligned} &amp; \\alpha=\\frac{1}{1^{4}}+\\frac{1}{3^{4}}+\\frac{1}{5^{4}}+\\dots..\\infty \\\\ &amp; (\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\frac{1}{4^{4}}+\\frac{1}{5^{4}}+\\dots..) \\\\ &amp; -(\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots..) \\\\ &amp; \\alpha=\\frac{\\pi^{4}}{90}-\\frac{1}{16} \\times \\frac{\\pi^{4}}{90}\\text{[using (i) and (ii)]} \\\\ &amp; \\alpha=\\frac{16-1}{16 \\times 90} \\times \\pi^{4}=\\frac{15}{16 \\times 90}\\pi^{4}=\\frac{\\pi^{4}}{96} \\\\ &amp; \\therefore \\frac{\\alpha}{\\beta}=\\frac{\\frac{\\pi^{4}}{96}}{\\frac{\\pi^{4}}{16 \\times 90}}=\\frac{16 \\times 90}{96}=15 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{1}{1^{4}}+\\frac{1}{2^{4}}+\\frac{1}{3^{4}}+\\dots\\infty=\\frac{\\pi^{4}}{90}",
+        "\\frac{1}{1^{4}}+\\frac{1}{3^{4}}+\\frac{1}{5^{4}}+\\dots\\infty=\\alpha",
+        "\\frac{1}{2^{4}}+\\frac{1}{4^{4}}+\\frac{1}{6^{4}}+\\dots\\infty=\\beta",
+        "\\frac{\\alpha}{\\beta}",
+        "=\\frac{1}{16} \\times \\frac{\\pi^{4}}{90}"
+      ],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:17.615917"
+    },
+    {
+      "id": 25539,
+      "qid": "m9fnusib",
+      "chapter_slug": "sequences-and-series",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-an-be-the-nth-term-of-an-ap-if-sn--a1--jee-main-mathematics-qibsqxt44djy8kot",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 4th April Evening Shift",
+      "exam_date": "4th April",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If the sum of the first 20 terms of the series $\\frac{4 \\cdot 1}{4+3 \\cdot 1^{2}+1^{4}}+\\frac{4 \\cdot 2}{4+3 \\cdot 2^{2}+2^{4}}+\\frac{4 \\cdot 3}{4+3 \\cdot 3^{2}+3^{4}}+\\frac{4 \\cdot 4}{4+3 \\cdot 4^{2}+4^{4}}+\\dots \\cdot$ is $\\frac{m}{n}$ , where m and n are coprime, then $m+n$ is equal to :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the sum of the first 20 terms of the series\n $\\frac{4 \\cdot 1}{4+3 \\cdot 1^{2}+1^{4}}+\\frac{4 \\cdot 2}{4+3 \\cdot 2^{2}+2^{4}}+\\frac{4 \\cdot 3}{4+3 \\cdot 3^{2}+3^{4}}+\\frac{4 \\cdot 4}{4+3 \\cdot 4^{2}+4^{4}}+\\dots \\cdot$  is  $\\frac{m}{n}$ , where m and n are coprime, then  $m+n$  is equal to :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "423",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->423<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "421",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->421<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "422",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->422<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "420",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->420<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & S_{n}=\\sum_{r=1}^{n}\\frac{4r}{4+3r^{2}+r^{4}} \\\\ & =2\\sum_{r=1}^{n}\\frac{2r}{(r^{2}+2)^{2}-r^{2}}=2\\sum_{r=1}^{n}\\frac{(r^{2}+2+r)-(r^{2}+2-r)}{(r^{2}+2+r)(r^{2}+2-r)} \\\\ & =2\\sum_{r=1}^{n}(\\frac{1}{r^{2}+2-r}-\\frac{1}{r^{2}+2+r}) \\\\ & S_{20}=2[(\\frac{1}{2}-\\frac{1}{4})+(\\frac{1}{4}-\\frac{1}{8})+\\dots] \\\\ & =2(\\frac{1}{2}-\\frac{1}{20^{2}+2+20}) \\\\ & =2(\\frac{1}{2}-\\frac{1}{422}) \\\\ & =2(\\frac{422-2}{422 \\times 2})=\\frac{420}{422}=\\frac{210}{211}=\\frac{m}{n} \\\\ & m+n=421 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; S_{n}=\\sum_{r=1}^{n}\\frac{4r}{4+3r^{2}+r^{4}} \\\\ &amp; =2\\sum_{r=1}^{n}\\frac{2r}{(r^{2}+2)^{2}-r^{2}}=2\\sum_{r=1}^{n}\\frac{(r^{2}+2+r)-(r^{2}+2-r)}{(r^{2}+2+r)(r^{2}+2-r)} \\\\ &amp; =2\\sum_{r=1}^{n}(\\frac{1}{r^{2}+2-r}-\\frac{1}{r^{2}+2+r}) \\\\ &amp; S_{20}=2[(\\frac{1}{2}-\\frac{1}{4})+(\\frac{1}{4}-\\frac{1}{8})+\\dots] \\\\ &amp; =2(\\frac{1}{2}-\\frac{1}{20^{2}+2+20}) \\\\ &amp; =2(\\frac{1}{2}-\\frac{1}{422}) \\\\ &amp; =2(\\frac{422-2}{422 \\times 2})=\\frac{420}{422}=\\frac{210}{211}=\\frac{m}{n} \\\\ &amp; m+n=421 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Sequences And Series - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Sequences And Series - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:46:19.294199"
+    }
+  ]
 }

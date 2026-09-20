@@ -1,0 +1,1188 @@
+{
+  "chapter_slug": "kcet-inverse-trigonometric-functions",
+  "total": 22,
+  "questions": [
+    {
+      "id": 8782,
+      "qid": "jt-mr7eh8yl",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/tan-1leftdfrac11--1-cdot-2right--tan-1-kcet-mathematics-n9wq97aqyz22km3j",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\dots+tan^{-1}(\\frac{1}{1+n(n+1)})=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\dots+tan^{-1}(\\frac{1}{1+n(n+1)})=$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$tan^{-1}(\\frac{n}{n+2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{n}{n+2})$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$tan^{-1}(\\frac{n+1}{n})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{n+1}{n})$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$tan^{-1}(\\frac{n}{n+1})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{n}{n+1})$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$tan^{-1}(\\frac{n+2}{n})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{n+2}{n})$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Given sum is $tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\cdot s+tan^{-1}(\\frac{1}{1+n(n+1)})$ The general term is $tan^{-1}(\\frac{1}{1+k(k+1)})$ Using the identity $tan^{-1}x-tan^{-1}y=tan^{-1}(\\frac{x-y}{1+xy})$ take $x=k+1$ and $y=k$ . Then, $tan^{-1}(k+1)-tan^{-1}k=tan^{-1}(\\frac{(k+1)-k}{1+k(k+1)})$ $=tan^{-1}(\\frac{1}{1+k(k+1)})$ So each term can be written as $tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k$ Now the sum becomes $[tan^{-1}2-tan^{-1}1]+[tan^{-1}3-tan^{-1}2]+\\cdot s+[tan^{-1}(n+1)-tan^{-1}n]$ All middle terms cancel, leaving $tan^{-1}(n+1)-tan^{-1}1$ Again using the same identity, $tan^{-1}(n+1)-tan^{-1}1=tan^{-1}(\\frac{(n+1)-1}{1+(n+1) \\cdot 1})$ $=tan^{-1}(\\frac{n}{n+2})$ So the value is $tan^{-1}(\\frac{n}{n+2})$ Correct option: A",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given sum is</p>\n<p> $tan^{-1}(\\frac{1}{1+1 \\cdot 2})+tan^{-1}(\\frac{1}{1+2 \\cdot 3})+\\cdot s+tan^{-1}(\\frac{1}{1+n(n+1)})$ </p>\n<p>The general term is</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>Using the identity</p>\n<p> $tan^{-1}x-tan^{-1}y=tan^{-1}(\\frac{x-y}{1+xy})$ </p>\n<p>take  $x=k+1$  and  $y=k$ .</p>\n<p>Then,</p>\n<p> $tan^{-1}(k+1)-tan^{-1}k=tan^{-1}(\\frac{(k+1)-k}{1+k(k+1)})$ </p>\n<p> $=tan^{-1}(\\frac{1}{1+k(k+1)})$ </p>\n<p>So each term can be written as</p>\n<p> $tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k$ </p>\n<p>Now the sum becomes</p>\n<p> $[tan^{-1}2-tan^{-1}1]+[tan^{-1}3-tan^{-1}2]+\\cdot s+[tan^{-1}(n+1)-tan^{-1}n]$ </p>\n<p>All middle terms cancel, leaving</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1$ </p>\n<p>Again using the same identity,</p>\n<p> $tan^{-1}(n+1)-tan^{-1}1=tan^{-1}(\\frac{(n+1)-1}{1+(n+1) \\cdot 1})$ </p>\n<p> $=tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>So the value is</p>\n<p> $tan^{-1}(\\frac{n}{n+2})$ </p>\n<p>Correct option: <strong>A</strong></p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=tan^{-1}(\\frac{1}{1+k(k+1)})",
+        "tan^{-1}(\\frac{1}{1+k(k+1)})=tan^{-1}(k+1)-tan^{-1}k",
+        "[tan^{-1}2-tan^{-1}1]+[tan^{-1}3-tan^{-1}2]+\\cdot s+[tan^{-1}(n+1)-tan^{-1}n]",
+        "tan^{-1}(n+1)-tan^{-1}1",
+        "tan^{-1}(n+1)-tan^{-1}1=tan^{-1}(\\frac{(n+1)-1}{1+(n+1) \\cdot 1})",
+        "=tan^{-1}(\\frac{n}{n+2})"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.042296"
+    },
+    {
+      "id": 8784,
+      "qid": "jt-mr7eh8ym",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/tan-1leftdfrac11--1-cdot-2right--tan-1-kcet-mathematics-n9wq97aqyz22km3j",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}$ , then $x^{2}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}$ , then  $x^{2}$  is equal to<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1-y^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1-y^{2}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{1-y^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{1-y^{2}}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-\\sqrt{1-y^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\sqrt{1-y^{2}}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$1+y^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1+y^{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Let $sin^{-1}x=A\\text{and}sin^{-1}y=B$ So, $A+B=\\frac{\\pi}{2}$ This gives $A=\\frac{\\pi}{2}-B$ Now, $x=sinA$ So, $x=sin(\\frac{\\pi}{2}-B)$ Using the identity $sin(\\frac{\\pi}{2}-\\theta)=cos\\theta$ we get $x=cosB$ But $sinB=y$ So, $cos^{2}B=1-sin^{2}B$ Hence, $x^{2}=cos^{2}B=1-y^{2}$ So the correct option is $1-y^{2}$ Option A.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let</p>\n<p> $sin^{-1}x=A\\text{and}sin^{-1}y=B$ </p>\n<p>So,</p>\n<p> $A+B=\\frac{\\pi}{2}$ </p>\n<p>This gives</p>\n<p> $A=\\frac{\\pi}{2}-B$ </p>\n<p>Now,</p>\n<p> $x=sinA$ </p>\n<p>So,</p>\n<p> $x=sin(\\frac{\\pi}{2}-B)$ </p>\n<p>Using the identity</p>\n<p> $sin(\\frac{\\pi}{2}-\\theta)=cos\\theta$ </p>\n<p>we get</p>\n<p> $x=cosB$ </p>\n<p>But</p>\n<p> $sinB=y$ </p>\n<p>So,</p>\n<p> $cos^{2}B=1-sin^{2}B$ </p>\n<p>Hence,</p>\n<p> $x^{2}=cos^{2}B=1-y^{2}$ </p>\n<p>So the correct option is</p>\n<p> $1-y^{2}$ </p>\n<p>Option A.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "sin^{-1}x+sin^{-1}y=\\frac{\\pi}{2}",
+        "x^{2}",
+        "sin^{-1}x=A\\text{and}sin^{-1}y=B",
+        "A+B=\\frac{\\pi}{2}",
+        "A=\\frac{\\pi}{2}-B",
+        "x=sinA"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.138395"
+    },
+    {
+      "id": 8786,
+      "qid": "mcf6zsos",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/tan-1leftdfrac11--1-cdot-2right--tan-1-kcet-mathematics-n9wq97aqyz22km3j",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "15",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->15\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & =1+tan^{2}(tan^{-1}2)+1+cot^{2}(cot^{-1}3) \\\\ & =1+4+1+9=15 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; =1+tan^{2}(tan^{-1}2)+1+cot^{2}(cot^{-1}3) \\\\ &amp; =1+4+1+9=15 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "sec^{2}(tan^{-1}2)+cosec^{2}(cot^{-1}3)="
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.196118"
+    },
+    {
+      "id": 8789,
+      "qid": "mcf6zsqm",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/tan-1leftdfrac11--1-cdot-2right--tan-1-kcet-mathematics-n9wq97aqyz22km3j",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ is valid for all values of ' $x$ ' satisfying",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$  is valid for all values of '  $x$  ' satisfying</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0 \\le x \\le \\frac{1}{\\sqrt{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0 \\le x \\le \\frac{1}{\\sqrt{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$-1 \\le x \\le 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-1 \\le x \\le 1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0 \\le x \\le 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0 \\le x \\le 1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{\\sqrt{2}} \\le x \\le 1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}} \\le x \\le 1$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To determine the values of 'x' that satisfy the equation $2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ , let's analyze the components: Let $x=cos\\theta$ . This implies $\\theta=cos^{-1}x$ . The equation can be expressed as $sin^{-1}(2cos\\theta sin\\theta)$ , which simplifies to $sin^{-1}(sin2\\theta)$ . Hence, $2\\theta=sin^{-1}(sin2\\theta)$ . For $sin^{-1}(sin2\\theta)$ to equal $2cos^{-1}x$ , i.e., $2\\theta$ , $2\\theta$ must lie within the range $[0,\\pi]$ . Given: $\\theta=cos^{-1}x$ , the valid range for $\\theta$ is $[0,\\pi/4]$ . Therefore, $cos^{-1}x \\in [0,\\pi/4]$ . This implies: $x$ lies within $[\\frac{1}{\\sqrt{2}},1]$ because $cos(\\pi/4)=\\frac{1}{\\sqrt{2}}$ . Thus, the equation is satisfied for values of $x$ in the interval $[\\frac{1}{\\sqrt{2}},1]$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the values of 'x' that satisfy the equation  $2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})$ , let's analyze the components:</p>\n<p><p>Let  $x=cos\\theta$ . This implies  $\\theta=cos^{-1}x$ .</p></p>\n<p><p>The equation can be expressed as  $sin^{-1}(2cos\\theta sin\\theta)$ , which simplifies to  $sin^{-1}(sin2\\theta)$ . Hence,  $2\\theta=sin^{-1}(sin2\\theta)$ .</p></p>\n<p><p>For  $sin^{-1}(sin2\\theta)$  to equal  $2cos^{-1}x$ , i.e.,  $2\\theta$ ,  $2\\theta$  must lie within the range  $[0,\\pi]$ .</p></p>\n<p>Given:</p>\n<p><p> $\\theta=cos^{-1}x$ , the valid range for  $\\theta$  is  $[0,\\pi/4]$ . </p></p>\n<p><p>Therefore,  $cos^{-1}x \\in [0,\\pi/4]$ .</p></p>\n<p>This implies:</p>\n<p> $x$  lies within  $[\\frac{1}{\\sqrt{2}},1]$  because  $cos(\\pi/4)=\\frac{1}{\\sqrt{2}}$ .</p>\n<p>Thus, the equation is satisfied for values of  $x$  in the interval  $[\\frac{1}{\\sqrt{2}},1]$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "2cos^{-1}x=sin^{-1}(2x\\sqrt{1-x^{2}})"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.273053"
+    },
+    {
+      "id": 8793,
+      "qid": "m5yu7u70",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-f-r-rightarrow-r-be-given-fxtan-x-then-f-kcet-mathematics-complex-numbers-fdlfgu2hzbfwxfja",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Let $f:R \\rightarrow R$ be given $f(x)=tanx$ . Then, $f^{-1}(1)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $f:R \\rightarrow R$  be given  $f(x)=tanx$ . Then,  $f^{-1}(1)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "${n\\pi+\\frac{\\pi}{4}:n \\in Z}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  ${n\\pi+\\frac{\\pi}{4}:n \\in Z}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "${n\\pi+\\frac{\\pi}{3}:n \\in Z}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  ${n\\pi+\\frac{\\pi}{3}:n \\in Z}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\because f(x)=tanx$ Since, $f^{-1}$ is inverse of $f$ $\\begin{aligned} \\Rightarrow & f(f^{-1}(1))=1 \\\\ \\Rightarrow & tan(f^{-1}(1))=1 \\\\ \\text{But} & tan(\\frac{\\pi}{4})=1 \\\\ \\Rightarrow & tan(f^{-1}(1))=tan(\\frac{\\pi}{4}) \\\\ \\therefore & f^{-1}(l)=\\frac{\\pi}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because f(x)=tanx$ </p>\n<p>Since,  $f^{-1}$  is inverse of  $f$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; f(f^{-1}(1))=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=1 \\\\ \\text{But} &amp; tan(\\frac{\\pi}{4})=1 \\\\ \\Rightarrow &amp; tan(f^{-1}(1))=tan(\\frac{\\pi}{4}) \\\\ \\therefore &amp; f^{-1}(l)=\\frac{\\pi}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=tanx",
+        "f^{-1}(1)",
+        "\\because f(x)=tanx",
+        "f^{-1}"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.626383"
+    },
+    {
+      "id": 8798,
+      "qid": "m5yu6v1u",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-f-r-rightarrow-r-be-given-fxtan-x-then-f-kcet-mathematics-complex-numbers-fdlfgu2hzbfwxfja",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi$ , then $x(y+z)+y(z+x)+z(x+y)$ equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi$ , then  $x(y+z)+y(z+x)+z(x+y)$  equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi$ As, we know that $0 \\le cos^{-1}(x) \\le \\pi$ Thus, the maximum value of $cos^{-1}(x)=\\pi$ satisfies the given equation. $\\begin{aligned} x & =y=z=cos\\pi=-1 \\\\ \\text{Now,}x(y+z) & +y(z+x)+z(x+y) \\\\ & =xy+zx+yz+xy+zx+yz \\\\ & =2(xy+yz+zx) \\\\ & =2(1+1+1)=6 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi$ </p>\n<p>As, we know that  $0 \\le cos^{-1}(x) \\le \\pi$ </p>\n<p>Thus, the maximum value of  $cos^{-1}(x)=\\pi$ </p>\n<p>satisfies the given equation.</p>\n<p> $\\begin{aligned} x &amp; =y=z=cos\\pi=-1 \\\\ \\text{Now,}x(y+z) &amp; +y(z+x)+z(x+y) \\\\ &amp; =xy+zx+yz+xy+zx+yz \\\\ &amp; =2(xy+yz+zx) \\\\ &amp; =2(1+1+1)=6 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi",
+        "cos^{-1}(x)+cos^{-1}(y)+cos^{-1}(z)=3\\pi",
+        "0 \\le cos^{-1}(x) \\le \\pi",
+        "cos^{-1}(x)=\\pi"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.638737"
+    },
+    {
+      "id": 8801,
+      "qid": "m5yu78rp",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-f-r-rightarrow-r-be-given-fxtan-x-then-f-kcet-mathematics-complex-numbers-fdlfgu2hzbfwxfja",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $2sin^{-1}x-3cos^{-1}x=4,x \\in [-1,1]$ , then $2sin^{-1}x+3cos^{-1}x$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $2sin^{-1}x-3cos^{-1}x=4,x \\in [-1,1]$ , then  $2sin^{-1}x+3cos^{-1}x$  is equal to\n</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4-6\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{4-6\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{6\\pi-4}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{6\\pi-4}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{3\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\because 2sin^{-1}x-3cos^{-1}x=4 \\\\ & \\Rightarrow 2sin^{-1}x-3(\\frac{\\pi}{2}-sin^{-1}x)=4 \\\\ & [ \\because cos^{-1}x=\\frac{\\pi}{2}-sin^{-1}x] \\end{aligned}$ $\\begin{aligned} & \\begin{aligned} & \\Rightarrow 5sin^{-1}x=4+\\frac{3\\pi}{2} \\\\ & \\therefore sin^{-1}x=\\frac{4+\\frac{3\\pi}{2}}{5}=\\frac{8+3\\pi}{10}\\text{... (i)} \\end{aligned} \\\\ & \\text{So,}2sin^{-1}x+3cos^{-1}x \\end{aligned}$ $\\begin{aligned} & =2sin^{-1}x+3(\\frac{\\pi}{2}-sin^{-1}x) \\\\ & =-sin^{-1}x+\\frac{3\\pi}{2} \\\\ & =\\frac{-8-3\\pi}{10}+\\frac{3\\pi}{2}=\\frac{-8-3\\pi+15\\pi}{10} \\\\ & =\\frac{12\\pi-8}{10}=\\frac{6\\pi-4}{5} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because 2sin^{-1}x-3cos^{-1}x=4 \\\\ &amp; \\Rightarrow 2sin^{-1}x-3(\\frac{\\pi}{2}-sin^{-1}x)=4 \\\\ &amp; [ \\because cos^{-1}x=\\frac{\\pi}{2}-sin^{-1}x] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} &amp; \\Rightarrow 5sin^{-1}x=4+\\frac{3\\pi}{2} \\\\ &amp; \\therefore sin^{-1}x=\\frac{4+\\frac{3\\pi}{2}}{5}=\\frac{8+3\\pi}{10}\\text{... (i)} \\end{aligned} \\\\ &amp; \\text{So,}2sin^{-1}x+3cos^{-1}x \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =2sin^{-1}x+3(\\frac{\\pi}{2}-sin^{-1}x) \\\\ &amp; =-sin^{-1}x+\\frac{3\\pi}{2} \\\\ &amp; =\\frac{-8-3\\pi}{10}+\\frac{3\\pi}{2}=\\frac{-8-3\\pi+15\\pi}{10} \\\\ &amp; =\\frac{12\\pi-8}{10}=\\frac{6\\pi-4}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "2sin^{-1}x-3cos^{-1}x=4,x \\in [-1,1]",
+        "2sin^{-1}x+3cos^{-1}x"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.707117"
+    },
+    {
+      "id": 8805,
+      "qid": "jaoe38c1locoe3hs",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-cot--1leftfracsqrt1-sin-xsqr-kcet-mathematics-complex-numbers-63yut2uxgglnzbx3",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]$ , where $x \\in (0,\\frac{\\pi}{4})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]$ , where  $x \\in (0,\\frac{\\pi}{4})$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{x}{2}-\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{2}-\\pi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi-\\frac{x}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi-\\frac{x}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi-\\frac{x}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi-\\frac{x}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Here,}cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1-sinx}}] \\\\ & =cot^{-1}[\\frac{(\\sqrt{1-sinx}+\\sqrt{1+sinx})^{2}}{(1-sinx)-(1+sinx)}] \\\\ & =cot^{-1}(\\frac{1-sinx+1+sinx+2\\sqrt{1-sin^{2}x}}{1-sinx-1-sinx}) \\\\ & \\Rightarrow cot^{-1}(\\frac{2+2\\sqrt{cos^{2}x}}{-2sinx}) \\\\ & \\Rightarrow cot^{1}(\\frac{1+cosx}{-sinx}) \\\\ & \\Rightarrow cot^{-1}(\\frac{1+2cos^{2}\\frac{x}{2}-1}{-2sin\\frac{x}{2}cos\\frac{x}{2}}) \\\\ & \\Rightarrow cot^{1}(\\frac{-cos\\frac{x}{2}}{sin\\frac{x}{2}}) \\\\ & \\Rightarrow cot^{-1}(-cot\\frac{x}{2})=cot^{-1}(cot(\\pi-\\frac{x}{2})) \\\\ & =\\pi-\\frac{x}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Here,}cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1-sinx}}] \\\\ &amp; =cot^{-1}[\\frac{(\\sqrt{1-sinx}+\\sqrt{1+sinx})^{2}}{(1-sinx)-(1+sinx)}] \\\\ &amp; =cot^{-1}(\\frac{1-sinx+1+sinx+2\\sqrt{1-sin^{2}x}}{1-sinx-1-sinx}) \\\\ &amp; \\Rightarrow cot^{-1}(\\frac{2+2\\sqrt{cos^{2}x}}{-2sinx}) \\\\ &amp; \\Rightarrow cot^{1}(\\frac{1+cosx}{-sinx}) \\\\ &amp; \\Rightarrow cot^{-1}(\\frac{1+2cos^{2}\\frac{x}{2}-1}{-2sin\\frac{x}{2}cos\\frac{x}{2}}) \\\\ &amp; \\Rightarrow cot^{1}(\\frac{-cos\\frac{x}{2}}{sin\\frac{x}{2}}) \\\\ &amp; \\Rightarrow cot^{-1}(-cot\\frac{x}{2})=cot^{-1}(cot(\\pi-\\frac{x}{2})) \\\\ &amp; =\\pi-\\frac{x}{2} \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "cot^{-1}[\\frac{\\sqrt{1-sinx}+\\sqrt{1+sinx}}{\\sqrt{1-sinx}-\\sqrt{1+sinx}}]",
+        "x \\in (0,\\frac{\\pi}{4})"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.105370"
+    },
+    {
+      "id": 8803,
+      "qid": "jaoe38c1locoanhr",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/plet-f-r-rightarrow-r-be-given-fxtan-x-then-f-kcet-mathematics-complex-numbers-fdlfgu2hzbfwxfja",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$ where $a,x \\in (0,1)$ , then the value of $x$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$  where  $a,x \\in (0,1)$ , then the value of  $x$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{a}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{a}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2a}{1+a^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2a}{1+a^{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2a}{1-a^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2a}{1-a^{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Here, $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$ We know that $\\begin{aligned} & 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ & \\text{and}2tan^{-1}x=cos^{-1}(\\frac{1-x^{2}}{1+x^{2}}) \\\\ & \\because 2tan^{-1}a+2tan^{-1}a=tan^{-1}(\\frac{2x}{1-x^{2}}) \\\\ & 2[tan^{-1}(\\frac{a+a}{1-a \\times a})]=2tan^{-1}x \\\\ & \\Rightarrow \\frac{2a}{1-a^{2}}=x \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here,</p>\n<p> $sin^{-1}(\\frac{2a}{1+a^{2}})+cos^{-1}(\\frac{1-a^{2}}{1+a^{2}})=tan^{-1}(\\frac{2x}{1-x^{2}})$ </p>\n<p>We know that</p>\n<p> $\\begin{aligned} &amp; 2tan^{-1}x=sin^{-1}(\\frac{2x}{1+x^{2}}) \\\\ &amp; \\text{and}2tan^{-1}x=cos^{-1}(\\frac{1-x^{2}}{1+x^{2}}) \\\\ &amp; \\because 2tan^{-1}a+2tan^{-1}a=tan^{-1}(\\frac{2x}{1-x^{2}}) \\\\ &amp; 2[tan^{-1}(\\frac{a+a}{1-a \\times a})]=2tan^{-1}x \\\\ &amp; \\Rightarrow \\frac{2a}{1-a^{2}}=x \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:35.743876"
+    },
+    {
+      "id": 8808,
+      "qid": "jaoe38c1ls1pcwgp",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-cot--1leftfracsqrt1-sin-xsqr-kcet-mathematics-complex-numbers-63yut2uxgglnzbx3",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Domain $cos^{-1}[x]$ is, where [ ] denotes a greatest integer function",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Domain  $cos^{-1}[x]$  is, where [ ] denotes a greatest integer function</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-1,2]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-1,2]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(-1,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-1,2)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$[-1,2]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[-1,2]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$[-1,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[-1,2)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $y=cos^{-1}[x]$ We know, for $cos^{-1}x$ $\\Rightarrow -1 \\le x \\le 1$ Therefore, for $cos^{-1}[x]$ $\\Rightarrow -1 \\le [x] \\le 1 \\Rightarrow -1 \\le x<2 \\Rightarrow x \\in [-1,2)$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $y=cos^{-1}[x]$ </p>\n<p>We know, for  $cos^{-1}x$ </p>\n<p> $\\Rightarrow -1 \\le x \\le 1$ </p>\n<p>Therefore, for  $cos^{-1}[x]$ </p>\n<p> $\\Rightarrow -1 \\le [x] \\le 1 \\Rightarrow -1 \\le x&lt;2 \\Rightarrow x \\in [-1,2)$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "cos^{-1}[x]",
+        "y=cos^{-1}[x]",
+        "cos^{-1}x"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.166393"
+    },
+    {
+      "id": 8810,
+      "qid": "ltd1dyr7",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-cot--1leftfracsqrt1-sin-xsqr-kcet-mathematics-complex-numbers-63yut2uxgglnzbx3",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}]$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}]$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{\\sqrt{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-1$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\begin{aligned} & cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}] \\\\ & =cos[\\pi-cot^{-1}(\\sqrt{3})+\\frac{\\pi}{6}] \\\\ & [ \\because cot^{-1}-x=\\pi-cot^{-1}x] \\\\ & =cos[\\pi-\\frac{\\pi}{6}+\\frac{\\pi}{6}] \\\\ & =cos[\\pi]=-1 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} &amp; cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}] \\\\ &amp; =cos[\\pi-cot^{-1}(\\sqrt{3})+\\frac{\\pi}{6}] \\\\ &amp; [ \\because cot^{-1}-x=\\pi-cot^{-1}x] \\\\ &amp; =cos[\\pi-\\frac{\\pi}{6}+\\frac{\\pi}{6}] \\\\ &amp; =cos[\\pi]=-1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "cos[cot^{-1}(-\\sqrt{3})+\\frac{\\pi}{6}]"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.189393"
+    },
+    {
+      "id": 8812,
+      "qid": "ltd1auy9",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-cot--1leftfracsqrt1-sin-xsqr-kcet-mathematics-complex-numbers-63yut2uxgglnzbx3",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-}\\frac{\\sqrt{3}}{2})]$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-}\\frac{\\sqrt{3}}{2})]$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(\\frac{\\pi}{6})^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(\\frac{\\pi}{6})^{2}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{6}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\pi$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\begin{aligned} & =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-1}(\\frac{\\sqrt{3}}{2}))] \\\\ \\\\ & =tan^{-1}[\\frac{1}{\\sqrt{3}}sin(2\\pi+\\frac{\\pi}{2})]sin^{-1}[cos(\\frac{\\pi}{3})] \\\\ \\\\ & =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{\\pi}{2}] \\cdot sin^{-1}[cos\\frac{\\pi}{3}] \\\\ \\\\ & =tan^{-1}[\\frac{1}{\\sqrt{3}} \\times 1] \\cdot sin^{-1}[\\frac{1}{2}] \\\\ \\\\ & =\\frac{\\pi}{6} \\times \\frac{\\pi}{6}=(\\frac{\\pi}{6})^{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{5\\pi}{2}]sin^{-1}[cos(sin^{-1}(\\frac{\\sqrt{3}}{2}))] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin(2\\pi+\\frac{\\pi}{2})]sin^{-1}[cos(\\frac{\\pi}{3})] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}}sin\\frac{\\pi}{2}] \\cdot sin^{-1}[cos\\frac{\\pi}{3}] \\\\ \\\\ &amp; =tan^{-1}[\\frac{1}{\\sqrt{3}} \\times 1] \\cdot sin^{-1}[\\frac{1}{2}] \\\\ \\\\ &amp; =\\frac{\\pi}{6} \\times \\frac{\\pi}{6}=(\\frac{\\pi}{6})^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.227731"
+    },
+    {
+      "id": 8814,
+      "qid": "ltj8yeo9",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxsin--1leftfrac2-x1x2right-the-kcet-mathematics-complex-numbers-hkb5ailjjjizcmyc",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ , then $f^{'}(\\sqrt{3})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ , then  $f^{'}(\\sqrt{3})$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{\\sqrt{3}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{3}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{\\sqrt{3}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{1}{\\sqrt{3}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ On putting $\\begin{aligned} & x=tan\\theta \\\\ & \\theta=tan^{-1}x \\end{aligned}$ Then we get, $f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})$ $\\begin{aligned} & =sin^{-1}(sin2\\theta) \\\\ & =2\\theta=2tan^{-1}x\\text{.... (i)} \\end{aligned}$ On differentiating Eq. (i) both sides w.r.t. $x$ , we get $\\begin{aligned} f^{'}(x) & =\\frac{2}{1+x^{2}} \\\\ \\therefore f^{'}(\\sqrt{3}) & =\\frac{2}{1+(\\sqrt{3})^{2}}=\\frac{2}{1+3}=\\frac{2}{4}=\\frac{1}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})$ </p>\n<p>On putting</p>\n<p> $\\begin{aligned} &amp; x=tan\\theta \\\\ &amp; \\theta=tan^{-1}x \\end{aligned}$ </p>\n<p>Then we get,  $f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})$ </p>\n<p> $\\begin{aligned} &amp; =sin^{-1}(sin2\\theta) \\\\ &amp; =2\\theta=2tan^{-1}x\\text{.... (i)} \\end{aligned}$ </p>\n<p>On differentiating Eq. (i) both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} f^{'}(x) &amp; =\\frac{2}{1+x^{2}} \\\\ \\therefore f^{'}(\\sqrt{3}) &amp; =\\frac{2}{1+(\\sqrt{3})^{2}}=\\frac{2}{1+3}=\\frac{2}{4}=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=sin^{-1}(\\frac{2x}{1+x^{2}})",
+        "f^{'}(\\sqrt{3})",
+        "\\begin{aligned} & x=tan\\theta \\\\ & \\theta=tan^{-1}x \\end{aligned}",
+        "f(x)=sin^{-1}(\\frac{2tan\\theta}{1+tan^{2}\\theta})"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.403148"
+    },
+    {
+      "id": 8817,
+      "qid": "ltj8x6if",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxsin--1leftfrac2-x1x2right-the-kcet-mathematics-complex-numbers-hkb5ailjjjizcmyc",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The domain of the function defined by $f(x)=cos^{-1}\\sqrt{x-1}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The domain of the function defined by  $f(x)=cos^{-1}\\sqrt{x-1}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$[1,2]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[1,2]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$[0,2]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[0,2]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$[-1,1]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[-1,1]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$[0,1]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $[0,1]$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $f(x)=cos^{-1}\\sqrt{x-1}$ $f(x)$ is defined when $\\sqrt{x-1} \\in [0,1]$ $\\begin{aligned} \\therefore & 0 \\le \\sqrt{x-1} \\le 1 \\\\ & 0 \\le x-1 \\le 1 \\\\ & 1 \\le x \\le 2 \\end{aligned}$ $\\therefore$ Domain of $f(x)$ is $[1,2]$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=cos^{-1}\\sqrt{x-1}$ </p>\n<p> $f(x)$  is defined when  $\\sqrt{x-1} \\in [0,1]$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 0 \\le \\sqrt{x-1} \\le 1 \\\\ &amp; 0 \\le x-1 \\le 1 \\\\ &amp; 1 \\le x \\le 2 \\end{aligned}$ </p>\n<p> $\\therefore$  Domain of  $f(x)$  is  $[1,2]$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f(x)=cos^{-1}\\sqrt{x-1}"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.445247"
+    },
+    {
+      "id": 8819,
+      "qid": "ltj8xslv",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxsin--1leftfrac2-x1x2right-the-kcet-mathematics-complex-numbers-hkb5ailjjjizcmyc",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The value of $cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})$ is\nDoes not exist",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})$  is\nDoes not exist</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-$ 0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-$ 0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Does not exist",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Does not exist<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})$ $sin^{-1}x$ is defined $x \\in [-1,1]$ but $\\frac{\\pi}{3}∉[-1,1]$ $\\therefore cos(sin^{-1}(\\frac{\\pi}{3})+cos^{-1}(\\frac{\\pi}{3}))$ does not exists.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})$ </p>\n<p> $sin^{-1}x$  is defined  $x \\in [-1,1]$  but  $\\frac{\\pi}{3}∉[-1,1]$ </p>\n<p> $\\therefore cos(sin^{-1}(\\frac{\\pi}{3})+cos^{-1}(\\frac{\\pi}{3}))$  does not exists.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "cos(sin^{-1}\\frac{\\pi}{3}+cos^{-1}\\frac{\\pi}{3})",
+        "sin^{-1}x",
+        "\\frac{\\pi}{3}∉[-1,1]",
+        "\\therefore cos(sin^{-1}(\\frac{\\pi}{3})+cos^{-1}(\\frac{\\pi}{3}))"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.490547"
+    },
+    {
+      "id": 8825,
+      "qid": "ltw4ps8s",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcos-left2-sin--1-frac34cos--1-frac3-kcet-mathematics-complex-numbers-ijjklkhqvowzsyfq",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}]=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}]=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{-3}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-3}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "does not exist",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->does not exist<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}] \\\\ & \\Rightarrow cos[sin^{-1}\\frac{3}{4}+\\frac{\\pi}{2}]( \\because sin^{-1}x+cos^{-1}y=\\frac{\\pi}{2}) \\\\ & \\Rightarrow -sin(sin^{-1}\\frac{3}{4}) \\Rightarrow -\\frac{3}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}] \\\\ &amp; \\Rightarrow cos[sin^{-1}\\frac{3}{4}+\\frac{\\pi}{2}]( \\because sin^{-1}x+cos^{-1}y=\\frac{\\pi}{2}) \\\\ &amp; \\Rightarrow -sin(sin^{-1}\\frac{3}{4}) \\Rightarrow -\\frac{3}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "cos[2sin^{-1}\\frac{3}{4}+cos^{-1}\\frac{3}{4}]="
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.722202"
+    },
+    {
+      "id": 8826,
+      "qid": "ltw4ps9u",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcos-left2-sin--1-frac34cos--1-frac3-kcet-mathematics-complex-numbers-ijjklkhqvowzsyfq",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b$ then ' $a$ ' and ' $b$ ' are respectively.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3cot^{-1}x&lt;b$  then ' $a$ ' and ' $b$ ' are respectively.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0 and $2\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0 and  $2\\pi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0 and $\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0 and  $\\pi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{-\\pi}{2}$ and $\\frac{\\pi}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-\\pi}{2}$  and  $\\frac{\\pi}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{2}$ and $2\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{2}$  and  $2\\pi$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{We have,}a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b \\\\ & \\Rightarrow a+\\frac{\\pi}{2}<2tan^{-1}x+3(\\frac{\\pi}{2}-tan^{-1}x)<b \\\\ & \\Rightarrow a+\\frac{\\pi}{2}<\\frac{3\\pi}{2}-tan^{-1}x<b \\\\ & \\Rightarrow a+\\frac{\\pi}{2}-\\frac{3\\pi}{2}<-tan^{-1}x<b-\\frac{3\\pi}{2} \\\\ & \\Rightarrow a-\\pi<-tan^{-1}x<b-\\frac{3\\pi}{2} \\\\ & \\Rightarrow \\pi-a>tan^{-1}x>\\frac{3\\pi}{2}-b \\\\ & \\text{Since,}-\\frac{\\pi}{2}<tan^{-1}x<\\frac{\\pi}{2} \\therefore a=\\frac{\\pi}{2},b=2\\pi \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have,}a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3cot^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;2tan^{-1}x+3(\\frac{\\pi}{2}-tan^{-1}x)&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}&lt;\\frac{3\\pi}{2}-tan^{-1}x&lt;b \\\\ &amp; \\Rightarrow a+\\frac{\\pi}{2}-\\frac{3\\pi}{2}&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow a-\\pi&lt;-tan^{-1}x&lt;b-\\frac{3\\pi}{2} \\\\ &amp; \\Rightarrow \\pi-a&gt;tan^{-1}x&gt;\\frac{3\\pi}{2}-b \\\\ &amp; \\text{Since,}-\\frac{\\pi}{2}&lt;tan^{-1}x&lt;\\frac{\\pi}{2} \\therefore a=\\frac{\\pi}{2},b=2\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "a+\\frac{\\pi}{2}<2tan^{-1}x+3cot^{-1}x<b"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.749458"
+    },
+    {
+      "id": 8821,
+      "qid": "ltw4prt7",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-fxsin--1leftfrac2-x1x2right-the-kcet-mathematics-complex-numbers-hkb5ailjjjizcmyc",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4^{x}})$ then $f^{'}(0)=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4^{x}})$  then  $f^{'}(0)=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2log2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2log2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4log2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4log2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})$ $\\Rightarrow f(x)=sin^{-1}(\\frac{2^{x} \\cdot 2}{1+(2^{x})^{2}}) \\Rightarrow f(x)=2tan^{-1}(2^{x})$ On differentiating both sides, we get $\\begin{aligned} & f^{'}(x)=2 \\cdot \\frac{1}{1+(2^{x})^{2}} \\cdot 2^{x}log2( \\because \\frac{d}{dx}(a^{x})=a^{x}loga) \\\\ & \\therefore f^{'}(0)=\\frac{2}{1+(1)^{2}} \\cdot log2=log2 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})$ </p>\n<p> $\\Rightarrow f(x)=sin^{-1}(\\frac{2^{x} \\cdot 2}{1+(2^{x})^{2}}) \\Rightarrow f(x)=2tan^{-1}(2^{x})$ </p>\n<p>On differentiating both sides, we get</p>\n<p> $\\begin{aligned} &amp; f^{'}(x)=2 \\cdot \\frac{1}{1+(2^{x})^{2}} \\cdot 2^{x}log2( \\because \\frac{d}{dx}(a^{x})=a^{x}loga) \\\\ &amp; \\therefore f^{'}(0)=\\frac{2}{1+(1)^{2}} \\cdot log2=log2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4^{x}})",
+        "f^{'}(0)=",
+        "f(x)=sin^{-1}(\\frac{2^{x+1}}{1+4x})"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.540913"
+    },
+    {
+      "id": 8827,
+      "qid": "m7isfuuc",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcos-left2-sin--1-frac34cos--1-frac3-kcet-mathematics-complex-numbers-ijjklkhqvowzsyfq",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ , then $cos^{-1}x+sin^{-1}y$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ , then  $cos^{-1}x+sin^{-1}y$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3\\pi}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3\\pi}{10}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the given problem, we use the properties of inverse trigonometric functions. The problem states: $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ We know a useful identity in trigonometry: $sin^{-1}a+cos^{-1}a=\\frac{\\pi}{2}$ for any sine or cosine value $a$ . Rewriting the given equation, we can express $sin^{-1}x$ and $cos^{-1}y$ in terms of $\\frac{\\pi}{2}$ : $sin^{-1}x=\\frac{\\pi}{2}-cos^{-1}x$ $cos^{-1}y=\\frac{\\pi}{2}-sin^{-1}y$ Substitute these into the original equation: $(\\frac{\\pi}{2}-cos^{-1}x)+(\\frac{\\pi}{2}-sin^{-1}y)=\\frac{2\\pi}{5}$ Simplifying: $\\pi-(cos^{-1}x+sin^{-1}y)=\\frac{2\\pi}{5}$ Solving for $cos^{-1}x+sin^{-1}y$ : $cos^{-1}x+sin^{-1}y=\\pi-\\frac{2\\pi}{5}$ Which simplifies to: $cos^{-1}x+sin^{-1}y=\\frac{3\\pi}{5}$ Thus, the value of $cos^{-1}x+sin^{-1}y$ is $\\frac{3\\pi}{5}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the given problem, we use the properties of inverse trigonometric functions. The problem states:</p>\n<p> $sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}$ </p>\n<p>We know a useful identity in trigonometry:  $sin^{-1}a+cos^{-1}a=\\frac{\\pi}{2}$  for any sine or cosine value  $a$ .</p>\n<p>Rewriting the given equation, we can express  $sin^{-1}x$  and  $cos^{-1}y$  in terms of  $\\frac{\\pi}{2}$ :</p>\n<p> $sin^{-1}x=\\frac{\\pi}{2}-cos^{-1}x$ </p>\n<p> $cos^{-1}y=\\frac{\\pi}{2}-sin^{-1}y$ </p>\n<p>Substitute these into the original equation:</p>\n<p> $(\\frac{\\pi}{2}-cos^{-1}x)+(\\frac{\\pi}{2}-sin^{-1}y)=\\frac{2\\pi}{5}$ </p>\n<p>Simplifying:</p>\n<p> $\\pi-(cos^{-1}x+sin^{-1}y)=\\frac{2\\pi}{5}$ </p>\n<p>Solving for  $cos^{-1}x+sin^{-1}y$ :</p>\n<p> $cos^{-1}x+sin^{-1}y=\\pi-\\frac{2\\pi}{5}$ </p>\n<p>Which simplifies to:</p>\n<p> $cos^{-1}x+sin^{-1}y=\\frac{3\\pi}{5}$  </p>\n<p>Thus, the value of  $cos^{-1}x+sin^{-1}y$  is  $\\frac{3\\pi}{5}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "sin^{-1}x+cos^{-1}y=\\frac{2\\pi}{5}",
+        "cos^{-1}x+sin^{-1}y",
+        "sin^{-1}a+cos^{-1}a=\\frac{\\pi}{2}",
+        "cos^{-1}y=\\frac{\\pi}{2}-sin^{-1}y",
+        "(\\frac{\\pi}{2}-cos^{-1}x)+(\\frac{\\pi}{2}-sin^{-1}y)=\\frac{2\\pi}{5}",
+        "\\pi-(cos^{-1}x+sin^{-1}y)=\\frac{2\\pi}{5}"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.784198"
+    },
+    {
+      "id": 8828,
+      "qid": "m7isg8e0",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcos-left2-sin--1-frac34cos--1-frac3-kcet-mathematics-complex-numbers-ijjklkhqvowzsyfq",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The value of the expression $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The value of the expression  $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2-\\sqrt{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2-\\sqrt{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{5}-2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{5}-2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{5}-2}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{5}-2}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$5-\\sqrt{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5-\\sqrt{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the value of $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})$ , we can use the half-angle identity for tangent, which is: $tan(\\frac{x}{2})=\\frac{1-cosx}{sinx}$ Applying this identity, we get: $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))}{sin(cos^{-1}(\\frac{2}{\\sqrt{5}}))}$ Since $cos(cos^{-1}(z))=z$ , we have: $cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))=\\frac{2}{\\sqrt{5}}$ Now, to find the sine value, note that if $cos\\theta=\\frac{2}{\\sqrt{5}}$ , then: $sin\\theta=\\sqrt{1-(\\frac{2}{\\sqrt{5}})^{2}}=\\sqrt{1-\\frac{4}{5}}=\\sqrt{\\frac{1}{5}}=\\frac{1}{\\sqrt{5}}$ Substituting these values back into the formula for the half-angle tangent: $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-\\frac{2}{\\sqrt{5}}}{\\frac{1}{\\sqrt{5}}}$ Simplifying the expression: $=\\frac{\\sqrt{5}-2}{1}=\\sqrt{5}-2$ Thus, the value is $\\sqrt{5}-2$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the value of  $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})$ , we can use the half-angle identity for tangent, which is:</p>\n<p> $tan(\\frac{x}{2})=\\frac{1-cosx}{sinx}$ </p>\n<p>Applying this identity, we get:</p>\n<p> $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))}{sin(cos^{-1}(\\frac{2}{\\sqrt{5}}))}$ </p>\n<p>Since  $cos(cos^{-1}(z))=z$ , we have:</p>\n<p> $cos(cos^{-1}(\\frac{2}{\\sqrt{5}}))=\\frac{2}{\\sqrt{5}}$ </p>\n<p>Now, to find the sine value, note that if  $cos\\theta=\\frac{2}{\\sqrt{5}}$ , then:</p>\n<p> $sin\\theta=\\sqrt{1-(\\frac{2}{\\sqrt{5}})^{2}}=\\sqrt{1-\\frac{4}{5}}=\\sqrt{\\frac{1}{5}}=\\frac{1}{\\sqrt{5}}$ </p>\n<p>Substituting these values back into the formula for the half-angle tangent:</p>\n<p> $tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})=\\frac{1-\\frac{2}{\\sqrt{5}}}{\\frac{1}{\\sqrt{5}}}$ </p>\n<p>Simplifying the expression:</p>\n<p> $=\\frac{\\sqrt{5}-2}{1}=\\sqrt{5}-2$ </p>\n<p>Thus, the value is  $\\sqrt{5}-2$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "tan(\\frac{1}{2}cos^{-1}\\frac{2}{\\sqrt{5}})",
+        "tan(\\frac{x}{2})=\\frac{1-cosx}{sinx}"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.813160"
+    },
+    {
+      "id": 8829,
+      "qid": "m9durlba",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-range-of-sec--1-x-is-kcet-mathematics-complex-numbers-2zp4egdcsefwbsub",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The range of $sec^{-1}x$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The range of  $sec^{-1}x$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$[0,\\pi]-{\\frac{\\pi}{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $[0,\\pi]-{\\frac{\\pi}{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$[\\frac{-\\pi}{2},\\frac{\\pi}{2}]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $[\\frac{-\\pi}{2},\\frac{\\pi}{2}]$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(\\frac{-\\pi}{2},\\frac{\\pi}{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(\\frac{-\\pi}{2},\\frac{\\pi}{2})$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$[0,\\pi]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $[0,\\pi]$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{The range of}sec^{-1}x\\text{.} \\\\ & =[0,\\pi]-{\\frac{\\pi}{2}} \\end{aligned}$ $y=sec^{-1}x$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{The range of}sec^{-1}x\\text{.} \\\\ &amp; =[0,\\pi]-{\\frac{\\pi}{2}} \\end{aligned}$ </p>\n<img alt=\"KCET 2017 Mathematics - Inverse Trigonometric Functions Question 5 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n $y=sec^{-1}x$ <!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9colegp/752ad407-a9d7-4042-8a4c-b9bf98e04ceb/f0111da0-16c4-11f0-a394-81e51cf97063/file-jaoe38c1m9colegq.png?format=png"
+      ],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "sec^{-1}x",
+        "y=sec^{-1}x"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.955195"
+    },
+    {
+      "id": 8830,
+      "qid": "m9duqtoh",
+      "chapter_slug": "kcet-inverse-trigonometric-functions",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-range-of-sec--1-x-is-kcet-mathematics-complex-numbers-2zp4egdcsefwbsub",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}$ , then $cot^{-1}x+cot^{-1}y$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}$ , then  $cot^{-1}x+cot^{-1}y$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3\\pi}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3\\pi}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\pi$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the given problem, we'll use the following relationships: $tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}$ We know that $tan^{-1}z+cot^{-1}z=\\frac{\\pi}{2}$ . By expressing $tan^{-1}x$ and $tan^{-1}y$ in terms of their cotangent inverses, we have: $tan^{-1}x=\\frac{\\pi}{2}-cot^{-1}x$ $tan^{-1}y=\\frac{\\pi}{2}-cot^{-1}y$ Substituting these into the original equation: $(\\frac{\\pi}{2}-cot^{-1}x)+(\\frac{\\pi}{2}-cot^{-1}y)=\\frac{4\\pi}{5}$ Simplifying the left-hand side: $\\pi-(cot^{-1}x+cot^{-1}y)=\\frac{4\\pi}{5}$ To find $cot^{-1}x+cot^{-1}y$ , solve as follows: $cot^{-1}x+cot^{-1}y=\\pi-\\frac{4\\pi}{5}$ This simplifies to: $cot^{-1}x+cot^{-1}y=\\frac{\\pi}{5}$ Therefore, the value of $cot^{-1}x+cot^{-1}y$ is $\\frac{\\pi}{5}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the given problem, we'll use the following relationships:</p>\n<p><p> $tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}$ </p></p>\n<p><p>We know that  $tan^{-1}z+cot^{-1}z=\\frac{\\pi}{2}$ .</p></p>\n<p>By expressing  $tan^{-1}x$  and  $tan^{-1}y$  in terms of their cotangent inverses, we have:</p>\n<p> $tan^{-1}x=\\frac{\\pi}{2}-cot^{-1}x$ </p>\n<p> $tan^{-1}y=\\frac{\\pi}{2}-cot^{-1}y$ </p>\n<p>Substituting these into the original equation:</p>\n<p> $(\\frac{\\pi}{2}-cot^{-1}x)+(\\frac{\\pi}{2}-cot^{-1}y)=\\frac{4\\pi}{5}$ </p>\n<p>Simplifying the left-hand side:</p>\n<p> $\\pi-(cot^{-1}x+cot^{-1}y)=\\frac{4\\pi}{5}$ </p>\n<p>To find  $cot^{-1}x+cot^{-1}y$ , solve as follows:</p>\n<p> $cot^{-1}x+cot^{-1}y=\\pi-\\frac{4\\pi}{5}$ </p>\n<p>This simplifies to:</p>\n<p> $cot^{-1}x+cot^{-1}y=\\frac{\\pi}{5}$ </p>\n<p>Therefore, the value of  $cot^{-1}x+cot^{-1}y$  is  $\\frac{\\pi}{5}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Inverse Trigonometric Functions - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "tan^{-1}x+tan^{-1}y=\\frac{4\\pi}{5}",
+        "cot^{-1}x+cot^{-1}y",
+        "tan^{-1}z+cot^{-1}z=\\frac{\\pi}{2}",
+        "tan^{-1}x",
+        "tan^{-1}y",
+        "tan^{-1}x=\\frac{\\pi}{2}-cot^{-1}x"
+      ],
+      "key_concepts": [
+        "Kcet Inverse Trigonometric Functions - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:36.969668"
+    }
+  ]
+}

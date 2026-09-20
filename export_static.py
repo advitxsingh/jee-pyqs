@@ -45,6 +45,7 @@ def export_static_site(output_dir: str = "dist"):
     for ch in chapters:
         d = ch.model_dump()
         d["stored_questions"] = get_question_count_by_chapter(ch.slug)
+        d["exam"] = "kcet" if ch.slug.startswith("kcet-") else "jee-main"
         chapters_data.append(d)
 
     with open(api_dir / "chapters.json", "w", encoding="utf-8") as f:

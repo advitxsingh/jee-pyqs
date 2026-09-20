@@ -1,0 +1,2339 @@
+{
+  "chapter_slug": "kcet-probability",
+  "total": 44,
+  "questions": [
+    {
+      "id": 9127,
+      "qid": "jt-mr7eh8zc",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/recent-studies-suggest-that-12-of-the-world-population-i-kcet-mathematics-hrazlpqv2ibdkzww",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Recent studies suggest that $12%$ of the world population is left handed. Depending on parents' hand usage, the chances of having left handed children are as follows: A: Both parents are left handed, chances of having left handed children $=24%$ B: Both parents are right handed, chances of having left handed children $=9%$ C: Father left handed and mother right handed, chances of having left handed children $=17%$ D: Father right handed and mother left handed, chances of having left handed children $=22%$ Given $P(A)=P(B)=P(C)=P(D)=1/4$ and L denotes child is left handed. What is the probability that $P(A|L)$ ?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Recent studies suggest that  $12%$  of the world population is left handed. Depending on parents' hand usage, the chances of having left handed children are as follows:<br/>A: Both parents are left handed, chances of having left handed children  $=24%$ <br/>B: Both parents are right handed, chances of having left handed children  $=9%$ <br/>C: Father left handed and mother right handed, chances of having left handed children  $=17%$ <br/>D: Father right handed and mother left handed, chances of having left handed children  $=22%$ <br/>Given  $P(A)=P(B)=P(C)=P(D)=1/4$  and L denotes child is left handed. What is the probability that  $P(A|L)$ ?<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{17}{100}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{17}{100}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{19}{25}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{19}{25}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We need to find $P(A|L)$ , which means: Probability that both parents are left handed, given that the child is left handed. Using Bayes’ theorem, $P(A|L)=\\frac{P(A)P(L|A)}{P(L)}$ Here, $P(A)=P(B)=P(C)=P(D)=\\frac{1}{4}$ Also, $P(L|A)=24%=\\frac{24}{100}$ Now find $P(L)$ using the total probability formula: $P(L)=P(A)P(L|A)+P(B)P(L|B)+P(C)P(L|C)+P(D)P(L|D)$ Substitute the values: $P(L)=\\frac{1}{4} \\times \\frac{24}{100}+\\frac{1}{4} \\times \\frac{9}{100}+\\frac{1}{4} \\times \\frac{17}{100}+\\frac{1}{4} \\times \\frac{22}{100}$ Since $\\frac{1}{4}$ is common, $P(L)=\\frac{1}{4}(\\frac{24+9+17+22}{100})$ $P(L)=\\frac{1}{4} \\times \\frac{72}{100}$ Now, $P(A|L)=\\frac{\\frac{1}{4} \\times \\frac{24}{100}}{\\frac{1}{4} \\times \\frac{72}{100}}$ Cancel the common factor $\\frac{1}{4} \\times \\frac{1}{100}$ : $P(A|L)=\\frac{24}{72}$ $P(A|L)=\\frac{1}{3}$ So the correct option is: $\\frac{1}{3}$ Option C.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to find  $P(A|L)$ , which means:</p>\n<p>Probability that both parents are left handed, given that the child is left handed.</p>\n<p>Using Bayes’ theorem,</p>\n<p> $P(A|L)=\\frac{P(A)P(L|A)}{P(L)}$ </p>\n<p>Here,</p>\n<p> $P(A)=P(B)=P(C)=P(D)=\\frac{1}{4}$ </p>\n<p>Also,</p>\n<p> $P(L|A)=24%=\\frac{24}{100}$ </p>\n<p>Now find  $P(L)$  using the total probability formula:</p>\n<p> $P(L)=P(A)P(L|A)+P(B)P(L|B)+P(C)P(L|C)+P(D)P(L|D)$ </p>\n<p>Substitute the values:</p>\n<p> $P(L)=\\frac{1}{4} \\times \\frac{24}{100}+\\frac{1}{4} \\times \\frac{9}{100}+\\frac{1}{4} \\times \\frac{17}{100}+\\frac{1}{4} \\times \\frac{22}{100}$ </p>\n<p>Since  $\\frac{1}{4}$  is common,</p>\n<p> $P(L)=\\frac{1}{4}(\\frac{24+9+17+22}{100})$ </p>\n<p> $P(L)=\\frac{1}{4} \\times \\frac{72}{100}$ </p>\n<p>Now,</p>\n<p> $P(A|L)=\\frac{\\frac{1}{4} \\times \\frac{24}{100}}{\\frac{1}{4} \\times \\frac{72}{100}}$ </p>\n<p>Cancel the common factor  $\\frac{1}{4} \\times \\frac{1}{100}$ :</p>\n<p> $P(A|L)=\\frac{24}{72}$ </p>\n<p> $P(A|L)=\\frac{1}{3}$ </p>\n<p>So the correct option is:</p>\n<p> $\\frac{1}{3}$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=24%",
+        "=9%",
+        "=17%",
+        "=22%",
+        "P(A)=P(B)=P(C)=P(D)=1/4",
+        "P(A|L)=\\frac{P(A)P(L|A)}{P(L)}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:55.789869"
+    },
+    {
+      "id": 9143,
+      "qid": "jt-mr7eh8zg",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/probability-of-at-least-one-of-the-events-a-and-b-occur-is--kcet-mathematics-romqzcdllf43nxcg",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Probability of at least one of the events A and B occur is $0.6$ . If A and B occur simultaneously with probability $0.2$ , then $P(\\bar{A})+P(\\bar{B})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Probability of at least one of the events A and B occur is  $0.6$ . If A and B occur simultaneously with probability  $0.2$ , then  $P(\\bar{A})+P(\\bar{B})$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$0.8$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.8$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0.6$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0.6$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1.2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given: $P(A∪B)=0.6$ and $P(A∩B)=0.2$ We use the formula: $P(A∪B)=P(A)+P(B)-P(A∩B)$ So, $0.6=P(A)+P(B)-0.2$ $P(A)+P(B)=0.8$ Now, $P(\\bar{A})=1-P(A),P(\\bar{B})=1-P(B)$ So, $P(\\bar{A})+P(\\bar{B})=(1-P(A))+(1-P(B))$ $=2-(P(A)+P(B))$ $=2-0.8=1.2$ So the correct answer is: $1.2$ Option D",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given:</p>\n<p> $P(A∪B)=0.6$ </p>\n<p>and</p>\n<p> $P(A∩B)=0.2$ </p>\n<p>We use the formula:</p>\n<p> $P(A∪B)=P(A)+P(B)-P(A∩B)$ </p>\n<p>So,</p>\n<p> $0.6=P(A)+P(B)-0.2$ </p>\n<p> $P(A)+P(B)=0.8$ </p>\n<p>Now,</p>\n<p> $P(\\bar{A})=1-P(A),P(\\bar{B})=1-P(B)$ </p>\n<p>So,</p>\n<p> $P(\\bar{A})+P(\\bar{B})=(1-P(A))+(1-P(B))$ </p>\n<p> $=2-(P(A)+P(B))$ </p>\n<p> $=2-0.8=1.2$ </p>\n<p>So the correct answer is:</p>\n<p> $1.2$ </p>\n<p>Option D</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(A∪B)=0.6",
+        "P(A∩B)=0.2",
+        "P(A∪B)=P(A)+P(B)-P(A∩B)",
+        "0.6=P(A)+P(B)-0.2",
+        "P(A)+P(B)=0.8",
+        "P(\\bar{A})=1-P(A),P(\\bar{B})=1-P(B)"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.278756"
+    },
+    {
+      "id": 9130,
+      "qid": "jt-mr7eh8zd",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/recent-studies-suggest-that-12-of-the-world-population-i-kcet-mathematics-hrazlpqv2ibdkzww",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The probability that a man and his wife live after $20$ years are $\\frac{1}{4}$ and $\\frac{1}{3}$ respectively. The probability that neither the man nor his wife live after $20$ years is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The probability that a man and his wife live after  $20$  years are  $\\frac{1}{4}$  and  $\\frac{1}{3}$  respectively. The probability that neither the man nor his wife live after  $20$  years is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{4}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{12}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "Let the probability that the man lives after $20$ years be $P(M)=\\frac{1}{4}$ and the probability that his wife lives after $20$ years be $P(W)=\\frac{1}{3}$ So, the probability that the man does not live after $20$ years is $1-\\frac{1}{4}=\\frac{3}{4}$ and the probability that the wife does not live after $20$ years is $1-\\frac{1}{3}=\\frac{2}{3}$ Assuming their survival is independent, the probability that neither lives after $20$ years is $\\frac{3}{4} \\times \\frac{2}{3}=\\frac{1}{2}$ So the correct answer is $\\frac{1}{2}$ Option D",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the probability that the man lives after  $20$  years be</p>\n<p> $P(M)=\\frac{1}{4}$ </p>\n<p>and the probability that his wife lives after  $20$  years be</p>\n<p> $P(W)=\\frac{1}{3}$ </p>\n<p>So, the probability that the man does not live after  $20$  years is</p>\n<p> $1-\\frac{1}{4}=\\frac{3}{4}$ </p>\n<p>and the probability that the wife does not live after  $20$  years is</p>\n<p> $1-\\frac{1}{3}=\\frac{2}{3}$ </p>\n<p>Assuming their survival is independent, the probability that neither lives after  $20$  years is</p>\n<p> $\\frac{3}{4} \\times \\frac{2}{3}=\\frac{1}{2}$ </p>\n<p>So the correct answer is</p>\n<p> $\\frac{1}{2}$ </p>\n<p>Option D</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:55.829638"
+    },
+    {
+      "id": 9133,
+      "qid": "jt-mr7eh8ze",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/recent-studies-suggest-that-12-of-the-world-population-i-kcet-mathematics-hrazlpqv2ibdkzww",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Probability of obtaining an even prime number on each die when a pair of dice is rolled is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Probability of obtaining an even prime number on each die when a pair of dice is rolled is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{36}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{36}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "An even prime number is only $2$ . When one die is rolled, the probability of getting $2$ is $\\frac{1}{6}$ Since a pair of dice is rolled, and we want an even prime number on each die, both dice must show $2$ . So the probability is $\\frac{1}{6} \\times \\frac{1}{6}=\\frac{1}{36}$ So the correct option is $\\text{Option D}\\frac{1}{36}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An even prime number is only  $2$ .</p>\n<p>When one die is rolled, the probability of getting  $2$  is</p>\n<p> $\\frac{1}{6}$ </p>\n<p>Since a pair of dice is rolled, and we want an even prime number on each die, both dice must show  $2$ .</p>\n<p>So the probability is</p>\n<p> $\\frac{1}{6} \\times \\frac{1}{6}=\\frac{1}{36}$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\frac{1}{36}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:55.904867"
+    },
+    {
+      "id": 9136,
+      "qid": "jt-mr7eh8zf",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/recent-studies-suggest-that-12-of-the-world-population-i-kcet-mathematics-hrazlpqv2ibdkzww",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Probability of occurrence of an event A is $\\frac{1}{2}$ and that of B is $\\frac{3}{10}$ . If A and B are mutually exclusive, then the probability of occurrence of neither A nor B is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Probability of occurrence of an event A is  $\\frac{1}{2}$  and that of B is  $\\frac{3}{10}$ . If A and B are mutually exclusive, then the probability of occurrence of neither A nor B is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{5}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{5}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{5}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Since $A$ and $B$ are mutually exclusive, they cannot happen together. So, $P(A∪B)=P(A)+P(B)$ Substitute the given values: $P(A∪B)=\\frac{1}{2}+\\frac{3}{10}$ Take LCM $=10$ : $P(A∪B)=\\frac{5}{10}+\\frac{3}{10}=\\frac{8}{10}=\\frac{4}{5}$ Now, probability of occurrence of neither $A$ nor $B$ is: $1-P(A∪B)=1-\\frac{4}{5}=\\frac{1}{5}$ So the correct answer is: $\\frac{1}{5}$ Option D",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $A$  and  $B$  are mutually exclusive, they cannot happen together.</p>\n<p>So,</p>\n<p> $P(A∪B)=P(A)+P(B)$ </p>\n<p>Substitute the given values:</p>\n<p> $P(A∪B)=\\frac{1}{2}+\\frac{3}{10}$ </p>\n<p>Take LCM  $=10$ :</p>\n<p> $P(A∪B)=\\frac{5}{10}+\\frac{3}{10}=\\frac{8}{10}=\\frac{4}{5}$ </p>\n<p>Now, probability of occurrence of neither  $A$  nor  $B$  is:</p>\n<p> $1-P(A∪B)=1-\\frac{4}{5}=\\frac{1}{5}$ </p>\n<p>So the correct answer is:</p>\n<p> $\\frac{1}{5}$ </p>\n<p>Option D</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{1}{2}",
+        "\\frac{3}{10}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:55.958374"
+    },
+    {
+      "id": 9154,
+      "qid": "mcf6ztlv",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-non-mutually-exclusive-events-such-tha-kcet-mathematics-complex-numbers-ioz7rltcd2xgou0z",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If A and B are two non-mutually exclusive events such that $P(A|B)=P(B|A)$ , then",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If A and B are two non-mutually exclusive events such that  $P(A|B)=P(B|A)$ , then</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$A⊂B$ but $A \\ne B$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A⊂B$  but  $A \\ne B$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$A=B$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A=B$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$A∩B=\\phi$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A∩B=\\phi$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$P(A)=P(B)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A)=P(B)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & A\\text{and}B\\text{are non mutually exclusive} \\\\ & \\begin{aligned} & P(A|B)=P(B|A) \\\\ & \\Rightarrow \\frac{P(A∩B)}{P(B)}=\\frac{P(A∩B)}{P(A)} \\\\ & \\Rightarrow P(B)=P(A)[ \\because P(A∩B) \\ne 0] \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A\\text{and}B\\text{are non mutually exclusive} \\\\ &amp; \\begin{aligned} &amp; P(A|B)=P(B|A) \\\\ &amp; \\Rightarrow \\frac{P(A∩B)}{P(B)}=\\frac{P(A∩B)}{P(A)} \\\\ &amp; \\Rightarrow P(B)=P(A)[ \\because P(A∩B) \\ne 0] \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "P(A|B)=P(B|A)"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.547633"
+    },
+    {
+      "id": 9146,
+      "qid": "mcf6zsk1",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/probability-of-at-least-one-of-the-events-a-and-b-occur-is--kcet-mathematics-romqzcdllf43nxcg",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "A random experiment has five outcomes $w_{1},w_{2},w_{3},w_{4}$ and $w_{5}$ . The probabilities of the occurrence of the outcomes $w_{1},w_{2},w_{3},w_{4}$ and $w_{5}$ are respectively $\\frac{1}{6},a,b$ and $\\frac{1}{12}$ such that $12a+12b-1=0$ . Then the probabilities of occurrence of the outcome $w_{3}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A random experiment has five outcomes  $w_{1},w_{2},w_{3},w_{4}$  and  $w_{5}$ . The probabilities of the occurrence of the outcomes  $w_{1},w_{2},w_{3},w_{4}$  and  $w_{5}$  are respectively  $\\frac{1}{6},a,b$  and  $\\frac{1}{12}$  such that  $12a+12b-1=0$ . Then the probabilities of occurrence of the outcome  $w_{3}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} p(w_{1})=\\frac{1}{6} & \\\\ p(w_{2})=a & \\Rightarrow \\frac{1}{6}+a+b+x+\\frac{1}{12}=1 \\\\ p(w_{3})=b & \\Rightarrow 12(a+b+x)=9 \\\\ p(w_{4})=c & \\Rightarrow a+b+x=\\frac{3}{4} \\\\ p(w_{5})=\\frac{1}{12} & \\Rightarrow \\frac{1}{12}+x=\\frac{3}{4} \\Rightarrow x=\\frac{2}{3} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} p(w_{1})=\\frac{1}{6} &amp; \\\\ p(w_{2})=a &amp; \\Rightarrow \\frac{1}{6}+a+b+x+\\frac{1}{12}=1 \\\\ p(w_{3})=b &amp; \\Rightarrow 12(a+b+x)=9 \\\\ p(w_{4})=c &amp; \\Rightarrow a+b+x=\\frac{3}{4} \\\\ p(w_{5})=\\frac{1}{12} &amp; \\Rightarrow \\frac{1}{12}+x=\\frac{3}{4} \\Rightarrow x=\\frac{2}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "w_{1},w_{2},w_{3},w_{4}",
+        "w_{5}",
+        "\\frac{1}{6},a,b",
+        "\\frac{1}{12}",
+        "12a+12b-1=0",
+        "w_{3}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.319702"
+    },
+    {
+      "id": 9157,
+      "qid": "mcf6ztmt",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-non-mutually-exclusive-events-such-tha-kcet-mathematics-complex-numbers-ioz7rltcd2xgou0z",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are two events such that $A⊂B$ and $P(B) \\ne 0$ , then which of the following is correct?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $A$  and  $B$  are two events such that  $A⊂B$  and  $P(B) \\ne 0$ , then which of the following is correct?\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$P(A|B)=\\frac{P(B)}{P(A)}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A|B)=\\frac{P(B)}{P(A)}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$P(A|B)<P(A)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A|B)&lt;P(A)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$P(A|B) \\ge P(A)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A|B) \\ge P(A)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$P(A)=P(B)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A)=P(B)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & A⊂B \\Rightarrow A∩B=A \\\\ & P(A|B)=\\frac{P(A∩B)}{P(B)} \\\\ & =\\frac{P(A)}{P(B)} \\\\ & \\Rightarrow P(A|B)P(B)=P(A) \\Rightarrow P(A) \\ge P(A|B) \\\\ & [ \\because P(B) \\ne 0] \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; A⊂B \\Rightarrow A∩B=A \\\\ &amp; P(A|B)=\\frac{P(A∩B)}{P(B)} \\\\ &amp; =\\frac{P(A)}{P(B)} \\\\ &amp; \\Rightarrow P(A|B)P(B)=P(A) \\Rightarrow P(A) \\ge P(A|B) \\\\ &amp; [ \\because P(B) \\ne 0] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.591473"
+    },
+    {
+      "id": 9148,
+      "qid": "mcf6zsl3",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/probability-of-at-least-one-of-the-events-a-and-b-occur-is--kcet-mathematics-romqzcdllf43nxcg",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "A die has two face each with number ' 1 ', three faces each with number ' 2 ' and one face with number ' 3 '. If the die is rolled once, then $P(1$ or 3 $)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A die has two face each with number ' 1 ', three faces each with number ' 2 ' and one face with number ' 3 '. If the die is rolled once, then  $P(1$  or 3 $)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To determine the probability of rolling a 1 or a 3 on this die, let's first outline the probability of each individual outcome: Probability of rolling a 1, $P(1)$ : Since there are 2 faces showing the number 1, the probability is $\\frac{2}{6}$ . Probability of rolling a 3, $P(3)$ : There is 1 face showing the number 3, so the probability is $\\frac{1}{6}$ . To find the probability of rolling a 1 or a 3, we use the rule for the union of two mutually exclusive events: $P(1∪3)=P(1)+P(3)$ Substituting the known probabilities: $P(1∪3)=\\frac{2}{6}+\\frac{1}{6}$ $P(1∪3)=\\frac{3}{6}$ Thus, the probability of rolling a 1 or a 3 is $\\frac{1}{2}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the probability of rolling a 1 or a 3 on this die, let's first outline the probability of each individual outcome:</p>\n<p><p>Probability of rolling a 1,  $P(1)$ : Since there are 2 faces showing the number 1, the probability is  $\\frac{2}{6}$ .</p></p>\n<p><p>Probability of rolling a 3,  $P(3)$ : There is 1 face showing the number 3, so the probability is  $\\frac{1}{6}$ .</p></p>\n<p>To find the probability of rolling a 1 or a 3, we use the rule for the union of two mutually exclusive events:</p>\n<p> $P(1∪3)=P(1)+P(3)$ </p>\n<p>Substituting the known probabilities:</p>\n<p> $P(1∪3)=\\frac{2}{6}+\\frac{1}{6}$ </p>\n<p> $P(1∪3)=\\frac{3}{6}$ </p>\n<p>Thus, the probability of rolling a 1 or a 3 is   $\\frac{1}{2}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{2}{6}",
+        "\\frac{1}{6}",
+        "P(1∪3)=P(1)+P(3)",
+        "P(1∪3)=\\frac{2}{6}+\\frac{1}{6}",
+        "P(1∪3)=\\frac{3}{6}",
+        "\\frac{1}{2}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.352931"
+    },
+    {
+      "id": 9160,
+      "qid": "mcf6zto0",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-non-mutually-exclusive-events-such-tha-kcet-mathematics-complex-numbers-ioz7rltcd2xgou0z",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Meera visits only one of the two temples A and B in her locality. Probability that she visits temple A is $\\frac{2}{5}$ . If she visits temple $A,\\frac{1}{3}$ is the probability that she meets her friend, whereas it is $\\frac{2}{7}$ if she visits temple $B$ . Meera met her friend at one of the two temples. The probability that she met her at temple B is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Meera visits only one of the two temples A and B in her locality. Probability that she visits temple A is  $\\frac{2}{5}$ . If she visits temple  $A,\\frac{1}{3}$  is the probability that she meets her friend, whereas it is  $\\frac{2}{7}$  if she visits temple  $B$ . Meera met her friend at one of the two temples. The probability that she met her at temple B is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{7}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{5}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{3}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{9}{16}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\begin{aligned} & P(A)=\\frac{2}{5}F:\\text{The events of meera meets her friend.} \\\\ & P(F/A)=\\frac{1}{3} \\\\ & P(F/B)=\\frac{2}{7} \\\\ & P(B)=1-P(A) \\\\ & =1-\\frac{2}{5} \\\\ & =\\frac{3}{5} \\end{aligned} \\\\ & \\text{The probability she meet her at temple}B \\end{aligned}$ $\\begin{aligned} & P(B/F)=\\frac{P(F∩B)}{P(F)} \\\\ & =\\frac{P(B) \\times P(B/F)}{P(A)P(F/A)+P(B)P(B/F)} \\\\ & =\\frac{3/5 \\times 2/7}{(2/5 \\times 1/3)+(3/5 \\times 5/7)}=\\frac{9}{16} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} &amp; P(A)=\\frac{2}{5}F:\\text{The events of meera meets her friend.} \\\\ &amp; P(F/A)=\\frac{1}{3} \\\\ &amp; P(F/B)=\\frac{2}{7} \\\\ &amp; P(B)=1-P(A) \\\\ &amp; =1-\\frac{2}{5} \\\\ &amp; =\\frac{3}{5} \\end{aligned} \\\\ &amp; \\text{The probability she meet her at temple}B \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; P(B/F)=\\frac{P(F∩B)}{P(F)} \\\\ &amp; =\\frac{P(B) \\times P(B/F)}{P(A)P(F/A)+P(B)P(B/F)} \\\\ &amp; =\\frac{3/5 \\times 2/7}{(2/5 \\times 1/3)+(3/5 \\times 5/7)}=\\frac{9}{16} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{2}{5}",
+        "A,\\frac{1}{3}",
+        "\\frac{2}{7}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.647407"
+    },
+    {
+      "id": 9151,
+      "qid": "mcf6ztk7",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/probability-of-at-least-one-of-the-events-a-and-b-occur-is--kcet-mathematics-romqzcdllf43nxcg",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Consider the following statements. Statement (I): If E and F are two independent events, then $E^{'}$ and $F^{'}$ are also independent. Statement (II): Two mutually exclusive events with non-zero probabilities of occurrence cannot be independent. Which of the following is correct?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider the following statements.</p>\n<p>Statement (I): If E and F are two independent events, then  $E^{'}$  and  $F^{'}$  are also independent.</p>\n<p>Statement (II): Two mutually exclusive events with non-zero probabilities of occurrence cannot be independent.</p>\n<p>Which of the following is correct?</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Statement (I) is true and statement (II) is false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Statement (I) is true and statement (II) is false\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Statement (I) is false and statement (II) is true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Statement (I) is false and statement (II) is true\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Both the statements are true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Both the statements are true\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Both the statements are false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Both the statements are false<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To enhance understanding of the statements, let's examine each one in detail: Statement (I): If events E and F are independent, the complements of these events, $E^{'}$ and $F^{'}$ , are also independent. This statement is true. When two events, E and F, are independent, the occurrence of one does not affect the likelihood of the other occurring, mathematically expressed as $P(E∩F)=P(E) \\times P(F)$ . Similarly, the complements of these events, $E^{'}$ and $F^{'}$ , retain this independence property. Statement (II): Two mutually exclusive events cannot be independent if they have non-zero probabilities. This statement holds true. Mutually exclusive events are defined by $A∩B=∅$ , which implies $P(A∩B)=0$ . For these events to be independent, it would require $P(A∩B)=P(A) \\times P(B)$ . However, if $P(A) \\ne 0$ and $P(B) \\ne 0$ , then $P(A∩B) \\ne 0$ , contradicting the independence condition. Thus, two non-zero mutually exclusive events cannot be independent. Conclusively, Statement I is true and Statement II is also true.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To enhance understanding of the statements, let's examine each one in detail:</p>\n<p><strong>Statement (I):</strong> If events E and F are independent, the complements of these events,  $E^{'}$  and  $F^{'}$ , are also independent. This statement is true. </p>\n<p>When two events, E and F, are independent, the occurrence of one does not affect the likelihood of the other occurring, mathematically expressed as  $P(E∩F)=P(E) \\times P(F)$ . Similarly, the complements of these events,  $E^{'}$  and  $F^{'}$ , retain this independence property.</p>\n<p><strong>Statement (II):</strong> Two mutually exclusive events cannot be independent if they have non-zero probabilities. This statement holds true.</p>\n<p>Mutually exclusive events are defined by  $A∩B=∅$ , which implies  $P(A∩B)=0$ . For these events to be independent, it would require  $P(A∩B)=P(A) \\times P(B)$ . However, if  $P(A) \\ne 0$  and  $P(B) \\ne 0$ , then  $P(A∩B) \\ne 0$ , contradicting the independence condition. Thus, two non-zero mutually exclusive events cannot be independent.</p>\n<p>Conclusively, <strong>Statement I is true and Statement II is also true.</strong></p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "E^{'}",
+        "F^{'}",
+        "P(E∩F)=P(E) \\times P(F)",
+        "A∩B=∅",
+        "P(A∩B)=0",
+        "P(A∩B)=P(A) \\times P(B)"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.385799"
+    },
+    {
+      "id": 9166,
+      "qid": "m5yu6wh4",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-distr-kcet-mathematics-complex-numbers-pjzvudrjfjgrwozq",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A random variable $X$ has the following probability distribution: $X$ 0 1 2 $P(X)$ 25/36 $k$ 1/36 If the mean of the random variable $X$ is $1/3$ , then the variance is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A random variable  $X$  has the following probability distribution:</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 343px\"><colgroup>\n<col style=\"width: 91px\"/>\n<col style=\"width: 86px\"/>\n<col style=\"width: 80px\"/>\n<col style=\"width: 86px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $X$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">1</th>\n<th class=\"tg-c3ow\">2</th>\n</tr></thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $P(X)$ </td>\n<td class=\"tg-baqh\">25/36</td>\n<td class=\"tg-baqh\"> $k$ </td>\n<td class=\"tg-c3ow\">1/36</td>\n</tr>\n</tbody>\n</table></p>\n<p>If the mean of the random variable  $X$  is  $1/3$ , then the variance is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{18}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{5}{18}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{7}{18}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{11}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{11}{18}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$X$ 0 1 2 $P(X)$ $\\frac{25}{36}$ $k$ $\\frac{1}{36}$ $\\begin{aligned} & \\because \\text{Mean}=\\sum_{i=1}^{n}x_{i}P(x_{i}) \\\\ & \\Rightarrow \\frac{1}{3}=0 \\times \\frac{25}{36}+1 \\times k+2 \\times \\frac{1}{36} \\\\ & \\Rightarrow \\frac{1}{3}=k+\\frac{1}{18} \\\\ & \\therefore k=\\frac{1}{3}-\\frac{1}{18}=\\frac{6-1}{18}=\\frac{5}{18} \\end{aligned}$ $\\begin{aligned} & \\begin{aligned} \\text{Now, variance}=\\sum_{i=0}^{n}x_{i}^{2}P_{i}(x)-(\\text{mean})^{2} \\\\ =(0)^{2} \\times \\frac{25}{36}+(1)^{2} \\times k+(2)^{2} \\times \\frac{1}{36}-\\frac{1}{9} \\\\ =0+k+\\frac{1}{9}-\\frac{1}{9}=k=\\frac{5}{18} \\end{aligned} \\\\ & \\text{Hence, variance}=\\frac{5}{18} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 343px\"><colgroup>\n<col style=\"width: 91px\"/>\n<col style=\"width: 86px\"/>\n<col style=\"width: 80px\"/>\n<col style=\"width: 86px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $X$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">1</th>\n<th class=\"tg-c3ow\">2</th>\n</tr></thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $P(X)$ </td>\n<td class=\"tg-baqh\"> $\\frac{25}{36}$ </td>\n<td class=\"tg-baqh\"> $k$ </td>\n<td class=\"tg-c3ow\"> $\\frac{1}{36}$ </td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} &amp; \\because \\text{Mean}=\\sum_{i=1}^{n}x_{i}P(x_{i}) \\\\ &amp; \\Rightarrow \\frac{1}{3}=0 \\times \\frac{25}{36}+1 \\times k+2 \\times \\frac{1}{36} \\\\ &amp; \\Rightarrow \\frac{1}{3}=k+\\frac{1}{18} \\\\ &amp; \\therefore k=\\frac{1}{3}-\\frac{1}{18}=\\frac{6-1}{18}=\\frac{5}{18} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} \\text{Now, variance}=\\sum_{i=0}^{n}x_{i}^{2}P_{i}(x)-(\\text{mean})^{2} \\\\ =(0)^{2} \\times \\frac{25}{36}+(1)^{2} \\times k+(2)^{2} \\times \\frac{1}{36}-\\frac{1}{9} \\\\ =0+k+\\frac{1}{9}-\\frac{1}{9}=k=\\frac{5}{18} \\end{aligned} \\\\ &amp; \\text{Hence, variance}=\\frac{5}{18} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{25}{36}",
+        "\\frac{1}{36}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.847189"
+    },
+    {
+      "id": 9169,
+      "qid": "m5yu98nk",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-distr-kcet-mathematics-complex-numbers-pjzvudrjfjgrwozq",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If a random variable $X$ follows the binomial distribution with parameters $n=5,p$ and $P(X=2)=9P(X=3)$ , then $p$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If a random variable  $X$  follows the binomial distribution with parameters  $n=5,p$  and  $P(X=2)=9P(X=3)$ , then  $p$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $10$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$1/10$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1/10$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$1/5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1/5$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\because p(X=2)=9 \\times p(X=3)\\text{(where,}n=5\\text{and} \\\\ & \\begin{aligned} & q=1-p) \\\\ & \\Rightarrow ^{5}C_{2}p^{2}(1-p)^{3}=9 \\cdot ^{5}C_{3}p^{3}(1-p)^{2} \\\\ & \\Rightarrow \\frac{5!}{2!3!}p^{2}(1-p)^{3}=9 \\cdot \\frac{5!}{3!2!}p^{3}(1-p)^{2} \\\\ & \\Rightarrow \\frac{p^{2}(1-p)^{3}}{p^{3}(1-p)^{2}}=9 \\Rightarrow \\frac{1-p}{p}=9 \\\\ & \\Rightarrow 9p+p=1 \\Rightarrow 10p=1 \\\\ & \\therefore p=\\frac{1}{10} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\because p(X=2)=9 \\times p(X=3)\\text{(where,}n=5\\text{and} \\\\ &amp; \\begin{aligned} &amp; q=1-p) \\\\ &amp; \\Rightarrow ^{5}C_{2}p^{2}(1-p)^{3}=9 \\cdot ^{5}C_{3}p^{3}(1-p)^{2} \\\\ &amp; \\Rightarrow \\frac{5!}{2!3!}p^{2}(1-p)^{3}=9 \\cdot \\frac{5!}{3!2!}p^{3}(1-p)^{2} \\\\ &amp; \\Rightarrow \\frac{p^{2}(1-p)^{3}}{p^{3}(1-p)^{2}}=9 \\Rightarrow \\frac{1-p}{p}=9 \\\\ &amp; \\Rightarrow 9p+p=1 \\Rightarrow 10p=1 \\\\ &amp; \\therefore p=\\frac{1}{10} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.913344"
+    },
+    {
+      "id": 9163,
+      "qid": "m5yu6wez",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-non-mutually-exclusive-events-such-tha-kcet-mathematics-complex-numbers-ioz7rltcd2xgou0z",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A die is thrown 10 times. The probability that an odd number will come up at least once is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A die is thrown 10 times. The probability that an odd number will come up at least once is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{11}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{11}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1013}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1013}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1023}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1023}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{1024}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $n=10$ Probability of odd number, $p=\\frac{1}{2}$ $\\therefore q=\\frac{1}{2}$ $\\begin{aligned} \\therefore \\text{Required probability} & =p(X \\ge 1) \\\\ & =1-p(X=0) \\\\ & =1-^{10}C_{0}(\\frac{1}{2})^{10-0}(\\frac{1}{2})^{0} \\\\ & =1-\\frac{1}{2^{10}} \\\\ & =1-\\frac{1}{1024}=\\frac{1023}{1024} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $n=10$ </p>\n<p>Probability of odd number,  $p=\\frac{1}{2}$ </p>\n<p> $\\therefore q=\\frac{1}{2}$ </p>\n<p> $\\begin{aligned} \\therefore \\text{Required probability} &amp; =p(X \\ge 1) \\\\ &amp; =1-p(X=0) \\\\ &amp; =1-^{10}C_{0}(\\frac{1}{2})^{10-0}(\\frac{1}{2})^{0} \\\\ &amp; =1-\\frac{1}{2^{10}} \\\\ &amp; =1-\\frac{1}{1024}=\\frac{1023}{1024} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "n=10",
+        "p=\\frac{1}{2}",
+        "\\therefore q=\\frac{1}{2}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.701012"
+    },
+    {
+      "id": 9175,
+      "qid": "jaoe38c1locil21w",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-events-such-that-pafrac1-kcet-mathematics-complex-numbers-4a5ztuljvlk4t2ad",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are events, such that $P(A)=\\frac{1}{4},P(A/B)=\\frac{1}{2}$ and $P(B/A)=\\frac{2}{3}$ , then $P(B)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are events, such that  $P(A)=\\frac{1}{4},P(A/B)=\\frac{1}{2}$  and  $P(B/A)=\\frac{2}{3}$ , then  $P(B)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $P(A)=\\frac{1}{4},P(\\frac{A}{B})=\\frac{1}{2}$ and $P(\\frac{B}{A})=\\frac{2}{3}$ We know that, $P(\\frac{E_{1}}{E_{2}})=\\frac{P(E_{1}∩E_{2})}{P(E_{2})}$ $\\begin{aligned} \\therefore & P(\\frac{B}{A})=\\frac{P(B∩A)}{P(A)} \\\\ \\Rightarrow & \\frac{2}{3}=\\frac{P(A∩B)}{1/4}[ \\because A∩B=B∩A] \\\\ \\Rightarrow & P(A∩B)=\\frac{2}{3} \\times \\frac{1}{4}=\\frac{1}{6} \\\\ \\because & P(\\frac{A}{B})=\\frac{1}{2} \\\\ \\therefore & \\frac{P(A∩B)}{P(B)}=\\frac{1}{2} \\\\ \\Rightarrow & P(B)=2P(A∩B)=2 \\times \\frac{1}{6}=\\frac{1}{3} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(A)=\\frac{1}{4},P(\\frac{A}{B})=\\frac{1}{2}$  and  $P(\\frac{B}{A})=\\frac{2}{3}$ </p>\n<p>We know that,  $P(\\frac{E_{1}}{E_{2}})=\\frac{P(E_{1}∩E_{2})}{P(E_{2})}$ </p>\n<p> $\\begin{aligned} \\therefore &amp; P(\\frac{B}{A})=\\frac{P(B∩A)}{P(A)} \\\\ \\Rightarrow &amp; \\frac{2}{3}=\\frac{P(A∩B)}{1/4}[ \\because A∩B=B∩A] \\\\ \\Rightarrow &amp; P(A∩B)=\\frac{2}{3} \\times \\frac{1}{4}=\\frac{1}{6} \\\\ \\because &amp; P(\\frac{A}{B})=\\frac{1}{2} \\\\ \\therefore &amp; \\frac{P(A∩B)}{P(B)}=\\frac{1}{2} \\\\ \\Rightarrow &amp; P(B)=2P(A∩B)=2 \\times \\frac{1}{6}=\\frac{1}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.105325"
+    },
+    {
+      "id": 9171,
+      "qid": "jaoe38c1locibj5w",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-distr-kcet-mathematics-complex-numbers-pjzvudrjfjgrwozq",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "A bag contains $2n+1$ coins. It is known that $n$ of these coins have head on both sides whereas, the other $n+1$ coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is $\\frac{31}{42}$ , then the value of $n$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A bag contains  $2n+1$  coins. It is known that  $n$  of these coins have head on both sides whereas, the other  $n+1$  coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is  $\\frac{31}{42}$ , then the value of  $n$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->8<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $n$ coins have head on both the sides and $(n+1)$ coins are fair coins. Total coins $=2n+1$ Let events $E_{1},E_{2}$ be the following $E_{1}=$ Event that an unfair coin is selected $E_{2}=$ Event that a fair coin is selected $\\therefore P(E_{1})=\\frac{n}{2n+1}$ and $P(E_{2})=\\frac{n+1}{2n+1}$ From the law of total probability, $\\begin{aligned} \\therefore & P(E)=P(E_{1}) \\times P(\\frac{E}{E_{1}})+P(E_{2}) \\times P(\\frac{E}{E_{2}}) \\\\ \\Rightarrow & \\frac{31}{42}=\\frac{n}{2n+1} \\times 1+\\frac{n+1}{2n+1} \\times \\frac{1}{2} \\\\ \\Rightarrow & \\frac{31}{42}=\\frac{2n+n+1}{2(2n+1)} \\\\ \\Rightarrow & 31 \\times 2(2n+1)=42(3n+1) \\\\ \\Rightarrow & 124n+62=126n+42 \\\\ \\Rightarrow & 2n=20 \\\\ \\Rightarrow & n=10 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $n$  coins have head on both the sides and  $(n+1)$  coins are fair coins.</p>\n<p>Total coins  $=2n+1$ </p>\n<p>Let events  $E_{1},E_{2}$  be the following</p>\n<p> $E_{1}=$  Event that an unfair coin is selected</p>\n<p> $E_{2}=$  Event that a fair coin is selected</p>\n<p> $\\therefore P(E_{1})=\\frac{n}{2n+1}$  and  $P(E_{2})=\\frac{n+1}{2n+1}$ </p>\n<p>From the law of total probability,</p>\n<p> $\\begin{aligned} \\therefore &amp; P(E)=P(E_{1}) \\times P(\\frac{E}{E_{1}})+P(E_{2}) \\times P(\\frac{E}{E_{2}}) \\\\ \\Rightarrow &amp; \\frac{31}{42}=\\frac{n}{2n+1} \\times 1+\\frac{n+1}{2n+1} \\times \\frac{1}{2} \\\\ \\Rightarrow &amp; \\frac{31}{42}=\\frac{2n+n+1}{2(2n+1)} \\\\ \\Rightarrow &amp; 31 \\times 2(2n+1)=42(3n+1) \\\\ \\Rightarrow &amp; 124n+62=126n+42 \\\\ \\Rightarrow &amp; 2n=20 \\\\ \\Rightarrow &amp; n=10 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{31}{42}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.953953"
+    },
+    {
+      "id": 9173,
+      "qid": "jaoe38c1locielcm",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-distr-kcet-mathematics-complex-numbers-pjzvudrjfjgrwozq",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Let $A={x,y,z,u}$ and $B={a,b}$ . A function $f:A \\rightarrow B$ is selected randomly. The probability that the function is an onto function is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $A={x,y,z,u}$  and  $B={a,b}$ . A function  $f:A \\rightarrow B$  is selected randomly. The probability that the function is an onto function is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{35}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{35}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{8}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Total cases $=2 \\times 2 \\times 2 \\times 2=16$ We know that Probability of onto $=1-$ (Probability of not onto) $\\text{Probability}=\\frac{\\text{Number of favorable event}}{\\text{Total event}}$ Probability of onto $=1-\\frac{2}{16}=\\frac{14}{16}=\\frac{7}{8}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Total cases  $=2 \\times 2 \\times 2 \\times 2=16$ </p>\n<p>We know that</p>\n<p>Probability of onto  $=1-$  (Probability of not onto)</p>\n<p> $\\text{Probability}=\\frac{\\text{Number of favorable event}}{\\text{Total event}}$ </p>\n<p>Probability of onto  $=1-\\frac{2}{16}=\\frac{14}{16}=\\frac{7}{8}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "A={x,y,z,u}",
+        "B={a,b}",
+        "=2 \\times 2 \\times 2 \\times 2=16",
+        "=1-",
+        "\\text{Probability}=\\frac{\\text{Number of favorable event}}{\\text{Total event}}",
+        "=1-\\frac{2}{16}=\\frac{14}{16}=\\frac{7}{8}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:56.985071"
+    },
+    {
+      "id": 9183,
+      "qid": "jaoe38c1ls1g3oht",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-independent-events-such-that--kcet-mathematics-complex-numbers-palgzgzugvham8zc",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are two independent events such that $P(\\bar{A})=0.75,P(A∪B)=0.65$ and $P(B)=x$ , then find the value of $x$ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are two independent events such that  $P(\\bar{A})=0.75,P(A∪B)=0.65$  and  $P(B)=x$ , then find the value of  $x$ .</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{14}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{14}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{8}{15}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{15}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{14}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{9}{14}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{15}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{15}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $P(\\bar{A})=0.75,P(A∪B)=0.65$and$P(B)=x$ $P(A)=1-P(\\bar{A})=1-0.75=0.25$ Also, $A$ and $B$ are independent. $\\begin{aligned} & \\Rightarrow P(A∩B)=P(A) \\cdot P(B)=0.25x \\\\ \\\\ & \\text{Using}P(A∪B)=P(A)+P(B)-P(A∩B), \\\\ \\\\ & \\Rightarrow 0.65=0.25+x-0.25x \\Rightarrow 0.40=0.75x \\\\ \\\\ & \\Rightarrow x=\\frac{40}{75}=\\frac{8}{15} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(\\bar{A})=0.75,P(A∪B)=0.65$and$P(B)=x$ </p>\n<p> $P(A)=1-P(\\bar{A})=1-0.75=0.25$ </p>\n<p>Also,  $A$  and  $B$  are independent.</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow P(A∩B)=P(A) \\cdot P(B)=0.25x \\\\ \\\\ &amp; \\text{Using}P(A∪B)=P(A)+P(B)-P(A∩B), \\\\ \\\\ &amp; \\Rightarrow 0.65=0.25+x-0.25x \\Rightarrow 0.40=0.75x \\\\ \\\\ &amp; \\Rightarrow x=\\frac{40}{75}=\\frac{8}{15} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(A)=1-P(\\bar{A})=1-0.75=0.25"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.345615"
+    },
+    {
+      "id": 9177,
+      "qid": "jaoe38c1ls1fn5bp",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-events-such-that-pafrac1-kcet-mathematics-complex-numbers-4a5ztuljvlk4t2ad",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Find the mean number of heads in three tosses of a fair coin.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Find the mean number of heads in three tosses of a fair coin.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1.5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4.5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2.5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3.5<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given three coins are tossed. Therefore, sample space, $S={TTT,TTH,THT,HTT,HHT,HTH,THH,HHH}$ $\\therefore n(S)=8$ Let $X$ represents 'number of heads' $\\because X=0,1,2\\text{or}3\\text{.}$ Probability distribution of $X$ is $X$ 0 1 2 3 $P(X)$ 1/8 3/8 3/8 1/8 $\\begin{aligned} \\text{Required mean} & =\\Sigma X_{i}P_{i} \\\\ & =0(\\frac{1}{8})+1(\\frac{3}{8})+2(\\frac{3}{8})+3(\\frac{1}{8}) \\\\ & =0+\\frac{3}{8}+\\frac{6}{8}+\\frac{3}{8}=\\frac{12}{8}=1.5 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given three coins are tossed.</p>\n<p>Therefore, sample space,</p>\n<p> $S={TTT,TTH,THT,HTT,HHT,HTH,THH,HHH}$ </p>\n<p> $\\therefore n(S)=8$ </p>\n<p>Let  $X$  represents 'number of heads'</p>\n<p> $\\because X=0,1,2\\text{or}3\\text{.}$ </p>\n<p>Probability distribution of  $X$  is</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 388px\">\n<colgroup>\n<col style=\"width: 70px\"/>\n<col style=\"width: 79px\"/>\n<col style=\"width: 76px\"/>\n<col style=\"width: 82px\"/>\n<col style=\"width: 81px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-0lax\"> $X$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">1</th>\n<th class=\"tg-baqh\">2</th>\n<th class=\"tg-baqh\">3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-0lax\"> $P(X)$ </td>\n<td class=\"tg-baqh\">1/8</td>\n<td class=\"tg-baqh\">3/8</td>\n<td class=\"tg-baqh\">3/8</td>\n<td class=\"tg-baqh\">1/8</td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\begin{aligned} \\text{Required mean} &amp; =\\Sigma X_{i}P_{i} \\\\ &amp; =0(\\frac{1}{8})+1(\\frac{3}{8})+2(\\frac{3}{8})+3(\\frac{1}{8}) \\\\ &amp; =0+\\frac{3}{8}+\\frac{6}{8}+\\frac{3}{8}=\\frac{12}{8}=1.5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "S={TTT,TTH,THT,HTT,HHT,HTH,THH,HHH}",
+        "\\therefore n(S)=8"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.121303"
+    },
+    {
+      "id": 9179,
+      "qid": "jaoe38c1ls1fy202",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-events-such-that-pafrac1-kcet-mathematics-complex-numbers-4a5ztuljvlk4t2ad",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are two events such that $P(A)=\\frac{1}{2},P(B)=\\frac{1}{2}$ and $P(A|B)=\\frac{1}{4}$ , then $P(A^{'}∩B^{'})$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are two events such that  $P(A)=\\frac{1}{2},P(B)=\\frac{1}{2}$  and  $P(A|B)=\\frac{1}{4}$ , then  $P(A^{'}∩B^{'})$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{4}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $P(A)=\\frac{1}{2},P(B)=\\frac{1}{2}$ and $P(A|B)=\\frac{1}{4}$ $P(A|B)=\\frac{P(A∩B)}{P(B)} \\Rightarrow \\frac{1}{4}=\\frac{P(A∩B)}{1/2}$ $\\Rightarrow P(A∩B)=\\frac{1}{4} \\times \\frac{1}{2}=\\frac{1}{8}$ $\\begin{aligned} & \\text{Now,}P(A^{'}∩B^{'})=P(A∪B)^{'}=1-P(A∪B) \\\\ & =1-[P(A)+P(B)-P(A∩B)]=1-[\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{8}] \\\\ & =1-1+\\frac{1}{8}=\\frac{1}{8} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(A)=\\frac{1}{2},P(B)=\\frac{1}{2}$  and  $P(A|B)=\\frac{1}{4}$ </p>\n<p> $P(A|B)=\\frac{P(A∩B)}{P(B)} \\Rightarrow \\frac{1}{4}=\\frac{P(A∩B)}{1/2}$ </p>\n<p> $\\Rightarrow P(A∩B)=\\frac{1}{4} \\times \\frac{1}{2}=\\frac{1}{8}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Now,}P(A^{'}∩B^{'})=P(A∪B)^{'}=1-P(A∪B) \\\\ &amp; =1-[P(A)+P(B)-P(A∩B)]=1-[\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{8}] \\\\ &amp; =1-1+\\frac{1}{8}=\\frac{1}{8} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(A|B)=\\frac{P(A∩B)}{P(B)} \\Rightarrow \\frac{1}{4}=\\frac{P(A∩B)}{1/2}",
+        "\\Rightarrow P(A∩B)=\\frac{1}{4} \\times \\frac{1}{2}=\\frac{1}{8}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.157132"
+    },
+    {
+      "id": 9181,
+      "qid": "jaoe38c1ls1g0x1x",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-events-such-that-pafrac1-kcet-mathematics-complex-numbers-4a5ztuljvlk4t2ad",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A pandemic has been spreading all over the world. The probabilities are 0.7 that there will be a lockdown, 0.8 that the pandemic is controlled in one month if there is a lockdown and 0.3 that it is controlled in one month if there is no lockdown. The probability that the pandemic will be controlled in one month is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A pandemic has been spreading all over the world. The probabilities are 0.7 that there will be a lockdown, 0.8 that the pandemic is controlled in one month if there is a lockdown and 0.3 that it is controlled in one month if there is no lockdown. The probability that the pandemic will be controlled in one month is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.65",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.65<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1.65",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1.65<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1.46",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1.46<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.46",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.46<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let event $E_{1}=$ There is a lockdown, Event $E_{2}=$ There is no lockdown, and $A=$ Pandemic is controlled in one month Now, $P(E_{1})=0.7,P(E_{2})=0.3$ . $P(A|E_{1})=0.8$ and $P(A|E_{2})=0.3$ $P(A)=0.7(0.8)+0.3(0.3)=0.56+0.09=0.65$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let event  $E_{1}=$  There is a lockdown,</p>\n<p>Event  $E_{2}=$  There is no lockdown, and  $A=$  Pandemic is controlled in one month</p>\n<p>Now,  $P(E_{1})=0.7,P(E_{2})=0.3$ .</p>\n<p> $P(A|E_{1})=0.8$  and  $P(A|E_{2})=0.3$ </p> <p> $P(A)=0.7(0.8)+0.3(0.3)=0.56+0.09=0.65$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "E_{1}=",
+        "E_{2}=",
+        "P(A)=0.7(0.8)+0.3(0.3)=0.56+0.09=0.65"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.180447"
+    },
+    {
+      "id": 9192,
+      "qid": "ltd1cmqe",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-car-manufacturing-factory-has-two-plants-x-and-y-kcet-mathematics-complex-numbers-qexlgpkzqm0efixz",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A car manufacturing factory has two plants $X$ and $Y$ . Plant $X$ manufactures $70%$ of cars and plant $Y$ manufactures $30%$ of cars. $80%$ of cars at plant $X$ and $90$ of cars at plant $Y$ are rated as standard quality. A car is chosen at random and is found to be standard quality. The probability that it has come from plant $X$ is :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A car manufacturing factory has two plants  $X$  and  $Y$ . Plant  $X$  manufactures  $70%$  of cars and plant  $Y$  manufactures  $30%$  of cars.  $80%$  of cars at plant  $X$  and  $90$  of cars at plant  $Y$  are rated as standard quality. A car is chosen at random and is found to be standard quality. The probability that it has come from plant  $X$  is :</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{56}{73}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{56}{73}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{56}{84}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{56}{84}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{56}{83}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{56}{83}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{56}{79}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{56}{79}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $E=$ the event that the car is of standard quality. Let $A_{1}=$ the event that the car is manufactured in plant $X$ . and $A_{2}=$ the event that the car is manufactured in plant $Y$ . Now, $P(A_{1})=\\frac{70}{100}=\\frac{7}{10},P(A_{2})=\\frac{30}{100}=\\frac{3}{10}$ $P(\\frac{E}{A_{1}})=$ Probability that a standard quality car is manufactured in plant $X=\\frac{80}{100}=\\frac{8}{10}$ $P(\\frac{E}{A_{2}})=$ Probability that a standard quality car is manufactured in plant $Y=\\frac{90}{100}=\\frac{9}{10}$ $P(\\frac{A_{1}}{E})=$ Probability that a standard quality car has come from plant $X$ $=\\frac{P(A_{1}) \\times P(\\frac{E}{A_{1}})}{P(A_{1}) \\cdot P(\\frac{E}{A_{1}})+P(A_{2}) \\cdot P(\\frac{E}{A_{2}})}$ $=\\frac{\\frac{7}{10} \\times \\frac{8}{10}}{\\frac{7}{10} \\times \\frac{8}{10}+\\frac{3}{10} \\times \\frac{9}{10}}$ $\\begin{aligned} & =\\frac{7 \\times 8}{7 \\times 8+3 \\times 9} \\\\ & =\\frac{56}{56+27}=\\frac{56}{83} \\end{aligned}$ Hence, the required probability is $\\frac{56}{83}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $E=$  the event that the car is of standard quality.</p>\n<p>Let  $A_{1}=$  the event that the car is manufactured in plant  $X$ .</p>\n<p>and  $A_{2}=$  the event that the car is manufactured in plant  $Y$ .</p>\n<p>Now,  $P(A_{1})=\\frac{70}{100}=\\frac{7}{10},P(A_{2})=\\frac{30}{100}=\\frac{3}{10}$ </p>\n<p> $P(\\frac{E}{A_{1}})=$  Probability that a standard quality car is manufactured in plant  $X=\\frac{80}{100}=\\frac{8}{10}$ </p>\n<p> $P(\\frac{E}{A_{2}})=$  Probability that a standard quality car is manufactured in plant  $Y=\\frac{90}{100}=\\frac{9}{10}$ </p>\n<p> $P(\\frac{A_{1}}{E})=$  Probability that a standard quality car has come from plant  $X$ </p>\n<p> $=\\frac{P(A_{1}) \\times P(\\frac{E}{A_{1}})}{P(A_{1}) \\cdot P(\\frac{E}{A_{1}})+P(A_{2}) \\cdot P(\\frac{E}{A_{2}})}$ </p>\n<p> $=\\frac{\\frac{7}{10} \\times \\frac{8}{10}}{\\frac{7}{10} \\times \\frac{8}{10}+\\frac{3}{10} \\times \\frac{9}{10}}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{7 \\times 8}{7 \\times 8+3 \\times 9} \\\\ &amp; =\\frac{56}{56+27}=\\frac{56}{83} \\end{aligned}$ </p>\n<p>Hence, the required probability is  $\\frac{56}{83}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(\\frac{E}{A_{1}})=",
+        "X=\\frac{80}{100}=\\frac{8}{10}",
+        "P(\\frac{E}{A_{2}})=",
+        "Y=\\frac{90}{100}=\\frac{9}{10}",
+        "P(\\frac{A_{1}}{E})="
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.597821"
+    },
+    {
+      "id": 9185,
+      "qid": "ltd1b6m0",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-independent-events-such-that--kcet-mathematics-complex-numbers-palgzgzugvham8zc",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Given that, $A$ and $B$ are two events such that $P(B)=\\frac{3}{5},P(\\frac{A}{B})=\\frac{1}{2}$ and $P(A∪B)=\\frac{4}{5}$ , then $P(A)$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given that,  $A$  and  $B$  are two events such that  $P(B)=\\frac{3}{5},P(\\frac{A}{B})=\\frac{1}{2}$  and  $P(A∪B)=\\frac{4}{5}$ , then  $P(A)$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{10}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $P(B)=\\frac{3}{5},P(\\frac{A}{B})=\\frac{1}{2}$ and $P(A∪B)=\\frac{4}{5}$ $\\begin{aligned} \\because & P(\\frac{A}{B})=\\frac{1}{2} \\\\ \\Rightarrow & \\frac{P(A∩B)}{P(B)}=\\frac{1}{2} \\\\ \\Rightarrow & P(A∩B)=\\frac{1}{2} \\times \\frac{3}{5}=\\frac{3}{10} \\\\ \\text{Now,} & P(A∪B)=\\frac{4}{5} \\\\ \\Rightarrow & P(A)+P(B)-P(A∩B)=\\frac{4}{5} \\\\ \\Rightarrow & P(A)+\\frac{3}{5}-\\frac{3}{10}=\\frac{4}{5} \\\\ \\Rightarrow & P(A)=\\frac{4}{5}+\\frac{3}{10}-\\frac{3}{5} \\\\ & =\\frac{8+3-6}{10}=\\frac{5}{10} \\\\ \\therefore & P(A)=\\frac{1}{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(B)=\\frac{3}{5},P(\\frac{A}{B})=\\frac{1}{2}$  and  $P(A∪B)=\\frac{4}{5}$ </p>\n<p> $\\begin{aligned} \\because &amp; P(\\frac{A}{B})=\\frac{1}{2} \\\\ \\Rightarrow &amp; \\frac{P(A∩B)}{P(B)}=\\frac{1}{2} \\\\ \\Rightarrow &amp; P(A∩B)=\\frac{1}{2} \\times \\frac{3}{5}=\\frac{3}{10} \\\\ \\text{Now,} &amp; P(A∪B)=\\frac{4}{5} \\\\ \\Rightarrow &amp; P(A)+P(B)-P(A∩B)=\\frac{4}{5} \\\\ \\Rightarrow &amp; P(A)+\\frac{3}{5}-\\frac{3}{10}=\\frac{4}{5} \\\\ \\Rightarrow &amp; P(A)=\\frac{4}{5}+\\frac{3}{10}-\\frac{3}{5} \\\\ &amp; =\\frac{8+3-6}{10}=\\frac{5}{10} \\\\ \\therefore &amp; P(A)=\\frac{1}{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.361987"
+    },
+    {
+      "id": 9194,
+      "qid": "ltd1bfik",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-car-manufacturing-factory-has-two-plants-x-and-y-kcet-mathematics-complex-numbers-qexlgpkzqm0efixz",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $P(A)=0.59,P(B)=0.30$ and $P(A∩B)=0.21$ then $P(A^{'}∩B^{'})$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $P(A)=0.59,P(B)=0.30$  and  $P(A∩B)=0.21$  then  $P(A^{'}∩B^{'})$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.11",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.11<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.38",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.38<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.32",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.32<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.35",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.35<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Given,}P(A)=0.59,P(B)=0.30 \\\\ & \\text{and}P(A∩B)=0.21 \\\\ & \\begin{aligned} P(A^{'}∩B^{'}) & =1-P(A∪B)[ \\therefore \\text{De Morgan’s law}] \\\\ & =1-[P(A)+P(B)-P(A∩B)] \\\\ & =1-[0.59+0.30-0.21] \\\\ & =1-[0.89-0.21] \\\\ & =1-0.68=0.32 \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}P(A)=0.59,P(B)=0.30 \\\\ &amp; \\text{and}P(A∩B)=0.21 \\\\ &amp; \\begin{aligned} P(A^{'}∩B^{'}) &amp; =1-P(A∪B)[ \\therefore \\text{De Morgan’s law}] \\\\ &amp; =1-[P(A)+P(B)-P(A∩B)] \\\\ &amp; =1-[0.59+0.30-0.21] \\\\ &amp; =1-[0.89-0.21] \\\\ &amp; =1-0.68=0.32 \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "P(A)=0.59,P(B)=0.30",
+        "P(A∩B)=0.21",
+        "P(A^{'}∩B^{'})"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.632936"
+    },
+    {
+      "id": 9187,
+      "qid": "ltd1cklr",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-independent-events-such-that--kcet-mathematics-complex-numbers-palgzgzugvham8zc",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $A,B$ and $C$ are three independent events such that $P(A)=P(B)=P(C)=P$ , then $P$ (at least two of $A,B$ and $C$ occur) is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A,B$  and  $C$  are three independent events such that  $P(A)=P(B)=P(C)=P$ , then  $P$  (at least two of  $A,B$  and  $C$  occur) is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$P^{3}-3P$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P^{3}-3P$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$3P-2P^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3P-2P^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$3P^{2}-2P^{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3P^{2}-2P^{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$3P^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3P^{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $P(A)=P(B)=P(C)=P$ $P$ (At least two of $A,B,C$ occur) $\\begin{aligned} & =(P∩B∩C^{'})+P(A∩B^{'}∩C)+P(A^{'}∩B∩C)+P(A∩B∩C) \\\\ & =P(A)P(B)P(C^{'})+P(A)P(B^{'})P(C)+P(A^{'})P(B)P(C)+P(A)P(B)P(C) \\\\ & =P(A)P(B)[1-P(C)]+P(A)[1-(B)]P(C)+[1-P(A)]P(B)P(C)+P(A)P(B)P(C) \\\\ & =P \\times P \\times (1-P)+(1-P) \\times P \\times P+P \\times (1-P) \\times P+P \\times P \\times P \\\\ & =P^{2}[(1-P)+(1-P)+(1-P)+P] \\\\ & =P^{2}[3-2P] \\\\ & =3P^{2}-2P^{3} \\end{aligned}$ $P$ (At least two of $A,B,C$ occur) is $3P^{2}-2P^{3}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $P(A)=P(B)=P(C)=P$ </p>\n<p> $P$  (At least two of  $A,B,C$  occur)</p>\n<p> $\\begin{aligned} &amp; =(P∩B∩C^{'})+P(A∩B^{'}∩C)+P(A^{'}∩B∩C)+P(A∩B∩C) \\\\ &amp; =P(A)P(B)P(C^{'})+P(A)P(B^{'})P(C)+P(A^{'})P(B)P(C)+P(A)P(B)P(C) \\\\ &amp; =P(A)P(B)[1-P(C)]+P(A)[1-(B)]P(C)+[1-P(A)]P(B)P(C)+P(A)P(B)P(C) \\\\ &amp; =P \\times P \\times (1-P)+(1-P) \\times P \\times P+P \\times (1-P) \\times P+P \\times P \\times P \\\\ &amp; =P^{2}[(1-P)+(1-P)+(1-P)+P] \\\\ &amp; =P^{2}[3-2P] \\\\ &amp; =3P^{2}-2P^{3} \\end{aligned}$ </p>\n<p> $P$  (At least two of  $A,B,C$  occur) is  $3P^{2}-2P^{3}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.376631"
+    },
+    {
+      "id": 9189,
+      "qid": "ltd1bd6f",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-a-and-b-are-two-independent-events-such-that--kcet-mathematics-complex-numbers-palgzgzugvham8zc",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Two dice are thrown. If it is known that the sum of numbers on the dice was less than 6 the probability of getting a sum as 3 is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Two dice are thrown. If it is known that the sum of numbers on the dice was less than 6 the probability of getting a sum as 3 is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{18}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{18}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $E_{A}=$ The event that the sum of numbers on the dice was less than 6. $\\begin{aligned} & E_{A}={(1,4),(4,1),(2,3),(3,2),(2,2),(1,3),(3,1),(1,2),(2,1),(1,1)} \\\\ & \\Rightarrow n(E_{A})=10 \\end{aligned}$ $E_{B}=$ The event that the sum of numbers on the dice is 3 $\\begin{aligned} E_{B}={(1,2),(2,1)} \\\\ \\Rightarrow n(E_{2})=2 \\\\ \\therefore \\text{Required probability}=\\frac{2}{10}=\\frac{1}{5} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $E_{A}=$  The event that the sum of numbers on the dice was less than 6.</p>\n<p> $\\begin{aligned} &amp; E_{A}={(1,4),(4,1),(2,3),(3,2),(2,2),(1,3),(3,1),(1,2),(2,1),(1,1)} \\\\ &amp; \\Rightarrow n(E_{A})=10 \\end{aligned}$ </p>\n<p> $E_{B}=$  The event that the sum of numbers on the dice is 3</p>\n<p> $\\begin{aligned} E_{B}={(1,2),(2,1)} \\\\ \\Rightarrow n(E_{2})=2 \\\\ \\therefore \\text{Required probability}=\\frac{2}{10}=\\frac{1}{5} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "E_{A}=",
+        "E_{B}="
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.394884"
+    },
+    {
+      "id": 9201,
+      "qid": "ltj8xbsb",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pevents-e1-and-e2-from-a-partition-of-the-sample-kcet-mathematics-complex-numbers-7ytaathiu5o8u0hr",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Events $E_{1}$ and $E_{2}$ from a partition of the sample space $S$ . $A$ is any event such that $P(E_{1})=P(\\overset{˙}{E}_{2})=\\frac{1}{2},P(E_{2}/A)=\\frac{1}{2}$ and $P(A/E_{2})=\\frac{2}{3}$ , then $P(E_{1}/A)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Events  $E_{1}$  and  $E_{2}$  from a partition of the sample space  $S$ .  $A$  is any event such that  $P(E_{1})=P(\\overset{˙}{E}_{2})=\\frac{1}{2},P(E_{2}/A)=\\frac{1}{2}$  and  $P(A/E_{2})=\\frac{2}{3}$ , then  $P(E_{1}/A)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{4}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Given}P(E_{1})=P(E_{2})=\\frac{1}{2} \\\\ & P(E_{2}/A)=\\frac{1}{2},P(A/E_{2})=\\frac{2}{3} \\\\ & P(E_{1}/A)=\\frac{P(E_{1}) \\times P(A/E_{1})}{P(A)} \\\\ & P(E_{2}/A)=\\frac{P(E_{2}) \\times P(A/E_{2})}{P(A)} \\\\ & P(E_{1}/A)+P(E_{2}/A)=1 \\\\ & P(E_{1}/A)=1-P(E_{2}/A) \\\\ & =1-\\frac{1}{2}=\\frac{1}{2} \\\\ & \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given}P(E_{1})=P(E_{2})=\\frac{1}{2} \\\\ &amp; P(E_{2}/A)=\\frac{1}{2},P(A/E_{2})=\\frac{2}{3} \\\\ &amp; P(E_{1}/A)=\\frac{P(E_{1}) \\times P(A/E_{1})}{P(A)} \\\\ &amp; P(E_{2}/A)=\\frac{P(E_{2}) \\times P(A/E_{2})}{P(A)} \\\\ &amp; P(E_{1}/A)+P(E_{2}/A)=1 \\\\ &amp; P(E_{1}/A)=1-P(E_{2}/A) \\\\ &amp; =1-\\frac{1}{2}=\\frac{1}{2} \\\\ &amp; \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "E_{1}",
+        "E_{2}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.960855"
+    },
+    {
+      "id": 9204,
+      "qid": "ltj8x1ha",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pevents-e1-and-e2-from-a-partition-of-the-sample-kcet-mathematics-complex-numbers-7ytaathiu5o8u0hr",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The probability of solving a problem by three persons $A,B$ and $C$ independently is $\\frac{1}{2},\\frac{1}{4}$ and $\\frac{1}{3}$ respectively. Then the probability of the problem is solved by any two of them is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The probability of solving a problem by three persons  $A,B$  and  $C$  independently is  $\\frac{1}{2},\\frac{1}{4}$  and  $\\frac{1}{3}$  respectively. Then the probability of the problem is solved by any two of them is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{24}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{24}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{8}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Given,}P(A) & =\\frac{1}{2},P(B)=\\frac{1}{4},P(C)=\\frac{1}{3} \\\\ P(\\bar{A}) & =\\frac{1}{2},P(\\bar{B})=\\frac{3}{4},P(\\bar{C})=\\frac{2}{3} \\end{aligned}$ $\\begin{aligned} & \\text{Required probability}=P(AB\\bar{C})+P(A\\bar{B}C)+P(\\bar{A}BC) \\\\ & =\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{2}{3}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{3} \\\\ & =\\frac{2+3+1}{24}=\\frac{6}{24}=\\frac{1}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Given,}P(A) &amp; =\\frac{1}{2},P(B)=\\frac{1}{4},P(C)=\\frac{1}{3} \\\\ P(\\bar{A}) &amp; =\\frac{1}{2},P(\\bar{B})=\\frac{3}{4},P(\\bar{C})=\\frac{2}{3} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Required probability}=P(AB\\bar{C})+P(A\\bar{B}C)+P(\\bar{A}BC) \\\\ &amp; =\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{2}{3}+\\frac{1}{2} \\times \\frac{3}{4} \\times \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{3} \\\\ &amp; =\\frac{2+3+1}{24}=\\frac{6}{24}=\\frac{1}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.002803"
+    },
+    {
+      "id": 9196,
+      "qid": "ltj8yiv9",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-car-manufacturing-factory-has-two-plants-x-and-y-kcet-mathematics-complex-numbers-qexlgpkzqm0efixz",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "A die is thrown 10 times, the probability that an odd number will come up at least one time is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A die is thrown 10 times, the probability that an odd number will come up at least one time is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1023}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1023}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{11}{1024}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1013}{1024}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1013}{1024}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "A die is thrown 10 times Probability of success is an odd number $\\therefore n=10,p=\\frac{1}{2},q=\\frac{1}{2}$ Number of success is atleast one Required probability $P(x \\ge 1)=1-P(x=0)$ $\\begin{aligned} & =1-^{10}C_{0}(\\frac{1}{2})^{0}(\\frac{1}{2})^{10} \\\\ & =1-\\frac{1}{1024}=\\frac{1023}{1024} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A die is thrown 10 times</p>\n<p>Probability of success is an odd number</p>\n<p> $\\therefore n=10,p=\\frac{1}{2},q=\\frac{1}{2}$ </p>\n<p>Number of success is atleast one</p> <p>Required probability  $P(x \\ge 1)=1-P(x=0)$ </p>\n<p> $\\begin{aligned} &amp; =1-^{10}C_{0}(\\frac{1}{2})^{0}(\\frac{1}{2})^{10} \\\\ &amp; =1-\\frac{1}{1024}=\\frac{1023}{1024} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\therefore n=10,p=\\frac{1}{2},q=\\frac{1}{2}",
+        "P(x \\ge 1)=1-P(x=0)"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.680784"
+    },
+    {
+      "id": 9206,
+      "qid": "ltj8yfxn",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pevents-e1-and-e2-from-a-partition-of-the-sample-kcet-mathematics-complex-numbers-7ytaathiu5o8u0hr",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $A,B,C$ are three mutually exclusive and exhaustive events of an experiment such that $P(A)=2P(B)=3P(C)$ , then $P(B)$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A,B,C$  are three mutually exclusive and exhaustive events of an experiment such that  $P(A)=2P(B)=3P(C)$ , then  $P(B)$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{11}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{11}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{11}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{11}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{11}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{11}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{11}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{11}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$A,B,C$ are mutually exclusive and exhaustive events. $\\begin{aligned} & \\therefore P(A∩B)=P(B∩C) \\\\ & =P(A∩C)=0=P(A∩B∩C) \\\\ & \\text{and}P(A)+P(B)+P(C)=1 \\\\ & 2P(B)+P(B)+\\frac{2}{3}P(B)=1 \\\\ & [ \\because P(A)=2P(B),2P(B)=3P(C)] \\\\ & =\\frac{11P(B)}{3}=1 \\\\ & P(B)=\\frac{3}{11} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $A,B,C$  are mutually exclusive and exhaustive events.</p>\n<p> $\\begin{aligned} &amp; \\therefore P(A∩B)=P(B∩C) \\\\ &amp; =P(A∩C)=0=P(A∩B∩C) \\\\ &amp; \\text{and}P(A)+P(B)+P(C)=1 \\\\ &amp; 2P(B)+P(B)+\\frac{2}{3}P(B)=1 \\\\ &amp; [ \\because P(A)=2P(B),2P(B)=3P(C)] \\\\ &amp; =\\frac{11P(B)}{3}=1 \\\\ &amp; P(B)=\\frac{3}{11} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "P(A)=2P(B)=3P(C)"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.040572"
+    },
+    {
+      "id": 9199,
+      "qid": "ltj8yixx",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-car-manufacturing-factory-has-two-plants-x-and-y-kcet-mathematics-complex-numbers-qexlgpkzqm0efixz",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are two events such that $P(A)=\\frac{1}{3},P(B)=\\frac{1}{2}$ and $P(A∩B)=\\frac{1}{6}$ , then $P(A^{'}/B)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are two events such that  $P(A)=\\frac{1}{3},P(B)=\\frac{1}{2}$  and  $P(A∩B)=\\frac{1}{6}$ , then  $P(A^{'}/B)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{12}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Given}P(A) & =\\frac{1}{3},P(B)=\\frac{1}{2}\\text{and}P(A∩B)=\\frac{1}{6} \\\\ P(A^{'}/B) & =\\frac{P(A^{'}∩B)}{P(B)}=\\frac{P(B)-P(A∩B)}{P(B)} \\\\ & =\\frac{\\frac{1}{2}-\\frac{1}{6}}{1/2}=\\frac{2}{3} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Given}P(A) &amp; =\\frac{1}{3},P(B)=\\frac{1}{2}\\text{and}P(A∩B)=\\frac{1}{6} \\\\ P(A^{'}/B) &amp; =\\frac{P(A^{'}∩B)}{P(B)}=\\frac{P(B)-P(A∩B)}{P(B)} \\\\ &amp; =\\frac{\\frac{1}{2}-\\frac{1}{6}}{1/2}=\\frac{2}{3} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:57.738198"
+    },
+    {
+      "id": 9211,
+      "qid": "ltw4psda",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-d-kcet-mathematics-complex-numbers-ow1jz25rtttdpcj4",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A random variable ' $X$ ' has the following probability distribution $x$ $1$ $2$ $3$ $4$ $5$ $6$ $7$ $P(x)$ $k-1$ $3k$ $k$ $3k$ $3k^{2}$ $k^{2}$ $k^{2}+k$ Then the value of $k$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A random variable ' $X$ ' has the following probability distribution</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 640px\">\n<colgroup>\n<col style=\"width: 83px\"/>\n<col style=\"width: 84px\"/>\n<col style=\"width: 71px\"/>\n<col style=\"width: 76px\"/>\n<col style=\"width: 70px\"/>\n<col style=\"width: 72px\"/>\n<col style=\"width: 74px\"/>\n<col style=\"width: 110px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\"> $x$ </th>\n<th class=\"tg-baqh\"> $1$ </th>\n<th class=\"tg-baqh\"> $2$ </th>\n<th class=\"tg-baqh\"> $3$ </th>\n<th class=\"tg-baqh\"> $4$ </th>\n<th class=\"tg-baqh\"> $5$ </th>\n<th class=\"tg-baqh\"> $6$ </th>\n<th class=\"tg-baqh\"> $7$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-amwm\"> $P(x)$ </td>\n<td class=\"tg-baqh\"> $k-1$ </td>\n<td class=\"tg-baqh\"> $3k$ </td>\n<td class=\"tg-baqh\"> $k$ </td>\n<td class=\"tg-baqh\"> $3k$ </td>\n<td class=\"tg-baqh\"> $3k^{2}$ </td>\n<td class=\"tg-baqh\"> $k^{2}$ </td>\n<td class=\"tg-baqh\"> $k^{2}+k$ </td>\n</tr>\n</tbody>\n</table></p>\n<p>Then the value of  $k$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{7}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{10}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We know that, $\\Sigma pi=1$ $\\begin{aligned} & \\therefore (k-1)+3k+k+3k+3k^{2}+k^{2}+k^{2}+k=1 \\\\ & \\Rightarrow 5k^{2}+9k-2=0 \\Rightarrow 5k^{2}+10k-k-2=0 \\\\ & \\Rightarrow 5k(k+2)-1(k+2)=0 \\Rightarrow (k+2)(5k-1)=0 \\\\ & \\Rightarrow k=\\frac{1}{5}-2 \\end{aligned}$ Both values of $k$ is not possible, since $P(X=1)=k-1$ will be negative. Hence, Question is wrong.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We know that,  $\\Sigma pi=1$ </p>\n<p> $\\begin{aligned} &amp; \\therefore (k-1)+3k+k+3k+3k^{2}+k^{2}+k^{2}+k=1 \\\\ &amp; \\Rightarrow 5k^{2}+9k-2=0 \\Rightarrow 5k^{2}+10k-k-2=0 \\\\ &amp; \\Rightarrow 5k(k+2)-1(k+2)=0 \\Rightarrow (k+2)(5k-1)=0 \\\\ &amp; \\Rightarrow k=\\frac{1}{5}-2 \\end{aligned}$ </p>\n<p>Both values of  $k$  is not possible, since  $P(X=1)=k-1$  will be negative.</p>\n<p>Hence, Question is wrong.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "3k^{2}",
+        "k^{2}",
+        "k^{2}+k"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.322543"
+    },
+    {
+      "id": 9213,
+      "qid": "ltw4psef",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-d-kcet-mathematics-complex-numbers-ow1jz25rtttdpcj4",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are two events of a sample space $S$ such that $P(A)=0.2,P(B)=0.6$ and $P(A|B)=0.5$ then $P(A^{'}|B)=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $A$  and  $B$  are two events of a sample space  $S$  such that  $P(A)=0.2,P(B)=0.6$  and  $P(A|B)=0.5$  then  $P(A^{'}|B)=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{10}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $P(\\frac{A}{B})=0.5$ We know that, $P(\\frac{A^{'}}{B})=1-P(\\frac{A}{B})$ $\\therefore P(\\frac{A^{'}}{B})=1-0.5=0.5$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $P(\\frac{A}{B})=0.5$ </p>\n<p>We know that,  $P(\\frac{A^{'}}{B})=1-P(\\frac{A}{B})$ </p> <p> $\\therefore P(\\frac{A^{'}}{B})=1-0.5=0.5$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\therefore P(\\frac{A^{'}}{B})=1-0.5=0.5"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.352824"
+    },
+    {
+      "id": 9214,
+      "qid": "ltw4psfn",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-d-kcet-mathematics-complex-numbers-ow1jz25rtttdpcj4",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If ' $X$ ' has a binomial distribution with parameters $n=6,p$ and $P(X=2)=12$ , $P(X=3)=5$ then $P=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If ' $X$ ' has a binomial distribution with parameters  $n=6,p$  and  $P(X=2)=12$ ,  $P(X=3)=5$  then  $P=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{12}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{16}{21}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{16}{21}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Since, $P(X=4)=12,P(X=3)=3$ Here, Both $P(X=2)$ and $P(X=3)$ have value greater than one which is not possible. So, question is wrong.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since,  $P(X=4)=12,P(X=3)=3$ </p>\n<p>Here, Both  $P(X=2)$  and  $P(X=3)$  have value greater than one which is not possible.</p>\n<p>So, question is wrong.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.379008"
+    },
+    {
+      "id": 9208,
+      "qid": "ltw4ps4r",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pevents-e1-and-e2-from-a-partition-of-the-sample-kcet-mathematics-complex-numbers-7ytaathiu5o8u0hr",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Two letters are chosen from the letters of the word 'EQUATIONS'. The probability that one is vowel and the other is consonant is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Two letters are chosen from the letters of the word 'EQUATIONS'. The probability that one is vowel and the other is consonant is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{9}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{8}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{9}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{9}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{9}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{9}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, word EQUATIONS. Here, consonants are Q, T, N, S and vowels are E, U, A, I, O Number of ways of selecting two letters $=^{9}C_{2}$ and Number of ways of selecting one vowel and one consonants are $^{5}C_{1} \\times ^{4}C_{1}$ $\\therefore$ required probability $=\\frac{^{5}C_{1} \\times ^{4}C_{1}}{^{9}C_{2}}=\\frac{5 \\times 4}{\\frac{9 \\times 8}{2}}=\\frac{5}{9}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, word EQUATIONS.</p>\n<p>Here, consonants are Q, T, N, S and vowels are E, U, A, I, O</p>\n<p>Number of ways of selecting two letters  $=^{9}C_{2}$  and Number of ways of selecting one vowel and one consonants are  $^{5}C_{1} \\times ^{4}C_{1}$ </p>\n<p> $\\therefore$  required probability  $=\\frac{^{5}C_{1} \\times ^{4}C_{1}}{^{9}C_{2}}=\\frac{5 \\times 4}{\\frac{9 \\times 8}{2}}=\\frac{5}{9}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "=^{9}C_{2}",
+        "^{5}C_{1} \\times ^{4}C_{1}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.081515"
+    },
+    {
+      "id": 9216,
+      "qid": "ltw4psgr",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-random-variable-x-has-the-following-probability-d-kcet-mathematics-complex-numbers-ow1jz25rtttdpcj4",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A man speaks truth 2 out of 3 times. He picks one of the natural numbers in the set $S={1,2,3,4,5,6,7}$ and reports that it is even. The probability that is actually even is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A man speaks truth 2 out of 3 times. He picks one of the natural numbers in the set  $S={1,2,3,4,5,6,7}$  and reports that it is even. The probability that is actually even is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{10}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $E_{1}$ : the event that he picks even natural number $E_{2}:$ the event that he pick odd natural numbers. $\\therefore P(E_{1})=\\frac{3}{7},P(E_{2})=\\frac{4}{7}$ $E$ : the event that the man reports that it is an even number $\\therefore P(\\frac{E}{E_{1}})=\\frac{2}{3},P(\\frac{E}{E_{2}})=\\frac{1}{3}$ $\\therefore$ required probability, $P(\\frac{E_{1}}{A})$ $=\\frac{P(E_{1})P(\\frac{E}{E_{1}})}{P(E_{1})P(\\frac{E}{E_{1}})+P(E_{2})P(\\frac{E}{E_{2}})}$ (by using Baye's theorem) $=\\frac{\\frac{3}{7} \\times \\frac{2}{3}}{\\frac{3}{7} \\times \\frac{2}{3}+\\frac{4}{7} \\times \\frac{1}{3}}=\\frac{6}{10}=\\frac{3}{5}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $E_{1}$  : the event that he picks even natural number</p>\n<p> $E_{2}:$  the event that he pick odd natural numbers.</p>\n<p> $\\therefore P(E_{1})=\\frac{3}{7},P(E_{2})=\\frac{4}{7}$ </p>\n<p> $E$  : the event that the man reports that it is an even number</p>\n<p> $\\therefore P(\\frac{E}{E_{1}})=\\frac{2}{3},P(\\frac{E}{E_{2}})=\\frac{1}{3}$ </p>\n<p> $\\therefore$  required probability,  $P(\\frac{E_{1}}{A})$ </p>\n<p> $=\\frac{P(E_{1})P(\\frac{E}{E_{1}})}{P(E_{1})P(\\frac{E}{E_{1}})+P(E_{2})P(\\frac{E}{E_{2}})}$ </p>\n<p>(by using Baye's theorem)</p>\n<p> $=\\frac{\\frac{3}{7} \\times \\frac{2}{3}}{\\frac{3}{7} \\times \\frac{2}{3}+\\frac{4}{7} \\times \\frac{1}{3}}=\\frac{6}{10}=\\frac{3}{5}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "S={1,2,3,4,5,6,7}",
+        "E_{1}",
+        "E_{2}:",
+        "\\therefore P(E_{1})=\\frac{3}{7},P(E_{2})=\\frac{4}{7}",
+        "P(\\frac{E_{1}}{A})"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.426687"
+    },
+    {
+      "id": 9219,
+      "qid": "m7isgtj1",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-bag-contains-17-tickets-numbered-from-1-to-17-a-ticket-is-kcet-mathematics-complex-numbers-ouoi5ixafksbjg1o",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A bag contains 17 tickets numbered from 1 to 17. A ticket is drawn at random, then another ticket is drawn without replacing the first one. The probability that both the tickets may show even numbers is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->A bag contains 17 tickets numbered from 1 to 17. A ticket is drawn at random, then another ticket is drawn without replacing the first one. The probability that both the tickets may show even numbers is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{34}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{34}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{8}{17}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{17}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{16}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{16}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{17}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{17}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let's break down the problem step by step: The tickets are numbered from 1 to 17. The even numbers within this range are: 2, 4, 6, 8, 10, 12, 14, and 16. There are 8 even-numbered tickets. Now, when drawing two tickets without replacement, the probability that both are even can be calculated as follows: Probability of drawing an even ticket first: $P(\\text{first even})=\\frac{8}{17}$ Probability of drawing an even ticket second (after one even is already drawn): Now there are 7 even tickets left out of 16 tickets total, so: $P(\\text{second even}|\\text{first even})=\\frac{7}{16}$ Overall probability of both events happening: Multiply the probabilities of the two independent events: $P(\\text{both even})=\\frac{8}{17} \\times \\frac{7}{16}=\\frac{56}{272}$ Simplify the fraction: Divide both numerator and denominator by 8: $\\frac{56 \\div 8}{272 \\div 8}=\\frac{7}{34}$ Thus, the probability that both drawn tickets show even numbers is $\\frac{7}{34}$ . This matches Option A.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's break down the problem step by step:</p>\n<p><p>The tickets are numbered from 1 to 17.  </p></p>\n<p><p>The even numbers within this range are: 2, 4, 6, 8, 10, 12, 14, and 16. There are 8 even-numbered tickets.</p></p>\n<p>Now, when drawing two tickets without replacement, the probability that both are even can be calculated as follows:</p>\n<p><p><strong>Probability of drawing an even ticket first:</strong> </p>\n<p> $P(\\text{first even})=\\frac{8}{17}$ </p></p>\n<p><p><strong>Probability of drawing an even ticket second (after one even is already drawn):</strong> </p>\n<p>Now there are 7 even tickets left out of 16 tickets total, so:  </p>\n<p> $P(\\text{second even}|\\text{first even})=\\frac{7}{16}$ </p></p>\n<p><p><strong>Overall probability of both events happening:</strong> </p>\n<p>Multiply the probabilities of the two independent events:  </p>\n<p> $P(\\text{both even})=\\frac{8}{17} \\times \\frac{7}{16}=\\frac{56}{272}$ </p></p>\n<p><p><strong>Simplify the fraction:</strong> </p>\n<p>Divide both numerator and denominator by 8:  </p>\n<p> $\\frac{56 \\div 8}{272 \\div 8}=\\frac{7}{34}$ </p></p>\n<p>Thus, the probability that both drawn tickets show even numbers is  $\\frac{7}{34}$ . </p>\n<p>This matches Option A.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(\\text{first even})=\\frac{8}{17}",
+        "P(\\text{second even}|\\text{first even})=\\frac{7}{16}",
+        "P(\\text{both even})=\\frac{8}{17} \\times \\frac{7}{16}=\\frac{56}{272}",
+        "\\frac{56 \\div 8}{272 \\div 8}=\\frac{7}{34}",
+        "\\frac{7}{34}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.789298"
+    },
+    {
+      "id": 9225,
+      "qid": "m7isfj21",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-and-b-are-mutually-exclusive-events-given-that-p-kcet-mathematics-complex-numbers-8sdw8wuzt6g4ruv9",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $A$ and $B$ are mutually exclusive events, given that $P(A)=\\frac{3}{5},P(B)=\\frac{1}{5}$ , then $P(A$ or $B)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $A$  and  $B$  are mutually exclusive events, given that  $P(A)=\\frac{3}{5},P(B)=\\frac{1}{5}$ , then  $P(A$  or  $B)$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.8\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.6\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.4\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Since events A and B are mutually exclusive (they cannot occur at the same time), the probability of A or B occurring is simply the sum of their individual probabilities. Here’s how we calculate it: Write the formula for mutually exclusive events: $P(A\\text{or}B)=P(A)+P(B)$ Substitute the given values: $P(A\\text{or}B)=\\frac{3}{5}+\\frac{1}{5}$ Add the fractions: $P(A\\text{or}B)=\\frac{4}{5}$ Convert to decimal: $\\frac{4}{5}=0.8$ Thus, the correct answer is Option A: 0.8.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since events A and B are mutually exclusive (they cannot occur at the same time), the probability of A or B occurring is simply the sum of their individual probabilities. Here’s how we calculate it:</p>\n<p><p>Write the formula for mutually exclusive events:</p>\n<p> $P(A\\text{or}B)=P(A)+P(B)$ </p></p>\n<p><p>Substitute the given values:</p>\n<p> $P(A\\text{or}B)=\\frac{3}{5}+\\frac{1}{5}$ </p></p>\n<p><p>Add the fractions:</p>\n<p> $P(A\\text{or}B)=\\frac{4}{5}$ </p></p>\n<p><p>Convert to decimal:</p>\n<p> $\\frac{4}{5}=0.8$ </p></p>\n<p>Thus, the correct answer is Option A: 0.8.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(A\\text{or}B)=P(A)+P(B)",
+        "P(A\\text{or}B)=\\frac{3}{5}+\\frac{1}{5}",
+        "P(A\\text{or}B)=\\frac{4}{5}",
+        "\\frac{4}{5}=0.8"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:59.106312"
+    },
+    {
+      "id": 9222,
+      "qid": "m7isg88s",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-bag-contains-17-tickets-numbered-from-1-to-17-a-ticket-is-kcet-mathematics-complex-numbers-ouoi5ixafksbjg1o",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "A flashlight has 10 batteries out of which 4 are dead. If 3 batteries are selected without replacement and tested, then the probability that all 3 are dead is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->A flashlight has 10 batteries out of which 4 are dead. If 3 batteries are selected without replacement and tested, then the probability that all 3 are dead is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{30}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{30}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{8}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{15}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{15}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{10}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To determine the probability that all 3 selected batteries are dead, we need to consider the following: Total Batteries : There are 10 batteries in total, 4 of which are dead. Selecting Dead Batteries : We are selecting 3 out of these 4 dead batteries, one after the other without replacement. Calculate the probability step-by-step: First Battery : The probability that the first battery selected is dead is $\\frac{4}{10}$ . Second Battery : After removing one dead battery, there are now 3 dead batteries left out of 9 total batteries. Thus, the probability that the second battery is dead is $\\frac{3}{9}$ . Third Battery : After selecting two dead batteries, there remain 2 dead batteries out of 8 total batteries. Therefore, the probability that the third battery is dead is $\\frac{2}{8}$ . Multiplying these probabilities gives the overall probability that all three selected batteries are dead: $\\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8}=\\frac{1}{30}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the probability that all 3 selected batteries are dead, we need to consider the following:</p>\n<p><p><strong>Total Batteries</strong>: There are 10 batteries in total, 4 of which are dead.</p></p>\n<p><p><strong>Selecting Dead Batteries</strong>: We are selecting 3 out of these 4 dead batteries, one after the other without replacement.</p></p>\n<p>Calculate the probability step-by-step:</p>\n<p><p><strong>First Battery</strong>: The probability that the first battery selected is dead is  $\\frac{4}{10}$ .</p></p>\n<p><p><strong>Second Battery</strong>: After removing one dead battery, there are now 3 dead batteries left out of 9 total batteries. Thus, the probability that the second battery is dead is  $\\frac{3}{9}$ .</p></p>\n<p><p><strong>Third Battery</strong>: After selecting two dead batteries, there remain 2 dead batteries out of 8 total batteries. Therefore, the probability that the third battery is dead is  $\\frac{2}{8}$ .</p></p>\n<p>Multiplying these probabilities gives the overall probability that all three selected batteries are dead:</p>\n<p> $\\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8}=\\frac{1}{30}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{4}{10}",
+        "\\frac{3}{9}",
+        "\\frac{2}{8}",
+        "\\frac{4}{10} \\times \\frac{3}{9} \\times \\frac{2}{8}=\\frac{1}{30}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.840550"
+    },
+    {
+      "id": 9223,
+      "qid": "m7isfurr",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-bag-contains-17-tickets-numbered-from-1-to-17-a-ticket-is-kcet-mathematics-complex-numbers-ouoi5ixafksbjg1o",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The probability of happening of an event $A$ is 0.5 and that of $B$ is 0.3 . If $A$ and $B$ are mutually exclusive events, then the probability of neither $A$ nor $B$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The probability of happening of an event  $A$  is 0.5 and that of  $B$  is 0.3 . If  $A$  and  $B$  are mutually exclusive events, then the probability of neither  $A$  nor  $B$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.4\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.5\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.9<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the probability of neither event $A$ nor event $B$ occurring, given that they are mutually exclusive, we start with the following information: The probability of event $A$ , $P(A)$ , is 0.5. The probability of event $B$ , $P(B)$ , is 0.3. Since $A$ and $B$ are mutually exclusive, the probability of both events occurring simultaneously, $P(A∩B)$ , is 0. Using these probabilities, we calculate the probability of the union of $A$ and $B$ , which is the probability of either event $A$ or event $B$ occurring. This is given by: $P(A∪B)=P(A)+P(B)-P(A∩B)$ Substituting the values: $P(A∪B)=0.5+0.3-0=0.8$ Thus, the probability of the union of events $A$ and $B$ is 0.8. To find the probability that neither $A$ nor $B$ occurs, which we denote as $P(A^{'}∩B^{'})$ , we take the complement of $P(A∪B)$ : $P(A^{'}∩B^{'})=1-P(A∪B)$ Calculating this gives: $P(A^{'}∩B^{'})=1-0.8=0.2$ Therefore, the probability that neither event $A$ nor event $B$ occurs is 0.2.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the probability of neither event  $A$  nor event  $B$  occurring, given that they are mutually exclusive, we start with the following information:</p>\n<p><p>The probability of event  $A$ ,  $P(A)$ , is 0.5.</p></p>\n<p><p>The probability of event  $B$ ,  $P(B)$ , is 0.3.</p></p>\n<p><p>Since  $A$  and  $B$  are mutually exclusive, the probability of both events occurring simultaneously,  $P(A∩B)$ , is 0.</p></p>\n<p>Using these probabilities, we calculate the probability of the union of  $A$  and  $B$ , which is the probability of either event  $A$  or event  $B$  occurring. This is given by:</p>\n<p> $P(A∪B)=P(A)+P(B)-P(A∩B)$ </p>\n<p>Substituting the values:</p>\n<p> $P(A∪B)=0.5+0.3-0=0.8$ </p>\n<p>Thus, the probability of the union of events  $A$  and  $B$  is 0.8.</p>\n<p>To find the probability that neither  $A$  nor  $B$  occurs, which we denote as  $P(A^{'}∩B^{'})$ , we take the complement of  $P(A∪B)$ :</p>\n<p> $P(A^{'}∩B^{'})=1-P(A∪B)$ </p>\n<p>Calculating this gives:</p>\n<p> $P(A^{'}∩B^{'})=1-0.8=0.2$ </p>\n<p>Therefore, the probability that neither event  $A$  nor event  $B$  occurs is 0.2.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.860151"
+    },
+    {
+      "id": 9224,
+      "qid": "m7isg3fi",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/a-bag-contains-17-tickets-numbered-from-1-to-17-a-ticket-is-kcet-mathematics-complex-numbers-ouoi5ixafksbjg1o",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "In a simultaneous throw of a pair of dice, the probability of getting a total more than 7 is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->In a simultaneous throw of a pair of dice, the probability of getting a total more than 7 is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{12}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{36}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{12}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{12}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{36}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{36}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Number of outcomes $=6 \\times 6=36$ getting a total more that $7=$ $\\begin{aligned} & {(2,6),(3,5),(3,6),(4,4),(4,5),(4,6),(5,3)\\text{,} \\\\ & (5,4),(5,5),(5,6),(6,2),(6,3),(6,4),(6,5),(6,6)} \\end{aligned}$ Required probability $\\begin{aligned} & =\\frac{\\text{Number of favourable outcomes}}{\\text{Total outcomes}} \\\\ & =\\frac{15}{36}=\\frac{5}{12} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p>Number of outcomes  $=6 \\times 6=36$ </p>\n<p>getting a total more that  $7=$ </p>\n<p> $\\begin{aligned} &amp; {(2,6),(3,5),(3,6),(4,4),(4,5),(4,6),(5,3)\\text{,} \\\\ &amp; (5,4),(5,5),(5,6),(6,2),(6,3),(6,4),(6,5),(6,6)} \\end{aligned}$ </p>\n<p>Required probability</p>\n<p> $\\begin{aligned} &amp; =\\frac{\\text{Number of favourable outcomes}}{\\text{Total outcomes}} \\\\ &amp; =\\frac{15}{36}=\\frac{5}{12} \\end{aligned}$ </p></ol><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "=6 \\times 6=36"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:58.881571"
+    },
+    {
+      "id": 9226,
+      "qid": "m9duqfox",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-and-b-are-mutually-exclusive-events-given-that-p-kcet-mathematics-complex-numbers-8sdw8wuzt6g4ruv9",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "A box has 100 pens of which 10 are defective. The probability that out of a sample of 5 pens drawn one by one with replacement and atmost one is defective, is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->A box has 100 pens of which 10 are defective. The probability that out of a sample of 5 pens drawn one by one with replacement and atmost one is defective, is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{9}{10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{9}{10}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}(\\frac{9}{10})^{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{2}(\\frac{9}{10})^{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(\\frac{9}{10})^{5}+\\frac{1}{2}(\\frac{9}{10})^{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(\\frac{9}{10})^{5}+\\frac{1}{2}(\\frac{9}{10})^{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}(\\frac{9}{10})^{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{2}(\\frac{9}{10})^{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have $p=$ probability that a bulb is defective $=\\frac{10}{100}=\\frac{1}{10}$ $\\therefore q=1-p=\\frac{9}{10}$ Let $X$ be the number of defective bulbs in a sample of 5 bulbs. $\\therefore$ Required probability $\\begin{aligned} & =P(x=0)+P(x=1) \\\\ & =^{5}C_{0}(\\frac{1}{10})^{0}(\\frac{9}{10})^{5}+^{5}C_{1}(\\frac{1}{10})^{1}(\\frac{9}{10})^{4} \\\\ & =(\\frac{9}{10})^{5}+5 \\times \\frac{1}{10}(\\frac{9}{10})^{4} \\\\ & =(\\frac{9}{10})^{5}+\\frac{1}{2}(\\frac{9}{10})^{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have</p>\n<p> $p=$  probability that a bulb is defective  $=\\frac{10}{100}=\\frac{1}{10}$ </p>\n<p> $\\therefore q=1-p=\\frac{9}{10}$ </p>\n<p>Let  $X$  be the number of defective bulbs in a sample of 5 bulbs.</p>\n<p> $\\therefore$  Required probability</p>\n $\\begin{aligned} &amp; =P(x=0)+P(x=1) \\\\ &amp; =^{5}C_{0}(\\frac{1}{10})^{0}(\\frac{9}{10})^{5}+^{5}C_{1}(\\frac{1}{10})^{1}(\\frac{9}{10})^{4} \\\\ &amp; =(\\frac{9}{10})^{5}+5 \\times \\frac{1}{10}(\\frac{9}{10})^{4} \\\\ &amp; =(\\frac{9}{10})^{5}+\\frac{1}{2}(\\frac{9}{10})^{4} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\therefore q=1-p=\\frac{9}{10}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:59.165803"
+    },
+    {
+      "id": 9227,
+      "qid": "m9dupl3w",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-and-b-are-mutually-exclusive-events-given-that-p-kcet-mathematics-complex-numbers-8sdw8wuzt6g4ruv9",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The probability distribution of $X$ is $\\begin{aligned} X & 0 & 1 & 2 & 3 \\\\ P(X) & 0.3 & k & 2k & 2k \\end{aligned}$ $\\text{The value of}k\\text{is}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The probability distribution of  $X$  is</p>\n<p> $\\begin{aligned} X &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ P(X) &amp; 0.3 &amp; k &amp; 2k &amp; 2k \\end{aligned}$ </p>\n $\\text{The value of}k\\text{is}$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0.7\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.3\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.14",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.14<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\text{We have,}$ $\\begin{aligned} X & 0 & 1 & 2 & 3 \\\\ P(X) & 0.3 & K & 2K & 2K \\end{aligned}$ $\\begin{aligned} & \\text{We know that} \\\\ & \\Sigma P(x)=1 \\end{aligned}$ $\\begin{aligned} \\therefore & 0.3+K+2K+2K=1 \\\\ \\Rightarrow & 5K=0.7 \\\\ \\Rightarrow & K=\\frac{0.7}{5}=0.14 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{We have,}$ </p>\n<p> $\\begin{aligned} X &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ P(X) &amp; 0.3 &amp; K &amp; 2K &amp; 2K \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{We know that} \\\\ &amp; \\Sigma P(x)=1 \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\therefore &amp; 0.3+K+2K+2K=1 \\\\ \\Rightarrow &amp; 5K=0.7 \\\\ \\Rightarrow &amp; K=\\frac{0.7}{5}=0.14 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\begin{aligned} & \\text{We know that} \\\\ & \\Sigma P(x)=1 \\end{aligned}"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:59.184132"
+    },
+    {
+      "id": 9228,
+      "qid": "m9durahc",
+      "chapter_slug": "kcet-probability",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-a-and-b-are-mutually-exclusive-events-given-that-p-kcet-mathematics-complex-numbers-8sdw8wuzt6g4ruv9",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Two events $A$ and $B$ will be independent if",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Two events  $A$  and  $B$  will be independent if\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$P(A^{'}∩B^{'})=1(1-P(A))(1-P(B))$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A^{'}∩B^{'})=1(1-P(A))(1-P(B))$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$P(A)+P(B)=1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A)+P(B)=1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$P(A)=P(B)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $P(A)=P(B)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$A$ and $B$ are mutually exclusive",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $A$  and  $B$  are mutually exclusive<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "If events $A$ and $B$ are independent, the probability of both events occurring together is given by: $P(A∩B)=P(A) \\cdot P(B)$ Moreover, if $A$ and $B$ are independent, their complements, $A^{'}$ and $B^{'}$ , are also independent. This implies: $P(A^{'}∩B^{'})=P(A^{'}) \\cdot P(B^{'})$ Since the probability of a complement of an event is $1-P$ of the event itself, we can express this as: $P(A^{'}∩B^{'})=(1-P(A)) \\cdot (1-P(B))$ Furthermore, if $A$ and $B$ are mutually exclusive, it means they cannot happen at the same time, and thus: $P(A∩B)=0$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If events  $A$  and  $B$  are independent, the probability of both events occurring together is given by:</p>\n<p> $P(A∩B)=P(A) \\cdot P(B)$ </p>\n<p>Moreover, if  $A$  and  $B$  are independent, their complements,  $A^{'}$  and  $B^{'}$ , are also independent. This implies:</p>\n<p> $P(A^{'}∩B^{'})=P(A^{'}) \\cdot P(B^{'})$ </p>\n<p>Since the probability of a complement of an event is  $1-P$  of the event itself, we can express this as:</p>\n<p> $P(A^{'}∩B^{'})=(1-P(A)) \\cdot (1-P(B))$ </p>\n<p>Furthermore, if  $A$  and  $B$  are mutually exclusive, it means they cannot happen at the same time, and thus:</p>\n<p> $P(A∩B)=0$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Probability - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P(A∩B)=P(A) \\cdot P(B)",
+        "P(A∩B)=0"
+      ],
+      "key_concepts": [
+        "Kcet Probability - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:59.201124"
+    }
+  ]
+}

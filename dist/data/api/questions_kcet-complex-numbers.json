@@ -1,0 +1,484 @@
+{
+  "chapter_slug": "kcet-complex-numbers",
+  "total": 9,
+  "questions": [
+    {
+      "id": 8467,
+      "qid": "jt-mr7eh8xv",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sumlimitsn14--12n-cdot-i2n---kcet-mathematics-c6dxdjcuu6afwhw0",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\sum_{n=1}^{4}(-1)^{2n} \\cdot i^{2n}=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\sum_{n=1}^{4}(-1)^{2n} \\cdot i^{2n}=$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$-i$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-i$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$i$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $i$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "$(-1)^{2n}$ is always equal to $1$ , because the power $2n$ is even. So, $(-1)^{2n} \\cdot i^{2n}=1 \\cdot i^{2n}=i^{2n}$ Now use $i^{2}=-1$ . $i^{2n}=(i^{2})^{n}=(-1)^{n}$ So the given sum becomes $\\sum_{4}^{n=1}(-1)^{n}$ Now put $n=1,2,3,4$ : $(-1)^{1}+(-1)^{2}+(-1)^{3}+(-1)^{4}$ $=-1+1-1+1$ $=0$ So the correct option is $0$ Option C.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $(-1)^{2n}$  is always equal to  $1$ , because the power  $2n$  is even.</p>\n<p>So,</p>\n<p> $(-1)^{2n} \\cdot i^{2n}=1 \\cdot i^{2n}=i^{2n}$ </p>\n<p>Now use  $i^{2}=-1$ .</p>\n<p> $i^{2n}=(i^{2})^{n}=(-1)^{n}$ </p>\n<p>So the given sum becomes</p>\n<p> $\\sum_{4}^{n=1}(-1)^{n}$ </p>\n<p>Now put  $n=1,2,3,4$ :</p>\n<p> $(-1)^{1}+(-1)^{2}+(-1)^{3}+(-1)^{4}$ </p>\n<p> $=-1+1-1+1$ </p>\n<p> $=0$ </p>\n<p>So the correct option is</p>\n<p> $0$ </p>\n<p>Option C.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\sum_{n=1}^{4}(-1)^{2n} \\cdot i^{2n}=",
+        "(-1)^{2n}",
+        "=-1+1-1+1"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:14.482779"
+    },
+    {
+      "id": 8469,
+      "qid": "mcf6ztp8",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sumlimitsn14--12n-cdot-i2n---kcet-mathematics-c6dxdjcuu6afwhw0",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $Z_{1}$ and $Z_{2}$ are two non-zero complex numbers, then which of the following is not true?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $Z_{1}$  and  $Z_{2}$  are two non-zero complex numbers, then which of the following is not true?</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar{Z_{1}+Z_{2}}=\\bar{Z}_{1}+\\bar{Z}_{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\bar{Z_{1}+Z_{2}}=\\bar{Z}_{1}+\\bar{Z}_{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$|Z_{1}Z_{2}|=|Z_{1}| \\cdot |Z_{2}|$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $|Z_{1}Z_{2}|=|Z_{1}| \\cdot |Z_{2}|$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar{Z_{1}Z_{2}}=\\bar{Z}_{1} \\cdot \\bar{Z}_{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\bar{Z_{1}Z_{2}}=\\bar{Z}_{1} \\cdot \\bar{Z}_{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$|Z_{1}+Z_{2}| \\ge |Z_{1}|+|Z_{2}|$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $|Z_{1}+Z_{2}| \\ge |Z_{1}|+|Z_{2}|$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$|Z_{1}+Z_{2}| \\le |Z_{1}|+|Z_{2}|$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $|Z_{1}+Z_{2}| \\le |Z_{1}|+|Z_{2}|$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "Z_{1}",
+        "Z_{2}",
+        "|Z_{1}+Z_{2}| \\le |Z_{1}|+|Z_{2}|"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.164571"
+    },
+    {
+      "id": 8471,
+      "qid": "m5yu98h0",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sumlimitsn14--12n-cdot-i2n---kcet-mathematics-c6dxdjcuu6afwhw0",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The real value of ' $\\alpha$ ' for which $\\frac{1-isin\\alpha}{1+2isin\\alpha}$ is purely real is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The real value of '  $\\alpha$  ' for which  $\\frac{1-isin\\alpha}{1+2isin\\alpha}$  is purely real is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(n+1)\\frac{\\pi}{2},n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(n+1)\\frac{\\pi}{2},n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(2n+1)\\frac{\\pi}{2},n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(2n+1)\\frac{\\pi}{2},n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$n\\pi,n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $n\\pi,n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(2n-1)\\frac{\\pi}{2},n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(2n-1)\\frac{\\pi}{2},n \\in N$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\frac{1-isin\\alpha}{1+2isin\\alpha}$ is purely real i.e. $\\frac{1-isin\\alpha}{1+2isin\\alpha} \\times \\frac{(1-2isin\\alpha)}{(1-2isin\\alpha)}$ $\\begin{aligned} & =\\frac{1-isin\\alpha-2isin\\alpha+2i^{2}sin^{2}\\alpha}{1-4i^{2}sin^{2}\\alpha} \\\\ & =\\frac{1-3isin\\alpha-2sin^{2}\\alpha}{1+4sin^{2}\\alpha} \\\\ & =\\frac{1-2sin^{2}\\alpha}{1+4sin^{2}\\alpha}+i(\\frac{-3sin\\alpha}{1+4sin^{2}\\alpha}) \\end{aligned}$ which is given to purely real $\\begin{aligned} \\Rightarrow & \\frac{-3sin\\alpha}{1+4sin^{2}\\alpha}=0 \\\\ \\Rightarrow & -3sin\\alpha=0 \\Rightarrow sin\\alpha=0 \\end{aligned}$ Hence, $\\alpha=n\\pi,n \\in N$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $\\frac{1-isin\\alpha}{1+2isin\\alpha}$  is purely real</p>\n<p>i.e.  $\\frac{1-isin\\alpha}{1+2isin\\alpha} \\times \\frac{(1-2isin\\alpha)}{(1-2isin\\alpha)}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{1-isin\\alpha-2isin\\alpha+2i^{2}sin^{2}\\alpha}{1-4i^{2}sin^{2}\\alpha} \\\\ &amp; =\\frac{1-3isin\\alpha-2sin^{2}\\alpha}{1+4sin^{2}\\alpha} \\\\ &amp; =\\frac{1-2sin^{2}\\alpha}{1+4sin^{2}\\alpha}+i(\\frac{-3sin\\alpha}{1+4sin^{2}\\alpha}) \\end{aligned}$ </p>\n<p>which is given to purely real</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; \\frac{-3sin\\alpha}{1+4sin^{2}\\alpha}=0 \\\\ \\Rightarrow &amp; -3sin\\alpha=0 \\Rightarrow sin\\alpha=0 \\end{aligned}$ </p>\n<p>Hence,  $\\alpha=n\\pi,n \\in N$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{1-isin\\alpha}{1+2isin\\alpha}"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.274581"
+    },
+    {
+      "id": 8472,
+      "qid": "jaoe38c1locixawe",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sumlimitsn14--12n-cdot-i2n---kcet-mathematics-c6dxdjcuu6afwhw0",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The modulus of the complex number $\\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The modulus of the complex number  $\\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{\\sqrt{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{\\sqrt{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{\\sqrt{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{2}}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{2}}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{\\sqrt{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{\\sqrt{2}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Here,} & \\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)} \\\\ = & \\frac{(1+i^{2}+2i)(1+3i)}{4-4i-12i+12i^{2}} \\\\ = & \\frac{2i+6i^{2}}{-8-16i}=\\frac{2i-6}{-8-16i} \\\\ = & \\frac{i-3}{-4-8i} \\\\ = & \\frac{3-i}{(4+8i)} \\times \\frac{(4-8i)}{(4-8i)} \\\\ = & \\frac{12-28i-8}{16+64} \\\\ = & \\frac{4-28i}{80}=\\frac{1-7i}{20} \\\\ = & \\frac{1}{20}-\\frac{7i}{20} \\end{aligned}$ $\\begin{aligned} & \\text{Let}z=x+iy \\\\ & \\because |z|=\\sqrt{x^{2}+y^{2}} \\\\ & \\Rightarrow |z|=\\sqrt{(\\frac{1}{20})^{2}+(\\frac{7}{20})^{2}} \\\\ & \\Rightarrow |z|=\\frac{1}{20}\\sqrt{50}=\\frac{5}{20}\\sqrt{2} \\\\ & \\Rightarrow |z|=\\frac{\\sqrt{2}}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Here,} &amp; \\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)} \\\\ = &amp; \\frac{(1+i^{2}+2i)(1+3i)}{4-4i-12i+12i^{2}} \\\\ = &amp; \\frac{2i+6i^{2}}{-8-16i}=\\frac{2i-6}{-8-16i} \\\\ = &amp; \\frac{i-3}{-4-8i} \\\\ = &amp; \\frac{3-i}{(4+8i)} \\times \\frac{(4-8i)}{(4-8i)} \\\\ = &amp; \\frac{12-28i-8}{16+64} \\\\ = &amp; \\frac{4-28i}{80}=\\frac{1-7i}{20} \\\\ = &amp; \\frac{1}{20}-\\frac{7i}{20} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Let}z=x+iy \\\\ &amp; \\because |z|=\\sqrt{x^{2}+y^{2}} \\\\ &amp; \\Rightarrow |z|=\\sqrt{(\\frac{1}{20})^{2}+(\\frac{7}{20})^{2}} \\\\ &amp; \\Rightarrow |z|=\\frac{1}{20}\\sqrt{50}=\\frac{5}{20}\\sqrt{2} \\\\ &amp; \\Rightarrow |z|=\\frac{\\sqrt{2}}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{(1+i)^{2}(1+3i)}{(2-6i)(2-2i)}"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.302165"
+    },
+    {
+      "id": 8475,
+      "qid": "jaoe38c1ls1knjp7",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-3-xi4-x-y6-i-where-x-and-y-are-real-nu-kcet-mathematics-complex-numbers-bvp5yrwos0c657yq",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $3x+i(4x-y)=6-i$ where $x$ and $y$ are real numbers, then the values of $x$ and $y$ are respectively,",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $3x+i(4x-y)=6-i$  where  $x$  and  $y$  are real numbers, then the values of  $x$  and  $y$  are respectively,</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3, 9<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2, 4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2, 4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2, 9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2, 9<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3, 4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3, 4<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$3x+i(4x-y)=6-i$ On comparing real and imaginary parts of LHS and RHS, we get $\\begin{aligned} 3x & =6\\text{and}4x-y=-1 \\\\ \\Rightarrow 3x & =6 \\Rightarrow x=2 \\end{aligned}$ Put $x=2$ into $4x-y=-1$ , we get $\\begin{aligned} & 4 \\times 2-y=-1 \\\\ \\Rightarrow & 8+1=y \\Rightarrow y=9 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $3x+i(4x-y)=6-i$ </p>\n<p>On comparing real and imaginary parts of LHS and RHS, we get</p>\n<p> $\\begin{aligned} 3x &amp; =6\\text{and}4x-y=-1 \\\\ \\Rightarrow 3x &amp; =6 \\Rightarrow x=2 \\end{aligned}$ </p>\n<p>Put  $x=2$  into  $4x-y=-1$ , we get</p>\n<p> $\\begin{aligned} &amp; 4 \\times 2-y=-1 \\\\ \\Rightarrow &amp; 8+1=y \\Rightarrow y=9 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "3x+i(4x-y)=6-i"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.496691"
+    },
+    {
+      "id": 8477,
+      "qid": "ltd1aa44",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-3-xi4-x-y6-i-where-x-and-y-are-real-nu-kcet-mathematics-complex-numbers-bvp5yrwos0c657yq",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $(\\frac{1+i}{1-i})^{x}=1$ , then",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $(\\frac{1+i}{1-i})^{x}=1$ , then</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x=4n+1,n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=4n+1,n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x=2n+1,n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=2n+1,n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x=2n,n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=2n,n \\in N$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$x=4n,n \\in N$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x=4n,n \\in N$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Given,}(\\frac{1+i}{1-i})^{x}=1 \\\\ & \\Rightarrow [\\frac{(1+i)}{1-i)} \\times \\frac{(1+i)}{(1+i)}]^{x}=1 \\\\ & \\Rightarrow [\\frac{1+i^{2}+2i}{1^{2}-i^{2}}]^{x}=1 \\\\ & \\Rightarrow [\\frac{1-1+2i}{1+1}]^{x}=1 \\\\ & \\Rightarrow i^{x}=1 \\\\ & \\Rightarrow i^{x}=1=i^{4n}\\text{where}n \\in N \\\\ & \\therefore x=4n,n \\in N. \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}(\\frac{1+i}{1-i})^{x}=1 \\\\ &amp; \\Rightarrow [\\frac{(1+i)}{1-i)} \\times \\frac{(1+i)}{(1+i)}]^{x}=1 \\\\ &amp; \\Rightarrow [\\frac{1+i^{2}+2i}{1^{2}-i^{2}}]^{x}=1 \\\\ &amp; \\Rightarrow [\\frac{1-1+2i}{1+1}]^{x}=1 \\\\ &amp; \\Rightarrow i^{x}=1 \\\\ &amp; \\Rightarrow i^{x}=1=i^{4n}\\text{where}n \\in N \\\\ &amp; \\therefore x=4n,n \\in N. \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "(\\frac{1+i}{1-i})^{x}=1"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.524171"
+    },
+    {
+      "id": 8479,
+      "qid": "ltj8wp2m",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-3-xi4-x-y6-i-where-x-and-y-are-real-nu-kcet-mathematics-complex-numbers-bvp5yrwos0c657yq",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $z=x+iy$ , then the equation $|z+1|=|z-1|$ represents",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $z=x+iy$ , then the equation  $|z+1|=|z-1|$  represents</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "a circle",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->a circle\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "a parabola",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->a parabola\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$X$ -axis",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $X$ -axis\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$Y$ -axis",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $Y$ -axis<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\begin{aligned} z & =x+iy \\\\ |z+1| & =|z-1| \\\\ |z+1|^{2} & =|z-1|^{2} \\\\ |x+iy+1|^{2} & =|x+iy-1|^{2} \\\\ (x+1)^{2}+y^{2} & =(x-1)^{2}+y^{2} \\\\ (x+1)^{2}-(x-1)^{2} & =0 \\\\ (x+1-x+1)(x+1+x-1) & =0 \\\\ x & =0 \\\\ \\therefore |z+1| & =|z-1|\\text{represents}Y\\text{-axis.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\begin{aligned} z &amp; =x+iy \\\\ |z+1| &amp; =|z-1| \\\\ |z+1|^{2} &amp; =|z-1|^{2} \\\\ |x+iy+1|^{2} &amp; =|x+iy-1|^{2} \\\\ (x+1)^{2}+y^{2} &amp; =(x-1)^{2}+y^{2} \\\\ (x+1)^{2}-(x-1)^{2} &amp; =0 \\\\ (x+1-x+1)(x+1+x-1) &amp; =0 \\\\ x &amp; =0 \\\\ \\therefore |z+1| &amp; =|z-1|\\text{represents}Y\\text{-axis.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "z=x+iy",
+        "|z+1|=|z-1|"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.540072"
+    },
+    {
+      "id": 8480,
+      "qid": "m7ish7j7",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-3-xi4-x-y6-i-where-x-and-y-are-real-nu-kcet-mathematics-complex-numbers-bvp5yrwos0c657yq",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $(\\frac{1-i}{1+i})^{96}=a+ib$ , then $(a,b)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $(\\frac{1-i}{1+i})^{96}=a+ib$ , then  $(a,b)$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(1,1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(1,1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(0,1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(0,1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(1,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(1,0)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(0,-1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(0,-1)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the given expression $(\\frac{1-i}{1+i})^{96}=a+ib$ , follow these steps: Simplify the Fraction : $\\frac{1-i}{1+i}$ Multiply the numerator and the denominator by the conjugate of the denominator: $\\frac{(1-i)(1-i)}{(1+i)(1-i)}$ Calculate the Numerator and Denominator : $(1-i)(1-i)=1-2i+i^{2}=1-2i-1=-2i$ $(1+i)(1-i)=1-i^{2}=1-(-1)=2$ Simplified Expression : $\\frac{-2i}{2}=-i$ Raise to the Power of 96 : $(-i)^{96}$ Understanding Powers of $-i$ : Since $(-i)^{4}=1$ , calculate $(-$ i $))^{96}$ : $(-i)^{96}=((-i)^{4})^{24}=1^{24}=1$ Thus, the expression simplifies to: $a+ib=1+0i$ Result : Therefore, $(a,b)=(1,0)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the given expression  $(\\frac{1-i}{1+i})^{96}=a+ib$ , follow these steps:</p>\n<p><p><strong>Simplify the Fraction</strong>: </p>\n<p> $\\frac{1-i}{1+i}$ </p>\n<p>Multiply the numerator and the denominator by the conjugate of the denominator:</p>\n<p> $\\frac{(1-i)(1-i)}{(1+i)(1-i)}$ </p></p>\n<p><p><strong>Calculate the Numerator and Denominator</strong>:</p>\n<p> $(1-i)(1-i)=1-2i+i^{2}=1-2i-1=-2i$ </p>\n<p> $(1+i)(1-i)=1-i^{2}=1-(-1)=2$ </p></p>\n<p><p><strong>Simplified Expression</strong>:</p>\n<p> $\\frac{-2i}{2}=-i$ </p></p>\n<p><p><strong>Raise to the Power of 96</strong>:</p>\n<p> $(-i)^{96}$ </p></p>\n<p><p><strong>Understanding Powers of  $-i$ </strong>:</p>\n<p>Since  $(-i)^{4}=1$ , calculate  $(-$ i $))^{96}$ :</p>\n<p> $(-i)^{96}=((-i)^{4})^{24}=1^{24}=1$ </p></p>\n<p>Thus, the expression simplifies to:</p>\n<p> $a+ib=1+0i$ </p>\n<ol start=\"6\">\n<p><p><strong>Result</strong>:</p>\n<p>Therefore,  $(a,b)=(1,0)$ .</p></p>\n</ol><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(\\frac{1-i}{1+i})^{96}=a+ib",
+        "\\frac{1-i}{1+i}",
+        "\\frac{(1-i)(1-i)}{(1+i)(1-i)}",
+        "(1-i)(1-i)=1-2i+i^{2}=1-2i-1=-2i",
+        "(1+i)(1-i)=1-i^{2}=1-(-1)=2",
+        "\\frac{-2i}{2}=-i"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.556256"
+    },
+    {
+      "id": 8481,
+      "qid": "m9dupea0",
+      "chapter_slug": "kcet-complex-numbers",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-leftfrac1i1-irightm1-then-the-least-positi-kcet-mathematics-complex-numbers-dnqelwdmgiq9gkzk",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If $(\\frac{1+i}{1-i})^{m}=1$ , then the least positive integral value of $m$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $(\\frac{1+i}{1-i})^{m}=1$ , then the least positive integral value of  $m$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 4\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 1<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\begin{aligned} & (\\frac{1+i}{1-i})^{m}=1 \\\\ & \\Rightarrow [\\frac{1+i}{1-i} \\times \\frac{1+i}{1+i}]^{m}=1 \\\\ & \\Rightarrow [\\frac{1+2i+i^{2}}{1-i^{2}}]^{m}=1 \\\\ & \\Rightarrow [\\frac{1+2i-1}{1-(-1)}]^{m}=1[ \\because i^{2}=-1] \\\\ & \\Rightarrow [\\frac{2i}{2}]^{m}=1 \\\\ & \\\\ & \\Rightarrow i^{m}=1 \\\\ & \\Rightarrow i^{m}=4[ \\because 1^{4}=1] \\\\ & \\Rightarrow m=4 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; (\\frac{1+i}{1-i})^{m}=1 \\\\ &amp; \\Rightarrow [\\frac{1+i}{1-i} \\times \\frac{1+i}{1+i}]^{m}=1 \\\\ &amp; \\Rightarrow [\\frac{1+2i+i^{2}}{1-i^{2}}]^{m}=1 \\\\ &amp; \\Rightarrow [\\frac{1+2i-1}{1-(-1)}]^{m}=1[ \\because i^{2}=-1] \\\\ &amp; \\Rightarrow [\\frac{2i}{2}]^{m}=1 \\\\ &amp; \\\\ &amp; \\Rightarrow i^{m}=1 \\\\ &amp; \\Rightarrow i^{m}=4[ \\because 1^{4}=1] \\\\ &amp; \\Rightarrow m=4 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Complex Numbers - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(\\frac{1+i}{1-i})^{m}=1"
+      ],
+      "key_concepts": [
+        "Kcet Complex Numbers - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:15.768966"
+    }
+  ]
+}

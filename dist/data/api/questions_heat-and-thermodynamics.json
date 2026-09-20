@@ -1,5 +1,1611 @@
 {
   "chapter_slug": "heat-and-thermodynamics",
-  "total": 0,
-  "questions": []
+  "total": 28,
+  "questions": [
+    {
+      "id": 28956,
+      "qid": "mnsik6i2",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-diatomic-gas-having-rotational-modes-only-is-jee-main-physics-units-and-measurements-imfnmrf7mrq0knic",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 8th April Evening Shift",
+      "exam_date": "8th April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "One mole of diatomic gas having rotational modes only is kept in a cylinder with a piston system. The cross-section area of the cylinder is $4cm^{2}$ . The gas is heated slowly to raise the temperature by $1.2^{\\circ}C$ during which the piston moves by 25 mm . The amount of heat supplied to the gas is $____$ J. (Atmospheric pressure $=100kPa,R=8.3J/mol.K$ ) (Neglect mass of the piston)",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>One mole of diatomic gas having rotational modes only is kept in a cylinder with a piston system. The cross-section area of the cylinder is  $4cm^{2}$ . The gas is heated slowly to raise the temperature by  $1.2^{\\circ}C$  during which the piston moves by 25 mm . The amount of heat supplied to the gas is  $____$  J.</p>\n<p>(Atmospheric pressure  $=100kPa,R=8.3J/mol.K$  ) (Neglect mass of the piston)</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "24.8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>24.8</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "10.96",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>10.96</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "15.04",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15.04</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "29.98",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>29.98</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the total heat supplied ( Q ), we use the $1^{\\text{st}}$ law of thermodynamics : $Q=\\Delta U+W$ Where, $\\Delta U$ is the change in internal energy and W is the work done by the gas. The internal energy of an ideal gas depends on its degrees of freedom (f). For a diatomic gas, there are 3 translational and 2 rotational degrees of freedom ( $f=5$ ). However, it is given that the gas has rotational modes only, which means we only consider $f=2$ . The formula for internal energy change is : $\\Delta U=\\frac{nfR\\Delta T}{2}$ The amount of gas is 1 mole, $n=1$ mole, the degree of freedom is $f=2$ , the universal gas constant is $R=\\frac{8.3J}{mol \\cdot K}$ and the change in temperature of gas is $\\Delta T=1.2^{\\circ}C=1.2K$ $\\Delta U=\\frac{1 \\times 2 \\times 8.3 \\times 1.2}{2}$ $\\Rightarrow$ $\\Delta U=8.3 \\times 1.2=9.96J$ Work done by the gas in a piston system is given by: $W=P\\Delta V$ Since the mass of the piston is neglected and it moves slowly, the internal pressure P equals the atmospheric pressure ( $P_{atm}$ ). The change in volume $\\Delta V$ is $\\Delta V=A \\times \\Delta x$ , where the cross-sectional area is A and displacement of the piston is $\\Delta x$ . The atmospheric pressure is $P=100kPa=10^{5}Pa$ The area of cross-section is $A=4cm^{2}=4 \\times 10^{-4}m^{2}$ The displacement of piston $d=25mm=25 \\times 10^{-3}m$ $\\Delta V=A \\times \\Delta x=(4 \\times 10^{-4}) \\times (25 \\times 10^{-3})=100 \\times 10^{-7}=10^{-5}m^{3}$ So, the work done by the gas is; $W=10^{5} \\times 10^{-5}=1J$ Using $1^{\\text{st}}$ law of thermodynamics, $Q=\\Delta U+W$ $\\Rightarrow$ $Q=9.96J+1J=10.96J$ Therefore, the amount of heat supplied by the gas is 10.96 J.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the total heat supplied ( Q ), we use the  $1^{\\text{st}}$  law of thermodynamics :</p>\n<p> $Q=\\Delta U+W$ </p>\n<p>Where,  $\\Delta U$  is the change in internal energy and W is the work done by the gas.</p>\n<p>The internal energy of an ideal gas depends on its degrees of freedom (f). For a diatomic gas, there are 3 translational and 2 rotational degrees of freedom (  $f=5$  ). However, it is given that the gas has rotational modes only, which means we only consider  $f=2$ .</p>\n<p><img alt=\"JEE Main 2026 (Online) 8th April Evening Shift Physics - Heat and Thermodynamics Question 13 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>The formula for internal energy change is :</p>\n<p> $\\Delta U=\\frac{nfR\\Delta T}{2}$ </p>\n<p>The amount of gas is 1 mole,  $n=1$  mole, the degree of freedom is  $f=2$ , the universal gas constant is  $R=\\frac{8.3J}{mol \\cdot K}$  and the change in temperature of gas is  $\\Delta T=1.2^{\\circ}C=1.2K$ </p>\n<p> $\\Delta U=\\frac{1 \\times 2 \\times 8.3 \\times 1.2}{2}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=8.3 \\times 1.2=9.96J$ </p>\n<p>Work done by the gas in a piston system is given by:</p>\n<p> $W=P\\Delta V$ </p>\n<p>Since the mass of the piston is neglected and it moves slowly, the internal pressure P equals the atmospheric pressure (  $P_{atm}$  ).</p>\n<p>The change in volume  $\\Delta V$  is  $\\Delta V=A \\times \\Delta x$ , where the cross-sectional area is A and displacement of the piston is  $\\Delta x$ .</p>\n<p>The atmospheric pressure is  $P=100kPa=10^{5}Pa$ </p>\n<p>The area of cross-section is  $A=4cm^{2}=4 \\times 10^{-4}m^{2}$ </p>\n<p>The displacement of piston  $d=25mm=25 \\times 10^{-3}m$ </p>\n<p> $\\Delta V=A \\times \\Delta x=(4 \\times 10^{-4}) \\times (25 \\times 10^{-3})=100 \\times 10^{-7}=10^{-5}m^{3}$ </p>\n<p>So, the work done by the gas is;</p>\n<p> $W=10^{5} \\times 10^{-5}=1J$ </p>\n<p>Using  $1^{\\text{st}}$  law of thermodynamics,</p>\n<p> $Q=\\Delta U+W$ </p>\n<p> $\\Rightarrow$   $Q=9.96J+1J=10.96J$ </p>\n<p>Therefore, the amount of heat supplied by the gas is 10.96 J.</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo2pgp3s/3d452c54-d44e-48ed-ac6c-693efff899e6/be8f2980-3a3f-11f1-9578-51f4f7636b79/file-6y3zli1mo2pgp3t.png?format=png"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "4cm^{2}",
+        "1.2^{\\circ}C",
+        "____",
+        "=100kPa,R=8.3J/mol.K",
+        "1^{\\text{st}}",
+        "Q=\\Delta U+W"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:42.061681"
+    },
+    {
+      "id": 28969,
+      "qid": "mnswhuac",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/ptwo-closed-vessels-of-same-volume-are-joined-through-a-na-jee-main-physics-units-and-measurements-lmtu0xu2vejgtoxg",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Morning Shift",
+      "exam_date": "6th April",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Two closed vessels of same volume are joined through a narrow tube and both vessels are filled with air of pressure 90 kPa and temperature 400 K . Keeping the temperature of one vessel constant at 400 K the second vessel temperature is raised to 500 K . The final pressure in the vessels is $____$ kPa .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Two closed vessels of same volume are joined through a narrow tube and both vessels are filled with air of pressure 90 kPa and temperature 400 K . Keeping the temperature of one vessel constant at 400 K the second vessel temperature is raised to 500 K . The final pressure in the vessels is  $____$  kPa .</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "100",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>100</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "120",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>120</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "90",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>90</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "105",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>105</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Using Ideal Gas Law: PV = nRT Where P is pressure, V is volume, n is number of moles, R is the gas constant, and T is absolute temperature. Since the system is closed, the total number of moles ( $n_{\\text{total}}$ ) remains constant before and after heating. Initial State: Both vessels (each of volume V ) are at $P_{0}=90kPa$ and $T_{0}=400K$ . $n_{\\text{total}}=\\frac{P_{0}V}{RT_{0}}+\\frac{P_{0}V}{RT_{0}}=\\frac{2P_{0}V}{RT_{0}}\\dots(i)$ Final State: Pressure becomes $P_{f}$ in both vessels. Vessel 1 stays at $T_{1}=400K$ , and vessel 2 is at $T_{2}=500K$ . $n_{\\text{total}}=\\frac{P_{f}V}{RT_{1}}+\\frac{P_{f}V}{RT_{2}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})\\dots(ii)$ From both the equations, $\\frac{2P_{0}V}{RT_{0}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}}) \\Rightarrow \\frac{2P_{0}}{T_{0}}=P_{f}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})$ Substituting the values ( $P_{0}=90,T_{0}=400,T_{1}=400,T_{2}=500$ ): $2 \\times \\frac{90}{400}=P_{f}(\\frac{1}{400}+\\frac{1}{500})$ $\\Rightarrow$ $\\frac{180}{400}=P_{f}(\\frac{5+4}{2000})$ $\\Rightarrow$ $0.45=P_{f}(\\frac{9}{2000})$ $\\Rightarrow$ $P_{f}=\\frac{0.45 \\times 2000}{9}=\\frac{900}{9}=100kPa$ Therefore, the final pressure of the vessel is 100 kPa . Thus, the correct option is (A).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using Ideal Gas Law:</p>\n<p>PV = nRT</p>\n<p>Where P is pressure, V is volume, n is number of moles, R is the gas constant, and T is absolute temperature. Since the system is closed, the total number of moles (  $n_{\\text{total}}$  ) remains constant before and after heating.</p>\n<p>Initial State:</p>\n<p>Both vessels (each of volume V ) are at  $P_{0}=90kPa$  and  $T_{0}=400K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{0}V}{RT_{0}}+\\frac{P_{0}V}{RT_{0}}=\\frac{2P_{0}V}{RT_{0}}\\dots(i)$ </p>\n<p>Final State: Pressure becomes  $P_{f}$  in both vessels. Vessel 1 stays at  $T_{1}=400K$ , and vessel 2 is at  $T_{2}=500K$ .</p>\n<p> $n_{\\text{total}}=\\frac{P_{f}V}{RT_{1}}+\\frac{P_{f}V}{RT_{2}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})\\dots(ii)$ </p>\n<p>From both the equations,</p>\n<p> $\\frac{2P_{0}V}{RT_{0}}=\\frac{P_{f}V}{R}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}}) \\Rightarrow \\frac{2P_{0}}{T_{0}}=P_{f}(\\frac{1}{T_{1}}+\\frac{1}{T_{2}})$ </p>\n<p>Substituting the values (  $P_{0}=90,T_{0}=400,T_{1}=400,T_{2}=500$  ):</p>\n<p> $2 \\times \\frac{90}{400}=P_{f}(\\frac{1}{400}+\\frac{1}{500})$ </p>\n<p> $\\Rightarrow$   $\\frac{180}{400}=P_{f}(\\frac{5+4}{2000})$ </p>\n<p> $\\Rightarrow$   $0.45=P_{f}(\\frac{9}{2000})$ </p>\n<p> $\\Rightarrow$   $P_{f}=\\frac{0.45 \\times 2000}{9}=\\frac{900}{9}=100kPa$ </p>\n<p>Therefore, the final pressure of the vessel is 100 kPa . Thus, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "____",
+        "n_{\\text{total}}",
+        "P_{0}=90kPa",
+        "T_{0}=400K",
+        "\\frac{180}{400}=P_{f}(\\frac{5+4}{2000})",
+        "0.45=P_{f}(\\frac{9}{2000})"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:43.694357"
+    },
+    {
+      "id": 28982,
+      "qid": "mnswhy3f",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pgiven-below-are-two-statements-one-is-labelled-as-assert-jee-main-physics-units-and-measurements-ffh31crcujlf2eyp",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 4th April Evening Shift",
+      "exam_date": "4th April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R Assertion A : If the average kinetic energy of $H_{2}$ and $O_{2}$ molecules, kept in two different sized containers are same, then their temperatures will be same. Reason R : The r.m.s speed of $H_{2}$ and $O_{2}$ molecules are same at same temperature. Choose the correct answer from the options given below",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R</p>\n<p><b>Assertion A :</b> If the average kinetic energy of  $H_{2}$  and  $O_{2}$  molecules, kept in two different sized containers are same, then their temperatures will be same.</p>\n<p><b>Reason R :</b> The r.m.s speed of  $H_{2}$  and  $O_{2}$  molecules are same at same temperature.</p>\n<p>Choose the correct answer from the options given below</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>Both  $A$  and  $R$  are true and  $R$  is the correct explanation of  $A$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Both $A$ and $R$ are true but $R$ is NOT the correct explanation of $A$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>Both  $A$  and  $R$  are true but  $R$  is NOT the correct explanation of  $A$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "is true but $R$ is false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A is true but  $R$  is false</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "is false but $R$ is true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A is false but  $R$  is true</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "According to the kinetic theory of gases, the average translational kinetic energy ( $K_{\\text{avg}}$ ) of a gas molecule is directly proportional to its absolute temperature (T). $K_{avg}=\\frac{3}{2}k_{B}T$ Where $k_{B}$ is the Boltzmann constant. So, the average kinetic energy depends only on the temperature and not on the mass of the molecule or the size/volume of the container. Since $K_{avg}$ is the same for both $H_{2}$ and $O_{2}$ , their temperatures (T) must be identical. Therefore, Assertion A is true. The root mean square (r. m. s.) speed ( $v_{\\text{rms}}$ ) of a gas molecule is given by the formula: $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ Where R is the universal gas constant, T is the absolute temperature, and M is the molar mass of the gas. At the same temperature (T), $v_{rms}$ is inversely proportional to the square root of the molar mass (M). Since the molar mass of $H_{2}(2g/mol)$ is different from $O_{2}(32g/mol)$ , their r.m.s. speeds will be different even at the same temperature. Therefore, Reason R is false. Hence, Assertion A is true, but Reason R is false. So, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the kinetic theory of gases, the average translational kinetic energy (  $K_{\\text{avg}}$  ) of a gas molecule is directly proportional to its absolute temperature (T).</p>\n<p> $K_{avg}=\\frac{3}{2}k_{B}T$ </p>\n<p>Where  $k_{B}$  is the Boltzmann constant.</p>\n<p>So, the average kinetic energy depends only on the temperature and not on the mass of the molecule or the size/volume of the container.</p>\n<p>Since  $K_{avg}$  is the same for both  $H_{2}$  and  $O_{2}$ , their temperatures (T) must be identical.</p>\n<p>Therefore, Assertion A is true.</p>\n<p>The root mean square (r. m. s.) speed (  $v_{\\text{rms}}$  ) of a gas molecule is given by the formula:</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where R is the universal gas constant, T is the absolute temperature, and M is the molar mass of the gas.</p>\n<p>At the same temperature (T),  $v_{rms}$  is inversely proportional to the square root of the molar mass (M).</p>\n<p>Since the molar mass of  $H_{2}(2g/mol)$  is different from  $O_{2}(32g/mol)$ , their r.m.s. speeds will be different even at the same temperature.</p>\n<p>Therefore, Reason R is false.</p>\n<p>Hence, Assertion A is true, but Reason R is false. \n<br/><br/>So, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "H_{2}",
+        "O_{2}",
+        "K_{\\text{avg}}",
+        "K_{avg}=\\frac{3}{2}k_{B}T",
+        "k_{B}",
+        "K_{avg}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:45.099730"
+    },
+    {
+      "id": 28995,
+      "qid": "mnrqxet1",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-mixture-of-carbon-dioxide-and-oxygen-has-volume-8310-cm-jee-main-physics-ba5xtqsiq3zxacxk",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 2nd April Evening Shift",
+      "exam_date": "2nd April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "A mixture of carbon dioxide and oxygen has volume 8310 cm 3 , temperature 300 K, pressure 100 kPa and mass 13.2 g. The number of moles of carbon dioxide and oxygen gases in the mixture respectively are ______. (Assume both carbon dioxide and oxygen gases behave like ideal gases) [R = 8.31 J/mol K]",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A mixture of carbon dioxide and oxygen has volume 8310 cm<sup>3</sup>, temperature 300 K, pressure 100 kPa and mass 13.2 g. The number of moles of carbon dioxide and oxygen gases in the mixture respectively are ______.</p><p>(Assume both carbon dioxide and oxygen gases behave like ideal gases) [R = 8.31 J/mol K]</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.15 and 0.18",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.15 and 0.18</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.25 and 0.08",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.25 and 0.08</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.21 and 0.12",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.21 and 0.12</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.13 and 0.20",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.13 and 0.20</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "Using the ideal gas equation $PV=nRT$ The pressure of gas is given as $P=100kPa=10^{5}Pa$ . The volume of gas is $V=8310cm^{3}=8310 \\times 10^{-6}m^{3}=8.31 \\times 10^{-3}m^{3}$ The temperature of gas is $T=300K$ The universal gas constant is $R=8.31J/mol.K$ So, the number of moles of gas is, $n_{\\text{total}}=\\frac{PV}{RT}=\\frac{10^{5} \\times 8.31 \\times 10^{-3}}{8.31 \\times 300}$ $\\Rightarrow$ $n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles$ Let $n_{1}$ be the moles of $CO_{2}$ and $n_{2}$ be the moles of $O_{2},n_{1}+n_{2}=0.333$ .......(i) Molar mass of $CO_{2}$ is $M_{1}=12+(2 \\times 16)=44g/mol$ Molar mass of $O_{2}$ is $M_{2}=2 \\times 16=32g/mol$ As the total mass of the mixture is 13.2 g : $n_{1}M_{1}+n_{2}M_{2}=13.2$ $44n_{1}+32n_{2}=13.2\\dots......(ii)$ From equation (i), $n_{2}=0.333-n_{1}$ . Substituting this into (ii) : $44n_{1}+32(0.333-n_{1})=13.2$ $\\Rightarrow$ $44n_{1}+10.66-32n_{1}=13.2$ $\\Rightarrow$ $12n_{1}=2.54$ $\\Rightarrow$ $n_{1} \\approx 0.21\\text{moles}$ So, $n_{2}=0.333-0.21=0.12$ moles Therefore, the number of moles of carbon dioxide and oxygen gases in the mixture respectively are $0.21,0.12$ . Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using the ideal gas equation  $PV=nRT$ </p>\n<p>The pressure of gas is given as  $P=100kPa=10^{5}Pa$ .</p>\n<p>The volume of gas is  $V=8310cm^{3}=8310 \\times 10^{-6}m^{3}=8.31 \\times 10^{-3}m^{3}$ </p>\n<p>The temperature of gas is  $T=300K$ </p>\n<p>The universal gas constant is  $R=8.31J/mol.K$ </p>\n<p>So, the number of moles of gas is,</p>\n<p> $n_{\\text{total}}=\\frac{PV}{RT}=\\frac{10^{5} \\times 8.31 \\times 10^{-3}}{8.31 \\times 300}$ </p>\n<p> $\\Rightarrow$   $n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles$ </p>\n<p>Let  $n_{1}$  be the moles of  $CO_{2}$  and  $n_{2}$  be the moles of  $O_{2},n_{1}+n_{2}=0.333$  .......(i) </p>\n<p>Molar mass of  $CO_{2}$  is  $M_{1}=12+(2 \\times 16)=44g/mol$ </p>\n<p>Molar mass of  $O_{2}$  is  $M_{2}=2 \\times 16=32g/mol$ </p>\n<p>As the total mass of the mixture is 13.2 g :</p>\n<p> $n_{1}M_{1}+n_{2}M_{2}=13.2$ </p>\n<p> $44n_{1}+32n_{2}=13.2\\dots......(ii)$ </p>\n<p>From equation (i),  $n_{2}=0.333-n_{1}$ .</p>\n<p>Substituting this into (ii) :</p>\n<p> $44n_{1}+32(0.333-n_{1})=13.2$ </p>\n<p> $\\Rightarrow$   $44n_{1}+10.66-32n_{1}=13.2$ </p>\n<p> $\\Rightarrow$   $12n_{1}=2.54$ </p>\n<p> $\\Rightarrow$   $n_{1} \\approx 0.21\\text{moles}$ </p>\n<p>So,  $n_{2}=0.333-0.21=0.12$  moles</p>\n<p>Therefore, the number of moles of carbon dioxide and oxygen gases in the mixture respectively are  $0.21,0.12$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "PV=nRT",
+        "P=100kPa=10^{5}Pa",
+        "V=8310cm^{3}=8310 \\times 10^{-6}m^{3}=8.31 \\times 10^{-3}m^{3}",
+        "T=300K",
+        "R=8.31J/mol.K",
+        "n_{\\text{total}}=\\frac{831}{2493}=\\frac{1}{3} \\approx 0.333moles"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:46.727810"
+    },
+    {
+      "id": 29010,
+      "qid": "ml81k5o1",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/p10-kg-of-ice-at--10circ-mathrmc-is-added-to-100-jee-main-physics-units-and-measurements-z6lfp0jp2xmelfg9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Morning Shift",
+      "exam_date": "28th January",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "10 kg of ice at $-10^{\\circ}C$ is added to 100 kg of water to lower its temperature from 25 $^{\\circ}C$ . Consider no heat exchange to surroundings. The decrement to the temperature of water is $____$ $^{\\circ}C$ . (specific heat of ice $=2100J/Kg.^{\\circ}C$ , specific heat of water $=4200J/Kg.^{\\circ}C$ , latent heat of fusion of ice $=3.36 \\times 10^{5}J/Kg$ )",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>10 kg of ice at  $-10^{\\circ}C$  is added to 100 kg of water to lower its temperature from 25  $^{\\circ}C$ . Consider no heat exchange to surroundings. The decrement to the temperature of water is  $____$   $^{\\circ}C$ .</p>\n<p>(specific heat of ice  $=2100J/Kg.^{\\circ}C$ , specific heat of water  $=4200J/Kg.^{\\circ}C$ , latent heat of fusion of ice  $=3.36 \\times 10^{5}J/Kg$  )</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "15",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>10</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "6.67",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>6.67</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "11.6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>11.6</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "Mass of the ice is $m_{i}=10kg$ , Initial temperature of ice is $T_{i}=-10^{\\circ}C$ , The specific heat of ice is $c_{i}=2100\\frac{J}{kg \\cdot ^{\\circ}C}$ , The latent heat of fusion of ice is $L_{f}=3.36 \\times 10^{5}J/kg$ The mass of water is $m_{w}=100kg$ , The initial temperature of water is $T_{w}=25^{\\circ}C$ , The specific heat capacity of water is $c_{w}=4200\\frac{J}{kg \\cdot ^{\\circ}C}$ Let the final equilibrium temperature is $T_{f}$ . The heat gained by ice is for three process, $Q_{\\text{gained}}=Q_{1}$ (Heating ice to $0^{\\circ}C)+Q_{2}$ (Melting ice at $0^{\\circ}C)+Q_{3}$ (Heating the melted ice (water) to $T_{f}$ ) $\\Rightarrow$ $Q_{1}=m_{i}c_{i}\\Delta T=10 \\times 2100 \\times (0-(-10))=210000J$ $\\Rightarrow$ $Q_{2}=m_{i}L_{f}=10 \\times 3.36 \\times 10^{5}=3360000J$ $\\Rightarrow$ $Q_{3}=m_{i}c_{w}(T_{f}-0)=10 \\times 4200 \\times T_{f}=42000T_{f}$ $Q_{\\text{gained}}=210000+3360000+42000T_{f}=3570000+42000T_{f}$ The water cools from $25^{\\circ}C$ to $T_{f}$ . So the heat lost by water is, $Q_{\\text{loss}}=m_{w}c_{w}(25-T_{f})=100 \\times 4200 \\times (25-T_{f})=420000(25-T_{f})$ $\\Rightarrow$ $Q_{\\text{loss}}=10500000-420000T_{f}$ Using conservation of energy, $Q_{\\text{gain}}=Q_{\\text{loss}}$ $3570000+42000T_{f}=10500000-420000T_{f}$ $\\Rightarrow$ $462000T_{f}=6930000$ $\\Rightarrow$ $T_{f}=\\frac{6930000}{462000}=15^{\\circ}C$ So the decrease in the temperature of the water: $\\Delta T_{\\text{water}}=T_{\\text{initial}}-T_{f}=25^{\\circ}C-15^{\\circ}C=10^{\\circ}C$ Therefore, the decrement to the temperature of water is $10^{\\circ}C$ . Hence, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Mass of the ice is  $m_{i}=10kg$ ,</p>\n<p>Initial temperature of ice is  $T_{i}=-10^{\\circ}C$ ,</p>\n<p>The specific heat of ice is  $c_{i}=2100\\frac{J}{kg \\cdot ^{\\circ}C}$ ,</p>\n<p>The latent heat of fusion of ice is  $L_{f}=3.36 \\times 10^{5}J/kg$ </p>\n<p>The mass of water is  $m_{w}=100kg$ ,</p>\n<p>The initial temperature of water is  $T_{w}=25^{\\circ}C$ ,</p>\n<p>The specific heat capacity of water is  $c_{w}=4200\\frac{J}{kg \\cdot ^{\\circ}C}$ </p>\n<p>Let the final equilibrium temperature is  $T_{f}$ .</p>\n<p>The heat gained by ice is for three process,</p>\n<p> $Q_{\\text{gained}}=Q_{1}$  (Heating ice to  $0^{\\circ}C)+Q_{2}$  (Melting ice at  $0^{\\circ}C)+Q_{3}$  (Heating the melted ice (water) to  $T_{f}$  )</p>\n<p> $\\Rightarrow$   $Q_{1}=m_{i}c_{i}\\Delta T=10 \\times 2100 \\times (0-(-10))=210000J$ </p>\n<p> $\\Rightarrow$   $Q_{2}=m_{i}L_{f}=10 \\times 3.36 \\times 10^{5}=3360000J$ </p>\n<p> $\\Rightarrow$   $Q_{3}=m_{i}c_{w}(T_{f}-0)=10 \\times 4200 \\times T_{f}=42000T_{f}$ </p>\n<p> $Q_{\\text{gained}}=210000+3360000+42000T_{f}=3570000+42000T_{f}$ </p>\n<p>The water cools from  $25^{\\circ}C$  to  $T_{f}$ . So the heat lost by water is,</p>\n<p> $Q_{\\text{loss}}=m_{w}c_{w}(25-T_{f})=100 \\times 4200 \\times (25-T_{f})=420000(25-T_{f})$ </p>\n<p> $\\Rightarrow$   $Q_{\\text{loss}}=10500000-420000T_{f}$ </p>\n<p>Using conservation of energy,  $Q_{\\text{gain}}=Q_{\\text{loss}}$ </p>\n<p> $3570000+42000T_{f}=10500000-420000T_{f}$ </p>\n<p> $\\Rightarrow$   $462000T_{f}=6930000$ </p>\n<p> $\\Rightarrow$   $T_{f}=\\frac{6930000}{462000}=15^{\\circ}C$ </p>\n<p>So the decrease in the temperature of the water:</p>\n<p> $\\Delta T_{\\text{water}}=T_{\\text{initial}}-T_{f}=25^{\\circ}C-15^{\\circ}C=10^{\\circ}C$ </p>\n<p>Therefore, the decrement to the temperature of water is  $10^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "-10^{\\circ}C",
+        "^{\\circ}C",
+        "____",
+        "=2100J/Kg.^{\\circ}C",
+        "=4200J/Kg.^{\\circ}C",
+        "=3.36 \\times 10^{5}J/Kg"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:48.442821"
+    },
+    {
+      "id": 29025,
+      "qid": "ml8t8p9v",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-an-ideal-diatomic-gas-expands-from-volume-v-jee-main-physics-units-and-measurements-9pnikvbwrwyrh8ca",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 23rd January Evening Shift",
+      "exam_date": "23rd January",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "One mole of an ideal diatomic gas expands from volume $V$ to $2V$ isothermally at a temperature $27^{\\circ}C$ and does $W$ joule of work. If the gas undergoes same magnitude of expansion adiabatically from $27^{\\circ}C$ doing the same amount of work $W$ , then its final temperature will be (close to) $____$ $^{\\circ}C$ . $(log_{e}2=0.693)$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>One mole of an ideal diatomic gas expands from volume  $V$  to  $2V$  isothermally at a temperature  $27^{\\circ}C$  and does  $W$  joule of work. If the gas undergoes same magnitude of expansion adiabatically from  $27^{\\circ}C$  doing the same amount of work  $W$ , then its final temperature will be (close to)  $____$   $^{\\circ}C$ .</p>\n<p> $(log_{e}2=0.693)$ </p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "-56",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-56</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "-117",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-117</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "-30",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-30</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "-189",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-189</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Case -1 : Isothermal Expansion $(\\Delta T=0)$ For an ideal gas undergoing isothermal expansion from $V_{1}$ to $V_{2}$ : $W_{iso}=nRTln(\\frac{V_{2}}{V_{1}})$ Given : $n=1$ mole $T=27^{\\circ}C=300K$ $\\frac{V_{2}}{V_{1}}=\\frac{2V}{V}=2$ $ln2=0.693$ $W=1 \\times R \\times 300 \\times 0.693=207.9R$ Case - 2 : Adiabatic Expansion ( $\\Delta Q$ ) For an adiabatic process, the work done is given by: $W_{adia}=\\frac{nR(T_{1}-T_{2})}{\\gamma-1}$ The gas is diatomic, so the adiabatic constant $\\gamma=\\frac{7}{5}=1.4$ . $T_{1}=300K$ Work done is the same magnitude ( $W=207.9R$ ). $207.9R=\\frac{1 \\times R(300-T_{2})}{1.4-1}$ $\\Rightarrow$ $207.9=\\frac{300-T_{2}}{0.4}$ $\\Rightarrow$ $83.16=300-T_{2}$ $\\Rightarrow$ $T_{2}=216.84K$ $\\Rightarrow$ $T(^{\\circ}C)=216.84-273.15$ $T(^{\\circ}C) \\approx -56.31^{\\circ}C$ The final temperature is approximately $-56^{\\circ}C$ . Hence, the correct option is (A).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><b>Case -1 :</b> Isothermal Expansion  $(\\Delta T=0)$ </p>\n<p>For an ideal gas undergoing isothermal expansion from  $V_{1}$  to  $V_{2}$  :</p>\n<p> $W_{iso}=nRTln(\\frac{V_{2}}{V_{1}})$ </p>\n<p>Given :</p>\n<ul>\n<li><p> $n=1$  mole</p></li>\n<li><p> $T=27^{\\circ}C=300K$ </p></li>\n<li><p> $\\frac{V_{2}}{V_{1}}=\\frac{2V}{V}=2$ </p></li>\n<li><p> $ln2=0.693$ </p></li>\n</ul>\n<p> $W=1 \\times R \\times 300 \\times 0.693=207.9R$ </p>\n<p><b>Case - 2 :</b> Adiabatic Expansion (  $\\Delta Q$  )</p>\n<p>For an adiabatic process, the work done is given by:</p>\n<p> $W_{adia}=\\frac{nR(T_{1}-T_{2})}{\\gamma-1}$ </p>\n<p>The gas is diatomic, so the adiabatic constant  $\\gamma=\\frac{7}{5}=1.4$ .</p>\n<p> $T_{1}=300K$ </p>\n<p>Work done is the same magnitude (  $W=207.9R$  ).</p>\n<p> $207.9R=\\frac{1 \\times R(300-T_{2})}{1.4-1}$ </p>\n<p> $\\Rightarrow$   $207.9=\\frac{300-T_{2}}{0.4}$ </p>\n<p> $\\Rightarrow$   $83.16=300-T_{2}$ </p>\n<p> $\\Rightarrow$   $T_{2}=216.84K$ </p>\n<p> $\\Rightarrow$   $T(^{\\circ}C)=216.84-273.15$ </p>\n<p> $T(^{\\circ}C) \\approx -56.31^{\\circ}C$ </p>\n<p>The final temperature is approximately  $-56^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "27^{\\circ}C",
+        "^{\\circ}C",
+        "(log_{e}2=0.693)",
+        "(\\Delta T=0)",
+        "V_{1}",
+        "V_{2}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:50.003542"
+    },
+    {
+      "id": 29043,
+      "qid": "ml89h59p",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/prods-x-and-y-of-equal-dimensions-but-of-different-mat-jee-main-physics-units-and-measurements-rj0kb0mxqo3ystas",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 22nd January Morning Shift",
+      "exam_date": "22nd January",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Rods $x$ and $y$ of equal dimensions but of different materials are joined as shown in figure. Temperatures of end points $A$ and $F$ are maintained at $100^{\\circ}C$ and $40^{\\circ}C$ respectively. Given the thermal conductivity of $rodx$ is three times of that of $rody$ , the temperature at junction points $B$ and $E$ are (close to):",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Rods  $x$  and  $y$  of equal dimensions but of different materials are joined as shown in figure. Temperatures of end points  $A$  and  $F$  are maintained at  $100^{\\circ}C$  and  $40^{\\circ}C$  respectively. Given the thermal conductivity of  $rodx$  is three times of that of  $rody$ , the temperature at junction points  $B$  and  $E$  are (close to):</p><img alt=\"JEE Main 2026 (Online) 22nd January Morning Shift Physics - Heat and Thermodynamics Question 30 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$60^{\\circ}C$ and $45^{\\circ}C$ respectively",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $60^{\\circ}C$  and  $45^{\\circ}C$  respectively</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$80^{\\circ}C$ and $70^{\\circ}C$ respectively",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $80^{\\circ}C$  and  $70^{\\circ}C$  respectively</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$89^{\\circ}C$ and $73^{\\circ}C$ respectively",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $89^{\\circ}C$  and  $73^{\\circ}C$  respectively</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$80^{\\circ}C$ and $60^{\\circ}C$ respectively",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $80^{\\circ}C$  and  $60^{\\circ}C$  respectively</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "Using law of heat conduction the rate of heat flow $(H=\\frac{dQ}{dt})$ through a material is proportional to the crosssectional area (A) and the temperature difference ( $\\Delta T$ ), and inversely proportional to the length (L) : $H=\\frac{kA\\Delta T}{L}$ Where k is the thermal conductivity of the material. We can rearrange this equation to look like Ohm's Law for electricity $(I=\\frac{\\Delta V}{R})$ : $H=\\frac{\\Delta T}{L/kA}$ Here, the term $L/kA$ acts as the thermal resistance $(R_{tℎ})$ of the rod. Heat current $(H)$ is analogous to electrical current (I), and temperature difference ( $\\Delta T$ ) is analogous to potential difference ( $\\Delta V$ ). $R_{th}=\\frac{L}{kA}$ It is given that rods $x$ and $y$ have equal dimensions, meaning they have the same length $(L)$ and same crosssectional area (A). We are also given that the thermal conductivity of $rodx(k_{x})$ is three times that of $rody(k_{y})$ . Let $k_{y}=k$ , then $k_{x}=3k$ . So, the thermal resistances of rod x and y will be, $R_{y}=\\frac{L}{k_{y}A}=\\frac{L}{kA}=R$ $\\Rightarrow$ $R_{x}=\\frac{L}{k_{x}A}=\\frac{L}{3kA}=\\frac{1}{3}(\\frac{L}{kA})=\\frac{R}{3}$ We can now treat the given structure as an electrical circuit with specific resistances. The heat current splits into two parallel paths BC and BD at B . $R_{BCE}=R_{BC}+R_{CE}=R+R=2R$ $\\Rightarrow$ $R_{BDE}=R_{BD}+R_{DE}=\\frac{R}{3}+\\frac{R}{3}=\\frac{2R}{3}$ For parallel resistors $R_{1}$ and $R_{2}$ , the equivalent resistance is $\\frac{R_{1}R_{2}}{R_{1}+R_{2}}$ : $R_{BE}=\\frac{(2R) \\times (\\frac{2R}{3})}{(2R)+(\\frac{2R}{3})}$ $\\Rightarrow$ $R_{BE}=\\frac{4R^{2}/3}{\\frac{6R+2R}{3}}=\\frac{4R^{2}}{8R}=\\frac{R}{2}$ From $A$ to $F$ with three equivalent resistors: $R_{AB},R_{BE}$ , and $R_{EF}$ . The total equivalent resistance ( $R_{\\text{total}}$ ) is : $R_{\\text{total}}=R_{AB}+R_{BE}+R_{EF}$ $\\Rightarrow$ $R_{\\text{total}}=\\frac{R}{3}+\\frac{R}{2}+R$ $\\Rightarrow$ $R_{\\text{total}}=\\frac{11R}{6}$ We know the overall temperature difference between A and F : $\\Delta T_{\\text{total}}=T_{A}-T_{F}=100-40=60^{\\circ}C$ The total steady-state heat current (H) flowing through the entire system is : $H=\\frac{\\Delta T_{\\text{total}}}{R_{\\text{total}}}=\\frac{60}{11R/6}=\\frac{360}{11R}$ Consider the segment from A to B : $H=\\frac{T_{A}-T_{B}}{R_{AB}}$ $\\begin{aligned} \\Rightarrow \\frac{360}{11R} & =\\frac{100-T_{B}}{R/3} \\\\ \\Rightarrow \\frac{360}{11R} & =\\frac{3(100-T_{B})}{R} \\\\ \\Rightarrow \\frac{120}{11} & =100-T_{B} \\end{aligned}$ $\\Rightarrow$ $T_{B}=100-\\frac{120}{11}=\\frac{1100-120}{11}=\\frac{980}{11}$ $\\Rightarrow$ $T_{B} \\approx 89.09^{\\circ}C$ Consider the segment from E to F : $H=\\frac{T_{E}-T_{F}}{R_{EF}}$ $\\begin{aligned} & \\Rightarrow \\frac{360}{11R}=\\frac{T_{E}-40}{R} \\\\ & \\Rightarrow \\frac{360}{11}=T_{E}-40 \\end{aligned}$ $\\Rightarrow$ $T_{E}=40+\\frac{360}{11}=\\frac{440+360}{11}=\\frac{800}{11}$ $\\Rightarrow$ $T_{E} \\approx 72.72^{\\circ}C$ Therefore, the temperatures at junction points B and E are close to $89^{\\circ}C$ and $73^{\\circ}C$ respectively. Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Using law of heat conduction the rate of heat flow  $(H=\\frac{dQ}{dt})$  through a material is proportional to the crosssectional area (A) and the temperature difference (  $\\Delta T$  ), and inversely proportional to the length (L) :</p>\n<p> $H=\\frac{kA\\Delta T}{L}$ </p>\n<p>Where k is the thermal conductivity of the material.</p>\n<p>We can rearrange this equation to look like Ohm's Law for electricity  $(I=\\frac{\\Delta V}{R})$  :</p>\n<p> $H=\\frac{\\Delta T}{L/kA}$ </p>\n<p>Here, the term  $L/kA$  acts as the thermal resistance  $(R_{tℎ})$  of the rod. Heat current  $(H)$  is analogous to electrical current (I), and temperature difference (  $\\Delta T$  ) is analogous to potential difference (  $\\Delta V$  ).</p>\n<p> $R_{th}=\\frac{L}{kA}$ </p>\n<p>It is given that rods  $x$  and  $y$  have equal dimensions, meaning they have the same length  $(L)$  and same crosssectional area (A).</p>\n<p>We are also given that the thermal conductivity of  $rodx(k_{x})$  is three times that of  $rody(k_{y})$ .</p>\n<p>Let  $k_{y}=k$ , then  $k_{x}=3k$ .</p>\n<p>So, the thermal resistances of rod x and y will be,</p>\n<p> $R_{y}=\\frac{L}{k_{y}A}=\\frac{L}{kA}=R$ </p>\n<p> $\\Rightarrow$   $R_{x}=\\frac{L}{k_{x}A}=\\frac{L}{3kA}=\\frac{1}{3}(\\frac{L}{kA})=\\frac{R}{3}$ </p>\n<p>We can now treat the given structure as an electrical circuit with specific resistances.</p>\n<p><img alt=\"JEE Main 2026 (Online) 22nd January Morning Shift Physics - Heat and Thermodynamics Question 30 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>The heat current splits into two parallel paths BC and BD at B .</p>\n<p> $R_{BCE}=R_{BC}+R_{CE}=R+R=2R$ </p>\n<p> $\\Rightarrow$   $R_{BDE}=R_{BD}+R_{DE}=\\frac{R}{3}+\\frac{R}{3}=\\frac{2R}{3}$ </p>\n<p>For parallel resistors  $R_{1}$  and  $R_{2}$ , the equivalent resistance is  $\\frac{R_{1}R_{2}}{R_{1}+R_{2}}$  :</p>\n<p> $R_{BE}=\\frac{(2R) \\times (\\frac{2R}{3})}{(2R)+(\\frac{2R}{3})}$ </p>\n<p> $\\Rightarrow$   $R_{BE}=\\frac{4R^{2}/3}{\\frac{6R+2R}{3}}=\\frac{4R^{2}}{8R}=\\frac{R}{2}$ </p>\n<p>From  $A$  to  $F$  with three equivalent resistors:  $R_{AB},R_{BE}$ , and  $R_{EF}$ .</p>\n<p>The total equivalent resistance (  $R_{\\text{total}}$  ) is :</p>\n<p> $R_{\\text{total}}=R_{AB}+R_{BE}+R_{EF}$ </p>\n<p> $\\Rightarrow$   $R_{\\text{total}}=\\frac{R}{3}+\\frac{R}{2}+R$ </p>\n<p> $\\Rightarrow$   $R_{\\text{total}}=\\frac{11R}{6}$ </p>\n<p>We know the overall temperature difference between A and F :</p>\n<p> $\\Delta T_{\\text{total}}=T_{A}-T_{F}=100-40=60^{\\circ}C$ </p>\n<p>The total steady-state heat current (H) flowing through the entire system is :</p>\n<p> $H=\\frac{\\Delta T_{\\text{total}}}{R_{\\text{total}}}=\\frac{60}{11R/6}=\\frac{360}{11R}$ </p>\n<p>Consider the segment from A to B :</p>\n<p> $H=\\frac{T_{A}-T_{B}}{R_{AB}}$ </p>\n<p> $\\begin{aligned} \\Rightarrow \\frac{360}{11R} &amp; =\\frac{100-T_{B}}{R/3} \\\\ \\Rightarrow \\frac{360}{11R} &amp; =\\frac{3(100-T_{B})}{R} \\\\ \\Rightarrow \\frac{120}{11} &amp; =100-T_{B} \\end{aligned}$ </p>\n<p> $\\Rightarrow$   $T_{B}=100-\\frac{120}{11}=\\frac{1100-120}{11}=\\frac{980}{11}$ </p>\n<p> $\\Rightarrow$   $T_{B} \\approx 89.09^{\\circ}C$ </p>\n<p>Consider the segment from E to F :</p>\n<p> $H=\\frac{T_{E}-T_{F}}{R_{EF}}$ </p>\n<p>  $\\begin{aligned} &amp; \\Rightarrow \\frac{360}{11R}=\\frac{T_{E}-40}{R} \\\\ &amp; \\Rightarrow \\frac{360}{11}=T_{E}-40 \\end{aligned}$ </p>\n<p> $\\Rightarrow$   $T_{E}=40+\\frac{360}{11}=\\frac{440+360}{11}=\\frac{800}{11}$ </p>\n<p> $\\Rightarrow$   $T_{E} \\approx 72.72^{\\circ}C$ </p>\n<p>Therefore, the temperatures at junction points B and E are close to  $89^{\\circ}C$  and  $73^{\\circ}C$  respectively. \n<br/><br/>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml8u6shs/acc6c08c-4a51-424e-b46e-650de2447e66/467de310-023a-11f1-88dd-c7214e4b90e3/file-6y3zli1ml8u6sht.png?format=png",
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlz507sd/be2e2b9a-ff87-45fe-ba89-4e150a2b51ef/f4f261d0-10b0-11f1-a0b8-658f60b9e0e3/file-6y3zli1mlz507se.png?format=png"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "H=\\frac{kA\\Delta T}{L}",
+        "(I=\\frac{\\Delta V}{R})",
+        "H=\\frac{\\Delta T}{L/kA}",
+        "(R_{tℎ})",
+        "R_{th}=\\frac{L}{kA}",
+        "rodx(k_{x})"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:52.368936"
+    },
+    {
+      "id": 28957,
+      "qid": "mnsik6ix",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-diatomic-gas-having-rotational-modes-only-is-jee-main-physics-units-and-measurements-imfnmrf7mrq0knic",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 8th April Evening Shift",
+      "exam_date": "8th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Initial pressure and volume of a monoatomic ideal gas are $P$ and $V$ . The change in internal energy of this gas in adiabatic expansion to volume $V_{\\text{final}}=27V$ is $____$ J.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Initial pressure and volume of a monoatomic ideal gas are  $P$  and  $V$ . The change in internal energy of this gas in adiabatic expansion to volume  $V_{\\text{final}}=27V$  is  $____$  J.</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-2PV(3\\sqrt{3}-1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $-2PV(3\\sqrt{3}-1)$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{3}PV$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{4}{3}PV$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{4}{3}PV$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $-\\frac{4}{3}PV$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}PV$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{3}{4}PV$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "In an adiabatic process, no heat is exchanged with the surroundings ( $Q=0$ ). For an ideal gas undergoing an adiabatic change, the relationship between pressure and volume is : $PV^{\\gamma}=\\text{constant}$ Where $\\gamma$ is the ratio of specific heats $(\\frac{C_{p}}{C_{v}})$ . For a monoatomic gas, $\\gamma=53$ . The initial pressure of gas is $P_{1}=P$ . The initial volume of gas is $V_{1}=V$ The final volume of gas is $V_{2}=27V$ Using the adiabatic relation $P_{1}V_{1}^{\\gamma}=P_{2}V_{2}^{\\gamma}$ : $P \\cdot V^{5/3}=P_{\\text{final}} \\cdot (27V)^{5/3}$ $\\Rightarrow$ $P_{\\text{final}}=P(\\frac{V}{27V})^{5/3}=P(\\frac{1}{27})^{5/3}$ $P_{\\text{final}}=P(\\frac{1}{3^{3}})^{5/3}=P(\\frac{1}{3})^{5}=\\frac{P}{243}$ From the $1^{\\text{st}}$ law of thermodynamics $(Q=\\Delta U+W)$ , since $Q=0$ , we have: $\\Delta U=-W$ The work done ( W ) in an adiabatic process is: $W=\\frac{P_{1}V_{1}-P_{2}V_{2}}{\\gamma-1}$ Therefore: $\\Delta U=\\frac{P_{2}V_{2}-P_{1}V_{1}}{\\gamma-1}$ Substitute the given values, $P_{1}V_{1}=PV,P_{2}V_{2}=(\\frac{P}{243}) \\times (27V)=\\frac{PV}{9}$ $\\Delta U=\\frac{\\frac{PV}{9}-PV}{\\frac{5}{3}-1}$ $\\Rightarrow$ $\\Delta U=\\frac{-\\frac{8}{9}PV}{2/3}$ $\\Rightarrow$ $\\Delta U=-\\frac{8}{9}PV \\times \\frac{3}{2}$ $\\Rightarrow$ $\\Delta U=-\\frac{4}{3}PV$ Therefore, the change in internal energy is $-\\frac{4}{3}PV$ . Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In an adiabatic process, no heat is exchanged with the surroundings (  $Q=0$  ).</p>\n<p>For an ideal gas undergoing an adiabatic change, the relationship between pressure and volume is :</p>\n<p> $PV^{\\gamma}=\\text{constant}$ </p>\n<p>Where  $\\gamma$  is the ratio of specific heats  $(\\frac{C_{p}}{C_{v}})$ .</p>\n<p>For a monoatomic gas,  $\\gamma=53$ .</p>\n<p>The initial pressure of gas is  $P_{1}=P$ .</p>\n<p>The initial volume of gas is  $V_{1}=V$ </p>\n<p>The final volume of gas is  $V_{2}=27V$ </p>\n<p>Using the adiabatic relation  $P_{1}V_{1}^{\\gamma}=P_{2}V_{2}^{\\gamma}$  :</p>\n<p> $P \\cdot V^{5/3}=P_{\\text{final}} \\cdot (27V)^{5/3}$ </p>\n<p> $\\Rightarrow$   $P_{\\text{final}}=P(\\frac{V}{27V})^{5/3}=P(\\frac{1}{27})^{5/3}$ </p>\n<p> $P_{\\text{final}}=P(\\frac{1}{3^{3}})^{5/3}=P(\\frac{1}{3})^{5}=\\frac{P}{243}$ </p>\n<p>From the  $1^{\\text{st}}$  law of thermodynamics  $(Q=\\Delta U+W)$ , since  $Q=0$ , we have:</p>\n<p> $\\Delta U=-W$ </p>\n<p>The work done ( W ) in an adiabatic process is:</p>\n<p> $W=\\frac{P_{1}V_{1}-P_{2}V_{2}}{\\gamma-1}$ </p>\n<p>Therefore:</p>\n<p> $\\Delta U=\\frac{P_{2}V_{2}-P_{1}V_{1}}{\\gamma-1}$ </p>\n<p>Substitute the given values,  $P_{1}V_{1}=PV,P_{2}V_{2}=(\\frac{P}{243}) \\times (27V)=\\frac{PV}{9}$ </p>\n<p> $\\Delta U=\\frac{\\frac{PV}{9}-PV}{\\frac{5}{3}-1}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=\\frac{-\\frac{8}{9}PV}{2/3}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=-\\frac{8}{9}PV \\times \\frac{3}{2}$ </p>\n<p> $\\Rightarrow$   $\\Delta U=-\\frac{4}{3}PV$ </p>\n<p>Therefore, the change in internal energy is  $-\\frac{4}{3}PV$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "PV^{\\gamma}=\\text{constant}",
+        "(\\frac{C_{p}}{C_{v}})",
+        "\\gamma=53",
+        "P_{1}=P",
+        "V_{1}=V",
+        "V_{2}=27V"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:42.130306"
+    },
+    {
+      "id": 28972,
+      "qid": "mnswhych",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/ptwo-closed-vessels-of-same-volume-are-joined-through-a-na-jee-main-physics-units-and-measurements-lmtu0xu2vejgtoxg",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Evening Shift",
+      "exam_date": "5th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "An ideal gas at pressure $P$ and temperature $T$ is expanding such that $PT^{3}=$ constant. The coefficient of volume expansion of the gas is $____$ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An ideal gas at pressure  $P$  and temperature  $T$  is expanding such that  $PT^{3}=$  constant. The coefficient of volume expansion of the gas is  $____$  .</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{T}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{2}{T}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{T}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{1}{T}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{T}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{4}{T}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{T}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{3}{T}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "The coefficient of volume expansion $(\\gamma)$ is defined as the fractional change in volume per unit change in temperature at constant pressure : $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ The relation between pressure and temperature is, $PT^{3}=C\\text{(where}C\\text{is a constant)}$ For an ideal gas, $PV=nRT \\Rightarrow P=\\frac{nRT}{V}$ Substitute P into the given process equation : $(\\frac{nRT}{V})T^{3}=C$ $\\Rightarrow$ $\\frac{nRT^{4}}{V}=C$ $\\Rightarrow V=(\\frac{nR}{C})T^{4}$ Let $k=\\frac{nR}{C}$ (another constant), then: $V=kT^{4}$ On differentiating $V$ with respect to $T$ : $\\frac{dV}{dT}=\\frac{d}{dT}(kT^{4})=4kT^{3}$ Substituting the expressions for V and $\\frac{dV}{dT}$ into the definition of $\\gamma$ : $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ $\\Rightarrow$ $\\gamma=\\frac{1}{kT^{4}}(4kT^{3})$ $\\Rightarrow$ $\\gamma=\\frac{4kT^{3}}{kT^{4}}$ $\\Rightarrow$ $\\gamma=\\frac{4}{T}$ Therefore, the coefficient of volume expansion of the gas is $\\frac{4}{T}$ . Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The coefficient of volume expansion  $(\\gamma)$  is defined as the fractional change in volume per unit change in temperature at constant pressure :</p>\n<p> $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ </p>\n<p>The relation between pressure and temperature is,</p>\n<p> $PT^{3}=C\\text{(where}C\\text{is a constant)}$ </p>\n<p>For an ideal gas,  $PV=nRT \\Rightarrow P=\\frac{nRT}{V}$ </p>\n<p>Substitute P into the given process equation :</p>\n<p> $(\\frac{nRT}{V})T^{3}=C$ </p>\n<p> $\\Rightarrow$   $\\frac{nRT^{4}}{V}=C$ </p>\n<p> $\\Rightarrow V=(\\frac{nR}{C})T^{4}$ </p>\n<p>Let  $k=\\frac{nR}{C}$  (another constant), then:</p>\n<p> $V=kT^{4}$ </p>\n<p>On differentiating  $V$  with respect to  $T$  :</p>\n<p> $\\frac{dV}{dT}=\\frac{d}{dT}(kT^{4})=4kT^{3}$ </p>\n<p>Substituting the expressions for V and  $\\frac{dV}{dT}$  into the definition of  $\\gamma$  :</p>\n<p> $\\gamma=\\frac{1}{V}(\\frac{dV}{dT})$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{1}{kT^{4}}(4kT^{3})$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{4kT^{3}}{kT^{4}}$ </p>\n<p> $\\Rightarrow$   $\\gamma=\\frac{4}{T}$ </p>\n<p>Therefore, the coefficient of volume expansion of the gas is  $\\frac{4}{T}$ . </p>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\gamma=\\frac{1}{V}(\\frac{dV}{dT})",
+        "PT^{3}=C\\text{(where}C\\text{is a constant)}",
+        "PV=nRT \\Rightarrow P=\\frac{nRT}{V}",
+        "(\\frac{nRT}{V})T^{3}=C",
+        "\\frac{nRT^{4}}{V}=C",
+        "\\Rightarrow V=(\\frac{nR}{C})T^{4}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:43.764416"
+    },
+    {
+      "id": 28984,
+      "qid": "mnswhtg2",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pgiven-below-are-two-statements-one-is-labelled-as-assert-jee-main-physics-units-and-measurements-ffh31crcujlf2eyp",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 4th April Evening Shift",
+      "exam_date": "4th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The temperature of a metal strip having coefficient of linear expansion $\\alpha$ is increased from $T_{1}$ to $T_{2}$ resulting in increase of its length by $\\Delta L_{1}$ . The temperature is further increased from $T_{2}$ to $T_{3}$ such that the increase in its length is $\\Delta L_{2}$ . Given $T_{3}+T_{1}=2T_{2}$ and $T_{2}-T_{1}=\\Delta T$ , the value of $\\Delta L_{2}$ is $____$ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The temperature of a metal strip having coefficient of linear expansion  $\\alpha$  is increased from  $T_{1}$  to  $T_{2}$  resulting in increase of its length by  $\\Delta L_{1}$ . The temperature is further increased from  $T_{2}$  to  $T_{3}$  such that the increase in its length is  $\\Delta L_{2}$ .</p>\n<p>Given  $T_{3}+T_{1}=2T_{2}$  and  $T_{2}-T_{1}=\\Delta T$ , the value of  $\\Delta L_{2}$  is  $____$  .</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\Delta L_{1}[1+2\\alpha^{2}(\\Delta T)^{2}]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\Delta L_{1}[1+2\\alpha^{2}(\\Delta T)^{2}]$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\Delta L_{1}[1+\\alpha^{2}(\\Delta T)^{2}]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\Delta L_{1}[1+\\alpha^{2}(\\Delta T)^{2}]$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\Delta L_{1}[1+2\\alpha\\Delta T]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\Delta L_{1}[1+2\\alpha\\Delta T]$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\Delta L_{1}[1+\\alpha\\Delta T]$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\Delta L_{1}[1+\\alpha\\Delta T]$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "When a metal of length $L$ having coefficient of linear expansion $\\alpha$ is heated by temperature $\\Delta T$ , then the change in length is given as $\\Delta L=L\\alpha\\Delta T$ For the first interval of heating $(T_{1} \\rightarrow T_{2})$ : The increase in length $\\Delta L_{1}$ is given by $\\Delta L_{1}=L_{1}\\alpha(T_{2}-T_{1})$ It is given that $T_{2}-T_{1}=\\Delta T$ : $\\Delta L_{1}=L_{1}\\alpha\\Delta T.....(i)$ The new length at temperature $T_{2}$ is: $L_{2}=L_{1}+\\Delta L_{1}=L_{1}(1+\\alpha\\Delta T)........(ii)$ For the second interval of heating, ( $T_{2} \\rightarrow T_{3}$ ) The increase in length is $\\Delta L_{2}$ depends on the length at the start of this stage $(L_{2})$ : $\\Delta L_{2}=L_{2}\\alpha(T_{3}-T_{2})$ From the given condition $T_{3}+T_{1}=2T_{2}$ : $T_{3}-T_{2}=T_{2}-T_{1}$ Since $T_{2}-T_{1}=\\Delta T$ , then $T_{3}-T_{2}=\\Delta T$ . Substituting this into the $\\Delta L_{2}$ formula: $\\Delta L_{2}=L_{2}\\alpha\\Delta T.......(iii)$ Substitute the value of $L_{2}$ from equation (ii) into equation (iii) : $\\Delta L_{2}=[L_{1}(1+\\alpha\\Delta T)]\\alpha\\Delta T$ $\\Rightarrow$ $\\Delta L_{2}=(L_{1}\\alpha\\Delta T)(1+\\alpha\\Delta T)$ From equation (i), we know $L_{1}\\alpha\\Delta T=\\Delta L_{1}$ . $\\Delta L_{2}=\\Delta L_{1}(1+\\alpha\\Delta T)$ Therefore, the value of $\\Delta L_{2}$ is $\\Delta L_{1}[1+\\alpha\\Delta T]$ . Thus, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>When a metal of length  $L$  having coefficient of linear expansion  $\\alpha$  is heated by temperature  $\\Delta T$ , then the change in length is given as  $\\Delta L=L\\alpha\\Delta T$ </p>\n<p>For the first interval of heating  $(T_{1} \\rightarrow T_{2})$  :</p>\n<p>The increase in length  $\\Delta L_{1}$  is given by  $\\Delta L_{1}=L_{1}\\alpha(T_{2}-T_{1})$ </p>\n<p>It is given that  $T_{2}-T_{1}=\\Delta T$  :</p>\n<p> $\\Delta L_{1}=L_{1}\\alpha\\Delta T.....(i)$ </p>\n<p>The new length at temperature  $T_{2}$  is:</p>\n<p> $L_{2}=L_{1}+\\Delta L_{1}=L_{1}(1+\\alpha\\Delta T)........(ii)$ </p>\n<p>For the second interval of heating, (  $T_{2} \\rightarrow T_{3}$  )</p>\n<p>The increase in length is  $\\Delta L_{2}$  depends on the length at the start of this stage  $(L_{2})$  :</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha(T_{3}-T_{2})$ </p>\n<p>From the given condition  $T_{3}+T_{1}=2T_{2}$  :</p>\n<p> $T_{3}-T_{2}=T_{2}-T_{1}$ </p>\n<p>Since  $T_{2}-T_{1}=\\Delta T$ , then  $T_{3}-T_{2}=\\Delta T$ .</p>\n<p>Substituting this into the  $\\Delta L_{2}$  formula:</p>\n<p> $\\Delta L_{2}=L_{2}\\alpha\\Delta T.......(iii)$ </p>\n<p>Substitute the value of  $L_{2}$  from equation (ii) into equation (iii) :</p>\n<p> $\\Delta L_{2}=[L_{1}(1+\\alpha\\Delta T)]\\alpha\\Delta T$ </p>\n<p> $\\Rightarrow$   $\\Delta L_{2}=(L_{1}\\alpha\\Delta T)(1+\\alpha\\Delta T)$ </p>\n<p>From equation (i), we know  $L_{1}\\alpha\\Delta T=\\Delta L_{1}$ .</p>\n<p> $\\Delta L_{2}=\\Delta L_{1}(1+\\alpha\\Delta T)$ </p>\n<p>Therefore, the value of  $\\Delta L_{2}$  is  $\\Delta L_{1}[1+\\alpha\\Delta T]$ . </p>\n<p>Thus, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "T_{1}",
+        "T_{2}",
+        "\\Delta L_{1}",
+        "T_{3}",
+        "\\Delta L_{2}",
+        "T_{3}+T_{1}=2T_{2}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:45.156916"
+    },
+    {
+      "id": 28997,
+      "qid": "mnrk562t",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-mixture-of-carbon-dioxide-and-oxygen-has-volume-8310-cm-jee-main-physics-ba5xtqsiq3zxacxk",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 2nd April Morning Shift",
+      "exam_date": "2nd April",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Heat is supplied to a diatomic gas at constant pressure. Then the ratio of $\\Delta Q:\\Delta U:\\Delta W$ is ______.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Heat is supplied to a diatomic gas at constant pressure. Then the ratio of  $\\Delta Q:\\Delta U:\\Delta W$  is ______.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3 : 5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2 : 3 : 5</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "5 : 3 : 2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>5 : 3 : 2</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2 : 5 : 7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2 : 5 : 7</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "7 : 5 : 2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>7 : 5 : 2</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "For a diatomic gas (assuming no vibrational modes), the degrees of freedom $f=5$ . The molar specific heat at constant volume for diatomic gas is $C_{v}=\\frac{f}{2}R=\\frac{5}{2}R$ The molar specific heat at constant pressure is $C_{p}=C_{v}+R=\\frac{5}{2}R+R=\\frac{7}{2}R$ The heat supplied at constant pressure is $\\Delta Q=nC_{p}\\Delta T=\\frac{7}{2}nR\\Delta T$ The change in internal energy is $\\Delta U=nC_{v}\\Delta T=\\frac{5}{2}nR\\Delta T$ The work done at constant pressure is $\\Delta W=P\\Delta V$ From ideal gas equation, $PV=nRT \\rightarrow P\\Delta V=nR\\Delta T$ So, the work done at constant pressure is $\\Delta W=P\\Delta V=nR\\Delta T=\\frac{2}{2}nR\\Delta T$ So, the ratio $\\Delta Q:\\Delta U:\\Delta W$ is: $\\frac{7}{2}:\\frac{5}{2}:\\frac{2}{2} \\rightarrow 7:5:2$ Therefore, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For a diatomic gas (assuming no vibrational modes), the degrees of freedom  $f=5$ .</p>\n<p>The molar specific heat at constant volume for diatomic gas is</p>\n<p> $C_{v}=\\frac{f}{2}R=\\frac{5}{2}R$ </p>\n<p>The molar specific heat at constant pressure is</p>\n<p> $C_{p}=C_{v}+R=\\frac{5}{2}R+R=\\frac{7}{2}R$ </p>\n<p>The heat supplied at constant pressure is</p>\n<p> $\\Delta Q=nC_{p}\\Delta T=\\frac{7}{2}nR\\Delta T$ </p>\n<p>The change in internal energy is</p>\n<p> $\\Delta U=nC_{v}\\Delta T=\\frac{5}{2}nR\\Delta T$ </p>\n<p>The work done at constant pressure is</p>\n<p> $\\Delta W=P\\Delta V$ </p>\n<p>From ideal gas equation,</p>\n<p> $PV=nRT \\rightarrow P\\Delta V=nR\\Delta T$ </p>\n<p>So, the work done at constant pressure is</p>\n<p> $\\Delta W=P\\Delta V=nR\\Delta T=\\frac{2}{2}nR\\Delta T$ </p>\n<p>So, the ratio  $\\Delta Q:\\Delta U:\\Delta W$  is:</p>\n<p> $\\frac{7}{2}:\\frac{5}{2}:\\frac{2}{2} \\rightarrow 7:5:2$ </p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "f=5",
+        "C_{v}=\\frac{f}{2}R=\\frac{5}{2}R",
+        "C_{p}=C_{v}+R=\\frac{5}{2}R+R=\\frac{7}{2}R",
+        "\\Delta Q=nC_{p}\\Delta T=\\frac{7}{2}nR\\Delta T",
+        "\\Delta U=nC_{v}\\Delta T=\\frac{5}{2}nR\\Delta T",
+        "\\Delta W=P\\Delta V"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:46.795375"
+    },
+    {
+      "id": 29012,
+      "qid": "ml81k5i0",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/p10-kg-of-ice-at--10circ-mathrmc-is-added-to-100-jee-main-physics-units-and-measurements-z6lfp0jp2xmelfg9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Morning Shift",
+      "exam_date": "28th January",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "In the following $p-V$ diagram the equation of state along the curved path is given by $(V-2)^{2}=4ap$ where $a$ is a constant. The total work done in the closed path is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In the following  $p-V$  diagram the equation of state along the curved path is given by  $(V-2)^{2}=4ap$  where  $a$  is a constant. The total work done in the closed path is</p>\n<img alt=\"JEE Main 2026 (Online) 28th January Morning Shift Physics - Heat and Thermodynamics Question 32 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$+\\frac{1}{3a}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $+\\frac{1}{3a}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{a}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $-\\frac{1}{a}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2a}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{1}{2a}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{3a}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $-\\frac{1}{3a}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The work done in a cyclic process represented on a $p-V$ diagram is equal to the area enclosed by the closed loop. The path of the cycle is $A \\rightarrow B \\rightarrow C \\rightarrow A$ in an anti-clockwise direction. In a $p-V$ diagram, a clockwise cycle represents positive work done by the system $(W<0)$ . The equation of curve is $(V-2)^{2}=4$ ap $($ path $A \\rightarrow B \\rightarrow C)$ . At $V=2,p=0$ (Point B is on the V -axis). At $V=1$ and $V=3,p=\\frac{(1)^{2}}{4a}=\\frac{1}{4a}$ . This is the pressure at points A and C . The total work done W is the area under the straight line minus the area under the curve: $W=\\int_{1}^{3}pdV-Area(CA)$ Since the line CA is at $p=\\frac{1}{4a}$ , its area is : $Area(CA)=p \\times \\Delta V=\\frac{1}{4}a \\times (3-1)=\\frac{2}{4a}=\\frac{1}{2a}$ Work done along the curve is, $\\int_{1}^{3}pdV=\\int_{1}^{3}[\\frac{(V-2)^{2}}{4a}]dV=\\frac{1}{4a}[\\frac{(V-2)^{3}}{3}]_{1}^{3}$ $\\Rightarrow$ $\\int_{1}^{3}pdV=\\frac{1}{4a}[\\frac{(3-2)^{3}}{3}-\\frac{(1-2)^{3}}{3}]=\\frac{1}{4a}[\\frac{1}{3}-(-\\frac{1}{3})]=\\frac{1}{4a} \\times \\frac{2}{3}=\\frac{1}{6a}$ So, the net work done in the cycle is $W_{\\text{net}}=\\frac{1}{6a}-\\frac{1}{2a}=\\frac{1-3}{6a}=-\\frac{1}{3a}$ Therefore, the total work done in closed path is $-\\frac{1}{3a}$ . Hence, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The work done in a cyclic process represented on a  $p-V$  diagram is equal to the area enclosed by the closed loop.</p>\n<p>The path of the cycle is  $A \\rightarrow B \\rightarrow C \\rightarrow A$  in an anti-clockwise direction.</p>\n<p>In a  $p-V$  diagram, a clockwise cycle represents positive work done by the system  $(W&lt;0)$ .</p>\n<p>The equation of curve is  $(V-2)^{2}=4$  ap  $($  path  $A \\rightarrow B \\rightarrow C)$ .</p>\n<ul>\n<li><p>At  $V=2,p=0$  (Point B is on the V -axis).</p></li>\n<li><p>At  $V=1$  and  $V=3,p=\\frac{(1)^{2}}{4a}=\\frac{1}{4a}$ . This is the pressure at points A and C .</p></li>\n</ul>\n<p>The total work done W is the area under the straight line minus the area under the curve:</p>\n<p> $W=\\int_{1}^{3}pdV-Area(CA)$ </p>\n<p>Since the line CA is at  $p=\\frac{1}{4a}$ , its area is :</p>\n<p> $Area(CA)=p \\times \\Delta V=\\frac{1}{4}a \\times (3-1)=\\frac{2}{4a}=\\frac{1}{2a}$ </p>\n<p>Work done along the curve is,</p>\n<p> $\\int_{1}^{3}pdV=\\int_{1}^{3}[\\frac{(V-2)^{2}}{4a}]dV=\\frac{1}{4a}[\\frac{(V-2)^{3}}{3}]_{1}^{3}$ </p>\n<p> $\\Rightarrow$   $\\int_{1}^{3}pdV=\\frac{1}{4a}[\\frac{(3-2)^{3}}{3}-\\frac{(1-2)^{3}}{3}]=\\frac{1}{4a}[\\frac{1}{3}-(-\\frac{1}{3})]=\\frac{1}{4a} \\times \\frac{2}{3}=\\frac{1}{6a}$ </p>\n<p>So, the net work done in the cycle is</p>\n<p> $W_{\\text{net}}=\\frac{1}{6a}-\\frac{1}{2a}=\\frac{1-3}{6a}=-\\frac{1}{3a}$ </p>\n<p>Therefore, the total work done in closed path is  $-\\frac{1}{3a}$ . Hence, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml830akb/6e9d25b9-1cea-435d-8886-8d6d5a19db4f/fb4c84b0-01cf-11f1-9078-a3f6a36b05f8/file-6y3zli1ml830akc.png?format=png"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(V-2)^{2}=4ap",
+        "(V-2)^{2}=4",
+        "W=\\int_{1}^{3}pdV-Area(CA)",
+        "p=\\frac{1}{4a}",
+        "Area(CA)=p \\times \\Delta V=\\frac{1}{4}a \\times (3-1)=\\frac{2}{4a}=\\frac{1}{2a}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:48.505384"
+    },
+    {
+      "id": 29027,
+      "qid": "ml8t8pbo",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-an-ideal-diatomic-gas-expands-from-volume-v-jee-main-physics-units-and-measurements-9pnikvbwrwyrh8ca",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 23rd January Evening Shift",
+      "exam_date": "23rd January",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The internal energy of a monoatomic gas is 3nRT. One mole of helium is kept in a cylinder having internal cross section area of $17cm^{2}$ and fitted with a light movable frictionless piston. The gas is heated slowly by suppling 126 J heat. If the temperature rises by $4^{\\circ}C$ , then the piston will move $____$ cm. (atmospheric pressure $=10^{5}Pa$ )",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The internal energy of a monoatomic gas is 3nRT. One mole of helium is kept in a cylinder having internal cross section area of  $17cm^{2}$  and fitted with a light movable frictionless piston. The gas is heated slowly by suppling 126 J heat. If the temperature rises by  $4^{\\circ}C$ , then the piston will move  $____$  cm.</p>\n<p>(atmospheric pressure  $=10^{5}Pa$  )</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.55",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1.55</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "14.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>14.5</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "15.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15.5</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "1.45",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>1.45</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "According to the first law of thermodynamics, $\\Delta Q=\\Delta U+\\Delta W$ Where, The heat supplied to a system $=\\Delta Q=126J$ The change in internal energy $=\\Delta U=3nRT$ The work done by the system $=\\Delta W$ Number of moles $n=1$ mole of Helium. Change in temperature $=\\Delta T=4^{\\circ}C=4K$ Since the piston is light, movable, and frictionless, the gas pressure remains equal to the atmospheric pressure $=10^{5}Pa$ . Area $=A=17cm^{2}=17 \\times 10^{-4}m^{2}$ Using the formula provided : $\\Delta U=3 \\cdot n \\cdot R \\cdot \\Delta T$ $\\Rightarrow$ $\\Delta U=3 \\cdot 1 \\cdot 8.314 \\cdot 4J$ $\\Delta U=99.768J$ From the first law : $\\Delta W=\\Delta Q-\\Delta U$ $\\Rightarrow$ $\\Delta W=126-99.768=26.232J$ Work done by a gas at constant pressure is : $\\Delta W=P\\Delta V=P \\times (Ax)$ Where x is the distance the piston moves. $26.232=10^{5} \\times (17 \\times 10^{-4}) \\times x$ $\\Rightarrow$ $26.232=170 \\times x$ $\\Rightarrow$ $x=\\frac{26.232}{170} \\approx 0.1543m$ $\\Rightarrow$ $x=0.1543 \\times 100cm \\approx 15.5cm$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the first law of thermodynamics,</p>\n<p> $\\Delta Q=\\Delta U+\\Delta W$ </p>\n<p>Where,</p>\n<p>The heat supplied to a system  $=\\Delta Q=126J$ </p>\n<p>The change in internal energy  $=\\Delta U=3nRT$ </p>\n<p>The work done by the system  $=\\Delta W$ </p>\n<p>Number of moles  $n=1$  mole of Helium.</p>\n<p>Change in temperature  $=\\Delta T=4^{\\circ}C=4K$ </p>\n<p>Since the piston is light, movable, and frictionless, the gas pressure remains equal to the atmospheric pressure  $=10^{5}Pa$ .</p>\n<p>Area  $=A=17cm^{2}=17 \\times 10^{-4}m^{2}$ </p>\n<p>Using the formula provided :</p>\n<p> $\\Delta U=3 \\cdot n \\cdot R \\cdot \\Delta T$ </p>\n<p> $\\Rightarrow$   $\\Delta U=3 \\cdot 1 \\cdot 8.314 \\cdot 4J$ </p>\n<p> $\\Delta U=99.768J$ </p>\n<p>From the first law :</p>\n<p> $\\Delta W=\\Delta Q-\\Delta U$ </p>\n<p> $\\Rightarrow$   $\\Delta W=126-99.768=26.232J$ </p>\n<p><img alt=\"JEE Main 2026 (Online) 23rd January Evening Shift Physics - Heat and Thermodynamics Question 23 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>Work done by a gas at constant pressure is :</p>\n<p> $\\Delta W=P\\Delta V=P \\times (Ax)$ </p>\n<p>Where x is the distance the piston moves.</p>\n<p> $26.232=10^{5} \\times (17 \\times 10^{-4}) \\times x$ </p>\n<p> $\\Rightarrow$   $26.232=170 \\times x$ </p>\n<p> $\\Rightarrow$   $x=\\frac{26.232}{170} \\approx 0.1543m$ </p>\n<p> $\\Rightarrow$   $x=0.1543 \\times 100cm \\approx 15.5cm$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mlaeub2i/5aa32bbf-c259-4b8e-8753-1bd10f0427b8/d3aedea0-0317-11f1-bcef-2dee639eea13/file-6y3zli1mlaeub2j.webp?format=webp"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "17cm^{2}",
+        "4^{\\circ}C",
+        "____",
+        "=10^{5}Pa",
+        "\\Delta Q=\\Delta U+\\Delta W",
+        "=\\Delta Q=126J"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:50.101122"
+    },
+    {
+      "id": 29045,
+      "qid": "ml89h81y",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/prods-x-and-y-of-equal-dimensions-but-of-different-mat-jee-main-physics-units-and-measurements-rj0kb0mxqo3ystas",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 22nd January Morning Shift",
+      "exam_date": "22nd January",
+      "shift": "Morning Shift",
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The volume of an ideal gas increases 8 times and temperature becomes $(1/4)^{\\text{th}}$ of initial temperature during a reversible change. If there is no exchange of heat in this process $(\\Delta Q=0)$ then identify the gas from the following options (Assuming the gases given in the options are ideal gases) :",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The volume of an ideal gas increases 8 times and temperature becomes  $(1/4)^{\\text{th}}$  of initial temperature during a reversible change. If there is no exchange of heat in this process  $(\\Delta Q=0)$  then identify the gas from the following options (Assuming the gases given in the options are ideal gases) :</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$NH_{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $NH_{3}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$O_{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $O_{2}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$CO_{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $CO_{2}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "He",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>He</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "It is given that there is no exchange of heat in this process, which means $\\Delta Q=0$ , i.e., this is an adiabatic process. For an ideal gas undergoing a reversible adiabatic process, the relationship between Temperature (T) and Volume (V) is given by the equation: $T \\cdot V^{\\gamma-1}=\\text{constant}$ Where $\\gamma$ is the adiabatic index or the ratio of specific heats $(\\frac{C_{p}}{C_{v}})$ . This $\\gamma$ value is different depending atomicity of the gases (monoatomic, diatomic, polyatomic). $T_{1} \\cdot V_{1}^{\\gamma-1}=T_{2} \\cdot V_{2}^{\\gamma-1}$ Final volume $(V_{2})$ is 8 times the initial volume $(V_{1}) \\Rightarrow V_{2}=8V_{1}$ Final temperature $(T_{2})$ is $(\\frac{1}{4})^{\\text{th}}$ the initial temperature $(T_{1}) \\Rightarrow T_{2}=\\frac{T_{1}}{4}$ $T_{1} \\cdot V_{1}^{\\gamma-1}=(\\frac{T_{1}}{4}) \\cdot (8V_{1})^{\\gamma-1}$ $\\Rightarrow$ $V_{1}^{\\gamma-1}=\\frac{1}{4} \\cdot 8^{\\gamma-1} \\cdot V_{1}^{\\gamma-1}$ $\\Rightarrow 1=\\frac{1}{4} \\cdot 8^{\\gamma-1}$ $\\Rightarrow 4=8^{\\gamma-1}$ $\\Rightarrow 2^{2}=2^{3(\\gamma-1)}$ $\\Rightarrow 2=3(\\gamma-1)$ $2=3\\gamma-3$ $\\Rightarrow 5=3\\gamma$ $\\Rightarrow \\gamma=\\frac{5}{3}$ The value of $\\gamma$ is directly related to the degrees of freedom (f) of the gas molecules by the formula : $\\gamma=1+\\frac{2}{f}$ $\\Rightarrow \\frac{5}{3}=1+\\frac{2}{f}$ $\\Rightarrow \\frac{5}{3}-1=\\frac{2}{f}$ $\\Rightarrow \\frac{2}{3}=\\frac{2}{f}$ $\\Rightarrow f=3$ A gas with 3 degrees of freedom (all translational, no rotational or vibrational modes activated) is a monoatomic gas. $NH_{3}$ (Ammonia) is polyatomic molecule (non-linear). $O_{2}$ (Oxygen) is a diatomic molecule. $CO_{2}$ (Carbon Dioxide) is polyatomic molecule (linear). He (Helium) is a noble gas, exists as single atoms. It is a monoatomic gas. Therefore, the given gas is a monoatomic gas (He). Hence, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>It is given that there is no exchange of heat in this process, which means  $\\Delta Q=0$ , i.e., this is an adiabatic process.</p>\n<p>For an ideal gas undergoing a reversible adiabatic process, the relationship between Temperature (T) and Volume (V) is given by the equation:</p>\n<p> $T \\cdot V^{\\gamma-1}=\\text{constant}$ </p>\n<p>Where  $\\gamma$  is the adiabatic index or the ratio of specific heats  $(\\frac{C_{p}}{C_{v}})$ . This  $\\gamma$  value is different depending atomicity of the gases (monoatomic, diatomic, polyatomic).</p>\n<p> $T_{1} \\cdot V_{1}^{\\gamma-1}=T_{2} \\cdot V_{2}^{\\gamma-1}$ </p>\n<p>Final volume  $(V_{2})$  is 8 times the initial volume  $(V_{1}) \\Rightarrow V_{2}=8V_{1}$ </p>\n<p>Final temperature  $(T_{2})$  is  $(\\frac{1}{4})^{\\text{th}}$  the initial temperature  $(T_{1}) \\Rightarrow T_{2}=\\frac{T_{1}}{4}$ </p>\n<p> $T_{1} \\cdot V_{1}^{\\gamma-1}=(\\frac{T_{1}}{4}) \\cdot (8V_{1})^{\\gamma-1}$ </p>\n<p> $\\Rightarrow$   $V_{1}^{\\gamma-1}=\\frac{1}{4} \\cdot 8^{\\gamma-1} \\cdot V_{1}^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 1=\\frac{1}{4} \\cdot 8^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 4=8^{\\gamma-1}$ </p>\n<p> $\\Rightarrow 2^{2}=2^{3(\\gamma-1)}$ </p>\n<p><p><p> $\\Rightarrow 2=3(\\gamma-1)$  $2=3\\gamma-3$ </p>\n<p> $\\Rightarrow 5=3\\gamma$ </p>\n<p> $\\Rightarrow \\gamma=\\frac{5}{3}$ </p>\n<p>The value of  $\\gamma$  is directly related to the degrees of freedom (f) of the gas molecules by the formula :</p>\n<p> $\\gamma=1+\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{5}{3}=1+\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{5}{3}-1=\\frac{2}{f}$ </p>\n<p> $\\Rightarrow \\frac{2}{3}=\\frac{2}{f}$ </p>\n<p> $\\Rightarrow f=3$ </p>\n<p>A gas with 3 degrees of freedom (all translational, no rotational or vibrational modes activated) is a monoatomic gas.</p>\n<p> $NH_{3}$  (Ammonia) is polyatomic molecule (non-linear).</p>\n<p> $O_{2}$  (Oxygen) is a diatomic molecule.</p>\n<p> $CO_{2}$  (Carbon Dioxide) is polyatomic molecule (linear).</p>\n<p>He (Helium) is a noble gas, exists as single atoms. It is a monoatomic gas. Therefore, the given gas is a monoatomic gas (He). </p>\n<p>Hence, the correct option is (D).</p></p></p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(1/4)^{\\text{th}}",
+        "(\\Delta Q=0)",
+        "\\Delta Q=0",
+        "T \\cdot V^{\\gamma-1}=\\text{constant}",
+        "(\\frac{C_{p}}{C_{v}})",
+        "T_{1} \\cdot V_{1}^{\\gamma-1}=T_{2} \\cdot V_{2}^{\\gamma-1}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:52.444966"
+    },
+    {
+      "id": 28959,
+      "qid": "mnsik88c",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-diatomic-gas-having-rotational-modes-only-is-jee-main-physics-units-and-measurements-imfnmrf7mrq0knic",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Evening Shift",
+      "exam_date": "6th April",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "A cylinder with adiabatic walls is closed at both ends and is divided into two compartments by a frictionless adiabatic piston. Ideal gas is filled in both (left and right) the compartments at same $P,V$ , T. Heating is started from left side until pressure changes to $27P/8$ . If initial volume of each compartment was 9 litres then the final volume in right-hand side compartment is $____$ litres. (for this ideal gas $C_{P}/C_{V}=1.5$ )",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A cylinder with adiabatic walls is closed at both ends and is divided into two compartments by a frictionless adiabatic piston. Ideal gas is filled in both (left and right) the compartments at same  $P,V$ ,</p>\n<p>T. Heating is started from left side until pressure changes to  $27P/8$ . If initial volume of each compartment was 9 litres then the final volume in right-hand side compartment is  $____$  litres. (for this ideal gas  $C_{P}/C_{V}=1.5$  )</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>4</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "14",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>14</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>9</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "In left compartment heat is added. The gas expands, increasing its pressure and volume. In right compartment heat is not added because the wall is adiabatic, but the piston moves toward it because the pressure on the left increases. Since the walls and the piston are adiabatic, the gas in the right compartment undergoes an adiabatic compression. The piston stops moving when the pressure in both compartments is equal. Therefore, the final pressure in the right compartment $(P_{R})$ will also be $\\frac{27P}{8}$ . For an adiabatic process, the relationship between pressure $(P)$ and volume $(V)$ is: $PV^{\\gamma}=\\text{constant}$ Where $\\gamma=\\frac{C_{P}}{C_{V}}=1.5$ . $P_{1}V_{1}^{\\gamma}=P_{2}V_{2}^{\\gamma}$ $\\Rightarrow$ $\\frac{V_{2}}{V_{1}}=(\\frac{P_{1}}{P_{2}})^{1/\\gamma}$ The initial pressure in right compartment is $P_{1}=P$ and its initial volume is $V_{1}=9$ litres The final pressure in right compartment is $P_{2}=\\frac{27P}{8}$ Substituting these values: $\\frac{V_{\\text{final}}}{9}=(\\frac{P}{27P/8})^{1/1.5}$ $\\Rightarrow$ $\\frac{V_{\\text{final}}}{9}=(\\frac{8}{27})^{2/3}$ $\\Rightarrow$ $\\frac{V_{\\text{final}}}{9}=\\frac{4}{9}$ $\\Rightarrow$ $V_{\\text{final}}=4\\text{litres}$ Therefore, the final volume in the right-hand side compartment is 4 litres. Hence, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In left compartment heat is added. The gas expands, increasing its pressure and volume.</p>\n<p>In right compartment heat is not added because the wall is adiabatic, but the piston moves toward it because the pressure on the left increases. Since the walls and the piston are adiabatic, the gas in the right compartment undergoes an adiabatic compression.</p>\n<p>The piston stops moving when the pressure in both compartments is equal. Therefore, the final pressure in the right compartment  $(P_{R})$  will also be  $\\frac{27P}{8}$ .</p>\n<p><img alt=\"JEE Main 2026 (Online) 6th April Evening Shift Physics - Heat and Thermodynamics Question 11 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>For an adiabatic process, the relationship between pressure  $(P)$  and volume  $(V)$  is:</p>\n<p> $PV^{\\gamma}=\\text{constant}$ </p>\n<p>Where  $\\gamma=\\frac{C_{P}}{C_{V}}=1.5$ .</p>\n<p> $P_{1}V_{1}^{\\gamma}=P_{2}V_{2}^{\\gamma}$ </p>\n<p> $\\Rightarrow$   $\\frac{V_{2}}{V_{1}}=(\\frac{P_{1}}{P_{2}})^{1/\\gamma}$ </p>\n<p>The initial pressure in right compartment is  $P_{1}=P$  and its initial volume is  $V_{1}=9$  litres</p>\n<p>The final pressure in right compartment is  $P_{2}=\\frac{27P}{8}$ </p>\n<p>Substituting these values:</p>\n<p> $\\frac{V_{\\text{final}}}{9}=(\\frac{P}{27P/8})^{1/1.5}$ </p>\n<p> $\\Rightarrow$   $\\frac{V_{\\text{final}}}{9}=(\\frac{8}{27})^{2/3}$ </p>\n<p> $\\Rightarrow$   $\\frac{V_{\\text{final}}}{9}=\\frac{4}{9}$ </p>\n<p> $\\Rightarrow$   $V_{\\text{final}}=4\\text{litres}$ </p>\n<p>Therefore, the final volume in the right-hand side compartment is 4 litres. \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mo45zcxe/cb072c1a-7678-48e9-91aa-e2a043a1692b/203df120-3b0d-11f1-89dc-0d4686aaa9a3/file-6y3zli1mo45zcxf.png?format=png"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "____",
+        "C_{P}/C_{V}=1.5",
+        "(P_{R})",
+        "\\frac{27P}{8}",
+        "PV^{\\gamma}=\\text{constant}",
+        "\\gamma=\\frac{C_{P}}{C_{V}}=1.5"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:42.199144"
+    },
+    {
+      "id": 28973,
+      "qid": "mnswhv3w",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/ptwo-closed-vessels-of-same-volume-are-joined-through-a-na-jee-main-physics-units-and-measurements-lmtu0xu2vejgtoxg",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Morning Shift",
+      "exam_date": "5th April",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason $R$ Statement I : Change in internal energy of a system containing $n$ mole of ideal gas can be written as $\\Delta U=nC_{v}(T_{f}-T_{i})=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ , where $\\gamma=\\frac{C_{p}}{C_{v}},T_{i}=$ initial temperature, $T_{f}=$ final temperature. Statement II : Relation between degree of freedom $f$ and $\\gamma(=C_{p}/C_{v})$ is $(\\gamma=1+\\frac{2}{f})$ Choose the correct answer from the options given below",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason  $R$ </p>\n<p><b>Statement I :</b> Change in internal energy of a system containing  $n$  mole of ideal gas can be written as  $\\Delta U=nC_{v}(T_{f}-T_{i})=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ , where  $\\gamma=\\frac{C_{p}}{C_{v}},T_{i}=$  initial temperature,  $T_{f}=$  final temperature.</p>\n<p><b>Statement II :</b> Relation between degree of freedom  $f$  and  $\\gamma(=C_{p}/C_{v})$  is  $(\\gamma=1+\\frac{2}{f})$ </p>\n<p>Choose the correct answer from the options given below</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>Both  $A$  and  $R$  are true and  $R$  is the correct explanation of  $A$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Both $A$ and $R$ are true but $R$ is NOT the correct explanation of $A$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>Both  $A$  and  $R$  are true but  $R$  is NOT the correct explanation of  $A$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "is true but $R$ is false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A is true but  $R$  is false</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "is false but $R$ is true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A is false but  $R$  is true</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "Internal energy ( $U$ ) of an ideal gas depends only on temperature. The change in internal energy for any process is given by: $\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})$ According to Mayer's relation, $C_{p}-C_{v}=R$ . $\\frac{C_{p}}{C_{v}}-1=\\frac{R}{C_{v}}$ Since $\\gamma=\\frac{C_{p}}{C_{v}}$ , then $\\gamma-1=\\frac{R}{C_{v}} \\Rightarrow C_{v}=\\frac{R}{\\gamma-1}$ . Substituting $C_{v}$ back into the $\\Delta U$ equation: $\\Delta U=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ Thus, Statement I is true. From the law of equipartition of energy, the molar specific heat at constant volume is $C_{v}=\\frac{f}{2}R$ , where $f$ is the degree of freedom. Using $C_{p}=C_{v}+R=\\frac{f}{2}R+R=R(1+\\frac{f}{2})$ . The ratio $\\gamma=\\frac{C_{p}}{C_{v}}=\\frac{R(1+\\frac{f}{2})}{(f/2)R}=\\frac{1+f/2}{f/2}=\\frac{2}{f}+1$ . So, $\\gamma=1+2$ f. Thus, Statement II is true. Statement II is the definition of $\\gamma$ in terms of degrees of freedom, but Statement I is based on Mayer's relation which is the definition of $C_{v}$ , i.e., not directly from the degrees of freedom. Therefore, both A and R are true but R is the correct explanation of A . Thus, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Internal energy (  $U$  ) of an ideal gas depends only on temperature. The change in internal energy for any process is given by:</p>\n<p> $\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})$ </p>\n<p>According to Mayer's relation,  $C_{p}-C_{v}=R$ .</p>\n<p> $\\frac{C_{p}}{C_{v}}-1=\\frac{R}{C_{v}}$ </p>\n<p>Since  $\\gamma=\\frac{C_{p}}{C_{v}}$ , then  $\\gamma-1=\\frac{R}{C_{v}} \\Rightarrow C_{v}=\\frac{R}{\\gamma-1}$ .</p>\n<p>Substituting  $C_{v}$  back into the  $\\Delta U$  equation:</p>\n<p> $\\Delta U=\\frac{nR}{\\gamma-1}(T_{f}-T_{i})$ </p>\n<p>Thus, Statement I is true.</p>\n<p>From the law of equipartition of energy, the molar specific heat at constant volume is  $C_{v}=\\frac{f}{2}R$ , where  $f$  is the degree of freedom.</p>\n<p>Using  $C_{p}=C_{v}+R=\\frac{f}{2}R+R=R(1+\\frac{f}{2})$ .</p>\n<p>The ratio  $\\gamma=\\frac{C_{p}}{C_{v}}=\\frac{R(1+\\frac{f}{2})}{(f/2)R}=\\frac{1+f/2}{f/2}=\\frac{2}{f}+1$ .</p>\n<p>So,  $\\gamma=1+2$  f.</p>\n<p>Thus, Statement II is true.</p>\n<p>Statement II is the definition of  $\\gamma$  in terms of degrees of freedom, but Statement I is based on Mayer's relation which is the definition of  $C_{v}$ , i.e., not directly from the degrees of freedom.</p>\n<p>Therefore, both A and R are true but R is the correct explanation of A . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Delta U=nC_{v}\\Delta T=nC_{v}(T_{f}-T_{i})",
+        "C_{p}-C_{v}=R",
+        "\\frac{C_{p}}{C_{v}}-1=\\frac{R}{C_{v}}",
+        "\\gamma=\\frac{C_{p}}{C_{v}}",
+        "\\gamma-1=\\frac{R}{C_{v}} \\Rightarrow C_{v}=\\frac{R}{\\gamma-1}",
+        "C_{v}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:43.819695"
+    },
+    {
+      "id": 28986,
+      "qid": "mnswhrus",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pgiven-below-are-two-statements-one-is-labelled-as-assert-jee-main-physics-units-and-measurements-ffh31crcujlf2eyp",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 4th April Morning Shift",
+      "exam_date": "4th April",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "One gas of $n_{1}$ mole of molecules at temperature $T_{1}$ , volume $V_{1}$ , and pressure $P_{1}$ , and another gas of $n_{2}$ mole of molecules at temperature $T_{2}$ , volume $V_{2}$ , and pressure $P_{2}$ , are mixed resulting in pressure $P$ and volume $V$ of the mixture. The temperature of the mixture is $____$ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->One gas of  $n_{1}$  mole of molecules at temperature  $T_{1}$ , volume  $V_{1}$ , and pressure  $P_{1}$ , and another gas of  $n_{2}$  mole of molecules at temperature  $T_{2}$ , volume  $V_{2}$ , and pressure  $P_{2}$ , are mixed resulting in pressure  $P$  and volume  $V$  of the mixture. The temperature of the mixture is  $____$  .\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{(T_{1}+T_{2})}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{(T_{1}+T_{2})}{2}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{T_{1}T_{2}PV}{T_{2}P_{1}V_{1}+T_{1}P_{2}V_{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{T_{1}T_{2}PV}{T_{2}P_{1}V_{1}+T_{1}P_{2}V_{2}}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{(T_{2}P_{1}V_{1}+T_{1}P_{2}V_{2})}{T_{1}T_{2}PV}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{(T_{2}P_{1}V_{1}+T_{1}P_{2}V_{2})}{T_{1}T_{2}PV}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{[T_{1}-T_{2}]}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{[T_{1}-T_{2}]}{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "The ideal gas law is given by: $PV=nRT \\Rightarrow n=\\frac{PVR}{T}$ Where R is the universal gas constant. For the first gas : $n_{1}=\\frac{P_{1}V_{1}R}{T_{1}}$ For the second gas : $n_{2}=\\frac{P_{2}V_{2}R}{T_{2}}$ When the gases are mixed, the total number of moles $n$ is the sum of the individual moles : $n=n_{1}+n_{2}$ Using the ideal gas law for the final mixture (pressure P , volume V , and temperature T ) : $\\frac{PVR}{T}=\\frac{P_{1}V_{1}R}{T_{1}}+\\frac{P_{2}V_{2}R}{T_{2}}$ $\\begin{aligned} \\frac{PV}{T}=\\frac{P_{1}V_{1}}{T_{1}}+\\frac{P_{2}V_{2}}{T_{2}} \\\\ \\frac{PV}{T}=\\frac{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}{T_{1}T_{2}} \\\\ \\frac{T}{PV}=\\frac{T_{1}T_{2}}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\\\ T=\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\end{aligned}$ Therefore, the temperature of the mixture of two gases is $\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}$ . Thus, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The ideal gas law is given by:  $PV=nRT \\Rightarrow n=\\frac{PVR}{T}$ </p>\n<p>Where R is the universal gas constant.</p>\n<p>For the first gas :  $n_{1}=\\frac{P_{1}V_{1}R}{T_{1}}$ </p>\n<p>For the second gas :  $n_{2}=\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p>When the gases are mixed, the total number of moles  $n$  is the sum of the individual moles :</p>\n<p> $n=n_{1}+n_{2}$ </p>\n<p>Using the ideal gas law for the final mixture (pressure P , volume V , and temperature T ) :</p>\n<p> $\\frac{PVR}{T}=\\frac{P_{1}V_{1}R}{T_{1}}+\\frac{P_{2}V_{2}R}{T_{2}}$ </p>\n<p> $\\begin{aligned} \\frac{PV}{T}=\\frac{P_{1}V_{1}}{T_{1}}+\\frac{P_{2}V_{2}}{T_{2}} \\\\ \\frac{PV}{T}=\\frac{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}{T_{1}T_{2}} \\\\ \\frac{T}{PV}=\\frac{T_{1}T_{2}}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\\\ T=\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}} \\end{aligned}$ </p>\n<p>Therefore, the temperature of the mixture of two gases is  $\\frac{T_{1}T_{2}PV}{P_{1}V_{1}T_{2}+P_{2}V_{2}T_{1}}$ . </p>\n<p>Thus, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "n_{1}",
+        "T_{1}",
+        "V_{1}",
+        "P_{1}",
+        "n_{2}",
+        "T_{2}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:45.217079"
+    },
+    {
+      "id": 28999,
+      "qid": "ml7xg765",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-mixture-of-carbon-dioxide-and-oxygen-has-volume-8310-cm-jee-main-physics-ba5xtqsiq3zxacxk",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Evening Shift",
+      "exam_date": "28th January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The mean free path of a molecule of diameter $5 \\times 10^{-10}$ m at the temperature $41^{\\circ}$ C and pressure $1.38 \\times 10^{5}$ Pa, is given as ________ m. (Given $k_{B}=1.38 \\times 10^{-23}$ J/K).",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The mean free path of a molecule of diameter  $5 \\times 10^{-10}$  m at the temperature  $41^{\\circ}$ C and pressure  $1.38 \\times 10^{5}$  Pa, is given as ________ m.  (Given  $k_{B}=1.38 \\times 10^{-23}$  J/K).</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\sqrt{2} \\times 10^{-10}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2\\sqrt{2} \\times 10^{-10}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$10\\sqrt{2} \\times 10^{-8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $10\\sqrt{2} \\times 10^{-8}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2\\sqrt{2} \\times 10^{-8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2\\sqrt{2} \\times 10^{-8}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2 \\times 10^{-8}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2 \\times 10^{-8}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The diameter of molecule is, $d=5 \\times 10^{-10}m$ Temperature, $T41^{\\circ}C=(41+273)K=314K$ Pressure, $P=1.38 \\times 10^{5}Pa$ Boltzmann constant, $k_{B}=1.38 \\times 10^{-23}J/K$ The standard formula for the mean free path $\\lambda$ is: $\\lambda=\\frac{k_{B}T}{\\sqrt{2}\\pi d^{2}P}$ Substituting the values, $\\lambda=\\frac{(1.38 \\times 10^{-23}) \\times 314}{\\sqrt{2} \\times \\pi \\times (5 \\times 10^{-10})^{2} \\times (1.38 \\times 10^{5})}$ $\\Rightarrow$ $\\lambda=\\frac{10^{-23} \\times 314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-20} \\times 10^{5}}$ $\\Rightarrow$ $\\lambda=\\frac{314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-8}}$ Using $\\pi \\approx 3.14$ : $\\lambda=\\frac{314}{\\sqrt{2} \\times 3.14 \\times 25 \\times 10^{-8}}$ $\\Rightarrow$ $\\lambda=\\frac{4}{\\sqrt{2}} \\times 10^{-8}=2\\sqrt{2} \\times 10^{-8}m$ Hence, the correct option is D.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The diameter of molecule is,  $d=5 \\times 10^{-10}m$ </p>\n<p>Temperature,  $T41^{\\circ}C=(41+273)K=314K$ </p>\n<p>Pressure,  $P=1.38 \\times 10^{5}Pa$ </p>\n<p>Boltzmann constant,  $k_{B}=1.38 \\times 10^{-23}J/K$ </p>\n<p>The standard formula for the mean free path  $\\lambda$  is:</p>\n<p> $\\lambda=\\frac{k_{B}T}{\\sqrt{2}\\pi d^{2}P}$ </p>\n<p>Substituting the values,</p>\n<p> $\\lambda=\\frac{(1.38 \\times 10^{-23}) \\times 314}{\\sqrt{2} \\times \\pi \\times (5 \\times 10^{-10})^{2} \\times (1.38 \\times 10^{5})}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{10^{-23} \\times 314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-20} \\times 10^{5}}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{314}{\\sqrt{2} \\times \\pi \\times 25 \\times 10^{-8}}$ </p>\n<p>Using  $\\pi \\approx 3.14$  :</p>\n<p> $\\lambda=\\frac{314}{\\sqrt{2} \\times 3.14 \\times 25 \\times 10^{-8}}$ </p>\n<p> $\\Rightarrow$   $\\lambda=\\frac{4}{\\sqrt{2}} \\times 10^{-8}=2\\sqrt{2} \\times 10^{-8}m$ </p>\n<p>Hence, the correct option is D.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "5 \\times 10^{-10}",
+        "41^{\\circ}",
+        "1.38 \\times 10^{5}",
+        "k_{B}=1.38 \\times 10^{-23}",
+        "d=5 \\times 10^{-10}m",
+        "T41^{\\circ}C=(41+273)K=314K"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:46.866414"
+    },
+    {
+      "id": 29014,
+      "qid": "ml98p5vv",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/p10-kg-of-ice-at--10circ-mathrmc-is-added-to-100-jee-main-physics-units-and-measurements-z6lfp0jp2xmelfg9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Evening Shift",
+      "exam_date": "24th January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "10 mole of an ideal gas is undergoing the process shown in the figure. The heat involved in the process from $P_{1}$ to $P_{2}$ is $\\alpha$ Joule ( $P_{1}=21.7Pa$ and $P_{2}=30Pa,C_{v}=21J/K.mol,R=8.3J/mol.K)$ . The value of $\\alpha$ is $____$ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>10 mole of an ideal gas is undergoing the process shown in the figure. The heat involved in the process from  $P_{1}$  to  $P_{2}$  is  $\\alpha$  Joule (  $P_{1}=21.7Pa$  and  $P_{2}=30Pa,C_{v}=21J/K.mol,R=8.3J/mol.K)$ . The value of  $\\alpha$  is  $____$  .</p>\n<img alt=\"JEE Main 2026 (Online) 24th January Evening Shift Physics - Heat and Thermodynamics Question 19 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "21",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>21</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "28",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>28</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "24",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>24</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "15",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>15</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "The path (AB) from state $P_{1}$ to state $P_{2}$ is a vertical line which represents isochoric process where volume remains constant. Initial Pressure: $P_{1}=21.7Pa$ , Initial volume: $V_{1}=1m^{3}$ . Final Pressure: $P_{2}=30Pa$ , Final volume: $V_{2}=1m^{3}$ For any isochoric process, since there is no change in volume ( $dV=0$ ), the work done by the gas is zero : $W_{AB}=\\int PdV=0$ Applying the $1^{\\text{st}}$ law of thermodynamics The heat involved ( $Q=\\alpha$ ) in a constant volume process is equal to the change in internal energy ( $\\Delta U$ ) : $Q=\\Delta U+W$ $\\Rightarrow$ $Q=\\Delta U=nC_{v}\\Delta T=\\alpha\\dots\\text{(i)}$ From the ideal gas law ( $PV=nRT$ ), we know that $nT=\\frac{PV}{R}$ . Therefore, the change $n\\Delta T=\\frac{P_{2}V_{2}-P_{1}V_{1}}{R}\\dots(ii)$ From both the equations, $\\alpha=C_{v}(\\frac{P_{2}V_{2}-P_{1}V_{1}}{R})$ Substituting the given values : $V_{1}=V_{2}=1m^{3};P_{2}-P_{1}=30-21.7=8.3Pa;C_{v}=21J/Kmol;R=8.3J/molK$ $\\alpha=21 \\times (\\frac{(30 \\times 1)-(21.7 \\times 1)}{8.3})$ $\\Rightarrow$ $\\alpha=21 \\times (\\frac{8.3}{8.3})$ Therefore, the heat involved in the process from $P_{1}$ to $P_{2}$ is 21 Joules. Hence, the correct option is (A).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><img alt=\"JEE Main 2026 (Online) 24th January Evening Shift Physics - Heat and Thermodynamics Question 19 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>The path (AB) from state  $P_{1}$  to state  $P_{2}$  is a vertical line which represents isochoric process where volume remains constant.</p>\n<p>Initial Pressure:  $P_{1}=21.7Pa$ , Initial volume:  $V_{1}=1m^{3}$ .</p>\n<p>Final Pressure:  $P_{2}=30Pa$ , Final volume:  $V_{2}=1m^{3}$ </p>\n<p>For any isochoric process, since there is no change in volume (  $dV=0$  ), the work done by the gas is zero :</p>\n<p> $W_{AB}=\\int PdV=0$ </p>\n<p>Applying the  $1^{\\text{st}}$  law of thermodynamics</p>\n<p>The heat involved (  $Q=\\alpha$  ) in a constant volume process is equal to the change in internal energy (  $\\Delta U$  ) :</p>\n<p> $Q=\\Delta U+W$ </p>\n<p> $\\Rightarrow$   $Q=\\Delta U=nC_{v}\\Delta T=\\alpha\\dots\\text{(i)}$ </p>\n<p>From the ideal gas law (  $PV=nRT$  ), we know that  $nT=\\frac{PV}{R}$ . Therefore, the change</p>\n<p> $n\\Delta T=\\frac{P_{2}V_{2}-P_{1}V_{1}}{R}\\dots(ii)$ </p>\n<p>From both the equations,</p>\n<p> $\\alpha=C_{v}(\\frac{P_{2}V_{2}-P_{1}V_{1}}{R})$ </p>\n<p>Substituting the given values :</p>\n<p> $V_{1}=V_{2}=1m^{3};P_{2}-P_{1}=30-21.7=8.3Pa;C_{v}=21J/Kmol;R=8.3J/molK$ </p>\n<p> $\\alpha=21 \\times (\\frac{(30 \\times 1)-(21.7 \\times 1)}{8.3})$ </p>\n<p> $\\Rightarrow$   $\\alpha=21 \\times (\\frac{8.3}{8.3})$ </p>\n<p>Therefore, the heat involved in the process from  $P_{1}$  to  $P_{2}$  is 21 Joules. </p>\n<p>Hence, the correct option is (A).</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbrosb/7f0e5360-8aaa-484f-b765-ca9cc027f46c/dd4f10b0-07fe-11f1-a513-671ec3d625a9/file-6y3zli1mljbrosc.png?format=png",
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1mljbtymz/4a9950fa-de9b-496b-bd45-5692e0fedeed/1c8996b0-07ff-11f1-a513-671ec3d625a9/file-6y3zli1mljbtyn0.png?format=png"
+      ],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P_{1}",
+        "P_{2}",
+        "P_{1}=21.7Pa",
+        "P_{2}=30Pa,C_{v}=21J/K.mol,R=8.3J/mol.K)",
+        "____",
+        "V_{1}=1m^{3}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:48.564097"
+    },
+    {
+      "id": 29029,
+      "qid": "ml8t8psq",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-an-ideal-diatomic-gas-expands-from-volume-v-jee-main-physics-units-and-measurements-9pnikvbwrwyrh8ca",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 23rd January Evening Shift",
+      "exam_date": "23rd January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "An air bubble of volume $2.9cm^{3}$ rises from the bottom of a swimming pool of 5 m deep. At the bottom of the pool water temperature is $17^{\\circ}C$ . The volume of the bubble when it reaches the surface, where the water temperature is $27^{\\circ}C$ , is $____$ $cm^{3}$ . ( $g=10m/s^{2}$ , density of water $=10^{3}kg/m^{3}$ , and 1 atm pressure is $10^{5}Pa$ )",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An air bubble of volume  $2.9cm^{3}$  rises from the bottom of a swimming pool of 5 m deep. At the bottom of the pool water temperature is  $17^{\\circ}C$ . The volume of the bubble when it reaches the surface, where the water temperature is  $27^{\\circ}C$ , is  $____$   $cm^{3}$ .</p>\n<p>(  $g=10m/s^{2}$ , density of water  $=10^{3}kg/m^{3}$ , and 1 atm pressure is  $10^{5}Pa$  )</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2.0</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>4.2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3.0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>3.0</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "4.5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>4.5</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "Initial state (at the bottom) Volume $=V_{1}=2.9cm^{3}$ Temperature $=T_{1}=17^{\\circ}C=17+273=290K$ Pressure $=P_{1}$ Total pressure at the bottom is atmospheric pressure $(P_{0})$ plus the hydrostatic pressure $(h\\rho g)$ . $P_{1}=10^{5}+10^{3} \\times 10 \\times 5=1.5 \\times 10^{5}Pa$ Final state (at the surface) Temperature $=T_{2}=27^{\\circ}C=27+273=300K$ Pressure $=P_{2}=P_{0}$ (Only atmospheric pressure acts at the surface.) $P_{2}=10^{5}Pa$ According to the Ideal Gas Law : $\\frac{P_{1}V_{1}}{T_{1}}=\\frac{P_{2}V_{2}}{T_{2}}$ $\\Rightarrow$ $\\frac{(1.5 \\times 10^{5}) \\times 2.9}{290}=\\frac{(10^{5}) \\times V_{2}}{300}$ $\\Rightarrow$ $\\frac{1.5 \\times 2.9}{290}=\\frac{V_{2}}{300}$ $\\Rightarrow$ $V_{2}=\\frac{1.5 \\times 2.9 \\times 300}{290}$ $\\Rightarrow$ $V_{2}=4.5cm^{3}$ So, as the bubble rises, the external pressure decreases significantly while the temperature increases slightly. Both factors contribute to the expansion of the air bubble, resulting in a final volume of $4.5cm^{3}$ . Therefore, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Initial state (at the bottom)</p>\n<p>Volume  $=V_{1}=2.9cm^{3}$ </p>\n<p>Temperature  $=T_{1}=17^{\\circ}C=17+273=290K$ </p>\n<p>Pressure  $=P_{1}$ </p>\n<p>Total pressure at the bottom is atmospheric pressure  $(P_{0})$  plus the hydrostatic pressure  $(h\\rho g)$ .</p>\n<p> $P_{1}=10^{5}+10^{3} \\times 10 \\times 5=1.5 \\times 10^{5}Pa$ </p>\n<p>Final state (at the surface)</p>\n<p>Temperature  $=T_{2}=27^{\\circ}C=27+273=300K$ </p>\n<p>Pressure  $=P_{2}=P_{0}$  (Only atmospheric pressure acts at the surface.)</p>\n<p> $P_{2}=10^{5}Pa$ </p>\n<p>According to the Ideal Gas Law :</p>\n<p> $\\frac{P_{1}V_{1}}{T_{1}}=\\frac{P_{2}V_{2}}{T_{2}}$ </p>\n<p> $\\Rightarrow$   $\\frac{(1.5 \\times 10^{5}) \\times 2.9}{290}=\\frac{(10^{5}) \\times V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $\\frac{1.5 \\times 2.9}{290}=\\frac{V_{2}}{300}$ </p>\n<p> $\\Rightarrow$   $V_{2}=\\frac{1.5 \\times 2.9 \\times 300}{290}$ </p>\n<p> $\\Rightarrow$   $V_{2}=4.5cm^{3}$ </p>\n<p>So, as the bubble rises, the external pressure decreases significantly while the temperature increases slightly. Both factors contribute to the expansion of the air bubble, resulting in a final volume of  $4.5cm^{3}$ . \n<br/><br/>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "2.9cm^{3}",
+        "17^{\\circ}C",
+        "27^{\\circ}C",
+        "____",
+        "cm^{3}",
+        "g=10m/s^{2}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:50.195099"
+    },
+    {
+      "id": 29047,
+      "qid": "ml7rrwgw",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/prods-x-and-y-of-equal-dimensions-but-of-different-mat-jee-main-physics-units-and-measurements-rj0kb0mxqo3ystas",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 21st January Evening Shift",
+      "exam_date": "21st January",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The r.m.s. speed of oxygen molecules at 47 °C is equal to that of the hydrogen molecules kept at _________ °C. (Mass of oxygen molecule/mass of hydrogen molecule = 32/2)",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The r.m.s. speed of oxygen molecules at 47 °C is equal to that of the hydrogen molecules kept at _________ °C. (Mass of oxygen molecule/mass of hydrogen molecule = 32/2)</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "-100",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-100</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "-253",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-253</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "-20",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-20</p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "-235",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>-235</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "According to the Kinetic Theory of Gases, the r.m.s speed of an ideal gas is given by : $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ Where T is the absolute temperature and M is the molecular mass (in kg ). It is given that the r.m.s. speed of oxygen $(O_{2})$ at $T_{O_{2}}$ is equal to the r.m.s. speed of hydrogen $(H_{2})$ at $T_{H_{2}}$ . $V_{rms(O_{2})}=V_{rms(H_{2})}$ $\\Rightarrow$ $\\sqrt{\\frac{3RT_{O_{2}}}{M_{O_{2}}}}=\\sqrt{\\frac{3RT_{H_{2}}}{M_{H_{2}}}}$ $\\Rightarrow$ $\\frac{T_{O_{2}}}{M_{O_{2}}}=\\frac{T_{H_{2}}}{M_{H_{2}}}$ Temperature of oxygen is $T_{O_{2}}=47+273=320K$ . Molar masses are $M_{O_{2}}=32 \\times 10^{-3}kg$ and $M_{H_{2}}=2 \\times 10^{-3}kg$ . $\\frac{320}{32}=\\frac{T_{H_{2}}}{2}$ $\\Rightarrow$ $10=\\frac{T_{H_{2}}}{2} \\Rightarrow T_{H_{2}}=20K$ $\\Rightarrow$ $T_{H_{2}}=20-273$ $\\Rightarrow$ $T_{H_{2}}=-253^{\\circ}C$ Therefore, the rms speed of oxygen molecules at $47^{\\circ}C$ is equal to that of the hydrogen molecules kept at $-253^{\\circ}C$ . Hence, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the Kinetic Theory of Gases, the r.m.s speed of an ideal gas is given by :</p>\n<p> $v_{rms}=\\sqrt{\\frac{3RT}{M}}$ </p>\n<p>Where T is the absolute temperature and M is the molecular mass (in kg ).</p>\n<p>It is given that the r.m.s. speed of oxygen  $(O_{2})$  at  $T_{O_{2}}$  is equal to the r.m.s. speed of hydrogen  $(H_{2})$  at  $T_{H_{2}}$ .</p>\n<p> $V_{rms(O_{2})}=V_{rms(H_{2})}$ </p>\n<p> $\\Rightarrow$   $\\sqrt{\\frac{3RT_{O_{2}}}{M_{O_{2}}}}=\\sqrt{\\frac{3RT_{H_{2}}}{M_{H_{2}}}}$ </p>\n<p> $\\Rightarrow$   $\\frac{T_{O_{2}}}{M_{O_{2}}}=\\frac{T_{H_{2}}}{M_{H_{2}}}$ </p>\n<p>Temperature of oxygen is  $T_{O_{2}}=47+273=320K$ .</p>\n<p>Molar masses are  $M_{O_{2}}=32 \\times 10^{-3}kg$  and  $M_{H_{2}}=2 \\times 10^{-3}kg$ .</p>\n<p> $\\frac{320}{32}=\\frac{T_{H_{2}}}{2}$ </p>\n<p> $\\Rightarrow$   $10=\\frac{T_{H_{2}}}{2} \\Rightarrow T_{H_{2}}=20K$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=20-273$ </p>\n<p> $\\Rightarrow$   $T_{H_{2}}=-253^{\\circ}C$ </p>\n<p>Therefore, the rms speed of oxygen molecules at  $47^{\\circ}C$  is equal to that of the hydrogen molecules kept at  $-253^{\\circ}C$ . \n<br/><br/>Hence, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "v_{rms}=\\sqrt{\\frac{3RT}{M}}",
+        "(O_{2})",
+        "T_{O_{2}}",
+        "(H_{2})",
+        "T_{H_{2}}",
+        "V_{rms(O_{2})}=V_{rms(H_{2})}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:52.538206"
+    },
+    {
+      "id": 28961,
+      "qid": "mnsik8d8",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-diatomic-gas-having-rotational-modes-only-is-jee-main-physics-units-and-measurements-imfnmrf7mrq0knic",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 6th April Evening Shift",
+      "exam_date": "6th April",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If 2 mole of an ideal monoatomic gas at temperature $T$ , is mixed with 6 mole of another ideal monoatomic gas at temperature $2T$ then the temperature of mixture is:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If 2 mole of an ideal monoatomic gas at temperature  $T$ , is mixed with 6 mole of another ideal monoatomic gas at temperature  $2T$  then the temperature of mixture is:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{2}T$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{2}T$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{4}T$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{5}{4}T$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{2}T$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{7}{2}T$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{4}T$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{7}{4}T$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The internal energy $(U)$ of $n$ moles of an ideal gas at temperature $T$ is given by $U=nC_{v}T$ , where $C_{v}$ is the molar specific heat at constant volume. For the mixture, total initial internal energy $U_{\\text{initial}}=U_{1}+U_{2}$ Total final internal energy $U_{\\text{final}}=(n_{1}+n_{2})C_{v,\\text{mix}}T_{\\text{mix}}$ Since both gases are monoatomic, their molar specific heats are the same, $C_{v1}=C_{v2}=C_{v,mix}=\\frac{3}{2}R$ Therefore, using conservation of energy (total initial internal energy is equal to final internal energy). $n_{1}C_{v}T_{1}+n_{2}C_{v}T_{2}=(n_{1}+n_{2})C_{v}T_{mix}$ $\\Rightarrow$ $T_{mix}=\\frac{n_{1}T_{1}+n_{2}T_{2}}{(n_{1}+n_{2})}$ Moles of first gas is $n_{1}=2$ Temperature of first gas is $T_{1}=T$ Moles of second gas $n_{2}=6$ Temperature of second gas $T_{2}=2T$ On substituting the values into expression for the temperature of mixture, $T_{mix}=\\frac{(2 \\times T)+(6 \\times 2T)}{2+6}$ $\\Rightarrow$ $T_{mix}=\\frac{2T+12T}{8}$ $\\Rightarrow$ $T_{mix}=\\frac{14T}{8}$ $\\Rightarrow$ $T_{mix}=\\frac{7}{4}T$ Therefore, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The internal energy  $(U)$  of  $n$  moles of an ideal gas at temperature  $T$  is given by  $U=nC_{v}T$ , where  $C_{v}$  is the molar specific heat at constant volume.</p>\n<p>For the mixture, total initial internal energy  $U_{\\text{initial}}=U_{1}+U_{2}$ </p>\n<p>Total final internal energy  $U_{\\text{final}}=(n_{1}+n_{2})C_{v,\\text{mix}}T_{\\text{mix}}$ </p>\n<p>Since both gases are monoatomic, their molar specific heats are the same,</p>\n<p> $C_{v1}=C_{v2}=C_{v,mix}=\\frac{3}{2}R$ </p>\n<p>Therefore, using conservation of energy (total initial internal energy is equal to final internal energy).</p>\n<p> $n_{1}C_{v}T_{1}+n_{2}C_{v}T_{2}=(n_{1}+n_{2})C_{v}T_{mix}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{n_{1}T_{1}+n_{2}T_{2}}{(n_{1}+n_{2})}$ </p>\n<p>Moles of first gas is  $n_{1}=2$ </p>\n<p>Temperature of first gas is  $T_{1}=T$ </p>\n<p>Moles of second gas  $n_{2}=6$ </p>\n<p>Temperature of second gas  $T_{2}=2T$ </p>\n<p>On substituting the values into expression for the temperature of mixture,</p>\n<p> $T_{mix}=\\frac{(2 \\times T)+(6 \\times 2T)}{2+6}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{2T+12T}{8}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{14T}{8}$ </p>\n<p> $\\Rightarrow$   $T_{mix}=\\frac{7}{4}T$ </p>\n<p>Therefore, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "U_{\\text{initial}}=U_{1}+U_{2}",
+        "U_{\\text{final}}=(n_{1}+n_{2})C_{v,\\text{mix}}T_{\\text{mix}}",
+        "C_{v1}=C_{v2}=C_{v,mix}=\\frac{3}{2}R",
+        "n_{1}C_{v}T_{1}+n_{2}C_{v}T_{2}=(n_{1}+n_{2})C_{v}T_{mix}",
+        "T_{mix}=\\frac{n_{1}T_{1}+n_{2}T_{2}}{(n_{1}+n_{2})}",
+        "n_{1}=2"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:42.307702"
+    },
+    {
+      "id": 28975,
+      "qid": "mnswhx4b",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/ptwo-closed-vessels-of-same-volume-are-joined-through-a-na-jee-main-physics-units-and-measurements-lmtu0xu2vejgtoxg",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 5th April Morning Shift",
+      "exam_date": "5th April",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Consider the following statements: A. Zeroth law of thermodynamics gives concept of temperature B. First law of thermodynamics gives concept of internal energy C. In isothermal expansion of ideal gas, $\\Delta Q \\ne \\Delta W$ D. Product of intensive and extensive variables is extensive E. The ratio of any extensive variable to mass will be an extensive variable Choose the correct combination of statements from the options given below:",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider the following statements:</p>\n<p>A. Zeroth law of thermodynamics gives concept of temperature</p>\n<p>B. First law of thermodynamics gives concept of internal energy</p>\n<p>C. In isothermal expansion of ideal gas,  $\\Delta Q \\ne \\Delta W$ </p>\n<p>D. Product of intensive and extensive variables is extensive</p>\n<p>E. The ratio of any extensive variable to mass will be an extensive variable</p>\n<p>Choose the correct combination of statements from the options given below:</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": ", D and E Only",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>C, D and E Only</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": ", B and C Only",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A, B and C Only</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": ", B and D Only",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>A, B and D Only</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": ", C and D Only",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>B, C and D Only</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "The Zeroth Law states that if two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other, i.e., the Zeroth law gives idea about the property of temperature to be measured. Hence, statement A is true. The First Law is the mathematical relation between heat ( $\\Delta Q$ ), change in internal energy ( $\\Delta U$ ) and work done by the system ( $\\Delta W$ ) $\\Delta Q=\\Delta U+\\Delta W$ This relation introduces internal energy ( $U$ ) as a state function which is based on energy conservation. Hence, statement B is true. In an isothermal expansion of an ideal gas, temperature remains constant, so $\\Delta U=0$ . From the First Law: $\\Delta Q=\\Delta U+\\Delta W \\Rightarrow \\Delta Q=0+\\Delta W \\Rightarrow \\Delta Q=\\Delta W$ . But as per statement $C$ , in isothermal process $\\Delta Q \\ne \\Delta W$ , so statement $C$ is False. Intensive variables are the properties which do not depend on size, for example temperature and pressure. Extensive variables are the properties depend on size, for example volume. The product of intensive and extensive property $P \\times V$ represents work or energy, which depends with the size of the system. Therefore, the product is extensive. When an extensive variable (like volume or heat capacity) is divided by mass, it becomes a specific quantity (like specific volume or specific heat). Specific quantities are intensive because they do not depend on the total mass of the system. Statement E says it remains extensive, so it is False. Therefore, only A, B, and D are correct. Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The Zeroth Law states that if two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other, i.e., the Zeroth law gives idea about the property of temperature to be measured. Hence, statement A is true.</p>\n<p>The First Law is the mathematical relation between heat (  $\\Delta Q$  ), change in internal energy (  $\\Delta U$  ) and work done by the system (  $\\Delta W$  )</p>\n<p> $\\Delta Q=\\Delta U+\\Delta W$ </p>\n<p>This relation introduces internal energy (  $U$  ) as a state function which is based on energy conservation. Hence, statement B is true.</p>\n<p>In an isothermal expansion of an ideal gas, temperature remains constant, so  $\\Delta U=0$ .</p>\n<p>From the First Law:  $\\Delta Q=\\Delta U+\\Delta W \\Rightarrow \\Delta Q=0+\\Delta W \\Rightarrow \\Delta Q=\\Delta W$ .</p>\n<p>But as per statement  $C$ , in isothermal process  $\\Delta Q \\ne \\Delta W$ , so statement  $C$  is False.</p>\n<p>Intensive variables are the properties which do not depend on size, for example temperature and pressure.</p>\n<p>Extensive variables are the properties depend on size, for example volume.</p>\n<p>The product of intensive and extensive property  $P \\times V$  represents work or energy, which depends with the size of the system. Therefore, the product is extensive.</p>\n<p>When an extensive variable (like volume or heat capacity) is divided by mass, it becomes a specific quantity (like specific volume or specific heat). Specific quantities are intensive because they do not depend on the total mass of the system. Statement E says it remains extensive, so it is False.</p>\n<p>Therefore, only A, B, and D are correct. Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Delta Q=\\Delta U+\\Delta W",
+        "\\Delta U=0",
+        "P \\times V"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:43.877910"
+    },
+    {
+      "id": 28988,
+      "qid": "mnswhwo3",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pgiven-below-are-two-statements-one-is-labelled-as-assert-jee-main-physics-units-and-measurements-ffh31crcujlf2eyp",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 4th April Morning Shift",
+      "exam_date": "4th April",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "An ideal gas undergoes a process maintaining relation between pressure $(P)$ and $volume(V)$ as $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ , where $P_{o}$ and $V_{o}$ are constants. If two samples $A$ and $B$ (two moles each) with initial volumes $V_{o}$ and $3V_{o}$ respectively undergo above mentioned process and attain same pressure, then the difference at the temperatures of these samples, $T_{B}-T_{A}$ is $____$ . ( $R=$ gas constant)",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>An ideal gas undergoes a process maintaining relation between pressure  $(P)$  and  $volume(V)$  as  $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ , where  $P_{o}$  and  $V_{o}$  are constants. If two samples  $A$  and  $B$  (two moles each) with initial volumes  $V_{o}$  and  $3V_{o}$  respectively undergo above mentioned process and attain same pressure, then the difference at the temperatures of these samples,  $T_{B}-T_{A}$  is  $____$  .</p>\n<p>(  $R=$  gas constant)</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{9P_{o}V_{o}}{8R}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{9P_{o}V_{o}}{8R}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{11P_{o}V_{o}}{10R}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{11P_{o}V_{o}}{10R}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7P_{o}V_{o}}{6R}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{7P_{o}V_{o}}{6R}$ </p><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{13P_{o}V_{o}}{11R}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $\\frac{13P_{o}V_{o}}{11R}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "From the ideal gas law $PV=nRT \\Rightarrow T=\\frac{PV}{nR}$ The process for the given gas is $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ Substituting the given expression for P : $P=\\frac{P_{0}}{1+\\frac{V_{0}^{2}}{V^{2}}}=\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}}$ Now, substituting this P into the temperature equation : $T=\\frac{1}{nR}(\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}})V=\\frac{P_{0}V^{3}}{nR(V^{2}+V_{0}^{2})}$ For sample A , the volume is $V_{A}=V_{0}$ and the number of moles $n=2$ . $T_{A}=\\frac{P_{0}(V_{0})^{3}}{2R(V_{0}^{2}+V_{0}^{2})}=\\frac{P_{0}V_{0}^{3}}{2R(2V_{0}^{2})}=\\frac{P_{0}V_{0}}{4R}$ For sample B , the volume is $V_{B}=3V_{0}$ and $n=2$ . $T_{B}=\\frac{P_{0}(3V_{0})^{3}}{2R((3V_{0})^{2}+V_{0}^{2})}=\\frac{P_{0}(27V_{0}^{3})}{2R(9V_{0}^{2}+V_{0}^{2})}=\\frac{27P_{0}V_{0}^{3}}{2R(10V_{0}^{2})}=\\frac{27P_{0}V_{0}}{20R}$ So, the temperature difference is, $T_{B}-T_{A}=\\frac{27P_{0}V_{0}}{20R}-\\frac{P_{0}V_{0}}{4R}$ $\\Rightarrow$ $T_{B}-T_{A}=\\frac{27P_{0}V_{0}-5P_{0}V_{0}}{20R}=\\frac{22P_{0}V_{0}}{20R}=\\frac{11P_{0}V_{0}}{10R}$ Therefore, the correct option is (B).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From the ideal gas law</p>\n<p> $PV=nRT \\Rightarrow T=\\frac{PV}{nR}$ </p>\n<p>The process for the given gas is  $P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}$ </p>\n<p>Substituting the given expression for P :</p>\n<p> $P=\\frac{P_{0}}{1+\\frac{V_{0}^{2}}{V^{2}}}=\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}}$ </p>\n<p>Now, substituting this P into the temperature equation :</p>\n<p> $T=\\frac{1}{nR}(\\frac{P_{0}V^{2}}{V^{2}+V_{0}^{2}})V=\\frac{P_{0}V^{3}}{nR(V^{2}+V_{0}^{2})}$ </p>\n<p>For sample A , the volume is  $V_{A}=V_{0}$  and the number of moles  $n=2$ .</p>\n<p> $T_{A}=\\frac{P_{0}(V_{0})^{3}}{2R(V_{0}^{2}+V_{0}^{2})}=\\frac{P_{0}V_{0}^{3}}{2R(2V_{0}^{2})}=\\frac{P_{0}V_{0}}{4R}$ </p>\n<p>For sample B , the volume is  $V_{B}=3V_{0}$  and  $n=2$ .</p>\n<p> $T_{B}=\\frac{P_{0}(3V_{0})^{3}}{2R((3V_{0})^{2}+V_{0}^{2})}=\\frac{P_{0}(27V_{0}^{3})}{2R(9V_{0}^{2}+V_{0}^{2})}=\\frac{27P_{0}V_{0}^{3}}{2R(10V_{0}^{2})}=\\frac{27P_{0}V_{0}}{20R}$ </p>\n<p>So, the temperature difference is,</p>\n<p> $T_{B}-T_{A}=\\frac{27P_{0}V_{0}}{20R}-\\frac{P_{0}V_{0}}{4R}$ </p>\n<p> $\\Rightarrow$   $T_{B}-T_{A}=\\frac{27P_{0}V_{0}-5P_{0}V_{0}}{20R}=\\frac{22P_{0}V_{0}}{20R}=\\frac{11P_{0}V_{0}}{10R}$ </p>\n<p>Therefore, the correct option is (B).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "P=P_{o}(1+(\\frac{V_{o}}{V})^{2})^{-1}",
+        "P_{o}",
+        "V_{o}",
+        "T_{B}-T_{A}",
+        "____"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:45.267428"
+    },
+    {
+      "id": 29001,
+      "qid": "ml81k4ey",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pa-mixture-of-carbon-dioxide-and-oxygen-has-volume-8310-cm-jee-main-physics-ba5xtqsiq3zxacxk",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 28th January Morning Shift",
+      "exam_date": "28th January",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Which of the following best represents the temperature versus heat supplied graph for water, in the range of $-20^{\\circ}C$ to $120^{\\circ}C$ ?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Which of the following best represents the temperature versus heat supplied graph for water, in the range of  $-20^{\\circ}C$  to  $120^{\\circ}C$ ?</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><img alt=\"JEE Main 2026 (Online) 28th January Morning Shift Physics - Heat and Thermodynamics Question 33 English Option 1\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml83hbri/82acc3f1-a767-43b7-b397-c61b0bc66708/d4fb2ee0-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83hbrj.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><img alt=\"JEE Main 2026 (Online) 28th January Morning Shift Physics - Heat and Thermodynamics Question 33 English Option 2\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml83i5oz/1d2b7d9a-65b2-48de-befc-941aa9db024a/ec19ea30-01d1-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83i5p0.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><img alt=\"JEE Main 2026 (Online) 28th January Morning Shift Physics - Heat and Thermodynamics Question 33 English Option 3\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml83j2pw/b14dddfb-b510-414b-a2ee-4ae8f640fcaa/059cd440-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83j2px.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><img alt=\"JEE Main 2026 (Online) 28th January Morning Shift Physics - Heat and Thermodynamics Question 33 English Option 4\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ml83kbpf/64b3d7aa-4352-4909-a798-32f3f0de865a/285d2930-01d2-11f1-9078-a3f6a36b05f8/file-6y3zli1ml83kbpg.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "To determine the correct graph, we must analyse the phase changes and temperature changes that occur when heat is supplied to water starting from $-20^{\\circ}C$ . Step 1 : Heating Ice ( $-20^{\\circ}C$ to $0^{\\circ}C$ ) Initially, the substance is ice. As heat is supplied, the temperature of the ice increases linearly from $-20^{\\circ}C$ to 0 $^{\\circ}C$ . This is represented by a sloping line on the graph. $Q_{1}=m_{\\text{ice}}c_{\\text{ice}}(T+20)$ Step 2 : Melting (Phase Change at $0^{\\circ}C$ ) At $0^{\\circ}C$ , the ice begins to melt into water. During a phase change, the temperature remains constant even as heat is added (latent heat of fusion). This is represented by a horizontal line at $0^{\\circ}C$ . $Q_{2}=m_{ice}L_{f}$ Step 3 : Heating Liquid Water ( $0^{\\circ}C$ to $100^{\\circ}C$ ) Once all the ice has melted, further heat increases the temperature of the liquid water linearly from $0^{\\circ}C$ up to its boiling point at $100^{\\circ}C$ . This is another sloping line. $Q_{3}=m_{\\text{water}}c_{\\text{water}}T$ Step 4 : Boiling (Phase Change at $100^{\\circ}C$ ) At $100^{\\circ}C$ , the water begins to turn into steam. The temperature stays constant during this process (latent heat of vaporization). This is represented by a second horizontal line at $100^{\\circ}C$ . $Q_{4}=m_{\\text{water}}L_{v}$ Step 5 : Heating Steam ( $100^{\\circ}C$ to $120^{\\circ}C$ ) After all the water has turned into steam, the temperature of the steam increases from $100^{\\circ}C$ toward $120^{\\circ}C$ . This is represented by a final sloping line. $Q_{5}=m_{\\text{vapour}}C_{\\text{vapour}}(T-100)$ So, the correct graph must show : 1. A start point below $0^{\\circ}C$ (at $-20^{\\circ}C$ ). 2. A horizontal plateau at $0^{\\circ}C$ (melting). 3. A horizontal plateau at $100^{\\circ}C$ (boiling). Hence, the correct option is (C).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To determine the correct graph, we must analyse the phase changes and temperature changes that occur when heat is supplied to water starting from  $-20^{\\circ}C$ .</p>\n<p><b>Step 1 :</b> Heating Ice (  $-20^{\\circ}C$  to  $0^{\\circ}C$  )</p>\n<p>Initially, the substance is ice. As heat is supplied, the temperature of the ice increases linearly from  $-20^{\\circ}C$  to 0  $^{\\circ}C$ . This is represented by a sloping line on the graph.</p>\n<p> $Q_{1}=m_{\\text{ice}}c_{\\text{ice}}(T+20)$ </p>\n<p><b>Step 2 :</b> Melting (Phase Change at  $0^{\\circ}C$  )</p>\n<p>At  $0^{\\circ}C$ , the ice begins to melt into water. During a phase change, the temperature remains constant even as heat is added (latent heat of fusion). This is represented by a horizontal line at  $0^{\\circ}C$ .</p>\n<p> $Q_{2}=m_{ice}L_{f}$ </p>\n<p><b>Step 3 :</b> Heating Liquid Water (  $0^{\\circ}C$  to  $100^{\\circ}C$  )</p>\n<p>Once all the ice has melted, further heat increases the temperature of the liquid water linearly from  $0^{\\circ}C$  up to its boiling point at  $100^{\\circ}C$ . This is another sloping line.</p>\n<p> $Q_{3}=m_{\\text{water}}c_{\\text{water}}T$ </p>\n<p><b>Step 4 :</b> Boiling (Phase Change at  $100^{\\circ}C$  )</p>\n<p>At  $100^{\\circ}C$ , the water begins to turn into steam. The temperature stays constant during this process (latent heat of vaporization). This is represented by a second horizontal line at  $100^{\\circ}C$ .</p>\n<p> $Q_{4}=m_{\\text{water}}L_{v}$ </p>\n<p><b>Step 5 :</b> Heating Steam (  $100^{\\circ}C$  to  $120^{\\circ}C$  )</p>\n<p>After all the water has turned into steam, the temperature of the steam increases from  $100^{\\circ}C$  toward  $120^{\\circ}C$ . This is represented by a final sloping line.</p>\n<p> $Q_{5}=m_{\\text{vapour}}C_{\\text{vapour}}(T-100)$ </p>\n<p>So, the correct graph must show :</p>\n<ol>\n<li>1. A start point below  $0^{\\circ}C$  (at  $-20^{\\circ}C$  ).</li>\n</ol>\n<ol start=\"2\">\n<li><p>2. A horizontal plateau at  $0^{\\circ}C$  (melting).</p></li>\n<li><p>3. A horizontal plateau at  $100^{\\circ}C$  (boiling).</p></li>\n</ol>\n<p>Hence, the correct option is (C).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "-20^{\\circ}C",
+        "120^{\\circ}C",
+        "0^{\\circ}C",
+        "^{\\circ}C",
+        "Q_{1}=m_{\\text{ice}}c_{\\text{ice}}(T+20)",
+        "Q_{2}=m_{ice}L_{f}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:46.933335"
+    },
+    {
+      "id": 29017,
+      "qid": "ml98p3kb",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/p10-kg-of-ice-at--10circ-mathrmc-is-added-to-100-jee-main-physics-units-and-measurements-z6lfp0jp2xmelfg9",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 24th January Morning Shift",
+      "exam_date": "24th January",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Density of water at $4^{\\circ}C$ and $20^{\\circ}C$ are $1000kg/m^{3}$ and $998kg/m^{3}$ respectively. The increase in internal energy of 4 kg of water when it is heated from $4^{\\circ}C$ to $20^{\\circ}C$ is $____$ J. (specific heat capacity of water $=4.2J/kg$ . and 1 atmospheric pressure $=10^{5}Pa$ )",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Density of water at  $4^{\\circ}C$  and  $20^{\\circ}C$  are  $1000kg/m^{3}$  and  $998kg/m^{3}$  respectively. The increase in internal energy of 4 kg of water when it is heated from  $4^{\\circ}C$  to  $20^{\\circ}C$  is  $____$  J.</p>\n<p>(specific heat capacity of water  $=4.2J/kg$ . and 1 atmospheric pressure  $=10^{5}Pa$  )</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "268799.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>268799.2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "315826.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>315826.2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "234699.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>234699.2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "258700.8",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>258700.8</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation_text": "Heat supplied to water: $Q=mc\\Delta T$ Here, $m=4\\text{kg}$ , $c=4.2 \\times 10^{3}\\text{J kg}^{-1}\\text{K}^{-1}$ , and $\\Delta T=20-4=16\\text{K}$ . So, $Q=4 \\times 4.2 \\times 10^{3} \\times 16=268800\\text{J}$ Since heating is done at atmospheric pressure, water expands and does work: $W=P\\Delta V$ Initial volume: $V_{1}=\\frac{m}{\\rho_{1}}=\\frac{4}{1000}=0.004\\text{m}^{3}$ Final volume: $V_{2}=\\frac{m}{\\rho_{2}}=\\frac{4}{998}=0.004008016\\text{m}^{3}$ Change in volume: $\\Delta V=V_{2}-V_{1}=0.004008016-0.004=8.016 \\times 10^{-6}\\text{m}^{3}$ Work done: $W=10^{5} \\times 8.016 \\times 10^{-6}=0.8016\\text{J}$ By first law of thermodynamics, $\\Delta U=Q-W=268800-0.8016=268799.1984\\text{J} \\approx 268799.2\\text{J}$ Correct option: A (268799.2 J)",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Heat supplied to water:</p>\n<p> $Q=mc\\Delta T$ </p>\n<p>Here,  $m=4\\text{kg}$ ,  $c=4.2 \\times 10^{3}\\text{J kg}^{-1}\\text{K}^{-1}$ , and  $\\Delta T=20-4=16\\text{K}$ .</p>\n<p>So,</p>\n<p> $Q=4 \\times 4.2 \\times 10^{3} \\times 16=268800\\text{J}$ </p>\n<p>Since heating is done at atmospheric pressure, water expands and does work:</p>\n<p> $W=P\\Delta V$ </p>\n<p>Initial volume:</p>\n<p> $V_{1}=\\frac{m}{\\rho_{1}}=\\frac{4}{1000}=0.004\\text{m}^{3}$ </p>\n<p>Final volume:</p>\n<p> $V_{2}=\\frac{m}{\\rho_{2}}=\\frac{4}{998}=0.004008016\\text{m}^{3}$ </p>\n<p>Change in volume:</p>\n<p> $\\Delta V=V_{2}-V_{1}=0.004008016-0.004=8.016 \\times 10^{-6}\\text{m}^{3}$ </p>\n<p>Work done:</p>\n<p> $W=10^{5} \\times 8.016 \\times 10^{-6}=0.8016\\text{J}$ </p>\n<p>By first law of thermodynamics,</p>\n<p> $\\Delta U=Q-W=268800-0.8016=268799.1984\\text{J} \\approx 268799.2\\text{J}$ </p>\n<p><strong>Correct option: A (268799.2 J)</strong></p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "4^{\\circ}C",
+        "20^{\\circ}C",
+        "1000kg/m^{3}",
+        "998kg/m^{3}",
+        "____",
+        "=4.2J/kg"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:48.630872"
+    },
+    {
+      "id": 29031,
+      "qid": "ml8t8le0",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/pone-mole-of-an-ideal-diatomic-gas-expands-from-volume-v-jee-main-physics-units-and-measurements-9pnikvbwrwyrh8ca",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 22nd January Evening Shift",
+      "exam_date": "22nd January",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Consider two boxes containing ideal gases $A$ and $B$ such that their temperatures, pressures and number densities are same. The molecular size of $A$ is half of that of $B$ and mass of molecule $A$ is four times that of $B$ . If the collision frequency in gas $B$ is $32 \\times 10^{18}/s$ then collision frequency in gas $A$ is $____$ /s.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider two boxes containing ideal gases  $A$  and  $B$  such that their temperatures, pressures and number densities are same. The molecular size of  $A$  is half of that of  $B$  and mass of molecule  $A$  is four times that of  $B$ . If the collision frequency in gas  $B$  is  $32 \\times 10^{18}/s$  then collision frequency in gas  $A$  is  $____$  /s.</p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$8 \\times 10^{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $8 \\times 10^{18}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2 \\times 10^{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $2 \\times 10^{18}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$32 \\times 10^{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $32 \\times 10^{18}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$4 \\times 10^{18}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $4 \\times 10^{18}$ </p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "For an ideal gas, the collision frequency of a molecule is given by the kinetic theory of gases : $Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n$ Where : d is the molecular diameter (or size). $V_{\\text{avg}}$ is the average speed of the gas molecules. n is the number density (number of molecules per unit volume). The average speed $(v_{\\text{avg}})$ of gas molecules depends on the absolute temperature ( T ) and the mass of a single molecule (m) according to the formula : $v_{avg}=\\sqrt{\\frac{8kT}{\\pi m}}$ Where k is the Boltzmann constant. Substituting this into the collision frequency formula gives : $Z=\\sqrt{2}\\pi d^{2}(\\sqrt{\\frac{8kT}{\\pi m}})n$ It is given that the temperatures (T), pressures, and number densities (n) are exactly the same for both gases A and B. $Z∝\\frac{d^{2}}{\\sqrt{m}}$ $\\Rightarrow \\frac{Z_{A}}{Z_{B}}=(\\frac{d_{A}}{d_{B}})^{2} \\times \\sqrt{\\frac{m_{B}}{m_{A}}}$ Molecular size of A is half that of $B \\Rightarrow d_{A}=\\frac{1}{2}d_{B} \\Rightarrow \\frac{d_{A}}{d_{B}}=\\frac{1}{2}$ Mass of molecule A is four times that of $B \\Rightarrow m_{A}=4m_{B} \\Rightarrow \\frac{m_{B}}{m_{A}}=\\frac{1}{4}$ . Collision frequency in gas B is $Z_{B}=32 \\times 10^{18}/s$ . $\\frac{Z_{A}}{Z_{B}}=(\\frac{1}{2})^{2} \\times \\sqrt{\\frac{1}{4}}$ $\\Rightarrow$ $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{4} \\times \\frac{1}{2}$ $\\Rightarrow$ $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{8} \\Rightarrow Z_{A}=\\frac{Z_{B}}{8}=\\frac{32 \\times 10^{18}}{8}=4 \\times 10^{18}/s$ So, the collision frequency in gas A is $4 \\times 10^{18}/s$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For an ideal gas, the collision frequency of a molecule is given by the kinetic theory of gases :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n$ </p>\n<p>Where :</p>\n<ul>\n<li><p>d is the molecular diameter (or size).</p></li>\n<li><p> $V_{\\text{avg}}$  is the average speed of the gas molecules.</p></li>\n<li><p>n is the number density (number of molecules per unit volume).</p></li>\n</ul>\n<p>The average speed  $(v_{\\text{avg}})$  of gas molecules depends on the absolute temperature ( T ) and the mass of a single molecule (m) according to the formula :</p>\n<p> $v_{avg}=\\sqrt{\\frac{8kT}{\\pi m}}$ </p>\n<p>Where k is the Boltzmann constant.</p>\n<p>Substituting this into the collision frequency formula gives :</p>\n<p> $Z=\\sqrt{2}\\pi d^{2}(\\sqrt{\\frac{8kT}{\\pi m}})n$ </p>\n<p>It is given that the temperatures (T), pressures, and number densities (n) are exactly the same for both gases A and B.</p>\n<p> $Z∝\\frac{d^{2}}{\\sqrt{m}}$ </p>\n<p> $\\Rightarrow \\frac{Z_{A}}{Z_{B}}=(\\frac{d_{A}}{d_{B}})^{2} \\times \\sqrt{\\frac{m_{B}}{m_{A}}}$ </p>\n<p>Molecular size of A is half that of  $B \\Rightarrow d_{A}=\\frac{1}{2}d_{B} \\Rightarrow \\frac{d_{A}}{d_{B}}=\\frac{1}{2}$ </p>\n<p>Mass of molecule A is four times that of  $B \\Rightarrow m_{A}=4m_{B} \\Rightarrow \\frac{m_{B}}{m_{A}}=\\frac{1}{4}$ .</p>\n<p>Collision frequency in gas B is  $Z_{B}=32 \\times 10^{18}/s$ .</p>\n<p> $\\frac{Z_{A}}{Z_{B}}=(\\frac{1}{2})^{2} \\times \\sqrt{\\frac{1}{4}}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{4} \\times \\frac{1}{2}$ </p>\n<p> $\\Rightarrow$   $\\frac{Z_{A}}{Z_{B}}=\\frac{1}{8} \\Rightarrow Z_{A}=\\frac{Z_{B}}{8}=\\frac{32 \\times 10^{18}}{8}=4 \\times 10^{18}/s$ </p>\n\nSo, the collision frequency in gas A is  $4 \\times 10^{18}/s$ .<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "Z=\\sqrt{2}\\pi d^{2}v_{\\text{avg}}n",
+        "V_{\\text{avg}}",
+        "(v_{\\text{avg}})",
+        "v_{avg}=\\sqrt{\\frac{8kT}{\\pi m}}",
+        "Z=\\sqrt{2}\\pi d^{2}(\\sqrt{\\frac{8kT}{\\pi m}})n",
+        "Z∝\\frac{d^{2}}{\\sqrt{m}}"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:50.326691"
+    },
+    {
+      "id": 29049,
+      "qid": "ml89h5bo",
+      "chapter_slug": "heat-and-thermodynamics",
+      "subject": "physics",
+      "url": "https://questions.examside.com/past-years/jee/question/prods-x-and-y-of-equal-dimensions-but-of-different-mat-jee-main-physics-units-and-measurements-rj0kb0mxqo3ystas",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 21st January Morning Shift",
+      "exam_date": "21st January",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A gas based geyser heats water flowing at the rate of 5.0 litres per minute from $27^{\\circ}C$ to $87^{\\circ}C$ . The rate of consumption of the gas is $____$ $g/s$ . (Take heat of combustion of gas $=5.0 \\times 10^{4}J/g$ ) specific heat capacity of water $=4200J/kg \\cdot ^{\\circ}C$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A gas based geyser heats water flowing at the rate of 5.0 litres per minute from  $27^{\\circ}C$  to  $87^{\\circ}C$ . The rate of consumption of the gas is  $____$   $g/s$ .</p>\n<p>(Take heat of combustion of gas  $=5.0 \\times 10^{4}J/g$  ) specific heat capacity of water  $=4200J/kg \\cdot ^{\\circ}C$ </p>\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>4.2</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2.1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>2.1</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.21",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.21</p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.42",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>0.42</p><!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The heat energy ( Q ) required to raise the temperature of a mass ( m ) is given by $Q=mc\\Delta T$ Where c is the specific heat capacity and $\\Delta T$ is the change in temperature. Temperature change is $\\Delta T=87^{\\circ}C-27^{\\circ}C=60^{\\circ}C$ Specific heat is $c=4200J/kg^{\\circ}C$ . The heat required per unit time is $P_{req}=\\frac{dQ}{dt}=\\frac{dm}{dt} \\cdot c \\cdot \\Delta T$ Water flows at 5.0 litres $/min$ . Since the density of water is $1kg/L$ , the mass flow rate is $5.0=\\frac{5.0}{60}kg/sec$ $P_{req}=(\\frac{5.0}{60}) \\times 4200 \\times 60\\frac{J}{s}=21000J/s$ Let the rate of consumption of gas be $Rg/s$ . The heat produced per second is, $P_{\\text{prod}}=R \\times H$ Given heat of combustion of gas $H=5.0 \\times 10^{4}J/g$ $P_{\\text{prod}}=R \\times 50000J/s$ Assuming 100% efficiency (because no heat loss is given), $P_{\\text{prod}}=P_{\\text{req}}$ $R \\times 50000=21000$ $\\Rightarrow R=\\frac{21000}{50000}=0.42g/s$ Therefore, the gas must be consumed at a rate of $0.42g/s$ to maintain the temperature rise. Hence, the correct option is (D).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The heat energy ( Q ) required to raise the temperature of a mass ( m ) is given by  $Q=mc\\Delta T$ </p>\n<p>Where c is the specific heat capacity and  $\\Delta T$  is the change in temperature.</p>\n<p>Temperature change is  $\\Delta T=87^{\\circ}C-27^{\\circ}C=60^{\\circ}C$ </p>\n<p>Specific heat is  $c=4200J/kg^{\\circ}C$ .</p>\n<p>The heat required per unit time is  $P_{req}=\\frac{dQ}{dt}=\\frac{dm}{dt} \\cdot c \\cdot \\Delta T$ </p>\n<p>Water flows at 5.0 litres  $/min$ .</p>\n<p>Since the density of water is  $1kg/L$ , the mass flow rate is  $5.0=\\frac{5.0}{60}kg/sec$ </p>\n<p> $P_{req}=(\\frac{5.0}{60}) \\times 4200 \\times 60\\frac{J}{s}=21000J/s$ </p>\n<p>Let the rate of consumption of gas be  $Rg/s$ .</p>\n<p>The heat produced per second is,</p>\n<p> $P_{\\text{prod}}=R \\times H$ </p>\n<p>Given heat of combustion of gas  $H=5.0 \\times 10^{4}J/g$ </p>\n<p> $P_{\\text{prod}}=R \\times 50000J/s$ </p>\n<p>Assuming 100% efficiency (because no heat loss is given),  $P_{\\text{prod}}=P_{\\text{req}}$ </p>\n<p> $R \\times 50000=21000$ </p>\n<p> $\\Rightarrow R=\\frac{21000}{50000}=0.42g/s$ </p>\n<p>Therefore, the gas must be consumed at a rate of  $0.42g/s$  to maintain the temperature rise. </p>\n<p>Hence, the correct option is (D).</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Heat And Thermodynamics - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "27^{\\circ}C",
+        "87^{\\circ}C",
+        "____",
+        "=5.0 \\times 10^{4}J/g",
+        "=4200J/kg \\cdot ^{\\circ}C",
+        "Q=mc\\Delta T"
+      ],
+      "key_concepts": [
+        "Heat And Thermodynamics - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:54:52.628117"
+    }
+  ]
 }

@@ -1,0 +1,873 @@
+{
+  "chapter_slug": "kcet-linear-programming",
+  "total": 16,
+  "questions": [
+    {
+      "id": 8909,
+      "qid": "jt-mr7eh8za",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/in-linear-programming-problem-lpp-the-objective-function-kcet-mathematics-2k5tvkmairnacpvv",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "In Linear Programming Problem (LPP), the objective function $Z=ax+by$ has the same maximum value at two corner points. The number of points at which $Z_{max}$ occurs is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->In Linear Programming Problem (LPP), the objective function  $Z=ax+by$  has the same maximum value at two corner points. The number of points at which  $Z_{max}$  occurs is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $0$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Infinity",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Infinity<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "If the objective function $Z=ax+by$ has the same maximum value at two corner points of the feasible region, then $Z$ will have the same value at every point on the line segment joining those two corner points. This happens because $Z=ax+by$ is a linear function. So, if it is maximum at two endpoints of an edge of the feasible region, then it remains maximum at all points on that edge. Hence, $Z_{max}$ occurs at infinitely many points. So, the correct option is: $\\text{Option D: Infinity}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If the objective function  $Z=ax+by$  has the same maximum value at two corner points of the feasible region, then  $Z$  will have the same value at every point on the line segment joining those two corner points.</p>\n<p>This happens because  $Z=ax+by$  is a linear function. So, if it is maximum at two endpoints of an edge of the feasible region, then it remains maximum at all points on that edge.</p>\n<p>Hence,  $Z_{max}$  occurs at infinitely many points.</p>\n<p>So, the correct option is:</p>\n<p> $\\text{Option D: Infinity}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "Z=ax+by",
+        "Z_{max}"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.288631"
+    },
+    {
+      "id": 8910,
+      "qid": "jt-mr7eh8zb",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/in-linear-programming-problem-lpp-the-objective-function-kcet-mathematics-2k5tvkmairnacpvv",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The corner points of the feasible region determined by the system of linear constraints are $(0,10),(5,5),(15,15),(0,20)$ . Let $z=px+qy$ where $p,q>0$ . The relation between $p$ and $q$ , so that the maximum $z$ occurs at both points $(15,15)$ and $(0,20)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The corner points of the feasible region determined by the system of linear constraints are  $(0,10),(5,5),(15,15),(0,20)$ . Let  $z=px+qy$  where  $p,q&gt;0$ . The relation between  $p$  and  $q$ , so that the maximum  $z$  occurs at both points  $(15,15)$  and  $(0,20)$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$p=q$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=q$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$p=2q$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=2q$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$q=2p$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $q=2p$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$q=3p$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $q=3p$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "For the maximum value of $z=px+qy$ to occur at both points $(15,15)$ and $(0,20)$ , the value of $z$ at these two points must be equal. At $(15,15)$ , $z=15p+15q$ At $(0,20)$ , $z=0p+20q=20q$ Since maximum occurs at both points, $15p+15q=20q$ $15p=5q$ $q=3p$ So, the required relation is $q=3p$ Hence, the correct option is Option D.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For the maximum value of  $z=px+qy$  to occur at both points  $(15,15)$  and  $(0,20)$ , the value of  $z$  at these two points must be equal.</p>\n<p>At  $(15,15)$ ,</p>\n<p> $z=15p+15q$ </p>\n<p>At  $(0,20)$ ,</p>\n<p> $z=0p+20q=20q$ </p>\n<p>Since maximum occurs at both points,</p>\n<p> $15p+15q=20q$ </p>\n<p> $15p=5q$ </p>\n<p> $q=3p$ </p>\n<p>So, the required relation is</p>\n<p> $q=3p$ </p>\n<p>Hence, the correct option is Option D.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "z=px+qy",
+        "15p=5q",
+        "q=3p"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.299314"
+    },
+    {
+      "id": 8911,
+      "qid": "mcf6zss1",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/in-linear-programming-problem-lpp-the-objective-function-kcet-mathematics-2k5tvkmairnacpvv",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Consider the following statements: Statement (I): In a LPP, the objective function is always linear. Statement (II): Ina LPP, the linear inequalities on variables are called constraints. Which of the following is correct?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Consider the following statements:</p>\n<p>Statement (I): In a LPP, the objective function is always linear.</p>\n<p>Statement (II): Ina LPP, the linear inequalities on variables are called constraints. Which of the following is correct?</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Statement (I) is true, Statement (II) is true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Statement (I) is true, Statement (II) is true\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Statement (I) is true, Statement (II) is false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Statement (I) is true, Statement (II) is false\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Both Statements (I) and (II) are false",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Both Statements (I) and (II) are false\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Statement (I) is false, Statement (II) is true",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Statement (I) is false, Statement (II) is true<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Option A. Both statements are true. Reasoning: By definition, a Linear Programming Problem (LPP) has a linear objective function, for example $maxz=c_{1}x_{1}+c_{2}x_{2}+\\cdot s+c_{n}x_{n}.$ The restrictions on the variables take the form of linear inequalities (or equalities), such as $a_{i1}x_{1}+a_{i2}x_{2}+\\cdot s+a_{in}x_{n} \\le b_{i},$ and these are called constraints.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Option A. Both statements are true.</p>\n<p>Reasoning:</p>\n<p><p>By definition, a Linear Programming Problem (LPP) has a linear objective function, for example  </p>\n<p> $maxz=c_{1}x_{1}+c_{2}x_{2}+\\cdot s+c_{n}x_{n}.$ </p></p>\n<p><p>The restrictions on the variables take the form of linear inequalities (or equalities), such as  </p>\n<p> $a_{i1}x_{1}+a_{i2}x_{2}+\\cdot s+a_{in}x_{n} \\le b_{i},$  </p>\n<p>and these are called constraints.</p></p>\n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "maxz=c_{1}x_{1}+c_{2}x_{2}+\\cdot s+c_{n}x_{n}.",
+        "a_{i1}x_{1}+a_{i2}x_{2}+\\cdot s+a_{in}x_{n} \\le b_{i},"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.311041"
+    },
+    {
+      "id": 8912,
+      "qid": "mcf70087",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/in-linear-programming-problem-lpp-the-objective-function-kcet-mathematics-2k5tvkmairnacpvv",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The maximum value of $z=3x+4y$ , subject to the constraints $x+y \\le 40,x+2y \\le 60$ and $x,y \\ge 0$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The maximum value of  $z=3x+4y$ , subject to the constraints  $x+y \\le 40,x+2y \\le 60$  and  $x,y \\ge 0$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "130",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->130\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "120",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->120\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "140",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->140\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "40",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->40<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & z=3x+4y \\\\ & x+y \\le 40 \\\\ & x+2y \\le 60 \\\\ & y=20 \\\\ & x=20 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; z=3x+4y \\\\ &amp; x+y \\le 40 \\\\ &amp; x+2y \\le 60 \\\\ &amp; y=20 \\\\ &amp; x=20 \\end{aligned}$ </p>\n<img alt=\"KCET 2025 Mathematics - Linear Programming Question 3 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcew9a87/933c8c52-6264-417a-bddf-507fb72bbb88/1f8d9170-5361-11f0-9e47-e9a311fdc131/file-jaoe38c1mcew9a88.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "z=3x+4y"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.323612"
+    },
+    {
+      "id": 8913,
+      "qid": "m5yu8uz5",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcorner-points-of-the-feasible-region-for-an-lpp-are-02-kcet-mathematics-complex-numbers-k5kiwshgzltltafn",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Corner points of the feasible region for an LPP are $(0,2),(3,0),(6,0),(6,8)$ and $(0,5)$ . Let $Z=4x+6y$ be the objective function. The minimum value of $z$ occurs at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Corner points of the feasible region for an LPP are  $(0,2),(3,0),(6,0),(6,8)$  and  $(0,5)$ . Let  $Z=4x+6y$  be the objective function. The minimum value of  $z$  occurs at</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only $(0,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Only  $(0,2)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Only $(3,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Only  $(3,0)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "The mid-point of the line segment joining the points $(0,2)$ and $(3,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> The mid-point of the line segment joining the points  $(0,2)$  and  $(3,0)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Any point on the line segment joining the points $(0,2)$ and $(3,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> Any point on the line segment joining the points  $(0,2)$  and  $(3,0)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "S. No. Corner points Value of $Z=4x+6y$ (i) (0, 2) $Z=4 \\times 0+6 \\times 2=12$ (minimum) (ii) (3, 0) $Z=4 \\times 3+6 \\times 0=12$ (minimum) (iii) (6, 0) $Z=4 \\times 6+6 \\times 0=24$ (iv) (6, 8) $Z=4 \\times 6+6 \\times 8=72$ (v) (0, 5) $Z=4 \\times 0+6 \\times 5=30$ $\\therefore$ Minimum of $Z$ occur at $(0,2)$ and $(3,0)$ . $\\therefore$ Minimum value of $Z$ occur at any point on the line segment $(0,2)$ and $(3,0)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 518px\"><colgroup>\n<col style=\"width: 95px\"/>\n<col style=\"width: 141px\"/>\n<col style=\"width: 282px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">S. No.</th>\n<th class=\"tg-amwm\">Corner points</th>\n<th class=\"tg-amwm\">Value of  $Z=4x+6y$ </th>\n</tr></thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">(i)</td>\n<td class=\"tg-baqh\">(0, 2)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 0+6 \\times 2=12$  <br/>(minimum)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(ii)</td>\n<td class=\"tg-baqh\">(3, 0)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 3+6 \\times 0=12$ <br/>(minimum)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(iii)</td>\n<td class=\"tg-baqh\">(6, 0)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 6+6 \\times 0=24$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(iv)</td>\n<td class=\"tg-baqh\">(6, 8)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 6+6 \\times 8=72$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(v)</td>\n<td class=\"tg-baqh\">(0, 5)</td>\n<td class=\"tg-0lax\"> $Z=4 \\times 0+6 \\times 5=30$ <br/></td>\n</tr>\n</tbody>\n</table></p>\n<p> $\\therefore$  Minimum of  $Z$  occur at  $(0,2)$  and  $(3,0)$ .</p>\n<p> $\\therefore$  Minimum value of  $Z$  occur at any point on the line segment  $(0,2)$  and  $(3,0)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "Z=4x+6y"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.528024"
+    },
+    {
+      "id": 8914,
+      "qid": "jaoe38c1lociidnr",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcorner-points-of-the-feasible-region-for-an-lpp-are-02-kcet-mathematics-complex-numbers-k5kiwshgzltltafn",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The shaded region in the figure given is the solution of which of the inequations?",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The shaded region in the figure given is the solution of which of the inequations?</p>\n<p><img alt=\"KCET 2023 Mathematics - Linear Programming Question 16 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x+y \\ge 7,2x-3y+6 \\le 0,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x+y \\ge 7,2x-3y+6 \\le 0,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x+y \\ge 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x+y \\ge 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x+y \\le 7,2x-3y+6 \\le 0,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x+y \\le 7,2x-3y+6 \\le 0,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$x+y \\le 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x+y \\le 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The line joining $A(7,0)$ and $(0,7)$ is $x+y=7$ ..... (i) And the line jo ing $C(0,2)$ and $B(3,4)$ is $\\begin{aligned} 2x-3y+6=0 \\\\ x,y \\ge 0\\text{.... (ii)} \\end{aligned}$ The shaded region is bounded by $x+y \\le 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$ Hence, option (d) is correct option.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The line joining  $A(7,0)$  and  $(0,7)$  is</p>\n<p> $x+y=7$  ..... (i)</p>\n<p>And the line jo ing  $C(0,2)$  and  $B(3,4)$  is</p>\n<p> $\\begin{aligned} 2x-3y+6=0 \\\\ x,y \\ge 0\\text{.... (ii)} \\end{aligned}$ </p>\n<p>The shaded region is bounded by  $x+y \\le 7,2x-3y+6 \\ge 0,x \\ge 0,y \\ge 0$ </p>\n<p>Hence, option (d) is correct option.</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e5qas/08a810f3-8ff5-400a-9eea-c96ecfc3628f/431dc950-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e5qat.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "x+y=7",
+        "\\begin{aligned} 2x-3y+6=0 \\\\ x,y \\ge 0\\text{.... (ii)} \\end{aligned}"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.538831"
+    },
+    {
+      "id": 8915,
+      "qid": "jaoe38c1ls1x42p7",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcorner-points-of-the-feasible-region-for-an-lpp-are-02-kcet-mathematics-complex-numbers-k5kiwshgzltltafn",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The corner points of the feasible region of an LPP are $(0,2),(3,0),(6,0),(6,8)$ and $(0,5)$ , then the minimum value of $z=4x+6y$ occurs at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The corner points of the feasible region of an LPP are  $(0,2),(3,0),(6,0),(6,8)$  and  $(0,5)$ , then the minimum value of  $z=4x+6y$  occurs at</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Finite number of points",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Finite number of points\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Infinite number of points",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Infinite number of points\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Only one point",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Only one point\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Only two points",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Only two points<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, the corner points of the feasible region of an LPP are $(0,2),(3,0),(6,0),(6,8)$ and $(0,5)$ Corner points $Z=4x+6y$ (0, 2) $4 \\times 0+6 \\times =0+12=12$ (min) (3, 0) $4 \\times 3+6 \\times 10=12$ (min) (6, 0) $4 \\times 6+6 \\times 0=24$ (6, 8) $4 \\times 6+6 \\times 8=72$ (0, 5) $4 \\times 0+6 \\times 5=30$ Minimum value of $z$ occurs at $(0,2)$ and $(3,0)$ . Hence, minimum value of $z$ lies at any point on the line joining two points $(0,2)$ and $(3,0)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, the corner points of the feasible region of an LPP are  $(0,2),(3,0),(6,0),(6,8)$  and  $(0,5)$ </p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 442px\">\n<colgroup>\n<col style=\"width: 183px\"/>\n<col style=\"width: 259px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\">Corner points</th>\n<th class=\"tg-amwm\"> $Z=4x+6y$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\">(0, 2)</td>\n<td class=\"tg-0lax\"> $4 \\times 0+6 \\times =0+12=12$  (min)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(3, 0)</td>\n<td class=\"tg-0lax\"> $4 \\times 3+6 \\times 10=12$  (min)</td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(6, 0)</td>\n<td class=\"tg-0lax\"> $4 \\times 6+6 \\times 0=24$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(6, 8)</td>\n<td class=\"tg-0lax\"> $4 \\times 6+6 \\times 8=72$ </td>\n</tr>\n<tr>\n<td class=\"tg-baqh\">(0, 5)</td>\n<td class=\"tg-0lax\"> $4 \\times 0+6 \\times 5=30$ </td>\n</tr>\n</tbody>\n</table></p>\n<p>Minimum value of  $z$  occurs at  $(0,2)$  and  $(3,0)$ .</p>\n<p>Hence, minimum value of  $z$  lies at any point on the line joining two points  $(0,2)$  and  $(3,0)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "z=4x+6y",
+        "Z=4x+6y",
+        "4 \\times 0+6 \\times =0+12=12",
+        "4 \\times 3+6 \\times 10=12",
+        "4 \\times 6+6 \\times 0=24",
+        "4 \\times 6+6 \\times 8=72"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.550123"
+    },
+    {
+      "id": 8916,
+      "qid": "jaoe38c1ls1y0hs6",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pcorner-points-of-the-feasible-region-for-an-lpp-are-02-kcet-mathematics-complex-numbers-k5kiwshgzltltafn",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "A dietician has to develop a special diet using two foods $X$ and $Y$ . Each packet (containing $30g$ ) of food. $X$ contains 12 units of calcium, 4 units of iron, 6 units of cholesterol and 6 units of vitamin A. Each packet of the same quantity of food Y contains 3 units of calcium, 20 units of iron, 4 units of cholesterol and 3 units of vitamin A. The diet requires at least 240 units of calcium, atleast 460 units of iron and atmost 300 units of cholesterol. The corner points of the feasible region are",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>A dietician has to develop a special diet using two foods  $X$  and  $Y$ . Each packet (containing  $30g$  ) of food.  $X$  contains 12 units of calcium, 4 units of iron, 6 units of cholesterol and 6 units of vitamin A. Each packet of the same quantity of food Y contains 3 units of calcium, 20 units of iron, 4 units of cholesterol and 3 units of vitamin A. The diet requires at least 240 units of calcium, atleast 460 units of iron and atmost 300 units of cholesterol. The corner points of the feasible region are</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(2,72),(40,15),(15,20)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(2,72),(40,15),(15,20)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(2,72),(15,20),(0,23)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(2,72),(15,20),(0,23)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(0,23),(40,15),(2,72)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(0,23),(40,15),(2,72)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(2,72),(40,15),(115,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(2,72),(40,15),(115,0)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $x$ and $y$ be the number of packets of food $X$ and $Y$ $\\begin{aligned} & x \\ge 0,y \\ge 0 \\Rightarrow 12x+3y \\ge 240 \\\\ \\Rightarrow & 4x+y \\ge 80\\text{.... (i)} \\\\ & 4x+20y \\ge 460 \\\\ \\Rightarrow & x+5y \\ge 115\\text{.... (ii)} \\\\ & 6x+4y \\le 300 \\\\ \\Rightarrow & 3x+2y \\le 150\\text{.... (iii)} \\\\ \\Rightarrow & x \\ge 0,y \\ge 0\\text{.... (iv)} \\\\ & 4x+y \\ge 80 \\end{aligned}$ $\\Rightarrow$ $x$ 0 20 $y$ 80 0 $x+5y \\ge 115$ $x$ 0 115 $y$ 23 0 $3x+2y \\le 150$ $x$ 0 50 $y$ 75 0 Intersection points of the lines are shown in the graph we can see that corner point of the feasible region $A,B$ and $C$ are $(2,72),(40,15),(15,20)$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $x$  and  $y$  be the number of packets of food  $X$  and  $Y$ </p>\n<p> $\\begin{aligned} &amp; x \\ge 0,y \\ge 0 \\Rightarrow 12x+3y \\ge 240 \\\\ \\Rightarrow &amp; 4x+y \\ge 80\\text{.... (i)} \\\\ &amp; 4x+20y \\ge 460 \\\\ \\Rightarrow &amp; x+5y \\ge 115\\text{.... (ii)} \\\\ &amp; 6x+4y \\le 300 \\\\ \\Rightarrow &amp; 3x+2y \\le 150\\text{.... (iii)} \\\\ \\Rightarrow &amp; x \\ge 0,y \\ge 0\\text{.... (iv)} \\\\ &amp; 4x+y \\ge 80 \\end{aligned}$ </p>\n<p> $\\Rightarrow$ \n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 250px\">\n<colgroup>\n<col style=\"width: 106px\"/>\n<col style=\"width: 73px\"/>\n<col style=\"width: 71px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $x$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">20</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $y$ </td>\n<td class=\"tg-baqh\">80</td>\n<td class=\"tg-baqh\">0</td>\n</tr>\n</tbody>\n</table>\n<p> $x+5y \\ge 115$ </p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 250px\">\n<colgroup>\n<col style=\"width: 106px\"/>\n<col style=\"width: 73px\"/>\n<col style=\"width: 71px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $x$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">115</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $y$ </td>\n<td class=\"tg-baqh\">23</td>\n<td class=\"tg-baqh\">0</td>\n</tr>\n</tbody>\n</table>\n<p> $3x+2y \\le 150$ </p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 250px\">\n<colgroup>\n<col style=\"width: 106px\"/>\n<col style=\"width: 73px\"/>\n<col style=\"width: 71px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-baqh\"> $x$ </th>\n<th class=\"tg-baqh\">0</th>\n<th class=\"tg-baqh\">50</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-baqh\"> $y$ </td>\n<td class=\"tg-baqh\">75</td>\n<td class=\"tg-baqh\">0</td>\n</tr>\n</tbody>\n</table>\n<p>Intersection points of the lines are shown in the graph</p>\n<p><img alt=\"KCET 2022 Mathematics - Linear Programming Question 15 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>we can see that corner point of the feasible region  $A,B$  and  $C$  are  $(2,72),(40,15),(15,20)$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltat1egp/d7fbc48a-abe8-40cd-b18e-254ad198d5c9/4a2af690-d8f9-11ee-bfea-0d7f65e800fb/file-6y3zli1ltat1egq.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.558243"
+    },
+    {
+      "id": 8917,
+      "qid": "ltd1dznj",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-shaded-region-is-the-solution-set-of-the-inequalities-kcet-mathematics-complex-numbers-lnlyfi0v3vpdui5a",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The shaded region is the solution set of the inequalities",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The shaded region is the solution set of the inequalities</p>\n<p><img alt=\"KCET 2021 Mathematics - Linear Programming Question 13 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5x+4y \\ge 20,x \\le 6,y \\ge 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\ge 20,x \\le 6,y \\ge 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$5x+4y \\le 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\le 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$5x+4y \\ge 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\ge 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$5x+4y \\ge 20,x \\ge 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\ge 20,x \\ge 6,y \\le 3,x \\ge 0,y \\ge 0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Lets draw the given shaded region, Line $l_{1} \\Rightarrow \\frac{x}{4}+\\frac{y}{5}=1$ (intercept form) $\\begin{aligned} & \\Rightarrow \\frac{5x+4y}{4 \\times 5}=1 \\\\ & \\Rightarrow 5x+4y=20 \\end{aligned}$ As, origin is not in the feasible region. $\\therefore 5x+4y \\ge 20$ Line $l_{2} \\Rightarrow y \\le 3$ (from the graph) Line $l_{3} \\Rightarrow x \\le 6$ (from the graph) and coordinate axes $x \\ge 0,y \\ge 0$ Hence, inequalities are $5x+4y \\ge 20,y \\le 3,x \\le 6,x \\ge 0,y \\ge 0$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Lets draw the given shaded region,</p>\n<p><img alt=\"KCET 2021 Mathematics - Linear Programming Question 13 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>Line  $l_{1} \\Rightarrow \\frac{x}{4}+\\frac{y}{5}=1$  (intercept form)</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{5x+4y}{4 \\times 5}=1 \\\\ &amp; \\Rightarrow 5x+4y=20 \\end{aligned}$ </p>\n<p>As, origin is not in the feasible region.</p>\n<p> $\\therefore 5x+4y \\ge 20$ </p>\n<p>Line  $l_{2} \\Rightarrow y \\le 3$  (from the graph)</p>\n<p>Line  $l_{3} \\Rightarrow x \\le 6$  (from the graph)</p>\n<p>and coordinate axes  $x \\ge 0,y \\ge 0$ </p>\n<p>Hence, inequalities are  $5x+4y \\ge 20,y \\le 3,x \\le 6,x \\ge 0,y \\ge 0$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcftw51/42ebd4ea-9bea-4195-aeea-5c041685ae8d/33f80250-d9df-11ee-9fe4-1197aa8394ec/file-1ltcftw52.png?format=png",
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcfw1nl/fbe96a9d-0bb2-40e2-8978-14c1ddd72b09/6fd8fd10-d9df-11ee-9fe4-1197aa8394ec/file-1ltcfw1nm.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "l_{1} \\Rightarrow \\frac{x}{4}+\\frac{y}{5}=1"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.694035"
+    },
+    {
+      "id": 8918,
+      "qid": "ltj8y1pe",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-shaded-region-is-the-solution-set-of-the-inequalities-kcet-mathematics-complex-numbers-lnlyfi0v3vpdui5a",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Corner points of the feasible region determined by the system of linear constraints are $(0,3),(1,1)$ and $(3,0)$ . Let $z=px=qy$ , where, $p,q>0$ . Condition on $p$ and $q$ , so that the minimum of $z$ occurs at $(3,0)$ and $(1,1)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Corner points of the feasible region determined by the system of linear constraints are  $(0,3),(1,1)$  and  $(3,0)$ . Let  $z=px=qy$ , where,  $p,q&gt;0$ . Condition on  $p$  and  $q$ , so that the minimum of  $z$  occurs at  $(3,0)$  and  $(1,1)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$p=2q$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=2q$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$p=\\frac{q}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=\\frac{q}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$p=3q$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=3q$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$p=q$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $p=q$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The minimum value of $z$ is unique. It is given that the minimum value of $z$ occurs at two points $(3,0)$ and $(1,1)$ $\\begin{aligned} \\Rightarrow & p(3)+q(0)=p(1)+q(l) \\\\ \\Rightarrow & 3p=p+q \\\\ \\Rightarrow & 2p=q \\\\ \\Rightarrow & p=q/2 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The minimum value of  $z$  is unique.</p>\n<p>It is given that the minimum value of  $z$  occurs at two points  $(3,0)$  and  $(1,1)$ </p>\n<p> $\\begin{aligned} \\Rightarrow &amp; p(3)+q(0)=p(1)+q(l) \\\\ \\Rightarrow &amp; 3p=p+q \\\\ \\Rightarrow &amp; 2p=q \\\\ \\Rightarrow &amp; p=q/2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "z=px=qy"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.704615"
+    },
+    {
+      "id": 8919,
+      "qid": "ltj8yyua",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-shaded-region-is-the-solution-set-of-the-inequalities-kcet-mathematics-complex-numbers-lnlyfi0v3vpdui5a",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The feasible region of an LPP is shown in the figure. If $z=11x+7y$ , then the maximum value of $Z$ occurs at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The feasible region of an LPP is shown in the figure. If  $z=11x+7y$ , then the maximum value of  $Z$  occurs at</p>\n<p><img alt=\"KCET 2020 Mathematics - Linear Programming Question 11 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "(0, 5)",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->(0, 5)<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "(3, 3)",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->(3, 3)<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "(5, 0)",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->(5, 0)<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "(3, 2)",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->(3, 2)<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, maximize $z=11x+7y$ Intersecting point of lines $x+y=5$ and $x+3y=9$ is $(3,2)$ . $\\therefore$ Corner point is $B(3,2)$ For corner points of the feasible region We put, $\\begin{aligned} & x=0\\text{in}x+3y=9 \\\\ & y=3 \\end{aligned}$ $\\Rightarrow$ corner point is $A(0,3)$ and put $x=0$ in $x+y=5$ , we get $y=5$ $\\Rightarrow$ corner point is $C(0,5)$ The values of $z$ at these corner points are as follows Corner points $z=11x+7y$ $A(0,3)$ $11 \\times 0+7 \\times 3=21$ $B(3,2)$ $11 \\times 3+7 \\times 2=47$ $C(0,5)$ $11 \\times 0+7 \\times 5=35$ Therefore, maximum value of z is 47 at (3, 2).",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, maximize  $z=11x+7y$ </p>\n<p>Intersecting point of lines  $x+y=5$  and  $x+3y=9$  is  $(3,2)$ .</p>\n<p> $\\therefore$  Corner point is  $B(3,2)$ </p>\n<p>For corner points of the feasible region</p>\n<p>We put,</p>\n<p> $\\begin{aligned} &amp; x=0\\text{in}x+3y=9 \\\\ &amp; y=3 \\end{aligned}$ </p>\n<p> $\\Rightarrow$  corner point is  $A(0,3)$ </p>\n<p>and put  $x=0$  in  $x+y=5$ , we get  $y=5$ </p>\n<p> $\\Rightarrow$  corner point is  $C(0,5)$ </p>\n<p>The values of  $z$  at these corner points are as follows</p>\n<p>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 402px\">\n<colgroup>\n<col style=\"width: 173px\"/>\n<col style=\"width: 229px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-1wig\">Corner points</th>\n<th class=\"tg-1wig\"> $z=11x+7y$ </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-0lax\"> $A(0,3)$ </td>\n<td class=\"tg-0lax\"> $11 \\times 0+7 \\times 3=21$ </td>\n</tr>\n<tr>\n<td class=\"tg-0lax\"> $B(3,2)$ </td>\n<td class=\"tg-0lax\"> $11 \\times 3+7 \\times 2=47$ </td>\n</tr>\n<tr>\n<td class=\"tg-0lax\"> $C(0,5)$ </td>\n<td class=\"tg-0lax\"> $11 \\times 0+7 \\times 5=35$ </td>\n</tr>\n</tbody>\n</table></p>\n<p>Therefore, maximum value of z is 47 at (3, 2).</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltilugub/976ab77c-1fb0-48e7-94de-969be092e9a8/6ea1f840-dd43-11ee-a15a-af8e132f1b6d/file-1ltiluguc.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "z=11x+7y",
+        "x=0",
+        "x+y=5",
+        "y=5",
+        "11 \\times 0+7 \\times 3=21",
+        "11 \\times 3+7 \\times 2=47"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.715529"
+    },
+    {
+      "id": 8920,
+      "qid": "ltw4pu5w",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-shaded-region-is-the-solution-set-of-the-inequalities-kcet-mathematics-complex-numbers-lnlyfi0v3vpdui5a",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The shaded region in the figure is the solution set of the inequations.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The shaded region in the figure is the solution set of the inequations.</p>\n<p><img alt=\"KCET 2019 Mathematics - Linear Programming Question 10 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4x+5y \\le 20,3x+10y \\le 30,x \\le 6,x,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4x+5y \\le 20,3x+10y \\le 30,x \\le 6,x,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$4x+5y \\ge 20,3x+10y \\le 30,x \\le 6,x,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4x+5y \\ge 20,3x+10y \\le 30,x \\le 6,x,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$4x+5y \\le 20,3x+10y \\le 30,x \\ge 6,x,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4x+5y \\le 20,3x+10y \\le 30,x \\ge 6,x,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$4x+5y \\ge 20,3x+10y \\le 30,x \\ge 6,x,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4x+5y \\ge 20,3x+10y \\le 30,x \\ge 6,x,y \\ge 0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "From the given shaded region, we have $\\frac{x}{10}+\\frac{y}{3}=1 \\Rightarrow 3x+10y=30\\text{..... (i)}$ Since, feasible region towards the origin $\\therefore$ required inequality $3x+10y \\le 30$ Now, $\\frac{x}{5}+\\frac{y}{4}=1 \\Rightarrow 4x+5y=20\\text{.... (ii)}$ Since, feasible region away from the origin :required inequality $4x+5y \\ge 20$ And also, $x \\le 6;x,y \\ge 0$ $\\therefore$ required inequalities are $3x+10y \\le 30;4x+5y \\ge 20;x \\le 6;x,y \\ge 0$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>From the given shaded region, we have</p>\n<p> $\\frac{x}{10}+\\frac{y}{3}=1 \\Rightarrow 3x+10y=30\\text{..... (i)}$ </p>\n<p>Since, feasible region towards the origin</p>\n<p> $\\therefore$  required inequality  $3x+10y \\le 30$ </p>\n<p>Now,  $\\frac{x}{5}+\\frac{y}{4}=1 \\Rightarrow 4x+5y=20\\text{.... (ii)}$ </p>\n<p>Since, feasible region away from the origin :required inequality  $4x+5y \\ge 20$ </p>\n<p>And also,  $x \\le 6;x,y \\ge 0$ </p>\n<p> $\\therefore$  required inequalities are\n $3x+10y \\le 30;4x+5y \\ge 20;x \\le 6;x,y \\ge 0$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuyrja9/400693be-f270-4741-a959-a72c0acd615f/5b904d10-e40f-11ee-811d-a5129853b681/file-1ltuyrjaa.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{x}{10}+\\frac{y}{3}=1 \\Rightarrow 3x+10y=30\\text{..... (i)}",
+        "\\frac{x}{5}+\\frac{y}{4}=1 \\Rightarrow 4x+5y=20\\text{.... (ii)}"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.726816"
+    },
+    {
+      "id": 8921,
+      "qid": "m7isfms6",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-feasible-region-of-an-lpp-is-shown-in-the-figure-if-z-kcet-mathematics-complex-numbers-kfwgpwncilltyhu9",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The feasible region of an LPP is shown in the figure. If $z=3x+9y$ , then the minimum value of $z$ occurs at",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The feasible region of an LPP is shown in the figure. If  $z=3x+9y$ , then the minimum value of  $z$  occurs at\n<img alt=\"KCET 2018 Mathematics - Linear Programming Question 8 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5,5)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(5,5)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(0,10)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(0,10)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(0,20)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(0,20)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(15,15)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(15,15)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\text{We have,}z=3x+9y$ Cornor point z=3x + 9y (5,5) 15+45=60 (0,10) 0+90-=90 (0,20) 0+180=180 (15,15) 45+135=180 $\\text{minimum value of}z\\text{is}60\\text{at}(5,5)\\text{.}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\text{We have,}z=3x+9y$ \n<img alt=\"KCET 2018 Mathematics - Linear Programming Question 8 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n<table class=\"tg\"><thead>\n<tr>\n<th class=\"tg-0lax\"><span style=\"font-weight:bold\">Cornor point</span></th>\n<th class=\"tg-0lax\">z=3x + 9y</th>\n</tr></thead>\n<tbody>\n<tr>\n<td class=\"tg-0lax\">(5,5)</td>\n<td class=\"tg-0lax\">15+45=60<br/></td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">(0,10)</td>\n<td class=\"tg-0lax\">0+90-=90</td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">(0,20)</td>\n<td class=\"tg-0lax\">0+180=180</td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">(15,15)</td>\n<td class=\"tg-0lax\">45+135=180</td>\n</tr>\n</tbody>\n</table>\n $\\text{minimum value of}z\\text{is}60\\text{at}(5,5)\\text{.}$ <!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qfgvna/c7ce5555-a961-4635-a80d-91fb5f411c6d/93162d60-e2ef-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qfgvnb.png?format=png",
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m6qdsfk5/de0d8866-5816-4720-b39c-c3cc0ff61fef/021c6f50-e2e9-11ef-8c4f-2f0c1ef24443/file-jaoe38c1m6qdsfk6.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "z=3x+9y"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.903186"
+    },
+    {
+      "id": 8922,
+      "qid": "m7isgeva",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-feasible-region-of-an-lpp-is-shown-in-the-figure-if-z-kcet-mathematics-complex-numbers-kfwgpwncilltyhu9",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "For the LPP, maximize $z=x+4y$ subject to the constraints $x+2y \\le 2,x+2y \\ge 8,x,y \\ge 0$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->For the LPP, maximize  $z=x+4y$  subject to the constraints  $x+2y \\le 2,x+2y \\ge 8,x,y \\ge 0$ \n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$z_{max}=4$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $z_{max}=4$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$z_{\\text{max}}=8$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $z_{\\text{max}}=8$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$z_{max}=16$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $z_{max}=16$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "has no feasible solution",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->has no feasible solution<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, Maximize $z=x+4y$ subject to constraints $\\begin{aligned} x+2y \\le 2 \\\\ x+2y \\ge 0 \\\\ x,y \\ge 0 \\end{aligned}$ The graph of inequalities are $\\therefore \\text{Clearly from graph there has no feasible solution.}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p> We have,</p>\n<p>Maximize  $z=x+4y$ </p>\n<p>subject to constraints</p>\n<p> $\\begin{aligned} x+2y \\le 2 \\\\ x+2y \\ge 0 \\\\ x,y \\ge 0 \\end{aligned}$ </p>\n<p>The graph of inequalities are</p>\n<img alt=\"KCET 2018 Mathematics - Linear Programming Question 7 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n $\\therefore \\text{Clearly from graph there has no feasible solution.}$ </ol><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hn50f0/c5a449c9-9651-4eef-8a4c-7114ca32f8a5/bba109c0-f1e6-11ef-aab0-892656acd133/file-jaoe38c1m7hn50f1.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "z=x+4y"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.915392"
+    },
+    {
+      "id": 8923,
+      "qid": "m9durmm1",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-feasible-region-of-an-lpp-is-shown-in-the-figure-if-z-kcet-mathematics-complex-numbers-kfwgpwncilltyhu9",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If an LPP admits optimal solution at two consecutive vertices of a feasible region, then",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If an LPP admits optimal solution at two consecutive vertices of a feasible region, then\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "the LPP under consideration is not solvable",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->the LPP under consideration is not solvable\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "the LPP under consideration must be reconstructed",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->the LPP under consideration must be reconstructed\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "the required optimal solution is at the mid-point of the line joining two points",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->the required optimal solution is at the mid-point of the line joining two points\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "the optimal solution occurs at every point on the line joining these two points",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->the optimal solution occurs at every point on the line joining these two points<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "If an LPP admits optimal solution at two consecutive vertices of a feasible region, then the optimal solution occurs at every point on the line joining these two points.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> If an LPP admits optimal solution at two consecutive vertices of a feasible region, then the optimal solution occurs at every point on the line joining these two points.</p>\n<img alt=\"KCET 2017 Mathematics - Linear Programming Question 5 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n<!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9chbky7/cac6c55a-c54c-4af1-be5e-da82756383eb/7f14c5f0-16a8-11f0-ab51-03ccb4d25766/file-jaoe38c1m9chbky8.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.930991"
+    },
+    {
+      "id": 8924,
+      "qid": "m9durkr2",
+      "chapter_slug": "kcet-linear-programming",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-feasible-region-of-an-lpp-is-shown-in-the-figure-if-z-kcet-mathematics-complex-numbers-kfwgpwncilltyhu9",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The shaded region in the figure is the solution set of the inequations",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The shaded region in the figure is the solution set of the inequations\n<img alt=\"KCET 2017 Mathematics - Linear Programming Question 6 English\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5x+4y \\le 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\le 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$5x+4y \\ge 20,x \\ge 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $5x+4y \\ge 20,x \\ge 6,y \\le 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$5x+4y \\ge 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $5x+4y \\ge 20,x \\le 6,y \\le 3,x \\ge 0,y \\ge 0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$5x+4y \\ge 20,x \\le 6,y \\ge 3,x \\ge 0,y \\ge 0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5x+4y \\ge 20,x \\le 6,y \\ge 3,x \\ge 0,y \\ge 0$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Equation of line $L_{1}$ is given by $\\begin{aligned} & & y-0 & =\\frac{5-0}{0-4}(x-4) \\\\ \\Rightarrow & & y & =\\frac{-5}{4}(x-4) \\\\ \\Rightarrow & & 4y & =-5x+20 \\\\ \\Rightarrow & 5x+4y & =20 \\end{aligned}$ Since, $(0,0)$ and shaded region lies on opposite sides, so we have one inequation $5x+4y \\ge 20$ Now, equation of line $L_{2}$ is $y=3$ . Since shaded region and $(0,0)$ lies on same side, so we have second inequation $y \\le 3$ Again, equation of line $L_{3}$ is $x=6$ . Since, shaded region and $(0,0)$ lies on same side, so we have third inequation $x \\le 6$ Also, shaded region lies in first quadrant, so $x \\ge 0,y \\ge 0$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><img alt=\"KCET 2017 Mathematics - Linear Programming Question 6 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n<p>Equation of line  $L_{1}$  is given by</p>\n<p> $\\begin{aligned} &amp; &amp; y-0 &amp; =\\frac{5-0}{0-4}(x-4) \\\\ \\Rightarrow &amp; &amp; y &amp; =\\frac{-5}{4}(x-4) \\\\ \\Rightarrow &amp; &amp; 4y &amp; =-5x+20 \\\\ \\Rightarrow &amp; 5x+4y &amp; =20 \\end{aligned}$ </p>\n<p>Since,  $(0,0)$  and shaded region lies on opposite sides, so we have one inequation</p>\n<p> $5x+4y \\ge 20$ </p>\n<p>Now, equation of line  $L_{2}$  is  $y=3$ . Since shaded region and  $(0,0)$  lies on same side, so we have second inequation</p>\n<p> $y \\le 3$ </p>\n<p>Again, equation of line  $L_{3}$  is  $x=6$ . Since, shaded region and  $(0,0)$  lies on same side, so we have third inequation</p>\n<p> $x \\le 6$ </p>\n<p>Also, shaded region lies in first quadrant, so  $x \\ge 0,y \\ge 0$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9ci4485/2b4c6294-3e5c-436b-8d08-e618d4f0a7b9/98a0a950-16ab-11f0-ab51-03ccb4d25766/file-jaoe38c1m9ci4486.png?format=png",
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cid0wh/bf834359-5103-4825-9212-2df8fb6495cc/90579410-16ac-11f0-ab51-03ccb4d25766/file-jaoe38c1m9cid0wi.png?format=png"
+      ],
+      "topic_tag": "Kcet Linear Programming - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "L_{1}"
+      ],
+      "key_concepts": [
+        "Kcet Linear Programming - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:42.947166"
+    }
+  ]
+}

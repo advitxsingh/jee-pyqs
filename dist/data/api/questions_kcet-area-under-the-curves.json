@@ -1,0 +1,953 @@
+{
+  "chapter_slug": "kcet-area-under-the-curves",
+  "total": 17,
+  "questions": [
+    {
+      "id": 8493,
+      "qid": "jt-mr7eh8yz",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-area-of-the-region-bounded-by-the-curve-y2--x3-the-kcet-mathematics-l0fr37bojqptvrun",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the curve $y^{2}=x^{3}$ , the $y$ -axis and the lines $y=1$ and $y=8$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The area of the region bounded by the curve  $y^{2}=x^{3}$ , the  $y$ -axis and the lines  $y=1$  and  $y=8$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{155}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{155}{3}$  sq. units<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{93}{5}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{93}{5}$  sq. units<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$93$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $93$  sq. units<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$155$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $155$  sq. units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The curve is $y^{2}=x^{3}$ Since the region is between the lines $y=1$ and $y=8$ , it is easier to write $x$ in terms of $y$ . From $y^{2}=x^{3}$ we get $x=y^{2/3}$ The $y$ -axis is $x=0$ . So, for each value of $y$ from $1$ to $8$ , the horizontal width of the region is $x_{\\text{right}}-x_{\\text{left}}=y^{2/3}-0=y^{2/3}$ Hence, the required area is $\\int_{1}^{8}y^{2/3}dy$ Now, $\\int y^{2/3}dy=\\frac{y^{5/3}}{5/3}=\\frac{3}{5}y^{5/3}$ So, $\\text{Area}=[\\frac{3}{5}y^{5/3}]_{1}^{8}$ $=\\frac{3}{5}(8^{5/3}-1^{5/3})$ Since $8^{1/3}=2$ we have $8^{5/3}=2^{5}=32$ Thus, $\\text{Area}=\\frac{3}{5}(32-1)$ $=\\frac{3}{5} \\times 31$ $=\\frac{93}{5}$ So, the area is $\\frac{93}{5}\\text{sq. units}$ Correct option: Option B .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The curve is</p>\n<p> $y^{2}=x^{3}$ </p>\n<p>Since the region is between the lines  $y=1$  and  $y=8$ , it is easier to write  $x$  in terms of  $y$ .</p>\n<p>From</p>\n<p> $y^{2}=x^{3}$ </p>\n<p>we get</p>\n<p> $x=y^{2/3}$ </p>\n<p>The  $y$ -axis is  $x=0$ .  </p>\n<p>So, for each value of  $y$  from  $1$  to  $8$ , the horizontal width of the region is</p>\n<p> $x_{\\text{right}}-x_{\\text{left}}=y^{2/3}-0=y^{2/3}$ </p>\n<p>Hence, the required area is</p>\n<p> $\\int_{1}^{8}y^{2/3}dy$ </p>\n<p>Now,</p>\n<p> $\\int y^{2/3}dy=\\frac{y^{5/3}}{5/3}=\\frac{3}{5}y^{5/3}$ </p>\n<p>So,</p>\n<p> $\\text{Area}=[\\frac{3}{5}y^{5/3}]_{1}^{8}$ </p>\n<p> $=\\frac{3}{5}(8^{5/3}-1^{5/3})$ </p>\n<p>Since</p>\n<p> $8^{1/3}=2$ </p>\n<p>we have</p>\n<p> $8^{5/3}=2^{5}=32$ </p>\n<p>Thus,</p>\n<p> $\\text{Area}=\\frac{3}{5}(32-1)$ </p>\n<p> $=\\frac{3}{5} \\times 31$ </p>\n<p> $=\\frac{93}{5}$ </p>\n<p>So, the area is</p>\n<p> $\\frac{93}{5}\\text{sq. units}$ </p>\n<p>Correct option: <strong>Option B</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y^{2}=x^{3}",
+        "=\\frac{3}{5}(8^{5/3}-1^{5/3})",
+        "8^{1/3}=2",
+        "8^{5/3}=2^{5}=32",
+        "\\text{Area}=\\frac{3}{5}(32-1)",
+        "=\\frac{3}{5} \\times 31"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.387334"
+    },
+    {
+      "id": 8495,
+      "qid": "mcf6zzsn",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-area-of-the-region-bounded-by-the-curve-y2--x3-the-kcet-mathematics-l0fr37bojqptvrun",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The area bounded by the curve $y=sin(\\frac{x}{3})$ , $x$ axis, the lines $x=0$ and $x=3\\pi$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area bounded by the curve  $y=sin(\\frac{x}{3})$ ,  $x$  axis, the lines  $x=0$  and  $x=3\\pi$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 9 sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "6 sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 6 sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3 sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 3 sq. units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The required area is found by integrating the function $y=sin(\\frac{x}{3})$ from $x=0$ to $x=3\\pi$ . This gives the definite integral: $\\int_{0}^{3\\pi}sin(\\frac{x}{3})dx$ To integrate $sin(\\frac{x}{3})$ , we use substitution. The integral becomes $-3cos(\\frac{x}{3})$ . Now substitute the limits $0$ and $3\\pi$ : $\\begin{aligned} & \\int_{0}^{3\\pi}sin(\\frac{x}{3})dx \\\\ & (-3 \\cdot cos\\frac{x}{3})_{0}^{3\\pi}=(-3(-1))-(-3(1))=6 \\end{aligned}$ So, the total area is $6$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><img alt=\"KCET 2025 Mathematics - Area Under The Curves Question 3 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>The required area is found by integrating the function  $y=sin(\\frac{x}{3})$  from  $x=0$  to  $x=3\\pi$ .</p>\n<p>This gives the definite integral:</p>\n<p> $\\int_{0}^{3\\pi}sin(\\frac{x}{3})dx$ </p>\n<p>To integrate  $sin(\\frac{x}{3})$ , we use substitution. The integral becomes  $-3cos(\\frac{x}{3})$ .</p>\n<p>Now substitute the limits  $0$  and  $3\\pi$ :</p>\n<p> $\\begin{aligned} &amp; \\int_{0}^{3\\pi}sin(\\frac{x}{3})dx \\\\ &amp; (-3 \\cdot cos\\frac{x}{3})_{0}^{3\\pi}=(-3(-1))-(-3(1))=6 \\end{aligned}$ </p>\n<p>So, the total area is  $6$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw1kb6/df0226f6-ad68-4b61-b24a-6d701b709e65/eeebb630-51b9-11f0-a812-7314eec6f461/file-jaoe38c1mcbw1kb7.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "y=sin(\\frac{x}{3})"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.436303"
+    },
+    {
+      "id": 8497,
+      "qid": "mcf70111",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-area-of-the-region-bounded-by-the-curve-y2--x3-the-kcet-mathematics-l0fr37bojqptvrun",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the curve $y=x^{2}$ and the line $y=16$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The area of the region bounded by the curve  $y=x^{2}$  and the line  $y=16$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{32}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{32}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{256}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{256}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{64}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{64}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{128}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{128}{3}$  sq. units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & y=x^{2},y=16 \\\\ & \\begin{aligned} & 2\\int_{0}^{16}\\sqrt{y}dy=2\\frac{y^{3/2}}{3/2} \\\\ & =\\frac{4}{3}(4^{3})=\\frac{256}{3} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><img alt=\"KCET 2025 Mathematics - Area Under The Curves Question 2 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n<p> $\\begin{aligned} &amp; y=x^{2},y=16 \\\\ &amp; \\begin{aligned} &amp; 2\\int_{0}^{16}\\sqrt{y}dy=2\\frac{y^{3/2}}{3/2} \\\\ &amp; =\\frac{4}{3}(4^{3})=\\frac{256}{3} \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1mcbw3gcy/a851283c-3282-488f-a321-66f94e8296d2/237c9720-51ba-11f0-a812-7314eec6f461/file-jaoe38c1mcbw3gcz.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "y=x^{2}",
+        "y=16"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.447954"
+    },
+    {
+      "id": 8501,
+      "qid": "m5yu98ui",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-the-line-yx-and-the-kcet-mathematics-complex-numbers-v7oodv8npaawkkwv",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the line $y=x$ and the curve $y=x^{3}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by the line  $y=x$  and the curve  $y=x^{3}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2 sq unit",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.2 sq unit\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0.3 sq unit",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.3 sq unit\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0.4 sq unit",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.4 sq unit\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0.5 sq unit",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0.5 sq unit<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\because y=x$ and $y=x^{3}$ The curve intersect at $x=-1,y=-1;x=0,y=0$ and $x=1,y=1$ . $\\begin{aligned} \\text{Therefore, area} & =-\\int_{-1}^{0}(x^{3}-x)dx+\\int_{0}^{1}(x-x^{3})dx \\\\ & =-[\\frac{x^{4}}{4}-\\frac{x^{2}}{2}]_{-1}^{0}+[\\frac{x^{2}}{2}-\\frac{x^{4}}{4}]_{0}^{1} \\\\ & =-(\\frac{1}{4}-\\frac{1}{2})+(\\frac{1}{2}-\\frac{1}{4}) \\\\ & =-\\frac{1}{2}+1=\\frac{1}{2}=0.5\\text{sq. units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because y=x$  and  $y=x^{3}$ </p>\n<p>The curve intersect at  $x=-1,y=-1;x=0,y=0$  and  $x=1,y=1$ .</p>\n<p><img alt=\"KCET 2024 Mathematics - Area Under The Curves Question 9 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} \\text{Therefore, area} &amp; =-\\int_{-1}^{0}(x^{3}-x)dx+\\int_{0}^{1}(x-x^{3})dx \\\\ &amp; =-[\\frac{x^{4}}{4}-\\frac{x^{2}}{2}]_{-1}^{0}+[\\frac{x^{2}}{2}-\\frac{x^{4}}{4}]_{0}^{1} \\\\ &amp; =-(\\frac{1}{4}-\\frac{1}{2})+(\\frac{1}{2}-\\frac{1}{4}) \\\\ &amp; =-\\frac{1}{2}+1=\\frac{1}{2}=0.5\\text{sq. units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y0ipzh/69246286-644d-46bc-97ea-37bb3ad9cd29/2b35fbd0-d34f-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y0ipzi.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=x",
+        "y=x^{3}",
+        "\\because y=x",
+        "x=-1,y=-1;x=0,y=0",
+        "x=1,y=1"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.700960"
+    },
+    {
+      "id": 8499,
+      "qid": "m5yu996w",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/the-area-of-the-region-bounded-by-the-curve-y2--x3-the-kcet-mathematics-l0fr37bojqptvrun",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the line $y=3x$ and the curve $y=x^{2}$ sq units is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by the line  $y=3x$  and the curve  $y=x^{2}$  sq units is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "10",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "9/2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->9/2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "9",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->9<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $y=3x$ and $y=x^{2} \\Rightarrow 3x=x^{2}$ $x=3$ and $x=0$ are the points of intersection. $\\begin{aligned} \\text{Now, area} & =\\int_{0}^{3}(3x-x^{2})dx \\\\ & =\\frac{3x^{2}}{2}|_{0}^{3}-\\frac{x^{3}}{3}|_{0}^{3} \\\\ & =3 \\cdot \\frac{9}{2}-\\frac{27}{3} \\\\ & =\\frac{27}{2}-9=\\frac{9}{2}\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $y=3x$  and  $y=x^{2} \\Rightarrow 3x=x^{2}$ </p>\n<p> $x=3$  and  $x=0$  are the points of intersection.</p>\n<p><img alt=\"KCET 2024 Mathematics - Area Under The Curves Question 8 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} \\text{Now, area} &amp; =\\int_{0}^{3}(3x-x^{2})dx \\\\ &amp; =\\frac{3x^{2}}{2}|_{0}^{3}-\\frac{x^{3}}{3}|_{0}^{3} \\\\ &amp; =3 \\cdot \\frac{9}{2}-\\frac{27}{3} \\\\ &amp; =\\frac{27}{2}-9=\\frac{9}{2}\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m5y03tzt/a089a022-f428-4df8-96f8-86ce43662a6f/8d2bb890-d34d-11ef-9e21-e3745fffb48e/file-jaoe38c1m5y03tzu.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=3x",
+        "y=x^{2}",
+        "y=x^{2} \\Rightarrow 3x=x^{2}",
+        "x=3",
+        "x=0"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.494567"
+    },
+    {
+      "id": 8502,
+      "qid": "jaoe38c1locr9vty",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-the-line-yx-and-the-kcet-mathematics-complex-numbers-v7oodv8npaawkkwv",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "In the interval $(0,\\pi/2)$ area lying between the curves $y=tanx$ and $y=cotx$ and the $X$ -axis is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>In the interval  $(0,\\pi/2)$  area lying between the curves  $y=tanx$  and  $y=cotx$  and the  $X$ -axis is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2log2$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2log2$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$4log2$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $4log2$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log2$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log2$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$3log2$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3log2$  sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Given,}c_{1} \\rightarrow y=tanx,x \\in [-\\frac{\\pi}{3},\\frac{\\pi}{3}] \\\\ & c_{2} \\rightarrow y=cotx \\in [\\frac{\\pi}{6},\\frac{\\pi}{6}] \\end{aligned}$ The region is symmetric about lines $x=\\frac{\\pi}{4}$ and its first portion is bounded between the lines $x=0$ and $x=\\frac{\\pi}{4}$ $\\therefore \\text{Required Area}=2\\int_{0}^{\\pi/4}tanxdy$ $\\begin{aligned} & =2[log(secx)]_{0}^{\\frac{\\pi}{4}} \\\\ \\\\ & =2[log(sec\\frac{\\pi}{4})-log(sec0)] \\\\ \\\\ & =2log\\sqrt{2}=log2\\text{sq units.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Given,}c_{1} \\rightarrow y=tanx,x \\in [-\\frac{\\pi}{3},\\frac{\\pi}{3}] \\\\ &amp; c_{2} \\rightarrow y=cotx \\in [\\frac{\\pi}{6},\\frac{\\pi}{6}] \\end{aligned}$ </p>\n<p><img alt=\"KCET 2023 Mathematics - Area Under The Curves Question 16 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p>The region is symmetric about lines  $x=\\frac{\\pi}{4}$  and its first portion is bounded between the lines  $x=0$  and  $x=\\frac{\\pi}{4}$ </p>\n<p> $\\therefore \\text{Required Area}=2\\int_{0}^{\\pi/4}tanxdy$ </p>\n<p> $\\begin{aligned} &amp; =2[log(secx)]_{0}^{\\frac{\\pi}{4}} \\\\ \\\\ &amp; =2[log(sec\\frac{\\pi}{4})-log(sec0)] \\\\ \\\\ &amp; =2log\\sqrt{2}=log2\\text{sq units.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0e7qvj/dd2b09a4-3214-46e5-819e-46486dcaaa3a/7b2e0d00-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0e7qvk.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=tanx",
+        "y=cotx",
+        "\\therefore \\text{Required Area}=2\\int_{0}^{\\pi/4}tanxdy"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.746446"
+    },
+    {
+      "id": 8503,
+      "qid": "jaoe38c1locrbwow",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-the-line-yx-and-the-kcet-mathematics-complex-numbers-v7oodv8npaawkkwv",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the line $y=x+1$ and the lines $x=3$ and $x=5$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by the line  $y=x+1$  and the lines  $x=3$  and  $x=5$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{2}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{7}{2}$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{11}{2}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{11}{2}$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "7 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->7 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "10 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->10 sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\therefore \\text{Required area,}A & =\\int_{3}^{5}(x+1)dx \\\\ \\\\ & =[\\frac{x^{2}}{2}+x]_{3}^{5}=[\\frac{25}{2}+5-\\frac{9}{2}-3] \\\\ \\\\ & =[\\frac{25+10-9-6}{2}]=\\frac{20}{2} \\\\ \\\\ & =10\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p><img alt=\"KCET 2023 Mathematics - Area Under The Curves Question 17 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} \\therefore \\text{Required area,}A &amp; =\\int_{3}^{5}(x+1)dx \\\\ \\\\ &amp; =[\\frac{x^{2}}{2}+x]_{3}^{5}=[\\frac{25}{2}+5-\\frac{9}{2}-3] \\\\ \\\\ &amp; =[\\frac{25+10-9-6}{2}]=\\frac{20}{2} \\\\ \\\\ &amp; =10\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1lt0eaq1z/af96d495-8ee8-4a98-ad75-1edcae9eda44/cdf8f770-d33f-11ee-83e5-852276135e0a/file-6y3zli1lt0eaq20.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "y=x+1",
+        "x=3",
+        "x=5"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.791939"
+    },
+    {
+      "id": 8504,
+      "qid": "jaoe38c1ls1u7aqk",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-the-line-yx-and-the-kcet-mathematics-complex-numbers-v7oodv8npaawkkwv",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "Area of the region bounded by the curve $y=tanx$ , the $X$ -axis and line $x=\\frac{\\pi}{3}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Area of the region bounded by the curve  $y=tanx$ , the  $X$ -axis and line  $x=\\frac{\\pi}{3}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log2$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-log2$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-log2$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, curve $y=tanx\\text{and line}x=\\frac{\\pi}{3}$ $\\begin{aligned} \\text{Required area} & =\\int_{0}^{\\pi/3}tanxdx=[log|secx|]_{0}^{\\pi/3} \\\\ & =log|sec\\frac{\\pi}{3}|-log|sec0| \\\\ & =log(2)-log(1)=log2\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, curve  $y=tanx\\text{and line}x=\\frac{\\pi}{3}$ </p>\n<p><img alt=\"KCET 2022 Mathematics - Area Under The Curves Question 15 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} \\text{Required area} &amp; =\\int_{0}^{\\pi/3}tanxdx=[log|secx|]_{0}^{\\pi/3} \\\\ &amp; =log|sec\\frac{\\pi}{3}|-log|sec0| \\\\ &amp; =log(2)-log(1)=log2\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/6y3zli1ltasxbvm/78d3f9df-ce27-48f1-86ad-ad778667d863/d8ef1420-d8f8-11ee-bfea-0d7f65e800fb/file-6y3zli1ltasxbvn.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "y=tanx"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:16.840341"
+    },
+    {
+      "id": 8505,
+      "qid": "ltd1dz1y",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-sqrt16-x2-an-kcet-mathematics-complex-numbers-rwx4yacctnbpdavw",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by $y=-\\sqrt{16-x^{2}}$ and $X$ -axis is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by  $y=-\\sqrt{16-x^{2}}$  and  $X$ -axis is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$8\\pi$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $8\\pi$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$20\\pi$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $20\\pi$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$16\\pi$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $16\\pi$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$256\\pi$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $256\\pi$  sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "The area bounded by $y=\\sqrt{16-x^{2}}$ and $X$ -axis is shown in the figure. $\\text{Area}=\\int_{-4}^{4}ydx$ $\\begin{aligned} & =\\int_{-4}^{4}\\sqrt{4^{2}-x^{2}}dx \\\\ & =[\\frac{x}{2}\\sqrt{16-x^{2}}+\\frac{16}{2}sin^{-1}\\frac{x}{4}]_{-4}^{4} \\\\ & =[0+8sin^{-1}(1)]-[(8sin^{-1}(-1))] \\\\ & =8[\\frac{\\pi}{2}-(-\\frac{\\pi}{2})] \\\\ & =8\\pi \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area bounded by  $y=\\sqrt{16-x^{2}}$  and  $X$ -axis is shown in the figure.</p>\n<p><img alt=\"KCET 2021 Mathematics - Area Under The Curves Question 14 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\text{Area}=\\int_{-4}^{4}ydx$ </p>\n<p> $\\begin{aligned} &amp; =\\int_{-4}^{4}\\sqrt{4^{2}-x^{2}}dx \\\\ &amp; =[\\frac{x}{2}\\sqrt{16-x^{2}}+\\frac{16}{2}sin^{-1}\\frac{x}{4}]_{-4}^{4} \\\\ &amp; =[0+8sin^{-1}(1)]-[(8sin^{-1}(-1))] \\\\ &amp; =8[\\frac{\\pi}{2}-(-\\frac{\\pi}{2})] \\\\ &amp; =8\\pi \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltcsm2jj/ee94c946-cd4b-4347-8048-462d0b7ca748/311edef0-da11-11ee-aa30-990a62f87888/file-1ltcsm2jk.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=-\\sqrt{16-x^{2}}"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.062863"
+    },
+    {
+      "id": 8506,
+      "qid": "ltj8yzxo",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-sqrt16-x2-an-kcet-mathematics-complex-numbers-rwx4yacctnbpdavw",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the curve $y^{2}=8x$ and the line $y=2x$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by the curve  $y^{2}=8x$  and the line  $y=2x$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{16}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{16}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{4}{3}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{4}$  sq. units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{3}$ sq. units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{8}{3}$  sq. units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given equation of curve, $y^{2}=8x\\text{and line}y=2x$ Now, intersecting points of given curve and line. $\\begin{aligned} & & (2x)^{2} & =8x \\\\ \\Rightarrow & 4x^{2} & =8x \\\\ \\Rightarrow & & x & =0,2 \\end{aligned}$ Putting values of $x$ in $y=2x$ then, we get $y=0,4$ $\\therefore$ Required area of bounded region. $\\begin{aligned} & =\\int_{0}^{2}(\\sqrt{8x}-2x)dx \\\\ & =\\int_{0}^{2}(2\\sqrt{2} \\cdot x^{1/2}-2x)dx \\\\ & =2\\int_{0}^{2}(\\sqrt{2} \\cdot x^{1/2}-x)dx \\\\ & =2[\\sqrt{2}\\int_{0}^{2}x^{1/2}dx-\\int_{0}^{2}xdx] \\end{aligned}$ $\\begin{aligned} & =2[\\sqrt{2}(\\frac{x^{3/2}}{3/2})_{0}^{2}-(\\frac{x^{2}}{2})_{0}^{2}] \\\\ & =2[\\sqrt{2} \\cdot \\frac{2}{3}(2)^{3/2}-2] \\\\ & =2[\\frac{8}{3}-2]=2(\\frac{2}{3})=\\frac{4}{3}\\text{sq. units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given equation of curve,</p>\n<p> $y^{2}=8x\\text{and line}y=2x$ </p>\n<p>Now, intersecting points of given curve and line.</p>\n<p> $\\begin{aligned} &amp; &amp; (2x)^{2} &amp; =8x \\\\ \\Rightarrow &amp; 4x^{2} &amp; =8x \\\\ \\Rightarrow &amp; &amp; x &amp; =0,2 \\end{aligned}$ </p>\n<p>Putting values of  $x$  in  $y=2x$  then, we get  $y=0,4$ </p>\n<p> $\\therefore$  Required area of bounded region.</p>\n<p><img alt=\"KCET 2020 Mathematics - Area Under The Curves Question 13 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} &amp; =\\int_{0}^{2}(\\sqrt{8x}-2x)dx \\\\ &amp; =\\int_{0}^{2}(2\\sqrt{2} \\cdot x^{1/2}-2x)dx \\\\ &amp; =2\\int_{0}^{2}(\\sqrt{2} \\cdot x^{1/2}-x)dx \\\\ &amp; =2[\\sqrt{2}\\int_{0}^{2}x^{1/2}dx-\\int_{0}^{2}xdx] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =2[\\sqrt{2}(\\frac{x^{3/2}}{3/2})_{0}^{2}-(\\frac{x^{2}}{2})_{0}^{2}] \\\\ &amp; =2[\\sqrt{2} \\cdot \\frac{2}{3}(2)^{3/2}-2] \\\\ &amp; =2[\\frac{8}{3}-2]=2(\\frac{2}{3})=\\frac{4}{3}\\text{sq. units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1lti53vi1/f4ad3d4f-50d7-4a06-9a05-c643752bc1ba/f90ae290-dd01-11ee-95ba-d7e0228c763d/file-1lti53vi2.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y^{2}=8x",
+        "y=2x",
+        "y^{2}=8x\\text{and line}y=2x"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.071700"
+    },
+    {
+      "id": 8507,
+      "qid": "ltj8z215",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-sqrt16-x2-an-kcet-mathematics-complex-numbers-rwx4yacctnbpdavw",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the line $y=2x+1,X$ -axis and the ordinates $x=-1$ and $x=1$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by the line  $y=2x+1,X$ -axis and the ordinates  $x=-1$  and  $x=1$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{9}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{9}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, equation of line $y=2x+1\\text{.... (i)}$ Eq. (i) passing through the points $(\\frac{-1}{2},0)$ and $(0,1)$ . $\\therefore$ Required area of shaded region $\\begin{aligned} & =\\int_{-1}^{-1/2}-(2x+1)dx+\\text{Area of}△ABC= \\\\ & =-[2(\\frac{x^{2}}{2})+x]_{-1}^{-1/2}+\\frac{1}{2} \\times AB \\times BC \\\\ & =-[x^{2}+x]_{-1}^{-1/2}+\\frac{1}{2} \\times \\frac{3}{2} \\times 3 \\\\ & =-[(-\\frac{1}{2})^{2}+(-\\frac{1}{2})-(-1)^{2}-(-1)]+\\frac{9}{4} \\\\ & =-[\\frac{1}{4}-\\frac{1}{2}]+\\frac{9}{4} \\\\ & =\\frac{1}{4}+\\frac{9}{4}=\\frac{10}{4}=\\frac{5}{2}\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given, equation of line  $y=2x+1\\text{.... (i)}$ </p>\n<p>Eq. (i) passing through the points  $(\\frac{-1}{2},0)$  and  $(0,1)$ .</p>\n<p><img alt=\"KCET 2020 Mathematics - Area Under The Curves Question 12 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\therefore$  Required area of shaded region</p>\n<p> $\\begin{aligned} &amp; =\\int_{-1}^{-1/2}-(2x+1)dx+\\text{Area of}△ABC= \\\\ &amp; =-[2(\\frac{x^{2}}{2})+x]_{-1}^{-1/2}+\\frac{1}{2} \\times AB \\times BC \\\\ &amp; =-[x^{2}+x]_{-1}^{-1/2}+\\frac{1}{2} \\times \\frac{3}{2} \\times 3 \\\\ &amp; =-[(-\\frac{1}{2})^{2}+(-\\frac{1}{2})-(-1)^{2}-(-1)]+\\frac{9}{4} \\\\ &amp; =-[\\frac{1}{4}-\\frac{1}{2}]+\\frac{9}{4} \\\\ &amp; =\\frac{1}{4}+\\frac{9}{4}=\\frac{10}{4}=\\frac{5}{2}\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltiicjf7/760db581-5ef0-4174-a89b-d75217ffee5d/c0ac5a30-dd35-11ee-880a-9d54e5548f1f/file-1ltiicjf8.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=2x+1,X",
+        "x=-1",
+        "x=1",
+        "y=2x+1\\text{.... (i)}",
+        "(\\frac{-1}{2},0)"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.079009"
+    },
+    {
+      "id": 8509,
+      "qid": "ltw4pvhj",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-axis-ycos-x-kcet-mathematics-complex-numbers-wbk4890pcjdyqonm",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by $Y$ -axis, $y=cosx$ and $y=sinx,0 \\le x \\le \\frac{\\pi}{2}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region bounded by  $Y$ -axis,  $y=cosx$  and  $y=sinx,0 \\le x \\le \\frac{\\pi}{2}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}+1$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{2}+1$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{2}-1$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{2}-1$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2-\\sqrt{2}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2-\\sqrt{2}$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{2}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{2}$  sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "For intersecting points of both curve we use $cosx=sinx$ $\\Rightarrow tanx=1 \\Rightarrow x=\\frac{\\pi}{4}$ Required area $=\\int_{0}^{\\pi/4}(cosx-sinx)dx$ $\\begin{aligned} & =(sinx+cosx)_{0}^{\\pi/4} \\\\ & =(sin\\frac{\\pi}{4}+cos\\frac{\\pi}{4})-(sin0+cos0) \\\\ & =(\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{2}})-(0+1) \\\\ & =\\frac{2}{\\sqrt{2}}-1=(\\sqrt{2}-1)\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>For intersecting points of both curve we use  $cosx=sinx$ </p>\n<p> $\\Rightarrow tanx=1 \\Rightarrow x=\\frac{\\pi}{4}$ </p>\n<p>Required area</p>\n<p><img alt=\"KCET 2019 Mathematics - Area Under The Curves Question 10 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $=\\int_{0}^{\\pi/4}(cosx-sinx)dx$ </p>\n<p> $\\begin{aligned} &amp; =(sinx+cosx)_{0}^{\\pi/4} \\\\ &amp; =(sin\\frac{\\pi}{4}+cos\\frac{\\pi}{4})-(sin0+cos0) \\\\ &amp; =(\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{2}})-(0+1) \\\\ &amp; =\\frac{2}{\\sqrt{2}}-1=(\\sqrt{2}-1)\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxwa7t/4aeae7be-048c-4ba6-bd1b-8d7c62aee0fd/f679e1a0-e40b-11ee-811d-a5129853b681/file-1ltuxwa7u.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Rightarrow tanx=1 \\Rightarrow x=\\frac{\\pi}{4}",
+        "=\\int_{0}^{\\pi/4}(cosx-sinx)dx"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.225166"
+    },
+    {
+      "id": 8508,
+      "qid": "ltw4pu44",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-sqrt16-x2-an-kcet-mathematics-complex-numbers-rwx4yacctnbpdavw",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The area of the region above $X$ -axis included between the parabola $y^{2}=x$ and the circle $x^{2}+y^{2}=2x$ in square units is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The area of the region above  $X$ -axis included between the parabola  $y^{2}=x$  and the circle  $x^{2}+y^{2}=2x$  in square units is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}-\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{3}-\\frac{\\pi}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{4}-\\frac{3}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{4}-\\frac{3}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{4}-\\frac{2}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\pi}{4}-\\frac{2}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{2}-\\frac{\\pi}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{2}-\\frac{\\pi}{4}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Intersecting points of given parabola $y^{2}=x$ and circle $x^{2}+y^{2}=2x$ $\\Rightarrow x^{2}+x=2x \\Rightarrow x(x-1)=0 \\Rightarrow x=0,1$ at $x=0,y=0$ and at $x=1,y= \\pm 1$ $\\therefore$ required area $=$ Area of quadrant of circle with radius 1 $\\begin{aligned} \\frac{\\pi(1)^{2}}{4}- & \\int_{0}^{1}\\sqrt{x}dx \\\\ & =\\frac{\\pi(1)^{2}}{4}-(\\frac{x^{3/2}}{3/2})_{0}^{1}=\\frac{\\pi}{4}-\\frac{2}{3}(1)^{3}-0) \\\\ & =\\frac{\\pi}{4}-\\frac{2}{3}\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Intersecting points of given parabola  $y^{2}=x$  and circle  $x^{2}+y^{2}=2x$ </p>\n<p> $\\Rightarrow x^{2}+x=2x \\Rightarrow x(x-1)=0 \\Rightarrow x=0,1$ </p>\n<p>at  $x=0,y=0$  and at  $x=1,y= \\pm 1$ </p>\n<p> $\\therefore$  required area  $=$  Area of quadrant of circle with radius 1</p>\n<p><img alt=\"KCET 2019 Mathematics - Area Under The Curves Question 11 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n<p> $\\begin{aligned} \\frac{\\pi(1)^{2}}{4}- &amp; \\int_{0}^{1}\\sqrt{x}dx \\\\ &amp; =\\frac{\\pi(1)^{2}}{4}-(\\frac{x^{3/2}}{3/2})_{0}^{1}=\\frac{\\pi}{4}-\\frac{2}{3}(1)^{3}-0) \\\\ &amp; =\\frac{\\pi}{4}-\\frac{2}{3}\\text{sq units} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/1ltuxspyt/fe43d676-eded-498a-953e-60cf3320c7e1/9367f160-e40b-11ee-811d-a5129853b681/file-1ltuxspyu.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Rightarrow x^{2}+x=2x \\Rightarrow x(x-1)=0 \\Rightarrow x=0,1",
+        "x=0,y=0",
+        "x=1,y= \\pm 1"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.087004"
+    },
+    {
+      "id": 8510,
+      "qid": "m7ish7r6",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-axis-ycos-x-kcet-mathematics-complex-numbers-wbk4890pcjdyqonm",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the curve $y=cosx$ between $x=0$ and $x=\\pi$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The area of the region bounded by the curve  $y=cosx$  between  $x=0$  and  $x=\\pi$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 sq unit",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1 sq unit\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "4 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3 sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Area of region bounded by the curve $y=cosx$ between $x=0$ and $x=\\pi$ is shaded region. $\\begin{aligned} & \\text{Required area of shaded region} \\\\ & \\begin{aligned} & =\\int_{0}^{\\pi/2}cosxdx+|\\int_{\\pi/2}^{\\pi}cosxdx| \\\\ & =[sinx]_{0}^{\\pi/2}+|[sinx]_{\\pi/2}^{\\pi}| \\\\ & =[sin\\frac{\\pi}{2}-sin0]+|sin\\pi-sin\\frac{\\pi}{2}| \\\\ & =(1-0)+|(0-1)| \\\\ & =1+1=2\\text{sq units} \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Area of region bounded by the curve  $y=cosx$  between  $x=0$  and  $x=\\pi$  is shaded region.\n<img alt=\"KCET 2018 Mathematics - Area Under The Curves Question 6 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n $\\begin{aligned} &amp; \\text{Required area of shaded region} \\\\ &amp; \\begin{aligned} &amp; =\\int_{0}^{\\pi/2}cosxdx+|\\int_{\\pi/2}^{\\pi}cosxdx| \\\\ &amp; =[sinx]_{0}^{\\pi/2}+|[sinx]_{\\pi/2}^{\\pi}| \\\\ &amp; =[sin\\frac{\\pi}{2}-sin0]+|sin\\pi-sin\\frac{\\pi}{2}| \\\\ &amp; =(1-0)+|(0-1)| \\\\ &amp; =1+1=2\\text{sq units} \\end{aligned} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7hmvnre/9db67d7a-585e-4aef-8148-6c72aa5b558e/b79206a0-f1e5-11ef-aab0-892656acd133/file-jaoe38c1m7hmvnrf.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=cosx",
+        "x=0",
+        "x=\\pi"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.236616"
+    },
+    {
+      "id": 8511,
+      "qid": "m7isg5tg",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-axis-ycos-x-kcet-mathematics-complex-numbers-wbk4890pcjdyqonm",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The area bounded by the line $y=x,X$ -axis and ordinates $x=-1$ and $x=2$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The area bounded by the line  $y=x,X$ -axis and ordinates  $x=-1$  and  $x=2$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{3}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{5}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given line is $y=x,X$ -axis, $x=-1$ and $x=2$ $\\begin{aligned} \\text{Required area} & =|\\int_{-1}^{0}xdx|+\\int_{0}^{2}xdx \\\\ & =|[\\frac{x^{2}}{2}]_{-1}^{0}|+[\\frac{x^{2}}{2}]_{0}^{2} \\\\ & =|(0-\\frac{1}{2})|+(2-0) \\\\ & =\\frac{1}{2}+2=\\frac{5}{2}\\text{sq units} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"4\">\n<p>Given line is  $y=x,X$ -axis,  $x=-1$  and  $x=2$ </p>\n<img alt=\"KCET 2018 Mathematics - Area Under The Curves Question 7 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/>\n $\\begin{aligned} \\text{Required area} &amp; =|\\int_{-1}^{0}xdx|+\\int_{0}^{2}xdx \\\\ &amp; =|[\\frac{x^{2}}{2}]_{-1}^{0}|+[\\frac{x^{2}}{2}]_{0}^{2} \\\\ &amp; =|(0-\\frac{1}{2})|+(2-0) \\\\ &amp; =\\frac{1}{2}+2=\\frac{5}{2}\\text{sq units} \\end{aligned}$ </ol><!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m7ghdky0/d16b700c-b5c2-4b6e-8639-6f8217406921/6a88fc80-f143-11ef-91cc-c9e7290bbda7/file-jaoe38c1m7ghdky1.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=x,X",
+        "x=-1",
+        "x=2"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.244265"
+    },
+    {
+      "id": 8513,
+      "qid": "m9dupn0t",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/area-of-the-region-bounded-by-the-curve-ycos-x-x0-and-kcet-mathematics-complex-numbers-huydqr3gcbzpul0x",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Area of the region bounded by the curve $y=cosx,x=0$ and $x=\\pi$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Area of the region bounded by the curve  $y=cosx,x=0$  and  $x=\\pi$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "3 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 3 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 1 sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2 sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 2 sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} RequiredArea & =\\int_{0}^{\\pi}|cosx|dx \\\\ & =2\\int_{0}^{\\pi/2}|cosx|dx \\\\ & =2\\int_{0}^{\\pi/2}cosxdx \\\\ & =2[sinx]_{0}^{\\pi/2} \\\\ & =2[sin\\frac{\\pi}{2}-sin0] \\\\ & =2(1-0) \\\\ & =2\\text{sq units.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} RequiredArea &amp; =\\int_{0}^{\\pi}|cosx|dx \\\\ &amp; =2\\int_{0}^{\\pi/2}|cosx|dx \\\\ &amp; =2\\int_{0}^{\\pi/2}cosxdx \\\\ &amp; =2[sinx]_{0}^{\\pi/2} \\\\ &amp; =2[sin\\frac{\\pi}{2}-sin0] \\\\ &amp; =2(1-0) \\\\ &amp; =2\\text{sq units.} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "y=cosx,x=0",
+        "x=\\pi"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.312790"
+    },
+    {
+      "id": 8512,
+      "qid": "m9durlej",
+      "chapter_slug": "kcet-area-under-the-curves",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-area-of-the-region-bounded-by-y-axis-ycos-x-kcet-mathematics-complex-numbers-wbk4890pcjdyqonm",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The area of the region bounded by the curve $y=x^{2}$ and the line $y=16$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The area of the region bounded by the curve  $y=x^{2}$  and the line  $y=16$ \n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{64}{3}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{64}{3}$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{32}{3}sq$ units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{32}{3}sq$  units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{256}{3}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{256}{3}$  sq units\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{128}{3}$ sq units",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{128}{3}$  sq units<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\text{According to the question,}$ $\\begin{aligned} \\text{Required area} & =2\\int_{0}^{16}xdy \\\\ & =2\\int_{0}^{16}\\sqrt{y}dy \\\\ & =2[\\frac{y^{3/2}}{3/2}]_{0}^{16} \\\\ & =\\frac{4}{3}[16^{3/2}-0^{3/2}] \\\\ & =\\frac{4}{3} \\times 64=\\frac{256}{3}\\text{sq units.} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\text{According to the question,}$ </p>\n<p><img alt=\"KCET 2017 Mathematics - Area Under The Curves Question 4 English Explanation\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png\" decoding=\"async\" loading=\"lazy\" sizes=\"(max-width: 767px) 100vw, 720px\" src=\"https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png\" srcset=\"https://app-content.cdn.examgoal.net/fly/500/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 500w, https://app-content.cdn.examgoal.net/fly/750/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 750w, https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 1000w, https://app-content.cdn.examgoal.net/fly/1500/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 1500w, https://app-content.cdn.examgoal.net/fly/2000/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 2000w, https://app-content.cdn.examgoal.net/fly/2500/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png 2500w\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"/></p>\n $\\begin{aligned} \\text{Required area} &amp; =2\\int_{0}^{16}xdy \\\\ &amp; =2\\int_{0}^{16}\\sqrt{y}dy \\\\ &amp; =2[\\frac{y^{3/2}}{3/2}]_{0}^{16} \\\\ &amp; =\\frac{4}{3}[16^{3/2}-0^{3/2}] \\\\ &amp; =\\frac{4}{3} \\times 64=\\frac{256}{3}\\text{sq units.} \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": true,
+      "image_urls": [
+        "https://app-content.cdn.examgoal.net/fly/1000/image/jaoe38c1m9cuy6px/9c0ada2e-164e-44ea-a1b2-e4df51a2d753/ca60cb50-16dd-11f0-bb5c-3991120bb4f7/file-jaoe38c1m9cuy6py.png?format=png"
+      ],
+      "topic_tag": "Kcet Area Under The Curves - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "y=x^{2}",
+        "y=16"
+      ],
+      "key_concepts": [
+        "Kcet Area Under The Curves - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:17.253062"
+    }
+  ]
+}

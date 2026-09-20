@@ -1,0 +1,1496 @@
+{
+  "chapter_slug": "kcet-indefinite-integration",
+  "total": 28,
+  "questions": [
+    {
+      "id": 8853,
+      "qid": "jt-mr7eh8yu",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-e-x-log-2-cdot-2xdx---kcet-mathematics-jinlxt8o9nkcgelr",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int e^{-xlog2} \\cdot 2^{x}dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int e^{-xlog2} \\cdot 2^{x}dx=$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$logx+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $logx+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $x+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{x}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{x}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x^{2}}{2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x^{2}}{2}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "Since $2^{x}$ can be written as $2^{x}=e^{xlog2}$ the integrand becomes $e^{-xlog2} \\cdot 2^{x}=e^{-xlog2} \\cdot e^{xlog2}$ Using $e^{a} \\cdot e^{b}=e^{a+b}$ , $e^{-xlog2+xlog2}=e^{0}=1$ So the integral is $\\int 1dx=x+C$ So the correct option is $x+C$ Option B.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Since  $2^{x}$  can be written as</p>\n<p> $2^{x}=e^{xlog2}$ </p>\n<p>the integrand becomes</p>\n<p> $e^{-xlog2} \\cdot 2^{x}=e^{-xlog2} \\cdot e^{xlog2}$ </p>\n<p>Using  $e^{a} \\cdot e^{b}=e^{a+b}$ ,</p>\n<p> $e^{-xlog2+xlog2}=e^{0}=1$ </p>\n<p>So the integral is</p>\n<p> $\\int 1dx=x+C$ </p>\n<p>So the correct option is</p>\n<p> $x+C$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int e^{-xlog2} \\cdot 2^{x}dx=",
+        "2^{x}",
+        "2^{x}=e^{xlog2}",
+        "e^{-xlog2} \\cdot 2^{x}=e^{-xlog2} \\cdot e^{xlog2}",
+        "e^{a} \\cdot e^{b}=e^{a+b}",
+        "e^{-xlog2+xlog2}=e^{0}=1"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.124281"
+    },
+    {
+      "id": 8854,
+      "qid": "jt-mr7eh8yv",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-e-x-log-2-cdot-2xdx---kcet-mathematics-jinlxt8o9nkcgelr",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If ' $n$ ' is a natural number, then $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If ' $n$ ' is a natural number, then  $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=$ <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{tan^{n-1}x}{n-1}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{tan^{n-1}x}{n-1}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{tan^{n}x}{n}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{tan^{n}x}{n}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{tan^{n+2}x}{n+2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{tan^{n+2}x}{n+2}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{tan^{n+1}x}{n+1}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{tan^{n+1}x}{n+1}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "Given, $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx$ We can rewrite the integrand by separating powers of $cosx$ : $\\frac{sin^{n}x}{cos^{n+2}x}=\\frac{sin^{n}x}{cos^{n}x} \\cdot \\frac{1}{cos^{2}x}$ Now, $\\frac{sinx}{cosx}=tanx$ and $\\frac{1}{cos^{2}x}=sec^{2}x$ So, $\\frac{sin^{n}x}{cos^{n+2}x}=tan^{n}xsec^{2}x$ Hence, $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=\\int tan^{n}xsec^{2}xdx$ Put $t=tanx$ Then, $dt=sec^{2}xdx$ So the integral becomes $\\int t^{n}dt=\\frac{t^{n+1}}{n+1}+C$ Putting back $t=tanx$ , $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=\\frac{tan^{n+1}x}{n+1}+C$ So the correct option is $\\text{Option D}\\frac{tan^{n+1}x}{n+1}+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx$ </p>\n<p>We can rewrite the integrand by separating powers of  $cosx$ :</p>\n<p> $\\frac{sin^{n}x}{cos^{n+2}x}=\\frac{sin^{n}x}{cos^{n}x} \\cdot \\frac{1}{cos^{2}x}$ </p>\n<p>Now,</p>\n<p> $\\frac{sinx}{cosx}=tanx$ </p>\n<p>and</p>\n<p> $\\frac{1}{cos^{2}x}=sec^{2}x$ </p>\n<p>So,</p>\n<p> $\\frac{sin^{n}x}{cos^{n+2}x}=tan^{n}xsec^{2}x$ </p>\n<p>Hence,</p>\n<p> $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=\\int tan^{n}xsec^{2}xdx$ </p>\n<p>Put</p>\n<p> $t=tanx$ </p>\n<p>Then,</p>\n<p> $dt=sec^{2}xdx$ </p>\n<p>So the integral becomes</p>\n<p> $\\int t^{n}dt=\\frac{t^{n+1}}{n+1}+C$ </p>\n<p>Putting back  $t=tanx$ ,</p>\n<p> $\\int \\frac{sin^{n}x}{cos^{n+2}x}dx=\\frac{tan^{n+1}x}{n+1}+C$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\frac{tan^{n+1}x}{n+1}+C$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.138921"
+    },
+    {
+      "id": 8855,
+      "qid": "mcf6zwwm",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-e-x-log-2-cdot-2xdx---kcet-mathematics-jinlxt8o9nkcgelr",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int \\frac{dx}{(x+1)(x+2)}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The value of  $\\int \\frac{dx}{(x+1)(x+2)}$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log|\\frac{x-1}{x+2}|+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{x-1}{x+2}|+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log|\\frac{x-1}{x-2}|+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{x-1}{x-2}|+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log|\\frac{x+2}{x+1}|+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{x+2}{x+1}|+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$log|\\frac{x+1}{x+2}|+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{x+1}{x+2}|+c$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\int \\frac{dx}{(x+1)(x+2)} & =\\int \\frac{(x+2)-(x+1)}{(x+1)(x+2)}dx \\\\ & =\\int \\frac{1}{x+1}dx-\\int \\frac{1}{x+2}dx \\end{aligned}$ $=log|\\frac{x+1}{x+2}|+c$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\int \\frac{dx}{(x+1)(x+2)} &amp; =\\int \\frac{(x+2)-(x+1)}{(x+1)(x+2)}dx \\\\ &amp; =\\int \\frac{1}{x+1}dx-\\int \\frac{1}{x+2}dx \\end{aligned}$ </p>\n<p> $=log|\\frac{x+1}{x+2}|+c$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{dx}{(x+1)(x+2)}",
+        "=log|\\frac{x+1}{x+2}|+c"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.148434"
+    },
+    {
+      "id": 8856,
+      "qid": "mcf6zx0c",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-e-x-log-2-cdot-2xdx---kcet-mathematics-jinlxt8o9nkcgelr",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{dx}{x^{2}(x^{4}+1)^{3/4}}$ equals",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{x^{2}(x^{4}+1)^{3/4}}$  equals\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(\\frac{x^{4}+1}{x^{4}})^{\\frac{1}{4}}+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(\\frac{x^{4}+1}{x^{4}})^{\\frac{1}{4}}+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(x^{4}+1)^{\\frac{1}{4}}+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $(x^{4}+1)^{\\frac{1}{4}}+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-(x^{4}+1)^{\\frac{1}{4}}+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-(x^{4}+1)^{\\frac{1}{4}}+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-(\\frac{x^{4}+1}{x^{4}})^{\\frac{1}{4}}+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-(\\frac{x^{4}+1}{x^{4}})^{\\frac{1}{4}}+c$ \n<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\int \\frac{dx}{x^{2}(x^{4}+1)^{3/4}} \\\\ & =\\int \\frac{dx}{x^{5}(1+\\frac{1}{X^{4}})^{3/4}} \\end{aligned}$ $\\begin{aligned} & 1+\\frac{1}{x^{4}}=T \\\\ & -4x^{-5}dx=dt \\end{aligned}$ $=-\\frac{1}{4}\\int t^{-3/4}dt=-\\frac{1}{4}\\frac{t^{1/4}}{\\frac{1}{4}}+c=-(1+\\frac{1}{x^{4}})^{1/4}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int \\frac{dx}{x^{2}(x^{4}+1)^{3/4}} \\\\ &amp; =\\int \\frac{dx}{x^{5}(1+\\frac{1}{X^{4}})^{3/4}} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; 1+\\frac{1}{x^{4}}=T \\\\ &amp; -4x^{-5}dx=dt \\end{aligned}$ </p>\n<p> $=-\\frac{1}{4}\\int t^{-3/4}dt=-\\frac{1}{4}\\frac{t^{1/4}}{\\frac{1}{4}}+c=-(1+\\frac{1}{x^{4}})^{1/4}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{dx}{x^{2}(x^{4}+1)^{3/4}}",
+        "\\begin{aligned} & 1+\\frac{1}{x^{4}}=T \\\\ & -4x^{-5}dx=dt \\end{aligned}"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.162393"
+    },
+    {
+      "id": 8857,
+      "qid": "m5yu7eni",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracsin-x34-cos-2-x-d-xp-kcet-mathematics-complex-numbers-2kyi6rglveyh3uu6",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{sinx}{3+4cos^{2}x}dx$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{sinx}{3+4cos^{2}x}dx$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{2cosx}{\\sqrt{3}})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{2cosx}{\\sqrt{3}})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{cosx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{cosx}{3})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{cosx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{cosx}{3})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{2cosx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $-\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{2cosx}{3})+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\because I & =\\int \\frac{sinx}{3+4cos^{2}x}dx \\\\ & =\\frac{sinx}{3[1+(\\frac{2cosx}{\\sqrt{3}})^{2}]^{2}}dx \\end{aligned}$ put $t=\\frac{2cosx}{\\sqrt{3}}$ $\\begin{aligned} dt & =\\frac{-2sinx}{\\sqrt{3}}dx \\\\ I & =\\int -\\frac{\\sqrt{3}}{2(3t^{2}+3)}dt \\\\ & =-\\frac{1}{2\\sqrt{3}}\\int \\frac{1}{1+t^{2}}dt \\\\ & =-\\frac{1}{2\\sqrt{3}}tan^{-1}(t)+C \\\\ & =\\frac{-1}{2\\sqrt{3}}tan^{-1}(\\frac{2cosx}{\\sqrt{3}})+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\because I &amp; =\\int \\frac{sinx}{3+4cos^{2}x}dx \\\\ &amp; =\\frac{sinx}{3[1+(\\frac{2cosx}{\\sqrt{3}})^{2}]^{2}}dx \\end{aligned}$ </p>\n<p>put  $t=\\frac{2cosx}{\\sqrt{3}}$ </p>\n<p> $\\begin{aligned} dt &amp; =\\frac{-2sinx}{\\sqrt{3}}dx \\\\ I &amp; =\\int -\\frac{\\sqrt{3}}{2(3t^{2}+3)}dt \\\\ &amp; =-\\frac{1}{2\\sqrt{3}}\\int \\frac{1}{1+t^{2}}dt \\\\ &amp; =-\\frac{1}{2\\sqrt{3}}tan^{-1}(t)+C \\\\ &amp; =\\frac{-1}{2\\sqrt{3}}tan^{-1}(\\frac{2cosx}{\\sqrt{3}})+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{sinx}{3+4cos^{2}x}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.416780"
+    },
+    {
+      "id": 8858,
+      "qid": "m5yu86cx",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracsin-x34-cos-2-x-d-xp-kcet-mathematics-complex-numbers-2kyi6rglveyh3uu6",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{1}{x[6(logx)^{2}+7logx+2]}dx\\text{is}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{1}{x[6(logx)^{2}+7logx+2]}dx\\text{is}$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}log|\\frac{2logx+1}{3logx+2}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{2}log|\\frac{2logx+1}{3logx+2}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log|\\frac{2logx+1}{3logx+2}|+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{2logx+1}{3logx+2}|+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log|\\frac{3logx+2}{2logx+1}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{3logx+2}{2logx+1}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}log|\\frac{3logx+2}{2logx+1}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{2}log|\\frac{3logx+2}{2logx+1}|+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} I & =\\int \\frac{1}{x[6(logx)^{2}+7logx+2]}dx \\\\ & =\\int \\frac{dt}{6t^{2}+7t+2}[\\begin{aligned} \\because \\text{put}t=logx \\\\ dt=\\frac{1}{x}dx \\end{aligned}] \\\\ & =\\int \\frac{dt}{(3t+2)(2t+1)} \\end{aligned}$ $\\begin{aligned} & \\begin{aligned} \\text{Now,}\\frac{1}{(3t+2)(2t+1)} & =\\frac{A}{(3t+2)}+\\frac{B}{(2t+1)} \\\\ & =\\frac{A(2t+1)+B(3t+2)}{(3t+2)(2t+1)} \\\\ \\Rightarrow 1 & =A(2t+1)+B(3t+2) \\\\ \\text{Now, on putting}t & =\\frac{-1}{2} \\end{aligned} \\end{aligned}$ $\\begin{aligned} & \\Rightarrow 1=0+B[3(-\\frac{1}{2})+2] \\\\ & \\Rightarrow B=2 \\\\ & \\text{and put}t=\\frac{-2}{3} \\\\ & \\Rightarrow 1=A(2 \\times (-\\frac{2}{3})+1)+0 \\Rightarrow 1=A(-\\frac{4}{3}+1) \\\\ & \\Rightarrow A=-3 \\\\ & \\therefore I=\\int (\\frac{-3}{3t+2}+\\frac{2}{2t+1})dt \\\\ & =\\frac{-3log|3t+2|}{3}+2\\frac{log|2t+1|}{2}+C \\\\ & =-log|3t+2|+log|2t+1|+C \\\\ & =log|\\frac{2t+1}{3t+2}|+C \\\\ & =log|\\frac{2logx+1}{3logx+2}|+C[ \\because t=logx] \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} I &amp; =\\int \\frac{1}{x[6(logx)^{2}+7logx+2]}dx \\\\ &amp; =\\int \\frac{dt}{6t^{2}+7t+2}[\\begin{aligned} \\because \\text{put}t=logx \\\\ dt=\\frac{1}{x}dx \\end{aligned}] \\\\ &amp; =\\int \\frac{dt}{(3t+2)(2t+1)} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\begin{aligned} \\text{Now,}\\frac{1}{(3t+2)(2t+1)} &amp; =\\frac{A}{(3t+2)}+\\frac{B}{(2t+1)} \\\\ &amp; =\\frac{A(2t+1)+B(3t+2)}{(3t+2)(2t+1)} \\\\ \\Rightarrow 1 &amp; =A(2t+1)+B(3t+2) \\\\ \\text{Now, on putting}t &amp; =\\frac{-1}{2} \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow 1=0+B[3(-\\frac{1}{2})+2] \\\\ &amp; \\Rightarrow B=2 \\\\ &amp; \\text{and put}t=\\frac{-2}{3} \\\\ &amp; \\Rightarrow 1=A(2 \\times (-\\frac{2}{3})+1)+0 \\Rightarrow 1=A(-\\frac{4}{3}+1) \\\\ &amp; \\Rightarrow A=-3 \\\\ &amp; \\therefore I=\\int (\\frac{-3}{3t+2}+\\frac{2}{2t+1})dt \\\\ &amp; =\\frac{-3log|3t+2|}{3}+2\\frac{log|2t+1|}{2}+C \\\\ &amp; =-log|3t+2|+log|2t+1|+C \\\\ &amp; =log|\\frac{2t+1}{3t+2}|+C \\\\ &amp; =log|\\frac{2logx+1}{3logx+2}|+C[ \\because t=logx] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{1}{x[6(logx)^{2}+7logx+2]}dx\\text{is}"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.430417"
+    },
+    {
+      "id": 8859,
+      "qid": "m5yu946t",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracsin-x34-cos-2-x-d-xp-kcet-mathematics-complex-numbers-2kyi6rglveyh3uu6",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{sin\\frac{3x}{2}}{sin\\frac{x}{2}}dx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{sin\\frac{3x}{2}}{sin\\frac{x}{2}}dx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2x+sinx+2sin2x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $2x+sinx+2sin2x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x+2sinx+2sin2x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x+2sinx+2sin2x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x+2sinx+sin2x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x+2sinx+sin2x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2x+sinx+sin2x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $2x+sinx+sin2x+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$I=\\int \\frac{sin(\\frac{5x}{2})}{sin(\\frac{x}{2})}dx$ $\\begin{aligned} & =\\int \\frac{2sin(\\frac{5x}{2})cos(\\frac{x}{2})}{sinx}dx=\\int \\frac{sin3x+sin2x}{sinx}dx \\\\ & =\\int \\frac{(3sinx-4sin^{3}x)+2sinxcosx}{sinx}dx \\\\ & =\\int (3-4sin^{2}x+2cosx)dx \\\\ & =\\int (3-2(1-cos2x)+2cosx)dx \\\\ & =\\int (3-2+2cos2x+2cosx)dx \\\\ & =\\int (1+2cos2x+2cosx)dx \\\\ & =x+sin2x+2sinx+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $I=\\int \\frac{sin(\\frac{5x}{2})}{sin(\\frac{x}{2})}dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int \\frac{2sin(\\frac{5x}{2})cos(\\frac{x}{2})}{sinx}dx=\\int \\frac{sin3x+sin2x}{sinx}dx \\\\ &amp; =\\int \\frac{(3sinx-4sin^{3}x)+2sinxcosx}{sinx}dx \\\\ &amp; =\\int (3-4sin^{2}x+2cosx)dx \\\\ &amp; =\\int (3-2(1-cos2x)+2cosx)dx \\\\ &amp; =\\int (3-2+2cos2x+2cosx)dx \\\\ &amp; =\\int (1+2cos2x+2cosx)dx \\\\ &amp; =x+sin2x+2sinx+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{sin\\frac{3x}{2}}{sin\\frac{x}{2}}dx",
+        "I=\\int \\frac{sin(\\frac{5x}{2})}{sin(\\frac{x}{2})}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.443197"
+    },
+    {
+      "id": 8861,
+      "qid": "jaoe38c1locqaidd",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-sqrt5-2-xx2-d-x-is-equals-top-kcet-mathematics-complex-numbers-si4itrjogh5sq4ki",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\sqrt{5-2x+x^{2}}dx$ is equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\sqrt{5-2x+x^{2}}dx$  is equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{aligned} \\frac{x}{2}\\sqrt{5-2x+x^{2}} & +4log|(x+1)+\\sqrt{x^{2}-2x+5}|+C \\end{aligned}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\begin{aligned} \\frac{x}{2}\\sqrt{5-2x+x^{2}} &amp; +4log|(x+1)+\\sqrt{x^{2}-2x+5}|+C \\end{aligned}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{x-1}{2}\\sqrt{5+2x+x^{2}}+2log|(x-1)+\\sqrt{5+2x+x^{2}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x-1}{2}\\sqrt{5+2x+x^{2}}+2log|(x-1)+\\sqrt{5+2x+x^{2}}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2log|(x-1)+\\sqrt{5-2x+x^{2}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2log|(x-1)+\\sqrt{5-2x+x^{2}}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2log|(x+1)+\\sqrt{x^{2}+2x+5}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2log|(x+1)+\\sqrt{x^{2}+2x+5}|+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I & =\\int \\sqrt{5-2x+x^{2}}dx \\\\ I & =\\int \\sqrt{(x-1)^{2}+(2)^{2}} \\end{aligned}$ We know that $\\begin{aligned} [ \\because \\int \\sqrt{x^{2}+a^{2}}= & \\frac{x}{2}\\sqrt{x^{2}+a^{2}} \\\\ & +\\frac{a^{2}}{2}log|x+\\sqrt{x^{2}+a^{2}}|] \\end{aligned}$ $\\begin{aligned} & =\\frac{x-1}{2}\\sqrt{5-2x+x^{2}} \\\\ & +2log|(x-1)+\\sqrt{5-2x+x^{2}}|+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int \\sqrt{5-2x+x^{2}}dx \\\\ I &amp; =\\int \\sqrt{(x-1)^{2}+(2)^{2}} \\end{aligned}$ </p>\n<p>We know that</p>\n<p> $\\begin{aligned} [ \\because \\int \\sqrt{x^{2}+a^{2}}= &amp; \\frac{x}{2}\\sqrt{x^{2}+a^{2}} \\\\ &amp; +\\frac{a^{2}}{2}log|x+\\sqrt{x^{2}+a^{2}}|] \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =\\frac{x-1}{2}\\sqrt{5-2x+x^{2}} \\\\ &amp; +2log|(x-1)+\\sqrt{5-2x+x^{2}}|+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\sqrt{5-2x+x^{2}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.708151"
+    },
+    {
+      "id": 8862,
+      "qid": "jaoe38c1locqrdaw",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-sqrt5-2-xx2-d-x-is-equals-top-kcet-mathematics-complex-numbers-si4itrjogh5sq4ki",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx$ is equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx$  is equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$tan^{-1}(\\frac{2tanx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(\\frac{2tanx}{3})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{6}tan^{-1}(\\frac{2tanx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}tan^{-1}(\\frac{2tanx}{3})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$6tan^{-1}(\\frac{2tanx}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $6tan^{-1}(\\frac{2tanx}{3})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}tan^{-1}(2tanx)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6}tan^{-1}(2tanx)+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx$ Dividing the numerator and denominator by $cos^{2}x$ , we get $\\begin{aligned} & \\Rightarrow I=\\int \\frac{sec^{2}x}{sec^{2}x+3tan^{2}x+8}dx \\\\ & \\Rightarrow I=\\int \\frac{sec^{2}x}{1+tan^{2}x+3tan^{2}x+8}dx \\\\ & \\Rightarrow I=\\int \\frac{sec^{2}x}{4tan^{2}x+9}dx \\end{aligned}$ Putting, $tanx=t \\Rightarrow sec^{2}xdx=dt$ , we get $\\begin{aligned} & I=\\int \\frac{dt}{4t^{2}+9}=\\frac{1}{4}\\int \\frac{dt}{t^{2}+(\\frac{3}{2})^{2}}+C \\\\ I & =\\frac{1}{4} \\times \\frac{1}{3/2}tan^{-1}(\\frac{t}{3/2})+C \\\\ \\Rightarrow I & =\\frac{1}{6}tan^{-1}(\\frac{2t}{3})+C=\\frac{1}{6}tan^{-1}(\\frac{2tanx}{3})+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx$ </p>\n<p>Dividing the numerator and denominator by  $cos^{2}x$ , we get</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow I=\\int \\frac{sec^{2}x}{sec^{2}x+3tan^{2}x+8}dx \\\\ &amp; \\Rightarrow I=\\int \\frac{sec^{2}x}{1+tan^{2}x+3tan^{2}x+8}dx \\\\ &amp; \\Rightarrow I=\\int \\frac{sec^{2}x}{4tan^{2}x+9}dx \\end{aligned}$ </p>\n<p>Putting,  $tanx=t \\Rightarrow sec^{2}xdx=dt$ , we get</p>\n<p> $\\begin{aligned} &amp; I=\\int \\frac{dt}{4t^{2}+9}=\\frac{1}{4}\\int \\frac{dt}{t^{2}+(\\frac{3}{2})^{2}}+C \\\\ I &amp; =\\frac{1}{4} \\times \\frac{1}{3/2}tan^{-1}(\\frac{t}{3/2})+C \\\\ \\Rightarrow I &amp; =\\frac{1}{6}tan^{-1}(\\frac{2t}{3})+C=\\frac{1}{6}tan^{-1}(\\frac{2tanx}{3})+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx",
+        "I=\\int \\frac{1}{1+3sin^{2}x+8cos^{2}x}dx",
+        "cos^{2}x"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.720164"
+    },
+    {
+      "id": 8860,
+      "qid": "jaoe38c1locpr1wa",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracsin-x34-cos-2-x-d-xp-kcet-mathematics-complex-numbers-2kyi6rglveyh3uu6",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\sqrt{cosecx-sinx}dx$ is equals to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\sqrt{cosecx-sinx}dx$  is equals to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\sqrt{sinx}}{2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{\\sqrt{sinx}}{2}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2\\sqrt{sinx}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2\\sqrt{sinx}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{\\sqrt{sinx}}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{2}{\\sqrt{sinx}}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{sinx}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{sinx}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let} & I=\\int \\sqrt{cosecx-sinx}dx \\\\ & \\begin{aligned} I & =\\int \\frac{\\sqrt{1-sin^{2}x}}{\\sqrt{sinx}}dx \\\\ & =\\int \\frac{cosx}{\\sqrt{sinx}}dx \\end{aligned} \\end{aligned}$ Put, $sinx-k$ $cosxdx=dk$ $\\begin{aligned} & I=\\int \\frac{dk}{\\sqrt{k}}=\\frac{k^{\\frac{-1}{2}}+1}{\\frac{-1}{2}+1}+C \\\\ & =\\frac{k^{\\frac{1}{2}}}{\\frac{1}{2}}+C=2\\sqrt{k}+C \\\\ & I=2\\sqrt{sinx}+C[ \\because k=sinx] \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let} &amp; I=\\int \\sqrt{cosecx-sinx}dx \\\\ &amp; \\begin{aligned} I &amp; =\\int \\frac{\\sqrt{1-sin^{2}x}}{\\sqrt{sinx}}dx \\\\ &amp; =\\int \\frac{cosx}{\\sqrt{sinx}}dx \\end{aligned} \\end{aligned}$ </p>\n<p>Put,  $sinx-k$ </p>\n<p> $cosxdx=dk$ </p>\n<p> $\\begin{aligned} &amp; I=\\int \\frac{dk}{\\sqrt{k}}=\\frac{k^{\\frac{-1}{2}}+1}{\\frac{-1}{2}+1}+C \\\\ &amp; =\\frac{k^{\\frac{1}{2}}}{\\frac{1}{2}}+C=2\\sqrt{k}+C \\\\ &amp; I=2\\sqrt{sinx}+C[ \\because k=sinx] \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "cosxdx=dk"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.457941"
+    },
+    {
+      "id": 8863,
+      "qid": "jaoe38c1ls1trosj",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-sqrt5-2-xx2-d-x-is-equals-top-kcet-mathematics-complex-numbers-si4itrjogh5sq4ki",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2(sinx-xcos\\alpha)+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx-xcos\\alpha)+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2(sinx+xcos\\alpha)+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx+xcos\\alpha)+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2(sinx-2xcos\\alpha)+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx-2xcos\\alpha)+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2(sinx+2xcos\\alpha)+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx+2xcos\\alpha)+c$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Let}I=\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx \\\\ & I=\\int \\frac{(2cos^{2}x-1)-(2cos^{2}\\alpha-1)}{cosx-cos\\alpha}dx \\\\ & I=2\\int \\frac{cos^{2}x-cos^{2}\\alpha}{cosx-cos\\alpha}dx \\end{aligned}$ $\\begin{aligned} & =2\\int \\frac{(cosx-cos\\alpha)(cosx+cos\\alpha)}{(cosx-cos\\alpha)}dx \\\\ & =2\\int (cosx+cos\\alpha)dx=2(sinx+xcos\\alpha)+c \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx \\\\ &amp; I=\\int \\frac{(2cos^{2}x-1)-(2cos^{2}\\alpha-1)}{cosx-cos\\alpha}dx \\\\ &amp; I=2\\int \\frac{cos^{2}x-cos^{2}\\alpha}{cosx-cos\\alpha}dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =2\\int \\frac{(cosx-cos\\alpha)(cosx+cos\\alpha)}{(cosx-cos\\alpha)}dx \\\\ &amp; =2\\int (cosx+cos\\alpha)dx=2(sinx+xcos\\alpha)+c \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{cos2x-cos2\\alpha}{cosx-cos\\alpha}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.736901"
+    },
+    {
+      "id": 8864,
+      "qid": "jaoe38c1ls1u4hi8",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-sqrt5-2-xx2-d-x-is-equals-top-kcet-mathematics-complex-numbers-si4itrjogh5sq4ki",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c,$ then",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c,$  then</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a=\\frac{-1}{10},b=\\frac{2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a=\\frac{-1}{10},b=\\frac{2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$a=\\frac{1}{10},b=\\frac{2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a=\\frac{1}{10},b=\\frac{2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$a=\\frac{-1}{10},b=\\frac{-2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a=\\frac{-1}{10},b=\\frac{-2}{5}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$a=\\frac{1}{10},b=\\frac{-2}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $a=\\frac{1}{10},b=\\frac{-2}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c$ .... (i) $\\begin{aligned} & \\text{Let}\\frac{1}{(x+2)(x^{2}+1)}=\\frac{A}{(x+2)}+\\frac{Bx+C}{(x^{2}+1)} \\\\ & \\therefore 1=A(x^{2}+1)+(x+2)(Bx+C) \\\\ & 1=Ax^{2}+A+Bx^{2}+Cx+2Bx+2C \\\\ & 1=(A+B)x^{2}+x(2B+C)+A+2C \\end{aligned}$ Here, $A+B=0$ , $2B+C=0\\text{and}A+2C=1$ On solving them, we get $A=\\frac{1}{5},B=\\frac{-1}{5}\\text{and}C=\\frac{2}{5}$ Therefore, $\\int \\frac{dx}{(x+2)(x^{2}+1)}$ $\\begin{aligned} & =\\int (\\frac{1}{5(x+2)}+\\frac{\\frac{-1}{5}x+\\frac{2}{5}}{x^{2}+1}) \\\\ & =\\frac{1}{5}\\int \\frac{1}{(x+2)}dx-\\frac{1}{5}\\int \\frac{x}{x^{2}+1}dx+\\frac{2}{5}\\int \\frac{dx}{1+x^{2}} \\\\ & =\\frac{1}{5}log|x+2|-\\frac{1}{10}log|1+x^{2}|+\\frac{2}{5}tan^{-1}x+c \\\\ & =-\\frac{1}{10}log(1+x^{2})+\\frac{2}{5}tan^{-1}x+\\frac{1}{5}log|x+2|+c\\text{.... (ii)} \\end{aligned}$ On comparing Eqs. (i) and (ii), we get $a=\\frac{-1}{10}\\text{and}b=\\frac{2}{5}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c$  .... (i)</p>\n<p> $\\begin{aligned} &amp; \\text{Let}\\frac{1}{(x+2)(x^{2}+1)}=\\frac{A}{(x+2)}+\\frac{Bx+C}{(x^{2}+1)} \\\\ &amp; \\therefore 1=A(x^{2}+1)+(x+2)(Bx+C) \\\\ &amp; 1=Ax^{2}+A+Bx^{2}+Cx+2Bx+2C \\\\ &amp; 1=(A+B)x^{2}+x(2B+C)+A+2C \\end{aligned}$ </p>\n<p>Here,  $A+B=0$ ,</p>\n<p> $2B+C=0\\text{and}A+2C=1$ </p>\n<p>On solving them, we get</p>\n<p> $A=\\frac{1}{5},B=\\frac{-1}{5}\\text{and}C=\\frac{2}{5}$ </p>\n<p>Therefore,  $\\int \\frac{dx}{(x+2)(x^{2}+1)}$ </p>\n<p> $\\begin{aligned} &amp; =\\int (\\frac{1}{5(x+2)}+\\frac{\\frac{-1}{5}x+\\frac{2}{5}}{x^{2}+1}) \\\\ &amp; =\\frac{1}{5}\\int \\frac{1}{(x+2)}dx-\\frac{1}{5}\\int \\frac{x}{x^{2}+1}dx+\\frac{2}{5}\\int \\frac{dx}{1+x^{2}} \\\\ &amp; =\\frac{1}{5}log|x+2|-\\frac{1}{10}log|1+x^{2}|+\\frac{2}{5}tan^{-1}x+c \\\\ &amp; =-\\frac{1}{10}log(1+x^{2})+\\frac{2}{5}tan^{-1}x+\\frac{1}{5}log|x+2|+c\\text{.... (ii)} \\end{aligned}$ </p>\n<p>On comparing Eqs. (i) and (ii), we get</p>\n<p> $a=\\frac{-1}{10}\\text{and}b=\\frac{2}{5}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c,",
+        "\\int \\frac{dx}{(x+2)(x^{2}+1)}=alog|1+x^{2}|+btan^{-1}x+\\frac{1}{5}log|x+2|+c"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.753055"
+    },
+    {
+      "id": 8865,
+      "qid": "ltd1bd9j",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracx3-sin-lefttan--1leftx4rightri-kcet-mathematics-complex-numbers-xsforcjtbdz6cogf",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{x^{3}sin(tan^{-1}(x^{4}))}{1+x^{8}}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{x^{3}sin(tan^{-1}(x^{4}))}{1+x^{8}}dx$  is equal to </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{-cos(tan^{-1}(x^{4}))}{4}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-cos(tan^{-1}(x^{4}))}{4}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{cos(tan^{-1}(x^{4}))}{4}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{cos(tan^{-1}(x^{4}))}{4}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{-cos(tan^{-1}(x^{3}))}{3}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-cos(tan^{-1}(x^{3}))}{3}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{sin(tan^{-1}(x^{4}))}{4}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{sin(tan^{-1}(x^{4}))}{4}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int \\frac{x^{3}sin[tan^{-1}(x^{4})]}{1+x^{8}}$ Let $tan^{-1}(x^{4})=t$ . On differentiating w.r.t. $t$ , we get $\\begin{aligned} \\frac{1}{1+x^{8}} \\times 4x^{3}dx=dt \\\\ \\Rightarrow \\frac{x^{3}}{1+x^{8}}dx=\\frac{1}{4}dt \\\\ I=\\frac{1}{4}\\int sintdt \\end{aligned}$ $\\begin{aligned} & =-\\frac{1}{4}cost+C \\\\ & =-\\frac{1}{4}cos(tan^{-1}(x^{4}))+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{x^{3}sin[tan^{-1}(x^{4})]}{1+x^{8}}$ </p>\n<p>Let  $tan^{-1}(x^{4})=t$ .</p>\n<p>On differentiating w.r.t.  $t$ , we get</p>\n<p> $\\begin{aligned} \\frac{1}{1+x^{8}} \\times 4x^{3}dx=dt \\\\ \\Rightarrow \\frac{x^{3}}{1+x^{8}}dx=\\frac{1}{4}dt \\\\ I=\\frac{1}{4}\\int sintdt \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =-\\frac{1}{4}cost+C \\\\ &amp; =-\\frac{1}{4}cos(tan^{-1}(x^{4}))+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{x^{3}sin(tan^{-1}(x^{4}))}{1+x^{8}}dx",
+        "I=\\int \\frac{x^{3}sin[tan^{-1}(x^{4})]}{1+x^{8}}",
+        "tan^{-1}(x^{4})=t"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.948360"
+    },
+    {
+      "id": 8866,
+      "qid": "ltd1d9td",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracx3-sin-lefttan--1leftx4rightri-kcet-mathematics-complex-numbers-xsforcjtbdz6cogf",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int \\frac{x^{2}dx}{\\sqrt{x^{6}+a^{6}}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int \\frac{x^{2}dx}{\\sqrt{x^{6}+a^{6}}}$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log|x^{3}-\\sqrt{x^{6}+a^{6}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log|x^{3}-\\sqrt{x^{6}+a^{6}}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}log|x^{3}-\\sqrt{x^{6}+a^{6}}|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}log|x^{3}-\\sqrt{x^{6}+a^{6}}|+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int \\frac{x^{2}}{\\sqrt{x^{6}+a^{6}}}dx$ Let $x^{3}=t$ $\\begin{aligned} & \\Rightarrow 3x^{2}dx=dt \\\\ & I=\\frac{1}{3}\\int \\frac{1}{\\sqrt{t^{2}+(a^{3})^{2}}}dt \\\\ & =\\frac{1}{3}log|t+\\sqrt{t^{2}+a^{6}}|+C \\\\ & =\\frac{1}{3}log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{x^{2}}{\\sqrt{x^{6}+a^{6}}}dx$ </p>\n<p>Let  $x^{3}=t$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow 3x^{2}dx=dt \\\\ &amp; I=\\frac{1}{3}\\int \\frac{1}{\\sqrt{t^{2}+(a^{3})^{2}}}dt \\\\ &amp; =\\frac{1}{3}log|t+\\sqrt{t^{2}+a^{6}}|+C \\\\ &amp; =\\frac{1}{3}log|x^{3}+\\sqrt{x^{6}+a^{6}}|+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{x^{2}dx}{\\sqrt{x^{6}+a^{6}}}",
+        "I=\\int \\frac{x^{2}}{\\sqrt{x^{6}+a^{6}}}dx",
+        "x^{3}=t"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.956016"
+    },
+    {
+      "id": 8867,
+      "qid": "ltd1ah09",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracx3-sin-lefttan--1leftx4rightri-kcet-mathematics-complex-numbers-xsforcjtbdz6cogf",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int \\frac{xe^{x}dx}{(1+x)^{2}}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int \\frac{xe^{x}dx}{(1+x)^{2}}$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e^{x}(1+x)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}(1+x)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$e^{x}(1+x^{2})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}(1+x^{2})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$e^{x}(1+x)^{2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}(1+x)^{2}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{e^{x}}{1+x}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{e^{x}}{1+x}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I & =\\int \\frac{xe^{x}dx}{(1+x)^{2}} \\\\ & =\\int \\frac{e^{x}(x+1-1)}{(1+x)^{2}}dx \\\\ & =\\int e^{x}[\\frac{1}{1+x}+(\\frac{-1}{(1+x)^{2}})]dx \\end{aligned}$ Let $\\frac{1}{1+x}=f(x)$ $\\therefore f^{'}(x)=-\\frac{1}{(1+x)^{2}}$ Using the formula, $\\int e^{x}[f(x)+f^{'}(x)]dx$ $\\begin{aligned} & =e^{x}f(x)+C \\\\ \\Rightarrow I & =e^{x}(\\frac{1}{1+x})+C=\\frac{e^{x}}{1+x}+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int \\frac{xe^{x}dx}{(1+x)^{2}} \\\\ &amp; =\\int \\frac{e^{x}(x+1-1)}{(1+x)^{2}}dx \\\\ &amp; =\\int e^{x}[\\frac{1}{1+x}+(\\frac{-1}{(1+x)^{2}})]dx \\end{aligned}$ </p>\n<p>Let  $\\frac{1}{1+x}=f(x)$ </p>\n<p> $\\therefore f^{'}(x)=-\\frac{1}{(1+x)^{2}}$ </p>\n<p>Using the formula,  $\\int e^{x}[f(x)+f^{'}(x)]dx$ </p>\n<p> $\\begin{aligned} &amp; =e^{x}f(x)+C \\\\ \\Rightarrow I &amp; =e^{x}(\\frac{1}{1+x})+C=\\frac{e^{x}}{1+x}+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{xe^{x}dx}{(1+x)^{2}}",
+        "\\therefore f^{'}(x)=-\\frac{1}{(1+x)^{2}}",
+        "\\int e^{x}[f(x)+f^{'}(x)]dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.964434"
+    },
+    {
+      "id": 8868,
+      "qid": "ltd1ah1l",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-fracx3-sin-lefttan--1leftx4rightri-kcet-mathematics-complex-numbers-xsforcjtbdz6cogf",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int e^{x}[\\frac{1+sinx}{1+cosx}]dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int e^{x}[\\frac{1+sinx}{1+cosx}]dx$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e^{x}tan\\frac{x}{2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}tan\\frac{x}{2}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$e^{x}tanx+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}tanx+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$e^{x}(1+cosx)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}(1+cosx)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$e^{x}(1+sinx)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x}(1+sinx)+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I & =\\int e^{x}(\\frac{1+sinx}{1+cosx})dx \\\\ & =\\int e^{x}(\\frac{1+2sin\\frac{x}{2}cos\\frac{x}{2}}{2cos^{2}\\frac{x}{2}})dx \\\\ & =\\int e^{x}[\\frac{sec^{2}\\frac{x}{2}}{2}+tan\\frac{x}{2}]dx \\end{aligned}$ $\\begin{aligned} & \\text{Let}f(x)=tan\\frac{x}{2} \\\\ & \\therefore f^{'}(x)=\\frac{sec^{2}\\frac{x}{2}}{2} \\end{aligned}$ Using the formula, $\\int e^{x}[f(x)+f^{'}(x)]dx$ $\\begin{aligned} & =e^{x}f(x)+C \\\\ \\Rightarrow I & =e^{x} \\times tan\\frac{x}{2}+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int e^{x}(\\frac{1+sinx}{1+cosx})dx \\\\ &amp; =\\int e^{x}(\\frac{1+2sin\\frac{x}{2}cos\\frac{x}{2}}{2cos^{2}\\frac{x}{2}})dx \\\\ &amp; =\\int e^{x}[\\frac{sec^{2}\\frac{x}{2}}{2}+tan\\frac{x}{2}]dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\text{Let}f(x)=tan\\frac{x}{2} \\\\ &amp; \\therefore f^{'}(x)=\\frac{sec^{2}\\frac{x}{2}}{2} \\end{aligned}$ </p>\n<p>Using the formula,  $\\int e^{x}[f(x)+f^{'}(x)]dx$ </p>\n<p> $\\begin{aligned} &amp; =e^{x}f(x)+C \\\\ \\Rightarrow I &amp; =e^{x} \\times tan\\frac{x}{2}+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int e^{x}[\\frac{1+sinx}{1+cosx}]dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:38.974228"
+    },
+    {
+      "id": 8869,
+      "qid": "ltj8x19f",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int-frac1x41x6-d-x-isp-kcet-mathematics-complex-numbers-trj7rqatzadpdpnd",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int \\frac{1+x^{4}}{1+x^{6}}dx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int \\frac{1+x^{4}}{1+x^{6}}dx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$tan^{-1}x+tan^{-1}x^{3}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}x+tan^{-1}x^{3}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$tan^{-1}x+\\frac{1}{3}tan^{-1}x^{3}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}x+\\frac{1}{3}tan^{-1}x^{3}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$tan^{-1}x-\\frac{1}{3}tan^{-1}x^{3}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}x-\\frac{1}{3}tan^{-1}x^{3}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$tan^{-1}x+\\frac{1}{3}tan^{-1}x^{2}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}x+\\frac{1}{3}tan^{-1}x^{2}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\int \\frac{1+x^{4}}{1+x^{6}}dx$ $\\begin{aligned} & =\\int \\frac{1+x^{4}}{1+x^{6}} \\times \\frac{1+x^{2}}{1+x^{2}}dx \\\\ & =\\int \\frac{1+x^{2}+x^{4}+x^{6}}{(1+x^{6})}dx \\\\ & =\\int \\frac{1+x^{6}}{(1+x^{6})1+x^{2}}dx+\\int \\frac{x^{2}(1+x^{2})}{(1+x^{6})(1+x^{2})}dx \\\\ & =\\int \\frac{dx}{1+x^{2}}+\\int \\frac{x^{2}}{1+x^{6}}dx \\\\ & =tan^{-1}x+\\int \\frac{x^{2}}{1+(x^{3})^{2}}dx \\\\ & =tan^{-1}x+\\int \\frac{dt/3}{1+t^{2}} \\end{aligned}$ Put $x^{3}=t$ $\\begin{aligned} \\Rightarrow 3x^{2}dx & =dt \\\\ \\Rightarrow x^{2}dx & =\\frac{dt}{3} \\\\ & =tan^{-1}x+\\frac{1}{3}tan^{-1}(t)+C \\\\ & =tan^{-1}x+\\frac{1}{3}tan^{-1}(x^{3})+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $\\int \\frac{1+x^{4}}{1+x^{6}}dx$ </p>\n<p> $\\begin{aligned} &amp; =\\int \\frac{1+x^{4}}{1+x^{6}} \\times \\frac{1+x^{2}}{1+x^{2}}dx \\\\ &amp; =\\int \\frac{1+x^{2}+x^{4}+x^{6}}{(1+x^{6})}dx \\\\ &amp; =\\int \\frac{1+x^{6}}{(1+x^{6})1+x^{2}}dx+\\int \\frac{x^{2}(1+x^{2})}{(1+x^{6})(1+x^{2})}dx \\\\ &amp; =\\int \\frac{dx}{1+x^{2}}+\\int \\frac{x^{2}}{1+x^{6}}dx \\\\ &amp; =tan^{-1}x+\\int \\frac{x^{2}}{1+(x^{3})^{2}}dx \\\\ &amp; =tan^{-1}x+\\int \\frac{dt/3}{1+t^{2}} \\end{aligned}$ </p>\n<p>Put  $x^{3}=t$ </p>\n<p> $\\begin{aligned} \\Rightarrow 3x^{2}dx &amp; =dt \\\\ \\Rightarrow x^{2}dx &amp; =\\frac{dt}{3} \\\\ &amp; =tan^{-1}x+\\frac{1}{3}tan^{-1}(t)+C \\\\ &amp; =tan^{-1}x+\\frac{1}{3}tan^{-1}(x^{3})+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{1+x^{4}}{1+x^{6}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.202563"
+    },
+    {
+      "id": 8870,
+      "qid": "ltj8yisr",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int-frac1x41x6-d-x-isp-kcet-mathematics-complex-numbers-trj7rqatzadpdpnd",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The value of $\\int e^{sinx}sin2xdx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The value of  $\\int e^{sinx}sin2xdx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2e^{sinx}(sinx-1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2e^{sinx}(sinx-1)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2e^{sinx}(sinx+1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2e^{sinx}(sinx+1)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2e^{sinx}(cosx+1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2e^{sinx}(cosx+1)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2e^{sinx}(cosx-1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2e^{sinx}(cosx-1)+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\begin{aligned} \\text{We have,} & \\int e^{sinx}sin2xdx \\\\ & =\\int e^{sinx} \\cdot (2sinxcosx)dx \\\\ & =2\\int e^{sinx}sinxcosxdx \\end{aligned} \\end{aligned}$ $\\begin{aligned} \\text{let}sinx=t & \\\\ \\Rightarrow cosxdx & =dt=2\\int e^{t} \\cdot tdt \\\\ & =2[t\\int e^{t}dt-\\int (\\frac{d}{dt}(t)\\int e^{t}dt)dt] \\\\ & =2[t \\cdot e^{t}-\\int e^{t}dt] \\\\ & =2[t \\cdot e^{t}-e^{t}]+C \\\\ & =2[e^{t}(t-1)]+C \\\\ & =2[e^{sinx}(sinx-1)]+C \\\\ & =2e^{sinx}(sinx-1)+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\begin{aligned} \\text{We have,} &amp; \\int e^{sinx}sin2xdx \\\\ &amp; =\\int e^{sinx} \\cdot (2sinxcosx)dx \\\\ &amp; =2\\int e^{sinx}sinxcosxdx \\end{aligned} \\end{aligned}$ </p>\n<p> $\\begin{aligned} \\text{let}sinx=t &amp; \\\\ \\Rightarrow cosxdx &amp; =dt=2\\int e^{t} \\cdot tdt \\\\ &amp; =2[t\\int e^{t}dt-\\int (\\frac{d}{dt}(t)\\int e^{t}dt)dt] \\\\ &amp; =2[t \\cdot e^{t}-\\int e^{t}dt] \\\\ &amp; =2[t \\cdot e^{t}-e^{t}]+C \\\\ &amp; =2[e^{t}(t-1)]+C \\\\ &amp; =2[e^{sinx}(sinx-1)]+C \\\\ &amp; =2e^{sinx}(sinx-1)+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int e^{sinx}sin2xdx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.212895"
+    },
+    {
+      "id": 8871,
+      "qid": "ltj8y1ml",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int-frac1x41x6-d-x-isp-kcet-mathematics-complex-numbers-trj7rqatzadpdpnd",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "If $\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dxAlog|x-1|Blog|x-2|+Clog|x-3|+C$ , then the values of $A,B$ and $C$ are respectively",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dxAlog|x-1|Blog|x-2|+Clog|x-3|+C$ , then the values of  $A,B$  and  $C$  are respectively</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5,-7,-5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5,-7,-5$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2,-7,-5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2,-7,-5$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$5,-7,5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $5,-7,5$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2,-7,5$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2,-7,5$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx$ $\\begin{aligned} & \\text{Let}\\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{A}{x-1}+\\frac{B}{x-2}+\\frac{C}{x-3} \\\\ & \\Rightarrow (3x+1)=A(x-2)(x-3)+B(x-1)(x-3)+C(x-1)(x-2) \\\\ & \\text{put}x-1=0 \\\\ & \\Rightarrow x=1 \\\\ & \\text{Then,}3 \\times 1+1=A(-1)(-2) \\\\ & \\Rightarrow 4=2A \\\\ & \\Rightarrow A=2 \\\\ & \\text{Put}x-2=0 \\\\ & \\Rightarrow x=2 \\\\ & \\text{Then,}7=B(2-1)(2-3) \\\\ & \\Rightarrow 7=B(1)(-1) \\\\ & \\Rightarrow B=-7 \\\\ & \\text{And put}x-3=0 \\\\ & \\Rightarrow x=3 \\\\ & \\text{Then,}10=C(3-1)(3-2) \\\\ & \\Rightarrow 10=C(2)(1) \\\\ & \\Rightarrow C=5 \\end{aligned}$ $\\begin{aligned} & \\therefore \\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{2}{x-1}-\\frac{7}{x-2}+\\frac{5}{x-3} \\\\ & \\therefore \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ & =\\int \\frac{2}{x-1}dx-\\int \\frac{7}{x-2}dx+\\int \\frac{5}{x-3}dx \\\\ & \\Rightarrow \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ & =2log|x-1|-7log|x-2|+5log|x-3|+C \\\\ & =Alog|x-1|+Blog|x-2|+Clog|x-3|+C\\text{(Given)} \\\\ & \\Rightarrow A=2,B=-7,C=5 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx$ </p>\n<p> $\\begin{aligned} &amp; \\text{Let}\\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{A}{x-1}+\\frac{B}{x-2}+\\frac{C}{x-3} \\\\ &amp; \\Rightarrow (3x+1)=A(x-2)(x-3)+B(x-1)(x-3)+C(x-1)(x-2) \\\\ &amp; \\text{put}x-1=0 \\\\ &amp; \\Rightarrow x=1 \\\\ &amp; \\text{Then,}3 \\times 1+1=A(-1)(-2) \\\\ &amp; \\Rightarrow 4=2A \\\\ &amp; \\Rightarrow A=2 \\\\ &amp; \\text{Put}x-2=0 \\\\ &amp; \\Rightarrow x=2 \\\\ &amp; \\text{Then,}7=B(2-1)(2-3) \\\\ &amp; \\Rightarrow 7=B(1)(-1) \\\\ &amp; \\Rightarrow B=-7 \\\\ &amp; \\text{And put}x-3=0 \\\\ &amp; \\Rightarrow x=3 \\\\ &amp; \\text{Then,}10=C(3-1)(3-2) \\\\ &amp; \\Rightarrow 10=C(2)(1) \\\\ &amp; \\Rightarrow C=5 \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\therefore \\frac{3x+1}{(x-1)(x-2)(x-3)}=\\frac{2}{x-1}-\\frac{7}{x-2}+\\frac{5}{x-3} \\\\ &amp; \\therefore \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ &amp; =\\int \\frac{2}{x-1}dx-\\int \\frac{7}{x-2}dx+\\int \\frac{5}{x-3}dx \\\\ &amp; \\Rightarrow \\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dx \\\\ &amp; =2log|x-1|-7log|x-2|+5log|x-3|+C \\\\ &amp; =Alog|x-1|+Blog|x-2|+Clog|x-3|+C\\text{(Given)} \\\\ &amp; \\Rightarrow A=2,B=-7,C=5 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{3x+1}{(x-1)(x-2)(x-3)}dxAlog|x-1|Blog|x-2|+Clog|x-3|+C"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.223182"
+    },
+    {
+      "id": 8873,
+      "qid": "ltw4pthw",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-frac1sqrtxx-sqrtx-d-xp-kcet-mathematics-complex-numbers-y01ujrydhewxeq8c",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{1}{\\sqrt{x}+x\\sqrt{x}}dx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\frac{1}{\\sqrt{x}+x\\sqrt{x}}dx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$tan^{-1}\\sqrt{x}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}\\sqrt{x}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2log(\\sqrt{x}+1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2log(\\sqrt{x}+1)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2tan^{-1}\\sqrt{x}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2tan^{-1}\\sqrt{x}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}tan^{-1}\\sqrt{x}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}tan^{-1}\\sqrt{x}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let $I=\\int \\frac{dx}{\\sqrt{x}(x+1)}$ put $\\sqrt{x}=t \\Rightarrow x=t^{2} \\Rightarrow dx=2tdt$ $\\begin{aligned} \\therefore I & =\\int \\frac{2tdt}{t(t^{2}+1)}=2\\int \\frac{dt}{t^{2}+1}=2tan^{-1}t+c \\\\ & =2tan^{-1}\\sqrt{x}+c(\\text{since,}t=\\sqrt{x}) \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I=\\int \\frac{dx}{\\sqrt{x}(x+1)}$ </p>\n<p>put  $\\sqrt{x}=t \\Rightarrow x=t^{2} \\Rightarrow dx=2tdt$ </p>\n<p> $\\begin{aligned} \\therefore I &amp; =\\int \\frac{2tdt}{t(t^{2}+1)}=2\\int \\frac{dt}{t^{2}+1}=2tan^{-1}t+c \\\\ &amp; =2tan^{-1}\\sqrt{x}+c(\\text{since,}t=\\sqrt{x}) \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{1}{\\sqrt{x}+x\\sqrt{x}}dx=",
+        "I=\\int \\frac{dx}{\\sqrt{x}(x+1)}",
+        "\\sqrt{x}=t \\Rightarrow x=t^{2} \\Rightarrow dx=2tdt"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.732450"
+    },
+    {
+      "id": 8874,
+      "qid": "ltw4ptj0",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-frac1sqrtxx-sqrtx-d-xp-kcet-mathematics-complex-numbers-y01ujrydhewxeq8c",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\begin{aligned} & \\int \\frac{2x-1}{(x-1)(x+2)(x-3)}dx \\\\ & =Alog|x-1|+Blog|x+2|+Clog|x-3|+K \\end{aligned}$ Then $A,B,C$ are respectively",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int \\frac{2x-1}{(x-1)(x+2)(x-3)}dx \\\\ &amp; =Alog|x-1|+Blog|x+2|+Clog|x-3|+K \\end{aligned}$ </p>\n<p>Then  $A,B,C$  are respectively</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6},\\frac{-1}{3},\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6},\\frac{-1}{3},\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{-1}{6},\\frac{1}{3},\\frac{1}{3}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-1}{6},\\frac{1}{3},\\frac{1}{3}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{-1}{6},\\frac{-1}{3},\\frac{1}{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{-1}{6},\\frac{-1}{3},\\frac{1}{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6},\\frac{1}{3},\\frac{1}{5}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{6},\\frac{1}{3},\\frac{1}{5}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{We have}\\int \\frac{2x-1}{(x-1)(x+2)(x-3)}dx \\\\ & =Alog|x-1|+Blog|x+2|+Clog|x-3|+K \\end{aligned}$ $\\text{Let,}\\frac{2x-1}{(x-1)(x+2)(x-3)}=\\frac{A}{x-1}+\\frac{B}{x+2}+\\frac{C}{x-3}$ $\\begin{aligned} \\Rightarrow 2x-1=A(x+2)(x-3)+B(x-1) \\\\ (x-3)+C(x-1)(x+2) \\end{aligned}$ put $x-1=0 \\Rightarrow x=1$ then, $2 \\times 1-1=A(3)(-2)$ $\\Rightarrow A=-\\frac{1}{6}$ put $x+2=0 \\Rightarrow x=-2$ then, $2(-2)-1=B(-2-1)(-2-3) \\Rightarrow B=-\\frac{1}{3}$ put $x-3=0 \\Rightarrow x=3$ then, $2 \\times 3-1=c(3-1)(3-2) \\Rightarrow c=\\frac{1}{2}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{We have}\\int \\frac{2x-1}{(x-1)(x+2)(x-3)}dx \\\\ &amp; =Alog|x-1|+Blog|x+2|+Clog|x-3|+K \\end{aligned}$ </p>\n<p> $\\text{Let,}\\frac{2x-1}{(x-1)(x+2)(x-3)}=\\frac{A}{x-1}+\\frac{B}{x+2}+\\frac{C}{x-3}$ </p>\n<p> $\\begin{aligned} \\Rightarrow 2x-1=A(x+2)(x-3)+B(x-1) \\\\ (x-3)+C(x-1)(x+2) \\end{aligned}$ </p>\n<p>put  $x-1=0 \\Rightarrow x=1$  then,  $2 \\times 1-1=A(3)(-2)$ </p>\n<p> $\\Rightarrow A=-\\frac{1}{6}$ </p>\n<p>put  $x+2=0 \\Rightarrow x=-2$ </p>\n<p>then,  $2(-2)-1=B(-2-1)(-2-3) \\Rightarrow B=-\\frac{1}{3}$ </p>\n<p>put  $x-3=0 \\Rightarrow x=3$ </p>\n<p>then,  $2 \\times 3-1=c(3-1)(3-2) \\Rightarrow c=\\frac{1}{2}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\Rightarrow A=-\\frac{1}{6}",
+        "x+2=0 \\Rightarrow x=-2",
+        "2(-2)-1=B(-2-1)(-2-3) \\Rightarrow B=-\\frac{1}{3}",
+        "x-3=0 \\Rightarrow x=3",
+        "2 \\times 3-1=c(3-1)(3-2) \\Rightarrow c=\\frac{1}{2}"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.748061"
+    },
+    {
+      "id": 8872,
+      "qid": "ltw4pmjq",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-value-of-int-frac1x41x6-d-x-isp-kcet-mathematics-complex-numbers-trj7rqatzadpdpnd",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int x^{3}sin3xdx=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int x^{3}sin3xdx=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{x^{3} \\cdot cos3x}{3}-\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{x^{3} \\cdot cos3x}{3}-\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}-\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}-\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}-\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x^{3} \\cdot cos3x}{3}+\\frac{x^{2}sin3x}{3}-\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "key Idea Use Integration by parts as $\\begin{aligned} & \\int u \\cdot vdx=u\\int vdx-\\int (\\frac{d}{dx}(u)\\int vdx)dx \\\\ & \\Rightarrow x^{3}\\int sin3xdx-\\int (\\frac{d}{dx}(x^{3})\\int sin3xdx)dx \\\\ & \\Rightarrow x^{3}(\\frac{-cos3x}{3})-\\int (3x^{2})(-\\frac{cos3x}{3})dx \\\\ & \\Rightarrow \\frac{-x^{3}cos3x}{3}+\\int x^{2}cos3xdx \\end{aligned}$ $\\begin{aligned} & \\Rightarrow -\\frac{x^{3}cos3x}{3}+[\\begin{aligned} x^{2}\\int cos3xdx-\\int (\\frac{d}{dx}(x^{2})) \\\\ \\int cos3xdx \\end{aligned}]dx \\\\ & \\Rightarrow \\frac{-x^{3}cos3x}{3}+[\\frac{x^{2}sin3x}{3}-\\int (2x \\cdot \\frac{sin3x}{3})dx] \\\\ & \\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2\\int xsin3xdx] \\end{aligned}$ $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2{x\\int sin3xdx-\\int (\\frac{d}{dx}(x)\\int sin3xdx)dx]$ $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2{\\begin{aligned} x(\\frac{-cos3x}{3}) \\\\ -\\int (\\frac{-cos3x}{3}) \\end{aligned}}]+C$ $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>key Idea Use Integration by parts as</p>\n<p> $\\begin{aligned} &amp; \\int u \\cdot vdx=u\\int vdx-\\int (\\frac{d}{dx}(u)\\int vdx)dx \\\\ &amp; \\Rightarrow x^{3}\\int sin3xdx-\\int (\\frac{d}{dx}(x^{3})\\int sin3xdx)dx \\\\ &amp; \\Rightarrow x^{3}(\\frac{-cos3x}{3})-\\int (3x^{2})(-\\frac{cos3x}{3})dx \\\\ &amp; \\Rightarrow \\frac{-x^{3}cos3x}{3}+\\int x^{2}cos3xdx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow -\\frac{x^{3}cos3x}{3}+[\\begin{aligned} x^{2}\\int cos3xdx-\\int (\\frac{d}{dx}(x^{2})) \\\\ \\int cos3xdx \\end{aligned}]dx \\\\ &amp; \\Rightarrow \\frac{-x^{3}cos3x}{3}+[\\frac{x^{2}sin3x}{3}-\\int (2x \\cdot \\frac{sin3x}{3})dx] \\\\ &amp; \\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2\\int xsin3xdx] \\end{aligned}$ </p>\n<p> $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2{x\\int sin3xdx-\\int (\\frac{d}{dx}(x)\\int sin3xdx)dx]$ </p>\n<p> $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{1}{3}[x^{2}sin3x-2{\\begin{aligned} x(\\frac{-cos3x}{3}) \\\\ -\\int (\\frac{-cos3x}{3}) \\end{aligned}}]+C$ </p>\n<p> $\\Rightarrow \\frac{-x^{2}cos3x}{3}+\\frac{x^{2}sin3x}{3}+\\frac{2xcos3x}{9}-\\frac{2sin3x}{27}+C$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int x^{3}sin3xdx="
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.234798"
+    },
+    {
+      "id": 8877,
+      "qid": "m7ish2ot",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-esin-x-cdotleftfracsin-x1sec-xright-d-kcet-mathematics-complex-numbers-oegbks7xs1piefvk",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$sinx \\cdot e^{sinx}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $sinx \\cdot e^{sinx}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$cosx \\cdot e^{sinx}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $cosx \\cdot e^{sinx}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$e^{sinx}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{sinx}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$e^{sinx}(sinx+1)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{sinx}(sinx+1)+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the integral $\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ , let's start with the given function: $I=\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ This can be rewritten as: $I=\\int e^{sinx} \\cdot (sinx+1)cosxdx$ To simplify, we perform a substitution. Let $sinx=t$ . Then, the derivative is: $cosxdx=dt$ Substituting these into the integral, we get: $I=\\int e^{t}(t+1)dt$ We recognize that this integral can be solved using the formula: $\\int e^{x}{f(x)+f^{'}(x)}dx=e^{x}f(x)+C$ Applying this formula with $f(x)=t$ and $f^{'}(x)=1$ , we have: $I=te^{t}+C$ Substituting back $t=sinx$ , we arrive at the solution: $I=sinx \\cdot e^{sinx}+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the integral  $\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ , let's start with the given function:</p>\n<p> $I=\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx$ </p>\n<p>This can be rewritten as:</p>\n<p> $I=\\int e^{sinx} \\cdot (sinx+1)cosxdx$ </p>\n<p>To simplify, we perform a substitution. Let  $sinx=t$ . Then, the derivative is:</p>\n<p> $cosxdx=dt$ </p>\n<p>Substituting these into the integral, we get:</p>\n<p> $I=\\int e^{t}(t+1)dt$ </p>\n<p>We recognize that this integral can be solved using the formula:</p>\n<p> $\\int e^{x}{f(x)+f^{'}(x)}dx=e^{x}f(x)+C$ </p>\n<p>Applying this formula with  $f(x)=t$  and  $f^{'}(x)=1$ , we have:</p>\n<p> $I=te^{t}+C$ </p>\n<p>Substituting back  $t=sinx$ , we arrive at the solution:</p>\n<p> $I=sinx \\cdot e^{sinx}+C$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx",
+        "I=\\int e^{sinx} \\cdot (\\frac{sinx+1}{secx})dx",
+        "I=\\int e^{sinx} \\cdot (sinx+1)cosxdx",
+        "sinx=t",
+        "cosxdx=dt",
+        "I=\\int e^{t}(t+1)dt"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:40.202204"
+    },
+    {
+      "id": 8875,
+      "qid": "m7ish7tz",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-frac1sqrtxx-sqrtx-d-xp-kcet-mathematics-complex-numbers-y01ujrydhewxeq8c",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{1}{1+e^{x}}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{1}{1+e^{x}}dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log_{e}(\\frac{e^{x}+1}{e^{x}})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log_{e}(\\frac{e^{x}+1}{e^{x}})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log_{e}(\\frac{e^{x}-1}{e^{x}})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log_{e}(\\frac{e^{x}-1}{e^{x}})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log_{e}(\\frac{e^{x}}{e^{x}+1})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log_{e}(\\frac{e^{x}}{e^{x}+1})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$log_{e}(\\frac{e^{x}}{e^{x}-1})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log_{e}(\\frac{e^{x}}{e^{x}-1})+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let's evaluate the integral: $I=\\int \\frac{1}{1+e^{x}}dx$ First, rewrite the integrand: $I=\\int \\frac{e^{-x}}{e^{-x}+1}dx$ Now, use the substitution method. Let: $u=e^{-x}+1$ Differentiating both sides with respect to $x$ , we get: $\\frac{du}{dx}=-e^{-x} \\Rightarrow -e^{-x}dx=du$ Substituting, the integral becomes: $I=-\\int \\frac{1}{u}du$ This integral simplifies to: $I=-log|u|+C$ Substitute back $u=e^{-x}+1$ : $I=-log(e^{-x}+1)+C$ Using the properties of logarithms: $I=log(\\frac{1}{e^{-x}+1})+C$ Rewriting $\\frac{1}{e^{-x}+1}$ in terms of $e^{x}$ : $I=log(\\frac{e^{x}}{e^{x}+1})+C$ So, the final answer is: $I=log(\\frac{e^{x}}{e^{x}+1})+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let's evaluate the integral:</p>\n<p> $I=\\int \\frac{1}{1+e^{x}}dx$ </p>\n<p>First, rewrite the integrand:</p>\n<p> $I=\\int \\frac{e^{-x}}{e^{-x}+1}dx$ </p>\n<p>Now, use the substitution method. Let:</p>\n<p> $u=e^{-x}+1$ </p>\n<p>Differentiating both sides with respect to  $x$ , we get:</p>\n<p> $\\frac{du}{dx}=-e^{-x} \\Rightarrow -e^{-x}dx=du$ </p>\n<p>Substituting, the integral becomes:</p>\n<p> $I=-\\int \\frac{1}{u}du$ </p>\n<p>This integral simplifies to:</p>\n<p> $I=-log|u|+C$ </p>\n<p>Substitute back  $u=e^{-x}+1$ :</p>\n<p> $I=-log(e^{-x}+1)+C$ </p>\n<p>Using the properties of logarithms:</p>\n<p> $I=log(\\frac{1}{e^{-x}+1})+C$ </p>\n<p>Rewriting  $\\frac{1}{e^{-x}+1}$  in terms of  $e^{x}$ :</p>\n<p> $I=log(\\frac{e^{x}}{e^{x}+1})+C$ </p>\n<p>So, the final answer is:</p>\n<p> $I=log(\\frac{e^{x}}{e^{x}+1})+C$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\int \\frac{1}{1+e^{x}}dx",
+        "I=\\int \\frac{1}{1+e^{x}}dx",
+        "I=\\int \\frac{e^{-x}}{e^{-x}+1}dx",
+        "u=e^{-x}+1"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.765778"
+    },
+    {
+      "id": 8876,
+      "qid": "m7isfuwp",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pint-frac1sqrtxx-sqrtx-d-xp-kcet-mathematics-complex-numbers-y01ujrydhewxeq8c",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$sin^{-1}(\\frac{3x+1}{2})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $sin^{-1}(\\frac{3x+1}{2})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$sin^{-1}(\\frac{3x+1}{6})+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $sin^{-1}(\\frac{3x+1}{6})+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}sin^{-1}(\\frac{3x+1}{2})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{3}sin^{-1}(\\frac{3x+1}{2})+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$sin^{-1}(\\frac{2x+1}{3})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $sin^{-1}(\\frac{2x+1}{3})+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We need to evaluate the integral: $I=\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx$ First, let's rewrite the expression under the square root: $I=\\int \\frac{1}{\\sqrt{3-(9x^{2}+6x+1)+1}}dx$ Notice that $9x^{2}+6x+1$ can be rewritten to form a perfect square. We have: $9x^{2}+6x+1=(3x+1)^{2}$ Therefore, the integral becomes: $I=\\int \\frac{1}{\\sqrt{(2)^{2}-(3x+1)^{2}}}dx$ Next, let's perform a substitution. Let: $3x+1=t$ Then the differential becomes: $d(3x+1)=dt⟹3dx=dt \\Rightarrow dx=\\frac{1}{3}dt$ Substituting these into the integral, we get: $I=\\frac{1}{3}\\int \\frac{1}{\\sqrt{(2)^{2}-t^{2}}}dt$ The integral $\\int \\frac{1}{\\sqrt{a^{2}-t^{2}}}dt$ is recognized as the inverse sine function: $\\int \\frac{1}{\\sqrt{a^{2}-t^{2}}}dt=sin^{-1}(\\frac{t}{a})+C$ Applying this formula with $a=2$ , we have: $I=\\frac{1}{3}sin^{-1}(\\frac{t}{2})+C$ Substitute back $t=3x+1$ : $I=\\frac{1}{3}sin^{-1}(\\frac{3x+1}{2})+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We need to evaluate the integral:</p>\n<p> $I=\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx$ </p>\n<p>First, let's rewrite the expression under the square root:</p>\n<p> $I=\\int \\frac{1}{\\sqrt{3-(9x^{2}+6x+1)+1}}dx$ </p>\n<p>Notice that  $9x^{2}+6x+1$  can be rewritten to form a perfect square. We have:</p>\n<p> $9x^{2}+6x+1=(3x+1)^{2}$ </p>\n<p>Therefore, the integral becomes:</p>\n<p> $I=\\int \\frac{1}{\\sqrt{(2)^{2}-(3x+1)^{2}}}dx$ </p>\n<p>Next, let's perform a substitution. Let:</p>\n<p> $3x+1=t$ </p>\n<p>Then the differential becomes:</p>\n<p> $d(3x+1)=dt⟹3dx=dt \\Rightarrow dx=\\frac{1}{3}dt$ </p>\n<p>Substituting these into the integral, we get:</p>\n<p> $I=\\frac{1}{3}\\int \\frac{1}{\\sqrt{(2)^{2}-t^{2}}}dt$ </p>\n<p>The integral  $\\int \\frac{1}{\\sqrt{a^{2}-t^{2}}}dt$  is recognized as the inverse sine function:</p>\n<p> $\\int \\frac{1}{\\sqrt{a^{2}-t^{2}}}dt=sin^{-1}(\\frac{t}{a})+C$ </p>\n<p>Applying this formula with  $a=2$ , we have:</p>\n<p> $I=\\frac{1}{3}sin^{-1}(\\frac{t}{2})+C$ </p>\n<p>Substitute back  $t=3x+1$ :</p>\n<p> $I=\\frac{1}{3}sin^{-1}(\\frac{3x+1}{2})+C$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx",
+        "I=\\int \\frac{1}{\\sqrt{3-6x-9x^{2}}}dx",
+        "I=\\int \\frac{1}{\\sqrt{3-(9x^{2}+6x+1)+1}}dx",
+        "9x^{2}+6x+1",
+        "9x^{2}+6x+1=(3x+1)^{2}",
+        "I=\\int \\frac{1}{\\sqrt{(2)^{2}-(3x+1)^{2}}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:39.779683"
+    },
+    {
+      "id": 8878,
+      "qid": "m9dupl0z",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-esin-x-cdotleftfracsin-x1sec-xright-d-kcet-mathematics-complex-numbers-oegbks7xs1piefvk",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\sqrt{x^{2}+2x+5}dx\\text{is equal to}$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\int \\sqrt{x^{2}+2x+5}dx\\text{is equal to}$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}(x+1)\\begin{aligned} & \\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5|}+C \\end{aligned}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->\n<p> $\\frac{1}{2}(x+1)\\begin{aligned} &amp; \\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5|}+C \\end{aligned}$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(x+1)\\sqrt{x^{2}+2x+5}+\\frac{1}{2}log|x+1+\\sqrt{x^{2}+2x+5}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p>  $(x+1)\\sqrt{x^{2}+2x+5}+\\frac{1}{2}log|x+1+\\sqrt{x^{2}+2x+5}+C$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(x+1)\\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $(x+1)\\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5}+C$ </p>\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(x+1)\\sqrt{x^{2}+2x+5}-2log|x+1+\\sqrt{x^{2}+2x+5}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --><p> $(x+1)\\sqrt{x^{2}+2x+5}-2log|x+1+\\sqrt{x^{2}+2x+5}+C$ </p>\n<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\text{Let}I=\\int \\sqrt{x^{2}+2x+5}dx \\\\ & =\\int \\sqrt{(x+1)^{2}+4}dx \\\\ & =\\int \\sqrt{(x+1)^{2}+(2)^{2}}dx \\\\ & =\\frac{x+1}{2}\\sqrt{(x+1)^{2}+(2)^{2}}+\\frac{(2)^{2}}{2}log|x+1+\\sqrt{(x+1)^{2}+(2)^{2})}+c \\end{aligned}$ $\\begin{aligned} =\\frac{x+1}{2}\\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5}|+c \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\text{Let}I=\\int \\sqrt{x^{2}+2x+5}dx \\\\ &amp; =\\int \\sqrt{(x+1)^{2}+4}dx \\\\ &amp; =\\int \\sqrt{(x+1)^{2}+(2)^{2}}dx \\\\ &amp; =\\frac{x+1}{2}\\sqrt{(x+1)^{2}+(2)^{2}}+\\frac{(2)^{2}}{2}log|x+1+\\sqrt{(x+1)^{2}+(2)^{2})}+c \\end{aligned}$ </p>\n<p> $\\begin{aligned} =\\frac{x+1}{2}\\sqrt{x^{2}+2x+5}+2log|x+1+\\sqrt{x^{2}+2x+5}|+c \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\sqrt{x^{2}+2x+5}dx\\text{is equal to}"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:40.215457"
+    },
+    {
+      "id": 8879,
+      "qid": "m9durinn",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-esin-x-cdotleftfracsin-x1sec-xright-d-kcet-mathematics-complex-numbers-oegbks7xs1piefvk",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{(x+3)e^{x}}{(x+4)^{2}}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{(x+3)e^{x}}{(x+4)^{2}}dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{e^{x}}{(x+4)^{2}}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{e^{x}}{(x+4)^{2}}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{e^{x}}{(x+3)}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{e^{x}}{(x+3)}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{(x+4)^{2}}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{1}{(x+4)^{2}}+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{e^{x}}{(x+4)}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{e^{x}}{(x+4)}+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} \\text{Let}I & =\\int \\frac{x+3}{(x+4)^{2}}e^{x}dx \\\\ & =\\int e^{x}[\\frac{x+4-1}{(x+4)^{2}}]dx \\\\ & =\\int e^{x}[\\frac{1}{x+4}+\\frac{-1}{(x+4)^{2}}]dx \\\\ & =\\int e^{x}\\frac{1}{x+4}dx+\\int e^{x}(\\frac{-1}{(x+4)^{2}})dx \\\\ & =\\frac{1}{X+4}e^{x}-\\int e^{x} \\cdot (\\frac{-1}{(x+4)^{2}})dx+\\int e^{x}(-\\frac{1}{(x+4)^{2}})dx \\\\ & =\\frac{e^{x}}{x+4}+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} \\text{Let}I &amp; =\\int \\frac{x+3}{(x+4)^{2}}e^{x}dx \\\\ &amp; =\\int e^{x}[\\frac{x+4-1}{(x+4)^{2}}]dx \\\\ &amp; =\\int e^{x}[\\frac{1}{x+4}+\\frac{-1}{(x+4)^{2}}]dx \\\\ &amp; =\\int e^{x}\\frac{1}{x+4}dx+\\int e^{x}(\\frac{-1}{(x+4)^{2}})dx \\\\ &amp; =\\frac{1}{X+4}e^{x}-\\int e^{x} \\cdot (\\frac{-1}{(x+4)^{2}})dx+\\int e^{x}(-\\frac{1}{(x+4)^{2}})dx \\\\ &amp; =\\frac{e^{x}}{x+4}+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{(x+3)e^{x}}{(x+4)^{2}}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:40.229485"
+    },
+    {
+      "id": 8880,
+      "qid": "m9dur80f",
+      "chapter_slug": "kcet-indefinite-integration",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-esin-x-cdotleftfracsin-x1sec-xright-d-kcet-mathematics-complex-numbers-oegbks7xs1piefvk",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{cos2x-cos2\\theta}{cosx-cos\\theta}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->  $\\int \\frac{cos2x-cos2\\theta}{cosx-cos\\theta}dx$  is equal to\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2(sinx+xcos\\theta)+C$ .",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx+xcos\\theta)+C$ .\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2(sinx-xcos\\theta)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2(sinx-xcos\\theta)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2(sinx+2xcos\\theta)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $2(sinx+2xcos\\theta)+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2(sinx-2xcos\\theta)+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $2(sinx-2xcos\\theta)+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} LetI & =\\int \\frac{cos2x-cos2\\theta}{cosx-cos\\theta}dx \\\\ & =\\int \\frac{(2cos^{2}x-1)-(2cos^{2}\\theta-1)}{cosx-cos\\theta}dx \\\\ & =2\\int \\frac{cos^{2}x-cos^{2}\\theta}{cosx-cos\\theta}dx \\\\ & =2\\int \\frac{(cosx-cos\\theta)(cosx+cos\\theta)}{cosx-cos\\theta}dx \\\\ & =2\\int (cosx+cos\\theta)dx \\\\ & =2[sinx+xcos\\theta]+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} LetI &amp; =\\int \\frac{cos2x-cos2\\theta}{cosx-cos\\theta}dx \\\\ &amp; =\\int \\frac{(2cos^{2}x-1)-(2cos^{2}\\theta-1)}{cosx-cos\\theta}dx \\\\ &amp; =2\\int \\frac{cos^{2}x-cos^{2}\\theta}{cosx-cos\\theta}dx \\\\ &amp; =2\\int \\frac{(cosx-cos\\theta)(cosx+cos\\theta)}{cosx-cos\\theta}dx \\\\ &amp; =2\\int (cosx+cos\\theta)dx \\\\ &amp; =2[sinx+xcos\\theta]+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Indefinite Integration - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\int \\frac{cos2x-cos2\\theta}{cosx-cos\\theta}dx"
+      ],
+      "key_concepts": [
+        "Kcet Indefinite Integration - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:40.242825"
+    }
+  ]
+}

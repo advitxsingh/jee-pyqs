@@ -1,0 +1,1457 @@
+{
+  "chapter_slug": "kcet-differential-equations",
+  "total": 27,
+  "questions": [
+    {
+      "id": 8578,
+      "qid": "jt-mr7eh8z0",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sum-of-the-squares-of-the-order-and-degree-if-defined-of-a-kcet-mathematics-cajnwj7nezrwndqh",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "Sum of the squares of the order and degree (if defined) of a differential equation $2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Sum of the squares of the order and degree (if defined) of a differential equation  $2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $3$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$20$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $20$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$8$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $8$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$16$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $16$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation_text": "The given differential equation is $2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}$ The highest order derivative present is $y^{''}$ , so the order of the differential equation is $2$ To find the degree, the equation must be written as a polynomial in derivatives. Since $y^{''}$ is inside a square root, we first remove the radical by squaring both sides: $(2y^{'}+(y^{''})^{2})^{2}=y^{''}-3$ Expanding, $4(y^{'})^{2}+4y^{'}(y^{''})^{2}+(y^{''})^{4}=y^{''}-3$ Bring all terms to one side: $(y^{''})^{4}+4y^{'}(y^{''})^{2}+4(y^{'})^{2}-y^{''}+3=0$ Now it is a polynomial in derivatives. The highest order derivative is $y^{''}$ , and its highest power is $4$ . So, $\\text{order}=2$ $\\text{degree}=4$ Sum of the squares: $2^{2}+4^{2}=4+16=20$ So the correct option is $20$ Option B.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}$ </p>\n<p>The highest order derivative present is  $y^{''}$ , so the order of the differential equation is</p>\n<p> $2$ </p>\n<p>To find the degree, the equation must be written as a polynomial in derivatives. Since  $y^{''}$  is inside a square root, we first remove the radical by squaring both sides:</p>\n<p> $(2y^{'}+(y^{''})^{2})^{2}=y^{''}-3$ </p>\n<p>Expanding,</p>\n<p> $4(y^{'})^{2}+4y^{'}(y^{''})^{2}+(y^{''})^{4}=y^{''}-3$ </p>\n<p>Bring all terms to one side:</p>\n<p> $(y^{''})^{4}+4y^{'}(y^{''})^{2}+4(y^{'})^{2}-y^{''}+3=0$ </p>\n<p>Now it is a polynomial in derivatives. The highest order derivative is  $y^{''}$ , and its highest power is  $4$ .</p>\n<p>So,</p>\n<p> $\\text{order}=2$ </p>\n<p> $\\text{degree}=4$ </p>\n<p>Sum of the squares:</p>\n<p> $2^{2}+4^{2}=4+16=20$ </p>\n<p>So the correct option is</p>\n<p> $20$ </p>\n<p>Option B.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "2y^{'}+(y^{''})^{2}=\\sqrt{y^{''}-3}",
+        "y^{''}",
+        "(2y^{'}+(y^{''})^{2})^{2}=y^{''}-3",
+        "4(y^{'})^{2}+4y^{'}(y^{''})^{2}+(y^{''})^{4}=y^{''}-3",
+        "(y^{''})^{4}+4y^{'}(y^{''})^{2}+4(y^{'})^{2}-y^{''}+3=0",
+        "\\text{degree}=4"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.708729"
+    },
+    {
+      "id": 8580,
+      "qid": "jt-mr7eh8z1",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sum-of-the-squares-of-the-order-and-degree-if-defined-of-a-kcet-mathematics-cajnwj7nezrwndqh",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int xf(x)dx+\\frac{f(x)}{2}=0$ , then $f(x)$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int xf(x)dx+\\frac{f(x)}{2}=0$ , then  $f(x)$  is equal to<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e^{-2x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{-2x}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$e^{2x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{2x}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$e^{-x^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{-x^{2}}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$e^{x^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $e^{x^{2}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation_text": "Given, $\\int xf(x)dx+\\frac{f(x)}{2}=0$ Differentiate both sides with respect to $x$ . The derivative of $\\int xf(x)dx$ is $xf(x)$ , and the derivative of $\\frac{f(x)}{2}$ is $\\frac{f^{'}(x)}{2}$ . So, $xf(x)+\\frac{f^{'}(x)}{2}=0$ Multiply by $2$ : $2xf(x)+f^{'}(x)=0$ So, $f^{'}(x)=-2xf(x)$ Now separate the variables: $\\frac{f^{'}(x)}{f(x)}=-2x$ This means $\\frac{1}{f(x)}\\frac{df}{dx}=-2x$ Integrate both sides: $\\int \\frac{1}{f}df=\\int -2xdx$ $ln|f|=-x^{2}+C$ So, $f(x)=Ce^{-x^{2}}$ Among the given options, the matching function is $e^{-x^{2}}$ So the correct option is Option C .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $\\int xf(x)dx+\\frac{f(x)}{2}=0$ </p>\n<p>Differentiate both sides with respect to  $x$ .</p>\n<p>The derivative of  $\\int xf(x)dx$  is  $xf(x)$ , and the derivative of  $\\frac{f(x)}{2}$  is  $\\frac{f^{'}(x)}{2}$ .</p>\n<p>So,</p>\n<p> $xf(x)+\\frac{f^{'}(x)}{2}=0$ </p>\n<p>Multiply by  $2$ :</p>\n<p> $2xf(x)+f^{'}(x)=0$ </p>\n<p>So,</p>\n<p> $f^{'}(x)=-2xf(x)$ </p>\n<p>Now separate the variables:</p>\n<p> $\\frac{f^{'}(x)}{f(x)}=-2x$ </p>\n<p>This means</p>\n<p> $\\frac{1}{f(x)}\\frac{df}{dx}=-2x$ </p>\n<p>Integrate both sides:</p>\n<p> $\\int \\frac{1}{f}df=\\int -2xdx$ </p>\n<p> $ln|f|=-x^{2}+C$ </p>\n<p>So,</p>\n<p> $f(x)=Ce^{-x^{2}}$ </p>\n<p>Among the given options, the matching function is</p>\n<p> $e^{-x^{2}}$ </p>\n<p>So the correct option is <strong>Option C</strong>.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int xf(x)dx+\\frac{f(x)}{2}=0",
+        "ln|f|=-x^{2}+C",
+        "f(x)=Ce^{-x^{2}}",
+        "e^{-x^{2}}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.727141"
+    },
+    {
+      "id": 8582,
+      "qid": "jt-mr7eh8z3",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sum-of-the-squares-of-the-order-and-degree-if-defined-of-a-kcet-mathematics-cajnwj7nezrwndqh",
+      "exam": "KCET",
+      "year": 2026,
+      "paper_name": "KCET 2026",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "Integrating factor of the differential equation $(1+x^{2})\\frac{dy}{dx}+xy=1$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Integrating factor of the differential equation  $(1+x^{2})\\frac{dy}{dx}+xy=1$  is<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1+x^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $1+x^{2}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}log(1+x^{2})$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}log(1+x^{2})$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{x}{1+x^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{1+x^{2}}$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{1+x^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\sqrt{1+x^{2}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation_text": "The given differential equation is $(1+x^{2})\\frac{dy}{dx}+xy=1$ First write it in the standard linear form $\\frac{dy}{dx}+Py=Q$ Divide the whole equation by $1+x^{2}$ : $\\frac{dy}{dx}+\\frac{x}{1+x^{2}}y=\\frac{1}{1+x^{2}}$ So, $P=\\frac{x}{1+x^{2}}$ For a linear differential equation, the integrating factor is $\\text{I.F.}=e^{\\int Pdx}$ Thus, $\\text{I.F.}=e^{\\int \\frac{x}{1+x^{2}}dx}$ Now, $\\int \\frac{x}{1+x^{2}}dx=\\frac{1}{2}log(1+x^{2})$ So, $\\text{I.F.}=e^{\\frac{1}{2}log(1+x^{2})}$ Using $e^{loga}=a$ , $\\text{I.F.}=(1+x^{2})^{1/2}$ Hence, $\\text{I.F.}=\\sqrt{1+x^{2}}$ So the correct option is $\\text{Option D}\\sqrt{1+x^{2}}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The given differential equation is</p>\n<p> $(1+x^{2})\\frac{dy}{dx}+xy=1$ </p>\n<p>First write it in the standard linear form</p>\n<p> $\\frac{dy}{dx}+Py=Q$ </p>\n<p>Divide the whole equation by  $1+x^{2}$ :</p>\n<p> $\\frac{dy}{dx}+\\frac{x}{1+x^{2}}y=\\frac{1}{1+x^{2}}$ </p>\n<p>So,</p>\n<p> $P=\\frac{x}{1+x^{2}}$ </p>\n<p>For a linear differential equation, the integrating factor is</p>\n<p> $\\text{I.F.}=e^{\\int Pdx}$ </p>\n<p>Thus,</p>\n<p> $\\text{I.F.}=e^{\\int \\frac{x}{1+x^{2}}dx}$ </p>\n<p>Now,</p>\n<p> $\\int \\frac{x}{1+x^{2}}dx=\\frac{1}{2}log(1+x^{2})$ </p>\n<p>So,</p>\n<p> $\\text{I.F.}=e^{\\frac{1}{2}log(1+x^{2})}$ </p>\n<p>Using  $e^{loga}=a$ ,</p>\n<p> $\\text{I.F.}=(1+x^{2})^{1/2}$ </p>\n<p>Hence,</p>\n<p> $\\text{I.F.}=\\sqrt{1+x^{2}}$ </p>\n<p>So the correct option is</p>\n<p> $\\text{Option D}\\sqrt{1+x^{2}}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "(1+x^{2})\\frac{dy}{dx}+xy=1",
+        "\\frac{dy}{dx}+Py=Q",
+        "1+x^{2}",
+        "\\frac{dy}{dx}+\\frac{x}{1+x^{2}}y=\\frac{1}{1+x^{2}}",
+        "P=\\frac{x}{1+x^{2}}",
+        "\\text{I.F.}=e^{\\int Pdx}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.742413"
+    },
+    {
+      "id": 8586,
+      "qid": "mcf6zzhz",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if--a--and--b--are-the-order-and-degree-respectively-kcet-mathematics-complex-numbers-uhvatgrwwr06ks5u",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "If ' $a$ ' and ' $b$ ' are the order and degree respectively of the differentiable equation. $(\\frac{d^{2}y}{dx^{2}})^{2}+(\\frac{dy}{dx})^{3}+x^{4}=0$ , then $a-b=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If '  $a$  ' and '  $b$  ' are the order and degree respectively of the differentiable equation.  $(\\frac{d^{2}y}{dx^{2}})^{2}+(\\frac{dy}{dx})^{3}+x^{4}=0$ , then  $a-b=$  \n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "-1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> -1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 0<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Here the highest derivative is $\\frac{d^{2}y}{dx^{2}}$ so the order $a=2$ . The equation is a polynomial in derivatives and the highest derivative appears as $(\\frac{d^{2}y}{dx^{2}})^{2}$ , so the degree $b=2$ . Hence $a-b=2-2=0.$ Answer: 0.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Here the highest derivative is  $\\frac{d^{2}y}{dx^{2}}$  so the order  $a=2$ . The equation is a polynomial in derivatives and the highest derivative appears as  $(\\frac{d^{2}y}{dx^{2}})^{2}$ , so the degree  $b=2$ . Hence  </p>\n<p> $a-b=2-2=0.$  </p>\n<p>Answer: 0.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(\\frac{d^{2}y}{dx^{2}})^{2}",
+        "b=2",
+        "a-b=2-2=0."
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.895184"
+    },
+    {
+      "id": 8584,
+      "qid": "mcf6zzgw",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/sum-of-the-squares-of-the-order-and-degree-if-defined-of-a-kcet-mathematics-cajnwj7nezrwndqh",
+      "exam": "KCET",
+      "year": 2025,
+      "paper_name": "KCET 2025",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "General solution of the differential equation $\\frac{dy}{dx}+ytanx=secx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->General solution of the differential equation  $\\frac{dy}{dx}+ytanx=secx$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$ysecx=tanx+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $ysecx=tanx+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$ytanx=secx+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $ytanx=secx+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$cosecx=ytanx+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $cosecx=ytanx+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$xsecx=tany+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $xsecx=tany+c$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\frac{dy}{dx}+(tanx)y=secx \\\\ & I \\cdot F=e^{(-)\\int -\\frac{sinx}{cosx}dx}=e^{-log_{e}cosx}=secx \\\\ & \\therefore y \\cdot secx=\\int sec^{2}xdx \\\\ & ysecx=tanx+c \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{dy}{dx}+(tanx)y=secx \\\\ &amp; I \\cdot F=e^{(-)\\int -\\frac{sinx}{cosx}dx}=e^{-log_{e}cosx}=secx \\\\ &amp; \\therefore y \\cdot secx=\\int sec^{2}xdx \\\\ &amp; ysecx=tanx+c \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "\\frac{dy}{dx}+ytanx=secx"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.758144"
+    },
+    {
+      "id": 8588,
+      "qid": "m5yu8crp",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if--a--and--b--are-the-order-and-degree-respectively-kcet-mathematics-complex-numbers-uhvatgrwwr06ks5u",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The solution of $e^{dy/dx}=x+1,y(0)=3$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The solution of  $e^{dy/dx}=x+1,y(0)=3$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y-2=xlogx-x$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $y-2=xlogx-x$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$y-x-3=xlogx$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $y-x-3=xlogx$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$y-x-3=(x+1)log(x+1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $y-x-3=(x+1)log(x+1)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$y+x-3=(x+1)log(x+1)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $y+x-3=(x+1)log(x+1)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\because e^{\\frac{dy}{dx}}=x+1$ $\\begin{aligned} & \\Rightarrow \\frac{dy}{dx}=log(x+1) \\\\ & \\Rightarrow \\int dy=\\int log(x+1)dx \\\\ & \\Rightarrow y=xlog(x+1)-\\int \\frac{x}{x+1}dx \\\\ & \\Rightarrow y=xlog(x+1)-\\int 1 \\cdot dx+\\int \\frac{1}{1+x}dx \\\\ & \\Rightarrow y=xlog(x+1)-x+log(x+1)+C \\\\ & \\Rightarrow y=(x+1)log(x+1)-x+C \\end{aligned}$ Now, $y(0)=3$ $3=0+C \\Rightarrow C=3$ Hence, $y=(x+1)log(x+1)-x+3$ $y+x-3=(x+1)log(x+1)$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\because e^{\\frac{dy}{dx}}=x+1$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{dx}=log(x+1) \\\\ &amp; \\Rightarrow \\int dy=\\int log(x+1)dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-\\int \\frac{x}{x+1}dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-\\int 1 \\cdot dx+\\int \\frac{1}{1+x}dx \\\\ &amp; \\Rightarrow y=xlog(x+1)-x+log(x+1)+C \\\\ &amp; \\Rightarrow y=(x+1)log(x+1)-x+C \\end{aligned}$ </p>\n<p>Now,  $y(0)=3$ </p>\n<p> $3=0+C \\Rightarrow C=3$ </p>\n<p>Hence,  $y=(x+1)log(x+1)-x+3$ </p>\n<p> $y+x-3=(x+1)log(x+1)$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "e^{dy/dx}=x+1,y(0)=3",
+        "\\because e^{\\frac{dy}{dx}}=x+1",
+        "3=0+C \\Rightarrow C=3",
+        "y=(x+1)log(x+1)-x+3",
+        "y+x-3=(x+1)log(x+1)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.910702"
+    },
+    {
+      "id": 8590,
+      "qid": "m5yu7ac6",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if--a--and--b--are-the-order-and-degree-respectively-kcet-mathematics-complex-numbers-uhvatgrwwr06ks5u",
+      "exam": "KCET",
+      "year": 2024,
+      "paper_name": "KCET 2024",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The family of curves whose $x$ and $y$ intercepts of a tangent at any point are respectively double the $x$ and $y$ coordinates of that point is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The family of curves whose  $x$  and  $y$  intercepts of a tangent at any point are respectively double the  $x$  and  $y$  coordinates of that point is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$xy=C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $xy=C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$x^{2}+y^{2}=C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x^{2}+y^{2}=C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x^{2}-y^{2}=C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x^{2}-y^{2}=C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{y}{x}=C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $\\frac{y}{x}=C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let the point on the curve be $(ℎ,k)$ . According to the question, the equation of the tangent will be $\\begin{aligned} \\Rightarrow & \\frac{x}{2ℎ}+\\frac{y}{2k} & =1 \\\\ \\Rightarrow & \\frac{y}{2k} & =1-\\frac{x}{2ℎ} \\\\ \\Rightarrow & y & =-(\\frac{2k}{2ℎ})x+2k \\end{aligned}$ So, the slope of tangent will be $(-\\frac{k}{ℎ})$ . Now, $\\frac{dy}{dx}=-\\frac{ℎ}{k}=-\\frac{y}{x}$ $\\begin{aligned} & \\Rightarrow \\frac{dy}{y}=-\\frac{dx}{x} \\\\ & \\text{On integrating both sides, we get} \\\\ & \\begin{aligned} & \\int \\frac{dy}{dy}=-\\int \\frac{dx}{x} \\\\ \\Rightarrow & lny=-lnx+lnC \\\\ \\Rightarrow & lny=ln\\frac{C}{x} \\\\ \\Rightarrow & y=\\frac{C}{x} \\\\ \\therefore & xy=C \\end{aligned} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the point on the curve be  $(ℎ,k)$ .</p>\n<p>According to the question, the equation of the tangent will be</p>\n<p> $\\begin{aligned} \\Rightarrow &amp; \\frac{x}{2ℎ}+\\frac{y}{2k} &amp; =1 \\\\ \\Rightarrow &amp; \\frac{y}{2k} &amp; =1-\\frac{x}{2ℎ} \\\\ \\Rightarrow &amp; y &amp; =-(\\frac{2k}{2ℎ})x+2k \\end{aligned}$ </p>\n<p>So, the slope of tangent will be  $(-\\frac{k}{ℎ})$ .</p>\n<p>Now,  $\\frac{dy}{dx}=-\\frac{ℎ}{k}=-\\frac{y}{x}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{y}=-\\frac{dx}{x} \\\\ &amp; \\text{On integrating both sides, we get} \\\\ &amp; \\begin{aligned} &amp; \\int \\frac{dy}{dy}=-\\int \\frac{dx}{x} \\\\ \\Rightarrow &amp; lny=-lnx+lnC \\\\ \\Rightarrow &amp; lny=ln\\frac{C}{x} \\\\ \\Rightarrow &amp; y=\\frac{C}{x} \\\\ \\therefore &amp; xy=C \\end{aligned} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.925765"
+    },
+    {
+      "id": 8595,
+      "qid": "jaoe38c1locqy0t5",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-degree-of-the-differential-equation-1leftfracd-kcet-mathematics-complex-numbers-rzbhrehqf5m2a4go",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The degree of the differential equation $1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The degree of the differential equation  $1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}$ On cubic both sides, we get $\\begin{aligned} & [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]^{3}=(\\frac{d^{2}y}{dx^{2}}+1) \\\\ \\Rightarrow & [1+(\\frac{dy}{dx})^{2}]^{3}+(\\frac{d^{2}y}{dx^{2}})^{6}+3[1+(\\frac{dy}{dx})^{2}] \\cdot \\frac{d^{2}y}{dx^{2}} \\\\ & [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]=\\frac{d^{2}y}{dx^{2}}+1 \\end{aligned}$ So, degree of the differential equation is 6 .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,</p>\n<p> $1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}$ </p>\n<p>On cubic both sides, we get</p>\n<p> $\\begin{aligned} &amp; [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]^{3}=(\\frac{d^{2}y}{dx^{2}}+1) \\\\ \\Rightarrow &amp; [1+(\\frac{dy}{dx})^{2}]^{3}+(\\frac{d^{2}y}{dx^{2}})^{6}+3[1+(\\frac{dy}{dx})^{2}] \\cdot \\frac{d^{2}y}{dx^{2}} \\\\ &amp; [1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}]=\\frac{d^{2}y}{dx^{2}}+1 \\end{aligned}$ </p>\n<p>So, degree of the differential equation is 6 .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.131681"
+    },
+    {
+      "id": 8592,
+      "qid": "jaoe38c1locqvtrz",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if--a--and--b--are-the-order-and-degree-respectively-kcet-mathematics-complex-numbers-uhvatgrwwr06ks5u",
+      "exam": "KCET",
+      "year": 2023,
+      "paper_name": "KCET 2023",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If a curve passes through the point $(1,1)$ and at any point $(x,y)$ on the curve, the product of the slope of its tangent and $x$ coordinate of the point is equal to the $y$ coordinate of the point, then the curve also passes through the point",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If a curve passes through the point  $(1,1)$  and at any point  $(x,y)$  on the curve, the product of the slope of its tangent and  $x$  coordinate of the point is equal to the  $y$  coordinate of the point, then the curve also passes through the point</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3,0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(3,0)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(-1,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-1,2)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(\\sqrt{3},0)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(\\sqrt{3},0)$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(2,2)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(2,2)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Let the equation of the curve by $y=f(x)$ and curve passes through the point $(1,1)$ , So, $f(1)=1$ Also, we know that at any point $(x,y)$ on the curve, the product of the slope of its tangent and $x$ co-ordinate of the point is equal to the $y$ co-ordinate of the point. $\\begin{aligned} \\frac{y}{x} & =\\frac{dy}{dx} \\\\ xy^{'} & =y \\end{aligned}$ $\\frac{y^{'}}{y}=\\frac{1}{x}$ On integrating both sides w.r.t. $x$ , we get $\\begin{aligned} ln|y| & =|In|x|+e^{c} \\\\ y & =kx,\\text{where}k=e^{c} \\end{aligned}$ Now, we can use the fact that the curve passes through the point $(1,1)$ to find the value of $k$ . $\\Rightarrow l=k(l)k=1$ Therefore, the equation of the curve is $y=x$ Substituting the value of $x$ and $y$ from the given option, we find that the curve passes through the point $(2,2)$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let the equation of the curve by  $y=f(x)$  and curve passes through the point  $(1,1)$ , So,  $f(1)=1$  Also, we know that at any point  $(x,y)$  on the curve, the product of the slope of its tangent and  $x$  co-ordinate of the point is equal to the  $y$  co-ordinate of the point.</p>\n<p> $\\begin{aligned} \\frac{y}{x} &amp; =\\frac{dy}{dx} \\\\ xy^{'} &amp; =y \\end{aligned}$ </p>\n<p> $\\frac{y^{'}}{y}=\\frac{1}{x}$ </p>\n<p>On integrating both sides w.r.t.  $x$ , we get</p>\n<p> $\\begin{aligned} ln|y| &amp; =|In|x|+e^{c} \\\\ y &amp; =kx,\\text{where}k=e^{c} \\end{aligned}$ </p>\n<p>Now, we can use the fact that the curve passes through the point  $(1,1)$  to find the value of  $k$ .</p>\n<p> $\\Rightarrow l=k(l)k=1$ </p>\n<p>Therefore, the equation of the curve is  $y=x$ </p>\n<p>Substituting the value of  $x$  and  $y$  from the given option, we find that the curve passes through the point  $(2,2)$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=f(x)",
+        "f(1)=1",
+        "\\frac{y^{'}}{y}=\\frac{1}{x}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:25.941155"
+    },
+    {
+      "id": 8602,
+      "qid": "jaoe38c1ls1wd4r5",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-degree-and-order-of-the-differential-equat-kcet-mathematics-complex-numbers-vzdcg5bt0mfvxokc",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The sum of the degree and order of the differential equation $(l+y_{1}^{2})^{2/3}=y_{2}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The sum of the degree and order of the differential equation  $(l+y_{1}^{2})^{2/3}=y_{2}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "6",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->6<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->5<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->7<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & (1+y_{1}^{2})^{2/3}=y_{2} \\\\ & \\Rightarrow [(1+y_{1}^{2})^{2/3}]^{3}=(y_{2})^{3} \\Rightarrow (1+y_{1}^{2})^{2}=y_{2}^{3} \\end{aligned}$ Here, highest derivative is $y_{2}$ . Therefore, order is 2 and power of $y_{2}$ is 3. So, the degree is 3. Hence, required sum $=2+3=5$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; (1+y_{1}^{2})^{2/3}=y_{2} \\\\ &amp; \\Rightarrow [(1+y_{1}^{2})^{2/3}]^{3}=(y_{2})^{3} \\Rightarrow (1+y_{1}^{2})^{2}=y_{2}^{3} \\end{aligned}$ </p>\n<p>Here, highest derivative is  $y_{2}$ .</p>\n<p>Therefore, order is 2 and power of  $y_{2}$  is 3.</p>\n<p>So, the degree is 3.</p>\n<p>Hence, required sum  $=2+3=5$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(l+y_{1}^{2})^{2/3}=y_{2}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.335699"
+    },
+    {
+      "id": 8596,
+      "qid": "jaoe38c1ls1vm4md",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-degree-of-the-differential-equation-1leftfracd-kcet-mathematics-complex-numbers-rzbhrehqf5m2a4go",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "If $\\frac{dy}{dx}+\\frac{y}{x}=x^{2}$ , then $2y(2)-y(1)=$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\frac{dy}{dx}+\\frac{y}{x}=x^{2}$ , then  $2y(2)-y(1)=$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{11}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{11}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{15}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{15}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{9}{4}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{13}{4}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{13}{4}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\frac{dy}{dx}+\\frac{y}{x}=x^{2}$ On comparing to $\\frac{dy}{dx}+P(x)y=Q(x)$ $\\begin{aligned} P(x)=\\frac{1}{x},Q(x)=x^{2} \\\\ IF=e^{\\int Pdx}=e^{\\int \\frac{1}{x}dx}=e^{lnx}=x \\\\ y \\cdot (IF)=\\int Q(x)(IF)dx+C \\\\ y \\cdot x=\\int x^{2}xdx+C=\\frac{x^{4}}{4}+C \\\\ y=\\frac{x^{3}}{4}+\\frac{C}{x} \\\\ y(2)=\\frac{2^{3}}{4}+\\frac{C}{2}=2+\\frac{C}{2} \\\\ y(1)=\\frac{1}{4}+\\frac{C}{1}=\\frac{1}{4}+C=x \\\\ 2y(2)-y(1)=2(2+\\frac{C}{2})-(\\frac{1}{4}+C) \\\\ =4+C-\\frac{1}{4}-C=\\frac{15}{4} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}+\\frac{y}{x}=x^{2}$ </p>\n<p>On comparing to  $\\frac{dy}{dx}+P(x)y=Q(x)$ </p>\n<p> $\\begin{aligned} P(x)=\\frac{1}{x},Q(x)=x^{2} \\\\ IF=e^{\\int Pdx}=e^{\\int \\frac{1}{x}dx}=e^{lnx}=x \\\\ y \\cdot (IF)=\\int Q(x)(IF)dx+C \\\\ y \\cdot x=\\int x^{2}xdx+C=\\frac{x^{4}}{4}+C \\\\ y=\\frac{x^{3}}{4}+\\frac{C}{x} \\\\ y(2)=\\frac{2^{3}}{4}+\\frac{C}{2}=2+\\frac{C}{2} \\\\ y(1)=\\frac{1}{4}+\\frac{C}{1}=\\frac{1}{4}+C=x \\\\ 2y(2)-y(1)=2(2+\\frac{C}{2})-(\\frac{1}{4}+C) \\\\ =4+C-\\frac{1}{4}-C=\\frac{15}{4} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{dy}{dx}+\\frac{y}{x}=x^{2}",
+        "2y(2)-y(1)=",
+        "\\frac{dy}{dx}+P(x)y=Q(x)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.147849"
+    },
+    {
+      "id": 8597,
+      "qid": "jaoe38c1ls1volkd",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-degree-of-the-differential-equation-1leftfracd-kcet-mathematics-complex-numbers-rzbhrehqf5m2a4go",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The solution of the differential equation $\\frac{dy}{dx}=(x+y)^{2}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The solution of the differential equation  $\\frac{dy}{dx}=(x+y)^{2}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$tan^{-1}(x+y)=x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(x+y)=x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$tan^{-1}(x+y)=0$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $tan^{-1}(x+y)=0$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$cot^{-1}(x+y)=C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $cot^{-1}(x+y)=C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$cot^{-1}(x+y)=x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $cot^{-1}(x+y)=x+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\frac{dy}{dx}=(x+y)^{2}$ ..... (i) Let $x+y=t \\Rightarrow 1+\\frac{dy}{dx}=\\frac{dt}{dx}$ Eq. (i) can be written as $\\begin{aligned} \\frac{dt}{dx}-1=t^{2} \\\\ \\Rightarrow \\frac{dt}{dx}=t^{2}+1 \\Rightarrow \\frac{dt}{t^{2}+1}=dx \\end{aligned}$ $\\begin{aligned} & \\Rightarrow \\int \\frac{dt}{t^{2}+1}=\\int dx \\Rightarrow tan^{-1}t=x+C \\\\ & \\Rightarrow tan^{-1}(x+y)=x+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\frac{dy}{dx}=(x+y)^{2}$  ..... (i)</p>\n<p>Let  $x+y=t \\Rightarrow 1+\\frac{dy}{dx}=\\frac{dt}{dx}$ </p>\n<p>Eq. (i) can be written as</p>\n<p> $\\begin{aligned} \\frac{dt}{dx}-1=t^{2} \\\\ \\Rightarrow \\frac{dt}{dx}=t^{2}+1 \\Rightarrow \\frac{dt}{t^{2}+1}=dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\int \\frac{dt}{t^{2}+1}=\\int dx \\Rightarrow tan^{-1}t=x+C \\\\ &amp; \\Rightarrow tan^{-1}(x+y)=x+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{dy}{dx}=(x+y)^{2}",
+        "x+y=t \\Rightarrow 1+\\frac{dy}{dx}=\\frac{dt}{dx}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.159363"
+    },
+    {
+      "id": 8599,
+      "qid": "jaoe38c1ls1vrd3z",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-degree-of-the-differential-equation-1leftfracd-kcet-mathematics-complex-numbers-rzbhrehqf5m2a4go",
+      "exam": "KCET",
+      "year": 2022,
+      "paper_name": "KCET 2022",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $y(x)$ is the solution of differential equation $xlogx\\frac{dy}{dx}+y=2xlogx,y(e)$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $y(x)$  is the solution of differential equation  $xlogx\\frac{dy}{dx}+y=2xlogx,y(e)$  is equal to</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "e",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->e<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "0",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->0<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2e",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2e<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & xlogx\\frac{dy}{dx}+y=2xlogx \\Rightarrow \\frac{dy}{dx}+\\frac{y}{xlogx}=2 \\\\ & \\text{IF}=e^{\\int \\frac{1}{xlogx}dx}=e^{log(logx)}=logx \\\\ & y(logx)=\\int (2)(logx) \\cdot dx+C \\\\ & \\Rightarrow ylogx=2\\int logxdx+C \\\\ & \\Rightarrow ylogx=2[xlogx-x]+C\\text{.... (i)} \\end{aligned}$ Putting $x=1$ , we get $y \\cdot 0=2[1 \\times 0-1]+C \\Rightarrow C=2$ Putting $C=2$ in Eq. (i), we get $ylogx=2[xlogx-x]+2$ $\\begin{aligned} \\text{At}x & =e \\Rightarrow y \\cdot 1=2(e \\times 1-e)+2 \\\\ y & =0+2=2 \\\\ y(e) & =2 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; xlogx\\frac{dy}{dx}+y=2xlogx \\Rightarrow \\frac{dy}{dx}+\\frac{y}{xlogx}=2 \\\\ &amp; \\text{IF}=e^{\\int \\frac{1}{xlogx}dx}=e^{log(logx)}=logx \\\\ &amp; y(logx)=\\int (2)(logx) \\cdot dx+C \\\\ &amp; \\Rightarrow ylogx=2\\int logxdx+C \\\\ &amp; \\Rightarrow ylogx=2[xlogx-x]+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Putting  $x=1$ , we get</p>\n<p> $y \\cdot 0=2[1 \\times 0-1]+C \\Rightarrow C=2$ </p>\n<p>Putting  $C=2$  in Eq. (i), we get</p>\n<p> $ylogx=2[xlogx-x]+2$ </p>\n<p> $\\begin{aligned} \\text{At}x &amp; =e \\Rightarrow y \\cdot 1=2(e \\times 1-e)+2 \\\\ y &amp; =0+2=2 \\\\ y(e) &amp; =2 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "xlogx\\frac{dy}{dx}+y=2xlogx,y(e)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.174843"
+    },
+    {
+      "id": 8604,
+      "qid": "ltd1cseo",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-degree-and-order-of-the-differential-equat-kcet-mathematics-complex-numbers-vzdcg5bt0mfvxokc",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "Solution of differential equating $xdy-ydx=0$ represents",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Solution of differential equating  $xdy-ydx=0$  represents</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "rectangular hyperbola.",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->A rectangular hyperbola.\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Parabola whose vertex is at origin.",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Parabola whose vertex is at origin.\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Straight line passing through origin.",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Straight line passing through origin.\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "circle whose centre is origin.",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->A circle whose centre is origin.<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "Given, $xdy=ydx$ $\\Rightarrow \\frac{1}{y}dy=\\frac{1}{x}dx$ Integrating both sides, $\\begin{aligned} \\int \\frac{1}{y}dy & =\\int \\frac{1}{x}dx. \\\\ \\Rightarrow logy & =logx+logc \\end{aligned}$ $\\Rightarrow y=xc$ which is the equation of line passing through origin.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Given,  $xdy=ydx$ </p>\n<p> $\\Rightarrow \\frac{1}{y}dy=\\frac{1}{x}dx$ </p>\n<p>Integrating both sides,</p>\n<p> $\\begin{aligned} \\int \\frac{1}{y}dy &amp; =\\int \\frac{1}{x}dx. \\\\ \\Rightarrow logy &amp; =logx+logc \\end{aligned}$ </p>\n<p> $\\Rightarrow y=xc$  which is the equation of line passing through origin.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "xdy-ydx=0",
+        "xdy=ydx",
+        "\\Rightarrow \\frac{1}{y}dy=\\frac{1}{x}dx",
+        "\\Rightarrow y=xc"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.367396"
+    },
+    {
+      "id": 8606,
+      "qid": "ltd1bfne",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-degree-and-order-of-the-differential-equat-kcet-mathematics-complex-numbers-vzdcg5bt0mfvxokc",
+      "exam": "KCET",
+      "year": 2021,
+      "paper_name": "KCET 2021",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The number of solutions of $\\frac{dy}{dx}=\\frac{y+1}{x-1}$ , when $y(l)=2$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The number of solutions of  $\\frac{dy}{dx}=\\frac{y+1}{x-1}$ , when  $y(l)=2$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "three",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->three\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "one",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->\none<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "infinite",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->infinite\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "two",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->two<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\begin{aligned} & \\frac{dy}{dx}=\\frac{y+1}{x-1} \\\\ & \\Rightarrow \\frac{1}{x-1}dx=\\frac{1}{y+1}dy \\end{aligned}$ Integrating both sides, $\\begin{aligned} & \\int \\frac{1}{x-1}dx=\\int \\frac{1}{y+1}dy \\\\ & \\Rightarrow log|x-1|=log|y+1|+logC \\\\ & \\Rightarrow (x-1)=c(y+1) \\\\ & \\text{As,} \\\\ & y(1)=2 \\\\ & 0=c(3) \\\\ & c=0 \\end{aligned}$ Hence, $x-1=0$ or $x=1$ The given differential equation has only one solution.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\frac{dy}{dx}=\\frac{y+1}{x-1} \\\\ &amp; \\Rightarrow \\frac{1}{x-1}dx=\\frac{1}{y+1}dy \\end{aligned}$ </p>\n<p>Integrating both sides,</p>\n<p> $\\begin{aligned} &amp; \\int \\frac{1}{x-1}dx=\\int \\frac{1}{y+1}dy \\\\ &amp; \\Rightarrow log|x-1|=log|y+1|+logC \\\\ &amp; \\Rightarrow (x-1)=c(y+1) \\\\ &amp; \\text{As,} \\\\ &amp; y(1)=2 \\\\ &amp; 0=c(3) \\\\ &amp; c=0 \\end{aligned}$ </p>\n<p>Hence,  $x-1=0$  or  $x=1$ </p>\n<p>The given differential equation has only one solution.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\frac{dy}{dx}=\\frac{y+1}{x-1}",
+        "y(l)=2"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.396072"
+    },
+    {
+      "id": 8609,
+      "qid": "ltj8x1c6",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-general-solution-of-the-differential-equation-x2-d-kcet-mathematics-complex-numbers-chlgweados45aw05",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The general solution of the differential equation $x^{2}dy-2xydx=x^{4}cosxdx$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The general solution of the differential equation  $x^{2}dy-2xydx=x^{4}cosxdx$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y=x^{2}sinx+cx^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $y=x^{2}sinx+cx^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$y=x^{2}sinx+c$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $y=x^{2}sinx+c$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$y=sinx+cx^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $y=sinx+cx^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$y=cosx+cx^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $y=cosx+cx^{2}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\begin{aligned} & x^{2}dy-2xydx=x^{4}cosxdx \\\\ & \\Rightarrow \\frac{dy}{dx}-\\frac{2}{x}y=x^{2}cosx \\end{aligned}$ Comparing with $\\frac{dy}{dx}+Py=Q$ Where $P=-\\frac{2}{x}$ and $Q=x^{2}cosx$ . $\\therefore \\text{IF}=e^{\\int \\frac{-2}{x}dx}=e^{-2logx}=e^{log(\\frac{1}{x^{2}})}=\\frac{1}{x^{2}}$ $\\therefore$ The solution of the given differential $\\begin{aligned} y \\cdot IF & =\\int (Q \\times IF)dx+c \\\\ \\Rightarrow & y \\times \\frac{1}{x^{2}}=\\int (x^{2}cosx)(\\frac{1}{x^{2}})dx+c \\\\ \\Rightarrow & \\frac{y}{x^{2}}=\\int cosx+c \\\\ \\Rightarrow & \\frac{y}{x^{2}}=sinx+c \\\\ \\Rightarrow & y=x^{2}sinx+cx^{2} \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; x^{2}dy-2xydx=x^{4}cosxdx \\\\ &amp; \\Rightarrow \\frac{dy}{dx}-\\frac{2}{x}y=x^{2}cosx \\end{aligned}$ </p>\n<p>Comparing with  $\\frac{dy}{dx}+Py=Q$ </p>\n<p>Where  $P=-\\frac{2}{x}$  and  $Q=x^{2}cosx$ .</p>\n<p> $\\therefore \\text{IF}=e^{\\int \\frac{-2}{x}dx}=e^{-2logx}=e^{log(\\frac{1}{x^{2}})}=\\frac{1}{x^{2}}$ </p><p> $\\therefore$  The solution of the given differential</p>\n<p> $\\begin{aligned} y \\cdot IF &amp; =\\int (Q \\times IF)dx+c \\\\ \\Rightarrow &amp; y \\times \\frac{1}{x^{2}}=\\int (x^{2}cosx)(\\frac{1}{x^{2}})dx+c \\\\ \\Rightarrow &amp; \\frac{y}{x^{2}}=\\int cosx+c \\\\ \\Rightarrow &amp; \\frac{y}{x^{2}}=sinx+c \\\\ \\Rightarrow &amp; y=x^{2}sinx+cx^{2} \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "x^{2}dy-2xydx=x^{4}cosxdx"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.573196"
+    },
+    {
+      "id": 8611,
+      "qid": "ltj8yx6l",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-general-solution-of-the-differential-equation-x2-d-kcet-mathematics-complex-numbers-chlgweados45aw05",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The curve passing through the point $(1,2)$ given that the slope of the tangent at any point $(x,y)$ is $\\frac{3x}{y}$ represents",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The curve passing through the point  $(1,2)$  given that the slope of the tangent at any point  $(x,y)$  is  $\\frac{3x}{y}$  represents</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "Circle",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Circle\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "Parabola",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Parabola\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "Ellipse",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Ellipse\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "Hyperbola",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->Hyperbola<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\begin{aligned} & \\frac{dy}{dx}=\\frac{3x}{y} \\\\ & \\Rightarrow \\int ydy=\\int 3xdx \\\\ & \\Rightarrow \\frac{y^{2}}{2}=3 \\cdot \\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ Since, Eq (i) passing through point $(1,2)$ $\\begin{aligned} & \\therefore & \\frac{4}{2} & =\\frac{3}{2}(1)^{2}+c \\\\ & & c & =2-\\frac{3}{2}=\\frac{1}{2} \\end{aligned}$ $\\therefore$ Equation of curve, $\\frac{y^{2}}{2}=\\frac{3x^{2}}{2}+\\frac{1}{2}$ $\\begin{aligned} & \\Rightarrow y^{2}=3x^{2}+1 \\Rightarrow y^{2}-3x^{2}=1 \\\\ & \\Rightarrow \\frac{y^{2}}{(1)^{2}}-\\frac{x^{2}}{(1/\\sqrt{3})^{2}}=1 \\end{aligned}$ Which represents a Hyperbola.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}=\\frac{3x}{y} \\\\ &amp; \\Rightarrow \\int ydy=\\int 3xdx \\\\ &amp; \\Rightarrow \\frac{y^{2}}{2}=3 \\cdot \\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Since, Eq (i) passing through point  $(1,2)$ </p>\n<p> $\\begin{aligned} &amp; \\therefore &amp; \\frac{4}{2} &amp; =\\frac{3}{2}(1)^{2}+c \\\\ &amp; &amp; c &amp; =2-\\frac{3}{2}=\\frac{1}{2} \\end{aligned}$ </p>\n<p> $\\therefore$  Equation of curve,  $\\frac{y^{2}}{2}=\\frac{3x^{2}}{2}+\\frac{1}{2}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow y^{2}=3x^{2}+1 \\Rightarrow y^{2}-3x^{2}=1 \\\\ &amp; \\Rightarrow \\frac{y^{2}}{(1)^{2}}-\\frac{x^{2}}{(1/\\sqrt{3})^{2}}=1 \\end{aligned}$ </p>\n<p>Which represents a Hyperbola.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{3x}{y}",
+        "\\frac{y^{2}}{2}=\\frac{3x^{2}}{2}+\\frac{1}{2}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.607810"
+    },
+    {
+      "id": 8607,
+      "qid": "ltj8ylz9",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-sum-of-the-degree-and-order-of-the-differential-equat-kcet-mathematics-complex-numbers-vzdcg5bt0mfvxokc",
+      "exam": "KCET",
+      "year": 2020,
+      "paper_name": "KCET 2020",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The order of the differential equation obtained by eliminating arbitrary constants in the family of curves $c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The order of the differential equation obtained by eliminating arbitrary constants in the family of curves  $c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}$ $\\begin{aligned} & \\Rightarrow y=(\\frac{c_{2}+c_{3}}{c_{1}})e^{c_{4}} \\cdot e^{x} \\\\ & \\Rightarrow y=ce^{x}\\text{where}c=\\frac{c_{2}+c_{3}}{c_{1}}e^{c_{4}} \\end{aligned}$ Taking $log$ on both sides, we get $\\begin{aligned} & logy=log(ce^{x}) \\\\ \\Rightarrow & logy=logc+xloge \\\\ \\Rightarrow & logy=logc+x \\end{aligned}$ On differentiating w.r.t. $x$ , we get $\\frac{1}{y}\\frac{dy}{dx}=1 \\Rightarrow \\frac{dy}{dx}=y$ $\\therefore$ order $=1$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}$ </p>\n<p> $\\begin{aligned} &amp; \\Rightarrow y=(\\frac{c_{2}+c_{3}}{c_{1}})e^{c_{4}} \\cdot e^{x} \\\\ &amp; \\Rightarrow y=ce^{x}\\text{where}c=\\frac{c_{2}+c_{3}}{c_{1}}e^{c_{4}} \\end{aligned}$ </p>\n<p>Taking  $log$  on both sides, we get</p>\n<p> $\\begin{aligned} &amp; logy=log(ce^{x}) \\\\ \\Rightarrow &amp; logy=logc+xloge \\\\ \\Rightarrow &amp; logy=logc+x \\end{aligned}$ </p>\n<p>On differentiating w.r.t.  $x$ , we get</p>\n<p> $\\frac{1}{y}\\frac{dy}{dx}=1 \\Rightarrow \\frac{dy}{dx}=y$ </p>\n<p> $\\therefore$  order  $=1$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "c_{1}y=(c_{2}+c_{3})e^{x+c_{4}}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.432360"
+    },
+    {
+      "id": 8618,
+      "qid": "ltw4pshs",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-order-of-the-differential-equation-yc1-ec2x-kcet-mathematics-complex-numbers-d7c93poqeiuxuual",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "The order of the differential equation $y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The order of the differential equation  $y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->1<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->4<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}$ $\\Rightarrow y=C_{1}e^{C_{2}}e^{x}+C_{3}e^{C_{4}}e^{x} \\Rightarrow y=A \\cdot e^{x}+B \\cdot e^{x}$ (Here, $A=C_{1}e^{C_{2}},B=C_{3}e^{C_{4}}$ ) $\\Rightarrow y=(A+B)e^{x}=Ce^{x}\\text{(Here,}A+B=C)$ Here, number of arbitrary constant is one so, order of the differential equation is one.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,  $y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}$ </p>\n<p> $\\Rightarrow y=C_{1}e^{C_{2}}e^{x}+C_{3}e^{C_{4}}e^{x} \\Rightarrow y=A \\cdot e^{x}+B \\cdot e^{x}$ </p>\n<p>(Here,  $A=C_{1}e^{C_{2}},B=C_{3}e^{C_{4}}$ )</p>\n<p> $\\Rightarrow y=(A+B)e^{x}=Ce^{x}\\text{(Here,}A+B=C)$ </p>\n<p>Here, number of arbitrary constant is one so, order of the differential equation is one.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "y=C_{1}e^{C_{2}+x}+C_{3}e^{C_{4}+x}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.867429"
+    },
+    {
+      "id": 8613,
+      "qid": "ltw4ppab",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-general-solution-of-the-differential-equation-x2-d-kcet-mathematics-complex-numbers-chlgweados45aw05",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The integrating factor of the differential equation $(2x+3y^{2})dy=ydx(y>0)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The integrating factor of the differential equation  $(2x+3y^{2})dy=ydx(y&gt;0)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{x}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{e^{y}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{e^{y}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{y^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{y^{2}}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{y^{2}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $-\\frac{1}{y^{2}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have differential equation, $\\begin{aligned} & (2x+3y^{2})dy=ydx,y>0 \\\\ & \\Rightarrow y\\frac{dx}{dy}=2x+3y^{2} \\Rightarrow \\frac{dx}{dy}-\\frac{2x}{y}=3y \\end{aligned}$ Which is linear differential equation in the form of $\\frac{dx}{dy}+Px=Q$ . $\\therefore I.F=e^{\\int Pdy}=e^{\\int \\frac{-2}{y}dy}=e^{-2logy}=e^{log(\\frac{1}{y^{2}})}=\\frac{1}{y^{2}}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have differential equation,</p>\n<p> $\\begin{aligned} &amp; (2x+3y^{2})dy=ydx,y&gt;0 \\\\ &amp; \\Rightarrow y\\frac{dx}{dy}=2x+3y^{2} \\Rightarrow \\frac{dx}{dy}-\\frac{2x}{y}=3y \\end{aligned}$ </p>\n<p>Which is linear differential equation in the form of  $\\frac{dx}{dy}+Px=Q$ .</p>\n<p> $\\therefore I.F=e^{\\int Pdy}=e^{\\int \\frac{-2}{y}dy}=e^{-2logy}=e^{log(\\frac{1}{y^{2}})}=\\frac{1}{y^{2}}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(2x+3y^{2})dy=ydx(y>0)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.638593"
+    },
+    {
+      "id": 8615,
+      "qid": "ltw4ppbb",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-general-solution-of-the-differential-equation-x2-d-kcet-mathematics-complex-numbers-chlgweados45aw05",
+      "exam": "KCET",
+      "year": 2019,
+      "paper_name": "KCET 2019",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The equation of the curve passing through the point $(1,1)$ such that the slope of the tangent at any point $(x,y)$ is equal to the product of its co-ordinates is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The equation of the curve passing through the point  $(1,1)$  such that the slope of the tangent at any point  $(x,y)$  is equal to the product of its co-ordinates is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2logy=x^{2}-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2logy=x^{2}-1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$2logx=y^{2}-1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2logx=y^{2}-1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$2logx=y^{2}+1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2logx=y^{2}+1$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$2logy=x^{2}+1$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $2logy=x^{2}+1$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "According to the question, slope of tangent at any point $(x,y)=$ product of its co-ordinates $\\begin{aligned} & \\Rightarrow \\frac{dy}{dx}=xy \\Rightarrow \\frac{dy}{y}=x \\cdot dx \\Rightarrow \\int \\frac{dy}{y}=\\int xdx \\\\ & \\Rightarrow logy=\\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ Eq. (i) passing through $(1,1)$ $\\therefore log1=\\frac{1}{2}+C \\Rightarrow C=-\\frac{1}{2}$ $\\therefore$ required equation of curves is $logy=\\frac{x^{2}}{2}-\\frac{1}{2} \\Rightarrow 2logy=x^{2}-1$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>According to the question, slope of tangent at any point  $(x,y)=$  product of its co-ordinates</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow \\frac{dy}{dx}=xy \\Rightarrow \\frac{dy}{y}=x \\cdot dx \\Rightarrow \\int \\frac{dy}{y}=\\int xdx \\\\ &amp; \\Rightarrow logy=\\frac{x^{2}}{2}+C\\text{.... (i)} \\end{aligned}$ </p>\n<p>Eq. (i) passing through  $(1,1)$ </p>\n<p> $\\therefore log1=\\frac{1}{2}+C \\Rightarrow C=-\\frac{1}{2}$ </p>\n<p> $\\therefore$  required equation of curves is</p>\n<p> $logy=\\frac{x^{2}}{2}-\\frac{1}{2} \\Rightarrow 2logy=x^{2}-1$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "(x,y)=",
+        "\\therefore log1=\\frac{1}{2}+C \\Rightarrow C=-\\frac{1}{2}",
+        "logy=\\frac{x^{2}}{2}-\\frac{1}{2} \\Rightarrow 2logy=x^{2}-1"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.676058"
+    },
+    {
+      "id": 8621,
+      "qid": "m7isgy4o",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-order-of-the-differential-equation-yc1-ec2x-kcet-mathematics-complex-numbers-d7c93poqeiuxuual",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The degree and the order of the differential equation $\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}$ respectively are",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The degree and the order of the differential equation  $\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}$  respectively are\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 and 3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2 and 3\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "3 and 2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3 and 2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "2 and 2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->2 and 2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "3 and 3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3 and 3<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To find the degree and the order of the differential equation, consider the given equation: $\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}$ To simplify the equation, cube both sides: $(\\frac{d^{2}y}{dx^{2}})^{3}=1+(\\frac{dy}{dx})^{2}$ Now, identify the order and degree of the equation. The order is determined by the highest derivative present, which in this case is $\\frac{d^{2}y}{dx^{2}}$ . Therefore, the order is 2. The degree is determined by the power of the highest derivative after the equation has been expressed in polynomial form (if possible). Since the highest power of $\\frac{d^{2}y}{dx^{2}}$ in this equation is 3, the degree is 3. Thus, the differential equation has a degree of 3 and an order of 2.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To find the degree and the order of the differential equation, consider the given equation:</p>\n<p> $\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}$ </p>\n<p>To simplify the equation, cube both sides:</p>\n<p> $(\\frac{d^{2}y}{dx^{2}})^{3}=1+(\\frac{dy}{dx})^{2}$ </p>\n<p>Now, identify the order and degree of the equation. The <strong>order</strong> is determined by the highest derivative present, which in this case is  $\\frac{d^{2}y}{dx^{2}}$ . Therefore, the order is 2.</p>\n<p>The <strong>degree</strong> is determined by the power of the highest derivative after the equation has been expressed in polynomial form (if possible). Since the highest power of  $\\frac{d^{2}y}{dx^{2}}$  in this equation is 3, the degree is 3.</p>\n<p>Thus, the differential equation has a degree of 3 and an order of 2.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{d^{2}y}{dx^{2}}=\\sqrt[3]{}",
+        "(\\frac{d^{2}y}{dx^{2}})^{3}=1+(\\frac{dy}{dx})^{2}",
+        "\\frac{d^{2}y}{dx^{2}}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.935580"
+    },
+    {
+      "id": 8623,
+      "qid": "m7ish2j5",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-order-of-the-differential-equation-yc1-ec2x-kcet-mathematics-complex-numbers-d7c93poqeiuxuual",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The solution of the differential equation $x\\frac{dy}{dx}-y=3$ represents a family of",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><ol start=\"\">\n<p>The solution of the differential equation  $x\\frac{dy}{dx}-y=3$  represents a family of</p>\n</ol><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "straight lines",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->straight lines\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "circles",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->circles\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "parabolas",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->parabolas\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "ellipses",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->ellipses<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the differential equation $x\\frac{dy}{dx}-y=3$ , we start by rewriting it: $x\\frac{dy}{dx}-y=3$ Rearrange the terms to isolate the derivatives: $xdy=(y+3)dx$ Separate variables to integrate both sides: $\\frac{dy}{y+3}=\\frac{dx}{x}$ Now, integrate both sides: $\\int \\frac{dy}{y+3}=\\int \\frac{dx}{x}$ After integration, we have: $log(y+3)=logx+logc$ This can be rewritten as: $log(y+3)=log(cx)$ Exponentiating both sides, we find: $y+3=cx$ This equation, $y=cx-3$ , represents a family of straight lines.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the differential equation  $x\\frac{dy}{dx}-y=3$ , we start by rewriting it:</p>\n<p> $x\\frac{dy}{dx}-y=3$ </p>\n<p>Rearrange the terms to isolate the derivatives:</p>\n<p> $xdy=(y+3)dx$ </p>\n<p>Separate variables to integrate both sides:</p>\n<p> $\\frac{dy}{y+3}=\\frac{dx}{x}$ </p>\n<p>Now, integrate both sides:</p>\n<p> $\\int \\frac{dy}{y+3}=\\int \\frac{dx}{x}$ </p>\n<p>After integration, we have:</p>\n<p> $log(y+3)=logx+logc$ </p>\n<p>This can be rewritten as:</p>\n<p> $log(y+3)=log(cx)$ </p>\n<p>Exponentiating both sides, we find:</p>\n<p> $y+3=cx$ </p>\n<p>This equation,  $y=cx-3$ , represents a family of straight lines.</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "x\\frac{dy}{dx}-y=3",
+        "xdy=(y+3)dx",
+        "\\frac{dy}{y+3}=\\frac{dx}{x}",
+        "\\int \\frac{dy}{y+3}=\\int \\frac{dx}{x}",
+        "log(y+3)=logx+logc",
+        "log(y+3)=log(cx)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:26.983414"
+    },
+    {
+      "id": 8625,
+      "qid": "m7isg10s",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pthe-order-of-the-differential-equation-yc1-ec2x-kcet-mathematics-complex-numbers-d7c93poqeiuxuual",
+      "exam": "KCET",
+      "year": 2018,
+      "paper_name": "KCET 2018",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "The integrating factor of $\\frac{dy}{dx}+y=\\frac{1+y}{x}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The integrating factor of  $\\frac{dy}{dx}+y=\\frac{1+y}{x}$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$xe^{x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $xe^{x}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$xe^{1/x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $xe^{1/x}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{e^{x}}{x}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{e^{x}}{x}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x}{e^{x}}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{e^{x}}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve for the integrating factor, we start with the differential equation: $\\frac{dy}{dx}+y=\\frac{1+y}{x}$ By manipulating the equation, it can be rewritten as: Subtract $\\frac{y}{x}$ from both sides: $\\frac{dy}{dx}+y-\\frac{y}{x}=\\frac{1}{x}$ Rearrange to: $\\frac{dy}{dx}+(1-\\frac{1}{x})y=\\frac{1}{x}$ In this form, we identify: $P=1-\\frac{1}{x}$ $Q=\\frac{1}{x}$ Next, we find the integrating factor (I.F.), given by: $\\text{I.F.}=e^{\\int Pdx}$ Calculate the integral of $P$ : $\\int Pdx=\\int (1-\\frac{1}{x})dx=\\int 1dx-\\int \\frac{1}{x}dx=x-logx$ Substituting back into the expression for the integrating factor: $\\text{I.F.}=e^{(x-logx)}=\\frac{e^{x}}{e^{logx}}=\\frac{e^{x}}{x}$ Thus, the integrating factor is $\\frac{e^{x}}{x}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve for the integrating factor, we start with the differential equation:</p>\n<p> $\\frac{dy}{dx}+y=\\frac{1+y}{x}$ </p>\n<p>By manipulating the equation, it can be rewritten as:</p>\n<p><p>Subtract  $\\frac{y}{x}$  from both sides:</p>\n<p> $\\frac{dy}{dx}+y-\\frac{y}{x}=\\frac{1}{x}$ </p></p>\n<p><p>Rearrange to:</p>\n<p> $\\frac{dy}{dx}+(1-\\frac{1}{x})y=\\frac{1}{x}$ </p></p>\n<p>In this form, we identify:</p>\n<p><p> $P=1-\\frac{1}{x}$ </p></p>\n<p><p> $Q=\\frac{1}{x}$ </p></p>\n<p>Next, we find the integrating factor (I.F.), given by:</p>\n<p> $\\text{I.F.}=e^{\\int Pdx}$ </p>\n<p>Calculate the integral of  $P$ :</p>\n<p> $\\int Pdx=\\int (1-\\frac{1}{x})dx=\\int 1dx-\\int \\frac{1}{x}dx=x-logx$ </p>\n<p>Substituting back into the expression for the integrating factor:</p>\n<p> $\\text{I.F.}=e^{(x-logx)}=\\frac{e^{x}}{e^{logx}}=\\frac{e^{x}}{x}$ </p>\n<p>Thus, the integrating factor is  $\\frac{e^{x}}{x}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\frac{dy}{dx}+y=\\frac{1+y}{x}",
+        "\\frac{y}{x}",
+        "\\frac{dy}{dx}+y-\\frac{y}{x}=\\frac{1}{x}",
+        "\\frac{dy}{dx}+(1-\\frac{1}{x})y=\\frac{1}{x}",
+        "P=1-\\frac{1}{x}",
+        "Q=\\frac{1}{x}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.046280"
+    },
+    {
+      "id": 8628,
+      "qid": "m9duqfvj",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/general-solution-of-differential-equations-fracd-yd-x-kcet-mathematics-complex-numbers-kydmf44pmofljqkw",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "General solution of differential equations $\\frac{dy}{dx}+y=1(y \\ne 1)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>General solution of differential equations </p>\n<p> $\\frac{dy}{dx}+y=1(y \\ne 1)$  is</p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$log|\\frac{1}{1-y}|=x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|\\frac{1}{1-y}|=x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log|1-y|=x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log|1-y|=x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$log|1+y|=x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log|1+y|=x+C$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$log|\\frac{1}{1-y}|=-x+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $log|\\frac{1}{1-y}|=-x+C$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $\\begin{aligned} & \\frac{dy}{dx}+y=1 \\\\ \\Rightarrow & \\frac{dy}{dx}=1-y \\\\ \\Rightarrow & \\frac{1}{1-y}dy=dx \\end{aligned}$ On integrating both the sides, we have $\\begin{aligned} & \\int \\frac{1}{1-y}dy=\\int dx \\\\ & \\Rightarrow -log|1-y|=x+C \\\\ & \\Rightarrow log|\\frac{1}{1-y}|=x+C \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>We have,</p>\n<p> $\\begin{aligned} &amp; \\frac{dy}{dx}+y=1 \\\\ \\Rightarrow &amp; \\frac{dy}{dx}=1-y \\\\ \\Rightarrow &amp; \\frac{1}{1-y}dy=dx \\end{aligned}$ </p>\n<p>On integrating both the sides, we have</p>\n<p> $\\begin{aligned} &amp; \\int \\frac{1}{1-y}dy=\\int dx \\\\ &amp; \\Rightarrow -log|1-y|=x+C \\\\ &amp; \\Rightarrow log|\\frac{1}{1-y}|=x+C \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\frac{dy}{dx}+y=1(y \\ne 1)"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.226157"
+    },
+    {
+      "id": 8630,
+      "qid": "m9dur439",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/general-solution-of-differential-equations-fracd-yd-x-kcet-mathematics-complex-numbers-kydmf44pmofljqkw",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "The degree of the differential equation $[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->The degree of the differential equation  $[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}$  is\n<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->3\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 2\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 1\n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> 4<!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "We have, $[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}$ Since, power of $\\frac{d^{2}y}{dx^{2}}$ is 1 . $\\therefore$ Degree of the given differential equation is 1 .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> We have,</p>\n<p> $[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}$ </p>\n<p>Since, power of  $\\frac{d^{2}y}{dx^{2}}$  is 1 .</p>\n<p> $\\therefore$  Degree of the given differential equation is 1 .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Easy",
+      "key_formulas": [
+        "[1+(\\frac{dy}{dx})^{2}]^{2}=\\frac{d^{2}y}{dx^{2}}",
+        "\\frac{d^{2}y}{dx^{2}}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.258716"
+    },
+    {
+      "id": 8634,
+      "qid": "m9dur4z8",
+      "chapter_slug": "kcet-differential-equations",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/general-solution-of-differential-equations-fracd-yd-x-kcet-mathematics-complex-numbers-kydmf44pmofljqkw",
+      "exam": "KCET",
+      "year": 2017,
+      "paper_name": "KCET 2017",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "The integrating factor of the differential equation $x \\cdot \\frac{dy}{dx}+2y=x^{2}$ is $(x \\ne 0)$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>The integrating factor of the differential equation </p>\n<p> $x \\cdot \\frac{dy}{dx}+2y=x^{2}$  is  $(x \\ne 0)$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$log|x|$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $log|x|$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$x^{2}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $x^{2}$ \n<!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$e^{logx}$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START -->  $e^{logx}$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "To solve the differential equation, we start with: $x\\frac{dy}{dx}+2y=x^{2}$ Rewriting it in standard linear form, we have: $\\frac{dy}{dx}+\\frac{2}{x}y=x$ This is a linear differential equation, and to solve it, we need to find the integrating factor. The integrating factor, $\\mu(x)$ , is given by: $\\mu(x)=e^{\\int \\frac{2}{x}dx}$ Calculating the integral, we get: $\\mu(x)=e^{2logx}$ Using the properties of logarithms and exponents: $e^{2logx}=e^{logx^{2}}=x^{2}$ Thus, the integrating factor is $x^{2}$ .",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p>To solve the differential equation, we start with:</p>\n<p> $x\\frac{dy}{dx}+2y=x^{2}$ </p>\n<p>Rewriting it in standard linear form, we have:</p>\n<p> $\\frac{dy}{dx}+\\frac{2}{x}y=x$ </p>\n<p>This is a linear differential equation, and to solve it, we need to find the integrating factor. The integrating factor,  $\\mu(x)$ , is given by:</p>\n<p> $\\mu(x)=e^{\\int \\frac{2}{x}dx}$ </p>\n<p>Calculating the integral, we get:</p>\n<p> $\\mu(x)=e^{2logx}$ </p>\n<p>Using the properties of logarithms and exponents:</p>\n<p> $e^{2logx}=e^{logx^{2}}=x^{2}$ </p>\n<p>Thus, the integrating factor is  $x^{2}$ .</p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Kcet Differential Equations - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "x \\cdot \\frac{dy}{dx}+2y=x^{2}",
+        "x\\frac{dy}{dx}+2y=x^{2}",
+        "\\frac{dy}{dx}+\\frac{2}{x}y=x",
+        "\\mu(x)=e^{\\int \\frac{2}{x}dx}",
+        "\\mu(x)=e^{2logx}",
+        "e^{2logx}=e^{logx^{2}}=x^{2}"
+      ],
+      "key_concepts": [
+        "Kcet Differential Equations - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:26:27.322036"
+    }
+  ]
+}

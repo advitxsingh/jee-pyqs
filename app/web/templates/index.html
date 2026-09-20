@@ -103,7 +103,7 @@
             J27
           </div>
           <div class="flex items-baseline space-x-2">
-            <h1 class="text-xs sm:text-sm font-semibold tracking-tight text-zinc-100">
+            <h1 id="brand-title" class="text-xs sm:text-sm font-semibold tracking-tight text-zinc-100">
               JEE 2027 Studio
             </h1>
             <span class="text-[11px] text-zinc-500 font-mono hidden sm:inline">Concept Matrix &amp; PYQ Analyzer</span>
@@ -123,12 +123,21 @@
         </div>
       </div>
 
-      <!-- Subject Segmented Control -->
-      <div class="inline-flex p-0.5 bg-zinc-900 border border-zinc-800/80 rounded-md text-xs font-medium overflow-x-auto no-scrollbar w-full sm:w-auto flex-shrink-0">
-        <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm">All Subjects</button>
-        <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Chemistry</button>
-        <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Physics</button>
-        <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Maths</button>
+      <!-- Exam Switcher & Subject Controls -->
+      <div class="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+        <!-- Exam Switcher (JEE Main vs KCET) -->
+        <div class="inline-flex p-0.5 bg-zinc-900 border border-zinc-800/80 rounded-md text-xs font-medium flex-shrink-0">
+          <button onclick="setExamFilter('jee-main')" id="exam-btn-jee" class="px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm">JEE Main</button>
+          <button onclick="setExamFilter('kcet')" id="exam-btn-kcet" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">KCET</button>
+        </div>
+
+        <!-- Subject Segmented Control -->
+        <div class="inline-flex p-0.5 bg-zinc-900 border border-zinc-800/80 rounded-md text-xs font-medium overflow-x-auto no-scrollbar flex-shrink-0">
+          <button onclick="setSubjectFilter('all')" id="sub-btn-all" class="px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm">All Subjects</button>
+          <button onclick="setSubjectFilter('chemistry')" id="sub-btn-chemistry" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Chemistry</button>
+          <button onclick="setSubjectFilter('physics')" id="sub-btn-physics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Physics</button>
+          <button onclick="setSubjectFilter('mathematics')" id="sub-btn-mathematics" class="px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap">Maths</button>
+        </div>
       </div>
 
       <!-- Desktop Controls -->
@@ -353,6 +362,7 @@
 
   <!-- JAVASCRIPT LOGIC -->
   <script>
+    let currentExam = 'jee-main';
     let currentSubject = 'all';
     let currentChapterSlug = 'electrochemistry';
     let allChapters = [];
@@ -360,7 +370,10 @@
     let filterDebounceTimer = null;
 
     // Pilot chapters priority order
-    const PILOT_SLUGS = ['electrochemistry', 'electromagnetic-induction', 'alternating-current', 'vector-algebra'];
+    const PILOT_SLUGS = [
+      'electrochemistry', 'electromagnetic-induction', 'alternating-current', 'vector-algebra',
+      'kcet-electrochemistry', 'kcet-electromagnetic-induction', 'kcet-vector-algebra'
+    ];
 
     function toggleDarkMode() {
       const isDark = document.documentElement.classList.toggle('dark');
@@ -404,6 +417,33 @@
       renderCrawlerTable();
     }
 
+    function setExamFilter(exam) {
+      currentExam = exam;
+      const btnJee = document.getElementById('exam-btn-jee');
+      const btnKcet = document.getElementById('exam-btn-kcet');
+      const brandTitle = document.getElementById('brand-title');
+
+      if (exam === 'kcet') {
+        btnKcet.className = 'px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm';
+        btnJee.className = 'px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap';
+        if (brandTitle) brandTitle.innerText = 'KCET 2027 Studio';
+        if (!currentChapterSlug.startsWith('kcet-')) {
+          const firstKcet = allChapters.find(c => c.slug.startsWith('kcet-') && (c.stored_questions > 0 || c.status === 'analyzed'));
+          currentChapterSlug = firstKcet ? firstKcet.slug : 'kcet-electrochemistry';
+        }
+      } else {
+        btnJee.className = 'px-2.5 py-1 rounded text-xs font-medium transition whitespace-nowrap bg-zinc-800 text-zinc-100 border border-zinc-700/60 shadow-sm';
+        btnKcet.className = 'px-2.5 py-1 rounded text-xs font-medium text-zinc-400 hover:text-zinc-200 transition whitespace-nowrap';
+        if (brandTitle) brandTitle.innerText = 'JEE 2027 Studio';
+        if (currentChapterSlug.startsWith('kcet-')) {
+          currentChapterSlug = 'electrochemistry';
+        }
+      }
+      renderChapterPills();
+      renderCrawlerTable();
+      selectChapter(currentChapterSlug);
+    }
+
     function setSubjectFilter(sub) {
       currentSubject = sub;
       ['all', 'chemistry', 'physics', 'mathematics'].forEach(s => {
@@ -422,10 +462,13 @@
       const container = document.getElementById('chapter-pills-container');
       container.innerHTML = '';
 
-      let filtered = allChapters;
-      if (currentSubject !== 'all') {
-        filtered = allChapters.filter(c => c.subject.toLowerCase() === currentSubject.toLowerCase());
-      }
+      let filtered = allChapters.filter(c => {
+        const isKcet = c.slug.startsWith('kcet-');
+        if (currentExam === 'kcet' && !isKcet) return false;
+        if (currentExam === 'jee-main' && isKcet) return false;
+        if (currentSubject !== 'all' && c.subject.toLowerCase() !== currentSubject.toLowerCase()) return false;
+        return true;
+      });
 
       // Sort: pilot chapters first, then by stored questions desc
       filtered.sort((a, b) => {
@@ -447,8 +490,9 @@
             : 'bg-transparent text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900 border-transparent'
         }`;
 
+        const cleanTitle = ch.title.replace(/^KCET\s*[:-]?\s*/i, '');
         btn.innerHTML = `
-          <span>${ch.title}</span>
+          <span>${cleanTitle}</span>
           <span class="text-[11px] font-mono text-zinc-500">
             ${ch.stored_questions || 0}
           </span>
@@ -499,8 +543,11 @@
 
     function renderConceptsView() {
       const ch = currentChapterData.chapter;
-      document.getElementById('concept-chapter-sub').innerText = ch.subject.toUpperCase();
-      document.getElementById('concept-chapter-title').innerText = `${ch.title} — Concept Matrix`;
+      const isKcet = ch.slug.startsWith('kcet-');
+      const examName = isKcet ? 'KCET' : 'JEE MAIN';
+      document.getElementById('concept-chapter-sub').innerText = `${examName} · ${ch.subject.toUpperCase()}`;
+      const cleanTitle = ch.title.replace(/^KCET\s*[:-]?\s*/i, '');
+      document.getElementById('concept-chapter-title').innerText = `${cleanTitle} — Concept Matrix`;
       document.getElementById('concept-count-badge').innerText = currentChapterData.concepts.length;
 
       const container = document.getElementById('concepts-container');
@@ -840,10 +887,13 @@
       const tbody = document.getElementById('crawler-chapters-tbody');
       tbody.innerHTML = '';
 
-      let list = allChapters;
-      if (currentSubject !== 'all') {
-        list = allChapters.filter(c => c.subject.toLowerCase() === currentSubject.toLowerCase());
-      }
+      let list = allChapters.filter(c => {
+        const isKcet = c.slug.startsWith('kcet-');
+        if (currentExam === 'kcet' && !isKcet) return false;
+        if (currentExam === 'jee-main' && isKcet) return false;
+        if (currentSubject !== 'all' && c.subject.toLowerCase() !== currentSubject.toLowerCase()) return false;
+        return true;
+      });
 
       list.forEach(ch => {
         const tr = document.createElement('tr');

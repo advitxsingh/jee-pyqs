@@ -1,5 +1,704 @@
 {
   "chapter_slug": "indefinite-integrals",
-  "total": 0,
-  "questions": []
+  "total": 18,
+  "questions": [
+    {
+      "id": 22941,
+      "qid": "ml89h7r9",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-intsin-xfrac-112cos-xfrac-52-d-jee-main-mathematics-trigonometric-functions-and-equations-tizhgjgvpku4su8h",
+      "exam": "JEE Main",
+      "year": 2026,
+      "paper_name": "JEE Main 2026 (Online) 22nd January Morning Shift",
+      "exam_date": "22nd January",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "Numerical",
+      "question_text": "If $\\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=-\\frac{p_{1}}{q_{1}}(cotx)^{\\frac{9}{2}}-\\frac{p_{2}}{q_{2}}(cotx)^{\\frac{5}{2}}-\\frac{p_{3}}{q_{3}}(cotx)^{\\frac{1}{2}}+\\frac{p_{4}}{q_{4}}(cotx)^{\\frac{-3}{2}}+C$ , where $p_{i}$ and $q_{i}$ are positive integers with $gcd(p_{i},q_{i})=1$ for $i=1,2,3,4$ and C is the constant of integration, then $\\frac{15p_{1}p_{2}p_{3}p_{4}}{q_{1}q_{2}q_{3}q_{4}}$ is equal to $____$",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=-\\frac{p_{1}}{q_{1}}(cotx)^{\\frac{9}{2}}-\\frac{p_{2}}{q_{2}}(cotx)^{\\frac{5}{2}}-\\frac{p_{3}}{q_{3}}(cotx)^{\\frac{1}{2}}+\\frac{p_{4}}{q_{4}}(cotx)^{\\frac{-3}{2}}+C$ , where  $p_{i}$  and  $q_{i}$  are positive integers with  $gcd(p_{i},q_{i})=1$  for  $i=1,2,3,4$  and C is the constant of integration, then  $\\frac{15p_{1}p_{2}p_{3}p_{4}}{q_{1}q_{2}q_{3}q_{4}}$  is equal to  $____$ </p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "16",
+      "explanation_text": "$\\begin{aligned} & \\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=\\int \\frac{1}{Tan^{11/2}x} \\cdot sec^{8}xdx=\\int \\frac{(1+Tan^{2}x)^{3}sec^{2}x}{Tan^{11/2}x}dx \\\\ & \\text{put}Tanx=t \\\\ & \\frac{15p_{1}p_{2}p_{3}p_{4}}{q_{1}q_{2}q_{3}q_{4}}=\\frac{15(2 \\times 6 \\times 6 \\times 2)}{9 \\times 5 \\times 1 \\times 3}=16 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int (sinx)^{\\frac{-11}{2}}(cosx)^{\\frac{-5}{2}}dx=\\int \\frac{1}{Tan^{11/2}x} \\cdot sec^{8}xdx=\\int \\frac{(1+Tan^{2}x)^{3}sec^{2}x}{Tan^{11/2}x}dx \\\\ &amp; \\text{put}Tanx=t \\\\ &amp; \\frac{15p_{1}p_{2}p_{3}p_{4}}{q_{1}q_{2}q_{3}q_{4}}=\\frac{15(2 \\times 6 \\times 6 \\times 2)}{9 \\times 5 \\times 1 \\times 3}=16 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:00.279662"
+    },
+    {
+      "id": 22943,
+      "qid": "m9dwktzy",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-intsin-xfrac-112cos-xfrac-52-d-jee-main-mathematics-trigonometric-functions-and-equations-tizhgjgvpku4su8h",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 7th April Evening Shift",
+      "exam_date": "7th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "Numerical",
+      "question_text": "If $\\int (\\frac{1}{x}+\\frac{1}{x^{3}})(\\sqrt[23]{})dx=-\\frac{\\alpha}{3(\\alpha+1)}(3x^{\\beta}+x^{\\gamma})^{\\frac{\\alpha+1}{\\alpha}}+C,x>0,(\\alpha,\\beta,\\gamma \\in Z)$ , where C is the constant of integration, then $\\alpha+\\beta+\\gamma$ is equal to ___________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int (\\frac{1}{x}+\\frac{1}{x^{3}})(\\sqrt[23]{})dx=-\\frac{\\alpha}{3(\\alpha+1)}(3x^{\\beta}+x^{\\gamma})^{\\frac{\\alpha+1}{\\alpha}}+C,x&gt;0,(\\alpha,\\beta,\\gamma \\in Z)$ , where C is the constant of integration, then  $\\alpha+\\beta+\\gamma$  is equal to ___________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "19",
+      "explanation_text": "$\\begin{aligned} & \\int (\\frac{1}{x^{2}}+\\frac{1}{x^{4}})(\\frac{3}{x}+\\frac{1}{x^{3}})^{\\frac{1}{23}}dx \\\\ & \\text{using}t=\\frac{3}{x}+\\frac{1}{x^{3}} \\Rightarrow dt=-3(\\frac{1}{x^{2}}+\\frac{1}{x^{4}})dx \\\\ & \\int \\frac{t^{1/23}dt}{-3}=\\frac{t^{24/23}}{(\\frac{24}{23})(-3)}+C \\\\ & \\Rightarrow \\alpha=23\\beta=-1\\gamma=-3 \\\\ & \\alpha+\\beta+\\gamma=19 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\int (\\frac{1}{x^{2}}+\\frac{1}{x^{4}})(\\frac{3}{x}+\\frac{1}{x^{3}})^{\\frac{1}{23}}dx \\\\ &amp; \\text{using}t=\\frac{3}{x}+\\frac{1}{x^{3}} \\Rightarrow dt=-3(\\frac{1}{x^{2}}+\\frac{1}{x^{4}})dx \\\\ &amp; \\int \\frac{t^{1/23}dt}{-3}=\\frac{t^{24/23}}{(\\frac{24}{23})(-3)}+C \\\\ &amp; \\Rightarrow \\alpha=23\\beta=-1\\gamma=-3 \\\\ &amp; \\alpha+\\beta+\\gamma=19 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "is equal to ___________."
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:00.315115"
+    },
+    {
+      "id": 22945,
+      "qid": "m9fnusz6",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-intsin-xfrac-112cos-xfrac-52-d-jee-main-mathematics-trigonometric-functions-and-equations-tizhgjgvpku4su8h",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 4th April Evening Shift",
+      "exam_date": "4th April",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{(\\sqrt{1+x^{2}}+x)^{10}}{(\\sqrt{1+x^{2}}-x)^{9}}dx=\\frac{1}{m}((\\sqrt{1+x^{2}}+x)^{n}(n\\sqrt{1+x^{2}}-x))+C$ where C is the constant of integration and $m,n \\in N$ , then $m+n$ is equal to _________ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int \\frac{(\\sqrt{1+x^{2}}+x)^{10}}{(\\sqrt{1+x^{2}}-x)^{9}}dx=\\frac{1}{m}((\\sqrt{1+x^{2}}+x)^{n}(n\\sqrt{1+x^{2}}-x))+C$  where C is the constant of integration and  $m,n \\in N$ , then  $m+n$  is equal to _________ .</p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "379",
+      "explanation_text": "$\\begin{aligned} & \\sqrt{1+x^{2}}+x=sec\\theta+tan\\theta=t \\\\ & \\sqrt{1+x^{2}}=sec\\theta=\\frac{t^{2}+1}{2t} \\\\ & x=tan\\theta=\\frac{t^{2}-1}{2t} \\end{aligned}$ The given expression becomes $\\frac{1}{m}t^{2}(n \\cdot \\frac{t^{2}+1}{2t}-\\frac{t^{2}-1}{2t})=\\frac{t^{n-1}}{2m}((n-1)t^{2}+n+1)$ By compare $\\begin{aligned} & n=19 \\\\ & m=360 \\\\ & \\therefore n+m=379 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; \\sqrt{1+x^{2}}+x=sec\\theta+tan\\theta=t \\\\ &amp; \\sqrt{1+x^{2}}=sec\\theta=\\frac{t^{2}+1}{2t} \\\\ &amp; x=tan\\theta=\\frac{t^{2}-1}{2t} \\end{aligned}$ </p>\n<p>The given expression becomes</p>\n<p> $\\frac{1}{m}t^{2}(n \\cdot \\frac{t^{2}+1}{2t}-\\frac{t^{2}-1}{2t})=\\frac{t^{n-1}}{2m}((n-1)t^{2}+n+1)$ </p>\n<p>By compare</p>\n<p> $\\begin{aligned} &amp; n=19 \\\\ &amp; m=360 \\\\ &amp; \\therefore n+m=379 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "is equal to _________ ."
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:00.354430"
+    },
+    {
+      "id": 22947,
+      "qid": "m6v42gc3",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-intsin-xfrac-112cos-xfrac-52-d-jee-main-mathematics-trigonometric-functions-and-equations-tizhgjgvpku4su8h",
+      "exam": "JEE Main",
+      "year": 2025,
+      "paper_name": "JEE Main 2025 (Online) 24th January Evening Shift",
+      "exam_date": "24th January",
+      "shift": "Evening Shift",
+      "question_index": 4,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{2x^{2}+5x+9}{\\sqrt{x^{2}+x+1}}dx=x\\sqrt{x^{2}+x+1}+\\alpha\\sqrt{x^{2}+x+1}+\\beta log_{e}|x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}|+C$ , where $C$ is the constant of integration, then $\\alpha+2\\beta$ is equal to __________ .",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int \\frac{2x^{2}+5x+9}{\\sqrt{x^{2}+x+1}}dx=x\\sqrt{x^{2}+x+1}+\\alpha\\sqrt{x^{2}+x+1}+\\beta log_{e}|x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}|+C$ , where  $C$  is the constant of integration, then  $\\alpha+2\\beta$  is equal to __________ .</p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "16",
+      "explanation_text": "$\\begin{aligned} & 2x^{2}+5x+9=A(x^{2}+x+1)+B(2x+1)+C \\\\ & A=2B=\\frac{3}{2}C=\\frac{11}{2} \\end{aligned}$ $\\begin{aligned} & 2\\int \\sqrt{x^{2}+x+1}dx+\\frac{3}{2}\\int \\frac{2x+1}{\\sqrt{x^{2}+x+1}}dx+\\frac{11}{2}\\int \\frac{dx}{\\sqrt{x^{2}+x+1}} \\\\ & 2\\int \\sqrt{⎷(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}}dx+3\\sqrt{x^{2}+x+1}+\\frac{11}{2}\\int \\frac{dx}{\\sqrt{(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}}} \\\\ & 2(\\frac{x+\\frac{1}{2}}{2}\\sqrt{x^{2}+x+1}+\\frac{3}{8}\\ell n(x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}))+3\\sqrt{x^{2}+x+1} \\\\ & +\\frac{11}{2}\\ell n(x+\\frac{1}{2}+\\sqrt{x^{2}+x+1})+C \\\\ & \\alpha=\\frac{7}{2} \\\\ & \\alpha+2\\beta=16 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; 2x^{2}+5x+9=A(x^{2}+x+1)+B(2x+1)+C \\\\ &amp; A=2B=\\frac{3}{2}C=\\frac{11}{2} \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; 2\\int \\sqrt{x^{2}+x+1}dx+\\frac{3}{2}\\int \\frac{2x+1}{\\sqrt{x^{2}+x+1}}dx+\\frac{11}{2}\\int \\frac{dx}{\\sqrt{x^{2}+x+1}} \\\\ &amp; 2\\int \\sqrt{⎷(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}}dx+3\\sqrt{x^{2}+x+1}+\\frac{11}{2}\\int \\frac{dx}{\\sqrt{(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}}} \\\\ &amp; 2(\\frac{x+\\frac{1}{2}}{2}\\sqrt{x^{2}+x+1}+\\frac{3}{8}\\ell n(x+\\frac{1}{2}+\\sqrt{x^{2}+x+1}))+3\\sqrt{x^{2}+x+1} \\\\ &amp; +\\frac{11}{2}\\ell n(x+\\frac{1}{2}+\\sqrt{x^{2}+x+1})+C \\\\ &amp; \\alpha=\\frac{7}{2} \\\\ &amp; \\alpha+2\\beta=16 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "is equal to __________ ."
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:00.388692"
+    },
+    {
+      "id": 22953,
+      "qid": "lv3vefpq",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-int-frac1sqrt5x-14x36-mathrmd-jee-main-mathematics-trigonometric-functions-and-equations-zzvoio0w4wtkzeze",
+      "exam": "JEE Main",
+      "year": 2024,
+      "paper_name": "JEE Main 2024 (Online) 8th April Evening Shift",
+      "exam_date": "8th April",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C$ , where $C$ is the constant of integration, then the value of $\\alpha+\\beta+20AB$ is _________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C$ , where  $C$  is the constant of integration, then the value of  $\\alpha+\\beta+20AB$  is _________.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "7",
+      "explanation_text": "$\\begin{aligned} & I=\\int \\frac{1}{\\sqrt[5]{}}dx \\\\ & \\frac{x+3}{x-1}=t \\Rightarrow dx=\\frac{-4}{(t-1)^{2}}dt \\Rightarrow x=(\\frac{3+t}{t-1}) \\\\ & \\Rightarrow (x-1)^{4}(x+3)^{6}=(x-1)^{5}(x+3)^{5}(\\frac{x+3}{x-1}) \\\\ & I=\\int \\frac{\\frac{-4}{(t-1)^{2}}dt}{t^{1/5}(\\frac{3+t}{t-1}-1)(\\frac{3+t}{t-3}+3)} \\\\ & I=\\int \\frac{-4dt}{t^{1/5}(16t)}=\\frac{5}{4}(\\frac{x-1}{x+3})^{1/5}+c \\end{aligned}$ Comparing, $\\begin{aligned} & \\Rightarrow A=\\frac{5}{4},B=\\frac{1}{5},\\alpha=1,\\beta=1 \\\\ & \\Rightarrow \\alpha+\\beta+20AB=1+1+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; I=\\int \\frac{1}{\\sqrt[5]{}}dx \\\\ &amp; \\frac{x+3}{x-1}=t \\Rightarrow dx=\\frac{-4}{(t-1)^{2}}dt \\Rightarrow x=(\\frac{3+t}{t-1}) \\\\ &amp; \\Rightarrow (x-1)^{4}(x+3)^{6}=(x-1)^{5}(x+3)^{5}(\\frac{x+3}{x-1}) \\\\ &amp; I=\\int \\frac{\\frac{-4}{(t-1)^{2}}dt}{t^{1/5}(\\frac{3+t}{t-1}-1)(\\frac{3+t}{t-3}+3)} \\\\ &amp; I=\\int \\frac{-4dt}{t^{1/5}(16t)}=\\frac{5}{4}(\\frac{x-1}{x+3})^{1/5}+c \\end{aligned}$ </p>\n<p>Comparing,</p>\n<p> $\\begin{aligned} &amp; \\Rightarrow A=\\frac{5}{4},B=\\frac{1}{5},\\alpha=1,\\beta=1 \\\\ &amp; \\Rightarrow \\alpha+\\beta+20AB=1+1+20 \\times \\frac{5}{4} \\times \\frac{1}{5}=7 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{1}{\\sqrt[5]{}}dx=A(\\frac{\\alpha x-1}{\\beta x+3})^{B}+C",
+        "is _________."
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.002720"
+    },
+    {
+      "id": 22955,
+      "qid": "lv2eqxr8",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-int-frac1sqrt5x-14x36-mathrmd-jee-main-mathematics-trigonometric-functions-and-equations-zzvoio0w4wtkzeze",
+      "exam": "JEE Main",
+      "year": 2024,
+      "paper_name": "JEE Main 2024 (Online) 4th April Evening Shift",
+      "exam_date": "4th April",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "Numerical",
+      "question_text": "If $\\int cosec^{5}xdx=\\alpha cotxcosecx(cosec^{2}x+\\frac{3}{2})+\\beta log_{x}|tan\\frac{x}{2}|+C$ where $\\alpha,\\beta \\in ℝ$ and $C$ is the constant of integration, then the value of $8(\\alpha+\\beta)$ equals _________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>If  $\\int cosec^{5}xdx=\\alpha cotxcosecx(cosec^{2}x+\\frac{3}{2})+\\beta log_{x}|tan\\frac{x}{2}|+C$ \nwhere  $\\alpha,\\beta \\in ℝ$  and  $C$  is the constant of integration, then the value of  $8(\\alpha+\\beta)$  equals _________.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "1",
+      "explanation_text": "$\\begin{aligned} & I=\\int (cosecx)^{5}dx=\\int (cosecx)^{3}(cosecx)^{2}dx \\\\ & =(cosecx)^{3}\\int cosec^{2}xdx- \\\\ & \\int (\\frac{d}{dx}(cosecx)^{3}\\int cosec^{2}xdx)dx \\end{aligned}$ $\\begin{aligned} & =-cotx(cosecx)^{3}-\\int 3cosec^{2}x \\cdot (-cosecxcotx)(-cotx)dx \\\\ & =-cotx(cosecx)^{3}-\\int 3cosec^{3}xcot^{2}xdx \\\\ & =-cotx(cosecx)^{3}-3\\int (cosecx)^{3}(cosec^{2}x-1)dx \\\\ & I=-cotx(cosecx)^{3}-3I+3\\int (cosecx)^{3}dx \\\\ & 4I=-cotx(cosecx)^{3}+3\\int (cosecx)^{3}dx \\\\ & =-cotx(cosecx)^{3}+3I_{1} \\\\ & I_{1}=\\int cosecx \\cdot cosec^{2}xdx=cosecx(-cotx)- \\\\ & \\int (-cosecxcotx)(-cotx)dx \\end{aligned}$ $\\begin{aligned} & I_{1}=-cosecxcotx-\\int cosecx(cosec^{2}x-1)dx \\\\ & I_{1}=-cosecxcotx-I+\\int cosecxdx \\\\ & 2l_{1}=-cosecxcotx+ln|tan\\frac{x}{2}| \\\\ & \\Rightarrow 4l=-cotx(cosecx)^{3}-\\frac{3}{2}cosecxcotx+\\frac{3}{2}ln|tan\\frac{x}{2}|+C \\end{aligned}$ $\\begin{aligned} & I=-\\frac{1}{4}cosecxcotx(cosec^{2}x+\\frac{3}{2})+\\frac{3}{8}ln|tan\\frac{x}{2}|+C \\\\ & \\Rightarrow \\alpha=-\\frac{1}{4},\\beta=\\frac{3}{8} \\Rightarrow 8(\\alpha+\\beta)=1 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $\\begin{aligned} &amp; I=\\int (cosecx)^{5}dx=\\int (cosecx)^{3}(cosecx)^{2}dx \\\\ &amp; =(cosecx)^{3}\\int cosec^{2}xdx- \\\\ &amp; \\int (\\frac{d}{dx}(cosecx)^{3}\\int cosec^{2}xdx)dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; =-cotx(cosecx)^{3}-\\int 3cosec^{2}x \\cdot (-cosecxcotx)(-cotx)dx \\\\ &amp; =-cotx(cosecx)^{3}-\\int 3cosec^{3}xcot^{2}xdx \\\\ &amp; =-cotx(cosecx)^{3}-3\\int (cosecx)^{3}(cosec^{2}x-1)dx \\\\ &amp; I=-cotx(cosecx)^{3}-3I+3\\int (cosecx)^{3}dx \\\\ &amp; 4I=-cotx(cosecx)^{3}+3\\int (cosecx)^{3}dx \\\\ &amp; =-cotx(cosecx)^{3}+3I_{1} \\\\ &amp; I_{1}=\\int cosecx \\cdot cosec^{2}xdx=cosecx(-cotx)- \\\\ &amp; \\int (-cosecxcotx)(-cotx)dx \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; I_{1}=-cosecxcotx-\\int cosecx(cosec^{2}x-1)dx \\\\ &amp; I_{1}=-cosecxcotx-I+\\int cosecxdx \\\\ &amp; 2l_{1}=-cosecxcotx+ln|tan\\frac{x}{2}| \\\\ &amp; \\Rightarrow 4l=-cotx(cosecx)^{3}-\\frac{3}{2}cosecxcotx+\\frac{3}{2}ln|tan\\frac{x}{2}|+C \\end{aligned}$ </p>\n<p> $\\begin{aligned} &amp; I=-\\frac{1}{4}cosecxcotx(cosec^{2}x+\\frac{3}{2})+\\frac{3}{8}ln|tan\\frac{x}{2}|+C \\\\ &amp; \\Rightarrow \\alpha=-\\frac{1}{4},\\beta=\\frac{3}{8} \\Rightarrow 8(\\alpha+\\beta)=1 \\end{aligned}$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "equals _________."
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.051669"
+    },
+    {
+      "id": 22963,
+      "qid": "ldr0pnrl",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-int-sqrtsec-2-x-1-d-xalpha-log-eleftcos-2-x-jee-main-mathematics-otsbe07xq3eqbyyv",
+      "exam": "JEE Main",
+      "year": 2023,
+      "paper_name": "JEE Main 2023 (Online) 30th January Evening Shift",
+      "exam_date": "30th January",
+      "shift": "Evening Shift",
+      "question_index": 1,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\sqrt{sec2x-1}dx=\\alpha log_{e}|cos2x+\\beta+\\sqrt{cos2x(1+cos\\frac{1}{\\beta}x)}|+$ constant, then $\\beta-\\alpha$ is equal to ____________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int \\sqrt{sec2x-1}dx=\\alpha log_{e}|cos2x+\\beta+\\sqrt{cos2x(1+cos\\frac{1}{\\beta}x)}|+$  constant, then  $\\beta-\\alpha$  is equal to ____________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "1",
+      "explanation_text": "$I=\\int \\sqrt{sec2x-1}dx=\\int \\sqrt{\\frac{1-cos2x}{cos2x}}dx$ $=\\int \\sqrt{\\frac{2sin^{2}x}{2cos^{2}x-1}}dx$ Let $\\sqrt{2cos}x=t-\\sqrt{2}sinxdx=dt$ $I=\\int -\\frac{dt}{\\sqrt{t^{2}-1}}=-ln|t+\\sqrt{t^{2}-a^{2}}|+c$ $=-ln|\\sqrt{2}cosx+\\sqrt{2cos^{2}}x-1|+c$ $=-\\frac{1}{2}ln|2cos^{2}x+cos2x+2\\sqrt{2}\\sqrt{cos2x.cos^{2}x}|+c$ $=-\\frac{1}{2}ln|2cos2x+1+2\\sqrt{cos2x(1+cos2x)}|+c$ $=-\\frac{1}{2}ln|cos2x+\\frac{1}{2}+\\sqrt{cos2x(1+cos2x)}|+c$ $\\therefore$ $\\alpha=\\frac{-1}{2},\\beta=\\frac{1}{2}$ $\\therefore$ $\\beta-\\alpha=1$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --><p> $I=\\int \\sqrt{sec2x-1}dx=\\int \\sqrt{\\frac{1-cos2x}{cos2x}}dx$ </p>\n<p> $=\\int \\sqrt{\\frac{2sin^{2}x}{2cos^{2}x-1}}dx$ </p>\n<p>Let  $\\sqrt{2cos}x=t-\\sqrt{2}sinxdx=dt$ </p>\n<p> $I=\\int -\\frac{dt}{\\sqrt{t^{2}-1}}=-ln|t+\\sqrt{t^{2}-a^{2}}|+c$ </p>\n<p> $=-ln|\\sqrt{2}cosx+\\sqrt{2cos^{2}}x-1|+c$ </p>\n<p> $=-\\frac{1}{2}ln|2cos^{2}x+cos2x+2\\sqrt{2}\\sqrt{cos2x.cos^{2}x}|+c$ </p>\n<p> $=-\\frac{1}{2}ln|2cos2x+1+2\\sqrt{cos2x(1+cos2x)}|+c$ </p>\n<p> $=-\\frac{1}{2}ln|cos2x+\\frac{1}{2}+\\sqrt{cos2x(1+cos2x)}|+c$ </p>\n<p> $\\therefore$   $\\alpha=\\frac{-1}{2},\\beta=\\frac{1}{2}$ </p>\n<p> $\\therefore$   $\\beta-\\alpha=1$ </p><!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "is equal to ____________.",
+        "=\\int \\sqrt{\\frac{2sin^{2}x}{2cos^{2}x-1}}dx",
+        "\\sqrt{2cos}x=t-\\sqrt{2}sinxdx=dt",
+        "I=\\int -\\frac{dt}{\\sqrt{t^{2}-1}}=-ln|t+\\sqrt{t^{2}-a^{2}}|+c",
+        "=-ln|\\sqrt{2}cosx+\\sqrt{2cos^{2}}x-1|+c",
+        "=-\\frac{1}{2}ln|2cos^{2}x+cos2x+2\\sqrt{2}\\sqrt{cos2x.cos^{2}x}|+c"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.621907"
+    },
+    {
+      "id": 22957,
+      "qid": "lgnz42oa",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-int-frac1sqrt5x-14x36-mathrmd-jee-main-mathematics-trigonometric-functions-and-equations-zzvoio0w4wtkzeze",
+      "exam": "JEE Main",
+      "year": 2023,
+      "paper_name": "JEE Main 2023 (Online) 15th April Morning Shift",
+      "exam_date": "15th April",
+      "shift": "Morning Shift",
+      "question_index": 3,
+      "question_type": "Numerical",
+      "question_text": "Let $f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}},|x|<\\frac{2}{\\sqrt{3}}$ . If $f(0)=0$ and $f(1)=\\frac{1}{\\alpha\\beta}tan^{-1}(\\frac{\\alpha}{\\beta})$ , $\\alpha,\\beta>0$ , then $\\alpha^{2}+\\beta^{2}$ is equal to ____________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->Let  $f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}},|x|&lt;\\frac{2}{\\sqrt{3}}$ . If  $f(0)=0$ <br/><br/> and  $f(1)=\\frac{1}{\\alpha\\beta}tan^{-1}(\\frac{\\alpha}{\\beta})$ ,\n\n $\\alpha,\\beta&gt;0$ , then  $\\alpha^{2}+\\beta^{2}$  is equal to ____________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "28",
+      "explanation_text": "$\\begin{aligned} & f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}} \\\\ \\\\ & x=\\frac{1}{t} \\\\ \\\\ & =\\int \\frac{\\frac{-1}{t^{2}}dt}{\\frac{(3t^{2}+4)}{t^{2}}\\frac{\\sqrt{4t^{2}-3}}{t}} \\\\ \\\\ & =\\int \\frac{-dt \\cdot t}{(3t^{2}+4)\\sqrt{4t^{2}-3}}:\\text{Put}4t^{2}-3=z^{2} \\\\ \\\\ & =-\\frac{1}{4}\\int \\frac{zdz}{(3(\\frac{z^{2}+3}{4})+4)z} \\end{aligned}$ $\\begin{aligned} & =\\int \\frac{-dz}{3z^{2}+25}=-\\frac{1}{3}\\int \\frac{dz}{z^{2}+(\\frac{5}{\\sqrt{3}})^{2}} \\\\ \\\\ & =-\\frac{1}{3}\\frac{\\sqrt{3}}{5}tan^{-1}(\\frac{\\sqrt{3}z}{5})+C \\\\ \\\\ & =-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{4t^{2}-3})+C \\\\ \\\\ & f(x)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{\\frac{4-3x^{2}}{x^{2}}})+C \\\\ \\\\ & \\because f(0)=0 \\because c=\\frac{\\pi}{10\\sqrt{3}} \\end{aligned}$ $\\begin{aligned} & f(1)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5})+\\frac{\\pi}{10\\sqrt{3}} \\\\ \\\\ & f(1)=\\frac{1}{5\\sqrt{3}}cot^{-1}(\\frac{\\sqrt{3}}{5})=\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{5}{\\sqrt{3}}) \\\\ \\\\ & \\alpha=5:\\beta=\\sqrt{3} \\therefore \\alpha^{2}+\\beta^{2}=28 \\end{aligned}$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\begin{aligned} &amp; f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}} \\\\ \\\\ &amp; x=\\frac{1}{t} \\\\ \\\\ &amp; =\\int \\frac{\\frac{-1}{t^{2}}dt}{\\frac{(3t^{2}+4)}{t^{2}}\\frac{\\sqrt{4t^{2}-3}}{t}} \\\\ \\\\ &amp; =\\int \\frac{-dt \\cdot t}{(3t^{2}+4)\\sqrt{4t^{2}-3}}:\\text{Put}4t^{2}-3=z^{2} \\\\ \\\\ &amp; =-\\frac{1}{4}\\int \\frac{zdz}{(3(\\frac{z^{2}+3}{4})+4)z} \\end{aligned}$ <br/><br/>\n $\\begin{aligned} &amp; =\\int \\frac{-dz}{3z^{2}+25}=-\\frac{1}{3}\\int \\frac{dz}{z^{2}+(\\frac{5}{\\sqrt{3}})^{2}} \\\\ \\\\ &amp; =-\\frac{1}{3}\\frac{\\sqrt{3}}{5}tan^{-1}(\\frac{\\sqrt{3}z}{5})+C \\\\ \\\\ &amp; =-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{4t^{2}-3})+C \\\\ \\\\ &amp; f(x)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5}\\sqrt{\\frac{4-3x^{2}}{x^{2}}})+C \\\\ \\\\ &amp; \\because f(0)=0 \\because c=\\frac{\\pi}{10\\sqrt{3}} \\end{aligned}$ <br/><br/> $\\begin{aligned} &amp; f(1)=-\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{\\sqrt{3}}{5})+\\frac{\\pi}{10\\sqrt{3}} \\\\ \\\\ &amp; f(1)=\\frac{1}{5\\sqrt{3}}cot^{-1}(\\frac{\\sqrt{3}}{5})=\\frac{1}{5\\sqrt{3}}tan^{-1}(\\frac{5}{\\sqrt{3}}) \\\\ \\\\ &amp; \\alpha=5:\\beta=\\sqrt{3} \\therefore \\alpha^{2}+\\beta^{2}=28 \\end{aligned}$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "f(x)=\\int \\frac{dx}{(3+4x^{2})\\sqrt{4-3x^{2}}},|x|<\\frac{2}{\\sqrt{3}}",
+        "f(0)=0",
+        "f(1)=\\frac{1}{\\alpha\\beta}tan^{-1}(\\frac{\\alpha}{\\beta})",
+        "\\alpha^{2}+\\beta^{2}"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.079296"
+    },
+    {
+      "id": 22959,
+      "qid": "1lgrgryfu",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/pif-int-frac1sqrt5x-14x36-mathrmd-jee-main-mathematics-trigonometric-functions-and-equations-zzvoio0w4wtkzeze",
+      "exam": "JEE Main",
+      "year": 2023,
+      "paper_name": "JEE Main 2023 (Online) 12th April Morning Shift",
+      "exam_date": "12th April",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "Numerical",
+      "question_text": "Let $I(x)=\\int \\sqrt{\\frac{x+7}{x}}dx$ and $I(9)=12+7log_{e}7$ . If $I(1)=\\alpha+7log_{e}(1+2\\sqrt{2})$ , then $\\alpha^{4}$ is equal to _________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --><p>Let  $I(x)=\\int \\sqrt{\\frac{x+7}{x}}dx$  and  $I(9)=12+7log_{e}7$ . If  $I(1)=\\alpha+7log_{e}(1+2\\sqrt{2})$ , then  $\\alpha^{4}$  is equal to _________.</p><!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "64",
+      "explanation_text": "Given integral: $\\int \\sqrt{\\frac{x+7}{x}}dx$ Let's make the substitution $x=t^{2}$ . Then, $dx=2tdt$ . Substituting these values, the integral becomes : $\\int 2\\sqrt{t^{2}+7}dt$ Now, let's evaluate this integral : $I(t)=2(\\frac{t}{2}\\sqrt{t^{2}+7}+\\frac{7}{2}ln|t+\\sqrt{t^{2}+7}|)+C$ Substituting back $t=\\sqrt{x}$ , we have : $I(x)=2(\\frac{\\sqrt{x}}{2}\\sqrt{x+7}+\\frac{7}{2}ln|\\sqrt{x}+\\sqrt{x+7}|)+C$ Simplifying further : $I(x)=\\sqrt{x}\\sqrt{x+7}+7ln|\\sqrt{x}+\\sqrt{x+7}|+C$ We are given that $I(9)=12+7ln7$ . Let's substitute $x=9$ and solve for the constant $C$ : $12+7ln7=\\sqrt{9}\\sqrt{9+7}+7ln|\\sqrt{9}+\\sqrt{9+7}|+C$ $\\Rightarrow$ $12+7ln7=3\\sqrt{16}+7ln|\\sqrt{9}+\\sqrt{16}|+C$ $\\Rightarrow$ $12+7ln7=3 \\cdot 4+7ln(3+\\sqrt{16})+C$ $\\Rightarrow$ $12+7ln7=12+7ln(3+4)+C$ $\\Rightarrow$ $12+7ln7=12+7ln7+C$ From this equation, we can see that $C=0$ . Now, we need to calculate $I(1)$ : $I(1)=\\sqrt{1}\\sqrt{1+7}+7ln|\\sqrt{1}+\\sqrt{1+7}|$ $\\Rightarrow$ $I(1)=1\\sqrt{8}+7ln(1+\\sqrt{8})$ $\\Rightarrow$ $I(1)=\\sqrt{8}+7ln(1+2\\sqrt{2})$ Therefore, $\\alpha=\\sqrt{8}$ . Finally, to find $\\alpha^{4}$ : $\\alpha^{4}=(\\sqrt{8})^{4}$ $\\Rightarrow$ $\\alpha^{4}=8^{2}$ $\\Rightarrow$ $\\alpha^{4}=64$ Hence, $\\alpha^{4}$ is equal to 64.",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START -->Given integral:  $\\int \\sqrt{\\frac{x+7}{x}}dx$ \n<br/><br/>Let's make the substitution  $x=t^{2}$ . Then,  $dx=2tdt$ .\n\n<br/><br/>Substituting these values, the integral becomes :\n\n<br/><br/> $\\int 2\\sqrt{t^{2}+7}dt$ \n<br/><br/>Now, let's evaluate this integral :\n\n<br/><br/> $I(t)=2(\\frac{t}{2}\\sqrt{t^{2}+7}+\\frac{7}{2}ln|t+\\sqrt{t^{2}+7}|)+C$ \n<br/><br/>Substituting back  $t=\\sqrt{x}$ , we have :\n\n<br/><br/> $I(x)=2(\\frac{\\sqrt{x}}{2}\\sqrt{x+7}+\\frac{7}{2}ln|\\sqrt{x}+\\sqrt{x+7}|)+C$ \n<br/><br/>Simplifying further :\n\n<br/><br/> $I(x)=\\sqrt{x}\\sqrt{x+7}+7ln|\\sqrt{x}+\\sqrt{x+7}|+C$ \n<p>We are given that  $I(9)=12+7ln7$ .</p>\n<p>Let's substitute  $x=9$  and solve for the constant  $C$ :</p>\n<p> $12+7ln7=\\sqrt{9}\\sqrt{9+7}+7ln|\\sqrt{9}+\\sqrt{9+7}|+C$ \n<br/><br/> $\\Rightarrow$   $12+7ln7=3\\sqrt{16}+7ln|\\sqrt{9}+\\sqrt{16}|+C$ \n<br/><br/> $\\Rightarrow$   $12+7ln7=3 \\cdot 4+7ln(3+\\sqrt{16})+C$ \n<br/><br/> $\\Rightarrow$   $12+7ln7=12+7ln(3+4)+C$ \n<br/><br/> $\\Rightarrow$   $12+7ln7=12+7ln7+C$ </p>\n<p>From this equation, we can see that  $C=0$ .</p>\n<p>Now, we need to calculate  $I(1)$  :</p>\n<p> $I(1)=\\sqrt{1}\\sqrt{1+7}+7ln|\\sqrt{1}+\\sqrt{1+7}|$ \n<br/><br/> $\\Rightarrow$   $I(1)=1\\sqrt{8}+7ln(1+\\sqrt{8})$ \n<br/><br/> $\\Rightarrow$   $I(1)=\\sqrt{8}+7ln(1+2\\sqrt{2})$ </p>\n<p>Therefore,  $\\alpha=\\sqrt{8}$ .</p>\n<p>Finally, to find  $\\alpha^{4}$ :</p>\n<p> $\\alpha^{4}=(\\sqrt{8})^{4}$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{4}=8^{2}$ \n<br/><br/> $\\Rightarrow$   $\\alpha^{4}=64$ </p>\n<p>Hence,  $\\alpha^{4}$  is equal to 64.</p>\n<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "I(x)=\\int \\sqrt{\\frac{x+7}{x}}dx",
+        "I(9)=12+7log_{e}7",
+        "I(1)=\\alpha+7log_{e}(1+2\\sqrt{2})",
+        "\\alpha^{4}",
+        "\\int \\sqrt{\\frac{x+7}{x}}dx",
+        "x=t^{2}"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.100051"
+    },
+    {
+      "id": 22975,
+      "qid": "2PEg8x92SALhxOO63W1kmlm3mz5",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-fx--int-5x8--7x6-over-x2--1--2-jee-main-mathematics-trigonometric-functions-and-equations-vjvhzawzvd5hbndg",
+      "exam": "JEE Main",
+      "year": 2021,
+      "paper_name": "JEE Main 2021 (Online) 18th March Morning Shift",
+      "exam_date": "18th March",
+      "shift": "Morning Shift",
+      "question_index": 1,
+      "question_type": "Numerical",
+      "question_text": "If $f(x)=\\int \\frac{5x^{8}+7x^{6}}{(x^{2}+1+2x^{7})^{2}}dx,(x \\ge 0),f(0)=0$ and $f(1)=\\frac{1}{K}$ , then the value of K is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $f(x)=\\int \\frac{5x^{8}+7x^{6}}{(x^{2}+1+2x^{7})^{2}}dx,(x \\ge 0),f(0)=0$  and  $f(1)=\\frac{1}{K}$ , then the value of K is <!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "4",
+      "explanation_text": "$\\int \\frac{5x^{8}+7x^{6}}{(2x^{7}+x^{2}+1)^{2}}dx=\\int \\frac{5x^{8}+7x^{6}}{x^{14}(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ $\\int \\frac{\\frac{5}{x^{6}}+\\frac{7}{x^{8}}}{(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ put $2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}=t$ $\\Rightarrow -(\\frac{5}{x^{6}}+\\frac{7}{x^{8}})dx=dt$ $\\int \\frac{-dt}{t^{2}}=\\frac{1}{t}+c$ $\\Rightarrow f(x)=\\frac{1}{2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}}+C=\\frac{x^{7}}{2x^{7}+1+x^{2}}+C$ $f(0)=0 \\Rightarrow C=0$ $f(x)=\\frac{1}{4}=\\frac{1}{k}$ $\\Rightarrow k=4$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{5x^{8}+7x^{6}}{(2x^{7}+x^{2}+1)^{2}}dx=\\int \\frac{5x^{8}+7x^{6}}{x^{14}(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ <br/><br/> $\\int \\frac{\\frac{5}{x^{6}}+\\frac{7}{x^{8}}}{(2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}})^{2}}dx$ <br/><br/>put  $2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}=t$ <br/><br/> $\\Rightarrow -(\\frac{5}{x^{6}}+\\frac{7}{x^{8}})dx=dt$ <br/><br/> $\\int \\frac{-dt}{t^{2}}=\\frac{1}{t}+c$ <br/><br/> $\\Rightarrow f(x)=\\frac{1}{2+\\frac{1}{x^{5}}+\\frac{1}{x^{7}}}+C=\\frac{x^{7}}{2x^{7}+1+x^{2}}+C$ <br/><br/> $f(0)=0 \\Rightarrow C=0$ <br/><br/> $f(x)=\\frac{1}{4}=\\frac{1}{k}$ <br/><br/> $\\Rightarrow k=4$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "f(x)=\\int \\frac{5x^{8}+7x^{6}}{(x^{2}+1+2x^{7})^{2}}dx,(x \\ge 0),f(0)=0",
+        "f(1)=\\frac{1}{K}",
+        "\\Rightarrow -(\\frac{5}{x^{6}}+\\frac{7}{x^{8}})dx=dt",
+        "\\int \\frac{-dt}{t^{2}}=\\frac{1}{t}+c",
+        "f(0)=0 \\Rightarrow C=0",
+        "f(x)=\\frac{1}{4}=\\frac{1}{k}"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:02.180939"
+    },
+    {
+      "id": 22966,
+      "qid": "1ktke5n0m",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-int-sqrtsec-2-x-1-d-xalpha-log-eleftcos-2-x-jee-main-mathematics-otsbe07xq3eqbyyv",
+      "exam": "JEE Main",
+      "year": 2021,
+      "paper_name": "JEE Main 2021 (Online) 31st August Evening Shift",
+      "exam_date": "31st August",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{sinx}{sin^{3}x+cos^{3}x}dx=$ $\\alpha log_{e}|1+tanx|+\\beta log_{e}|1-tanx+tan^{2}x|+\\gamma tan^{-1}(\\frac{2tanx-1}{\\sqrt{3}})+C$ , when C is constant of integration, then the value of $18(\\alpha+\\beta+\\gamma^{2})$ is ______________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int \\frac{sinx}{sin^{3}x+cos^{3}x}dx=$ \n<br/><br/> $\\alpha log_{e}|1+tanx|+\\beta log_{e}|1-tanx+tan^{2}x|+\\gamma tan^{-1}(\\frac{2tanx-1}{\\sqrt{3}})+C$ , when C is constant of integration, then the value of  $18(\\alpha+\\beta+\\gamma^{2})$  is ______________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "3",
+      "explanation_text": "$=\\int \\frac{\\frac{sinx}{cos^{3}x}}{1+tan^{3}x}dx=\\int \\frac{tanx.sec^{2}x}{(tanx+1)(1+tan^{2}x-tanx)}dx$ Let $tanx=t \\Rightarrow sec^{2}x.dx=dt$ $=\\int \\frac{t}{(t+1)(t^{2}-t+1)}dt$ $=\\int (\\frac{A}{t+1}+\\frac{B(2t-1)}{t^{2}-t+1}+\\frac{C}{t^{2}-t+1})dx$ $\\Rightarrow A(t^{2}-t+1)+B(2t-1)(t^{2}-t+1)+C(t+1)=t$ $\\Rightarrow t^{2}(A+2B)+t(-A+B+C)+A-B+C=1$ $\\therefore$ $A+2B=0$ ..... (1) $-A+B+C=1$ ... (2) $A-B+C=0$ ... (3) $\\Rightarrow C=\\frac{1}{2} \\Rightarrow A-B=-\\frac{1}{2}$ ... (4) $A+2B=0$ $A-B=-\\frac{1}{2}$ $\\Rightarrow$ $3B=\\frac{1}{2} \\Rightarrow B=\\frac{1}{6}$ $A=-\\frac{1}{3}$ $I=-\\frac{1}{3}\\int \\frac{dt}{1+t}+\\frac{1}{6}\\int \\frac{2t-1}{t^{2}-t+1}dt+\\frac{1}{2}\\int \\frac{dt}{t^{2}-t+1}$ $=-\\frac{1}{3}ln|(1+tanx)|+\\frac{1}{6}ln|tan^{2}x-tanx+1|+\\frac{1}{2}.\\frac{2}{\\sqrt{3}}tan^{-1}(\\frac{(tanx-\\frac{1}{2})}{\\frac{\\sqrt{3}}{2}})$ $=-\\frac{1}{3}ln|(1+tanx)|+\\frac{1}{6}ln|tan^{2}x-tanx+1|+\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{2tanx-1}{\\sqrt{3}})+C$ $\\alpha=-\\frac{1}{3},\\beta=\\frac{1}{6},\\gamma=\\frac{1}{\\sqrt{3}}$ $18(\\alpha+\\beta+\\gamma^{2})=18(-\\frac{1}{3}+\\frac{1}{6}+\\frac{1}{3})=3$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $=\\int \\frac{\\frac{sinx}{cos^{3}x}}{1+tan^{3}x}dx=\\int \\frac{tanx.sec^{2}x}{(tanx+1)(1+tan^{2}x-tanx)}dx$ <br/><br/>Let  $tanx=t \\Rightarrow sec^{2}x.dx=dt$ <br/><br/> $=\\int \\frac{t}{(t+1)(t^{2}-t+1)}dt$ <br/><br/> $=\\int (\\frac{A}{t+1}+\\frac{B(2t-1)}{t^{2}-t+1}+\\frac{C}{t^{2}-t+1})dx$ <br/><br/> $\\Rightarrow A(t^{2}-t+1)+B(2t-1)(t^{2}-t+1)+C(t+1)=t$ <br/><br/> $\\Rightarrow t^{2}(A+2B)+t(-A+B+C)+A-B+C=1$ <br/><br/> $\\therefore$   $A+2B=0$  ..... (1)<br/><br/> $-A+B+C=1$  ... (2)<br/><br/> $A-B+C=0$  ... (3)<br/><br/> $\\Rightarrow C=\\frac{1}{2} \\Rightarrow A-B=-\\frac{1}{2}$  ... (4)<br/><br/> $A+2B=0$ <br/><br/> $A-B=-\\frac{1}{2}$ <br/><br/> $\\Rightarrow$   $3B=\\frac{1}{2} \\Rightarrow B=\\frac{1}{6}$ <br/><br/> $A=-\\frac{1}{3}$ <br/><br/> $I=-\\frac{1}{3}\\int \\frac{dt}{1+t}+\\frac{1}{6}\\int \\frac{2t-1}{t^{2}-t+1}dt+\\frac{1}{2}\\int \\frac{dt}{t^{2}-t+1}$ <br/><br/> $=-\\frac{1}{3}ln|(1+tanx)|+\\frac{1}{6}ln|tan^{2}x-tanx+1|+\\frac{1}{2}.\\frac{2}{\\sqrt{3}}tan^{-1}(\\frac{(tanx-\\frac{1}{2})}{\\frac{\\sqrt{3}}{2}})$ <br/><br/> $=-\\frac{1}{3}ln|(1+tanx)|+\\frac{1}{6}ln|tan^{2}x-tanx+1|+\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{2tanx-1}{\\sqrt{3}})+C$ <br/><br/> $\\alpha=-\\frac{1}{3},\\beta=\\frac{1}{6},\\gamma=\\frac{1}{\\sqrt{3}}$ <br/><br/> $18(\\alpha+\\beta+\\gamma^{2})=18(-\\frac{1}{3}+\\frac{1}{6}+\\frac{1}{3})=3$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "\\int \\frac{sinx}{sin^{3}x+cos^{3}x}dx=",
+        "is ______________.",
+        "=\\int \\frac{t}{(t+1)(t^{2}-t+1)}dt",
+        "=\\int (\\frac{A}{t+1}+\\frac{B(2t-1)}{t^{2}-t+1}+\\frac{C}{t^{2}-t+1})dx",
+        "\\Rightarrow A(t^{2}-t+1)+B(2t-1)(t^{2}-t+1)+C(t+1)=t",
+        "\\Rightarrow t^{2}(A+2B)+t(-A+B+C)+A-B+C=1"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.677975"
+    },
+    {
+      "id": 22976,
+      "qid": "OlbUl68mvnNzXdDFhr1kmizm1hi",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-fx--int-5x8--7x6-over-x2--1--2-jee-main-mathematics-trigonometric-functions-and-equations-vjvhzawzvd5hbndg",
+      "exam": "JEE Main",
+      "year": 2021,
+      "paper_name": "JEE Main 2021 (Online) 16th March Evening Shift",
+      "exam_date": "16th March",
+      "shift": "Evening Shift",
+      "question_index": 2,
+      "question_type": "Numerical",
+      "question_text": "For real numbers $\\alpha$ , $\\beta$ , $\\gamma$ and $\\delta$ , if $\\int \\frac{(x^{2}-1)+tan^{-1}(\\frac{x^{2}+1}{x})}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx$ $=\\alpha log_{e}(tan^{-1}(\\frac{x^{2}+1}{x}))+\\beta tan^{-1}(\\frac{\\gamma(x^{2}+1)}{x})+\\delta tan^{-1}(\\frac{x^{2}+1}{x})+C$ where C is an arbitrary constant, then the value of 10( $\\alpha$ + $\\beta$ $\\gamma$ + $\\delta$ ) is equal to ______________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->For real numbers  $\\alpha$ ,  $\\beta$ ,  $\\gamma$  and  $\\delta$ , if <br/> $\\int \\frac{(x^{2}-1)+tan^{-1}(\\frac{x^{2}+1}{x})}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx$ <br/><br/>  $=\\alpha log_{e}(tan^{-1}(\\frac{x^{2}+1}{x}))+\\beta tan^{-1}(\\frac{\\gamma(x^{2}+1)}{x})+\\delta tan^{-1}(\\frac{x^{2}+1}{x})+C$  <br/><br/>where C is an arbitrary constant, then the value of 10( $\\alpha$  +  $\\beta$  $\\gamma$  +  $\\delta$ ) is equal to ______________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "6",
+      "explanation_text": "$\\int \\frac{(x^{2}-1)+tan^{-1}(\\frac{x^{2}+1}{x})}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx$ = $\\int \\frac{x^{2}-1}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx+\\int \\frac{1}{x^{4}+3x^{2}+1}dx$ Let, $I_{1}=\\int \\frac{1-\\frac{1}{x^{2}}}{[(x+\\frac{1}{x})^{2}+1]tan^{-1}(x+\\frac{1}{x})}dx$ and $I_{2}=\\int \\frac{dx}{x^{4}+3x+1}$ $tan^{-1}(x+\\frac{1}{x})=t$ $I_{1}=\\int \\frac{dt}{t}$ $I_{1}=ln(t)=ln|tan^{-1}(x+\\frac{1}{x})|$ Now $I_{2}=\\int \\frac{dx}{x^{4}+3x+1}$ $=\\frac{1}{2}\\int \\frac{(x^{2}+1)-(x^{2}-1)}{x^{4}+3x^{2}+1}dx$ $=\\frac{1}{2}[\\int \\frac{1+\\frac{1}{x^{2}}}{x^{2}+3+\\frac{1}{x^{2}}}dx-\\int \\frac{(1-\\frac{1}{x^{2}})}{x^{2}+3+\\frac{1}{x^{2}}}dx]$ $=\\frac{1}{2}[\\int \\frac{1+\\frac{1}{x^{2}}}{[(x-\\frac{1}{x})^{2}+5]}dx-\\int \\frac{1-\\frac{1}{x^{2}}}{[(x+\\frac{1}{x})^{2}+1]}dx]$ Let $x-\\frac{1}{x}=u$ and $x+\\frac{1}{x}=v$ $=\\frac{1}{2}[\\int \\frac{du}{u^{2}+(\\sqrt{5})^{2}}-\\int \\frac{dv}{v^{2}+1}]$ $I_{2}=\\frac{1}{2\\sqrt{5}}tan^{-1}(\\frac{x-\\frac{1}{x}}{\\sqrt{5}})-\\frac{1}{2}tan^{-1}(x+\\frac{1}{x})$ $I=I_{1}+I_{2}=$ $ln|tan^{-1}(x+\\frac{1}{x})|+\\frac{1}{2\\sqrt{5}}ln(\\frac{x^{2}-1}{\\sqrt{5}x})-\\frac{1}{2}tan^{-1}(\\frac{x^{2}+1}{x})+C$ $\\alpha=1,\\beta=\\frac{1}{2\\sqrt{5}},\\lambda=\\frac{1}{\\sqrt{5}},\\delta=-\\frac{1}{2}$ $\\therefore$ $10(\\alpha+\\beta\\lambda+\\delta)=10[1+\\frac{1}{10}-\\frac{1}{2}]$ $=10(\\frac{1}{10}+\\frac{1}{2})$ $=1+5=6$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{(x^{2}-1)+tan^{-1}(\\frac{x^{2}+1}{x})}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx$ \n<br/><br/>=  $\\int \\frac{x^{2}-1}{(x^{4}+3x^{2}+1)tan^{-1}(\\frac{x^{2}+1}{x})}dx+\\int \\frac{1}{x^{4}+3x^{2}+1}dx$ <br/><br/>Let,  $I_{1}=\\int \\frac{1-\\frac{1}{x^{2}}}{[(x+\\frac{1}{x})^{2}+1]tan^{-1}(x+\\frac{1}{x})}dx$ \n<br/><br/>and  $I_{2}=\\int \\frac{dx}{x^{4}+3x+1}$ \n<br/><br/> $tan^{-1}(x+\\frac{1}{x})=t$ <br/><br/> $I_{1}=\\int \\frac{dt}{t}$ <br/><br/> $I_{1}=ln(t)=ln|tan^{-1}(x+\\frac{1}{x})|$ <br/><br/>Now<br/><br/> $I_{2}=\\int \\frac{dx}{x^{4}+3x+1}$ <br/><br/> $=\\frac{1}{2}\\int \\frac{(x^{2}+1)-(x^{2}-1)}{x^{4}+3x^{2}+1}dx$ <br/><br/> $=\\frac{1}{2}[\\int \\frac{1+\\frac{1}{x^{2}}}{x^{2}+3+\\frac{1}{x^{2}}}dx-\\int \\frac{(1-\\frac{1}{x^{2}})}{x^{2}+3+\\frac{1}{x^{2}}}dx]$ \n<br/><br/> $=\\frac{1}{2}[\\int \\frac{1+\\frac{1}{x^{2}}}{[(x-\\frac{1}{x})^{2}+5]}dx-\\int \\frac{1-\\frac{1}{x^{2}}}{[(x+\\frac{1}{x})^{2}+1]}dx]$ \n<br/><br/>Let  $x-\\frac{1}{x}=u$  and  $x+\\frac{1}{x}=v$ <br/><br/> $=\\frac{1}{2}[\\int \\frac{du}{u^{2}+(\\sqrt{5})^{2}}-\\int \\frac{dv}{v^{2}+1}]$ <br/><br/> $I_{2}=\\frac{1}{2\\sqrt{5}}tan^{-1}(\\frac{x-\\frac{1}{x}}{\\sqrt{5}})-\\frac{1}{2}tan^{-1}(x+\\frac{1}{x})$ <br/><br/> $I=I_{1}+I_{2}=$ \n<br/><br/> $ln|tan^{-1}(x+\\frac{1}{x})|+\\frac{1}{2\\sqrt{5}}ln(\\frac{x^{2}-1}{\\sqrt{5}x})-\\frac{1}{2}tan^{-1}(\\frac{x^{2}+1}{x})+C$ <br/><br/> $\\alpha=1,\\beta=\\frac{1}{2\\sqrt{5}},\\lambda=\\frac{1}{\\sqrt{5}},\\delta=-\\frac{1}{2}$ <br/><br/> $\\therefore$   $10(\\alpha+\\beta\\lambda+\\delta)=10[1+\\frac{1}{10}-\\frac{1}{2}]$ <br/><br/> $=10(\\frac{1}{10}+\\frac{1}{2})$ <br/><br/> $=1+5=6$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "=",
+        "tan^{-1}(x+\\frac{1}{x})=t",
+        "I_{1}=\\int \\frac{dt}{t}",
+        "I_{1}=ln(t)=ln|tan^{-1}(x+\\frac{1}{x})|",
+        "I_{2}=\\int \\frac{dx}{x^{4}+3x+1}",
+        "=\\frac{1}{2}\\int \\frac{(x^{2}+1)-(x^{2}-1)}{x^{4}+3x^{2}+1}dx"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:02.215642"
+    },
+    {
+      "id": 22968,
+      "qid": "1ktgqhz9h",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-int-sqrtsec-2-x-1-d-xalpha-log-eleftcos-2-x-jee-main-mathematics-otsbe07xq3eqbyyv",
+      "exam": "JEE Main",
+      "year": 2021,
+      "paper_name": "JEE Main 2021 (Online) 27th August Evening Shift",
+      "exam_date": "27th August",
+      "shift": "Evening Shift",
+      "question_index": 3,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{2e^{x}+3e^{-x}}{4e^{x}+7e^{-x}}dx=\\frac{1}{14}(ux+vlog_{e}(4e^{x}+7e^{-x}))+C$ , where C is a constant of integration, then u + v is equal to _____________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int \\frac{2e^{x}+3e^{-x}}{4e^{x}+7e^{-x}}dx=\\frac{1}{14}(ux+vlog_{e}(4e^{x}+7e^{-x}))+C$ , where C is a constant of integration, then u + v is equal to _____________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "7",
+      "explanation_text": "$2e^{x}+3e^{-x}=A(4e^{x}+7e^{-x})+B(4e^{x}-7e^{-x})+\\lambda$ 2 = 4A + 4B ; 3 = 7A $-$ 7B ; $\\lambda$ = 0 $A+B=\\frac{1}{2}$ $A-B=\\frac{3}{7}$ $A=\\frac{1}{2}(\\frac{1}{2}+\\frac{3}{7})=\\frac{7+6}{28}=\\frac{13}{28}$ $B=A-\\frac{3}{7}=\\frac{13}{28}-\\frac{3}{7}=\\frac{13-12}{28}=\\frac{1}{28}$ $\\int \\frac{13}{28}dx+\\frac{1}{28}\\int \\frac{4e^{x}-7e^{-x}}{4e^{x}+7e^{-x}}dx$ = $\\frac{13}{28}x+\\frac{1}{28}ln|4e^{x}+7e^{-x}|+C$ $u=\\frac{13}{2};v=\\frac{1}{2}$ $\\Rightarrow$ u + v = 7",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $2e^{x}+3e^{-x}=A(4e^{x}+7e^{-x})+B(4e^{x}-7e^{-x})+\\lambda$ <br/><br/>2 = 4A + 4B ; 3 = 7A  $-$  7B ;  $\\lambda$  = 0<br/><br/> $A+B=\\frac{1}{2}$ <br/><br/> $A-B=\\frac{3}{7}$ <br/><br/> $A=\\frac{1}{2}(\\frac{1}{2}+\\frac{3}{7})=\\frac{7+6}{28}=\\frac{13}{28}$ <br/><br/> $B=A-\\frac{3}{7}=\\frac{13}{28}-\\frac{3}{7}=\\frac{13-12}{28}=\\frac{1}{28}$ <br/><br/> $\\int \\frac{13}{28}dx+\\frac{1}{28}\\int \\frac{4e^{x}-7e^{-x}}{4e^{x}+7e^{-x}}dx$ <br/><br/>=  $\\frac{13}{28}x+\\frac{1}{28}ln|4e^{x}+7e^{-x}|+C$ <br/><br/> $u=\\frac{13}{2};v=\\frac{1}{2}$ <br/><br/> $\\Rightarrow$  u + v = 7<!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        ", where C is a constant of integration, then u + v is equal to _____________.",
+        "2 = 4A + 4B ; 3 = 7A",
+        "= 0",
+        "A-B=\\frac{3}{7}",
+        "A=\\frac{1}{2}(\\frac{1}{2}+\\frac{3}{7})=\\frac{7+6}{28}=\\frac{13}{28}",
+        "B=A-\\frac{3}{7}=\\frac{13}{28}-\\frac{3}{7}=\\frac{13-12}{28}=\\frac{1}{28}"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.737918"
+    },
+    {
+      "id": 22971,
+      "qid": "1ktepadjh",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/if-int-sqrtsec-2-x-1-d-xalpha-log-eleftcos-2-x-jee-main-mathematics-otsbe07xq3eqbyyv",
+      "exam": "JEE Main",
+      "year": 2021,
+      "paper_name": "JEE Main 2021 (Online) 27th August Morning Shift",
+      "exam_date": "27th August",
+      "shift": "Morning Shift",
+      "question_index": 4,
+      "question_type": "Numerical",
+      "question_text": "If $\\int \\frac{dx}{(x^{2}+x+1)^{2}}=atan^{-1}(\\frac{2x+1}{\\sqrt{3}})+b(\\frac{2x+1}{x^{2}+x+1})+C$ , x > 0 where C is the constant of integration, then the value of $9(\\sqrt{3}a+b)$ is equal to _____________.",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int \\frac{dx}{(x^{2}+x+1)^{2}}=atan^{-1}(\\frac{2x+1}{\\sqrt{3}})+b(\\frac{2x+1}{x^{2}+x+1})+C$ , x &gt; 0 where C is the constant of integration, then the value of  $9(\\sqrt{3}a+b)$  is equal to _____________.<!-- HTML_TAG_END --></div></div>",
+      "options": [],
+      "correct_answer": "15",
+      "explanation_text": "$\\int \\frac{dx}{(x^{2}+x+1)^{2}}$ $=\\int \\frac{dx}{[(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}]^{2}}$ Let $x+\\frac{1}{2}=\\frac{\\sqrt{3}}{2}tan\\theta$ $\\Rightarrow dx=\\frac{\\sqrt{3}}{2}sec^{2}\\theta d\\theta$ $\\therefore \\int \\frac{\\frac{\\sqrt{3}}{2}sec^{2}\\theta d\\theta}{\\frac{9}{16}(tan^{2}\\theta+1)^{2}}$ $=\\frac{8}{3\\sqrt{3}}\\int \\frac{sec^{2}\\theta d\\theta}{sec^{4}\\theta}$ $=\\frac{8}{3\\sqrt{3}}\\int cos^{2}\\theta d\\theta=\\frac{8}{3\\sqrt{3}}\\int \\frac{1+cos2\\theta}{2}d\\theta$ $=\\frac{4}{3\\sqrt{3}}(\\theta+\\frac{sin2\\theta}{2})+C$ = $\\frac{4}{2\\sqrt{3}}tan^{-1}(\\frac{2x+1}{\\sqrt{3}})+\\frac{4}{3\\sqrt{3}}\\frac{\\frac{2x+1}{\\sqrt{3}}}{1+(\\frac{2x+1}{\\sqrt{3}})^{2}}+C$ $=\\frac{4}{3\\sqrt{3}}tan^{-1}(\\frac{2x+1}{3})+\\frac{1}{3}\\frac{2x+1}{(x^{2}+x+1)}+C$ $\\therefore a=\\frac{4}{3\\sqrt{3}},b=\\frac{1}{3}$ Hence, $9(\\sqrt{3}a+b)=9(\\frac{4}{3}+\\frac{1}{3})=15$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{(x^{2}+x+1)^{2}}$ \n<br/><br/> $=\\int \\frac{dx}{[(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}]^{2}}$ \n<br/><br/>Let  $x+\\frac{1}{2}=\\frac{\\sqrt{3}}{2}tan\\theta$ \n<br/><br/> $\\Rightarrow dx=\\frac{\\sqrt{3}}{2}sec^{2}\\theta d\\theta$ \n<br/><br/> $\\therefore \\int \\frac{\\frac{\\sqrt{3}}{2}sec^{2}\\theta d\\theta}{\\frac{9}{16}(tan^{2}\\theta+1)^{2}}$ \n<br/><br/> $=\\frac{8}{3\\sqrt{3}}\\int \\frac{sec^{2}\\theta d\\theta}{sec^{4}\\theta}$ \n<br/><br/> $=\\frac{8}{3\\sqrt{3}}\\int cos^{2}\\theta d\\theta=\\frac{8}{3\\sqrt{3}}\\int \\frac{1+cos2\\theta}{2}d\\theta$ \n<br/><br/> $=\\frac{4}{3\\sqrt{3}}(\\theta+\\frac{sin2\\theta}{2})+C$ \n<br/><br/>=  $\\frac{4}{2\\sqrt{3}}tan^{-1}(\\frac{2x+1}{\\sqrt{3}})+\\frac{4}{3\\sqrt{3}}\\frac{\\frac{2x+1}{\\sqrt{3}}}{1+(\\frac{2x+1}{\\sqrt{3}})^{2}}+C$ \n<br/><br/> $=\\frac{4}{3\\sqrt{3}}tan^{-1}(\\frac{2x+1}{3})+\\frac{1}{3}\\frac{2x+1}{(x^{2}+x+1)}+C$ \n<br/><br/> $\\therefore a=\\frac{4}{3\\sqrt{3}},b=\\frac{1}{3}$ \n<br/><br/>Hence,  $9(\\sqrt{3}a+b)=9(\\frac{4}{3}+\\frac{1}{3})=15$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Hard",
+      "key_formulas": [
+        "is equal to _____________.",
+        "=\\int \\frac{dx}{[(x+\\frac{1}{2})^{2}+(\\frac{\\sqrt{3}}{2})^{2}]^{2}}",
+        "x+\\frac{1}{2}=\\frac{\\sqrt{3}}{2}tan\\theta",
+        "\\Rightarrow dx=\\frac{\\sqrt{3}}{2}sec^{2}\\theta d\\theta",
+        "=\\frac{8}{3\\sqrt{3}}\\int \\frac{sec^{2}\\theta d\\theta}{sec^{4}\\theta}",
+        "=\\frac{4}{3\\sqrt{3}}(\\theta+\\frac{sin2\\theta}{2})+C"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:41:01.784458"
+    },
+    {
+      "id": 22931,
+      "qid": "0TSlPppNziu0Gv6m",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-dx-over-cos-x-sqrt-3-sin-x-equals-jee-main-2007-marks-4-0tslpppnziu0gv6m.htm",
+      "exam": "JEE Main",
+      "year": 2007,
+      "paper_name": "AIEEE 2007",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 1,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{dx}{cosx+\\sqrt{3}sinx}$ equals",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{cosx+\\sqrt{3}sinx}$  equals<!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$logtan(\\frac{x}{2}-\\frac{\\pi}{12})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $logtan(\\frac{x}{2}-\\frac{\\pi}{12})+C$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}logtan(\\frac{x}{2}-\\frac{\\pi}{12})+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{2}logtan(\\frac{x}{2}-\\frac{\\pi}{12})+C$  <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$I=\\int \\frac{dx}{cosx+\\sqrt{3}sinx}$ $\\Rightarrow I=\\int \\frac{dx}{2[\\frac{1}{2}cosx+\\frac{\\sqrt{3}}{2}sinx]}$ $=\\frac{1}{2}\\int \\frac{dx}{[sin\\frac{\\pi}{6}cosx+cos\\frac{\\pi}{6}sinx]}$ $=\\frac{1}{2}.\\int \\frac{dx}{sin(x+\\frac{\\pi}{6})}$ $\\Rightarrow I=\\frac{1}{2}.\\int cosec(x+\\frac{\\pi}{6})dx$ But we know that $\\int cosecxdx=log|(tanx/2)|+C$ $\\therefore$ $I=\\frac{1}{2}.logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $I=\\int \\frac{dx}{cosx+\\sqrt{3}sinx}$ \n<br/><br/> $\\Rightarrow I=\\int \\frac{dx}{2[\\frac{1}{2}cosx+\\frac{\\sqrt{3}}{2}sinx]}$ \n<br/><br/> $=\\frac{1}{2}\\int \\frac{dx}{[sin\\frac{\\pi}{6}cosx+cos\\frac{\\pi}{6}sinx]}$ \n<br/><br/> $=\\frac{1}{2}.\\int \\frac{dx}{sin(x+\\frac{\\pi}{6})}$ \n<br/><br/> $\\Rightarrow I=\\frac{1}{2}.\\int cosec(x+\\frac{\\pi}{6})dx$ \n<br/><br/>But we know that \n<br/><br/> $\\int cosecxdx=log|(tanx/2)|+C$ \n<br/><br/> $\\therefore$   $I=\\frac{1}{2}.logtan(\\frac{x}{2}+\\frac{\\pi}{12})+C$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{dx}{cosx+\\sqrt{3}sinx}",
+        "I=\\int \\frac{dx}{cosx+\\sqrt{3}sinx}",
+        "\\Rightarrow I=\\int \\frac{dx}{2[\\frac{1}{2}cosx+\\frac{\\sqrt{3}}{2}sinx]}",
+        "=\\frac{1}{2}\\int \\frac{dx}{[sin\\frac{\\pi}{6}cosx+cos\\frac{\\pi}{6}sinx]}",
+        "=\\frac{1}{2}.\\int \\frac{dx}{sin(x+\\frac{\\pi}{6})}",
+        "\\Rightarrow I=\\frac{1}{2}.\\int cosec(x+\\frac{\\pi}{6})dx"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:40:59.765227"
+    },
+    {
+      "id": 22933,
+      "qid": "hKe3lNduHiApUmZ8",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-dx-over-cos-x-sqrt-3-sin-x-equals-jee-main-2007-marks-4-0tslpppnziu0gv6m.htm",
+      "exam": "JEE Main",
+      "year": 2005,
+      "paper_name": "AIEEE 2005",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 2,
+      "question_type": "MCQ",
+      "question_text": "$\\int {\\frac{(logx-1)}{1+(logx)^{2}}}^{2}dx$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int {\\frac{(logx-1)}{1+(logx)^{2}}}^{2}dx$  is equal to <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{logx}{(logx)^{2}+1}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{logx}{(logx)^{2}+1}+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{x}{x^{2}+1}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{x^{2}+1}+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{xe^{x}}{1+x^{2}}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{xe^{x}}{1+x^{2}}+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{x}{(logx)^{2}+1}+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{x}{(logx)^{2}+1}+C$  <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\int \\frac{(logx-1)^{2}}{(1+(logx)^{2})^{2}}dx$ $=\\int \\frac{1+(logx)^{2}-2logx}{[1+(logx)^{2}]^{2}}$ $=\\int [\\frac{1}{(1+(logx)^{2})}-\\frac{2logx}{(1+(logx)^{2})^{2}}]dx$ $=\\int [\\frac{e^{t}}{1+t^{2}}-\\frac{2te^{t}}{(1+t^{2})^{2}}]dt$ put $logx=t \\Rightarrow dx=e^{t}dt$ $=\\int e^{t}[\\frac{1}{1+t^{2}}-\\frac{2t}{(1+t^{2})^{2}}]dt$ $[$ which is of the form $\\int e^{x}(f(x)+f^{'}(x)dx)]$ $=\\frac{e^{t}}{1+t^{2}}+c=\\frac{x}{1+(logx)^{2}}+c$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{(logx-1)^{2}}{(1+(logx)^{2})^{2}}dx$ \n<br/><br/> $=\\int \\frac{1+(logx)^{2}-2logx}{[1+(logx)^{2}]^{2}}$ \n<br/><br/> $=\\int [\\frac{1}{(1+(logx)^{2})}-\\frac{2logx}{(1+(logx)^{2})^{2}}]dx$ \n<br/><br/> $=\\int [\\frac{e^{t}}{1+t^{2}}-\\frac{2te^{t}}{(1+t^{2})^{2}}]dt$ \n<br/><br/>put  $logx=t \\Rightarrow dx=e^{t}dt$ \n<br/><br/> $=\\int e^{t}[\\frac{1}{1+t^{2}}-\\frac{2t}{(1+t^{2})^{2}}]dt$ \n<br/><br/> $[$  which is of the form \n<br/><br/> $\\int e^{x}(f(x)+f^{'}(x)dx)]$ \n<br/><br/> $=\\frac{e^{t}}{1+t^{2}}+c=\\frac{x}{1+(logx)^{2}}+c$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int {\\frac{(logx-1)}{1+(logx)^{2}}}^{2}dx",
+        "\\int \\frac{(logx-1)^{2}}{(1+(logx)^{2})^{2}}dx",
+        "=\\int \\frac{1+(logx)^{2}-2logx}{[1+(logx)^{2}]^{2}}",
+        "=\\int [\\frac{1}{(1+(logx)^{2})}-\\frac{2logx}{(1+(logx)^{2})^{2}}]dx",
+        "=\\int [\\frac{e^{t}}{1+t^{2}}-\\frac{2te^{t}}{(1+t^{2})^{2}}]dt",
+        "logx=t \\Rightarrow dx=e^{t}dt"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:40:59.813120"
+    },
+    {
+      "id": 22935,
+      "qid": "i7dl4gKHTGzDLWWS",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-dx-over-cos-x-sqrt-3-sin-x-equals-jee-main-2007-marks-4-0tslpppnziu0gv6m.htm",
+      "exam": "JEE Main",
+      "year": 2004,
+      "paper_name": "AIEEE 2004",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 3,
+      "question_type": "MCQ",
+      "question_text": "$\\int \\frac{dx}{cosx-sinx}$ is equal to",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{cosx-sinx}$  is equal to <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{\\sqrt{2}}log|cot(\\frac{x}{2})|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}log|cot(\\frac{x}{2})|+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}-\\frac{3\\pi}{8})|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}-\\frac{3\\pi}{8})|+C$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}-\\frac{\\pi}{8})|+C$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}-\\frac{\\pi}{8})|+C$  <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\int \\frac{dx}{cosx-sinx}$ $=\\int \\frac{dx}{\\sqrt{2}cos(x+\\frac{\\pi}{4})}$ $=\\frac{1}{\\sqrt{2}}\\int sec(x+\\frac{\\pi}{4})dx$ $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{8})|+C$ $[$ As $\\int secxdx=log|tan(\\frac{\\pi}{4}+\\frac{x}{2})|$ $]$ $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{dx}{cosx-sinx}$ \n<br/><br/> $=\\int \\frac{dx}{\\sqrt{2}cos(x+\\frac{\\pi}{4})}$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}\\int sec(x+\\frac{\\pi}{4})dx$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{8})|+C$ \n<br/><br/> $[$  As  $\\int secxdx=log|tan(\\frac{\\pi}{4}+\\frac{x}{2})|$   $]$ \n<br/><br/> $=\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{dx}{cosx-sinx}",
+        "=\\int \\frac{dx}{\\sqrt{2}cos(x+\\frac{\\pi}{4})}",
+        "=\\frac{1}{\\sqrt{2}}\\int sec(x+\\frac{\\pi}{4})dx",
+        "=\\frac{1}{\\sqrt{2}}log|tan(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{8})|+C",
+        "=\\frac{1}{\\sqrt{2}}log|tan(\\frac{x}{2}+\\frac{3\\pi}{8})|+C"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:40:59.843413"
+    },
+    {
+      "id": 22937,
+      "qid": "MCOERemigEhmIwRq",
+      "chapter_slug": "indefinite-integrals",
+      "subject": "mathematics",
+      "url": "https://questions.examside.com/past-years/jee/question/int-dx-over-cos-x-sqrt-3-sin-x-equals-jee-main-2007-marks-4-0tslpppnziu0gv6m.htm",
+      "exam": "JEE Main",
+      "year": 2004,
+      "paper_name": "AIEEE 2004",
+      "exam_date": null,
+      "shift": null,
+      "question_index": 4,
+      "question_type": "MCQ",
+      "question_text": "If $\\int \\frac{sinx}{sin(x-\\alpha)}dx=Ax+Blogsin(x-\\alpha),+C,$ then value of $(A,B)$ is",
+      "question_html": "<div class=\"q-body\"> <div class=\"question q-prose\"><!-- HTML_TAG_START -->If  $\\int \\frac{sinx}{sin(x-\\alpha)}dx=Ax+Blogsin(x-\\alpha),+C,$  then value of \n<br/> $(A,B)$  is <!-- HTML_TAG_END --></div></div>",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(-cos\\alpha,sin\\alpha)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-cos\\alpha,sin\\alpha)$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "B",
+          "text": "$(cos\\alpha,sin\\alpha)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(cos\\alpha,sin\\alpha)$ <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "C",
+          "text": "$(-sin\\alpha,cos\\alpha)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(-sin\\alpha,cos\\alpha)$  <!-- HTML_TAG_END --></div>"
+        },
+        {
+          "label": "D",
+          "text": "$(sin\\alpha,cos\\alpha)$",
+          "html": "<div class=\"option-content question\"><!-- HTML_TAG_START --> $(sin\\alpha,cos\\alpha)$ <!-- HTML_TAG_END --></div>"
+        }
+      ],
+      "correct_answer": null,
+      "explanation_text": "$\\int \\frac{sinx}{sin(x-\\alpha)}dx$ $=\\int \\frac{sin(x-\\alpha+\\alpha)}{sin(x-\\alpha)}dx$ $=\\int \\frac{sin(x-\\alpha)cos\\alpha+cos(x-\\alpha)sin\\alpha}{sin(x-\\alpha)}$ $=\\int {cos\\alpha+sin\\alpha cot(x-\\alpha)}dx$ $=(cos\\alpha)x+(sin\\alpha)logsin(x-\\alpha)+C$ $\\therefore$ $A=cos\\alpha,$ $B=sin\\alpha$",
+      "explanation_html": "<div class=\"question q-prose\"><!-- HTML_TAG_START --> $\\int \\frac{sinx}{sin(x-\\alpha)}dx$ \n<br/><br/> $=\\int \\frac{sin(x-\\alpha+\\alpha)}{sin(x-\\alpha)}dx$ \n<br/><br/> $=\\int \\frac{sin(x-\\alpha)cos\\alpha+cos(x-\\alpha)sin\\alpha}{sin(x-\\alpha)}$ \n<br/><br/> $=\\int {cos\\alpha+sin\\alpha cot(x-\\alpha)}dx$ \n<br/><br/> $=(cos\\alpha)x+(sin\\alpha)logsin(x-\\alpha)+C$ \n<br/><br/> $\\therefore$   $A=cos\\alpha,$   $B=sin\\alpha$ <!-- HTML_TAG_END --></div>",
+      "has_image": false,
+      "image_urls": [],
+      "topic_tag": "Indefinite Integrals - Core Application",
+      "difficulty": "Medium",
+      "key_formulas": [
+        "\\int \\frac{sinx}{sin(x-\\alpha)}dx=Ax+Blogsin(x-\\alpha),+C,",
+        "\\int \\frac{sinx}{sin(x-\\alpha)}dx",
+        "=\\int \\frac{sin(x-\\alpha+\\alpha)}{sin(x-\\alpha)}dx",
+        "=\\int \\frac{sin(x-\\alpha)cos\\alpha+cos(x-\\alpha)sin\\alpha}{sin(x-\\alpha)}",
+        "=\\int {cos\\alpha+sin\\alpha cot(x-\\alpha)}dx",
+        "=(cos\\alpha)x+(sin\\alpha)logsin(x-\\alpha)+C"
+      ],
+      "key_concepts": [
+        "Indefinite Integrals - Core Application"
+      ],
+      "crawled_at": "2026-09-20T15:40:59.880742"
+    }
+  ]
 }
